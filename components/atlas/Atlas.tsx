@@ -4,9 +4,18 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import gsap from "gsap";
 import { GlobeCanvas } from "./GlobeCanvas";
 import { GeoOverlay } from "./GeoOverlay";
+import { TimeScrubber } from "./TimeScrubber";
 import { separarPaises, type PaisFeature } from "@/lib/geo/mundo";
 import { ISO_NUMERICO, type Alpha3 } from "@/lib/geo/iso";
-import { rotaCompleta } from "@/lib/geo/rota";
+import { rotaAte, type RotaFeature } from "@/lib/geo/rota";
+import {
+  anoFracionarioDe,
+  dataDeAnoFracionario,
+  intervaloDaViagem,
+  intervaloDoAcervo,
+  periodoVigente,
+} from "@/lib/conteudo/tempo";
+import type { Pais } from "@/lib/conteudo/pais";
 import type { Viagem } from "@/lib/conteudo/viagem";
 
 const LARGURA = 900;
@@ -14,35 +23,97 @@ const ALTURA = 560;
 
 interface Props {
   mundo: PaisFeature[];
+  paises: Pais[];
   viagens: Viagem[];
-  /**
-   * ISO alpha-3 dos países que têm conteúdo escrito. Aceso significa "tem
-   * dossiê" — um país aceso que abre página vazia ensina o visitante a parar
-   * de clicar.
-   */
-  paisesComConteudo: string[];
 }
 
 /**
  * Único dono do estado. Tudo abaixo recebe props e não guarda estado próprio,
- * o que torna impossível globo, rotas e seleção dessincronizarem.
+ * o que torna impossível globo, barra de tempo e rotas dessincronizarem.
  */
-export function Atlas({ mundo, viagens, paisesComConteudo }: Props) {
+export function Atlas({ mundo, paises, viagens }: Props) {
   const [alpha, setAlpha] = useState(0);
   const [rotacao, setRotacao] = useState<[number, number]>([-40, -10]);
   const [selecionado, setSelecionado] = useState<Alpha3 | null>(null);
+  const [viagemFoco, setViagemFoco] = useState<string | null>(null);
+
+  const dominioAcervo = useMemo(() => intervaloDoAcervo(paises), [paises]);
+
+  /**
+   * Domínio em dois níveis. Numa barra de 843 até hoje, os 46 dias do Cabral
+   * ocupam menos de um pixel — selecionar a viagem estreita a barra para o
+   * intervalo dela e torna a rota navegável.
+   */
+  const dominio = useMemo<[number, number]>(() => {
+    const v = viagens.find((x) => x.id === viagemFoco);
+    return v ? intervaloDaViagem(v) : dominioAcervo;
+  }, [viagemFoco, viagens, dominioAcervo]);
+
+  const [tempo, setTempo] = useState(dominioAcervo[1]);
+
+  // Ao trocar de domínio, recolocar o tempo dentro dele.
+  useEffect(() => {
+    setTempo((t) => Math.min(Math.max(t, dominio[0]), dominio[1]));
+  }, [dominio]);
+
+  const dataAtual = useMemo(() => dataDeAnoFracionario(tempo), [tempo]);
+
+  /**
+   * A linha mais importante do plano: aceso depende do TEMPO, não de uma
+   * lista fixa. Em 843 o Brasil apaga; em 1500 acende. O globo deixa de ser
+   * "mapa com países marcados" e vira o retrato do mundo naquele instante.
+   */
+  const acesos = useMemo(
+    () =>
+      paises
+        .filter((p) => periodoVigente(p, tempo) !== null)
+        .map((p) => p.iso)
+        .filter((iso): iso is Alpha3 => iso in ISO_NUMERICO),
+    [paises, tempo]
+  );
+
+  const { curados, fundo } = useMemo(
+    () => separarPaises(mundo, acesos),
+    [mundo, acesos]
+  );
+
+  const rotas = useMemo(
+    () =>
+      viagens
+        .map((v) => rotaAte(v, dataAtual))
+        .filter((r): r is RotaFeature => r !== null),
+    [viagens, dataAtual]
+  );
+
+  const marcas = useMemo(() => {
+    const v = viagens.find((x) => x.id === viagemFoco);
+    if (v) {
+      return v.paradas.map((p) => ({
+        pos: anoFracionarioDe(p.data),
+        rotulo: `${p.local} · ${p.data}`,
+      }));
+    }
+    return paises.flatMap((p) =>
+      p.periodos.map((per) => ({
+        pos: anoFracionarioDe(per.inicio),
+        rotulo: `${p.nome} · ${per.rotulo}`,
+      }))
+    );
+  }, [viagens, viagemFoco, paises]);
+
+  const paisSelecionado = useMemo(
+    () => paises.find((p) => p.iso === selecionado) ?? null,
+    [paises, selecionado]
+  );
+  const periodoDoSelecionado = paisSelecionado
+    ? periodoVigente(paisSelecionado, tempo)
+    : null;
 
   const arrastando = useRef(false);
   const ultimo = useRef<[number, number]>([0, 0]);
 
-  /**
-   * GSAP anima um objeto JavaScript comum, não o DOM — e é isso que serve
-   * aqui, porque quem desenha é o D3. O onUpdate empurra o valor para o React
-   * a cada frame e as duas camadas se redesenham juntas.
-   */
   const tween = useRef({ v: 0 });
   const animacao = useRef<gsap.core.Tween | null>(null);
-
   useEffect(() => () => void animacao.current?.kill(), []);
 
   const alternarModo = useCallback(() => {
@@ -55,17 +126,6 @@ export function Atlas({ mundo, viagens, paisesComConteudo }: Props) {
       onUpdate: () => setAlpha(tween.current.v),
     });
   }, []);
-
-  const acesos = useMemo(
-    () => paisesComConteudo.filter((iso): iso is Alpha3 => iso in ISO_NUMERICO),
-    [paisesComConteudo]
-  );
-
-  const { curados, fundo } = useMemo(
-    () => separarPaises(mundo, acesos),
-    [mundo, acesos]
-  );
-  const rotas = useMemo(() => viagens.map(rotaCompleta), [viagens]);
 
   const aoPressionar = useCallback((e: React.PointerEvent) => {
     arrastando.current = true;
@@ -118,17 +178,42 @@ export function Atlas({ mundo, viagens, paisesComConteudo }: Props) {
         />
       </div>
 
-      <div className="flex items-center gap-6 text-sm text-slate-300">
-        <span className="min-w-40 font-mono text-xs">
-          {selecionado ? `País: ${selecionado}` : "Clique num país aceso"}
-        </span>
+      <TimeScrubber
+        valor={tempo}
+        dominio={dominio}
+        onChange={setTempo}
+        marcas={marcas}
+      />
+
+      <div className="flex flex-wrap items-center justify-center gap-2 text-xs">
+        {viagens.map((v) => (
+          <button
+            key={v.id}
+            onClick={() => setViagemFoco(viagemFoco === v.id ? null : v.id)}
+            className={`rounded border px-2 py-1 transition-colors ${
+              viagemFoco === v.id
+                ? "border-amber-500 text-amber-400"
+                : "border-slate-600 text-slate-400 hover:bg-slate-800"
+            }`}
+          >
+            {v.titulo}
+          </button>
+        ))}
         <button
           onClick={alternarModo}
-          className="rounded border border-slate-600 px-3 py-1 transition-colors hover:bg-slate-800"
+          className="rounded border border-slate-600 px-2 py-1 text-slate-300 transition-colors hover:bg-slate-800"
         >
           {alpha < 0.5 ? "Desenrolar" : "Enrolar"}
         </button>
       </div>
+
+      <p className="min-h-6 font-mono text-xs text-slate-400">
+        {paisSelecionado
+          ? periodoDoSelecionado
+            ? `${paisSelecionado.nome} · ${periodoDoSelecionado.rotulo} · ${periodoDoSelecionado.regime}`
+            : `${paisSelecionado.nome} não existia nesta data`
+          : "Clique num país aceso"}
+      </p>
     </div>
   );
 }

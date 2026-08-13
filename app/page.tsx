@@ -17,11 +17,7 @@ export default async function Home() {
           </p>
         </header>
 
-        <Atlas
-          mundo={mundo}
-          viagens={acervo.viagens}
-          paisesComConteudo={acervo.paises.map((p) => p.iso)}
-        />
+        <Atlas mundo={mundo} paises={acervo.paises} viagens={acervo.viagens} />
       </div>
     </main>
   );
