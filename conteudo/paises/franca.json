@@ -10,11 +10,60 @@
       "regime": "monarquia carolíngia"
     },
     {
+      "id": "fr-capetingios",
+      "inicio": "987",
+      "fim": "1328",
+      "rotulo": "Reino da França",
+      "regime": "monarquia feudal capetíngia"
+    },
+    {
       "id": "fr-guerra-cem-anos",
-      "inicio": "1337",
+      "inicio": "1328",
       "fim": "1453",
       "rotulo": "Reino da França",
-      "regime": "monarquia feudal, legitimidade dinástica contestada"
+      "regime": "monarquia Valois, legitimidade dinástica contestada"
+    },
+    {
+      "id": "fr-antigo-regime",
+      "inicio": "1453",
+      "fim": "1789",
+      "rotulo": "Reino da França",
+      "regime": "Antigo Regime, centralização e absolutismo"
+    },
+    {
+      "id": "fr-revolucao",
+      "inicio": "1789",
+      "fim": "1804",
+      "rotulo": "Revolução e Primeira República",
+      "regime": "ruptura revolucionária"
+    },
+    {
+      "id": "fr-imperios-restauracoes",
+      "inicio": "1804",
+      "fim": "1870",
+      "rotulo": "Impérios e Restaurações",
+      "regime": "alternância entre império, monarquia restaurada e república"
+    },
+    {
+      "id": "fr-terceira-republica",
+      "inicio": "1870",
+      "fim": "1940",
+      "rotulo": "Terceira República",
+      "regime": "república parlamentarista"
+    },
+    {
+      "id": "fr-vichy",
+      "inicio": "1940",
+      "fim": "1944",
+      "rotulo": "Estado Francês e ocupação",
+      "regime": "regime autoritário colaboracionista sob ocupação alemã"
+    },
+    {
+      "id": "fr-quarta-republica",
+      "inicio": "1944",
+      "fim": "1958",
+      "rotulo": "Governo Provisório e Quarta República",
+      "regime": "república parlamentarista"
     },
     {
       "id": "fr-quinta-republica",

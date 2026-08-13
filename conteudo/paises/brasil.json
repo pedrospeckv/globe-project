@@ -17,6 +17,34 @@
       "regime": "monarquia constitucional parlamentarista"
     },
     {
+      "id": "br-republica-velha",
+      "inicio": "1889",
+      "fim": "1930",
+      "rotulo": "República Velha",
+      "regime": "república oligárquica, voto restrito"
+    },
+    {
+      "id": "br-era-vargas",
+      "inicio": "1930",
+      "fim": "1945",
+      "rotulo": "Era Vargas",
+      "regime": "governo provisório, depois ditadura do Estado Novo"
+    },
+    {
+      "id": "br-republica-de-46",
+      "inicio": "1945",
+      "fim": "1964",
+      "rotulo": "República de 1946",
+      "regime": "democracia presidencialista"
+    },
+    {
+      "id": "br-regime-militar",
+      "inicio": "1964",
+      "fim": "1985",
+      "rotulo": "Regime Militar",
+      "regime": "ditadura militar"
+    },
+    {
       "id": "br-nova-republica",
       "inicio": "1985",
       "rotulo": "Nova República",
