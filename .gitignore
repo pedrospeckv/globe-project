@@ -1,0 +1,27 @@
+# dependências
+node_modules/
+.pnp
+.pnp.js
+
+# build
+.next/
+out/
+build/
+dist/
+
+# ambiente
+.env
+.env*.local
+
+# ferramenta de brainstorming (mockups locais, servidor)
+.superpowers/
+
+# material de referência (templates v0 baixados) — não é código do projeto
+*.zip
+refs/
+
+# sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
