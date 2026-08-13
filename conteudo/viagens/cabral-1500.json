@@ -1,0 +1,27 @@
+{
+  "id": "cabral-1500",
+  "titulo": "Frota de Pedro Álvares Cabral",
+  "fontes": ["caminha-1500"],
+  "paradas": [
+    {
+      "local": "Lisboa",
+      "data": "1500-03-09",
+      "coords": [-9.14, 38.72]
+    },
+    {
+      "local": "Cabo Verde",
+      "data": "1500-03-22",
+      "coords": [-23.51, 14.93]
+    },
+    {
+      "local": "Monte Pascoal",
+      "data": "1500-04-22",
+      "coords": [-39.42, -16.89]
+    },
+    {
+      "local": "Porto Seguro",
+      "data": "1500-04-24",
+      "coords": [-39.06, -16.45]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "iso": "FRA",
+  "nome": "França",
+  "periodos": [
+    {
+      "id": "fr-francia-ocidental",
+      "inicio": "843",
+      "fim": "987",
+      "rotulo": "Frância Ocidental",
+      "regime": "monarquia carolíngia"
+    },
+    {
+      "id": "fr-guerra-cem-anos",
+      "inicio": "1337",
+      "fim": "1453",
+      "rotulo": "Reino da França",
+      "regime": "monarquia feudal, legitimidade dinástica contestada"
+    },
+    {
+      "id": "fr-quinta-republica",
+      "inicio": "1958",
+      "rotulo": "República Francesa",
+      "regime": "república semipresidencialista"
+    }
+  ]
+}

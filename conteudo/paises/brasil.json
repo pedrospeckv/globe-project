@@ -1,0 +1,26 @@
+{
+  "iso": "BRA",
+  "nome": "Brasil",
+  "periodos": [
+    {
+      "id": "br-colonia",
+      "inicio": "1500",
+      "fim": "1822",
+      "rotulo": "Brasil Colônia",
+      "regime": "colônia do Império Português"
+    },
+    {
+      "id": "br-imperio",
+      "inicio": "1822",
+      "fim": "1889",
+      "rotulo": "Império do Brasil",
+      "regime": "monarquia constitucional parlamentarista"
+    },
+    {
+      "id": "br-nova-republica",
+      "inicio": "1985",
+      "rotulo": "Nova República",
+      "regime": "democracia presidencialista"
+    }
+  ]
+}
