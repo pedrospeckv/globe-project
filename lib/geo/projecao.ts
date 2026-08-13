@@ -35,13 +35,19 @@ export function escalaPara(alpha: number, largura: number): number {
 export function criarProjecao(opcoes: OpcoesProjecao): GeoProjection {
   const { largura, altura, alpha, rotacao = [0, 0] } = opcoes;
 
+  /*
+   * O @types/d3-geo declara o mutator como `() => GeoProjection`, sem
+   * parâmetros. A tipagem está imprecisa: em runtime o d3 faz
+   * `projectAt.apply(this, arguments)`, então os argumentos passados ao mutate
+   * chegam ao factory. O cast reflete o comportamento real.
+   */
   const mutate = geoProjectionMutator(
     (t: number) => (x: number, y: number) => {
       const [x0, y0] = geoOrthographicRaw(x, y);
       const [x1, y1] = geoEquirectangularRaw(x, y);
       return [x0 + t * (x1 - x0), y0 + t * (y1 - y0)];
     }
-  );
+  ) as unknown as (t: number) => GeoProjection;
 
   return mutate(alpha)
     .scale(escalaPara(alpha, largura))
