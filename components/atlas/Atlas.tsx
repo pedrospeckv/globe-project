@@ -1,6 +1,7 @@
 "use client";
 
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import gsap from "gsap";
 import { GlobeCanvas } from "./GlobeCanvas";
 import { GeoOverlay } from "./GeoOverlay";
 import { separarPaises, type PaisFeature } from "@/lib/geo/mundo";
@@ -33,6 +34,27 @@ export function Atlas({ mundo, viagens, paisesComConteudo }: Props) {
 
   const arrastando = useRef(false);
   const ultimo = useRef<[number, number]>([0, 0]);
+
+  /**
+   * GSAP anima um objeto JavaScript comum, não o DOM — e é isso que serve
+   * aqui, porque quem desenha é o D3. O onUpdate empurra o valor para o React
+   * a cada frame e as duas camadas se redesenham juntas.
+   */
+  const tween = useRef({ v: 0 });
+  const animacao = useRef<gsap.core.Tween | null>(null);
+
+  useEffect(() => () => void animacao.current?.kill(), []);
+
+  const alternarModo = useCallback(() => {
+    animacao.current?.kill();
+    const destino = tween.current.v < 0.5 ? 1 : 0;
+    animacao.current = gsap.to(tween.current, {
+      v: destino,
+      duration: 1.2,
+      ease: "power2.inOut",
+      onUpdate: () => setAlpha(tween.current.v),
+    });
+  }, []);
 
   const acesos = useMemo(
     () => paisesComConteudo.filter((iso): iso is Alpha3 => iso in ISO_NUMERICO),
@@ -101,10 +123,10 @@ export function Atlas({ mundo, viagens, paisesComConteudo }: Props) {
           {selecionado ? `País: ${selecionado}` : "Clique num país aceso"}
         </span>
         <button
-          onClick={() => setAlpha((a) => (a === 0 ? 1 : 0))}
+          onClick={alternarModo}
           className="rounded border border-slate-600 px-3 py-1 transition-colors hover:bg-slate-800"
         >
-          {alpha === 0 ? "Desenrolar" : "Enrolar"}
+          {alpha < 0.5 ? "Desenrolar" : "Enrolar"}
         </button>
       </div>
     </div>
