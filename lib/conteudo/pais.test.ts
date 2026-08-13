@@ -25,6 +25,15 @@ describe("Periodo", () => {
     if (!r.success) expect(r.error.issues[0].message).toMatch(/antes/i);
   });
 
+  it("REJEITA inversão dentro do mesmo ano, não só entre anos", () => {
+    const r = Periodo.safeParse({
+      ...periodo,
+      inicio: "1985-06-01",
+      fim: "1985-02-01",
+    });
+    expect(r.success).toBe(false);
+  });
+
   it("aceita período que começa e termina no mesmo ano", () => {
     expect(Periodo.safeParse({ ...periodo, inicio: "1985", fim: "1985" }).success).toBe(
       true

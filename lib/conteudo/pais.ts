@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { DataHistorica, Id, anoDe } from "./primitivos";
+import { DataHistorica, Id, comparaData } from "./primitivos";
 
 /**
  * Um retrato datado de um país — a unidade de conteúdo do atlas.
@@ -21,7 +21,7 @@ export const Periodo = z
     regime: z.string().min(1),
     textoMdx: z.string().optional(),
   })
-  .refine((p) => !p.fim || anoDe(p.fim) >= anoDe(p.inicio), {
+  .refine((p) => !p.fim || comparaData(p.fim, p.inicio) >= 0, {
     message: "período não pode terminar antes de começar",
     path: ["fim"],
   });

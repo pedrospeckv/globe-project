@@ -13,11 +13,34 @@ export const DataHistorica = z
 
 export type DataHistorica = z.infer<typeof DataHistorica>;
 
-/** Ano numérico, para ordenar e comparar independente da granularidade. */
+/** Ano numérico, para agrupar por ano independente da granularidade. */
 export function anoDe(data: string): number {
+  return partesDe(data)[0];
+}
+
+/**
+ * [ano, mês, dia], com as partes ausentes em 0.
+ * "1500" vira [1500, 0, 0], que ordena antes de qualquer data específica
+ * daquele ano — o que é a semântica desejada para períodos com granularidade
+ * grossa.
+ */
+export function partesDe(data: string): [number, number, number] {
   const m = RE_DATA.exec(data);
   if (!m) throw new Error(`data inválida: ${data}`);
-  return Number(m[1]);
+  return [Number(m[1]), Number(m[2] ?? 0), Number(m[3] ?? 0)];
+}
+
+/**
+ * Comparador cronológico completo. Negativo se `a` vem antes de `b`.
+ *
+ * Comparar só o ano não basta: a frota de Cabral saiu de Lisboa em março e
+ * chegou a Porto Seguro em abril do MESMO ano, e essa ordem precisa ser
+ * verificável.
+ */
+export function comparaData(a: string, b: string): number {
+  const [anoA, mesA, diaA] = partesDe(a);
+  const [anoB, mesB, diaB] = partesDe(b);
+  return anoA - anoB || mesA - mesB || diaA - diaB;
 }
 
 /** Identificador estável usado em referências entre arquivos. */
