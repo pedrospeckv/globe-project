@@ -1,0 +1,12 @@
+{
+  "iso": "BRA",
+  "nome": "Brasil",
+  "periodos": [
+    {
+      "id": "br-nova-republica",
+      "inicio": "1985",
+      "rotulo": "Nova República",
+      "regime": "democracia presidencialista"
+    }
+  ]
+}
