@@ -128,8 +128,19 @@ export function GeoOverlay({
           if (!pontoVisivel(ev.ponto, { alpha, rotacao })) return null;
           const p = projecao(ev.ponto);
           if (!p || !Number.isFinite(p[0]) || !Number.isFinite(p[1])) return null;
+          /*
+             Arredondar não é cosmético: sem isso o servidor escrevia
+             `388.6494362206221` e o navegador `388.649436220622`, e o React
+             acusava divergência de hidratação. Trigonometria em ponto
+             flutuante pode diferir no último dígito entre o V8 do Node e o do
+             navegador. O `d` dos países não sofre disso porque o geoPath do
+             d3 já arredonda em 3 casas por conta própria — aqui a string é
+             montada à mão, então o arredondamento também precisa ser.
+          */
+          const x = p[0].toFixed(3);
+          const y = p[1].toFixed(3);
           return (
-            <g key={ev.id} transform={`translate(${p[0]},${p[1]})`}>
+            <g key={ev.id} transform={`translate(${x},${y})`}>
               <circle r={7} fill="#f43f5e" fillOpacity={0.18} />
               <circle r={3} fill="#f43f5e" stroke="#fecdd3" strokeWidth={0.8}>
                 <title>{`${ev.titulo} · ${rotuloDeData(ev.data)}`}</title>

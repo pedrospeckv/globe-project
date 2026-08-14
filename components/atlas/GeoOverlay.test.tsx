@@ -183,6 +183,29 @@ describe("GeoOverlay", () => {
     expect(container.querySelectorAll("svg > g:nth-of-type(3) > g")).toHaveLength(1);
   });
 
+  it("a posição do marcador é arredondada — hidratação não perdoa dígito", () => {
+    /*
+     * O servidor escrevia `388.6494362206221` e o navegador
+     * `388.649436220622`: trigonometria em ponto flutuante pode divergir no
+     * último dígito entre o V8 do Node e o do navegador, e o React acusa.
+     */
+    const ev: Evento = {
+      id: "x",
+      data: "1500",
+      titulo: "Evento",
+      ponto: [37, 12],
+      paises: ["BRA"],
+      fontes: [],
+    };
+    const { container } = render(
+      <GeoOverlay {...base} curados={[]} rotas={[]} eventos={[ev]} />
+    );
+    const t = container
+      .querySelector("svg > g:nth-of-type(3) > g")!
+      .getAttribute("transform")!;
+    expect(t).toMatch(/^translate\(-?\d+\.\d{3},-?\d+\.\d{3}\)$/);
+  });
+
   it("sem eventos, a camada de marcadores fica vazia", () => {
     const { container } = render(<GeoOverlay {...base} curados={curados} rotas={[]} />);
     expect(container.querySelectorAll("svg > g:nth-of-type(3) > *")).toHaveLength(0);

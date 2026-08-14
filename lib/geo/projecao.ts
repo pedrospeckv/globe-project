@@ -2,8 +2,11 @@ import {
   geoProjectionMutator,
   geoOrthographicRaw,
   geoEquirectangularRaw,
+  geoClipAntimeridian,
+  geoClipCircle,
   geoDistance,
   type GeoProjection,
+  type GeoStream,
 } from "d3-geo";
 
 export interface OpcoesProjecao {
@@ -40,6 +43,28 @@ export function escalaPara(alpha: number, largura: number): number {
  */
 export function anguloDeCorte(alpha: number): number {
   return 90 + 89.9 * alpha;
+}
+
+/**
+ * Esconde o lado oculto E costura a emenda do mapa.
+ *
+ * `clipAngle` sozinho não serve: ele SUBSTITUI o corte no antimeridiano em
+ * vez de somar a ele. Sem esse corte, um país que atravessa a emenda não é
+ * partido em duas peças nas bordas — ele é desenhado atravessando a tela
+ * inteira. Com a vista centrada em 40°L a emenda cai em 140°O, no Alasca, e
+ * os Estados Unidos viravam uma faixa de 848px na altura do paralelo 38.
+ *
+ * Os dois cortes compostos resolvem: o círculo tira o que está atrás, e o
+ * antimeridiano parte o que sobra. A ordem importa pouco — testei as duas e
+ * dão o mesmo desenho — mas esta é a que se lê na ordem em que acontece.
+ *
+ * Ambos operam nas coordenadas JÁ rotacionadas, então a emenda fica sempre a
+ * 180° do centro da vista. É o que impede o corte do antimeridiano de rachar
+ * um país no meio do globo: a calota visível nunca alcança os 180°.
+ */
+function corteComposto(alpha: number): (destino: GeoStream) => GeoStream {
+  const raio = (anguloDeCorte(alpha) * Math.PI) / 180;
+  return (destino) => geoClipCircle(raio)(geoClipAntimeridian(destino));
 }
 
 /**
@@ -90,6 +115,6 @@ export function criarProjecao(opcoes: OpcoesProjecao): GeoProjection {
     .scale(escalaPara(alpha, largura))
     .translate([largura / 2, altura / 2])
     .rotate([rotacao[0], rotacao[1]])
-    .clipAngle(anguloDeCorte(alpha))
+    .preclip(corteComposto(alpha))
     .precision(0.5);
 }

@@ -106,6 +106,101 @@ describe("lado oculto do globo", () => {
   });
 });
 
+describe("emenda do mapa", () => {
+  /**
+   * Largura do MAIOR sub-caminho isolado. Um país que cruza a emenda vira
+   * duas peças, uma em cada borda — então a caixa envolvente das duas dá a
+   * largura inteira do mapa e não denuncia nada. O que denuncia é uma peça
+   * SÓ atravessando a tela.
+   */
+  function maiorPedaco(d: string | null): number {
+    if (!d) return -1;
+    let larg = 0;
+    for (const trecho of d.split("M").slice(1)) {
+      const xs = [...trecho.matchAll(/(-?\d+\.?\d*),(-?\d+\.?\d*)/g)].map((m) => +m[1]);
+      if (xs.length) larg = Math.max(larg, Math.max(...xs) - Math.min(...xs));
+    }
+    return larg;
+  }
+
+  /**
+   * Alasca cruza os 140°O, que é onde cai a emenda com a vista centrada em
+   * 40°L — a rotação padrão da página. Com `clipAngle` sozinho os Estados
+   * Unidos eram desenhados como uma faixa de 848px, a largura inteira do
+   * mapa, na altura do paralelo 38.
+   */
+  const ALASCA_ATE_FLORIDA: Parameters<ReturnType<typeof geoPath>>[0] = {
+    type: "Polygon",
+    coordinates: [
+      [
+        [-170, 52],
+        [-130, 55],
+        [-80, 25],
+        [-125, 35],
+        [-170, 52],
+      ],
+    ],
+  };
+
+  const LARGURA_DO_MAPA = 2 * Math.PI * escalaPara(1, LARGURA);
+
+  it("país que cruza a emenda não vira faixa atravessando a tela", () => {
+    const p = criarProjecao({
+      largura: LARGURA,
+      altura: ALTURA,
+      alpha: 1,
+      rotacao: [-40, -10],
+    });
+    const larg = maiorPedaco(geoPath(p)(ALASCA_ATE_FLORIDA));
+    expect(larg).toBeGreaterThan(0);
+    expect(larg).toBeLessThan(LARGURA_DO_MAPA / 2);
+  });
+
+  it("também não vira faixa no meio da transição", () => {
+    for (const alpha of [0.5, 0.75, 0.9]) {
+      const p = criarProjecao({
+        largura: LARGURA,
+        altura: ALTURA,
+        alpha,
+        rotacao: [-40, -10],
+      });
+      expect(maiorPedaco(geoPath(p)(ALASCA_ATE_FLORIDA))).toBeLessThan(
+        LARGURA_DO_MAPA / 2
+      );
+    }
+  });
+
+  it("os Estados Unidos de verdade, na rotação padrão da página", async () => {
+    // O caso relatado, com a geometria real do world-atlas em vez de um
+    // polígono de mentira: faixa de 848px na altura do paralelo 38.
+    const { carregarMundo } = await import("./mundo");
+    const { alpha3De } = await import("./iso");
+    const mundo = await carregarMundo();
+    const usa = mundo.find(
+      (f) => f.id !== undefined && alpha3De(f.id as string) === "USA"
+    )!;
+
+    const p = criarProjecao({
+      largura: LARGURA,
+      altura: ALTURA,
+      alpha: 1,
+      rotacao: [-40, -10],
+    });
+    expect(maiorPedaco(geoPath(p)(usa))).toBeLessThan(LARGURA_DO_MAPA / 3);
+  });
+
+  it("costurar a emenda não desfaz o corte do lado oculto", () => {
+    // As duas regras valem ao mesmo tempo: é o ponto de compor os cortes.
+    const p = criarProjecao({
+      largura: LARGURA,
+      altura: ALTURA,
+      alpha: 0,
+      rotacao: [47.9, 15.8], // olhando o Brasil
+    });
+    expect(geoPath(p)({ type: "Point", coordinates: [116.4, 39.9] })).toBeNull();
+  });
+});
+
 describe("pontoVisivel", () => {
   /*
    * O `clipAngle` age no fluxo do `geoPath`; chamar a projeção direto com um
