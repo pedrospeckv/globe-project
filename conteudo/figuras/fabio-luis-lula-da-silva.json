@@ -1,0 +1,41 @@
+{
+  "id": "fabio-luis-lula-da-silva",
+  "nome": "Fábio Luís Lula da Silva",
+  "paisIso": "BRA",
+  "textoMdx": "Empresário, filho mais velho de Luiz Inácio Lula da Silva. Formado em Biologia, atuou nos setores de tecnologia e entretenimento, tendo sido sócio da Gamecorp, depois rebatizada G4 Entretenimento.\n\n**Nunca ocupou cargo público e nunca foi denunciado nem tornado réu em nenhum dos casos abaixo.** Os quatro registros são apurações — três em curso, uma encerrada. Nenhum tribunal se pronunciou sobre o mérito de qualquer uma delas.",
+  "cargos": [],
+  "alegacoes": [
+    {
+      "id": "lulinha-cannabis-saude",
+      "enunciado": "Exerceu tráfico de influência junto ao Ministério da Saúde em favor de empresa do mercado de canabidiol",
+      "status": "investigacao",
+      "data": "2026-07-30",
+      "fontes": ["p360-lulinha-cannabis-2026", "infomoney-lulinha-2026"],
+      "nota": "Inquérito autorizado pelo ministro André Mendonça em 30/07/2026, a pedido da Polícia Federal, com origem em material apreendido na Operação Sem Desconto. Apura se houve atuação junto ao Ministério da Saúde e ao gabinete da Presidência para favorecer a empresa World Cannabis, ligada ao lobista Antônio Carlos Camilo Antunes. O contrato em discussão nunca foi assinado. A defesa afirma que o pedido de nova investigação demonstra falha da PF em encontrar provas, e a empresária Roberta Luchsinger declarou em depoimento de maio de 2026 que Fábio Luís não prestou serviços de regulação de canabidiol nem foi remunerado por isso. Inquérito é fase de apuração: não houve denúncia, e nenhuma acusação foi formalizada."
+    },
+    {
+      "id": "lulinha-dataprev",
+      "enunciado": "Atuou em favor de empresários interessados em contratos com a Dataprev e outros órgãos federais",
+      "status": "investigacao",
+      "data": "2026-07-31",
+      "fontes": ["infomoney-lulinha-2026"],
+      "nota": "Segundo inquérito autorizado por André Mendonça, no dia seguinte ao primeiro. A PF apura possíveis crimes de tráfico de influência, corrupção, lavagem de dinheiro e organização criminosa. A defesa nega qualquer prática ilícita e sustenta que as relações comerciais mencionadas eram lícitas. Sem denúncia oferecida."
+    },
+    {
+      "id": "lulinha-terceiro-inquerito",
+      "enunciado": "Integrou grupo que manteve negócios ilícitos em diferentes áreas do governo federal",
+      "status": "investigacao",
+      "data": "2026-08",
+      "fontes": ["infomoney-lulinha-2026"],
+      "nota": "Terceiro inquérito, autorizado pelo ministro Flávio Dino. Como os outros dois, deriva de elementos reunidos na Operação Sem Desconto — investigação de fraudes em descontos de aposentadorias na qual Fábio Luís não é investigado pelas fraudes em si. Sem denúncia oferecida."
+    },
+    {
+      "id": "lulinha-gamecorp",
+      "enunciado": "Beneficiou-se de aportes da Telemar na Gamecorp obtidos por influência do sobrenome presidencial",
+      "status": "investigacao-arquivada",
+      "data": "2022",
+      "fontes": ["infomoney-lulinha-2026"],
+      "nota": "Apurado a partir de 2007 pela Polícia Federal e pelo Ministério Público Federal, arquivado em 2012. O tema foi retomado pela força-tarefa da Lava Jato em 2015 e novamente encerrado em 2022. Os processos acabaram arquivados ou anulados por decisões judiciais posteriores, sem condenação criminal em nenhum momento. Encerramento por arquivamento não equivale a refutação dos fatos, assim como não equivale a confirmação."
+    }
+  ]
+}
