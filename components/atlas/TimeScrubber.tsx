@@ -8,8 +8,8 @@ interface Props {
   valor: number;
   dominio: [number, number];
   onChange: (v: number) => void;
-  /** Marcas opcionais — inícios de período, paradas de viagem. */
-  marcas?: { pos: number; rotulo: string }[];
+  /** Marcas opcionais — inícios de período, paradas de viagem, eventos. */
+  marcas?: { pos: number; rotulo: string; tipo?: "periodo" | "evento" }[];
 }
 
 export function TimeScrubber({ valor, dominio, onChange, marcas = [] }: Props) {
@@ -83,11 +83,16 @@ export function TimeScrubber({ valor, dominio, onChange, marcas = [] }: Props) {
           />
         </div>
 
+        {/* Evento na mesma cor do marcador do globo, e mais alto, para virar alvo. */}
         {marcas.map((m) => (
           <span
             key={`${m.pos}-${m.rotulo}`}
             title={m.rotulo}
-            className="absolute top-1.5 h-4 w-px bg-sky-400/70"
+            className={
+              m.tipo === "evento"
+                ? "absolute top-0.5 h-6 w-px bg-rose-400/80"
+                : "absolute top-1.5 h-4 w-px bg-sky-400/70"
+            }
             style={{ left: `${((m.pos - ini) / amplitude) * 100}%` }}
           />
         ))}

@@ -103,29 +103,55 @@ export function Atlas({ mundo, paises, viagens, eventos }: Props) {
   );
 
   /**
-   * Eventos próximos ao instante atual. A janela é proporcional à escala da
-   * barra: ampla quando ela cobre séculos, estreita quando foca uma viagem.
+   * Eventos próximos ao instante atual.
+   *
+   * A janela NÃO acompanha o tamanho do domínio. Ela já acompanhou, e o
+   * resultado foi que, com a barra cobrindo 3.600 anos, meio século entrava
+   * como "agora": parar em 1890 listava Pearl Harbor e as bombas de
+   * Hiroshima e Nagasaki como se fossem daquele momento. Meia década para
+   * cada lado é o que ainda se lê como contemporâneo.
+   *
+   * Numa viagem o domínio tem meses, e aí a proporção volta a fazer sentido.
    */
   const eventosVisiveis = useMemo(() => {
-    const janela = Math.max((dominio[1] - dominio[0]) / 40, 0.5);
+    const amplitude = dominio[1] - dominio[0];
+    const janela = amplitude > 50 ? 5 : Math.max(amplitude / 8, 0.05);
     return eventosEm(eventos, tempo, janela);
   }, [eventos, tempo, dominio]);
 
+  /**
+   * Marcas da barra. Os eventos entram porque a janela é estreita: com 3.600
+   * anos numa barra de 900px, cada pixel vale quatro anos e meia década é
+   * menos de dois pixels. Sem um alvo visível, o evento existiria sem ser
+   * alcançável pelo arrasto.
+   */
   const marcas = useMemo(() => {
     const v = viagens.find((x) => x.id === viagemFoco);
-    if (v) {
-      return v.paradas.map((p) => ({
-        pos: anoFracionarioDe(p.data),
-        rotulo: `${p.local} · ${rotuloDeData(p.data)}`,
-      }));
-    }
-    return paises.flatMap((p) =>
-      p.periodos.map((per) => ({
-        pos: anoFracionarioDe(per.inicio),
-        rotulo: `${p.nome} · ${per.rotulo}`,
-      }))
+    const base = v
+      ? v.paradas.map((p) => ({
+          pos: anoFracionarioDe(p.data),
+          rotulo: `${p.local} · ${rotuloDeData(p.data)}`,
+          tipo: "periodo" as const,
+        }))
+      : paises.flatMap((p) =>
+          p.periodos.map((per) => ({
+            pos: anoFracionarioDe(per.inicio),
+            rotulo: `${p.nome} · ${per.rotulo}`,
+            tipo: "periodo" as const,
+          }))
+        );
+
+    const deEventos = eventos.map((ev) => ({
+      pos: anoFracionarioDe(ev.data),
+      rotulo: `${ev.titulo} · ${rotuloDeData(ev.data)}`,
+      tipo: "evento" as const,
+    }));
+
+    // Marca fora do domínio seria posicionada fora da barra.
+    return [...base, ...deEventos].filter(
+      (m) => m.pos >= dominio[0] && m.pos <= dominio[1]
     );
-  }, [viagens, viagemFoco, paises]);
+  }, [viagens, viagemFoco, paises, eventos, dominio]);
 
   const paisSelecionado = useMemo(
     () => paises.find((p) => p.iso === selecionado) ?? null,
@@ -263,6 +289,17 @@ export function Atlas({ mundo, paises, viagens, eventos }: Props) {
           </Link>
         )}
       </div>
+
+      {/*
+        A limitação mais importante do mapa, dita onde ela é vista. Esconder
+        isso faria o atlas afirmar fronteiras que nunca existiram.
+      */}
+      <p className="max-w-2xl text-center text-[10px] leading-relaxed text-slate-600">
+        O contorno de cada país é o de hoje, em todos os períodos — o atlas não
+        tem geometria histórica. Territórios ultramarinos ficam de fora do país
+        aceso e aparecem só como terra, para o mapa não sugerir domínio séculos
+        antes de ele existir.
+      </p>
     </div>
   );
 }

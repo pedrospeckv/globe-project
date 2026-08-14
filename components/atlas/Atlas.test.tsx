@@ -164,6 +164,68 @@ describe("Atlas", () => {
     expect(desenhados).not.toContain("JPN");
   });
 
+  it("a França acesa em 1200 não acende na América do Sul", () => {
+    /*
+     * O contorno desenhado é o de hoje. Para uma fronteira que andou algumas
+     * centenas de quilômetros isso é aproximação tolerável; para a Guiana
+     * Francesa, a 64° do território principal, o mapa afirmava domínio francês
+     * na América do Sul três séculos antes de a Europa chegar lá.
+     */
+    const { container, irPara } = montar();
+    irPara("1200");
+
+    const franca = [
+      ...container.querySelectorAll("svg > g:nth-of-type(1) > path"),
+    ].find((p) => p.querySelector("title")?.textContent === "FRA")!;
+    expect(franca).toBeTruthy();
+
+    const xs = [...(franca.getAttribute("d") ?? "").matchAll(/(-?\d+\.?\d*),/g)].map(
+      (m) => +m[1]
+    );
+    const ys = [
+      ...(franca.getAttribute("d") ?? "").matchAll(/,(-?\d+\.?\d*)/g),
+    ].map((m) => +m[1]);
+    // Nada da França desenhada pode cair sobre o Brasil no mesmo instante.
+    const brasil = [
+      ...container.querySelectorAll("svg > g:nth-of-type(1) > path"),
+    ].find((p) => p.querySelector("title")?.textContent === "BRA");
+    expect(brasil).toBeFalsy(); // em 1200 o Brasil nem existe no atlas
+    expect(Math.max(...xs) - Math.min(...xs)).toBeLessThan(300);
+    expect(Math.max(...ys) - Math.min(...ys)).toBeLessThan(300);
+  });
+
+  it("parar em 1890 não lista a Segunda Guerra como evento do momento", () => {
+    // A janela acompanhava o tamanho do domínio; com 3.600 anos na barra,
+    // meio século entrava como "agora".
+    const { container, irPara } = montar();
+    irPara("1890");
+    const lista = container.querySelector("ul");
+    const texto = lista?.textContent ?? "";
+    expect(texto).not.toMatch(/Pearl Harbor/i);
+    expect(texto).not.toMatch(/Hiroshima/i);
+  });
+
+  it("o evento aparece quando a barra chega perto dele de verdade", () => {
+    const { container, irPara } = montar();
+    irPara("1941-12-07");
+    expect(container.querySelector("ul")?.textContent).toMatch(/Pearl Harbor/i);
+  });
+
+  it("cada evento vira uma marca alcançável na barra", () => {
+    // Com meia década de janela em 3.600 anos, o evento é menos de dois
+    // pixels: sem alvo visível ele existiria sem ser alcançável.
+    const { container } = montar();
+    const marcas = [...container.querySelectorAll("[title]")].filter((e) =>
+      (e.getAttribute("class") ?? "").includes("rose")
+    );
+    expect(marcas).toHaveLength(acervo.eventos.length);
+  });
+
+  it("o mapa declara que desenha o contorno de hoje", () => {
+    const { container } = montar();
+    expect(container.textContent).toMatch(/contorno de cada país é o de hoje/);
+  });
+
   it("o botão alterna o rótulo entre desenrolar e enrolar", () => {
     const { getByText } = montar();
     expect(getByText("Desenrolar")).toBeTruthy();
