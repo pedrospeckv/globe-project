@@ -112,5 +112,21 @@
     "data": "2025-07-30",
     "url": "https://conjur.com.br/2025-jul-30/trf-1-nega-pedido-para-reabrir-acao-contra-lula-por-sitio-de-atibaia/",
     "citacao": "A 10ª Turma do TRF-1 rejeitou por unanimidade o pedido do MPF para reabrir a ação. Em primeira instância foi reconhecida a prescrição da pretensão acusatória, por Lula ter mais de 70 anos, o que reduz o prazo pela metade conforme o artigo 115 do Código Penal."
+  },
+  {
+    "id": "ibge-sidra-1737",
+    "tipo": "dataset",
+    "titulo": "IPCA — variação acumulada no ano (tabela 1737, variável 69)",
+    "publicacao": "IBGE — Sistema IBGE de Recuperação Automática (SIDRA)",
+    "url": "https://sidra.ibge.gov.br/tabela/1737",
+    "citacao": "Índice Nacional de Preços ao Consumidor Amplo. A série do atlas usa o acumulado de dezembro de cada ano, que é a inflação fechada daquele ano. Coletada pela API pública em scripts/coletar-sidra.ts."
+  },
+  {
+    "id": "ibge-sidra-6381",
+    "tipo": "dataset",
+    "titulo": "Taxa de desocupação, PNAD Contínua (tabela 6381, variável 4099)",
+    "publicacao": "IBGE — Sistema IBGE de Recuperação Automática (SIDRA)",
+    "url": "https://sidra.ibge.gov.br/tabela/6381",
+    "citacao": "Pesquisa Nacional por Amostra de Domicílios Contínua, pessoas de 14 anos ou mais. A tabela publica trimestres móveis, que se sobrepõem; o atlas usa sempre o trimestre out–dez para não apresentar como número do IBGE uma média que o IBGE não divulga."
   }
 ]

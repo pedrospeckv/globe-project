@@ -1,0 +1,66 @@
+{
+  "id": "bra-desocupacao",
+  "paisIso": "BRA",
+  "nome": "Taxa de desocupação — trimestre out–dez",
+  "unidade": "% da força de trabalho",
+  "fonte": "ibge-sidra-6381",
+  "escala": "linear",
+  "serie": [
+    {
+      "ano": 2012,
+      "valor": 6.9
+    },
+    {
+      "ano": 2013,
+      "valor": 6.2
+    },
+    {
+      "ano": 2014,
+      "valor": 6.6
+    },
+    {
+      "ano": 2015,
+      "valor": 9.1
+    },
+    {
+      "ano": 2016,
+      "valor": 12.1
+    },
+    {
+      "ano": 2017,
+      "valor": 11.9
+    },
+    {
+      "ano": 2018,
+      "valor": 11.7
+    },
+    {
+      "ano": 2019,
+      "valor": 11.1
+    },
+    {
+      "ano": 2020,
+      "valor": 14.2
+    },
+    {
+      "ano": 2021,
+      "valor": 11.1
+    },
+    {
+      "ano": 2022,
+      "valor": 7.9
+    },
+    {
+      "ano": 2023,
+      "valor": 7.4
+    },
+    {
+      "ano": 2024,
+      "valor": 6.2
+    },
+    {
+      "ano": 2025,
+      "valor": 5.1
+    }
+  ]
+}

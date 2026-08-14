@@ -10,18 +10,45 @@ export const Ponto = z.object({ ano: z.number().int(), valor: z.number() });
  * sombreia-se quem estava no poder. A curva não é do autor — e por isso a
  * fonte não é opcional.
  */
-export const Indicador = z.object({
-  id: Id,
-  paisIso: z.string().regex(/^[A-Z]{3}$/, "paisIso deve ter 3 letras maiúsculas"),
-  nome: z.string().min(1),
-  unidade: z.string().min(1, "indicador precisa de unidade"),
-  /** Id de Fonte. Gráfico sem atribuição é opinião com eixo. */
-  fonte: Id,
-  serie: z.array(Ponto).min(1, "indicador precisa de ao menos um ponto"),
-});
+export const EscalaIndicador = z.enum(["linear", "log"]);
+
+export const Indicador = z
+  .object({
+    id: Id,
+    paisIso: z.string().regex(/^[A-Z]{3}$/, "paisIso deve ter 3 letras maiúsculas"),
+    nome: z.string().min(1),
+    unidade: z.string().min(1, "indicador precisa de unidade"),
+    /** Id de Fonte. Gráfico sem atribuição é opinião com eixo. */
+    fonte: Id,
+    serie: z.array(Ponto).min(1, "indicador precisa de ao menos um ponto"),
+    /**
+     * Série que atravessa ordens de grandeza fica ilegível em eixo linear: o
+     * IPCA vai de 2477% em 1993 a 4,26% em 2025, e no linear tudo depois do
+     * Plano Real vira uma reta colada no chão. O eixo é declarado no dado
+     * porque quem escolhe a escala está fazendo afirmação sobre a série.
+     */
+    escala: EscalaIndicador.default("linear"),
+  })
+  .refine((i) => i.escala !== "log" || i.serie.every((p) => p.valor > 0), {
+    message: "escala log exige todos os valores positivos",
+    path: ["escala"],
+  });
 
 export type Ponto = z.infer<typeof Ponto>;
 export type Indicador = z.infer<typeof Indicador>;
+export type EscalaIndicador = z.infer<typeof EscalaIndicador>;
+
+/**
+ * Rótulo numérico determinístico.
+ *
+ * Nada de `toLocaleString`: a formatação por locale difere entre o servidor e
+ * o navegador e volta como divergência de hidratação — o mesmo defeito que o
+ * marcador de evento já causou uma vez.
+ */
+export function formatarValor(v: number): string {
+  const casas = Math.abs(v) >= 100 ? 0 : 1;
+  return v.toFixed(casas).replace(".", ",");
+}
 
 /** CSV mínimo: cabeçalho `ano,valor`. Sem aspas, sem separador decimal local. */
 export function parseSerieCsv(texto: string): Ponto[] {

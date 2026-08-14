@@ -107,6 +107,7 @@ describe("verificarIntegridade", () => {
       nome: "Pobreza",
       unidade: "%",
       fonte: "fonte-fantasma",
+      escala: "linear",
       serie: [{ ano: 2012, valor: 25 }],
     });
     expect(verificarIntegridade(a).some((e) => /fonte-fantasma/.test(e))).toBe(true);
@@ -120,6 +121,7 @@ describe("verificarIntegridade", () => {
       nome: "Pobreza",
       unidade: "%",
       fonte: "stf-hc-193726",
+      escala: "linear",
       serie: [{ ano: 2012, valor: 25 }],
     });
     expect(verificarIntegridade(a).some((e) => /ARG/.test(e))).toBe(true);

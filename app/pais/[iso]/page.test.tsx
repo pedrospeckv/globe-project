@@ -80,8 +80,24 @@ describe("dossiê de país", () => {
     expect(hrefs.sort()).toEqual(figuras.map((f) => `/figura/${f.id}`).sort());
   });
 
-  it("não inventa seção de indicador quando o acervo não tem série", async () => {
+  it("mostra os indicadores do país com a fonte resolvida", async () => {
     const { container } = await dossie("BRA");
+    const doBrasil = acervo.indicadores.filter((i) => i.paisIso === "BRA");
+    expect(doBrasil.length).toBeGreaterThan(0);
+    expect(container.textContent).toContain("Indicadores");
+    for (const i of doBrasil) {
+      expect(container.textContent).toContain(i.nome);
+      // A fonte precisa chegar resolvida, não como id solto.
+      const fonte = acervo.fontes.find((f) => f.id === i.fonte)!;
+      expect(container.textContent).toContain(fonte.titulo);
+    }
+  });
+
+  it("não inventa seção de indicador para país sem série", async () => {
+    const semSerie = acervo.paises.find(
+      (p) => !acervo.indicadores.some((i) => i.paisIso === p.iso)
+    )!;
+    const { container } = await dossie(semSerie.iso);
     expect(container.textContent).not.toContain("Indicadores");
   });
 });
