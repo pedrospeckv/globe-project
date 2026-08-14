@@ -137,6 +137,17 @@ Parada      local, coords, data, textoMdx
 Indicador   paisId, nome, unidade, fonte, serie[]     ← CSV
 ```
 
+> **Adendo de 2026-08-14 — datas antes de Cristo.** `DataHistorica` aceita ano negativo:
+> `-221` significa 221 a.C. **Não existe ano zero** — `0` e `-0` são rejeitados na validação,
+> porque 1 a.C. é seguido diretamente por 1 d.C.
+>
+> Internamente a linha do tempo é contínua e sem buraco: 1 a.C. ocupa `[0,1)`, 2 a.C. ocupa
+> `[-1,0)`, e o ano N a.C. começa em `1-N`. Isso faz comparação, ordenação e interpolação
+> funcionarem sem caso especial em toda a base.
+>
+> **O sinal nunca aparece na interface.** `rotuloDeAno` converte para "221 a.C.", inclusive nas
+> pontas da barra de tempo.
+
 **Fonte é entidade, não string.** A mesma sentença citada em cinco alegações existe uma vez só,
 o que viabiliza uma página "tudo que depende desta fonte". Barato agora, impossível de
 retroajustar depois.

@@ -5,11 +5,15 @@ import { z } from "zod";
  * variável (só o ano, ano-mês, ou completa) e anos de menos de 4 dígitos.
  * `Date` e `z.string().datetime()` não servem para 843.
  */
-const RE_DATA = /^(\d{1,4})(?:-(0[1-9]|1[0-2])(?:-(0[1-9]|[12]\d|3[01]))?)?$/;
+const RE_DATA = /^(-?\d{1,4})(?:-(0[1-9]|1[0-2])(?:-(0[1-9]|[12]\d|3[01]))?)?$/;
+
+/** Ano zero não existe no calendário histórico: 1 a.C. é seguido por 1 d.C. */
+const RE_ANO_ZERO = /^-?0+(-|$)/;
 
 export const DataHistorica = z
   .string()
-  .regex(RE_DATA, "data deve ser AAAA, AAAA-MM ou AAAA-MM-DD");
+  .regex(RE_DATA, "data deve ser AAAA, AAAA-MM ou AAAA-MM-DD (use -221 para 221 a.C.)")
+  .refine((d) => !RE_ANO_ZERO.test(d), "não existe ano zero no calendário histórico");
 
 export type DataHistorica = z.infer<typeof DataHistorica>;
 
@@ -20,9 +24,14 @@ export function anoDe(data: string): number {
 
 /**
  * [ano, mês, dia], com as partes ausentes em 0.
+ *
  * "1500" vira [1500, 0, 0], que ordena antes de qualquer data específica
  * daquele ano — o que é a semântica desejada para períodos com granularidade
  * grossa.
+ *
+ * O sinal fica só no ano: "-44-03-15" é [-44, 3, 15]. Dentro de um ano a.C.
+ * os meses seguem a ordem normal, então março de 44 a.C. vem antes de
+ * dezembro de 44 a.C.
  */
 export function partesDe(data: string): [number, number, number] {
   const m = RE_DATA.exec(data);

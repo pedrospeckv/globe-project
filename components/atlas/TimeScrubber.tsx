@@ -112,9 +112,10 @@ export function TimeScrubber({ valor, dominio, onChange, marcas = [] }: Props) {
         />
       </div>
 
+      {/* As pontas usam o mesmo formatador do rótulo, senão 221 a.C. vaza como "-220". */}
       <div className="flex justify-between font-mono text-[10px] text-slate-500">
-        <span>{Math.floor(ini)}</span>
-        <span>{Math.floor(fim)}</span>
+        <span>{rotuloDeAno(ini, 900)}</span>
+        <span>{rotuloDeAno(fim, 900)}</span>
       </div>
     </div>
   );

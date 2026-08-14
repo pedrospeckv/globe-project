@@ -65,6 +65,57 @@ describe("dataDeAnoFracionario", () => {
   });
 });
 
+describe("datas antes de Cristo na linha do tempo", () => {
+  it("1 a.C. cai em zero na linha numérica, e 1 d.C. em um", () => {
+    // Não existe ano zero: 1 a.C. ocupa [0,1) e 1 d.C. começa em 1.
+    expect(anoFracionarioDe("-1")).toBeCloseTo(0, 3);
+    expect(anoFracionarioDe("1")).toBeCloseTo(1, 3);
+  });
+
+  it("221 a.C. cai em -220", () => {
+    expect(anoFracionarioDe("-221")).toBeCloseTo(-220, 3);
+  });
+
+  it("a linha é monotônica atravessando a virada da era", () => {
+    const seq = ["-221", "-44", "-1", "1", "618"].map(anoFracionarioDe);
+    expect(seq.every((v, i) => i === 0 || v > seq[i - 1])).toBe(true);
+  });
+
+  it("faz o caminho de volta preservando o ano a.C.", () => {
+    expect(dataDeAnoFracionario(anoFracionarioDe("-221"))).toBe("-221-01-01");
+    expect(dataDeAnoFracionario(anoFracionarioDe("-1"))).toBe("-1-01-01");
+  });
+
+  it("nunca produz ano zero na volta", () => {
+    for (let n = -3; n <= 3; n += 0.25) {
+      expect(dataDeAnoFracionario(n)).not.toMatch(/^-?0(-|$)/);
+    }
+  });
+
+  it("o rótulo mostra a.C. em vez do sinal", () => {
+    expect(rotuloDeAno(-220, 900)).toBe("221 a.C.");
+    expect(rotuloDeAno(618, 900)).toBe("618");
+  });
+
+  it("o rótulo de escala curta também marca a.C.", () => {
+    expect(rotuloDeAno(-220 + 68 / 365, 1)).toMatch(/mar.*221 a\.C\./);
+  });
+
+  it("periodoVigente funciona com período a.C.", () => {
+    const china: Pais = {
+      iso: "CHN",
+      nome: "China",
+      periodos: [
+        { id: "cn-qin", inicio: "-221", fim: "-202", rotulo: "Qin", regime: "x", entidades: [] },
+        { id: "cn-han", inicio: "-202", fim: "220", rotulo: "Han", regime: "x", entidades: [] },
+      ],
+    };
+    expect(periodoVigente(china, anoFracionarioDe("-210"))?.id).toBe("cn-qin");
+    expect(periodoVigente(china, anoFracionarioDe("100"))?.id).toBe("cn-han");
+    expect(periodoVigente(china, anoFracionarioDe("-300"))).toBeNull();
+  });
+});
+
 describe("periodoVigente", () => {
   it("acha o período que cobre a data", () => {
     expect(periodoVigente(brasil, 1600)?.id).toBe("br-colonia");

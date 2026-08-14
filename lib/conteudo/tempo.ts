@@ -9,14 +9,33 @@ const MESES = [
 ];
 
 /**
+ * O ano escrito vira posição numa linha numérica contínua, e vice-versa.
+ *
+ * Não existe ano zero: 1 a.C. é seguido diretamente por 1 d.C. Para que a
+ * aritmética funcione sem caso especial, 1 a.C. ocupa o intervalo [0,1), 2
+ * a.C. ocupa [-1,0), e assim por diante. Logo o ano N a.C. começa em 1-N.
+ *
+ *   221 a.C. → escrito "-221" → posição -220
+ *     1 a.C. → escrito  "-1"  → posição    0
+ *     1 d.C. → escrito   "1"  → posição    1
+ */
+function anoEscritoParaLinha(ano: number): number {
+  return ano < 0 ? ano + 1 : ano;
+}
+
+function linhaParaAnoEscrito(anoLinha: number): number {
+  return anoLinha <= 0 ? anoLinha - 1 : anoLinha;
+}
+
+/**
  * Converte ano fracionário em DataHistorica.
  *
  * Aproximação de 365 dias, sem bissexto: isto é um controle de navegação, não
  * um calendário. Precisão de dia não muda nada na leitura da barra.
  */
 export function dataDeAnoFracionario(anoFrac: number): string {
-  const ano = Math.floor(anoFrac);
-  const diaDoAno = Math.min(364, Math.max(0, Math.floor((anoFrac - ano) * 365)));
+  const anoLinha = Math.floor(anoFrac);
+  const diaDoAno = Math.min(364, Math.max(0, Math.floor((anoFrac - anoLinha) * 365)));
 
   let mes = 0;
   let restante = diaDoAno;
@@ -27,7 +46,7 @@ export function dataDeAnoFracionario(anoFrac: number): string {
 
   const mm = String(mes + 1).padStart(2, "0");
   const dd = String(restante + 1).padStart(2, "0");
-  return `${ano}-${mm}-${dd}`;
+  return `${linhaParaAnoEscrito(anoLinha)}-${mm}-${dd}`;
 }
 
 /** DataHistorica em ano fracionário. Granularidade ausente conta como início. */
@@ -38,7 +57,7 @@ export function anoFracionarioDe(data: string): number {
     0
   );
   const diaDoAno = diasAntes + Math.max(0, dia - 1);
-  return ano + diaDoAno / 365;
+  return anoEscritoParaLinha(ano) + diaDoAno / 365;
 }
 
 /**
@@ -87,10 +106,17 @@ export function intervaloDaViagem(viagem: Viagem): [number, number] {
   return [ini - folga, fim + folga];
 }
 
-/** Rótulo adequado à escala: só o ano em escala longa, mês e ano em curta. */
+/**
+ * Rótulo adequado à escala: só o ano em escala longa, mês e ano em curta.
+ * O sinal negativo nunca aparece na tela — vira o sufixo "a.C.".
+ */
 export function rotuloDeAno(anoFrac: number, amplitude: number): string {
-  const ano = Math.floor(anoFrac);
-  if (amplitude > 5) return String(ano);
+  const anoEscrito = linhaParaAnoEscrito(Math.floor(anoFrac));
+  const rotuloAno =
+    anoEscrito < 0 ? `${Math.abs(anoEscrito)} a.C.` : String(anoEscrito);
+
+  if (amplitude > 5) return rotuloAno;
+
   const [, mes] = partesDe(dataDeAnoFracionario(anoFrac));
-  return `${MESES[Math.max(0, mes - 1)]} de ${ano}`;
+  return `${MESES[Math.max(0, mes - 1)]} de ${rotuloAno}`;
 }

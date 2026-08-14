@@ -16,6 +16,42 @@ describe("DataHistorica", () => {
     }
   );
 
+  it.each(["-221", "-44-03-15", "-1", "-3200"])("aceita a.C. %s", (entrada) => {
+    expect(DataHistorica.safeParse(entrada).success).toBe(true);
+  });
+
+  it.each(["0", "-0", "0-01-01", "-0-05"])(
+    "REJEITA ano zero %s — ele não existe no calendário histórico",
+    (entrada) => {
+      expect(DataHistorica.safeParse(entrada).success).toBe(false);
+    }
+  );
+});
+
+describe("datas antes de Cristo", () => {
+  it("anoDe devolve o ano como escrito, com sinal", () => {
+    expect(anoDe("-221")).toBe(-221);
+    expect(anoDe("-44-03-15")).toBe(-44);
+  });
+
+  it("partesDe preserva o sinal só no ano", () => {
+    expect(partesDe("-44-03-15")).toEqual([-44, 3, 15]);
+  });
+
+  it("ordena a.C. corretamente — 221 a.C. vem ANTES de 44 a.C.", () => {
+    expect(comparaData("-221", "-44")).toBeLessThan(0);
+  });
+
+  it("a.C. vem antes de d.C.", () => {
+    expect(comparaData("-44", "14")).toBeLessThan(0);
+    expect(comparaData("-1", "1")).toBeLessThan(0);
+  });
+
+  it("dentro de um ano a.C., os meses seguem a ordem normal", () => {
+    // Março de 44 a.C. vem antes de dezembro de 44 a.C.
+    expect(comparaData("-44-03", "-44-12")).toBeLessThan(0);
+  });
+
   it("extrai o ano de qualquer granularidade", () => {
     expect(anoDe("1500-04-22")).toBe(1500);
     expect(anoDe("1500-04")).toBe(1500);
