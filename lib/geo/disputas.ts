@@ -68,25 +68,19 @@ export function disputaDoPoligono(
 }
 
 /**
- * Separa o território disputado do resto do país.
+ * Recorta os territórios disputados do país. NÃO depende do tempo.
  *
- * Antes da data da disputa o polígono não vai para lugar nenhum aceso: o
- * atlas não desenharia a Crimeia como russa em 1800. Ele desce para o fundo,
- * pelo mesmo critério do ultramar — continua sendo terra, sem ser atribuído.
+ * Qual polígono é a Crimeia não muda com o ano — só muda se ele conta como
+ * disputado naquele instante. Separar as duas coisas é o que permite fazer
+ * este recorte uma vez só, na carga, em vez de a cada mexida na barra.
  */
-export function separarDisputados(
+export function extrairDisputados(
   f: PaisFeature,
-  alpha3: Alpha3,
-  anoFrac: number
-): {
-  principal: PaisFeature | null;
-  disputados: TerritorioDisputado[];
-  aindaNao: PaisFeature | null;
-} {
+  alpha3: Alpha3
+): { resto: PaisFeature; disputados: TerritorioDisputado[] } {
   const partes = poligonosDe(f);
 
   const dentro: Position[][][] = [];
-  const antesDaHora: Position[][][] = [];
   const disputados: TerritorioDisputado[] = [];
 
   for (const coordinates of partes) {
@@ -95,30 +89,47 @@ export function separarDisputados(
       dentro.push(coordinates);
       continue;
     }
-    const feature: PaisFeature = {
-      type: "Feature",
-      properties: f.properties,
-      geometry: { type: "Polygon", coordinates },
-    };
-    if (anoFrac >= anoFracionarioDe(disputa.desde)) {
-      disputados.push({ alpha3, feature, disputa });
-    } else {
-      antesDaHora.push(coordinates);
-    }
+    disputados.push({
+      alpha3,
+      disputa,
+      feature: {
+        type: "Feature",
+        properties: f.properties,
+        geometry: { type: "Polygon", coordinates },
+      },
+    });
   }
 
-  const monta = (coords: Position[][][]): PaisFeature | null =>
-    coords.length === 0
-      ? null
-      : {
-          type: "Feature",
-          properties: f.properties,
-          geometry: { type: "MultiPolygon", coordinates: coords },
-        };
+  if (disputados.length === 0) return { resto: f, disputados };
 
   return {
-    principal: disputados.length === 0 && antesDaHora.length === 0 ? f : monta(dentro),
+    resto: {
+      type: "Feature",
+      properties: f.properties,
+      geometry: { type: "MultiPolygon", coordinates: dentro },
+    },
     disputados,
-    aindaNao: monta(antesDaHora),
   };
+}
+
+/**
+ * A disputa já começou neste instante?
+ *
+ * Antes disso o polígono não acende como parte do país — o atlas não
+ * desenharia a Crimeia como russa em 1800. Ele desce para o fundo, pelo
+ * mesmo critério do ultramar: continua sendo terra, sem ser atribuído.
+ */
+export function disputaVigente(d: Disputa, anoFrac: number): boolean {
+  return anoFrac >= anoFracionarioDe(d.desde);
+}
+
+/**
+ * Ids das disputas em vigor neste instante.
+ *
+ * Devolve ids, e não o instante, porque isso muda pouquíssimo: uma vez, em
+ * 2014. É o que permite a tela redesenhar o mundo só quando algo de fato
+ * mudou, em vez de a cada ano que a barra atravessa.
+ */
+export function idsDeDisputasVigentes(anoFrac: number): string[] {
+  return DISPUTAS.filter((d) => disputaVigente(d, anoFrac)).map((d) => d.id);
 }

@@ -3,7 +3,7 @@ import { geoArea, geoDistance } from "d3-geo";
 import type { Feature, Geometry, Polygon, Position } from "geojson";
 import type { Topology, GeometryCollection } from "topojson-specification";
 import { alpha3De, type Alpha3 } from "./iso";
-import { separarDisputados, type TerritorioDisputado } from "./disputas";
+import { extrairDisputados, type TerritorioDisputado } from "./disputas";
 
 export type PaisFeature = Feature<Geometry, { name?: string }>;
 
@@ -43,16 +43,23 @@ function vertices(anel: Position[][]): Position[] {
   return anel.flat();
 }
 
-/** Menor distância angular, em graus, entre dois conjuntos de vértices. */
-function separacao(a: Position[], b: Position[]): number {
-  let min = Infinity;
+/**
+ * A parte está a mais de `limite` graus do território principal?
+ *
+ * Sai no primeiro par próximo em vez de medir a distância exata: a pergunta
+ * é binária, e a maioria das partes é vizinha do continente — Sacalina acha
+ * um vértice colado nas primeiras comparações e nem chega a varrer o resto.
+ */
+function separadoPorMaisDe(a: Position[], b: Position[], limite: number): boolean {
+  const limiteRad = (limite * Math.PI) / 180;
   for (const p of a) {
     for (const q of b) {
-      const d = geoDistance(p as [number, number], q as [number, number]);
-      if (d < min) min = d;
+      if (geoDistance(p as [number, number], q as [number, number]) <= limiteRad) {
+        return false;
+      }
     }
   }
-  return (min * 180) / Math.PI;
+  return true;
 }
 
 /**
@@ -88,8 +95,11 @@ export function separarUltramar(f: PaisFeature): {
       dentro.push(parte.coordinates);
       continue;
     }
-    const longe =
-      separacao(vertices(parte.coordinates), verticesDoMaior) > SEPARACAO_ULTRAMAR;
+    const longe = separadoPorMaisDe(
+      vertices(parte.coordinates),
+      verticesDoMaior,
+      SEPARACAO_ULTRAMAR
+    );
     (longe ? fora : dentro).push(parte.coordinates);
   }
 
@@ -112,41 +122,109 @@ export function separarUltramar(f: PaisFeature): {
  * A divisão técnica coincide com a curadoria — o que é interativo é
  * exatamente o que está aceso.
  */
-export function separarPaises(
+export interface PaisPreparado {
+  alpha3: Alpha3;
+  /** A feição como veio da base, para quando o país está apagado. */
+  original: PaisFeature;
+  /** Território principal, já sem ultramar e sem os polígonos disputados. */
+  principal: PaisFeature | null;
+  ultramar: PaisFeature | null;
+  disputados: TerritorioDisputado[];
+}
+
+export interface MundoPreparado {
+  paises: PaisPreparado[];
+  /** Tudo que não é país do atlas. */
+  resto: PaisFeature[];
+}
+
+/**
+ * Decompõe o mundo uma vez só.
+ *
+ * Esta é a parte cara: o recorte de ultramar compara vértice a vértice. Ela
+ * NÃO depende do tempo nem de quem está aceso, e por um período esteve dentro
+ * do caminho que roda a cada mexida na barra — 200ms por quadro, a interface
+ * inteira emperrada. Separar o que é estático do que é por instante é a razão
+ * de esta função existir.
+ */
+export function prepararMundo(
   mundo: PaisFeature[],
-  doAtlas: readonly Alpha3[],
-  /** Instante atual. Sem ele, nenhuma disputa é marcada. */
-  anoFrac?: number
+  doAtlas: readonly Alpha3[]
+): MundoPreparado {
+  const alvo = new Set<string>(doAtlas);
+  const paises: PaisPreparado[] = [];
+  const resto: PaisFeature[] = [];
+
+  for (const f of mundo) {
+    const a3 = f.id === undefined ? undefined : alpha3De(f.id as string | number);
+    if (!a3 || !alvo.has(a3)) {
+      resto.push(f);
+      continue;
+    }
+
+    const { principal, ultramar } = separarUltramar(f);
+    if (!principal) {
+      paises.push({
+        alpha3: a3,
+        original: f,
+        principal: null,
+        ultramar,
+        disputados: [],
+      });
+      continue;
+    }
+
+    const { resto: semDisputa, disputados } = extrairDisputados(principal, a3);
+    paises.push({
+      alpha3: a3,
+      original: f,
+      principal: semDisputa,
+      ultramar,
+      disputados,
+    });
+  }
+
+  return { paises, resto };
+}
+
+/**
+ * Escolhe o que desenhar neste instante. Barato de propósito — só olha
+ * datas e monta listas, sem tocar em geometria.
+ */
+export function separarPaises(
+  preparado: MundoPreparado,
+  acesos: readonly Alpha3[],
+  /**
+   * Ids das disputas em vigor. Recebe ids, e não o instante, porque isso
+   * muda uma vez em toda a linha do tempo — e enquanto não muda, a tela não
+   * precisa refazer nada.
+   */
+  disputasAtivas: readonly string[] = []
 ): {
   curados: PaisCurado[];
   fundo: PaisFeature[];
   disputados: TerritorioDisputado[];
 } {
-  const alvo = new Set<string>(doAtlas);
+  const aceso = new Set<string>(acesos);
+  const emVigor = new Set<string>(disputasAtivas);
   const curados: PaisCurado[] = [];
-  const fundo: PaisFeature[] = [];
+  const fundo: PaisFeature[] = [...preparado.resto];
   const disputados: TerritorioDisputado[] = [];
 
-  for (const f of mundo) {
-    const a3 = f.id === undefined ? undefined : alpha3De(f.id as string | number);
-    if (!a3 || !alvo.has(a3)) {
-      fundo.push(f);
+  for (const p of preparado.paises) {
+    if (!aceso.has(p.alpha3)) {
+      // Apagado: volta inteiro para o fundo, ultramar e disputa incluídos.
+      fundo.push(p.original);
       continue;
     }
 
-    const { principal, ultramar } = separarUltramar(f);
-    if (ultramar) fundo.push(ultramar);
-    if (!principal) continue;
+    if (p.ultramar) fundo.push(p.ultramar);
+    if (p.principal) curados.push({ alpha3: p.alpha3, feature: p.principal });
 
-    if (anoFrac === undefined) {
-      curados.push({ alpha3: a3, feature: principal });
-      continue;
+    for (const d of p.disputados) {
+      if (emVigor.has(d.disputa.id)) disputados.push(d);
+      else fundo.push(d.feature);
     }
-
-    const separado = separarDisputados(principal, a3, anoFrac);
-    if (separado.principal) curados.push({ alpha3: a3, feature: separado.principal });
-    if (separado.aindaNao) fundo.push(separado.aindaNao);
-    disputados.push(...separado.disputados);
   }
 
   return { curados, fundo, disputados };

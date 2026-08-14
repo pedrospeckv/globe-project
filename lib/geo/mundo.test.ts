@@ -1,7 +1,18 @@
 import { describe, it, expect } from "vitest";
 import { geoArea, geoBounds } from "d3-geo";
-import { carregarMundo, separarPaises, separarUltramar } from "./mundo";
+import {
+  carregarMundo,
+  prepararMundo,
+  separarPaises,
+  separarUltramar,
+} from "./mundo";
 import { PAISES_DO_ATLAS, alpha3De } from "./iso";
+
+/** Decomposição estática, feita uma vez — como na página. */
+async function prepararTudo() {
+  const mundo = await carregarMundo();
+  return { mundo, preparado: prepararMundo(mundo, PAISES_DO_ATLAS) };
+}
 
 describe("carregarMundo", () => {
   it("devolve features de país", async () => {
@@ -13,32 +24,31 @@ describe("carregarMundo", () => {
   it("ENCONTRA todos os países do atlas no topojson", async () => {
     // Guarda contra o problema clássico de Natural Earth, em que um país vem
     // com código inválido e simplesmente some do mapa sem erro nenhum.
-    const mundo = await carregarMundo();
-    const { curados } = separarPaises(mundo, PAISES_DO_ATLAS);
+    const { preparado } = await prepararTudo();
+    const { curados } = separarPaises(preparado, PAISES_DO_ATLAS);
     const achados = curados.map((f) => f.alpha3).sort();
     expect(achados).toEqual([...PAISES_DO_ATLAS].sort());
   });
 
   it("separa curados de fundo sem perder país nem duplicar", async () => {
-    const mundo = await carregarMundo();
-    const { curados, fundo } = separarPaises(mundo, PAISES_DO_ATLAS);
+    const { mundo, preparado } = await prepararTudo();
+    const { curados, fundo } = separarPaises(preparado, PAISES_DO_ATLAS);
 
     // Cada país do atlas aparece uma vez só entre os curados.
     expect(new Set(curados.map((c) => c.alpha3)).size).toBe(curados.length);
 
     /*
-     * O total agora PASSA de mundo.length, e isso é a correção funcionando:
-     * um país com ultramar vira duas feições — o território principal, que
-     * acende, e o ultramar, que desce para o fundo. Nada é descartado.
+     * O total PASSA de mundo.length, e isso é o recorte funcionando: um país
+     * com ultramar ou com território disputado vira mais de uma feição — o
+     * principal, que acende, e os pedaços, que descem para o fundo. Nada é
+     * descartado, e a conta diz exatamente quantos pedaços nasceram.
      */
-    const comUltramar = PAISES_DO_ATLAS.filter(
-      (iso) =>
-        separarUltramar(
-          mundo.find((f) => f.id !== undefined && alpha3De(f.id as string) === iso)!
-        ).ultramar !== null
-    ).length;
-    expect(curados.length + fundo.length).toBe(mundo.length + comUltramar);
-    expect(comUltramar).toBeGreaterThan(0);
+    const pedacos = preparado.paises.reduce(
+      (s, p) => s + (p.ultramar ? 1 : 0) + p.disputados.length,
+      0
+    );
+    expect(curados.length + fundo.length).toBe(mundo.length + pedacos);
+    expect(pedacos).toBeGreaterThan(0);
   });
 
   describe("separarUltramar", () => {
@@ -88,9 +98,9 @@ describe("carregarMundo", () => {
     });
 
     it("o ultramar desce para o fundo em vez de sumir do mapa", async () => {
-      const mundo = await carregarMundo();
-      const semAtlas = separarPaises(mundo, []).fundo.length;
-      const comAtlas = separarPaises(mundo, PAISES_DO_ATLAS);
+      const { mundo, preparado } = await prepararTudo();
+      const semAtlas = separarPaises(preparado, []).fundo.length;
+      const comAtlas = separarPaises(preparado, PAISES_DO_ATLAS);
       const areaTotal = (fs: { geometry: unknown }[]) =>
         fs.reduce((s, f) => s + geoArea(f as Parameters<typeof geoArea>[0]), 0);
 
@@ -105,16 +115,36 @@ describe("carregarMundo", () => {
   });
 
   it("cada país curado carrega geometria utilizável", async () => {
-    const mundo = await carregarMundo();
-    const { curados } = separarPaises(mundo, PAISES_DO_ATLAS);
+    const { preparado } = await prepararTudo();
+    const { curados } = separarPaises(preparado, PAISES_DO_ATLAS);
     for (const c of curados) {
       expect(["Polygon", "MultiPolygon"]).toContain(c.feature.geometry.type);
     }
   });
 
   it("aceita subconjunto — acender só os países que têm conteúdo", async () => {
-    const mundo = await carregarMundo();
-    const { curados } = separarPaises(mundo, ["BRA", "FRA"]);
+    const { preparado } = await prepararTudo();
+    const { curados } = separarPaises(preparado, ["BRA", "FRA"]);
     expect(curados.map((c) => c.alpha3).sort()).toEqual(["BRA", "FRA"]);
+  });
+
+  describe("custo", () => {
+    /*
+     * O recorte de ultramar já esteve dentro do caminho que roda a cada
+     * mexida na barra: 200ms por quadro, a interface emperrada. Este teste
+     * fixa a separação — o que é por instante não pode voltar a tocar em
+     * geometria.
+     */
+    it("escolher o que desenhar é barato depois da decomposição", async () => {
+      const { preparado } = await prepararTudo();
+
+      const t0 = performance.now();
+      for (let i = 0; i < 200; i++) {
+        separarPaises(preparado, PAISES_DO_ATLAS, ["crimeia"]);
+      }
+      const porChamada = (performance.now() - t0) / 200;
+
+      expect(porChamada).toBeLessThan(1);
+    });
   });
 });

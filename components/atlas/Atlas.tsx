@@ -6,8 +6,9 @@ import gsap from "gsap";
 import { GlobeCanvas } from "./GlobeCanvas";
 import { GeoOverlay } from "./GeoOverlay";
 import { TimeScrubber } from "./TimeScrubber";
-import { separarPaises, type PaisFeature } from "@/lib/geo/mundo";
-import { ISO_NUMERICO, type Alpha3 } from "@/lib/geo/iso";
+import { prepararMundo, separarPaises, type PaisFeature } from "@/lib/geo/mundo";
+import { idsDeDisputasVigentes } from "@/lib/geo/disputas";
+import { ISO_NUMERICO, PAISES_DO_ATLAS, type Alpha3 } from "@/lib/geo/iso";
 import { rotaAte, type RotaFeature } from "@/lib/geo/rota";
 import {
   anoFracionarioDe,
@@ -67,18 +68,44 @@ export function Atlas({ mundo, paises, viagens, eventos }: Props) {
    * lista fixa. Em 843 o Brasil apaga; em 1500 acende. O globo deixa de ser
    * "mapa com países marcados" e vira o retrato do mundo naquele instante.
    */
+  /*
+   * A CHAVE muda a cada ano; a LISTA só muda quando um país nasce ou morre.
+   * Congelar a identidade da lista é o que impede o canvas de redesenhar o
+   * mundo inteiro a cada ano que a barra atravessa — o array novo invalidava
+   * tudo abaixo mesmo com conteúdo idêntico.
+   */
+  const acesosChave = paises
+    .filter((p) => periodoVigente(p, tempo) !== null)
+    .map((p) => p.iso)
+    .filter((iso): iso is Alpha3 => iso in ISO_NUMERICO)
+    .join(",");
+
   const acesos = useMemo(
-    () =>
-      paises
-        .filter((p) => periodoVigente(p, tempo) !== null)
-        .map((p) => p.iso)
-        .filter((iso): iso is Alpha3 => iso in ISO_NUMERICO),
-    [paises, tempo]
+    () => (acesosChave ? (acesosChave.split(",") as Alpha3[]) : []),
+    [acesosChave]
+  );
+
+  /** Mesma ideia: em toda a linha do tempo isto muda uma vez, em 2014. */
+  const disputasChave = useMemo(() => idsDeDisputasVigentes(tempo).join(","), [tempo]);
+  const disputasAtivas = useMemo(
+    () => (disputasChave ? disputasChave.split(",") : []),
+    [disputasChave]
+  );
+
+  /*
+   * Decomposição cara, feita uma vez. Ela já esteve junto do cálculo por
+   * instante e custava 200ms a cada mexida na barra — a interface inteira
+   * emperrava. O recorte de ultramar não depende do tempo; não tem por que
+   * refazê-lo quando o tempo muda.
+   */
+  const preparado = useMemo(
+    () => prepararMundo(mundo, PAISES_DO_ATLAS),
+    [mundo]
   );
 
   const { curados, fundo, disputados } = useMemo(
-    () => separarPaises(mundo, acesos, tempo),
-    [mundo, acesos, tempo]
+    () => separarPaises(preparado, acesos, disputasAtivas),
+    [preparado, acesos, disputasAtivas]
   );
 
   /** Países cujo território abrigava mais de um Estado nesta data. */

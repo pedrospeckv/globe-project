@@ -55,6 +55,28 @@ export function GeoOverlay({
 
   const dividido = useMemo(() => new Set<string>(divididos), [divididos]);
 
+  /*
+   * Os contornos são caros e mudam por dois motivos só: a projeção girou ou
+   * a lista de países mudou. Gerá-los dentro do JSX refazia os nove a cada
+   * render, inclusive quando só o ano tinha avançado sem acender ou apagar
+   * ninguém.
+   */
+  const caminhosDePais = useMemo(
+    () =>
+      curados
+        .map(({ alpha3, feature }) => ({ alpha3, d: path(feature) }))
+        .filter((c): c is { alpha3: Alpha3; d: string } => c.d !== null),
+    [curados, path]
+  );
+
+  const caminhosDisputados = useMemo(
+    () =>
+      disputados
+        .map(({ alpha3, feature, disputa }) => ({ alpha3, disputa, d: path(feature) }))
+        .filter((c): c is typeof c & { d: string } => c.d !== null),
+    [disputados, path]
+  );
+
   return (
     <svg width={largura} height={altura} className="pointer-events-none absolute inset-0">
       <defs>
@@ -97,9 +119,7 @@ export function GeoOverlay({
         posição, e inserir uma no meio quebrava tudo que dependia da ordem.
       */}
       <g data-camada="paises">
-        {curados.map(({ alpha3, feature }) => {
-          const d = path(feature);
-          if (!d) return null;
+        {caminhosDePais.map(({ alpha3, d }) => {
           const ativo = selecionado === alpha3;
           const partido = dividido.has(alpha3);
           return (
@@ -128,9 +148,7 @@ export function GeoOverlay({
         é sobre a soberania, não sobre a existência do dossiê.
       */}
       <g data-camada="disputados">
-        {disputados.map(({ alpha3, feature, disputa }) => {
-          const d = path(feature);
-          if (!d) return null;
+        {caminhosDisputados.map(({ alpha3, disputa, d }) => {
           return (
             <path
               key={disputa.id}
