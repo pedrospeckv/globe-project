@@ -6,6 +6,7 @@ import { indexarAlvos } from "@/lib/conteudo/ligacoes";
 import { AlegacaoCard } from "@/components/conteudo/AlegacaoCard";
 import { Prosa } from "@/components/conteudo/Prosa";
 import { rotuloDeData } from "@/lib/conteudo/tempo";
+import { notasDoAlvo } from "@/lib/conteudo/nota";
 
 const RAIZ = path.join(process.cwd(), "conteudo");
 
@@ -27,6 +28,7 @@ export default async function FiguraPage({
   if (!figura) notFound();
 
   const pais = acervo.paises.find((p) => p.iso === figura.paisIso);
+  const notas = notasDoAlvo(acervo.notas, figura.id);
 
   return (
     <main className="min-h-screen bg-slate-950 py-10 text-slate-100">
@@ -88,6 +90,35 @@ export default async function FiguraPage({
             ))
           )}
         </section>
+
+        {notas.length > 0 && (
+          /*
+            Aponta para a nota, nunca inclui o texto dela. Misturar as duas
+            camadas apagaria a diferença entre o que tem lastro e o que é
+            rascunho de estudo — que é a diferença que o atlas existe para
+            manter.
+          */
+          <section className="space-y-2">
+            <h2 className="text-xs uppercase tracking-wide text-slate-500">
+              Anotações pessoais
+            </h2>
+            <ul className="space-y-1">
+              {notas.map((n) => (
+                <li key={n.id}>
+                  <Link
+                    href={`/nota/${n.id}`}
+                    className="text-sm text-slate-300 hover:text-sky-400 hover:underline"
+                  >
+                    {n.titulo}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <p className="text-[10px] leading-relaxed text-slate-600">
+              Caderno de estudo, sem revisão e sem fonte. Não é conteúdo do atlas.
+            </p>
+          </section>
+        )}
       </div>
     </main>
   );

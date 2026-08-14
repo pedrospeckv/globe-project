@@ -4,8 +4,9 @@ import type { Pais } from "./pais";
 import type { Viagem } from "./viagem";
 import type { Indicador } from "./indicador";
 import type { Evento } from "./evento";
+import type { Nota } from "./nota";
 // `ligacoes` importa só o TIPO Acervo daqui, então o ciclo some na compilação.
-import { verificarLigacoes } from "./ligacoes";
+import { verificarLigacoes, indexarAlvos } from "./ligacoes";
 
 export interface Acervo {
   fontes: Fonte[];
@@ -14,6 +15,7 @@ export interface Acervo {
   viagens: Viagem[];
   indicadores: Indicador[];
   eventos: Evento[];
+  notas: Nota[];
 }
 
 function duplicados(ids: string[]): string[] {
@@ -128,6 +130,24 @@ export function verificarIntegridade(acervo: Acervo): string[] {
       erros.push(
         `indicador "${indicador.id}" cita fonte inexistente: ${indicador.fonte}`
       );
+    }
+  }
+
+  for (const id of duplicados(acervo.notas.map((n) => n.id))) {
+    erros.push(`nota com id duplicado: ${id}`);
+  }
+
+  /*
+   * O alvo da nota usa o mesmo espaço de nomes das ligações `[[...]]`, e
+   * vale a mesma regra: apontar para o que não existe é erro de build. Sem
+   * isso, renomear um período deixaria notas órfãs apontando para o vazio.
+   */
+  const alvos = indexarAlvos(acervo);
+  for (const nota of acervo.notas) {
+    for (const alvo of nota.alvos) {
+      if (!(alvo in alvos)) {
+        erros.push(`nota "${nota.id}" aponta para alvo inexistente: ${alvo}`);
+      }
     }
   }
 
