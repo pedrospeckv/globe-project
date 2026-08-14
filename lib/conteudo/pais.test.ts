@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { Pais, Periodo } from "./pais";
+import { Pais, Periodo, estaDividido } from "./pais";
 
 const periodo = {
   id: "br-nova-republica",
@@ -48,6 +48,73 @@ describe("Periodo", () => {
 
   it("exige rotulo — é onde vive o nome da entidade política da época", () => {
     expect(Periodo.safeParse({ ...periodo, rotulo: "" }).success).toBe(false);
+  });
+});
+
+describe("Periodo com entidades", () => {
+  const dividido = {
+    id: "de-divisao",
+    inicio: "1949",
+    fim: "1990",
+    rotulo: "Alemanha dividida",
+    regime: "território dividido entre dois Estados soberanos",
+    entidades: [
+      { nome: "República Federal da Alemanha", regime: "parlamentarista federal" },
+      { nome: "República Democrática Alemã", regime: "socialista de partido único" },
+    ],
+  };
+
+  it("aceita período com duas entidades", () => {
+    expect(Periodo.safeParse(dividido).success).toBe(true);
+  });
+
+  it("assume lista vazia quando entidades é omitido", () => {
+    const r = Periodo.safeParse(periodo);
+    expect(r.success).toBe(true);
+    if (r.success) expect(r.data.entidades).toEqual([]);
+  });
+
+  it("REJEITA entidade única — uma só é o próprio período", () => {
+    const r = Periodo.safeParse({ ...dividido, entidades: [dividido.entidades[0]] });
+    expect(r.success).toBe(false);
+    if (!r.success) expect(r.error.issues[0].message).toMatch(/duas/i);
+  });
+
+  it("exige nome e regime de cada entidade", () => {
+    expect(
+      Periodo.safeParse({
+        ...dividido,
+        entidades: [{ nome: "", regime: "x" }, dividido.entidades[1]],
+      }).success
+    ).toBe(false);
+  });
+
+  it("aceita mais de duas entidades", () => {
+    const r = Periodo.safeParse({
+      ...dividido,
+      entidades: [...dividido.entidades, { nome: "Sarre", regime: "protetorado" }],
+    });
+    expect(r.success).toBe(true);
+  });
+});
+
+describe("estaDividido", () => {
+  it("é verdadeiro com duas ou mais entidades", () => {
+    const p = Periodo.parse({
+      id: "x",
+      inicio: "1949",
+      rotulo: "r",
+      regime: "g",
+      entidades: [
+        { nome: "A", regime: "a" },
+        { nome: "B", regime: "b" },
+      ],
+    });
+    expect(estaDividido(p)).toBe(true);
+  });
+
+  it("é falso sem entidades", () => {
+    expect(estaDividido(Periodo.parse(periodo))).toBe(false);
   });
 });
 

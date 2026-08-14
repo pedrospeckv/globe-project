@@ -49,7 +49,19 @@
       "inicio": "1949",
       "fim": "1990",
       "rotulo": "Alemanha dividida",
-      "regime": "dois Estados: república parlamentarista federal a oeste (RFA) e república socialista de partido único a leste (RDA)"
+      "regime": "território dividido entre dois Estados soberanos, cada um alinhado a um bloco da Guerra Fria",
+      "entidades": [
+        {
+          "nome": "República Federal da Alemanha (RFA)",
+          "regime": "república parlamentarista federal",
+          "textoMdx": "Fundada em maio de 1949 a partir das zonas de ocupação americana, britânica e francesa. Capital em Bonn. Integrou a OTAN em 1955 e foi membro fundador das Comunidades Europeias."
+        },
+        {
+          "nome": "República Democrática Alemã (RDA)",
+          "regime": "república socialista de partido único, sob o SED",
+          "textoMdx": "Fundada em outubro de 1949 na zona de ocupação soviética. Capital em Berlim Oriental. Integrou o Pacto de Varsóvia. Deixou de existir em outubro de 1990, com a adesão de seus estados à RFA."
+        }
+      ]
     },
     {
       "id": "de-reunificada",

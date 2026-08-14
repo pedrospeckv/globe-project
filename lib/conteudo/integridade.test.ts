@@ -20,6 +20,7 @@ function acervoBase(): Acervo {
             inicio: "1985",
             rotulo: "Nova República",
             regime: "democracia",
+            entidades: [],
           },
         ],
       },

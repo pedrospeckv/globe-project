@@ -2,6 +2,25 @@ import { z } from "zod";
 import { DataHistorica, Id, comparaData } from "./primitivos";
 
 /**
+ * Um Estado soberano que dividiu o território do país durante um período.
+ *
+ * Existe porque a espinha dorsal do atlas são países MODERNOS, e país moderno
+ * é uma fotografia de hoje: sempre que um território abrigou mais de um
+ * Estado — Alemanha 1949–1990, Vietnã 1954–1976, Iêmen até 1990 — o par
+ * país × período sozinho não consegue dizer isso.
+ *
+ * Entidade não tem geometria própria de propósito. Desenhar a fronteira
+ * interalemã exigiria GeoJSON histórico, que é item de v2 (§12). Em vez de
+ * fingir uma forma que não temos, o globo hachura o país e admite a
+ * limitação.
+ */
+export const Entidade = z.object({
+  nome: z.string().min(1),
+  regime: z.string().min(1),
+  textoMdx: z.string().optional(),
+});
+
+/**
  * Um retrato datado de um país — a unidade de conteúdo do atlas.
  * "França 1420" e "França 2026" são dois Periodo do mesmo Pais, o que faz
  * geopolítica atual ser o último período da timeline, não um módulo separado.
@@ -20,10 +39,17 @@ export const Periodo = z
     rotulo: z.string().min(1),
     regime: z.string().min(1),
     textoMdx: z.string().optional(),
+    /** Vazio no caso normal; 2 ou mais quando o território esteve dividido. */
+    entidades: z.array(Entidade).default([]),
   })
   .refine((p) => !p.fim || comparaData(p.fim, p.inicio) >= 0, {
     message: "período não pode terminar antes de começar",
     path: ["fim"],
+  })
+  .refine((p) => p.entidades.length !== 1, {
+    message:
+      "período dividido precisa de ao menos duas entidades — uma só é o próprio período",
+    path: ["entidades"],
   });
 
 export const Pais = z.object({
@@ -32,5 +58,11 @@ export const Pais = z.object({
   periodos: z.array(Periodo).min(1, "país precisa de ao menos um período"),
 });
 
+export type Entidade = z.infer<typeof Entidade>;
 export type Periodo = z.infer<typeof Periodo>;
 export type Pais = z.infer<typeof Pais>;
+
+/** O território abrigava mais de um Estado neste período. */
+export function estaDividido(periodo: Periodo): boolean {
+  return periodo.entidades.length >= 2;
+}

@@ -57,6 +57,31 @@ export default async function PaisPage({
               </div>
               <p className="mt-1 text-xs text-slate-400">{p.regime}</p>
               <Prosa texto={p.textoMdx} />
+
+              {p.entidades.length >= 2 && (
+                <div className="mt-3 border-t border-slate-800 pt-3">
+                  <p className="mb-2 text-[10px] uppercase tracking-wide text-slate-600">
+                    {p.entidades.length} Estados neste território
+                  </p>
+                  <div className="grid gap-2 sm:grid-cols-2">
+                    {p.entidades.map((e) => (
+                      <div
+                        key={e.nome}
+                        className="rounded border border-slate-800 bg-slate-950/60 p-3"
+                      >
+                        <p className="text-xs font-semibold text-slate-200">{e.nome}</p>
+                        <p className="mt-0.5 text-[11px] text-slate-400">{e.regime}</p>
+                        <Prosa texto={e.textoMdx} />
+                      </div>
+                    ))}
+                  </div>
+                  <p className="mt-2 text-[10px] leading-relaxed text-slate-600">
+                    O mapa desenha este território como uma forma só. A fronteira entre
+                    estes Estados exigiria geometria histórica, que o atlas ainda não
+                    tem — por isso o país aparece hachurado no globo neste período.
+                  </p>
+                </div>
+              )}
             </article>
           ))}
         </section>

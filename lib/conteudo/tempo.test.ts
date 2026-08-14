@@ -14,9 +14,9 @@ const brasil: Pais = {
   iso: "BRA",
   nome: "Brasil",
   periodos: [
-    { id: "br-colonia", inicio: "1500", fim: "1822", rotulo: "Colônia", regime: "x" },
-    { id: "br-imperio", inicio: "1822", fim: "1889", rotulo: "Império", regime: "x" },
-    { id: "br-nova", inicio: "1985", rotulo: "Nova República", regime: "x" },
+    { id: "br-colonia", inicio: "1500", fim: "1822", rotulo: "Colônia", regime: "x", entidades: [] },
+    { id: "br-imperio", inicio: "1822", fim: "1889", rotulo: "Império", regime: "x", entidades: [] },
+    { id: "br-nova", inicio: "1985", rotulo: "Nova República", regime: "x", entidades: [] },
   ],
 };
 

@@ -16,7 +16,7 @@ import {
   intervaloDoAcervo,
   periodoVigente,
 } from "@/lib/conteudo/tempo";
-import type { Pais } from "@/lib/conteudo/pais";
+import { estaDividido, type Pais } from "@/lib/conteudo/pais";
 import type { Viagem } from "@/lib/conteudo/viagem";
 
 const LARGURA = 900;
@@ -76,6 +76,19 @@ export function Atlas({ mundo, paises, viagens }: Props) {
   const { curados, fundo } = useMemo(
     () => separarPaises(mundo, acesos),
     [mundo, acesos]
+  );
+
+  /** Países cujo território abrigava mais de um Estado nesta data. */
+  const divididos = useMemo(
+    () =>
+      paises
+        .filter((p) => {
+          const periodo = periodoVigente(p, tempo);
+          return periodo !== null && estaDividido(periodo);
+        })
+        .map((p) => p.iso)
+        .filter((iso): iso is Alpha3 => iso in ISO_NUMERICO),
+    [paises, tempo]
   );
 
   const rotas = useMemo(
@@ -176,6 +189,7 @@ export function Atlas({ mundo, paises, viagens }: Props) {
           rotacao={rotacao}
           selecionado={selecionado}
           onSelecionar={setSelecionado}
+          divididos={divididos}
         />
       </div>
 

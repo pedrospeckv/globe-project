@@ -126,7 +126,8 @@ da interpolação tem um dono só: o hook `useProjection()`.
 
 ```
 Pais        iso, nome, periodos[]
-Periodo     paisId, inicio, fim, rotulo, regime, textoMdx, figuras[], eventos[]
+Periodo     paisId, inicio, fim, rotulo, regime, textoMdx, entidades[], figuras[], eventos[]
+Entidade    nome, regime, textoMdx        ← Estado que dividiu o território
 Figura      nome, paisId, cargos[], alegacoes[], textoMdx
 Alegacao    enunciado, status, datas, fontes[]        ← fontes obrigatório
 Fonte       tipo, titulo, autor, publicacao, data, url, citacao
@@ -320,6 +321,26 @@ granularidade irregular.
 quando o tempo estiver antes de 1900. Fronteira histórica é item de v2.
 
 Isso destoa do rigor do resto do projeto. Mas mentir em silêncio seria pior que mentir com aviso.
+
+### Território dividido entre vários Estados
+
+> **Adendo de 2026-08-13.** A espinha dorsal do atlas são países **modernos**, e país
+> moderno é uma fotografia de hoje. Sempre que um território abrigou mais de um Estado —
+> Alemanha 1949–1990, Vietnã 1954–1976, Iêmen até 1990 — o par país × período sozinho não
+> consegue dizer isso.
+>
+> **Solução adotada:** `Periodo` ganhou `entidades[]`, uma lista opcional de Estados com
+> nome, regime e texto próprios. Zero no caso normal, duas ou mais quando houve divisão —
+> uma entidade única é rejeitada na validação, porque seria o próprio período.
+>
+> A entidade **não tem geometria própria**, de propósito. Desenhar a fronteira interalemã
+> exigiria GeoJSON histórico, que é o item adiado acima, e abriria precedente para exigir
+> o mesmo de todos os períodos antigos. Em vez disso o globo **hachura** o país nesse
+> período, e o dossiê explica que a linha interna não existe no atlas.
+>
+> A hachura é a escolha editorial que fecha com o resto do projeto: ela admite a limitação
+> em vez de escondê-la, do mesmo modo que o status de uma alegação admite o que a decisão
+> judicial não diz.
 
 ### O gargalo é escrita, não código
 
