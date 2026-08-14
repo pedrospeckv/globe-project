@@ -13,5 +13,26 @@
       "inicio": "2023-01-01"
     }
   ],
-  "alegacoes": []
+  "alegacoes": [
+    {
+      "id": "lula-triplex",
+      "enunciado": "Recebeu o triplex do Guarujá como vantagem indevida paga pela construtora OAS",
+      "status": "anulado",
+      "data": "2021-04-15",
+      "fontes": [
+        "stf-hc-193726",
+        "stf-suspeicao-moro-2021",
+        "poder360-arquivamento-triplex"
+      ],
+      "nota": "Condenado em 2017 pelo então juiz Sergio Moro, chegou a cumprir 580 dias de prisão. Em 15/04/2021 o Plenário do STF confirmou, por 8 votos a 3, a anulação das ações penais por incompetência da 13ª Vara Federal de Curitiba: os fatos não tinham correlação com desvios da Petrobras. Em 23/06/2021 o Plenário confirmou, por 7 a 4, a suspeição de Moro, anulando também os atos da fase pré-processual. Em 27/01/2022 a 12ª Vara Federal Criminal de Brasília arquivou o caso, acompanhando o MPF, que apontou que as provas não podiam ser reaproveitadas e que os crimes estavam prescritos. Nenhuma dessas decisões se pronunciou sobre o mérito da acusação: anulação por vício de competência e por parcialidade do julgador não é absolvição, assim como não é confirmação dos fatos."
+    },
+    {
+      "id": "lula-sitio-atibaia",
+      "enunciado": "Recebeu reformas no sítio de Atibaia como vantagem indevida de empreiteiras",
+      "status": "prescrito",
+      "data": "2025-07-30",
+      "fontes": ["stf-hc-193726", "conjur-atibaia-2025"],
+      "nota": "A ação foi anulada em 2021 quando o ministro Gilmar Mendes estendeu ao caso os efeitos da suspeição de Moro. Remetidos os autos à Justiça Federal do DF, o MPF ratificou a denúncia, mas a juíza Pollyanna Alves a rejeitou, reconhecendo a prescrição da pretensão acusatória: Lula tem mais de 70 anos, condição que reduz o prazo pela metade conforme o artigo 115 do Código Penal. Em 30/07/2025 a 10ª Turma do TRF-1 manteve a rejeição, por unanimidade. A extinção por prazo não afirma nem nega que os fatos tenham ocorrido."
+    }
+  ]
 }

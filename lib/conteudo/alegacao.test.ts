@@ -38,6 +38,7 @@ describe("Alegacao", () => {
     "transito-julgado",
     "em-julgamento",
     "investigacao",
+    "investigacao-arquivada",
     "anulado",
     "prescrito",
     "alegacao-sem-processo",
@@ -46,8 +47,8 @@ describe("Alegacao", () => {
     expect(Alegacao.safeParse({ ...valida, status }).success).toBe(true);
   });
 
-  it("expõe exatamente os 7 status previstos no spec", () => {
-    expect(StatusAlegacao.options).toHaveLength(7);
+  it("expõe exatamente os 8 status previstos no spec", () => {
+    expect(StatusAlegacao.options).toHaveLength(8);
   });
 
   it("aceita nota explicando por que o status é esse", () => {

@@ -22,5 +22,77 @@
     "publicacao": "Tribunal papal de reexame",
     "data": "1456-07-07",
     "citacao": "Reexame instaurado a pedido da família e autorizado pelo papa Calisto III, que anulou a sentença de 1431 e declarou Joana inocente das acusações."
+  },
+  {
+    "id": "stf-ap-2668",
+    "tipo": "decisao-judicial",
+    "titulo": "Ação Penal 2668 — condenação por tentativa de golpe de Estado",
+    "publicacao": "Supremo Tribunal Federal, Primeira Turma",
+    "data": "2025",
+    "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7223339",
+    "citacao": "Condenação a 27 anos e 3 meses pelos crimes de organização criminosa armada, abolição violenta do Estado Democrático de Direito, golpe de Estado, dano qualificado ao patrimônio público e deterioração de patrimônio tombado."
+  },
+  {
+    "id": "stf-rvc-6021",
+    "tipo": "documento-oficial",
+    "titulo": "Ex-presidente Bolsonaro apresenta revisão criminal contra condenação por tentativa de golpe de Estado",
+    "publicacao": "Supremo Tribunal Federal",
+    "data": "2026-05-12",
+    "url": "https://noticias.stf.jus.br/postsnoticias/ex-presidente-bolsonaro-apresenta-revisao-criminal-contra-condenacao-por-tentativa-de-golpe-de-estado/",
+    "citacao": "Trânsito em julgado reconhecido em 25/11/2025. A revisão criminal é ação cabível a qualquer tempo após o trânsito em julgado e foi distribuída ao ministro Nunes Marques."
+  },
+  {
+    "id": "stf-pet-10405",
+    "tipo": "decisao-judicial",
+    "titulo": "STF arquiva investigação por fraude em cartão de vacina (Pet 10405)",
+    "publicacao": "Supremo Tribunal Federal",
+    "data": "2025-03-28",
+    "url": "https://noticias.stf.jus.br/postsnoticias/stf-arquiva-investigacao-contra-ex-presidente-da-republica-por-fraude-em-cartao-de-vacina/",
+    "citacao": "Arquivamento a pedido da PGR: a legislação proíbe recebimento de denúncia baseada somente em declarações de colaborador, e não foram levantadas provas além da colaboração de Mauro Cid."
+  },
+  {
+    "id": "agbrasil-joias-2026",
+    "tipo": "reportagem",
+    "titulo": "STF pede novo parecer da PGR sobre caso das joias sauditas",
+    "publicacao": "Agência Brasil",
+    "data": "2026-03",
+    "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-03/stf-pede-novo-parecer-da-pgr-sobre-caso-das-joias-saudita",
+    "citacao": "Decisão de 18 de março de 2026: após a PGR pedir arquivamento alegando lacuna legislativa, o ministro Alexandre de Moraes determinou novo parecer. O caso não foi arquivado."
+  },
+  {
+    "id": "stf-hc-193726",
+    "tipo": "decisao-judicial",
+    "titulo": "STF confirma anulação de condenações do ex-presidente Lula na Lava Jato (HC 193726)",
+    "publicacao": "Supremo Tribunal Federal, Plenário",
+    "data": "2021-04-15",
+    "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464261",
+    "citacao": "Por 8 votos a 3, o Plenário confirmou a decisão do ministro Edson Fachin que declarou a incompetência da 13ª Vara Federal de Curitiba. As denúncias não tinham correlação com desvios da Petrobras. A decisão é sobre competência, não sobre o mérito das acusações."
+  },
+  {
+    "id": "stf-suspeicao-moro-2021",
+    "tipo": "decisao-judicial",
+    "titulo": "STF confirma suspeição de Sergio Moro na ação do triplex do Guarujá",
+    "publicacao": "Supremo Tribunal Federal, Plenário",
+    "data": "2021-06-23",
+    "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=468086",
+    "citacao": "Por sete votos a quatro, o Plenário manteve o entendimento da Segunda Turma de que Moro agiu com parcialidade. Ficou mantida a anulação de todas as suas decisões no caso, incluindo os atos da fase pré-processual."
+  },
+  {
+    "id": "poder360-arquivamento-triplex",
+    "tipo": "reportagem",
+    "titulo": "Justiça arquiva caso do tríplex contra Lula",
+    "publicacao": "Poder360",
+    "data": "2022-01-28",
+    "url": "https://www.poder360.com.br/justica/justica-arquiva-caso-do-triplex-contra-lula/",
+    "citacao": "A juíza Pollyanna Alves, da 12ª Vara Federal Criminal de Brasília, arquivou a ação em 27/01/2022, acompanhando o MPF, que apontou que as provas não podiam ser reaproveitadas em razão da nulidade e que os crimes estavam prescritos."
+  },
+  {
+    "id": "conjur-atibaia-2025",
+    "tipo": "reportagem",
+    "titulo": "TRF-1 mantém rejeição de denúncia contra Lula por sítio de Atibaia",
+    "publicacao": "Consultor Jurídico",
+    "data": "2025-07-30",
+    "url": "https://conjur.com.br/2025-jul-30/trf-1-nega-pedido-para-reabrir-acao-contra-lula-por-sitio-de-atibaia/",
+    "citacao": "A 10ª Turma do TRF-1 rejeitou por unanimidade o pedido do MPF para reabrir a ação. Em primeira instância foi reconhecida a prescrição da pretensão acusatória, por Lula ter mais de 70 anos, o que reduz o prazo pela metade conforme o artigo 115 do Código Penal."
   }
 ]

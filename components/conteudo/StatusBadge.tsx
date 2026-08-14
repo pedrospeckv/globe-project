@@ -19,6 +19,10 @@ const ROTULOS: Record<StatusAlegacao, { texto: string; classe: string }> = {
     texto: "Investigação",
     classe: "border-yellow-500/40 bg-yellow-500/10 text-yellow-500",
   },
+  "investigacao-arquivada": {
+    texto: "Investigação arquivada",
+    classe: "border-slate-500/50 bg-slate-600/20 text-slate-300",
+  },
   anulado: {
     texto: "Anulado",
     classe: "border-sky-500/40 bg-sky-500/10 text-sky-400",

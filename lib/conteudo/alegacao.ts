@@ -9,11 +9,14 @@ import { DataHistorica, Id } from "./primitivos";
  *   anulado   ≠ inocentado  (caiu por vício, não por mérito)
  *   prescrito ≠ desmentido  (extinto por prazo, não refutado)
  *   investigacao ≠ em-julgamento (apuração aberta ≠ denúncia aceita)
+ *   investigacao-arquivada ≠ desmentido (apuração encerrada por
+ *     insuficiência de prova ≠ refutação documental do fato)
  */
 export const StatusAlegacao = z.enum([
   "transito-julgado",
   "em-julgamento",
   "investigacao",
+  "investigacao-arquivada",
   "anulado",
   "prescrito",
   "alegacao-sem-processo",

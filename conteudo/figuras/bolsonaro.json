@@ -9,5 +9,30 @@
       "fim": "2022-12-31"
     }
   ],
-  "alegacoes": []
+  "alegacoes": [
+    {
+      "id": "bolsonaro-golpe",
+      "enunciado": "Liderou trama para golpe de Estado e abolição violenta do Estado Democrático de Direito",
+      "status": "transito-julgado",
+      "data": "2025-11-25",
+      "fontes": ["stf-ap-2668", "stf-rvc-6021"],
+      "nota": "Condenado pela Primeira Turma do STF na Ação Penal 2668 a 27 anos e 3 meses, pelos crimes de organização criminosa armada, abolição violenta do Estado Democrático de Direito, golpe de Estado, dano qualificado ao patrimônio público e deterioração de patrimônio tombado. O trânsito em julgado foi reconhecido em 25/11/2025, quando começou a cumprir pena. Em 12/05/2026 a defesa protocolou a Revisão Criminal 6021, distribuída ao ministro Nunes Marques. A revisão criminal é ação cabível justamente depois do trânsito em julgado e não o suspende — enquanto não for julgada e provida, a condenação permanece definitiva."
+    },
+    {
+      "id": "bolsonaro-cartao-vacina",
+      "enunciado": "Inseriu dados falsos no sistema do Ministério da Saúde para simular vacinação contra covid-19",
+      "status": "investigacao-arquivada",
+      "data": "2025-03-28",
+      "fontes": ["stf-pet-10405"],
+      "nota": "A investigação foi aberta em 2022 a pedido da Polícia Federal, que em março de 2024 indiciou Bolsonaro e Mauro Cid por associação criminosa e inserção de dados falsos. O ministro Alexandre de Moraes arquivou a apuração em 28/03/2025, atendendo a pedido da PGR: a legislação proíbe o recebimento de denúncia baseada somente em declarações de colaborador, e não foram levantadas provas além da colaboração de Mauro Cid. Arquivamento por insuficiência de prova não equivale a refutação do fato — nunca houve pronunciamento judicial sobre se a inserção ocorreu."
+    },
+    {
+      "id": "bolsonaro-joias-sauditas",
+      "enunciado": "Desviou joias recebidas como presente de Estado durante viagens oficiais",
+      "status": "investigacao",
+      "data": "2026-03-18",
+      "fontes": ["agbrasil-joias-2026"],
+      "nota": "Em 18/03/2026 o ministro Alexandre de Moraes determinou que a PGR apresentasse novo parecer, depois de a procuradoria ter pedido o arquivamento alegando lacuna legislativa. O caso não foi arquivado nem denunciado: segue em fase de manifestação da PGR."
+    }
+  ]
 }

@@ -185,6 +185,7 @@ contexto em prosa vem **por cima**, nunca no lugar.
 | `transito-julgado` | decidido, sem recurso possível |
 | `em-julgamento` | denúncia aceita, processo correndo |
 | `investigacao` | apuração aberta, sem denúncia formal |
+| `investigacao-arquivada` | apuração encerrada sem denúncia, por insuficiência de prova |
 | `anulado` | decisão derrubada por vício de forma ou competência |
 | `prescrito` | extinto por prazo |
 | `alegacao-sem-processo` | circula publicamente, nunca virou apuração |
@@ -196,6 +197,14 @@ diluídas na prosa.
 - anulado ≠ inocentado
 - arquivado ≠ desmentido
 - denunciado ≠ condenado
+- prescrito ≠ absolvido
+
+> **Adendo de 2026-08-13.** O status `investigacao-arquivada` foi acrescentado ao
+> escrever as alegações reais. O caso que o exigiu: um inquérito aberto e depois
+> arquivado por insuficiência de prova não cabia em `investigacao`, que afirma
+> apuração em curso, nem em `desmentido`, que afirma refutação documental do fato.
+> Rotular com qualquer um dos dois mentiria. É o tipo de lacuna que só aparece
+> com dado real.
 
 O leitor de esquerda e o de direita veem a mesma tela. Ninguém precisa confiar no autor —
 status e fonte fazem o trabalho.
