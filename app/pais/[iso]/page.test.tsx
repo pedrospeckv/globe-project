@@ -57,13 +57,35 @@ describe("dossiê de país", () => {
     expect(ultimo?.textContent).toMatch(/1985–?$|1985–/);
   });
 
-  it("território dividido lista os Estados e explica a hachura", async () => {
-    // Alemanha 1949–90. O mapa desenha uma forma só; a página assume isso.
+  it("o índice sinaliza território dividido sem abrir o detalhe", async () => {
+    // O detalhe dos Estados mora na página do período; aqui só a marca.
     const { container } = await dossie("DEU");
     expect(container.textContent).toContain("Estados neste território");
-    expect(container.textContent).toContain("República Federal da Alemanha");
-    expect(container.textContent).toContain("República Democrática Alemã");
-    expect(container.textContent).toMatch(/geometria histórica/);
+    expect(container.textContent).not.toContain("República Democrática Alemã");
+  });
+
+  it("mostra só o primeiro parágrafo de cada período", async () => {
+    const brasil = acervo.paises.find((p) => p.iso === "BRA")!;
+    const colonia = brasil.periodos.find((p) => p.id === "br-colonia")!;
+    const [primeiro, segundo] = colonia.textoMdx!.split("\n\n");
+
+    const { container } = await dossie("BRA");
+    expect(container.textContent).toContain(primeiro.slice(0, 60));
+    // O segundo parágrafo é da página do período, não do índice.
+    expect(container.textContent).not.toContain(
+      segundo.replace(/\*\*/g, "").slice(0, 60)
+    );
+  });
+
+  it("cada período do índice aponta para a própria página", async () => {
+    const brasil = acervo.paises.find((p) => p.iso === "BRA")!;
+    const { container } = await dossie("BRA");
+    const hrefs = [...container.querySelectorAll("a[href^='/pais/BRA/']")].map((a) =>
+      a.getAttribute("href")
+    );
+    for (const p of brasil.periodos) {
+      expect(hrefs).toContain(`/pais/BRA/${p.id}`);
+    }
   });
 
   it("país sem divisão não mostra o bloco de Estados", async () => {

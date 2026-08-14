@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { Coordenada, DataHistorica, Id, comparaData } from "./primitivos";
 import { anoFracionarioDe } from "./tempo";
+import { dentroDoPeriodo, type Periodo } from "./pais";
 
 /**
  * Um acontecimento datado num ponto do mapa.
@@ -49,4 +50,15 @@ export function eventosEm(
 /** Eventos que envolvem um país, ordenados cronologicamente. */
 export function eventosDoPais(eventos: Evento[], iso: string): Evento[] {
   return eventos.filter((e) => e.paises.includes(iso)).sort(porData);
+}
+
+/** Eventos de um país dentro de um período dele. */
+export function eventosDoPeriodo(
+  eventos: Evento[],
+  iso: string,
+  periodo: Periodo
+): Evento[] {
+  return eventosDoPais(eventos, iso).filter((e) =>
+    dentroDoPeriodo(periodo, e.data)
+  );
 }

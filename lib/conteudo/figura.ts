@@ -1,6 +1,7 @@
 import { z } from "zod";
-import { DataHistorica, Id } from "./primitivos";
+import { DataHistorica, Id, comparaData } from "./primitivos";
 import { Alegacao } from "./alegacao";
+import type { Periodo } from "./pais";
 
 export const Cargo = z.object({
   titulo: z.string().min(1),
@@ -20,3 +21,28 @@ export const Figura = z.object({
 
 export type Cargo = z.infer<typeof Cargo>;
 export type Figura = z.infer<typeof Figura>;
+
+/**
+ * Figuras do país que ocuparam cargo durante o período.
+ *
+ * Compara INTERVALOS, não datas soltas: um mandato que começa antes e
+ * termina dentro conta, e um que atravessa o período inteiro também. Testar
+ * só o início deixaria de fora justamente quem governou o período todo.
+ */
+export function figurasDoPeriodo(
+  figuras: Figura[],
+  iso: string,
+  periodo: Periodo
+): Figura[] {
+  return figuras.filter(
+    (f) =>
+      f.paisIso === iso &&
+      f.cargos.some((c) => {
+        const comecouAntesDoFim =
+          !periodo.fim || comparaData(c.inicio, periodo.fim) < 0;
+        const terminouDepoisDoInicio =
+          !c.fim || comparaData(c.fim, periodo.inicio) >= 0;
+        return comecouAntesDoFim && terminouDepoisDoInicio;
+      })
+  );
+}

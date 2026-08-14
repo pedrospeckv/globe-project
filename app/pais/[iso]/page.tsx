@@ -6,6 +6,7 @@ import { Prosa } from "@/components/conteudo/Prosa";
 import { IndicadorChart } from "@/components/conteudo/IndicadorChart";
 import { eventosDoPais } from "@/lib/conteudo/evento";
 import { rotuloDeData } from "@/lib/conteudo/tempo";
+import { resumoDe } from "@/lib/conteudo/pais";
 import { DISPUTAS } from "@/lib/geo/disputas";
 
 const RAIZ = path.join(process.cwd(), "conteudo");
@@ -46,6 +47,12 @@ export default async function PaisPage({
           </p>
         </header>
 
+        {/*
+          Índice, não texto corrido. Empilhar a prosa inteira funcionava com
+          resumos de setecentos caracteres; com o Brasil escrito a fundo a
+          página passou de sete mil pixels de rolagem, sem âncora e sem como
+          apontar para um período específico.
+        */}
         <section className="space-y-3">
           <h2 className="text-xs uppercase tracking-wide text-slate-500">Períodos</h2>
           {pais.periodos.map((p) => (
@@ -54,39 +61,36 @@ export default async function PaisPage({
               className="rounded-lg border border-slate-800 bg-slate-900/60 p-4"
             >
               <div className="flex items-baseline justify-between gap-3">
-                <h3 className="text-sm font-semibold text-slate-100">{p.rotulo}</h3>
+                <h3 className="text-sm font-semibold text-slate-100">
+                  <Link
+                    href={`/pais/${pais.iso}/${p.id}`}
+                    className="hover:text-sky-400 hover:underline"
+                  >
+                    {p.rotulo}
+                  </Link>
+                </h3>
                 <span className="shrink-0 font-mono text-xs text-amber-500">
                   {rotuloDeData(p.inicio)}
                   {p.fim ? `–${rotuloDeData(p.fim)}` : "–"}
                 </span>
               </div>
               <p className="mt-1 text-xs text-slate-400">{p.regime}</p>
-              <Prosa texto={p.textoMdx} />
 
-              {p.entidades.length >= 2 && (
-                <div className="mt-3 border-t border-slate-800 pt-3">
-                  <p className="mb-2 text-[10px] uppercase tracking-wide text-slate-600">
-                    {p.entidades.length} Estados neste território
-                  </p>
-                  <div className="grid gap-2 sm:grid-cols-2">
-                    {p.entidades.map((e) => (
-                      <div
-                        key={e.nome}
-                        className="rounded border border-slate-800 bg-slate-950/60 p-3"
-                      >
-                        <p className="text-xs font-semibold text-slate-200">{e.nome}</p>
-                        <p className="mt-0.5 text-[11px] text-slate-400">{e.regime}</p>
-                        <Prosa texto={e.textoMdx} />
-                      </div>
-                    ))}
-                  </div>
-                  <p className="mt-2 text-[10px] leading-relaxed text-slate-600">
-                    O mapa desenha este território como uma forma só. A fronteira entre
-                    estes Estados exigiria geometria histórica, que o atlas ainda não
-                    tem — por isso o país aparece hachurado no globo neste período.
-                  </p>
-                </div>
-              )}
+              <Prosa texto={resumoDe(p)} />
+
+              <p className="mt-2 flex items-center gap-2 text-xs">
+                <Link
+                  href={`/pais/${pais.iso}/${p.id}`}
+                  className="text-sky-400 hover:underline"
+                >
+                  ler o período →
+                </Link>
+                {p.entidades.length >= 2 && (
+                  <span className="text-[10px] text-slate-600">
+                    · {p.entidades.length} Estados neste território
+                  </span>
+                )}
+              </p>
             </article>
           ))}
         </section>

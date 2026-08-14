@@ -63,6 +63,41 @@ export type Periodo = z.infer<typeof Periodo>;
 export type Pais = z.infer<typeof Pais>;
 
 /** O território abrigava mais de um Estado neste período. */
+/**
+ * A data cai dentro do período?
+ *
+ * Início inclusivo, fim exclusivo — a mesma regra do `periodoVigente`, que é
+ * o que faz 1822 pertencer ao Império e não à Colônia. Sem isso, um evento
+ * numa virada apareceria nos dois períodos de uma vez.
+ */
+export function dentroDoPeriodo(periodo: Periodo, data: string): boolean {
+  if (comparaData(data, periodo.inicio) < 0) return false;
+  return !periodo.fim || comparaData(data, periodo.fim) < 0;
+}
+
+/**
+ * Primeiro parágrafo do texto, para o índice do país.
+ *
+ * O dossiê deixou de empilhar a prosa inteira quando o Brasil chegou a
+ * 19 mil caracteres e sete mil pixels de rolagem.
+ */
+export function resumoDe(periodo: Periodo): string | undefined {
+  return periodo.textoMdx?.split("\n\n")[0];
+}
+
+/** Períodos anterior e seguinte, para atravessar o país lendo. */
+export function vizinhosDe(
+  pais: Pais,
+  id: string
+): { anterior: Periodo | null; proximo: Periodo | null } {
+  const i = pais.periodos.findIndex((p) => p.id === id);
+  if (i === -1) return { anterior: null, proximo: null };
+  return {
+    anterior: pais.periodos[i - 1] ?? null,
+    proximo: pais.periodos[i + 1] ?? null,
+  };
+}
+
 export function estaDividido(periodo: Periodo): boolean {
   return periodo.entidades.length >= 2;
 }
