@@ -1,0 +1,13 @@
+{
+  "id": "bolsonaro",
+  "nome": "Jair Messias Bolsonaro",
+  "paisIso": "BRA",
+  "cargos": [
+    {
+      "titulo": "Presidente da República",
+      "inicio": "2019-01-01",
+      "fim": "2022-12-31"
+    }
+  ],
+  "alegacoes": []
+}

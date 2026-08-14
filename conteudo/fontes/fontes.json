@@ -6,5 +6,21 @@
     "autor": "Pero Vaz de Caminha",
     "data": "1500-05-01",
     "citacao": "Relato da chegada da frota de Cabral à costa da futura Bahia, escrito em Porto Seguro e enviado a Lisboa pela nau de Gaspar de Lemos."
+  },
+  {
+    "id": "proc-condenacao-1431",
+    "tipo": "documento-oficial",
+    "titulo": "Processo de condenação de Joana d'Arc",
+    "publicacao": "Tribunal eclesiástico de Rouen",
+    "data": "1431",
+    "citacao": "Autos do julgamento presidido pelo bispo Pierre Cauchon, que concluíram pela condenação por heresia e relapsia."
+  },
+  {
+    "id": "proc-nulidade-1456",
+    "tipo": "documento-oficial",
+    "titulo": "Processo de nulidade da condenação de Joana d'Arc",
+    "publicacao": "Tribunal papal de reexame",
+    "data": "1456-07-07",
+    "citacao": "Reexame instaurado a pedido da família e autorizado pelo papa Calisto III, que anulou a sentença de 1431 e declarou Joana inocente das acusações."
   }
 ]

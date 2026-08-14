@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
 import gsap from "gsap";
 import { GlobeCanvas } from "./GlobeCanvas";
 import { GeoOverlay } from "./GeoOverlay";
@@ -207,13 +208,23 @@ export function Atlas({ mundo, paises, viagens }: Props) {
         </button>
       </div>
 
-      <p className="min-h-6 font-mono text-xs text-slate-400">
-        {paisSelecionado
-          ? periodoDoSelecionado
-            ? `${paisSelecionado.nome} · ${periodoDoSelecionado.rotulo} · ${periodoDoSelecionado.regime}`
-            : `${paisSelecionado.nome} não existia nesta data`
-          : "Clique num país aceso"}
-      </p>
+      <div className="flex min-h-6 items-center gap-3 font-mono text-xs text-slate-400">
+        <span>
+          {paisSelecionado
+            ? periodoDoSelecionado
+              ? `${paisSelecionado.nome} · ${periodoDoSelecionado.rotulo} · ${periodoDoSelecionado.regime}`
+              : `${paisSelecionado.nome} não existia nesta data`
+            : "Clique num país aceso"}
+        </span>
+        {paisSelecionado && (
+          <Link
+            href={`/pais/${paisSelecionado.iso}`}
+            className="shrink-0 text-sky-400 hover:underline"
+          >
+            abrir dossiê →
+          </Link>
+        )}
+      </div>
     </div>
   );
 }

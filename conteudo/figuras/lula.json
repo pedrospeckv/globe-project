@@ -1,0 +1,17 @@
+{
+  "id": "lula",
+  "nome": "Luiz Inácio Lula da Silva",
+  "paisIso": "BRA",
+  "cargos": [
+    {
+      "titulo": "Presidente da República",
+      "inicio": "2003-01-01",
+      "fim": "2010-12-31"
+    },
+    {
+      "titulo": "Presidente da República",
+      "inicio": "2023-01-01"
+    }
+  ],
+  "alegacoes": []
+}

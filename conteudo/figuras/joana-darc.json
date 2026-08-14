@@ -1,0 +1,17 @@
+{
+  "id": "joana-darc",
+  "nome": "Joana d'Arc",
+  "paisIso": "FRA",
+  "textoMdx": "Camponesa de Domrémy que, aos dezessete anos, obteve comando militar junto às forças de Carlos VII durante a Guerra dos Cem Anos. Capturada em Compiègne em 1430 e entregue aos ingleses, foi julgada por um tribunal eclesiástico em Rouen.",
+  "cargos": [],
+  "alegacoes": [
+    {
+      "id": "joana-heresia",
+      "enunciado": "Culpada de heresia e relapsia",
+      "status": "anulado",
+      "data": "1431-05-30",
+      "fontes": ["proc-condenacao-1431", "proc-nulidade-1456"],
+      "nota": "Condenada em 1431 por tribunal eclesiástico em Rouen, sob autoridade inglesa. O processo de nulidade concluído em 1456 anulou a sentença e declarou-a inocente das acusações. Este é um caso em que a anulação veio acompanhada de pronunciamento de mérito — diferente da anulação que decorre apenas de vício de forma ou de competência, e que não diz nada sobre os fatos. O status do card é o mesmo; a diferença está aqui."
+    }
+  ]
+}
