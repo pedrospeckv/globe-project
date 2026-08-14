@@ -1,0 +1,87 @@
+// @vitest-environment jsdom
+import path from "node:path";
+import { describe, it, expect } from "vitest";
+import { render } from "@testing-library/react";
+import PaisPage from "./page";
+import { semAnoCru } from "@/components/testes/dom";
+import { carregarAcervo } from "@/lib/conteudo/carregar";
+
+const acervo = await carregarAcervo(path.join(process.cwd(), "conteudo"));
+
+async function dossie(iso: string) {
+  return render(await PaisPage({ params: Promise.resolve({ iso }) }));
+}
+
+describe("dossiê de país", () => {
+  /*
+   * Este é o teste que faltava.
+   *
+   * Duas vezes um período antes de Cristo chegou à tela como `-300`: uma nas
+   * pontas da barra de tempo, outra aqui, no Japão. Nas duas a suíte inteira
+   * passava — `rotuloDeData` estava certo, quem renderizava é que não a
+   * chamava. Rodar contra o acervo real, e não contra fixture, é o que faz
+   * este teste quebrar quando alguém escrever o próximo período a.C. numa
+   * página que esqueceu o formatador.
+   */
+  it.each(acervo.paises.map((p) => p.iso))(
+    "%s não deixa ano negativo cru na tela",
+    async (iso) => {
+      const { container } = await dossie(iso);
+      semAnoCru(container);
+    }
+  );
+
+  it("Japão mostra 300 a.C.–300, não -300–300", async () => {
+    const { container } = await dossie("JPN");
+    expect(container.textContent).toContain("300 a.C.");
+    expect(container.textContent).toContain("Yayoi");
+  });
+
+  it("China abre no período Qin com as duas pontas formatadas", async () => {
+    const { container } = await dossie("CHN");
+    expect(container.textContent).toContain("221 a.C.–202 a.C.");
+  });
+
+  it("lista todos os períodos do país, na ordem do acervo", async () => {
+    const brasil = acervo.paises.find((p) => p.iso === "BRA")!;
+    const { container } = await dossie("BRA");
+    const titulos = [...container.querySelectorAll("section article h3")].map(
+      (h) => h.textContent
+    );
+    expect(titulos).toEqual(brasil.periodos.map((p) => p.rotulo));
+  });
+
+  it("período aberto termina em traço, não em data inventada", async () => {
+    const { container } = await dossie("BRA");
+    const ultimo = [...container.querySelectorAll("section article")].at(-1);
+    expect(ultimo?.textContent).toMatch(/1985–?$|1985–/);
+  });
+
+  it("território dividido lista os Estados e explica a hachura", async () => {
+    // Alemanha 1949–90. O mapa desenha uma forma só; a página assume isso.
+    const { container } = await dossie("DEU");
+    expect(container.textContent).toContain("Estados neste território");
+    expect(container.textContent).toContain("República Federal da Alemanha");
+    expect(container.textContent).toContain("República Democrática Alemã");
+    expect(container.textContent).toMatch(/geometria histórica/);
+  });
+
+  it("país sem divisão não mostra o bloco de Estados", async () => {
+    const { container } = await dossie("JPN");
+    expect(container.textContent).not.toContain("Estados neste território");
+  });
+
+  it("cada figura do país vira link para o próprio dossiê", async () => {
+    const { container } = await dossie("BRA");
+    const figuras = acervo.figuras.filter((f) => f.paisIso === "BRA");
+    const hrefs = [...container.querySelectorAll("a[href^='/figura/']")].map((a) =>
+      a.getAttribute("href")
+    );
+    expect(hrefs.sort()).toEqual(figuras.map((f) => `/figura/${f.id}`).sort());
+  });
+
+  it("não inventa seção de indicador quando o acervo não tem série", async () => {
+    const { container } = await dossie("BRA");
+    expect(container.textContent).not.toContain("Indicadores");
+  });
+});
