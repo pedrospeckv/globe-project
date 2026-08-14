@@ -1,0 +1,48 @@
+{
+  "iso": "RUS",
+  "nome": "Rússia",
+  "periodos": [
+    {
+      "id": "ru-moscovia",
+      "inicio": "1283",
+      "fim": "1547",
+      "rotulo": "Grão-Principado de Moscou",
+      "regime": "principado sob suserania da Horda de Ouro até 1480, depois soberano"
+    },
+    {
+      "id": "ru-czarado",
+      "inicio": "1547",
+      "fim": "1721",
+      "rotulo": "Czarado da Rússia",
+      "regime": "monarquia autocrática; expansão sobre a Sibéria"
+    },
+    {
+      "id": "ru-imperio",
+      "inicio": "1721",
+      "fim": "1917",
+      "rotulo": "Império Russo",
+      "regime": "monarquia autocrática; servidão legal até 1861"
+    },
+    {
+      "id": "ru-revolucao",
+      "inicio": "1917",
+      "fim": "1922",
+      "rotulo": "Revolução e Guerra Civil",
+      "regime": "queda da monarquia, governo provisório, tomada bolchevique e guerra civil"
+    },
+    {
+      "id": "ru-rsfsr",
+      "inicio": "1922",
+      "fim": "1991",
+      "rotulo": "República Socialista Federativa Soviética da Rússia (RSFSR)",
+      "regime": "república soviética integrante da URSS, sob partido único",
+      "textoMdx": "Este período nomeia a **RSFSR**, não a União Soviética. A distinção é deliberada: o mapa desenha as fronteiras da Rússia de hoje, e a URSS era muito maior — incluía Ucrânia, Bielorrússia, Cazaquistão, as repúblicas do Cáucaso, da Ásia Central e, a partir de 1940, os países bálticos.\n\nRotular esta forma como \"União Soviética\" faria o atlas afirmar que URSS e Rússia eram a mesma coisa. A RSFSR era a maior das quinze repúblicas da União, e é dela que a Federação Russa é sucessora."
+    },
+    {
+      "id": "ru-federacao",
+      "inicio": "1991",
+      "rotulo": "Federação Russa",
+      "regime": "república presidencialista federativa"
+    }
+  ]
+}
