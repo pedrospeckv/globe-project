@@ -30,10 +30,12 @@ async function main() {
   }
 
   const alegacoes = acervo.figuras.reduce((n, f) => n + f.alegacoes.length, 0);
+  const periodos = acervo.paises.reduce((n, p) => n + p.periodos.length, 0);
   console.log(
-    `✓ conteúdo válido — ${acervo.paises.length} países, ` +
+    `✓ conteúdo válido — ${acervo.paises.length} países (${periodos} períodos), ` +
       `${acervo.figuras.length} figuras, ${alegacoes} alegações, ` +
-      `${acervo.fontes.length} fontes, ${acervo.viagens.length} viagens`
+      `${acervo.eventos.length} eventos, ${acervo.viagens.length} viagens, ` +
+      `${acervo.indicadores.length} indicadores, ${acervo.fontes.length} fontes`
   );
 }
 

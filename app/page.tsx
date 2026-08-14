@@ -13,11 +13,17 @@ export default async function Home() {
         <header className="text-center">
           <h1 className="font-serif text-4xl tracking-tight">Atlas</h1>
           <p className="mt-1 font-mono text-xs tracking-widest text-amber-500/70">
-            {acervo.paises.length} PAÍSES · {acervo.viagens.length} VIAGENS
+            {acervo.paises.length} PAÍSES · {acervo.eventos.length} EVENTOS ·{" "}
+            {acervo.viagens.length} VIAGENS
           </p>
         </header>
 
-        <Atlas mundo={mundo} paises={acervo.paises} viagens={acervo.viagens} />
+        <Atlas
+          mundo={mundo}
+          paises={acervo.paises}
+          viagens={acervo.viagens}
+          eventos={acervo.eventos}
+        />
       </div>
     </main>
   );

@@ -6,10 +6,13 @@ import { criarProjecao } from "@/lib/geo/projecao";
 import type { PaisCurado } from "@/lib/geo/mundo";
 import type { RotaFeature } from "@/lib/geo/rota";
 import type { Alpha3 } from "@/lib/geo/iso";
+import type { Evento } from "@/lib/conteudo/evento";
 
 interface Props {
   curados: PaisCurado[];
   rotas: RotaFeature[];
+  /** Eventos próximos ao instante atual. */
+  eventos?: Evento[];
   largura: number;
   altura: number;
   alpha: number;
@@ -30,6 +33,7 @@ interface Props {
 export function GeoOverlay({
   curados,
   rotas,
+  eventos = [],
   largura,
   altura,
   alpha,
@@ -38,10 +42,11 @@ export function GeoOverlay({
   onSelecionar,
   divididos = [],
 }: Props) {
-  const path = useMemo(
-    () => geoPath(criarProjecao({ largura, altura, alpha, rotacao })),
+  const projecao = useMemo(
+    () => criarProjecao({ largura, altura, alpha, rotacao }),
     [largura, altura, alpha, rotacao]
   );
+  const path = useMemo(() => geoPath(projecao), [projecao]);
 
   const dividido = useMemo(() => new Set<string>(divididos), [divididos]);
 
@@ -107,6 +112,26 @@ export function GeoOverlay({
             >
               <title>{rota.properties.titulo}</title>
             </path>
+          );
+        })}
+      </g>
+
+      {/*
+        Marcadores de evento. Projetados pela MESMA projeção das outras
+        camadas; um ponto no lado oculto do globo devolve null e some, que é
+        o comportamento correto.
+      */}
+      <g>
+        {eventos.map((ev) => {
+          const p = projecao(ev.ponto);
+          if (!p || !Number.isFinite(p[0]) || !Number.isFinite(p[1])) return null;
+          return (
+            <g key={ev.id} transform={`translate(${p[0]},${p[1]})`}>
+              <circle r={7} fill="#f43f5e" fillOpacity={0.18} />
+              <circle r={3} fill="#f43f5e" stroke="#fecdd3" strokeWidth={0.8}>
+                <title>{`${ev.titulo} · ${ev.data}`}</title>
+              </circle>
+            </g>
           );
         })}
       </g>

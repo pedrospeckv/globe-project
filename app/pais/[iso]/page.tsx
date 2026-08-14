@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { carregarAcervo } from "@/lib/conteudo/carregar";
 import { Prosa } from "@/components/conteudo/Prosa";
 import { IndicadorChart } from "@/components/conteudo/IndicadorChart";
+import { eventosDoPais } from "@/lib/conteudo/evento";
 
 const RAIZ = path.join(process.cwd(), "conteudo");
 
@@ -25,6 +26,7 @@ export default async function PaisPage({
 
   const figuras = acervo.figuras.filter((f) => f.paisIso === iso);
   const indicadores = acervo.indicadores.filter((i) => i.paisIso === iso);
+  const eventos = eventosDoPais(acervo.eventos, iso);
 
   return (
     <main className="min-h-screen bg-slate-950 py-10 text-slate-100">
@@ -85,6 +87,35 @@ export default async function PaisPage({
             </article>
           ))}
         </section>
+
+        {eventos.length > 0 && (
+          <section className="space-y-2">
+            <h2 className="text-xs uppercase tracking-wide text-slate-500">Eventos</h2>
+            <ol className="space-y-2">
+              {eventos.map((e) => (
+                <li
+                  key={e.id}
+                  className="rounded border border-slate-800 bg-slate-900/60 p-3"
+                >
+                  <div className="flex items-baseline justify-between gap-3">
+                    <span className="text-sm font-medium text-slate-100">
+                      {e.titulo}
+                    </span>
+                    <span className="shrink-0 font-mono text-xs text-rose-400">
+                      {e.data}
+                    </span>
+                  </div>
+                  {e.paises.length > 1 && (
+                    <p className="mt-0.5 font-mono text-[10px] text-slate-600">
+                      também: {e.paises.filter((p) => p !== iso).join(", ")}
+                    </p>
+                  )}
+                  <Prosa texto={e.textoMdx} />
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
 
         {figuras.length > 0 && (
           <section className="space-y-2">

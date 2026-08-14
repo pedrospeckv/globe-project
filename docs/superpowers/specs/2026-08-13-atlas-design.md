@@ -131,7 +131,7 @@ Entidade    nome, regime, textoMdx        ← Estado que dividiu o território
 Figura      nome, paisId, cargos[], alegacoes[], textoMdx
 Alegacao    enunciado, status, datas, fontes[]        ← fontes obrigatório
 Fonte       tipo, titulo, autor, publicacao, data, url, citacao
-Evento      data, ponto, paises[], titulo, textoMdx, fontes[]
+Evento      data, ponto, paises[], titulo, textoMdx, fontes[]   ← fontes OPCIONAL
 Viagem      titulo, ano, paradas[]
 Parada      local, coords, data, textoMdx
 Indicador   paisId, nome, unidade, fonte, serie[]     ← CSV
@@ -140,6 +140,15 @@ Indicador   paisId, nome, unidade, fonte, serie[]     ← CSV
 **Fonte é entidade, não string.** A mesma sentença citada em cinco alegações existe uma vez só,
 o que viabiliza uma página "tudo que depende desta fonte". Barato agora, impossível de
 retroajustar depois.
+
+> **Adendo de 2026-08-14 — por que Evento não exige fonte.** `Alegacao` rejeita conteúdo sem
+> lastro; `Evento` aceita. A assimetria é deliberada e carrega o sentido do modelo: alegação é
+> afirmação **contestada**, evento é acontecimento **datado e consolidado**. Exigir fonte dos
+> dois borraria exatamente a linha que o projeto existe para traçar.
+>
+> A regra prática que decorre disso: **quando um acontecimento é disputado, ele não é evento —
+> é alegação.** O campo `fontes` continua disponível no evento, e deve ser usado onde houver
+> número controverso.
 
 ### Organização em disco
 

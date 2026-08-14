@@ -43,6 +43,7 @@ function acervoBase(): Acervo {
     ],
     viagens: [],
     indicadores: [],
+    eventos: [],
   };
 }
 
@@ -122,6 +123,32 @@ describe("verificarIntegridade", () => {
       serie: [{ ano: 2012, valor: 25 }],
     });
     expect(verificarIntegridade(a).some((e) => /ARG/.test(e))).toBe(true);
+  });
+
+  it("ACUSA evento em país que não está no atlas", () => {
+    const a = acervoBase();
+    a.eventos.push({
+      id: "evento-x",
+      data: "1789-07-14",
+      titulo: "Evento",
+      ponto: [0, 0],
+      paises: ["ARG"],
+      fontes: [],
+    });
+    expect(verificarIntegridade(a).some((e) => /ARG/.test(e))).toBe(true);
+  });
+
+  it("ACUSA evento que cita fonte inexistente", () => {
+    const a = acervoBase();
+    a.eventos.push({
+      id: "evento-y",
+      data: "1789-07-14",
+      titulo: "Evento",
+      ponto: [0, 0],
+      paises: ["BRA"],
+      fontes: ["fonte-fantasma"],
+    });
+    expect(verificarIntegridade(a).some((e) => /fonte-fantasma/.test(e))).toBe(true);
   });
 
   it("acumula todos os erros em vez de parar no primeiro", () => {

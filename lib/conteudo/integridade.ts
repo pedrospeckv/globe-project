@@ -3,6 +3,7 @@ import type { Figura } from "./figura";
 import type { Pais } from "./pais";
 import type { Viagem } from "./viagem";
 import type { Indicador } from "./indicador";
+import type { Evento } from "./evento";
 
 export interface Acervo {
   fontes: Fonte[];
@@ -10,6 +11,7 @@ export interface Acervo {
   figuras: Figura[];
   viagens: Viagem[];
   indicadores: Indicador[];
+  eventos: Evento[];
 }
 
 function duplicados(ids: string[]): string[] {
@@ -72,6 +74,25 @@ export function verificarIntegridade(acervo: Acervo): string[] {
     for (const fonteId of viagem.fontes) {
       if (!idsFonte.has(fonteId)) {
         erros.push(`viagem "${viagem.id}" cita fonte inexistente: ${fonteId}`);
+      }
+    }
+  }
+
+  for (const id of duplicados(acervo.eventos.map((e) => e.id))) {
+    erros.push(`evento com id duplicado: ${id}`);
+  }
+
+  for (const evento of acervo.eventos) {
+    for (const iso of evento.paises) {
+      if (!isoPaises.has(iso)) {
+        erros.push(
+          `evento "${evento.id}" referencia país ${iso}, que não está no atlas`
+        );
+      }
+    }
+    for (const fonteId of evento.fontes) {
+      if (!idsFonte.has(fonteId)) {
+        erros.push(`evento "${evento.id}" cita fonte inexistente: ${fonteId}`);
       }
     }
   }

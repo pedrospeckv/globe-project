@@ -43,6 +43,17 @@ export function comparaData(a: string, b: string): number {
   return anoA - anoB || mesA - mesB || diaA - diaB;
 }
 
+/**
+ * [longitude, latitude] — ordem GeoJSON, que é a que o d3-geo espera.
+ * Vive aqui, e não em viagem.ts, porque evento e viagem usam a mesma.
+ */
+export const Coordenada = z.tuple([
+  z.number().min(-180).max(180),
+  z.number().min(-90).max(90),
+]);
+
+export type Coordenada = z.infer<typeof Coordenada>;
+
 /** Identificador estável usado em referências entre arquivos. */
 export const Id = z
   .string()

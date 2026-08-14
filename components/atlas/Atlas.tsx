@@ -18,6 +18,7 @@ import {
 } from "@/lib/conteudo/tempo";
 import { estaDividido, type Pais } from "@/lib/conteudo/pais";
 import type { Viagem } from "@/lib/conteudo/viagem";
+import { eventosEm, type Evento } from "@/lib/conteudo/evento";
 
 const LARGURA = 900;
 const ALTURA = 560;
@@ -26,13 +27,14 @@ interface Props {
   mundo: PaisFeature[];
   paises: Pais[];
   viagens: Viagem[];
+  eventos: Evento[];
 }
 
 /**
  * Único dono do estado. Tudo abaixo recebe props e não guarda estado próprio,
  * o que torna impossível globo, barra de tempo e rotas dessincronizarem.
  */
-export function Atlas({ mundo, paises, viagens }: Props) {
+export function Atlas({ mundo, paises, viagens, eventos }: Props) {
   const [alpha, setAlpha] = useState(0);
   const [rotacao, setRotacao] = useState<[number, number]>([-40, -10]);
   const [selecionado, setSelecionado] = useState<Alpha3 | null>(null);
@@ -98,6 +100,15 @@ export function Atlas({ mundo, paises, viagens }: Props) {
         .filter((r): r is RotaFeature => r !== null),
     [viagens, dataAtual]
   );
+
+  /**
+   * Eventos próximos ao instante atual. A janela é proporcional à escala da
+   * barra: ampla quando ela cobre séculos, estreita quando foca uma viagem.
+   */
+  const eventosVisiveis = useMemo(() => {
+    const janela = Math.max((dominio[1] - dominio[0]) / 40, 0.5);
+    return eventosEm(eventos, tempo, janela);
+  }, [eventos, tempo, dominio]);
 
   const marcas = useMemo(() => {
     const v = viagens.find((x) => x.id === viagemFoco);
@@ -183,6 +194,7 @@ export function Atlas({ mundo, paises, viagens }: Props) {
         <GeoOverlay
           curados={curados}
           rotas={rotas}
+          eventos={eventosVisiveis}
           largura={LARGURA}
           altura={ALTURA}
           alpha={alpha}
@@ -221,6 +233,16 @@ export function Atlas({ mundo, paises, viagens }: Props) {
           {alpha < 0.5 ? "Desenrolar" : "Enrolar"}
         </button>
       </div>
+
+      {eventosVisiveis.length > 0 && (
+        <ul className="flex max-w-3xl flex-wrap justify-center gap-x-4 gap-y-1 text-xs text-rose-300/90">
+          {eventosVisiveis.map((ev) => (
+            <li key={ev.id}>
+              <span className="font-mono text-rose-400/70">{ev.data}</span> {ev.titulo}
+            </li>
+          ))}
+        </ul>
+      )}
 
       <div className="flex min-h-6 items-center gap-3 font-mono text-xs text-slate-400">
         <span>

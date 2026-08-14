@@ -47,6 +47,7 @@ describe("carregarAcervo", () => {
       figuras: [],
       viagens: [],
       indicadores: [],
+      eventos: [],
     });
   });
 });

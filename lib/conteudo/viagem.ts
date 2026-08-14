@@ -1,11 +1,7 @@
 import { z } from "zod";
-import { DataHistorica, Id, comparaData } from "./primitivos";
+import { Coordenada, DataHistorica, Id, comparaData } from "./primitivos";
 
-/** [longitude, latitude] — ordem GeoJSON, que é a que o d3-geo espera. */
-export const Coordenada = z.tuple([
-  z.number().min(-180).max(180),
-  z.number().min(-90).max(90),
-]);
+export { Coordenada };
 
 export const Parada = z.object({
   local: z.string().min(1),
@@ -34,7 +30,6 @@ export const Viagem = z
     { message: "paradas devem estar em ordem cronológica", path: ["paradas"] }
   );
 
-export type Coordenada = z.infer<typeof Coordenada>;
 export type Parada = z.infer<typeof Parada>;
 export type Viagem = z.infer<typeof Viagem>;
 
