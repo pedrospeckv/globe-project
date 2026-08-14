@@ -1,4 +1,5 @@
 import { StatusBadge } from "./StatusBadge";
+import { rotuloDeData } from "@/lib/conteudo/tempo";
 import type { Alegacao } from "@/lib/conteudo/alegacao";
 import type { Fonte } from "@/lib/conteudo/fonte";
 
@@ -28,7 +29,9 @@ export function AlegacaoCard({
       </header>
 
       {alegacao.data && (
-        <p className="mt-1 font-mono text-[11px] text-slate-500">{alegacao.data}</p>
+        <p className="mt-1 font-mono text-[11px] text-slate-500">
+          {rotuloDeData(alegacao.data)}
+        </p>
       )}
 
       {alegacao.nota && (
@@ -58,7 +61,9 @@ export function AlegacaoCard({
               )}
               {f.autor && <span className="text-slate-600"> · {f.autor}</span>}
               {f.publicacao && <span className="text-slate-600"> · {f.publicacao}</span>}
-              {f.data && <span className="text-slate-600"> · {f.data}</span>}
+              {f.data && (
+                <span className="text-slate-600"> · {rotuloDeData(f.data)}</span>
+              )}
             </li>
           ))}
         </ul>

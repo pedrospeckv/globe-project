@@ -107,6 +107,22 @@ export function intervaloDaViagem(viagem: Viagem): [number, number] {
 }
 
 /**
+ * Formata uma DataHistorica para exibição.
+ *
+ * Existe porque o sinal negativo NUNCA deve chegar à tela: "-300" é 300 a.C.,
+ * não menos trezentos. Todo lugar que renderiza data crua passa por aqui.
+ *
+ * Datas d.C. saem inalteradas, para não mexer no que já estava certo.
+ */
+export function rotuloDeData(data: string): string {
+  const [ano] = partesDe(data);
+  if (ano >= 0) return data;
+
+  const resto = data.replace(/^-\d{1,4}/, "");
+  return `${Math.abs(ano)} a.C.${resto ? ` (${resto.slice(1)})` : ""}`;
+}
+
+/**
  * Rótulo adequado à escala: só o ano em escala longa, mês e ano em curta.
  * O sinal negativo nunca aparece na tela — vira o sufixo "a.C.".
  */

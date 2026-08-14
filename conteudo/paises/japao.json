@@ -3,12 +3,52 @@
   "nome": "Japão",
   "periodos": [
     {
+      "id": "jp-yayoi",
+      "inicio": "-300",
+      "fim": "300",
+      "rotulo": "Período Yayoi",
+      "regime": "chefaturas em formação; nenhum Estado unificado",
+      "textoMdx": "A chegada do cultivo irrigado do arroz, da metalurgia de bronze e ferro e da tecelagem — vindos da península coreana — transforma uma sociedade de caçadores-coletores em sociedade agrária estratificada. Excedente agrícola produz desigualdade, e desigualdade produz chefes.\n\nOs primeiros registros escritos sobre o arquipélago são chineses. As crônicas do reino de Wei, do século III, descrevem dezenas de pequenos reinos e um deles, Yamatai, governado por uma sacerdotisa chamada Himiko, que enviou embaixada à corte chinesa. A localização de Yamatai é disputada por historiadores japoneses há mais de dois séculos.\n\n*Duas ressalvas. A data de início é a convencional; datações por radiocarbono publicadas a partir dos anos 2000 sugerem que o Yayoi possa ter começado vários séculos antes, e a questão segue aberta. E o atlas ignora o período Jōmon, anterior e muito mais longo, porque sua unidade de conteúdo é o Estado — e ali não havia Estado a descrever.*"
+    },
+    {
+      "id": "jp-kofun",
+      "inicio": "300",
+      "fim": "538",
+      "rotulo": "Período Kofun",
+      "regime": "confederação de clãs sob hegemonia crescente da corte de Yamato",
+      "textoMdx": "O nome vem dos *kofun*, túmulos monumentais em forma de fechadura construídos para a elite. O maior deles, atribuído ao imperador Nintoku, tem cerca de 486 metros de comprimento e é uma das maiores estruturas funerárias do mundo em área.\n\nA escala dessas obras revela o que os documentos não registram: já havia poder capaz de mobilizar trabalho em massa. A corte de Yamato, na região da atual Nara, vai submetendo os demais clãs.\n\nA escrita chinesa, o cavalo e técnicas de metalurgia chegam pela Coreia. É deste período que a casa imperial japonesa reivindica continuidade dinástica.\n\n*Os maiores kofun são administrados pela Agência da Casa Imperial e permanecem fechados a escavação arqueológica, o que mantém em aberto perguntas básicas sobre quem está enterrado neles.*"
+    },
+    {
+      "id": "jp-asuka",
+      "inicio": "538",
+      "fim": "710",
+      "rotulo": "Período Asuka",
+      "regime": "monarquia em centralização, sob modelo administrativo chinês",
+      "textoMdx": "A chegada do budismo, por volta de 538, divide a corte entre clãs que o adotam e clãs que defendem os cultos nativos. O conflito se resolve militarmente, e o budismo se torna religião de Estado sem eliminar o xintoísmo — convivência que define a religiosidade japonesa até hoje.\n\nAs Reformas Taika, a partir de 645, importam o modelo chinês: terras nacionalizadas em nome do imperador, censo, tributação direta e burocracia por códigos escritos. O título de *tennō*, imperador, se firma no lugar dos títulos anteriores.\n\nÉ também quando o país passa a se chamar Nihon, origem do sol, nome adotado em correspondência com a corte chinesa por volta de 700."
+    },
+    {
+      "id": "jp-nara",
+      "inicio": "710",
+      "fim": "794",
+      "rotulo": "Período Nara",
+      "regime": "Estado centralizado sob os códigos ritsuryō",
+      "textoMdx": "A capital fixa em Heijō-kyō, a atual Nara, é planejada em quadrícula copiando Chang'an, capital dos Tang. Antes disso a corte mudava de lugar a cada reinado.\n\nEm oitenta e quatro anos o Japão produz seus primeiros livros: o *Kojiki*, de 712, e o *Nihon Shoki*, de 720, que fixam por escrito a mitologia de fundação e a genealogia imperial. É deles que vem a data tradicional de 660 a.C. para a fundação do império por Jimmu — data mitológica, sem sustentação arqueológica, que o Estado japonês do início do século XX tratou como história oficial.\n\nO Grande Buda de Nara, concluído em 752, consome tanto bronze que a escassez resultante é apontada como um dos fatores da mudança de capital."
+    },
+    {
+      "id": "jp-heian",
+      "inicio": "794",
+      "fim": "1185",
+      "rotulo": "Período Heian",
+      "regime": "monarquia sob regência hereditária do clã Fujiwara",
+      "textoMdx": "A capital se transfere para Heian-kyō, a atual Quioto, onde permanecerá por mais de mil anos.\n\nO clã Fujiwara toma o poder efetivo sem tomar o trono: casa suas filhas com imperadores e governa como regente do próprio neto. É o primeiro exemplo do padrão que definiria a política japonesa — o titular reina, outro governa.\n\nA corte desenvolve uma cultura literária de refinamento extremo, e o mais duradouro dela é escrito por mulheres: *O Conto de Genji*, de Murasaki Shikibu, por volta do ano 1000, é considerado o primeiro romance psicológico do mundo.\n\nEnquanto a corte se ocupa de estética, o poder militar se acumula na província. A guerra entre os clãs Taira e Minamoto, entre 1180 e 1185, encerra o período."
+    },
+    {
       "id": "jp-kamakura",
       "inicio": "1185",
       "fim": "1336",
       "rotulo": "Xogunato Kamakura",
       "regime": "governo militar do xogum, com o imperador reduzido a autoridade cerimonial",
-      "textoMdx": "A guerra entre os clãs Taira e Minamoto termina em 1185 com a vitória dos Minamoto, que instalam em Kamakura um governo militar paralelo à corte imperial de Quioto.\n\nO arranjo que nasce aí dura quase sete séculos: o imperador permanece como fonte de legitimidade e autoridade religiosa, enquanto o poder efetivo pertence ao xogum. O Japão terá dois centros de governo simultâneos até 1868.\n\nAs duas tentativas de invasão mongol, em 1274 e 1281, são desfeitas em parte por tempestades — origem da expressão *kamikaze*, vento divino. A defesa esgota as finanças do xogunato, que não tem terras conquistadas para recompensar os guerreiros mobilizados, e isso corrói seu apoio.\n\n*O atlas começa o Japão em 1185. A história do arquipélago é muito anterior; o formato de datas ainda não aceita anos antes de Cristo.*"
+      "textoMdx": "A guerra entre os clãs Taira e Minamoto termina em 1185 com a vitória dos Minamoto, que instalam em Kamakura um governo militar paralelo à corte imperial de Quioto.\n\nO arranjo que nasce aí dura quase sete séculos: o imperador permanece como fonte de legitimidade e autoridade religiosa, enquanto o poder efetivo pertence ao xogum. O Japão terá dois centros de governo simultâneos até 1868.\n\nAs duas tentativas de invasão mongol, em 1274 e 1281, são desfeitas em parte por tempestades — origem da expressão *kamikaze*, vento divino. A defesa esgota as finanças do xogunato, que não tem terras conquistadas para recompensar os guerreiros mobilizados, e isso corrói seu apoio."
     },
     {
       "id": "jp-ashikaga",

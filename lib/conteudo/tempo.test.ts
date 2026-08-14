@@ -6,6 +6,7 @@ import {
   intervaloDoAcervo,
   intervaloDaViagem,
   rotuloDeAno,
+  rotuloDeData,
 } from "./tempo";
 import type { Pais } from "./pais";
 import type { Viagem } from "./viagem";
@@ -90,6 +91,18 @@ describe("datas antes de Cristo na linha do tempo", () => {
     for (let n = -3; n <= 3; n += 0.25) {
       expect(dataDeAnoFracionario(n)).not.toMatch(/^-?0(-|$)/);
     }
+  });
+
+  it("rotuloDeData nunca deixa o sinal chegar à tela", () => {
+    expect(rotuloDeData("-300")).toBe("300 a.C.");
+    expect(rotuloDeData("-221")).toBe("221 a.C.");
+    expect(rotuloDeData("-44-03-15")).toBe("44 a.C. (03-15)");
+  });
+
+  it("rotuloDeData deixa data d.C. intacta", () => {
+    expect(rotuloDeData("1500")).toBe("1500");
+    expect(rotuloDeData("1500-04-22")).toBe("1500-04-22");
+    expect(rotuloDeData("843")).toBe("843");
   });
 
   it("o rótulo mostra a.C. em vez do sinal", () => {

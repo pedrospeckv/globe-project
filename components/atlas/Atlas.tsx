@@ -15,6 +15,7 @@ import {
   intervaloDaViagem,
   intervaloDoAcervo,
   periodoVigente,
+  rotuloDeData,
 } from "@/lib/conteudo/tempo";
 import { estaDividido, type Pais } from "@/lib/conteudo/pais";
 import type { Viagem } from "@/lib/conteudo/viagem";
@@ -115,7 +116,7 @@ export function Atlas({ mundo, paises, viagens, eventos }: Props) {
     if (v) {
       return v.paradas.map((p) => ({
         pos: anoFracionarioDe(p.data),
-        rotulo: `${p.local} · ${p.data}`,
+        rotulo: `${p.local} · ${rotuloDeData(p.data)}`,
       }));
     }
     return paises.flatMap((p) =>
@@ -238,7 +239,8 @@ export function Atlas({ mundo, paises, viagens, eventos }: Props) {
         <ul className="flex max-w-3xl flex-wrap justify-center gap-x-4 gap-y-1 text-xs text-rose-300/90">
           {eventosVisiveis.map((ev) => (
             <li key={ev.id}>
-              <span className="font-mono text-rose-400/70">{ev.data}</span> {ev.titulo}
+              <span className="font-mono text-rose-400/70">{rotuloDeData(ev.data)}</span>{" "}
+              {ev.titulo}
             </li>
           ))}
         </ul>

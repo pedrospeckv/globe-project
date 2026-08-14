@@ -7,6 +7,7 @@ import type { PaisCurado } from "@/lib/geo/mundo";
 import type { RotaFeature } from "@/lib/geo/rota";
 import type { Alpha3 } from "@/lib/geo/iso";
 import type { Evento } from "@/lib/conteudo/evento";
+import { rotuloDeData } from "@/lib/conteudo/tempo";
 
 interface Props {
   curados: PaisCurado[];
@@ -129,7 +130,7 @@ export function GeoOverlay({
             <g key={ev.id} transform={`translate(${p[0]},${p[1]})`}>
               <circle r={7} fill="#f43f5e" fillOpacity={0.18} />
               <circle r={3} fill="#f43f5e" stroke="#fecdd3" strokeWidth={0.8}>
-                <title>{`${ev.titulo} · ${ev.data}`}</title>
+                <title>{`${ev.titulo} · ${rotuloDeData(ev.data)}`}</title>
               </circle>
             </g>
           );

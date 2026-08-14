@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { carregarAcervo } from "@/lib/conteudo/carregar";
 import { AlegacaoCard } from "@/components/conteudo/AlegacaoCard";
 import { Prosa } from "@/components/conteudo/Prosa";
+import { rotuloDeData } from "@/lib/conteudo/tempo";
 
 const RAIZ = path.join(process.cwd(), "conteudo");
 
@@ -56,8 +57,8 @@ export default async function FiguraPage({
                 >
                   <span className="text-slate-200">{c.titulo}</span>
                   <span className="shrink-0 font-mono text-xs text-amber-500">
-                    {c.inicio}
-                    {c.fim ? `–${c.fim}` : "–"}
+                    {rotuloDeData(c.inicio)}
+                    {c.fim ? `–${rotuloDeData(c.fim)}` : "–"}
                   </span>
                 </li>
               ))}

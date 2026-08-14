@@ -5,6 +5,7 @@ import { carregarAcervo } from "@/lib/conteudo/carregar";
 import { Prosa } from "@/components/conteudo/Prosa";
 import { IndicadorChart } from "@/components/conteudo/IndicadorChart";
 import { eventosDoPais } from "@/lib/conteudo/evento";
+import { rotuloDeData } from "@/lib/conteudo/tempo";
 
 const RAIZ = path.join(process.cwd(), "conteudo");
 
@@ -53,8 +54,8 @@ export default async function PaisPage({
               <div className="flex items-baseline justify-between gap-3">
                 <h3 className="text-sm font-semibold text-slate-100">{p.rotulo}</h3>
                 <span className="shrink-0 font-mono text-xs text-amber-500">
-                  {p.inicio}
-                  {p.fim ? `–${p.fim}` : "–"}
+                  {rotuloDeData(p.inicio)}
+                  {p.fim ? `–${rotuloDeData(p.fim)}` : "–"}
                 </span>
               </div>
               <p className="mt-1 text-xs text-slate-400">{p.regime}</p>
@@ -102,7 +103,7 @@ export default async function PaisPage({
                       {e.titulo}
                     </span>
                     <span className="shrink-0 font-mono text-xs text-rose-400">
-                      {e.data}
+                      {rotuloDeData(e.data)}
                     </span>
                   </div>
                   {e.paises.length > 1 && (
