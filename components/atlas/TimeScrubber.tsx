@@ -1,8 +1,12 @@
 "use client";
 
-import { useCallback, useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import gsap from "gsap";
-import { rotuloDeAno } from "@/lib/conteudo/tempo";
+import {
+  anoFracionarioDe,
+  interpretarData,
+  rotuloDeAno,
+} from "@/lib/conteudo/tempo";
 
 interface Props {
   valor: number;
@@ -40,6 +44,33 @@ export function TimeScrubber({ valor, dominio, onChange, marcas = [] }: Props) {
     tocando.current = null;
   }, []);
 
+  /*
+   * Digitar a data.
+   *
+   * Numa barra que cobre 3.600 anos em 900 pixels, cada pixel vale quatro
+   * anos: arrastar não alcança 2014, nem 1206, nem nenhum ano específico. A
+   * barra serve para percorrer; o campo serve para chegar.
+   */
+  const [texto, setTexto] = useState("");
+  const [erro, setErro] = useState(false);
+
+  const irPara = useCallback(
+    (e: React.FormEvent) => {
+      e.preventDefault();
+      const data = interpretarData(texto);
+      if (data === null) {
+        setErro(true);
+        return;
+      }
+      setErro(false);
+      parar();
+      const alvo = anoFracionarioDe(data);
+      // Fora do domínio, encosta na ponta em vez de recusar em silêncio.
+      onChange(normalizar(Math.min(Math.max(alvo, ini), fim)));
+    },
+    [texto, parar, onChange, normalizar, ini, fim]
+  );
+
   const tocar = useCallback(() => {
     parar();
     // Se já está no fim, recomeça — senão o botão não faria nada.
@@ -59,7 +90,30 @@ export function TimeScrubber({ valor, dominio, onChange, marcas = [] }: Props) {
         <span className="font-mono text-lg text-amber-400">
           {rotuloDeAno(valor, amplitude)}
         </span>
-        <div className="flex gap-2 text-xs">
+        <div className="flex items-center gap-2 text-xs">
+          <form onSubmit={irPara} className="flex items-center gap-1">
+            <input
+              value={texto}
+              onChange={(e) => {
+                setTexto(e.target.value);
+                setErro(false);
+              }}
+              placeholder="1206, 221 a.C., 1500-04-22"
+              aria-label="Ir para a data"
+              aria-invalid={erro}
+              className={`w-44 rounded border bg-slate-900/60 px-2 py-1 font-mono text-slate-200 placeholder:text-slate-600 focus:outline-none ${
+                erro
+                  ? "border-rose-500/70 text-rose-300"
+                  : "border-slate-600 focus:border-amber-500/70"
+              }`}
+            />
+            <button
+              type="submit"
+              className="rounded border border-slate-600 px-2 py-1 text-slate-300 transition-colors hover:bg-slate-800"
+            >
+              Ir
+            </button>
+          </form>
           <button
             onClick={tocar}
             className="rounded border border-slate-600 px-2 py-1 text-slate-300 transition-colors hover:bg-slate-800"

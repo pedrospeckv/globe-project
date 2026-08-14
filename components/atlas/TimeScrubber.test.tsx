@@ -122,6 +122,76 @@ describe("TimeScrubber", () => {
     expect(marca.style.left).toBe("0%");
   });
 
+  describe("ir para a data digitada", () => {
+    // Com 3.600 anos em 900px cada pixel vale quatro anos: arrastar não
+    // alcança 2014. A barra percorre; o campo chega.
+    function digitar(container: HTMLElement, valor: string) {
+      const campo = container.querySelector(
+        "input[aria-label='Ir para a data']"
+      ) as HTMLInputElement;
+      fireEvent.change(campo, { target: { value: valor } });
+      fireEvent.submit(campo.closest("form")!);
+      return campo;
+    }
+
+    it("leva ao ano exato que a barra não alcança", () => {
+      const onChange = vi.fn();
+      const { container } = render(
+        <TimeScrubber valor={1500} dominio={LONGA} onChange={onChange} />
+      );
+      digitar(container, "2014");
+      expect(onChange).toHaveBeenCalledWith(2014);
+    });
+
+    it("entende a data antes de Cristo escrita como se lê", () => {
+      const onChange = vi.fn();
+      const { container } = render(
+        <TimeScrubber valor={1500} dominio={LONGA} onChange={onChange} />
+      );
+      digitar(container, "221 a.C.");
+      expect(onChange).toHaveBeenCalledWith(anoFracionarioDe("-221"));
+    });
+
+    it("na escala de uma viagem preserva o dia digitado", () => {
+      const onChange = vi.fn();
+      const { container } = render(
+        <TimeScrubber valor={CURTA[0]} dominio={CURTA} onChange={onChange} />
+      );
+      digitar(container, "1500-04-24");
+      expect(onChange).toHaveBeenCalledWith(anoFracionarioDe("1500-04-24"));
+    });
+
+    it("fora do domínio encosta na ponta em vez de recusar calado", () => {
+      const onChange = vi.fn();
+      const { container } = render(
+        <TimeScrubber valor={CURTA[0]} dominio={CURTA} onChange={onChange} />
+      );
+      digitar(container, "1900");
+      expect(onChange).toHaveBeenCalledWith(CURTA[1]);
+    });
+
+    it("texto inválido marca o campo e não move a barra", () => {
+      const onChange = vi.fn();
+      const { container } = render(
+        <TimeScrubber valor={1500} dominio={LONGA} onChange={onChange} />
+      );
+      const campo = digitar(container, "ontem");
+      expect(onChange).not.toHaveBeenCalled();
+      expect(campo.getAttribute("aria-invalid")).toBe("true");
+    });
+
+    it("corrigir o texto limpa o erro", () => {
+      const onChange = vi.fn();
+      const { container } = render(
+        <TimeScrubber valor={1500} dominio={LONGA} onChange={onChange} />
+      );
+      const campo = digitar(container, "ontem");
+      expect(campo.getAttribute("aria-invalid")).toBe("true");
+      fireEvent.change(campo, { target: { value: "1206" } });
+      expect(campo.getAttribute("aria-invalid")).toBe("false");
+    });
+  });
+
   it("a barra tem nome acessível — ela é invisível por cima do traço", () => {
     const { container } = render(
       <TimeScrubber valor={1500} dominio={LONGA} onChange={() => {}} />

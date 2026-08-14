@@ -1,4 +1,4 @@
-import { partesDe } from "./primitivos";
+import { partesDe, DataHistorica } from "./primitivos";
 import type { Pais, Periodo } from "./pais";
 import type { Viagem } from "./viagem";
 
@@ -114,6 +114,33 @@ export function intervaloDaViagem(viagem: Viagem): [number, number] {
  *
  * Datas d.C. saem inalteradas, para não mexer no que já estava certo.
  */
+/**
+ * Lê uma data escrita à mão e devolve a forma do acervo, ou null.
+ *
+ * Aceita o que uma pessoa realmente digita: `2014`, `1500-04-22`,
+ * `221 a.C.`, `221 aC`, `-221`, `44 d.C.`. É a volta do `rotuloDeData` — o
+ * que a tela mostra tem que poder ser digitado de novo.
+ */
+export function interpretarData(texto: string): string | null {
+  const t = texto.trim();
+  if (!t) return null;
+
+  const antes = /^(\d{1,4})\s*a\.?\s*c\.?$/i.exec(t);
+  if (antes) {
+    const ano = Number(antes[1]);
+    return ano === 0 ? null : `-${ano}`;
+  }
+
+  const depois = /^(\d{1,4})\s*d\.?\s*c\.?$/i.exec(t);
+  if (depois) {
+    const ano = Number(depois[1]);
+    return ano === 0 ? null : String(ano);
+  }
+
+  const r = DataHistorica.safeParse(t);
+  return r.success ? r.data : null;
+}
+
 export function rotuloDeData(data: string): string {
   const [ano] = partesDe(data);
   if (ano >= 0) return data;

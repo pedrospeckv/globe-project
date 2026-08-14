@@ -7,6 +7,7 @@ import {
   intervaloDaViagem,
   rotuloDeAno,
   rotuloDeData,
+  interpretarData,
 } from "./tempo";
 import type { Pais } from "./pais";
 import type { Viagem } from "./viagem";
@@ -177,6 +178,37 @@ describe("intervaloDaViagem", () => {
     const [vi, vf] = intervaloDaViagem(cabral);
     const [ai, af] = intervaloDoAcervo([brasil]);
     expect(vf - vi).toBeLessThan((af - ai) / 10);
+  });
+});
+
+describe("interpretarData", () => {
+  it("lê o que uma pessoa digita", () => {
+    expect(interpretarData("2014")).toBe("2014");
+    expect(interpretarData("1500-04-22")).toBe("1500-04-22");
+    expect(interpretarData(" 1206 ")).toBe("1206");
+  });
+
+  it("lê as formas de antes de Cristo", () => {
+    expect(interpretarData("221 a.C.")).toBe("-221");
+    expect(interpretarData("221 aC")).toBe("-221");
+    expect(interpretarData("221 A.C.")).toBe("-221");
+    expect(interpretarData("-221")).toBe("-221");
+  });
+
+  it("aceita d.C. explícito", () => {
+    expect(interpretarData("44 d.C.")).toBe("44");
+  });
+
+  it("é a volta do rotuloDeData — o que a tela mostra pode ser redigitado", () => {
+    for (const data of ["-300", "-221", "1500", "843", "2014"]) {
+      expect(interpretarData(rotuloDeData(data))).toBe(data);
+    }
+  });
+
+  it("recusa o que não é data em vez de chutar", () => {
+    for (const lixo of ["", "  ", "ontem", "0", "0 a.C.", "12345", "1500-13", "abc"]) {
+      expect(interpretarData(lixo)).toBeNull();
+    }
   });
 });
 
