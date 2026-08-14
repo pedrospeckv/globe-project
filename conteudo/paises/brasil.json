@@ -7,48 +7,55 @@
       "inicio": "1500",
       "fim": "1822",
       "rotulo": "Brasil Colônia",
-      "regime": "colônia do Império Português"
+      "regime": "colônia do Império Português",
+      "textoMdx": "O território é incorporado ao império português a partir de 1500 e administrado por três séculos como fonte de matérias-primas: pau-brasil no início, açúcar no Nordeste a partir de 1530, ouro em Minas Gerais no século XVIII.\n\nA economia se estrutura sobre trabalho escravizado. Estima-se que cerca de 4,8 milhões de africanos tenham desembarcado aqui — o maior destino do tráfico atlântico, mais de um terço do total.\n\nEm 1808 a corte portuguesa se transfere para o Rio de Janeiro, fugindo das tropas napoleônicas, e a colônia passa a sediar o governo do próprio império que a colonizava. É a inversão que torna a independência de 1822 quase administrativa.\n\n*O atlas começa o Brasil em 1500 por adotar o Estado como unidade. Isso deixa de fora tudo o que existia antes: centenas de povos indígenas com línguas e organizações políticas próprias, cuja população nesta data é objeto de estimativas que variam entre 1 e 8 milhões de pessoas.*"
     },
     {
       "id": "br-imperio",
       "inicio": "1822",
       "fim": "1889",
       "rotulo": "Império do Brasil",
-      "regime": "monarquia constitucional parlamentarista"
+      "regime": "monarquia constitucional parlamentarista",
+      "textoMdx": "Único país da América Latina a se tornar independente como monarquia, e a manter unidade territorial onde a América espanhola se fragmentou em repúblicas.\n\nA Constituição de 1824 cria o Poder Moderador, uma quarta função reservada ao imperador que lhe permite dissolver a Câmara e nomear senadores. O voto é censitário: depende de renda.\n\nO período é atravessado por revoltas provinciais — Cabanagem, Sabinada, Balaiada, Farroupilha — e pela Guerra do Paraguai, entre 1864 e 1870, que fortalece o Exército como ator político.\n\nA escravidão só é abolida em 1888, a última do continente. O Império cai no ano seguinte, sem resistência popular significativa."
     },
     {
       "id": "br-republica-velha",
       "inicio": "1889",
       "fim": "1930",
       "rotulo": "República Velha",
-      "regime": "república oligárquica, voto restrito"
+      "regime": "república oligárquica, voto restrito",
+      "textoMdx": "A república nasce de um golpe militar e se consolida como arranjo entre oligarquias estaduais. São Paulo e Minas Gerais alternam a presidência, sustentados pelo café e pelo leite — um acordo que não estava escrito em lugar nenhum, mas que governou o país por décadas.\n\nO voto é aberto, o que permite controle direto pelos coronéis locais, e alcança menos de 5% da população.\n\nÉ também o período da maior imigração da história brasileira, sobretudo italiana, portuguesa, espanhola e japonesa, e da primeira industrialização em São Paulo.\n\nO arranjo se rompe em 1930, quando Washington Luís tenta emplacar outro paulista e Minas Gerais rompe a aliança."
     },
     {
       "id": "br-era-vargas",
       "inicio": "1930",
       "fim": "1945",
       "rotulo": "Era Vargas",
-      "regime": "governo provisório, depois ditadura do Estado Novo"
+      "regime": "governo provisório, depois ditadura do Estado Novo",
+      "textoMdx": "Getúlio Vargas chega ao poder por um movimento armado em 1930 e permanece quinze anos, atravessando três regimes distintos: governo provisório, presidência constitucional a partir de 1934 e ditadura declarada a partir de 1937.\n\nO Estado Novo fecha o Congresso, censura a imprensa e persegue opositores. No mesmo período são criados a Consolidação das Leis do Trabalho, o salário mínimo, a Companhia Siderúrgica Nacional e a Petrobras é gestada. As duas coisas são o mesmo governo.\n\nO Brasil entra na Segunda Guerra ao lado dos Aliados em 1942 e envia a Força Expedicionária à Itália. A contradição de combater regimes autoritários no exterior enquanto se vive um deles pesa no desfecho: Vargas é deposto por militares em outubro de 1945."
     },
     {
       "id": "br-republica-de-46",
       "inicio": "1945",
       "fim": "1964",
       "rotulo": "República de 1946",
-      "regime": "democracia presidencialista"
+      "regime": "democracia presidencialista",
+      "textoMdx": "Dezenove anos de democracia eleitoral, os primeiros da história do país com disputa aberta e alternância real — embora o Partido Comunista seja posto na ilegalidade em 1947 e analfabetos sigam sem direito a voto.\n\nVargas retorna eleito em 1951 e se mata em 1954, sob pressão para renunciar. Juscelino Kubitschek constrói Brasília e inaugura a capital em 1960. Jânio Quadros renuncia sete meses depois de tomar posse, e a posse de João Goulart só ocorre após a adoção emergencial do parlamentarismo.\n\nO período termina em 31 de março de 1964, com o golpe militar que depõe Goulart."
     },
     {
       "id": "br-regime-militar",
       "inicio": "1964",
       "fim": "1985",
       "rotulo": "Regime Militar",
-      "regime": "ditadura militar"
+      "regime": "ditadura militar",
+      "textoMdx": "Vinte e um anos sob cinco generais-presidentes escolhidos internamente pelas Forças Armadas e referendados por um Congresso depurado.\n\nO Ato Institucional nº 5, de dezembro de 1968, fecha o Congresso, suspende o habeas corpus para crimes políticos e institui a censura prévia. A Comissão Nacional da Verdade, em 2014, atribuiu ao Estado 434 mortos e desaparecidos políticos, número que a própria comissão trata como piso, além de tortura sistemática.\n\nO mesmo período registra o chamado milagre econômico, com crescimento acima de 10% ao ano entre 1968 e 1973, seguido por crise da dívida e inflação acelerada.\n\nA abertura é conduzida lentamente pelo próprio regime a partir de 1974, com anistia em 1979 e eleição indireta de um presidente civil em 1985."
     },
     {
       "id": "br-nova-republica",
       "inicio": "1985",
       "rotulo": "Nova República",
-      "regime": "democracia presidencialista"
+      "regime": "democracia presidencialista",
+      "textoMdx": "A Constituição de 1988 estabelece voto universal, inclusive para analfabetos, e o desenho institucional ainda vigente.\n\nO período tem dois impeachments concluídos — Fernando Collor em 1992 e Dilma Rousseff em 2016 — e nenhuma ruptura do calendário eleitoral. O Plano Real, em 1994, encerra décadas de inflação alta.\n\nA disputa presidencial se organiza por quase vinte anos entre PSDB e PT, alternando-se no poder, e se reconfigura a partir de 2018. Em 8 de janeiro de 2023, uma semana após a posse presidencial, as sedes dos três Poderes em Brasília são invadidas e depredadas.\n\n*Este é o período em curso. Os retratos dos períodos anteriores contam com décadas de distância; este não, e vale ler com essa ressalva.*"
     }
   ]
 }
