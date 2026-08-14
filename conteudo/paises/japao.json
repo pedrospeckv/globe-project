@@ -1,0 +1,54 @@
+{
+  "iso": "JPN",
+  "nome": "Japão",
+  "periodos": [
+    {
+      "id": "jp-kamakura",
+      "inicio": "1185",
+      "fim": "1336",
+      "rotulo": "Xogunato Kamakura",
+      "regime": "governo militar do xogum, com o imperador reduzido a autoridade cerimonial"
+    },
+    {
+      "id": "jp-ashikaga",
+      "inicio": "1336",
+      "fim": "1573",
+      "rotulo": "Xogunato Ashikaga",
+      "regime": "xogunato enfraquecido; guerra civil entre domínios a partir de 1467"
+    },
+    {
+      "id": "jp-unificacao",
+      "inicio": "1573",
+      "fim": "1603",
+      "rotulo": "Unificação (Azuchi-Momoyama)",
+      "regime": "reunificação militar do arquipélago sob Oda Nobunaga e Toyotomi Hideyoshi"
+    },
+    {
+      "id": "jp-tokugawa",
+      "inicio": "1603",
+      "fim": "1868",
+      "rotulo": "Xogunato Tokugawa",
+      "regime": "xogunato hereditário; restrição severa ao contato externo a partir de 1639"
+    },
+    {
+      "id": "jp-imperio",
+      "inicio": "1868",
+      "fim": "1945",
+      "rotulo": "Império do Japão",
+      "regime": "monarquia constitucional com poder militar crescente; expansão colonial na Ásia"
+    },
+    {
+      "id": "jp-ocupacao",
+      "inicio": "1945",
+      "fim": "1952",
+      "rotulo": "Ocupação Aliada",
+      "regime": "administração militar norte-americana; nova constituição em vigor a partir de 1947"
+    },
+    {
+      "id": "jp-pos-guerra",
+      "inicio": "1952",
+      "rotulo": "Japão",
+      "regime": "monarquia constitucional parlamentarista"
+    }
+  ]
+}

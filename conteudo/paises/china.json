@@ -1,0 +1,62 @@
+{
+  "iso": "CHN",
+  "nome": "China",
+  "periodos": [
+    {
+      "id": "cn-tang",
+      "inicio": "618",
+      "fim": "907",
+      "rotulo": "Dinastia Tang",
+      "regime": "império burocrático centralizado, com serviço civil por exames"
+    },
+    {
+      "id": "cn-cinco-dinastias",
+      "inicio": "907",
+      "fim": "960",
+      "rotulo": "Cinco Dinastias e Dez Reinos",
+      "regime": "fragmentação política; dinastias sucessivas no norte e reinos autônomos no sul"
+    },
+    {
+      "id": "cn-song",
+      "inicio": "960",
+      "fim": "1279",
+      "rotulo": "Dinastia Song",
+      "regime": "império burocrático; perda do norte para os Jin a partir de 1127"
+    },
+    {
+      "id": "cn-yuan",
+      "inicio": "1279",
+      "fim": "1368",
+      "rotulo": "Dinastia Yuan",
+      "regime": "domínio mongol, integrado ao império fundado por Gengis Khan"
+    },
+    {
+      "id": "cn-ming",
+      "inicio": "1368",
+      "fim": "1644",
+      "rotulo": "Dinastia Ming",
+      "regime": "império burocrático centralizado"
+    },
+    {
+      "id": "cn-qing",
+      "inicio": "1644",
+      "fim": "1912",
+      "rotulo": "Dinastia Qing",
+      "regime": "império sob a dinastia manchu; concessões territoriais a potências estrangeiras a partir de 1842"
+    },
+    {
+      "id": "cn-republica",
+      "inicio": "1912",
+      "fim": "1949",
+      "rotulo": "República da China",
+      "regime": "república fragmentada entre senhores da guerra, guerra civil e invasão japonesa"
+    },
+    {
+      "id": "cn-rpc",
+      "inicio": "1949",
+      "rotulo": "República Popular da China",
+      "regime": "república socialista de partido único, sob o Partido Comunista",
+      "textoMdx": "Este período nomeia o Estado que governa o território continental, que é o desenhado no mapa. A República da China não deixou de existir em 1949: seu governo se transferiu para Taiwan, cuja situação jurídica é disputada e cuja geometria é uma feature separada no conjunto de dados usado pelo atlas."
+    }
+  ]
+}

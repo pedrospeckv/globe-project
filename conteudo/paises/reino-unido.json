@@ -1,0 +1,49 @@
+{
+  "iso": "GBR",
+  "nome": "Reino Unido",
+  "periodos": [
+    {
+      "id": "gb-inglaterra-medieval",
+      "inicio": "1066",
+      "fim": "1485",
+      "rotulo": "Reino da Inglaterra",
+      "regime": "monarquia feudal sob dinastias normanda e Plantageneta",
+      "textoMdx": "O atlas adota o Reino Unido como país, porque é a entidade que existe na geometria moderna. Nos períodos anteriores à união, o **rótulo** nomeia o Estado da época — aqui, o Reino da Inglaterra, que não incluía Escócia nem Irlanda."
+    },
+    {
+      "id": "gb-tudor",
+      "inicio": "1485",
+      "fim": "1603",
+      "rotulo": "Reino da Inglaterra (Tudor)",
+      "regime": "monarquia centralizadora; ruptura com Roma e criação da Igreja da Inglaterra"
+    },
+    {
+      "id": "gb-uniao-coroas",
+      "inicio": "1603",
+      "fim": "1707",
+      "rotulo": "Inglaterra e Escócia sob a União das Coroas",
+      "regime": "dois reinos com o mesmo monarca; guerra civil, república sob Cromwell e restauração"
+    },
+    {
+      "id": "gb-gra-bretanha",
+      "inicio": "1707",
+      "fim": "1801",
+      "rotulo": "Reino da Grã-Bretanha",
+      "regime": "monarquia parlamentar formada pela união dos parlamentos inglês e escocês"
+    },
+    {
+      "id": "gb-reino-unido-irlanda",
+      "inicio": "1801",
+      "fim": "1922",
+      "rotulo": "Reino Unido da Grã-Bretanha e Irlanda",
+      "regime": "monarquia parlamentar; auge do império colonial",
+      "textoMdx": "Neste período o Reino Unido incluía **toda a ilha da Irlanda**, e não apenas a Irlanda do Norte. O mapa desenha as fronteiras de hoje e não mostra isso — a separação do Estado Livre Irlandês ocorre em 1922."
+    },
+    {
+      "id": "gb-reino-unido-atual",
+      "inicio": "1922",
+      "rotulo": "Reino Unido da Grã-Bretanha e Irlanda do Norte",
+      "regime": "monarquia parlamentar; descolonização a partir de 1947 e saída da União Europeia em 2020"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "iso": "IND",
+  "nome": "Índia",
+  "periodos": [
+    {
+      "id": "in-sultanato-delhi",
+      "inicio": "1206",
+      "fim": "1526",
+      "rotulo": "Sultanato de Délhi",
+      "regime": "sultanato no norte do subcontinente; sul e leste sob dinastias independentes",
+      "textoMdx": "O subcontinente não era uma unidade política. O Sultanato dominou o norte a partir de Délhi, enquanto o sul permaneceu sob dinastias próprias — entre elas o Império Vijayanagara, a partir de 1336, e os sultanatos do Decã.\n\nO período é nomeado pela potência dominante do norte, não porque houvesse um Estado único."
+    },
+    {
+      "id": "in-mogol",
+      "inicio": "1526",
+      "fim": "1757",
+      "rotulo": "Império Mogol",
+      "regime": "monarquia imperial; fragmentação progressiva a partir de 1707",
+      "textoMdx": "Alcançou a maior extensão territorial sob Aurangzeb, cobrindo boa parte do subcontinente, incluindo territórios dos atuais Paquistão e Bangladesh. Após 1707 o poder imperial se dissolve diante de potências regionais, sobretudo a Confederação Marata."
+    },
+    {
+      "id": "in-companhia",
+      "inicio": "1757",
+      "fim": "1858",
+      "rotulo": "Domínio da Companhia das Índias Orientais",
+      "regime": "administração por companhia comercial britânica, sob soberania mogol nominal"
+    },
+    {
+      "id": "in-raj",
+      "inicio": "1858",
+      "fim": "1947",
+      "rotulo": "Índia Britânica (Raj)",
+      "regime": "colônia da Coroa Britânica, com províncias sob administração direta e centenas de estados principescos sob domínio indireto",
+      "textoMdx": "Este período nomeia o domínio britânico sobre o subcontinente, mas **o mapa desenha apenas as fronteiras da Índia de hoje**. O Raj era muito maior: incluía os atuais Paquistão e Bangladesh, e também a Birmânia — a atual Myanmar — até 1937.\n\nA linha que separa Índia, Paquistão e Bangladesh foi traçada em 1947, com a Partição. Ela não existia durante este período, e o atlas não tem geometria histórica para representar isso."
+    },
+    {
+      "id": "in-dominio",
+      "inicio": "1947",
+      "fim": "1950",
+      "rotulo": "Domínio da Índia",
+      "regime": "domínio autônomo da Commonwealth, sob a Coroa Britânica",
+      "textoMdx": "A independência em agosto de 1947 vem acompanhada da Partição, que cria o Paquistão e desloca milhões de pessoas."
+    },
+    {
+      "id": "in-republica",
+      "inicio": "1950",
+      "rotulo": "República da Índia",
+      "regime": "república parlamentarista federal"
+    }
+  ]
+}
