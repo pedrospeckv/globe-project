@@ -7,48 +7,55 @@
       "inicio": "1185",
       "fim": "1336",
       "rotulo": "Xogunato Kamakura",
-      "regime": "governo militar do xogum, com o imperador reduzido a autoridade cerimonial"
+      "regime": "governo militar do xogum, com o imperador reduzido a autoridade cerimonial",
+      "textoMdx": "A guerra entre os clãs Taira e Minamoto termina em 1185 com a vitória dos Minamoto, que instalam em Kamakura um governo militar paralelo à corte imperial de Quioto.\n\nO arranjo que nasce aí dura quase sete séculos: o imperador permanece como fonte de legitimidade e autoridade religiosa, enquanto o poder efetivo pertence ao xogum. O Japão terá dois centros de governo simultâneos até 1868.\n\nAs duas tentativas de invasão mongol, em 1274 e 1281, são desfeitas em parte por tempestades — origem da expressão *kamikaze*, vento divino. A defesa esgota as finanças do xogunato, que não tem terras conquistadas para recompensar os guerreiros mobilizados, e isso corrói seu apoio.\n\n*O atlas começa o Japão em 1185. A história do arquipélago é muito anterior; o formato de datas ainda não aceita anos antes de Cristo.*"
     },
     {
       "id": "jp-ashikaga",
       "inicio": "1336",
       "fim": "1573",
       "rotulo": "Xogunato Ashikaga",
-      "regime": "xogunato enfraquecido; guerra civil entre domínios a partir de 1467"
+      "regime": "xogunato enfraquecido; guerra civil entre domínios a partir de 1467",
+      "textoMdx": "O xogunato Ashikaga governa a partir de Quioto e nunca controla o país de fato. Sua autoridade depende de alianças com senhores regionais que crescem mais fortes que ele.\n\nÉ, ainda assim, o período de formação da cultura clássica japonesa: o teatro nô, a cerimônia do chá, o jardim seco e a arquitetura que define o gosto japonês até hoje.\n\nA Guerra Ōnin, iniciada em 1467, destrói Quioto e dissolve o que restava do poder central. Segue-se mais de um século de guerra permanente entre domínios — o Sengoku, período dos estados combatentes.\n\nOs primeiros europeus chegam em 1543, portugueses, trazendo armas de fogo que mudam a guerra japonesa em uma geração."
     },
     {
       "id": "jp-unificacao",
       "inicio": "1573",
       "fim": "1603",
       "rotulo": "Unificação (Azuchi-Momoyama)",
-      "regime": "reunificação militar do arquipélago sob Oda Nobunaga e Toyotomi Hideyoshi"
+      "regime": "reunificação militar do arquipélago sob Oda Nobunaga e Toyotomi Hideyoshi",
+      "textoMdx": "Trinta anos em que três comandantes sucessivos reunificam o país pela força.\n\nOda Nobunaga usa arcabuzes em formação disciplinada e quebra o poder militar dos mosteiros budistas. Assassinado em 1582, é sucedido por Toyotomi Hideyoshi, filho de camponeses, que completa a unificação e promulga a caça às espadas — desarmando os não guerreiros e congelando a mobilidade entre castas.\n\nHideyoshi invade a Coreia duas vezes, em 1592 e 1597, com custo enorme e sem resultado.\n\nSua morte abre nova disputa, decidida na batalha de Sekigahara em 1600. Tokugawa Ieyasu é nomeado xogum em 1603."
     },
     {
       "id": "jp-tokugawa",
       "inicio": "1603",
       "fim": "1868",
       "rotulo": "Xogunato Tokugawa",
-      "regime": "xogunato hereditário; restrição severa ao contato externo a partir de 1639"
+      "regime": "xogunato hereditário; restrição severa ao contato externo a partir de 1639",
+      "textoMdx": "Dois séculos e meio sem guerra interna nem invasão externa, caso raro na história mundial.\n\nA partir de 1639 o xogunato expulsa missionários, proíbe o cristianismo e restringe o comércio exterior a um posto holandês em Nagasaki e a contatos controlados com China e Coreia. Sair do país passa a ser crime capital.\n\nO isolamento não impede desenvolvimento interno: Edo chega a cerca de um milhão de habitantes, a alfabetização alcança níveis altos para a época, e florescem o teatro kabuki e a gravura *ukiyo-e*.\n\nEm 1853 navios de guerra norte-americanos exigem a abertura dos portos. A incapacidade do xogunato de resistir destrói sua legitimidade e leva à restauração do poder imperial em 1868."
     },
     {
       "id": "jp-imperio",
       "inicio": "1868",
       "fim": "1945",
       "rotulo": "Império do Japão",
-      "regime": "monarquia constitucional com poder militar crescente; expansão colonial na Ásia"
+      "regime": "monarquia constitucional com poder militar crescente; expansão colonial na Ásia",
+      "textoMdx": "A Restauração Meiji abole as castas, cria exército de conscrição, ferrovias, sistema bancário e educação universal. Em cerca de trinta anos o Japão passa de sociedade feudal a potência industrial — a transformação mais rápida já registrada até então.\n\nDerrota a China em 1895 e a Rússia em 1905, primeiro caso de uma potência asiática vencer uma europeia em guerra moderna. Anexa Taiwan e a Coreia.\n\nNos anos 1930 o poder militar se sobrepõe ao civil. A invasão da China em 1937 e o ataque a Pearl Harbor em dezembro de 1941 levam à guerra no Pacífico, na qual o exército japonês comete atrocidades documentadas contra civis e prisioneiros em toda a Ásia.\n\nO império termina em agosto de 1945, após as bombas atômicas de Hiroshima e Nagasaki."
     },
     {
       "id": "jp-ocupacao",
       "inicio": "1945",
       "fim": "1952",
       "rotulo": "Ocupação Aliada",
-      "regime": "administração militar norte-americana; nova constituição em vigor a partir de 1947"
+      "regime": "administração militar norte-americana; nova constituição em vigor a partir de 1947",
+      "textoMdx": "A ocupação, comandada pelos Estados Unidos, promove reforma agrária, legaliza sindicatos, desmonta os conglomerados familiares e concede o voto às mulheres.\n\nA constituição de 1947 mantém o imperador como símbolo do Estado, sem poder político, e inclui o Artigo 9, pelo qual o Japão renuncia à guerra como direito soberano. O artigo continua em vigor e segue no centro do debate político do país.\n\nOs julgamentos de Tóquio condenam líderes militares por crimes de guerra. O imperador Hirohito não é processado — decisão política dos ocupantes, tomada para preservar a estabilidade, que permanece controversa.\n\nA soberania é restituída em 1952."
     },
     {
       "id": "jp-pos-guerra",
       "inicio": "1952",
       "rotulo": "Japão",
-      "regime": "monarquia constitucional parlamentarista"
+      "regime": "monarquia constitucional parlamentarista",
+      "textoMdx": "O crescimento acelerado do pós-guerra torna o Japão a segunda maior economia do mundo em 1968, posição que manteria por mais de quatro décadas. Toyota, Sony e Honda passam a definir padrões industriais globais.\n\nO estouro da bolha de ativos em 1991 inaugura um longo período de crescimento baixo e deflação.\n\nO país tem hoje uma das populações mais envelhecidas do mundo, com queda demográfica sustentada, e mantém aliança militar com os Estados Unidos, que ainda operam bases no território.\n\n*Este é o período em curso.*"
     }
   ]
 }

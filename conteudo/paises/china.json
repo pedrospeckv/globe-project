@@ -7,56 +7,63 @@
       "inicio": "618",
       "fim": "907",
       "rotulo": "Dinastia Tang",
-      "regime": "império burocrático centralizado, com serviço civil por exames"
+      "regime": "império burocrático centralizado, com serviço civil por exames",
+      "textoMdx": "Chang'an, a capital, é provavelmente a maior cidade do mundo no período, com população estimada em cerca de um milhão de pessoas e comunidades persas, árabes, indianas e japonesas.\n\nO sistema de exames imperiais seleciona funcionários por mérito literário em vez de nascimento — não elimina a aristocracia, mas cria uma via de ascensão inédita e um modelo que a China exportaria para Coreia, Japão e Vietnã.\n\nA rota da seda opera em plena capacidade. A poesia Tang é tratada até hoje como o ápice da literatura chinesa.\n\nA rebelião de An Lushan, iniciada em 755, mata milhões e quebra o poder central. A dinastia sobrevive mais 150 anos sem recuperar o controle das províncias.\n\n*O atlas começa a China em 618 por limitação técnica: o formato de datas ainda não aceita anos antes de Cristo. A história do Estado chinês é muito anterior.*"
     },
     {
       "id": "cn-cinco-dinastias",
       "inicio": "907",
       "fim": "960",
       "rotulo": "Cinco Dinastias e Dez Reinos",
-      "regime": "fragmentação política; dinastias sucessivas no norte e reinos autônomos no sul"
+      "regime": "fragmentação política; dinastias sucessivas no norte e reinos autônomos no sul",
+      "textoMdx": "Cinquenta e três anos, cinco dinastias no norte e cerca de dez reinos simultâneos no sul. Nenhum governo dura o suficiente para se consolidar.\n\nA fragmentação política não interrompe a economia: o sul, poupado das piores guerras, prospera com o arroz e o comércio marítimo. É neste período que a impressão em blocos de madeira se difunde, incluindo a primeira edição impressa completa dos clássicos confucianos.\n\nA unificação recomeça em 960, quando um general é aclamado imperador pelas próprias tropas."
     },
     {
       "id": "cn-song",
       "inicio": "960",
       "fim": "1279",
       "rotulo": "Dinastia Song",
-      "regime": "império burocrático; perda do norte para os Jin a partir de 1127"
+      "regime": "império burocrático; perda do norte para os Jin a partir de 1127",
+      "textoMdx": "O período de maior densidade tecnológica da China pré-moderna: pólvora aplicada a armas, bússola usada na navegação, tipos móveis para impressão, notas de papel emitidas pelo Estado, siderurgia em escala que a Europa só alcançaria séculos depois.\n\nA burocracia por exames atinge a forma mais elaborada, e o poder militar é deliberadamente subordinado ao civil — decisão que traz custo externo.\n\nEm 1127 os Jin tomam o norte e capturam o imperador. A corte se refugia no sul e governa mais 150 anos a partir de Hangzhou.\n\nOs mongóis derrubam os Jin e depois os Song, completando a conquista em 1279."
     },
     {
       "id": "cn-yuan",
       "inicio": "1279",
       "fim": "1368",
       "rotulo": "Dinastia Yuan",
-      "regime": "domínio mongol, integrado ao império fundado por Gengis Khan"
+      "regime": "domínio mongol, integrado ao império fundado por Gengis Khan",
+      "textoMdx": "Pela primeira vez a China inteira é governada por uma dinastia estrangeira. Kublai Khan, neto de Gengis, estabelece a capital onde hoje é Pequim.\n\nA integração ao império mongol conecta a China à Pérsia e à Europa por rotas terrestres seguras — é o período das viagens de Marco Polo. A população é classificada em quatro categorias hierárquicas, com os chineses do sul na base, e o sistema de exames é suspenso por décadas.\n\nO domínio dura menos de um século. Cheias do rio Amarelo, fome, epidemia e revoltas camponesas derrubam a dinastia em 1368."
     },
     {
       "id": "cn-ming",
       "inicio": "1368",
       "fim": "1644",
       "rotulo": "Dinastia Ming",
-      "regime": "império burocrático centralizado"
+      "regime": "império burocrático centralizado",
+      "textoMdx": "Fundada por um camponês que liderou a revolta contra os mongóis. A Cidade Proibida é construída em Pequim, e a Grande Muralha ganha a forma que se vê hoje.\n\nEntre 1405 e 1433, sete expedições sob o comando de Zheng He alcançam o Sudeste Asiático, a Índia, a Arábia e a costa da África Oriental, com frotas de centenas de navios muito maiores que os europeus da mesma época. A corte então interrompe as viagens e desmonta a frota — decisão tomada décadas antes de os portugueses contornarem o cabo da Boa Esperança.\n\nA dinastia cai em 1644, sob revolta camponesa e pressão manchu na fronteira norte."
     },
     {
       "id": "cn-qing",
       "inicio": "1644",
       "fim": "1912",
       "rotulo": "Dinastia Qing",
-      "regime": "império sob a dinastia manchu; concessões territoriais a potências estrangeiras a partir de 1842"
+      "regime": "império sob a dinastia manchu; concessões territoriais a potências estrangeiras a partir de 1842",
+      "textoMdx": "Os manchus, vindos do nordeste, conquistam a China e levam o império à maior extensão territorial de sua história, incorporando Tibete, Xinjiang e Mongólia.\n\nO século XIX inverte a posição. A Grã-Bretanha vende ópio produzido na Índia para equilibrar o comércio; quando a China tenta bloquear o tráfico, as Guerras do Ópio impõem tratados que abrem portos, cedem Hong Kong e fixam tarifas por imposição estrangeira. A historiografia chinesa chama o período de século da humilhação, e ele é referência corrente no discurso oficial até hoje.\n\nA Rebelião Taiping, entre 1850 e 1864, mata dezenas de milhões. A dinastia cai em 1912, após revolta militar."
     },
     {
       "id": "cn-republica",
       "inicio": "1912",
       "fim": "1949",
       "rotulo": "República da China",
-      "regime": "república fragmentada entre senhores da guerra, guerra civil e invasão japonesa"
+      "regime": "república fragmentada entre senhores da guerra, guerra civil e invasão japonesa",
+      "textoMdx": "A república nasce sem controlar o próprio território. Após 1916 o país se fragmenta entre exércitos regionais, e a autoridade central existe mais no papel que na prática.\n\nO Partido Nacionalista reunifica parcialmente o país a partir de 1928 e rompe com os comunistas, que sobrevivem à repressão pela Longa Marcha, entre 1934 e 1935.\n\nO Japão invade a Manchúria em 1931 e o restante do país em 1937. As estimativas de mortos chineses na guerra variam entre 15 e 20 milhões. O massacre de Nanquim, em dezembro de 1937, permanece objeto de disputa historiográfica e diplomática com o Japão.\n\nA guerra civil recomeça em 1946 e termina com a vitória comunista em 1949."
     },
     {
       "id": "cn-rpc",
       "inicio": "1949",
       "rotulo": "República Popular da China",
       "regime": "república socialista de partido único, sob o Partido Comunista",
-      "textoMdx": "Este período nomeia o Estado que governa o território continental, que é o desenhado no mapa. A República da China não deixou de existir em 1949: seu governo se transferiu para Taiwan, cuja situação jurídica é disputada e cuja geometria é uma feature separada no conjunto de dados usado pelo atlas."
+      "textoMdx": "O Grande Salto Adiante, entre 1958 e 1962, provoca a maior fome documentada da história: as estimativas de mortos variam entre 15 e 45 milhões. A Revolução Cultural, de 1966 a 1976, desorganiza o Estado, fecha universidades e destrói patrimônio.\n\nAs reformas iniciadas em 1978 abrem a economia mantendo o monopólio político do partido. O resultado é o crescimento sustentado mais rápido já registrado: centenas de milhões saem da pobreza extrema em três décadas, e a China se torna a segunda maior economia do mundo.\n\nEm junho de 1989, protestos na Praça da Paz Celestial são reprimidos militarmente; o número de mortos é disputado e o tema segue censurado internamente.\n\n*Este período nomeia o Estado que governa o território continental, que é o desenhado no mapa. A República da China não deixou de existir em 1949: seu governo se transferiu para Taiwan, cuja situação jurídica é disputada e cuja geometria é uma feature separada no conjunto de dados usado pelo atlas.*"
     }
   ]
 }

@@ -8,28 +8,31 @@
       "fim": "1485",
       "rotulo": "Reino da Inglaterra",
       "regime": "monarquia feudal sob dinastias normanda e Plantageneta",
-      "textoMdx": "O atlas adota o Reino Unido como país, porque é a entidade que existe na geometria moderna. Nos períodos anteriores à união, o **rótulo** nomeia o Estado da época — aqui, o Reino da Inglaterra, que não incluía Escócia nem Irlanda."
+      "textoMdx": "A conquista normanda de 1066 substitui a elite anglo-saxã por uma aristocracia de fala francesa e reorganiza a propriedade da terra — inventariada no *Domesday Book*, de 1086, o cadastro mais completo da Europa medieval.\n\nEm 1215 os barões impõem a Magna Carta a João Sem-Terra, estabelecendo que o rei também está submetido à lei. O documento é anulado semanas depois e reeditado várias vezes, mas o princípio sobrevive.\n\nO Parlamento se firma ao longo do século XIV, dividido em Lordes e Comuns, com o poder de aprovar impostos. A Guerra dos Cem Anos contra a França e a Guerra das Rosas entre casas rivais fecham o período.\n\n*O atlas adota o Reino Unido como país, porque é a entidade que existe na geometria moderna. Nos períodos anteriores à união, o rótulo nomeia o Estado da época — aqui, o Reino da Inglaterra, que não incluía Escócia nem Irlanda.*"
     },
     {
       "id": "gb-tudor",
       "inicio": "1485",
       "fim": "1603",
       "rotulo": "Reino da Inglaterra (Tudor)",
-      "regime": "monarquia centralizadora; ruptura com Roma e criação da Igreja da Inglaterra"
+      "regime": "monarquia centralizadora; ruptura com Roma e criação da Igreja da Inglaterra",
+      "textoMdx": "Henrique VIII rompe com Roma em 1534 para obter a anulação de seu casamento e se declara chefe da Igreja da Inglaterra. A dissolução dos mosteiros transfere à Coroa a maior redistribuição de terras desde 1066.\n\nO reinado seguinte tenta restaurar o catolicismo; o de Elizabeth I, que dura quarenta e cinco anos, consolida o anglicanismo e derrota a Armada espanhola em 1588.\n\nÉ o período em que a Inglaterra começa a operar no Atlântico — inclusive no tráfico de escravizados, com as viagens de John Hawkins a partir de 1562 — e em que Shakespeare escreve.\n\nElizabeth morre sem herdeiros em 1603, e o trono passa ao rei da Escócia."
     },
     {
       "id": "gb-uniao-coroas",
       "inicio": "1603",
       "fim": "1707",
       "rotulo": "Inglaterra e Escócia sob a União das Coroas",
-      "regime": "dois reinos com o mesmo monarca; guerra civil, república sob Cromwell e restauração"
+      "regime": "dois reinos com o mesmo monarca; guerra civil, república sob Cromwell e restauração",
+      "textoMdx": "Jaime VI da Escócia torna-se também Jaime I da Inglaterra. São dois reinos separados, com parlamentos e leis próprias, unidos apenas pela pessoa do rei.\n\nO conflito entre Coroa e Parlamento sobre impostos e religião vira guerra civil em 1642. Carlos I é julgado e executado em 1649 — um rei condenado à morte por seu próprio parlamento, sem precedente na Europa. Segue-se a república de Oliver Cromwell, e a monarquia é restaurada em 1660.\n\nA Revolução Gloriosa de 1688 depõe Jaime II e estabelece, na Declaração de Direitos de 1689, que o monarca não pode legislar nem tributar sem o Parlamento. É a base da monarquia constitucional.\n\nOs parlamentos inglês e escocês se fundem em 1707."
     },
     {
       "id": "gb-gra-bretanha",
       "inicio": "1707",
       "fim": "1801",
       "rotulo": "Reino da Grã-Bretanha",
-      "regime": "monarquia parlamentar formada pela união dos parlamentos inglês e escocês"
+      "regime": "monarquia parlamentar formada pela união dos parlamentos inglês e escocês",
+      "textoMdx": "A Revolução Industrial começa aqui, por volta de 1760: máquina a vapor, indústria têxtil mecanizada, ferro em escala. É a primeira sociedade da história a deixar de ser majoritariamente agrária.\n\nO império se expande na Índia, no Caribe e na América do Norte — e perde as treze colônias americanas em 1783.\n\nO comércio de escravizados é o motor de boa parte dessa prosperidade: navios britânicos transportaram cerca de 3,4 milhões de africanos ao longo do período, e o porto de Liverpool se constrói sobre isso. O tráfico só é proibido em 1807, e a escravidão nas colônias, em 1833.\n\nA união com a Irlanda, em 1801, forma o Reino Unido."
     },
     {
       "id": "gb-reino-unido-irlanda",
@@ -37,13 +40,14 @@
       "fim": "1922",
       "rotulo": "Reino Unido da Grã-Bretanha e Irlanda",
       "regime": "monarquia parlamentar; auge do império colonial",
-      "textoMdx": "Neste período o Reino Unido incluía **toda a ilha da Irlanda**, e não apenas a Irlanda do Norte. O mapa desenha as fronteiras de hoje e não mostra isso — a separação do Estado Livre Irlandês ocorre em 1922."
+      "textoMdx": "No auge, o império britânico governa cerca de um quarto da população e da superfície terrestre do planeta. Londres é o centro financeiro do mundo, e a libra, sua moeda de referência.\n\nO direito de voto se amplia por etapas — 1832, 1867, 1884 — e alcança todos os homens adultos e as mulheres acima de trinta anos apenas em 1918, após a campanha sufragista e a Primeira Guerra. A igualdade de idade só vem em 1928.\n\nA Grande Fome da Irlanda, entre 1845 e 1852, mata cerca de um milhão de pessoas e faz outro milhão emigrar, sob um governo que manteve exportações de alimentos da ilha durante a crise.\n\n*Neste período o Reino Unido incluía toda a ilha da Irlanda, e não apenas a Irlanda do Norte. O mapa desenha as fronteiras de hoje e não mostra isso — a separação do Estado Livre Irlandês ocorre em 1922.*"
     },
     {
       "id": "gb-reino-unido-atual",
       "inicio": "1922",
       "rotulo": "Reino Unido da Grã-Bretanha e Irlanda do Norte",
-      "regime": "monarquia parlamentar; descolonização a partir de 1947 e saída da União Europeia em 2020"
+      "regime": "monarquia parlamentar; descolonização a partir de 1947 e saída da União Europeia em 2020",
+      "textoMdx": "A Segunda Guerra deixa o país vitorioso e falido. O governo trabalhista eleito em 1945 cria o Serviço Nacional de Saúde, gratuito no ponto de uso, e nacionaliza setores da economia.\n\nA descolonização começa pela Índia em 1947 e se estende por três décadas. O império se converte na Commonwealth.\n\nNa Irlanda do Norte, três décadas de conflito armado — os *Troubles* — matam cerca de 3.500 pessoas até o Acordo da Sexta-Feira Santa, em 1998.\n\nO referendo de 2016 aprova a saída da União Europeia por 52% a 48%, efetivada em janeiro de 2020.\n\n*Este é o período em curso.*"
     }
   ]
 }

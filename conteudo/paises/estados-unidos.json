@@ -7,55 +7,63 @@
       "inicio": "1776",
       "fim": "1789",
       "rotulo": "Estados Unidos sob os Artigos da Confederação",
-      "regime": "confederação de estados soberanos, sem executivo nacional"
+      "regime": "confederação de estados soberanos, sem executivo nacional",
+      "textoMdx": "A Declaração de Independência, de julho de 1776, afirma que todos os homens são criados iguais. Vários de seus signatários, incluindo o autor principal, escravizavam pessoas.\n\nOs Artigos da Confederação, em vigor a partir de 1781, criam uma união deliberadamente fraca: não há presidente, não há judiciário nacional e o Congresso não pode cobrar impostos nem regular o comércio entre os estados. A guerra contra a Grã-Bretanha termina em 1783.\n\nA fragilidade fiscal e a Rebelião de Shays, em 1786, convencem as elites de que o arranjo não se sustenta. A convenção de 1787 é convocada para emendar os Artigos e acaba escrevendo uma constituição nova.\n\n*O atlas começa os Estados Unidos em 1776. Antes disso havia treze colônias britânicas e centenas de nações indígenas, nenhuma delas representada aqui.*"
     },
     {
       "id": "us-republica-federal",
       "inicio": "1789",
       "fim": "1861",
       "rotulo": "Estados Unidos da América",
-      "regime": "república federativa presidencialista, com escravidão legal em parte dos estados"
+      "regime": "república federativa presidencialista, com escravidão legal em parte dos estados",
+      "textoMdx": "Setenta anos de expansão territorial acelerada: a Louisiana comprada da França em 1803 dobra o país; a guerra contra o México, entre 1846 e 1848, acrescenta um terço do território mexicano.\n\nA expansão empurra populações indígenas para o oeste, com remoções forçadas como a dos cherokee em 1838, e reabre a cada novo território a única questão que a Constituição havia deixado sem resolver: a escravidão se estende ou não?\n\nCada acordo — Missouri em 1820, Compromisso de 1850, Kansas-Nebraska em 1854 — adia a resposta e agrava a fratura. A eleição de Lincoln em 1860 leva estados do Sul a se separar antes mesmo da posse."
     },
     {
       "id": "us-guerra-civil",
       "inicio": "1861",
       "fim": "1865",
       "rotulo": "Guerra Civil",
-      "regime": "união federal em guerra contra os estados confederados secessionistas"
+      "regime": "união federal em guerra contra os estados confederados secessionistas",
+      "textoMdx": "Onze estados formam os Estados Confederados da América. A guerra dura quatro anos e mata cerca de 620 mil combatentes — mais americanos do que todas as outras guerras do país somadas até a Guerra do Vietnã.\n\nA Proclamação de Emancipação, de janeiro de 1863, declara livres os escravizados nos territórios em rebelião. É medida de guerra antes de ser medida moral: não alcança os estados escravistas que permaneceram na União.\n\nA Confederação se rende em abril de 1865. Lincoln é assassinado cinco dias depois. A Décima Terceira Emenda, ratificada em dezembro, abole a escravidão em todo o país."
     },
     {
       "id": "us-reconstrucao",
       "inicio": "1865",
       "fim": "1877",
       "rotulo": "Reconstrução",
-      "regime": "ocupação militar do Sul e reconstrução constitucional; abolição da escravidão"
+      "regime": "ocupação militar do Sul e reconstrução constitucional; abolição da escravidão",
+      "textoMdx": "Doze anos em que os Estados Unidos tentam refazer o Sul e recuar no meio do caminho.\n\nAs emendas Décima Quarta e Décima Quinta garantem cidadania e direito de voto independentemente de raça. Centenas de homens negros são eleitos para legislaturas estaduais e para o Congresso. Tropas federais ocupam o Sul para fazer valer essas garantias.\n\nA reação é violenta e organizada: a Ku Klux Klan surge em 1865.\n\nO acordo que resolve a eleição contestada de 1876 retira as tropas federais em 1877. Sem elas, os estados do Sul restabelecem por lei a segregação e inviabilizam o voto negro com taxas e testes de alfabetização. As emendas continuam na Constituição, sem efeito prático por quase noventa anos."
     },
     {
       "id": "us-era-dourada",
       "inicio": "1877",
       "fim": "1933",
       "rotulo": "Da Era Dourada à Grande Depressão",
-      "regime": "república federativa; industrialização acelerada e segregação racial legal no Sul"
+      "regime": "república federativa; industrialização acelerada e segregação racial legal no Sul",
+      "textoMdx": "O país se torna a maior economia industrial do mundo. Ferrovias, aço e petróleo concentram fortunas sem precedentes, e a resposta política vem em ondas: legislação antitruste a partir de 1890, regulação de alimentos e medicamentos, imposto de renda em 1913.\n\nA decisão *Plessy v. Ferguson*, de 1896, declara constitucional a doutrina do \"separados mas iguais\", dando cobertura jurídica à segregação por mais de meio século. As mulheres conquistam o voto em 1920.\n\nA entrada na Primeira Guerra, em 1917, transforma o país em credor da Europa. A quebra da Bolsa em outubro de 1929 inaugura a Grande Depressão: o desemprego chega a cerca de um quarto da força de trabalho."
     },
     {
       "id": "us-new-deal",
       "inicio": "1933",
       "fim": "1945",
       "rotulo": "New Deal e Segunda Guerra Mundial",
-      "regime": "república federativa com forte expansão do Estado federal"
+      "regime": "república federativa com forte expansão do Estado federal",
+      "textoMdx": "Franklin Roosevelt é eleito quatro vezes, único caso na história do país, e reconstrói a relação entre governo federal e economia: seguridade social em 1935, direito à sindicalização, regulação bancária, obras públicas em escala continental.\n\nOs Estados Unidos entram na guerra após o ataque a Pearl Harbor, em dezembro de 1941. A mobilização industrial encerra a Depressão e leva milhões de mulheres às fábricas.\n\nNo mesmo período, cerca de 120 mil pessoas de origem japonesa, dois terços delas cidadãs americanas, são internadas em campos por ordem executiva. O governo só reconheceria o erro e pagaria indenizações em 1988.\n\nEm agosto de 1945, bombas atômicas são lançadas sobre Hiroshima e Nagasaki."
     },
     {
       "id": "us-guerra-fria",
       "inicio": "1945",
       "fim": "1991",
       "rotulo": "Guerra Fria",
-      "regime": "superpotência em ordem bipolar; direitos civis ampliados a partir dos anos 1960"
+      "regime": "superpotência em ordem bipolar; direitos civis ampliados a partir dos anos 1960",
+      "textoMdx": "Quatro décadas de confronto com a União Soviética conduzido por intermediários — Coreia, Vietnã, América Latina, Oriente Médio — sob ameaça nuclear direta, que chega mais perto em outubro de 1962, na crise dos mísseis de Cuba.\n\nInternamente, o movimento por direitos civis derruba a segregação legal: a decisão *Brown v. Board* em 1954, a Lei dos Direitos Civis em 1964, a Lei do Direito de Voto em 1965. Martin Luther King é assassinado em 1968.\n\nA guerra do Vietnã mata cerca de 58 mil americanos e um número de vietnamitas estimado em milhões, e divide o país. O caso Watergate leva à única renúncia presidencial da história, em 1974.\n\nO período termina com a dissolução da União Soviética em dezembro de 1991."
     },
     {
       "id": "us-pos-guerra-fria",
       "inicio": "1991",
       "rotulo": "Estados Unidos da América",
-      "regime": "república federativa presidencialista em ordem pós-bipolar"
+      "regime": "república federativa presidencialista em ordem pós-bipolar",
+      "textoMdx": "Os atentados de 11 de setembro de 2001 redefinem a política externa e interna: invasões do Afeganistão e do Iraque, e ampliação dos poderes de vigilância do Estado.\n\nA crise financeira de 2008 origina-se no mercado imobiliário americano e se espalha pelo mundo. Barack Obama é eleito o primeiro presidente negro do país no mesmo ano.\n\nEm 6 de janeiro de 2021, apoiadores do presidente derrotado invadem o Capitólio durante a certificação do resultado eleitoral.\n\n*Este é o período em curso, e o mais próximo do presente em todo o atlas. Leia com essa ressalva.*"
     }
   ]
 }

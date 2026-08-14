@@ -8,7 +8,7 @@
       "fim": "1526",
       "rotulo": "Sultanato de Délhi",
       "regime": "sultanato no norte do subcontinente; sul e leste sob dinastias independentes",
-      "textoMdx": "O subcontinente não era uma unidade política. O Sultanato dominou o norte a partir de Délhi, enquanto o sul permaneceu sob dinastias próprias — entre elas o Império Vijayanagara, a partir de 1336, e os sultanatos do Decã.\n\nO período é nomeado pela potência dominante do norte, não porque houvesse um Estado único."
+      "textoMdx": "Cinco dinastias sucessivas governam o norte a partir de Délhi, estabelecendo o islã como religião de corte numa região de maioria hindu — convivência que produz sínteses duradouras em arquitetura, língua e música, e também episódios de destruição de templos.\n\nO subcontinente não era uma unidade política. O sul permaneceu sob dinastias próprias, entre elas o Império Vijayanagara, a partir de 1336, e os sultanatos do Decã. O período é nomeado pela potência dominante do norte, não porque houvesse um Estado único.\n\nO saque de Délhi por Timur, em 1398, reduz o sultanato a uma potência regional. Ele é derrotado em 1526 por Babur, descendente de Timur e de Gengis Khan.\n\n*O atlas começa a Índia em 1206. A história do subcontinente é muito anterior — os impérios Máuria e Gupta ficaram de fora porque o formato de datas ainda não aceita anos antes de Cristo.*"
     },
     {
       "id": "in-mogol",
@@ -16,14 +16,15 @@
       "fim": "1757",
       "rotulo": "Império Mogol",
       "regime": "monarquia imperial; fragmentação progressiva a partir de 1707",
-      "textoMdx": "Alcançou a maior extensão territorial sob Aurangzeb, cobrindo boa parte do subcontinente, incluindo territórios dos atuais Paquistão e Bangladesh. Após 1707 o poder imperial se dissolve diante de potências regionais, sobretudo a Confederação Marata."
+      "textoMdx": "No auge, o império mogol responde por algo em torno de um quarto do PIB mundial, segundo estimativas de historiadores econômicos, e cobre boa parte do subcontinente, incluindo territórios dos atuais Paquistão e Bangladesh.\n\nAkbar, que reina de 1556 a 1605, abole o imposto sobre não muçulmanos e integra nobres hindus à administração. Shah Jahan constrói o Taj Mahal como mausoléu para sua esposa. Aurangzeb amplia o território ao máximo e reverte parte da política de tolerância, reintroduzindo o imposto e endurecendo com hindus e siques.\n\nApós sua morte em 1707, o poder imperial se dissolve diante de potências regionais, sobretudo a Confederação Marata. A vitória britânica em Plassey, em 1757, marca o início do domínio europeu."
     },
     {
       "id": "in-companhia",
       "inicio": "1757",
       "fim": "1858",
       "rotulo": "Domínio da Companhia das Índias Orientais",
-      "regime": "administração por companhia comercial britânica, sob soberania mogol nominal"
+      "regime": "administração por companhia comercial britânica, sob soberania mogol nominal",
+      "textoMdx": "Um século em que a Índia é governada por uma empresa privada de capital aberto, com exército próprio de centenas de milhares de soldados — a maior parte deles indianos.\n\nA Companhia arrecada impostos, administra justiça e faz guerra. A desindustrialização do setor têxtil indiano, que era o maior exportador mundial de tecidos, ocorre neste período, sob tarifas que protegiam a indústria britânica. A grande fome de Bengala, em 1770, mata milhões.\n\nA revolta de 1857, iniciada por soldados indianos e ampliada por príncipes e camponeses, é reprimida com violência extrema dos dois lados. O Parlamento britânico responde dissolvendo a Companhia e assumindo o governo direto."
     },
     {
       "id": "in-raj",
@@ -31,7 +32,7 @@
       "fim": "1947",
       "rotulo": "Índia Britânica (Raj)",
       "regime": "colônia da Coroa Britânica, com províncias sob administração direta e centenas de estados principescos sob domínio indireto",
-      "textoMdx": "Este período nomeia o domínio britânico sobre o subcontinente, mas **o mapa desenha apenas as fronteiras da Índia de hoje**. O Raj era muito maior: incluía os atuais Paquistão e Bangladesh, e também a Birmânia — a atual Myanmar — até 1937.\n\nA linha que separa Índia, Paquistão e Bangladesh foi traçada em 1947, com a Partição. Ela não existia durante este período, e o atlas não tem geometria histórica para representar isso."
+      "textoMdx": "A Coroa constrói ferrovias, telégrafo e um serviço civil, e governa cerca de 300 milhões de pessoas com poucos milhares de administradores britânicos, apoiada em elites locais e em 565 estados principescos com soberania nominal.\n\nAs fomes se repetem sob políticas de mercado que mantinham exportações durante as crises: a de 1876-78 e a de Bengala, em 1943, mataram milhões cada uma.\n\nO Congresso Nacional Indiano, fundado em 1885, se transforma em movimento de massas sob Gandhi a partir de 1915, com a estratégia de não cooperação e desobediência civil. O massacre de Amritsar, em 1919, quando tropas atiram contra uma multidão desarmada, radicaliza o movimento.\n\n*Este período nomeia o domínio britânico sobre o subcontinente, mas o mapa desenha apenas as fronteiras da Índia de hoje. O Raj era muito maior: incluía os atuais Paquistão e Bangladesh, e também a Birmânia — a atual Myanmar — até 1937. A linha que separa Índia, Paquistão e Bangladesh foi traçada em 1947, com a Partição.*"
     },
     {
       "id": "in-dominio",
@@ -39,13 +40,14 @@
       "fim": "1950",
       "rotulo": "Domínio da Índia",
       "regime": "domínio autônomo da Commonwealth, sob a Coroa Britânica",
-      "textoMdx": "A independência em agosto de 1947 vem acompanhada da Partição, que cria o Paquistão e desloca milhões de pessoas."
+      "textoMdx": "A independência, em agosto de 1947, vem acompanhada da Partição, que cria o Paquistão como Estado de maioria muçulmana. A fronteira foi traçada em poucas semanas por uma comissão presidida por um advogado britânico que nunca havia estado na Índia.\n\nO deslocamento é o maior movimento forçado de população da história: estima-se entre 10 e 20 milhões de pessoas. A violência intercomunitária mata entre várias centenas de milhares e dois milhões, segundo diferentes estimativas.\n\nGandhi é assassinado em janeiro de 1948 por um nacionalista hindu que o considerava conciliador com os muçulmanos. A primeira guerra por Caxemira começa no mesmo período, e a disputa permanece aberta.\n\nA Constituição entra em vigor em 26 de janeiro de 1950."
     },
     {
       "id": "in-republica",
       "inicio": "1950",
       "rotulo": "República da Índia",
-      "regime": "república parlamentarista federal"
+      "regime": "república parlamentarista federal",
+      "textoMdx": "A Constituição de 1950 é a mais longa do mundo em vigor, adota sufrágio universal desde o primeiro dia e proíbe a discriminação por casta, instituindo reserva de vagas para grupos historicamente excluídos.\n\nA democracia se manteve com uma interrupção: o estado de emergência decretado em 1975, que suspendeu liberdades civis por 21 meses — e cujo governo perdeu a eleição seguinte.\n\nA Índia realiza teste nuclear em 1974 e se declara potência nuclear em 1998. A liberalização econômica de 1991 acelera o crescimento, e o país se torna o mais populoso do mundo em 2023.\n\n*Este é o período em curso.*"
     }
   ]
 }

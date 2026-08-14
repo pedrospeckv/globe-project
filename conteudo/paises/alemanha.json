@@ -7,42 +7,48 @@
       "inicio": "1815",
       "fim": "1866",
       "rotulo": "Confederação Germânica",
-      "regime": "confederação de estados soberanos sob presidência austríaca"
+      "regime": "confederação de estados soberanos sob presidência austríaca",
+      "textoMdx": "O Congresso de Viena, ao reorganizar a Europa depois de Napoleão, substitui o Sacro Império — dissolvido em 1806 — por uma confederação de trinta e nove estados soberanos, presidida pela Áustria.\n\nNão é um país: é uma liga sem exército comum, sem cidadania comum e sem chefe de Estado. O que existe de unificador é econômico — a união aduaneira liderada pela Prússia a partir de 1834 integra mercados antes de qualquer integração política.\n\nA revolução de 1848 leva um parlamento reunido em Frankfurt a oferecer uma coroa alemã ao rei da Prússia, que a recusa por vir de assembleia e não de príncipes. A confederação se desfaz em 1866, quando Prússia e Áustria vão à guerra pela hegemonia."
     },
     {
       "id": "de-confederacao-norte",
       "inicio": "1866",
       "fim": "1871",
       "rotulo": "Confederação da Alemanha do Norte",
-      "regime": "federação sob hegemonia prussiana"
+      "regime": "federação sob hegemonia prussiana",
+      "textoMdx": "A vitória prussiana sobre a Áustria em 1866 exclui os austríacos da questão alemã e define que a unificação será conduzida por Berlim.\n\nBismarck organiza os estados ao norte do rio Meno numa federação com constituição, parlamento eleito por sufrágio universal masculino e política externa única — na prática, um Estado prussiano ampliado.\n\nA guerra contra a França, em 1870, arrasta os estados do sul para o mesmo campo e produz o efeito que faltava. O Império Alemão é proclamado em janeiro de 1871, no Salão dos Espelhos de Versalhes."
     },
     {
       "id": "de-imperio",
       "inicio": "1871",
       "fim": "1918",
       "rotulo": "Império Alemão",
-      "regime": "monarquia federal sob a Casa de Hohenzollern"
+      "regime": "monarquia federal sob a Casa de Hohenzollern",
+      "textoMdx": "Em quarenta anos a Alemanha ultrapassa a Grã-Bretanha em produção de aço e lidera as indústrias química e elétrica. Bismarck cria, nos anos 1880, o primeiro sistema estatal de seguro social do mundo — em parte para esvaziar o apelo do movimento socialista.\n\nO desenho institucional concentra poder: o chanceler responde ao imperador, não ao parlamento eleito.\n\nGuilherme II demite Bismarck em 1890 e adota uma política externa de confronto, com corrida naval contra a Grã-Bretanha e disputa colonial. A Primeira Guerra mata cerca de dois milhões de soldados alemães. Em novembro de 1918, com a derrota consumada e motins na Marinha, o imperador abdica."
     },
     {
       "id": "de-weimar",
       "inicio": "1918",
       "fim": "1933",
       "rotulo": "República de Weimar",
-      "regime": "república parlamentarista federal"
+      "regime": "república parlamentarista federal",
+      "textoMdx": "A primeira democracia alemã nasce da derrota e carrega o Tratado de Versalhes, que atribui à Alemanha a responsabilidade pela guerra e impõe reparações que a economia não comporta.\n\nA hiperinflação de 1923 destrói a poupança da classe média: o marco chega a trilhões por dólar. Segue-se um período de estabilização e florescimento cultural — Bauhaus, cinema expressionista, Berlim como capital artística europeia.\n\nA crise de 1929 desfaz tudo. O desemprego passa de seis milhões, e a votação nos partidos que rejeitam a república cresce nos dois extremos. A constituição permitia governar por decreto emergencial, recurso que passa a ser rotina.\n\nEm 30 de janeiro de 1933, Hitler é nomeado chanceler dentro das regras do sistema que iria destruir."
     },
     {
       "id": "de-nazista",
       "inicio": "1933",
       "fim": "1945",
       "rotulo": "Alemanha Nazista",
-      "regime": "ditadura totalitária de partido único"
+      "regime": "ditadura totalitária de partido único",
+      "textoMdx": "Em menos de dois meses o regime obtém poderes legislativos plenos e elimina os demais partidos. As Leis de Nuremberg, de 1935, retiram a cidadania dos judeus alemães.\n\nA guerra iniciada com a invasão da Polônia em setembro de 1939 mata entre 70 e 85 milhões de pessoas no mundo. O Estado alemão organiza o assassinato sistemático de cerca de seis milhões de judeus, além de ciganos, poloneses, prisioneiros soviéticos, pessoas com deficiência e homossexuais.\n\nO regime cai em maio de 1945, com Berlim tomada e Hitler morto por suicídio.\n\n*Este período não admite tratamento simétrico. O atlas registra fatos estabelecidos por tribunais e pela historiografia, e não apresenta \"o outro lado\" de um genocídio.*"
     },
     {
       "id": "de-ocupacao",
       "inicio": "1945",
       "fim": "1949",
       "rotulo": "Ocupação Aliada",
-      "regime": "administração militar quadripartite, sem Estado alemão soberano"
+      "regime": "administração militar quadripartite, sem Estado alemão soberano",
+      "textoMdx": "O território é dividido em quatro zonas, administradas por Estados Unidos, Reino Unido, França e União Soviética. Não há Estado alemão: as decisões cabem aos ocupantes.\n\nOs julgamentos de Nuremberg, entre 1945 e 1946, estabelecem responsabilidade penal individual por crimes de guerra e contra a humanidade, fundando o direito penal internacional moderno.\n\nA cooperação entre os aliados se rompe rápido. Em 1948 a União Soviética bloqueia os acessos terrestres a Berlim Ocidental, e a cidade é abastecida por ar durante quase um ano. Em 1949 as zonas ocidentais e a soviética dão origem a dois Estados distintos."
     },
     {
       "id": "de-divisao",
@@ -50,16 +56,17 @@
       "fim": "1990",
       "rotulo": "Alemanha dividida",
       "regime": "território dividido entre dois Estados soberanos, cada um alinhado a um bloco da Guerra Fria",
+      "textoMdx": "Quarenta e um anos em que a fronteira entre os blocos passa dentro da Alemanha. O Muro de Berlim é erguido em agosto de 1961 para conter a fuga de população para o oeste, e cai em 9 de novembro de 1989.\n\nA reunificação se dá em outubro de 1990 pela adesão dos estados orientais à República Federal — juridicamente uma ampliação da RFA, não a fundação de um país novo.",
       "entidades": [
         {
           "nome": "República Federal da Alemanha (RFA)",
           "regime": "república parlamentarista federal",
-          "textoMdx": "Fundada em maio de 1949 a partir das zonas de ocupação americana, britânica e francesa. Capital em Bonn. Integrou a OTAN em 1955 e foi membro fundador das Comunidades Europeias."
+          "textoMdx": "Fundada em maio de 1949 a partir das zonas americana, britânica e francesa. Capital em Bonn. Integrou a OTAN em 1955 e foi membro fundador das Comunidades Europeias."
         },
         {
           "nome": "República Democrática Alemã (RDA)",
           "regime": "república socialista de partido único, sob o SED",
-          "textoMdx": "Fundada em outubro de 1949 na zona de ocupação soviética. Capital em Berlim Oriental. Integrou o Pacto de Varsóvia. Deixou de existir em outubro de 1990, com a adesão de seus estados à RFA."
+          "textoMdx": "Fundada em outubro de 1949 na zona soviética. Capital em Berlim Oriental. Integrou o Pacto de Varsóvia. A Stasi mantinha uma das maiores redes de vigilância interna já documentadas, com dezenas de milhares de agentes e centenas de milhares de informantes."
         }
       ]
     },
@@ -67,7 +74,8 @@
       "id": "de-reunificada",
       "inicio": "1990",
       "rotulo": "República Federal da Alemanha",
-      "regime": "república parlamentarista federal reunificada"
+      "regime": "república parlamentarista federal reunificada",
+      "textoMdx": "A Alemanha reunificada se torna a maior economia da Europa e o principal financiador da União Europeia, papel que a coloca no centro das decisões durante a crise do euro a partir de 2010.\n\nEm 2015 recebe cerca de um milhão de solicitantes de refúgio, sobretudo sírios, decisão que reorganiza o debate político interno.\n\nA memória do nazismo é tratada como política de Estado: negar o Holocausto é crime, e o currículo escolar obrigatório aborda o período.\n\n*Este é o período em curso.*"
     }
   ]
 }
