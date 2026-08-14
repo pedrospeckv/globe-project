@@ -19,6 +19,8 @@ import {
   rotuloDeData,
 } from "@/lib/conteudo/tempo";
 import { estaDividido, type Pais } from "@/lib/conteudo/pais";
+import { Prosa } from "@/components/conteudo/Prosa";
+import type { Fonte } from "@/lib/conteudo/fonte";
 import type { Viagem } from "@/lib/conteudo/viagem";
 import { eventosEm, type Evento } from "@/lib/conteudo/evento";
 
@@ -30,13 +32,14 @@ interface Props {
   paises: Pais[];
   viagens: Viagem[];
   eventos: Evento[];
+  fontes?: Fonte[];
 }
 
 /**
  * Único dono do estado. Tudo abaixo recebe props e não guarda estado próprio,
  * o que torna impossível globo, barra de tempo e rotas dessincronizarem.
  */
-export function Atlas({ mundo, paises, viagens, eventos }: Props) {
+export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
   const [alpha, setAlpha] = useState(0);
   const [rotacao, setRotacao] = useState<[number, number]>([-40, -10]);
   const [selecionado, setSelecionado] = useState<Alpha3 | null>(null);
@@ -180,6 +183,19 @@ export function Atlas({ mundo, paises, viagens, eventos }: Props) {
     );
   }, [viagens, viagemFoco, paises, eventos, dominio]);
 
+  const viagemSelecionada = useMemo(
+    () => viagens.find((v) => v.id === viagemFoco) ?? null,
+    [viagens, viagemFoco]
+  );
+
+  const fontesDaViagem = useMemo(
+    () =>
+      viagemSelecionada
+        ? fontes.filter((f) => viagemSelecionada.fontes.includes(f.id))
+        : [],
+    [fontes, viagemSelecionada]
+  );
+
   const paisSelecionado = useMemo(
     () => paises.find((p) => p.iso === selecionado) ?? null,
     [paises, selecionado]
@@ -288,6 +304,39 @@ export function Atlas({ mundo, paises, viagens, eventos }: Props) {
           {alpha < 0.5 ? "Desenrolar" : "Enrolar"}
         </button>
       </div>
+
+      {/*
+        Contexto da viagem selecionada. O traço no mapa não comporta ressalva:
+        a rota do Colombo desenha um desembarque cuja ilha é disputada, e a
+        linha sozinha afirmaria uma certeza que as fontes não têm.
+      */}
+      {viagemSelecionada && (
+        <article className="max-w-2xl rounded-lg border border-amber-900/40 bg-amber-950/10 p-4">
+          <h2 className="text-sm font-semibold text-amber-200">
+            {viagemSelecionada.titulo}
+          </h2>
+          <Prosa texto={viagemSelecionada.textoMdx} />
+
+          {fontesDaViagem.length > 0 && (
+            <footer className="mt-3 border-t border-amber-900/30 pt-2">
+              <p className="mb-1 text-[10px] uppercase tracking-wide text-slate-600">
+                {fontesDaViagem.length === 1 ? "Fonte" : "Fontes"}
+              </p>
+              <ul className="space-y-1">
+                {fontesDaViagem.map((f) => (
+                  <li key={f.id} className="text-xs text-slate-400">
+                    {f.titulo}
+                    {f.autor && <span className="text-slate-600"> · {f.autor}</span>}
+                    {f.data && (
+                      <span className="text-slate-600"> · {rotuloDeData(f.data)}</span>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </footer>
+          )}
+        </article>
+      )}
 
       {eventosVisiveis.length > 0 && (
         <ul className="flex max-w-3xl flex-wrap justify-center gap-x-4 gap-y-1 text-xs text-rose-300/90">

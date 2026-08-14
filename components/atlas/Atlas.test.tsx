@@ -18,6 +18,7 @@ function montar() {
       paises={acervo.paises}
       viagens={acervo.viagens}
       eventos={acervo.eventos}
+      fontes={acervo.fontes}
     />
   );
   const barra = utils.container.querySelector(
@@ -121,7 +122,12 @@ describe("Atlas", () => {
   it("a rota do Cabral se desenha conforme a barra avança", () => {
     const { container, barra, botao, irPara } = montar();
     fireEvent.click(botao(/Cabral/));
-    const rota = () => container.querySelector("svg > g[data-camada=rotas] > path");
+    // Pelo título, não pela posição: com mais de uma viagem no acervo, o
+    // primeiro caminho da camada pode ser o de outra frota já concluída.
+    const rota = () =>
+      [...container.querySelectorAll("svg > g[data-camada=rotas] > path")].find((p) =>
+        p.querySelector("title")?.textContent?.includes("Cabral")
+      ) ?? null;
 
     // Antes da segunda parada não existe linha — um ponto só não é rota.
     fireEvent.change(barra, { target: { value: barra.min } });
@@ -261,6 +267,44 @@ describe("Atlas", () => {
     )!;
     fireEvent.click(crimeia);
     expect(container.textContent).toContain("Rússia ·");
+  });
+
+  it("a viagem selecionada mostra o contexto e as fontes", () => {
+    /*
+     * O traço no mapa não comporta ressalva. A rota do Colombo desenha um
+     * desembarque em 12 de outubro de 1492 cuja ilha é disputada até hoje —
+     * a linha sozinha afirmaria uma certeza que as fontes não têm.
+     */
+    const { container, botao } = montar();
+    fireEvent.click(botao(/Colombo/));
+
+    expect(container.textContent).toMatch(/ilha do desembarque.*é disputada/i);
+    expect(container.textContent).toMatch(/las Casas/i);
+    expect(container.textContent).toMatch(/Fontes?/);
+  });
+
+  it("sem viagem selecionada, não há painel de contexto", () => {
+    const { container } = montar();
+    expect(container.textContent).not.toMatch(/las Casas/i);
+  });
+
+  it("cada viagem do acervo tem botão próprio", () => {
+    const { botao } = montar();
+    for (const v of acervo.viagens) expect(botao(v.titulo)).toBeTruthy();
+  });
+
+  it("a rota do Colombo só existe depois que a frota partiu", () => {
+    const { container, irPara } = montar();
+    const colombo = () =>
+      [...container.querySelectorAll("svg > g[data-camada=rotas] > path")].find((p) =>
+        p.querySelector("title")?.textContent?.includes("Colombo")
+      ) ?? null;
+
+    irPara("1400");
+    expect(colombo()).toBeNull();
+
+    irPara("1493");
+    expect(colombo()?.getAttribute("d")).toMatch(/^M/);
   });
 
   it("o mapa declara que desenha o contorno de hoje", () => {

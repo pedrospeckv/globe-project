@@ -1,0 +1,58 @@
+{
+  "id": "colombo-1492",
+  "titulo": "Primeira viagem de Cristóvão Colombo",
+  "fontes": ["colombo-diario", "colombo-carta-santangel"],
+  "textoMdx": "Três navios saem de Palos de la Frontera em 3 de agosto de 1492 procurando a Ásia por oeste. O erro de cálculo é a razão da partida: Colombo estimava a circunferência da Terra em cerca de três quartos do tamanho real e supunha o Japão a umas 2.400 milhas das Canárias. Os cosmógrafos portugueses que já haviam recusado o projeto estavam certos sobre a distância — e errados sobre não haver nada no caminho.\n\n**A ilha do desembarque de 12 de outubro é disputada.** Colombo registrou o nome taíno, Guanahani, e a rebatizou San Salvador. Qual ilha das Bahamas é essa segue em debate: a candidata tradicional é Watling, oficialmente renomeada San Salvador em 1925, mas Samana Cay, Plana Cays e outras já foram defendidas com base em reconstruções da derrota náutica. O atlas desenha a rota pela candidata tradicional e registra aqui que a linha é mais firme que a evidência.\n\nA Santa María encalha na noite de Natal em Hispaniola. Com sua madeira se levanta La Navidad, o primeiro assentamento europeu nas Américas depois dos nórdicos — e o primeiro a desaparecer: os 39 homens deixados ali estavam todos mortos quando Colombo voltou, um ano depois.\n\n*As datas são as do calendário juliano, como foram registradas. E há uma ressalva de fonte que atravessa tudo: o diário original de bordo se perdeu, e o que se lê hoje é o resumo feito por Bartolomé de las Casas décadas mais tarde, em que trechos são citados e outros apenas parafraseados na terceira pessoa.*",
+  "paradas": [
+    {
+      "local": "Palos de la Frontera",
+      "data": "1492-08-03",
+      "coords": [-6.89, 37.23]
+    },
+    {
+      "local": "San Sebastián de La Gomera",
+      "data": "1492-09-06",
+      "coords": [-17.11, 28.09]
+    },
+    {
+      "local": "Guanahani (San Salvador)",
+      "data": "1492-10-12",
+      "coords": [-74.48, 24.05]
+    },
+    {
+      "local": "Costa de Cuba",
+      "data": "1492-10-28",
+      "coords": [-75.87, 21.1]
+    },
+    {
+      "local": "Hispaniola",
+      "data": "1492-12-06",
+      "coords": [-73.38, 19.81]
+    },
+    {
+      "local": "La Navidad",
+      "data": "1492-12-25",
+      "coords": [-72.2, 19.75]
+    },
+    {
+      "local": "Baía de Samaná — partida de volta",
+      "data": "1493-01-16",
+      "coords": [-69.33, 19.2]
+    },
+    {
+      "local": "Santa Maria, Açores",
+      "data": "1493-02-18",
+      "coords": [-25.09, 36.97]
+    },
+    {
+      "local": "Lisboa",
+      "data": "1493-03-04",
+      "coords": [-9.14, 38.72]
+    },
+    {
+      "local": "Palos de la Frontera",
+      "data": "1493-03-15",
+      "coords": [-6.89, 37.23]
+    }
+  ]
+}

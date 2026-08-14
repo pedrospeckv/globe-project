@@ -23,6 +23,7 @@ export default async function Home() {
           paises={acervo.paises}
           viagens={acervo.viagens}
           eventos={acervo.eventos}
+          fontes={acervo.fontes}
         />
       </div>
     </main>

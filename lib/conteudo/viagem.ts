@@ -21,6 +21,13 @@ export const Viagem = z
     titulo: z.string().min(1),
     paradas: z.array(Parada).min(2, "viagem precisa de ao menos duas paradas"),
     fontes: z.array(Id).default([]),
+    /**
+     * Contexto da viagem. Existe porque o traço no mapa não comporta ressalva:
+     * a rota do Colombo desenha um desembarque em 12 de outubro de 1492 cuja
+     * ilha é disputada até hoje, e a linha sozinha afirmaria uma certeza que
+     * as fontes não têm.
+     */
+    textoMdx: z.string().optional(),
   })
   .refine(
     (v) =>

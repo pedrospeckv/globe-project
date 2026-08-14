@@ -114,6 +114,22 @@
     "citacao": "A 10ª Turma do TRF-1 rejeitou por unanimidade o pedido do MPF para reabrir a ação. Em primeira instância foi reconhecida a prescrição da pretensão acusatória, por Lula ter mais de 70 anos, o que reduz o prazo pela metade conforme o artigo 115 do Código Penal."
   },
   {
+    "id": "colombo-diario",
+    "tipo": "documento-oficial",
+    "titulo": "Diario de a bordo da primeira viagem de Cristóvão Colombo",
+    "autor": "Cristóvão Colombo, no resumo de Bartolomé de las Casas",
+    "data": "1493",
+    "citacao": "O diário original se perdeu, assim como a cópia mandada fazer pelos Reis Católicos. O que sobreviveu é o resumo preparado por Bartolomé de las Casas décadas depois, em que alguns trechos aparecem citados e outros parafraseados na terceira pessoa — distinção que importa para julgar cada afirmação atribuída a Colombo."
+  },
+  {
+    "id": "colombo-carta-santangel",
+    "tipo": "documento-oficial",
+    "titulo": "Carta a Luis de Santángel anunciando a viagem",
+    "autor": "Cristóvão Colombo",
+    "data": "1493-02",
+    "citacao": "Escrita na volta e impressa ainda em 1493, circulou por toda a Europa em poucos meses. É relato de quem precisava justificar o financiamento e obter mais: descreve as ilhas e seus habitantes com o interesse declarado de quem buscava continuidade da empresa."
+  },
+  {
     "id": "ibge-sidra-1737",
     "tipo": "dataset",
     "titulo": "IPCA — variação acumulada no ano (tabela 1737, variável 69)",
