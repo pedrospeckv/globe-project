@@ -21,6 +21,29 @@ describe("página de período", () => {
   it.each(todos)("%s/%s (%s) rende sem deixar ano cru na tela", async (iso, id) => {
     const { container } = await pagina(iso, id);
     semAnoCru(container);
+    // Nenhuma ligação pode chegar à tela como colchete.
+    expect(container.textContent).not.toContain("[[");
+  });
+
+  it("a ligação vira link de verdade, com o rótulo escrito", async () => {
+    const { container } = await pagina("BRA", "br-nova-republica");
+    const links = [...container.querySelectorAll("article a")].map((a) => ({
+      texto: a.textContent,
+      href: a.getAttribute("href"),
+    }));
+    expect(links).toContainEqual({ texto: "Lula", href: "/figura/lula" });
+    expect(links).toContainEqual({
+      texto: "Jair Bolsonaro",
+      href: "/figura/bolsonaro",
+    });
+  });
+
+  it("ligação entre períodos usa o rótulo do alvo quando não há um escrito", async () => {
+    const { container } = await pagina("BRA", "br-republica-velha");
+    const link = [...container.querySelectorAll("article a")].find(
+      (a) => a.getAttribute("href") === "/pais/BRA/br-era-vargas"
+    );
+    expect(link?.textContent).toBe("Era Vargas");
   });
 
   it("mostra o texto INTEIRO, não o resumo do índice", async () => {

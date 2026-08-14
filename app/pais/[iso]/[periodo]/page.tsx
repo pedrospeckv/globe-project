@@ -2,6 +2,7 @@ import path from "node:path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { carregarAcervo } from "@/lib/conteudo/carregar";
+import { indexarAlvos } from "@/lib/conteudo/ligacoes";
 import { Prosa } from "@/components/conteudo/Prosa";
 import { eventosDoPeriodo } from "@/lib/conteudo/evento";
 import { figurasDoPeriodo } from "@/lib/conteudo/figura";
@@ -25,6 +26,7 @@ export default async function PeriodoPage({
 }) {
   const { iso, periodo: periodoId } = await params;
   const acervo = await carregarAcervo(RAIZ);
+  const alvos = indexarAlvos(acervo);
 
   const pais = acervo.paises.find((p) => p.iso === iso);
   if (!pais) notFound();
@@ -61,7 +63,7 @@ export default async function PeriodoPage({
         </header>
 
         <article>
-          <Prosa texto={periodo.textoMdx} />
+          <Prosa texto={periodo.textoMdx} alvos={alvos} />
         </article>
 
         {periodo.entidades.length >= 2 && (
@@ -77,7 +79,7 @@ export default async function PeriodoPage({
                 >
                   <p className="text-xs font-semibold text-slate-200">{e.nome}</p>
                   <p className="mt-0.5 text-[11px] text-slate-400">{e.regime}</p>
-                  <Prosa texto={e.textoMdx} />
+                  <Prosa texto={e.textoMdx} alvos={alvos} />
                 </div>
               ))}
             </div>
@@ -106,7 +108,7 @@ export default async function PeriodoPage({
                       {rotuloDeData(e.data)}
                     </span>
                   </div>
-                  <Prosa texto={e.textoMdx} />
+                  <Prosa texto={e.textoMdx} alvos={alvos} />
                 </li>
               ))}
             </ol>

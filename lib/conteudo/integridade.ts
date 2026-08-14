@@ -4,6 +4,8 @@ import type { Pais } from "./pais";
 import type { Viagem } from "./viagem";
 import type { Indicador } from "./indicador";
 import type { Evento } from "./evento";
+// `ligacoes` importa só o TIPO Acervo daqui, então o ciclo some na compilação.
+import { verificarLigacoes } from "./ligacoes";
 
 export interface Acervo {
   fontes: Fonte[];
@@ -109,6 +111,8 @@ export function verificarIntegridade(acervo: Acervo): string[] {
       );
     }
   }
+
+  erros.push(...verificarLigacoes(acervo));
 
   return erros;
 }

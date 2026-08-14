@@ -32,6 +32,11 @@ export function textosVisiveis(raiz: Element): string[] {
   );
 
   for (let no = caminhante.nextNode(); no; no = caminhante.nextNode()) {
+    // Script e style têm nó de texto e ninguém os lê. Deixá-los entrar
+    // produz acusação falsa a partir de código que o usuário nunca vê.
+    const tag = (no.parentElement?.tagName ?? "").toUpperCase();
+    if (tag === "SCRIPT" || tag === "STYLE") continue;
+
     if (no.nodeType === 3) {
       const t = no.nodeValue?.trim();
       if (t) saida.push(t);

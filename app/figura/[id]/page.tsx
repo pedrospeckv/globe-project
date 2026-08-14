@@ -2,6 +2,7 @@ import path from "node:path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { carregarAcervo } from "@/lib/conteudo/carregar";
+import { indexarAlvos } from "@/lib/conteudo/ligacoes";
 import { AlegacaoCard } from "@/components/conteudo/AlegacaoCard";
 import { Prosa } from "@/components/conteudo/Prosa";
 import { rotuloDeData } from "@/lib/conteudo/tempo";
@@ -21,6 +22,7 @@ export default async function FiguraPage({
 }) {
   const { id } = await params;
   const acervo = await carregarAcervo(RAIZ);
+  const alvos = indexarAlvos(acervo);
   const figura = acervo.figuras.find((f) => f.id === id);
   if (!figura) notFound();
 
@@ -43,7 +45,7 @@ export default async function FiguraPage({
               {pais.nome.toUpperCase()}
             </p>
           )}
-          <Prosa texto={figura.textoMdx} />
+          <Prosa texto={figura.textoMdx} alvos={alvos} />
         </header>
 
         {figura.cargos.length > 0 && (

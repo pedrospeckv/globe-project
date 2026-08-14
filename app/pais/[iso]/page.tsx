@@ -2,6 +2,7 @@ import path from "node:path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { carregarAcervo } from "@/lib/conteudo/carregar";
+import { indexarAlvos } from "@/lib/conteudo/ligacoes";
 import { Prosa } from "@/components/conteudo/Prosa";
 import { IndicadorChart } from "@/components/conteudo/IndicadorChart";
 import { eventosDoPais } from "@/lib/conteudo/evento";
@@ -24,6 +25,7 @@ export default async function PaisPage({
 }) {
   const { iso } = await params;
   const acervo = await carregarAcervo(RAIZ);
+  const alvos = indexarAlvos(acervo);
   const pais = acervo.paises.find((p) => p.iso === iso);
   if (!pais) notFound();
 
@@ -76,7 +78,7 @@ export default async function PaisPage({
               </div>
               <p className="mt-1 text-xs text-slate-400">{p.regime}</p>
 
-              <Prosa texto={resumoDe(p)} />
+              <Prosa texto={resumoDe(p)} alvos={alvos} />
 
               <p className="mt-2 flex items-center gap-2 text-xs">
                 <Link
@@ -144,7 +146,7 @@ export default async function PaisPage({
                       também: {e.paises.filter((p) => p !== iso).join(", ")}
                     </p>
                   )}
-                  <Prosa texto={e.textoMdx} />
+                  <Prosa texto={e.textoMdx} alvos={alvos} />
                 </li>
               ))}
             </ol>
