@@ -76,9 +76,9 @@ export function Atlas({ mundo, paises, viagens, eventos }: Props) {
     [paises, tempo]
   );
 
-  const { curados, fundo } = useMemo(
-    () => separarPaises(mundo, acesos),
-    [mundo, acesos]
+  const { curados, fundo, disputados } = useMemo(
+    () => separarPaises(mundo, acesos, tempo),
+    [mundo, acesos, tempo]
   );
 
   /** Países cujo território abrigava mais de um Estado nesta data. */
@@ -229,6 +229,7 @@ export function Atlas({ mundo, paises, viagens, eventos }: Props) {
           selecionado={selecionado}
           onSelecionar={setSelecionado}
           divididos={divididos}
+          disputados={disputados}
         />
       </div>
 

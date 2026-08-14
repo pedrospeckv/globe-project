@@ -26,7 +26,7 @@ function montar() {
 
   /** ISO dos países desenhados na camada interativa neste instante. */
   const acesos = () =>
-    [...utils.container.querySelectorAll("svg > g:nth-of-type(1) > path title")]
+    [...utils.container.querySelectorAll("svg > g[data-camada=paises] > path title")]
       .map((t) => t.textContent?.split(" ")[0] ?? "")
       .sort();
 
@@ -80,7 +80,7 @@ describe("Atlas", () => {
   it("a Alemanha dividida aparece hachurada só no período certo", () => {
     const { container, irPara } = montar();
     const alemanha = () =>
-      [...container.querySelectorAll("svg > g:nth-of-type(1) > path")].find((p) =>
+      [...container.querySelectorAll("svg > g[data-camada=paises] > path")].find((p) =>
         p.querySelector("title")?.textContent?.startsWith("DEU")
       );
 
@@ -97,7 +97,7 @@ describe("Atlas", () => {
   it("país selecionado que ainda não existia diz isso em vez de sumir com o texto", () => {
     const { container, irPara, getByText } = montar();
     irPara("1600");
-    const bra = [...container.querySelectorAll("svg > g:nth-of-type(1) > path")].find(
+    const bra = [...container.querySelectorAll("svg > g[data-camada=paises] > path")].find(
       (p) => p.querySelector("title")?.textContent === "BRA"
     )!;
     fireEvent.click(bra);
@@ -121,7 +121,7 @@ describe("Atlas", () => {
   it("a rota do Cabral se desenha conforme a barra avança", () => {
     const { container, barra, botao, irPara } = montar();
     fireEvent.click(botao(/Cabral/));
-    const rota = () => container.querySelector("svg > g:nth-of-type(2) > path");
+    const rota = () => container.querySelector("svg > g[data-camada=rotas] > path");
 
     // Antes da segunda parada não existe linha — um ponto só não é rota.
     fireEvent.change(barra, { target: { value: barra.min } });
@@ -156,7 +156,7 @@ describe("Atlas", () => {
     fireEvent.pointerUp(box, { clientX: 401, clientY: 300, pointerId: 1 });
 
     const desenhados = [
-      ...container.querySelectorAll("svg > g:nth-of-type(1) > path title"),
+      ...container.querySelectorAll("svg > g[data-camada=paises] > path title"),
     ].map((t) => t.textContent);
 
     expect(desenhados).toContain("BRA");
@@ -175,7 +175,7 @@ describe("Atlas", () => {
     irPara("1200");
 
     const franca = [
-      ...container.querySelectorAll("svg > g:nth-of-type(1) > path"),
+      ...container.querySelectorAll("svg > g[data-camada=paises] > path"),
     ].find((p) => p.querySelector("title")?.textContent === "FRA")!;
     expect(franca).toBeTruthy();
 
@@ -187,7 +187,7 @@ describe("Atlas", () => {
     ].map((m) => +m[1]);
     // Nada da França desenhada pode cair sobre o Brasil no mesmo instante.
     const brasil = [
-      ...container.querySelectorAll("svg > g:nth-of-type(1) > path"),
+      ...container.querySelectorAll("svg > g[data-camada=paises] > path"),
     ].find((p) => p.querySelector("title")?.textContent === "BRA");
     expect(brasil).toBeFalsy(); // em 1200 o Brasil nem existe no atlas
     expect(Math.max(...xs) - Math.min(...xs)).toBeLessThan(300);
@@ -219,6 +219,48 @@ describe("Atlas", () => {
       (e.getAttribute("class") ?? "").includes("rose")
     );
     expect(marcas).toHaveLength(acervo.eventos.length);
+  });
+
+  it("a Crimeia é marcada como disputada sem hachurar a Rússia inteira", () => {
+    /*
+     * A armadilha que este desenho evita: o mecanismo do território dividido
+     * marca o PAÍS, e foi feito para a Alemanha de 1949, onde o território
+     * todo abrigava dois Estados. Aplicá-lo aqui hachuraria a Sibéria por
+     * causa da Crimeia. A marca é do polígono.
+     */
+    const { container, irPara } = montar();
+    irPara("2020");
+
+    const disputados = [
+      ...container.querySelectorAll("svg > g[data-camada=disputados] > path"),
+    ];
+    expect(disputados).toHaveLength(1);
+    expect(disputados[0].querySelector("title")?.textContent).toMatch(
+      /Crimeia.*soberania disputada/
+    );
+
+    const russia = [
+      ...container.querySelectorAll("svg > g[data-camada=paises] > path"),
+    ].find((p) => p.querySelector("title")?.textContent === "RUS")!;
+    expect(russia.getAttribute("fill")).not.toContain("hachura");
+  });
+
+  it("a Crimeia não aparece como russa antes de 2014", () => {
+    const { container, irPara } = montar();
+    irPara("2000");
+    expect(
+      container.querySelectorAll("svg > g[data-camada=disputados] > path")
+    ).toHaveLength(0);
+  });
+
+  it("clicar no território disputado abre o país a que a base o atribui", () => {
+    const { container, irPara } = montar();
+    irPara("2020");
+    const crimeia = container.querySelector(
+      "svg > g[data-camada=disputados] > path"
+    )!;
+    fireEvent.click(crimeia);
+    expect(container.textContent).toContain("Rússia ·");
   });
 
   it("o mapa declara que desenha o contorno de hoje", () => {

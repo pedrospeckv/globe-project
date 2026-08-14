@@ -6,6 +6,7 @@ import { Prosa } from "@/components/conteudo/Prosa";
 import { IndicadorChart } from "@/components/conteudo/IndicadorChart";
 import { eventosDoPais } from "@/lib/conteudo/evento";
 import { rotuloDeData } from "@/lib/conteudo/tempo";
+import { DISPUTAS } from "@/lib/geo/disputas";
 
 const RAIZ = path.join(process.cwd(), "conteudo");
 
@@ -28,6 +29,7 @@ export default async function PaisPage({
   const figuras = acervo.figuras.filter((f) => f.paisIso === iso);
   const indicadores = acervo.indicadores.filter((i) => i.paisIso === iso);
   const eventos = eventosDoPais(acervo.eventos, iso);
+  const disputas = DISPUTAS.filter((d) => d.atribuidoNaBase === iso);
 
   return (
     <main className="min-h-screen bg-slate-950 py-10 text-slate-100">
@@ -88,6 +90,33 @@ export default async function PaisPage({
             </article>
           ))}
         </section>
+
+        {disputas.length > 0 && (
+          /*
+             A nota vive em lib/geo/disputas.ts, uma fonte só: é a mesma que
+             o mapa usa para hachurar. Reescrevê-la aqui abriria espaço para
+             a página e o mapa divergirem sobre o que está em disputa.
+          */
+          <section className="space-y-2">
+            <h2 className="text-xs uppercase tracking-wide text-slate-500">
+              Territórios de soberania disputada
+            </h2>
+            {disputas.map((d) => (
+              <article
+                key={d.id}
+                className="rounded-lg border border-amber-900/40 bg-amber-950/10 p-4"
+              >
+                <div className="flex items-baseline justify-between gap-3">
+                  <h3 className="text-sm font-semibold text-amber-200">{d.nome}</h3>
+                  <span className="shrink-0 font-mono text-xs text-amber-500">
+                    desde {rotuloDeData(d.desde)}
+                  </span>
+                </div>
+                <p className="mt-2 text-xs leading-relaxed text-slate-400">{d.nota}</p>
+              </article>
+            ))}
+          </section>
+        )}
 
         {eventos.length > 0 && (
           <section className="space-y-2">

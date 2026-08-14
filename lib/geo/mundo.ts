@@ -3,6 +3,7 @@ import { geoArea, geoDistance } from "d3-geo";
 import type { Feature, Geometry, Polygon, Position } from "geojson";
 import type { Topology, GeometryCollection } from "topojson-specification";
 import { alpha3De, type Alpha3 } from "./iso";
+import { separarDisputados, type TerritorioDisputado } from "./disputas";
 
 export type PaisFeature = Feature<Geometry, { name?: string }>;
 
@@ -113,22 +114,40 @@ export function separarUltramar(f: PaisFeature): {
  */
 export function separarPaises(
   mundo: PaisFeature[],
-  doAtlas: readonly Alpha3[]
-): { curados: PaisCurado[]; fundo: PaisFeature[] } {
+  doAtlas: readonly Alpha3[],
+  /** Instante atual. Sem ele, nenhuma disputa é marcada. */
+  anoFrac?: number
+): {
+  curados: PaisCurado[];
+  fundo: PaisFeature[];
+  disputados: TerritorioDisputado[];
+} {
   const alvo = new Set<string>(doAtlas);
   const curados: PaisCurado[] = [];
   const fundo: PaisFeature[] = [];
+  const disputados: TerritorioDisputado[] = [];
 
   for (const f of mundo) {
     const a3 = f.id === undefined ? undefined : alpha3De(f.id as string | number);
-    if (a3 && alvo.has(a3)) {
-      const { principal, ultramar } = separarUltramar(f);
-      if (principal) curados.push({ alpha3: a3, feature: principal });
-      if (ultramar) fundo.push(ultramar);
-    } else {
+    if (!a3 || !alvo.has(a3)) {
       fundo.push(f);
+      continue;
     }
+
+    const { principal, ultramar } = separarUltramar(f);
+    if (ultramar) fundo.push(ultramar);
+    if (!principal) continue;
+
+    if (anoFrac === undefined) {
+      curados.push({ alpha3: a3, feature: principal });
+      continue;
+    }
+
+    const separado = separarDisputados(principal, a3, anoFrac);
+    if (separado.principal) curados.push({ alpha3: a3, feature: separado.principal });
+    if (separado.aindaNao) fundo.push(separado.aindaNao);
+    disputados.push(...separado.disputados);
   }
 
-  return { curados, fundo };
+  return { curados, fundo, disputados };
 }

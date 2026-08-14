@@ -55,7 +55,7 @@ const base = {
 };
 
 function paisesDe(container: HTMLElement) {
-  return [...container.querySelectorAll("svg > g:nth-of-type(1) > path")];
+  return [...container.querySelectorAll("svg > g[data-camada=paises] > path")];
 }
 
 describe("GeoOverlay", () => {
@@ -108,7 +108,7 @@ describe("GeoOverlay", () => {
 
   it("a rota vira caminho de verdade — é o que o DrawSVG precisa", () => {
     const { container } = render(<GeoOverlay {...base} curados={[]} rotas={[rota]} />);
-    const path = container.querySelector("svg > g:nth-of-type(2) > path");
+    const path = container.querySelector("svg > g[data-camada=rotas] > path");
     expect(path?.getAttribute("d")).toMatch(/^M/);
     expect(path?.getAttribute("fill")).toBe("none");
     expect(path?.querySelector("title")?.textContent).toBe("Frota de Cabral");
@@ -127,7 +127,7 @@ describe("GeoOverlay", () => {
       <GeoOverlay {...base} curados={[]} rotas={[]} eventos={[qin]} />
     );
     semAnoCru(container);
-    expect(container.querySelector("svg > g:nth-of-type(3) title")?.textContent).toBe(
+    expect(container.querySelector("svg > g[data-camada=eventos] title")?.textContent).toBe(
       "Unificação da China sob os Qin · 221 a.C."
     );
   });
@@ -153,7 +153,7 @@ describe("GeoOverlay", () => {
     const { container: globo } = render(
       <GeoOverlay {...base} curados={[]} rotas={[]} eventos={[antipoda]} />
     );
-    expect(globo.querySelectorAll("svg > g:nth-of-type(3) > g")).toHaveLength(0);
+    expect(globo.querySelectorAll("svg > g[data-camada=eventos] > g")).toHaveLength(0);
 
     // Desenrolado, o mundo inteiro aparece — e o marcador volta.
     const { container: mapa } = render(
@@ -165,7 +165,7 @@ describe("GeoOverlay", () => {
         eventos={[antipoda]}
       />
     );
-    expect(mapa.querySelectorAll("svg > g:nth-of-type(3) > g")).toHaveLength(1);
+    expect(mapa.querySelectorAll("svg > g[data-camada=eventos] > g")).toHaveLength(1);
   });
 
   it("evento na face de frente continua sendo desenhado", () => {
@@ -180,7 +180,7 @@ describe("GeoOverlay", () => {
     const { container } = render(
       <GeoOverlay {...base} curados={[]} rotas={[]} eventos={[perto]} />
     );
-    expect(container.querySelectorAll("svg > g:nth-of-type(3) > g")).toHaveLength(1);
+    expect(container.querySelectorAll("svg > g[data-camada=eventos] > g")).toHaveLength(1);
   });
 
   it("a posição do marcador é arredondada — hidratação não perdoa dígito", () => {
@@ -201,14 +201,14 @@ describe("GeoOverlay", () => {
       <GeoOverlay {...base} curados={[]} rotas={[]} eventos={[ev]} />
     );
     const t = container
-      .querySelector("svg > g:nth-of-type(3) > g")!
+      .querySelector("svg > g[data-camada=eventos] > g")!
       .getAttribute("transform")!;
     expect(t).toMatch(/^translate\(-?\d+\.\d{3},-?\d+\.\d{3}\)$/);
   });
 
   it("sem eventos, a camada de marcadores fica vazia", () => {
     const { container } = render(<GeoOverlay {...base} curados={curados} rotas={[]} />);
-    expect(container.querySelectorAll("svg > g:nth-of-type(3) > *")).toHaveLength(0);
+    expect(container.querySelectorAll("svg > g[data-camada=eventos] > *")).toHaveLength(0);
   });
 
   it("o svg cobre a área do globo e não rouba o clique do arrasto", () => {

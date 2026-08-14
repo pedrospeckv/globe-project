@@ -93,6 +93,21 @@ describe("dossiê de país", () => {
     }
   });
 
+  it("a Rússia explica a Crimeia com a mesma nota que o mapa usa", async () => {
+    const { DISPUTAS } = await import("@/lib/geo/disputas");
+    const crimeia = DISPUTAS.find((d) => d.id === "crimeia")!;
+    const { container } = await dossie("RUS");
+    expect(container.textContent).toContain("soberania disputada");
+    expect(container.textContent).toContain(crimeia.nome);
+    // A nota inteira, não um resumo reescrito que pudesse divergir do mapa.
+    expect(container.textContent).toContain(crimeia.nota);
+  });
+
+  it("país sem disputa não ganha a seção", async () => {
+    const { container } = await dossie("JPN");
+    expect(container.textContent).not.toContain("soberania disputada");
+  });
+
   it("não inventa seção de indicador para país sem série", async () => {
     const semSerie = acervo.paises.find(
       (p) => !acervo.indicadores.some((i) => i.paisIso === p.iso)
