@@ -5,6 +5,7 @@ import { Fonte } from "./fonte";
 import { Figura } from "./figura";
 import { Pais } from "./pais";
 import { Viagem } from "./viagem";
+import { Indicador } from "./indicador";
 import type { Acervo } from "./integridade";
 
 async function lerJsonDoDiretorio<T extends z.ZodTypeAny>(
@@ -55,11 +56,12 @@ async function lerJsonDoDiretorio<T extends z.ZodTypeAny>(
  * erro de build acionável em vez de críptico.
  */
 export async function carregarAcervo(raiz: string): Promise<Acervo> {
-  const [fontes, paises, figuras, viagens] = await Promise.all([
+  const [fontes, paises, figuras, viagens, indicadores] = await Promise.all([
     lerJsonDoDiretorio(path.join(raiz, "fontes"), Fonte),
     lerJsonDoDiretorio(path.join(raiz, "paises"), Pais),
     lerJsonDoDiretorio(path.join(raiz, "figuras"), Figura),
     lerJsonDoDiretorio(path.join(raiz, "viagens"), Viagem),
+    lerJsonDoDiretorio(path.join(raiz, "indicadores"), Indicador),
   ]);
-  return { fontes, paises, figuras, viagens };
+  return { fontes, paises, figuras, viagens, indicadores };
 }

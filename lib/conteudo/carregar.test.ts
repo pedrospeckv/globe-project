@@ -41,6 +41,12 @@ describe("carregarAcervo", () => {
 
   it("devolve acervo vazio para raiz inexistente", async () => {
     const acervo = await carregarAcervo(fixture("nao-existe"));
-    expect(acervo).toEqual({ fontes: [], paises: [], figuras: [], viagens: [] });
+    expect(acervo).toEqual({
+      fontes: [],
+      paises: [],
+      figuras: [],
+      viagens: [],
+      indicadores: [],
+    });
   });
 });

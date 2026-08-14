@@ -41,6 +41,7 @@ function acervoBase(): Acervo {
       },
     ],
     viagens: [],
+    indicadores: [],
   };
 }
 
@@ -94,6 +95,32 @@ describe("verificarIntegridade", () => {
       fontes: ["fonte-fantasma"],
     });
     expect(verificarIntegridade(a).some((e) => /fonte-fantasma/.test(e))).toBe(true);
+  });
+
+  it("ACUSA indicador que cita fonte inexistente", () => {
+    const a = acervoBase();
+    a.indicadores.push({
+      id: "br-pobreza",
+      paisIso: "BRA",
+      nome: "Pobreza",
+      unidade: "%",
+      fonte: "fonte-fantasma",
+      serie: [{ ano: 2012, valor: 25 }],
+    });
+    expect(verificarIntegridade(a).some((e) => /fonte-fantasma/.test(e))).toBe(true);
+  });
+
+  it("ACUSA indicador de país fora do atlas", () => {
+    const a = acervoBase();
+    a.indicadores.push({
+      id: "ar-pobreza",
+      paisIso: "ARG",
+      nome: "Pobreza",
+      unidade: "%",
+      fonte: "stf-hc-193726",
+      serie: [{ ano: 2012, valor: 25 }],
+    });
+    expect(verificarIntegridade(a).some((e) => /ARG/.test(e))).toBe(true);
   });
 
   it("acumula todos os erros em vez de parar no primeiro", () => {
