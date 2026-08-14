@@ -72,6 +72,25 @@ export function verificarIntegridade(acervo: Acervo): string[] {
     }
   }
 
+  for (const pais of acervo.paises) {
+    for (const periodo of pais.periodos) {
+      for (const fonteId of periodo.fontes) {
+        if (!idsFonte.has(fonteId)) {
+          erros.push(`período "${periodo.id}" cita fonte inexistente: ${fonteId}`);
+        }
+      }
+      for (const entidade of periodo.entidades) {
+        for (const fonteId of entidade.fontes) {
+          if (!idsFonte.has(fonteId)) {
+            erros.push(
+              `entidade "${entidade.nome}" em "${periodo.id}" cita fonte inexistente: ${fonteId}`
+            );
+          }
+        }
+      }
+    }
+  }
+
   for (const viagem of acervo.viagens) {
     for (const fonteId of viagem.fontes) {
       if (!idsFonte.has(fonteId)) {
@@ -115,4 +134,34 @@ export function verificarIntegridade(acervo: Acervo): string[] {
   erros.push(...verificarLigacoes(acervo));
 
   return erros;
+}
+
+export interface Cobertura {
+  comTexto: number;
+  comFonte: number;
+  /** Períodos que afirmam algo em prosa e não dizem de onde. */
+  semFonte: string[];
+}
+
+/**
+ * Quanto da prosa do acervo tem lastro.
+ *
+ * NÃO é erro: exigir fonte de todo período quebraria os 84 de uma vez, e a
+ * saída fácil para destravar o build seria inventar fonte — pior que não
+ * ter nenhuma. O que o projeto pode fazer honestamente é contar a dívida e
+ * mostrá-la a cada validação, para ela encolher em vez de sumir de vista.
+ */
+export function coberturaDeFontes(acervo: Acervo): Cobertura {
+  const semFonte: string[] = [];
+  let comTexto = 0;
+
+  for (const pais of acervo.paises) {
+    for (const periodo of pais.periodos) {
+      if (!periodo.textoMdx) continue;
+      comTexto++;
+      if (periodo.fontes.length === 0) semFonte.push(`${pais.iso}/${periodo.id}`);
+    }
+  }
+
+  return { comTexto, comFonte: comTexto - semFonte.length, semFonte };
 }

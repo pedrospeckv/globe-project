@@ -104,7 +104,7 @@ describe("verificarLigacoes", () => {
           inicio: "1500",
           rotulo: "X",
           regime: "y",
-          entidades: [],
+          entidades: [], fontes: [],
           textoMdx: "aponta para [[nao-existe]]",
         },
       ],
@@ -125,7 +125,7 @@ describe("verificarLigacoes", () => {
       iso: "BRA",
       nome: "Brasil",
       periodos: [
-        { id: "colisao", inicio: "1500", rotulo: "X", regime: "y", entidades: [] },
+        { id: "colisao", inicio: "1500", rotulo: "X", regime: "y", entidades: [], fontes: [] },
       ],
     });
     a.figuras.push({
@@ -154,7 +154,7 @@ describe("verificarLigacoes", () => {
           inicio: "1500",
           rotulo: "X",
           regime: "y",
-          entidades: [],
+          entidades: [], fontes: [],
           textoMdx: "ficou [[br-x] pela metade",
         },
       ],

@@ -34,6 +34,7 @@ export default async function PeriodoPage({
   const periodo = pais.periodos.find((p) => p.id === periodoId);
   if (!periodo) notFound();
 
+  const fontes = acervo.fontes.filter((f) => periodo.fontes.includes(f.id));
   const eventos = eventosDoPeriodo(acervo.eventos, iso, periodo);
   const figuras = figurasDoPeriodo(acervo.figuras, iso, periodo);
   const { anterior, proximo } = vizinhosDe(pais, periodo.id);
@@ -65,6 +66,47 @@ export default async function PeriodoPage({
         <article>
           <Prosa texto={periodo.textoMdx} alvos={alvos} />
         </article>
+
+        {/*
+          Fonte no período é opcional — período sem prosa não afirma nada.
+          Mas prosa que cita 4,8 milhões de desembarcados afirma muito, e
+          quando há lastro ele aparece aqui em vez de ficar só no arquivo.
+        */}
+        {fontes.length > 0 && (
+          <section className="border-t border-slate-800 pt-4">
+            <h2 className="mb-2 text-[10px] uppercase tracking-wide text-slate-600">
+              {fontes.length === 1 ? "Fonte" : "Fontes"}
+            </h2>
+            <ul className="space-y-1.5">
+              {fontes.map((f) => (
+                <li key={f.id} className="text-xs leading-relaxed text-slate-400">
+                  {f.url ? (
+                    <a
+                      href={f.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-sky-400 hover:underline"
+                    >
+                      {f.titulo}
+                    </a>
+                  ) : (
+                    <span className="text-slate-300">{f.titulo}</span>
+                  )}
+                  {f.autor && <span className="text-slate-600"> · {f.autor}</span>}
+                  {f.publicacao && (
+                    <span className="text-slate-600"> · {f.publicacao}</span>
+                  )}
+                  {f.data && (
+                    <span className="text-slate-600"> · {rotuloDeData(f.data)}</span>
+                  )}
+                  {f.citacao && (
+                    <p className="mt-0.5 text-[11px] text-slate-500">{f.citacao}</p>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {periodo.entidades.length >= 2 && (
           <section className="space-y-2">

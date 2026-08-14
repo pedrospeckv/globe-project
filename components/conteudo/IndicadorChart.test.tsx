@@ -121,7 +121,7 @@ describe("IndicadorChart", () => {
         inicio: "1985",
         rotulo: "Nova República",
         regime: "democracia",
-        entidades: [],
+        entidades: [], fontes: [],
       },
     ];
     const { container } = render(
@@ -139,7 +139,7 @@ describe("IndicadorChart", () => {
         fim: "1822",
         rotulo: "Colônia",
         regime: "x",
-        entidades: [],
+        entidades: [], fontes: [],
       },
     ];
     const { container } = render(

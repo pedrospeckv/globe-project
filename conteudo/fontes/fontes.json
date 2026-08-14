@@ -114,6 +114,107 @@
     "citacao": "A 10ª Turma do TRF-1 rejeitou por unanimidade o pedido do MPF para reabrir a ação. Em primeira instância foi reconhecida a prescrição da pretensão acusatória, por Lula ter mais de 70 anos, o que reduz o prazo pela metade conforme o artigo 115 do Código Penal."
   },
   {
+    "id": "slavevoyages",
+    "tipo": "dataset",
+    "titulo": "Trans-Atlantic Slave Trade Database",
+    "publicacao": "SlaveVoyages, consórcio de universidades",
+    "url": "https://www.slavevoyages.org/",
+    "citacao": "Base que reúne registros de mais de 36 mil viagens negreiras e sustenta as estimativas de desembarque por destino. É dela que vem a ordem de grandeza usada no atlas para o Brasil; as estimativas são revisadas conforme novos registros entram, e o número não deve ser lido como contagem fechada."
+  },
+  {
+    "id": "schwarcz-starling-brasil",
+    "tipo": "livro",
+    "titulo": "Brasil: uma biografia",
+    "autor": "Lilia Moritz Schwarcz e Heloisa Murgel Starling",
+    "publicacao": "Companhia das Letras",
+    "data": "2015",
+    "citacao": "Síntese de referência da história do Brasil do período colonial ao século XXI, usada no atlas como base narrativa geral."
+  },
+  {
+    "id": "fausto-historia-brasil",
+    "tipo": "livro",
+    "titulo": "História do Brasil",
+    "autor": "Boris Fausto",
+    "publicacao": "Edusp",
+    "data": "1994",
+    "citacao": "Manual de referência para a periodização republicana e para a leitura econômica dos ciclos do café e da industrialização."
+  },
+  {
+    "id": "carvalho-bestializados",
+    "tipo": "livro",
+    "titulo": "Os Bestializados: o Rio de Janeiro e a República que não foi",
+    "autor": "José Murilo de Carvalho",
+    "publicacao": "Companhia das Letras",
+    "data": "1987",
+    "citacao": "Trabalho que qualificou a leitura consagrada pela frase de Aristides Lobo, mostrando formas de participação popular que a imagem do povo bestializado encobria."
+  },
+  {
+    "id": "leal-coronelismo",
+    "tipo": "livro",
+    "titulo": "Coronelismo, Enxada e Voto: o município e o regime representativo no Brasil",
+    "autor": "Victor Nunes Leal",
+    "data": "1949",
+    "citacao": "Obra que estabeleceu a interpretação do coronelismo como fruto da fraqueza do coronel diante do Estado, e não da sua força — leitura adotada no texto do atlas."
+  },
+  {
+    "id": "gomes-invencao-trabalhismo",
+    "tipo": "livro",
+    "titulo": "A Invenção do Trabalhismo",
+    "autor": "Ângela Maria de Castro Gomes",
+    "data": "1988",
+    "citacao": "Referência central da disputa sobre se os direitos trabalhistas foram outorgados de cima ou construídos na relação com a organização operária anterior a 1930."
+  },
+  {
+    "id": "parker-brother-sam",
+    "tipo": "livro",
+    "titulo": "Brazil and the Quiet Intervention, 1964",
+    "autor": "Phyllis R. Parker",
+    "publicacao": "University of Texas Press",
+    "data": "1979",
+    "citacao": "Estudo baseado em documentos americanos desclassificados que estabeleceu o registro público da Operação Brother Sam, o destacamento naval preparado para apoiar o golpe."
+  },
+  {
+    "id": "cnv-relatorio",
+    "tipo": "documento-oficial",
+    "titulo": "Relatório final da Comissão Nacional da Verdade",
+    "publicacao": "Comissão Nacional da Verdade",
+    "data": "2014-12-10",
+    "url": "https://cnv.memoriasreveladas.gov.br/",
+    "citacao": "Atribuiu ao Estado 434 mortos e desaparecidos políticos, número tratado pela própria comissão como piso, e documentou a tortura como prática sistemática. O caderno temático sobre povos indígenas estimou em ao menos 8.350 os indígenas mortos por ação ou omissão do Estado no período."
+  },
+  {
+    "id": "stf-adpf-153",
+    "tipo": "decisao-judicial",
+    "titulo": "ADPF 153 — constitucionalidade da Lei da Anistia",
+    "publicacao": "Supremo Tribunal Federal",
+    "data": "2010-04-29",
+    "citacao": "O STF julgou improcedente a arguição e manteve a interpretação de que a anistia de 1979 alcança também os agentes do Estado."
+  },
+  {
+    "id": "corteidh-gomes-lund",
+    "tipo": "decisao-judicial",
+    "titulo": "Caso Gomes Lund e outros (Guerrilha do Araguaia) vs. Brasil",
+    "publicacao": "Corte Interamericana de Direitos Humanos",
+    "data": "2010-11-24",
+    "citacao": "No mesmo ano da ADPF 153 e em sentido oposto, a Corte condenou o Brasil e decidiu que as disposições da Lei da Anistia não podem impedir a investigação e punição de graves violações de direitos humanos. As duas decisões seguem em vigor."
+  },
+  {
+    "id": "constituicao-1988",
+    "tipo": "documento-oficial",
+    "titulo": "Constituição da República Federativa do Brasil de 1988",
+    "publicacao": "Assembleia Nacional Constituinte",
+    "data": "1988-10-05",
+    "citacao": "Estabeleceu o voto universal, incluindo analfabetos, e o desenho institucional ainda vigente."
+  },
+  {
+    "id": "cpi-pandemia-relatorio",
+    "tipo": "documento-oficial",
+    "titulo": "Relatório final da CPI da Pandemia",
+    "publicacao": "Senado Federal",
+    "data": "2021-10-26",
+    "citacao": "Concluiu pedindo o indiciamento do então presidente da República por crimes relacionados à condução da crise sanitária. Relatório de comissão parlamentar de inquérito é peça política e investigativa, não decisão judicial."
+  },
+  {
     "id": "colombo-diario",
     "tipo": "documento-oficial",
     "titulo": "Diario de a bordo da primeira viagem de Cristóvão Colombo",

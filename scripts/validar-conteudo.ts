@@ -1,7 +1,10 @@
 #!/usr/bin/env tsx
 import path from "node:path";
 import { carregarAcervo } from "../lib/conteudo/carregar";
-import { verificarIntegridade } from "../lib/conteudo/integridade";
+import {
+  verificarIntegridade,
+  coberturaDeFontes,
+} from "../lib/conteudo/integridade";
 
 /**
  * Roda antes do `next build`. Conteúdo inválido não chega ao ar porque o
@@ -37,6 +40,23 @@ async function main() {
       `${acervo.eventos.length} eventos, ${acervo.viagens.length} viagens, ` +
       `${acervo.indicadores.length} indicadores, ${acervo.fontes.length} fontes`
   );
+
+  /*
+   * A dívida, dita em voz alta a cada validação. Não é erro: exigir fonte
+   * de todo período quebraria os 84 de uma vez, e a saída fácil para
+   * destravar o build seria inventar fonte — pior que não ter nenhuma.
+   * Contar é o que faz o número encolher em vez de sumir de vista.
+   */
+  const cob = coberturaDeFontes(acervo);
+  if (cob.semFonte.length === 0) {
+    console.log(`✓ os ${cob.comTexto} períodos com texto têm fonte`);
+  } else {
+    console.log(
+      `\n⚠ fontes nos períodos: ${cob.comFonte}/${cob.comTexto} com texto têm fonte`
+    );
+    for (const id of cob.semFonte) console.log(`  · ${id}`);
+    console.log("");
+  }
 }
 
 main();

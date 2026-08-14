@@ -117,6 +117,30 @@ describe("página de período", () => {
     expect(colonia.textContent).not.toContain("Luiz Inácio Lula da Silva");
   });
 
+  it("mostra as fontes do período, resolvidas do acervo", async () => {
+    const brasil = acervo.paises.find((p) => p.iso === "BRA")!;
+    const militar = brasil.periodos.find((p) => p.id === "br-regime-militar")!;
+    expect(militar.fontes.length).toBeGreaterThan(0);
+
+    const { container } = await pagina("BRA", "br-regime-militar");
+    for (const id of militar.fontes) {
+      const f = acervo.fontes.find((x) => x.id === id)!;
+      expect(container.textContent).toContain(f.titulo);
+    }
+    // O id cru nunca aparece — quem lê vê a obra, não a chave.
+    expect(container.textContent).not.toContain("cnv-relatorio");
+  });
+
+  it("período sem fonte não inventa a seção", async () => {
+    const semFonte = acervo.paises
+      .flatMap((p) => p.periodos.map((per) => [p.iso, per] as const))
+      .find(([, per]) => per.fontes.length === 0)!;
+    const { container } = await pagina(semFonte[0], semFonte[1].id);
+    const titulos = [...container.querySelectorAll("h2")].map((h) => h.textContent);
+    expect(titulos).not.toContain("Fonte");
+    expect(titulos).not.toContain("Fontes");
+  });
+
   it("navega para o período anterior e o seguinte", async () => {
     const { container } = await pagina("BRA", "br-era-vargas");
     const hrefs = [...container.querySelectorAll("nav a")].map((a) =>

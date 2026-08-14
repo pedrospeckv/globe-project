@@ -2,6 +2,20 @@ import { z } from "zod";
 import { DataHistorica, Id, comparaData } from "./primitivos";
 
 /**
+ * Fonte no período é OPCIONAL, e a assimetria com a alegação é deliberada.
+ *
+ * Alegação é afirmação contestada: sem lastro não pode existir, e o schema
+ * exige. Período é recorte cronológico, e um período sem prosa — só rótulo,
+ * datas e regime — não afirma nada que precise de fonte.
+ *
+ * Mas prosa que cita 4,8 milhões de desembarcados ou 8.350 mortos afirma
+ * muito. Por isso o validador conta a cobertura e diz quantos períodos com
+ * texto seguem sem fonte: a dívida fica visível e contável em vez de
+ * invisível, que é o que era até agora.
+ */
+const FontesDoTexto = z.array(Id).default([]);
+
+/**
  * Um Estado soberano que dividiu o território do país durante um período.
  *
  * Existe porque a espinha dorsal do atlas são países MODERNOS, e país moderno
@@ -18,6 +32,7 @@ export const Entidade = z.object({
   nome: z.string().min(1),
   regime: z.string().min(1),
   textoMdx: z.string().optional(),
+  fontes: FontesDoTexto,
 });
 
 /**
@@ -39,6 +54,7 @@ export const Periodo = z
     rotulo: z.string().min(1),
     regime: z.string().min(1),
     textoMdx: z.string().optional(),
+    fontes: FontesDoTexto,
     /** Vazio no caso normal; 2 ou mais quando o território esteve dividido. */
     entidades: z.array(Entidade).default([]),
   })

@@ -16,9 +16,9 @@ const brasil: Pais = {
   iso: "BRA",
   nome: "Brasil",
   periodos: [
-    { id: "br-colonia", inicio: "1500", fim: "1822", rotulo: "Colônia", regime: "x", entidades: [] },
-    { id: "br-imperio", inicio: "1822", fim: "1889", rotulo: "Império", regime: "x", entidades: [] },
-    { id: "br-nova", inicio: "1985", rotulo: "Nova República", regime: "x", entidades: [] },
+    { id: "br-colonia", inicio: "1500", fim: "1822", rotulo: "Colônia", regime: "x", entidades: [], fontes: [] },
+    { id: "br-imperio", inicio: "1822", fim: "1889", rotulo: "Império", regime: "x", entidades: [], fontes: [] },
+    { id: "br-nova", inicio: "1985", rotulo: "Nova República", regime: "x", entidades: [], fontes: [] },
   ],
 };
 
@@ -120,8 +120,8 @@ describe("datas antes de Cristo na linha do tempo", () => {
       iso: "CHN",
       nome: "China",
       periodos: [
-        { id: "cn-qin", inicio: "-221", fim: "-202", rotulo: "Qin", regime: "x", entidades: [] },
-        { id: "cn-han", inicio: "-202", fim: "220", rotulo: "Han", regime: "x", entidades: [] },
+        { id: "cn-qin", inicio: "-221", fim: "-202", rotulo: "Qin", regime: "x", entidades: [], fontes: [] },
+        { id: "cn-han", inicio: "-202", fim: "220", rotulo: "Han", regime: "x", entidades: [], fontes: [] },
       ],
     };
     expect(periodoVigente(china, anoFracionarioDe("-210"))?.id).toBe("cn-qin");

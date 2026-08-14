@@ -1,5 +1,9 @@
 import { describe, it, expect } from "vitest";
-import { verificarIntegridade, type Acervo } from "./integridade";
+import {
+  verificarIntegridade,
+  coberturaDeFontes,
+  type Acervo,
+} from "./integridade";
 
 function acervoBase(): Acervo {
   return {
@@ -20,7 +24,7 @@ function acervoBase(): Acervo {
             inicio: "1985",
             rotulo: "Nova República",
             regime: "democracia",
-            entidades: [],
+            entidades: [], fontes: [],
           },
         ],
       },
@@ -157,5 +161,76 @@ describe("verificarIntegridade", () => {
     const a = acervoBase();
     a.figuras[0].alegacoes[0].fontes = ["inexistente-a", "inexistente-b"];
     expect(verificarIntegridade(a)).toHaveLength(2);
+  });
+
+  it("ACUSA período que cita fonte inexistente", () => {
+    const a = acervoBase();
+    a.paises[0].periodos[0].fontes = ["fonte-fantasma"];
+    expect(verificarIntegridade(a).some((e) => /fonte-fantasma/.test(e))).toBe(true);
+  });
+
+  it("ACUSA entidade que cita fonte inexistente", () => {
+    const a = acervoBase();
+    a.paises[0].periodos[0].entidades = [
+      { nome: "RDA", regime: "x", fontes: ["fonte-fantasma"] },
+    ];
+    expect(
+      verificarIntegridade(a).some((e) => /RDA.*fonte-fantasma/.test(e))
+    ).toBe(true);
+  });
+});
+
+describe("coberturaDeFontes", () => {
+  /*
+   * Isto NÃO é erro. Exigir fonte de todo período quebraria os 84 de uma
+   * vez, e a saída fácil para destravar o build seria inventar fonte —
+   * pior que não ter nenhuma. Contar é o que faz a dívida encolher em vez
+   * de sumir de vista.
+   */
+  it("conta só período que tem prosa — os outros não afirmam nada", () => {
+    const a = acervoBase();
+    a.paises[0].periodos = [
+      {
+        id: "sem-texto",
+        inicio: "1500",
+        rotulo: "A",
+        regime: "x",
+        entidades: [],
+        fontes: [],
+      },
+      {
+        id: "com-texto-sem-fonte",
+        inicio: "1600",
+        rotulo: "B",
+        regime: "x",
+        entidades: [],
+        fontes: [],
+        textoMdx: "afirma coisas",
+      },
+      {
+        id: "com-texto-com-fonte",
+        inicio: "1700",
+        rotulo: "C",
+        regime: "x",
+        entidades: [],
+        fontes: ["stf-hc-193726"],
+        textoMdx: "afirma coisas com lastro",
+      },
+    ];
+
+    const cob = coberturaDeFontes(a);
+    expect(cob.comTexto).toBe(2);
+    expect(cob.comFonte).toBe(1);
+    expect(cob.semFonte).toEqual(["BRA/com-texto-sem-fonte"]);
+  });
+
+  it("o Brasil está inteiro coberto — é o país-exemplo", async () => {
+    const path = await import("node:path");
+    const { carregarAcervo } = await import("./carregar");
+    const acervo = await carregarAcervo(
+      path.join(process.cwd(), "conteudo")
+    );
+    const cob = coberturaDeFontes(acervo);
+    expect(cob.semFonte.filter((s) => s.startsWith("BRA/"))).toEqual([]);
   });
 });
