@@ -3,12 +3,52 @@
   "nome": "Índia",
   "periodos": [
     {
+      "id": "in-maurya",
+      "inicio": "-322",
+      "fim": "-185",
+      "rotulo": "Império Máuria",
+      "regime": "monarquia imperial com administração centralizada em Pataliputra",
+      "textoMdx": "Chandragupta Máuria derrota a dinastia Nanda e constrói, a partir de Pataliputra, o primeiro Estado a cobrir quase todo o subcontinente. Seu neto Asoka, após a guerra de Kalinga, adota o *dhamma* de inspiração budista e manda gravar éditos em rochedos e pilares por todo o império — as inscrições mais antigas da Índia que se lê com segurança, e uma das raras vezes em que um governante antigo registra por escrito o arrependimento de uma guerra que venceu.\n\n**O atlas começa a Índia aqui, e a escolha exclui muita coisa.** As cidades do Indo — Harapa, Mohenjo-Daro — são dois mil anos anteriores, e entre elas e os Máuria houve o período védico, os *mahajanapadas* e os Nanda. Nada disso é menos história. Ficou de fora porque a unidade deste atlas é o Estado sobre um território, e o Máuria é o primeiro que cobre quase todo ele. A escrita do Indo, aliás, permanece não decifrada: não se sabe sequer com certeza que língua registra.\n\n*A data de fundação varia entre 324 e 321 a.C. conforme a reconstrução cronológica; o atlas usa 322. E o mapa exagera: pintar o império como bloco contínuo projeta sobre a Antiguidade uma noção de fronteira que ela não tinha — o controle máuria era denso ao longo dos eixos de estrada e das capitais provinciais, e rarefeito no meio.*"
+    },
+    {
+      "id": "in-reinos-sucessores",
+      "inicio": "-185",
+      "fim": "320",
+      "rotulo": "Reinos sucessores e o Império Cuchana",
+      "regime": "fragmentação entre dinastias regionais",
+      "textoMdx": "Pushyamitra Xunga mata o último imperador máuria e o subcontinente se desfaz em potências regionais que se sobrepõem por cinco séculos: os Xungas no Ganges, os reinos indo-gregos herdeiros de Alexandre no noroeste, os Satavahanas no Decã, os Sacas, e o Império Cuchana, que a partir da Báctria alcança a planície gangética e serve de ponte entre a Índia, a China han e Roma.\n\nÉ o período em que o budismo sai do subcontinente pelas rotas de caravana e chega à Ásia Central e à China, e em que a escultura de Gandara funde convenções gregas e indianas numa das primeiras representações do Buda em forma humana.\n\nO atlas trata os cinco séculos como um período só, do mesmo modo que trata os três séculos entre os Han e os Sui na China: não porque nada tenha acontecido, mas porque nenhum Estado cobriu o território e enumerar cada dinastia regional daria uma lista, não uma cronologia.\n\n*A data de ascensão de Kanishka, o maior imperador cuchana, é um dos problemas em aberto da cronologia indiana — as propostas vão de 78 a 144 d.C. A datação mais aceita hoje é 127, mas a questão não está encerrada.*"
+    },
+    {
+      "id": "in-gupta",
+      "inicio": "320",
+      "fim": "550",
+      "rotulo": "Império Gupta",
+      "regime": "monarquia imperial no norte; sul sob dinastias independentes",
+      "textoMdx": "Chandragupta I inaugura a era Gupta e seus sucessores, Samudragupta e Chandragupta II, reúnem o norte sob um império que governa mais por vassalagem que por administração direta. É o período em que a notação decimal posicional com o zero se consolida na matemática indiana e em que Ariabata calcula a circunferência da Terra com erro inferior a 1%.\n\nO império entra em colapso no século VI sob as invasões dos Hunas alcônidas e a pressão fiscal de guerras sucessivas.\n\n**O rótulo \"Idade de Ouro\", muito associado a este período, merece ressalva.** Ele foi consolidado pela historiografia nacionalista do século XIX e XX, que precisava de uma Antiguidade clássica indiana para opor à narrativa colonial britânica. As realizações são reais, mas o rótulo achata a posição de quem estava fora da elite letrada e sugere uma unidade que não existiu: o sul do subcontinente nunca esteve sob os Gupta e vivia sua própria história."
+    },
+    {
+      "id": "in-pos-gupta",
+      "inicio": "550",
+      "fim": "750",
+      "rotulo": "Fragmentação pós-Gupta e o reinado de Harsha",
+      "regime": "reinos regionais, com breve reunificação do norte",
+      "textoMdx": "O norte se fragmenta de novo até Harsha, de Canaúje, reunir boa parte dele entre 606 e 647. Ele morre sem herdeiro e o território volta a se dividir no mesmo ano.\n\nNo sul, os Chalúquias e os Palavas disputam o Decã — é sob os Palavas que se talham os templos monolíticos de Mamallapuram.\n\n*Boa parte do que se sabe sobre o reinado de Harsha vem do relato de Xuanzang, o monge chinês que percorreu a Índia entre 630 e 644 em busca de textos budistas. É uma fonte de valor enorme e de ponto de vista declarado: um peregrino estrangeiro, interessado em mosteiros, escrevendo para leitores chineses.*"
+    },
+    {
+      "id": "in-luta-tripartite",
+      "inicio": "750",
+      "fim": "1206",
+      "rotulo": "Luta tripartite e reinos regionais",
+      "regime": "reinos regionais em disputa pelo norte; império Chola no sul",
+      "textoMdx": "Três potências — os Gurjara-Pratiharas, os Palas de Bengala e os Rashtracutas do Decã — disputam por dois séculos o controle de Canaúje, sem que nenhuma consiga fixá-lo. No sul, os Cholas se tornam potência marítima e projetam poder até Sumatra sob Rajaraja I e Rajendra I.\n\nA partir de 1000, Mahmud de Gázni lança expedições anuais de saque sobre o noroeste. Elas não estabelecem domínio permanente, mas expõem a fragmentação militar da região. O domínio vem depois: os Gúridas derrotam Prithviraj Chauhan em Tarain, em 1192, e em 1206 Qutb ud-Din Aibak se declara sultão em Délhi.\n\n*A leitura desse desfecho é campo minado até hoje. Ela foi usada pela historiografia colonial britânica para dividir a história indiana em \"eras\" hindu e muçulmana — periodização que serviu à tese de que a Índia sempre fora governada por estrangeiros e que continua alimentando disputa política. A cronologia acima descreve conquistas militares; não as toma por conflito de civilizações.*"
+    },
+    {
       "id": "in-sultanato-delhi",
       "inicio": "1206",
       "fim": "1526",
       "rotulo": "Sultanato de Délhi",
       "regime": "sultanato no norte do subcontinente; sul e leste sob dinastias independentes",
-      "textoMdx": "Cinco dinastias sucessivas governam o norte a partir de Délhi, estabelecendo o islã como religião de corte numa região de maioria hindu — convivência que produz sínteses duradouras em arquitetura, língua e música, e também episódios de destruição de templos.\n\nO subcontinente não era uma unidade política. O sul permaneceu sob dinastias próprias, entre elas o Império Vijayanagara, a partir de 1336, e os sultanatos do Decã. O período é nomeado pela potência dominante do norte, não porque houvesse um Estado único.\n\nO saque de Délhi por Timur, em 1398, reduz o sultanato a uma potência regional. Ele é derrotado em 1526 por Babur, descendente de Timur e de Gengis Khan.\n\n*O atlas começa a Índia em 1206. A história do subcontinente é muito anterior — os impérios Máuria e Gupta ficaram de fora porque o formato de datas ainda não aceita anos antes de Cristo.*"
+      "textoMdx": "Cinco dinastias sucessivas governam o norte a partir de Délhi, estabelecendo o islã como religião de corte numa região de maioria hindu — convivência que produz sínteses duradouras em arquitetura, língua e música, e também episódios de destruição de templos.\n\nO subcontinente não era uma unidade política. O sul permaneceu sob dinastias próprias, entre elas o Império Vijayanagara, a partir de 1336, e os sultanatos do Decã. O período é nomeado pela potência dominante do norte, não porque houvesse um Estado único.\n\nO saque de Délhi por Timur, em 1398, reduz o sultanato a uma potência regional. Ele é derrotado em 1526 por Babur, descendente de Timur e de Gengis Khan."
     },
     {
       "id": "in-mogol",

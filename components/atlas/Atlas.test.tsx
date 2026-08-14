@@ -60,15 +60,21 @@ describe("Atlas", () => {
   it("em 300 a.C. só quem já existia está no mapa", () => {
     const { acesos, irPara } = montar();
     irPara("-300");
-    expect(acesos()).toEqual(["JPN"]);
+    expect(acesos()).toEqual(["CHN", "IND", "JPN"]);
   });
 
-  it("a China entra no globo em 221 a.C.", () => {
+  it("a China é a mais antiga do acervo — em 1600 a.C. está sozinha", () => {
     const { acesos, irPara } = montar();
-    irPara("-222");
-    expect(acesos()).not.toContain("CHN");
-    irPara("-221");
-    expect(acesos()).toContain("CHN");
+    irPara("-1600");
+    expect(acesos()).toEqual(["CHN"]);
+  });
+
+  it("a Índia entra no globo em 322 a.C., com os Máuria", () => {
+    const { acesos, irPara } = montar();
+    irPara("-323");
+    expect(acesos()).not.toContain("IND");
+    irPara("-322");
+    expect(acesos()).toContain("IND");
   });
 
   it("a Alemanha dividida aparece hachurada só no período certo", () => {

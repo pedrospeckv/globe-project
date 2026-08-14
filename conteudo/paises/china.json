@@ -3,6 +3,38 @@
   "nome": "China",
   "periodos": [
     {
+      "id": "cn-shang",
+      "inicio": "-1600",
+      "fim": "-1046",
+      "rotulo": "Dinastia Shang",
+      "regime": "monarquia dinástica com corte itinerante e forte componente ritual",
+      "textoMdx": "A primeira dinastia chinesa atestada por escrita contemporânea a ela. Em Anyang foram encontradas dezenas de milhares de **inscrições oraculares**: omoplatas de boi e plastrões de tartaruga em que os adivinhos da corte gravavam a pergunta feita aos ancestrais, aqueciam o osso até rachar e liam a resposta na fratura. São documentos de governo — perguntam sobre colheita, guerra, parto, dor de dente do rei — e é por eles que se conhece a lista dinástica, confirmada depois pela arqueologia.\n\nA metalurgia do bronze shang atinge um nível que a Europa contemporânea não alcançava, e os vasos rituais fundidos em molde composto são o objeto que mais define o período.\n\n**Antes dos Shang, os textos posteriores colocam a dinastia Xia.** Não há escrita contemporânea que a confirme. A cultura arqueológica de Erlitou é frequentemente identificada com ela, e essa identificação é disputada — no limite, trata-se de decidir se um conjunto de sítios corresponde a uma dinastia nomeada mil anos depois. O atlas não abre período para os Xia porque não teria o que descrever além da controvérsia.\n\n*As datas 1600 e 1046 vêm do Projeto de Cronologia Xia-Shang-Zhou, iniciativa estatal chinesa concluída em 2000. Sua precisão foi contestada por parte da comunidade acadêmica fora da China, que aponta circularidade no uso das fontes. Estimativas mais antigas para a conquista zhou variam de 1122 a 1027 a.C.*"
+    },
+    {
+      "id": "cn-zhou-ocidental",
+      "inicio": "-1046",
+      "fim": "-771",
+      "rotulo": "Zhou Ocidental",
+      "regime": "monarquia com territórios delegados a linhagens aparentadas",
+      "textoMdx": "O rei Wu derrota os Shang em Muye e os Zhou justificam a conquista com uma doutrina que sobreviveria três mil anos: o **Mandato do Céu**. O Céu confia o governo a quem tem virtude e o retira de quem a perde — de modo que a queda de uma dinastia prova, retroativamente, que ela já não merecia governar.\n\nÉ uma ideia de consequências enormes e ambíguas. Ela legitima a rebelião bem-sucedida, o que é raro numa monarquia antiga; e ao mesmo tempo torna qualquer derrota uma sentença moral sobre o derrotado.\n\nO reino se organiza distribuindo territórios a parentes e aliados, arranjo que funciona enquanto o parentesco é próximo e se desfaz conforme as gerações passam. Em 771 os Quanrong saqueiam a capital Haojing, a corte foge para leste, e o poder real nunca se recompõe."
+    },
+    {
+      "id": "cn-primaveras-outonos",
+      "inicio": "-771",
+      "fim": "-476",
+      "rotulo": "Primaveras e Outonos",
+      "regime": "rei zhou reduzido a figura ritual; hegemonia rotativa entre principados",
+      "textoMdx": "O rei zhou continua no trono e deixa de governar. O poder real passa aos principados, e o mais forte de cada momento assume a hegemonia — o *ba* — convocando os demais em nome de uma autoridade que já não exerce.\n\nÉ neste período que vive Confúcio, entre 551 e 479 a.C., propondo que a ordem se restaure pela conduta e pelo rito, e não pela força. Ele morre sem ver nenhum governante adotá-lo.\n\n*O nome do período vem dos Anais das Primaveras e Outonos, a crônica do principado de Lu que a tradição atribui ao próprio Confúcio. Nomear uma era pela fonte que a registra é um hábito da historiografia chinesa — e vale lembrar que a crônica de Lu é o ponto de vista de Lu.*"
+    },
+    {
+      "id": "cn-reinos-combatentes",
+      "inicio": "-476",
+      "fim": "-221",
+      "rotulo": "Reinos Combatentes",
+      "regime": "sete estados soberanos em guerra permanente",
+      "textoMdx": "A ficção da autoridade zhou se dissolve e sobram sete estados que se declaram reinos e guerreiam sem intervalo. O ferro substitui o bronze nas armas e na lavoura, os exércitos deixam de ser aristocracia em carro de guerra e passam a ser infantaria em massa, e a guerra vira problema técnico — é a época de *A Arte da Guerra*.\n\nA pressão produz também o período mais fértil do pensamento chinês, as **Cem Escolas**: o confucionismo de Mêncio, o legismo, o moísmo com sua crítica ao gasto ritual, o taoísmo de Zhuangzi. Os legistas propõem que o Estado se organize por lei escrita, prêmio e punição, sem apelo à virtude do governante — e é adotando esse programa, com as reformas de Shang Yang, que o estado de Qin se torna capaz de vencer os outros seis.\n\n*A fronteira entre este período e o anterior é convencional e disputada: usa-se 476, 453 (a partilha de fato do estado de Jin) ou 403 (seu reconhecimento formal pelo rei zhou). O atlas usa 476.*"
+    },
+    {
       "id": "cn-qin",
       "inicio": "-221",
       "fim": "-202",
