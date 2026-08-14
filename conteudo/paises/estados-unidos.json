@@ -1,0 +1,61 @@
+{
+  "iso": "USA",
+  "nome": "Estados Unidos",
+  "periodos": [
+    {
+      "id": "us-confederacao",
+      "inicio": "1776",
+      "fim": "1789",
+      "rotulo": "Estados Unidos sob os Artigos da Confederação",
+      "regime": "confederação de estados soberanos, sem executivo nacional"
+    },
+    {
+      "id": "us-republica-federal",
+      "inicio": "1789",
+      "fim": "1861",
+      "rotulo": "Estados Unidos da América",
+      "regime": "república federativa presidencialista, com escravidão legal em parte dos estados"
+    },
+    {
+      "id": "us-guerra-civil",
+      "inicio": "1861",
+      "fim": "1865",
+      "rotulo": "Guerra Civil",
+      "regime": "união federal em guerra contra os estados confederados secessionistas"
+    },
+    {
+      "id": "us-reconstrucao",
+      "inicio": "1865",
+      "fim": "1877",
+      "rotulo": "Reconstrução",
+      "regime": "ocupação militar do Sul e reconstrução constitucional; abolição da escravidão"
+    },
+    {
+      "id": "us-era-dourada",
+      "inicio": "1877",
+      "fim": "1933",
+      "rotulo": "Da Era Dourada à Grande Depressão",
+      "regime": "república federativa; industrialização acelerada e segregação racial legal no Sul"
+    },
+    {
+      "id": "us-new-deal",
+      "inicio": "1933",
+      "fim": "1945",
+      "rotulo": "New Deal e Segunda Guerra Mundial",
+      "regime": "república federativa com forte expansão do Estado federal"
+    },
+    {
+      "id": "us-guerra-fria",
+      "inicio": "1945",
+      "fim": "1991",
+      "rotulo": "Guerra Fria",
+      "regime": "superpotência em ordem bipolar; direitos civis ampliados a partir dos anos 1960"
+    },
+    {
+      "id": "us-pos-guerra-fria",
+      "inicio": "1991",
+      "rotulo": "Estados Unidos da América",
+      "regime": "república federativa presidencialista em ordem pós-bipolar"
+    }
+  ]
+}

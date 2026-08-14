@@ -1,0 +1,61 @@
+{
+  "iso": "DEU",
+  "nome": "Alemanha",
+  "periodos": [
+    {
+      "id": "de-confederacao-germanica",
+      "inicio": "1815",
+      "fim": "1866",
+      "rotulo": "Confederação Germânica",
+      "regime": "confederação de estados soberanos sob presidência austríaca"
+    },
+    {
+      "id": "de-confederacao-norte",
+      "inicio": "1866",
+      "fim": "1871",
+      "rotulo": "Confederação da Alemanha do Norte",
+      "regime": "federação sob hegemonia prussiana"
+    },
+    {
+      "id": "de-imperio",
+      "inicio": "1871",
+      "fim": "1918",
+      "rotulo": "Império Alemão",
+      "regime": "monarquia federal sob a Casa de Hohenzollern"
+    },
+    {
+      "id": "de-weimar",
+      "inicio": "1918",
+      "fim": "1933",
+      "rotulo": "República de Weimar",
+      "regime": "república parlamentarista federal"
+    },
+    {
+      "id": "de-nazista",
+      "inicio": "1933",
+      "fim": "1945",
+      "rotulo": "Alemanha Nazista",
+      "regime": "ditadura totalitária de partido único"
+    },
+    {
+      "id": "de-ocupacao",
+      "inicio": "1945",
+      "fim": "1949",
+      "rotulo": "Ocupação Aliada",
+      "regime": "administração militar quadripartite, sem Estado alemão soberano"
+    },
+    {
+      "id": "de-divisao",
+      "inicio": "1949",
+      "fim": "1990",
+      "rotulo": "Alemanha dividida",
+      "regime": "dois Estados: república parlamentarista federal a oeste (RFA) e república socialista de partido único a leste (RDA)"
+    },
+    {
+      "id": "de-reunificada",
+      "inicio": "1990",
+      "rotulo": "República Federal da Alemanha",
+      "regime": "república parlamentarista federal reunificada"
+    }
+  ]
+}
