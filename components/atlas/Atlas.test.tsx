@@ -133,6 +133,31 @@ describe("Atlas", () => {
     }
   });
 
+  it("país do outro lado da Terra não é desenhado por cima do visível", () => {
+    /*
+     * A projeção do mutator não herda o corte que o `geoOrthographic()` do d3
+     * traz pronto. Sem ele o lado oculto não some — ele é espelhado sobre o
+     * hemisfério de frente. Com o Brasil no centro, China e Japão apareciam a
+     * menos de 120px do meio da tela.
+     */
+    const { container } = montar();
+    const box = container.querySelector(".touch-none")!;
+
+    // Arrasta até o Brasil ficar de frente: a rotação começa em -40 e anda
+    // 0,35° por pixel, então +251px levam o centro da vista a ~48°O.
+    fireEvent.pointerDown(box, { clientX: 150, clientY: 300, pointerId: 1 });
+    fireEvent.pointerMove(box, { clientX: 401, clientY: 300, pointerId: 1 });
+    fireEvent.pointerUp(box, { clientX: 401, clientY: 300, pointerId: 1 });
+
+    const desenhados = [
+      ...container.querySelectorAll("svg > g:nth-of-type(1) > path title"),
+    ].map((t) => t.textContent);
+
+    expect(desenhados).toContain("BRA");
+    expect(desenhados).not.toContain("CHN");
+    expect(desenhados).not.toContain("JPN");
+  });
+
   it("o botão alterna o rótulo entre desenrolar e enrolar", () => {
     const { getByText } = montar();
     expect(getByText("Desenrolar")).toBeTruthy();

@@ -132,6 +132,57 @@ describe("GeoOverlay", () => {
     );
   });
 
+  it("evento no lado oculto do globo não é desenhado por cima do visível", () => {
+    /*
+     * O `clipAngle` corrige os países porque eles passam pelo `geoPath`. O
+     * marcador não: ele chama a projeção direto e recebia coordenada finita
+     * para o outro lado da Terra. Este é o mesmo defeito, na outra camada.
+     */
+    const antipoda: Evento = {
+      id: "no-lado-de-la",
+      data: "1500",
+      titulo: "Evento do outro lado",
+      // A ~178° do centro da vista. Não uso o antípoda exato de propósito:
+      // o corte para em 179,9° e essa folga de 0,1° é um ponto cego real,
+      // embora com menos de um pixel na tela.
+      ponto: [-140, -12],
+      paises: ["BRA"],
+      fontes: [],
+    };
+
+    const { container: globo } = render(
+      <GeoOverlay {...base} curados={[]} rotas={[]} eventos={[antipoda]} />
+    );
+    expect(globo.querySelectorAll("svg > g:nth-of-type(3) > g")).toHaveLength(0);
+
+    // Desenrolado, o mundo inteiro aparece — e o marcador volta.
+    const { container: mapa } = render(
+      <GeoOverlay
+        {...base}
+        alpha={1}
+        curados={[]}
+        rotas={[]}
+        eventos={[antipoda]}
+      />
+    );
+    expect(mapa.querySelectorAll("svg > g:nth-of-type(3) > g")).toHaveLength(1);
+  });
+
+  it("evento na face de frente continua sendo desenhado", () => {
+    const perto: Evento = {
+      id: "aqui",
+      data: "1500",
+      titulo: "Evento visível",
+      ponto: [40, 10], // no centro da vista
+      paises: ["BRA"],
+      fontes: [],
+    };
+    const { container } = render(
+      <GeoOverlay {...base} curados={[]} rotas={[]} eventos={[perto]} />
+    );
+    expect(container.querySelectorAll("svg > g:nth-of-type(3) > g")).toHaveLength(1);
+  });
+
   it("sem eventos, a camada de marcadores fica vazia", () => {
     const { container } = render(<GeoOverlay {...base} curados={curados} rotas={[]} />);
     expect(container.querySelectorAll("svg > g:nth-of-type(3) > *")).toHaveLength(0);

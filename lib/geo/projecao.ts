@@ -2,6 +2,7 @@ import {
   geoProjectionMutator,
   geoOrthographicRaw,
   geoEquirectangularRaw,
+  geoDistance,
   type GeoProjection,
 } from "d3-geo";
 
@@ -24,6 +25,24 @@ export function escalaPara(alpha: number, largura: number): number {
 }
 
 /**
+ * Meia esfera no globo, esfera inteira no mapa.
+ *
+ * O `geoOrthographic()` pronto do d3 já vem com `clipAngle(90)`; o mutator
+ * não herda nada disso, e sem o corte a projeção devolve coordenada FINITA
+ * para o lado oculto — o país não some, ele aparece espelhado por cima do
+ * hemisfério visível. Com o Brasil no centro, China e Japão eram desenhados
+ * a menos de 120px do meio da tela.
+ *
+ * A calota abre junto com o desenrolar em vez de saltar no fim: enquanto é
+ * globo esconde o que está atrás, e quando vira mapa mostra o mundo inteiro.
+ * Não chega a 180° porque o corte precisa de um ponto antípoda para costurar
+ * o recorte — a folga de 0,1° fica abaixo de um pixel na tela.
+ */
+export function anguloDeCorte(alpha: number): number {
+  return 90 + 89.9 * alpha;
+}
+
+/**
  * Interpola linearmente entre duas projeções BRUTAS (raw) do d3.
  *
  * Precisa ser no espaço raw, antes de escala e translação: interpolar as
@@ -32,6 +51,24 @@ export function escalaPara(alpha: number, largura: number): number {
  * É a assinatura visual do projeto — o mecanismo pelo qual o leitor sai de
  * "olhando o mundo" para "acompanhando a rota rente à costa".
  */
+/**
+ * O ponto está na face de frente?
+ *
+ * O `clipAngle` só age no fluxo do `geoPath` — chamar a projeção direto com
+ * um par de coordenadas passa por fora do corte e devolve posição para o lado
+ * oculto. Quem projeta ponto avulso, como o marcador de evento, precisa
+ * perguntar aqui antes de desenhar.
+ */
+export function pontoVisivel(
+  ponto: [number, number],
+  opcoes: Pick<OpcoesProjecao, "alpha" | "rotacao">
+): boolean {
+  const [lambda, phi] = opcoes.rotacao ?? [0, 0];
+  // `rotate` recebe o giro aplicado à esfera; o centro da vista é o oposto.
+  const centro: [number, number] = [-lambda, -phi];
+  return geoDistance(centro, ponto) <= (anguloDeCorte(opcoes.alpha) * Math.PI) / 180;
+}
+
 export function criarProjecao(opcoes: OpcoesProjecao): GeoProjection {
   const { largura, altura, alpha, rotacao = [0, 0] } = opcoes;
 
@@ -53,5 +90,6 @@ export function criarProjecao(opcoes: OpcoesProjecao): GeoProjection {
     .scale(escalaPara(alpha, largura))
     .translate([largura / 2, altura / 2])
     .rotate([rotacao[0], rotacao[1]])
+    .clipAngle(anguloDeCorte(alpha))
     .precision(0.5);
 }

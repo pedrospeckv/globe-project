@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import { geoPath } from "d3-geo";
-import { criarProjecao } from "@/lib/geo/projecao";
+import { criarProjecao, pontoVisivel } from "@/lib/geo/projecao";
 import type { PaisCurado } from "@/lib/geo/mundo";
 import type { RotaFeature } from "@/lib/geo/rota";
 import type { Alpha3 } from "@/lib/geo/iso";
@@ -119,11 +119,13 @@ export function GeoOverlay({
 
       {/*
         Marcadores de evento. Projetados pela MESMA projeção das outras
-        camadas; um ponto no lado oculto do globo devolve null e some, que é
-        o comportamento correto.
+        camadas — mas um ponto avulso não passa pelo corte que o `geoPath`
+        aplica, então o lado oculto precisa ser perguntado antes: sem isso o
+        marcador de um evento na China aparece sobre a América do Sul.
       */}
       <g>
         {eventos.map((ev) => {
+          if (!pontoVisivel(ev.ponto, { alpha, rotacao })) return null;
           const p = projecao(ev.ponto);
           if (!p || !Number.isFinite(p[0]) || !Number.isFinite(p[1])) return null;
           return (

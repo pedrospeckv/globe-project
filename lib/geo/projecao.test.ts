@@ -1,5 +1,11 @@
 import { describe, it, expect } from "vitest";
-import { criarProjecao, escalaPara } from "./projecao";
+import { geoPath } from "d3-geo";
+import {
+  criarProjecao,
+  escalaPara,
+  anguloDeCorte,
+  pontoVisivel,
+} from "./projecao";
 
 const LARGURA = 800;
 const ALTURA = 500;
@@ -57,6 +63,78 @@ describe("criarProjecao", () => {
       rotacao: [90, 0],
     });
     expect(comRot([0, 0])![0]).not.toBeCloseTo(semRot([0, 0])![0], 1);
+  });
+});
+
+describe("lado oculto do globo", () => {
+  /** Vista centrada em Brasília. Pequim fica a ~152° dali. */
+  const ROTACAO: [number, number] = [47.9, 15.8];
+  const BRASILIA: [number, number] = [-47.9, -15.8];
+  const PEQUIM: [number, number] = [116.4, 39.9];
+
+  const olhandoBrasil = (alpha: number) =>
+    criarProjecao({ largura: LARGURA, altura: ALTURA, alpha, rotacao: ROTACAO });
+
+  /**
+   * O corte age sobre o fluxo de geometria do `geoPath`, não sobre um par de
+   * coordenadas solto — daí desenhar de verdade em vez de projetar o ponto.
+   */
+  const desenha = (alpha: number, coordinates: [number, number]) =>
+    geoPath(olhandoBrasil(alpha))({ type: "Point", coordinates });
+
+  it("no globo, o que está atrás não é desenhado", () => {
+    // Sem o corte, a China era desenhada espelhada sobre a América do Sul.
+    expect(desenha(0, BRASILIA)).not.toBeNull();
+    expect(desenha(0, PEQUIM)).toBeNull();
+  });
+
+  it("no mapa plano, o mundo inteiro aparece", () => {
+    expect(desenha(1, BRASILIA)).not.toBeNull();
+    expect(desenha(1, PEQUIM)).not.toBeNull();
+  });
+
+  it("a calota abre junto com o desenrolar, sem salto no fim", () => {
+    const angulos = [0, 0.25, 0.5, 0.75, 1].map(anguloDeCorte);
+    expect(angulos[0]).toBe(90);
+    expect(angulos.at(-1)).toBeLessThan(180);
+    expect(angulos.every((a, i) => i === 0 || a > angulos[i - 1])).toBe(true);
+  });
+
+  it("o ponto oposto volta durante a transição, não de repente no fim", () => {
+    expect(desenha(0.5, PEQUIM)).toBeNull();
+    expect(desenha(0.8, PEQUIM)).not.toBeNull();
+  });
+});
+
+describe("pontoVisivel", () => {
+  /*
+   * O `clipAngle` age no fluxo do `geoPath`; chamar a projeção direto com um
+   * par de coordenadas escapa do corte. Foi assim que o marcador de evento
+   * continuou vazando depois de o país já estar corrigido.
+   */
+  const daBrasilia = { alpha: 0, rotacao: [47.9, 15.8] as [number, number] };
+
+  it("a projeção direta NÃO corta — por isso este teste existe", () => {
+    const p = criarProjecao({ largura: LARGURA, altura: ALTURA, ...daBrasilia });
+    const pequim = p([116.4, 39.9]);
+    expect(pequim).not.toBeNull();
+    expect(Number.isFinite(pequim![0])).toBe(true);
+  });
+
+  it("separa a face de frente do lado oculto", () => {
+    expect(pontoVisivel([-47.9, -15.8], daBrasilia)).toBe(true);
+    expect(pontoVisivel([116.4, 39.9], daBrasilia)).toBe(false);
+  });
+
+  it("acompanha a abertura da calota ao desenrolar", () => {
+    const pequim: [number, number] = [116.4, 39.9];
+    expect(pontoVisivel(pequim, { ...daBrasilia, alpha: 0.5 })).toBe(false);
+    expect(pontoVisivel(pequim, { ...daBrasilia, alpha: 1 })).toBe(true);
+  });
+
+  it("sem rotação, o centro da vista é a intersecção do equador com Greenwich", () => {
+    expect(pontoVisivel([0, 0], { alpha: 0 })).toBe(true);
+    expect(pontoVisivel([180, 0], { alpha: 0 })).toBe(false);
   });
 });
 
