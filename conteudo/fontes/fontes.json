@@ -41,6 +41,22 @@
     "citacao": "Firmou a supremacia do Parlamento sobre a Coroa depois da Revolução Gloriosa."
   },
   {
+    "id": "blackmon-servidao-penal",
+    "tipo": "livro",
+    "titulo": "Slavery by Another Name: The Re-Enslavement of Black Americans from the Civil War to World War II",
+    "autor": "Douglas A. Blackmon",
+    "data": "2008",
+    "citacao": "Reconstruiu, a partir de arquivos judiciais e empresariais, o sistema de arrendamento de presos que prendia homens negros por vadiagem e os vendia a minas e siderúrgicas até os anos 1940, amparado na exceção penal da Décima Terceira Emenda."
+  },
+  {
+    "id": "brown-v-board-1954",
+    "tipo": "decisao-judicial",
+    "titulo": "Brown v. Board of Education of Topeka",
+    "publicacao": "Suprema Corte dos Estados Unidos",
+    "data": "1954-05-17",
+    "citacao": "Decidiu por unanimidade que a segregação escolar é inerentemente desigual, revertendo Plessy. A ordem de execução do ano seguinte, com a fórmula da deliberada rapidez, permitiu que a dessegregação real levasse mais de uma década."
+  },
+  {
     "id": "caminha-1500",
     "tipo": "documento-oficial",
     "titulo": "Carta de Pero Vaz de Caminha a el-rei D. Manuel I",
@@ -97,6 +113,22 @@
     "autor": "Cristóvão Colombo, no resumo de Bartolomé de las Casas",
     "data": "1493",
     "citacao": "O diário original se perdeu, assim como a cópia mandada fazer pelos Reis Católicos. O que sobreviveu é o resumo preparado por Bartolomé de las Casas décadas depois, em que alguns trechos aparecem citados e outros parafraseados na terceira pessoa — distinção que importa para julgar cada afirmação atribuída a Colombo."
+  },
+  {
+    "id": "comissao-11-setembro-2004",
+    "tipo": "documento-oficial",
+    "titulo": "The 9/11 Commission Report",
+    "publicacao": "National Commission on Terrorist Attacks Upon the United States",
+    "data": "2004-07-22",
+    "citacao": "Reconstruiu os atentados de 2001 e as falhas de inteligência que os precederam. Registrou que não se encontrou relação de colaboração entre o Iraque e a al-Qaeda nos ataques — premissa usada publicamente para justificar a invasão de 2003."
+  },
+  {
+    "id": "comissao-6-janeiro-2022",
+    "tipo": "documento-oficial",
+    "titulo": "Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol",
+    "publicacao": "Câmara dos Representantes dos Estados Unidos",
+    "data": "2022-12-22",
+    "citacao": "Relatório final da comissão parlamentar sobre a invasão do Capitólio, com depoimentos majoritariamente de integrantes do próprio governo então em exercício. Suas conclusões são contestadas por parte do espectro político americano, e o atlas registra a fonte com essa ressalva."
   },
   {
     "id": "conjur-atibaia-2025",
@@ -164,12 +196,28 @@
     "citacao": "Afirma no artigo 1º que os homens nascem e permanecem livres e iguais em direitos. É o texto contra o qual se mede a distância entre o princípio declarado e a escravidão mantida nas colônias até 1794, restabelecida em 1802."
   },
   {
+    "id": "declaracao-independencia-1776",
+    "tipo": "documento-oficial",
+    "titulo": "Declaração de Independência dos Estados Unidos",
+    "publicacao": "Segundo Congresso Continental",
+    "data": "1776-07-04",
+    "citacao": "Afirma que todos os homens são criados iguais e dotados de direitos inalienáveis. O rascunho de Jefferson trazia um trecho responsabilizando a Coroa britânica pelo tráfico de escravizados, suprimido a pedido de delegações do Sul antes da aprovação."
+  },
+  {
     "id": "domesday-book-1086",
     "tipo": "documento-oficial",
     "titulo": "Domesday Book",
     "publicacao": "Reino da Inglaterra",
     "data": "1086",
     "citacao": "Levantamento de terras, gado e rendas de quase toda a Inglaterra, feito vinte anos após a conquista normanda para fins fiscais. Nenhum Estado da Europa medieval produziu inventário comparável, e é dele que vem a medida da substituição da aristocracia anglo-saxã."
+  },
+  {
+    "id": "dred-scott-1857",
+    "tipo": "decisao-judicial",
+    "titulo": "Dred Scott v. Sandford",
+    "publicacao": "Suprema Corte dos Estados Unidos",
+    "data": "1857-03-06",
+    "citacao": "Decidiu que pessoas de ascendência africana não podiam ser cidadãs e que o Congresso não podia proibir a escravidão nos territórios. Ao fechar a via legislativa, tornou impossível o tipo de acordo que vinha adiando a ruptura desde 1820."
   },
   {
     "id": "duby-historia-franca",
@@ -179,11 +227,27 @@
     "citacao": "Obra coletiva de referência que cobre da Gália ao século XX, usada como base narrativa geral para os períodos franceses."
   },
   {
+    "id": "dunbar-ortiz-historia-indigena",
+    "tipo": "livro",
+    "titulo": "An Indigenous Peoples' History of the United States",
+    "autor": "Roxanne Dunbar-Ortiz",
+    "data": "2014",
+    "citacao": "Reescreve a expansão territorial americana a partir das nações indígenas, tratando remoção, tratado quebrado e guerra como política de Estado contínua, e não como episódios de fronteira. Sustenta a ressalva do atlas sobre o que a geometria do mapa não mostra."
+  },
+  {
     "id": "editos-asoka",
     "tipo": "documento-oficial",
     "titulo": "Éditos de Asoka",
     "data": "-250",
     "citacao": "Inscrições em rochedos e pilares mandadas gravar pelo imperador máuria. São as inscrições mais antigas da Índia que se lê com segurança, e a principal evidência direta do alcance do império."
+  },
+  {
+    "id": "eji-lynching-in-america",
+    "tipo": "artigo-academico",
+    "titulo": "Lynching in America: Confronting the Legacy of Racial Terror",
+    "autor": "Equal Justice Initiative",
+    "data": "2017",
+    "citacao": "Levantamento documental que registra mais de 4.400 linchamentos de terror racial nos Estados Unidos entre 1877 e 1950, condado por condado. É a base da ordem de grandeza usada no atlas, e o próprio relatório trata o número como piso."
   },
   {
     "id": "evans-terceiro-reich",
@@ -296,6 +360,22 @@
     "citacao": "Referência para o Japão de Tokugawa em diante, cobrindo a Restauração Meiji, o império e o pós-guerra."
   },
   {
+    "id": "katznelson-acao-afirmativa-branca",
+    "tipo": "livro",
+    "titulo": "When Affirmative Action Was White",
+    "autor": "Ira Katznelson",
+    "data": "2005",
+    "citacao": "Mostrou que a aprovação do New Deal dependeu de excluir trabalhadores agrícolas e domésticos da seguridade social e das leis trabalhistas, deixando de fora a maioria dos trabalhadores negros, e que o crédito habitacional federal foi desenhado para não alcançá-los."
+  },
+  {
+    "id": "kerner-1968",
+    "tipo": "documento-oficial",
+    "titulo": "Report of the National Advisory Commission on Civil Disorders (Relatório Kerner)",
+    "publicacao": "Governo dos Estados Unidos",
+    "data": "1968-02-29",
+    "citacao": "Comissão criada para explicar as revoltas urbanas concluiu que o país caminhava para duas sociedades separadas e desiguais e apontou o racismo branco como causa central. O presidente que a nomeou engavetou as recomendações."
+  },
+  {
     "id": "kershaw-hitler",
     "tipo": "livro",
     "titulo": "Hitler",
@@ -309,6 +389,14 @@
     "autor": "Christine Kinealy",
     "data": "1994",
     "citacao": "Documentou que a Irlanda seguiu exportando alimentos durante a fome e reconstruiu as decisões administrativas de Londres que agravaram a mortalidade. Sustenta a afirmação do atlas de que a catástrofe foi de política pública, sem que isso resolva a disputa sobre o termo genocídio."
+  },
+  {
+    "id": "korematsu-1944",
+    "tipo": "decisao-judicial",
+    "titulo": "Korematsu v. United States",
+    "publicacao": "Suprema Corte dos Estados Unidos",
+    "data": "1944-12-18",
+    "citacao": "Validou por seis votos a três o internamento de pessoas de origem japonesa por necessidade militar. O Congresso reconheceu o erro e indenizou sobreviventes em 1988, e a própria Corte só declarou a decisão repudiada em 2018."
   },
   {
     "id": "kotkin-stalin",
@@ -372,6 +460,14 @@
     "autor": "Robert O. Paxton",
     "data": "1972",
     "citacao": "Usando arquivos alemães, estabeleceu que a colaboração foi buscada pelo Estado francês e não imposta pelo ocupante, e que a legislação antissemita de 1940 partiu de iniciativa própria. Desfez a tese do escudo e da espada, dominante na França até os anos 1970."
+  },
+  {
+    "id": "plessy-ferguson-1896",
+    "tipo": "decisao-judicial",
+    "titulo": "Plessy v. Ferguson",
+    "publicacao": "Suprema Corte dos Estados Unidos",
+    "data": "1896-05-18",
+    "citacao": "Declarou constitucional a doutrina dos separados mas iguais, dando cobertura jurídica à segregação por quase sessenta anos. O voto vencido de John Marshall Harlan sustentou que a Constituição não conhece cor, e é a posição que prevaleceria em 1954."
   },
   {
     "id": "poder360-arquivamento-triplex",
@@ -438,6 +534,22 @@
     "publicacao": "Companhia das Letras",
     "data": "2015",
     "citacao": "Síntese de referência da história do Brasil do período colonial ao século XXI, usada no atlas como base narrativa geral."
+  },
+  {
+    "id": "senado-cia-tortura-2014",
+    "tipo": "documento-oficial",
+    "titulo": "Committee Study of the CIA's Detention and Interrogation Program (sumário executivo)",
+    "publicacao": "Comitê de Inteligência do Senado dos Estados Unidos",
+    "data": "2014-12-09",
+    "citacao": "Concluiu, com base em milhões de documentos internos da agência, que as técnicas de interrogatório empregadas após 2001 foram mais brutais do que se havia informado ao Congresso e não produziram inteligência que não pudesse ser obtida de outro modo."
+  },
+  {
+    "id": "shelby-county-2013",
+    "tipo": "decisao-judicial",
+    "titulo": "Shelby County v. Holder",
+    "publicacao": "Suprema Corte dos Estados Unidos",
+    "data": "2013-06-25",
+    "citacao": "Invalidou a fórmula que definia quais estados precisavam de autorização federal prévia para alterar regras eleitorais, esvaziando na prática o mecanismo central da lei de 1965. Vários dos estados liberados adotaram novas restrições ao voto em seguida."
   },
   {
     "id": "sima-qian-shiji",
@@ -544,6 +656,14 @@
     "titulo": "Tratado de Versalhes",
     "data": "1919-06-28",
     "citacao": "Atribuiu à Alemanha a responsabilidade pela Primeira Guerra e impôs reparações. O artigo 231, a chamada cláusula de culpa, é peça central da política alemã do entreguerras."
+  },
+  {
+    "id": "voting-rights-act-1965",
+    "tipo": "documento-oficial",
+    "titulo": "Voting Rights Act",
+    "publicacao": "Congresso dos Estados Unidos",
+    "data": "1965-08-06",
+    "citacao": "Proibiu testes de alfabetização e submeteu estados com histórico de discriminação à autorização federal prévia para mudar regras eleitorais. O registro eleitoral negro no Mississippi saltou de menos de 10% para perto de 60% em dois anos."
   },
   {
     "id": "winkler-caminho-oeste",
