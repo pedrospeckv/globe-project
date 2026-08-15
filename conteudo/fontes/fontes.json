@@ -211,6 +211,22 @@
     "citacao": "Estabeleceu o presidencialismo reforçado que define o regime francês desde então."
   },
   {
+    "id": "constituicao-japonesa-1947",
+    "tipo": "documento-oficial",
+    "titulo": "Constituição do Japão",
+    "publicacao": "Japão",
+    "data": "1947-05-03",
+    "citacao": "Redigida em inglês por uma pequena equipe do comando de ocupação e depois traduzida, reduziu o imperador a símbolo do Estado, garantiu direitos fundamentais e igualdade de gênero, e no artigo 9 fez o Japão renunciar à guerra como direito soberano. Nunca foi emendada desde a promulgação."
+  },
+  {
+    "id": "constituicao-meiji-1889",
+    "tipo": "documento-oficial",
+    "titulo": "Constituição do Império do Japão",
+    "publicacao": "Império do Japão",
+    "data": "1889-02-11",
+    "citacao": "Outorgada pelo imperador, criou parlamento e gabinete mas colocou o alto comando militar respondendo diretamente ao trono, fora do controle do governo civil. Essa separação, somada à exigência de que os ministros militares fossem oficiais da ativa, deu às forças armadas poder de derrubar gabinetes — mecanismo decisivo para o que aconteceria nos anos 1930."
+  },
+  {
     "id": "constituicao-russa-1993",
     "tipo": "documento-oficial",
     "titulo": "Constituição da Federação Russa",
@@ -225,6 +241,14 @@
     "publicacao": "Assembleia Nacional de Weimar",
     "data": "1919-08-11",
     "citacao": "Instituiu sufrágio universal incluindo mulheres, representação proporcional e um presidente eleito diretamente. Seu artigo 48 autorizava o presidente a suspender direitos fundamentais e legislar por decreto em emergência — dispositivo que, de exceção, virou rotina de governo a partir de 1930."
+  },
+  {
+    "id": "conto-de-genji",
+    "tipo": "livro",
+    "titulo": "O Conto de Genji (Genji monogatari)",
+    "autor": "Murasaki Shikibu",
+    "data": "1010",
+    "citacao": "Escrito por uma dama da corte Heian em kana, a escrita silábica então considerada imprópria para homens instruídos. É tratado como o primeiro romance psicológico do mundo e é a principal fonte sobre a vida cotidiana e as convenções da aristocracia de Quioto."
   },
   {
     "id": "corteidh-gomes-lund",
@@ -275,6 +299,14 @@
     "citacao": "Afirma que todos os homens são criados iguais e dotados de direitos inalienáveis. O rascunho de Jefferson trazia um trecho responsabilizando a Coroa britânica pelo tráfico de escravizados, suprimido a pedido de delegações do Sul antes da aprovação."
   },
   {
+    "id": "declaracao-kono-1993",
+    "tipo": "documento-oficial",
+    "titulo": "Declaração do secretário-geral do gabinete Yōhei Kōno sobre as mulheres de conforto",
+    "publicacao": "Governo do Japão",
+    "data": "1993-08-04",
+    "citacao": "Reconheceu, após investigação oficial, o envolvimento das forças armadas japonesas na instalação e administração dos bordéis militares e o recrutamento contra a vontade das mulheres, e apresentou desculpas. É o reconhecimento do próprio Estado japonês, e é contestado por setores políticos do país desde então."
+  },
+  {
     "id": "declaracao-sino-britanica-1984",
     "tipo": "documento-oficial",
     "titulo": "Declaração Conjunta Sino-Britânica sobre a questão de Hong Kong",
@@ -306,6 +338,14 @@
     "publicacao": "Reino da Inglaterra",
     "data": "1086",
     "citacao": "Levantamento de terras, gado e rendas de quase toda a Inglaterra, feito vinte anos após a conquista normanda para fins fiscais. Nenhum Estado da Europa medieval produziu inventário comparável, e é dele que vem a medida da substituição da aristocracia anglo-saxã."
+  },
+  {
+    "id": "dower-abracando-derrota",
+    "tipo": "livro",
+    "titulo": "Embracing Defeat: Japan in the Wake of World War II",
+    "autor": "John W. Dower",
+    "data": "1999",
+    "citacao": "Reconstrói a ocupação a partir de dentro da sociedade japonesa — fome, mercado negro, imprensa, cultura popular — e mostra a reinvenção política como processo negociado entre ocupantes e ocupados, e não como imposição simples. É a referência do atlas para o período."
   },
   {
     "id": "dred-scott-1857",
@@ -516,6 +556,14 @@
     "autor": "Christine Kinealy",
     "data": "1994",
     "citacao": "Documentou que a Irlanda seguiu exportando alimentos durante a fome e reconstruiu as decisões administrativas de Londres que agravaram a mortalidade. Sustenta a afirmação do atlas de que a catástrofe foi de política pública, sem que isso resolva a disputa sobre o termo genocídio."
+  },
+  {
+    "id": "kojiki-712",
+    "tipo": "livro",
+    "titulo": "Kojiki (Registro de Assuntos Antigos)",
+    "publicacao": "Corte de Yamato",
+    "data": "712",
+    "citacao": "O mais antigo livro japonês conservado. Compilado por ordem da corte para fixar por escrito a genealogia imperial e a mitologia que a sustenta, é documento político tanto quanto literário — foi encomendado justamente quando a legitimidade da linhagem precisava ser estabelecida em texto."
   },
   {
     "id": "korematsu-1944",
@@ -880,6 +928,14 @@
     "citacao": "Devolveu à Alemanha a soberania plena suspensa desde 1945, fixou o efetivo máximo de suas forças armadas e reconheceu em definitivo a fronteira do Oder-Neisse com a Polônia. É o documento que tornou a reunificação juridicamente possível diante das quatro potências ocupantes."
   },
   {
+    "id": "tratado-kanagawa-1854",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Kanagawa",
+    "publicacao": "Xogunato Tokugawa e Estados Unidos",
+    "data": "1854-03-31",
+    "citacao": "Assinado sob ameaça de bombardeio naval, abriu dois portos e encerrou dois séculos de contato externo restrito. O acordo comercial de 1858 que o seguiu impôs extraterritorialidade e tarifas que o Japão não podia alterar — os mesmos termos aplicados à China, e cuja revogação viraria o objetivo central da política externa japonesa por cinquenta anos."
+  },
+  {
     "id": "tratado-nanquim-1842",
     "tipo": "documento-oficial",
     "titulo": "Tratado de Nanquim",
@@ -888,11 +944,35 @@
     "citacao": "Encerrou a Primeira Guerra do Ópio cedendo Hong Kong, abrindo cinco portos, impondo indenização e fixando tarifas que a China não podia alterar sozinha. Acordos complementares acrescentaram extraterritorialidade e cláusula de nação mais favorecida. É o primeiro dos tratados que a historiografia chinesa chama de desiguais."
   },
   {
+    "id": "tratado-sao-francisco-1951",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Paz com o Japão (Tratado de São Francisco)",
+    "publicacao": "Japão e quarenta e oito países signatários",
+    "data": "1951-09-08",
+    "citacao": "Restituiu a soberania japonesa em 1952 e encerrou formalmente a guerra. União Soviética, China e as duas Coreias não assinaram, e as reparações ficaram para acordos bilaterais posteriores — razão pela qual as disputas sobre responsabilidade e indenização com vizinhos asiáticos seguem juridicamente vivas. Okinawa permaneceu sob administração americana até 1972."
+  },
+  {
+    "id": "tratado-seguranca-japao-eua-1960",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Cooperação Mútua e Segurança entre Japão e Estados Unidos",
+    "publicacao": "Japão e Estados Unidos",
+    "data": "1960-01-19",
+    "citacao": "Manteve as bases americanas em território japonês em troca de compromisso de defesa. Sua ratificação provocou as maiores manifestações da história do Japão do pós-guerra e derrubou o primeiro-ministro que a conduziu; o tratado segue em vigor."
+  },
+  {
     "id": "tratado-versalhes",
     "tipo": "documento-oficial",
     "titulo": "Tratado de Versalhes",
     "data": "1919-06-28",
     "citacao": "Atribuiu à Alemanha a responsabilidade pela Primeira Guerra e impôs reparações. O artigo 231, a chamada cláusula de culpa, é peça central da política alemã do entreguerras."
+  },
+  {
+    "id": "tribunal-toquio-1948",
+    "tipo": "decisao-judicial",
+    "titulo": "Sentença do Tribunal Militar Internacional para o Extremo Oriente",
+    "publicacao": "Tribunal Militar Internacional para o Extremo Oriente",
+    "data": "1948-11-12",
+    "citacao": "Condenou vinte e cinco dirigentes japoneses por crimes contra a paz e crimes de guerra, sete deles à morte. O imperador não foi indiciado, por decisão política dos ocupantes, e responsáveis pelo programa de armas biológicas receberam imunidade em troca dos dados de suas experiências. Houve votos dissidentes, entre eles o do juiz indiano Radhabinod Pal, que considerou o processo justiça de vencedores."
   },
   {
     "id": "voting-rights-act-1965",
