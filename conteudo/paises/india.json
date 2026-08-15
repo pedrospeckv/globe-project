@@ -8,7 +8,11 @@
       "fim": "-185",
       "rotulo": "Império Máuria",
       "regime": "monarquia imperial com administração centralizada em Pataliputra",
-      "textoMdx": "Chandragupta Máuria derrota a dinastia Nanda e constrói, a partir de Pataliputra, o primeiro Estado a cobrir quase todo o subcontinente. Seu neto Asoka, após a guerra de Kalinga, adota o *dhamma* de inspiração budista e manda gravar éditos em rochedos e pilares por todo o império — as inscrições mais antigas da Índia que se lê com segurança, e uma das raras vezes em que um governante antigo registra por escrito o arrependimento de uma guerra que venceu.\n\n**O atlas começa a Índia aqui, e a escolha exclui muita coisa.** As cidades do Indo — Harapa, Mohenjo-Daro — são dois mil anos anteriores, e entre elas e os Máuria houve o período védico, os *mahajanapadas* e os Nanda. Nada disso é menos história. Ficou de fora porque a unidade deste atlas é o Estado sobre um território, e o Máuria é o primeiro que cobre quase todo ele. A escrita do Indo, aliás, permanece não decifrada: não se sabe sequer com certeza que língua registra.\n\n*A data de fundação varia entre 324 e 321 a.C. conforme a reconstrução cronológica; o atlas usa 322. E o mapa exagera: pintar o império como bloco contínuo projeta sobre a Antiguidade uma noção de fronteira que ela não tinha — o controle máuria era denso ao longo dos eixos de estrada e das capitais provinciais, e rarefeito no meio.*"
+      "textoMdx": "Chandragupta Máuria derrota a dinastia Nanda e constrói, a partir de Pataliputra, o primeiro Estado a cobrir quase todo o subcontinente. Seu neto Asoka, após a guerra de Kalinga, adota o *dhamma* de inspiração budista e manda gravar éditos em rochedos e pilares por todo o império — as inscrições mais antigas da Índia que se lê com segurança, e uma das raras vezes em que um governante antigo registra por escrito o arrependimento de uma guerra que venceu.\n\n**O atlas começa a Índia aqui, e a escolha exclui muita coisa.** As cidades do Indo — Harapa, Mohenjo-Daro — são dois mil anos anteriores, e entre elas e os Máuria houve o período védico, os *mahajanapadas* e os Nanda. Nada disso é menos história. Ficou de fora porque a unidade deste atlas é o Estado sobre um território, e o Máuria é o primeiro que cobre quase todo ele. A escrita do Indo, aliás, permanece não decifrada: não se sabe sequer com certeza que língua registra.\n\n*A data de fundação varia entre 324 e 321 a.C. conforme a reconstrução cronológica; o atlas usa 322. E o mapa exagera: pintar o império como bloco contínuo projeta sobre a Antiguidade uma noção de fronteira que ela não tinha — o controle máuria era denso ao longo dos eixos de estrada e das capitais provinciais, e rarefeito no meio.*",
+      "fontes": [
+        "thapar-early-india",
+        "editos-asoka"
+      ]
     },
     {
       "id": "in-reinos-sucessores",
@@ -16,7 +20,10 @@
       "fim": "320",
       "rotulo": "Reinos sucessores e o Império Cuchana",
       "regime": "fragmentação entre dinastias regionais",
-      "textoMdx": "Pushyamitra Xunga mata o último imperador máuria e o subcontinente se desfaz em potências regionais que se sobrepõem por cinco séculos: os Xungas no Ganges, os reinos indo-gregos herdeiros de Alexandre no noroeste, os Satavahanas no Decã, os Sacas, e o Império Cuchana, que a partir da Báctria alcança a planície gangética e serve de ponte entre a Índia, a China han e Roma.\n\nÉ o período em que o budismo sai do subcontinente pelas rotas de caravana e chega à Ásia Central e à China, e em que a escultura de Gandara funde convenções gregas e indianas numa das primeiras representações do Buda em forma humana.\n\nO atlas trata os cinco séculos como um período só, do mesmo modo que trata os três séculos entre os Han e os Sui na China: não porque nada tenha acontecido, mas porque nenhum Estado cobriu o território e enumerar cada dinastia regional daria uma lista, não uma cronologia.\n\n*A data de ascensão de Kanishka, o maior imperador cuchana, é um dos problemas em aberto da cronologia indiana — as propostas vão de 78 a 144 d.C. A datação mais aceita hoje é 127, mas a questão não está encerrada.*"
+      "textoMdx": "Pushyamitra Xunga mata o último imperador máuria e o subcontinente se desfaz em potências regionais que se sobrepõem por cinco séculos: os Xungas no Ganges, os reinos indo-gregos herdeiros de Alexandre no noroeste, os Satavahanas no Decã, os Sacas, e o Império Cuchana, que a partir da Báctria alcança a planície gangética e serve de ponte entre a Índia, a China han e Roma.\n\nÉ o período em que o budismo sai do subcontinente pelas rotas de caravana e chega à Ásia Central e à China, e em que a escultura de Gandara funde convenções gregas e indianas numa das primeiras representações do Buda em forma humana.\n\nO atlas trata os cinco séculos como um período só, do mesmo modo que trata os três séculos entre os Han e os Sui na China: não porque nada tenha acontecido, mas porque nenhum Estado cobriu o território e enumerar cada dinastia regional daria uma lista, não uma cronologia.\n\n*A data de ascensão de Kanishka, o maior imperador cuchana, é um dos problemas em aberto da cronologia indiana — as propostas vão de 78 a 144 d.C. A datação mais aceita hoje é 127, mas a questão não está encerrada.*",
+      "fontes": [
+        "thapar-early-india"
+      ]
     },
     {
       "id": "in-gupta",
@@ -24,7 +31,10 @@
       "fim": "550",
       "rotulo": "Império Gupta",
       "regime": "monarquia imperial no norte; sul sob dinastias independentes",
-      "textoMdx": "Chandragupta I inaugura a era Gupta e seus sucessores, Samudragupta e Chandragupta II, reúnem o norte sob um império que governa mais por vassalagem que por administração direta. É o período em que a notação decimal posicional com o zero se consolida na matemática indiana e em que Ariabata calcula a circunferência da Terra com erro inferior a 1%.\n\nO império entra em colapso no século VI sob as invasões dos Hunas alcônidas e a pressão fiscal de guerras sucessivas.\n\n**O rótulo \"Idade de Ouro\", muito associado a este período, merece ressalva.** Ele foi consolidado pela historiografia nacionalista do século XIX e XX, que precisava de uma Antiguidade clássica indiana para opor à narrativa colonial britânica. As realizações são reais, mas o rótulo achata a posição de quem estava fora da elite letrada e sugere uma unidade que não existiu: o sul do subcontinente nunca esteve sob os Gupta e vivia sua própria história."
+      "textoMdx": "Chandragupta I inaugura a era Gupta e seus sucessores, Samudragupta e Chandragupta II, reúnem o norte sob um império que governa mais por vassalagem que por administração direta. É o período em que a notação decimal posicional com o zero se consolida na matemática indiana e em que Ariabata calcula a circunferência da Terra com erro inferior a 1%.\n\nO império entra em colapso no século VI sob as invasões dos Hunas alcônidas e a pressão fiscal de guerras sucessivas.\n\n**O rótulo \"Idade de Ouro\", muito associado a este período, merece ressalva.** Ele foi consolidado pela historiografia nacionalista do século XIX e XX, que precisava de uma Antiguidade clássica indiana para opor à narrativa colonial britânica. As realizações são reais, mas o rótulo achata a posição de quem estava fora da elite letrada e sugere uma unidade que não existiu: o sul do subcontinente nunca esteve sob os Gupta e vivia sua própria história.",
+      "fontes": [
+        "thapar-early-india"
+      ]
     },
     {
       "id": "in-pos-gupta",
@@ -32,7 +42,10 @@
       "fim": "750",
       "rotulo": "Fragmentação pós-Gupta e o reinado de Harsha",
       "regime": "reinos regionais, com breve reunificação do norte",
-      "textoMdx": "O norte se fragmenta de novo até Harsha, de Canaúje, reunir boa parte dele entre 606 e 647. Ele morre sem herdeiro e o território volta a se dividir no mesmo ano.\n\nNo sul, os Chalúquias e os Palavas disputam o Decã — é sob os Palavas que se talham os templos monolíticos de Mamallapuram.\n\n*Boa parte do que se sabe sobre o reinado de Harsha vem do relato de Xuanzang, o monge chinês que percorreu a Índia entre 630 e 644 em busca de textos budistas. É uma fonte de valor enorme e de ponto de vista declarado: um peregrino estrangeiro, interessado em mosteiros, escrevendo para leitores chineses.*"
+      "textoMdx": "O norte se fragmenta de novo até Harsha, de Canaúje, reunir boa parte dele entre 606 e 647. Ele morre sem herdeiro e o território volta a se dividir no mesmo ano.\n\nNo sul, os Chalúquias e os Palavas disputam o Decã — é sob os Palavas que se talham os templos monolíticos de Mamallapuram.\n\n*Boa parte do que se sabe sobre o reinado de Harsha vem do relato de Xuanzang, o monge chinês que percorreu a Índia entre 630 e 644 em busca de textos budistas. É uma fonte de valor enorme e de ponto de vista declarado: um peregrino estrangeiro, interessado em mosteiros, escrevendo para leitores chineses.*",
+      "fontes": [
+        "thapar-early-india"
+      ]
     },
     {
       "id": "in-luta-tripartite",
@@ -40,7 +53,10 @@
       "fim": "1206",
       "rotulo": "Luta tripartite e reinos regionais",
       "regime": "reinos regionais em disputa pelo norte; império Chola no sul",
-      "textoMdx": "Três potências — os Gurjara-Pratiharas, os Palas de Bengala e os Rashtracutas do Decã — disputam por dois séculos o controle de Canaúje, sem que nenhuma consiga fixá-lo. No sul, os Cholas se tornam potência marítima e projetam poder até Sumatra sob Rajaraja I e Rajendra I.\n\nA partir de 1000, Mahmud de Gázni lança expedições anuais de saque sobre o noroeste. Elas não estabelecem domínio permanente, mas expõem a fragmentação militar da região. O domínio vem depois: os Gúridas derrotam Prithviraj Chauhan em Tarain, em 1192, e em 1206 Qutb ud-Din Aibak se declara sultão em Délhi.\n\n*A leitura desse desfecho é campo minado até hoje. Ela foi usada pela historiografia colonial britânica para dividir a história indiana em \"eras\" hindu e muçulmana — periodização que serviu à tese de que a Índia sempre fora governada por estrangeiros e que continua alimentando disputa política. A cronologia acima descreve conquistas militares; não as toma por conflito de civilizações.*"
+      "textoMdx": "Três potências — os Gurjara-Pratiharas, os Palas de Bengala e os Rashtracutas do Decã — disputam por dois séculos o controle de Canaúje, sem que nenhuma consiga fixá-lo. No sul, os Cholas se tornam potência marítima e projetam poder até Sumatra sob Rajaraja I e Rajendra I.\n\nA partir de 1000, Mahmud de Gázni lança expedições anuais de saque sobre o noroeste. Elas não estabelecem domínio permanente, mas expõem a fragmentação militar da região. O domínio vem depois: os Gúridas derrotam Prithviraj Chauhan em Tarain, em 1192, e em 1206 Qutb ud-Din Aibak se declara sultão em Délhi.\n\n*A leitura desse desfecho é campo minado até hoje. Ela foi usada pela historiografia colonial britânica para dividir a história indiana em \"eras\" hindu e muçulmana — periodização que serviu à tese de que a Índia sempre fora governada por estrangeiros e que continua alimentando disputa política. A cronologia acima descreve conquistas militares; não as toma por conflito de civilizações.*",
+      "fontes": [
+        "thapar-early-india"
+      ]
     },
     {
       "id": "in-sultanato-delhi",
@@ -48,7 +64,10 @@
       "fim": "1526",
       "rotulo": "Sultanato de Délhi",
       "regime": "sultanato no norte do subcontinente; sul e leste sob dinastias independentes",
-      "textoMdx": "Cinco dinastias sucessivas governam o norte a partir de Délhi, estabelecendo o islã como religião de corte numa região de maioria hindu — convivência que produz sínteses duradouras em arquitetura, língua e música, e também episódios de destruição de templos.\n\nO subcontinente não era uma unidade política. O sul permaneceu sob dinastias próprias, entre elas o Império Vijayanagara, a partir de 1336, e os sultanatos do Decã. O período é nomeado pela potência dominante do norte, não porque houvesse um Estado único.\n\nO saque de Délhi por Timur, em 1398, reduz o sultanato a uma potência regional. Ele é derrotado em 1526 por Babur, descendente de Timur e de Gengis Khan."
+      "textoMdx": "Cinco dinastias sucessivas governam o norte a partir de Délhi, estabelecendo o islã como religião de corte numa região de maioria hindu — convivência que produz sínteses duradouras em arquitetura, língua e música, e também episódios de destruição de templos.\n\nO subcontinente não era uma unidade política. O sul permaneceu sob dinastias próprias, entre elas o Império Vijayanagara, a partir de 1336, e os sultanatos do Decã. O período é nomeado pela potência dominante do norte, não porque houvesse um Estado único.\n\nO saque de Délhi por Timur, em 1398, reduz o sultanato a uma potência regional. Ele é derrotado em 1526 por Babur, descendente de Timur e de Gengis Khan.",
+      "fontes": [
+        "thapar-early-india"
+      ]
     },
     {
       "id": "in-mogol",
@@ -56,7 +75,10 @@
       "fim": "1757",
       "rotulo": "Império Mogol",
       "regime": "monarquia imperial; fragmentação progressiva a partir de 1707",
-      "textoMdx": "No auge, o império mogol responde por algo em torno de um quarto do PIB mundial, segundo estimativas de historiadores econômicos, e cobre boa parte do subcontinente, incluindo territórios dos atuais Paquistão e Bangladesh.\n\nAkbar, que reina de 1556 a 1605, abole o imposto sobre não muçulmanos e integra nobres hindus à administração. Shah Jahan constrói o Taj Mahal como mausoléu para sua esposa. Aurangzeb amplia o território ao máximo e reverte parte da política de tolerância, reintroduzindo o imposto e endurecendo com hindus e siques.\n\nApós sua morte em 1707, o poder imperial se dissolve diante de potências regionais, sobretudo a Confederação Marata. A vitória britânica em Plassey, em 1757, marca o início do domínio europeu."
+      "textoMdx": "No auge, o império mogol responde por algo em torno de um quarto do PIB mundial, segundo estimativas de historiadores econômicos, e cobre boa parte do subcontinente, incluindo territórios dos atuais Paquistão e Bangladesh.\n\nAkbar, que reina de 1556 a 1605, abole o imposto sobre não muçulmanos e integra nobres hindus à administração. Shah Jahan constrói o Taj Mahal como mausoléu para sua esposa. Aurangzeb amplia o território ao máximo e reverte parte da política de tolerância, reintroduzindo o imposto e endurecendo com hindus e siques.\n\nApós sua morte em 1707, o poder imperial se dissolve diante de potências regionais, sobretudo a Confederação Marata. A vitória britânica em Plassey, em 1757, marca o início do domínio europeu.",
+      "fontes": [
+        "thapar-early-india"
+      ]
     },
     {
       "id": "in-companhia",
@@ -64,7 +86,10 @@
       "fim": "1858",
       "rotulo": "Domínio da Companhia das Índias Orientais",
       "regime": "administração por companhia comercial britânica, sob soberania mogol nominal",
-      "textoMdx": "Um século em que a Índia é governada por uma empresa privada de capital aberto, com exército próprio de centenas de milhares de soldados — a maior parte deles indianos.\n\nA Companhia arrecada impostos, administra justiça e faz guerra. A desindustrialização do setor têxtil indiano, que era o maior exportador mundial de tecidos, ocorre neste período, sob tarifas que protegiam a indústria britânica. A grande fome de Bengala, em 1770, mata milhões.\n\nA revolta de 1857, iniciada por soldados indianos e ampliada por príncipes e camponeses, é reprimida com violência extrema dos dois lados. O Parlamento britânico responde dissolvendo a Companhia e assumindo o governo direto."
+      "textoMdx": "Um século em que a Índia é governada por uma empresa privada de capital aberto, com exército próprio de centenas de milhares de soldados — a maior parte deles indianos.\n\nA Companhia arrecada impostos, administra justiça e faz guerra. A desindustrialização do setor têxtil indiano, que era o maior exportador mundial de tecidos, ocorre neste período, sob tarifas que protegiam a indústria britânica. A grande fome de Bengala, em 1770, mata milhões.\n\nA revolta de 1857, iniciada por soldados indianos e ampliada por príncipes e camponeses, é reprimida com violência extrema dos dois lados. O Parlamento britânico responde dissolvendo a Companhia e assumindo o governo direto.",
+      "fontes": [
+        "thapar-early-india"
+      ]
     },
     {
       "id": "in-raj",
@@ -72,7 +97,10 @@
       "fim": "1947",
       "rotulo": "Índia Britânica (Raj)",
       "regime": "colônia da Coroa Britânica, com províncias sob administração direta e centenas de estados principescos sob domínio indireto",
-      "textoMdx": "A Coroa constrói ferrovias, telégrafo e um serviço civil, e governa cerca de 300 milhões de pessoas com poucos milhares de administradores britânicos, apoiada em elites locais e em 565 estados principescos com soberania nominal.\n\nAs fomes se repetem sob políticas de mercado que mantinham exportações durante as crises: a de 1876-78 e a de Bengala, em 1943, mataram milhões cada uma.\n\nO Congresso Nacional Indiano, fundado em 1885, se transforma em movimento de massas sob Gandhi a partir de 1915, com a estratégia de não cooperação e desobediência civil. O massacre de Amritsar, em 1919, quando tropas atiram contra uma multidão desarmada, radicaliza o movimento.\n\n*Este período nomeia o domínio britânico sobre o subcontinente, mas o mapa desenha apenas as fronteiras da Índia de hoje. O Raj era muito maior: incluía os atuais Paquistão e Bangladesh, e também a Birmânia — a atual Myanmar — até 1937. A linha que separa Índia, Paquistão e Bangladesh foi traçada em 1947, com a Partição.*"
+      "textoMdx": "A Coroa constrói ferrovias, telégrafo e um serviço civil, e governa cerca de 300 milhões de pessoas com poucos milhares de administradores britânicos, apoiada em elites locais e em 565 estados principescos com soberania nominal.\n\nAs fomes se repetem sob políticas de mercado que mantinham exportações durante as crises: a de 1876-78 e a de Bengala, em 1943, mataram milhões cada uma.\n\nO Congresso Nacional Indiano, fundado em 1885, se transforma em movimento de massas sob Gandhi a partir de 1915, com a estratégia de não cooperação e desobediência civil. O massacre de Amritsar, em 1919, quando tropas atiram contra uma multidão desarmada, radicaliza o movimento.\n\n*Este período nomeia o domínio britânico sobre o subcontinente, mas o mapa desenha apenas as fronteiras da Índia de hoje. O Raj era muito maior: incluía os atuais Paquistão e Bangladesh, e também a Birmânia — a atual Myanmar — até 1937. A linha que separa Índia, Paquistão e Bangladesh foi traçada em 1947, com a Partição.*",
+      "fontes": [
+        "thapar-early-india"
+      ]
     },
     {
       "id": "in-dominio",
@@ -80,14 +108,22 @@
       "fim": "1950",
       "rotulo": "Domínio da Índia",
       "regime": "domínio autônomo da Commonwealth, sob a Coroa Britânica",
-      "textoMdx": "A independência, em agosto de 1947, vem acompanhada da Partição, que cria o Paquistão como Estado de maioria muçulmana. A fronteira foi traçada em poucas semanas por uma comissão presidida por um advogado britânico que nunca havia estado na Índia.\n\nO deslocamento é o maior movimento forçado de população da história: estima-se entre 10 e 20 milhões de pessoas. A violência intercomunitária mata entre várias centenas de milhares e dois milhões, segundo diferentes estimativas.\n\nGandhi é assassinado em janeiro de 1948 por um nacionalista hindu que o considerava conciliador com os muçulmanos. A primeira guerra por Caxemira começa no mesmo período, e a disputa permanece aberta.\n\nA Constituição entra em vigor em 26 de janeiro de 1950."
+      "textoMdx": "A independência, em agosto de 1947, vem acompanhada da Partição, que cria o Paquistão como Estado de maioria muçulmana. A fronteira foi traçada em poucas semanas por uma comissão presidida por um advogado britânico que nunca havia estado na Índia.\n\nO deslocamento é o maior movimento forçado de população da história: estima-se entre 10 e 20 milhões de pessoas. A violência intercomunitária mata entre várias centenas de milhares e dois milhões, segundo diferentes estimativas.\n\nGandhi é assassinado em janeiro de 1948 por um nacionalista hindu que o considerava conciliador com os muçulmanos. A primeira guerra por Caxemira começa no mesmo período, e a disputa permanece aberta.\n\nA Constituição entra em vigor em 26 de janeiro de 1950.",
+      "fontes": [
+        "thapar-early-india",
+        "guha-india-after-gandhi"
+      ]
     },
     {
       "id": "in-republica",
       "inicio": "1950",
       "rotulo": "República da Índia",
       "regime": "república parlamentarista federal",
-      "textoMdx": "A Constituição de 1950 é a mais longa do mundo em vigor, adota sufrágio universal desde o primeiro dia e proíbe a discriminação por casta, instituindo reserva de vagas para grupos historicamente excluídos.\n\nA democracia se manteve com uma interrupção: o estado de emergência decretado em 1975, que suspendeu liberdades civis por 21 meses — e cujo governo perdeu a eleição seguinte.\n\nA Índia realiza teste nuclear em 1974 e se declara potência nuclear em 1998. A liberalização econômica de 1991 acelera o crescimento, e o país se torna o mais populoso do mundo em 2023.\n\n*Este é o período em curso.*"
+      "textoMdx": "A Constituição de 1950 é a mais longa do mundo em vigor, adota sufrágio universal desde o primeiro dia e proíbe a discriminação por casta, instituindo reserva de vagas para grupos historicamente excluídos.\n\nA democracia se manteve com uma interrupção: o estado de emergência decretado em 1975, que suspendeu liberdades civis por 21 meses — e cujo governo perdeu a eleição seguinte.\n\nA Índia realiza teste nuclear em 1974 e se declara potência nuclear em 1998. A liberalização econômica de 1991 acelera o crescimento, e o país se torna o mais populoso do mundo em 2023.\n\n*Este é o período em curso.*",
+      "fontes": [
+        "thapar-early-india",
+        "guha-india-after-gandhi"
+      ]
     }
   ]
 }

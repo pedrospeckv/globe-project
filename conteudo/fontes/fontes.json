@@ -245,5 +245,197 @@
     "publicacao": "IBGE — Sistema IBGE de Recuperação Automática (SIDRA)",
     "url": "https://sidra.ibge.gov.br/tabela/6381",
     "citacao": "Pesquisa Nacional por Amostra de Domicílios Contínua, pessoas de 14 anos ou mais. A tabela publica trimestres móveis, que se sobrepõem; o atlas usa sempre o trimestre out–dez para não apresentar como número do IBGE uma média que o IBGE não divulga."
+  },
+  {
+    "id": "duby-historia-franca",
+    "tipo": "livro",
+    "titulo": "Histoire de la France",
+    "autor": "Georges Duby (dir.)",
+    "citacao": "Obra coletiva de referência que cobre da Gália ao século XX, usada como base narrativa geral para os períodos franceses."
+  },
+  {
+    "id": "furet-revolucao-francesa",
+    "tipo": "livro",
+    "titulo": "Penser la Révolution française",
+    "autor": "François Furet",
+    "data": "1978",
+    "citacao": "Livro que reabriu a disputa historiográfica sobre a Revolução, contestando a leitura social até então dominante. É a referência para tratar a Revolução como objeto em disputa, e não como narrativa fechada."
+  },
+  {
+    "id": "constituicao-francesa-1958",
+    "tipo": "documento-oficial",
+    "titulo": "Constituição da Quinta República Francesa",
+    "publicacao": "República Francesa",
+    "data": "1958-10-04",
+    "citacao": "Estabeleceu o presidencialismo reforçado que define o regime francês desde então."
+  },
+  {
+    "id": "foner-give-me-liberty",
+    "tipo": "livro",
+    "titulo": "Give Me Liberty! An American History",
+    "autor": "Eric Foner",
+    "citacao": "Manual de referência da história americana, usado como base narrativa geral para os períodos dos Estados Unidos."
+  },
+  {
+    "id": "foner-reconstruction",
+    "tipo": "livro",
+    "titulo": "Reconstruction: America’s Unfinished Revolution, 1863–1877",
+    "autor": "Eric Foner",
+    "data": "1988",
+    "citacao": "Obra que reescreveu a interpretação da Reconstrução, desmontando a leitura anterior que a tratava como período de corrupção e mau governo."
+  },
+  {
+    "id": "constituicao-eua-1787",
+    "tipo": "documento-oficial",
+    "titulo": "Constituição dos Estados Unidos da América",
+    "publicacao": "Convenção da Filadélfia",
+    "data": "1787-09-17",
+    "citacao": "Substituiu os Artigos da Confederação e criou a república federal."
+  },
+  {
+    "id": "figes-tragedia-russa",
+    "tipo": "livro",
+    "titulo": "A People’s Tragedy: The Russian Revolution 1891–1924",
+    "autor": "Orlando Figes",
+    "data": "1996",
+    "citacao": "Narrativa de referência do colapso do Império Russo e da revolução, da fome de 1891 à morte de Lênin."
+  },
+  {
+    "id": "fitzpatrick-revolucao-russa",
+    "tipo": "livro",
+    "titulo": "The Russian Revolution",
+    "autor": "Sheila Fitzpatrick",
+    "citacao": "Síntese que trata a revolução como processo social de longa duração, e não como episódio de 1917."
+  },
+  {
+    "id": "kotkin-stalin",
+    "tipo": "livro",
+    "titulo": "Stalin",
+    "autor": "Stephen Kotkin",
+    "citacao": "Biografia em vários volumes baseada em arquivos soviéticos abertos depois de 1991, referência para o período stalinista."
+  },
+  {
+    "id": "kershaw-hitler",
+    "tipo": "livro",
+    "titulo": "Hitler",
+    "autor": "Ian Kershaw",
+    "citacao": "Biografia de referência que explica a ascensão nazista pela dinâmica entre o líder e as instituições alemãs, e não apenas pela figura dele."
+  },
+  {
+    "id": "evans-terceiro-reich",
+    "tipo": "livro",
+    "titulo": "The Third Reich Trilogy",
+    "autor": "Richard J. Evans",
+    "citacao": "Trilogia que cobre a chegada ao poder, o regime e a guerra."
+  },
+  {
+    "id": "winkler-caminho-oeste",
+    "tipo": "livro",
+    "titulo": "Der lange Weg nach Westen",
+    "autor": "Heinrich August Winkler",
+    "citacao": "História alemã do fim do Sacro Império à reunificação, organizada em torno de quando e como a Alemanha se tornou parte do Ocidente político."
+  },
+  {
+    "id": "tratado-versalhes",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Versalhes",
+    "data": "1919-06-28",
+    "citacao": "Atribuiu à Alemanha a responsabilidade pela Primeira Guerra e impôs reparações. O artigo 231, a chamada cláusula de culpa, é peça central da política alemã do entreguerras."
+  },
+  {
+    "id": "fairbank-china",
+    "tipo": "livro",
+    "titulo": "China: A New History",
+    "autor": "John King Fairbank e Merle Goldman",
+    "citacao": "Síntese de referência da história chinesa, das dinastias antigas à República Popular."
+  },
+  {
+    "id": "sima-qian-shiji",
+    "tipo": "livro",
+    "titulo": "Shiji (Registros do Historiador)",
+    "autor": "Sima Qian",
+    "citacao": "Escrito por volta de 100 a.C., é a fonte narrativa mais antiga e influente sobre as dinastias anteriores aos Han. Como toda crônica de corte tem ponto de vista: foi composta sob os Han, sobre as dinastias que eles substituíram."
+  },
+  {
+    "id": "projeto-cronologia-xsz",
+    "tipo": "artigo-academico",
+    "titulo": "Projeto de Cronologia Xia-Shang-Zhou",
+    "publicacao": "República Popular da China",
+    "data": "2000",
+    "citacao": "Iniciativa estatal que fixou 1600 e 1046 a.C. como marcos. Sua precisão foi contestada por parte da comunidade acadêmica fora da China, que aponta circularidade no uso das fontes; estimativas anteriores para a conquista zhou variam de 1122 a 1027 a.C."
+  },
+  {
+    "id": "jansen-japao-moderno",
+    "tipo": "livro",
+    "titulo": "The Making of Modern Japan",
+    "autor": "Marius B. Jansen",
+    "data": "2000",
+    "citacao": "Referência para o Japão de Tokugawa em diante, cobrindo a Restauração Meiji, o império e o pós-guerra."
+  },
+  {
+    "id": "totman-historia-japao",
+    "tipo": "livro",
+    "titulo": "A History of Japan",
+    "autor": "Conrad Totman",
+    "citacao": "Síntese que cobre desde o povoamento do arquipélago, usada para os períodos anteriores a 1185."
+  },
+  {
+    "id": "nihon-shoki",
+    "tipo": "documento-oficial",
+    "titulo": "Nihon Shoki",
+    "data": "720",
+    "citacao": "Crônica compilada pela corte de Nara. Registra a fundação do império em 660 a.C., data mitológica sem sustentação arqueológica que o Estado japonês do início do século XX tratou como história oficial."
+  },
+  {
+    "id": "thapar-early-india",
+    "tipo": "livro",
+    "titulo": "Early India: From the Origins to AD 1300",
+    "autor": "Romila Thapar",
+    "data": "2002",
+    "citacao": "Referência para a Índia antiga e medieval, e para a crítica da periodização colonial em eras hindu e muçulmana, tratada pela autora como construção política do século XIX."
+  },
+  {
+    "id": "guha-india-after-gandhi",
+    "tipo": "livro",
+    "titulo": "India After Gandhi",
+    "autor": "Ramachandra Guha",
+    "data": "2007",
+    "citacao": "História da Índia independente, do domínio de 1947 à república contemporânea."
+  },
+  {
+    "id": "editos-asoka",
+    "tipo": "documento-oficial",
+    "titulo": "Éditos de Asoka",
+    "data": "-250",
+    "citacao": "Inscrições em rochedos e pilares mandadas gravar pelo imperador máuria. São as inscrições mais antigas da Índia que se lê com segurança, e a principal evidência direta do alcance do império."
+  },
+  {
+    "id": "schama-historia-gra-bretanha",
+    "tipo": "livro",
+    "titulo": "A History of Britain",
+    "autor": "Simon Schama",
+    "citacao": "Narrativa de referência que cobre da Inglaterra medieval ao Reino Unido contemporâneo."
+  },
+  {
+    "id": "magna-carta-1215",
+    "tipo": "documento-oficial",
+    "titulo": "Magna Carta",
+    "data": "1215",
+    "citacao": "Documento imposto ao rei João pelos barões, que estabeleceu limites ao poder real. Sua leitura como origem das liberdades inglesas é construção posterior, sobretudo do século XVII."
+  },
+  {
+    "id": "bill-of-rights-1689",
+    "tipo": "documento-oficial",
+    "titulo": "Bill of Rights",
+    "publicacao": "Parlamento da Inglaterra",
+    "data": "1689",
+    "citacao": "Firmou a supremacia do Parlamento sobre a Coroa depois da Revolução Gloriosa."
+  },
+  {
+    "id": "ato-de-uniao-1707",
+    "tipo": "documento-oficial",
+    "titulo": "Atos de União entre Inglaterra e Escócia",
+    "data": "1707",
+    "citacao": "Fundiram os dois reinos e os dois parlamentos, criando a Grã-Bretanha."
   }
 ]

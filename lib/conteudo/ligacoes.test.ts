@@ -139,6 +139,25 @@ describe("verificarLigacoes", () => {
     expect(verificarLigacoes(a).some((e) => /mais de um alvo/.test(e))).toBe(true);
   });
 
+  it("ACUSA fonte que divide id com um alvo", () => {
+    /*
+     * Aconteceu de verdade: "magna-carta" era evento, e o documento entrou
+     * com o mesmo id. `[[magna-carta]]` resolveria para o evento e a lista
+     * de fontes citaria o documento — duas coisas com o mesmo nome, sem que
+     * nada acusasse.
+     */
+    const a = acervoVazio();
+    a.paises.push({
+      iso: "BRA",
+      nome: "Brasil",
+      periodos: [
+        { id: "algo", inicio: "1500", rotulo: "X", regime: "y", entidades: [], fontes: [] },
+      ],
+    });
+    a.fontes.push({ id: "algo", tipo: "livro", titulo: "Livro homônimo" });
+    expect(verificarLigacoes(a).some((e) => /mesmo id de um alvo/.test(e))).toBe(true);
+  });
+
   it("ACUSA ligação malformada, que o padrão não pegaria", () => {
     /*
      * `[[x]` com um colchete só não casa o padrão: não seria acusada como

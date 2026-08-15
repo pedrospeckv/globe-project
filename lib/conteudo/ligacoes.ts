@@ -178,6 +178,22 @@ export function verificarLigacoes(acervo: Acervo): string[] {
     }
   }
 
+  /*
+   * Fonte não é alvo, mas não pode dividir id com um.
+   *
+   * Aconteceu: "magna-carta" era evento, e o documento entrou com o mesmo id.
+   * `[[magna-carta]]` resolveria para o evento e a lista de fontes citaria o
+   * documento — duas coisas diferentes atendendo pelo mesmo nome, sem que
+   * nada acusasse. Quem lê o JSON não tem como saber de qual se trata.
+   */
+  for (const fonte of acervo.fontes) {
+    if (fonte.id in alvos) {
+      erros.push(
+        `fonte "${fonte.id}" tem o mesmo id de um alvo do atlas — renomeie uma das duas`
+      );
+    }
+  }
+
   for (const { onde, texto } of textosDoAcervo(acervo)) {
     for (const alvo of ligacoesEm(texto)) {
       if (!(alvo in alvos)) {

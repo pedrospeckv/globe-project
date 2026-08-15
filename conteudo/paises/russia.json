@@ -8,7 +8,10 @@
       "fim": "1547",
       "rotulo": "Grão-Principado de Moscou",
       "regime": "principado sob suserania da Horda de Ouro até 1480, depois soberano",
-      "textoMdx": "Moscou começa como um principado secundário entre vários, e cresce cobrando tributo para os mongóis da Horda de Ouro — posição que lhe permite acumular recursos e submeter rivais como Tver e Novgorod.\n\nEm 1480 Ivan III deixa de pagar o tributo sem que a Horda consiga impor-se, encerrando dois séculos e meio de suserania. Ele se casa com uma sobrinha do último imperador bizantino e adota a águia de duas cabeças, formulando a ideia de Moscou como sucessora de Constantinopla.\n\n*O atlas começa a Rússia em Moscóvia, e não na Rus de Kiev. A herança kievana é reivindicada também por Ucrânia e Bielorrússia, e a disputa não é apenas acadêmica — atribuí-la a um dos três por padrão seria tomar partido em silêncio.*"
+      "textoMdx": "Moscou começa como um principado secundário entre vários, e cresce cobrando tributo para os mongóis da Horda de Ouro — posição que lhe permite acumular recursos e submeter rivais como Tver e Novgorod.\n\nEm 1480 Ivan III deixa de pagar o tributo sem que a Horda consiga impor-se, encerrando dois séculos e meio de suserania. Ele se casa com uma sobrinha do último imperador bizantino e adota a águia de duas cabeças, formulando a ideia de Moscou como sucessora de Constantinopla.\n\n*O atlas começa a Rússia em Moscóvia, e não na Rus de Kiev. A herança kievana é reivindicada também por Ucrânia e Bielorrússia, e a disputa não é apenas acadêmica — atribuí-la a um dos três por padrão seria tomar partido em silêncio.*",
+      "fontes": [
+        "figes-tragedia-russa"
+      ]
     },
     {
       "id": "ru-czarado",
@@ -16,7 +19,10 @@
       "fim": "1721",
       "rotulo": "Czarado da Rússia",
       "regime": "monarquia autocrática; expansão sobre a Sibéria",
-      "textoMdx": "Ivan IV é coroado czar em 1547, título que reivindica equivalência com o imperador romano. Seu reinado combina reformas administrativas com terror interno organizado, a *opríchnina*, contra a própria nobreza.\n\nA conquista da Sibéria avança rápido: em pouco mais de sessenta anos, expedições de cossacos e comerciantes de peles alcançam o Pacífico.\n\nA morte da dinastia sem herdeiro abre o Tempo das Perturbações, entre 1598 e 1613 — fome, guerra civil e ocupação polonesa de Moscou. A eleição de Miguel Romanov encerra a crise e inaugura a dinastia que governará até 1917. O código de 1649 fixa legalmente os camponeses à terra, consolidando a servidão."
+      "textoMdx": "Ivan IV é coroado czar em 1547, título que reivindica equivalência com o imperador romano. Seu reinado combina reformas administrativas com terror interno organizado, a *opríchnina*, contra a própria nobreza.\n\nA conquista da Sibéria avança rápido: em pouco mais de sessenta anos, expedições de cossacos e comerciantes de peles alcançam o Pacífico.\n\nA morte da dinastia sem herdeiro abre o Tempo das Perturbações, entre 1598 e 1613 — fome, guerra civil e ocupação polonesa de Moscou. A eleição de Miguel Romanov encerra a crise e inaugura a dinastia que governará até 1917. O código de 1649 fixa legalmente os camponeses à terra, consolidando a servidão.",
+      "fontes": [
+        "figes-tragedia-russa"
+      ]
     },
     {
       "id": "ru-imperio",
@@ -24,7 +30,10 @@
       "fim": "1917",
       "rotulo": "Império Russo",
       "regime": "monarquia autocrática; servidão legal até 1861",
-      "textoMdx": "Pedro I proclama o império em 1721 depois de derrotar a Suécia, funda São Petersburgo e impõe ocidentalização por decreto, de estruturas administrativas a barbas.\n\nA Rússia derrota Napoleão em 1812 e se torna árbitro da Europa. Internamente, permanece o último grande Estado europeu com servidão: cerca de um terço da população vive sob esse regime até a emancipação de 1861, que liberta sem entregar terra suficiente.\n\nA derrota para o Japão em 1905 desencadeia uma revolução que arranca um parlamento limitado ao czar. A Primeira Guerra colapsa o abastecimento e a disciplina militar. Em março de 1917 Nicolau II abdica."
+      "textoMdx": "Pedro I proclama o império em 1721 depois de derrotar a Suécia, funda São Petersburgo e impõe ocidentalização por decreto, de estruturas administrativas a barbas.\n\nA Rússia derrota Napoleão em 1812 e se torna árbitro da Europa. Internamente, permanece o último grande Estado europeu com servidão: cerca de um terço da população vive sob esse regime até a emancipação de 1861, que liberta sem entregar terra suficiente.\n\nA derrota para o Japão em 1905 desencadeia uma revolução que arranca um parlamento limitado ao czar. A Primeira Guerra colapsa o abastecimento e a disciplina militar. Em março de 1917 Nicolau II abdica.",
+      "fontes": [
+        "figes-tragedia-russa"
+      ]
     },
     {
       "id": "ru-revolucao",
@@ -32,7 +41,11 @@
       "fim": "1922",
       "rotulo": "Revolução e Guerra Civil",
       "regime": "queda da monarquia, governo provisório, tomada bolchevique e guerra civil",
-      "textoMdx": "Duas revoluções em um ano. A de fevereiro derruba o czar e instala um governo provisório que decide manter a Rússia na guerra — decisão que o destrói. A de outubro leva os bolcheviques ao poder.\n\nO novo governo assina paz separada com a Alemanha em 1918, cedendo territórios enormes, e dissolve à força a Assembleia Constituinte eleita, na qual não tinha maioria.\n\nA guerra civil entre vermelhos e brancos, com intervenção estrangeira nos dois lados, dura até 1922 e mata milhões, somando combate, fome e tifo. A família imperial é executada em julho de 1918.\n\nA União Soviética é formalmente constituída em dezembro de 1922."
+      "textoMdx": "Duas revoluções em um ano. A de fevereiro derruba o czar e instala um governo provisório que decide manter a Rússia na guerra — decisão que o destrói. A de outubro leva os bolcheviques ao poder.\n\nO novo governo assina paz separada com a Alemanha em 1918, cedendo territórios enormes, e dissolve à força a Assembleia Constituinte eleita, na qual não tinha maioria.\n\nA guerra civil entre vermelhos e brancos, com intervenção estrangeira nos dois lados, dura até 1922 e mata milhões, somando combate, fome e tifo. A família imperial é executada em julho de 1918.\n\nA União Soviética é formalmente constituída em dezembro de 1922.",
+      "fontes": [
+        "figes-tragedia-russa",
+        "fitzpatrick-revolucao-russa"
+      ]
     },
     {
       "id": "ru-rsfsr",
@@ -40,14 +53,22 @@
       "fim": "1991",
       "rotulo": "República Socialista Federativa Soviética da Rússia (RSFSR)",
       "regime": "república soviética integrante da URSS, sob partido único",
-      "textoMdx": "A industrialização forçada dos planos quinquenais transforma um país agrário em potência industrial em duas décadas, ao custo de fome em massa — na Ucrânia, no Cazaquistão e no sul da Rússia, entre 1932 e 1933 — e de um sistema de trabalho forçado que movimenta milhões de pessoas.\n\nO Grande Terror de 1937 e 1938 executa centenas de milhares. A União Soviética perde cerca de 27 milhões de pessoas na Segunda Guerra, mais que qualquer outro país.\n\nNo pós-guerra alcança paridade nuclear com os Estados Unidos e lança o primeiro satélite, em 1957, e o primeiro ser humano ao espaço, em 1961. A estagnação econômica dos anos 1970 e 1980 leva às reformas de Gorbachev, que aceleram o colapso em vez de contê-lo.\n\n*Este período nomeia a RSFSR, não a União Soviética. A distinção é deliberada: o mapa desenha as fronteiras da Rússia de hoje, e a URSS era muito maior — incluía Ucrânia, Bielorrússia, Cazaquistão, as repúblicas do Cáucaso, da Ásia Central e, a partir de 1940, os países bálticos. A RSFSR era a maior das quinze repúblicas, e é dela que a Federação Russa é sucessora.*"
+      "textoMdx": "A industrialização forçada dos planos quinquenais transforma um país agrário em potência industrial em duas décadas, ao custo de fome em massa — na Ucrânia, no Cazaquistão e no sul da Rússia, entre 1932 e 1933 — e de um sistema de trabalho forçado que movimenta milhões de pessoas.\n\nO Grande Terror de 1937 e 1938 executa centenas de milhares. A União Soviética perde cerca de 27 milhões de pessoas na Segunda Guerra, mais que qualquer outro país.\n\nNo pós-guerra alcança paridade nuclear com os Estados Unidos e lança o primeiro satélite, em 1957, e o primeiro ser humano ao espaço, em 1961. A estagnação econômica dos anos 1970 e 1980 leva às reformas de Gorbachev, que aceleram o colapso em vez de contê-lo.\n\n*Este período nomeia a RSFSR, não a União Soviética. A distinção é deliberada: o mapa desenha as fronteiras da Rússia de hoje, e a URSS era muito maior — incluía Ucrânia, Bielorrússia, Cazaquistão, as repúblicas do Cáucaso, da Ásia Central e, a partir de 1940, os países bálticos. A RSFSR era a maior das quinze repúblicas, e é dela que a Federação Russa é sucessora.*",
+      "fontes": [
+        "figes-tragedia-russa",
+        "fitzpatrick-revolucao-russa",
+        "kotkin-stalin"
+      ]
     },
     {
       "id": "ru-federacao",
       "inicio": "1991",
       "rotulo": "Federação Russa",
       "regime": "república presidencialista federativa",
-      "textoMdx": "A dissolução da União Soviética em dezembro de 1991 é seguida por privatizações aceleradas, colapso do PIB e queda da expectativa de vida masculina. Em 1993 o presidente dissolve o parlamento e o conflito é resolvido com tanques atirando contra o prédio do legislativo.\n\nVladimir Putin assume em 2000. Reformas constitucionais aprovadas em 2020 alteram os limites de mandato presidencial.\n\nA Rússia anexa a Crimeia em 2014 e invade a Ucrânia em fevereiro de 2022, na maior guerra em solo europeu desde 1945.\n\n*Este é o período em curso, e trata de uma guerra em andamento. Leia com essa ressalva.*"
+      "textoMdx": "A dissolução da União Soviética em dezembro de 1991 é seguida por privatizações aceleradas, colapso do PIB e queda da expectativa de vida masculina. Em 1993 o presidente dissolve o parlamento e o conflito é resolvido com tanques atirando contra o prédio do legislativo.\n\nVladimir Putin assume em 2000. Reformas constitucionais aprovadas em 2020 alteram os limites de mandato presidencial.\n\nA Rússia anexa a Crimeia em 2014 e invade a Ucrânia em fevereiro de 2022, na maior guerra em solo europeu desde 1945.\n\n*Este é o período em curso, e trata de uma guerra em andamento. Leia com essa ressalva.*",
+      "fontes": [
+        "figes-tragedia-russa"
+      ]
     }
   ]
 }

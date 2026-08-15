@@ -8,7 +8,12 @@
       "fim": "-1046",
       "rotulo": "Dinastia Shang",
       "regime": "monarquia dinástica com corte itinerante e forte componente ritual",
-      "textoMdx": "A primeira dinastia chinesa atestada por escrita contemporânea a ela. Em Anyang foram encontradas dezenas de milhares de **inscrições oraculares**: omoplatas de boi e plastrões de tartaruga em que os adivinhos da corte gravavam a pergunta feita aos ancestrais, aqueciam o osso até rachar e liam a resposta na fratura. São documentos de governo — perguntam sobre colheita, guerra, parto, dor de dente do rei — e é por eles que se conhece a lista dinástica, confirmada depois pela arqueologia.\n\nA metalurgia do bronze shang atinge um nível que a Europa contemporânea não alcançava, e os vasos rituais fundidos em molde composto são o objeto que mais define o período.\n\n**Antes dos Shang, os textos posteriores colocam a dinastia Xia.** Não há escrita contemporânea que a confirme. A cultura arqueológica de Erlitou é frequentemente identificada com ela, e essa identificação é disputada — no limite, trata-se de decidir se um conjunto de sítios corresponde a uma dinastia nomeada mil anos depois. O atlas não abre período para os Xia porque não teria o que descrever além da controvérsia.\n\n*As datas 1600 e 1046 vêm do Projeto de Cronologia Xia-Shang-Zhou, iniciativa estatal chinesa concluída em 2000. Sua precisão foi contestada por parte da comunidade acadêmica fora da China, que aponta circularidade no uso das fontes. Estimativas mais antigas para a conquista zhou variam de 1122 a 1027 a.C.*"
+      "textoMdx": "A primeira dinastia chinesa atestada por escrita contemporânea a ela. Em Anyang foram encontradas dezenas de milhares de **inscrições oraculares**: omoplatas de boi e plastrões de tartaruga em que os adivinhos da corte gravavam a pergunta feita aos ancestrais, aqueciam o osso até rachar e liam a resposta na fratura. São documentos de governo — perguntam sobre colheita, guerra, parto, dor de dente do rei — e é por eles que se conhece a lista dinástica, confirmada depois pela arqueologia.\n\nA metalurgia do bronze shang atinge um nível que a Europa contemporânea não alcançava, e os vasos rituais fundidos em molde composto são o objeto que mais define o período.\n\n**Antes dos Shang, os textos posteriores colocam a dinastia Xia.** Não há escrita contemporânea que a confirme. A cultura arqueológica de Erlitou é frequentemente identificada com ela, e essa identificação é disputada — no limite, trata-se de decidir se um conjunto de sítios corresponde a uma dinastia nomeada mil anos depois. O atlas não abre período para os Xia porque não teria o que descrever além da controvérsia.\n\n*As datas 1600 e 1046 vêm do Projeto de Cronologia Xia-Shang-Zhou, iniciativa estatal chinesa concluída em 2000. Sua precisão foi contestada por parte da comunidade acadêmica fora da China, que aponta circularidade no uso das fontes. Estimativas mais antigas para a conquista zhou variam de 1122 a 1027 a.C.*",
+      "fontes": [
+        "fairbank-china",
+        "projeto-cronologia-xsz",
+        "sima-qian-shiji"
+      ]
     },
     {
       "id": "cn-zhou-ocidental",
@@ -16,7 +21,12 @@
       "fim": "-771",
       "rotulo": "Zhou Ocidental",
       "regime": "monarquia com territórios delegados a linhagens aparentadas",
-      "textoMdx": "O rei Wu derrota os Shang em Muye e os Zhou justificam a conquista com uma doutrina que sobreviveria três mil anos: o **Mandato do Céu**. O Céu confia o governo a quem tem virtude e o retira de quem a perde — de modo que a queda de uma dinastia prova, retroativamente, que ela já não merecia governar.\n\nÉ uma ideia de consequências enormes e ambíguas. Ela legitima a rebelião bem-sucedida, o que é raro numa monarquia antiga; e ao mesmo tempo torna qualquer derrota uma sentença moral sobre o derrotado.\n\nO reino se organiza distribuindo territórios a parentes e aliados, arranjo que funciona enquanto o parentesco é próximo e se desfaz conforme as gerações passam. Em 771 os Quanrong saqueiam a capital Haojing, a corte foge para leste, e o poder real nunca se recompõe."
+      "textoMdx": "O rei Wu derrota os Shang em Muye e os Zhou justificam a conquista com uma doutrina que sobreviveria três mil anos: o **Mandato do Céu**. O Céu confia o governo a quem tem virtude e o retira de quem a perde — de modo que a queda de uma dinastia prova, retroativamente, que ela já não merecia governar.\n\nÉ uma ideia de consequências enormes e ambíguas. Ela legitima a rebelião bem-sucedida, o que é raro numa monarquia antiga; e ao mesmo tempo torna qualquer derrota uma sentença moral sobre o derrotado.\n\nO reino se organiza distribuindo territórios a parentes e aliados, arranjo que funciona enquanto o parentesco é próximo e se desfaz conforme as gerações passam. Em 771 os Quanrong saqueiam a capital Haojing, a corte foge para leste, e o poder real nunca se recompõe.",
+      "fontes": [
+        "fairbank-china",
+        "projeto-cronologia-xsz",
+        "sima-qian-shiji"
+      ]
     },
     {
       "id": "cn-primaveras-outonos",
@@ -24,7 +34,11 @@
       "fim": "-476",
       "rotulo": "Primaveras e Outonos",
       "regime": "rei zhou reduzido a figura ritual; hegemonia rotativa entre principados",
-      "textoMdx": "O rei zhou continua no trono e deixa de governar. O poder real passa aos principados, e o mais forte de cada momento assume a hegemonia — o *ba* — convocando os demais em nome de uma autoridade que já não exerce.\n\nÉ neste período que vive Confúcio, entre 551 e 479 a.C., propondo que a ordem se restaure pela conduta e pelo rito, e não pela força. Ele morre sem ver nenhum governante adotá-lo.\n\n*O nome do período vem dos Anais das Primaveras e Outonos, a crônica do principado de Lu que a tradição atribui ao próprio Confúcio. Nomear uma era pela fonte que a registra é um hábito da historiografia chinesa — e vale lembrar que a crônica de Lu é o ponto de vista de Lu.*"
+      "textoMdx": "O rei zhou continua no trono e deixa de governar. O poder real passa aos principados, e o mais forte de cada momento assume a hegemonia — o *ba* — convocando os demais em nome de uma autoridade que já não exerce.\n\nÉ neste período que vive Confúcio, entre 551 e 479 a.C., propondo que a ordem se restaure pela conduta e pelo rito, e não pela força. Ele morre sem ver nenhum governante adotá-lo.\n\n*O nome do período vem dos Anais das Primaveras e Outonos, a crônica do principado de Lu que a tradição atribui ao próprio Confúcio. Nomear uma era pela fonte que a registra é um hábito da historiografia chinesa — e vale lembrar que a crônica de Lu é o ponto de vista de Lu.*",
+      "fontes": [
+        "fairbank-china",
+        "sima-qian-shiji"
+      ]
     },
     {
       "id": "cn-reinos-combatentes",
@@ -32,7 +46,11 @@
       "fim": "-221",
       "rotulo": "Reinos Combatentes",
       "regime": "sete estados soberanos em guerra permanente",
-      "textoMdx": "A ficção da autoridade zhou se dissolve e sobram sete estados que se declaram reinos e guerreiam sem intervalo. O ferro substitui o bronze nas armas e na lavoura, os exércitos deixam de ser aristocracia em carro de guerra e passam a ser infantaria em massa, e a guerra vira problema técnico — é a época de *A Arte da Guerra*.\n\nA pressão produz também o período mais fértil do pensamento chinês, as **Cem Escolas**: o confucionismo de Mêncio, o legismo, o moísmo com sua crítica ao gasto ritual, o taoísmo de Zhuangzi. Os legistas propõem que o Estado se organize por lei escrita, prêmio e punição, sem apelo à virtude do governante — e é adotando esse programa, com as reformas de Shang Yang, que o estado de Qin se torna capaz de vencer os outros seis.\n\n*A fronteira entre este período e o anterior é convencional e disputada: usa-se 476, 453 (a partilha de fato do estado de Jin) ou 403 (seu reconhecimento formal pelo rei zhou). O atlas usa 476.*"
+      "textoMdx": "A ficção da autoridade zhou se dissolve e sobram sete estados que se declaram reinos e guerreiam sem intervalo. O ferro substitui o bronze nas armas e na lavoura, os exércitos deixam de ser aristocracia em carro de guerra e passam a ser infantaria em massa, e a guerra vira problema técnico — é a época de *A Arte da Guerra*.\n\nA pressão produz também o período mais fértil do pensamento chinês, as **Cem Escolas**: o confucionismo de Mêncio, o legismo, o moísmo com sua crítica ao gasto ritual, o taoísmo de Zhuangzi. Os legistas propõem que o Estado se organize por lei escrita, prêmio e punição, sem apelo à virtude do governante — e é adotando esse programa, com as reformas de Shang Yang, que o estado de Qin se torna capaz de vencer os outros seis.\n\n*A fronteira entre este período e o anterior é convencional e disputada: usa-se 476, 453 (a partilha de fato do estado de Jin) ou 403 (seu reconhecimento formal pelo rei zhou). O atlas usa 476.*",
+      "fontes": [
+        "fairbank-china",
+        "sima-qian-shiji"
+      ]
     },
     {
       "id": "cn-qin",
@@ -40,7 +58,11 @@
       "fim": "-202",
       "rotulo": "Dinastia Qin",
       "regime": "primeiro império unificado, sob legalismo e centralização radical",
-      "textoMdx": "Depois de séculos de guerra entre estados rivais, o rei de Qin submete os demais e se proclama Primeiro Imperador em 221 a.C. É a origem do nome pelo qual o Ocidente conhece a China.\n\nA unificação é administrativa antes de ser simbólica: padroniza escrita, moeda, pesos, medidas e até a bitola dos eixos de carroça. Divide o território em comandarias governadas por funcionários nomeados, e não por nobres hereditários — modelo que a China manteria por dois milênios.\n\nO custo é brutal. Obras como a primeira Grande Muralha e o mausoléu com o exército de terracota consomem centenas de milhares de trabalhadores forçados, e a doutrina legalista trata a repressão como instrumento de governo.\n\nA dinastia não sobrevive ao seu fundador: cai em 206 a.C., quatro anos após a morte dele, e a guerra civil que se segue termina em 202 a.C."
+      "textoMdx": "Depois de séculos de guerra entre estados rivais, o rei de Qin submete os demais e se proclama Primeiro Imperador em 221 a.C. É a origem do nome pelo qual o Ocidente conhece a China.\n\nA unificação é administrativa antes de ser simbólica: padroniza escrita, moeda, pesos, medidas e até a bitola dos eixos de carroça. Divide o território em comandarias governadas por funcionários nomeados, e não por nobres hereditários — modelo que a China manteria por dois milênios.\n\nO custo é brutal. Obras como a primeira Grande Muralha e o mausoléu com o exército de terracota consomem centenas de milhares de trabalhadores forçados, e a doutrina legalista trata a repressão como instrumento de governo.\n\nA dinastia não sobrevive ao seu fundador: cai em 206 a.C., quatro anos após a morte dele, e a guerra civil que se segue termina em 202 a.C.",
+      "fontes": [
+        "fairbank-china",
+        "sima-qian-shiji"
+      ]
     },
     {
       "id": "cn-han",
@@ -48,7 +70,11 @@
       "fim": "220",
       "rotulo": "Dinastia Han",
       "regime": "império burocrático; confucionismo adotado como doutrina de Estado",
-      "textoMdx": "Quatro séculos que definem o que significa ser chinês — até hoje o grupo étnico majoritário do país se chama *han*.\n\nA dinastia mantém a estrutura administrativa dos Qin mas troca o legalismo pelo confucionismo como doutrina oficial, e começa a recrutar funcionários por recomendação e exame, embrião do sistema que duraria até 1905.\n\nÉ o período de abertura da rota da seda, com trocas regulares até a Ásia Central e, indiretamente, até Roma. O papel é inventado por volta de 105 d.C.\n\nA dinastia é interrompida por uma usurpação entre 9 e 23 d.C. e restaurada em seguida. Cai em 220, corroída por revoltas camponesas e por generais que já governavam de fato."
+      "textoMdx": "Quatro séculos que definem o que significa ser chinês — até hoje o grupo étnico majoritário do país se chama *han*.\n\nA dinastia mantém a estrutura administrativa dos Qin mas troca o legalismo pelo confucionismo como doutrina oficial, e começa a recrutar funcionários por recomendação e exame, embrião do sistema que duraria até 1905.\n\nÉ o período de abertura da rota da seda, com trocas regulares até a Ásia Central e, indiretamente, até Roma. O papel é inventado por volta de 105 d.C.\n\nA dinastia é interrompida por uma usurpação entre 9 e 23 d.C. e restaurada em seguida. Cai em 220, corroída por revoltas camponesas e por generais que já governavam de fato.",
+      "fontes": [
+        "fairbank-china",
+        "sima-qian-shiji"
+      ]
     },
     {
       "id": "cn-divisao",
@@ -56,7 +82,10 @@
       "fim": "589",
       "rotulo": "Três Reinos e Dinastias do Norte e do Sul",
       "regime": "fragmentação prolongada; norte sob dinastias de origem estepária",
-      "textoMdx": "Três séculos e meio sem unidade. Começa com os Três Reinos, período que a literatura chinesa transformaria em matéria épica, e segue com sucessivas dinastias regionais.\n\nO norte é governado por dinastias de origem nômade, que adotam progressivamente a língua e a administração chinesas — um dos casos mais claros de assimilação de conquistadores pelo conquistado.\n\nO budismo, chegado da Índia, se difunde em massa neste período e passa a integrar a cultura chinesa ao lado do confucionismo e do taoismo.\n\nA reunificação vem em 589."
+      "textoMdx": "Três séculos e meio sem unidade. Começa com os Três Reinos, período que a literatura chinesa transformaria em matéria épica, e segue com sucessivas dinastias regionais.\n\nO norte é governado por dinastias de origem nômade, que adotam progressivamente a língua e a administração chinesas — um dos casos mais claros de assimilação de conquistadores pelo conquistado.\n\nO budismo, chegado da Índia, se difunde em massa neste período e passa a integrar a cultura chinesa ao lado do confucionismo e do taoismo.\n\nA reunificação vem em 589.",
+      "fontes": [
+        "fairbank-china"
+      ]
     },
     {
       "id": "cn-sui",
@@ -64,7 +93,10 @@
       "fim": "618",
       "rotulo": "Dinastia Sui",
       "regime": "reunificação imperial",
-      "textoMdx": "Dinastia curta e decisiva. Reunifica a China depois de 369 anos de divisão e constrói o Grande Canal, ligando o norte político ao sul produtor de arroz — obra que estrutura a economia chinesa por mais de mil anos.\n\nAs campanhas militares fracassadas contra a Coreia e o custo humano das obras provocam revoltas generalizadas. A dinastia dura vinte e nove anos, e o general que a substitui funda a Tang."
+      "textoMdx": "Dinastia curta e decisiva. Reunifica a China depois de 369 anos de divisão e constrói o Grande Canal, ligando o norte político ao sul produtor de arroz — obra que estrutura a economia chinesa por mais de mil anos.\n\nAs campanhas militares fracassadas contra a Coreia e o custo humano das obras provocam revoltas generalizadas. A dinastia dura vinte e nove anos, e o general que a substitui funda a Tang.",
+      "fontes": [
+        "fairbank-china"
+      ]
     },
     {
       "id": "cn-tang",
@@ -72,7 +104,10 @@
       "fim": "907",
       "rotulo": "Dinastia Tang",
       "regime": "império burocrático centralizado, com serviço civil por exames",
-      "textoMdx": "Chang'an, a capital, é provavelmente a maior cidade do mundo no período, com população estimada em cerca de um milhão de pessoas e comunidades persas, árabes, indianas e japonesas.\n\nO sistema de exames imperiais seleciona funcionários por mérito literário em vez de nascimento — não elimina a aristocracia, mas cria uma via de ascensão inédita e um modelo que a China exportaria para Coreia, Japão e Vietnã.\n\nA rota da seda opera em plena capacidade. A poesia Tang é tratada até hoje como o ápice da literatura chinesa.\n\nA rebelião de An Lushan, iniciada em 755, mata milhões e quebra o poder central. A dinastia sobrevive mais 150 anos sem recuperar o controle das províncias."
+      "textoMdx": "Chang'an, a capital, é provavelmente a maior cidade do mundo no período, com população estimada em cerca de um milhão de pessoas e comunidades persas, árabes, indianas e japonesas.\n\nO sistema de exames imperiais seleciona funcionários por mérito literário em vez de nascimento — não elimina a aristocracia, mas cria uma via de ascensão inédita e um modelo que a China exportaria para Coreia, Japão e Vietnã.\n\nA rota da seda opera em plena capacidade. A poesia Tang é tratada até hoje como o ápice da literatura chinesa.\n\nA rebelião de An Lushan, iniciada em 755, mata milhões e quebra o poder central. A dinastia sobrevive mais 150 anos sem recuperar o controle das províncias.",
+      "fontes": [
+        "fairbank-china"
+      ]
     },
     {
       "id": "cn-cinco-dinastias",
@@ -80,7 +115,10 @@
       "fim": "960",
       "rotulo": "Cinco Dinastias e Dez Reinos",
       "regime": "fragmentação política; dinastias sucessivas no norte e reinos autônomos no sul",
-      "textoMdx": "Cinquenta e três anos, cinco dinastias no norte e cerca de dez reinos simultâneos no sul. Nenhum governo dura o suficiente para se consolidar.\n\nA fragmentação política não interrompe a economia: o sul, poupado das piores guerras, prospera com o arroz e o comércio marítimo. É neste período que a impressão em blocos de madeira se difunde, incluindo a primeira edição impressa completa dos clássicos confucianos.\n\nA unificação recomeça em 960, quando um general é aclamado imperador pelas próprias tropas."
+      "textoMdx": "Cinquenta e três anos, cinco dinastias no norte e cerca de dez reinos simultâneos no sul. Nenhum governo dura o suficiente para se consolidar.\n\nA fragmentação política não interrompe a economia: o sul, poupado das piores guerras, prospera com o arroz e o comércio marítimo. É neste período que a impressão em blocos de madeira se difunde, incluindo a primeira edição impressa completa dos clássicos confucianos.\n\nA unificação recomeça em 960, quando um general é aclamado imperador pelas próprias tropas.",
+      "fontes": [
+        "fairbank-china"
+      ]
     },
     {
       "id": "cn-song",
@@ -88,7 +126,10 @@
       "fim": "1279",
       "rotulo": "Dinastia Song",
       "regime": "império burocrático; perda do norte para os Jin a partir de 1127",
-      "textoMdx": "O período de maior densidade tecnológica da China pré-moderna: pólvora aplicada a armas, bússola usada na navegação, tipos móveis para impressão, notas de papel emitidas pelo Estado, siderurgia em escala que a Europa só alcançaria séculos depois.\n\nA burocracia por exames atinge a forma mais elaborada, e o poder militar é deliberadamente subordinado ao civil — decisão que traz custo externo.\n\nEm 1127 os Jin tomam o norte e capturam o imperador. A corte se refugia no sul e governa mais 150 anos a partir de Hangzhou.\n\nOs mongóis derrubam os Jin e depois os Song, completando a conquista em 1279."
+      "textoMdx": "O período de maior densidade tecnológica da China pré-moderna: pólvora aplicada a armas, bússola usada na navegação, tipos móveis para impressão, notas de papel emitidas pelo Estado, siderurgia em escala que a Europa só alcançaria séculos depois.\n\nA burocracia por exames atinge a forma mais elaborada, e o poder militar é deliberadamente subordinado ao civil — decisão que traz custo externo.\n\nEm 1127 os Jin tomam o norte e capturam o imperador. A corte se refugia no sul e governa mais 150 anos a partir de Hangzhou.\n\nOs mongóis derrubam os Jin e depois os Song, completando a conquista em 1279.",
+      "fontes": [
+        "fairbank-china"
+      ]
     },
     {
       "id": "cn-yuan",
@@ -96,7 +137,10 @@
       "fim": "1368",
       "rotulo": "Dinastia Yuan",
       "regime": "domínio mongol, integrado ao império fundado por Gengis Khan",
-      "textoMdx": "Pela primeira vez a China inteira é governada por uma dinastia estrangeira. Kublai Khan, neto de Gengis, estabelece a capital onde hoje é Pequim.\n\nA integração ao império mongol conecta a China à Pérsia e à Europa por rotas terrestres seguras — é o período das viagens de Marco Polo. A população é classificada em quatro categorias hierárquicas, com os chineses do sul na base, e o sistema de exames é suspenso por décadas.\n\nO domínio dura menos de um século. Cheias do rio Amarelo, fome, epidemia e revoltas camponesas derrubam a dinastia em 1368."
+      "textoMdx": "Pela primeira vez a China inteira é governada por uma dinastia estrangeira. Kublai Khan, neto de Gengis, estabelece a capital onde hoje é Pequim.\n\nA integração ao império mongol conecta a China à Pérsia e à Europa por rotas terrestres seguras — é o período das viagens de Marco Polo. A população é classificada em quatro categorias hierárquicas, com os chineses do sul na base, e o sistema de exames é suspenso por décadas.\n\nO domínio dura menos de um século. Cheias do rio Amarelo, fome, epidemia e revoltas camponesas derrubam a dinastia em 1368.",
+      "fontes": [
+        "fairbank-china"
+      ]
     },
     {
       "id": "cn-ming",
@@ -104,7 +148,10 @@
       "fim": "1644",
       "rotulo": "Dinastia Ming",
       "regime": "império burocrático centralizado",
-      "textoMdx": "Fundada por um camponês que liderou a revolta contra os mongóis. A Cidade Proibida é construída em Pequim, e a Grande Muralha ganha a forma que se vê hoje.\n\nEntre 1405 e 1433, sete expedições sob o comando de Zheng He alcançam o Sudeste Asiático, a Índia, a Arábia e a costa da África Oriental, com frotas de centenas de navios muito maiores que os europeus da mesma época. A corte então interrompe as viagens e desmonta a frota — decisão tomada décadas antes de os portugueses contornarem o cabo da Boa Esperança.\n\nA dinastia cai em 1644, sob revolta camponesa e pressão manchu na fronteira norte."
+      "textoMdx": "Fundada por um camponês que liderou a revolta contra os mongóis. A Cidade Proibida é construída em Pequim, e a Grande Muralha ganha a forma que se vê hoje.\n\nEntre 1405 e 1433, sete expedições sob o comando de Zheng He alcançam o Sudeste Asiático, a Índia, a Arábia e a costa da África Oriental, com frotas de centenas de navios muito maiores que os europeus da mesma época. A corte então interrompe as viagens e desmonta a frota — decisão tomada décadas antes de os portugueses contornarem o cabo da Boa Esperança.\n\nA dinastia cai em 1644, sob revolta camponesa e pressão manchu na fronteira norte.",
+      "fontes": [
+        "fairbank-china"
+      ]
     },
     {
       "id": "cn-qing",
@@ -112,7 +159,10 @@
       "fim": "1912",
       "rotulo": "Dinastia Qing",
       "regime": "império sob a dinastia manchu; concessões territoriais a potências estrangeiras a partir de 1842",
-      "textoMdx": "Os manchus, vindos do nordeste, conquistam a China e levam o império à maior extensão territorial de sua história, incorporando Tibete, Xinjiang e Mongólia.\n\nO século XIX inverte a posição. A Grã-Bretanha vende ópio produzido na Índia para equilibrar o comércio; quando a China tenta bloquear o tráfico, as Guerras do Ópio impõem tratados que abrem portos, cedem Hong Kong e fixam tarifas por imposição estrangeira. A historiografia chinesa chama o período de século da humilhação, e ele é referência corrente no discurso oficial até hoje.\n\nA Rebelião Taiping, entre 1850 e 1864, mata dezenas de milhões. A dinastia cai em 1912, após revolta militar."
+      "textoMdx": "Os manchus, vindos do nordeste, conquistam a China e levam o império à maior extensão territorial de sua história, incorporando Tibete, Xinjiang e Mongólia.\n\nO século XIX inverte a posição. A Grã-Bretanha vende ópio produzido na Índia para equilibrar o comércio; quando a China tenta bloquear o tráfico, as Guerras do Ópio impõem tratados que abrem portos, cedem Hong Kong e fixam tarifas por imposição estrangeira. A historiografia chinesa chama o período de século da humilhação, e ele é referência corrente no discurso oficial até hoje.\n\nA Rebelião Taiping, entre 1850 e 1864, mata dezenas de milhões. A dinastia cai em 1912, após revolta militar.",
+      "fontes": [
+        "fairbank-china"
+      ]
     },
     {
       "id": "cn-republica",
@@ -120,14 +170,20 @@
       "fim": "1949",
       "rotulo": "República da China",
       "regime": "república fragmentada entre senhores da guerra, guerra civil e invasão japonesa",
-      "textoMdx": "A república nasce sem controlar o próprio território. Após 1916 o país se fragmenta entre exércitos regionais, e a autoridade central existe mais no papel que na prática.\n\nO Partido Nacionalista reunifica parcialmente o país a partir de 1928 e rompe com os comunistas, que sobrevivem à repressão pela Longa Marcha, entre 1934 e 1935.\n\nO Japão invade a Manchúria em 1931 e o restante do país em 1937. As estimativas de mortos chineses na guerra variam entre 15 e 20 milhões. O massacre de Nanquim, em dezembro de 1937, permanece objeto de disputa historiográfica e diplomática com o Japão.\n\nA guerra civil recomeça em 1946 e termina com a vitória comunista em 1949."
+      "textoMdx": "A república nasce sem controlar o próprio território. Após 1916 o país se fragmenta entre exércitos regionais, e a autoridade central existe mais no papel que na prática.\n\nO Partido Nacionalista reunifica parcialmente o país a partir de 1928 e rompe com os comunistas, que sobrevivem à repressão pela Longa Marcha, entre 1934 e 1935.\n\nO Japão invade a Manchúria em 1931 e o restante do país em 1937. As estimativas de mortos chineses na guerra variam entre 15 e 20 milhões. O massacre de Nanquim, em dezembro de 1937, permanece objeto de disputa historiográfica e diplomática com o Japão.\n\nA guerra civil recomeça em 1946 e termina com a vitória comunista em 1949.",
+      "fontes": [
+        "fairbank-china"
+      ]
     },
     {
       "id": "cn-rpc",
       "inicio": "1949",
       "rotulo": "República Popular da China",
       "regime": "república socialista de partido único, sob o Partido Comunista",
-      "textoMdx": "O Grande Salto Adiante, entre 1958 e 1962, provoca a maior fome documentada da história: as estimativas de mortos variam entre 15 e 45 milhões. A Revolução Cultural, de 1966 a 1976, desorganiza o Estado, fecha universidades e destrói patrimônio.\n\nAs reformas iniciadas em 1978 abrem a economia mantendo o monopólio político do partido. O resultado é o crescimento sustentado mais rápido já registrado: centenas de milhões saem da pobreza extrema em três décadas, e a China se torna a segunda maior economia do mundo.\n\nEm junho de 1989, protestos na Praça da Paz Celestial são reprimidos militarmente; o número de mortos é disputado e o tema segue censurado internamente.\n\n*Este período nomeia o Estado que governa o território continental, que é o desenhado no mapa. A República da China não deixou de existir em 1949: seu governo se transferiu para Taiwan, cuja situação jurídica é disputada e cuja geometria é uma feature separada no conjunto de dados usado pelo atlas.*"
+      "textoMdx": "O Grande Salto Adiante, entre 1958 e 1962, provoca a maior fome documentada da história: as estimativas de mortos variam entre 15 e 45 milhões. A Revolução Cultural, de 1966 a 1976, desorganiza o Estado, fecha universidades e destrói patrimônio.\n\nAs reformas iniciadas em 1978 abrem a economia mantendo o monopólio político do partido. O resultado é o crescimento sustentado mais rápido já registrado: centenas de milhões saem da pobreza extrema em três décadas, e a China se torna a segunda maior economia do mundo.\n\nEm junho de 1989, protestos na Praça da Paz Celestial são reprimidos militarmente; o número de mortos é disputado e o tema segue censurado internamente.\n\n*Este período nomeia o Estado que governa o território continental, que é o desenhado no mapa. A República da China não deixou de existir em 1949: seu governo se transferiu para Taiwan, cuja situação jurídica é disputada e cuja geometria é uma feature separada no conjunto de dados usado pelo atlas.*",
+      "fontes": [
+        "fairbank-china"
+      ]
     }
   ]
 }

@@ -131,14 +131,30 @@ describe("página de período", () => {
     expect(container.textContent).not.toContain("cnv-relatorio");
   });
 
-  it("período sem fonte não inventa a seção", async () => {
-    const semFonte = acervo.paises
-      .flatMap((p) => p.periodos.map((per) => [p.iso, per] as const))
-      .find(([, per]) => per.fontes.length === 0)!;
-    const { container } = await pagina(semFonte[0], semFonte[1].id);
-    const titulos = [...container.querySelectorAll("h2")].map((h) => h.textContent);
-    expect(titulos).not.toContain("Fonte");
-    expect(titulos).not.toContain("Fontes");
+  it("todo período com texto mostra fonte — a dívida chegou a zero", async () => {
+    /*
+     * Este teste já verificou o contrário: que um período SEM fonte não
+     * inventava a seção. Ele deixou de ter caso quando os 84 períodos
+     * passaram a ter lastro, e virou a afirmação positiva — que é a que
+     * agora precisa ser defendida contra regressão.
+     */
+    const comTexto = acervo.paises.flatMap((p) =>
+      p.periodos.filter((per) => per.textoMdx).map((per) => [p.iso, per] as const)
+    );
+    expect(comTexto.length).toBe(84);
+
+    for (const [iso, per] of comTexto) {
+      expect(per.fontes.length).toBeGreaterThan(0);
+      for (const id of per.fontes) {
+        expect(acervo.fontes.some((f) => f.id === id)).toBe(true);
+      }
+      // Amostra na tela, para não renderizar 84 páginas neste teste.
+      if (per.id === "de-nazista" || per.id === "cn-shang") {
+        const { container } = await pagina(iso, per.id);
+        const titulos = [...container.querySelectorAll("h2")].map((h) => h.textContent);
+        expect(titulos.some((t) => t === "Fonte" || t === "Fontes")).toBe(true);
+      }
+    }
   });
 
   it("navega para o período anterior e o seguinte", async () => {

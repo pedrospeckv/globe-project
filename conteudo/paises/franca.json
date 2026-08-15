@@ -8,7 +8,10 @@
       "fim": "987",
       "rotulo": "Frância Ocidental",
       "regime": "monarquia carolíngia",
-      "textoMdx": "O Tratado de Verdun, em 843, divide o império de Carlos Magno entre três netos. Carlos, o Calvo, fica com a porção ocidental — o embrião territorial da França.\n\nÉ o período em que a autoridade real se dissolve na prática. As incursões vikings pelo Sena e pelo Loire expõem a incapacidade da coroa de defender o território, e a defesa passa aos senhores locais, que vão convertendo cargos delegados em propriedade hereditária. Nasce daí a estrutura feudal.\n\nEm 987 os grandes do reino elegem Hugo Capeto em vez do herdeiro carolíngio. A dinastia que ele funda governará por mais de oito séculos."
+      "textoMdx": "O Tratado de Verdun, em 843, divide o império de Carlos Magno entre três netos. Carlos, o Calvo, fica com a porção ocidental — o embrião territorial da França.\n\nÉ o período em que a autoridade real se dissolve na prática. As incursões vikings pelo Sena e pelo Loire expõem a incapacidade da coroa de defender o território, e a defesa passa aos senhores locais, que vão convertendo cargos delegados em propriedade hereditária. Nasce daí a estrutura feudal.\n\nEm 987 os grandes do reino elegem Hugo Capeto em vez do herdeiro carolíngio. A dinastia que ele funda governará por mais de oito séculos.",
+      "fontes": [
+        "duby-historia-franca"
+      ]
     },
     {
       "id": "fr-capetingios",
@@ -16,7 +19,10 @@
       "fim": "1328",
       "rotulo": "Reino da França",
       "regime": "monarquia feudal capetíngia",
-      "textoMdx": "Os primeiros capetíngios controlam pouco mais que a região de Paris. O reino existe no papel; o poder está com os duques.\n\nA reversão leva três séculos. Filipe Augusto toma a Normandia de João Sem-Terra em 1204, multiplicando o domínio real. Luís IX consolida a justiça régia como instância superior à dos senhores. Filipe, o Belo, enfrenta o papado, transfere a corte pontifícia para Avignon e destrói a Ordem do Templo em 1307, confiscando seus bens.\n\nEm 1328 Carlos IV morre sem herdeiro homem. A sucessão que se abre aí produz a guerra do período seguinte."
+      "textoMdx": "Os primeiros capetíngios controlam pouco mais que a região de Paris. O reino existe no papel; o poder está com os duques.\n\nA reversão leva três séculos. Filipe Augusto toma a Normandia de João Sem-Terra em 1204, multiplicando o domínio real. Luís IX consolida a justiça régia como instância superior à dos senhores. Filipe, o Belo, enfrenta o papado, transfere a corte pontifícia para Avignon e destrói a Ordem do Templo em 1307, confiscando seus bens.\n\nEm 1328 Carlos IV morre sem herdeiro homem. A sucessão que se abre aí produz a guerra do período seguinte.",
+      "fontes": [
+        "duby-historia-franca"
+      ]
     },
     {
       "id": "fr-guerra-cem-anos",
@@ -24,7 +30,10 @@
       "fim": "1453",
       "rotulo": "Reino da França",
       "regime": "monarquia Valois, legitimidade dinástica contestada",
-      "textoMdx": "Eduardo III da Inglaterra reivindica o trono francês por linha materna. Os pares franceses coroam Filipe de Valois. A disputa vira guerra em 1337 e dura cento e dezesseis anos.\n\nOs ingleses vencem as grandes batalhas — Crécy em 1346, Poitiers em 1356, Azincourt em 1415 — e chegam a ter o herdeiro inglês reconhecido como rei da França pelo Tratado de Troyes. No meio disso, a peste negra de 1348 mata algo em torno de um terço da população europeia.\n\nA virada começa em 1429, quando [Joana d'Arc](/figura/joana-darc) rompe o cerco de Orléans e leva Carlos VII a ser sagrado em Reims. Ela é capturada no ano seguinte e queimada em 1431. Em 1453 os ingleses são expulsos de tudo, exceto Calais."
+      "textoMdx": "Eduardo III da Inglaterra reivindica o trono francês por linha materna. Os pares franceses coroam Filipe de Valois. A disputa vira guerra em 1337 e dura cento e dezesseis anos.\n\nOs ingleses vencem as grandes batalhas — Crécy em 1346, Poitiers em 1356, Azincourt em 1415 — e chegam a ter o herdeiro inglês reconhecido como rei da França pelo Tratado de Troyes. No meio disso, a peste negra de 1348 mata algo em torno de um terço da população europeia.\n\nA virada começa em 1429, quando [Joana d'Arc](/figura/joana-darc) rompe o cerco de Orléans e leva Carlos VII a ser sagrado em Reims. Ela é capturada no ano seguinte e queimada em 1431. Em 1453 os ingleses são expulsos de tudo, exceto Calais.",
+      "fontes": [
+        "duby-historia-franca"
+      ]
     },
     {
       "id": "fr-antigo-regime",
@@ -32,7 +41,10 @@
       "fim": "1789",
       "rotulo": "Reino da França",
       "regime": "Antigo Regime, centralização e absolutismo",
-      "textoMdx": "Três séculos em que a monarquia concentra poder até o limite — e quebra.\n\nAs guerras de religião entre católicos e huguenotes dilaceram o país por trinta e seis anos, com o massacre da noite de São Bartolomeu em 1572 como episódio mais conhecido. O Edito de Nantes, em 1598, concede tolerância aos protestantes; Luís XIV o revoga em 1685, e centenas de milhares deixam a França.\n\nRichelieu submete a nobreza ao Estado. Luís XIV reina setenta e dois anos, fixa a corte em Versalhes e faz da etiqueta um instrumento de controle político.\n\nO custo é fiscal. Guerras sucessivas, incluindo o apoio à independência americana, levam a coroa à insolvência. Em 1789 Luís XVI convoca os Estados Gerais, que não se reuniam desde 1614, para tentar aprovar novos impostos."
+      "textoMdx": "Três séculos em que a monarquia concentra poder até o limite — e quebra.\n\nAs guerras de religião entre católicos e huguenotes dilaceram o país por trinta e seis anos, com o massacre da noite de São Bartolomeu em 1572 como episódio mais conhecido. O Edito de Nantes, em 1598, concede tolerância aos protestantes; Luís XIV o revoga em 1685, e centenas de milhares deixam a França.\n\nRichelieu submete a nobreza ao Estado. Luís XIV reina setenta e dois anos, fixa a corte em Versalhes e faz da etiqueta um instrumento de controle político.\n\nO custo é fiscal. Guerras sucessivas, incluindo o apoio à independência americana, levam a coroa à insolvência. Em 1789 Luís XVI convoca os Estados Gerais, que não se reuniam desde 1614, para tentar aprovar novos impostos.",
+      "fontes": [
+        "duby-historia-franca"
+      ]
     },
     {
       "id": "fr-revolucao",
@@ -40,7 +52,11 @@
       "fim": "1804",
       "rotulo": "Revolução e Primeira República",
       "regime": "ruptura revolucionária",
-      "textoMdx": "Quinze anos que reescrevem o vocabulário político do mundo.\n\nOs Estados Gerais se declaram Assembleia Nacional. A Bastilha cai em 14 de julho de 1789. Em agosto, a Declaração dos Direitos do Homem e do Cidadão afirma que os homens nascem livres e iguais em direitos — enquanto a escravidão segue legal nas colônias, abolida só em 1794 e restabelecida por Napoleão em 1802.\n\nA monarquia é abolida em 1792 e Luís XVI executado em janeiro de 1793. O Terror, sob o Comitê de Salvação Pública, executa milhares em pouco mais de um ano, até Robespierre ser guilhotinado em julho de 1794.\n\nO Diretório governa sem estabilidade até novembro de 1799, quando Napoleão Bonaparte toma o poder por golpe. Em 1804 ele se coroa imperador."
+      "textoMdx": "Quinze anos que reescrevem o vocabulário político do mundo.\n\nOs Estados Gerais se declaram Assembleia Nacional. A Bastilha cai em 14 de julho de 1789. Em agosto, a Declaração dos Direitos do Homem e do Cidadão afirma que os homens nascem livres e iguais em direitos — enquanto a escravidão segue legal nas colônias, abolida só em 1794 e restabelecida por Napoleão em 1802.\n\nA monarquia é abolida em 1792 e Luís XVI executado em janeiro de 1793. O Terror, sob o Comitê de Salvação Pública, executa milhares em pouco mais de um ano, até Robespierre ser guilhotinado em julho de 1794.\n\nO Diretório governa sem estabilidade até novembro de 1799, quando Napoleão Bonaparte toma o poder por golpe. Em 1804 ele se coroa imperador.",
+      "fontes": [
+        "duby-historia-franca",
+        "furet-revolucao-francesa"
+      ]
     },
     {
       "id": "fr-imperios-restauracoes",
@@ -48,7 +64,10 @@
       "fim": "1870",
       "rotulo": "Impérios e Restaurações",
       "regime": "alternância entre império, monarquia restaurada e república",
-      "textoMdx": "Sessenta e seis anos e cinco regimes: Primeiro Império, monarquia restaurada, Monarquia de Julho, Segunda República e Segundo Império.\n\nNapoleão domina a Europa continental até a campanha da Rússia em 1812, que destrói seu exército. Derrotado definitivamente em Waterloo em 1815, deixa como legado duradouro o Código Civil, que ainda estrutura o direito de dezenas de países.\n\nOs Bourbon voltam ao trono e são derrubados em 1830. A revolução de 1848 instaura a Segunda República, que institui o sufrágio universal masculino e abole a escravidão nas colônias em definitivo — e que dura três anos, até Luís Napoleão dar um golpe e se proclamar imperador.\n\nO Segundo Império termina em setembro de 1870, com a captura do imperador em Sedan pelos prussianos."
+      "textoMdx": "Sessenta e seis anos e cinco regimes: Primeiro Império, monarquia restaurada, Monarquia de Julho, Segunda República e Segundo Império.\n\nNapoleão domina a Europa continental até a campanha da Rússia em 1812, que destrói seu exército. Derrotado definitivamente em Waterloo em 1815, deixa como legado duradouro o Código Civil, que ainda estrutura o direito de dezenas de países.\n\nOs Bourbon voltam ao trono e são derrubados em 1830. A revolução de 1848 instaura a Segunda República, que institui o sufrágio universal masculino e abole a escravidão nas colônias em definitivo — e que dura três anos, até Luís Napoleão dar um golpe e se proclamar imperador.\n\nO Segundo Império termina em setembro de 1870, com a captura do imperador em Sedan pelos prussianos.",
+      "fontes": [
+        "duby-historia-franca"
+      ]
     },
     {
       "id": "fr-terceira-republica",
@@ -56,7 +75,10 @@
       "fim": "1940",
       "rotulo": "Terceira República",
       "regime": "república parlamentarista",
-      "textoMdx": "Nasce da derrota militar e dura setenta anos, mais que qualquer regime francês desde a Revolução.\n\nComeça com a Comuna de Paris, governo revolucionário esmagado em maio de 1871 com milhares de execuções. Atravessa o caso Dreyfus, que divide o país entre 1894 e 1906 em torno da condenação de um oficial judeu por traição, depois reconhecida como injusta. Em 1905 separa Igreja e Estado, princípio que ainda define a laicidade francesa.\n\nA Primeira Guerra mata cerca de 1,4 milhão de franceses, quase 4% da população, e devasta o nordeste do país.\n\nO regime cai em junho de 1940, seis semanas após o início da invasão alemã."
+      "textoMdx": "Nasce da derrota militar e dura setenta anos, mais que qualquer regime francês desde a Revolução.\n\nComeça com a Comuna de Paris, governo revolucionário esmagado em maio de 1871 com milhares de execuções. Atravessa o caso Dreyfus, que divide o país entre 1894 e 1906 em torno da condenação de um oficial judeu por traição, depois reconhecida como injusta. Em 1905 separa Igreja e Estado, princípio que ainda define a laicidade francesa.\n\nA Primeira Guerra mata cerca de 1,4 milhão de franceses, quase 4% da população, e devasta o nordeste do país.\n\nO regime cai em junho de 1940, seis semanas após o início da invasão alemã.",
+      "fontes": [
+        "duby-historia-franca"
+      ]
     },
     {
       "id": "fr-vichy",
@@ -64,7 +86,10 @@
       "fim": "1944",
       "rotulo": "Estado Francês e ocupação",
       "regime": "regime autoritário colaboracionista sob ocupação alemã",
-      "textoMdx": "Após o armistício de junho de 1940, o marechal Pétain recebe poderes plenos e instala em Vichy um regime que substitui *Liberdade, Igualdade, Fraternidade* por *Trabalho, Família, Pátria*.\n\nO Estado Francês não apenas tolera a política antissemita alemã: legisla por conta própria. O Estatuto dos Judeus, de outubro de 1940, é iniciativa francesa. Na batida do Velódromo de Inverno, em julho de 1942, a polícia francesa prende mais de 13 mil pessoas em Paris, entre elas mais de 4 mil crianças. Cerca de 75 mil judeus são deportados da França; menos de 3% retornaram.\n\nA Resistência se articula dentro do país e a França Livre no exterior. Paris é libertada em agosto de 1944.\n\n*O reconhecimento oficial da responsabilidade do Estado francês nesses atos só veio em 1995, em discurso do presidente Jacques Chirac.*"
+      "textoMdx": "Após o armistício de junho de 1940, o marechal Pétain recebe poderes plenos e instala em Vichy um regime que substitui *Liberdade, Igualdade, Fraternidade* por *Trabalho, Família, Pátria*.\n\nO Estado Francês não apenas tolera a política antissemita alemã: legisla por conta própria. O Estatuto dos Judeus, de outubro de 1940, é iniciativa francesa. Na batida do Velódromo de Inverno, em julho de 1942, a polícia francesa prende mais de 13 mil pessoas em Paris, entre elas mais de 4 mil crianças. Cerca de 75 mil judeus são deportados da França; menos de 3% retornaram.\n\nA Resistência se articula dentro do país e a França Livre no exterior. Paris é libertada em agosto de 1944.\n\n*O reconhecimento oficial da responsabilidade do Estado francês nesses atos só veio em 1995, em discurso do presidente Jacques Chirac.*",
+      "fontes": [
+        "duby-historia-franca"
+      ]
     },
     {
       "id": "fr-quarta-republica",
@@ -72,14 +97,21 @@
       "fim": "1958",
       "rotulo": "Governo Provisório e Quarta República",
       "regime": "república parlamentarista",
-      "textoMdx": "O governo provisório concede o voto às mulheres em 1944, exercido pela primeira vez em 1945 — tarde, em comparação com boa parte da Europa. Cria também a seguridade social e nacionaliza bancos, seguradoras e a produção de energia.\n\nA Quarta República, de 1946, é parlamentarista e cronicamente instável: mais de vinte governos em doze anos.\n\nO que a derruba é a descolonização. A guerra da Indochina termina em derrota em Dien Bien Phu, em 1954. No mesmo ano começa a guerra da Argélia, que não é tratada como guerra colonial porque a Argélia era juridicamente parte da França. Em maio de 1958, uma crise militar em Argel leva o Parlamento a chamar De Gaulle de volta."
+      "textoMdx": "O governo provisório concede o voto às mulheres em 1944, exercido pela primeira vez em 1945 — tarde, em comparação com boa parte da Europa. Cria também a seguridade social e nacionaliza bancos, seguradoras e a produção de energia.\n\nA Quarta República, de 1946, é parlamentarista e cronicamente instável: mais de vinte governos em doze anos.\n\nO que a derruba é a descolonização. A guerra da Indochina termina em derrota em Dien Bien Phu, em 1954. No mesmo ano começa a guerra da Argélia, que não é tratada como guerra colonial porque a Argélia era juridicamente parte da França. Em maio de 1958, uma crise militar em Argel leva o Parlamento a chamar De Gaulle de volta.",
+      "fontes": [
+        "duby-historia-franca"
+      ]
     },
     {
       "id": "fr-quinta-republica",
       "inicio": "1958",
       "rotulo": "República Francesa",
       "regime": "república semipresidencialista",
-      "textoMdx": "De Gaulle faz aprovar uma constituição que desloca o poder do Parlamento para a Presidência. A partir de 1962 o presidente passa a ser eleito por voto direto.\n\nA Argélia se torna independente em 1962, depois de uma guerra com centenas de milhares de mortos, majoritariamente argelinos. Em maio de 1968, greves e ocupações estudantis paralisam o país e levam cerca de dez milhões de trabalhadores à greve geral.\n\nA França é membro fundador das Comunidades Europeias e mantém arsenal nuclear próprio desde 1960, base da sua política externa autônoma.\n\n*Este é o período em curso. Os retratos anteriores contam com décadas de distância; este não.*"
+      "textoMdx": "De Gaulle faz aprovar uma constituição que desloca o poder do Parlamento para a Presidência. A partir de 1962 o presidente passa a ser eleito por voto direto.\n\nA Argélia se torna independente em 1962, depois de uma guerra com centenas de milhares de mortos, majoritariamente argelinos. Em maio de 1968, greves e ocupações estudantis paralisam o país e levam cerca de dez milhões de trabalhadores à greve geral.\n\nA França é membro fundador das Comunidades Europeias e mantém arsenal nuclear próprio desde 1960, base da sua política externa autônoma.\n\n*Este é o período em curso. Os retratos anteriores contam com décadas de distância; este não.*",
+      "fontes": [
+        "duby-historia-franca",
+        "constituicao-francesa-1958"
+      ]
     }
   ]
 }
