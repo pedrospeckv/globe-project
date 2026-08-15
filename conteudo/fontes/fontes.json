@@ -57,6 +57,14 @@
     "citacao": "Decidiu por unanimidade que a segregação escolar é inerentemente desigual, revertendo Plessy. A ordem de execução do ano seguinte, com a fórmula da deliberada rapidez, permitiu que a dessegregação real levasse mais de uma década."
   },
   {
+    "id": "browning-homens-comuns",
+    "tipo": "livro",
+    "titulo": "Ordinary Men: Reserve Police Battalion 101 and the Final Solution in Poland",
+    "autor": "Christopher R. Browning",
+    "data": "1992",
+    "citacao": "Reconstruiu, a partir de interrogatórios judiciais, como um batalhão de policiais de meia-idade sem formação ideológica especial fuzilou dezenas de milhares de civis, e argumentou que conformidade, autoridade e pressão do grupo explicam mais que ódio doutrinário. A tese oposta, de Daniel Goldhagen, atribui o comportamento a um antissemitismo eliminacionista difundido na sociedade alemã; a disputa entre as duas leituras segue aberta."
+  },
+  {
     "id": "caminha-1500",
     "tipo": "documento-oficial",
     "titulo": "Carta de Pero Vaz de Caminha a el-rei D. Manuel I",
@@ -162,6 +170,14 @@
     "publicacao": "República Francesa",
     "data": "1958-10-04",
     "citacao": "Estabeleceu o presidencialismo reforçado que define o regime francês desde então."
+  },
+  {
+    "id": "constituicao-weimar-1919",
+    "tipo": "documento-oficial",
+    "titulo": "Constituição do Reich Alemão (Constituição de Weimar)",
+    "publicacao": "Assembleia Nacional de Weimar",
+    "data": "1919-08-11",
+    "citacao": "Instituiu sufrágio universal incluindo mulheres, representação proporcional e um presidente eleito diretamente. Seu artigo 48 autorizava o presidente a suspender direitos fundamentais e legislar por decreto em emergência — dispositivo que, de exceção, virou rotina de governo a partir de 1930."
   },
   {
     "id": "corteidh-gomes-lund",
@@ -281,6 +297,14 @@
     "citacao": "Narrativa de referência do colapso do Império Russo e da revolução, da fome de 1891 à morte de Lênin."
   },
   {
+    "id": "fischer-objetivos-guerra",
+    "tipo": "livro",
+    "titulo": "Griff nach der Weltmacht: Die Kriegszielpolitik des kaiserlichen Deutschland 1914/18",
+    "autor": "Fritz Fischer",
+    "data": "1961",
+    "citacao": "Sustentou, a partir dos arquivos do próprio Reich, que a Alemanha imperial perseguia objetivos expansionistas e teve responsabilidade primária pela guerra de 1914. A controvérsia que se seguiu foi a mais áspera da historiografia alemã do século XX, e o atlas registra a disputa em vez de encerrá-la."
+  },
+  {
     "id": "fitzpatrick-revolucao-russa",
     "tipo": "livro",
     "titulo": "The Russian Revolution",
@@ -360,6 +384,14 @@
     "citacao": "Referência para o Japão de Tokugawa em diante, cobrindo a Restauração Meiji, o império e o pós-guerra."
   },
   {
+    "id": "julgamento-nuremberg-1946",
+    "tipo": "decisao-judicial",
+    "titulo": "Julgamento dos Principais Criminosos de Guerra perante o Tribunal Militar Internacional",
+    "publicacao": "Tribunal Militar Internacional de Nuremberg",
+    "data": "1946-10-01",
+    "citacao": "Condenou doze dos vinte e quatro réus à morte e absolveu três, estabelecendo que indivíduos respondem penalmente por crimes de guerra e contra a humanidade, e que cumprir ordens não é excludente. É o alicerce do direito penal internacional moderno."
+  },
+  {
     "id": "katznelson-acao-afirmativa-branca",
     "tipo": "livro",
     "titulo": "When Affirmative Action Was White",
@@ -412,6 +444,30 @@
     "autor": "Victor Nunes Leal",
     "data": "1949",
     "citacao": "Obra que estabeleceu a interpretação do coronelismo como fruto da fraqueza do coronel diante do Estado, e não da sua força — leitura adotada no texto do atlas."
+  },
+  {
+    "id": "lei-arquivos-stasi-1991",
+    "tipo": "documento-oficial",
+    "titulo": "Lei sobre os Arquivos da Stasi (Stasi-Unterlagen-Gesetz)",
+    "publicacao": "Bundestag alemão",
+    "data": "1991-12-20",
+    "citacao": "Deu a qualquer cidadão o direito de ler o próprio dossiê da polícia política da RDA e autorizou a pesquisa sobre o acervo. É a base documental das cifras de funcionários e de colaboradores informais do órgão, e uma decisão sem paralelo entre os países que saíram do bloco soviético."
+  },
+  {
+    "id": "lei-fundamental-1949",
+    "tipo": "documento-oficial",
+    "titulo": "Lei Fundamental da República Federal da Alemanha (Grundgesetz)",
+    "publicacao": "Conselho Parlamentar de Bonn",
+    "data": "1949-05-23",
+    "citacao": "Abre declarando inviolável a dignidade humana e foi desenhada contra as falhas de Weimar: voto de desconfiança construtivo, cláusula de barreira, presidente sem poderes de emergência, tribunal constitucional com força para anular leis e possibilidade de proibir partidos que ataquem a ordem democrática. Chamou-se Lei Fundamental, e não Constituição, para marcar provisoriedade até a reunificação."
+  },
+  {
+    "id": "lei-habilitacao-1933",
+    "tipo": "documento-oficial",
+    "titulo": "Lei de Concessão de Plenos Poderes (Ermächtigungsgesetz)",
+    "publicacao": "Reichstag alemão",
+    "data": "1933-03-24",
+    "citacao": "Transferiu ao gabinete o poder de legislar sem o Reichstag e sem o presidente, inclusive contra a Constituição. Aprovada por 444 votos a 94, com deputados comunistas já presos ou foragidos e o Partido de Centro votando a favor; apenas os social-democratas presentes votaram contra."
   },
   {
     "id": "lei-separacao-1905",
@@ -501,6 +557,14 @@
     "publicacao": "República Popular da China",
     "data": "2000",
     "citacao": "Iniciativa estatal que fixou 1600 e 1046 a.C. como marcos. Sua precisão foi contestada por parte da comunidade acadêmica fora da China, que aponta circularidade no uso das fontes; estimativas anteriores para a conquista zhou variam de 1122 a 1027 a.C."
+  },
+  {
+    "id": "protocolo-wannsee-1942",
+    "tipo": "documento-oficial",
+    "titulo": "Protocolo da Conferência de Wannsee",
+    "publicacao": "Reich Alemão",
+    "data": "1942-01-20",
+    "citacao": "Ata da reunião que coordenou entre ministérios e polícia a deportação e o extermínio dos judeus da Europa, com estimativa nominal de onze milhões de pessoas por país. Não foi ali que o genocídio foi decidido — os fuzilamentos em massa já estavam em curso —, e sim onde a máquina administrativa do Estado foi alinhada para executá-lo."
   },
   {
     "id": "reynolds-fiefs-vassals",
@@ -649,6 +713,14 @@
     "titulo": "A History of Japan",
     "autor": "Conrad Totman",
     "citacao": "Síntese que cobre desde o povoamento do arquipélago, usada para os períodos anteriores a 1185."
+  },
+  {
+    "id": "tratado-dois-mais-quatro-1990",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado sobre o Acordo Final com respeito à Alemanha (Dois Mais Quatro)",
+    "publicacao": "RFA, RDA, Estados Unidos, União Soviética, Reino Unido e França",
+    "data": "1990-09-12",
+    "citacao": "Devolveu à Alemanha a soberania plena suspensa desde 1945, fixou o efetivo máximo de suas forças armadas e reconheceu em definitivo a fronteira do Oder-Neisse com a Polônia. É o documento que tornou a reunificação juridicamente possível diante das quatro potências ocupantes."
   },
   {
     "id": "tratado-versalhes",
