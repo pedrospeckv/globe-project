@@ -25,6 +25,13 @@
     "citacao": "Decisão de 18 de março de 2026: após a PGR pedir arquivamento alegando lacuna legislativa, o ministro Alexandre de Moraes determinou novo parecer. O caso não foi arquivado."
   },
   {
+    "id": "analectos-confucio",
+    "tipo": "livro",
+    "titulo": "Analectos (Lunyu)",
+    "autor": "atribuído a discípulos de Confúcio",
+    "citacao": "Coletânea de ditos e diálogos compilada por discípulos e discípulos de discípulos ao longo de gerações após a morte de Confúcio, em 479 a.C. Não é registro direto: já é transmissão, e as camadas de redação são objeto de estudo filológico próprio."
+  },
+  {
     "id": "applebaum-fome-vermelha",
     "tipo": "livro",
     "titulo": "Red Famine: Stalin's War on Ukraine",
@@ -268,6 +275,22 @@
     "citacao": "Afirma que todos os homens são criados iguais e dotados de direitos inalienáveis. O rascunho de Jefferson trazia um trecho responsabilizando a Coroa britânica pelo tráfico de escravizados, suprimido a pedido de delegações do Sul antes da aprovação."
   },
   {
+    "id": "declaracao-sino-britanica-1984",
+    "tipo": "documento-oficial",
+    "titulo": "Declaração Conjunta Sino-Britânica sobre a questão de Hong Kong",
+    "publicacao": "República Popular da China e Reino Unido",
+    "data": "1984-12-19",
+    "citacao": "Tratado registrado na ONU que previu a devolução de Hong Kong em 1997 com alto grau de autonomia e manutenção do sistema social e econômico por cinquenta anos. Desde 2017 o governo chinês sustenta que o documento é histórico e não tem efeito vinculante sobre a administração atual do território; o Reino Unido discorda."
+  },
+  {
+    "id": "dikotter-grande-fome",
+    "tipo": "livro",
+    "titulo": "Mao's Great Famine: The History of China's Most Devastating Catastrophe, 1958–62",
+    "autor": "Frank Dikötter",
+    "data": "2010",
+    "citacao": "A partir de arquivos provinciais e de relatórios internos do próprio partido, estima ao menos 45 milhões de mortos e sustenta que uma parcela expressiva resultou de violência direta, e não apenas de inanição. É a estimativa mais alta entre as sustentadas por trabalho de arquivo, e diverge de outras sobretudo pelo tratamento da mortalidade de base."
+  },
+  {
     "id": "discurso-secreto-1956",
     "tipo": "documento-oficial",
     "titulo": "Sobre o culto à personalidade e suas consequências (discurso secreto de Khruschov)",
@@ -321,6 +344,14 @@
     "autor": "Equal Justice Initiative",
     "data": "2017",
     "citacao": "Levantamento documental que registra mais de 4.400 linchamentos de terror racial nos Estados Unidos entre 1877 e 1950, condado por condado. É a base da ordem de grandeza usada no atlas, e o próprio relatório trata o número como piso."
+  },
+  {
+    "id": "elvin-padrao-passado-chines",
+    "tipo": "livro",
+    "titulo": "The Pattern of the Chinese Past",
+    "autor": "Mark Elvin",
+    "data": "1973",
+    "citacao": "Formulou a hipótese da armadilha de equilíbrio de alto nível: a agricultura e o transporte chineses eram tão eficientes, e a mão de obra tão abundante, que não havia pressão para substituir trabalho por máquina. É uma das explicações clássicas para a China não ter industrializado a partir do patamar técnico Song."
   },
   {
     "id": "evans-terceiro-reich",
@@ -433,6 +464,13 @@
     "citacao": "Três inquéritos autorizados pelo STF em menos de uma semana, todos derivados da Operação Sem Desconto. Sobre os casos anteriores da Gamecorp: os processos acabaram arquivados ou anulados, sem condenação definitiva. A defesa nega qualquer prática ilícita."
   },
   {
+    "id": "inscricoes-oraculares-anyang",
+    "tipo": "dataset",
+    "titulo": "Corpus das inscrições oraculares de Yinxu (Anyang)",
+    "publicacao": "Academia Chinesa de Ciências Sociais e coleções associadas",
+    "citacao": "Cerca de 150 mil fragmentos de osso e casco inscritos, escavados desde 1928 no sítio da última capital shang. São documentos produzidos pela própria corte, contemporâneos aos fatos, e é por eles que a lista dinástica transmitida por Sima Qian pôde ser conferida."
+  },
+  {
     "id": "jansen-japao-moderno",
     "tipo": "livro",
     "titulo": "The Making of Modern Japan",
@@ -535,6 +573,21 @@
     "citacao": "A República não reconhece nem subsidia culto algum, e garante o livre exercício deles. É a base jurídica da laicidade francesa e o texto invocado nas disputas posteriores sobre símbolos religiosos."
   },
   {
+    "id": "livro-senhor-shang",
+    "tipo": "livro",
+    "titulo": "Livro do Senhor Shang (Shangjunshu)",
+    "autor": "atribuído a Shang Yang e à escola legista",
+    "citacao": "Expõe o programa que reorganizou o estado de Qin a partir de 359 a.C.: lei escrita e pública, responsabilidade coletiva entre vizinhos, promoção por mérito militar aferido em cabeças cortadas e abolição do privilégio hereditário. A compilação é posterior ao autor e mistura camadas."
+  },
+  {
+    "id": "macfarquhar-ultima-revolucao",
+    "tipo": "livro",
+    "titulo": "Mao's Last Revolution",
+    "autor": "Roderick MacFarquhar e Michael Schoenhals",
+    "data": "2006",
+    "citacao": "Reconstrução detalhada da Revolução Cultural a partir de documentos internos, memórias e imprensa da época, tratando-a como disputa dentro da cúpula do partido que mobilizou a sociedade contra a própria estrutura de Estado."
+  },
+  {
     "id": "magna-carta-1215",
     "tipo": "documento-oficial",
     "titulo": "Magna Carta",
@@ -554,6 +607,14 @@
     "titulo": "Nihon Shoki",
     "data": "720",
     "citacao": "Crônica compilada pela corte de Nara. Registra a fundação do império em 660 a.C., data mitológica sem sustentação arqueológica que o Estado japonês do início do século XX tratou como história oficial."
+  },
+  {
+    "id": "onu-acnudh-xinjiang-2022",
+    "tipo": "documento-oficial",
+    "titulo": "Avaliação das preocupações de direitos humanos na Região Autônoma Uigur de Xinjiang",
+    "publicacao": "Alto Comissariado das Nações Unidas para os Direitos Humanos",
+    "data": "2022-08-31",
+    "citacao": "Concluiu que as detenções em larga escala de uigures e outros grupos majoritariamente muçulmanos podem constituir crimes internacionais, em particular crimes contra a humanidade. O governo chinês rejeitou integralmente a avaliação e a publicou anexada ao próprio relatório com sua resposta."
   },
   {
     "id": "p360-lulinha-cannabis-2026",
@@ -582,6 +643,14 @@
     "citacao": "Usando arquivos alemães, estabeleceu que a colaboração foi buscada pelo Estado francês e não imposta pelo ocupante, e que a legislação antissemita de 1940 partiu de iniciativa própria. Desfez a tese do escudo e da espada, dominante na França até os anos 1970."
   },
   {
+    "id": "platt-outono-reino-celestial",
+    "tipo": "livro",
+    "titulo": "Autumn in the Heavenly Kingdom: China, the West, and the Epic Story of the Taiping Civil War",
+    "autor": "Stephen R. Platt",
+    "data": "2012",
+    "citacao": "Reconstrói a guerra civil Taiping como conflito de escala mundial, com dezenas de milhões de mortos entre 1850 e 1864, e documenta o papel da intervenção ocidental na decisão de sustentar a dinastia Qing. É a base da ordem de grandeza usada no atlas."
+  },
+  {
     "id": "plessy-ferguson-1896",
     "tipo": "decisao-judicial",
     "titulo": "Plessy v. Ferguson",
@@ -597,6 +666,14 @@
     "data": "2022-01-28",
     "url": "https://www.poder360.com.br/justica/justica-arquiva-caso-do-triplex-contra-lula/",
     "citacao": "A juíza Pollyanna Alves, da 12ª Vara Federal Criminal de Brasília, arquivou a ação em 27/01/2022, acompanhando o MPF, que apontou que as provas não podiam ser reaproveitadas em razão da nulidade e que os crimes estavam prescritos."
+  },
+  {
+    "id": "pomeranz-grande-divergencia",
+    "tipo": "livro",
+    "titulo": "The Great Divergence: China, Europe, and the Making of the Modern World Economy",
+    "autor": "Kenneth Pomeranz",
+    "data": "2000",
+    "citacao": "Sustenta que o delta do Yangtzé e a Inglaterra eram comparáveis em renda, mercados e expectativa de vida até por volta de 1800, e que a divergência se explica por dois acidentes ingleses — carvão perto dos centros produtores e recursos coloniais americanos —, não por atraso chinês. É a posição oposta à de Elvin, e o atlas registra as duas."
   },
   {
     "id": "proc-condenacao-1431",
@@ -629,6 +706,14 @@
     "publicacao": "Reich Alemão",
     "data": "1942-01-20",
     "citacao": "Ata da reunião que coordenou entre ministérios e polícia a deportação e o extermínio dos judeus da Europa, com estimativa nominal de onze milhões de pessoas por país. Não foi ali que o genocídio foi decidido — os fuzilamentos em massa já estavam em curso —, e sim onde a máquina administrativa do Estado foi alinhada para executá-lo."
+  },
+  {
+    "id": "resolucao-pcc-1981",
+    "tipo": "documento-oficial",
+    "titulo": "Resolução sobre algumas questões da história do Partido desde a fundação da República Popular",
+    "publicacao": "Comitê Central do Partido Comunista da China",
+    "data": "1981-06-27",
+    "citacao": "Veredito oficial do próprio partido: classifica a Revolução Cultural como responsável pelo revés mais grave sofrido pela República Popular e atribui a Mao erros graves nos últimos anos, mantendo-o como figura fundadora cujos méritos superam as falhas. É a fonte da fórmula corrente de 70% de acertos e 30% de erros, e segue sendo a linha oficial."
   },
   {
     "id": "reynolds-fiefs-vassals",
@@ -795,6 +880,14 @@
     "citacao": "Devolveu à Alemanha a soberania plena suspensa desde 1945, fixou o efetivo máximo de suas forças armadas e reconheceu em definitivo a fronteira do Oder-Neisse com a Polônia. É o documento que tornou a reunificação juridicamente possível diante das quatro potências ocupantes."
   },
   {
+    "id": "tratado-nanquim-1842",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Nanquim",
+    "publicacao": "Império Qing e Reino Unido",
+    "data": "1842-08-29",
+    "citacao": "Encerrou a Primeira Guerra do Ópio cedendo Hong Kong, abrindo cinco portos, impondo indenização e fixando tarifas que a China não podia alterar sozinha. Acordos complementares acrescentaram extraterritorialidade e cláusula de nação mais favorecida. É o primeiro dos tratados que a historiografia chinesa chama de desiguais."
+  },
+  {
     "id": "tratado-versalhes",
     "tipo": "documento-oficial",
     "titulo": "Tratado de Versalhes",
@@ -815,5 +908,13 @@
     "titulo": "Der lange Weg nach Westen",
     "autor": "Heinrich August Winkler",
     "citacao": "História alemã do fim do Sacro Império à reunificação, organizada em torno de quando e como a Alemanha se tornou parte do Ocidente político."
+  },
+  {
+    "id": "yang-jisheng-lapide",
+    "tipo": "livro",
+    "titulo": "Lápide (Mubei): a grande fome chinesa, 1958–1962",
+    "autor": "Yang Jisheng",
+    "data": "2008",
+    "citacao": "Jornalista da agência estatal chinesa reuniu por duas décadas documentos de arquivos provinciais e depoimentos, e estimou cerca de 36 milhões de mortos na fome do Grande Salto Adiante. O livro é proibido na China continental."
   }
 ]
