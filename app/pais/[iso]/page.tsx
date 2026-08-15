@@ -8,7 +8,7 @@ import { IndicadorChart } from "@/components/conteudo/IndicadorChart";
 import { eventosDoPais } from "@/lib/conteudo/evento";
 import { rotuloDeData } from "@/lib/conteudo/tempo";
 import { resumoDe } from "@/lib/conteudo/pais";
-import { DISPUTAS } from "@/lib/geo/disputas";
+import { DISPUTAS, paisesDaDisputa } from "@/lib/geo/disputas";
 
 const RAIZ = path.join(process.cwd(), "conteudo");
 
@@ -32,7 +32,14 @@ export default async function PaisPage({
   const figuras = acervo.figuras.filter((f) => f.paisIso === iso);
   const indicadores = acervo.indicadores.filter((i) => i.paisIso === iso);
   const eventos = eventosDoPais(acervo.eventos, iso);
-  const disputas = DISPUTAS.filter((d) => d.atribuidoNaBase === iso);
+  /*
+   * Uma disputa pode envolver mais de um país do atlas — a Caxemira aparece
+   * no dossiê da Índia e no da China. Filtrar por `atribuidoNaBase` só
+   * funcionava enquanto toda disputa tinha um dono único na base.
+   */
+  const disputas = DISPUTAS.filter((d) =>
+    paisesDaDisputa(d).some((p) => p === iso)
+  );
 
   return (
     <main className="min-h-screen bg-slate-950 py-10 text-slate-100">
@@ -118,6 +125,20 @@ export default async function PaisPage({
                     desde {rotuloDeData(d.desde)}
                   </span>
                 </div>
+                {d.recorte === "nenhum" && (
+                  /*
+                     Sem polígono na base, o mapa só põe um alfinete. Dizer
+                     isso aqui é obrigatório: quem lê o dossiê e olha o globo
+                     precisa saber por que a área não está hachurada como a
+                     Crimeia está.
+                  */
+                  <p className="mt-2 text-[11px] leading-relaxed text-amber-500/80">
+                    Administrado por{" "}
+                    {[...d.paises, ...(d.forasteiros ?? [])].join(", ")}. A base
+                    cartográfica não separa este território em polígono próprio, então
+                    o mapa o marca com um alfinete e não com uma área.
+                  </p>
+                )}
                 <p className="mt-2 text-xs leading-relaxed text-slate-400">{d.nota}</p>
               </article>
             ))}

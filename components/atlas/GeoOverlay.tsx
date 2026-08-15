@@ -6,7 +6,7 @@ import { criarProjecao, pontoVisivel } from "@/lib/geo/projecao";
 import type { PaisCurado } from "@/lib/geo/mundo";
 import type { RotaFeature } from "@/lib/geo/rota";
 import type { Alpha3 } from "@/lib/geo/iso";
-import type { TerritorioDisputado } from "@/lib/geo/disputas";
+import type { DisputaSemRecorte, TerritorioDisputado } from "@/lib/geo/disputas";
 import type { Evento } from "@/lib/conteudo/evento";
 import { rotuloDeData } from "@/lib/conteudo/tempo";
 
@@ -25,6 +25,11 @@ interface Props {
   divididos?: readonly Alpha3[];
   /** Territórios de soberania disputada, marcados por polígono e não por país. */
   disputados?: readonly TerritorioDisputado[];
+  /**
+   * Disputas que a base cartográfica não separa em polígono. Viram alfinete,
+   * não área — ver a nota em lib/geo/disputas.ts sobre a Caxemira.
+   */
+  disputasMarcadas?: readonly DisputaSemRecorte[];
 }
 
 /**
@@ -46,6 +51,7 @@ export function GeoOverlay({
   onSelecionar,
   divididos = [],
   disputados = [],
+  disputasMarcadas = [],
 }: Props) {
   const projecao = useMemo(
     () => criarProjecao({ largura, altura, alpha, rotacao }),
@@ -162,6 +168,37 @@ export function GeoOverlay({
             >
               <title>{`${disputa.nome} — soberania disputada`}</title>
             </path>
+          );
+        })}
+      </g>
+
+      {/*
+        Disputa que a base não recorta. Vira alfinete em vez de área porque
+        o polígono não existe na base e desenhá-lo à mão seria traçar a
+        fronteira que está em litígio. Usa o âmbar da disputa, e não o rosa
+        do evento: é estado permanente, não acontecimento datado.
+      */}
+      <g data-camada="disputas-marcadas">
+        {disputasMarcadas.map((d) => {
+          if (!pontoVisivel(d.centro, { alpha, rotacao })) return null;
+          const p = projecao(d.centro);
+          if (!p || !Number.isFinite(p[0]) || !Number.isFinite(p[1])) return null;
+          // Mesmo arredondamento dos eventos, pelo mesmo motivo de hidratação.
+          const x = p[0].toFixed(3);
+          const y = p[1].toFixed(3);
+          return (
+            <g key={d.id} transform={`translate(${x},${y})`}>
+              <circle r={9} fill="#f59e0b" fillOpacity={0.15} />
+              <path
+                d="M 0 -6 L 6 0 L 0 6 L -6 0 Z"
+                fill="none"
+                stroke="#fbbf24"
+                strokeWidth={1.4}
+                strokeDasharray="3 2"
+              >
+                <title>{`${d.nome} — soberania disputada, sem geometria na base`}</title>
+              </path>
+            </g>
           );
         })}
       </g>

@@ -7,7 +7,12 @@ import { GlobeCanvas } from "./GlobeCanvas";
 import { GeoOverlay } from "./GeoOverlay";
 import { TimeScrubber } from "./TimeScrubber";
 import { prepararMundo, separarPaises, type PaisFeature } from "@/lib/geo/mundo";
-import { idsDeDisputasVigentes } from "@/lib/geo/disputas";
+import {
+  DISPUTAS,
+  disputasSemRecorteVigentes,
+  idsDeDisputasVigentes,
+  type DisputaSemRecorte,
+} from "@/lib/geo/disputas";
 import { ISO_NUMERICO, PAISES_DO_ATLAS, type Alpha3 } from "@/lib/geo/iso";
 import { rotaAte, type RotaFeature } from "@/lib/geo/rota";
 import {
@@ -94,6 +99,23 @@ export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
     () => (disputasChave ? disputasChave.split(",") : []),
     [disputasChave]
   );
+
+  /*
+   * Disputas sem polígono na base. Vão direto para a camada de marcadores,
+   * sem passar por separarPaises — não há geometria a recortar. Passam pela
+   * mesma dança de chave em string porque o array novo a cada tique
+   * invalidaria o memo do overlay sem nada ter mudado.
+   */
+  const marcadasChave = useMemo(
+    () => disputasSemRecorteVigentes(tempo).map((d) => d.id).join(","),
+    [tempo]
+  );
+  const disputasMarcadas = useMemo(() => {
+    const ids = new Set(marcadasChave ? marcadasChave.split(",") : []);
+    return DISPUTAS.filter(
+      (d): d is DisputaSemRecorte => d.recorte === "nenhum" && ids.has(d.id)
+    );
+  }, [marcadasChave]);
 
   /*
    * Decomposição cara, feita uma vez. Ela já esteve junto do cálculo por
@@ -273,6 +295,7 @@ export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
           onSelecionar={setSelecionado}
           divididos={divididos}
           disputados={disputados}
+          disputasMarcadas={disputasMarcadas}
         />
       </div>
 
