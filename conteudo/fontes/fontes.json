@@ -25,6 +25,22 @@
     "citacao": "Decisão de 18 de março de 2026: após a PGR pedir arquivamento alegando lacuna legislativa, o ministro Alexandre de Moraes determinou novo parecer. O caso não foi arquivado."
   },
   {
+    "id": "ain-i-akbari",
+    "tipo": "documento-oficial",
+    "titulo": "Ain-i-Akbari",
+    "autor": "Abu'l-Fazl ibn Mubarak",
+    "data": "1598",
+    "citacao": "Terceiro volume da crônica oficial do reinado de Akbar, é na prática um levantamento administrativo do império: receita por província, preços, salários, efetivos, produção agrícola e composição da nobreza. Nenhum Estado da época produziu documento estatístico comparável, e ele foi escrito pelo panegirista da corte — as duas coisas ao mesmo tempo."
+  },
+  {
+    "id": "ambedkar-aniquilacao-casta",
+    "tipo": "livro",
+    "titulo": "Annihilation of Caste",
+    "autor": "B. R. Ambedkar",
+    "data": "1936",
+    "citacao": "Discurso escrito para uma conferência que o cancelou ao ler o texto, e depois publicado pelo autor. Sustenta que a casta não é divisão do trabalho e sim divisão dos trabalhadores, que reformá-la sem romper com a autoridade das escrituras é impossível, e responde diretamente a Gandhi, que defendia a reforma do sistema sem sua abolição."
+  },
+  {
     "id": "analectos-confucio",
     "tipo": "livro",
     "titulo": "Analectos (Lunyu)",
@@ -46,6 +62,13 @@
     "autor": "Anne Applebaum",
     "data": "2003",
     "citacao": "Reconstruiu o sistema de campos soviético a partir dos arquivos abertos após 1991 e de memórias de sobreviventes: a escala, a função econômica e o papel do trabalho forçado na industrialização. É a base das ordens de grandeza usadas no atlas para o Gulag."
+  },
+  {
+    "id": "arthashastra",
+    "tipo": "livro",
+    "titulo": "Arthashastra",
+    "autor": "atribuído a Kautilya",
+    "citacao": "Tratado de estadística, tributação, espionagem e guerra associado pela tradição ao ministro de Chandragupta Máuria. O texto conservado passou por redação e acréscimos ao longo de séculos, e a datação é disputada — por isso descreve bem o pensamento político indiano antigo e não serve como registro administrativo direto do império."
   },
   {
     "id": "ato-de-uniao-1707",
@@ -211,6 +234,14 @@
     "citacao": "Estabeleceu o presidencialismo reforçado que define o regime francês desde então."
   },
   {
+    "id": "constituicao-indiana-1950",
+    "tipo": "documento-oficial",
+    "titulo": "Constituição da Índia",
+    "publicacao": "Assembleia Constituinte da Índia",
+    "data": "1950-01-26",
+    "citacao": "A mais longa constituição nacional em vigor. Instituiu sufrágio universal adulto desde o primeiro dia, aboliu a intocabilidade no artigo 17 e criou reserva de vagas para castas e tribos listadas. O comitê de redação foi presidido por B. R. Ambedkar, jurista dalit que havia passado a vida denunciando o sistema que a constituição proibia."
+  },
+  {
     "id": "constituicao-japonesa-1947",
     "tipo": "documento-oficial",
     "titulo": "Constituição do Japão",
@@ -281,6 +312,14 @@
     "autor": "R. W. Davies e Stephen G. Wheatcroft",
     "data": "2004",
     "citacao": "Trabalho quantitativo que atribui a fome à coletivização, às metas de coleta de grão e à recusa em admitir o fracasso do plano, sem intenção de exterminar um grupo nacional — a fome atingiu também o Cazaquistão, o Volga e o Cáucaso do Norte. É a posição oposta à de Applebaum sobre o caráter genocida, e o atlas registra as duas."
+  },
+  {
+    "id": "davis-holocaustos-vitorianos",
+    "tipo": "livro",
+    "titulo": "Late Victorian Holocausts: El Niño Famines and the Making of the Third World",
+    "autor": "Mike Davis",
+    "data": "2001",
+    "citacao": "Sustenta que as grandes fomes indianas do fim do século XIX resultaram da combinação entre seca do El Niño e política deliberada — exportação continuada de grão, recusa de socorro por doutrina liberal e integração forçada ao mercado mundial. É a posição que trata as fomes coloniais como responsabilidade administrativa, não como fatalidade climática."
   },
   {
     "id": "declaracao-direitos-1789",
@@ -605,12 +644,28 @@
     "citacao": "Abre declarando inviolável a dignidade humana e foi desenhada contra as falhas de Weimar: voto de desconfiança construtivo, cláusula de barreira, presidente sem poderes de emergência, tribunal constitucional com força para anular leis e possibilidade de proibir partidos que ataquem a ordem democrática. Chamou-se Lei Fundamental, e não Constituição, para marcar provisoriedade até a reunificação."
   },
   {
+    "id": "lei-governo-india-1858",
+    "tipo": "documento-oficial",
+    "titulo": "Government of India Act 1858",
+    "publicacao": "Parlamento do Reino Unido",
+    "data": "1858-08-02",
+    "citacao": "Dissolveu a Companhia das Índias Orientais e transferiu à Coroa o governo da Índia após a revolta de 1857. Encerrou o caso, único na história moderna, de um subcontinente administrado por uma empresa privada de capital aberto."
+  },
+  {
     "id": "lei-habilitacao-1933",
     "tipo": "documento-oficial",
     "titulo": "Lei de Concessão de Plenos Poderes (Ermächtigungsgesetz)",
     "publicacao": "Reichstag alemão",
     "data": "1933-03-24",
     "citacao": "Transferiu ao gabinete o poder de legislar sem o Reichstag e sem o presidente, inclusive contra a Constituição. Aprovada por 444 votos a 94, com deputados comunistas já presos ou foragidos e o Partido de Centro votando a favor; apenas os social-democratas presentes votaram contra."
+  },
+  {
+    "id": "lei-independencia-india-1947",
+    "tipo": "documento-oficial",
+    "titulo": "Indian Independence Act 1947",
+    "publicacao": "Parlamento do Reino Unido",
+    "data": "1947-07-18",
+    "citacao": "Criou os domínios da Índia e do Paquistão em 15 de agosto de 1947 e deixou a demarcação da fronteira a uma comissão presidida por um advogado britânico que jamais estivera na Índia e teve cerca de cinco semanas para o trabalho. O traçado só foi publicado dois dias depois da independência."
   },
   {
     "id": "lei-separacao-1905",
@@ -641,6 +696,13 @@
     "titulo": "Magna Carta",
     "data": "1215",
     "citacao": "Documento imposto ao rei João pelos barões, que estabeleceu limites ao poder real. Sua leitura como origem das liberdades inglesas é construção posterior, sobretudo do século XVII."
+  },
+  {
+    "id": "megastenes-indika",
+    "tipo": "livro",
+    "titulo": "Indiká (fragmentos)",
+    "autor": "Megástenes",
+    "citacao": "Relato do embaixador selêucida na corte de Pataliputra, por volta de 300 a.C., preservado apenas em citações de autores gregos posteriores. Descreve uma capital cercada por paliçada de madeira com centenas de torres — descrição que a escavação do sítio confirmou."
   },
   {
     "id": "memorial-base-vitimas",
@@ -756,6 +818,14 @@
     "citacao": "Ata da reunião que coordenou entre ministérios e polícia a deportação e o extermínio dos judeus da Europa, com estimativa nominal de onze milhões de pessoas por país. Não foi ali que o genocídio foi decidido — os fuzilamentos em massa já estavam em curso —, e sim onde a máquina administrativa do Estado foi alinhada para executá-lo."
   },
   {
+    "id": "relatorio-hunter-1920",
+    "tipo": "documento-oficial",
+    "titulo": "Report of the Committee Appointed to Investigate the Disturbances in the Punjab (Comitê Hunter)",
+    "publicacao": "Governo da Índia Britânica",
+    "data": "1920",
+    "citacao": "Investigação oficial sobre o massacre de Amritsar. Registrou que o comandante ordenou fogo sobre uma multidão desarmada num recinto de saída única, sem aviso prévio, e que mandou atirar até acabar a munição. Ele foi censurado e afastado do comando, nunca processado, e uma subscrição pública na Grã-Bretanha arrecadou uma soma considerável em sua homenagem."
+  },
+  {
     "id": "resolucao-pcc-1981",
     "tipo": "documento-oficial",
     "titulo": "Resolução sobre algumas questões da história do Partido desde a fundação da República Popular",
@@ -770,6 +840,14 @@
     "autor": "Susan Reynolds",
     "data": "1994",
     "citacao": "Demonstrou que o sistema de feudo e vassalagem descrito nos manuais foi construído por juristas dos séculos XI e XII e sistematizado por historiadores do XIX, sem correspondência direta nas fontes altomedievais. Sustenta a ressalva do período carolíngio contra tratar o feudalismo como um sistema pronto."
+  },
+  {
+    "id": "roy-economia-india-colonial",
+    "tipo": "livro",
+    "titulo": "The Economic History of India, 1857–2010",
+    "autor": "Tirthankar Roy",
+    "data": "2011",
+    "citacao": "Atribui o baixo crescimento da Índia colonial sobretudo à escassez de água, à baixa produtividade agrícola e à densidade demográfica, e considera exagerada a tese da drenagem de riqueza como explicação central. É a posição oposta à de Mike Davis e à tradição nacionalista, e o atlas registra as duas."
   },
   {
     "id": "saville-inquiry-2010",
@@ -795,6 +873,14 @@
     "publicacao": "Companhia das Letras",
     "data": "2015",
     "citacao": "Síntese de referência da história do Brasil do período colonial ao século XXI, usada no atlas como base narrativa geral."
+  },
+  {
+    "id": "sen-pobreza-fomes",
+    "tipo": "livro",
+    "titulo": "Poverty and Famines: An Essay on Entitlement and Deprivation",
+    "autor": "Amartya Sen",
+    "data": "1981",
+    "citacao": "Demonstrou, a partir da fome de Bengala de 1943 e de outros casos, que fomes ocorrem sem queda na oferta de alimento, por colapso do poder de compra de grupos específicos. E observou que nenhuma fome de grande escala jamais ocorreu num país com eleições disputadas e imprensa livre — proposição que a Índia independente confirma."
   },
   {
     "id": "senado-cia-tortura-2014",
@@ -988,6 +1074,14 @@
     "titulo": "Der lange Weg nach Westen",
     "autor": "Heinrich August Winkler",
     "citacao": "História alemã do fim do Sacro Império à reunificação, organizada em torno de quando e como a Alemanha se tornou parte do Ocidente político."
+  },
+  {
+    "id": "xuanzang-relato",
+    "tipo": "livro",
+    "titulo": "Registro das Regiões Ocidentais na Grande Tang (Da Tang Xiyu Ji)",
+    "autor": "Xuanzang",
+    "data": "646",
+    "citacao": "Relato do monge chinês que percorreu a Índia entre 630 e 644 em busca de textos budistas, escrito por ordem do imperador Tang no retorno. É a principal fonte sobre o reinado de Harsha e sobre o mosteiro-universidade de Nalanda, e tem ponto de vista declarado: um peregrino estrangeiro, interessado em mosteiros, escrevendo para leitores chineses."
   },
   {
     "id": "yang-jisheng-lapide",
