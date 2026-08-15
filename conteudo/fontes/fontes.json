@@ -1,56 +1,5 @@
 [
   {
-    "id": "caminha-1500",
-    "tipo": "documento-oficial",
-    "titulo": "Carta de Pero Vaz de Caminha a el-rei D. Manuel I",
-    "autor": "Pero Vaz de Caminha",
-    "data": "1500-05-01",
-    "citacao": "Relato da chegada da frota de Cabral à costa da futura Bahia, escrito em Porto Seguro e enviado a Lisboa pela nau de Gaspar de Lemos."
-  },
-  {
-    "id": "proc-condenacao-1431",
-    "tipo": "documento-oficial",
-    "titulo": "Processo de condenação de Joana d'Arc",
-    "publicacao": "Tribunal eclesiástico de Rouen",
-    "data": "1431",
-    "citacao": "Autos do julgamento presidido pelo bispo Pierre Cauchon, que concluíram pela condenação por heresia e relapsia."
-  },
-  {
-    "id": "proc-nulidade-1456",
-    "tipo": "documento-oficial",
-    "titulo": "Processo de nulidade da condenação de Joana d'Arc",
-    "publicacao": "Tribunal papal de reexame",
-    "data": "1456-07-07",
-    "citacao": "Reexame instaurado a pedido da família e autorizado pelo papa Calisto III, que anulou a sentença de 1431 e declarou Joana inocente das acusações."
-  },
-  {
-    "id": "stf-ap-2668",
-    "tipo": "decisao-judicial",
-    "titulo": "Ação Penal 2668 — condenação por tentativa de golpe de Estado",
-    "publicacao": "Supremo Tribunal Federal, Primeira Turma",
-    "data": "2025",
-    "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7223339",
-    "citacao": "Condenação a 27 anos e 3 meses pelos crimes de organização criminosa armada, abolição violenta do Estado Democrático de Direito, golpe de Estado, dano qualificado ao patrimônio público e deterioração de patrimônio tombado."
-  },
-  {
-    "id": "stf-rvc-6021",
-    "tipo": "documento-oficial",
-    "titulo": "Ex-presidente Bolsonaro apresenta revisão criminal contra condenação por tentativa de golpe de Estado",
-    "publicacao": "Supremo Tribunal Federal",
-    "data": "2026-05-12",
-    "url": "https://noticias.stf.jus.br/postsnoticias/ex-presidente-bolsonaro-apresenta-revisao-criminal-contra-condenacao-por-tentativa-de-golpe-de-estado/",
-    "citacao": "Trânsito em julgado reconhecido em 25/11/2025. A revisão criminal é ação cabível a qualquer tempo após o trânsito em julgado e foi distribuída ao ministro Nunes Marques."
-  },
-  {
-    "id": "stf-pet-10405",
-    "tipo": "decisao-judicial",
-    "titulo": "STF arquiva investigação por fraude em cartão de vacina (Pet 10405)",
-    "publicacao": "Supremo Tribunal Federal",
-    "data": "2025-03-28",
-    "url": "https://noticias.stf.jus.br/postsnoticias/stf-arquiva-investigacao-contra-ex-presidente-da-republica-por-fraude-em-cartao-de-vacina/",
-    "citacao": "Arquivamento a pedido da PGR: a legislação proíbe recebimento de denúncia baseada somente em declarações de colaborador, e não foram levantadas provas além da colaboração de Mauro Cid."
-  },
-  {
     "id": "agbrasil-joias-2026",
     "tipo": "reportagem",
     "titulo": "STF pede novo parecer da PGR sobre caso das joias sauditas",
@@ -60,84 +9,27 @@
     "citacao": "Decisão de 18 de março de 2026: após a PGR pedir arquivamento alegando lacuna legislativa, o ministro Alexandre de Moraes determinou novo parecer. O caso não foi arquivado."
   },
   {
-    "id": "stf-hc-193726",
-    "tipo": "decisao-judicial",
-    "titulo": "STF confirma anulação de condenações do ex-presidente Lula na Lava Jato (HC 193726)",
-    "publicacao": "Supremo Tribunal Federal, Plenário",
-    "data": "2021-04-15",
-    "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464261",
-    "citacao": "Por 8 votos a 3, o Plenário confirmou a decisão do ministro Edson Fachin que declarou a incompetência da 13ª Vara Federal de Curitiba. As denúncias não tinham correlação com desvios da Petrobras. A decisão é sobre competência, não sobre o mérito das acusações."
+    "id": "ato-de-uniao-1707",
+    "tipo": "documento-oficial",
+    "titulo": "Atos de União entre Inglaterra e Escócia",
+    "data": "1707",
+    "citacao": "Fundiram os dois reinos e os dois parlamentos, criando a Grã-Bretanha."
   },
   {
-    "id": "stf-suspeicao-moro-2021",
-    "tipo": "decisao-judicial",
-    "titulo": "STF confirma suspeição de Sergio Moro na ação do triplex do Guarujá",
-    "publicacao": "Supremo Tribunal Federal, Plenário",
-    "data": "2021-06-23",
-    "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=468086",
-    "citacao": "Por sete votos a quatro, o Plenário manteve o entendimento da Segunda Turma de que Moro agiu com parcialidade. Ficou mantida a anulação de todas as suas decisões no caso, incluindo os atos da fase pré-processual."
+    "id": "bill-of-rights-1689",
+    "tipo": "documento-oficial",
+    "titulo": "Bill of Rights",
+    "publicacao": "Parlamento da Inglaterra",
+    "data": "1689",
+    "citacao": "Firmou a supremacia do Parlamento sobre a Coroa depois da Revolução Gloriosa."
   },
   {
-    "id": "poder360-arquivamento-triplex",
-    "tipo": "reportagem",
-    "titulo": "Justiça arquiva caso do tríplex contra Lula",
-    "publicacao": "Poder360",
-    "data": "2022-01-28",
-    "url": "https://www.poder360.com.br/justica/justica-arquiva-caso-do-triplex-contra-lula/",
-    "citacao": "A juíza Pollyanna Alves, da 12ª Vara Federal Criminal de Brasília, arquivou a ação em 27/01/2022, acompanhando o MPF, que apontou que as provas não podiam ser reaproveitadas em razão da nulidade e que os crimes estavam prescritos."
-  },
-  {
-    "id": "p360-lulinha-cannabis-2026",
-    "tipo": "reportagem",
-    "titulo": "Entenda a investigação da PF sobre Lulinha e tráfico de influência",
-    "publicacao": "Poder360",
-    "data": "2026-07-31",
-    "url": "https://www.poder360.com.br/poder-justica/entenda-a-investigacao-da-pf-sobre-lulinha-e-trafico-de-influencia/",
-    "citacao": "O ministro André Mendonça autorizou em 30/07/2026 a abertura de inquérito a pedido da PF. A defesa afirma que o pedido de nova investigação demonstra falha da PF em encontrar provas. Roberta Luchsinger declarou em depoimento que Fábio Luís não prestou serviços de regulação de canabidiol nem foi remunerado por isso."
-  },
-  {
-    "id": "infomoney-lulinha-2026",
-    "tipo": "reportagem",
-    "titulo": "Quem é Lulinha: da Gamecorp aos inquéritos no STF",
-    "publicacao": "InfoMoney",
-    "data": "2026-08",
-    "url": "https://www.infomoney.com.br/perfil/fabio-luis-lula-da-silva-lulinha/",
-    "citacao": "Três inquéritos autorizados pelo STF em menos de uma semana, todos derivados da Operação Sem Desconto. Sobre os casos anteriores da Gamecorp: os processos acabaram arquivados ou anulados, sem condenação definitiva. A defesa nega qualquer prática ilícita."
-  },
-  {
-    "id": "conjur-atibaia-2025",
-    "tipo": "reportagem",
-    "titulo": "TRF-1 mantém rejeição de denúncia contra Lula por sítio de Atibaia",
-    "publicacao": "Consultor Jurídico",
-    "data": "2025-07-30",
-    "url": "https://conjur.com.br/2025-jul-30/trf-1-nega-pedido-para-reabrir-acao-contra-lula-por-sitio-de-atibaia/",
-    "citacao": "A 10ª Turma do TRF-1 rejeitou por unanimidade o pedido do MPF para reabrir a ação. Em primeira instância foi reconhecida a prescrição da pretensão acusatória, por Lula ter mais de 70 anos, o que reduz o prazo pela metade conforme o artigo 115 do Código Penal."
-  },
-  {
-    "id": "slavevoyages",
-    "tipo": "dataset",
-    "titulo": "Trans-Atlantic Slave Trade Database",
-    "publicacao": "SlaveVoyages, consórcio de universidades",
-    "url": "https://www.slavevoyages.org/",
-    "citacao": "Base que reúne registros de mais de 36 mil viagens negreiras e sustenta as estimativas de desembarque por destino. É dela que vem a ordem de grandeza usada no atlas para o Brasil; as estimativas são revisadas conforme novos registros entram, e o número não deve ser lido como contagem fechada."
-  },
-  {
-    "id": "schwarcz-starling-brasil",
-    "tipo": "livro",
-    "titulo": "Brasil: uma biografia",
-    "autor": "Lilia Moritz Schwarcz e Heloisa Murgel Starling",
-    "publicacao": "Companhia das Letras",
-    "data": "2015",
-    "citacao": "Síntese de referência da história do Brasil do período colonial ao século XXI, usada no atlas como base narrativa geral."
-  },
-  {
-    "id": "fausto-historia-brasil",
-    "tipo": "livro",
-    "titulo": "História do Brasil",
-    "autor": "Boris Fausto",
-    "publicacao": "Edusp",
-    "data": "1994",
-    "citacao": "Manual de referência para a periodização republicana e para a leitura econômica dos ciclos do café e da industrialização."
+    "id": "caminha-1500",
+    "tipo": "documento-oficial",
+    "titulo": "Carta de Pero Vaz de Caminha a el-rei D. Manuel I",
+    "autor": "Pero Vaz de Caminha",
+    "data": "1500-05-01",
+    "citacao": "Relato da chegada da frota de Cabral à costa da futura Bahia, escrito em Porto Seguro e enviado a Lisboa pela nau de Gaspar de Lemos."
   },
   {
     "id": "carvalho-bestializados",
@@ -149,31 +41,6 @@
     "citacao": "Trabalho que qualificou a leitura consagrada pela frase de Aristides Lobo, mostrando formas de participação popular que a imagem do povo bestializado encobria."
   },
   {
-    "id": "leal-coronelismo",
-    "tipo": "livro",
-    "titulo": "Coronelismo, Enxada e Voto: o município e o regime representativo no Brasil",
-    "autor": "Victor Nunes Leal",
-    "data": "1949",
-    "citacao": "Obra que estabeleceu a interpretação do coronelismo como fruto da fraqueza do coronel diante do Estado, e não da sua força — leitura adotada no texto do atlas."
-  },
-  {
-    "id": "gomes-invencao-trabalhismo",
-    "tipo": "livro",
-    "titulo": "A Invenção do Trabalhismo",
-    "autor": "Ângela Maria de Castro Gomes",
-    "data": "1988",
-    "citacao": "Referência central da disputa sobre se os direitos trabalhistas foram outorgados de cima ou construídos na relação com a organização operária anterior a 1930."
-  },
-  {
-    "id": "parker-brother-sam",
-    "tipo": "livro",
-    "titulo": "Brazil and the Quiet Intervention, 1964",
-    "autor": "Phyllis R. Parker",
-    "publicacao": "University of Texas Press",
-    "data": "1979",
-    "citacao": "Estudo baseado em documentos americanos desclassificados que estabeleceu o registro público da Operação Brother Sam, o destacamento naval preparado para apoiar o golpe."
-  },
-  {
     "id": "cnv-relatorio",
     "tipo": "documento-oficial",
     "titulo": "Relatório final da Comissão Nacional da Verdade",
@@ -183,36 +50,28 @@
     "citacao": "Atribuiu ao Estado 434 mortos e desaparecidos políticos, número tratado pela própria comissão como piso, e documentou a tortura como prática sistemática. O caderno temático sobre povos indígenas estimou em ao menos 8.350 os indígenas mortos por ação ou omissão do Estado no período."
   },
   {
-    "id": "stf-adpf-153",
-    "tipo": "decisao-judicial",
-    "titulo": "ADPF 153 — constitucionalidade da Lei da Anistia",
-    "publicacao": "Supremo Tribunal Federal",
-    "data": "2010-04-29",
-    "citacao": "O STF julgou improcedente a arguição e manteve a interpretação de que a anistia de 1979 alcança também os agentes do Estado."
-  },
-  {
-    "id": "corteidh-gomes-lund",
-    "tipo": "decisao-judicial",
-    "titulo": "Caso Gomes Lund e outros (Guerrilha do Araguaia) vs. Brasil",
-    "publicacao": "Corte Interamericana de Direitos Humanos",
-    "data": "2010-11-24",
-    "citacao": "No mesmo ano da ADPF 153 e em sentido oposto, a Corte condenou o Brasil e decidiu que as disposições da Lei da Anistia não podem impedir a investigação e punição de graves violações de direitos humanos. As duas decisões seguem em vigor."
-  },
-  {
-    "id": "constituicao-1988",
+    "id": "code-noir-1685",
     "tipo": "documento-oficial",
-    "titulo": "Constituição da República Federativa do Brasil de 1988",
-    "publicacao": "Assembleia Nacional Constituinte",
-    "data": "1988-10-05",
-    "citacao": "Estabeleceu o voto universal, incluindo analfabetos, e o desenho institucional ainda vigente."
+    "titulo": "Édit du roi touchant la police des îles de l'Amérique française (Code Noir)",
+    "publicacao": "Reino da França",
+    "data": "1685-03",
+    "citacao": "Regulou juridicamente a escravidão nas colônias francesas: definiu a pessoa escravizada como bem móvel, disciplinou castigos e restringiu alforrias. Documento usado no atlas para mostrar que o Antigo Regime legislou a escravidão no mesmo ano em que revogou o Edito de Nantes."
   },
   {
-    "id": "cpi-pandemia-relatorio",
+    "id": "codigo-civil-1804",
     "tipo": "documento-oficial",
-    "titulo": "Relatório final da CPI da Pandemia",
-    "publicacao": "Senado Federal",
-    "data": "2021-10-26",
-    "citacao": "Concluiu pedindo o indiciamento do então presidente da República por crimes relacionados à condução da crise sanitária. Relatório de comissão parlamentar de inquérito é peça política e investigativa, não decisão judicial."
+    "titulo": "Code civil des Français",
+    "publicacao": "República Francesa",
+    "data": "1804-03-21",
+    "citacao": "Consolidou a igualdade civil, a propriedade e o casamento laico, e serviu de modelo a dezenas de codificações no século XIX. O mesmo texto submeteu a mulher casada à incapacidade jurídica, desmontada na França apenas ao longo do século XX."
+  },
+  {
+    "id": "colombo-carta-santangel",
+    "tipo": "documento-oficial",
+    "titulo": "Carta a Luis de Santángel anunciando a viagem",
+    "autor": "Cristóvão Colombo",
+    "data": "1493-02",
+    "citacao": "Escrita na volta e impressa ainda em 1493, circulou por toda a Europa em poucos meses. É relato de quem precisava justificar o financiamento e obter mais: descreve as ilhas e seus habitantes com o interesse declarado de quem buscava continuidade da empresa."
   },
   {
     "id": "colombo-diario",
@@ -223,12 +82,152 @@
     "citacao": "O diário original se perdeu, assim como a cópia mandada fazer pelos Reis Católicos. O que sobreviveu é o resumo preparado por Bartolomé de las Casas décadas depois, em que alguns trechos aparecem citados e outros parafraseados na terceira pessoa — distinção que importa para julgar cada afirmação atribuída a Colombo."
   },
   {
-    "id": "colombo-carta-santangel",
+    "id": "conjur-atibaia-2025",
+    "tipo": "reportagem",
+    "titulo": "TRF-1 mantém rejeição de denúncia contra Lula por sítio de Atibaia",
+    "publicacao": "Consultor Jurídico",
+    "data": "2025-07-30",
+    "url": "https://conjur.com.br/2025-jul-30/trf-1-nega-pedido-para-reabrir-acao-contra-lula-por-sitio-de-atibaia/",
+    "citacao": "A 10ª Turma do TRF-1 rejeitou por unanimidade o pedido do MPF para reabrir a ação. Em primeira instância foi reconhecida a prescrição da pretensão acusatória, por Lula ter mais de 70 anos, o que reduz o prazo pela metade conforme o artigo 115 do Código Penal."
+  },
+  {
+    "id": "constituicao-1988",
     "tipo": "documento-oficial",
-    "titulo": "Carta a Luis de Santángel anunciando a viagem",
-    "autor": "Cristóvão Colombo",
-    "data": "1493-02",
-    "citacao": "Escrita na volta e impressa ainda em 1493, circulou por toda a Europa em poucos meses. É relato de quem precisava justificar o financiamento e obter mais: descreve as ilhas e seus habitantes com o interesse declarado de quem buscava continuidade da empresa."
+    "titulo": "Constituição da República Federativa do Brasil de 1988",
+    "publicacao": "Assembleia Nacional Constituinte",
+    "data": "1988-10-05",
+    "citacao": "Estabeleceu o voto universal, incluindo analfabetos, e o desenho institucional ainda vigente."
+  },
+  {
+    "id": "constituicao-eua-1787",
+    "tipo": "documento-oficial",
+    "titulo": "Constituição dos Estados Unidos da América",
+    "publicacao": "Convenção da Filadélfia",
+    "data": "1787-09-17",
+    "citacao": "Substituiu os Artigos da Confederação e criou a república federal."
+  },
+  {
+    "id": "constituicao-francesa-1958",
+    "tipo": "documento-oficial",
+    "titulo": "Constituição da Quinta República Francesa",
+    "publicacao": "República Francesa",
+    "data": "1958-10-04",
+    "citacao": "Estabeleceu o presidencialismo reforçado que define o regime francês desde então."
+  },
+  {
+    "id": "corteidh-gomes-lund",
+    "tipo": "decisao-judicial",
+    "titulo": "Caso Gomes Lund e outros (Guerrilha do Araguaia) vs. Brasil",
+    "publicacao": "Corte Interamericana de Direitos Humanos",
+    "data": "2010-11-24",
+    "citacao": "No mesmo ano da ADPF 153 e em sentido oposto, a Corte condenou o Brasil e decidiu que as disposições da Lei da Anistia não podem impedir a investigação e punição de graves violações de direitos humanos. As duas decisões seguem em vigor."
+  },
+  {
+    "id": "cpi-pandemia-relatorio",
+    "tipo": "documento-oficial",
+    "titulo": "Relatório final da CPI da Pandemia",
+    "publicacao": "Senado Federal",
+    "data": "2021-10-26",
+    "citacao": "Concluiu pedindo o indiciamento do então presidente da República por crimes relacionados à condução da crise sanitária. Relatório de comissão parlamentar de inquérito é peça política e investigativa, não decisão judicial."
+  },
+  {
+    "id": "declaracao-direitos-1789",
+    "tipo": "documento-oficial",
+    "titulo": "Declaração dos Direitos do Homem e do Cidadão",
+    "publicacao": "Assembleia Nacional Constituinte francesa",
+    "data": "1789-08-26",
+    "citacao": "Afirma no artigo 1º que os homens nascem e permanecem livres e iguais em direitos. É o texto contra o qual se mede a distância entre o princípio declarado e a escravidão mantida nas colônias até 1794, restabelecida em 1802."
+  },
+  {
+    "id": "duby-historia-franca",
+    "tipo": "livro",
+    "titulo": "Histoire de la France",
+    "autor": "Georges Duby (dir.)",
+    "citacao": "Obra coletiva de referência que cobre da Gália ao século XX, usada como base narrativa geral para os períodos franceses."
+  },
+  {
+    "id": "editos-asoka",
+    "tipo": "documento-oficial",
+    "titulo": "Éditos de Asoka",
+    "data": "-250",
+    "citacao": "Inscrições em rochedos e pilares mandadas gravar pelo imperador máuria. São as inscrições mais antigas da Índia que se lê com segurança, e a principal evidência direta do alcance do império."
+  },
+  {
+    "id": "evans-terceiro-reich",
+    "tipo": "livro",
+    "titulo": "The Third Reich Trilogy",
+    "autor": "Richard J. Evans",
+    "citacao": "Trilogia que cobre a chegada ao poder, o regime e a guerra."
+  },
+  {
+    "id": "fairbank-china",
+    "tipo": "livro",
+    "titulo": "China: A New History",
+    "autor": "John King Fairbank e Merle Goldman",
+    "citacao": "Síntese de referência da história chinesa, das dinastias antigas à República Popular."
+  },
+  {
+    "id": "fausto-historia-brasil",
+    "tipo": "livro",
+    "titulo": "História do Brasil",
+    "autor": "Boris Fausto",
+    "publicacao": "Edusp",
+    "data": "1994",
+    "citacao": "Manual de referência para a periodização republicana e para a leitura econômica dos ciclos do café e da industrialização."
+  },
+  {
+    "id": "figes-tragedia-russa",
+    "tipo": "livro",
+    "titulo": "A People’s Tragedy: The Russian Revolution 1891–1924",
+    "autor": "Orlando Figes",
+    "data": "1996",
+    "citacao": "Narrativa de referência do colapso do Império Russo e da revolução, da fome de 1891 à morte de Lênin."
+  },
+  {
+    "id": "fitzpatrick-revolucao-russa",
+    "tipo": "livro",
+    "titulo": "The Russian Revolution",
+    "autor": "Sheila Fitzpatrick",
+    "citacao": "Síntese que trata a revolução como processo social de longa duração, e não como episódio de 1917."
+  },
+  {
+    "id": "foner-give-me-liberty",
+    "tipo": "livro",
+    "titulo": "Give Me Liberty! An American History",
+    "autor": "Eric Foner",
+    "citacao": "Manual de referência da história americana, usado como base narrativa geral para os períodos dos Estados Unidos."
+  },
+  {
+    "id": "foner-reconstruction",
+    "tipo": "livro",
+    "titulo": "Reconstruction: America’s Unfinished Revolution, 1863–1877",
+    "autor": "Eric Foner",
+    "data": "1988",
+    "citacao": "Obra que reescreveu a interpretação da Reconstrução, desmontando a leitura anterior que a tratava como período de corrupção e mau governo."
+  },
+  {
+    "id": "furet-revolucao-francesa",
+    "tipo": "livro",
+    "titulo": "Penser la Révolution française",
+    "autor": "François Furet",
+    "data": "1978",
+    "citacao": "Livro que reabriu a disputa historiográfica sobre a Revolução, contestando a leitura social até então dominante. É a referência para tratar a Revolução como objeto em disputa, e não como narrativa fechada."
+  },
+  {
+    "id": "gomes-invencao-trabalhismo",
+    "tipo": "livro",
+    "titulo": "A Invenção do Trabalhismo",
+    "autor": "Ângela Maria de Castro Gomes",
+    "data": "1988",
+    "citacao": "Referência central da disputa sobre se os direitos trabalhistas foram outorgados de cima ou construídos na relação com a organização operária anterior a 1930."
+  },
+  {
+    "id": "guha-india-after-gandhi",
+    "tipo": "livro",
+    "titulo": "India After Gandhi",
+    "autor": "Ramachandra Guha",
+    "data": "2007",
+    "citacao": "História da Índia independente, do domínio de 1947 à república contemporânea."
   },
   {
     "id": "ibge-sidra-1737",
@@ -247,122 +246,13 @@
     "citacao": "Pesquisa Nacional por Amostra de Domicílios Contínua, pessoas de 14 anos ou mais. A tabela publica trimestres móveis, que se sobrepõem; o atlas usa sempre o trimestre out–dez para não apresentar como número do IBGE uma média que o IBGE não divulga."
   },
   {
-    "id": "duby-historia-franca",
-    "tipo": "livro",
-    "titulo": "Histoire de la France",
-    "autor": "Georges Duby (dir.)",
-    "citacao": "Obra coletiva de referência que cobre da Gália ao século XX, usada como base narrativa geral para os períodos franceses."
-  },
-  {
-    "id": "furet-revolucao-francesa",
-    "tipo": "livro",
-    "titulo": "Penser la Révolution française",
-    "autor": "François Furet",
-    "data": "1978",
-    "citacao": "Livro que reabriu a disputa historiográfica sobre a Revolução, contestando a leitura social até então dominante. É a referência para tratar a Revolução como objeto em disputa, e não como narrativa fechada."
-  },
-  {
-    "id": "constituicao-francesa-1958",
-    "tipo": "documento-oficial",
-    "titulo": "Constituição da Quinta República Francesa",
-    "publicacao": "República Francesa",
-    "data": "1958-10-04",
-    "citacao": "Estabeleceu o presidencialismo reforçado que define o regime francês desde então."
-  },
-  {
-    "id": "foner-give-me-liberty",
-    "tipo": "livro",
-    "titulo": "Give Me Liberty! An American History",
-    "autor": "Eric Foner",
-    "citacao": "Manual de referência da história americana, usado como base narrativa geral para os períodos dos Estados Unidos."
-  },
-  {
-    "id": "foner-reconstruction",
-    "tipo": "livro",
-    "titulo": "Reconstruction: America’s Unfinished Revolution, 1863–1877",
-    "autor": "Eric Foner",
-    "data": "1988",
-    "citacao": "Obra que reescreveu a interpretação da Reconstrução, desmontando a leitura anterior que a tratava como período de corrupção e mau governo."
-  },
-  {
-    "id": "constituicao-eua-1787",
-    "tipo": "documento-oficial",
-    "titulo": "Constituição dos Estados Unidos da América",
-    "publicacao": "Convenção da Filadélfia",
-    "data": "1787-09-17",
-    "citacao": "Substituiu os Artigos da Confederação e criou a república federal."
-  },
-  {
-    "id": "figes-tragedia-russa",
-    "tipo": "livro",
-    "titulo": "A People’s Tragedy: The Russian Revolution 1891–1924",
-    "autor": "Orlando Figes",
-    "data": "1996",
-    "citacao": "Narrativa de referência do colapso do Império Russo e da revolução, da fome de 1891 à morte de Lênin."
-  },
-  {
-    "id": "fitzpatrick-revolucao-russa",
-    "tipo": "livro",
-    "titulo": "The Russian Revolution",
-    "autor": "Sheila Fitzpatrick",
-    "citacao": "Síntese que trata a revolução como processo social de longa duração, e não como episódio de 1917."
-  },
-  {
-    "id": "kotkin-stalin",
-    "tipo": "livro",
-    "titulo": "Stalin",
-    "autor": "Stephen Kotkin",
-    "citacao": "Biografia em vários volumes baseada em arquivos soviéticos abertos depois de 1991, referência para o período stalinista."
-  },
-  {
-    "id": "kershaw-hitler",
-    "tipo": "livro",
-    "titulo": "Hitler",
-    "autor": "Ian Kershaw",
-    "citacao": "Biografia de referência que explica a ascensão nazista pela dinâmica entre o líder e as instituições alemãs, e não apenas pela figura dele."
-  },
-  {
-    "id": "evans-terceiro-reich",
-    "tipo": "livro",
-    "titulo": "The Third Reich Trilogy",
-    "autor": "Richard J. Evans",
-    "citacao": "Trilogia que cobre a chegada ao poder, o regime e a guerra."
-  },
-  {
-    "id": "winkler-caminho-oeste",
-    "tipo": "livro",
-    "titulo": "Der lange Weg nach Westen",
-    "autor": "Heinrich August Winkler",
-    "citacao": "História alemã do fim do Sacro Império à reunificação, organizada em torno de quando e como a Alemanha se tornou parte do Ocidente político."
-  },
-  {
-    "id": "tratado-versalhes",
-    "tipo": "documento-oficial",
-    "titulo": "Tratado de Versalhes",
-    "data": "1919-06-28",
-    "citacao": "Atribuiu à Alemanha a responsabilidade pela Primeira Guerra e impôs reparações. O artigo 231, a chamada cláusula de culpa, é peça central da política alemã do entreguerras."
-  },
-  {
-    "id": "fairbank-china",
-    "tipo": "livro",
-    "titulo": "China: A New History",
-    "autor": "John King Fairbank e Merle Goldman",
-    "citacao": "Síntese de referência da história chinesa, das dinastias antigas à República Popular."
-  },
-  {
-    "id": "sima-qian-shiji",
-    "tipo": "livro",
-    "titulo": "Shiji (Registros do Historiador)",
-    "autor": "Sima Qian",
-    "citacao": "Escrito por volta de 100 a.C., é a fonte narrativa mais antiga e influente sobre as dinastias anteriores aos Han. Como toda crônica de corte tem ponto de vista: foi composta sob os Han, sobre as dinastias que eles substituíram."
-  },
-  {
-    "id": "projeto-cronologia-xsz",
-    "tipo": "artigo-academico",
-    "titulo": "Projeto de Cronologia Xia-Shang-Zhou",
-    "publicacao": "República Popular da China",
-    "data": "2000",
-    "citacao": "Iniciativa estatal que fixou 1600 e 1046 a.C. como marcos. Sua precisão foi contestada por parte da comunidade acadêmica fora da China, que aponta circularidade no uso das fontes; estimativas anteriores para a conquista zhou variam de 1122 a 1027 a.C."
+    "id": "infomoney-lulinha-2026",
+    "tipo": "reportagem",
+    "titulo": "Quem é Lulinha: da Gamecorp aos inquéritos no STF",
+    "publicacao": "InfoMoney",
+    "data": "2026-08",
+    "url": "https://www.infomoney.com.br/perfil/fabio-luis-lula-da-silva-lulinha/",
+    "citacao": "Três inquéritos autorizados pelo STF em menos de uma semana, todos derivados da Operação Sem Desconto. Sobre os casos anteriores da Gamecorp: os processos acabaram arquivados ou anulados, sem condenação definitiva. A defesa nega qualquer prática ilícita."
   },
   {
     "id": "jansen-japao-moderno",
@@ -373,11 +263,41 @@
     "citacao": "Referência para o Japão de Tokugawa em diante, cobrindo a Restauração Meiji, o império e o pós-guerra."
   },
   {
-    "id": "totman-historia-japao",
+    "id": "kershaw-hitler",
     "tipo": "livro",
-    "titulo": "A History of Japan",
-    "autor": "Conrad Totman",
-    "citacao": "Síntese que cobre desde o povoamento do arquipélago, usada para os períodos anteriores a 1185."
+    "titulo": "Hitler",
+    "autor": "Ian Kershaw",
+    "citacao": "Biografia de referência que explica a ascensão nazista pela dinâmica entre o líder e as instituições alemãs, e não apenas pela figura dele."
+  },
+  {
+    "id": "kotkin-stalin",
+    "tipo": "livro",
+    "titulo": "Stalin",
+    "autor": "Stephen Kotkin",
+    "citacao": "Biografia em vários volumes baseada em arquivos soviéticos abertos depois de 1991, referência para o período stalinista."
+  },
+  {
+    "id": "leal-coronelismo",
+    "tipo": "livro",
+    "titulo": "Coronelismo, Enxada e Voto: o município e o regime representativo no Brasil",
+    "autor": "Victor Nunes Leal",
+    "data": "1949",
+    "citacao": "Obra que estabeleceu a interpretação do coronelismo como fruto da fraqueza do coronel diante do Estado, e não da sua força — leitura adotada no texto do atlas."
+  },
+  {
+    "id": "lei-separacao-1905",
+    "tipo": "documento-oficial",
+    "titulo": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l'État",
+    "publicacao": "República Francesa",
+    "data": "1905-12-09",
+    "citacao": "A República não reconhece nem subsidia culto algum, e garante o livre exercício deles. É a base jurídica da laicidade francesa e o texto invocado nas disputas posteriores sobre símbolos religiosos."
+  },
+  {
+    "id": "magna-carta-1215",
+    "tipo": "documento-oficial",
+    "titulo": "Magna Carta",
+    "data": "1215",
+    "citacao": "Documento imposto ao rei João pelos barões, que estabeleceu limites ao poder real. Sua leitura como origem das liberdades inglesas é construção posterior, sobretudo do século XVII."
   },
   {
     "id": "nihon-shoki",
@@ -385,6 +305,165 @@
     "titulo": "Nihon Shoki",
     "data": "720",
     "citacao": "Crônica compilada pela corte de Nara. Registra a fundação do império em 660 a.C., data mitológica sem sustentação arqueológica que o Estado japonês do início do século XX tratou como história oficial."
+  },
+  {
+    "id": "p360-lulinha-cannabis-2026",
+    "tipo": "reportagem",
+    "titulo": "Entenda a investigação da PF sobre Lulinha e tráfico de influência",
+    "publicacao": "Poder360",
+    "data": "2026-07-31",
+    "url": "https://www.poder360.com.br/poder-justica/entenda-a-investigacao-da-pf-sobre-lulinha-e-trafico-de-influencia/",
+    "citacao": "O ministro André Mendonça autorizou em 30/07/2026 a abertura de inquérito a pedido da PF. A defesa afirma que o pedido de nova investigação demonstra falha da PF em encontrar provas. Roberta Luchsinger declarou em depoimento que Fábio Luís não prestou serviços de regulação de canabidiol nem foi remunerado por isso."
+  },
+  {
+    "id": "parker-brother-sam",
+    "tipo": "livro",
+    "titulo": "Brazil and the Quiet Intervention, 1964",
+    "autor": "Phyllis R. Parker",
+    "publicacao": "University of Texas Press",
+    "data": "1979",
+    "citacao": "Estudo baseado em documentos americanos desclassificados que estabeleceu o registro público da Operação Brother Sam, o destacamento naval preparado para apoiar o golpe."
+  },
+  {
+    "id": "paxton-vichy",
+    "tipo": "livro",
+    "titulo": "Vichy France: Old Guard and New Order, 1940–1944",
+    "autor": "Robert O. Paxton",
+    "data": "1972",
+    "citacao": "Usando arquivos alemães, estabeleceu que a colaboração foi buscada pelo Estado francês e não imposta pelo ocupante, e que a legislação antissemita de 1940 partiu de iniciativa própria. Desfez a tese do escudo e da espada, dominante na França até os anos 1970."
+  },
+  {
+    "id": "poder360-arquivamento-triplex",
+    "tipo": "reportagem",
+    "titulo": "Justiça arquiva caso do tríplex contra Lula",
+    "publicacao": "Poder360",
+    "data": "2022-01-28",
+    "url": "https://www.poder360.com.br/justica/justica-arquiva-caso-do-triplex-contra-lula/",
+    "citacao": "A juíza Pollyanna Alves, da 12ª Vara Federal Criminal de Brasília, arquivou a ação em 27/01/2022, acompanhando o MPF, que apontou que as provas não podiam ser reaproveitadas em razão da nulidade e que os crimes estavam prescritos."
+  },
+  {
+    "id": "proc-condenacao-1431",
+    "tipo": "documento-oficial",
+    "titulo": "Processo de condenação de Joana d'Arc",
+    "publicacao": "Tribunal eclesiástico de Rouen",
+    "data": "1431",
+    "citacao": "Autos do julgamento presidido pelo bispo Pierre Cauchon, que concluíram pela condenação por heresia e relapsia."
+  },
+  {
+    "id": "proc-nulidade-1456",
+    "tipo": "documento-oficial",
+    "titulo": "Processo de nulidade da condenação de Joana d'Arc",
+    "publicacao": "Tribunal papal de reexame",
+    "data": "1456-07-07",
+    "citacao": "Reexame instaurado a pedido da família e autorizado pelo papa Calisto III, que anulou a sentença de 1431 e declarou Joana inocente das acusações."
+  },
+  {
+    "id": "projeto-cronologia-xsz",
+    "tipo": "artigo-academico",
+    "titulo": "Projeto de Cronologia Xia-Shang-Zhou",
+    "publicacao": "República Popular da China",
+    "data": "2000",
+    "citacao": "Iniciativa estatal que fixou 1600 e 1046 a.C. como marcos. Sua precisão foi contestada por parte da comunidade acadêmica fora da China, que aponta circularidade no uso das fontes; estimativas anteriores para a conquista zhou variam de 1122 a 1027 a.C."
+  },
+  {
+    "id": "reynolds-fiefs-vassals",
+    "tipo": "livro",
+    "titulo": "Fiefs and Vassals: The Medieval Evidence Reinterpreted",
+    "autor": "Susan Reynolds",
+    "data": "1994",
+    "citacao": "Demonstrou que o sistema de feudo e vassalagem descrito nos manuais foi construído por juristas dos séculos XI e XII e sistematizado por historiadores do XIX, sem correspondência direta nas fontes altomedievais. Sustenta a ressalva do período carolíngio contra tratar o feudalismo como um sistema pronto."
+  },
+  {
+    "id": "schama-historia-gra-bretanha",
+    "tipo": "livro",
+    "titulo": "A History of Britain",
+    "autor": "Simon Schama",
+    "citacao": "Narrativa de referência que cobre da Inglaterra medieval ao Reino Unido contemporâneo."
+  },
+  {
+    "id": "schwarcz-starling-brasil",
+    "tipo": "livro",
+    "titulo": "Brasil: uma biografia",
+    "autor": "Lilia Moritz Schwarcz e Heloisa Murgel Starling",
+    "publicacao": "Companhia das Letras",
+    "data": "2015",
+    "citacao": "Síntese de referência da história do Brasil do período colonial ao século XXI, usada no atlas como base narrativa geral."
+  },
+  {
+    "id": "sima-qian-shiji",
+    "tipo": "livro",
+    "titulo": "Shiji (Registros do Historiador)",
+    "autor": "Sima Qian",
+    "citacao": "Escrito por volta de 100 a.C., é a fonte narrativa mais antiga e influente sobre as dinastias anteriores aos Han. Como toda crônica de corte tem ponto de vista: foi composta sob os Han, sobre as dinastias que eles substituíram."
+  },
+  {
+    "id": "slavevoyages",
+    "tipo": "dataset",
+    "titulo": "Trans-Atlantic Slave Trade Database",
+    "publicacao": "SlaveVoyages, consórcio de universidades",
+    "url": "https://www.slavevoyages.org/",
+    "citacao": "Base que reúne registros de mais de 36 mil viagens negreiras e sustenta as estimativas de desembarque por destino. É dela que vem a ordem de grandeza usada no atlas para o Brasil; as estimativas são revisadas conforme novos registros entram, e o número não deve ser lido como contagem fechada."
+  },
+  {
+    "id": "stf-adpf-153",
+    "tipo": "decisao-judicial",
+    "titulo": "ADPF 153 — constitucionalidade da Lei da Anistia",
+    "publicacao": "Supremo Tribunal Federal",
+    "data": "2010-04-29",
+    "citacao": "O STF julgou improcedente a arguição e manteve a interpretação de que a anistia de 1979 alcança também os agentes do Estado."
+  },
+  {
+    "id": "stf-ap-2668",
+    "tipo": "decisao-judicial",
+    "titulo": "Ação Penal 2668 — condenação por tentativa de golpe de Estado",
+    "publicacao": "Supremo Tribunal Federal, Primeira Turma",
+    "data": "2025",
+    "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7223339",
+    "citacao": "Condenação a 27 anos e 3 meses pelos crimes de organização criminosa armada, abolição violenta do Estado Democrático de Direito, golpe de Estado, dano qualificado ao patrimônio público e deterioração de patrimônio tombado."
+  },
+  {
+    "id": "stf-hc-193726",
+    "tipo": "decisao-judicial",
+    "titulo": "STF confirma anulação de condenações do ex-presidente Lula na Lava Jato (HC 193726)",
+    "publicacao": "Supremo Tribunal Federal, Plenário",
+    "data": "2021-04-15",
+    "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464261",
+    "citacao": "Por 8 votos a 3, o Plenário confirmou a decisão do ministro Edson Fachin que declarou a incompetência da 13ª Vara Federal de Curitiba. As denúncias não tinham correlação com desvios da Petrobras. A decisão é sobre competência, não sobre o mérito das acusações."
+  },
+  {
+    "id": "stf-pet-10405",
+    "tipo": "decisao-judicial",
+    "titulo": "STF arquiva investigação por fraude em cartão de vacina (Pet 10405)",
+    "publicacao": "Supremo Tribunal Federal",
+    "data": "2025-03-28",
+    "url": "https://noticias.stf.jus.br/postsnoticias/stf-arquiva-investigacao-contra-ex-presidente-da-republica-por-fraude-em-cartao-de-vacina/",
+    "citacao": "Arquivamento a pedido da PGR: a legislação proíbe recebimento de denúncia baseada somente em declarações de colaborador, e não foram levantadas provas além da colaboração de Mauro Cid."
+  },
+  {
+    "id": "stf-rvc-6021",
+    "tipo": "documento-oficial",
+    "titulo": "Ex-presidente Bolsonaro apresenta revisão criminal contra condenação por tentativa de golpe de Estado",
+    "publicacao": "Supremo Tribunal Federal",
+    "data": "2026-05-12",
+    "url": "https://noticias.stf.jus.br/postsnoticias/ex-presidente-bolsonaro-apresenta-revisao-criminal-contra-condenacao-por-tentativa-de-golpe-de-estado/",
+    "citacao": "Trânsito em julgado reconhecido em 25/11/2025. A revisão criminal é ação cabível a qualquer tempo após o trânsito em julgado e foi distribuída ao ministro Nunes Marques."
+  },
+  {
+    "id": "stf-suspeicao-moro-2021",
+    "tipo": "decisao-judicial",
+    "titulo": "STF confirma suspeição de Sergio Moro na ação do triplex do Guarujá",
+    "publicacao": "Supremo Tribunal Federal, Plenário",
+    "data": "2021-06-23",
+    "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=468086",
+    "citacao": "Por sete votos a quatro, o Plenário manteve o entendimento da Segunda Turma de que Moro agiu com parcialidade. Ficou mantida a anulação de todas as suas decisões no caso, incluindo os atos da fase pré-processual."
+  },
+  {
+    "id": "stora-guerra-argelia",
+    "tipo": "livro",
+    "titulo": "La gangrène et l'oubli: la mémoire de la guerre d'Algérie",
+    "autor": "Benjamin Stora",
+    "data": "1991",
+    "citacao": "Referência sobre o apagamento da guerra da Argélia na memória francesa: as leis de anistia, a recusa oficial da palavra guerra até 1999 e o silêncio sobre a tortura. Sustenta as ressalvas dos períodos franceses de 1944 em diante."
   },
   {
     "id": "thapar-early-india",
@@ -395,47 +474,24 @@
     "citacao": "Referência para a Índia antiga e medieval, e para a crítica da periodização colonial em eras hindu e muçulmana, tratada pela autora como construção política do século XIX."
   },
   {
-    "id": "guha-india-after-gandhi",
+    "id": "totman-historia-japao",
     "tipo": "livro",
-    "titulo": "India After Gandhi",
-    "autor": "Ramachandra Guha",
-    "data": "2007",
-    "citacao": "História da Índia independente, do domínio de 1947 à república contemporânea."
+    "titulo": "A History of Japan",
+    "autor": "Conrad Totman",
+    "citacao": "Síntese que cobre desde o povoamento do arquipélago, usada para os períodos anteriores a 1185."
   },
   {
-    "id": "editos-asoka",
+    "id": "tratado-versalhes",
     "tipo": "documento-oficial",
-    "titulo": "Éditos de Asoka",
-    "data": "-250",
-    "citacao": "Inscrições em rochedos e pilares mandadas gravar pelo imperador máuria. São as inscrições mais antigas da Índia que se lê com segurança, e a principal evidência direta do alcance do império."
+    "titulo": "Tratado de Versalhes",
+    "data": "1919-06-28",
+    "citacao": "Atribuiu à Alemanha a responsabilidade pela Primeira Guerra e impôs reparações. O artigo 231, a chamada cláusula de culpa, é peça central da política alemã do entreguerras."
   },
   {
-    "id": "schama-historia-gra-bretanha",
+    "id": "winkler-caminho-oeste",
     "tipo": "livro",
-    "titulo": "A History of Britain",
-    "autor": "Simon Schama",
-    "citacao": "Narrativa de referência que cobre da Inglaterra medieval ao Reino Unido contemporâneo."
-  },
-  {
-    "id": "magna-carta-1215",
-    "tipo": "documento-oficial",
-    "titulo": "Magna Carta",
-    "data": "1215",
-    "citacao": "Documento imposto ao rei João pelos barões, que estabeleceu limites ao poder real. Sua leitura como origem das liberdades inglesas é construção posterior, sobretudo do século XVII."
-  },
-  {
-    "id": "bill-of-rights-1689",
-    "tipo": "documento-oficial",
-    "titulo": "Bill of Rights",
-    "publicacao": "Parlamento da Inglaterra",
-    "data": "1689",
-    "citacao": "Firmou a supremacia do Parlamento sobre a Coroa depois da Revolução Gloriosa."
-  },
-  {
-    "id": "ato-de-uniao-1707",
-    "tipo": "documento-oficial",
-    "titulo": "Atos de União entre Inglaterra e Escócia",
-    "data": "1707",
-    "citacao": "Fundiram os dois reinos e os dois parlamentos, criando a Grã-Bretanha."
+    "titulo": "Der lange Weg nach Westen",
+    "autor": "Heinrich August Winkler",
+    "citacao": "História alemã do fim do Sacro Império à reunificação, organizada em torno de quando e como a Alemanha se tornou parte do Ocidente político."
   }
 ]
