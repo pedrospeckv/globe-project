@@ -1,5 +1,13 @@
 [
   {
+    "id": "acordo-belovezha-1991",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Belovezha",
+    "publicacao": "Rússia, Ucrânia e Bielorrússia",
+    "data": "1991-12-08",
+    "citacao": "Declarou que a União Soviética deixava de existir como sujeito de direito internacional e criou a Comunidade de Estados Independentes. Assinado pelos líderes de três das quinze repúblicas, sem consulta às demais e nove meses depois de um referendo em que a maioria votara por preservar a União."
+  },
+  {
     "id": "acordo-sexta-feira-santa-1998",
     "tipo": "documento-oficial",
     "titulo": "Acordo de Belfast (Acordo da Sexta-Feira Santa)",
@@ -15,6 +23,22 @@
     "data": "2026-03",
     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-03/stf-pede-novo-parecer-da-pgr-sobre-caso-das-joias-saudita",
     "citacao": "Decisão de 18 de março de 2026: após a PGR pedir arquivamento alegando lacuna legislativa, o ministro Alexandre de Moraes determinou novo parecer. O caso não foi arquivado."
+  },
+  {
+    "id": "applebaum-fome-vermelha",
+    "tipo": "livro",
+    "titulo": "Red Famine: Stalin's War on Ukraine",
+    "autor": "Anne Applebaum",
+    "data": "2017",
+    "citacao": "Sustenta que a fome de 1932 e 1933 na Ucrânia foi agravada por medidas dirigidas especificamente contra os camponeses ucranianos — listas negras de aldeias, bloqueio de fronteiras internas, confisco de todo alimento —, e que isso a distingue da fome geral soviética. É a posição que sustenta a leitura do Holodomor como genocídio."
+  },
+  {
+    "id": "applebaum-gulag",
+    "tipo": "livro",
+    "titulo": "Gulag: A History",
+    "autor": "Anne Applebaum",
+    "data": "2003",
+    "citacao": "Reconstruiu o sistema de campos soviético a partir dos arquivos abertos após 1991 e de memórias de sobreviventes: a escala, a função econômica e o papel do trabalho forçado na industrialização. É a base das ordens de grandeza usadas no atlas para o Gulag."
   },
   {
     "id": "ato-de-uniao-1707",
@@ -107,6 +131,14 @@
     "citacao": "Consolidou a igualdade civil, a propriedade e o casamento laico, e serviu de modelo a dezenas de codificações no século XIX. O mesmo texto submeteu a mulher casada à incapacidade jurídica, desmontada na França apenas ao longo do século XX."
   },
   {
+    "id": "codigo-conciliar-1649",
+    "tipo": "documento-oficial",
+    "titulo": "Código Conciliar (Sobornoye Ulozheniye)",
+    "publicacao": "Czarado da Rússia",
+    "data": "1649",
+    "citacao": "Aboliu o prazo para reaver camponeses fugidos, tornando a servidão hereditária e permanente e fixando as pessoas à terra em que haviam nascido. Legislou o oposto do que a Europa ocidental fazia no mesmo século, e permaneceu em vigor até 1861."
+  },
+  {
     "id": "colombo-carta-santangel",
     "tipo": "documento-oficial",
     "titulo": "Carta a Luis de Santángel anunciando a viagem",
@@ -172,6 +204,14 @@
     "citacao": "Estabeleceu o presidencialismo reforçado que define o regime francês desde então."
   },
   {
+    "id": "constituicao-russa-1993",
+    "tipo": "documento-oficial",
+    "titulo": "Constituição da Federação Russa",
+    "publicacao": "Federação Russa",
+    "data": "1993-12-12",
+    "citacao": "Aprovada em referendo semanas depois de o presidente ter dissolvido o parlamento à força, concentra no chefe de Estado a nomeação do governo, o poder de dissolver a Duma e a iniciativa legislativa ampla. É o desenho institucional que a Rússia mantém, com as emendas de 2020 que zeraram a contagem de mandatos."
+  },
+  {
     "id": "constituicao-weimar-1919",
     "tipo": "documento-oficial",
     "titulo": "Constituição do Reich Alemão (Constituição de Weimar)",
@@ -204,6 +244,14 @@
     "citacao": "Lê o império britânico como sistema de comércio, crédito, migração e poder naval mantido por acordos locais, e não como projeto administrado de Londres. É a base para descrever a expansão e a retração sem tratá-las como decisão de um centro único."
   },
   {
+    "id": "davies-wheatcroft-anos-fome",
+    "tipo": "livro",
+    "titulo": "The Years of Hunger: Soviet Agriculture, 1931–1933",
+    "autor": "R. W. Davies e Stephen G. Wheatcroft",
+    "data": "2004",
+    "citacao": "Trabalho quantitativo que atribui a fome à coletivização, às metas de coleta de grão e à recusa em admitir o fracasso do plano, sem intenção de exterminar um grupo nacional — a fome atingiu também o Cazaquistão, o Volga e o Cáucaso do Norte. É a posição oposta à de Applebaum sobre o caráter genocida, e o atlas registra as duas."
+  },
+  {
     "id": "declaracao-direitos-1789",
     "tipo": "documento-oficial",
     "titulo": "Declaração dos Direitos do Homem e do Cidadão",
@@ -218,6 +266,15 @@
     "publicacao": "Segundo Congresso Continental",
     "data": "1776-07-04",
     "citacao": "Afirma que todos os homens são criados iguais e dotados de direitos inalienáveis. O rascunho de Jefferson trazia um trecho responsabilizando a Coroa britânica pelo tráfico de escravizados, suprimido a pedido de delegações do Sul antes da aprovação."
+  },
+  {
+    "id": "discurso-secreto-1956",
+    "tipo": "documento-oficial",
+    "titulo": "Sobre o culto à personalidade e suas consequências (discurso secreto de Khruschov)",
+    "autor": "Nikita Khruschov",
+    "publicacao": "XX Congresso do Partido Comunista da União Soviética",
+    "data": "1956-02-25",
+    "citacao": "Denunciou em sessão fechada as prisões, torturas e execuções de comunistas sob Stálin e a fabricação de conspirações. Foi lido em células partidárias por todo o bloco, vazou para o Ocidente em semanas e abriu a fissura que levaria às revoltas de 1956 e à ruptura com a China."
   },
   {
     "id": "domesday-book-1086",
@@ -485,6 +542,13 @@
     "citacao": "Documento imposto ao rei João pelos barões, que estabeleceu limites ao poder real. Sua leitura como origem das liberdades inglesas é construção posterior, sobretudo do século XVII."
   },
   {
+    "id": "memorial-base-vitimas",
+    "tipo": "dataset",
+    "titulo": "Base de dados das vítimas do terror político na URSS",
+    "publicacao": "Memorial",
+    "citacao": "Levantamento nominal de vítimas da repressão soviética construído ao longo de três décadas a partir de arquivos e de depoimentos de famílias, e a referência independente mais completa sobre o assunto. A organização foi liquidada por decisão judicial russa em dezembro de 2021 e recebeu o Nobel da Paz em 2022."
+  },
+  {
     "id": "nihon-shoki",
     "tipo": "documento-oficial",
     "titulo": "Nihon Shoki",
@@ -713,6 +777,14 @@
     "titulo": "A History of Japan",
     "autor": "Conrad Totman",
     "citacao": "Síntese que cobre desde o povoamento do arquipélago, usada para os períodos anteriores a 1185."
+  },
+  {
+    "id": "tpi-mandado-2023",
+    "tipo": "decisao-judicial",
+    "titulo": "Mandados de prisão no caso Situação na Ucrânia",
+    "publicacao": "Tribunal Penal Internacional",
+    "data": "2023-03-17",
+    "citacao": "Expediu mandado de prisão contra o presidente russo e a comissária presidencial para os direitos da criança pela deportação ilegal de crianças de áreas ocupadas da Ucrânia. A Rússia não reconhece a jurisdição do tribunal, e o mandado não foi executado."
   },
   {
     "id": "tratado-dois-mais-quatro-1990",
