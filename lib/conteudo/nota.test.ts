@@ -64,4 +64,31 @@ describe("notas importadas do cofre", () => {
   it("alvo sem nota devolve lista vazia, não erro", () => {
     expect(notasDoAlvo(acervo.notas, "alvo-inexistente")).toEqual([]);
   });
+
+  it("nenhuma nota publicada veio de fora da triagem", async () => {
+    /*
+     * Leitura e Podcast misturam estudo histórico com saúde, negócios, fé
+     * pessoal e anotações sobre conversas de terceiros nomeados. Só entra o
+     * que está na seleção versionada — e este teste é o que impede uma
+     * reimportação distraída de publicar o resto.
+     */
+    const fs = await import("node:fs/promises");
+    const { titulos } = JSON.parse(
+      await fs.readFile(
+        path.join(process.cwd(), "scripts", "selecao-obsidian.json"),
+        "utf8"
+      )
+    );
+
+    const daTriagem = acervo.notas.filter((n) => n.pasta === "Leitura");
+    expect(daTriagem.length).toBeGreaterThan(0);
+    for (const n of daTriagem) expect(titulos).toContain(n.titulo);
+  });
+
+  it("A Arte da guerra encontra os Reinos Combatentes", () => {
+    // O período que escrevemos hoje, e a nota de leitura que fala dele.
+    expect(notasDoAlvo(acervo.notas, "cn-reinos-combatentes").map((n) => n.id)).toContain(
+      "a-arte-da-guerra"
+    );
+  });
 });

@@ -75,9 +75,26 @@ async function candidatas(pastaRelativa: string): Promise<Candidata[]> {
   return saida.sort((a, b) => b.bytes - a.bytes);
 }
 
+/**
+ * Triagem versionada.
+ *
+ * Uma pasta como Leitura mistura estudo histórico com saúde, negócios, fé
+ * pessoal e anotações sobre conversas de terceiros nomeados. Passar títulos
+ * na linha de comando resolveria a importação e não deixaria registro de
+ * quem decidiu o quê — e isso aqui é decisão de curadoria, não de execução.
+ */
+async function selecao(): Promise<Set<string>> {
+  const bruto = await fs.readFile(
+    path.join(process.cwd(), "scripts", "selecao-obsidian.json"),
+    "utf8"
+  );
+  return new Set<string>(JSON.parse(bruto).titulos);
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const soListar = args.includes("--listar");
+  const usarSelecao = args.includes("--selecao");
   const pastas = args.filter((a) => !a.startsWith("--"));
 
   if (pastas.length === 0) {
@@ -88,8 +105,21 @@ async function main() {
   const todas: Candidata[] = [];
   for (const pasta of pastas) todas.push(...(await candidatas(pasta)));
 
-  const boas = todas.filter((c) => c.bytes >= TAMANHO_MINIMO);
-  const magras = todas.filter((c) => c.bytes < TAMANHO_MINIMO);
+  let elegiveis = todas;
+  if (usarSelecao) {
+    const permitidos = await selecao();
+    const faltando = [...permitidos].filter(
+      (t) => !todas.some((c) => c.titulo === t)
+    );
+    if (faltando.length) {
+      console.error(`✗ na seleção mas não achado no cofre: ${faltando.join(", ")}`);
+      process.exit(1);
+    }
+    elegiveis = todas.filter((c) => permitidos.has(c.titulo));
+  }
+
+  const boas = elegiveis.filter((c) => c.bytes >= TAMANHO_MINIMO);
+  const magras = elegiveis.filter((c) => c.bytes < TAMANHO_MINIMO);
 
   if (soListar) {
     console.log(`\n${todas.length} notas em ${pastas.join(", ")}\n`);
