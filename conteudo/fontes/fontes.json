@@ -1,5 +1,13 @@
 [
   {
+    "id": "acordo-sexta-feira-santa-1998",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Belfast (Acordo da Sexta-Feira Santa)",
+    "publicacao": "Governos do Reino Unido e da Irlanda e partidos norte-irlandeses",
+    "data": "1998-04-10",
+    "citacao": "Encerrou trinta anos de conflito armado com governo de partilha de poder, desarmamento e o princípio do consentimento: a Irlanda do Norte só muda de status se sua maioria quiser. É o texto contra o qual se mede o problema de fronteira aberto pela saída da União Europeia."
+  },
+  {
     "id": "agbrasil-joias-2026",
     "tipo": "reportagem",
     "titulo": "STF pede novo parecer da PGR sobre caso das joias sauditas",
@@ -14,6 +22,15 @@
     "titulo": "Atos de União entre Inglaterra e Escócia",
     "data": "1707",
     "citacao": "Fundiram os dois reinos e os dois parlamentos, criando a Grã-Bretanha."
+  },
+  {
+    "id": "beveridge-1942",
+    "tipo": "documento-oficial",
+    "titulo": "Social Insurance and Allied Services (Relatório Beveridge)",
+    "autor": "William Beveridge",
+    "publicacao": "Governo do Reino Unido",
+    "data": "1942-12",
+    "citacao": "Propôs combater cinco males — miséria, doença, ignorância, insalubridade e ociosidade — com seguro social universal. Vendeu centenas de milhares de exemplares em plena guerra e virou o programa do governo trabalhista eleito em 1945."
   },
   {
     "id": "bill-of-rights-1689",
@@ -131,12 +148,28 @@
     "citacao": "Concluiu pedindo o indiciamento do então presidente da República por crimes relacionados à condução da crise sanitária. Relatório de comissão parlamentar de inquérito é peça política e investigativa, não decisão judicial."
   },
   {
+    "id": "darwin-empire-project",
+    "tipo": "livro",
+    "titulo": "The Empire Project: The Rise and Fall of the British World-System, 1830–1970",
+    "autor": "John Darwin",
+    "data": "2009",
+    "citacao": "Lê o império britânico como sistema de comércio, crédito, migração e poder naval mantido por acordos locais, e não como projeto administrado de Londres. É a base para descrever a expansão e a retração sem tratá-las como decisão de um centro único."
+  },
+  {
     "id": "declaracao-direitos-1789",
     "tipo": "documento-oficial",
     "titulo": "Declaração dos Direitos do Homem e do Cidadão",
     "publicacao": "Assembleia Nacional Constituinte francesa",
     "data": "1789-08-26",
     "citacao": "Afirma no artigo 1º que os homens nascem e permanecem livres e iguais em direitos. É o texto contra o qual se mede a distância entre o princípio declarado e a escravidão mantida nas colônias até 1794, restabelecida em 1802."
+  },
+  {
+    "id": "domesday-book-1086",
+    "tipo": "documento-oficial",
+    "titulo": "Domesday Book",
+    "publicacao": "Reino da Inglaterra",
+    "data": "1086",
+    "citacao": "Levantamento de terras, gado e rendas de quase toda a Inglaterra, feito vinte anos após a conquista normanda para fins fiscais. Nenhum Estado da Europa medieval produziu inventário comparável, e é dele que vem a medida da substituição da aristocracia anglo-saxã."
   },
   {
     "id": "duby-historia-franca",
@@ -270,6 +303,14 @@
     "citacao": "Biografia de referência que explica a ascensão nazista pela dinâmica entre o líder e as instituições alemãs, e não apenas pela figura dele."
   },
   {
+    "id": "kinealy-fome-irlandesa",
+    "tipo": "livro",
+    "titulo": "This Great Calamity: The Irish Famine 1845–52",
+    "autor": "Christine Kinealy",
+    "data": "1994",
+    "citacao": "Documentou que a Irlanda seguiu exportando alimentos durante a fome e reconstruiu as decisões administrativas de Londres que agravaram a mortalidade. Sustenta a afirmação do atlas de que a catástrofe foi de política pública, sem que isso resolva a disputa sobre o termo genocídio."
+  },
+  {
     "id": "kotkin-stalin",
     "tipo": "livro",
     "titulo": "Stalin",
@@ -374,6 +415,15 @@
     "citacao": "Demonstrou que o sistema de feudo e vassalagem descrito nos manuais foi construído por juristas dos séculos XI e XII e sistematizado por historiadores do XIX, sem correspondência direta nas fontes altomedievais. Sustenta a ressalva do período carolíngio contra tratar o feudalismo como um sistema pronto."
   },
   {
+    "id": "saville-inquiry-2010",
+    "tipo": "documento-oficial",
+    "titulo": "Report of the Bloody Sunday Inquiry",
+    "autor": "Lord Saville of Newdigate",
+    "publicacao": "Parlamento do Reino Unido",
+    "data": "2010-06-15",
+    "citacao": "Concluiu, após doze anos de investigação, que nenhuma das mortes de 30 de janeiro de 1972 em Derry foi justificada e que as vítimas não representavam ameaça. Desfez o relatório Widgery, de 1972, que havia absolvido os militares semanas depois dos fatos."
+  },
+  {
     "id": "schama-historia-gra-bretanha",
     "tipo": "livro",
     "titulo": "A History of Britain",
@@ -472,6 +522,14 @@
     "autor": "Romila Thapar",
     "data": "2002",
     "citacao": "Referência para a Índia antiga e medieval, e para a crítica da periodização colonial em eras hindu e muçulmana, tratada pela autora como construção política do século XIX."
+  },
+  {
+    "id": "thompson-classe-operaria",
+    "tipo": "livro",
+    "titulo": "The Making of the English Working Class",
+    "autor": "E. P. Thompson",
+    "data": "1963",
+    "citacao": "Deslocou a história da industrialização das máquinas para as pessoas, argumentando que a classe operária inglesa se formou por experiência e ação próprias, e não como subproduto da economia. É a referência para tratar a Revolução Industrial como processo social disputado, não como progresso automático."
   },
   {
     "id": "totman-historia-japao",
