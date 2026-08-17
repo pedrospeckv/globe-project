@@ -127,10 +127,38 @@ Crimeia em 2014 e não em 2013; independentes entre si.
 
 ## Aberto — por ordem do que eu faria primeiro
 
-### 1. Frontmatter YAML vazando em 11 das 32 notas
-Defeito visível. A página abre com `--- tags: 📚Book / Capa: http://books.google.com/... ---`
-antes do texto. O importador (`scripts/importar-obsidian.ts`) não remove o
-cabeçalho. Conserto de ~10 minutos, com teste. **Fazer antes de qualquer deploy.**
+### 1. ~~Frontmatter YAML vazando em 11 das 32 notas~~ — feito em `709f5ab`
+`semFrontmatter` remove, `Nota.corpo` recusa o que sobrar. Tirar o cabeçalho
+descobriu que o filtro de 400 bytes media o arquivo bruto: **três notas eram só
+o modelo do cofre por preencher** e entraram por causa do peso do YAML. Saíram
+do acervo — 32 notas viraram 29 —, e o vínculo delas com o atlas ficou guardado
+em `alvosGuardados` na triagem, para a importação repescar quando o resumo for
+escrito. A China ficou sem nota nenhuma.
+
+### 1b. Revisar as 29 notas com fonte — **3 feitas, 26 faltam**
+Decisão do Pedro, tomada depois de ver as duas opções lado a lado: as notas
+deixam de ser rascunho de estudo e passam a texto conferido com lastro. O
+mecanismo está de pé em `98643e0` — `Nota.fontes`, integridade recusando id
+inexistente, e `coberturaDeNotas` dizendo quantas faltam a cada `pnpm validar`.
+
+**A conversão não é só editorial.** `Prosa` monta markdown sem `remark-gfm` e
+sob o preflight do Tailwind: só `a`, `em` e `strong` recebem estilo. Cabeçalho
+sai do tamanho do corpo, marcador de lista some, tabela vira linha de pipes.
+Então o texto revisado volta às convenções dos períodos — lead-in em negrito,
+sem `##`, sem tabela, ressalva em itálico —, e um teste recusa cabeçalho ou
+tabela em nota que já tenha fonte.
+
+Feitas: `rwanda-vs-congo`, `historia-da-inglaterra`, `sunitas-e-xiitas`.
+A fila sai do `pnpm validar`.
+
+Duas coisas que a fila esconde:
+
+- `o-principe` não tem o que pesquisar: a nota é um método para ler Maquiavel
+  em italiano, não afirmação sobre história. B não se aplica a ela.
+- `historia-de-joana-d-arc` (23 mil caracteres, ligada à figura da Joana)
+  declarava `author: [[ChatGPT]]` e `source: chatgpt.com` no cabeçalho do cofre.
+  Publicar como leitura própria não bate. A proveniência foi removida junto com
+  o frontmatter e está no histórico do git.
 
 ### 2. Não existe índice de países
 A única porta de entrada é clicar num país **aceso** no globo, o que revela
@@ -145,12 +173,14 @@ URLs diretas hoje: `/pais/BRA`, `/pais/FRA`, `/pais/GBR`, `/pais/USA`,
 O app é 100% estático e o plano gratuito serve. O CLI já está instalado
 (58.1.0) e não há remote git, mas `npx vercel --prod` sobe a pasta direto.
 
-**O que Pedro precisa decidir antes:** no plano gratuito a produção é
-pública, e as 32 notas do Obsidian vão junto — incluindo notas de leitura
-longas (*O Mundo de Sofia*, 57k; *Os Gregos*, 40k; *Vietnã*, 38k). A
-densidade (~125 caracteres por página de livro) indica resumo próprio e não
-transcrição, então o risco autoral é baixo; a questão é se ele quer notas
-pessoais de estudo legíveis na internet aberta.
+**Decidido:** as notas vão públicas — é o que a revisão do item 1b prepara.
+São 29, não 32, e as longas continuam sendo as mesmas (*O Mundo de Sofia*, 57k;
+*Os Gregos*, 40k; *Vietnã*, 38k). A densidade (~125 caracteres por página de
+livro) indica resumo próprio e não transcrição, então o risco autoral é baixo.
+
+O que ainda pesa é ordem: enquanto 26 notas seguirem cruas, a produção mostra
+as duas redações do aviso ao mesmo tempo. Não é incoerência — é o estado real
+do acervo, e a página diz qual é qual —, mas vale saber antes de subir.
 
 Claude não faz o login (ação de credencial). O conector Vercel também exige
 autorização, que precisa de sessão interativa.
