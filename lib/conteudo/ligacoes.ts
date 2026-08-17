@@ -1,6 +1,6 @@
 import type { Acervo } from "./integridade";
 
-export type TipoAlvo = "pais" | "periodo" | "figura" | "evento" | "viagem";
+export type TipoAlvo = "pais" | "periodo" | "figura" | "evento" | "viagem" | "nota";
 
 export interface Alvo {
   id: string;
@@ -87,6 +87,29 @@ export function indexarAlvos(acervo: Acervo): Alvos {
     };
   }
 
+  /*
+   * A nota também é alvo, e entra por id E por título.
+   *
+   * As notas vieram do Obsidian citando umas às outras na sintaxe do cofre, que
+   * usa o nome do arquivo: `[[Alexandre, o Grande]]`, `[[Judaísmo]]`. São
+   * dezessete referências reais entre notas que existem no acervo — apagá-las
+   * perderia navegação que o autor escreveu de propósito. Indexar pelos dois
+   * nomes faz o link do cofre funcionar na web sem reescrever o texto.
+   *
+   * O título só entra se não colidir: alvo do atlas tem precedência, porque o
+   * espaço de nomes do atlas é o principal e uma nota não pode roubar `[[FRA]]`.
+   */
+  for (const nota of acervo.notas) {
+    const alvo: Alvo = {
+      id: nota.id,
+      rotulo: nota.titulo,
+      href: `/nota/${nota.id}`,
+      tipo: "nota",
+    };
+    if (!(nota.id in alvos)) alvos[nota.id] = alvo;
+    if (!(nota.titulo in alvos)) alvos[nota.titulo] = alvo;
+  }
+
   return alvos;
 }
 
@@ -139,6 +162,20 @@ function textosDoAcervo(acervo: Acervo): { onde: string; texto?: string }[] {
         texto: parada.textoMdx,
       });
     }
+  }
+
+  /*
+   * A prosa da nota também. Faltava, e o buraco era exatamente do tipo que
+   * este mecanismo existe para fechar: as notas vieram do Obsidian cheias de
+   * `[[Primeira cruzada]]` e `[[Primeira Guerra Mundial]]`, escritos na
+   * sintaxe do cofre e apontando para outras NOTAS — que não são alvos do
+   * atlas. Nada acusava, e a página publicava o colchete cru na tela.
+   *
+   * A nota participa do mesmo espaço de nomes que o resto: se cita `[[FRA]]`,
+   * o link tem de existir, e se cita uma nota, tem de virar link comum.
+   */
+  for (const nota of acervo.notas) {
+    saida.push({ onde: `nota "${nota.id}"`, texto: nota.corpo });
   }
 
   return saida;

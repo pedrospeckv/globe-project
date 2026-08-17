@@ -57,6 +57,15 @@
     "citacao": "Coletânea de ditos e diálogos compilada por discípulos e discípulos de discípulos ao longo de gerações após a morte de Confúcio, em 479 a.C. Não é registro direto: já é transmissão, e as camadas de redação são objeto de estudo filológico próprio."
   },
   {
+    "id": "ap-tesouro-florida-2025",
+    "tipo": "reportagem",
+    "titulo": "$1M in gold coins found from Spanish shipwreck off Florida",
+    "publicacao": "Associated Press",
+    "data": "2025-10-02",
+    "url": "https://apnews.com/article/florida-shipwreck-spanish-gold-coins-cfea12b415eae3c2d2d24d86d167ab3d",
+    "citacao": "Escavação recupera cerca de um milhão de dólares em moedas de ouro e prata da frota espanhola naufragada em 1715, no trecho do litoral da Flórida conhecido como Costa do Tesouro. Mais de três séculos depois, o carregamento que abriu a era de Nassau continua sendo retirado da água."
+  },
+  {
     "id": "applebaum-fome-vermelha",
     "tipo": "livro",
     "titulo": "Red Famine: Stalin's War on Ukraine",
@@ -614,6 +623,15 @@
     "citacao": "Trilogia que cobre a chegada ao poder, o regime e a guerra."
   },
   {
+    "id": "evans-terceiro-reich-chegada",
+    "tipo": "livro",
+    "titulo": "The Coming of the Third Reich",
+    "autor": "Richard J. Evans",
+    "publicacao": "Allen Lane",
+    "data": "2003",
+    "citacao": "Reconstitui o desmanche da República de Weimar. Detalha a hiperinflação de 1923, a dependência alemã de empréstimos americanos e o colapso eleitoral do centro depois de 1929, que é o que abre espaço para nazistas e comunistas ao mesmo tempo."
+  },
+  {
     "id": "fairbank-china",
     "tipo": "livro",
     "titulo": "China: A New History",
@@ -801,6 +819,14 @@
     "citacao": "Referência para o Japão de Tokugawa em diante, cobrindo a Restauração Meiji, o império e o pós-guerra."
   },
   {
+    "id": "johnson-historia-dos-piratas-1724",
+    "tipo": "livro",
+    "titulo": "A General History of the Pyrates",
+    "autor": "Charles Johnson",
+    "data": "1724",
+    "citacao": "Livro contemporâneo que fixou quase todas as imagens duradouras da pirataria, do Barba Negra a Anne Bonny. Mistura registro documental com invenção literária sem distinguir os dois, e é a origem de detalhes muito repetidos — as catorze mulheres do Barba Negra entre eles — que não têm confirmação independente."
+  },
+  {
     "id": "julgamento-nuremberg-1946",
     "tipo": "decisao-judicial",
     "titulo": "Julgamento dos Principais Criminosos de Guerra perante o Tribunal Militar Internacional",
@@ -848,6 +874,15 @@
     "titulo": "Hitler",
     "autor": "Ian Kershaw",
     "citacao": "Biografia de referência que explica a ascensão nazista pela dinâmica entre o líder e as instituições alemãs, e não apenas pela figura dele."
+  },
+  {
+    "id": "kershaw-hitler-hubris",
+    "tipo": "livro",
+    "titulo": "Hitler: 1889–1936 Hubris",
+    "autor": "Ian Kershaw",
+    "publicacao": "Allen Lane",
+    "data": "1998",
+    "citacao": "Biografia de referência. Sustenta que o poder de Hitler foi menos conquistado do que entregue: a chancelaria de janeiro de 1933 saiu de um cálculo de conservadores que se julgavam capazes de usá-lo, e não de vitória eleitoral majoritária."
   },
   {
     "id": "kinealy-fome-irlandesa",
@@ -978,6 +1013,14 @@
     "publicacao": "República Francesa",
     "data": "1905-12-09",
     "citacao": "A República não reconhece nem subsidia culto algum, e garante o livre exercício deles. É a base jurídica da laicidade francesa e o texto invocado nas disputas posteriores sobre símbolos religiosos."
+  },
+  {
+    "id": "leis-de-nuremberg-1935",
+    "tipo": "documento-oficial",
+    "titulo": "Leis de Nuremberg",
+    "publicacao": "Reichstag, Alemanha",
+    "data": "1935-09-15",
+    "citacao": "Retiram a cidadania alemã dos judeus e proíbem casamento e relações sexuais entre judeus e alemães. Transformam antissemitismo em estatuto jurídico, e é a partir delas que a exclusão deixa de depender de violência de rua."
   },
   {
     "id": "livro-senhor-shang",
@@ -1206,6 +1249,15 @@
     "citacao": "Ata da reunião que coordenou entre ministérios e polícia a deportação e o extermínio dos judeus da Europa, com estimativa nominal de onze milhões de pessoas por país. Não foi ali que o genocídio foi decidido — os fuzilamentos em massa já estavam em curso —, e sim onde a máquina administrativa do Estado foi alinhada para executá-lo."
   },
   {
+    "id": "rediker-viloes-de-todas-as-nacoes",
+    "tipo": "livro",
+    "titulo": "Villains of All Nations: Atlantic Pirates in the Golden Age",
+    "autor": "Marcus Rediker",
+    "publicacao": "Beacon Press",
+    "data": "2004",
+    "citacao": "Trata a pirataria do começo do século XVIII como reação de marinheiros à brutalidade da marinha mercante e da Royal Navy. Documenta a partilha igualitária de espólios, a indenização por mutilação e a presença de africanos livres e escravizados fugidos nas tripulações."
+  },
+  {
     "id": "relatorio-hunter-1920",
     "tipo": "documento-oficial",
     "titulo": "Report of the Committee Appointed to Investigate the Disturbances in the Punjab (Comitê Hunter)",
@@ -1285,6 +1337,15 @@
     "publicacao": "Suprema Corte dos Estados Unidos",
     "data": "2013-06-25",
     "citacao": "Invalidou a fórmula que definia quais estados precisavam de autorização federal prévia para alterar regras eleitorais, esvaziando na prática o mecanismo central da lei de 1965. Vários dos estados liberados adotaram novas restrições ao voto em seguida."
+  },
+  {
+    "id": "shirer-terceiro-reich",
+    "tipo": "livro",
+    "titulo": "The Rise and Fall of the Third Reich",
+    "autor": "William L. Shirer",
+    "publicacao": "Simon and Schuster",
+    "data": "1960",
+    "citacao": "Escrito por correspondente americano que cobriu a Alemanha nazista de dentro e foi censurado ao tentar noticiar a crise dos Sudetos como agressão. Vale como testemunho de época, com os limites de quem escreveu antes da abertura de boa parte dos arquivos."
   },
   {
     "id": "sima-qian-shiji",
@@ -1533,6 +1594,15 @@
     "citacao": "Proibiu testes de alfabetização e submeteu estados com histórico de discriminação à autorização federal prévia para mudar regras eleitorais. O registro eleitoral negro no Mississippi saltou de menos de 10% para perto de 60% em dois anos."
   },
   {
+    "id": "whitman-modelo-americano",
+    "tipo": "livro",
+    "titulo": "Hitler's American Model: The United States and the Making of Nazi Race Law",
+    "autor": "James Q. Whitman",
+    "publicacao": "Princeton University Press",
+    "data": "2017",
+    "citacao": "Documenta que juristas nazistas estudaram a legislação racial dos Estados Unidos ao redigir as Leis de Nuremberg, com atenção às leis de cidadania e às que proibiam casamento inter-racial. As atas de reunião do ministério da Justiça alemão de 1934 discutem o direito americano de forma explícita."
+  },
+  {
     "id": "wickham-heranca-de-roma",
     "tipo": "livro",
     "titulo": "The Inheritance of Rome: A History of Europe from 400 to 1000",
@@ -1557,6 +1627,15 @@
     "titulo": "Der lange Weg nach Westen",
     "autor": "Heinrich August Winkler",
     "citacao": "História alemã do fim do Sacro Império à reunificação, organizada em torno de quando e como a Alemanha se tornou parte do Ocidente político."
+  },
+  {
+    "id": "woodard-republica-piratas",
+    "tipo": "livro",
+    "titulo": "The Republic of Pirates",
+    "autor": "Colin Woodard",
+    "publicacao": "Harcourt",
+    "data": "2007",
+    "citacao": "Reconstitui o covil de Nassau entre 1715 e 1719 a partir de arquivos coloniais e depoimentos de julgamento. É a fonte da leitura de Nassau como experiência política e não apenas como base de saque: as articulações de bordo eram eletivas e o capitão podia ser destituído pela tripulação."
   },
   {
     "id": "xuanzang-relato",
