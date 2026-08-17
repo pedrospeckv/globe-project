@@ -1,0 +1,502 @@
+{
+  "atribuicao": {
+    "fonte": "historical-basemaps",
+    "autor": "A. Ourednik",
+    "url": "https://github.com/aourednik/historical-basemaps",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  "simplificacao": {
+    "quantil": 0.1,
+    "quantizacao": 10000
+  },
+  "fatias": [
+    {
+      "nome": "bc123000",
+      "ano": -123000,
+      "feicoes": 157,
+      "bytes": 32083,
+      "precisoes": {
+        "1": 157
+      }
+    },
+    {
+      "nome": "bc10000",
+      "ano": -10000,
+      "feicoes": 135,
+      "bytes": 33362,
+      "precisoes": {
+        "1": 135
+      }
+    },
+    {
+      "nome": "bc8000",
+      "ano": -8000,
+      "feicoes": 134,
+      "bytes": 33344,
+      "precisoes": {
+        "1": 134
+      }
+    },
+    {
+      "nome": "bc5000",
+      "ano": -5000,
+      "feicoes": 279,
+      "bytes": 150630,
+      "precisoes": {
+        "1": 279
+      }
+    },
+    {
+      "nome": "bc4000",
+      "ano": -4000,
+      "feicoes": 136,
+      "bytes": 33987,
+      "precisoes": {
+        "1": 136
+      }
+    },
+    {
+      "nome": "bc3000",
+      "ano": -3000,
+      "feicoes": 138,
+      "bytes": 34351,
+      "precisoes": {
+        "1": 138
+      }
+    },
+    {
+      "nome": "bc2000",
+      "ano": -2000,
+      "feicoes": 145,
+      "bytes": 42378,
+      "precisoes": {
+        "1": 145
+      }
+    },
+    {
+      "nome": "bc1500",
+      "ano": -1500,
+      "feicoes": 163,
+      "bytes": 46109,
+      "precisoes": {
+        "1": 163
+      }
+    },
+    {
+      "nome": "bc1000",
+      "ano": -1000,
+      "feicoes": 163,
+      "bytes": 46112,
+      "precisoes": {
+        "1": 163
+      }
+    },
+    {
+      "nome": "bc700",
+      "ano": -700,
+      "feicoes": 174,
+      "bytes": 47564,
+      "precisoes": {
+        "1": 174
+      }
+    },
+    {
+      "nome": "bc500",
+      "ano": -500,
+      "feicoes": 189,
+      "bytes": 49322,
+      "precisoes": {
+        "1": 189
+      }
+    },
+    {
+      "nome": "bc400",
+      "ano": -400,
+      "feicoes": 190,
+      "bytes": 49533,
+      "precisoes": {
+        "1": 190
+      }
+    },
+    {
+      "nome": "bc323",
+      "ano": -323,
+      "feicoes": 149,
+      "bytes": 47029,
+      "precisoes": {
+        "1": 149
+      }
+    },
+    {
+      "nome": "bc300",
+      "ano": -300,
+      "feicoes": 155,
+      "bytes": 48002,
+      "precisoes": {
+        "1": 155
+      }
+    },
+    {
+      "nome": "bc200",
+      "ano": -200,
+      "feicoes": 183,
+      "bytes": 53263,
+      "precisoes": {
+        "1": 183
+      }
+    },
+    {
+      "nome": "bc100",
+      "ano": -100,
+      "feicoes": 233,
+      "bytes": 60696,
+      "precisoes": {
+        "1": 233
+      }
+    },
+    {
+      "nome": "bc1",
+      "ano": -1,
+      "feicoes": 442,
+      "bytes": 108637,
+      "precisoes": {
+        "1": 442
+      }
+    },
+    {
+      "nome": "100",
+      "ano": 100,
+      "feicoes": 440,
+      "bytes": 104011,
+      "precisoes": {
+        "1": 440
+      }
+    },
+    {
+      "nome": "200",
+      "ano": 200,
+      "feicoes": 354,
+      "bytes": 100277,
+      "precisoes": {
+        "1": 354
+      }
+    },
+    {
+      "nome": "300",
+      "ano": 300,
+      "feicoes": 466,
+      "bytes": 106771,
+      "precisoes": {
+        "1": 466
+      }
+    },
+    {
+      "nome": "400",
+      "ano": 400,
+      "feicoes": 367,
+      "bytes": 94052,
+      "precisoes": {
+        "1": 367
+      }
+    },
+    {
+      "nome": "500",
+      "ano": 500,
+      "feicoes": 205,
+      "bytes": 61760,
+      "precisoes": {
+        "1": 205
+      }
+    },
+    {
+      "nome": "600",
+      "ano": 600,
+      "feicoes": 204,
+      "bytes": 61969,
+      "precisoes": {
+        "1": 204
+      }
+    },
+    {
+      "nome": "700",
+      "ano": 700,
+      "feicoes": 253,
+      "bytes": 61797,
+      "precisoes": {
+        "1": 253
+      }
+    },
+    {
+      "nome": "800",
+      "ano": 800,
+      "feicoes": 225,
+      "bytes": 60334,
+      "precisoes": {
+        "1": 225
+      }
+    },
+    {
+      "nome": "900",
+      "ano": 900,
+      "feicoes": 244,
+      "bytes": 65447,
+      "precisoes": {
+        "1": 244
+      }
+    },
+    {
+      "nome": "1000",
+      "ano": 1000,
+      "feicoes": 264,
+      "bytes": 73305,
+      "precisoes": {
+        "1": 264
+      }
+    },
+    {
+      "nome": "1100",
+      "ano": 1100,
+      "feicoes": 235,
+      "bytes": 71638,
+      "precisoes": {
+        "1": 235
+      }
+    },
+    {
+      "nome": "1200",
+      "ano": 1200,
+      "feicoes": 286,
+      "bytes": 71390,
+      "precisoes": {
+        "1": 286
+      }
+    },
+    {
+      "nome": "1279",
+      "ano": 1279,
+      "feicoes": 247,
+      "bytes": 65336,
+      "precisoes": {
+        "1": 247
+      }
+    },
+    {
+      "nome": "1300",
+      "ano": 1300,
+      "feicoes": 237,
+      "bytes": 64820,
+      "precisoes": {
+        "1": 237
+      }
+    },
+    {
+      "nome": "1400",
+      "ano": 1400,
+      "feicoes": 233,
+      "bytes": 65856,
+      "precisoes": {
+        "1": 233
+      }
+    },
+    {
+      "nome": "1492",
+      "ano": 1492,
+      "feicoes": 1946,
+      "bytes": 407816,
+      "precisoes": {
+        "1": 1945,
+        "3": 1
+      }
+    },
+    {
+      "nome": "1500",
+      "ano": 1500,
+      "feicoes": 291,
+      "bytes": 87464,
+      "precisoes": {
+        "1": 291
+      }
+    },
+    {
+      "nome": "1530",
+      "ano": 1530,
+      "feicoes": 494,
+      "bytes": 120858,
+      "precisoes": {
+        "1": 494
+      }
+    },
+    {
+      "nome": "1600",
+      "ano": 1600,
+      "feicoes": 866,
+      "bytes": 178031,
+      "precisoes": {
+        "1": 864,
+        "3": 2
+      }
+    },
+    {
+      "nome": "1650",
+      "ano": 1650,
+      "feicoes": 778,
+      "bytes": 167354,
+      "precisoes": {
+        "1": 12,
+        "3": 766
+      }
+    },
+    {
+      "nome": "1700",
+      "ano": 1700,
+      "feicoes": 782,
+      "bytes": 166543,
+      "precisoes": {
+        "1": 8,
+        "3": 774
+      }
+    },
+    {
+      "nome": "1715",
+      "ano": 1715,
+      "feicoes": 758,
+      "bytes": 166029,
+      "precisoes": {
+        "1": 4,
+        "3": 754
+      }
+    },
+    {
+      "nome": "1783",
+      "ano": 1783,
+      "feicoes": 641,
+      "bytes": 141480,
+      "precisoes": {
+        "0": 4,
+        "1": 1,
+        "3": 636
+      }
+    },
+    {
+      "nome": "1800",
+      "ano": 1800,
+      "feicoes": 627,
+      "bytes": 140116,
+      "precisoes": {
+        "1": 1,
+        "3": 626
+      }
+    },
+    {
+      "nome": "1815",
+      "ano": 1815,
+      "feicoes": 436,
+      "bytes": 114922,
+      "precisoes": {
+        "1": 1,
+        "3": 435
+      }
+    },
+    {
+      "nome": "1880",
+      "ano": 1880,
+      "feicoes": 236,
+      "bytes": 68934,
+      "precisoes": {
+        "2": 2,
+        "3": 234
+      }
+    },
+    {
+      "nome": "1900",
+      "ano": 1900,
+      "feicoes": 270,
+      "bytes": 70035,
+      "precisoes": {
+        "3": 270
+      }
+    },
+    {
+      "nome": "1914",
+      "ano": 1914,
+      "feicoes": 177,
+      "bytes": 61306,
+      "precisoes": {
+        "3": 177
+      }
+    },
+    {
+      "nome": "1920",
+      "ano": 1920,
+      "feicoes": 205,
+      "bytes": 70333,
+      "precisoes": {
+        "3": 205
+      }
+    },
+    {
+      "nome": "1930",
+      "ano": 1930,
+      "feicoes": 191,
+      "bytes": 62947,
+      "precisoes": {
+        "3": 190,
+        "?": 1
+      }
+    },
+    {
+      "nome": "1938",
+      "ano": 1938,
+      "feicoes": 254,
+      "bytes": 76021,
+      "precisoes": {
+        "3": 254
+      }
+    },
+    {
+      "nome": "1945",
+      "ano": 1945,
+      "feicoes": 227,
+      "bytes": 68555,
+      "precisoes": {
+        "3": 227
+      }
+    },
+    {
+      "nome": "1960",
+      "ano": 1960,
+      "feicoes": 197,
+      "bytes": 61469,
+      "precisoes": {
+        "3": 197
+      }
+    },
+    {
+      "nome": "1994",
+      "ano": 1994,
+      "feicoes": 240,
+      "bytes": 110196,
+      "precisoes": {
+        "3": 240
+      }
+    },
+    {
+      "nome": "2000",
+      "ano": 2000,
+      "feicoes": 240,
+      "bytes": 110152,
+      "precisoes": {
+        "3": 240
+      }
+    },
+    {
+      "nome": "2010",
+      "ano": 2010,
+      "feicoes": 240,
+      "bytes": 110143,
+      "precisoes": {
+        "3": 240
+      }
+    }
+  ]
+}
