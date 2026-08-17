@@ -2,7 +2,7 @@
   "id": "o-principe",
   "titulo": "O Príncipe",
   "pasta": "Leitura",
-  "corpo": "## Como ler o príncipe \n\n1. **Primeiro, leia em italiano sem olhar o português**\nTente entender o máximo possível apenas pelo contexto, sem traduzir palavra por palavra. Isso ajuda seu cérebro a se acostumar com o idioma de forma natural.\n\n2. **Depois, leia a mesma página em português**\nAqui, você pode verificar se entendeu corretamente e comparar as estruturas das frases.\n\n3. **Marque palavras e expressões novas**\nAnote as palavras que você não conhece e tente entender pelo contexto antes de olhar a tradução.\n\n4. **Releia a página em italiano**\nAgora que você já sabe o significado geral, releia a parte em italiano para reforçar a compreensão e a memorização.\n\n5. **Leia em voz alta**\nIsso ajuda na pronúncia e na fluidez. Mesmo que pareça estranho no começo, seu cérebro aprende melhor ouvindo o próprio som das palavras.\n\n---",
+  "corpo": "**O livro tem cento e dezasseis páginas e leva mais tempo do que parece.** \"O Príncipe\" foi escrito em 1513, quando Maquiavel havia acabado de perder o cargo de secretário da chancelaria de Florença, ser preso e torturado na volta dos Médici ao poder. Foi publicado em 1532, cinco anos depois da morte dele. É um pedido de emprego e um tratado ao mesmo tempo, dedicado a Lorenzo de Médici, e essa ambiguidade explica o tom.\n\nO gênero em que ele se escreve é o dos espelhos de príncipes, manuais que ensinavam o governante a ser justo, generoso e piedoso porque isso agradava a Deus e ao povo. Maquiavel usa a forma e inverte o conteúdo. A ruptura não está em recomendar crueldade — outros já haviam descrito bastidores sujos —, e sim em separar o que funciona do que é virtuoso, e tratar a segunda coisa como não pertencente ao problema. Um governante que quer se manter tem de aprender a não ser bom, diz o capítulo XV, e a frase é escandalosa porque é apresentada como técnica, não como desculpa.\n\n**Como ler em italiano, que é o método que dá conta do livro.** O texto é do início do século XVI e a distância do italiano moderno é menor do que se teme: a sintaxe é seca e as frases são curtas. Cinco passos, na ordem:\n\nPrimeiro, ler a página em italiano sem olhar a tradução, tentando pegar o máximo pelo contexto e sem traduzir palavra por palavra — o objetivo é acostumar o ouvido, não decifrar. Depois, ler a mesma página em português, para conferir o que se entendeu e comparar a construção das frases. Terceiro, anotar as palavras e expressões novas, tentando deduzir pelo contexto antes de conferir. Quarto, reler a página em italiano, agora sabendo o sentido geral — é nesta passagem que a compreensão se fixa. Por último, ler em voz alta, que ajuda na pronúncia e na fluência e parece esquisito só no começo.\n\nO método funciona melhor com Maquiavel do que com quase qualquer outro clássico, por dois motivos: os capítulos são curtos, o que dá um ciclo completo de cinco passos por sessão, e o vocabulário político se repete muito — *stato*, *virtù*, *fortuna*, *principe* — então o esforço da primeira dezena de páginas paga o resto do livro.\n\n*Esta nota é método de leitura, não afirmação histórica, e é a única do acervo nessa condição. O que foi conferido e tem fonte é o enquadramento do livro; os cinco passos são prática própria, e valem pelo que valem.*",
   "atualizadaEm": "2025-11-10",
   "alvos": [],
   "livro": {
@@ -13,5 +13,8 @@
     "paginas": 116,
     "capa": "https://framerusercontent.com/images/7epkdkqNijisX1Ze8KgiowIZDY.webp?scale-down-to=512&width=600&height=738",
     "terminadoEm": "2025-03-14"
-  }
+  },
+  "fontes": [
+    "skinner-maquiavel"
+  ]
 }

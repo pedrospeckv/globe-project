@@ -73,6 +73,14 @@
     "citacao": "Reconstruiu o sistema de campos soviético a partir dos arquivos abertos após 1991 e de memórias de sobreviventes: a escala, a função econômica e o papel do trabalho forçado na industrialização. É a base das ordens de grandeza usadas no atlas para o Gulag."
   },
   {
+    "id": "arriano-anabase",
+    "tipo": "livro",
+    "titulo": "Anabasis de Alexandre",
+    "autor": "Arriano de Nicomédia",
+    "data": "150",
+    "citacao": "A mais confiável das narrativas antigas da campanha, escrita quatro séculos depois mas apoiada nos relatos perdidos de Ptolomeu e Aristóbulo, ambos presentes. É a base da cronologia das batalhas."
+  },
+  {
     "id": "arthashastra",
     "tipo": "livro",
     "titulo": "Arthashastra",
@@ -85,6 +93,15 @@
     "titulo": "Atos de União entre Inglaterra e Escócia",
     "data": "1707",
     "citacao": "Fundiram os dois reinos e os dois parlamentos, criando a Grã-Bretanha."
+  },
+  {
+    "id": "axios-acordo-groenlandia-2026",
+    "tipo": "reportagem",
+    "titulo": "Greenland proposal Trump endorsed respects Denmark's sovereignty",
+    "publicacao": "Axios",
+    "data": "2026-01-21",
+    "url": "https://www.axios.com/2026/01/21/greenland-deal-trump-denmark-sovereignty",
+    "citacao": "O arcabouço discutido com o secretário-geral da OTAN, Mark Rutte, mantém a soberania dinamarquesa e trata de segurança no Ártico, atividade da aliança na região e acesso a matérias-primas. Um grupo de trabalho com os três lados passa a se reunir."
   },
   {
     "id": "beveridge-1942",
@@ -112,12 +129,30 @@
     "citacao": "Reconstruiu, a partir de arquivos judiciais e empresariais, o sistema de arrendamento de presos que prendia homens negros por vadiagem e os vendia a minas e siderúrgicas até os anos 1940, amparado na exceção penal da Décima Terceira Emenda."
   },
   {
+    "id": "bowden-cruzada-secreta",
+    "tipo": "livro",
+    "titulo": "A Cruzada Secreta — Assassin's Creed",
+    "autor": "Oliver Bowden",
+    "publicacao": "Editora Record",
+    "data": "2012-09-12",
+    "citacao": "Romance de 2011 derivado da série de jogos, narrando a vida de Altaïr Ibn-La'Ahad no Levante da Terceira Cruzada. Ficção construída sobre cenário histórico, não obra de história: a ordem dos Assassinos existiu, mas o conflito milenar com os Templários e os artefatos são invenção da franquia."
+  },
+  {
     "id": "brown-v-board-1954",
     "tipo": "decisao-judicial",
     "titulo": "Brown v. Board of Education of Topeka",
     "publicacao": "Suprema Corte dos Estados Unidos",
     "data": "1954-05-17",
     "citacao": "Decidiu por unanimidade que a segregação escolar é inerentemente desigual, revertendo Plessy. A ordem de execução do ano seguinte, com a fórmula da deliberada rapidez, permitiu que a dessegregação real levasse mais de uma década."
+  },
+  {
+    "id": "browne-darwin-voyaging",
+    "tipo": "livro",
+    "titulo": "Charles Darwin: Voyaging",
+    "autor": "Janet Browne",
+    "publicacao": "Jonathan Cape",
+    "data": "1995",
+    "citacao": "Primeiro volume da biografia de referência, cobrindo a infância, Edimburgo, Cambridge, a viagem do Beagle e os vinte anos de trabalho até a publicação. Reconstitui a cronologia a partir da correspondência e dos cadernos."
   },
   {
     "id": "browning-homens-comuns",
@@ -151,6 +186,24 @@
     "publicacao": "Companhia das Letras",
     "data": "1987",
     "citacao": "Trabalho que qualificou a leitura consagrada pela frase de Aristides Lobo, mostrando formas de participação popular que a imagem do povo bestializado encobria."
+  },
+  {
+    "id": "clark-sonambulos",
+    "tipo": "livro",
+    "titulo": "The Sleepwalkers: How Europe Went to War in 1914",
+    "autor": "Christopher Clark",
+    "publicacao": "Allen Lane",
+    "data": "2012",
+    "citacao": "Reconstitui a crise de julho decisão por decisão. Recusa a pergunta pela culpa única e mostra um sistema de alianças em que cada governo agiu por cálculo defensivo e produziu o resultado que nenhum deles queria."
+  },
+  {
+    "id": "cnbc-groenlandia-2026",
+    "tipo": "reportagem",
+    "titulo": "Trump doubles down on push for control over Greenland as Denmark vows to defend it",
+    "publicacao": "CNBC",
+    "data": "2026-07-08",
+    "url": "https://www.cnbc.com/2026/07/08/greenland-trump-nato-denmark.html",
+    "citacao": "Trump repete que os Estados Unidos precisam da ilha \"para a proteção do mundo\", e a Dinamarca responde que soberania não se negocia. A primeira-ministra Mette Frederiksen e o premiê groenlandês Jens-Frederik Nielsen tratam o tema como linha vermelha."
   },
   {
     "id": "cnv-relatorio",
@@ -202,6 +255,14 @@
     "citacao": "O diário original se perdeu, assim como a cópia mandada fazer pelos Reis Católicos. O que sobreviveu é o resumo preparado por Bartolomé de las Casas décadas depois, em que alguns trechos aparecem citados e outros parafraseados na terceira pessoa — distinção que importa para julgar cada afirmação atribuída a Colombo."
   },
   {
+    "id": "comissao-11-setembro",
+    "tipo": "documento-oficial",
+    "titulo": "The 9/11 Commission Report",
+    "publicacao": "National Commission on Terrorist Attacks Upon the United States",
+    "data": "2004-07-22",
+    "citacao": "Reconstitui a cronologia minuto a minuto dos quatro voos, a formação da Al-Qaeda no fim dos anos 1980, os atentados anteriores e as falhas de comunicação entre CIA e FBI. É a fonte contra a qual se mede qualquer relato do dia."
+  },
+  {
     "id": "comissao-11-setembro-2004",
     "tipo": "documento-oficial",
     "titulo": "The 9/11 Commission Report",
@@ -216,6 +277,14 @@
     "publicacao": "Câmara dos Representantes dos Estados Unidos",
     "data": "2022-12-22",
     "citacao": "Relatório final da comissão parlamentar sobre a invasão do Capitólio, com depoimentos majoritariamente de integrantes do próprio governo então em exercício. Suas conclusões são contestadas por parte do espectro político americano, e o atlas registra a fonte com essa ressalva."
+  },
+  {
+    "id": "comuns-groenlandia-2026",
+    "tipo": "documento-oficial",
+    "titulo": "President Trump and Greenland: Frequently asked questions",
+    "publicacao": "House of Commons Library, Reino Unido",
+    "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10472/",
+    "citacao": "Nota de pesquisa do parlamento britânico. Reúne o estatuto jurídico da Groenlândia dentro do Reino da Dinamarca, o histórico das ofertas americanas e o que a lei de autogoverno de 2009 permite e não permite."
   },
   {
     "id": "conjur-atibaia-2025",
@@ -323,6 +392,15 @@
     "citacao": "Lê o império britânico como sistema de comércio, crédito, migração e poder naval mantido por acordos locais, e não como projeto administrado de Londres. É a base para descrever a expansão e a retração sem tratá-las como decisão de um centro único."
   },
   {
+    "id": "darwin-origem-1859",
+    "tipo": "livro",
+    "titulo": "On the Origin of Species by Means of Natural Selection",
+    "autor": "Charles Darwin",
+    "publicacao": "John Murray",
+    "data": "1859-11-24",
+    "citacao": "Publicado vinte e um anos depois de Darwin formular a ideia, e apressado pela carta de Alfred Russel Wallace, que chegara à mesma conclusão de forma independente. A primeira edição sai sem a palavra evolução."
+  },
+  {
     "id": "davies-wheatcroft-anos-fome",
     "tipo": "livro",
     "titulo": "The Years of Hunger: Soviet Agriculture, 1931–1933",
@@ -331,12 +409,29 @@
     "citacao": "Trabalho quantitativo que atribui a fome à coletivização, às metas de coleta de grão e à recusa em admitir o fracasso do plano, sem intenção de exterminar um grupo nacional — a fome atingiu também o Cazaquistão, o Volga e o Cáucaso do Norte. É a posição oposta à de Applebaum sobre o caráter genocida, e o atlas registra as duas."
   },
   {
+    "id": "davies-wheatcroft-fome",
+    "tipo": "livro",
+    "titulo": "The Years of Hunger: Soviet Agriculture, 1931–1933",
+    "autor": "R. W. Davies e Stephen G. Wheatcroft",
+    "publicacao": "Palgrave Macmillan",
+    "data": "2004",
+    "citacao": "Reconstrução quantitativa da fome a partir dos registros de produção e requisição. Os autores sustentam que houve responsabilidade criminosa do regime sem intenção específica de exterminar ucranianos — é a leitura que se opõe à classificação como genocídio, e é a principal delas."
+  },
+  {
     "id": "davis-holocaustos-vitorianos",
     "tipo": "livro",
     "titulo": "Late Victorian Holocausts: El Niño Famines and the Making of the Third World",
     "autor": "Mike Davis",
     "data": "2001",
     "citacao": "Sustenta que as grandes fomes indianas do fim do século XIX resultaram da combinação entre seca do El Niño e política deliberada — exportação continuada de grão, recusa de socorro por doutrina liberal e integração forçada ao mercado mundial. É a posição que trata as fomes coloniais como responsabilidade administrativa, não como fatalidade climática."
+  },
+  {
+    "id": "declaracao-balfour-1917",
+    "tipo": "documento-oficial",
+    "titulo": "Declaração Balfour",
+    "publicacao": "Ministério das Relações Exteriores do Reino Unido",
+    "data": "1917-11-02",
+    "citacao": "Carta do secretário de Relações Exteriores Arthur Balfour a lorde Rothschild declarando que o governo britânico veria com bons olhos o estabelecimento de um lar nacional judeu na Palestina. Assinada por Balfour e não pelo primeiro-ministro, e contemporânea de compromissos incompatíveis assumidos com os árabes e com a França."
   },
   {
     "id": "declaracao-direitos-1789",
@@ -386,6 +481,15 @@
     "publicacao": "XX Congresso do Partido Comunista da União Soviética",
     "data": "1956-02-25",
     "citacao": "Denunciou em sessão fechada as prisões, torturas e execuções de comunistas sob Stálin e a fabricação de conspirações. Foi lido em células partidárias por todo o bloco, vazou para o Ocidente em semanas e abriu a fissura que levaria às revoltas de 1956 e à ruptura com a China."
+  },
+  {
+    "id": "dobbs-um-minuto",
+    "tipo": "livro",
+    "titulo": "One Minute to Midnight: Kennedy, Khrushchev, and Castro on the Brink of Nuclear War",
+    "autor": "Michael Dobbs",
+    "publicacao": "Knopf",
+    "data": "2008",
+    "citacao": "Reconstitui hora a hora o dia 27 de outubro de 1962 com arquivos dos três países. Estabelece os episódios que quase decidiram a crise fora do controle dos líderes: o U-2 abatido sobre Cuba, o submarino B-59 forçado à superfície, e as armas nucleares táticas soviéticas já em solo cubano."
   },
   {
     "id": "domesday-book-1086",
@@ -543,6 +647,15 @@
     "citacao": "História da Índia independente, do domínio de 1947 à república contemporânea."
   },
   {
+    "id": "gutas-pensamento-grego",
+    "tipo": "livro",
+    "titulo": "Greek Thought, Arabic Culture: The Graeco-Arabic Translation Movement in Baghdad",
+    "autor": "Dimitri Gutas",
+    "publicacao": "Routledge",
+    "data": "1998",
+    "citacao": "Mostra que o movimento de tradução foi política de Estado abássida sustentada por dois séculos, e que os tradutores eram em boa parte cristãos siríacos e nestorianos. Desfaz a versão de um Islã que salva os gregos de uma Igreja que os destruía: as duas tradições trabalharam nos mesmos textos."
+  },
+  {
     "id": "iacb-moedas-ferro",
     "tipo": "dataset",
     "titulo": "Iron Age Coins in Britain",
@@ -607,6 +720,24 @@
     "citacao": "Mostrou que a aprovação do New Deal dependeu de excluir trabalhadores agrícolas e domésticos da seguridade social e das leis trabalhistas, deixando de fora a maioria dos trabalhadores negros, e que o crédito habitacional federal foi desenhado para não alcançá-los."
   },
   {
+    "id": "kennedy-bagda-governou",
+    "tipo": "livro",
+    "titulo": "When Baghdad Ruled the Muslim World: The Rise and Fall of Islam's Greatest Dynasty",
+    "autor": "Hugh Kennedy",
+    "publicacao": "Da Capo Press",
+    "data": "2004",
+    "citacao": "História política do califado abássida, da revolução de Khurasan à fragmentação. Reconstitui as figuras da corte a partir das crônicas árabes, incluindo a distinção entre al-Khayzuran, mãe de Harun al-Rashid, e Zubaydah, esposa dele — frequentemente confundidas."
+  },
+  {
+    "id": "kennedy-tapes",
+    "tipo": "livro",
+    "titulo": "The Kennedy Tapes: Inside the White House During the Cuban Missile Crisis",
+    "autor": "Ernest R. May e Philip D. Zelikow",
+    "publicacao": "Harvard University Press",
+    "data": "1997",
+    "citacao": "Transcrição das gravações secretas das reuniões do ExComm. Mostra o presidente como voz de contenção contra a maioria dos chefes militares, que defendiam ataque aéreo e invasão."
+  },
+  {
     "id": "kerner-1968",
     "tipo": "documento-oficial",
     "titulo": "Report of the National Advisory Commission on Civil Disorders (Relatório Kerner)",
@@ -653,6 +784,41 @@
     "citacao": "Biografia em vários volumes baseada em arquivos soviéticos abertos depois de 1991, referência para o período stalinista."
   },
   {
+    "id": "kotkin-stalin-1",
+    "tipo": "livro",
+    "titulo": "Stalin: Paradoxes of Power, 1878–1928",
+    "autor": "Stephen Kotkin",
+    "publicacao": "Penguin",
+    "data": "2014",
+    "citacao": "Reconstitui a ascensão a partir dos arquivos do partido. Sustenta que a coletivização não foi improviso administrativo e sim decisão ideológica tomada contra a avaliação dos próprios quadros econômicos soviéticos."
+  },
+  {
+    "id": "kyle-suez",
+    "tipo": "livro",
+    "titulo": "Suez: Britain's End of Empire in the Middle East",
+    "autor": "Keith Kyle",
+    "publicacao": "I.B. Tauris",
+    "data": "1991",
+    "citacao": "Reconstitui a crise a partir dos arquivos dos três países. Estabelece a mecânica do conluio: Israel ataca, França e Reino Unido entram como pacificadores de um conflito que ajudaram a combinar, e o pretexto se desfaz quando o acordo vaza."
+  },
+  {
+    "id": "lane-fox-alexandre",
+    "tipo": "livro",
+    "titulo": "Alexander the Great",
+    "autor": "Robin Lane Fox",
+    "publicacao": "Allen Lane",
+    "data": "1973",
+    "citacao": "Biografia de referência, construída sobre Arriano e Plutarco com leitura crítica das fontes. Distingue o que as crônicas antigas afirmam do que a propaganda macedônia produziu em vida de Alexandre."
+  },
+  {
+    "id": "le-goff-ocidente-medieval",
+    "tipo": "livro",
+    "titulo": "A civilização do Ocidente medieval",
+    "autor": "Jacques Le Goff",
+    "data": "1964",
+    "citacao": "Trata a Idade Média como período com lógica própria e não como intervalo entre a Antiguidade e o Renascimento. É a obra que fixou em português a divisão em Alta e Baixa Idade Média nos sentidos usados aqui: Alta para o começo, Baixa para o fim."
+  },
+  {
     "id": "leal-coronelismo",
     "tipo": "livro",
     "titulo": "Coronelismo, Enxada e Voto: o município e o regime representativo no Brasil",
@@ -667,6 +833,14 @@
     "publicacao": "Bundestag alemão",
     "data": "1991-12-20",
     "citacao": "Deu a qualquer cidadão o direito de ler o próprio dossiê da polícia política da RDA e autorizou a pesquisa sobre o acervo. É a base documental das cifras de funcionários e de colaboradores informais do órgão, e uma decisão sem paralelo entre os países que saíram do bloco soviético."
+  },
+  {
+    "id": "lei-autogoverno-groenlandia-2009",
+    "tipo": "documento-oficial",
+    "titulo": "Lei de Autogoverno da Groenlândia",
+    "publicacao": "Parlamento da Dinamarca (Folketing)",
+    "data": "2009-06-21",
+    "citacao": "Substitui o regime de autonomia de 1979 e reconhece o povo groenlandês como sujeito de direito internacional com direito à autodeterminação. Fixa que a independência depende de decisão dos groenlandeses, ratificada em referendo — não de acordo entre Copenhague e terceiros."
   },
   {
     "id": "lei-fundamental-1949",
@@ -875,6 +1049,14 @@
     "citacao": "Iniciativa estatal que fixou 1600 e 1046 a.C. como marcos. Sua precisão foi contestada por parte da comunidade acadêmica fora da China, que aponta circularidade no uso das fontes; estimativas anteriores para a conquista zhou variam de 1122 a 1027 a.C."
   },
   {
+    "id": "protocolo-sevres-1956",
+    "tipo": "documento-oficial",
+    "titulo": "Protocolo de Sèvres",
+    "publicacao": "Reino Unido, França e Israel",
+    "data": "1956-10-24",
+    "citacao": "O acordo secreto assinado três dias antes da invasão. Combina que Israel atacaria o Sinai e que França e Reino Unido interviriam em seguida invocando a proteção do canal. É o documento que transforma a versão oficial de pacificação em pretexto combinado."
+  },
+  {
     "id": "protocolo-wannsee-1942",
     "tipo": "documento-oficial",
     "titulo": "Protocolo da Conferência de Wannsee",
@@ -971,12 +1153,30 @@
     "citacao": "Escrito por volta de 100 a.C., é a fonte narrativa mais antiga e influente sobre as dinastias anteriores aos Han. Como toda crônica de corte tem ponto de vista: foi composta sob os Han, sobre as dinastias que eles substituíram."
   },
   {
+    "id": "skinner-maquiavel",
+    "tipo": "livro",
+    "titulo": "Machiavelli: A Very Short Introduction",
+    "autor": "Quentin Skinner",
+    "publicacao": "Oxford University Press",
+    "data": "1981",
+    "citacao": "Situa O Príncipe no ofício de Maquiavel como secretário da chancelaria florentina e no gênero dos espelhos de príncipes, contra os quais o livro se escreve. Sustenta que a ruptura não está em recomendar a crueldade, mas em separar o que funciona do que é virtuoso."
+  },
+  {
     "id": "slavevoyages",
     "tipo": "dataset",
     "titulo": "Trans-Atlantic Slave Trade Database",
     "publicacao": "SlaveVoyages, consórcio de universidades",
     "url": "https://www.slavevoyages.org/",
     "citacao": "Base que reúne registros de mais de 36 mil viagens negreiras e sustenta as estimativas de desembarque por destino. É dela que vem a ordem de grandeza usada no atlas para o Brasil; as estimativas são revisadas conforme novos registros entram, e o número não deve ser lido como contagem fechada."
+  },
+  {
+    "id": "snyder-bloodlands",
+    "tipo": "livro",
+    "titulo": "Bloodlands: Europe Between Hitler and Stalin",
+    "autor": "Timothy Snyder",
+    "publicacao": "Basic Books",
+    "data": "2010",
+    "citacao": "Trata a fome ucraniana como política deliberada dirigida contra a Ucrânia, com as medidas de bloqueio de aldeias e listas negras como prova de intenção. Estima cerca de 3,3 milhões de mortos por fome na Ucrânia soviética em 1932 e 1933."
   },
   {
     "id": "sportspro-arsenal-ruanda-2025",
@@ -1047,6 +1247,15 @@
     "autor": "Benjamin Stora",
     "data": "1991",
     "citacao": "Referência sobre o apagamento da guerra da Argélia na memória francesa: as leis de anistia, a recusa oficial da palavra guerra até 1999 e o silêncio sobre a tortura. Sustenta as ressalvas dos períodos franceses de 1944 em diante."
+  },
+  {
+    "id": "sulloway-tentilhoes-1982",
+    "tipo": "artigo-academico",
+    "titulo": "Darwin and His Finches: The Evolution of a Legend",
+    "autor": "Frank J. Sulloway",
+    "publicacao": "Journal of the History of Biology",
+    "data": "1982",
+    "citacao": "Demonstra que a história dos tentilhões de Galápagos como momento de revelação é lenda posterior. Darwin não etiquetou os espécimes por ilha e teve de reconstituir a procedência depois, usando as coleções de FitzRoy e de outros tripulantes. O que ele notou por ilha na época foram os sabiás-do-campo."
   },
   {
     "id": "thapar-early-india",
@@ -1127,6 +1336,14 @@
     "citacao": "Atribuiu à Alemanha a responsabilidade pela Primeira Guerra e impôs reparações. O artigo 231, a chamada cláusula de culpa, é peça central da política alemã do entreguerras."
   },
   {
+    "id": "tratado-versalhes-1919",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Versalhes",
+    "publicacao": "Conferência de Paz de Paris",
+    "data": "1919-06-28",
+    "citacao": "Trata da Alemanha e somente dela: perda das colônias, cessão territorial, limite de forças armadas, reparações e a cláusula de responsabilidade pela guerra. Os outros impérios derrotados foram objeto de tratados próprios — Áustria em Saint-Germain, Hungria no Trianon, Bulgária em Neuilly e o Império Otomano em Sèvres, depois substituído por Lausanne."
+  },
+  {
     "id": "tribunal-toquio-1948",
     "tipo": "decisao-judicial",
     "titulo": "Sentença do Tribunal Militar Internacional para o Extremo Oriente",
@@ -1141,6 +1358,15 @@
     "publicacao": "Congresso dos Estados Unidos",
     "data": "1965-08-06",
     "citacao": "Proibiu testes de alfabetização e submeteu estados com histórico de discriminação à autorização federal prévia para mudar regras eleitorais. O registro eleitoral negro no Mississippi saltou de menos de 10% para perto de 60% em dois anos."
+  },
+  {
+    "id": "wickham-heranca-de-roma",
+    "tipo": "livro",
+    "titulo": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+    "autor": "Chris Wickham",
+    "publicacao": "Penguin",
+    "data": "2009",
+    "citacao": "Argumenta contra a leitura de colapso: as estruturas romanas não desabam em 476, se transformam ao longo de séculos, e os reinos germânicos governam com administração e fisco herdados de Roma. A ruralização é real, mas gradual e desigual."
   },
   {
     "id": "williams-roberts-estanho-2025",
