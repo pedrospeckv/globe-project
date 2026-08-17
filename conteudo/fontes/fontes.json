@@ -139,6 +139,15 @@
     "citacao": "Firmou a supremacia do Parlamento sobre a Coroa depois da Revolução Gloriosa."
   },
   {
+    "id": "birka-guerreira-2017",
+    "tipo": "artigo-academico",
+    "titulo": "A female Viking warrior confirmed by genomics",
+    "autor": "Charlotte Hedenstierna-Jonson e outros",
+    "publicacao": "American Journal of Physical Anthropology",
+    "data": "2017",
+    "citacao": "Análise genômica do sepultamento Bj 581, em Birka, na Suécia, enterrado com armamento completo e dois cavalos: o indivíduo é cromossomicamente feminino. A interpretação como guerreira segue contestada, e é o achado central do debate sobre mulheres armadas na era viking."
+  },
+  {
     "id": "blackmon-servidao-penal",
     "tipo": "livro",
     "titulo": "Slavery by Another Name: The Re-Enslavement of Black Americans from the Civil War to World War II",
@@ -550,6 +559,15 @@
     "citacao": "Obra coletiva de referência que cobre da Gália ao século XX, usada como base narrativa geral para os períodos franceses."
   },
   {
+    "id": "dull-ilopango-2019",
+    "tipo": "artigo-academico",
+    "titulo": "Radiocarbon and geologic evidence reveal Ilopango volcano as source of the colossal 'mystery' eruption of 539/40 CE",
+    "autor": "Robert Dull e outros",
+    "publicacao": "Proceedings of the National Academy of Sciences",
+    "data": "2019",
+    "citacao": "Datação por radiocarbono que atribui ao vulcão Ilopango, em El Salvador, a erupção colossal de 539 ou 540. O escurecimento de 536 é atribuído a outra erupção, provavelmente de alta latitude — são dois eventos próximos, e juntos produzem a década mais fria do hemisfério norte em dois milênios."
+  },
+  {
     "id": "dunbar-ortiz-historia-indigena",
     "tipo": "livro",
     "titulo": "An Indigenous Peoples' History of the United States",
@@ -748,6 +766,15 @@
     "publicacao": "IBGE — Sistema IBGE de Recuperação Automática (SIDRA)",
     "url": "https://sidra.ibge.gov.br/tabela/6381",
     "citacao": "Pesquisa Nacional por Amostra de Domicílios Contínua, pessoas de 14 anos ou mais. A tabela publica trimestres móveis, que se sobrepõem; o atlas usa sempre o trimestre out–dez para não apresentar como número do IBGE uma média que o IBGE não divulga."
+  },
+  {
+    "id": "ibn-fadlan-risala",
+    "tipo": "documento-oficial",
+    "titulo": "Risala",
+    "autor": "Ahmad ibn Fadlan",
+    "publicacao": "Embaixada do califado abássida aos búlgaros do Volga",
+    "data": "922",
+    "citacao": "Relato de testemunha do funeral de um chefe rus no Volga, incluindo o sacrifício ritual de uma escrava. É a descrição mais detalhada que existe de um funeral escandinavo por alguém que o presenciou — e vem de um observador externo, muçulmano, com repulsa declarada pelos costumes que descreve."
   },
   {
     "id": "infomoney-lulinha-2026",
@@ -1128,6 +1155,15 @@
     "autor": "Kenneth Pomeranz",
     "data": "2000",
     "citacao": "Sustenta que o delta do Yangtzé e a Inglaterra eram comparáveis em renda, mercados e expectativa de vida até por volta de 1800, e que a divergência se explica por dois acidentes ingleses — carvão perto dos centros produtores e recursos coloniais americanos —, não por atraso chinês. É a posição oposta à de Elvin, e o atlas registra as duas."
+  },
+  {
+    "id": "price-vikings",
+    "tipo": "livro",
+    "titulo": "Vikings (Children of Ash and Elm: A History of the Vikings)",
+    "autor": "Neil Price",
+    "publicacao": "Crítica",
+    "data": "2021-10-20",
+    "citacao": "Síntese da arqueologia escandinava das últimas décadas, escrita por quem escavou parte dela. Trata a era viking a partir da vida material e da cosmologia, e é explícito sobre o que as fontes permitem afirmar e o que não permitem — muito do que a cultura popular fixou vem de sagas escritas séculos depois, por cristãos."
   },
   {
     "id": "proc-condenacao-1431",
