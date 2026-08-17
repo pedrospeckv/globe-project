@@ -210,7 +210,8 @@ async function main() {
     console.log(
       `  · ${nome.padEnd(9)} ano ${String(e.ano).padStart(7)}  ` +
         `${String(e.feicoes).padStart(4)} feições  ` +
-        `${String(Math.round(e.bytes / 1024)).padStart(4)} kB (${pct}% do cru)`
+        `${String(Math.round(e.bytes / 1024)).padStart(4)} kB (${pct}% do cru)` +
+        ""
     );
   }
 

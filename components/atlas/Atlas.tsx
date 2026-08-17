@@ -18,8 +18,11 @@ import {
   ATRIBUICAO,
   carregarFatia,
   fatiaPara,
+  precisaoBaixa,
+  rotuloDaFatia,
   type FatiaFeature,
 } from "@/lib/geo/fatias";
+import { criarSeletor } from "@/lib/geo/seletor";
 import { rotaAte, type RotaFeature } from "@/lib/geo/rota";
 import {
   anoFracionarioDe,
@@ -208,6 +211,25 @@ export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
   const defasagem = Math.max(0, Math.round(tempo - fatiaAtual.ano));
 
   /**
+   * Quem estava sob o ponteiro, na camada de fundo.
+   *
+   * Guardado como índice e não como feição: o estado é comparável por valor,
+   * então mover o mouse dentro do mesmo país não gera render novo. Com a
+   * feição inteira no estado, cada pixel percorrido invalidava a árvore.
+   */
+  const [sob, setSob] = useState<number | null>(null);
+
+  const seletor = useMemo(
+    () =>
+      fatia
+        ? criarSeletor({ fatia, largura: LARGURA, altura: ALTURA, alpha, rotacao })
+        : null,
+    [fatia, alpha, rotacao]
+  );
+
+  const feicaoSob = sob !== null && fatia ? (fatia[sob] ?? null) : null;
+
+  /**
    * Eventos próximos ao instante atual.
    *
    * A janela NÃO acompanha o tamanho do domínio. Ela já acompanhou, e o
@@ -319,15 +341,39 @@ export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
     arrastando.current = false;
   }, []);
 
+  /*
+   * Hover só quando não está arrastando: girar o globo com o botão apertado
+   * não é consulta, e manter a etiqueta viva no meio do arrasto a fazia
+   * piscar de país em país.
+   */
+  const aoPassar = useCallback(
+    (e: React.PointerEvent) => {
+      if (arrastando.current || !seletor || !fatia) {
+        setSob(null);
+        return;
+      }
+      const r = e.currentTarget.getBoundingClientRect();
+      const f = seletor.em(e.clientX - r.left, e.clientY - r.top);
+      setSob(f ? fatia.indexOf(f) : null);
+    },
+    [seletor, fatia]
+  );
+
   return (
     <div className="flex flex-col items-center gap-4">
       <div
         className="relative touch-none cursor-grab active:cursor-grabbing"
         style={{ width: LARGURA, height: ALTURA }}
         onPointerDown={aoPressionar}
-        onPointerMove={aoMover}
+        onPointerMove={(e) => {
+          aoMover(e);
+          aoPassar(e);
+        }}
         onPointerUp={aoSoltar}
-        onPointerLeave={aoSoltar}
+        onPointerLeave={() => {
+          aoSoltar();
+          setSob(null);
+        }}
       >
         <GlobeCanvas
           fundo={fundo}
@@ -337,6 +383,33 @@ export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
           alpha={alpha}
           rotacao={rotacao}
         />
+        {/*
+          Etiqueta do que está sob o ponteiro, fixa num canto e não seguindo o
+          cursor. Seguir exigiria guardar a posição em estado a cada pixel, e
+          o motivo de `sob` ser índice em vez de feição foi justamente não
+          renderizar de novo dentro do mesmo país. Canto fixo mantém isso.
+
+          `s` é o `SUBJECTO` da fonte: a quem aquele território respondia. É a
+          resposta para "de quem era isto", e vem do dado, não de inferência
+          nossa — quando a fonte não diz, a linha não aparece.
+        */}
+        {feicaoSob && (
+          <div className="pointer-events-none absolute left-3 top-3 max-w-[15rem] rounded border border-slate-700 bg-slate-950/85 px-2 py-1.5">
+            <p className="font-mono text-xs text-slate-200">
+              {rotuloDaFatia(feicaoSob) ?? "sem atribuição na fonte"}
+            </p>
+            {feicaoSob.properties?.s && (
+              <p className="mt-0.5 text-[10px] text-amber-300/80">
+                sob domínio de {feicaoSob.properties.s}
+              </p>
+            )}
+            <p className="mt-0.5 text-[10px] text-slate-500">
+              {rotuloDeAnoHistorico(fatiaAtual.ano)}
+              {precisaoBaixa(feicaoSob) && " · fronteira conjectural"}
+            </p>
+          </div>
+        )}
+
         <GeoOverlay
           curados={curados}
           rotas={rotas}

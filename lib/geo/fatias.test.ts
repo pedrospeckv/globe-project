@@ -9,6 +9,8 @@ import {
   PRECISAO_FIRME,
   defasagemDaFatia,
   fatiaPara,
+  feicaoAbsurda,
+  feicoesUteis,
   precisaoBaixa,
   rotuloDaFatia,
   type FatiaFeature,
@@ -203,5 +205,59 @@ describe("geometria das fatias", () => {
     const compartilhados = [...refs.values()].filter((n) => n > 1).length;
     expect(refs.size).toBeGreaterThan(0);
     expect(compartilhados).toBeGreaterThan(refs.size * 0.2);
+  });
+});
+
+describe("feições absurdas", () => {
+  /*
+   * Esta é a regressão que mais importa do arquivo. O defeito não era visível
+   * como erro: o mapa continuava desenhando, e a única pista era o oceano com
+   * cor de terra. A consulta por hover é que o expôs, respondendo "Alemanha"
+   * no meio do Pacífico.
+   */
+  it("nenhuma fatia entrega feição cobrindo mais de 1 sr", () => {
+    for (const f of FATIAS) {
+      const topo = JSON.parse(
+        fs.readFileSync(path.join(PASTA, `${f.nome}.json`), "utf8")
+      ) as Topology;
+      const todas = feature(topo, topo.objects.mundo as GeometryCollection)
+        .features as FatiaFeature[];
+      const uteis = feicoesUteis(todas);
+      expect(
+        uteis.filter((x) => feicaoAbsurda(x)),
+        `${f.nome} deixou passar feição absurda`
+      ).toHaveLength(0);
+    }
+  });
+
+  /*
+   * O filtro tem de custar pouco, senão esconde história em vez de artefato.
+   * Medido no conjunto: 151 feições descartadas de 17.521, ou 0,86%. A pior
+   * fatia é `bc323`, com 5 de 149 — 3,4%. O limite de 4% é folga sobre isso,
+   * e serve para acusar se uma reconstrução do dado piorar o estrago.
+   */
+  it("descarta pouco — no máximo 4% das feições de cada fatia", () => {
+    for (const f of FATIAS) {
+      const topo = JSON.parse(
+        fs.readFileSync(path.join(PASTA, `${f.nome}.json`), "utf8")
+      ) as Topology;
+      const todas = feature(topo, topo.objects.mundo as GeometryCollection)
+        .features as FatiaFeature[];
+      const perdidas = todas.length - feicoesUteis(todas).length;
+      expect(
+        perdidas / todas.length,
+        `${f.nome} perdeu ${perdidas} de ${todas.length}`
+      ).toBeLessThan(0.04);
+    }
+  });
+
+  it("mantém as feições normais", () => {
+    const topo = JSON.parse(
+      fs.readFileSync(path.join(PASTA, "1900.json"), "utf8")
+    ) as Topology;
+    const todas = feature(topo, topo.objects.mundo as GeometryCollection)
+      .features as FatiaFeature[];
+    /* 1900 é uma das 15 fatias sãs: nada deve ser descartado nela. */
+    expect(feicoesUteis(todas)).toHaveLength(todas.length);
   });
 });

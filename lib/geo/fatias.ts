@@ -1,4 +1,5 @@
 import { feature } from "topojson-client";
+import { geoArea } from "d3-geo";
 import type { Feature, Geometry } from "geojson";
 import type { Topology, GeometryCollection } from "topojson-specification";
 import indice from "./fatias-indice.json";
@@ -111,6 +112,64 @@ export function defasagemDaFatia(anoFrac: number): number {
 }
 
 /**
+ * Área acima da qual a feição é artefato, não território.
+ *
+ * Um esterradiano é ~8% da esfera. Nenhuma entidade histórica desta base
+ * chega perto: a maior, o Império Britânico de 1920, fica bem abaixo.
+ */
+const AREA_ABSURDA = 1.0;
+
+/**
+ * Feições que a redução corrompeu, e que precisam ser ignoradas na tela.
+ *
+ * ## O defeito, medido
+ *
+ * `simplify` e `quantize` — os dois passos que fazem o conjunto caber em
+ * 4,4 MB em vez de 85 MB — degeneram anéis pequenos. Anel de área zero na
+ * esfera não é inofensivo: dependendo do sentido em que é percorrido, o
+ * `d3-geo` o lê como TODO O PLANETA. A feição inteira passa a medir ~4π.
+ *
+ * O caso que denunciou: a Alemanha de 2010, com `geoArea` de 12,575 sr, ou
+ * 100,1% da esfera. Como é o índice 184 de 240, pintava por cima de tudo
+ * desenhado antes dela — e no hover respondia "Alemanha" em qualquer ponto do
+ * mundo, inclusive no meio do Pacífico. Está em 38 das 53 fatias.
+ *
+ * ## Por que filtrar aqui, e não consertar o dado
+ *
+ * Porque três tentativas de consertar na origem falharam, e vale registrar
+ * quais para ninguém repetir:
+ *
+ * 1. Rebobinar os anéis invertidos antes da topologia — os anéis NÃO estão
+ *    invertidos na fonte. Sem reduzir nada, a fonte não tem nenhuma feição
+ *    absurda. O estrago nasce na redução.
+ * 2. Remover anéis degenerados na entrada — removeu 24 em 2010 e a Alemanha
+ *    continuou cobrindo o globo, pelo mesmo motivo: ainda não degeneraram.
+ * 3. Remover os anéis da topologia já quantizada, pelos índices de arco —
+ *    `feature()` descarta polígonos vazios, então a correspondência
+ *    posicional entre a geometria decodificada e `geometries[].arcs`
+ *    desalinha. Apagou a Sicília e a Sardenha e não apagou o defeito.
+ *
+ * O filtro por área é o oposto disso: não tenta adivinhar qual anel está
+ * errado, mede o resultado final e descarta o que é geometricamente
+ * impossível. É barato, é verificável, e falha para o lado seguro — na pior
+ * hipótese esconde uma feição, em vez de pintar o mundo com ela.
+ *
+ * Consertar a geometria de verdade continua pendente. O caminho que sobra é
+ * guardar a versão íntegra, sem reduzir, das poucas feições que a redução
+ * corrompe — são de uma a sete por fatia.
+ */
+export function feicaoAbsurda(f: FatiaFeature): boolean {
+  return f.geometry !== null && geoArea(f) > AREA_ABSURDA;
+}
+
+/** As feições desenháveis: tudo que não é artefato de redução. */
+export function feicoesUteis(
+  fatia: readonly FatiaFeature[]
+): FatiaFeature[] {
+  return fatia.filter((f) => !feicaoAbsurda(f));
+}
+
+/**
  * Cache de PROMESSAS, não de resultados.
  *
  * Guardar o resultado deixava dois chamadores simultâneos errarem o cache,
@@ -143,7 +202,13 @@ export function carregarFatia(nome: string): Promise<FatiaFeature[]> {
     }
     const topologia = (await resposta.json()) as Topology;
     const colecao = topologia.objects.mundo as GeometryCollection;
-    return feature(topologia, colecao).features as FatiaFeature[];
+    const todas = feature(topologia, colecao).features as FatiaFeature[];
+    /*
+     * Filtrado JÁ AQUI, e não em quem desenha. São dois consumidores — o
+     * canvas e o seletor de hover — e se o filtro morasse neles, esquecer num
+     * deles faria a tela e a consulta discordarem sobre o que existe.
+     */
+    return feicoesUteis(todas);
   })().catch((e: unknown) => {
     cache.delete(nome);
     throw e;
