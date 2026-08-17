@@ -38,6 +38,14 @@ export const Nota = z.object({
    * correspondente, e forçar uma associação seria inventar relação.
    */
   alvos: z.array(z.string()).default([]),
+  /**
+   * Fontes que sustentam o texto, no mesmo espaço de ids do resto do acervo.
+   *
+   * Vazio enquanto a nota ainda for o rascunho cru que veio do cofre. Deixa
+   * de ser assim que o texto passar pela revisão: nota revisada afirma, e o
+   * que afirma diz de onde. `coberturaDeNotas` conta as que ainda devem.
+   */
+  fontes: z.array(Id).default([]),
 });
 
 export type Nota = z.infer<typeof Nota>;

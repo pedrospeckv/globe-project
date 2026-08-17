@@ -3,6 +3,7 @@ import path from "node:path";
 import { Nota, notasDoAlvo } from "./nota";
 import { temFrontmatter } from "./frontmatter";
 import { carregarAcervo } from "./carregar";
+import { coberturaDeNotas } from "./integridade";
 import { indexarAlvos } from "./ligacoes";
 
 const acervo = await carregarAcervo(path.join(process.cwd(), "conteudo"));
@@ -110,5 +111,39 @@ describe("notas importadas do cofre", () => {
 
   it("nenhuma nota carrega o cabeçalho YAML do cofre", () => {
     for (const n of acervo.notas) expect(temFrontmatter(n.corpo)).toBe(false);
+  });
+
+  it("toda fonte citada por nota existe", () => {
+    // Mesma regra do período: id inventado contornaria a exigência de lastro.
+    const ids = new Set(acervo.fontes.map((f) => f.id));
+    for (const n of acervo.notas) {
+      for (const f of n.fontes) expect(ids.has(f), `${n.id} cita ${f}`).toBe(true);
+    }
+  });
+
+  it("nota revisada não usa construção que a Prosa não estiliza", () => {
+    /*
+     * `Prosa` monta o markdown sem remark-gfm e sob o preflight do Tailwind:
+     * só `a`, `em` e `strong` recebem estilo. Cabeçalho vira texto corrido do
+     * mesmo tamanho, marcador de lista some, e tabela nem chega a virar
+     * tabela — sai como linha de pipes. As notas cruas ainda têm isso e é
+     * parte do que a revisão conserta; as revisadas não podem reintroduzir.
+     */
+    for (const n of acervo.notas.filter((x) => x.fontes.length > 0)) {
+      const linhas = n.corpo.split("\n").map((l) => l.trim());
+      expect(linhas.filter((l) => /^#{1,6}\s/.test(l)), `${n.id} usa cabeçalho`)
+        .toEqual([]);
+      expect(linhas.filter((l) => l.startsWith("|")), `${n.id} usa tabela`)
+        .toEqual([]);
+    }
+  });
+
+  it("coberturaDeNotas conta quais ainda estão cruas", () => {
+    const cob = coberturaDeNotas(acervo);
+    expect(cob.comTexto).toBe(acervo.notas.length);
+    expect(cob.comFonte + cob.semFonte.length).toBe(cob.comTexto);
+    for (const id of cob.semFonte) {
+      expect(acervo.notas.find((n) => n.id === id)?.fontes).toEqual([]);
+    }
   });
 });

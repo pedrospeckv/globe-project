@@ -4,6 +4,7 @@ import { carregarAcervo } from "../lib/conteudo/carregar";
 import {
   verificarIntegridade,
   coberturaDeFontes,
+  coberturaDeNotas,
 } from "../lib/conteudo/integridade";
 
 /**
@@ -55,6 +56,25 @@ async function main() {
       `\n⚠ fontes nos períodos: ${cob.comFonte}/${cob.comTexto} com texto têm fonte`
     );
     for (const id of cob.semFonte) console.log(`  · ${id}`);
+    console.log("");
+  }
+
+  /*
+   * A mesma conta para as notas, e pelo motivo oposto: aqui a dívida é
+   * temporária e tem fim marcado. As 29 vieram cruas do cofre; a decisão foi
+   * revisá-las com fonte, o que tira o aviso de "sem revisão e sem fonte" da
+   * página. Enquanto o número não zerar, o aviso da página precisa continuar
+   * dizendo que parte do acervo ainda é rascunho.
+   */
+  const notas = coberturaDeNotas(acervo);
+  if (notas.semFonte.length === 0) {
+    console.log(`✓ as ${notas.comTexto} notas estão revisadas e com fonte`);
+  } else {
+    console.log(
+      `\n⚠ revisão das notas: ${notas.comFonte}/${notas.comTexto} com fonte — ` +
+        `${notas.semFonte.length} ainda cruas do cofre`
+    );
+    for (const id of notas.semFonte) console.log(`  · ${id}`);
     console.log("");
   }
 }

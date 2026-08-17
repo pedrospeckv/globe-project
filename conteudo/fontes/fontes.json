@@ -33,6 +33,15 @@
     "citacao": "Terceiro volume da crônica oficial do reinado de Akbar, é na prática um levantamento administrativo do império: receita por província, preços, salários, efetivos, produção agrícola e composição da nobreza. Nenhum Estado da época produziu documento estatístico comparável, e ele foi escrito pelo panegirista da corte — as duas coisas ao mesmo tempo."
   },
   {
+    "id": "aljazeera-unsc-ruanda-2025",
+    "tipo": "reportagem",
+    "titulo": "UN Security Council urges Rwanda to withdraw troops from eastern DR Congo",
+    "publicacao": "Al Jazeera",
+    "data": "2025-12-20",
+    "url": "https://www.aljazeera.com/news/2025/12/20/un-security-council-urges-rwanda-to-withdraw-troops-from-eastern-dr-congo",
+    "citacao": "O Conselho de Segurança condena a ofensiva do M23 no leste da República Democrática do Congo e cobra a retirada das tropas ruandesas — meses depois do acordo mediado pelos Estados Unidos que obrigava os dois lados a parar de apoiar grupos armados."
+  },
+  {
     "id": "ambedkar-aniquilacao-casta",
     "tipo": "livro",
     "titulo": "Annihilation of Caste",
@@ -125,6 +134,14 @@
     "autor": "Pero Vaz de Caminha",
     "data": "1500-05-01",
     "citacao": "Relato da chegada da frota de Cabral à costa da futura Bahia, escrito em Porto Seguro e enviado a Lisboa pela nau de Gaspar de Lemos."
+  },
+  {
+    "id": "carlsson-ruanda-1999",
+    "tipo": "documento-oficial",
+    "titulo": "Report of the Independent Inquiry into the actions of the United Nations during the 1994 genocide in Rwanda",
+    "publicacao": "Organização das Nações Unidas (S/1999/1257)",
+    "data": "1999-12-15",
+    "citacao": "Inquérito encomendado pelo próprio secretário-geral. Reconstitui a morte dos dez capacetes azuis belgas em 7 de abril de 1994, a retirada do contingente da Bélgica em seguida e a decisão do Conselho de Segurança de reduzir a UNAMIR em 21 de abril — no momento de maior matança. Conclui que a ONU falhou em prevenir e em deter o genocídio."
   },
   {
     "id": "carvalho-bestializados",
@@ -433,6 +450,14 @@
     "citacao": "Formulou a hipótese da armadilha de equilíbrio de alto nível: a agricultura e o transporte chineses eram tão eficientes, e a mão de obra tão abundante, que não havia pressão para substituir trabalho por máquina. É uma das explicações clássicas para a China não ter industrializado a partir do patamar técnico Song."
   },
   {
+    "id": "euobserver-cabo-delgado",
+    "tipo": "reportagem",
+    "titulo": "France and fossil fuel giant Total seek to keep Rwandan troops in Mozambique as EU pulls funding",
+    "publicacao": "EUobserver",
+    "url": "https://euobserver.com/218981/france-and-fossil-fuel-giant-total-seek-to-keep-rwandan-troops-in-mozambique-as-eu-pulls-funding/",
+    "citacao": "Com a União Europeia relutante em seguir bancando a missão ruandesa em Cabo Delgado, autoridades francesas e a TotalEnergies procuram formas de mantê-la de pé. A tropa protege a área do projeto de gás liquefeito em Palma e Afungi."
+  },
+  {
     "id": "evans-terceiro-reich",
     "tipo": "livro",
     "titulo": "The Third Reich Trilogy",
@@ -516,6 +541,14 @@
     "autor": "Ramachandra Guha",
     "data": "2007",
     "citacao": "História da Índia independente, do domínio de 1947 à república contemporânea."
+  },
+  {
+    "id": "iacb-moedas-ferro",
+    "tipo": "dataset",
+    "titulo": "Iron Age Coins in Britain",
+    "publicacao": "Instituto de Arqueologia, Universidade de Oxford",
+    "url": "https://iacb.arch.ox.ac.uk/pages/info",
+    "citacao": "Catálogo das moedas da Idade do Ferro britânica. As primeiras entram importadas por volta de 150 a.C. — estateres gálico-belgas de ouro — e a cunhagem local começa perto de 100 a.C. São o primeiro registro escrito produzido na ilha."
   },
   {
     "id": "ibge-sidra-1737",
@@ -691,6 +724,15 @@
     "citacao": "Reconstrução detalhada da Revolução Cultural a partir de documentos internos, memórias e imprensa da época, tratando-a como disputa dentro da cúpula do partido que mobilizou a sociedade contra a própria estrutura de Estado."
   },
   {
+    "id": "madelung-sucessao",
+    "tipo": "livro",
+    "titulo": "The Succession to Muhammad: A Study of the Early Caliphate",
+    "autor": "Wilferd Madelung",
+    "publicacao": "Cambridge University Press",
+    "data": "1997",
+    "citacao": "Reconstitui a disputa sucessória a partir das fontes dos dois lados. Sustenta que a questão era concreta e política — quem governa a comunidade — antes de virar diferença de doutrina, e que a leitura teológica foi construída depois."
+  },
+  {
     "id": "magna-carta-1215",
     "tipo": "documento-oficial",
     "titulo": "Magna Carta",
@@ -712,6 +754,14 @@
     "citacao": "Levantamento nominal de vítimas da repressão soviética construído ao longo de três décadas a partir de arquivos e de depoimentos de famílias, e a referência independente mais completa sobre o assunto. A organização foi liquidada por decisão judicial russa em dezembro de 2021 e recebeu o Nobel da Paz em 2022."
   },
   {
+    "id": "nature-altar-stone-2024",
+    "tipo": "artigo-academico",
+    "titulo": "A Scottish provenance for the Altar Stone of Stonehenge",
+    "publicacao": "Nature",
+    "data": "2024-08",
+    "citacao": "Datação e química dos grãos mostram que a Pedra do Altar veio do nordeste da Escócia, a mais de 700 km — e não do País de Gales, de onde vêm as pedras azuis menores. Amplia a distância que o material do monumento percorreu."
+  },
+  {
     "id": "nihon-shoki",
     "tipo": "documento-oficial",
     "titulo": "Nihon Shoki",
@@ -725,6 +775,13 @@
     "publicacao": "Alto Comissariado das Nações Unidas para os Direitos Humanos",
     "data": "2022-08-31",
     "citacao": "Concluiu que as detenções em larga escala de uigures e outros grupos majoritariamente muçulmanos podem constituir crimes internacionais, em particular crimes contra a humanidade. O governo chinês rejeitou integralmente a avaliação e a publicou anexada ao próprio relatório com sua resposta."
+  },
+  {
+    "id": "onu-peritos-rdc",
+    "tipo": "documento-oficial",
+    "titulo": "Relatórios do Grupo de Peritos das Nações Unidas sobre a República Democrática do Congo",
+    "publicacao": "Conselho de Segurança da ONU",
+    "citacao": "Série anual que documenta a cadeia entre os grupos armados do leste congolês e a exportação de ouro, coltan e cassiterita pelos países vizinhos, incluindo a diferença entre o que Ruanda produz e o que declara exportar."
   },
   {
     "id": "p360-lulinha-cannabis-2026",
@@ -751,6 +808,14 @@
     "autor": "Robert O. Paxton",
     "data": "1972",
     "citacao": "Usando arquivos alemães, estabeleceu que a colaboração foi buscada pelo Estado francês e não imposta pelo ocupante, e que a legislação antissemita de 1940 partiu de iniciativa própria. Desfez a tese do escudo e da espada, dominante na França até os anos 1970."
+  },
+  {
+    "id": "pew-populacao-muculmana",
+    "tipo": "dataset",
+    "titulo": "Mapping the Global Muslim Population",
+    "publicacao": "Pew Research Center",
+    "data": "2009-10",
+    "citacao": "Levantamento demográfico que fixa a proporção usada desde então: entre 87% e 90% dos muçulmanos são sunitas, e entre 10% e 13% xiitas. A concentração xiita está em Irã, Iraque, Azerbaijão e Bahrein."
   },
   {
     "id": "platt-outono-reino-celestial",
@@ -914,6 +979,15 @@
     "citacao": "Base que reúne registros de mais de 36 mil viagens negreiras e sustenta as estimativas de desembarque por destino. É dela que vem a ordem de grandeza usada no atlas para o Brasil; as estimativas são revisadas conforme novos registros entram, e o número não deve ser lido como contagem fechada."
   },
   {
+    "id": "sportspro-arsenal-ruanda-2025",
+    "tipo": "reportagem",
+    "titulo": "Arsenal drop controversial Visit Rwanda sleeve sponsorship",
+    "publicacao": "SportsPro",
+    "data": "2025-11",
+    "url": "https://www.sportspro.com/news/arsenal-visit-rwanda-sleeve-sponsorship-cancelled-november-2025/",
+    "citacao": "Fim da parceria iniciada em 2018, quando o Visit Rwanda se tornou o primeiro patrocinador de manga do clube, em contrato estimado em 10 milhões de libras por ano. A chanceler congolesa Thérèse Kayikwamba Wagner havia escrito a Arsenal, PSG e Bayern de Munique pedindo o fim do que chamou de contratos manchados de sangue."
+  },
+  {
     "id": "stf-adpf-153",
     "tipo": "decisao-judicial",
     "titulo": "ADPF 153 — constitucionalidade da Lei da Anistia",
@@ -1067,6 +1141,16 @@
     "publicacao": "Congresso dos Estados Unidos",
     "data": "1965-08-06",
     "citacao": "Proibiu testes de alfabetização e submeteu estados com histórico de discriminação à autorização federal prévia para mudar regras eleitorais. O registro eleitoral negro no Mississippi saltou de menos de 10% para perto de 60% em dois anos."
+  },
+  {
+    "id": "williams-roberts-estanho-2025",
+    "tipo": "artigo-academico",
+    "titulo": "Bronze-age Britain traded tin with the Mediterranean: settling a two-century debate",
+    "autor": "Alan Williams e Benjamin Roberts",
+    "publicacao": "Antiquity / Universidade de Durham",
+    "data": "2025-05",
+    "url": "https://www.durham.ac.uk/research/current/thought-leadership/2025/05/bronze-age-britain-traded-tin-with-the-mediterranean-shows-new-study--settling-a-two-century-debate/",
+    "citacao": "Análise de isótopos de chumbo e estanho em 142 minérios da Cornualha e de Devon e em lingotes de três naufrágios de cerca de 1300 a.C. na costa de Israel. Estabelece que o estanho do sudoeste britânico abastecia o Mediterrâneo oriental a até 4.000 km, provavelmente em etapas via França, Sardenha e Chipre."
   },
   {
     "id": "winkler-caminho-oeste",

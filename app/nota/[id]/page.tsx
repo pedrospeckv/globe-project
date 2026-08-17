@@ -27,6 +27,8 @@ export default async function NotaPage({
   if (!nota) notFound();
 
   const ligados = nota.alvos.map((a) => alvos[a]).filter(Boolean);
+  const fontes = acervo.fontes.filter((f) => nota.fontes.includes(f.id));
+  const revisada = fontes.length > 0;
 
   return (
     <main className="min-h-screen bg-slate-950 py-10 text-slate-100">
@@ -46,21 +48,41 @@ export default async function NotaPage({
         </header>
 
         {/*
-          O aviso é a peça central desta página, não enfeite. Todo o resto do
-          atlas se sustenta em afirmação com fonte; esta parte não, e o leitor
-          precisa saber disso ANTES de ler, não depois.
+          O aviso é a peça central desta página, não enfeite — e agora existe
+          em duas versões porque o acervo está no meio de uma migração.
+
+          As notas nasceram como rascunho do cofre e a página dizia isso: "sem
+          revisão e sem fonte". A decisão foi revisá-las e dar lastro, uma a
+          uma. Enquanto isso não termina, as duas espécies convivem, e um
+          aviso único mentiria sobre metade delas em qualquer das redações.
+          Quem decide qual aparece é o próprio dado: nota com fonte foi
+          revisada, nota sem fonte ainda é o que veio do cofre.
+
+          `coberturaDeNotas` conta as que faltam a cada `pnpm validar`.
         */}
         <aside className="rounded-lg border border-dashed border-slate-700 bg-slate-900/40 p-4">
-          <p className="text-xs leading-relaxed text-slate-400">
-            <strong className="font-semibold text-slate-200">
-              Isto é anotação pessoal de estudo, não conteúdo do atlas.
-            </strong>{" "}
-            Foi escrita para uso próprio, sem revisão e sem fonte, e pode conter
-            erro ou simplificação. O conteúdo do atlas — os períodos, as figuras e
-            as alegações — segue outra regra: afirmação contestada só existe lá
-            com fonte e status processual declarados. Estas duas camadas não se
-            misturam de propósito.
-          </p>
+          {revisada ? (
+            <p className="text-xs leading-relaxed text-slate-400">
+              <strong className="font-semibold text-slate-200">
+                Isto nasceu como anotação de leitura e passou por revisão.
+              </strong>{" "}
+              O texto foi conferido e as afirmações têm fonte declarada no fim da
+              página. Continua sendo uma leitura sobre um assunto, e não a
+              unidade do atlas, que é país × período — por isso mora aqui e não
+              num dossiê.
+            </p>
+          ) : (
+            <p className="text-xs leading-relaxed text-slate-400">
+              <strong className="font-semibold text-slate-200">
+                Isto é anotação pessoal de estudo, ainda sem revisão.
+              </strong>{" "}
+              Foi escrita para uso próprio, sem fonte, e pode conter erro ou
+              simplificação. Está na fila para ser conferida e ganhar lastro,
+              como as demais desta seção. O conteúdo do atlas — os períodos, as
+              figuras e as alegações — nunca dependeu disso: lá, afirmação
+              contestada só existe com fonte e status processual declarados.
+            </p>
+          )}
         </aside>
 
         {ligados.length > 0 && (
@@ -83,6 +105,43 @@ export default async function NotaPage({
         <article className="border-t border-slate-800 pt-4">
           <Prosa texto={nota.corpo} alvos={alvos} />
         </article>
+
+        {/* Mesma apresentação do período: o lastro aparece na página, não só no arquivo. */}
+        {fontes.length > 0 && (
+          <section className="border-t border-slate-800 pt-4">
+            <h2 className="mb-2 text-[10px] uppercase tracking-wide text-slate-600">
+              {fontes.length === 1 ? "Fonte" : "Fontes"}
+            </h2>
+            <ul className="space-y-1.5">
+              {fontes.map((f) => (
+                <li key={f.id} className="text-xs leading-relaxed text-slate-400">
+                  {f.url ? (
+                    <a
+                      href={f.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-sky-400 hover:underline"
+                    >
+                      {f.titulo}
+                    </a>
+                  ) : (
+                    <span className="text-slate-300">{f.titulo}</span>
+                  )}
+                  {f.autor && <span className="text-slate-600"> · {f.autor}</span>}
+                  {f.publicacao && (
+                    <span className="text-slate-600"> · {f.publicacao}</span>
+                  )}
+                  {f.data && (
+                    <span className="text-slate-600"> · {rotuloDeData(f.data)}</span>
+                  )}
+                  {f.citacao && (
+                    <p className="mt-0.5 text-[11px] text-slate-500">{f.citacao}</p>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </div>
     </main>
   );

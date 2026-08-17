@@ -149,6 +149,11 @@ export function verificarIntegridade(acervo: Acervo): string[] {
         erros.push(`nota "${nota.id}" aponta para alvo inexistente: ${alvo}`);
       }
     }
+    for (const fonteId of nota.fontes) {
+      if (!idsFonte.has(fonteId)) {
+        erros.push(`nota "${nota.id}" cita fonte inexistente: ${fonteId}`);
+      }
+    }
   }
 
   erros.push(...verificarLigacoes(acervo));
@@ -184,4 +189,23 @@ export function coberturaDeFontes(acervo: Acervo): Cobertura {
   }
 
   return { comTexto, comFonte: comTexto - semFonte.length, semFonte };
+}
+
+/**
+ * Quantas notas já passaram pela revisão com fonte.
+ *
+ * As 29 vieram do cofre como rascunho de estudo, e a página avisava que era
+ * isso. A decisão de revisá-las e dar lastro tira o aviso — e cria um estado
+ * intermediário perigoso, em que a página não avisa mais nada e parte do
+ * texto continua cru. Contar aqui é o que impede esse meio-termo de passar
+ * despercebido: enquanto `semFonte` não zerar, toda validação diz quantas
+ * faltam e quais são.
+ */
+export function coberturaDeNotas(acervo: Acervo): Cobertura {
+  const semFonte = acervo.notas.filter((n) => n.fontes.length === 0).map((n) => n.id);
+  return {
+    comTexto: acervo.notas.length,
+    comFonte: acervo.notas.length - semFonte.length,
+    semFonte,
+  };
 }
