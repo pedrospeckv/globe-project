@@ -612,6 +612,15 @@
     "citacao": "Manual de referência para a periodização republicana e para a leitura econômica dos ciclos do café e da industrialização."
   },
   {
+    "id": "figes-tragedia-de-um-povo",
+    "tipo": "livro",
+    "titulo": "A People's Tragedy: The Russian Revolution 1891–1924",
+    "autor": "Orlando Figes",
+    "publicacao": "Jonathan Cape",
+    "data": "1996",
+    "citacao": "História da revolução do ponto de vista social. Mostra fevereiro de 1917 como movimento sem direção partidária — os dirigentes bolcheviques estavam no exílio ou na Sibéria, não no comando das ruas."
+  },
+  {
     "id": "figes-tragedia-russa",
     "tipo": "livro",
     "titulo": "A People’s Tragedy: The Russian Revolution 1891–1924",
@@ -975,6 +984,24 @@
     "citacao": "Documento imposto ao rei João pelos barões, que estabeleceu limites ao poder real. Sua leitura como origem das liberdades inglesas é construção posterior, sobretudo do século XVII."
   },
   {
+    "id": "massie-nicolau-alexandra",
+    "tipo": "livro",
+    "titulo": "Nicholas and Alexandra",
+    "autor": "Robert K. Massie",
+    "publicacao": "Atheneum",
+    "data": "1967",
+    "citacao": "Biografia do casal imperial construída sobre correspondência e diários. Trata a hemofilia de Alexei como eixo político e não como detalhe médico: é o segredo de Estado que explica a dependência da czarina em relação a Rasputin."
+  },
+  {
+    "id": "massie-romanov-capitulo-final",
+    "tipo": "livro",
+    "titulo": "The Romanovs: The Final Chapter",
+    "autor": "Robert K. Massie",
+    "publicacao": "Random House",
+    "data": "1995",
+    "citacao": "Reconstitui a execução em Ecaterimburgo e a identificação genética dos restos. Detalha a comparação de DNA mitocondrial com o do príncipe Philip, sobrinho-neto de Alexandra, e o trabalho sobre os parentes vivos de Nicolau."
+  },
+  {
     "id": "megastenes-indika",
     "tipo": "livro",
     "titulo": "Indiká (fragmentos)",
@@ -1246,6 +1273,15 @@
     "publicacao": "SlaveVoyages, consórcio de universidades",
     "url": "https://www.slavevoyages.org/",
     "citacao": "Base que reúne registros de mais de 36 mil viagens negreiras e sustenta as estimativas de desembarque por destino. É dela que vem a ordem de grandeza usada no atlas para o Brasil; as estimativas são revisadas conforme novos registros entram, e o número não deve ser lido como contagem fechada."
+  },
+  {
+    "id": "smith-rasputin",
+    "tipo": "livro",
+    "titulo": "Rasputin: Faith, Power, and the Twilight of the Romanovs",
+    "autor": "Douglas Smith",
+    "publicacao": "Farrar, Straus and Giroux",
+    "data": "2016",
+    "citacao": "Separa o Rasputin documentado do personagem dos panfletos. Estabelece que ele nunca foi ordenado — era um strannik, peregrino leigo —, e que boa parte das acusações sexuais vem de material político produzido para derrubá-lo."
   },
   {
     "id": "snyder-bloodlands",
