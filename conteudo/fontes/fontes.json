@@ -115,6 +115,15 @@
     "citacao": "Narrativa de divulgação da história imperial romana, de Augusto ao desmanche do Ocidente. É o livro de que esta nota é leitura; escrito por não especialista e décadas atrás, tem os limites disso na cronologia dos primeiros cristãos e no tratamento das fontes antigas."
   },
   {
+    "id": "asimov-os-egipcios",
+    "tipo": "livro",
+    "titulo": "Os egípcios",
+    "autor": "Isaac Asimov",
+    "publicacao": "Houghton Mifflin",
+    "data": "1967",
+    "citacao": "Divulgação histórica em volume único, do Nilo pré-dinástico ao Egito islâmico. É a base desta nota, e datou em três frentes: a cronologia dinástica, a leitura dos relatos gregos como registro e a arqueologia da mão de obra das pirâmides, toda refeita depois de 1990."
+  },
+  {
     "id": "ato-de-uniao-1707",
     "tipo": "documento-oficial",
     "titulo": "Atos de União entre Inglaterra e Escócia",
@@ -129,6 +138,14 @@
     "data": "2026-01-21",
     "url": "https://www.axios.com/2026/01/21/greenland-deal-trump-denmark-sovereignty",
     "citacao": "O arcabouço discutido com o secretário-geral da OTAN, Mark Rutte, mantém a soberania dinamarquesa e trata de segurança no Ártico, atividade da aliança na região e acesso a matérias-primas. Um grupo de trabalho com os três lados passa a se reunir."
+  },
+  {
+    "id": "bar-hebraeus-cronica",
+    "tipo": "livro",
+    "titulo": "Mukhtasar ta'rikh al-duwal",
+    "autor": "Bar Hebraeus",
+    "data": "1286",
+    "citacao": "É aqui que aparece, pela primeira vez, a frase atribuída ao califa Omar sobre queimar os livros de Alexandria. Bar Hebraeus escreveu no século XIII, mais de seiscentos anos depois da conquista árabe, e nenhuma fonte anterior — cristã, grega ou árabe — menciona o episódio."
   },
   {
     "id": "beard-spqr",
@@ -233,6 +250,23 @@
     "citacao": "Inquérito encomendado pelo próprio secretário-geral. Reconstitui a morte dos dez capacetes azuis belgas em 7 de abril de 1994, a retirada do contingente da Bélgica em seguida e a decisão do Conselho de Segurança de reduzir a UNAMIR em 21 de abril — no momento de maior matança. Conclui que a ONU falhou em prevenir e em deter o genocídio."
   },
   {
+    "id": "cartas-de-amarna",
+    "tipo": "documento-oficial",
+    "titulo": "Cartas de Amarna",
+    "publicacao": "Arquivo real de Aquetáton",
+    "data": "-1350",
+    "citacao": "Cerca de 380 tabuinhas em acádio cuneiforme, achadas em Amarna em 1887: a correspondência diplomática do Egito com Babilônia, Assíria, Mitani, Hatti e os príncipes de Canaã. Mostram um Estado em plena atividade externa no reinado que a tradição descreve como isolado."
+  },
+  {
+    "id": "carter-tumba-de-tutancamon",
+    "tipo": "livro",
+    "titulo": "The Tomb of Tut-Ankh-Amen",
+    "autor": "Howard Carter e A. C. Mace",
+    "publicacao": "Cassell",
+    "data": "1923",
+    "citacao": "Relato do próprio escavador. A tumba KV62 foi localizada em 4 de novembro de 1922 por Carter, arqueólogo, com financiamento de lorde Carnarvon, que não a encontrou nem a escavou — pagou por ela."
+  },
+  {
     "id": "carvalho-bestializados",
     "tipo": "livro",
     "titulo": "Os Bestializados: o Rio de Janeiro e a República que não foi",
@@ -240,6 +274,15 @@
     "publicacao": "Companhia das Letras",
     "data": "1987",
     "citacao": "Trabalho que qualificou a leitura consagrada pela frase de Aristides Lobo, mostrando formas de participação popular que a imagem do povo bestializado encobria."
+  },
+  {
+    "id": "champollion-lettre-a-dacier",
+    "tipo": "artigo-academico",
+    "titulo": "Lettre à M. Dacier relative à l'alphabet des hiéroglyphes phonétiques",
+    "autor": "Jean-François Champollion",
+    "publicacao": "Académie des Inscriptions et Belles-Lettres",
+    "data": "1822-09-27",
+    "citacao": "O anúncio de que os hieróglifos tinham valor fonético, e não só simbólico. Champollion era filólogo, sabia copta, e foi essa língua — o egípcio ainda vivo na liturgia cristã — que deu o som às consoantes."
   },
   {
     "id": "clark-sonambulos",
@@ -447,6 +490,14 @@
     "citacao": "Reúne em tradução os documentos do período — autos dos dois processos, crônicas, cartas e registros administrativos — com aparato crítico. Permite separar o que as fontes contemporâneas afirmam do que a tradição acrescentou."
   },
   {
+    "id": "cronica-babilonica-abc5",
+    "tipo": "documento-oficial",
+    "titulo": "Crônica dos primeiros anos de Nabucodonosor II (ABC 5)",
+    "publicacao": "Arquivo real babilônico",
+    "data": "-594",
+    "citacao": "Registro babilônico ano a ano que datou a batalha de Carquemis em 605 a.C. e a tomada de Jerusalém em 597 a.C. É o que permite amarrar a cronologia egípcia de Necao II a datas absolutas em vez de estimativas."
+  },
+  {
     "id": "darwin-empire-project",
     "tipo": "livro",
     "titulo": "The Empire Project: The Rise and Fall of the British World-System, 1830–1970",
@@ -626,6 +677,14 @@
     "citacao": "Formulou a hipótese da armadilha de equilíbrio de alto nível: a agricultura e o transporte chineses eram tão eficientes, e a mão de obra tão abundante, que não havia pressão para substituir trabalho por máquina. É uma das explicações clássicas para a China não ter industrializado a partir do patamar técnico Song."
   },
   {
+    "id": "estela-de-merneptah",
+    "tipo": "documento-oficial",
+    "titulo": "Estela de Merneptá (Estela de Israel)",
+    "publicacao": "Tebas, achada em 1896",
+    "data": "-1208",
+    "citacao": "Primeira menção conhecida a Israel fora da Bíblia, com o determinativo de povo e não de território: Israel está devastado, sua semente não existe. Situa Israel em Canaã no fim do século XIII a.C., não no Egito."
+  },
+  {
     "id": "euobserver-cabo-delgado",
     "tipo": "reportagem",
     "titulo": "France and fossil fuel giant Total seek to keep Rwandan troops in Mozambique as EU pulls funding",
@@ -796,6 +855,22 @@
     "publicacao": "Oxford University Press",
     "data": "2005",
     "citacao": "Sustenta que o Ocidente romano não caiu por decadência interna e sim por pressão externa sustentada, começando com a chegada dos hunos e o deslocamento em massa de povos góticos que ela produziu."
+  },
+  {
+    "id": "herodoto-historias",
+    "tipo": "livro",
+    "titulo": "Histórias",
+    "autor": "Heródoto de Halicarnasso",
+    "data": "-430",
+    "citacao": "O livro II é quase todo sobre o Egito e é a fonte mais antiga que temos vinda de fora. Traz os cem mil homens de Quéops, o Labirinto de Hawara, a circunavegação da África sob Necao II e o retrato hostil de Cambises. Heródoto esteve lá por volta de 450 a.C. e ouviu sacerdotes; nem tudo que registrou ele acreditava."
+  },
+  {
+    "id": "hino-a-aton",
+    "tipo": "documento-oficial",
+    "titulo": "Grande Hino a Aton",
+    "publicacao": "Túmulo de Ay, Amarna",
+    "data": "-1340",
+    "citacao": "O texto central da reforma de Aquenáton, dirigido a Aton, o disco solar. Diz que o deus fez um Nilo no céu para as terras estrangeiras, para que ali chovesse — a única maneira que um egípcio tinha de explicar chuva."
   },
   {
     "id": "iacb-moedas-ferro",
@@ -1146,6 +1221,15 @@
     "citacao": "Crônica compilada pela corte de Nara. Registra a fundação do império em 660 a.C., data mitológica sem sustentação arqueológica que o Estado japonês do início do século XX tratou como história oficial."
   },
   {
+    "id": "norden-voyage-egypte-nubie",
+    "tipo": "livro",
+    "titulo": "Voyage d'Égypte et de Nubie",
+    "autor": "Frederic Louis Norden",
+    "publicacao": "Copenhague",
+    "data": "1755",
+    "citacao": "Levantamento feito em 1737 e publicado em 1755, com desenhos da Esfinge de Gizé em que o nariz já está ausente. É a prova documental de que o dano precede a expedição de Napoleão em quatro décadas."
+  },
+  {
     "id": "onu-acnudh-xinjiang-2022",
     "tipo": "documento-oficial",
     "titulo": "Avaliação das preocupações de direitos humanos na Região Autônoma Uigur de Xinjiang",
@@ -1393,6 +1477,15 @@
     "citacao": "Concluiu, com base em milhões de documentos internos da agência, que as técnicas de interrogatório empregadas após 2001 foram mais brutais do que se havia informado ao Congresso e não produziram inteligência que não pudesse ser obtida de outro modo."
   },
   {
+    "id": "shaw-oxford-egito-antigo",
+    "tipo": "livro",
+    "titulo": "The Oxford History of Ancient Egypt",
+    "autor": "Ian Shaw (org.)",
+    "publicacao": "Oxford University Press",
+    "data": "2000",
+    "citacao": "Síntese por período escrita por especialistas de cada recorte, com a cronologia hoje corrente: Menés por volta de 3000 a.C., Reino Antigo a partir da III dinastia, Amarna no século XIV a.C., núbios na XXV dinastia e saítas na XXVI."
+  },
+  {
     "id": "shelby-county-2013",
     "tipo": "decisao-judicial",
     "titulo": "Shelby County v. Holder",
@@ -1450,6 +1543,15 @@
     "publicacao": "Basic Books",
     "data": "2010",
     "citacao": "Trata a fome ucraniana como política deliberada dirigida contra a Ucrânia, com as medidas de bloqueio de aldeias e listas negras como prova de intenção. Estima cerca de 3,3 milhões de mortos por fome na Ucrânia soviética em 1932 e 1933."
+  },
+  {
+    "id": "socrates-escolastico-historia-eclesiastica",
+    "tipo": "livro",
+    "titulo": "História eclesiástica",
+    "autor": "Sócrates Escolástico",
+    "publicacao": "Constantinopla",
+    "data": "440",
+    "citacao": "Historiador cristão que escreveu cerca de 25 anos depois dos fatos. O livro VII narra o assassinato de Hipátia por uma turba em Alexandria, em 415, e atribui a responsabilidade ao clima criado pelo conflito entre o bispo Cirilo e o prefeito Orestes. É testemunho de dentro da Igreja, não de um adversário dela."
   },
   {
     "id": "sportspro-arsenal-ruanda-2025",
