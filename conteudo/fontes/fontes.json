@@ -104,6 +104,15 @@
     "citacao": "O arcabouço discutido com o secretário-geral da OTAN, Mark Rutte, mantém a soberania dinamarquesa e trata de segurança no Ártico, atividade da aliança na região e acesso a matérias-primas. Um grupo de trabalho com os três lados passa a se reunir."
   },
   {
+    "id": "beaune-joana-lendas",
+    "tipo": "livro",
+    "titulo": "Jeanne d'Arc: Vérités et légendes",
+    "autor": "Colette Beaune",
+    "publicacao": "Perrin",
+    "data": "2008",
+    "citacao": "Desmonta uma a uma as lendas acrescentadas depois, da sobrevivência à execução às teses de origem real. Trata também dos usos políticos da memória de Joana, da Terceira República à extrema direita francesa."
+  },
+  {
     "id": "beveridge-1942",
     "tipo": "documento-oficial",
     "titulo": "Social Insurance and Allied Services (Relatório Beveridge)",
@@ -382,6 +391,15 @@
     "publicacao": "Senado Federal",
     "data": "2021-10-26",
     "citacao": "Concluiu pedindo o indiciamento do então presidente da República por crimes relacionados à condução da crise sanitária. Relatório de comissão parlamentar de inquérito é peça política e investigativa, não decisão judicial."
+  },
+  {
+    "id": "craig-taylor-la-pucelle",
+    "tipo": "livro",
+    "titulo": "Joan of Arc: La Pucelle",
+    "autor": "Craig Taylor",
+    "publicacao": "Manchester University Press",
+    "data": "2006",
+    "citacao": "Reúne em tradução os documentos do período — autos dos dois processos, crônicas, cartas e registros administrativos — com aparato crítico. Permite separar o que as fontes contemporâneas afirmam do que a tradição acrescentou."
   },
   {
     "id": "darwin-empire-project",
@@ -984,6 +1002,15 @@
     "citacao": "Usando arquivos alemães, estabeleceu que a colaboração foi buscada pelo Estado francês e não imposta pelo ocupante, e que a legislação antissemita de 1940 partiu de iniciativa própria. Desfez a tese do escudo e da espada, dominante na França até os anos 1970."
   },
   {
+    "id": "pernoud-clin-joana",
+    "tipo": "livro",
+    "titulo": "Jeanne d'Arc",
+    "autor": "Régine Pernoud e Marie-Véronique Clin",
+    "publicacao": "Fayard",
+    "data": "1986",
+    "citacao": "Biografia construída quase inteiramente sobre os depoimentos do processo de nulidade, em que companheiros de campanha como Dunois e o duque de Alençon descrevem o que viram. É a base do argumento de que Joana tinha juízo militar próprio, e não apenas função de estandarte."
+  },
+  {
     "id": "pew-populacao-muculmana",
     "tipo": "dataset",
     "titulo": "Mapping the Global Muslim Population",
@@ -1327,6 +1354,14 @@
     "publicacao": "Japão e Estados Unidos",
     "data": "1960-01-19",
     "citacao": "Manteve as bases americanas em território japonês em troca de compromisso de defesa. Sua ratificação provocou as maiores manifestações da história do Japão do pós-guerra e derrubou o primeiro-ministro que a conduziu; o tratado segue em vigor."
+  },
+  {
+    "id": "tratado-troyes-1420",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Troyes",
+    "publicacao": "Reino da França e Reino da Inglaterra",
+    "data": "1420-05-21",
+    "citacao": "Reconhece Henrique V da Inglaterra como herdeiro do trono francês e deserda o delfim Carlos, tratado como filho ilegítimo. É o documento que cria a situação que Joana d'Arc vai contestar: depois da morte dos dois reis em 1422, o bebê Henrique VI é proclamado rei da França e da Inglaterra."
   },
   {
     "id": "tratado-versalhes",
