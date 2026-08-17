@@ -16,6 +16,22 @@
     "citacao": "Encerrou trinta anos de conflito armado com governo de partilha de poder, desarmamento e o princípio do consentimento: a Irlanda do Norte só muda de status se sua maioria quiser. É o texto contra o qual se mede o problema de fronteira aberto pela saída da União Europeia."
   },
   {
+    "id": "acordos-de-genebra-1954",
+    "tipo": "documento-oficial",
+    "titulo": "Acordos de Genebra sobre a Indochina",
+    "publicacao": "Conferência de Genebra",
+    "data": "1954-07-21",
+    "citacao": "Armistício militar entre França e República Democrática do Vietnã, com linha de demarcação provisória no paralelo 17 e eleições gerais previstas para julho de 1956. A Declaração Final não foi assinada nem pelo Estado do Vietnã nem pelos Estados Unidos, e é nessa assinatura ausente que se apoiou a recusa das eleições."
+  },
+  {
+    "id": "acordos-de-paris-1973",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Paris sobre o Fim da Guerra e a Restauração da Paz no Vietnã",
+    "publicacao": "Paris",
+    "data": "1973-01-27",
+    "citacao": "Cessar-fogo, retirada americana em sessenta dias e devolução de prisioneiros. Não exigiu a retirada das tropas norte-vietnamitas do Sul, não resolveu o status político do Vietnã do Sul e previa um conselho de reconciliação que nunca funcionou. É por isso que a guerra continuou entre vietnamitas por mais dois anos."
+  },
+  {
     "id": "agbrasil-joias-2026",
     "tipo": "reportagem",
     "titulo": "STF pede novo parecer da PGR sobre caso das joias sauditas",
@@ -80,6 +96,15 @@
     "autor": "Anne Applebaum",
     "data": "2003",
     "citacao": "Reconstruiu o sistema de campos soviético a partir dos arquivos abertos após 1991 e de memórias de sobreviventes: a escala, a função econômica e o papel do trabalho forçado na industrialização. É a base das ordens de grandeza usadas no atlas para o Gulag."
+  },
+  {
+    "id": "arnett-ben-tre-1968",
+    "tipo": "reportagem",
+    "titulo": "Despacho de Ben Tre",
+    "autor": "Peter Arnett",
+    "publicacao": "Associated Press",
+    "data": "1968-02-07",
+    "citacao": "Traz a frase de um major americano não identificado sobre a destruição de Ben Tre durante a Ofensiva do Tet: tornou-se necessário destruir a cidade para salvá-la. É a origem documentada da fórmula que depois circulou como se fosse lema de tropa."
   },
   {
     "id": "arriano-anabase",
@@ -274,6 +299,14 @@
     "publicacao": "Companhia das Letras",
     "data": "1987",
     "citacao": "Trabalho que qualificou a leitura consagrada pela frase de Aristides Lobo, mostrando formas de participação popular que a imagem do povo bestializado encobria."
+  },
+  {
+    "id": "case-church-1973",
+    "tipo": "documento-oficial",
+    "titulo": "Emenda Case-Church",
+    "publicacao": "Congresso dos Estados Unidos",
+    "data": "1973-06-30",
+    "citacao": "Proibiu o uso de qualquer verba federal para ação militar americana no Vietnã, Laos e Camboja a partir de 15 de agosto de 1973. É a razão jurídica de os Estados Unidos não terem podido intervir na ofensiva de 1975, e não uma escolha discricionária do presidente Ford."
   },
   {
     "id": "champollion-lettre-a-dacier",
@@ -661,6 +694,15 @@
     "citacao": "Inscrições em rochedos e pilares mandadas gravar pelo imperador máuria. São as inscrições mais antigas da Índia que se lê com segurança, e a principal evidência direta do alcance do império."
   },
   {
+    "id": "eisenhower-mandate-for-change",
+    "tipo": "livro",
+    "titulo": "Mandate for Change, 1953–1956",
+    "autor": "Dwight D. Eisenhower",
+    "publicacao": "Doubleday",
+    "data": "1963",
+    "citacao": "O próprio Eisenhower registra que todos os observadores com quem falou concordavam que, se houvesse eleição no momento do combate, talvez 80% da população vietnamita votaria por Ho Chi Minh, e não por Bao Dai. É a fonte primária para a razão de as eleições de 1956 não terem ocorrido."
+  },
+  {
     "id": "eji-lynching-in-america",
     "tipo": "artigo-academico",
     "titulo": "Lynching in America: Confronting the Legacy of Racial Terror",
@@ -839,6 +881,15 @@
     "citacao": "Mostra que o movimento de tradução foi política de Estado abássida sustentada por dois séculos, e que os tradutores eram em boa parte cristãos siríacos e nestorianos. Desfaz a versão de um Islã que salva os gregos de uma Igreja que os destruía: as duas tradições trabalharam nos mesmos textos."
   },
   {
+    "id": "hanyok-golfo-de-tonkin",
+    "tipo": "artigo-academico",
+    "titulo": "Skunks, Bogies, Silent Hounds, and the Flying Fish: The Gulf of Tonkin Mystery, 2–4 August 1964",
+    "autor": "Robert J. Hanyok",
+    "publicacao": "Cryptologic Quarterly, Agência de Segurança Nacional",
+    "data": "2001",
+    "citacao": "Estudo do historiador interno da NSA, desclassificado em 2005: o combate de 2 de agosto de 1964 aconteceu, e o segundo ataque, de 4 de agosto, não aconteceu. Os sinais que o sustentaram foram mal traduzidos e mal datados, e o material que contradizia a versão oficial ficou de fora dos relatórios enviados a Washington."
+  },
+  {
     "id": "hasegawa-corrida-inimigo",
     "tipo": "livro",
     "titulo": "Racing the Enemy: Stalin, Truman, and the Surrender of Japan",
@@ -863,6 +914,15 @@
     "autor": "Heródoto de Halicarnasso",
     "data": "-430",
     "citacao": "O livro II é quase todo sobre o Egito e é a fonte mais antiga que temos vinda de fora. Traz os cem mil homens de Quéops, o Labirinto de Hawara, a circunavegação da África sob Necao II e o retrato hostil de Cambises. Heródoto esteve lá por volta de 450 a.C. e ouviu sacerdotes; nem tudo que registrou ele acreditava."
+  },
+  {
+    "id": "hersh-my-lai-1969",
+    "tipo": "reportagem",
+    "titulo": "Lieutenant Accused of Murdering 109 Civilians",
+    "autor": "Seymour Hersh",
+    "publicacao": "Dispatch News Service",
+    "data": "1969-11-13",
+    "citacao": "A reportagem que tornou público o massacre de My Lai, vinte meses depois dele. Hersh a ofereceu a veículos maiores, que recusaram, e a distribuiu por uma agência pequena a cerca de cinquenta jornais. A investigação militar já corria por causa da carta do ex-soldado Ronald Ridenhour, de março de 1969."
   },
   {
     "id": "hino-a-aton",
@@ -1143,6 +1203,15 @@
     "citacao": "Retiram a cidadania alemã dos judeus e proíbem casamento e relações sexuais entre judeus e alemães. Transformam antissemitismo em estatuto jurídico, e é a partir delas que a exclusão deixa de depender de violência de rua."
   },
   {
+    "id": "lembcke-spitting-image",
+    "tipo": "livro",
+    "titulo": "The Spitting Image: Myth, Memory, and the Legacy of Vietnam",
+    "autor": "Jerry Lembcke",
+    "publicacao": "New York University Press",
+    "data": "1998",
+    "citacao": "Sociólogo e veterano do Vietnã, Lembcke procurou registro contemporâneo de veteranos cuspidos por manifestantes na volta e não encontrou nenhum em jornal, processo ou reportagem da época. Argumenta que a imagem se formou depois de 1980 e serviu para transferir a culpa da guerra do governo para o movimento contra ela."
+  },
+  {
     "id": "livro-senhor-shang",
     "tipo": "livro",
     "titulo": "Livro do Senhor Shang (Shangjunshu)",
@@ -1192,6 +1261,15 @@
     "citacao": "Reconstitui a execução em Ecaterimburgo e a identificação genética dos restos. Detalha a comparação de DNA mitocondrial com o do príncipe Philip, sobrinho-neto de Alexandra, e o trabalho sobre os parentes vivos de Nicolau."
   },
   {
+    "id": "mcnamara-in-retrospect",
+    "tipo": "livro",
+    "titulo": "In Retrospect: The Tragedy and Lessons of Vietnam",
+    "autor": "Robert S. McNamara",
+    "publicacao": "Times Books",
+    "data": "1995",
+    "citacao": "Vinte e sete anos depois de deixar o Pentágono, McNamara escreve que estavam errados, terrivelmente errados, e que devem às gerações futuras a explicação do porquê. Não afirma que milhões morreram por causa disso — essa segunda metade circula como citação e não está no livro."
+  },
+  {
     "id": "megastenes-indika",
     "tipo": "livro",
     "titulo": "Indiká (fragmentos)",
@@ -1228,6 +1306,14 @@
     "publicacao": "Copenhague",
     "data": "1755",
     "citacao": "Levantamento feito em 1737 e publicado em 1755, com desenhos da Esfinge de Gizé em que o nariz já está ausente. É a prova documental de que o dano precede a expedição de Napoleão em quatro décadas."
+  },
+  {
+    "id": "nyt-v-united-states-1971",
+    "tipo": "decisao-judicial",
+    "titulo": "New York Times Co. v. United States, 403 U.S. 713",
+    "autor": "Suprema Corte dos Estados Unidos",
+    "data": "1971-06-30",
+    "citacao": "Por 6 a 3, a Corte negou ao governo a censura prévia da publicação dos Documentos do Pentágono: qualquer restrição anterior à publicação carrega presunção pesada de inconstitucionalidade, e o governo não a venceu. A decisão trata de censura prévia, e não isenta o vazador de responsabilidade criminal."
   },
   {
     "id": "onu-acnudh-xinjiang-2022",
@@ -1285,6 +1371,14 @@
     "autor": "Robert O. Paxton",
     "data": "1972",
     "citacao": "Usando arquivos alemães, estabeleceu que a colaboração foi buscada pelo Estado francês e não imposta pelo ocupante, e que a legislação antissemita de 1940 partiu de iniciativa própria. Desfez a tese do escudo e da espada, dominante na França até os anos 1970."
+  },
+  {
+    "id": "pentagon-papers",
+    "tipo": "documento-oficial",
+    "titulo": "United States–Vietnam Relations, 1945–1967",
+    "autor": "Departamento de Defesa dos Estados Unidos",
+    "data": "1969",
+    "citacao": "Estudo interno de 47 volumes e cerca de sete mil páginas, encomendado por Robert McNamara em junho de 1967 e classificado como secreto. Documenta que quatro governos ampliaram o envolvimento militar na Indochina ocultando a extensão dele do Congresso e do público. Cobre até 1967 e portanto não trata do governo Nixon, que ainda assim tentou impedir a publicação."
   },
   {
     "id": "pernoud-clin-joana",
@@ -1403,6 +1497,23 @@
     "citacao": "Investigação oficial sobre o massacre de Amritsar. Registrou que o comandante ordenou fogo sobre uma multidão desarmada num recinto de saída única, sem aviso prévio, e que mandou atirar até acabar a munição. Ele foi censurado e afastado do comando, nunca processado, e uma subscrição pública na Grã-Bretanha arrecadou uma soma considerável em sua homenagem."
   },
   {
+    "id": "relatorio-peers-my-lai",
+    "tipo": "documento-oficial",
+    "titulo": "Report of the Department of the Army Review of the Preliminary Investigations into the My Lai Incident",
+    "autor": "General William R. Peers",
+    "publicacao": "Departamento do Exército dos Estados Unidos",
+    "data": "1970-03-14",
+    "citacao": "Concluiu que ocorreu massacre de não combatentes em Son My e que houve encobrimento em todos os níveis da cadeia de comando da divisão Americal. Recomendou acusação contra dezenas de militares; um único foi condenado. Registra também a intervenção do piloto Hugh Thompson Jr., que pousou entre soldados e civis para interromper as execuções."
+  },
+  {
+    "id": "resolucao-golfo-de-tonkin-1964",
+    "tipo": "documento-oficial",
+    "titulo": "Resolução do Sudeste Asiático (Resolução do Golfo de Tonkin)",
+    "publicacao": "Congresso dos Estados Unidos",
+    "data": "1964-08-07",
+    "citacao": "Autorizou o presidente a tomar todas as medidas necessárias, inclusive o uso de força armada, sem declaração de guerra. Aprovada por 416 a 0 na Câmara e 88 a 2 no Senado, com os votos contrários de Ernest Gruening e Wayne Morse. Revogada em 1971."
+  },
+  {
     "id": "resolucao-pcc-1981",
     "tipo": "documento-oficial",
     "titulo": "Resolução sobre algumas questões da história do Partido desde a fundação da República Popular",
@@ -1426,6 +1537,15 @@
     "publicacao": "Simon and Schuster",
     "data": "1986",
     "citacao": "História do Projeto Manhattan da física à detonação. Cobre a infiltração soviética em Los Alamos e o cálculo político em torno do uso das duas bombas, com base em documentos e entrevistas com participantes."
+  },
+  {
+    "id": "robins-veteranos-heroina",
+    "tipo": "artigo-academico",
+    "titulo": "Vietnam Veterans Three Years After Vietnam: How Our Study Changed Our View of Heroin",
+    "autor": "Lee N. Robins",
+    "publicacao": "Problems of Drug Dependence",
+    "data": "1974",
+    "citacao": "Acompanhou uma amostra de veteranos que testaram positivo para opiáceos na saída do Vietnã. A maioria interrompeu o uso ao voltar aos Estados Unidos, sem tratamento, contrariando o que se esperava do vício em heroína e mostrando o peso do contexto sobre a dependência."
   },
   {
     "id": "roy-economia-india-colonial",
@@ -1484,6 +1604,15 @@
     "publicacao": "Oxford University Press",
     "data": "2000",
     "citacao": "Síntese por período escrita por especialistas de cada recorte, com a cronologia hoje corrente: Menés por volta de 3000 a.C., Reino Antigo a partir da III dinastia, Amarna no século XIV a.C., núbios na XXV dinastia e saítas na XXVI."
+  },
+  {
+    "id": "sheehan-bright-shining-lie",
+    "tipo": "livro",
+    "titulo": "A Bright Shining Lie: John Paul Vann and America in Vietnam",
+    "autor": "Neil Sheehan",
+    "publicacao": "Random House",
+    "data": "1988",
+    "citacao": "Reconstrução da guerra a partir da trajetória do assessor John Paul Vann, por um dos correspondentes que cobriu o conflito em campo desde 1962 e que depois recebeu os Documentos do Pentágono de Daniel Ellsberg. Documenta o mecanismo pelo qual relatórios de campo otimistas subiam a cadeia de comando sem correção."
   },
   {
     "id": "shelby-county-2013",
