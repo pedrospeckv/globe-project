@@ -4,5 +4,14 @@
   "pasta": "Leitura",
   "corpo": "## Como ler o príncipe \n\n1. **Primeiro, leia em italiano sem olhar o português**\nTente entender o máximo possível apenas pelo contexto, sem traduzir palavra por palavra. Isso ajuda seu cérebro a se acostumar com o idioma de forma natural.\n\n2. **Depois, leia a mesma página em português**\nAqui, você pode verificar se entendeu corretamente e comparar as estruturas das frases.\n\n3. **Marque palavras e expressões novas**\nAnote as palavras que você não conhece e tente entender pelo contexto antes de olhar a tradução.\n\n4. **Releia a página em italiano**\nAgora que você já sabe o significado geral, releia a parte em italiano para reforçar a compreensão e a memorização.\n\n5. **Leia em voz alta**\nIsso ajuda na pronúncia e na fluidez. Mesmo que pareça estranho no começo, seu cérebro aprende melhor ouvindo o próprio som das palavras.\n\n---",
   "atualizadaEm": "2025-11-10",
-  "alvos": []
+  "alvos": [],
+  "livro": {
+    "titulo": "O Príncipe",
+    "autor": "Nicolau Maquiavel",
+    "editora": "EDIPRO",
+    "publicado": "2019-01-15",
+    "paginas": 116,
+    "capa": "https://framerusercontent.com/images/7epkdkqNijisX1Ze8KgiowIZDY.webp?scale-down-to=512&width=600&height=738",
+    "terminadoEm": "2025-03-14"
+  }
 }

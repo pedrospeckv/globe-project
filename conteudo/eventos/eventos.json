@@ -3,89 +3,165 @@
     "id": "unificacao-qin",
     "data": "-221",
     "titulo": "Unificação da China sob os Qin",
-    "ponto": [109.0, 34.38],
-    "paises": ["CHN"],
+    "ponto": [
+      109,
+      34.38
+    ],
+    "paises": [
+      "CHN"
+    ],
     "textoMdx": "O rei de Qin submete os últimos estados rivais e se proclama Primeiro Imperador, encerrando o período dos Reinos Combatentes. A capital é estabelecida em Xianyang, perto da atual Xi'an."
   },
   {
     "id": "magna-carta",
     "data": "1215-06-15",
     "titulo": "Selagem da Magna Carta",
-    "ponto": [-0.56, 51.44],
-    "paises": ["GBR"],
-    "textoMdx": "Em Runnymede, às margens do Tâmisa, barões rebelados impõem a João Sem-Terra um documento que submete o rei à lei. Anulado pelo papa poucas semanas depois, foi reeditado várias vezes e virou referência fundadora do constitucionalismo."
+    "ponto": [
+      -0.56,
+      51.44
+    ],
+    "paises": [
+      "GBR"
+    ],
+    "textoMdx": "Em Runnymede, às margens do Tâmisa, barões rebelados impõem a João Sem-Terra um documento que submete o rei à lei. Anulado pelo papa poucas semanas depois, foi reeditado várias vezes e virou referência fundadora do constitucionalismo.",
+    "imagem": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg/1280px-Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg",
+      "alt": "Pergaminho da Magna Carta coberto de escrita latina miúda em colunas densas, com a borda inferior irregular e o selo ausente.",
+      "credito": "British Library, Cotton MS Augustus II.106",
+      "licenca": "Domínio público",
+      "origem": "https://commons.wikimedia.org/wiki/File:Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg",
+      "legenda": "Uma das quatro cópias sobreviventes de 1215. O documento é uma lista de concessões arrancadas sob coação, não uma declaração de princípios — a leitura constitucional vem séculos depois."
+    }
   },
   {
     "id": "chegada-cabral",
     "data": "1500-04-22",
     "titulo": "Chegada da frota de Cabral à costa da Bahia",
-    "ponto": [-39.42, -16.89],
-    "paises": ["BRA"],
-    "fontes": ["caminha-1500"],
+    "ponto": [
+      -39.42,
+      -16.89
+    ],
+    "paises": [
+      "BRA"
+    ],
+    "fontes": [
+      "caminha-1500"
+    ],
     "textoMdx": "A frota avista o Monte Pascoal e ancora dois dias depois em Porto Seguro. O relato de Pero Vaz de Caminha ao rei D. Manuel é o primeiro documento escrito sobre o território."
   },
   {
     "id": "queda-bastilha",
     "data": "1789-07-14",
     "titulo": "Queda da Bastilha",
-    "ponto": [2.369, 48.853],
-    "paises": ["FRA"],
+    "ponto": [
+      2.369,
+      48.853
+    ],
+    "paises": [
+      "FRA"
+    ],
     "textoMdx": "A tomada da fortaleza-prisão, que abrigava sete presos, tem peso simbólico muito maior que militar: marca o momento em que a multidão parisiense passa a ser ator político. A data é o feriado nacional francês."
   },
   {
     "id": "independencia-brasil",
     "data": "1822-09-07",
     "titulo": "Proclamação da Independência do Brasil",
-    "ponto": [-46.61, -23.59],
-    "paises": ["BRA"],
+    "ponto": [
+      -46.61,
+      -23.59
+    ],
+    "paises": [
+      "BRA"
+    ],
     "textoMdx": "Às margens do riacho Ipiranga, o príncipe regente D. Pedro rompe com Portugal ao receber exigências das Cortes de Lisboa. A independência é declarada pelo herdeiro do trono português — razão pela qual o Brasil se torna um império, e não uma república."
   },
   {
     "id": "massacre-amritsar",
     "data": "1919-04-13",
     "titulo": "Massacre de Amritsar",
-    "ponto": [74.88, 31.62],
-    "paises": ["IND", "GBR"],
-    "textoMdx": "Tropas sob comando britânico abrem fogo contra uma multidão desarmada reunida no Jallianwala Bagh, recinto com saída única. As estimativas de mortos variam entre 379, no relatório oficial britânico, e cerca de mil, segundo o Congresso Nacional Indiano. O episódio radicaliza o movimento pela independência."
+    "ponto": [
+      74.88,
+      31.62
+    ],
+    "paises": [
+      "IND",
+      "GBR"
+    ],
+    "textoMdx": "Tropas sob comando britânico abrem fogo contra uma multidão desarmada reunida no Jallianwala Bagh, recinto com saída única. As estimativas de mortos variam entre 379, no relatório oficial britânico, e cerca de mil, segundo o Congresso Nacional Indiano. O episódio radicaliza o movimento pela independência.",
+    "imagem": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Bullets_signs_of_firing_during_Jallianwala_Bagh_massacre_%2C_Amritsar.jpg/1280px-Bullets_signs_of_firing_during_Jallianwala_Bagh_massacre_%2C_Amritsar.jpg",
+      "alt": "Parede de tijolo no Jallianwala Bagh com marcas de tiro preservadas, cada uma cercada por um pequeno anel branco de sinalização.",
+      "credito": "Wikimedia Commons",
+      "licenca": "CC BY-SA 4.0",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bullets_signs_of_firing_during_Jallianwala_Bagh_massacre_,_Amritsar.jpg",
+      "legenda": "As marcas de bala preservadas na parede do recinto. O Jallianwala Bagh tinha uma saída única, e é isso que separa o episódio de uma dispersão de multidão."
+    }
   },
   {
     "id": "revolucao-outubro",
     "data": "1917-11-07",
     "titulo": "Revolução de Outubro",
-    "ponto": [30.31, 59.94],
-    "paises": ["RUS"],
+    "ponto": [
+      30.31,
+      59.94
+    ],
+    "paises": [
+      "RUS"
+    ],
     "textoMdx": "Os bolcheviques tomam o Palácio de Inverno em Petrogrado e derrubam o governo provisório. O nome vem do calendário juliano, então em uso na Rússia, no qual a data correspondia a 25 de outubro."
   },
   {
     "id": "pearl-harbor",
     "data": "1941-12-07",
     "titulo": "Ataque a Pearl Harbor",
-    "ponto": [-157.95, 21.36],
-    "paises": ["USA", "JPN"],
+    "ponto": [
+      -157.95,
+      21.36
+    ],
+    "paises": [
+      "USA",
+      "JPN"
+    ],
     "textoMdx": "A Marinha japonesa ataca a base naval americana no Havaí, matando cerca de 2.400 pessoas. Os Estados Unidos declaram guerra no dia seguinte, encerrando a política de não intervenção e abrindo a frente do Pacífico."
   },
   {
     "id": "hiroshima",
     "data": "1945-08-06",
     "titulo": "Bomba atômica sobre Hiroshima",
-    "ponto": [132.45, 34.39],
-    "paises": ["JPN", "USA"],
+    "ponto": [
+      132.45,
+      34.39
+    ],
+    "paises": [
+      "JPN",
+      "USA"
+    ],
     "textoMdx": "Primeiro uso de arma nuclear contra população civil. As estimativas de mortos até o fim de 1945, somando o efeito imediato e a radiação, variam entre 90 e 146 mil. Nagasaki é atingida três dias depois, e o Japão anuncia a rendição em 15 de agosto."
   },
   {
     "id": "queda-muro-berlim",
     "data": "1989-11-09",
     "titulo": "Queda do Muro de Berlim",
-    "ponto": [13.38, 52.516],
-    "paises": ["DEU"],
+    "ponto": [
+      13.38,
+      52.516
+    ],
+    "paises": [
+      "DEU"
+    ],
     "textoMdx": "Um anúncio confuso sobre novas regras de viagem leva multidões aos postos de controle, que acabam abertos sem ordem formal. O muro separava a cidade havia vinte e oito anos. A reunificação alemã se concretiza menos de um ano depois."
   },
   {
     "id": "praca-paz-celestial",
     "data": "1989-06-04",
     "titulo": "Repressão na Praça da Paz Celestial",
-    "ponto": [116.39, 39.9],
-    "paises": ["CHN"],
+    "ponto": [
+      116.39,
+      39.9
+    ],
+    "paises": [
+      "CHN"
+    ],
     "textoMdx": "Após semanas de protestos por reformas políticas em Pequim, o Exército é enviado para desocupar a praça. O número de mortos é disputado e nunca foi divulgado oficialmente; estimativas variam de centenas a milhares. O tema permanece censurado na China."
   }
 ]

@@ -2,12 +2,14 @@ import path from "node:path";
 import Link from "next/link";
 import { carregarAcervo } from "@/lib/conteudo/carregar";
 import { indexarAlvos } from "@/lib/conteudo/ligacoes";
+import { coberturaDeNotas } from "@/lib/conteudo/integridade";
 
 const RAIZ = path.join(process.cwd(), "conteudo");
 
 export default async function NotasPage() {
   const acervo = await carregarAcervo(RAIZ);
   const alvos = indexarAlvos(acervo);
+  const cobertura = coberturaDeNotas(acervo);
 
   const porPasta = new Map<string, typeof acervo.notas>();
   for (const n of [...acervo.notas].sort((a, b) =>
@@ -30,14 +32,29 @@ export default async function NotasPage() {
           </p>
         </header>
 
+        {/*
+          O aviso conta a migração em vez de descrever um estado que já não é
+          único. As notas nasceram cruas do cofre e este texto dizia isso; a
+          revisão com fonte está em andamento, uma a uma, e enquanto não
+          terminar as duas espécies convivem. Dizer "sem revisão e sem fonte"
+          de todas seria falso agora, e dizer que todas foram revisadas seria
+          pior. Os números vêm de `coberturaDeNotas`.
+        */}
         <aside className="rounded-lg border border-dashed border-slate-700 bg-slate-900/40 p-4">
           <p className="text-xs leading-relaxed text-slate-400">
-            Cadernos de estudo importados do Obsidian, publicados como estão:{" "}
+            Cadernos de leitura importados do Obsidian.{" "}
             <strong className="font-semibold text-slate-200">
-              sem revisão, sem fonte e sem a garantia editorial do resto do atlas
+              {cobertura.comFonte} de {cobertura.comTexto} já passaram por revisão
+              e têm fonte declarada
             </strong>
-            . São o material bruto de onde parte do conteúdo do atlas nasce, e não
-            o conteúdo em si.
+            {cobertura.semFonte.length > 0 && (
+              <>
+                ; as outras {cobertura.semFonte.length} seguem como vieram do
+                cofre, sem revisão e sem lastro, e cada página diz qual é qual
+              </>
+            )}
+            . Mesmo revisada, a nota continua sendo leitura sobre um assunto — a
+            unidade do atlas é país × período, e mora em outro lugar.
           </p>
         </aside>
 

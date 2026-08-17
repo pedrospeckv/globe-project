@@ -7,5 +7,14 @@
   "alvos": [
     "GBR",
     "RUS"
-  ]
+  ],
+  "livro": {
+    "titulo": "Vikings",
+    "autor": "Neil Price",
+    "editora": "Crítica",
+    "publicado": "2021-10-20",
+    "paginas": 882,
+    "capa": "https://books.google.com/books/content?id=_T9IEAAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "terminadoEm": "2023-02-01"
+  }
 }

@@ -14,7 +14,11 @@
  */
 import fs from "node:fs/promises";
 import path from "node:path";
-import { semFrontmatter } from "../lib/conteudo/frontmatter";
+import {
+  livroDoFrontmatter,
+  semFrontmatter,
+  type LivroDoCofre,
+} from "../lib/conteudo/frontmatter";
 
 const COFRE =
   process.env.COFRE_OBSIDIAN ?? path.join("C:", "Users", "Ana Speck", "MinhaCabeca");
@@ -56,6 +60,15 @@ interface Candidata {
   corpo: string;
   atualizadaEm: string;
   bytes: number;
+  /**
+   * A ficha lida do cabeçalho antes de ele ser removido.
+   *
+   * As duas coisas acontecem na mesma passagem de propósito. A primeira versão
+   * só removia, e levava embora título, autor, editora, páginas e capa junto —
+   * o metadado que a estante precisa, jogado fora por ser "organização do
+   * cofre". Remover do corpo e guardar como dado é uma operação, não duas.
+   */
+  livro?: LivroDoCofre;
 }
 
 async function candidatas(pastaRelativa: string): Promise<Candidata[]> {
@@ -68,7 +81,8 @@ async function candidatas(pastaRelativa: string): Promise<Candidata[]> {
     const info = await fs.stat(arquivo);
     const titulo = path.basename(arquivo, ".md");
     const relativo = path.relative(base, path.dirname(arquivo));
-    const corpo = semFrontmatter(bruto.trim()).trim();
+    const limpo = bruto.trim();
+    const corpo = semFrontmatter(limpo).trim();
 
     saida.push({
       id: paraId(titulo),
@@ -77,6 +91,7 @@ async function candidatas(pastaRelativa: string): Promise<Candidata[]> {
       corpo,
       atualizadaEm: info.mtime.toISOString().slice(0, 10),
       bytes: Buffer.byteLength(corpo),
+      livro: livroDoFrontmatter(limpo),
     });
   }
 
@@ -151,6 +166,7 @@ async function main() {
 
   await fs.mkdir(DESTINO, { recursive: true });
   const vistos = new Map<string, string>();
+  const revisadasPreservadas: string[] = [];
 
   for (const c of boas) {
     if (vistos.has(c.id)) {
@@ -172,9 +188,30 @@ async function main() {
      * capítulos e voltou depois que o resumo foi escrito.
      */
     let alvos: string[] = alvosGuardados[c.titulo] ?? [];
+
+    /*
+     * Nota revisada não volta a ser o rascunho do cofre.
+     *
+     * A revisão com fonte acontece AQUI, no repositório, não no Obsidian: o
+     * texto é conferido, corrigido e ganha lastro, e nada disso volta para o
+     * cofre. Como este script regenera `corpo` a partir do arquivo .md, uma
+     * reimportação desatenta desfaria a revisão inteira em silêncio — o pior
+     * tipo de perda, porque o build continuaria passando.
+     *
+     * Ter fonte é o que marca a nota como revisada, então é o que protege o
+     * texto. O que continua vindo do cofre é a ficha do livro, que melhora lá
+     * quando o plugin completa o metadado.
+     */
+    let corpo = c.corpo;
+    let fontes: string[] = [];
     try {
       const antigo = JSON.parse(await fs.readFile(destino, "utf8"));
       alvos = antigo.alvos ?? alvos;
+      fontes = antigo.fontes ?? [];
+      if (fontes.length > 0) {
+        corpo = antigo.corpo;
+        revisadasPreservadas.push(c.id);
+      }
     } catch {
       // primeira importação desta nota
     }
@@ -183,15 +220,25 @@ async function main() {
       id: c.id,
       titulo: c.titulo,
       pasta: c.pasta,
-      corpo: c.corpo,
+      corpo,
       atualizadaEm: c.atualizadaEm,
       alvos,
+      fontes,
+      ...(c.livro ? { livro: c.livro } : {}),
     };
     await fs.writeFile(destino, `${JSON.stringify(nota, null, 2)}\n`, "utf8");
   }
 
   console.log(`✓ ${boas.length} notas importadas para conteudo/notas/`);
   console.log(`  ${magras.length} descartadas (menos de ${TAMANHO_MINIMO} bytes)`);
+  const comLivro = boas.filter((c) => c.livro).length;
+  if (comLivro) console.log(`  ${comLivro} com ficha de livro no cabeçalho`);
+  if (revisadasPreservadas.length) {
+    console.log(
+      `  ${revisadasPreservadas.length} já revisadas — texto do repositório preservado, cofre ignorado:`
+    );
+    for (const id of revisadasPreservadas) console.log(`    · ${id}`);
+  }
   const semAlvo = boas.filter((c) => !vistos.has(c.id));
   if (semAlvo.length) console.log(`  ${semAlvo.length} sem vínculo com o atlas`);
 }

@@ -2,6 +2,7 @@ import { z } from "zod";
 import { Coordenada, DataHistorica, Id, comparaData } from "./primitivos";
 import { anoFracionarioDe } from "./tempo";
 import { dentroDoPeriodo, type Periodo } from "./pais";
+import { Imagem } from "./imagem";
 
 /**
  * Um acontecimento datado num ponto do mapa.
@@ -22,6 +23,16 @@ export const Evento = z.object({
   paises: z.array(z.string().regex(/^[A-Z]{3}$/)).min(1, "evento precisa de ao menos um país"),
   textoMdx: z.string().optional(),
   fontes: z.array(Id).default([]),
+  /**
+   * A imagem do acontecimento, quando existe uma licenciada.
+   *
+   * Opcional e vai continuar sendo: a maior parte do que o atlas cobre não tem
+   * registro visual disponível sob licença livre, e pôr uma foto aproximada no
+   * lugar — a praça hoje em vez do dia, um quadro do século seguinte — ilustra
+   * ao custo de enganar. Sem imagem o período se lê igual; com imagem errada,
+   * não.
+   */
+  imagem: Imagem.optional(),
 });
 
 export type Evento = z.infer<typeof Evento>;
