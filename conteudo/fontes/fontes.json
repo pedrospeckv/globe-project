@@ -88,6 +88,15 @@
     "citacao": "Tratado de estadística, tributação, espionagem e guerra associado pela tradição ao ministro de Chandragupta Máuria. O texto conservado passou por redação e acréscimos ao longo de séculos, e a datação é disputada — por isso descreve bem o pensamento político indiano antigo e não serve como registro administrativo direto do império."
   },
   {
+    "id": "asbridge-primeira-cruzada",
+    "tipo": "livro",
+    "titulo": "The First Crusade: A New History",
+    "autor": "Thomas Asbridge",
+    "publicacao": "Oxford University Press",
+    "data": "2004",
+    "citacao": "Narrativa da campanha a partir das crônicas latinas, árabes e gregas. Reconstitui o cerco de Antioquia e o episódio da Santa Lança, e trata a violência de Jerusalém sem atenuação e sem excepcionalidade."
+  },
+  {
     "id": "ato-de-uniao-1707",
     "tipo": "documento-oficial",
     "titulo": "Atos de União entre Inglaterra e Escócia",
@@ -611,6 +620,15 @@
     "citacao": "Narrativa de referência do colapso do Império Russo e da revolução, da fome de 1891 à morte de Lênin."
   },
   {
+    "id": "finkelstein-silberman-biblia",
+    "tipo": "livro",
+    "titulo": "The Bible Unearthed: Archaeology's New Vision of Ancient Israel",
+    "autor": "Israel Finkelstein e Neil Asher Silberman",
+    "publicacao": "Free Press",
+    "data": "2001",
+    "citacao": "Confronta a narrativa bíblica com o registro arqueológico. Sustenta que não há vestígio de êxodo em massa nem de conquista militar de Canaã, e que Israel emergiu de dentro da própria sociedade cananeia. Datam a composição do relato no século VII a.C., sob Josias, muito depois dos eventos que descreve."
+  },
+  {
     "id": "fischer-objetivos-guerra",
     "tipo": "livro",
     "titulo": "Griff nach der Weltmacht: Die Kriegszielpolitik des kaiserlichen Deutschland 1914/18",
@@ -624,6 +642,15 @@
     "titulo": "The Russian Revolution",
     "autor": "Sheila Fitzpatrick",
     "citacao": "Síntese que trata a revolução como processo social de longa duração, e não como episódio de 1917."
+  },
+  {
+    "id": "florescu-mcnally-dracula",
+    "tipo": "livro",
+    "titulo": "Dracula: Prince of Many Faces — His Life and His Times",
+    "autor": "Radu R. Florescu e Raymond T. McNally",
+    "publicacao": "Little, Brown",
+    "data": "1989",
+    "citacao": "Biografia de Vlad III que separa o príncipe histórico do personagem literário. Rastreia as cifras de empalamento até os panfletos alemães impressos nas cidades saxãs da Transilvânia, que Vlad havia saqueado, e trata essa origem como problema de fonte."
   },
   {
     "id": "foner-give-me-liberty",
@@ -641,12 +668,28 @@
     "citacao": "Obra que reescreveu a interpretação da Reconstrução, desmontando a leitura anterior que a tratava como período de corrupção e mau governo."
   },
   {
+    "id": "frankopan-chamado-do-oriente",
+    "tipo": "livro",
+    "titulo": "The First Crusade: The Call from the East",
+    "autor": "Peter Frankopan",
+    "publicacao": "Bodley Head",
+    "data": "2012",
+    "citacao": "Reconta a Primeira Cruzada do ponto de vista bizantino. Mostra que Aleixo I pediu mercenários para recuperar a Anatólia e recebeu uma expedição autônoma muito maior, com objetivo próprio — e que o juramento exigido dos líderes cobria territórios antes imperiais, não Jerusalém."
+  },
+  {
     "id": "furet-revolucao-francesa",
     "tipo": "livro",
     "titulo": "Penser la Révolution française",
     "autor": "François Furet",
     "data": "1978",
     "citacao": "Livro que reabriu a disputa historiográfica sobre a Revolução, contestando a leitura social até então dominante. É a referência para tratar a Revolução como objeto em disputa, e não como narrativa fechada."
+  },
+  {
+    "id": "gesta-francorum",
+    "tipo": "documento-oficial",
+    "titulo": "Gesta Francorum et aliorum Hierosolimitanorum",
+    "data": "1101",
+    "citacao": "Crônica anônima escrita por um participante do séquito de Boemundo de Taranto. É o relato contemporâneo mais próximo dos fatos, e também peça de propaganda a favor de Boemundo — o que se nota justamente na narrativa de Antioquia."
   },
   {
     "id": "gomes-invencao-trabalhismo",
@@ -985,6 +1028,14 @@
     "citacao": "O ministro André Mendonça autorizou em 30/07/2026 a abertura de inquérito a pedido da PF. A defesa afirma que o pedido de nova investigação demonstra falha da PF em encontrar provas. Roberta Luchsinger declarou em depoimento que Fábio Luís não prestou serviços de regulação de canabidiol nem foi remunerado por isso."
   },
   {
+    "id": "panfletos-alemaes-dracula",
+    "tipo": "documento-oficial",
+    "titulo": "Panfletos alemães sobre Vlad, o Empalador",
+    "publicacao": "Cidades saxãs da Transilvânia e imprensa alemã",
+    "data": "1488",
+    "citacao": "Folhetos impressos entre as décadas de 1480 e 1500 descrevendo atrocidades de Vlad III, com cifras que chegam a cem mil empalados. Foram produzidos por comunidades saxãs que ele havia atacado, e circularam como propaganda — são a origem da fama e a razão de as cifras não servirem como contagem."
+  },
+  {
     "id": "parker-brother-sam",
     "tipo": "livro",
     "titulo": "Brazil and the Quiet Intervention, 1964",
@@ -1268,6 +1319,15 @@
     "citacao": "Por sete votos a quatro, o Plenário manteve o entendimento da Segunda Turma de que Moro agiu com parcialidade. Ficou mantida a anulação de todas as suas decisões no caso, incluindo os atos da fase pré-processual."
   },
   {
+    "id": "stoker-dracula-1897",
+    "tipo": "livro",
+    "titulo": "Dracula",
+    "autor": "Bram Stoker",
+    "publicacao": "Archibald Constable and Company",
+    "data": "1897",
+    "citacao": "Romance do autor irlandês que fixou o nome no imaginário mundial. O empréstimo ao Vlad histórico é raso: o nome, a Transilvânia e pouco mais. Nada da biografia do príncipe valáquio entra na trama, e o vampiro não vem dele."
+  },
+  {
     "id": "stora-guerra-argelia",
     "tipo": "livro",
     "titulo": "La gangrène et l'oubli: la mémoire de la guerre d'Algérie",
@@ -1283,6 +1343,12 @@
     "publicacao": "Journal of the History of Biology",
     "data": "1982",
     "citacao": "Demonstra que a história dos tentilhões de Galápagos como momento de revelação é lenda posterior. Darwin não etiquetou os espécimes por ilha e teve de reconstituir a procedência depois, usando as coleções de FitzRoy e de outros tripulantes. O que ele notou por ilha na época foram os sabiás-do-campo."
+  },
+  {
+    "id": "tanach",
+    "tipo": "livro",
+    "titulo": "Tanach — Bíblia hebraica",
+    "citacao": "Reúne Torá, Nevi'im e Ketuvim. É fonte para o que a tradição judaica afirma sobre a própria origem, e não registro histórico independente dela — distinção que o texto acima procura manter em cada parágrafo."
   },
   {
     "id": "thapar-early-india",
