@@ -2,7 +2,7 @@
 import path from "node:path";
 import { describe, it, expect } from "vitest";
 import { render, fireEvent, within } from "@testing-library/react";
-import { Atlas } from "./Atlas";
+import { Atlas, VIAGENS_NO_MAPA } from "./Atlas";
 import { semAnoCru } from "@/components/testes/dom";
 import { carregarAcervo } from "@/lib/conteudo/carregar";
 import { carregarMundo } from "@/lib/geo/mundo";
@@ -108,7 +108,17 @@ describe("Atlas", () => {
     expect(getByText(/Brasil não existia nesta data/)).toBeTruthy();
   });
 
-  it("selecionar uma viagem estreita a barra — senão a rota é invisível", () => {
+  /*
+   * Os testes de viagem estão presos a `VIAGENS_NO_MAPA`, não apagados.
+   *
+   * A camada de rotas saiu da tela quando a fronteira histórica entrou no
+   * fundo — dois traçados disputando o mesmo mapa. As regras que estes testes
+   * guardam continuam valendo (rota só existe depois da segunda parada, o
+   * painel de contexto acompanha a seleção), e voltam a rodar sozinhas no
+   * instante em que o flag virar. Apagá-las perderia a regra junto com a
+   * camada.
+   */
+  it.skipIf(!VIAGENS_NO_MAPA)("selecionar uma viagem estreita a barra — senão a rota é invisível", () => {
     const { barra, botao } = montar();
     const largoAntes = Number(barra.max) - Number(barra.min);
 
@@ -119,7 +129,7 @@ describe("Atlas", () => {
     expect(barra.getAttribute("step")).not.toBe("1");
   });
 
-  it("a rota do Cabral se desenha conforme a barra avança", () => {
+  it.skipIf(!VIAGENS_NO_MAPA)("a rota do Cabral se desenha conforme a barra avança", () => {
     const { container, barra, botao, irPara } = montar();
     fireEvent.click(botao(/Cabral/));
     // Pelo título, não pela posição: com mais de uma viagem no acervo, o
@@ -269,7 +279,7 @@ describe("Atlas", () => {
     expect(container.textContent).toContain("Rússia ·");
   });
 
-  it("a viagem selecionada mostra o contexto e as fontes", () => {
+  it.skipIf(!VIAGENS_NO_MAPA)("a viagem selecionada mostra o contexto e as fontes", () => {
     /*
      * O traço no mapa não comporta ressalva. A rota do Colombo desenha um
      * desembarque em 12 de outubro de 1492 cuja ilha é disputada até hoje —
@@ -283,17 +293,17 @@ describe("Atlas", () => {
     expect(container.textContent).toMatch(/Fontes?/);
   });
 
-  it("sem viagem selecionada, não há painel de contexto", () => {
+  it.skipIf(!VIAGENS_NO_MAPA)("sem viagem selecionada, não há painel de contexto", () => {
     const { container } = montar();
     expect(container.textContent).not.toMatch(/las Casas/i);
   });
 
-  it("cada viagem do acervo tem botão próprio", () => {
+  it.skipIf(!VIAGENS_NO_MAPA)("cada viagem do acervo tem botão próprio", () => {
     const { botao } = montar();
     for (const v of acervo.viagens) expect(botao(v.titulo)).toBeTruthy();
   });
 
-  it("a rota do Colombo só existe depois que a frota partiu", () => {
+  it.skipIf(!VIAGENS_NO_MAPA)("a rota do Colombo só existe depois que a frota partiu", () => {
     const { container, irPara } = montar();
     const colombo = () =>
       [...container.querySelectorAll("svg > g[data-camada=rotas] > path")].find((p) =>
@@ -307,9 +317,29 @@ describe("Atlas", () => {
     expect(colombo()?.getAttribute("d")).toMatch(/^M/);
   });
 
-  it("o mapa declara que desenha o contorno de hoje", () => {
+  /*
+   * O aviso do §12 tem DUAS metades desde que a camada de fundo virou
+   * histórica, e as duas precisam estar na tela. Antes bastava dizer que todo
+   * contorno era o de hoje; agora isso valeria só para os países acesos, e
+   * afirmá-lo do mapa inteiro seria mentira — a pior espécie, porque estaria
+   * no lugar onde o projeto promete admitir a limitação.
+   */
+  it("o mapa declara que o país aceso usa contorno de hoje", () => {
     const { container } = montar();
-    expect(container.textContent).toMatch(/contorno de cada país é o de hoje/);
+    expect(container.textContent).toMatch(/contorno dos países\s+acesos é o\s+de hoje/);
+  });
+
+  it("o mapa declara de que ano é a fronteira do fundo, com a defasagem", () => {
+    const { container } = montar();
+    expect(container.textContent).toMatch(/Fronteiras aproximadas de 2010/);
+    expect(container.textContent).toMatch(/última base disponível antes desta data/);
+  });
+
+  /* Crédito e licença da base são condição de uso, não enfeite de rodapé. */
+  it("o mapa credita a base cartográfica e a licença", () => {
+    const { container } = montar();
+    expect(container.textContent).toMatch(/A\. Ourednik/);
+    expect(container.textContent).toMatch(/CC-BY-SA-4\.0/);
   });
 
   it("o botão alterna o rótulo entre desenrolar e enrolar", () => {

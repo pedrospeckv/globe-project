@@ -4,9 +4,15 @@ import { useEffect, useRef } from "react";
 import { geoPath, geoGraticule10 } from "d3-geo";
 import { criarProjecao } from "@/lib/geo/projecao";
 import type { PaisFeature } from "@/lib/geo/mundo";
+import { precisaoBaixa, type FatiaFeature } from "@/lib/geo/fatias";
 
 interface Props {
   fundo: PaisFeature[];
+  /**
+   * A fatia histórica da data atual. Quando presente, substitui `fundo` —
+   * é o mundo daquele momento no lugar do mundo de hoje.
+   */
+  fatia?: FatiaFeature[];
   largura: number;
   altura: number;
   alpha: number;
@@ -14,13 +20,21 @@ interface Props {
 }
 
 /**
- * Camada decorativa: os países que o atlas não cobre, mais a malha de
- * meridianos e o contorno da esfera. Redesenhada a cada frame.
+ * Camada decorativa: o mundo que o atlas não cobre com dossiê, mais a malha
+ * de meridianos e o contorno da esfera. Redesenhada a cada frame.
  *
  * Vai em canvas justamente por ser a camada pesada e não-interativa — o que
- * é clicável mora no SVG por cima.
+ * é clicável mora no SVG por cima. É por não ser clicável que ela pode usar
+ * geometria histórica sem id do atlas: nada aponta para estes polígonos.
  */
-export function GlobeCanvas({ fundo, largura, altura, alpha, rotacao }: Props) {
+export function GlobeCanvas({
+  fundo,
+  fatia,
+  largura,
+  altura,
+  alpha,
+  rotacao,
+}: Props) {
   const ref = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -58,15 +72,60 @@ export function GlobeCanvas({ fundo, largura, altura, alpha, rotacao }: Props) {
     ctx.stroke();
     ctx.globalAlpha = 1;
 
-    // Países não cobertos pelo atlas
-    ctx.beginPath();
-    for (const f of fundo) path(f);
-    ctx.fillStyle = "#16203a";
-    ctx.fill();
-    ctx.strokeStyle = "#243049";
-    ctx.lineWidth = 0.5;
-    ctx.stroke();
-  }, [fundo, largura, altura, alpha, rotacao]);
+    if (fatia) {
+      /*
+       * Duas passadas, separadas pela precisão que a própria fonte declara.
+       *
+       * Fronteira conjectural sai tracejada e mais apagada; fronteira de
+       * registro sai contínua. Desenhar as duas iguais afirmaria que sabemos
+       * onde passava a linha da Núbia em 1500 a.C. com a mesma confiança com
+       * que sabemos a de 1914 — e não sabemos. É o mesmo princípio do status
+       * de uma alegação: a incerteza aparece, não é alisada.
+       *
+       * A separação é feita aqui e não no carregador porque só a tela precisa
+       * dela, e porque `ctx.setLineDash` obriga a fechar um caminho antes de
+       * mudar o traço.
+       */
+      const firmes = fatia.filter((f) => !precisaoBaixa(f));
+      const conjecturais = fatia.filter(precisaoBaixa);
+
+      ctx.beginPath();
+      for (const f of firmes) path(f);
+      ctx.fillStyle = "#16203a";
+      ctx.fill();
+      ctx.strokeStyle = "#243049";
+      ctx.lineWidth = 0.5;
+      ctx.stroke();
+
+      /*
+       * O preenchimento é o MESMO das firmes, e só o traço muda.
+       *
+       * A primeira versão escurecia o polígono e tracejava a borda, e em 323
+       * a.C. o globo ficava praticamente vazio — dois sinais para a mesma
+       * informação, ao custo de não se ver nada. Terra incerta é terra do
+       * mesmo jeito; o que é incerto é onde ela acaba, e isso o tracejado já
+       * diz sozinho.
+       */
+      ctx.beginPath();
+      for (const f of conjecturais) path(f);
+      ctx.fillStyle = "#16203a";
+      ctx.fill();
+      ctx.setLineDash([2, 2]);
+      ctx.strokeStyle = "#2c3a54";
+      ctx.lineWidth = 0.5;
+      ctx.stroke();
+      ctx.setLineDash([]);
+    } else {
+      // Sem fatia carregada ainda: os países de hoje seguram o lugar.
+      ctx.beginPath();
+      for (const f of fundo) path(f);
+      ctx.fillStyle = "#16203a";
+      ctx.fill();
+      ctx.strokeStyle = "#243049";
+      ctx.lineWidth = 0.5;
+      ctx.stroke();
+    }
+  }, [fundo, fatia, largura, altura, alpha, rotacao]);
 
   return <canvas ref={ref} className="absolute inset-0" />;
 }

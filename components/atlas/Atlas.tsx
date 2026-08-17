@@ -14,6 +14,12 @@ import {
   type DisputaSemRecorte,
 } from "@/lib/geo/disputas";
 import { ISO_NUMERICO, PAISES_DO_ATLAS, type Alpha3 } from "@/lib/geo/iso";
+import {
+  ATRIBUICAO,
+  carregarFatia,
+  fatiaPara,
+  type FatiaFeature,
+} from "@/lib/geo/fatias";
 import { rotaAte, type RotaFeature } from "@/lib/geo/rota";
 import {
   anoFracionarioDe,
@@ -21,6 +27,7 @@ import {
   intervaloDaViagem,
   intervaloDoAcervo,
   periodoVigente,
+  rotuloDeAnoHistorico,
   rotuloDeData,
 } from "@/lib/conteudo/tempo";
 import { estaDividido, type Pais } from "@/lib/conteudo/pais";
@@ -31,6 +38,19 @@ import { eventosEm, type Evento } from "@/lib/conteudo/evento";
 
 const LARGURA = 900;
 const ALTURA = 560;
+
+/**
+ * As rotas de viagem estão estacionadas, não removidas.
+ *
+ * Decisão de 2026-08-17: com a camada de fronteira histórica no fundo, somar
+ * traçados de viagem por cima polui o mapa — e a poluição piora conforme
+ * mais períodos ganharem geometria própria. O schema, `rota.ts`, os dados e
+ * os testes continuam de pé; só a camada e os botões saem da tela.
+ *
+ * Ligar de volta é trocar este valor. Se ficar desligado por muito tempo, a
+ * conversa passa a ser sobre remover o subsistema, não sobre o flag.
+ */
+export const VIAGENS_NO_MAPA = false;
 
 interface Props {
   mundo: PaisFeature[];
@@ -148,11 +168,44 @@ export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
 
   const rotas = useMemo(
     () =>
-      viagens
-        .map((v) => rotaAte(v, dataAtual))
-        .filter((r): r is RotaFeature => r !== null),
+      VIAGENS_NO_MAPA
+        ? viagens
+            .map((v) => rotaAte(v, dataAtual))
+            .filter((r): r is RotaFeature => r !== null)
+        : [],
     [viagens, dataAtual]
   );
+
+  /**
+   * A fatia de fronteiras da data atual.
+   *
+   * Buscada no cliente, uma por vez, e trocada só quando o ano cruza para
+   * outra fatia — arrastar a barra dentro do mesmo intervalo não gera
+   * requisição. `fatiaPara` já é a fatia ANTERIOR ou igual à data, então o
+   * mapa nunca adianta um arranjo territorial.
+   */
+  const fatiaAtual = useMemo(() => fatiaPara(tempo), [tempo]);
+  const [fatia, setFatia] = useState<FatiaFeature[] | undefined>(undefined);
+
+  useEffect(() => {
+    let vigente = true;
+    carregarFatia(fatiaAtual.nome)
+      .then((f) => {
+        // Descarta resposta de uma fatia que já não é a pedida: arrastar a
+        // barra rápido dispara várias buscas e elas não voltam em ordem.
+        if (vigente) setFatia(f);
+      })
+      .catch(() => {
+        // Fatia que não carrega não pode apagar o globo. Sem ela, o
+        // `GlobeCanvas` cai para os países de hoje.
+        if (vigente) setFatia(undefined);
+      });
+    return () => {
+      vigente = false;
+    };
+  }, [fatiaAtual.nome]);
+
+  const defasagem = Math.max(0, Math.round(tempo - fatiaAtual.ano));
 
   /**
    * Eventos próximos ao instante atual.
@@ -278,6 +331,7 @@ export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
       >
         <GlobeCanvas
           fundo={fundo}
+          fatia={fatia}
           largura={LARGURA}
           altura={ALTURA}
           alpha={alpha}
@@ -307,7 +361,8 @@ export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
       />
 
       <div className="flex flex-wrap items-center justify-center gap-2 text-xs">
-        {viagens.map((v) => (
+        {VIAGENS_NO_MAPA &&
+          viagens.map((v) => (
           <button
             key={v.id}
             onClick={() => setViagemFoco(viagemFoco === v.id ? null : v.id)}
@@ -327,6 +382,44 @@ export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
           {alpha < 0.5 ? "Desenrolar" : "Enrolar"}
         </button>
       </div>
+
+      {/*
+        De que ano é a fronteira que está na tela.
+
+        O §12 mandava avisar que as fronteiras eram as de hoje. Agora elas são
+        históricas, e o aviso mudou de conteúdo mas não de razão: a fatia é a
+        última ANTERIOR à data, então quase sempre há defasagem, e ela precisa
+        estar escrita. Sem isso o mapa afirmaria conhecer 1491 quando está
+        mostrando 1400.
+
+        O crédito ao lado não é enfeite: a base é CC-BY-SA e a atribuição é
+        condição da licença.
+      */}
+      <p className="max-w-2xl text-center text-[10px] leading-relaxed text-slate-600">
+        Fronteiras aproximadas de{" "}
+        <span className="font-mono text-slate-500">
+          {rotuloDeAnoHistorico(fatiaAtual.ano)}
+        </span>
+        {defasagem > 0 && (
+          <>
+            {" "}
+            — a última base disponível antes desta data, {defasagem}{" "}
+            {defasagem === 1 ? "ano" : "anos"} atrás dela
+          </>
+        )}
+        {" · "}
+        Base cartográfica de {ATRIBUICAO.autor} (
+        <a
+          href={ATRIBUICAO.url}
+          target="_blank"
+          rel="noreferrer"
+          className="underline decoration-slate-700 hover:text-slate-400"
+        >
+          {ATRIBUICAO.fonte}
+        </a>
+        ), {ATRIBUICAO.licenca}. Traço tracejado marca fronteira que a fonte
+        declara como conjectural.
+      </p>
 
       {/*
         Contexto da viagem selecionada. O traço no mapa não comporta ressalva:
@@ -393,12 +486,19 @@ export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
       {/*
         A limitação mais importante do mapa, dita onde ela é vista. Esconder
         isso faria o atlas afirmar fronteiras que nunca existiram.
+
+        O texto mudou quando a camada de fundo virou histórica: dizer que TODO
+        contorno é o de hoje passou a ser falso, e um aviso falso é pior que
+        nenhum. Agora ele separa as duas camadas, porque elas têm status
+        diferente — o fundo é datado e aproximado, o país aceso é a silhueta
+        de hoje.
       */}
       <p className="max-w-2xl text-center text-[10px] leading-relaxed text-slate-600">
-        O contorno de cada país é o de hoje, em todos os períodos — o atlas não
-        tem geometria histórica. Territórios ultramarinos ficam de fora do país
-        aceso e aparecem só como terra, para o mapa não sugerir domínio séculos
-        antes de ele existir.
+        O contorno dos países <span className="text-slate-500">acesos</span> é o
+        de hoje, em todos os períodos — a geometria histórica dos dossiês ainda
+        não existe, e é a camada de fundo que muda com a data. Territórios
+        ultramarinos ficam de fora do país aceso e aparecem só como terra, para
+        o mapa não sugerir domínio séculos antes de ele existir.
       </p>
     </div>
   );

@@ -110,7 +110,18 @@ export function defasagemDaFatia(anoFrac: number): number {
   return Math.max(0, Math.round(anoFrac - fatiaPara(anoFrac).ano));
 }
 
-const cache = new Map<string, FatiaFeature[]>();
+/**
+ * Cache de PROMESSAS, não de resultados.
+ *
+ * Guardar o resultado deixava dois chamadores simultâneos errarem o cache,
+ * porque nenhum dos dois havia resolvido ainda — e o efeito apareceu na
+ * primeira medição: `2010.json` foi buscado duas vezes num único load. Com a
+ * promessa no cache, o segundo pedido entra na requisição que já está no ar.
+ *
+ * Promessa que rejeita é retirada do mapa, senão o primeiro erro de rede
+ * ficaria memoizado e nenhuma tentativa posterior teria chance.
+ */
+const cache = new Map<string, Promise<FatiaFeature[]>>();
 
 /**
  * Busca uma fatia e devolve as feições.
@@ -121,20 +132,25 @@ const cache = new Map<string, FatiaFeature[]>();
  * barra de tempo de um lado a outro busca no máximo 53 arquivos pequenos, e
  * ir e voltar não busca nada.
  */
-export async function carregarFatia(nome: string): Promise<FatiaFeature[]> {
+export function carregarFatia(nome: string): Promise<FatiaFeature[]> {
   const emCache = cache.get(nome);
   if (emCache) return emCache;
 
-  const resposta = await fetch(`/geo/fatias/${nome}.json`);
-  if (!resposta.ok) {
-    throw new Error(`fatia ${nome}: HTTP ${resposta.status}`);
-  }
-  const topologia = (await resposta.json()) as Topology;
-  const colecao = topologia.objects.mundo as GeometryCollection;
-  const feicoes = feature(topologia, colecao).features as FatiaFeature[];
+  const pedido = (async () => {
+    const resposta = await fetch(`/geo/fatias/${nome}.json`);
+    if (!resposta.ok) {
+      throw new Error(`fatia ${nome}: HTTP ${resposta.status}`);
+    }
+    const topologia = (await resposta.json()) as Topology;
+    const colecao = topologia.objects.mundo as GeometryCollection;
+    return feature(topologia, colecao).features as FatiaFeature[];
+  })().catch((e: unknown) => {
+    cache.delete(nome);
+    throw e;
+  });
 
-  cache.set(nome, feicoes);
-  return feicoes;
+  cache.set(nome, pedido);
+  return pedido;
 }
 
 /** Esquece as fatias em memória. Existe para o teste, não para a tela. */

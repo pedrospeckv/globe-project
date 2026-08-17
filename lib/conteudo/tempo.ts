@@ -153,10 +153,22 @@ export function rotuloDeData(data: string): string {
  * Rótulo adequado à escala: só o ano em escala longa, mês e ano em curta.
  * O sinal negativo nunca aparece na tela — vira o sufixo "a.C.".
  */
+/**
+ * Ano histórico já escrito, com o sufixo em vez do sinal.
+ *
+ * Recebe o ano ESCRITO (-323 é 323 a.C.), e não a coordenada da linha do
+ * tempo — quem tem coordenada precisa passar por `linhaParaAnoEscrito` antes.
+ * Existe separado porque as fatias de fronteira guardam ano escrito e só
+ * querem o rótulo do ano, sem o mês que `rotuloDeAno` acrescenta em escala
+ * curta.
+ */
+export function rotuloDeAnoHistorico(anoEscrito: number): string {
+  return anoEscrito < 0 ? `${Math.abs(anoEscrito)} a.C.` : String(anoEscrito);
+}
+
 export function rotuloDeAno(anoFrac: number, amplitude: number): string {
   const anoEscrito = linhaParaAnoEscrito(Math.floor(anoFrac));
-  const rotuloAno =
-    anoEscrito < 0 ? `${Math.abs(anoEscrito)} a.C.` : String(anoEscrito);
+  const rotuloAno = rotuloDeAnoHistorico(anoEscrito);
 
   if (amplitude > 5) return rotuloAno;
 
