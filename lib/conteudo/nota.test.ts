@@ -1,6 +1,7 @@
 import { describe, it, expect } from "vitest";
 import path from "node:path";
 import { Nota, notasDoAlvo } from "./nota";
+import { temFrontmatter } from "./frontmatter";
 import { carregarAcervo } from "./carregar";
 import { indexarAlvos } from "./ligacoes";
 
@@ -85,10 +86,29 @@ describe("notas importadas do cofre", () => {
     for (const n of daTriagem) expect(titulos).toContain(n.titulo);
   });
 
-  it("A Arte da guerra encontra os Reinos Combatentes", () => {
-    // O período que escrevemos hoje, e a nota de leitura que fala dele.
-    expect(notasDoAlvo(acervo.notas, "cn-reinos-combatentes").map((n) => n.id)).toContain(
-      "a-arte-da-guerra"
-    );
+  it("nenhuma nota é só esqueleto de capítulos", () => {
+    /*
+     * O modelo de nota de livro do cofre nasce com "### Insights" e
+     * "Capítulo 1" a "Capítulo 5" e nada mais. Três dessas foram publicadas
+     * porque o filtro de tamanho media o arquivo bruto, e o cabeçalho YAML
+     * sozinho passava dos 400 bytes — a página abria com uma lista de
+     * capítulos vazios sob o aviso de "anotação pessoal de estudo".
+     *
+     * Livro lido e resumo não escrito é estado normal e volta quando o texto
+     * existir; o que não pode é o esqueleto virar página. O vínculo com o
+     * atlas fica guardado em scripts/selecao-obsidian.json enquanto isso.
+     */
+    for (const n of acervo.notas) {
+      const util = n.corpo
+        .split("\n")
+        .map((l) => l.trim().replace(/^[-*+]\s*/, ""))
+        .filter((l) => l && !/^#{1,6}\s/.test(l) && !/^Cap[íi]tulo\s*\d+$/i.test(l));
+      expect(util.join(" ").length, `${n.id} não tem texto além dos cabeçalhos`)
+        .toBeGreaterThan(200);
+    }
+  });
+
+  it("nenhuma nota carrega o cabeçalho YAML do cofre", () => {
+    for (const n of acervo.notas) expect(temFrontmatter(n.corpo)).toBe(false);
   });
 });

@@ -14,12 +14,19 @@
  */
 import fs from "node:fs/promises";
 import path from "node:path";
+import { semFrontmatter } from "../lib/conteudo/frontmatter";
 
 const COFRE =
   process.env.COFRE_OBSIDIAN ?? path.join("C:", "Users", "Ana Speck", "MinhaCabeca");
 const DESTINO = path.join(process.cwd(), "conteudo", "notas");
 
-/** Rascunho vazio ou quase — não vira nota. */
+/**
+ * Rascunho vazio ou quase — não vira nota.
+ *
+ * Medido no texto, depois de tirar o cabeçalho: o metadado de leitura do cofre
+ * sozinho passa de 700 bytes, e contá-lo faria uma nota de duas linhas entrar
+ * como se tivesse conteúdo.
+ */
 const TAMANHO_MINIMO = 400;
 
 function paraId(titulo: string): string {
@@ -61,14 +68,15 @@ async function candidatas(pastaRelativa: string): Promise<Candidata[]> {
     const info = await fs.stat(arquivo);
     const titulo = path.basename(arquivo, ".md");
     const relativo = path.relative(base, path.dirname(arquivo));
+    const corpo = semFrontmatter(bruto.trim()).trim();
 
     saida.push({
       id: paraId(titulo),
       titulo,
       pasta: relativo || pastaRelativa.split("/").pop() || pastaRelativa,
-      corpo: bruto.trim(),
+      corpo,
       atualizadaEm: info.mtime.toISOString().slice(0, 10),
-      bytes: Buffer.byteLength(bruto),
+      bytes: Buffer.byteLength(corpo),
     });
   }
 
@@ -83,12 +91,20 @@ async function candidatas(pastaRelativa: string): Promise<Candidata[]> {
  * na linha de comando resolveria a importação e não deixaria registro de
  * quem decidiu o quê — e isso aqui é decisão de curadoria, não de execução.
  */
-async function selecao(): Promise<Set<string>> {
+async function selecao(): Promise<{
+  titulos: Set<string>;
+  /** Vínculo guardado de nota que ainda não tem texto — ver `_leiaAlvos`. */
+  alvosGuardados: Record<string, string[]>;
+}> {
   const bruto = await fs.readFile(
     path.join(process.cwd(), "scripts", "selecao-obsidian.json"),
     "utf8"
   );
-  return new Set<string>(JSON.parse(bruto).titulos);
+  const json = JSON.parse(bruto);
+  return {
+    titulos: new Set<string>(json.titulos),
+    alvosGuardados: json.alvosGuardados ?? {},
+  };
 }
 
 async function main() {
@@ -106,16 +122,18 @@ async function main() {
   for (const pasta of pastas) todas.push(...(await candidatas(pasta)));
 
   let elegiveis = todas;
+  let alvosGuardados: Record<string, string[]> = {};
   if (usarSelecao) {
     const permitidos = await selecao();
-    const faltando = [...permitidos].filter(
+    alvosGuardados = permitidos.alvosGuardados;
+    const faltando = [...permitidos.titulos].filter(
       (t) => !todas.some((c) => c.titulo === t)
     );
     if (faltando.length) {
       console.error(`✗ na seleção mas não achado no cofre: ${faltando.join(", ")}`);
       process.exit(1);
     }
-    elegiveis = todas.filter((c) => permitidos.has(c.titulo));
+    elegiveis = todas.filter((c) => permitidos.titulos.has(c.titulo));
   }
 
   const boas = elegiveis.filter((c) => c.bytes >= TAMANHO_MINIMO);
@@ -148,11 +166,15 @@ async function main() {
     /*
      * Preserva `alvos` de uma importação anterior. O vínculo com o atlas é
      * trabalho humano — reimportar o cofre não pode apagá-lo.
+     *
+     * Não havendo importação anterior, cai no vínculo guardado na triagem:
+     * é o caso da nota que foi tirada do acervo por ser só esqueleto de
+     * capítulos e voltou depois que o resumo foi escrito.
      */
-    let alvos: string[] = [];
+    let alvos: string[] = alvosGuardados[c.titulo] ?? [];
     try {
       const antigo = JSON.parse(await fs.readFile(destino, "utf8"));
-      alvos = antigo.alvos ?? [];
+      alvos = antigo.alvos ?? alvos;
     } catch {
       // primeira importação desta nota
     }

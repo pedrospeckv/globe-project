@@ -11,5 +11,10 @@
     "O Príncipe",
     "Sapiens",
     "Os Japoneses"
-  ]
+  ],
+  "_leiaAlvos": "Vínculo com o atlas de nota que AINDA não tem texto. O livro foi lido, o resumo não foi escrito, e o esqueleto de capítulos não vira página. Como o arquivo não existe em conteudo/notas, o importador não teria de onde recuperar o vínculo — que é trabalho humano. Fica guardado aqui até a nota ganhar corpo no cofre; aí a importação a traz de volta já ligada.",
+  "alvosGuardados": {
+    "A Arte da guerra": ["CHN", "cn-reinos-combatentes"],
+    "Os Japoneses": ["JPN"]
+  }
 }

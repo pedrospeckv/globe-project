@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { temFrontmatter } from "./frontmatter";
 import { DataHistorica, Id } from "./primitivos";
 
 /**
@@ -18,7 +19,18 @@ export const Nota = z.object({
   titulo: z.string().min(1),
   /** Subpasta do cofre, preservada para dar contexto de onde a nota nasceu. */
   pasta: z.string().min(1),
-  corpo: z.string().min(1, "nota vazia não deve ser importada"),
+  /**
+   * O texto da nota, já sem o cabeçalho YAML do cofre. A recusa é a trava:
+   * o importador remove, e um erro dele vira falha de `pnpm validar` em vez
+   * de um bloco de metadado publicado acima da primeira frase.
+   */
+  corpo: z
+    .string()
+    .min(1, "nota vazia não deve ser importada")
+    .refine(
+      (c) => !temFrontmatter(c),
+      "corpo começa com cabeçalho YAML do cofre — reimporte com scripts/importar-obsidian.ts"
+    ),
   atualizadaEm: DataHistorica,
   /**
    * Alvos do atlas a que a nota se refere — mesmo espaço de nomes das
