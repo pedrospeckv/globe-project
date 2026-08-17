@@ -106,6 +106,15 @@
     "citacao": "Narrativa da campanha a partir das crônicas latinas, árabes e gregas. Reconstitui o cerco de Antioquia e o episódio da Santa Lança, e trata a violência de Jerusalém sem atenuação e sem excepcionalidade."
   },
   {
+    "id": "asimov-imperio-romano",
+    "tipo": "livro",
+    "titulo": "O império romano",
+    "autor": "Isaac Asimov",
+    "publicacao": "Planeta Minotauro",
+    "data": "2023-11-27",
+    "citacao": "Narrativa de divulgação da história imperial romana, de Augusto ao desmanche do Ocidente. É o livro de que esta nota é leitura; escrito por não especialista e décadas atrás, tem os limites disso na cronologia dos primeiros cristãos e no tratamento das fontes antigas."
+  },
+  {
     "id": "ato-de-uniao-1707",
     "tipo": "documento-oficial",
     "titulo": "Atos de União entre Inglaterra e Escócia",
@@ -120,6 +129,15 @@
     "data": "2026-01-21",
     "url": "https://www.axios.com/2026/01/21/greenland-deal-trump-denmark-sovereignty",
     "citacao": "O arcabouço discutido com o secretário-geral da OTAN, Mark Rutte, mantém a soberania dinamarquesa e trata de segurança no Ártico, atividade da aliança na região e acesso a matérias-primas. Um grupo de trabalho com os três lados passa a se reunir."
+  },
+  {
+    "id": "beard-spqr",
+    "tipo": "livro",
+    "titulo": "SPQR: A History of Ancient Rome",
+    "autor": "Mary Beard",
+    "publicacao": "Profile Books",
+    "data": "2015",
+    "citacao": "História de Roma que trata as fontes antigas como material a ser interrogado, não repetido. É explícita sobre quanto do retrato dos imperadores vem de senadores hostis escrevendo depois, e sobre o que não se pode saber."
   },
   {
     "id": "beaune-joana-lendas",
@@ -762,6 +780,24 @@
     "citacao": "Mostra que o movimento de tradução foi política de Estado abássida sustentada por dois séculos, e que os tradutores eram em boa parte cristãos siríacos e nestorianos. Desfaz a versão de um Islã que salva os gregos de uma Igreja que os destruía: as duas tradições trabalharam nos mesmos textos."
   },
   {
+    "id": "hasegawa-corrida-inimigo",
+    "tipo": "livro",
+    "titulo": "Racing the Enemy: Stalin, Truman, and the Surrender of Japan",
+    "autor": "Tsuyoshi Hasegawa",
+    "publicacao": "Harvard University Press",
+    "data": "2005",
+    "citacao": "Cruza arquivos americanos, soviéticos e japoneses sobre os dias da rendição. Sustenta que a entrada da União Soviética na guerra, em 9 de agosto de 1945, pesou tanto ou mais que as bombas na decisão japonesa — porque eliminou a última esperança de Tóquio, que era uma paz mediada por Moscou."
+  },
+  {
+    "id": "heather-queda-de-roma",
+    "tipo": "livro",
+    "titulo": "The Fall of the Roman Empire: A New History of Rome and the Barbarians",
+    "autor": "Peter Heather",
+    "publicacao": "Oxford University Press",
+    "data": "2005",
+    "citacao": "Sustenta que o Ocidente romano não caiu por decadência interna e sim por pressão externa sustentada, começando com a chegada dos hunos e o deslocamento em massa de povos góticos que ela produziu."
+  },
+  {
     "id": "iacb-moedas-ferro",
     "tipo": "dataset",
     "titulo": "Iron Age Coins in Britain",
@@ -891,6 +927,15 @@
     "autor": "Christine Kinealy",
     "data": "1994",
     "citacao": "Documentou que a Irlanda seguiu exportando alimentos durante a fome e reconstruiu as decisões administrativas de Londres que agravaram a mortalidade. Sustenta a afirmação do atlas de que a catástrofe foi de política pública, sem que isso resolva a disputa sobre o termo genocídio."
+  },
+  {
+    "id": "kinzer-homens-do-xa",
+    "tipo": "livro",
+    "titulo": "All the Shah's Men: An American Coup and the Roots of Middle East Terror",
+    "autor": "Stephen Kinzer",
+    "publicacao": "John Wiley and Sons",
+    "data": "2003",
+    "citacao": "Reconstitui a Operação Ajax a partir de documentos americanos e britânicos. A CIA reconheceu publicamente o próprio papel na desclassificação de 2013, sessenta anos depois do golpe."
   },
   {
     "id": "kojiki-712",
@@ -1116,6 +1161,14 @@
     "citacao": "Série anual que documenta a cadeia entre os grupos armados do leste congolês e a exportação de ouro, coltan e cassiterita pelos países vizinhos, incluindo a diferença entre o que Ruanda produz e o que declara exportar."
   },
   {
+    "id": "ordem-executiva-9066",
+    "tipo": "documento-oficial",
+    "titulo": "Ordem Executiva 9066",
+    "publicacao": "Presidência dos Estados Unidos",
+    "data": "1942-02-19",
+    "citacao": "Autoriza a remoção forçada de pessoas de áreas militares designadas, base jurídica do encarceramento de cerca de 120 mil nipo-americanos, dois terços deles cidadãos americanos por nascimento. Reparação oficial e indenização só vieram em 1988."
+  },
+  {
     "id": "p360-lulinha-cannabis-2026",
     "tipo": "reportagem",
     "titulo": "Entenda a investigação da PF sobre Lulinha e tráfico de influência",
@@ -1280,6 +1333,15 @@
     "autor": "Susan Reynolds",
     "data": "1994",
     "citacao": "Demonstrou que o sistema de feudo e vassalagem descrito nos manuais foi construído por juristas dos séculos XI e XII e sistematizado por historiadores do XIX, sem correspondência direta nas fontes altomedievais. Sustenta a ressalva do período carolíngio contra tratar o feudalismo como um sistema pronto."
+  },
+  {
+    "id": "rhodes-bomba-atomica",
+    "tipo": "livro",
+    "titulo": "The Making of the Atomic Bomb",
+    "autor": "Richard Rhodes",
+    "publicacao": "Simon and Schuster",
+    "data": "1986",
+    "citacao": "História do Projeto Manhattan da física à detonação. Cobre a infiltração soviética em Los Alamos e o cálculo político em torno do uso das duas bombas, com base em documentos e entrevistas com participantes."
   },
   {
     "id": "roy-economia-india-colonial",
@@ -1469,6 +1531,14 @@
     "citacao": "Referência sobre o apagamento da guerra da Argélia na memória francesa: as leis de anistia, a recusa oficial da palavra guerra até 1999 e o silêncio sobre a tortura. Sustenta as ressalvas dos períodos franceses de 1944 em diante."
   },
   {
+    "id": "suetonio-doze-cesares",
+    "tipo": "livro",
+    "titulo": "Vida dos doze césares",
+    "autor": "Suetônio",
+    "data": "121",
+    "citacao": "Biografias dos imperadores de Júlio César a Domiciano, escritas por um secretário imperial com acesso a arquivos. Fonte de quase toda anedota famosa do período — inclusive o grito de Augusto por suas legiões perdidas — e também de rumor recolhido sem verificação."
+  },
+  {
     "id": "sulloway-tentilhoes-1982",
     "tipo": "artigo-academico",
     "titulo": "Darwin and His Finches: The Evolution of a Legend",
@@ -1592,6 +1662,15 @@
     "publicacao": "Congresso dos Estados Unidos",
     "data": "1965-08-06",
     "citacao": "Proibiu testes de alfabetização e submeteu estados com histórico de discriminação à autorização federal prévia para mudar regras eleitorais. O registro eleitoral negro no Mississippi saltou de menos de 10% para perto de 60% em dois anos."
+  },
+  {
+    "id": "westad-guerra-fria",
+    "tipo": "livro",
+    "titulo": "The Cold War: A World History",
+    "autor": "Odd Arne Westad",
+    "publicacao": "Basic Books",
+    "data": "2017",
+    "citacao": "Trata a Guerra Fria como fenômeno global e não como disputa bilateral entre Washington e Moscou. O centro do argumento é que a maior parte dos mortos do conflito caiu na Ásia, na África e na América Latina, e não na Europa dividida."
   },
   {
     "id": "whitman-modelo-americano",
