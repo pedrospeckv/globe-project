@@ -10,6 +10,22 @@ import type { DisputaSemRecorte, TerritorioDisputado } from "@/lib/geo/disputas"
 import type { Evento } from "@/lib/conteudo/evento";
 import { rotuloDeData } from "@/lib/conteudo/tempo";
 
+/**
+ * Ilha pequena com a soberania já resolvida para a data em tela.
+ *
+ * Resolvida FORA daqui, no `Atlas`, porque esta camada é só desenho: se ela
+ * recebesse a lista de trechos e o ano, passaria a ter regra de conteúdo
+ * dentro de um componente de apresentação.
+ */
+export interface IlhaMarcada {
+  id: string;
+  nome: string;
+  ponto: [number, number];
+  /** Quem exercia. `null` onde a fonte não atribui posse a ninguém. */
+  poder: string | null;
+  disputada: boolean;
+}
+
 interface Props {
   curados: PaisCurado[];
   rotas: RotaFeature[];
@@ -30,6 +46,12 @@ interface Props {
    * não área — ver a nota em lib/geo/disputas.ts sobre a Caxemira.
    */
   disputasMarcadas?: readonly DisputaSemRecorte[];
+  /**
+   * Ilhas que a base cartográfica não desenha — ver `lib/conteudo/ilha.ts`.
+   * Entram como marcador e não como polígono: Fernando de Noronha tem 18 km²,
+   * e nesta escala um polígono fiel seria invisível e um visível seria falso.
+   */
+  ilhas?: readonly IlhaMarcada[];
 }
 
 /**
@@ -52,6 +74,7 @@ export function GeoOverlay({
   divididos = [],
   disputados = [],
   disputasMarcadas = [],
+  ilhas = [],
 }: Props) {
   const projecao = useMemo(
     () => criarProjecao({ largura, altura, alpha, rotacao }),
@@ -198,6 +221,69 @@ export function GeoOverlay({
               >
                 <title>{`${d.nome} — soberania disputada, sem geometria na base`}</title>
               </path>
+            </g>
+          );
+        })}
+      </g>
+
+      <g data-camada="ilhas">
+        {ilhas.map((i) => {
+          if (!pontoVisivel(i.ponto, { alpha, rotacao })) return null;
+          const p = projecao(i.ponto);
+          if (!p || !Number.isFinite(p[0]) || !Number.isFinite(p[1])) return null;
+          const x = p[0].toFixed(3);
+          const y = p[1].toFixed(3);
+
+          /*
+           * Ilha disputada herda o losango tracejado das disputas sem
+           * polígono, porque é a mesma afirmação: existe soberania contestada
+           * aqui. Usar marca diferente para a mesma coisa faria o leitor
+           * procurar uma distinção que não existe.
+           */
+          /*
+           * Na disputada, quem administra continua na etiqueta. Dizer só
+           * "disputada" esconderia que o Reino Unido administra as Malvinas
+           * desde 1833, e omitir o fato para parecer neutro é escolher um
+           * lado por outro caminho. Quem exerce e quem reivindica são coisas
+           * diferentes, e as duas cabem numa linha.
+           */
+          const rotulo = i.disputada
+            ? `${i.nome} — soberania disputada${
+                i.poder ? `, administrada por ${i.poder}` : ""
+              }`
+            : `${i.nome} — ${i.poder ?? "sem soberania exercida"}`;
+
+          return (
+            <g key={i.id} transform={`translate(${x},${y})`}>
+              {i.disputada ? (
+                <>
+                  <circle r={7} fill="#f59e0b" fillOpacity={0.15} />
+                  <path
+                    d="M 0 -5 L 5 0 L 0 5 L -5 0 Z"
+                    fill="none"
+                    stroke="#fbbf24"
+                    strokeWidth={1.3}
+                    strokeDasharray="3 2"
+                  >
+                    <title>{rotulo}</title>
+                  </path>
+                </>
+              ) : (
+                <>
+                  {/* Alvo de mouse maior que a marca: 3 px de raio é difícil
+                      de acertar, e a ilha existe para ser consultada. */}
+                  <circle r={7} fill="transparent" />
+                  <circle
+                    r={3}
+                    fill="#0b1220"
+                    stroke={i.poder ? "#93c5fd" : "#64748b"}
+                    strokeWidth={1.2}
+                    strokeDasharray={i.poder ? undefined : "2 2"}
+                  >
+                    <title>{rotulo}</title>
+                  </circle>
+                </>
+              )}
             </g>
           );
         })}

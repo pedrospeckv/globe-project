@@ -8,6 +8,14 @@
     "citacao": "Declarou que a União Soviética deixava de existir como sujeito de direito internacional e criou a Comunidade de Estados Independentes. Assinado pelos líderes de três das quinze repúblicas, sem consulta às demais e nove meses depois de um referendo em que a maioria votara por preservar a União."
   },
   {
+    "id": "acordo-de-lisboa-1974",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Lisboa entre Portugal e o PAIGC",
+    "publicacao": "Lisboa",
+    "data": "1974-12-18",
+    "citacao": "Fixou a transição para a independência de Cabo Verde, consumada em 5 de julho de 1975. Veio depois da Revolução dos Cravos, que encerrou o Estado Novo e com ele a política de províncias ultramarinas."
+  },
+  {
     "id": "acordo-sexta-feira-santa-1998",
     "tipo": "documento-oficial",
     "titulo": "Acordo de Belfast (Acordo da Sexta-Feira Santa)",
@@ -30,6 +38,14 @@
     "publicacao": "Paris",
     "data": "1973-01-27",
     "citacao": "Cessar-fogo, retirada americana em sessenta dias e devolução de prisioneiros. Não exigiu a retirada das tropas norte-vietnamitas do Sul, não resolveu o status político do Vietnã do Sul e previa um conselho de reconciliação que nunca funcionou. É por isso que a guerra continuou entre vietnamitas por mais dois anos."
+  },
+  {
+    "id": "adct-1988-fernando-de-noronha",
+    "tipo": "documento-oficial",
+    "titulo": "Constituição da República Federativa do Brasil, ADCT art. 15",
+    "publicacao": "Assembleia Nacional Constituinte",
+    "data": "1988-10-05",
+    "citacao": "Extinguiu o Território Federal de Fernando de Noronha e reincorporou a área ao estado de Pernambuco. O território federal havia sido criado em 1942, durante a Segunda Guerra, quando a ilha recebeu base aérea e naval."
   },
   {
     "id": "agbrasil-joias-2026",
@@ -232,6 +248,24 @@
     "publicacao": "Editora Record",
     "data": "2012-09-12",
     "citacao": "Romance de 2011 derivado da série de jogos, narrando a vida de Altaïr Ibn-La'Ahad no Levante da Terceira Cruzada. Ficção construída sobre cenário histórico, não obra de história: a ordem dos Assassinos existiu, mas o conflito milenar com os Templários e os artefatos são invenção da franquia."
+  },
+  {
+    "id": "boxer-holandeses-no-brasil",
+    "tipo": "livro",
+    "titulo": "The Dutch in Brazil, 1624-1654",
+    "autor": "Charles R. Boxer",
+    "publicacao": "Oxford University Press",
+    "data": "1957",
+    "citacao": "Cobre a ocupação neerlandesa do Nordeste, inclusive Fernando de Noronha, tomada em 1629 e mantida até a expulsão de 1654."
+  },
+  {
+    "id": "boxer-imperio-maritimo-portugues",
+    "tipo": "livro",
+    "titulo": "The Portuguese Seaborne Empire, 1415-1825",
+    "autor": "Charles R. Boxer",
+    "publicacao": "Hutchinson",
+    "data": "1969",
+    "citacao": "Referência para o Atlântico português: o povoamento de ilhas desabitadas — Madeira, Açores, Cabo Verde —, a economia açucareira e o papel de Cabo Verde no tráfico atlântico."
   },
   {
     "id": "brown-v-board-1954",
@@ -474,12 +508,28 @@
     "citacao": "Outorgada pelo imperador, criou parlamento e gabinete mas colocou o alto comando militar respondendo diretamente ao trono, fora do controle do governo civil. Essa separação, somada à exigência de que os ministros militares fossem oficiais da ativa, deu às forças armadas poder de derrubar gabinetes — mecanismo decisivo para o que aconteceria nos anos 1930."
   },
   {
+    "id": "constituicao-portuguesa-1976",
+    "tipo": "documento-oficial",
+    "titulo": "Constituição da República Portuguesa de 1976",
+    "publicacao": "Assembleia Constituinte",
+    "data": "1976-04-02",
+    "citacao": "Instituiu Açores e Madeira como regiões autônomas com órgãos de governo próprio, encerrando o regime de distritos ultramarinos. É a mudança de estatuto, não de soberania: as duas seguem portuguesas."
+  },
+  {
     "id": "constituicao-russa-1993",
     "tipo": "documento-oficial",
     "titulo": "Constituição da Federação Russa",
     "publicacao": "Federação Russa",
     "data": "1993-12-12",
     "citacao": "Aprovada em referendo semanas depois de o presidente ter dissolvido o parlamento à força, concentra no chefe de Estado a nomeação do governo, o poder de dissolver a Duma e a iniciativa legislativa ampla. É o desenho institucional que a Rússia mantém, com as emendas de 2020 que zeraram a contagem de mandatos."
+  },
+  {
+    "id": "constituicao-santa-helena-2009",
+    "tipo": "documento-oficial",
+    "titulo": "Saint Helena, Ascension and Tristan da Cunha Constitution Order 2009",
+    "publicacao": "Reino Unido",
+    "data": "2009",
+    "citacao": "Reorganizou o território ultramarino em três partes de igual estatuto, encerrando a subordinação formal de Ascensão e Tristão da Cunha a Santa Helena, que vinha de 1922 e 1938."
   },
   {
     "id": "constituicao-weimar-1919",
@@ -1489,6 +1539,23 @@
     "citacao": "Trata a pirataria do começo do século XVIII como reação de marinheiros à brutalidade da marinha mercante e da Royal Navy. Documenta a partilha igualitária de espólios, a indenização por mutilação e a presença de africanos livres e escravizados fugidos nas tripulações."
   },
   {
+    "id": "referendo-malvinas-2013",
+    "tipo": "documento-oficial",
+    "titulo": "Referendo sobre o status político das Ilhas Falkland",
+    "publicacao": "Governo das Ilhas Falkland",
+    "data": "2013-03-11",
+    "citacao": "Com comparecimento de 92%, 99,8% dos votantes optaram por manter o status de território ultramarino britânico — três votos contrários. A Argentina não reconhece o resultado, sustentando que a população foi implantada depois de 1833 e por isso não constitui povo com direito à autodeterminação."
+  },
+  {
+    "id": "relatorio-franks-1983",
+    "tipo": "documento-oficial",
+    "titulo": "Falkland Islands Review: Report of a Committee of Privy Counsellors",
+    "autor": "Comitê presidido por Lord Franks",
+    "publicacao": "Reino Unido",
+    "data": "1983-01",
+    "citacao": "Investigação britânica sobre a origem da guerra de 1982. Reconstitui as negociações anteriores à invasão e a leitura que Londres fazia dos sinais argentinos."
+  },
+  {
     "id": "relatorio-hunter-1920",
     "tipo": "documento-oficial",
     "titulo": "Report of the Committee Appointed to Investigate the Disturbances in the Punjab (Comitê Hunter)",
@@ -1885,6 +1952,14 @@
     "publicacao": "Tribunal Militar Internacional para o Extremo Oriente",
     "data": "1948-11-12",
     "citacao": "Condenou vinte e cinco dirigentes japoneses por crimes contra a paz e crimes de guerra, sete deles à morte. O imperador não foi indiciado, por decisão política dos ocupantes, e responsáveis pelo programa de armas biológicas receberam imunidade em troca dos dados de suas experiências. Houve votos dissidentes, entre eles o do juiz indiano Radhabinod Pal, que considerou o processo justiça de vencedores."
+  },
+  {
+    "id": "unga-2065-1965",
+    "tipo": "documento-oficial",
+    "titulo": "Resolução 2065 (XX) da Assembleia Geral das Nações Unidas",
+    "publicacao": "Assembleia Geral da ONU",
+    "data": "1965-12-16",
+    "citacao": "Reconhece a existência de uma disputa de soberania sobre as ilhas e convida Argentina e Reino Unido a negociar, levando em conta os interesses da população. É o texto em que os dois lados se apoiam para leituras opostas: a Argentina lê convite a negociar território, o Reino Unido lê ressalva sobre os habitantes."
   },
   {
     "id": "voting-rights-act-1965",

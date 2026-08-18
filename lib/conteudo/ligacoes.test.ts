@@ -21,6 +21,7 @@ function acervoVazio(): Acervo {
     indicadores: [],
     eventos: [],
     notas: [],
+    ilhas: [],
   };
 }
 

@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import gsap from "gsap";
 import { GlobeCanvas } from "./GlobeCanvas";
-import { GeoOverlay } from "./GeoOverlay";
+import { GeoOverlay, type IlhaMarcada } from "./GeoOverlay";
 import { TimeScrubber } from "./TimeScrubber";
 import { prepararMundo, separarPaises, type PaisFeature } from "@/lib/geo/mundo";
 import {
@@ -38,6 +38,7 @@ import { Prosa } from "@/components/conteudo/Prosa";
 import type { Fonte } from "@/lib/conteudo/fonte";
 import type { Viagem } from "@/lib/conteudo/viagem";
 import { eventosEm, type Evento } from "@/lib/conteudo/evento";
+import { conhecidaEm, soberaniaEm, type Ilha } from "@/lib/conteudo/ilha";
 
 const LARGURA = 900;
 const ALTURA = 560;
@@ -60,6 +61,7 @@ interface Props {
   paises: Pais[];
   viagens: Viagem[];
   eventos: Evento[];
+  ilhas?: Ilha[];
   fontes?: Fonte[];
 }
 
@@ -67,7 +69,14 @@ interface Props {
  * Único dono do estado. Tudo abaixo recebe props e não guarda estado próprio,
  * o que torna impossível globo, barra de tempo e rotas dessincronizarem.
  */
-export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
+export function Atlas({
+  mundo,
+  paises,
+  viagens,
+  eventos,
+  ilhas = [],
+  fontes = [],
+}: Props) {
   const [alpha, setAlpha] = useState(0);
   const [rotacao, setRotacao] = useState<[number, number]>([-40, -10]);
   const [selecionado, setSelecionado] = useState<Alpha3 | null>(null);
@@ -209,6 +218,28 @@ export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
   }, [fatiaAtual.nome]);
 
   const defasagem = Math.max(0, Math.round(tempo - fatiaAtual.ano));
+
+  /**
+   * Ilhas que já eram conhecidas nesta data, com a soberania resolvida.
+   *
+   * `conhecidaEm` é o filtro que importa: antes de 1504 Fernando de Noronha
+   * não aparece, porque marcá-la no mapa de 1400 afirmaria que alguém sabia
+   * dela. Ilha conhecida e sem dono aparece — é o caso de Tristão da Cunha
+   * por três séculos —, e o marcador sai tracejado para dizer isso.
+   */
+  const ilhasMarcadas = useMemo<IlhaMarcada[]>(
+    () =>
+      ilhas
+        .filter((i) => conhecidaEm(i, tempo))
+        .map((i) => ({
+          id: i.id,
+          nome: i.nome,
+          ponto: i.ponto,
+          poder: soberaniaEm(i, tempo)?.poder ?? null,
+          disputada: i.disputada,
+        })),
+    [ilhas, tempo]
+  );
 
   /**
    * Quem estava sob o ponteiro, na camada de fundo.
@@ -423,6 +454,7 @@ export function Atlas({ mundo, paises, viagens, eventos, fontes = [] }: Props) {
           divididos={divididos}
           disputados={disputados}
           disputasMarcadas={disputasMarcadas}
+          ilhas={ilhasMarcadas}
         />
       </div>
 

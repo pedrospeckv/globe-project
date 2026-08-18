@@ -1,0 +1,29 @@
+{
+  "id": "madeira",
+  "nome": "Madeira",
+  "ponto": [-16.9, 32.75],
+  "nota": "Também desabitada antes dos portugueses. Foi onde o açúcar de plantação com trabalho escravizado foi ensaiado antes de ser levado para São Tomé e depois para o Brasil — a ilha é o protótipo do modelo, não uma nota de pé de página dele.",
+  "fontes": ["boxer-imperio-maritimo-portugues", "constituicao-portuguesa-1976"],
+  "soberania": [
+    {
+      "desde": "1419",
+      "ate": "1580",
+      "poder": "Portugal",
+      "nota": "Povoada a partir de 1425 por João Gonçalves Zarco e Tristão Vaz Teixeira. O açúcar madeirense dominou o mercado europeu no século XV, e depois cedeu ao do Brasil.",
+      "fontes": ["boxer-imperio-maritimo-portugues"]
+    },
+    {
+      "desde": "1580",
+      "ate": "1640",
+      "poder": "Espanha",
+      "nota": "União Ibérica, sem resistência comparável à da Terceira.",
+      "fontes": ["boxer-imperio-maritimo-portugues"]
+    },
+    {
+      "desde": "1640",
+      "poder": "Portugal",
+      "nota": "Ocupada por forças britânicas em 1801 e de novo entre 1807 e 1814, nas guerras napoleônicas — por acordo com o aliado português, para impedir que caísse nas mãos da França, e não por conquista. Região autônoma desde 1976.",
+      "fontes": ["constituicao-portuguesa-1976"]
+    }
+  ]
+}

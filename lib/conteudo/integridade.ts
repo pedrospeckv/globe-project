@@ -5,6 +5,7 @@ import type { Viagem } from "./viagem";
 import type { Indicador } from "./indicador";
 import type { Evento } from "./evento";
 import type { Nota } from "./nota";
+import type { Ilha } from "./ilha";
 // `ligacoes` importa só o TIPO Acervo daqui, então o ciclo some na compilação.
 import { verificarLigacoes, indexarAlvos } from "./ligacoes";
 
@@ -16,6 +17,7 @@ export interface Acervo {
   indicadores: Indicador[];
   eventos: Evento[];
   notas: Nota[];
+  ilhas: Ilha[];
 }
 
 function duplicados(ids: string[]): string[] {
@@ -152,6 +154,38 @@ export function verificarIntegridade(acervo: Acervo): string[] {
     for (const fonteId of nota.fontes) {
       if (!idsFonte.has(fonteId)) {
         erros.push(`nota "${nota.id}" cita fonte inexistente: ${fonteId}`);
+      }
+    }
+  }
+
+  /*
+   * Ilhas. Elas existem porque a base cartográfica não as desenha, então a
+   * única garantia de que a soberania afirmada tem lastro é a fonte — não há
+   * polígono de origem para conferir contra. Por isso a checagem é mais dura
+   * aqui: além de a fonte precisar existir, TODO trecho de soberania precisa
+   * de ao menos uma, e ilha sem id único quebraria a referência do mapa.
+   */
+  for (const id of duplicados(acervo.ilhas.map((i) => i.id))) {
+    erros.push(`id de ilha duplicado: ${id}`);
+  }
+  for (const ilha of acervo.ilhas) {
+    for (const fonteId of ilha.fontes) {
+      if (!idsFonte.has(fonteId)) {
+        erros.push(`ilha "${ilha.id}" cita fonte inexistente: ${fonteId}`);
+      }
+    }
+    for (const trecho of ilha.soberania) {
+      if (trecho.fontes.length === 0) {
+        erros.push(
+          `ilha "${ilha.id}": trecho de ${trecho.desde} (${trecho.poder}) está sem fonte`
+        );
+      }
+      for (const fonteId of trecho.fontes) {
+        if (!idsFonte.has(fonteId)) {
+          erros.push(
+            `ilha "${ilha.id}" cita fonte inexistente em ${trecho.desde}: ${fonteId}`
+          );
+        }
       }
     }
   }

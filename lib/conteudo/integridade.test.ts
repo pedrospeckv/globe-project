@@ -49,6 +49,7 @@ function acervoBase(): Acervo {
     indicadores: [],
     eventos: [],
     notas: [],
+    ilhas: [],
   };
 }
 

@@ -1,0 +1,23 @@
+{
+  "id": "tristao-da-cunha",
+  "nome": "Tristão da Cunha",
+  "outrosNomes": ["Tristan da Cunha"],
+  "ponto": [-12.28, -37.11],
+  "nota": "O povoado chama-se Edinburgh of the Seven Seas e é o assentamento humano permanente mais isolado do mundo: 2.400 km de Santa Helena e 2.800 km da África do Sul, sem pista de avião. Em 1961 o vulcão entrou em erupção e a população inteira foi evacuada para a Inglaterra; a maioria voltou em 1963.",
+  "fontes": ["boxer-imperio-maritimo-portugues", "constituicao-santa-helena-2009"],
+  "soberania": [
+    {
+      "desde": "1506",
+      "ate": "1816",
+      "poder": "nenhum",
+      "nota": "Avistada em 1506 pelo navegador português Tristão da Cunha, que não conseguiu desembarcar, e batizada com o nome dele. Portugal nunca a povoou. Três séculos de terra conhecida e sem dono — a lacuna aqui é o dado, não uma falha do registro. Em 1810 o americano Jonathan Lambert declarou-se soberano das Ilhas do Refresco e morreu dois anos depois.",
+      "fontes": ["boxer-imperio-maritimo-portugues"]
+    },
+    {
+      "desde": "1816",
+      "poder": "Reino Unido",
+      "nota": "Guarnição britânica instalada durante o exílio de Napoleão em Santa Helena, para impedir que a ilha servisse de base a um resgate. A anexação foi feita pela Colônia do Cabo; em 1938 passou a dependência de Santa Helena, e desde 2009 é parte de igual estatuto no território ultramarino.",
+      "fontes": ["constituicao-santa-helena-2009"]
+    }
+  ]
+}

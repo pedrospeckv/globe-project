@@ -1,0 +1,71 @@
+{
+  "id": "fernando-de-noronha",
+  "nome": "Fernando de Noronha",
+  "outrosNomes": [
+    "Isle Delphine"
+  ],
+  "ponto": [
+    -32.42,
+    -3.85
+  ],
+  "nota": "Brasileira, distrito estadual de Pernambuco. Foi capitania hereditária, colônia penal do Império e da República, base aérea aliada na Segunda Guerra e território federal, nesta ordem.",
+  "fontes": [
+    "adct-1988-fernando-de-noronha",
+    "boxer-holandeses-no-brasil"
+  ],
+  "soberania": [
+    {
+      "desde": "1504",
+      "ate": "1629",
+      "poder": "Portugal",
+      "nota": "Avistada em 1503 pela expedição em que seguia Américo Vespúcio e doada como capitania hereditária a Fernão de Loronha — a primeira capitania do Brasil, e a origem do nome da ilha.",
+      "fontes": [
+        "boxer-imperio-maritimo-portugues"
+      ]
+    },
+    {
+      "desde": "1629",
+      "ate": "1654",
+      "poder": "Companhia Neerlandesa das Índias Ocidentais",
+      "nota": "Tomada durante a ocupação neerlandesa do Nordeste e usada como posto avançado. Devolvida com a expulsão de 1654.",
+      "fontes": [
+        "boxer-holandeses-no-brasil"
+      ]
+    },
+    {
+      "desde": "1654",
+      "ate": "1736",
+      "poder": "Portugal",
+      "nota": "Retomada com a expulsão dos neerlandeses do Nordeste. A Coroa manteve a ilha praticamente sem guarnição por oito décadas, e é essa negligência que abriu a ocupação francesa de 1736.",
+      "fontes": [
+        "boxer-holandeses-no-brasil"
+      ]
+    },
+    {
+      "desde": "1736",
+      "ate": "1737",
+      "poder": "França",
+      "nota": "Ocupação breve, com a ilha rebatizada Isle Delphine. Portugal a retomou no ano seguinte e passou a fortificá-la para não repetir o episódio.",
+      "fontes": [
+        "boxer-imperio-maritimo-portugues"
+      ]
+    },
+    {
+      "desde": "1737",
+      "ate": "1822",
+      "poder": "Portugal",
+      "nota": "Fortificada por Pernambuco e usada como presídio.",
+      "fontes": [
+        "boxer-imperio-maritimo-portugues"
+      ]
+    },
+    {
+      "desde": "1822",
+      "poder": "Brasil",
+      "nota": "Seguiu como colônia penal. Em 1942 virou território federal e recebeu base aérea e naval usada por forças brasileiras e norte-americanas na vigilância do Atlântico Sul. Em 1988 o território federal foi extinto e a ilha reincorporada a Pernambuco.",
+      "fontes": [
+        "adct-1988-fernando-de-noronha"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "acores",
+  "nome": "Açores",
+  "outrosNomes": ["Azores"],
+  "ponto": [-28.0, 38.5],
+  "nota": "Arquipélago de nove ilhas a 1.400 km de Lisboa. O marcador está no centro aproximado do conjunto e não numa ilha específica. Desabitado antes da chegada portuguesa — não há população anterior deslocada, o que é raro na história do Atlântico.",
+  "fontes": ["boxer-imperio-maritimo-portugues", "constituicao-portuguesa-1976"],
+  "soberania": [
+    {
+      "desde": "1432",
+      "ate": "1580",
+      "poder": "Portugal",
+      "nota": "Achado desabitado nas navegações do Infante D. Henrique e povoado a partir de 1439, com gado solto antes dos colonos. Virou escala obrigatória das frotas que voltavam da América e da Índia.",
+      "fontes": ["boxer-imperio-maritimo-portugues"]
+    },
+    {
+      "desde": "1580",
+      "ate": "1583",
+      "poder": "Espanha",
+      "nota": "União Ibérica. A Terceira resistiu em nome do pretendente D. António, venceu os espanhóis na Batalha da Salga em 1581 e só foi submetida em 1583 — foi o último território português a cair.",
+      "fontes": ["boxer-imperio-maritimo-portugues"]
+    },
+    {
+      "desde": "1583",
+      "poder": "Portugal",
+      "nota": "Na Segunda Guerra, com Portugal neutro, a base das Lajes na Terceira foi cedida aos britânicos em 1943 e depois usada pelos norte-americanos, o que fechou o vão aéreo do Atlântico contra os submarinos alemães. Região autônoma desde a Constituição de 1976.",
+      "fontes": ["constituicao-portuguesa-1976"]
+    }
+  ]
+}
