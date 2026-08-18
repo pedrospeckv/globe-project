@@ -2,7 +2,12 @@
 import path from "node:path";
 import { describe, it, expect } from "vitest";
 import { render, fireEvent, within } from "@testing-library/react";
-import { Atlas, VIAGENS_NO_MAPA } from "./Atlas";
+import {
+  Atlas,
+  VIAGENS_NO_MAPA,
+  limitarDeslocamento,
+  tamanhoDoMapa,
+} from "./Atlas";
 import { semAnoCru } from "@/components/testes/dom";
 import { carregarAcervo } from "@/lib/conteudo/carregar";
 import { carregarMundo } from "@/lib/geo/mundo";
@@ -395,6 +400,57 @@ describe("Atlas", () => {
   });
 
   /*
+   * O tamanho do mapa é o que decide quantos nomes de país cabem escritos nele,
+   * então a conta merece números concretos. Os dois eixos mandam: num monitor
+   * largo e baixo, seguir só a largura deixaria o mapa mais alto que a tela e a
+   * barra de tempo fora de vista.
+   */
+  describe("tamanho do mapa", () => {
+    it("cresce com o espaço, limitado pela altura da janela", () => {
+      /* Tela de 1080: sobra para 1472 px de mapa. */
+      expect(tamanhoDoMapa(1888, 1080)).toEqual({ largura: 1472, altura: 780 });
+      /* Janela baixa: a altura é que limita, não a largura. */
+      expect(tamanhoDoMapa(1648, 720)).toEqual({ largura: 900, altura: 477 });
+    });
+
+    it("não passa do teto nem em monitor enorme", () => {
+      expect(tamanhoDoMapa(3000, 1600).largura).toBe(1600);
+    });
+
+    it("não encolhe abaixo do tamanho do globo", () => {
+      expect(tamanhoDoMapa(600, 500).largura).toBe(900);
+    });
+
+    it("mantém a proporção que deixa o mapa 2:1 caber com folga", () => {
+      const { largura, altura } = tamanhoDoMapa(1888, 1080);
+      /* O mapa desenhado tem metade da largura em altura; sobra margem. */
+      expect(altura).toBeGreaterThan(largura * 0.5);
+      expect(altura).toBeLessThan(largura * 0.56);
+    });
+  });
+
+  describe("limite de deslocamento", () => {
+    /* Com o mundo inteiro à vista não há para onde arrastar. */
+    it("é zero quando o desenho é menor que o canvas", () => {
+      expect(
+        limitarDeslocamento([300, 300], 900, 477, { meiaLargura: 424, meiaAltura: 212 })
+      ).toEqual([0, 0]);
+    });
+
+    it("deixa arrastar só até a borda do desenho", () => {
+      const e = { meiaLargura: 900, meiaAltura: 500 };
+      /* 900 de meia largura contra 450 de meio canvas: sobram 450 de folga. */
+      expect(limitarDeslocamento([9999, 9999], 900, 477, e)).toEqual([450, 261.5]);
+      expect(limitarDeslocamento([-9999, -9999], 900, 477, e)).toEqual([-450, -261.5]);
+    });
+
+    it("não mexe no que já está dentro do limite", () => {
+      const e = { meiaLargura: 900, meiaAltura: 500 };
+      expect(limitarDeslocamento([100, -50], 900, 477, e)).toEqual([100, -50]);
+    });
+  });
+
+  /*
    * Globo e mapa são modos, e o controle diz em qual se está — o botão anterior
    * dizia "Desenrolar", que é o gesto, e o rótulo dependia de onde a animação
    * tinha chegado.
@@ -440,15 +496,48 @@ describe("Atlas", () => {
     });
 
     /*
-     * Estático é a característica, não uma limitação. Girar a equirretangular
-     * deslocaria a emenda do antimeridiano para o meio de um continente.
+     * No mapa o arrasto não gira — girar a equirretangular deslocaria a emenda do
+     * antimeridiano para o meio de um continente. E com o mundo inteiro à vista
+     * também não desloca, porque não há para onde ir: o desenho é mais estreito
+     * que o canvas, e o limite de deslocamento é zero.
      */
-    it("no mapa, arrastar não move nada", () => {
+    it("no mapa em zoom 1, arrastar não move nada", () => {
       const { container } = montar();
       fireEvent.click(modo(container, "Mapa"));
       const antes = traco(container);
       arrastar(container);
       expect(traco(container)).toBe(antes);
+    });
+
+    /* Ampliado, o arrasto passa a servir para navegar. */
+    it("ampliado, arrastar desloca a vista", () => {
+      const { container } = montar();
+      fireEvent.click(modo(container, "Mapa"));
+      const mais = container.querySelector('button[aria-label="Aproximar"]') as HTMLElement;
+      fireEvent.click(mais);
+      fireEvent.click(mais);
+      const antes = traco(container);
+      arrastar(container);
+      expect(traco(container)).not.toBe(antes);
+    });
+
+    it("aproximar e afastar mostram a ampliação, e voltar reenquadra", () => {
+      const { container } = montar();
+      fireEvent.click(modo(container, "Mapa"));
+      const grupo = container.querySelector('[aria-label="Ampliação"]') as HTMLElement;
+      expect(grupo.textContent).toContain("1.0×");
+      fireEvent.click(grupo.querySelector('button[aria-label="Aproximar"]') as HTMLElement);
+      expect(grupo.textContent).toContain("1.5×");
+      fireEvent.click(
+        [...grupo.querySelectorAll("button")].find((b) => b.textContent === "Mundo inteiro")!
+      );
+      expect(grupo.textContent).toContain("1.0×");
+    });
+
+    /* O zoom é do mapa: no globo, aproximar não revela o que girar não revela. */
+    it("não oferece ampliação no globo", () => {
+      const { container } = montar();
+      expect(container.querySelector('[aria-label="Ampliação"]')).toBeNull();
     });
 
     /*

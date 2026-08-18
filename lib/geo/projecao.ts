@@ -16,6 +16,23 @@ export interface OpcoesProjecao {
   alpha: number;
   /** [lambda, phi] em graus. */
   rotacao?: [number, number];
+  /**
+   * Ampliação. 1 = o mundo inteiro na tela.
+   *
+   * Multiplica a escala em vez de mexer no `alpha`, e essa separação é o que
+   * mantém as duas coisas independentes: `alpha` diz QUE projeção é, o zoom diz
+   * de quão perto se olha. Misturá-los faria aproximar o mapa começar a
+   * enrolá-lo de volta em globo.
+   */
+  zoom?: number;
+  /**
+   * Deslocamento da vista, em pixels de tela, para navegar quando ampliado.
+   *
+   * Em pixels e não em graus porque é gesto de arrasto: o dedo anda em pixels, e
+   * converter para grau exigiria inverter a projeção — que esta não tem
+   * (ver `seletor.ts`).
+   */
+  deslocamento?: [number, number];
 }
 
 /**
@@ -95,7 +112,14 @@ export function pontoVisivel(
 }
 
 export function criarProjecao(opcoes: OpcoesProjecao): GeoProjection {
-  const { largura, altura, alpha, rotacao = [0, 0] } = opcoes;
+  const {
+    largura,
+    altura,
+    alpha,
+    rotacao = [0, 0],
+    zoom = 1,
+    deslocamento = [0, 0],
+  } = opcoes;
 
   /*
    * O @types/d3-geo declara o mutator como `() => GeoProjection`, sem
@@ -112,8 +136,11 @@ export function criarProjecao(opcoes: OpcoesProjecao): GeoProjection {
   ) as unknown as (t: number) => GeoProjection;
 
   return mutate(alpha)
-    .scale(escalaPara(alpha, largura))
-    .translate([largura / 2, altura / 2])
+    .scale(escalaPara(alpha, largura) * zoom)
+    .translate([
+      largura / 2 + deslocamento[0],
+      altura / 2 + deslocamento[1],
+    ])
     .rotate([rotacao[0], rotacao[1]])
     .preclip(corteComposto(alpha))
     .precision(0.5);

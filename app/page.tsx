@@ -9,7 +9,12 @@ export default async function Home() {
 
   return (
     <main className="min-h-screen bg-slate-950 py-10 text-slate-100">
-      <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 px-4">
+      {/*
+        Largo o bastante para o mapa crescer: é o tamanho do mapa que decide
+        quantos nomes de país cabem escritos nele. A prosa não estica junto —
+        cada bloco de texto do Atlas carrega o seu próprio `max-w`.
+      */}
+      <div className="mx-auto flex max-w-[1700px] flex-col items-center gap-6 px-4">
         <header className="text-center">
           <h1 className="font-serif text-4xl tracking-tight">Atlas</h1>
           <p className="mt-1 font-mono text-xs tracking-widest text-amber-500/70">

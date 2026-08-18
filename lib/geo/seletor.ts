@@ -40,6 +40,9 @@ export interface OpcoesSeletor {
   altura: number;
   alpha: number;
   rotacao: [number, number];
+  /** Ampliação e deslocamento da vista. Ver `OpcoesProjecao`. */
+  zoom?: number;
+  deslocamento?: [number, number];
 }
 
 export interface Seletor {
@@ -76,7 +79,7 @@ function contextoOculto(
 }
 
 export function criarSeletor(opcoes: OpcoesSeletor): Seletor {
-  const { fatia, largura, altura, alpha, rotacao } = opcoes;
+  const { fatia, largura, altura, alpha, rotacao, zoom, deslocamento } = opcoes;
   const ctx = contextoOculto(largura, altura);
 
   if (ctx) {
@@ -95,7 +98,10 @@ export function criarSeletor(opcoes: OpcoesSeletor): Seletor {
      * linha morta de um pixel na fronteira, onde a consulta diz "nada" — e
      * dizer nada ali é correto, porque ali realmente não se sabe.
      */
-    const path = geoPath(criarProjecao({ largura, altura, alpha, rotacao }), ctx);
+    const path = geoPath(
+      criarProjecao({ largura, altura, alpha, rotacao, zoom, deslocamento }),
+      ctx
+    );
     ctx.clearRect(0, 0, largura, altura);
     for (let i = 0; i < fatia.length; i++) {
       ctx.beginPath();

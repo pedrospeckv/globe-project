@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import gsap from "gsap";
+import { geoPath } from "d3-geo";
 import { GlobeCanvas } from "./GlobeCanvas";
 import { GeoOverlay, type IlhaMarcada } from "./GeoOverlay";
 import { TimeScrubber } from "./TimeScrubber";
@@ -26,6 +27,7 @@ import {
   type Fatia,
 } from "@/lib/geo/fatias";
 import { corDaFeicao } from "@/lib/geo/cores";
+import { criarProjecao } from "@/lib/geo/projecao";
 import { criarSeletor } from "@/lib/geo/seletor";
 import { rotaAte, type RotaFeature } from "@/lib/geo/rota";
 import {
@@ -49,8 +51,88 @@ import {
   type Ilha,
 } from "@/lib/conteudo/ilha";
 
-const LARGURA = 900;
-const ALTURA = 560;
+/** Tamanho do globo. Fixo: globo maior não mostra mais mundo, só ocupa mais tela. */
+const LARGURA_GLOBO = 900;
+const ALTURA_GLOBO = 560;
+
+/**
+ * Teto da largura do mapa.
+ *
+ * O mapa cresce até onde a página deixa, porque tamanho é o que decide quantos
+ * nomes cabem escritos nele: medido na fatia de 2018, 900 px nomeiam 25 dos 176
+ * países e 1600 px nomeiam 58. Acima de 1600 o ganho continua, mas a tela deixa
+ * de caber em monitor comum e o mapa passa a exigir rolagem para ser visto
+ * inteiro — o oposto do que este modo serve para fazer.
+ */
+const LARGURA_MAPA_MAX = 1600;
+
+/** Altura do canvas do mapa em relação à largura: o mapa é 2:1 e sobra folga. */
+const PROPORCAO_MAPA = 0.53;
+
+/** Espaço que a barra de tempo, os controles e a legenda ocupam abaixo do mapa. */
+const RESERVA_VERTICAL = 300;
+
+/**
+ * O tamanho do mapa, limitado pelos dois eixos.
+ *
+ * A largura disponível é o que a página oferece; a altura da janela também
+ * manda, senão num monitor largo e baixo o mapa fica mais alto que a tela e a
+ * barra de tempo sai de vista. Sai função pura para poder ser medida em teste.
+ */
+export function tamanhoDoMapa(
+  disponivel: number,
+  alturaJanela: number
+): { largura: number; altura: number } {
+  const cabeNaAltura = (alturaJanela - RESERVA_VERTICAL) / PROPORCAO_MAPA;
+  const largura = Math.round(
+    Math.max(LARGURA_GLOBO, Math.min(disponivel, LARGURA_MAPA_MAX, cabeNaAltura))
+  );
+  return { largura, altura: Math.round(largura * PROPORCAO_MAPA) };
+}
+
+/*
+ * Constante, e não `[0, 0]` no lugar de uso: literal novo a cada render fazia o
+ * `useMemo` do seletor errar e reconstruir o canvas de seleção — que repinta as
+ * 1.946 feições de 1492 — em todo render do modo globo. É o mesmo cuidado que
+ * levou `sob` a ser índice em vez de feição.
+ */
+const SEM_DESLOCAMENTO: [number, number] = [0, 0];
+
+/** Ampliação: 1 é o mundo inteiro, 8 é cerca de uma região. */
+const ZOOM_MIN = 1;
+const ZOOM_MAX = 8;
+
+/** Metade da extensão desenhada, em pixels. Vem medida da própria projeção. */
+export interface Extensao {
+  meiaLargura: number;
+  meiaAltura: number;
+}
+
+/**
+ * Limita o deslocamento para o desenho nunca sair de baixo do canvas.
+ *
+ * Em zoom 1 o mapa é mais estreito que o canvas, então o limite é zero e não se
+ * arrasta nada — o que é correto: com o mundo inteiro à vista não há para onde ir.
+ *
+ * A extensão é MEDIDA e não calculada aqui. A primeira versão deduzia a meia
+ * largura como `π × escala`, que só vale para a equirretangular pronta: no meio
+ * da animação de desenrolar o desenho ainda é quase um globo, cuja meia largura
+ * é `escala`, e o limite saía três vezes maior que o desenho — dava para arrastar
+ * o globo até quase fora da tela. Um teste pegou isso.
+ */
+export function limitarDeslocamento(
+  d: [number, number],
+  largura: number,
+  altura: number,
+  { meiaLargura, meiaAltura }: Extensao
+): [number, number] {
+  const maxX = Math.max(0, meiaLargura - largura / 2);
+  const maxY = Math.max(0, meiaAltura - altura / 2);
+  return [
+    Math.max(-maxX, Math.min(maxX, d[0])),
+    Math.max(-maxY, Math.min(maxY, d[1])),
+  ];
+}
 
 /**
  * Globo e mapa são MODOS, e não um gesto de ida e volta.
@@ -124,6 +206,71 @@ export function Atlas({
    * o defeito que o modo mapa existe para não ter.
    */
   const rotacaoEfetiva = modo === "mapa" ? ROTACAO_MAPA : rotacao;
+
+  /**
+   * Quanto espaço a página oferece.
+   *
+   * Medido, e não fixo, porque o mapa cresce até onde couber — e é o tamanho que
+   * determina quantos nomes de país cabem escritos nele. O `ResizeObserver` já
+   * dispara uma vez ao começar a observar, então não é preciso medir à mão na
+   * montagem (o que também evitaria acusar a regra de setState em efeito).
+   */
+  const raiz = useRef<HTMLDivElement>(null);
+  const [espaco, setEspaco] = useState({
+    largura: LARGURA_GLOBO,
+    alturaJanela: 900,
+  });
+
+  useEffect(() => {
+    const el = raiz.current;
+    if (!el || typeof ResizeObserver === "undefined") return;
+    const medir = () =>
+      setEspaco({ largura: el.clientWidth, alturaJanela: window.innerHeight });
+    const observador = new ResizeObserver(medir);
+    observador.observe(el);
+    window.addEventListener("resize", medir);
+    return () => {
+      observador.disconnect();
+      window.removeEventListener("resize", medir);
+    };
+  }, []);
+
+  const { largura: LARGURA, altura: ALTURA } = useMemo(
+    () =>
+      modo === "mapa"
+        ? tamanhoDoMapa(espaco.largura, espaco.alturaJanela)
+        : { largura: LARGURA_GLOBO, altura: ALTURA_GLOBO },
+    [modo, espaco]
+  );
+
+  /*
+   * Zoom e deslocamento valem só no mapa. No globo, aproximar não revela nada
+   * que girar não revele, e arrastar já tem outro significado — girar.
+   */
+  const [zoom, setZoom] = useState(1);
+  const [deslocamento, setDeslocamento] = useState<[number, number]>([0, 0]);
+  const zoomEfetivo = modo === "mapa" ? zoom : 1;
+  const deslocamentoEfetivo = modo === "mapa" ? deslocamento : SEM_DESLOCAMENTO;
+
+  /**
+   * Quanto do canvas o desenho ocupa AGORA, medido na projeção.
+   *
+   * Serve para limitar o arrasto, e precisa ser medido porque a extensão muda com
+   * o achatamento de forma que não se deduz da escala — a esfera ocupa `escala`
+   * de meia largura, o mapa plano ocupa `π × escala`, e no meio da animação fica
+   * entre os dois sem ser linear.
+   */
+  const extensao = useMemo<Extensao>(() => {
+    const p = criarProjecao({
+      largura: LARGURA,
+      altura: ALTURA,
+      alpha,
+      rotacao: rotacaoEfetiva,
+      zoom: zoomEfetivo,
+    });
+    const [[x0, y0], [x1, y1]] = geoPath(p).bounds({ type: "Sphere" });
+    return { meiaLargura: (x1 - x0) / 2, meiaAltura: (y1 - y0) / 2 };
+  }, [LARGURA, ALTURA, alpha, rotacaoEfetiva, zoomEfetivo]);
 
   const [selecionado, setSelecionado] = useState<Alpha3 | null>(null);
   const [viagemFoco, setViagemFoco] = useState<string | null>(null);
@@ -320,9 +467,11 @@ export function Atlas({
             altura: ALTURA,
             alpha,
             rotacao: rotacaoEfetiva,
+            zoom: zoomEfetivo,
+            deslocamento: deslocamentoEfetivo,
           })
         : null,
-    [fatia, alpha, rotacaoEfetiva]
+    [fatia, alpha, rotacaoEfetiva, zoomEfetivo, deslocamentoEfetivo, LARGURA, ALTURA]
   );
 
   const feicaoSob = sob !== null && fatia ? (fatia.feicoes[sob] ?? null) : null;
@@ -433,32 +582,106 @@ export function Atlas({
     [modo]
   );
 
-  /*
-   * No mapa não se arrasta. "Estático" é a característica, não uma limitação:
-   * o mapa-múndi de estudo tem um enquadramento só, e girar a equirretangular
-   * deslocaria a emenda para o meio de um continente.
+  /**
+   * Aproxima ou afasta, mantendo fixo o ponto sob o cursor.
+   *
+   * A conta é a de sempre em mapa que amplia: se o ponto `p` tem de continuar
+   * onde está, o deslocamento tem de absorver a diferença de escala, daí o fator
+   * `(1 - novo/velho)`. Sem isso, aproximar puxaria a vista para o centro e o
+   * lugar que se queria ver escaparia da tela — que é o defeito que faz zoom de
+   * mapa parecer quebrado.
+   *
+   * Sem `ponto`, amplia pelo centro: é o caso dos botões, que não têm cursor.
    */
-  const aoPressionar = useCallback(
-    (e: React.PointerEvent) => {
-      if (modo === "mapa") return;
-      arrastando.current = true;
-      ultimo.current = [e.clientX, e.clientY];
-      e.currentTarget.setPointerCapture?.(e.pointerId);
+  const aplicarZoom = useCallback(
+    (fator: number, ponto?: [number, number]) => {
+      const novo = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, zoom * fator));
+      if (novo === zoom) return;
+      const razao = novo / zoom;
+      const cx = LARGURA / 2;
+      const cy = ALTURA / 2;
+      const [px, py] = ponto ?? [cx, cy];
+      const alvo: [number, number] = [
+        deslocamento[0] + (px - cx - deslocamento[0]) * (1 - razao),
+        deslocamento[1] + (py - cy - deslocamento[1]) * (1 - razao),
+      ];
+      setZoom(novo);
+      /*
+       * A extensão cresce proporcionalmente ao zoom, então dá para escalar a que
+       * já foi medida em vez de construir outra projeção só para medir de novo.
+       */
+      setDeslocamento(
+        limitarDeslocamento(alvo, LARGURA, ALTURA, {
+          meiaLargura: (extensao.meiaLargura / zoom) * novo,
+          meiaAltura: (extensao.meiaAltura / zoom) * novo,
+        })
+      );
     },
-    [modo]
+    [zoom, deslocamento, LARGURA, ALTURA, extensao]
   );
 
-  const aoMover = useCallback((e: React.PointerEvent) => {
-    if (!arrastando.current) return;
-    const [px, py] = ultimo.current;
-    const dx = e.clientX - px;
-    const dy = e.clientY - py;
-    ultimo.current = [e.clientX, e.clientY];
-    setRotacao(([lambda, phi]) => [
-      lambda + dx * 0.35,
-      Math.max(-90, Math.min(90, phi - dy * 0.35)),
-    ]);
+  const reenquadrar = useCallback(() => {
+    setZoom(1);
+    setDeslocamento([0, 0]);
   }, []);
+
+  /*
+   * A roda entra por ouvinte nativo com `passive: false`, e não por `onWheel`:
+   * o React registra `wheel` como passivo na raiz, e em ouvinte passivo o
+   * `preventDefault` é ignorado — a página rolaria junto com o zoom.
+   */
+  const areaDoMapa = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const el = areaDoMapa.current;
+    if (!el || modo !== "mapa") return;
+    const aoRodar = (e: WheelEvent) => {
+      e.preventDefault();
+      const r = el.getBoundingClientRect();
+      aplicarZoom(e.deltaY < 0 ? 1.25 : 1 / 1.25, [
+        e.clientX - r.left,
+        e.clientY - r.top,
+      ]);
+    };
+    el.addEventListener("wheel", aoRodar, { passive: false });
+    return () => el.removeEventListener("wheel", aoRodar);
+  }, [modo, aplicarZoom]);
+
+  /*
+   * Arrastar significa coisas diferentes nos dois modos, e é de propósito.
+   *
+   * No globo, gira. No mapa, NÃO gira — girar a equirretangular levaria a emenda
+   * do antimeridiano para o meio de um continente — e passa a deslocar a vista,
+   * que é o que serve quando se está ampliado. Em zoom 1 o limite de
+   * deslocamento é zero, então o mapa continua imóvel enquanto mostra o mundo
+   * inteiro, e só ganha arrasto depois de aproximar.
+   */
+  const aoPressionar = useCallback((e: React.PointerEvent) => {
+    arrastando.current = true;
+    ultimo.current = [e.clientX, e.clientY];
+    e.currentTarget.setPointerCapture?.(e.pointerId);
+  }, []);
+
+  const aoMover = useCallback(
+    (e: React.PointerEvent) => {
+      if (!arrastando.current) return;
+      const [px, py] = ultimo.current;
+      const dx = e.clientX - px;
+      const dy = e.clientY - py;
+      ultimo.current = [e.clientX, e.clientY];
+
+      if (modo === "mapa") {
+        setDeslocamento((d) =>
+          limitarDeslocamento([d[0] + dx, d[1] + dy], LARGURA, ALTURA, extensao)
+        );
+        return;
+      }
+      setRotacao(([lambda, phi]) => [
+        lambda + dx * 0.35,
+        Math.max(-90, Math.min(90, phi - dy * 0.35)),
+      ]);
+    },
+    [modo, LARGURA, ALTURA, extensao]
+  );
 
   const aoSoltar = useCallback(() => {
     arrastando.current = false;
@@ -483,10 +706,13 @@ export function Atlas({
   );
 
   return (
-    <div className="flex flex-col items-center gap-4">
+    <div ref={raiz} className="flex w-full flex-col items-center gap-4">
       <div
+        ref={areaDoMapa}
         className={`relative touch-none ${
-          modo === "globo" ? "cursor-grab active:cursor-grabbing" : "cursor-default"
+          modo === "globo" || zoom > 1
+            ? "cursor-grab active:cursor-grabbing"
+            : "cursor-default"
         }`}
         style={{ width: LARGURA, height: ALTURA }}
         onPointerDown={aoPressionar}
@@ -507,6 +733,8 @@ export function Atlas({
           altura={ALTURA}
           alpha={alpha}
           rotacao={rotacaoEfetiva}
+          zoom={zoomEfetivo}
+          deslocamento={deslocamentoEfetivo}
         />
         {/*
           Etiqueta do que está sob o ponteiro, fixa num canto e não seguindo o
@@ -554,6 +782,8 @@ export function Atlas({
           altura={ALTURA}
           alpha={alpha}
           rotacao={rotacaoEfetiva}
+          zoom={zoomEfetivo}
+          deslocamento={deslocamentoEfetivo}
           selecionado={selecionado}
           onSelecionar={setSelecionado}
           divididos={divididos}
@@ -611,6 +841,48 @@ export function Atlas({
             </button>
           ))}
         </div>
+
+        {/*
+          Zoom só no mapa. É o que resolve o teto dos rótulos: a 900 px cabem 25
+          nomes e a 1600 px cabem 58, e aproximando cabe o resto — quem se
+          aproxima da Europa vê aparecer Chéquia e Bélgica, que no mundo inteiro
+          nunca teriam espaço.
+        */}
+        {modo === "mapa" && (
+          <div
+            role="group"
+            aria-label="Ampliação"
+            className="flex items-center overflow-hidden rounded border border-slate-600"
+          >
+            <button
+              onClick={() => aplicarZoom(1 / 1.5)}
+              disabled={zoom <= ZOOM_MIN}
+              aria-label="Afastar"
+              className="px-2 py-1 text-slate-400 transition-colors hover:bg-slate-800 disabled:opacity-40 disabled:hover:bg-transparent"
+            >
+              −
+            </button>
+            <span className="min-w-10 border-x border-slate-700 px-1 py-1 text-center font-mono text-[11px] text-slate-400">
+              {zoom.toFixed(1)}×
+            </span>
+            <button
+              onClick={() => aplicarZoom(1.5)}
+              disabled={zoom >= ZOOM_MAX}
+              aria-label="Aproximar"
+              className="px-2 py-1 text-slate-400 transition-colors hover:bg-slate-800 disabled:opacity-40 disabled:hover:bg-transparent"
+            >
+              +
+            </button>
+            {zoom > ZOOM_MIN && (
+              <button
+                onClick={reenquadrar}
+                className="border-l border-slate-700 px-2 py-1 text-slate-400 transition-colors hover:bg-slate-800"
+              >
+                Mundo inteiro
+              </button>
+            )}
+          </div>
+        )}
       </div>
 
       {/*

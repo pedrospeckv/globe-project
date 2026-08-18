@@ -41,6 +41,9 @@ interface Props {
   altura: number;
   alpha: number;
   rotacao: [number, number];
+  /** Ampliação e deslocamento da vista. Ver `OpcoesProjecao`. */
+  zoom?: number;
+  deslocamento?: [number, number];
   selecionado: Alpha3 | null;
   onSelecionar: (a: Alpha3) => void;
   /** Países cujo território abrigava mais de um Estado nesta data. */
@@ -75,6 +78,8 @@ export function GeoOverlay({
   altura,
   alpha,
   rotacao,
+  zoom,
+  deslocamento,
   selecionado,
   onSelecionar,
   divididos = [],
@@ -83,8 +88,8 @@ export function GeoOverlay({
   ilhas = [],
 }: Props) {
   const projecao = useMemo(
-    () => criarProjecao({ largura, altura, alpha, rotacao }),
-    [largura, altura, alpha, rotacao]
+    () => criarProjecao({ largura, altura, alpha, rotacao, zoom, deslocamento }),
+    [largura, altura, alpha, rotacao, zoom, deslocamento]
   );
   const path = useMemo(() => geoPath(projecao), [projecao]);
 
