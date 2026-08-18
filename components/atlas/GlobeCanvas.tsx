@@ -6,7 +6,6 @@ import { criarProjecao } from "@/lib/geo/projecao";
 import type { PaisFeature } from "@/lib/geo/mundo";
 import { precisaoBaixa, type Fatia, type FatiaFeature } from "@/lib/geo/fatias";
 import { NEUTRO, TRACO, corDoBalde, semCorPropria } from "@/lib/geo/cores";
-import { colocarRotulos } from "@/lib/geo/rotulos";
 
 interface Props {
   fundo: PaisFeature[];
@@ -25,24 +24,14 @@ interface Props {
 }
 
 /**
- * A partir de que achatamento os nomes aparecem.
+ * A partir de que achatamento vale medir a área de cada entidade na tela.
  *
- * Praticamente "só no mapa": a colocação dos rótulos é o passo caro, e no meio da
- * animação de desenrolar ela seria refeita a cada quadro para um enquadramento
- * que ninguém vai ler. O gsap termina o tween exatamente em 1, então na prática
- * a conta é feita uma vez, quando o mapa para.
+ * Praticamente "só no mapa". A varredura é o mesmo trabalho de desenhar, e no
+ * globo dobraria o custo de cada quadro do arrasto. O gsap termina o tween
+ * exatamente em 1, então a conta é feita uma vez, quando o mapa para.
  */
 const ACHATADO = 0.999;
 
-/**
- * Corpo do rótulo, em pixels.
- *
- * Medido na fatia de 2018, num mapa de 1472 px (o que uma tela de 1080 rende):
- * fonte 9 nomeia 56 países, 10 nomeia 52 e 11 nomeia 46. O 9 pagaria a Alemanha
- * — que é o caso difícil, palavra longa em país compacto — ao preço de um texto
- * miúdo, e a Alemanha aparece de todo modo ao aproximar. Fica o 10.
- */
-const FONTE_ROTULO = 10;
 
 /** Anônimos num grupo só, fora da faixa de baldes. */
 const ANONIMO = -1;
@@ -208,32 +197,6 @@ export function GlobeCanvas({
 
       desenhar(firmes, false);
       desenhar(conjecturais, true);
-
-      /*
-       * Os nomes, por último, para ficarem por cima de qualquer preenchimento.
-       *
-       * O halo escuro é o que os torna legíveis sobre 24 cores diferentes: sem
-       * ele, um nome claro sobre um país claro desaparece, e escolher a cor do
-       * texto por país daria 24 casos para acertar em vez de um.
-       */
-      if (alpha >= ACHATADO) {
-        ctx.font = `${FONTE_ROTULO}px ui-sans-serif, system-ui, sans-serif`;
-        ctx.textAlign = "center";
-        ctx.textBaseline = "middle";
-        const rotulos = colocarRotulos({
-          feicoes: fatia.feicoes,
-          projecao,
-          medir: (t) => ctx.measureText(t).width,
-          fonte: FONTE_ROTULO,
-        });
-        ctx.lineWidth = 3;
-        ctx.strokeStyle = "rgba(2,6,23,0.9)";
-        ctx.fillStyle = "#e2e8f0";
-        for (const r of rotulos) {
-          ctx.strokeText(r.nome, r.x, r.y);
-          ctx.fillText(r.nome, r.x, r.y);
-        }
-      }
     } else {
       // Sem fatia carregada ainda: os países de hoje seguram o lugar.
       ctx.beginPath();

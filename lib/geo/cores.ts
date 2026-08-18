@@ -111,9 +111,28 @@ export function oklchParaHex(L: number, C: number, hGraus: number): string {
  * `L` e `C` variam em ciclos de 3 e 2 para que, depois de 24 passos de 137,5°,
  * os poucos matizes que se aproximam ainda difiram em tom.
  */
+/**
+ * Base de `L`, escolhida pelas DUAS contas de contraste ao mesmo tempo.
+ *
+ * A terra tem de se distinguir do mar, e o rótulo branco tem de se distinguir da
+ * terra — e as duas exigências empurram `L` em sentidos opostos. Medido contra o
+ * oceano `#0b1220` e o texto `#f1f5f9`:
+ *
+ * | faixa de L | terra/mar   | branco/terra |
+ * |------------|-------------|--------------|
+ * | 0,40–0,46  | 1,94 – 2,74 | 6,51 – 9,19  |
+ * | 0,47–0,53  | 2,62 – 3,71 | 4,80 – 6,80  |
+ * | 0,50–0,56  | 3,00 – 4,17 | 4,28 – 5,95  |
+ *
+ * A primeira versão usava 0,40 e a Síria e o Iraque liam quase como oceano — 1,94
+ * é contraste de detalhe, não de figura contra fundo. A terceira quebra o piso de
+ * 4,5:1 do texto. A do meio é a única que fecha as duas, e é a que está aqui.
+ */
+const L_BASE = 0.47;
+
 export const PALETA: readonly string[] = Array.from({ length: BALDES }, (_, i) => {
   const matiz = (i * 137.508) % 360;
-  const L = 0.4 + 0.03 * (i % 3);
+  const L = L_BASE + 0.03 * (i % 3);
   const C = 0.062 + 0.016 * (i % 2);
   return oklchParaHex(L, C, matiz);
 });
@@ -128,12 +147,12 @@ export const PALETA: readonly string[] = Array.from({ length: BALDES }, (_, i) =
  *
  * O `L` é o MESMO da primeira faixa da paleta, e isso corrige um erro que já
  * foi cometido neste arquivo em outra forma: a primeira versão usava um
- * cinza-azulado escuro, de luminância 0,018 contra os 0,06–0,10 da paleta, e
+ * cinza-azulado escuro, de luminância 0,018 contra a banda da paleta, e
  * com o oceano em 0,006 a terra anônima leria como mar. Em `bc323` o globo
  * ficaria outra vez quase vazio. Terra sem dono conhecido é terra: aparece com
  * o mesmo peso e sem identidade.
  */
-export const NEUTRO = oklchParaHex(0.4, 0, 0);
+export const NEUTRO = oklchParaHex(L_BASE, 0, 0);
 
 /**
  * FNV-1a de 32 bits.

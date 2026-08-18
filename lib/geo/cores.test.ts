@@ -67,11 +67,21 @@ describe("paleta", () => {
     }
   });
 
-  /* Terra tem de se distinguir de mar sem depender do traço da fronteira. */
+  /*
+   * Terra tem de se distinguir de mar sem depender do traço da fronteira, e o
+   * indicador é a RAZÃO DE CONTRASTE e não a luminância crua — foi a luminância
+   * crua que deixou passar a paleta anterior, em que a Síria e o Iraque liam quase
+   * como oceano com 1,94:1. Este limite e o do rótulo branco puxam `L` em sentidos
+   * opostos, e é o par que fixa a faixa (ver `L_BASE`).
+   */
   it("separa terra de oceano", () => {
     const oceano = luminancia("#0b1220");
-    for (const c of PALETA) expect(luminancia(c)).toBeGreaterThan(oceano * 3);
-    expect(luminancia(NEUTRO)).toBeGreaterThan(oceano * 3);
+    const contraste = (l: number) =>
+      (Math.max(l, oceano) + 0.05) / (Math.min(l, oceano) + 0.05);
+    for (const c of PALETA) {
+      expect(contraste(luminancia(c)), c).toBeGreaterThan(2.5);
+    }
+    expect(contraste(luminancia(NEUTRO))).toBeGreaterThan(2.5);
   });
 
   /*

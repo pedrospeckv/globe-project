@@ -6,6 +6,7 @@ import gsap from "gsap";
 import { geoPath } from "d3-geo";
 import { GlobeCanvas } from "./GlobeCanvas";
 import { GeoOverlay, type IlhaMarcada } from "./GeoOverlay";
+import { RotulosCanvas } from "./RotulosCanvas";
 import { TimeScrubber } from "./TimeScrubber";
 import { prepararMundo, separarPaises, type PaisFeature } from "@/lib/geo/mundo";
 import {
@@ -790,6 +791,21 @@ export function Atlas({
           disputados={disputados}
           disputasMarcadas={disputasMarcadas}
           ilhas={ilhasMarcadas}
+        />
+
+        {/*
+          Os nomes vêm DEPOIS do overlay, e é o que os torna legíveis nos países
+          que têm dossiê: eles são pintados com ciano a 55% de opacidade, e um
+          rótulo desenhado por baixo saía lavado.
+        */}
+        <RotulosCanvas
+          fatia={fatia}
+          largura={LARGURA}
+          altura={ALTURA}
+          alpha={alpha}
+          rotacao={rotacaoEfetiva}
+          zoom={zoomEfetivo}
+          deslocamento={deslocamentoEfetivo}
         />
       </div>
 
