@@ -394,9 +394,84 @@ describe("Atlas", () => {
     expect(container.textContent).not.toMatch(/Geometria própria do atlas/);
   });
 
-  it("o botão alterna o rótulo entre desenrolar e enrolar", () => {
-    const { getByText } = montar();
-    expect(getByText("Desenrolar")).toBeTruthy();
+  /*
+   * Globo e mapa são modos, e o controle diz em qual se está — o botão anterior
+   * dizia "Desenrolar", que é o gesto, e o rótulo dependia de onde a animação
+   * tinha chegado.
+   */
+  describe("modo de visualização", () => {
+    const modo = (c: HTMLElement, nome: string) =>
+      [...c.querySelectorAll("button")].find((b) => b.textContent === nome)!;
+
+    it("começa no globo e anuncia o modo ativo", () => {
+      const { container } = montar();
+      expect(modo(container, "Globo").getAttribute("aria-pressed")).toBe("true");
+      expect(modo(container, "Mapa").getAttribute("aria-pressed")).toBe("false");
+    });
+
+    it("troca para o mapa e volta", () => {
+      const { container } = montar();
+      fireEvent.click(modo(container, "Mapa"));
+      expect(modo(container, "Mapa").getAttribute("aria-pressed")).toBe("true");
+      fireEvent.click(modo(container, "Globo"));
+      expect(modo(container, "Globo").getAttribute("aria-pressed")).toBe("true");
+    });
+
+    /**
+     * O desenho de um país aceso, que muda quando a projeção muda. É a única
+     * forma de observar a rotação de fora: ela não aparece no DOM como atributo.
+     */
+    const traco = (c: HTMLElement) =>
+      c.querySelector("svg > g[data-camada=paises] > path")?.getAttribute("d") ?? "";
+
+    const arrastar = (c: HTMLElement) => {
+      const alvo = c.querySelector("div.touch-none") as HTMLElement;
+      fireEvent.pointerDown(alvo, { clientX: 450, clientY: 280, pointerId: 1 });
+      fireEvent.pointerMove(alvo, { clientX: 560, clientY: 300, pointerId: 1 });
+      fireEvent.pointerUp(alvo, { clientX: 560, clientY: 300, pointerId: 1 });
+    };
+
+    it("no globo, arrastar gira", () => {
+      const { container } = montar();
+      const antes = traco(container);
+      arrastar(container);
+      expect(traco(container)).not.toBe(antes);
+      expect(antes.length).toBeGreaterThan(10);
+    });
+
+    /*
+     * Estático é a característica, não uma limitação. Girar a equirretangular
+     * deslocaria a emenda do antimeridiano para o meio de um continente.
+     */
+    it("no mapa, arrastar não move nada", () => {
+      const { container } = montar();
+      fireEvent.click(modo(container, "Mapa"));
+      const antes = traco(container);
+      arrastar(container);
+      expect(traco(container)).toBe(antes);
+    });
+
+    /*
+     * A vista do mapa é aprumada NA HORA, sem esperar a animação do achatado —
+     * que roda em requestAnimationFrame e nem sempre roda. Um mapa enviesado é
+     * o defeito que este modo existe para não ter.
+     */
+    it("o mapa apruma a vista sem depender da animação", () => {
+      const { container } = montar();
+      const noGlobo = traco(container);
+      fireEvent.click(modo(container, "Mapa"));
+      expect(traco(container)).not.toBe(noGlobo);
+    });
+
+    /* E o giro que o globo tinha volta quando se volta para ele. */
+    it("guarda o giro do globo enquanto se está no mapa", () => {
+      const { container } = montar();
+      arrastar(container);
+      const girado = traco(container);
+      fireEvent.click(modo(container, "Mapa"));
+      fireEvent.click(modo(container, "Globo"));
+      expect(traco(container)).toBe(girado);
+    });
   });
 
   it("eventos próximos ao instante aparecem listados", () => {

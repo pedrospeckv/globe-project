@@ -36,6 +36,53 @@ describe("criarProjecao", () => {
     expect(globo([60, 0])![0]).not.toBeCloseTo(mapa([60, 0])![0], 1);
   });
 
+  /*
+   * O modo mapa do atlas é este alpha com rotação zerada, e o que se cobra dele
+   * é ser um mapa-múndi de verdade: proporção 2:1, mundo inteiro dentro da tela e
+   * centrado no cruzamento de Greenwich com o equador. Sem isto o modo criado
+   * para estudar mostraria um mundo cortado ou fora de esquadro.
+   */
+  it("em alpha=1 o mundo inteiro cabe na tela, em proporção 2:1 e centrado", () => {
+    const p = criarProjecao({
+      largura: LARGURA,
+      altura: ALTURA,
+      alpha: 1,
+      rotacao: [0, 0],
+    });
+    const [[x0, y0], [x1, y1]] = geoPath(p).bounds({ type: "Sphere" } as never);
+
+    expect((x1 - x0) / (y1 - y0)).toBeCloseTo(2, 2);
+    expect(x1 - x0).toBeCloseTo(2 * Math.PI * escalaPara(1, LARGURA), 0);
+
+    /* Dentro da tela, com folga nas quatro bordas. */
+    expect(x0).toBeGreaterThan(0);
+    expect(y0).toBeGreaterThan(0);
+    expect(x1).toBeLessThan(LARGURA);
+    expect(y1).toBeLessThan(ALTURA);
+
+    /* Centrado, e o ponto (0,0) no meio. */
+    expect((x0 + x1) / 2).toBeCloseTo(LARGURA / 2, 1);
+    expect((y0 + y1) / 2).toBeCloseTo(ALTURA / 2, 1);
+    expect(p([0, 0])).toEqual([LARGURA / 2, ALTURA / 2]);
+
+    /* E as duas pontas do antimeridiano caem nas bordas opostas. */
+    expect(p([-180, 0])![0]).toBeCloseTo(x0, 0);
+    expect(p([180, 0])![0]).toBeCloseTo(x1, 0);
+  });
+
+  /*
+   * O tamanho real do atlas, e não o deste arquivo de teste: 900 × 560. Fica
+   * escrito porque é o número que se vê na tela — 848 × 424 de mapa, com 26 px
+   * de folga nas laterais e 68 px acima e abaixo.
+   */
+  it("no tamanho do atlas, o mapa mede 848 × 424", () => {
+    const p = criarProjecao({ largura: 900, altura: 560, alpha: 1, rotacao: [0, 0] });
+    const [[x0, y0], [x1, y1]] = geoPath(p).bounds({ type: "Sphere" } as never);
+    expect(x1 - x0).toBeCloseTo(848.2, 0);
+    expect(y1 - y0).toBeCloseTo(424.1, 0);
+    expect([x0, y0]).toEqual([expect.closeTo(25.9, 0), expect.closeTo(67.9, 0)]);
+  });
+
   it("é contínua — alpha intermediário fica ENTRE os extremos", () => {
     const ponto: [number, number] = [60, 0];
     const x = (a: number) =>

@@ -53,6 +53,30 @@ const LARGURA = 900;
 const ALTURA = 560;
 
 /**
+ * Globo e mapa são MODOS, e não um gesto de ida e volta.
+ *
+ * O botão "Desenrolar" já existia e a projeção já sabia achatar (`alpha` de 0 a
+ * 1). O que faltava era o achatado ser um lugar onde se fica: para estudar, o
+ * mapa é mais eficaz que o globo — vê-se o mundo todo de uma vez, sem lado
+ * oculto e sem ter de girar para achar o que se procura. O globo continua sendo
+ * o modo bonito de olhar.
+ */
+type Modo = "globo" | "mapa";
+
+/** Vista inicial do globo: Atlântico Sul de frente, um pouco de cima. */
+const ROTACAO_GLOBO: [number, number] = [-40, -10];
+
+/**
+ * Vista do mapa: Greenwich no meio e inclinação ZERO.
+ *
+ * A inclinação é o que precisa ser travado. Na equirretangular, `phi` diferente
+ * de zero não gira nada — enviesa o mundo inteiro, e um mapa enviesado é pior
+ * para estudar do que um globo. O `lambda` fica em 0 porque o mapa-múndi que se
+ * reconhece de escola é centrado no meridiano de Greenwich.
+ */
+const ROTACAO_MAPA: [number, number] = [0, 0];
+
+/**
  * As rotas de viagem estão estacionadas, não removidas.
  *
  * Decisão de 2026-08-17: com a camada de fronteira histórica no fundo, somar
@@ -87,7 +111,20 @@ export function Atlas({
   fontes = [],
 }: Props) {
   const [alpha, setAlpha] = useState(0);
-  const [rotacao, setRotacao] = useState<[number, number]>([-40, -10]);
+  const [modo, setModo] = useState<Modo>("globo");
+  const [rotacao, setRotacao] = useState<[number, number]>(ROTACAO_GLOBO);
+  /**
+   * A rotação que vai para a tela, e não a que o arrasto guardou.
+   *
+   * É derivada do modo, e não animada, de propósito: assim o mapa está sempre
+   * aprumado no instante em que se entra nele, mesmo que a animação do achatado
+   * ainda esteja correndo — e o giro que o globo tinha fica guardado em
+   * `rotacao`, esperando a volta. Amarrar isto ao tween deixaria o mapa
+   * enviesado durante mais de um segundo a cada troca, e enviesado é exatamente
+   * o defeito que o modo mapa existe para não ter.
+   */
+  const rotacaoEfetiva = modo === "mapa" ? ROTACAO_MAPA : rotacao;
+
   const [selecionado, setSelecionado] = useState<Alpha3 | null>(null);
   const [viagemFoco, setViagemFoco] = useState<string | null>(null);
 
@@ -210,7 +247,7 @@ export function Atlas({
 
   useEffect(() => {
     let vigente = true;
-    carregarFatia(fatiaAtual.nome)
+    carregarFatia(fatiaAtual)
       .then((f) => {
         // Descarta resposta de uma fatia que já não é a pedida: arrastar a
         // barra rápido dispara várias buscas e elas não voltam em ordem.
@@ -224,7 +261,7 @@ export function Atlas({
     return () => {
       vigente = false;
     };
-  }, [fatiaAtual.nome]);
+  }, [fatiaAtual]);
 
   /*
    * A defasagem sai da biblioteca e não de um cálculo local. Ela já estava
@@ -282,10 +319,10 @@ export function Atlas({
             largura: LARGURA,
             altura: ALTURA,
             alpha,
-            rotacao,
+            rotacao: rotacaoEfetiva,
           })
         : null,
-    [fatia, alpha, rotacao]
+    [fatia, alpha, rotacaoEfetiva]
   );
 
   const feicaoSob = sob !== null && fatia ? (fatia.feicoes[sob] ?? null) : null;
@@ -369,22 +406,47 @@ export function Atlas({
   const animacao = useRef<gsap.core.Tween | null>(null);
   useEffect(() => () => void animacao.current?.kill(), []);
 
-  const alternarModo = useCallback(() => {
-    animacao.current?.kill();
-    const destino = tween.current.v < 0.5 ? 1 : 0;
-    animacao.current = gsap.to(tween.current, {
-      v: destino,
-      duration: 1.2,
-      ease: "power2.inOut",
-      onUpdate: () => setAlpha(tween.current.v),
-    });
-  }, []);
+  /**
+   * Troca de modo: o estado muda na hora, o achatado é que é animado.
+   *
+   * O desenrolar é a assinatura visual do projeto e fica. Mas o MODO não espera
+   * a animação: quem clicou em "Mapa" já está no mapa para todo efeito — arrasto
+   * desligado, vista aprumada —, e o `alpha` só leva 1,2 s para chegar lá. Isso
+   * também é o que torna a troca verificável sem depender do tween, que roda em
+   * `requestAnimationFrame` e fica parado quando a aba não está visível.
+   */
+  const trocarModo = useCallback(
+    (destino: Modo) => {
+      if (destino === modo) return;
+      /* A animação é disparada AQUI e não dentro do atualizador de estado: o
+         React pode chamar o atualizador duas vezes, e efeito colateral lá
+         dentro criaria dois tweens. */
+      animacao.current?.kill();
+      animacao.current = gsap.to(tween.current, {
+        v: destino === "mapa" ? 1 : 0,
+        duration: 1.2,
+        ease: "power2.inOut",
+        onUpdate: () => setAlpha(tween.current.v),
+      });
+      setModo(destino);
+    },
+    [modo]
+  );
 
-  const aoPressionar = useCallback((e: React.PointerEvent) => {
-    arrastando.current = true;
-    ultimo.current = [e.clientX, e.clientY];
-    e.currentTarget.setPointerCapture?.(e.pointerId);
-  }, []);
+  /*
+   * No mapa não se arrasta. "Estático" é a característica, não uma limitação:
+   * o mapa-múndi de estudo tem um enquadramento só, e girar a equirretangular
+   * deslocaria a emenda para o meio de um continente.
+   */
+  const aoPressionar = useCallback(
+    (e: React.PointerEvent) => {
+      if (modo === "mapa") return;
+      arrastando.current = true;
+      ultimo.current = [e.clientX, e.clientY];
+      e.currentTarget.setPointerCapture?.(e.pointerId);
+    },
+    [modo]
+  );
 
   const aoMover = useCallback((e: React.PointerEvent) => {
     if (!arrastando.current) return;
@@ -423,7 +485,9 @@ export function Atlas({
   return (
     <div className="flex flex-col items-center gap-4">
       <div
-        className="relative touch-none cursor-grab active:cursor-grabbing"
+        className={`relative touch-none ${
+          modo === "globo" ? "cursor-grab active:cursor-grabbing" : "cursor-default"
+        }`}
         style={{ width: LARGURA, height: ALTURA }}
         onPointerDown={aoPressionar}
         onPointerMove={(e) => {
@@ -442,7 +506,7 @@ export function Atlas({
           largura={LARGURA}
           altura={ALTURA}
           alpha={alpha}
-          rotacao={rotacao}
+          rotacao={rotacaoEfetiva}
         />
         {/*
           Etiqueta do que está sob o ponteiro, fixa num canto e não seguindo o
@@ -489,7 +553,7 @@ export function Atlas({
           largura={LARGURA}
           altura={ALTURA}
           alpha={alpha}
-          rotacao={rotacao}
+          rotacao={rotacaoEfetiva}
           selecionado={selecionado}
           onSelecionar={setSelecionado}
           divididos={divididos}
@@ -521,12 +585,32 @@ export function Atlas({
             {v.titulo}
           </button>
         ))}
-        <button
-          onClick={alternarModo}
-          className="rounded border border-slate-600 px-2 py-1 text-slate-300 transition-colors hover:bg-slate-800"
+        {/*
+          Dois estados nomeados, e não um botão cujo rótulo depende de onde a
+          animação está. "Desenrolar" descrevia o gesto; o leitor precisa saber
+          em que modo ESTÁ, e poder escolher — o globo para olhar, o mapa para
+          estudar.
+        */}
+        <div
+          role="group"
+          aria-label="Modo de visualização"
+          className="flex overflow-hidden rounded border border-slate-600"
         >
-          {alpha < 0.5 ? "Desenrolar" : "Enrolar"}
-        </button>
+          {(["globo", "mapa"] as const).map((m) => (
+            <button
+              key={m}
+              onClick={() => trocarModo(m)}
+              aria-pressed={modo === m}
+              className={`px-2 py-1 transition-colors ${
+                modo === m
+                  ? "bg-slate-700 text-slate-100"
+                  : "text-slate-400 hover:bg-slate-800"
+              }`}
+            >
+              {m === "globo" ? "Globo" : "Mapa"}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/*

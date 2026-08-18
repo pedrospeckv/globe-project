@@ -3,6 +3,7 @@ import { geoArea } from "d3-geo";
 import type { Feature, Geometry } from "geojson";
 import type { Topology, GeometryCollection } from "topojson-specification";
 import { atribuirBaldes, type Adjacencia } from "./cores";
+import { nomeCanonico } from "./nomes";
 import indice from "./fatias-indice.json";
 
 /**
@@ -325,7 +326,8 @@ const cache = new Map<string, Promise<Fatia>>();
  * barra de tempo de um lado a outro busca no máximo 53 arquivos pequenos, e
  * ir e voltar não busca nada.
  */
-export function carregarFatia(nome: string): Promise<Fatia> {
+export function carregarFatia(fatia: FatiaIndice): Promise<Fatia> {
+  const { nome, ano } = fatia;
   const emCache = cache.get(nome);
   if (emCache) return emCache;
 
@@ -337,6 +339,20 @@ export function carregarFatia(nome: string): Promise<Fatia> {
     const topologia = (await resposta.json()) as Topology;
     const colecao = topologia.objects.mundo as GeometryCollection;
     const todas = feature(topologia, colecao).features as FatiaFeature[];
+
+    /*
+     * Grafia canônica ANTES de tudo o que depende do nome — cor, adjacência,
+     * etiqueta. Feito aqui, num lugar só, é impossível a tela mostrar uma grafia
+     * e a cor ter sido calculada com outra. Recebe a entrada do índice inteira, e
+     * não só o nome do arquivo, porque a normalização é datada: "Zaire" é certo
+     * em 1994 e errado em 2010.
+     */
+    for (const f of todas) {
+      const p = f.properties;
+      if (!p) continue;
+      if (p.n) p.n = nomeCanonico(p.n, ano);
+      if (p.s) p.s = nomeCanonico(p.s, ano);
+    }
 
     /*
      * A adjacência é calculada sobre a lista INTEIRA, porque é ela que casa

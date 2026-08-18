@@ -392,3 +392,8 @@ de conteúdo — e não como funcionalidade do produto.
 | Terra sem dono | cinza de croma zero, na banda de luminância da paleta | matiz próprio (afirmaria Estado); cinza escuro (leria como oceano) |
 | Fatia de geometria própria | GeoJSON em `conteudo/fatias/` + manifesto com procedência, sem simplificação nem quantização | desenhar fronteira à mão sem fonte; reduzir como as baixadas (é a redução que degenera anéis) |
 | Sincronia da fatia local | hash do `.geojson` no índice, conferido no build | confiar em quem edita rodar o script |
+| Globo vs mapa | dois MODOS nomeados; globo para olhar, mapa plano para estudar | botão "Desenrolar" como gesto de ida e volta |
+| Vista do mapa | travada em Greenwich, inclinação zero, sem arrasto | manter o giro do globo (enviesa a equirretangular) |
+| Aprumar o mapa | instantâneo ao trocar de modo; só o achatado é animado | animar a rotação junto (deixa o mapa enviesado >1 s e depende de rAF) |
+| Grafia dos nomes | tabela de renomeação com `desde` e razão obrigatória | mapa simples de nome→nome (anacronismo: "Zaire" é certo em 1994); normalizar tudo (escolheria lado em soberania contestada) |
+| Resolução da fatia moderna | Natural Earth 110m | 50m (830 kB para desenhar microestados que são sub-pixel); 50m simplificado (zera 60 deles) |
