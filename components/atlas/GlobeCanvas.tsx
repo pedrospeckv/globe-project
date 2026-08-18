@@ -5,7 +5,7 @@ import { geoPath, geoGraticule10 } from "d3-geo";
 import { criarProjecao } from "@/lib/geo/projecao";
 import type { PaisFeature } from "@/lib/geo/mundo";
 import { precisaoBaixa, type Fatia, type FatiaFeature } from "@/lib/geo/fatias";
-import { NEUTRO, TRACO, corDoBalde } from "@/lib/geo/cores";
+import { NEUTRO, TRACO, corDoBalde, semCorPropria } from "@/lib/geo/cores";
 import { colocarRotulos } from "@/lib/geo/rotulos";
 
 interface Props {
@@ -57,12 +57,14 @@ const ANONIMO = -1;
  */
 function agruparPorCor(
   feicoes: readonly FatiaFeature[],
-  cores: ReadonlyMap<string, number>
+  cores: ReadonlyMap<string, number>,
+  semCor: ReadonlySet<string>
 ): Map<number, FatiaFeature[]> {
   const grupos = new Map<number, FatiaFeature[]>();
   for (const f of feicoes) {
     const n = f.properties?.n;
-    const balde = n ? (cores.get(n) ?? ANONIMO) : ANONIMO;
+    const balde =
+      n && !semCor.has(n) ? (cores.get(n) ?? ANONIMO) : ANONIMO;
     const atual = grupos.get(balde);
     if (atual) atual.push(f);
     else grupos.set(balde, [f]);
@@ -158,11 +160,37 @@ export function GlobeCanvas({
       const firmes = fatia.feicoes.filter((f) => !precisaoBaixa(f));
       const conjecturais = fatia.feicoes.filter(precisaoBaixa);
 
+      /*
+       * Quem é pequeno demais para a cor dizer algo — ver `AREA_MINIMA_PARA_COR`.
+       *
+       * A área é a PROJETADA, medida no caminho, e não a esférica convertida: a
+       * equirretangular estica com a latitude, e a conversão subestimaria a
+       * Dinamarca pela metade, apagando a cor de país que na tela tem tamanho.
+       *
+       * Só no mapa. No globo esta conta dobraria o custo por quadro — é uma
+       * varredura da geometria toda, o mesmo trabalho de desenhar —, e arrastar o
+       * globo redesenha a cada quadro. A regra é de leitura do mapa de estudo, e
+       * é onde ela roda.
+       */
+      const semCor = new Set<string>();
+      if (alpha >= ACHATADO) {
+        const caminho = geoPath(projecao);
+        const areaPorNome = new Map<string, number>();
+        for (const f of fatia.feicoes) {
+          const n = f.properties?.n;
+          if (!n) continue;
+          areaPorNome.set(n, (areaPorNome.get(n) ?? 0) + Math.abs(caminho.area(f)));
+        }
+        for (const [n, area] of areaPorNome) {
+          if (semCorPropria(area)) semCor.add(n);
+        }
+      }
+
       const desenhar = (
         feicoes: readonly FatiaFeature[],
         tracejado: boolean
       ) => {
-        const grupos = agruparPorCor(feicoes, fatia.cores);
+        const grupos = agruparPorCor(feicoes, fatia.cores, semCor);
         // Ordem crescente de balde: o desenho não pode depender da ordem em
         // que os polígonos aparecem no arquivo.
         for (const balde of [...grupos.keys()].sort((a, b) => a - b)) {

@@ -1060,6 +1060,22 @@ export function Atlas({
         ultramarinos ficam de fora do país aceso e aparecem só como terra, para
         o mapa não sugerir domínio séculos antes de ele existir.
       </p>
+
+      {/*
+        O cinza tem DOIS significados, e é preciso dizer os dois — senão o mapa
+        pareceria afirmar "sem dono" onde a fonte nomeia alguém. Nada fica
+        escondido: o hover nomeia em todos os casos.
+      */}
+      {modo === "mapa" && (
+        <p className="max-w-2xl text-center text-[10px] leading-relaxed text-slate-600">
+          Território em <span className="text-slate-500">cinza</span> é terra que a
+          fonte não atribui a ninguém <em>ou</em> entidade pequena demais para
+          receber cor nesta escala — em 1650 a base divide a Austrália em 375
+          territórios de povos, e colorir cada um afirmaria 375 Estados com
+          fronteira. Aproximar devolve a cor a quem ganhou espaço, e o nome aparece
+          ao passar o mouse em qualquer caso.
+        </p>
+      )}
     </div>
   );
 }

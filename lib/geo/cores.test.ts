@@ -2,8 +2,10 @@ import { describe, expect, it } from "vitest";
 import fs from "node:fs";
 import path from "node:path";
 import { feature } from "topojson-client";
+import { geoPath } from "d3-geo";
 import type { Topology, GeometryCollection } from "topojson-specification";
 import {
+  AREA_MINIMA_PARA_COR,
   BALDES,
   NEUTRO,
   PALETA,
@@ -13,8 +15,10 @@ import {
   corDoBalde,
   hashDoNome,
   oklchParaHex,
+  semCorPropria,
 } from "./cores";
-import { FATIAS, adjacenciaPorNome, type FatiaFeature } from "./fatias";
+import { FATIAS, adjacenciaPorNome, feicoesUteis, type FatiaFeature } from "./fatias";
+import { criarProjecao } from "./projecao";
 
 const PASTA = path.join(process.cwd(), "public", "geo", "fatias");
 
@@ -229,6 +233,50 @@ describe("corDaFeicao", () => {
     expect(corDaFeicao(feicao("Portugal"), new Map([["Portugal", 7]]))).toBe(
       PALETA[7]
     );
+  });
+});
+
+describe("cor só para quem tem tamanho", () => {
+  it("corta abaixo do limiar e não em cima dele", () => {
+    expect(semCorPropria(AREA_MINIMA_PARA_COR - 1)).toBe(true);
+    expect(semCorPropria(AREA_MINIMA_PARA_COR)).toBe(false);
+    expect(semCorPropria(0)).toBe(true);
+  });
+
+  /*
+   * A medição que justifica o limiar: ele tem de morder onde está o confete e
+   * poupar o mapa moderno. Num mapa de 1472 px, 88% dos 375 territórios
+   * australianos de 1650 ficam abaixo dele, contra 23% dos 176 países de 2018.
+   *
+   * A área é a PROJETADA, porque é ela que se vê: a esférica subestimaria os
+   * países de latitude alta, que a equirretangular estica.
+   */
+  it("morde o confete e poupa o mapa moderno", () => {
+    const proporcaoSemCor = (nome: string) => {
+      const { feicoes } = carregar(nome);
+      const p = criarProjecao({
+        largura: 1472,
+        altura: 780,
+        alpha: 1,
+        rotacao: [0, 0],
+      });
+      const caminho = geoPath(p);
+      const area = new Map<string, number>();
+      for (const f of feicoesUteis(feicoes)) {
+        const n = f.properties?.n;
+        if (!n) continue;
+        area.set(n, (area.get(n) ?? 0) + Math.abs(caminho.area(f)));
+      }
+      const total = area.size;
+      let pequenos = 0;
+      for (const a of area.values()) if (semCorPropria(a)) pequenos++;
+      return pequenos / total;
+    };
+
+    expect(proporcaoSemCor("1650")).toBeGreaterThan(0.6);
+    expect(proporcaoSemCor("1492")).toBeGreaterThan(0.6);
+    /* E o mapa de hoje segue quase todo colorido. */
+    expect(proporcaoSemCor("2018")).toBeLessThan(0.35);
   });
 });
 

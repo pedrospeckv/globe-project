@@ -192,6 +192,52 @@ export function atribuirBaldes(
   return balde;
 }
 
+/**
+ * Área desenhada, em pixels², abaixo da qual a entidade não recebe cor própria.
+ *
+ * ## O problema que isto resolve
+ *
+ * Em 1650 a base subdivide a Austrália em 375 territórios de povos aborígenes, e
+ * em 1492 a América do Sul em 412. Com uma cor de identidade para cada um, o mapa
+ * lia como um retalho de 375 Estados com fronteira — e essa é uma afirmação que a
+ * fonte não faz e que a história não sustenta. O ruído não era enfeite: era
+ * excesso de precisão política inventada pelo desenho.
+ *
+ * ## Por que tamanho, e não tipo de entidade
+ *
+ * Porque tipo de entidade não existe no dado. Medido: `BORDERPRECISION` NÃO
+ * separa Estado de povo — é uniforme por fatia, e em 1492 tudo é precisão baixa,
+ * inclusive Portugal, França e Inglaterra, enquanto em 1650 tudo é alta, inclusive
+ * os 375 polígonos australianos. Classificar quem é Estado seria decidir sobre
+ * 3.029 nomes à mão, e isso é matéria de conteúdo com fonte, não de código.
+ *
+ * Tamanho, por outro lado, é uma regra de LEGIBILIDADE, e verificável: cor só diz
+ * "extensão" quando há extensão para ver. 60 px² é um quadrado de ~8 px de lado.
+ *
+ * ## O corte, medido num mapa de 1472 px
+ *
+ * | conjunto                     | vira cinza |
+ * |------------------------------|------------|
+ * | Austrália em 1650 (375)      | 88%        |
+ * | América do Sul em 1492 (412) | 76%        |
+ * | mundo de 2018 (176)          | 23%        |
+ *
+ * Ou seja: morde onde está o confete e poupa quase todo o mapa moderno. Os 23% de
+ * 2018 são os Estados europeus pequenos e as ilhas — Bélgica tem 57 px², Israel
+ * 32 —, e eles voltam a ter cor ao APROXIMAR, porque o limiar é em pixels de tela
+ * e a área quadruplica a cada duplicação do zoom. Aproximar passou a revelar
+ * detalhe em vez de embaralhá-lo.
+ *
+ * O nome continua no hover em todos os casos: nada fica escondido, só deixa de
+ * receber uma cor que não caberia.
+ */
+export const AREA_MINIMA_PARA_COR = 60;
+
+/** Pequena demais para a cor dizer algo nesta escala. */
+export function semCorPropria(areaPx2: number): boolean {
+  return areaPx2 < AREA_MINIMA_PARA_COR;
+}
+
 /** A cor de um balde. Fora da faixa, o neutro — nunca `undefined`. */
 export function corDoBalde(b: number | undefined): string {
   if (b === undefined || !Number.isInteger(b) || b < 0 || b >= BALDES) {
