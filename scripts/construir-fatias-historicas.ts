@@ -3,9 +3,20 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { topology } from "topojson-server";
 import { presimplify, simplify, quantile } from "topojson-simplify";
-import { quantize } from "topojson-client";
-import type { Objects, Topology } from "topojson-specification";
-import type { FeatureCollection } from "geojson";
+import { quantize, feature } from "topojson-client";
+import { geoArea } from "d3-geo";
+import type { Objects, Topology, GeometryCollection } from "topojson-specification";
+import type { Feature, FeatureCollection, Geometry } from "geojson";
+import {
+  anoDoNome,
+  conferirFatiasLocais,
+  hashDoArquivo,
+  lerFeicoesLocais,
+  lerManifesto,
+  PASTA_LOCAIS,
+  type Atribuicao,
+  type FatiaLocal,
+} from "./fatias-locais";
 
 /**
  * As propriedades que sobrevivem à poda.
@@ -104,16 +115,6 @@ const FATIAS = [
   "1920", "1930", "1938", "1945", "1960", "1994", "2000", "2010",
 ] as const;
 
-/** `bc323` vira -323; `1492` vira 1492. Não existe ano zero. */
-export function anoDoNome(nome: string): number {
-  const bc = nome.startsWith("bc");
-  const n = Number.parseInt(bc ? nome.slice(2) : nome, 10);
-  if (!Number.isFinite(n) || n === 0) {
-    throw new Error(`nome de fatia não reconhecido: ${nome}`);
-  }
-  return bc ? -n : n;
-}
-
 interface PropsBrutas {
   NAME?: string;
   SUBJECTO?: string;
@@ -154,6 +155,49 @@ function podar(colecao: FeatureCollection): { precisoes: Record<string, number> 
     f.properties = podado;
   }
   return { precisoes };
+}
+
+interface Entrada {
+  nome: string;
+  ano: number;
+  feicoes: number;
+  bytes: number;
+  /** Ausente quando a entrada vem reaproveitada do índice anterior. */
+  cruBytes?: number;
+  precisoes: Record<string, number>;
+  /** Fatia de geometria própria, e não baixada. */
+  local?: boolean;
+  /** Impressão digital do `.geojson` de origem, só nas locais. */
+  hash?: string;
+  /** Procedência própria; ausente quer dizer a do upstream. */
+  atribuicao?: Atribuicao;
+}
+
+/** Distribuição de precisão de fronteira, já sobre as propriedades podadas. */
+function contarPrecisoes(colecao: FeatureCollection): Record<string, number> {
+  const precisoes: Record<string, number> = {};
+  for (const f of colecao.features) {
+    const chave = String((f.properties as { p?: number } | null)?.p ?? "?");
+    precisoes[chave] = (precisoes[chave] ?? 0) + 1;
+  }
+  return precisoes;
+}
+
+/**
+ * Área acima da qual a feição é artefato, não território — o mesmo limite de
+ * `lib/geo/fatias.ts`, repetido aqui porque este script não pode importar do
+ * runtime sem arrastar o índice que ele próprio gera.
+ */
+const AREA_ABSURDA = 1.0;
+
+function feicoesAbsurdas(topo: TopoFatia): string[] {
+  const decodificadas = feature(
+    topo as unknown as Topology,
+    topo.objects.mundo as GeometryCollection
+  ).features as Feature<Geometry, { n?: string }>[];
+  return decodificadas
+    .filter((f) => f.geometry !== null && geoArea(f) > AREA_ABSURDA)
+    .map((f) => f.properties?.n ?? "sem nome");
 }
 
 async function converter(nome: string) {
@@ -199,23 +243,113 @@ async function converter(nome: string) {
   };
 }
 
+/**
+ * Constrói uma fatia de geometria própria.
+ *
+ * Sem `presimplify`, sem `simplify` e sem `quantize`, e essa é a diferença que
+ * importa. As três existem para fazer 85 MB de download caberem em 4,4 MB, e é
+ * justamente elas que degeneram anéis pequenos e produzem as feições que o
+ * `d3-geo` lê como o planeta inteiro. Uma fatia local é um arquivo pequeno que
+ * não precisa do ganho — então não paga o risco.
+ *
+ * A contrapartida é que aqui a checagem é dura: se sair feição absurda mesmo
+ * sem redução, o build para. No upstream isso não é possível, porque 38 das 53
+ * fatias já vêm assim e o runtime filtra; aqui não há de onde vir.
+ */
+async function converterLocal(entrada: FatiaLocal): Promise<Entrada> {
+  const colecao = lerFeicoesLocais(entrada);
+  const cruBytes = Buffer.byteLength(JSON.stringify(colecao));
+  const topo = topology({ mundo: colecao }) as unknown as TopoFatia;
+
+  const absurdas = feicoesAbsurdas(topo);
+  if (absurdas.length > 0) {
+    throw new Error(
+      `${entrada.arquivo}: ${absurdas.length} feição(ões) cobrindo mais de ` +
+        `${AREA_ABSURDA} sr — ${absurdas.slice(0, 3).join(", ")}. ` +
+        `Provável anel invertido ou degenerado no arquivo de origem.`
+    );
+  }
+
+  const json = JSON.stringify(topo);
+  await fs.writeFile(path.join(DESTINO, `${entrada.nome}.json`), json, "utf8");
+
+  return {
+    nome: entrada.nome,
+    ano: entrada.ano,
+    feicoes: colecao.features.length,
+    bytes: Buffer.byteLength(json),
+    cruBytes,
+    precisoes: contarPrecisoes(colecao),
+    local: true,
+    hash: hashDoArquivo(path.join(PASTA_LOCAIS, entrada.arquivo)),
+    atribuicao: entrada.atribuicao,
+  };
+}
+
+/**
+ * `--locais` reconstrói só as fatias próprias, preservando as baixadas.
+ *
+ * Existe porque as duas metades têm custos muito diferentes: as 53 fatias do
+ * upstream são 53 idas à rede, e uma fatia local é um arquivo em disco. Obrigar
+ * um download completo para corrigir um polígono escrito aqui é o tipo de
+ * atrito que faz o dado ficar sem correção.
+ */
+const SOMENTE_LOCAIS = process.argv.includes("--locais");
+
 async function main() {
   await fs.mkdir(DESTINO, { recursive: true });
 
-  const entradas: Awaited<ReturnType<typeof converter>>[] = [];
-  for (const nome of FATIAS) {
-    const e = await converter(nome);
+  const locais = lerManifesto();
+  const daRede = new Set<string>(FATIAS);
+  for (const l of locais) {
+    if (daRede.has(l.nome)) {
+      throw new Error(
+        `a fatia local ${l.nome} tem o nome de uma fatia do upstream — ` +
+          `uma sobrescreveria a outra em public/geo/fatias/`
+      );
+    }
+  }
+
+  const entradas: Entrada[] = [];
+
+  if (SOMENTE_LOCAIS) {
+    /* As baixadas vêm do índice anterior, intactas. */
+    const anterior = JSON.parse(await fs.readFile(INDICE, "utf8")) as {
+      fatias: Entrada[];
+    };
+    entradas.push(...anterior.fatias.filter((f) => !f.local));
+    console.log(`  · ${entradas.length} fatias baixadas, mantidas do índice`);
+  } else {
+    for (const nome of FATIAS) {
+      const e = await converter(nome);
+      entradas.push(e);
+      const pct = Math.round((e.bytes / (e.cruBytes ?? e.bytes)) * 100);
+      console.log(
+        `  · ${nome.padEnd(9)} ano ${String(e.ano).padStart(7)}  ` +
+          `${String(e.feicoes).padStart(4)} feições  ` +
+          `${String(Math.round(e.bytes / 1024)).padStart(4)} kB (${pct}% do cru)`
+      );
+    }
+  }
+
+  for (const entrada of locais) {
+    const e = await converterLocal(entrada);
     entradas.push(e);
-    const pct = Math.round((e.bytes / e.cruBytes) * 100);
     console.log(
-      `  · ${nome.padEnd(9)} ano ${String(e.ano).padStart(7)}  ` +
+      `  · ${e.nome.padEnd(9)} ano ${String(e.ano).padStart(7)}  ` +
         `${String(e.feicoes).padStart(4)} feições  ` +
-        `${String(Math.round(e.bytes / 1024)).padStart(4)} kB (${pct}% do cru)` +
-        ""
+        `${String(Math.round(e.bytes / 1024)).padStart(4)} kB  ` +
+        `LOCAL (${e.atribuicao?.fonte}, sem redução)`
     );
   }
 
   entradas.sort((a, b) => a.ano - b.ano);
+
+  const anos = new Set<number>();
+  for (const e of entradas) {
+    if (anos.has(e.ano)) throw new Error(`duas fatias no ano ${e.ano}`);
+    anos.add(e.ano);
+  }
 
   const indice = {
     atribuicao: ATRIBUICAO,
@@ -227,6 +361,9 @@ async function main() {
       bytes: e.bytes,
       /** Distribuição de BORDERPRECISION nesta fatia, do upstream. */
       precisoes: e.precisoes,
+      /* Só nas locais, e é por isso que o runtime consegue creditar a fonte
+         certa em vez de atribuir tudo ao upstream. */
+      ...(e.local ? { local: true, hash: e.hash, atribuicao: e.atribuicao } : {}),
     })),
   };
   await fs.writeFile(INDICE, `${JSON.stringify(indice, null, 2)}\n`, "utf8");
@@ -248,6 +385,21 @@ async function main() {
       "",
       "Share-alike: esta geometria derivada permanece sob a mesma licença.",
       "",
+      ...(locais.length > 0
+        ? [
+            "## Fatias de geometria própria",
+            "",
+            "Estas NÃO vêm do upstream e não estão sob a licença acima. Cada uma",
+            "traz a sua no índice, e a origem está em `conteudo/fatias/manifesto.json`.",
+            "",
+            ...locais.map(
+              (l) =>
+                `- \`${l.nome}.json\` — ${l.atribuicao.fonte}, de ` +
+                `${l.atribuicao.autor}, ${l.atribuicao.licenca}`
+            ),
+            "",
+          ]
+        : []),
       "> São aproximações destinadas a estudo. Fronteira histórica é objeto de",
       "> disputa acadêmica, e a propriedade `p` de cada polígono carrega a",
       "> estimativa de precisão declarada pela fonte original.",
@@ -256,9 +408,16 @@ async function main() {
     "utf8"
   );
 
+  /* O script confere o próprio resultado com a mesma função que o build usa. */
+  const problemas = conferirFatiasLocais(indice.fatias, DESTINO);
+  if (problemas.length > 0) {
+    throw new Error(`índice inconsistente:\n  ${problemas.join("\n  ")}`);
+  }
+
   const total = entradas.reduce((s, e) => s + e.bytes, 0);
   console.log(
-    `\n✓ ${entradas.length} fatias, ${(total / 1024 / 1024).toFixed(1)} MB, ` +
+    `\n✓ ${entradas.length} fatias (${locais.length} locais), ` +
+      `${(total / 1024 / 1024).toFixed(1)} MB, ` +
       `de ${entradas[0].ano} a ${entradas[entradas.length - 1].ano}`
   );
 }

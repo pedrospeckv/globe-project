@@ -15,7 +15,7 @@ import {
 } from "@/lib/geo/disputas";
 import { ISO_NUMERICO, PAISES_DO_ATLAS, type Alpha3 } from "@/lib/geo/iso";
 import {
-  ATRIBUICAO,
+  atribuicaoDaFatia,
   carregarFatia,
   defasagemDaFatia,
   faixaDeDefasagem,
@@ -231,6 +231,8 @@ export function Atlas({
    * duplicada aqui como `Math.max(0, Math.round(...))`, e duas cópias da mesma
    * regra é como uma delas começa a divergir.
    */
+  const credito = atribuicaoDaFatia(fatiaAtual);
+
   const defasagem = defasagemDaFatia(tempo);
   const faixa = faixaDeDefasagem(defasagem);
   const seguinte = useMemo(() => proximaFatia(tempo), [tempo]);
@@ -597,17 +599,28 @@ export function Atlas({
             {" — leia como ordem de grandeza, não como fronteira."}
           </>
         )}{" "}
+        {/*
+          O crédito é POR FATIA, e não um só para o mapa todo. A fatia de 2018 é
+          geometria própria, do Natural Earth, e não do upstream — creditá-la a
+          ele seria atribuição falsa, o oposto do que a obrigação de crédito
+          existe para garantir.
+        */}
         <span className="text-slate-600">
-          Base cartográfica de {ATRIBUICAO.autor} (
-          <a
-            href={ATRIBUICAO.url}
-            target="_blank"
-            rel="noreferrer"
-            className="underline decoration-slate-700 hover:text-slate-400"
-          >
-            {ATRIBUICAO.fonte}
-          </a>
-          ), {ATRIBUICAO.licenca}. Traço tracejado marca fronteira que a fonte
+          {fatiaAtual.local && "Geometria própria do atlas. "}
+          Base cartográfica de {credito.autor} (
+          {credito.url ? (
+            <a
+              href={credito.url}
+              target="_blank"
+              rel="noreferrer"
+              className="underline decoration-slate-700 hover:text-slate-400"
+            >
+              {credito.fonte}
+            </a>
+          ) : (
+            credito.fonte
+          )}
+          ), {credito.licenca}. Traço tracejado marca fronteira que a fonte
           declara como conjectural.
         </span>
       </p>

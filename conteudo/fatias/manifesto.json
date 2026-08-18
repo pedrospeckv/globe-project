@@ -1,0 +1,16 @@
+{
+  "fatias": [
+    {
+      "nome": "2018",
+      "ano": 2018,
+      "arquivo": "2018.geojson",
+      "nota": "O upstream para em 2010 e a linha do tempo do atlas vai até hoje, então de 2011 em diante o mapa mostrava um mundo que já não existe: o Sudão inteiro, sem o Sudão do Sul, que se tornou independente em 9 de julho de 2011. Esta fatia fecha esse vão com a geometria do Natural Earth que o projeto já empacota para desenhar os países acesos — mesma base, nenhuma coordenada nova. A data é 2018 e não 2011 por evidência do próprio arquivo: ele traz 'eSwatini', nome adotado em abril de 2018, e ainda 'Macedonia', que virou 'North Macedonia' em fevereiro de 2019. Datá-la em 2011 para pegar o Sudão do Sul mais cedo mostraria eSwatini sete anos antes de o nome existir, que é exatamente o que a regra da última-fatia-anterior existe para impedir. A Antártida foi retirada: o upstream de 2010 também não a traz, e pintá-la com cor de identidade afirmaria a soberania que o Tratado da Antártida suspende. Reprodução: decodificar node_modules/world-atlas/countries-110m.json com topojson-client, tirar a feição 'Antarctica', mapear name para n, fixar p em 3, arredondar as coordenadas em 4 casas (cerca de 11 m, contra ~40 km por pixel num globo de 900 px) e ordenar por nome.",
+      "atribuicao": {
+        "fonte": "Natural Earth 4.1.0, Admin 0 countries 1:110m, via world-atlas",
+        "autor": "Natural Earth",
+        "url": "https://www.naturalearthdata.com/",
+        "licenca": "domínio público"
+      }
+    }
+  ]
+}

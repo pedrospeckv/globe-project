@@ -337,9 +337,13 @@ describe("Atlas", () => {
    * desprotegida — o texto pode mudar, a proporcionalidade não.
    */
   it("declara de que ano é a fronteira do fundo", () => {
-    const { container } = montar();
-    expect(container.textContent).toMatch(/Fronteiras de 2010/);
-    expect(container.textContent).toMatch(/17 anos antes desta data/);
+    const { container, irPara } = montar();
+    /* 2018 é a fatia de geometria própria, a mais recente do índice. */
+    expect(container.textContent).toMatch(/Fronteiras de 2018/);
+    expect(container.textContent).toMatch(/9 anos antes desta data/);
+
+    irPara("2015");
+    expect(container.textContent).toMatch(/Fronteiras de 2010, 5 anos antes/);
   });
 
   it("não alarma quando a defasagem é pequena", () => {
@@ -367,9 +371,27 @@ describe("Atlas", () => {
 
   /* Crédito e licença da base são condição de uso, não enfeite de rodapé. */
   it("o mapa credita a base cartográfica e a licença", () => {
-    const { container } = montar();
+    const { container, irPara } = montar();
+    irPara("2015");
     expect(container.textContent).toMatch(/A\. Ourednik/);
     expect(container.textContent).toMatch(/CC-BY-SA-4\.0/);
+  });
+
+  /*
+   * O crédito segue a fatia, e não o mapa. A fatia de 2018 é geometria própria,
+   * do Natural Earth, e creditá-la ao upstream seria atribuição falsa — o
+   * oposto do que a obrigação de crédito existe para garantir. Este teste é o
+   * que impede a legenda de voltar a ter uma fonte fixa.
+   */
+  it("credita a fonte da fatia vigente, e não sempre a mesma", () => {
+    const { container, irPara } = montar();
+    expect(container.textContent).toMatch(/Geometria própria do atlas/);
+    expect(container.textContent).toMatch(/Natural Earth/);
+    expect(container.textContent).not.toMatch(/A\. Ourednik/);
+
+    irPara("2015");
+    expect(container.textContent).toMatch(/A\. Ourednik/);
+    expect(container.textContent).not.toMatch(/Geometria própria do atlas/);
   });
 
   it("o botão alterna o rótulo entre desenrolar e enrolar", () => {

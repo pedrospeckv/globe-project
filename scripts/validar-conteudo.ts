@@ -6,6 +6,8 @@ import {
   coberturaDeFontes,
   coberturaDeNotas,
 } from "../lib/conteudo/integridade";
+import { FATIAS } from "../lib/geo/fatias";
+import { conferirFatiasLocais, lerManifesto } from "./fatias-locais";
 
 /**
  * Roda antes do `next build`. Conteúdo inválido não chega ao ar porque o
@@ -25,6 +27,23 @@ async function main() {
     process.exit(1);
   }
 
+  /*
+   * As fatias locais entram aqui e não no script que as constrói porque o
+   * buraco que importa é temporal: editar `conteudo/fatias/*.geojson` e não
+   * reconstruir publica um mapa que não corresponde ao arquivo versionado ao
+   * lado dele. O construtor não roda no build — este validador roda.
+   */
+  const desatualizadas = conferirFatiasLocais(
+    FATIAS,
+    path.join(process.cwd(), "public", "geo", "fatias")
+  );
+  if (desatualizadas.length > 0) {
+    console.error(`\n✗ ${desatualizadas.length} problema(s) nas fatias locais\n`);
+    for (const erro of desatualizadas) console.error(`  • ${erro}`);
+    console.error("");
+    process.exit(1);
+  }
+
   const erros = verificarIntegridade(acervo);
   if (erros.length > 0) {
     console.error(`\n✗ ${erros.length} problema(s) de integridade\n`);
@@ -40,6 +59,11 @@ async function main() {
       `${acervo.figuras.length} figuras, ${alegacoes} alegações, ` +
       `${acervo.eventos.length} eventos, ${acervo.viagens.length} viagens, ` +
       `${acervo.indicadores.length} indicadores, ${acervo.ilhas.length} ilhas, ${acervo.fontes.length} fontes`
+  );
+  const locais = lerManifesto();
+  console.log(
+    `✓ ${FATIAS.length} fatias de fronteira, ${locais.length} de geometria própria` +
+      (locais.length > 0 ? ` (${locais.map((f) => f.nome).join(", ")})` : "")
   );
 
   /*

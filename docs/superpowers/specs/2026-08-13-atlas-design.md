@@ -387,3 +387,8 @@ de conteúdo — e não como funcionalidade do produto.
 | 3D | nenhum | img2threejs (exigiria Three.js, contraria a meta de leveza) |
 | Rotas | viagem com paradas datadas | LineString única; só pontos |
 | IA | ferramenta de autoria | recurso no produto |
+| Cor no globo | hash do nome escolhe o balde, adjacência da topologia desempata | cor por índice da feição (perde identidade no tempo); hash puro (4,2% de vizinhos iguais); coloração de grafo pura (perde identidade no tempo) |
+| Espaço de cor | OKLCH convertido para hex na carga | HSL (não é perceptual: 4:1 de luminância entre matizes); `fillStyle = "oklch(...)"` (falha em silêncio sem suporte) |
+| Terra sem dono | cinza de croma zero, na banda de luminância da paleta | matiz próprio (afirmaria Estado); cinza escuro (leria como oceano) |
+| Fatia de geometria própria | GeoJSON em `conteudo/fatias/` + manifesto com procedência, sem simplificação nem quantização | desenhar fronteira à mão sem fonte; reduzir como as baixadas (é a redução que degenera anéis) |
+| Sincronia da fatia local | hash do `.geojson` no índice, conferido no build | confiar em quem edita rodar o script |

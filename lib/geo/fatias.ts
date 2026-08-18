@@ -17,6 +17,13 @@ import indice from "./fatias-indice.json";
  * `public/geo/fatias/LICENCA.md` — CC-BY-SA, share-alike, crédito obrigatório.
  */
 
+export interface Atribuicao {
+  fonte: string;
+  autor: string;
+  url?: string;
+  licenca: string;
+}
+
 export interface FatiaIndice {
   /** Nome do arquivo do upstream, mantido para rastreabilidade. */
   nome: string;
@@ -25,6 +32,18 @@ export interface FatiaIndice {
   bytes: number;
   /** Distribuição de precisão de fronteira declarada pela fonte. */
   precisoes: Record<string, number>;
+  /**
+   * Geometria própria do atlas, e não baixada.
+   *
+   * Existe porque o vão entre as fatias do upstream é grande — 70 anos de
+   * mediana depois de 500 a.C., e nada entre 2010 e hoje. Ver
+   * `scripts/fatias-locais.ts` e `conteudo/fatias/manifesto.json`.
+   */
+  local?: boolean;
+  /** Impressão digital do `.geojson` de origem. Só nas locais. */
+  hash?: string;
+  /** Procedência própria. Ausente quer dizer a do upstream. */
+  atribuicao?: Atribuicao;
 }
 
 export interface PropsFatia {
@@ -45,12 +64,23 @@ export type FatiaFeature = Feature<Geometry, PropsFatia>;
  * `Record<string, number>`. A forma declarada é a que o código usa.
  */
 const dados = indice as unknown as {
-  atribuicao: { fonte: string; autor: string; url: string; licenca: string };
+  atribuicao: Atribuicao;
   simplificacao: { quantil: number; quantizacao: number };
   fatias: FatiaIndice[];
 };
 
-export const ATRIBUICAO = dados.atribuicao;
+export const ATRIBUICAO: Atribuicao = dados.atribuicao;
+
+/**
+ * A quem creditar a geometria que está na tela.
+ *
+ * A fatia local NÃO vem do upstream, e creditá-la a ele seria atribuição falsa
+ * — o oposto do que a obrigação de crédito existe para garantir. A legenda
+ * pergunta por fatia, e não uma vez para o mapa todo.
+ */
+export function atribuicaoDaFatia(f: FatiaIndice): Atribuicao {
+  return f.atribuicao ?? ATRIBUICAO;
+}
 
 /** As fatias disponíveis, da mais antiga para a mais recente. */
 export const FATIAS: readonly FatiaIndice[] = dados.fatias;

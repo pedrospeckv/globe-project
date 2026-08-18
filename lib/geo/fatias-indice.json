@@ -497,6 +497,23 @@
       "precisoes": {
         "3": 240
       }
+    },
+    {
+      "nome": "2018",
+      "ano": 2018,
+      "feicoes": 176,
+      "bytes": 157007,
+      "precisoes": {
+        "3": 176
+      },
+      "local": true,
+      "hash": "af0e4843223c",
+      "atribuicao": {
+        "fonte": "Natural Earth 4.1.0, Admin 0 countries 1:110m, via world-atlas",
+        "autor": "Natural Earth",
+        "url": "https://www.naturalearthdata.com/",
+        "licenca": "domínio público"
+      }
     }
   ]
 }
