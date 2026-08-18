@@ -16,6 +16,7 @@ import {
   proximaFatia,
   feicaoAbsurda,
   feicoesUteis,
+  repararFeicao,
   precisaoBaixa,
   rotuloDaFatia,
   type FatiaFeature,
@@ -281,6 +282,56 @@ describe("feições absurdas", () => {
         `${f.nome} deixou passar feição absurda`
       ).toHaveLength(0);
     }
+  });
+
+  /*
+   * O conserto, que é o que resolveu a pendência das três tentativas falhadas.
+   * O diagnóstico antigo era "anel destruído"; o certo é "anel invertido", e
+   * inversão se desfaz. Estes números são o argumento: 96,7% voltam.
+   */
+  it("conserta quase tudo, e o que sobra não é país nomeado", () => {
+    let absurdas = 0;
+    let consertadas = 0;
+    const perdidasNomeadas: string[] = [];
+    for (const f of FATIAS) {
+      const topo = JSON.parse(
+        fs.readFileSync(path.join(PASTA, `${f.nome}.json`), "utf8")
+      ) as Topology;
+      const todas = feature(topo, topo.objects.mundo as GeometryCollection)
+        .features as FatiaFeature[];
+      for (const g of todas) {
+        if (!feicaoAbsurda(g)) continue;
+        absurdas++;
+        if (!feicaoAbsurda(repararFeicao(g))) consertadas++;
+        else if (g.properties?.n) perdidasNomeadas.push(`${f.nome}:${g.properties.n}`);
+      }
+    }
+    expect(absurdas).toBeGreaterThan(100);
+    expect(consertadas / absurdas).toBeGreaterThan(0.95);
+    /* O que importa: nenhum país nomeado desaparece mais do mapa. */
+    expect(perdidasNomeadas).toEqual([]);
+  });
+
+  /*
+   * A regressão concreta que o Pedro viu: a Alemanha sumia de 1994, 2000 e 2010 e
+   * reaparecia em 2018. O conserto devolve a área certa, não só uma área sã —
+   * 349.600 km² contra os 357.600 reais, e a diferença é a simplificação.
+   */
+  it("devolve a Alemanha de 2010 com o tamanho da Alemanha", () => {
+    const topo = JSON.parse(
+      fs.readFileSync(path.join(PASTA, "2010.json"), "utf8")
+    ) as Topology;
+    const todas = feature(topo, topo.objects.mundo as GeometryCollection)
+      .features as FatiaFeature[];
+    const crua = todas.find((f) => f.properties?.n === "Germany")!;
+    expect(feicaoAbsurda(crua)).toBe(true);
+
+    const uteis = feicoesUteis(todas);
+    const alema = uteis.find((f) => f.properties?.n === "Germany");
+    expect(alema, "a Alemanha tem de sobreviver ao carregamento").toBeDefined();
+    const km2 = geoArea(alema!) * 6371 * 6371;
+    expect(km2).toBeGreaterThan(330000);
+    expect(km2).toBeLessThan(370000);
   });
 
   /*

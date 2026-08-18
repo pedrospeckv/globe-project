@@ -80,9 +80,22 @@ function contextoOculto(
 
 export function criarSeletor(opcoes: OpcoesSeletor): Seletor {
   const { fatia, largura, altura, alpha, rotacao, zoom, deslocamento } = opcoes;
-  const ctx = contextoOculto(largura, altura);
 
-  if (ctx) {
+  /*
+   * O canvas de escolha é construído na PRIMEIRA pergunta, e não na criação.
+   *
+   * Pintar as 1.946 feições de 1492 custa o mesmo que desenhar o mapa. Como a
+   * vista muda a cada quadro do arrasto, construir na criação custava um mapa
+   * inteiro a mais por quadro — e durante o arrasto ninguém pergunta nada, porque
+   * o hover é desligado justamente enquanto se arrasta. Preguiça aqui elimina o
+   * trabalho em vez de adiá-lo.
+   */
+  let ctx: CanvasRenderingContext2D | null | undefined;
+
+  function preparar(): CanvasRenderingContext2D | null {
+    if (ctx !== undefined) return ctx;
+    ctx = contextoOculto(largura, altura);
+    if (!ctx) return ctx;
     /*
      * Sem traço, só preenchimento opaco — e o alfa é o que salva a consulta.
      *
@@ -109,10 +122,12 @@ export function criarSeletor(opcoes: OpcoesSeletor): Seletor {
       ctx.fillStyle = corDoIndice(i);
       ctx.fill();
     }
+    return ctx;
   }
 
   return {
     em(x, y) {
+      const ctx = preparar();
       if (!ctx) return null;
       const px = Math.round(x);
       const py = Math.round(y);

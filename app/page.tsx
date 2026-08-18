@@ -17,9 +17,16 @@ export default async function Home() {
       <div className="mx-auto flex max-w-[1700px] flex-col items-center gap-6 px-4">
         <header className="text-center">
           <h1 className="font-serif text-4xl tracking-tight">Atlas</h1>
+          {/*
+            Sem contagem de acervo no subtítulo.
+            
+            "9 PAÍSES" media o que falta, não o que existe: a meta é o globo
+            inteiro, ou ao menos os países que importam, e um contador que anda de
+            9 para 10 anuncia a lacuna em vez do conteúdo. O mapa já mostra o
+            mundo todo; o que o atlas cobre com dossiê se vê ao clicar.
+          */}
           <p className="mt-1 font-mono text-xs tracking-widest text-amber-500/70">
-            {acervo.paises.length} PAÍSES · {acervo.eventos.length} EVENTOS ·{" "}
-            {acervo.ilhas.length} ILHAS
+            HISTÓRIA E GEOGRAFIA, POR PAÍS E POR PERÍODO
           </p>
         </header>
 

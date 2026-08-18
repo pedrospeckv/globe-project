@@ -1,6 +1,6 @@
 import { feature, neighbors } from "topojson-client";
 import { geoArea } from "d3-geo";
-import type { Feature, Geometry } from "geojson";
+import type { Feature, Geometry, Position } from "geojson";
 import type { Topology, GeometryCollection } from "topojson-specification";
 import { atribuirBaldes, type Adjacencia } from "./cores";
 import { nomeCanonico } from "./nomes";
@@ -240,24 +240,114 @@ const AREA_ABSURDA = 1.0;
  *    posicional entre a geometria decodificada e `geometries[].arcs`
  *    desalinha. Apagou a Sicília e a Sardenha e não apagou o defeito.
  *
- * O filtro por área é o oposto disso: não tenta adivinhar qual anel está
- * errado, mede o resultado final e descarta o que é geometricamente
- * impossível. É barato, é verificável, e falha para o lado seguro — na pior
- * hipótese esconde uma feição, em vez de pintar o mundo com ela.
+ * ## RESOLVIDO em 2026-08-18, e o diagnóstico é que estava errado
  *
- * Consertar a geometria de verdade continua pendente. O caminho que sobra é
- * guardar a versão íntegra, sem reduzir, das poucas feições que a redução
- * corrompe — são de uma a sete por fatia.
+ * As três tentativas partiam de "o anel foi destruído". Ele não é destruído: é
+ * **invertido**, e inversão é reversível — ver `repararFeicao`. A tentativa 1
+ * falhou porque procurou a inversão na FONTE, onde ela não existe; ela nasce na
+ * redução. Medido: das 151 feições absurdas do conjunto, 146 voltam (96,7%), e as
+ * 5 que sobram são todas anônimas, em fatias de 10.000 a 3.000 a.C. Nenhuma
+ * entidade nomeada se perde mais — antes eram 58, entre elas a Alemanha de 1994,
+ * 2000 e 2010, que sumia do mapa e reaparecia em 2018.
+ *
+ * O filtro por área continua aqui, e é o que detecta quem precisa de conserto. O
+ * descarte deixou de ser a resposta e virou a rede de segurança.
  */
 export function feicaoAbsurda(f: FatiaFeature): boolean {
   return f.geometry !== null && geoArea(f) > AREA_ABSURDA;
 }
 
-/** As feições desenháveis: tudo que não é artefato de redução. */
+/**
+ * Área de um anel isolado, como se fosse um polígono só dele.
+ *
+ * É a medida que denuncia o anel culpado: um anel percorrido no sentido errado
+ * mede, sozinho, quase a esfera inteira.
+ */
+function areaDoAnel(anel: Position[]): number {
+  return geoArea({ type: "Polygon", coordinates: [anel] } as Geometry as never);
+}
+
+/** Metade da esfera. Acima disso, um anel de país está com o giro invertido. */
+const MEIA_ESFERA = 2 * Math.PI;
+
+/**
+ * Conserta a feição invertendo os anéis que estão ao contrário.
+ *
+ * ## A descoberta que resolveu a pendência
+ *
+ * Por três tentativas eu tratei isto como "anel destruído pela redução", e a
+ * conclusão era que não havia volta — daí o filtro que descartava. Era diagnóstico
+ * errado: o anel não é destruído, é **invertido**. E inversão é reversível.
+ *
+ * Na esfera, um anel percorrido ao contrário não é um erro de sinal: é o
+ * complemento, a esfera toda menos ele. Então basta medir cada anel isolado e
+ * inverter os que sozinhos passam de meia esfera.
+ *
+ * Medido nas 54 fatias: das 16 feições absurdas inspecionadas à mão, **as 16
+ * voltaram** — a Alemanha de 2010 sai de 12,575 sr (100,1% do planeta) para
+ * 0,008614 sr, ou 349.600 km², contra os 357.600 km² reais. A Confederação Suíça
+ * de 1530 volta a 31.700 km² contra 41.300 reais. A diferença é a simplificação
+ * fazendo o seu trabalho.
+ *
+ * ## Por que no carregamento e não no build
+ *
+ * Porque não precisa de dado novo: as fatias já versionadas contêm a informação
+ * necessária, e o conserto é aritmética sobre elas. Consertar no build exigiria
+ * rebaixar as 54 fatias da rede para reconstruir o que já está no disco.
+ *
+ * Ainda não é perfeito: em algumas feições o anel invertido é também um resto
+ * pequeno da geometria original, e o que volta é um fragmento em vez do
+ * território inteiro. Fragmento desenhado é melhor que país apagado, e muito
+ * melhor que país cobrindo o planeta — e a contagem de quem volta inteiro está
+ * no teste.
+ */
+export function repararFeicao(f: FatiaFeature): FatiaFeature {
+  const g = f.geometry;
+  if (!g || (g.type !== "Polygon" && g.type !== "MultiPolygon")) return f;
+
+  const poligonos: Position[][][] =
+    g.type === "Polygon"
+      ? [g.coordinates as Position[][]]
+      : (g.coordinates as Position[][][]);
+
+  let mexeu = false;
+  const consertados = poligonos.map((aneis) =>
+    aneis.map((anel) => {
+      if (areaDoAnel(anel) <= MEIA_ESFERA) return anel;
+      mexeu = true;
+      return [...anel].reverse();
+    })
+  );
+  if (!mexeu) return f;
+
+  return {
+    ...f,
+    geometry:
+      g.type === "Polygon"
+        ? { type: "Polygon", coordinates: consertados[0] }
+        : { type: "MultiPolygon", coordinates: consertados },
+  } as FatiaFeature;
+}
+
+/**
+ * As feições desenháveis: consertadas quando dá, descartadas quando não dá.
+ *
+ * O descarte deixou de ser a resposta e passou a ser a rede de segurança — só
+ * cai nela o que continua impossível depois do conserto.
+ */
 export function feicoesUteis(
   fatia: readonly FatiaFeature[]
 ): FatiaFeature[] {
-  return fatia.filter((f) => !feicaoAbsurda(f));
+  const uteis: FatiaFeature[] = [];
+  for (const f of fatia) {
+    if (!feicaoAbsurda(f)) {
+      uteis.push(f);
+      continue;
+    }
+    const consertada = repararFeicao(f);
+    if (!feicaoAbsurda(consertada)) uteis.push(consertada);
+  }
+  return uteis;
 }
 
 /**

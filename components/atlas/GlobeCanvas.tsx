@@ -6,6 +6,7 @@ import { criarProjecao } from "@/lib/geo/projecao";
 import type { PaisFeature } from "@/lib/geo/mundo";
 import { precisaoBaixa, type Fatia, type FatiaFeature } from "@/lib/geo/fatias";
 import { NEUTRO, TRACO, corDoBalde, semCorPropria } from "@/lib/geo/cores";
+import { areaNaTela, resumirFatia } from "@/lib/geo/rotulos";
 
 interface Props {
   fundo: PaisFeature[];
@@ -154,26 +155,20 @@ export function GlobeCanvas({
       /*
        * Quem é pequeno demais para a cor dizer algo — ver `AREA_MINIMA_PARA_COR`.
        *
-       * A área é a PROJETADA, medida no caminho, e não a esférica convertida: a
-       * equirretangular estica com a latitude, e a conversão subestimaria a
-       * Dinamarca pela metade, apagando a cor de país que na tela tem tamanho.
+       * A área vem do resumo da fatia, que é calculado UMA vez, e aqui só se
+       * multiplica pela escala. A primeira versão media a área projetada varrendo
+       * a geometria de cada feição a cada quadro, e arrastar o mapa ficava pesado
+       * com razão: são até 1.946 varreduras por quadro, o mesmo trabalho de
+       * desenhar o mapa outra vez.
        *
-       * Só no mapa. No globo esta conta dobraria o custo por quadro — é uma
-       * varredura da geometria toda, o mesmo trabalho de desenhar —, e arrastar o
-       * globo redesenha a cada quadro. A regra é de leitura do mapa de estudo, e
-       * é onde ela roda.
+       * Só no mapa, porque no globo a conta de área plana não valeria — lá a
+       * projeção não é linear em longitude e latitude.
        */
       const semCor = new Set<string>();
       if (alpha >= ACHATADO) {
-        const caminho = geoPath(projecao);
-        const areaPorNome = new Map<string, number>();
-        for (const f of fatia.feicoes) {
-          const n = f.properties?.n;
-          if (!n) continue;
-          areaPorNome.set(n, (areaPorNome.get(n) ?? 0) + Math.abs(caminho.area(f)));
-        }
-        for (const [n, area] of areaPorNome) {
-          if (semCorPropria(area)) semCor.add(n);
+        const escala = projecao.scale();
+        for (const [nome, r] of resumirFatia(fatia.feicoes)) {
+          if (semCorPropria(areaNaTela(r, escala))) semCor.add(nome);
         }
       }
 
