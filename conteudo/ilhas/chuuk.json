@@ -17,6 +17,11 @@
     "compact-livre-associacao-1986",
     "spector-eagle-against-the-sun"
   ],
+  "geometria": {
+    "tipo": "raio",
+    "km": 45,
+    "razao": "a laguna de Chuuk tem cerca de 65 km de través e o anel de ilhotas cabe nisso; por nome viria a Micronésia inteira, que são quatro estados"
+  },
   "soberania": [
     {
       "desde": "1886",

@@ -60,7 +60,13 @@ describe("acervo de ilhas", () => {
       "fernando-de-noronha": [-32.42, -3.85],
       "tristao-da-cunha": [-12.28, -37.11],
       guam: [144.75, 13.45],
-      okinawa: [127.98, 26.33],
+      /*
+       * Corrigido em 2026-08-18: estava [127.98, 26.33], que cai no MAR a 7 km da
+       * costa. Apareceu quando a extração de geometria por "ilha única" reprovou —
+       * ela pega o polígono que contém o ponto, e nenhum continha. O valor novo é o
+       * centroide da própria ilha no land-10m, conferido como interior.
+       */
+      okinawa: [127.97, 26.5],
       midway: [-177.37, 28.21],
       guadalcanal: [160.15, -9.61],
     };

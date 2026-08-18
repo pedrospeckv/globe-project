@@ -1,30 +1,48 @@
 {
   "id": "santa-helena",
   "nome": "Santa Helena",
-  "outrosNomes": ["Saint Helena"],
-  "ponto": [-5.71, -15.96],
+  "outrosNomes": [
+    "Saint Helena"
+  ],
+  "ponto": [
+    -5.71,
+    -15.96
+  ],
   "nota": "Ilha britânica, e não francesa — a associação com a França vem de Napoleão ter morrido lá exilado, em 1821, sob guarda de quem o exilou. Está entre as terras habitadas mais remotas do planeta: 1.900 km da África e 2.900 km da América do Sul.",
-  "fontes": ["boxer-imperio-maritimo-portugues", "constituicao-santa-helena-2009"],
+  "fontes": [
+    "boxer-imperio-maritimo-portugues",
+    "constituicao-santa-helena-2009"
+  ],
+  "geometria": {
+    "tipo": "ponto",
+    "razao": "ilha única de 122 km², sem ilhota vizinha; por nome viria junto com Ascensão e Tristão, que são outros registros deste atlas"
+  },
   "soberania": [
     {
       "desde": "1502",
       "ate": "1659",
       "poder": "Portugal",
       "nota": "Achada desabitada por navegadores portugueses no caminho da Índia e usada como escala de água e lenha, sem povoamento. Portugal manteve o achado em sigilo o quanto pôde, e os neerlandeses reivindicaram a ilha em 1633 sem ocupá-la.",
-      "fontes": ["boxer-imperio-maritimo-portugues"]
+      "fontes": [
+        "boxer-imperio-maritimo-portugues"
+      ]
     },
     {
       "desde": "1659",
       "ate": "1834",
       "poder": "Companhia Inglesa das Índias Orientais",
       "nota": "Fortificação e povoamento em Jamestown, como escala da rota da Ásia. Os neerlandeses tomaram a ilha em 1673 e a perderam no mesmo ano. Não era colônia da Coroa: era propriedade administrada por uma companhia mercantil.",
-      "fontes": ["constituicao-santa-helena-2009"]
+      "fontes": [
+        "constituicao-santa-helena-2009"
+      ]
     },
     {
       "desde": "1834",
       "poder": "Reino Unido",
       "nota": "Passou ao governo britânico direto quando o monopólio da Companhia foi extinto. Hoje integra o território ultramarino de Santa Helena, Ascensão e Tristão da Cunha, reorganizado em 2009 com as três partes em igual estatuto.",
-      "fontes": ["constituicao-santa-helena-2009"]
+      "fontes": [
+        "constituicao-santa-helena-2009"
+      ]
     }
   ]
 }

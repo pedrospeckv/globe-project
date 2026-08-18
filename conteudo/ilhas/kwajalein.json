@@ -16,6 +16,11 @@
     "compact-livre-associacao-1986",
     "spector-eagle-against-the-sun"
   ],
+  "geometria": {
+    "tipo": "raio",
+    "km": 60,
+    "razao": "o atol tem cerca de 100 km de comprimento; por nome viriam as 29 atóis das Marshall, e o registro é de um deles"
+  },
   "soberania": [
     {
       "desde": "1885",

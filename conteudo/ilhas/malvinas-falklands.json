@@ -1,52 +1,79 @@
 {
   "id": "malvinas-falklands",
   "nome": "Malvinas / Falklands",
-  "outrosNomes": ["Islas Malvinas", "Falkland Islands"],
-  "ponto": [-59.5, -51.75],
+  "outrosNomes": [
+    "Islas Malvinas",
+    "Falkland Islands"
+  ],
+  "ponto": [
+    -59.5,
+    -51.75
+  ],
   "disputada": true,
   "nota": "Soberania disputada entre Argentina e Reino Unido. O Reino Unido administra sem interrupção desde 1833 e invoca a autodeterminação dos habitantes, confirmada no referendo de 2013. A Argentina invoca sucessão da Espanha, contiguidade geográfica e a expulsão da guarnição de Buenos Aires em 1833, e sustenta que a população atual foi implantada e por isso não constitui povo titular desse direito. A ONU reconhece a existência da disputa desde 1965 e não decidiu o mérito. O atlas registra as duas posições e não arbitra.",
-  "fontes": ["unga-2065-1965", "referendo-malvinas-2013", "relatorio-franks-1983"],
+  "fontes": [
+    "unga-2065-1965",
+    "referendo-malvinas-2013",
+    "relatorio-franks-1983"
+  ],
+  "geometria": {
+    "tipo": "pais",
+    "nome": "Falkland Is.",
+    "razao": "as duas ilhas grandes mais as setecentas pequenas formam o território que a fonte agrupa; escolher uma delas por raio devolveria só a Malvina Ocidental"
+  },
   "soberania": [
     {
       "desde": "1764",
       "ate": "1767",
       "poder": "França",
       "nota": "Bougainville fundou Port Louis na Malvina Oriental. A França cedeu o assentamento à Espanha, que reconhecia a área como sua pelo Tratado de Tordesilhas.",
-      "fontes": ["relatorio-franks-1983"]
+      "fontes": [
+        "relatorio-franks-1983"
+      ]
     },
     {
       "desde": "1767",
       "ate": "1811",
       "poder": "Espanha",
       "nota": "Puerto Soledad, subordinado ao Vice-Reino do Rio da Prata. Entre 1765 e 1774 os britânicos mantiveram Port Egmont na Malvina Ocidental, retirado por acordo, e deixaram placa de reivindicação. A Espanha evacuou em 1811, no colapso do império americano.",
-      "fontes": ["relatorio-franks-1983"]
+      "fontes": [
+        "relatorio-franks-1983"
+      ]
     },
     {
       "desde": "1820",
       "ate": "1833",
       "poder": "Províncias Unidas do Rio da Prata",
       "nota": "Reivindicação declarada em 1820 e governo de Luis Vernet a partir de 1829. Em 1831 a corveta norte-americana Lexington destruiu o assentamento em represália à apreensão de navios caçadores de focas.",
-      "fontes": ["relatorio-franks-1983"]
+      "fontes": [
+        "relatorio-franks-1983"
+      ]
     },
     {
       "desde": "1833",
       "ate": "1982-04-02",
       "poder": "Reino Unido",
       "nota": "Em janeiro de 1833 a Marinha britânica reassumiu o controle e expulsou a guarnição de Buenos Aires. É desta data que a Argentina reclama, e é a partir dela que corre a administração britânica contínua.",
-      "fontes": ["relatorio-franks-1983"]
+      "fontes": [
+        "relatorio-franks-1983"
+      ]
     },
     {
       "desde": "1982-04-02",
       "ate": "1982-06-14",
       "poder": "Argentina",
       "nota": "Ocupação militar por 74 dias, decidida pela junta de Leopoldo Galtieri. A guerra matou 649 argentinos, 255 britânicos e três habitantes das ilhas, e derrubou a ditadura argentina no ano seguinte.",
-      "fontes": ["relatorio-franks-1983"]
+      "fontes": [
+        "relatorio-franks-1983"
+      ]
     },
     {
       "desde": "1982-06-14",
       "poder": "Reino Unido",
       "nota": "Território ultramarino britânico. No referendo de 2013, 99,8% dos votantes optaram por manter esse status.",
-      "fontes": ["referendo-malvinas-2013"]
+      "fontes": [
+        "referendo-malvinas-2013"
+      ]
     }
   ]
 }

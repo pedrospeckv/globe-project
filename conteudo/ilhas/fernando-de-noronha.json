@@ -13,6 +13,11 @@
     "adct-1988-fernando-de-noronha",
     "boxer-holandeses-no-brasil"
   ],
+  "geometria": {
+    "tipo": "raio",
+    "km": 15,
+    "razao": "a ilha principal e os ilhéus do arquipélago, que cabem em 10 km; a terra mais próxima é o continente, a 350 km"
+  },
   "soberania": [
     {
       "desde": "1504",

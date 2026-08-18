@@ -1,23 +1,40 @@
 {
   "id": "cabo-verde",
   "nome": "Cabo Verde",
-  "outrosNomes": ["Cape Verde"],
-  "ponto": [-23.6, 15.9],
+  "outrosNomes": [
+    "Cape Verde"
+  ],
+  "ponto": [
+    -23.6,
+    15.9
+  ],
   "nota": "A única das sete que deixou de pertencer a alguém: é país independente desde 1975. Ribeira Grande, hoje Cidade Velha, foi a primeira cidade europeia dos trópicos, e o arquipélago foi um dos maiores entrepostos do tráfico atlântico de escravizados — a posição que o enriqueceu é a mesma que o define.",
-  "fontes": ["boxer-imperio-maritimo-portugues", "acordo-de-lisboa-1974"],
+  "fontes": [
+    "boxer-imperio-maritimo-portugues",
+    "acordo-de-lisboa-1974"
+  ],
+  "geometria": {
+    "tipo": "pais",
+    "nome": "Cabo Verde",
+    "razao": "o arquipélago inteiro é o Estado, e o Natural Earth já o agrupa sob este nome — o agrupamento é da fonte e não meu"
+  },
   "soberania": [
     {
       "desde": "1462",
       "ate": "1975-07-05",
       "poder": "Portugal",
       "nota": "Achado desabitado por volta de 1456 e povoado a partir de 1462. Serviu de entreposto de escravizados entre a costa africana e a América por três séculos. Reclassificado de colônia para província ultramarina em 1951, mudança de nome que não alterou a condição.",
-      "fontes": ["boxer-imperio-maritimo-portugues"]
+      "fontes": [
+        "boxer-imperio-maritimo-portugues"
+      ]
     },
     {
       "desde": "1975-07-05",
       "poder": "Cabo Verde",
       "nota": "Independência acertada no Acordo de Lisboa de dezembro de 1974, depois da Revolução dos Cravos. A união com a Guiné-Bissau, prevista pelo PAIGC, foi abandonada após o golpe de 1980 em Bissau.",
-      "fontes": ["acordo-de-lisboa-1974"]
+      "fontes": [
+        "acordo-de-lisboa-1974"
+      ]
     }
   ]
 }

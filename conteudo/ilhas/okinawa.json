@@ -6,8 +6,8 @@
     "Uchinaa"
   ],
   "ponto": [
-    127.98,
-    26.33
+    127.97,
+    26.5
   ],
   "nota": "Foi reino próprio por quatro séculos e meio antes de ser anexada, e é o único lugar do Japão onde houve batalha terrestre em massa com população civil no meio. Depois ficou 27 anos sob administração americana, mais tempo do que qualquer outro território japonês.",
   "fontes": [
@@ -15,6 +15,10 @@
     "acordo-reversao-okinawa-1971",
     "spector-eagle-against-the-sun"
   ],
+  "geometria": {
+    "tipo": "ponto",
+    "razao": "ilha única de 1.207 km². O raio de 70 km trazia ilhotas vizinhas que não são Okinawa; o registro é da ilha onde houve a batalha de 1945"
+  },
   "soberania": [
     {
       "desde": "1429",

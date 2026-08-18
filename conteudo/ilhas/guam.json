@@ -15,6 +15,11 @@
     "tratado-germano-espanhol-1899",
     "spector-eagle-against-the-sun"
   ],
+  "geometria": {
+    "tipo": "pais",
+    "nome": "Guam",
+    "razao": "a ilha é o território inteiro, e a fonte a nomeia separada das outras Marianas — que é justamente a separação de 1899 que o registro precisa mostrar"
+  },
   "soberania": [
     {
       "desde": "1565",

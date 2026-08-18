@@ -99,9 +99,19 @@ export function tamanhoDoMapa(
  */
 const SEM_DESLOCAMENTO: [number, number] = [0, 0];
 
-/** Ampliação: 1 é o mundo inteiro, 8 é cerca de uma região. */
+/**
+ * Ampliação: 1 é o mundo inteiro, 24 é uma ilha.
+ *
+ * O teto era 8 e subiu por medição. Ilha ganha forma própria quando ocupa 6 px² na
+ * tela (ver `AREA_MINIMA_PARA_FORMA`), e com 8× sete das dezessete nunca chegavam
+ * lá — Fernando de Noronha precisa de 16×. Com 24 sobram só Midway e Kwajalein, e
+ * essas duas são limite da base e não da tela.
+ *
+ * O preço é honesto: nessa escala a fronteira histórica aparece angulosa, porque a
+ * base é simplificada em cerca de 4 km. Angulosa é o que ela é.
+ */
 const ZOOM_MIN = 1;
-const ZOOM_MAX = 8;
+const ZOOM_MAX = 24;
 
 /** Metade da extensão desenhada, em pixels. Vem medida da própria projeção. */
 export interface Extensao {

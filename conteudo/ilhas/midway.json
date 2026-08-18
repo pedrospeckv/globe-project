@@ -13,6 +13,11 @@
   "fontes": [
     "spector-eagle-against-the-sun"
   ],
+  "geometria": {
+    "tipo": "raio",
+    "km": 15,
+    "razao": "o atol tem cerca de 10 km de través, e a terra mais próxima fica a centenas de quilômetros"
+  },
   "soberania": [
     {
       "desde": "1867",

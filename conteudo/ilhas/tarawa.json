@@ -14,6 +14,11 @@
     "spector-eagle-against-the-sun",
     "compact-livre-associacao-1986"
   ],
+  "geometria": {
+    "tipo": "raio",
+    "km": 30,
+    "razao": "o atol tem cerca de 35 km de través; por nome viria Kiribati inteira, espalhada por 3,5 milhões de km² de oceano"
+  },
   "soberania": [
     {
       "desde": "1892",

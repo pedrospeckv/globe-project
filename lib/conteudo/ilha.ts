@@ -107,6 +107,48 @@ export const Soberania = z
     path: ["ate"],
   });
 
+/**
+ * De onde sai o desenho da ilha, e por que desse jeito.
+ *
+ * Duas formas, porque a base cartográfica agrupa umas entidades e não outras:
+ *
+ * - `pais` serve quando o Natural Earth já reúne o conjunto sob um nome — Cabo
+ *   Verde, Malvinas, Guam, Palau, Kiribati. O agrupamento é da fonte, não meu.
+ * - `raio` serve para grupo que a fonte não reúne: Açores e Madeira são parte do
+ *   polígono de Portugal e não se separam por nome, então o critério passa a ser
+ *   distância a partir do ponto registrado.
+ * - `ponto` serve para ILHA ÚNICA: pega o menor polígono que contém o ponto, e
+ *   pronto. Existe porque em Guadalcanal o raio falhou de um modo instrutivo — a
+ *   ilha tem 150 km de comprimento e as vizinhas ficam a 35 km da costa, então
+ *   QUALQUER raio que alcance as duas pontas da ilha também alcança as vizinhas.
+ *   O resultado media 9.634 km² contra 5.302 reais. Onde a entidade é uma ilha e
+ *   não um grupo, o polígono que contém o ponto é a resposta exata.
+ *
+ * `razao` é obrigatória nas duas. Num raio ela é indispensável — 600 km em vez de
+ * 300 muda o que entra no arquipélago —, e na forma por nome ela registra qual
+ * nome da fonte foi usado, que é o que permite conferir sem reabrir o dado.
+ */
+export const FonteDaGeometria = z.discriminatedUnion("tipo", [
+  z.object({
+    tipo: z.literal("pais"),
+    /** O nome exato como está no Natural Earth, não o nome em português. */
+    nome: z.string().min(1),
+    razao: z.string().min(10),
+  }),
+  z.object({
+    tipo: z.literal("raio"),
+    /** Distância a partir de `ponto`, em quilômetros. */
+    km: z.number().positive().max(2000),
+    razao: z.string().min(10),
+  }),
+  z.object({
+    tipo: z.literal("ponto"),
+    razao: z.string().min(10),
+  }),
+]);
+
+export type FonteDaGeometria = z.infer<typeof FonteDaGeometria>;
+
 export const Ilha = z
   .object({
     id: Id,
@@ -124,6 +166,25 @@ export const Ilha = z
       z.number().min(-180).max(180),
       z.number().min(-90).max(90),
     ]),
+    /**
+     * Como achar o desenho da ilha na base cartográfica.
+     *
+     * A ilha é registrada como PONTO porque num mapa-múndi é isso que ela é:
+     * Fernando de Noronha tem 18 km², e a 1.472 px de mapa ocupa 0,009 px². Mas o
+     * mapa agora aproxima até 8×, e nessa escala o ponto passa a ser mentira por
+     * omissão — há espaço para a forma real.
+     *
+     * O critério de extração fica AQUI, no conteúdo, e não embutido num script,
+     * porque em arquipélago ele é uma decisão editorial e não um detalhe técnico:
+     * Tarawa é um anel de ilhotas e as Malvinas são duas ilhas grandes mais
+     * setecentas pequenas, então "o polígono da ilha" não existe — existe o
+     * conjunto que se decidiu chamar de Tarawa. Declarado aqui, o critério é
+     * versionado, revisável e aparece no diff.
+     *
+     * Ausente, a ilha continua só ponto. É o estado válido: não obriga a resolver
+     * as dezessete de uma vez.
+     */
+    geometria: FonteDaGeometria.optional(),
     soberania: z.array(Soberania).min(1, "ilha precisa de ao menos um trecho"),
     /** Soberania contestada por mais de um Estado, hoje. */
     disputada: z.boolean().default(false),

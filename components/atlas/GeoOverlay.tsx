@@ -3,6 +3,7 @@
 import { useMemo } from "react";
 import { geoPath } from "d3-geo";
 import { criarProjecao, pontoVisivel } from "@/lib/geo/projecao";
+import { desenhoDaIlha, temFormaVisivel } from "@/lib/geo/ilhas";
 import type { PaisCurado } from "@/lib/geo/mundo";
 import type { RotaFeature } from "@/lib/geo/rota";
 import type { Alpha3 } from "@/lib/geo/iso";
@@ -264,6 +265,22 @@ export function GeoOverlay({
           const y = p[1].toFixed(3);
 
           /*
+           * Forma quando há forma para ver; marcador quando não há.
+           *
+           * A ilha foi registrada como ponto porque num mapa-múndi é isso que ela
+           * é — Fernando de Noronha ocupa 0,009 px² a 1.472 px de largura. Com o
+           * zoom até 24× a premissa mudou para dez das dezessete, e aí o ponto
+           * virava omissão: era a "bola azul" em vez da ilha.
+           *
+           * Só no mapa plano. A área é calculada por aritmética sobre a área em
+           * graus² gravada na geração, e essa conta só vale na equirretangular; no
+           * globo o marcador continua, que é onde ele sempre foi o certo.
+           */
+          const desenho = desenhoDaIlha(i.id);
+          const comForma =
+            alpha >= 0.999 && temFormaVisivel(desenho, projecao.scale());
+
+          /*
            * Ilha disputada herda o losango tracejado das disputas sem
            * polígono, porque é a mesma afirmação: existe soberania contestada
            * aqui. Usar marca diferente para a mesma coisa faria o leitor
@@ -293,6 +310,27 @@ export function GeoOverlay({
                 i.poder ? `, administrada por ${i.poder}` : ""
               }`
             : `${i.nome} — ${quem}`;
+
+          if (comForma && desenho) {
+            /*
+             * A forma real, com a mesma cor do marcador para o leitor reconhecer
+             * que é a mesma coisa vista de perto. Sem `translate`: o caminho já
+             * sai em coordenadas de tela.
+             */
+            return (
+              <path
+                key={i.id}
+                d={path(desenho.geometria) ?? undefined}
+                fill={i.disputada ? "#f59e0b" : "#38bdf8"}
+                fillOpacity={i.disputada ? 0.35 : 0.5}
+                stroke={i.disputada ? "#fbbf24" : "#7dd3fc"}
+                strokeWidth={0.75}
+                strokeDasharray={i.disputada ? "3 2" : undefined}
+              >
+                <title>{rotulo}</title>
+              </path>
+            );
+          }
 
           return (
             <g key={i.id} transform={`translate(${x},${y})`}>
