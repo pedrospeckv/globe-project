@@ -189,6 +189,12 @@ export function lerFeicoesLocais(
     if (typeof sujeito === "string" && sujeito && sujeito !== nome) {
       podado.s = sujeito;
     }
+    /*
+     * `ss` marca terra sem soberano — ver `PropsFatia`. Sobrevive à poda porque
+     * é a única forma de a Antártida ter nome no hover e não ter cor de
+     * identidade no mapa.
+     */
+    if (p.ss === true || p.SS === true) podado.ss = true;
     f.properties = podado;
   });
 

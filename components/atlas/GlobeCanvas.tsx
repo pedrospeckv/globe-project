@@ -53,7 +53,9 @@ function agruparPorCor(
   for (const f of feicoes) {
     const n = f.properties?.n;
     const balde =
-      n && !semCor.has(n) ? (cores.get(n) ?? ANONIMO) : ANONIMO;
+      n && !f.properties?.ss && !semCor.has(n)
+        ? (cores.get(n) ?? ANONIMO)
+        : ANONIMO;
     const atual = grupos.get(balde);
     if (atual) atual.push(f);
     else grupos.set(balde, [f]);

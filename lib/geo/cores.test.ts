@@ -246,6 +246,30 @@ describe("corDaFeicao", () => {
   });
 });
 
+describe("terra sem soberano", () => {
+  const antartida = {
+    type: "Feature",
+    geometry: null,
+    properties: { n: "Antarctica", p: 3, ss: true },
+  } as unknown as FatiaFeature;
+
+  /*
+   * Ela tem nome e não tem cor. É o par que importa: cinza por anonimato diria
+   * que a fonte não a nomeia, e nomeia; o que ela não tem é dono, porque o
+   * Tratado da Antártida de 1959 suspende as reivindicações.
+   */
+  it("não recebe cor de identidade, mesmo tendo nome e balde", () => {
+    expect(corDaFeicao(antartida, new Map([["Antarctica", 7]]))).toBe(NEUTRO);
+    /* Sem a marca, o mesmo nome receberia a cor do balde. */
+    const semMarca = {
+      type: "Feature",
+      geometry: null,
+      properties: { n: "Antarctica", p: 3 },
+    } as unknown as FatiaFeature;
+    expect(corDaFeicao(semMarca, new Map([["Antarctica", 7]]))).toBe(PALETA[7]);
+  });
+});
+
 describe("cor só para quem tem tamanho", () => {
   it("corta abaixo do limiar e não em cima dele", () => {
     expect(semCorPropria(AREA_MINIMA_PARA_COR - 1)).toBe(true);

@@ -265,11 +265,19 @@ export function corDoBalde(b: number | undefined): string {
   return PALETA[b];
 }
 
-/** A cor de uma feição da fatia: a do seu nome, ou o neutro se for anônima. */
+/**
+ * A cor de uma feição: a do seu nome, ou o neutro.
+ *
+ * O neutro cobre três casos, e a legenda do mapa diz os três: feição anônima
+ * (a fonte não atribui dono), terra sem soberano (`ss` — a Antártida) e
+ * entidade pequena demais para a cor dizer algo nesta escala, que é decidido
+ * por quem desenha porque depende do zoom.
+ */
 export function corDaFeicao(
   f: FatiaFeature,
   baldes: ReadonlyMap<string, number>
 ): string {
   const n = f.properties?.n;
-  return n ? corDoBalde(baldes.get(n)) : NEUTRO;
+  if (!n || f.properties?.ss) return NEUTRO;
+  return corDoBalde(baldes.get(n));
 }

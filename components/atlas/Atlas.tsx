@@ -1084,12 +1084,13 @@ export function Atlas({
       */}
       {modo === "mapa" && (
         <p className="max-w-2xl text-center text-[10px] leading-relaxed text-slate-600">
-          Território em <span className="text-slate-500">cinza</span> é terra que a
-          fonte não atribui a ninguém <em>ou</em> entidade pequena demais para
-          receber cor nesta escala — em 1650 a base divide a Austrália em 375
-          territórios de povos, e colorir cada um afirmaria 375 Estados com
-          fronteira. Aproximar devolve a cor a quem ganhou espaço, e o nome aparece
-          ao passar o mouse em qualquer caso.
+          Território em <span className="text-slate-500">cinza</span> é terra sem cor
+          de identidade, por um de três motivos: a fonte não atribui dono; não há
+          soberano, como na Antártida, cujas reivindicações o Tratado de 1959
+          suspende; ou a entidade é pequena demais para a cor dizer algo nesta
+          escala — em 1650 a base divide a Austrália em 375 territórios de povos, e
+          colorir cada um afirmaria 375 Estados com fronteira. Aproximar devolve a
+          cor a quem ganhou espaço, e o nome aparece ao passar o mouse sempre.
         </p>
       )}
     </div>

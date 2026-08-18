@@ -54,6 +54,21 @@ export interface PropsFatia {
   s?: string;
   /** Precisão da fronteira segundo a fonte. Quanto menor, menos confiável. */
   p?: number;
+  /**
+   * Terra sem soberano: desenha como terra, com nome, e sem cor de identidade.
+   *
+   * Existe por causa da Antártida, que é o único caso conhecido. Ela não é
+   * anônima — a base a nomeia — mas também não é de ninguém: o Tratado da
+   * Antártida de 1959 suspende as reivindicações, e dar-lhe uma cor de
+   * identidade como a de Brasil ou Chile afirmaria uma soberania que nenhum
+   * Estado exerce.
+   *
+   * As duas alternativas foram piores. Retirá-la do mapa — o que esta base já
+   * fez uma vez, por um erro meu — faz um continente desaparecer e afirma que
+   * ali não há terra. Deixá-la sem nome devolveria "sem atribuição na fonte" no
+   * hover, o que é falso: a fonte atribui um nome, só não atribui um dono.
+   */
+  ss?: boolean;
 }
 
 export type FatiaFeature = Feature<Geometry, PropsFatia>;

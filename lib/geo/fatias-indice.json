@@ -501,13 +501,13 @@
     {
       "nome": "2018",
       "ano": 2018,
-      "feicoes": 176,
-      "bytes": 157007,
+      "feicoes": 177,
+      "bytes": 170063,
       "precisoes": {
-        "3": 176
+        "3": 177
       },
       "local": true,
-      "hash": "af0e4843223c",
+      "hash": "3dcac8b25867",
       "atribuicao": {
         "fonte": "Natural Earth 4.1.0, Admin 0 countries 1:110m, via world-atlas",
         "autor": "Natural Earth",

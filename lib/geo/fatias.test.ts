@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import fs from "node:fs";
 import path from "node:path";
 import { feature } from "topojson-client";
+import { geoArea, geoBounds } from "d3-geo";
 import type { Topology, GeometryCollection } from "topojson-specification";
 import {
   ATRIBUICAO,
@@ -209,6 +210,54 @@ describe("geometria das fatias", () => {
     const compartilhados = [...refs.values()].filter((n) => n > 1).length;
     expect(refs.size).toBeGreaterThan(0);
     expect(compartilhados).toBeGreaterThan(refs.size * 0.2);
+  });
+});
+
+describe("a Antártida", () => {
+  /*
+   * A regressão que o Pedro pegou olhando o mapa. Eu havia RETIRADO a Antártida
+   * da fatia local de 2018, com a justificativa — falsa, afirmada sem conferir —
+   * de que o upstream de 2010 também não a trazia. Todas as fatias a trazem, e o
+   * efeito do erro era um continente desaparecer da tela de 2018 em diante.
+   *
+   * O teste cobre TODAS as fatias, porque o defeito nasceu de uma fatia só ter
+   * sido tratada de forma diferente das outras sem ninguém notar.
+   */
+  it("está desenhada em todas as fatias menos a única que o upstream esqueceu", () => {
+    const semAntartida: string[] = [];
+    for (const f of FATIAS) {
+      const topo = JSON.parse(
+        fs.readFileSync(path.join(PASTA, `${f.nome}.json`), "utf8")
+      ) as Topology;
+      const feicoes = feicoesUteis(
+        feature(topo, topo.objects.mundo as GeometryCollection)
+          .features as FatiaFeature[]
+      );
+      /* O continente tem ~14 milhões de km²; a base desenha ~12,2. */
+      const km2 = feicoes
+        .filter((x) => x.geometry && geoBounds(x)[1][1] < -60)
+        .reduce((soma, x) => soma + geoArea(x) * 6371 * 6371, 0);
+      if (km2 / 1e6 < 10) semAntartida.push(f.nome);
+    }
+    /*
+     * A exceção fica FIXA em vez de o limite ser afrouxado. `bc5000` não traz a
+     * Antártida no upstream — é lacuna de lá, e consertá-la exigiria copiar
+     * geometria de outra fatia, o que a regra da fatia local proíbe. Listada
+     * assim, se qualquer OUTRA fatia perder o continente, este teste cai.
+     */
+    expect(semAntartida).toEqual(["bc5000"]);
+  });
+
+  /* E na fatia local ela é nomeada e marcada como terra sem soberano. */
+  it("é nomeada e sem soberano na fatia de 2018", () => {
+    const topo = JSON.parse(
+      fs.readFileSync(path.join(PASTA, "2018.json"), "utf8")
+    ) as Topology;
+    const feicoes = feature(topo, topo.objects.mundo as GeometryCollection)
+      .features as FatiaFeature[];
+    const anta = feicoes.find((f) => f.properties?.n === "Antarctica");
+    expect(anta).toBeDefined();
+    expect(anta!.properties?.ss).toBe(true);
   });
 });
 
