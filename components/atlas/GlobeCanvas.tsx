@@ -4,7 +4,8 @@ import { useEffect, useRef } from "react";
 import { geoPath, geoGraticule10 } from "d3-geo";
 import { criarProjecao } from "@/lib/geo/projecao";
 import type { PaisFeature } from "@/lib/geo/mundo";
-import { precisaoBaixa, type FatiaFeature } from "@/lib/geo/fatias";
+import { precisaoBaixa, type Fatia, type FatiaFeature } from "@/lib/geo/fatias";
+import { NEUTRO, TRACO, corDoBalde } from "@/lib/geo/cores";
 
 interface Props {
   fundo: PaisFeature[];
@@ -12,11 +13,37 @@ interface Props {
    * A fatia histórica da data atual. Quando presente, substitui `fundo` —
    * é o mundo daquele momento no lugar do mundo de hoje.
    */
-  fatia?: FatiaFeature[];
+  fatia?: Fatia;
   largura: number;
   altura: number;
   alpha: number;
   rotacao: [number, number];
+}
+
+/** Anônimos num grupo só, fora da faixa de baldes. */
+const ANONIMO = -1;
+
+/**
+ * Agrupa as feições por cor, para o desenho pagar uma pincelada por cor.
+ *
+ * Sem isto seriam até 1.946 pares de `fill`/`stroke` por quadro, um por
+ * polígono de 1492, e o arrasto do globo redesenha a cada quadro. Agrupado,
+ * são no máximo 25 — os 24 baldes mais o anônimo. O canvas aceita um caminho
+ * com vários polígonos e o preenche de uma vez.
+ */
+function agruparPorCor(
+  feicoes: readonly FatiaFeature[],
+  cores: ReadonlyMap<string, number>
+): Map<number, FatiaFeature[]> {
+  const grupos = new Map<number, FatiaFeature[]>();
+  for (const f of feicoes) {
+    const n = f.properties?.n;
+    const balde = n ? (cores.get(n) ?? ANONIMO) : ANONIMO;
+    const atual = grupos.get(balde);
+    if (atual) atual.push(f);
+    else grupos.set(balde, [f]);
+  }
+  return grupos;
 }
 
 /**
@@ -74,47 +101,52 @@ export function GlobeCanvas({
 
     if (fatia) {
       /*
+       * Uma cor por entidade política, e é isso que faz a extensão de cada
+       * país aparecer. Antes havia um preenchimento único para o mundo todo, e
+       * a fronteira entre dois vizinhos era um traço de 0,5 px entre duas áreas
+       * idênticas — ou seja, invisível: em 1500 a Europa era uma mancha só.
+       *
+       * As cores vêm resolvidas do carregador, por NOME, e a mesma entidade
+       * guarda a mesma cor de uma fatia para a outra. Ver `lib/geo/cores.ts`.
+       *
        * Duas passadas, separadas pela precisão que a própria fonte declara.
+       * Fronteira conjectural sai tracejada; fronteira de registro sai
+       * contínua. Desenhar as duas iguais afirmaria que sabemos onde passava a
+       * linha da Núbia em 1500 a.C. com a mesma confiança com que sabemos a de
+       * 1914 — e não sabemos. É o mesmo princípio do status de uma alegação: a
+       * incerteza aparece, não é alisada.
        *
-       * Fronteira conjectural sai tracejada e mais apagada; fronteira de
-       * registro sai contínua. Desenhar as duas iguais afirmaria que sabemos
-       * onde passava a linha da Núbia em 1500 a.C. com a mesma confiança com
-       * que sabemos a de 1914 — e não sabemos. É o mesmo princípio do status
-       * de uma alegação: a incerteza aparece, não é alisada.
-       *
-       * A separação é feita aqui e não no carregador porque só a tela precisa
-       * dela, e porque `ctx.setLineDash` obriga a fechar um caminho antes de
-       * mudar o traço.
+       * O PREENCHIMENTO é o mesmo nas duas, e só o traço muda. A primeira
+       * versão escurecia o polígono conjectural além de tracejar a borda, e em
+       * 323 a.C. o globo ficava praticamente vazio — dois sinais para a mesma
+       * informação, ao custo de não se ver nada. Terra incerta é terra do mesmo
+       * jeito; o que é incerto é onde ela acaba, e o tracejado já diz isso.
        */
-      const firmes = fatia.filter((f) => !precisaoBaixa(f));
-      const conjecturais = fatia.filter(precisaoBaixa);
+      const firmes = fatia.feicoes.filter((f) => !precisaoBaixa(f));
+      const conjecturais = fatia.feicoes.filter(precisaoBaixa);
 
-      ctx.beginPath();
-      for (const f of firmes) path(f);
-      ctx.fillStyle = "#16203a";
-      ctx.fill();
-      ctx.strokeStyle = "#243049";
-      ctx.lineWidth = 0.5;
-      ctx.stroke();
+      const desenhar = (
+        feicoes: readonly FatiaFeature[],
+        tracejado: boolean
+      ) => {
+        const grupos = agruparPorCor(feicoes, fatia.cores);
+        // Ordem crescente de balde: o desenho não pode depender da ordem em
+        // que os polígonos aparecem no arquivo.
+        for (const balde of [...grupos.keys()].sort((a, b) => a - b)) {
+          ctx.beginPath();
+          for (const f of grupos.get(balde)!) path(f);
+          ctx.fillStyle = balde === ANONIMO ? NEUTRO : corDoBalde(balde);
+          ctx.fill();
+          if (tracejado) ctx.setLineDash([2, 2]);
+          ctx.strokeStyle = TRACO;
+          ctx.lineWidth = 0.5;
+          ctx.stroke();
+          if (tracejado) ctx.setLineDash([]);
+        }
+      };
 
-      /*
-       * O preenchimento é o MESMO das firmes, e só o traço muda.
-       *
-       * A primeira versão escurecia o polígono e tracejava a borda, e em 323
-       * a.C. o globo ficava praticamente vazio — dois sinais para a mesma
-       * informação, ao custo de não se ver nada. Terra incerta é terra do
-       * mesmo jeito; o que é incerto é onde ela acaba, e isso o tracejado já
-       * diz sozinho.
-       */
-      ctx.beginPath();
-      for (const f of conjecturais) path(f);
-      ctx.fillStyle = "#16203a";
-      ctx.fill();
-      ctx.setLineDash([2, 2]);
-      ctx.strokeStyle = "#2c3a54";
-      ctx.lineWidth = 0.5;
-      ctx.stroke();
-      ctx.setLineDash([]);
+      desenhar(firmes, false);
+      desenhar(conjecturais, true);
     } else {
       // Sem fatia carregada ainda: os países de hoje seguram o lugar.
       ctx.beginPath();

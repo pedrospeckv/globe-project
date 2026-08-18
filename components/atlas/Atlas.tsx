@@ -23,8 +23,9 @@ import {
   proximaFatia,
   precisaoBaixa,
   rotuloDaFatia,
-  type FatiaFeature,
+  type Fatia,
 } from "@/lib/geo/fatias";
+import { corDaFeicao } from "@/lib/geo/cores";
 import { criarSeletor } from "@/lib/geo/seletor";
 import { rotaAte, type RotaFeature } from "@/lib/geo/rota";
 import {
@@ -205,7 +206,7 @@ export function Atlas({
    * mapa nunca adianta um arranjo territorial.
    */
   const fatiaAtual = useMemo(() => fatiaPara(tempo), [tempo]);
-  const [fatia, setFatia] = useState<FatiaFeature[] | undefined>(undefined);
+  const [fatia, setFatia] = useState<Fatia | undefined>(undefined);
 
   useEffect(() => {
     let vigente = true;
@@ -274,12 +275,18 @@ export function Atlas({
   const seletor = useMemo(
     () =>
       fatia
-        ? criarSeletor({ fatia, largura: LARGURA, altura: ALTURA, alpha, rotacao })
+        ? criarSeletor({
+            fatia: fatia.feicoes,
+            largura: LARGURA,
+            altura: ALTURA,
+            alpha,
+            rotacao,
+          })
         : null,
     [fatia, alpha, rotacao]
   );
 
-  const feicaoSob = sob !== null && fatia ? (fatia[sob] ?? null) : null;
+  const feicaoSob = sob !== null && fatia ? (fatia.feicoes[sob] ?? null) : null;
 
   /**
    * Eventos próximos ao instante atual.
@@ -406,7 +413,7 @@ export function Atlas({
       }
       const r = e.currentTarget.getBoundingClientRect();
       const f = seletor.em(e.clientX - r.left, e.clientY - r.top);
-      setSob(f ? fatia.indexOf(f) : null);
+      setSob(f ? fatia.feicoes.indexOf(f) : null);
     },
     [seletor, fatia]
   );
@@ -447,7 +454,18 @@ export function Atlas({
         */}
         {feicaoSob && (
           <div className="pointer-events-none absolute left-3 top-3 max-w-[15rem] rounded border border-slate-700 bg-slate-950/85 px-2 py-1.5">
-            <p className="font-mono text-xs text-slate-200">
+            {/*
+              A amostra da cor liga a etiqueta ao mapa. Com 24 cores para
+              centenas de entidades, ela é o que permite achar a olho as outras
+              partes da mesma entidade — exclave, colônia, ilha — em vez de
+              passar o ponteiro por cada mancha para descobrir de quem é.
+            */}
+            <p className="flex items-center gap-1.5 font-mono text-xs text-slate-200">
+              <span
+                aria-hidden
+                className="inline-block h-2.5 w-2.5 shrink-0 rounded-sm border border-slate-700"
+                style={{ background: corDaFeicao(feicaoSob, fatia?.cores ?? new Map()) }}
+              />
               {rotuloDaFatia(feicaoSob) ?? "sem atribuição na fonte"}
             </p>
             {feicaoSob.properties?.s && (

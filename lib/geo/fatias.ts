@@ -1,7 +1,8 @@
-import { feature } from "topojson-client";
+import { feature, neighbors } from "topojson-client";
 import { geoArea } from "d3-geo";
 import type { Feature, Geometry } from "geojson";
 import type { Topology, GeometryCollection } from "topojson-specification";
+import { atribuirBaldes, type Adjacencia } from "./cores";
 import indice from "./fatias-indice.json";
 
 /**
@@ -214,6 +215,65 @@ export function feicoesUteis(
 }
 
 /**
+ * Quem faz fronteira com quem, por NOME de entidade.
+ *
+ * A adjacência sai da topologia e não da geometria: em TopoJSON, dois
+ * polígonos que dividem uma fronteira dividem literalmente o mesmo arco, então
+ * `neighbors` acha os vizinhos comparando índices de arco, sem testar
+ * interseção de nada. É exato e é barato — vale até para as 1.946 feições de
+ * 1492.
+ *
+ * A chave é o nome, e não o índice, porque quem consome é a cor, e a cor é do
+ * país e não do polígono: a Itália aparece em 5 feições e as 5 têm de sair
+ * iguais. Anônimos ficam fora dos dois lados — não têm identidade para
+ * defender nem para disputar.
+ *
+ * Os índices de `geometries` casam com os de `features`, verificado nas 53
+ * fatias. Se algum dia deixarem de casar, esta função devolve vazio em vez de
+ * cruzar nomes errados: sem adjacência a cor cai no hash puro, o que reintroduz
+ * 4% de colisão entre vizinhos — feio, e muito melhor que pintar a Pérsia com a
+ * cor que o algoritmo calculou para a Gália.
+ */
+export function adjacenciaPorNome(
+  feicoes: readonly FatiaFeature[],
+  geometrias: readonly unknown[]
+): Adjacencia {
+  const adj = new Map<string, Set<string>>();
+  if (geometrias.length !== feicoes.length) return adj;
+
+  const vizinhos = neighbors(geometrias as Parameters<typeof neighbors>[0]);
+  const nomeDe = feicoes.map((f) => f.properties?.n || null);
+
+  for (let i = 0; i < vizinhos.length; i++) {
+    const a = nomeDe[i];
+    if (!a) continue;
+    for (const j of vizinhos[i]) {
+      const b = nomeDe[j];
+      if (!b || b === a) continue;
+      let ligados = adj.get(a);
+      if (!ligados) adj.set(a, (ligados = new Set()));
+      ligados.add(b);
+    }
+  }
+  return adj;
+}
+
+/**
+ * Uma fatia carregada: a geometria e as cores das entidades que ela contém.
+ *
+ * As cores vêm em mapa por nome, e não em array paralelo às feições, de
+ * propósito — array paralelo impõe um invariante de alinhamento a todo mundo
+ * que filtrar a lista, e este arquivo já tem a cicatriz disso: a tentativa 3
+ * de consertar a geometria falhou exatamente por assumir correspondência
+ * posicional que `feature()` não preserva.
+ */
+export interface Fatia {
+  feicoes: FatiaFeature[];
+  /** Balde de cor por nome de entidade. Ver `lib/geo/cores.ts`. */
+  cores: ReadonlyMap<string, number>;
+}
+
+/**
  * Cache de PROMESSAS, não de resultados.
  *
  * Guardar o resultado deixava dois chamadores simultâneos errarem o cache,
@@ -224,7 +284,7 @@ export function feicoesUteis(
  * Promessa que rejeita é retirada do mapa, senão o primeiro erro de rede
  * ficaria memoizado e nenhuma tentativa posterior teria chance.
  */
-const cache = new Map<string, Promise<FatiaFeature[]>>();
+const cache = new Map<string, Promise<Fatia>>();
 
 /**
  * Busca uma fatia e devolve as feições.
@@ -235,7 +295,7 @@ const cache = new Map<string, Promise<FatiaFeature[]>>();
  * barra de tempo de um lado a outro busca no máximo 53 arquivos pequenos, e
  * ir e voltar não busca nada.
  */
-export function carregarFatia(nome: string): Promise<FatiaFeature[]> {
+export function carregarFatia(nome: string): Promise<Fatia> {
   const emCache = cache.get(nome);
   if (emCache) return emCache;
 
@@ -247,12 +307,27 @@ export function carregarFatia(nome: string): Promise<FatiaFeature[]> {
     const topologia = (await resposta.json()) as Topology;
     const colecao = topologia.objects.mundo as GeometryCollection;
     const todas = feature(topologia, colecao).features as FatiaFeature[];
+
+    /*
+     * A adjacência é calculada sobre a lista INTEIRA, porque é ela que casa
+     * com os índices de `geometries`. As cores são atribuídas só aos nomes que
+     * sobrevivem ao filtro — feição descartada não deve reservar cor nem
+     * proibir a de ninguém.
+     */
+    const adjacencia = adjacenciaPorNome(todas, colecao.geometries);
     /*
      * Filtrado JÁ AQUI, e não em quem desenha. São dois consumidores — o
      * canvas e o seletor de hover — e se o filtro morasse neles, esquecer num
      * deles faria a tela e a consulta discordarem sobre o que existe.
      */
-    return feicoesUteis(todas);
+    const feicoes = feicoesUteis(todas);
+    const nomes = new Set<string>();
+    for (const f of feicoes) {
+      const n = f.properties?.n;
+      if (n) nomes.add(n);
+    }
+
+    return { feicoes, cores: atribuirBaldes(nomes, adjacencia) };
   })().catch((e: unknown) => {
     cache.delete(nome);
     throw e;
