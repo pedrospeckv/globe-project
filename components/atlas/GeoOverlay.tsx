@@ -163,15 +163,33 @@ export function GeoOverlay({
           const ativo = selecionado === alpha3;
           const partido = dividido.has(alpha3);
           return (
+            /*
+              Contorno, e não mancha.
+              
+              O preenchimento a 55% cobria o território da época: em 573, com o
+              zoom em 6×, a China de hoje aparecia pintada por cima do Toba Wei e
+              do Império Jin, afirmando uma fronteira que não existia. O contorno
+              da fronteira atual é REFERÊNCIA — é o que a legenda sempre disse —,
+              e referência não pode apagar o que está sendo referido.
+              
+              Só o país selecionado ganha mancha, porque aí a afirmação é outra:
+              "este é o dossiê aberto", e não "este era o território".
+            */
             <path
               key={alpha3}
               d={d}
-              fill={partido ? "url(#hachura-dividido)" : ativo ? "#38bdf8" : "#0ea5e9"}
-              fillOpacity={partido ? 1 : ativo ? 0.9 : 0.55}
-              stroke="#7dd3fc"
-              strokeWidth={ativo ? 1.5 : 0.75}
+              fill={partido ? "url(#hachura-dividido)" : "#0ea5e9"}
+              fillOpacity={partido ? 1 : ativo ? 0.35 : 0}
+              stroke={ativo ? "#7dd3fc" : "#38bdf8"}
+              strokeWidth={ativo ? 1.75 : 1}
               strokeDasharray={partido ? "4 2" : undefined}
-              className="pointer-events-auto cursor-pointer transition-[fill-opacity] duration-200"
+              /*
+                `all` e não o padrão `visiblePainted`: com o preenchimento
+                transparente, o padrão poderia deixar de acertar o interior, e o
+                país viraria clicável só na linha da fronteira.
+              */
+              style={{ pointerEvents: "all" }}
+              className="cursor-pointer transition-[fill-opacity] duration-200"
               onClick={() => onSelecionar(alpha3)}
             >
               <title>

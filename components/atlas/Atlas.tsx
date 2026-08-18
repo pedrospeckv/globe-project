@@ -626,6 +626,34 @@ export function Atlas({
     setDeslocamento([0, 0]);
   }, []);
 
+  /**
+   * Tela cheia pedida na RAIZ do Atlas, e não só na área do mapa.
+   *
+   * Duas razões. A raiz leva a barra de tempo e os controles junto, e mapa em
+   * tela cheia sem a linha do tempo seria um mapa mudo. E é a raiz que o
+   * `ResizeObserver` observa, então o mapa cresce sozinho, sem nenhuma conta
+   * nova: `tamanhoDoMapa` recebe a largura e a altura novas e responde.
+   */
+  const [telaCheia, setTelaCheia] = useState(false);
+
+  useEffect(() => {
+    const aoMudar = () => setTelaCheia(document.fullscreenElement !== null);
+    document.addEventListener("fullscreenchange", aoMudar);
+    return () => document.removeEventListener("fullscreenchange", aoMudar);
+  }, []);
+
+  const alternarTelaCheia = useCallback(() => {
+    const el = raiz.current;
+    if (!el) return;
+    /*
+     * A promessa é rejeitada quando o navegador recusa — falta de gesto do
+     * usuário, política de permissão — e engolir o erro é o certo: tela cheia é
+     * conforto, e conforto não pode derrubar o mapa.
+     */
+    if (document.fullscreenElement) void document.exitFullscreen().catch(() => {});
+    else void el.requestFullscreen?.().catch(() => {});
+  }, []);
+
   /*
    * A roda entra por ouvinte nativo com `passive: false`, e não por `onWheel`:
    * o React registra `wheel` como passivo na raiz, e em ouvinte passivo o
@@ -707,7 +735,17 @@ export function Atlas({
   );
 
   return (
-    <div ref={raiz} className="flex w-full flex-col items-center gap-4">
+    <div
+      ref={raiz}
+      /*
+        Em tela cheia a raiz passa a ser o documento inteiro, e sem fundo próprio
+        ela herdaria o preto do navegador em volta de uma página que é
+        `bg-slate-950`. O respiro impede a barra de tempo de encostar na borda.
+      */
+      className={`flex w-full flex-col items-center gap-4 ${
+        telaCheia ? "justify-center bg-slate-950 p-6" : ""
+      }`}
+    >
       <div
         ref={areaDoMapa}
         className={`relative touch-none ${
@@ -810,6 +848,7 @@ export function Atlas({
       </div>
 
       <TimeScrubber
+        largura={LARGURA}
         valor={tempo}
         dominio={dominio}
         onChange={setTempo}
@@ -899,6 +938,14 @@ export function Atlas({
             )}
           </div>
         )}
+
+        <button
+          onClick={alternarTelaCheia}
+          aria-pressed={telaCheia}
+          className="rounded border border-slate-600 px-2 py-1 text-slate-400 transition-colors hover:bg-slate-800"
+        >
+          {telaCheia ? "Sair da tela cheia" : "Tela cheia"}
+        </button>
       </div>
 
       {/*

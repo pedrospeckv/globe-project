@@ -216,11 +216,17 @@ describe("GeoOverlay", () => {
     const svg = container.querySelector("svg")!;
     expect(svg.getAttribute("width")).toBe("900");
     expect(svg.getAttribute("height")).toBe("560");
-    // O SVG inteiro é inerte; só os países reativam o ponteiro.
+    /*
+      O SVG inteiro é inerte; só os países reativam o ponteiro. E reativam com
+      `all`, não com o padrão `visiblePainted`: o preenchimento deles é
+      transparente — o contorno é referência e não pode cobrir o território da
+      época —, e com `visiblePainted` o país viraria clicável só na linha da
+      fronteira.
+    */
     expect(svg.getAttribute("class")).toContain("pointer-events-none");
-    expect(paisesDe(container)[0].getAttribute("class")).toContain(
-      "pointer-events-auto"
-    );
+    expect(
+      (paisesDe(container)[0] as SVGPathElement).style.pointerEvents
+    ).toBe("all");
   });
 
   it("girar o globo move os países — a projeção não fica congelada", () => {

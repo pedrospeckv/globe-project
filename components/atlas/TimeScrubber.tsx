@@ -9,6 +9,14 @@ import {
 } from "@/lib/conteudo/tempo";
 
 interface Props {
+  /**
+   * Largura em pixels, para a barra acompanhar o mapa.
+   *
+   * Ausente, ela usa `max-w-3xl` como antes. Com 3.600 anos de domínio, cada
+   * pixel vale quatro anos, então largura é precisão de arrasto e não estética:
+   * numa barra de 768 px o Regime Militar tem cinco pixels.
+   */
+  largura?: number;
   valor: number;
   dominio: [number, number];
   onChange: (v: number) => void;
@@ -16,7 +24,8 @@ interface Props {
   marcas?: { pos: number; rotulo: string; tipo?: "periodo" | "evento" }[];
 }
 
-export function TimeScrubber({ valor, dominio, onChange, marcas = [] }: Props) {
+export function TimeScrubber({
+  largura, valor, dominio, onChange, marcas = [] }: Props) {
   const [ini, fim] = dominio;
   const amplitude = fim - ini;
   const pct = amplitude === 0 ? 0 : ((valor - ini) / amplitude) * 100;
@@ -85,7 +94,10 @@ export function TimeScrubber({ valor, dominio, onChange, marcas = [] }: Props) {
   }, [valor, ini, fim, amplitude, onChange, parar, normalizar]);
 
   return (
-    <div className="w-full max-w-3xl">
+    <div
+      className={largura ? "w-full" : "w-full max-w-3xl"}
+      style={largura ? { maxWidth: largura } : undefined}
+    >
       <div className="mb-1 flex items-baseline justify-between">
         <span className="font-mono text-lg text-amber-400">
           {rotuloDeAno(valor, amplitude)}
@@ -129,10 +141,15 @@ export function TimeScrubber({ valor, dominio, onChange, marcas = [] }: Props) {
         </div>
       </div>
 
-      <div className="relative py-3">
-        <div className="h-1 rounded bg-slate-700">
+      {/*
+        Trilho de 8 px e não de 4, e punho de 16 e não de 12: a barra é o
+        controle mais usado da tela e cobre 3.600 anos, então ela é alvo de
+        arrasto antes de ser enfeite.
+      */}
+      <div className="relative py-4">
+        <div className="h-2 rounded bg-slate-700">
           <div
-            className="h-1 rounded bg-amber-500"
+            className="h-2 rounded bg-amber-500"
             style={{ width: `${Math.min(100, Math.max(0, pct))}%` }}
           />
         </div>
@@ -144,8 +161,8 @@ export function TimeScrubber({ valor, dominio, onChange, marcas = [] }: Props) {
             title={m.rotulo}
             className={
               m.tipo === "evento"
-                ? "absolute top-0.5 h-6 w-px bg-rose-400/80"
-                : "absolute top-1.5 h-4 w-px bg-sky-400/70"
+                ? "absolute top-0.5 h-8 w-px bg-rose-400/80"
+                : "absolute top-2 h-5 w-px bg-sky-400/70"
             }
             style={{ left: `${((m.pos - ini) / amplitude) * 100}%` }}
           />
@@ -166,7 +183,7 @@ export function TimeScrubber({ valor, dominio, onChange, marcas = [] }: Props) {
         />
 
         <span
-          className="pointer-events-none absolute top-1 h-3 w-3 -translate-x-1/2 rounded-full bg-amber-400 ring-2 ring-amber-400/30"
+          className="pointer-events-none absolute top-1.5 h-4 w-4 -translate-x-1/2 rounded-full bg-amber-400 ring-2 ring-amber-400/30"
           style={{ left: `${Math.min(100, Math.max(0, pct))}%` }}
         />
       </div>

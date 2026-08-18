@@ -429,6 +429,61 @@ describe("Atlas", () => {
     });
   });
 
+  describe("tela cheia", () => {
+    const botao = (c: HTMLElement) =>
+      [...c.querySelectorAll("button")].find((b) =>
+        /tela cheia/i.test(b.textContent ?? "")
+      )!;
+
+    it("oferece a opção e diz em que estado está", () => {
+      const { container } = montar();
+      expect(botao(container).textContent).toBe("Tela cheia");
+      expect(botao(container).getAttribute("aria-pressed")).toBe("false");
+    });
+
+    /*
+     * Pede na RAIZ e não só na área do mapa: a raiz leva a barra de tempo junto,
+     * e mapa em tela cheia sem linha do tempo seria um mapa mudo. É também a raiz
+     * que o ResizeObserver observa, então o mapa cresce sem conta nova.
+     */
+    it("pede tela cheia no elemento que contém o mapa e a barra", () => {
+      const { container } = montar();
+      const pedidos: Element[] = [];
+      const proto = Element.prototype as unknown as {
+        requestFullscreen?: () => Promise<void>;
+      };
+      const antes = proto.requestFullscreen;
+      proto.requestFullscreen = function (this: Element) {
+        pedidos.push(this);
+        return Promise.resolve();
+      };
+      try {
+        fireEvent.click(botao(container));
+      } finally {
+        proto.requestFullscreen = antes;
+      }
+      expect(pedidos).toHaveLength(1);
+      const alvo = pedidos[0];
+      expect(alvo.querySelector("canvas")).toBeTruthy();
+      expect(alvo.querySelector('input[type="range"]')).toBeTruthy();
+    });
+
+    /* Recusa do navegador não pode derrubar o mapa. */
+    it("engole a recusa do navegador", () => {
+      const { container } = montar();
+      const proto = Element.prototype as unknown as {
+        requestFullscreen?: () => Promise<void>;
+      };
+      const antes = proto.requestFullscreen;
+      proto.requestFullscreen = () => Promise.reject(new Error("não permitido"));
+      try {
+        expect(() => fireEvent.click(botao(container))).not.toThrow();
+      } finally {
+        proto.requestFullscreen = antes;
+      }
+    });
+  });
+
   describe("limite de deslocamento", () => {
     /* Com o mundo inteiro à vista não há para onde arrastar. */
     it("é zero quando o desenho é menor que o canvas", () => {
