@@ -1,0 +1,90 @@
+{
+  "id": "saipan",
+  "nome": "Saipan",
+  "outrosNomes": [
+    "Marianas do Norte"
+  ],
+  "ponto": [
+    145.75,
+    15.19
+  ],
+  "nota": "Atravessou cinco regimes em oitenta anos, e três deles não eram soberania. É o exemplo de por que o registro precisa do campo de vínculo: entre 1920 e 1944 o Japão administrava sob mandato da Liga das Nações, com proibição expressa de fortificar — cláusula que violou.",
+  "fontes": [
+    "tratado-germano-espanhol-1899",
+    "mandato-japones-pacifico-1920",
+    "acordo-tutela-pacifico-1947",
+    "compact-livre-associacao-1986",
+    "spector-eagle-against-the-sun"
+  ],
+  "soberania": [
+    {
+      "desde": "1565",
+      "ate": "1899-02-12",
+      "poder": "Espanha",
+      "vinculo": "soberania",
+      "nota": "Parte das Marianas espanholas.",
+      "fontes": [
+        "tratado-germano-espanhol-1899"
+      ]
+    },
+    {
+      "desde": "1899-02-12",
+      "ate": "1914-10",
+      "poder": "Alemanha",
+      "vinculo": "soberania",
+      "nota": "Comprada da Espanha junto com as Carolinas e as Palau, por 25 milhões de pesetas.",
+      "fontes": [
+        "tratado-germano-espanhol-1899"
+      ]
+    },
+    {
+      "desde": "1914-10",
+      "ate": "1920-12-17",
+      "poder": "Japão",
+      "vinculo": "ocupacao-militar",
+      "nota": "Tomada no início da Primeira Guerra, quando o Japão entrou como aliado britânico e ocupou as colônias alemãs do Pacífico norte.",
+      "fontes": [
+        "mandato-japones-pacifico-1920"
+      ]
+    },
+    {
+      "desde": "1920-12-17",
+      "ate": "1944-07-09",
+      "poder": "Japão",
+      "vinculo": "mandato",
+      "nota": "Mandato de Classe C, com obrigação de prestar contas à Liga e proibição de fortificação. O Japão povoou a ilha com colonos e trabalhadores okinawanos e coreanos — nos anos 1930 já havia mais japoneses que chamorros — e construiu bases, violando o mandato.",
+      "fontes": [
+        "mandato-japones-pacifico-1920"
+      ]
+    },
+    {
+      "desde": "1944-07-09",
+      "ate": "1947-04-02",
+      "poder": "Estados Unidos",
+      "vinculo": "ocupacao-militar",
+      "nota": "A batalha de junho e julho de 1944 matou quase toda a guarnição japonesa e milhares de civis, muitos em suicídios em massa nos penhascos do norte. A queda de Saipan pôs as Marianas ao alcance dos bombardeiros B-29 e derrubou o gabinete de Tojo.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1947-04-02",
+      "ate": "1986-11-03",
+      "poder": "Estados Unidos",
+      "vinculo": "tutela",
+      "nota": "Parte do Território sob Tutela das Ilhas do Pacífico.",
+      "fontes": [
+        "acordo-tutela-pacifico-1947"
+      ]
+    },
+    {
+      "desde": "1986-11-03",
+      "poder": "Estados Unidos",
+      "vinculo": "soberania",
+      "nota": "Ao contrário das Marshall e da Micronésia, as Marianas do Norte escolheram união política com os Estados Unidos, não independência. Commonwealth com governo próprio e habitantes cidadãos americanos.",
+      "fontes": [
+        "compact-livre-associacao-1986"
+      ]
+    }
+  ]
+}

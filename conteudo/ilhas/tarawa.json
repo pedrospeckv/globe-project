@@ -1,0 +1,68 @@
+{
+  "id": "tarawa",
+  "nome": "Tarawa",
+  "outrosNomes": [
+    "Kiribati",
+    "Ilhas Gilbert"
+  ],
+  "ponto": [
+    172.98,
+    1.33
+  ],
+  "nota": "Foi a primeira vez que os Estados Unidos assaltaram uma praia defendida no Pacífico, em novembro de 1943, e o custo em três dias mudou a doutrina de desembarque para o resto da guerra. Hoje é a capital de Kiribati, um dos países mais ameaçados pela elevação do nível do mar.",
+  "fontes": [
+    "spector-eagle-against-the-sun",
+    "compact-livre-associacao-1986"
+  ],
+  "soberania": [
+    {
+      "desde": "1892",
+      "ate": "1916-01-12",
+      "poder": "Reino Unido",
+      "vinculo": "protetorado",
+      "nota": "Protetorado britânico das Ilhas Gilbert e Ellice, declarado em 1892.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1916-01-12",
+      "ate": "1941-12-10",
+      "poder": "Reino Unido",
+      "vinculo": "soberania",
+      "nota": "Convertido em colônia da Coroa.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1941-12-10",
+      "ate": "1943-11-23",
+      "poder": "Japão",
+      "vinculo": "ocupacao-militar",
+      "nota": "Ocupada dias depois de Pearl Harbor e fortificada com trabalho forçado. O comandante japonês declarou que um milhão de homens não tomariam Tarawa em cem anos.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1943-11-23",
+      "ate": "1979-07-12",
+      "poder": "Reino Unido",
+      "vinculo": "soberania",
+      "nota": "Retomada em cerca de 76 horas de combate, com mais de mil mortos americanos e quase toda a guarnição japonesa morta, num atol de pouco mais de 3 km². As imagens dos corpos na praia foram divulgadas nos Estados Unidos e mudaram a percepção pública da guerra.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1979-07-12",
+      "poder": "Kiribati",
+      "vinculo": "soberania",
+      "nota": "Independência em 12 de julho de 1979.",
+      "fontes": [
+        "compact-livre-associacao-1986"
+      ]
+    }
+  ]
+}

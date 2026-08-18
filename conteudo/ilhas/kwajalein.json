@@ -1,0 +1,78 @@
+{
+  "id": "kwajalein",
+  "nome": "Kwajalein",
+  "outrosNomes": [
+    "Kuwajleen",
+    "Ilhas Marshall"
+  ],
+  "ponto": [
+    167.73,
+    8.72
+  ],
+  "nota": "O maior atol do mundo por área de lagoa. Foi protetorado alemão, mandato japonês, tutela americana, e hoje é território de um Estado soberano que arrenda o atol aos Estados Unidos para testes de mísseis — quatro regimes, e só dois deles soberania.",
+  "fontes": [
+    "mandato-japones-pacifico-1920",
+    "acordo-tutela-pacifico-1947",
+    "compact-livre-associacao-1986",
+    "spector-eagle-against-the-sun"
+  ],
+  "soberania": [
+    {
+      "desde": "1885",
+      "ate": "1914-10",
+      "poder": "Alemanha",
+      "vinculo": "protetorado",
+      "nota": "Protetorado alemão das Ilhas Marshall, administrado por companhia comercial antes de passar ao governo imperial.",
+      "fontes": [
+        "mandato-japones-pacifico-1920"
+      ]
+    },
+    {
+      "desde": "1914-10",
+      "ate": "1920-12-17",
+      "poder": "Japão",
+      "vinculo": "ocupacao-militar",
+      "fontes": [
+        "mandato-japones-pacifico-1920"
+      ]
+    },
+    {
+      "desde": "1920-12-17",
+      "ate": "1944-02-04",
+      "poder": "Japão",
+      "vinculo": "mandato",
+      "fontes": [
+        "mandato-japones-pacifico-1920"
+      ]
+    },
+    {
+      "desde": "1944-02-04",
+      "ate": "1947-04-02",
+      "poder": "Estados Unidos",
+      "vinculo": "ocupacao-militar",
+      "nota": "A batalha de Kwajalein, no fim de janeiro e começo de fevereiro de 1944, foi a primeira invasão americana de território que o Japão administrava havia mais de vinte anos. Serviu de ensaio para as Marianas.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1947-04-02",
+      "ate": "1986-11-03",
+      "poder": "Estados Unidos",
+      "vinculo": "tutela",
+      "nota": "No mesmo período, e sob a mesma tutela, os Estados Unidos realizaram dezenas de testes nucleares nas Marshall, em Bikini e Enewetak, com deslocamento de populações que em parte nunca voltaram.",
+      "fontes": [
+        "acordo-tutela-pacifico-1947"
+      ]
+    },
+    {
+      "desde": "1986-11-03",
+      "poder": "Ilhas Marshall",
+      "vinculo": "soberania",
+      "nota": "Estado soberano em livre associação, membro da ONU. O atol segue arrendado aos Estados Unidos como campo de provas de mísseis.",
+      "fontes": [
+        "compact-livre-associacao-1986"
+      ]
+    }
+  ]
+}

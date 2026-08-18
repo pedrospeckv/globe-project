@@ -1,0 +1,69 @@
+{
+  "id": "okinawa",
+  "nome": "Okinawa",
+  "outrosNomes": [
+    "Ryukyu",
+    "Uchinaa"
+  ],
+  "ponto": [
+    127.98,
+    26.33
+  ],
+  "nota": "Foi reino próprio por quatro séculos e meio antes de ser anexada, e é o único lugar do Japão onde houve batalha terrestre em massa com população civil no meio. Depois ficou 27 anos sob administração americana, mais tempo do que qualquer outro território japonês.",
+  "fontes": [
+    "tratado-de-sao-francisco-1951",
+    "acordo-reversao-okinawa-1971",
+    "spector-eagle-against-the-sun"
+  ],
+  "soberania": [
+    {
+      "desde": "1429",
+      "ate": "1879-04-04",
+      "poder": "Reino de Ryukyu",
+      "vinculo": "soberania",
+      "nota": "Reino unificado em 1429, com comércio próprio da Coreia ao Sudeste Asiático. Pagava tributo à China e, a partir de 1609, estava sob controle de fato do domínio de Satsuma — situação dupla que durou dois séculos e meio.",
+      "fontes": [
+        "tratado-de-sao-francisco-1951"
+      ]
+    },
+    {
+      "desde": "1879-04-04",
+      "ate": "1945-06-22",
+      "poder": "Japão",
+      "vinculo": "soberania",
+      "nota": "Anexado e transformado em província de Okinawa, com o rei deposto e levado a Tóquio. Seguiu-se política de assimilação que suprimiu a língua e a religião locais.",
+      "fontes": [
+        "tratado-de-sao-francisco-1951"
+      ]
+    },
+    {
+      "desde": "1945-06-22",
+      "ate": "1952-04-28",
+      "poder": "Estados Unidos",
+      "vinculo": "ocupacao-militar",
+      "nota": "A batalha de abril a junho de 1945 matou mais de 12 mil americanos, cerca de 77 mil soldados japoneses e entre 100 e 150 mil civis okinawanos, algo próximo de um quarto da população da ilha. Foi o que pesou no cálculo sobre invadir o Japão continental.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1952-04-28",
+      "ate": "1972-05-15",
+      "poder": "Estados Unidos",
+      "vinculo": "administracao-estrangeira",
+      "nota": "Administração civil americana pelo artigo 3, com moeda e documento de viagem próprios e desapropriações extensas para bases. O movimento pela reversão cresceu nos anos 1960.",
+      "fontes": [
+        "tratado-de-sao-francisco-1951"
+      ]
+    },
+    {
+      "desde": "1972-05-15",
+      "poder": "Japão",
+      "vinculo": "soberania",
+      "nota": "Devolvida em 15 de maio de 1972. As bases americanas permaneceram: Okinawa é uma fração pequena do território japonês e concentra a maior parte da área militar dos Estados Unidos no país.",
+      "fontes": [
+        "acordo-reversao-okinawa-1971"
+      ]
+    }
+  ]
+}

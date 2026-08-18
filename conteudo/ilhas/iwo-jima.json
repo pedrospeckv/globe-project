@@ -1,0 +1,58 @@
+{
+  "id": "iwo-jima",
+  "nome": "Iwo Jima",
+  "outrosNomes": [
+    "Iwo To",
+    "Ilhas Vulcão"
+  ],
+  "ponto": [
+    141.32,
+    24.78
+  ],
+  "nota": "Território japonês desde 1891, nunca colônia. Depois da batalha ficou 23 anos sob administração americana pelo artigo 3 do Tratado de São Francisco — um regime que não é ocupação de guerra nem tutela da ONU: os Estados Unidos administravam e o Japão retinha o que a diplomacia chamou de soberania residual.",
+  "fontes": [
+    "tratado-de-sao-francisco-1951",
+    "spector-eagle-against-the-sun"
+  ],
+  "soberania": [
+    {
+      "desde": "1891",
+      "ate": "1945-03-26",
+      "poder": "Japão",
+      "vinculo": "soberania",
+      "nota": "Incorporada formalmente ao Japão em 1891 e administrada como parte de Tóquio. Tinha cerca de mil habitantes civis, evacuados em 1944.",
+      "fontes": [
+        "tratado-de-sao-francisco-1951"
+      ]
+    },
+    {
+      "desde": "1945-03-26",
+      "ate": "1952-04-28",
+      "poder": "Estados Unidos",
+      "vinculo": "ocupacao-militar",
+      "nota": "Cinco semanas de combate a partir de 19 de fevereiro de 1945, com quase 7 mil mortos americanos e a guarnição japonesa de mais de 20 mil praticamente inteira morta. A ilha era disputada pelos aeródromos, no meio da rota dos B-29 para o Japão.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1952-04-28",
+      "ate": "1968-06-26",
+      "poder": "Estados Unidos",
+      "vinculo": "administracao-estrangeira",
+      "nota": "Administração civil americana sob o artigo 3 do Tratado de São Francisco, sem transferência de soberania.",
+      "fontes": [
+        "tratado-de-sao-francisco-1951"
+      ]
+    },
+    {
+      "desde": "1968-06-26",
+      "poder": "Japão",
+      "vinculo": "soberania",
+      "nota": "Devolvida com o resto das Bonin, quatro anos antes de Okinawa. Hoje só tem instalação militar japonesa, e os antigos moradores civis nunca foram autorizados a voltar.",
+      "fontes": [
+        "tratado-de-sao-francisco-1951"
+      ]
+    }
+  ]
+}

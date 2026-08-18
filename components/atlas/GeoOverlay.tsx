@@ -23,6 +23,12 @@ export interface IlhaMarcada {
   ponto: [number, number];
   /** Quem exercia. `null` onde a fonte não atribui posse a ninguém. */
   poder: string | null;
+  /**
+   * A natureza do laço, já em texto. Vazio quando é soberania — o caso comum
+   * não precisa de etiqueta, e escrever "(soberania)" em treze das dezessete
+   * ilhas viraria ruído que esconde as quatro que importam.
+   */
+  vinculo: string | null;
   disputada: boolean;
 }
 
@@ -247,11 +253,23 @@ export function GeoOverlay({
            * lado por outro caminho. Quem exerce e quem reivindica são coisas
            * diferentes, e as duas cabem numa linha.
            */
+          /*
+           * O vínculo entra entre parênteses e só quando não é soberania.
+           * É a diferença entre ocupar e possuir: em 1943 quem mandava em Guam
+           * era o Japão e quem detinha título era Washington, e a etiqueta
+           * precisa dizer "ocupação militar" para não afirmar a segunda coisa.
+           */
+          const quem = i.poder
+            ? i.vinculo
+              ? `${i.poder} (${i.vinculo})`
+              : i.poder
+            : "sem soberania exercida";
+
           const rotulo = i.disputada
             ? `${i.nome} — soberania disputada${
                 i.poder ? `, administrada por ${i.poder}` : ""
               }`
-            : `${i.nome} — ${i.poder ?? "sem soberania exercida"}`;
+            : `${i.nome} — ${quem}`;
 
           return (
             <g key={i.id} transform={`translate(${x},${y})`}>

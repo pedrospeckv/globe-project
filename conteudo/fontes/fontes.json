@@ -16,12 +16,28 @@
     "citacao": "Fixou a transição para a independência de Cabo Verde, consumada em 5 de julho de 1975. Veio depois da Revolução dos Cravos, que encerrou o Estado Novo e com ele a política de províncias ultramarinas."
   },
   {
+    "id": "acordo-reversao-okinawa-1971",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo entre Japão e Estados Unidos sobre as Ilhas Ryukyu e Daito",
+    "publicacao": "Tóquio e Washington",
+    "data": "1971-06-17",
+    "citacao": "Devolveu Okinawa à administração japonesa em 15 de maio de 1972, depois de 27 anos. As bases americanas permaneceram, e Okinawa concentra até hoje a maior parte da presença militar dos Estados Unidos no Japão."
+  },
+  {
     "id": "acordo-sexta-feira-santa-1998",
     "tipo": "documento-oficial",
     "titulo": "Acordo de Belfast (Acordo da Sexta-Feira Santa)",
     "publicacao": "Governos do Reino Unido e da Irlanda e partidos norte-irlandeses",
     "data": "1998-04-10",
     "citacao": "Encerrou trinta anos de conflito armado com governo de partilha de poder, desarmamento e o princípio do consentimento: a Irlanda do Norte só muda de status se sua maioria quiser. É o texto contra o qual se mede o problema de fronteira aberto pela saída da União Europeia."
+  },
+  {
+    "id": "acordo-tutela-pacifico-1947",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Tutela para as Antigas Ilhas Japonesas sob Mandato",
+    "publicacao": "Conselho de Segurança da ONU",
+    "data": "1947-04-02",
+    "citacao": "Criou o Território sob Tutela das Ilhas do Pacífico, administrado pelos Estados Unidos como única tutela estratégica da história da ONU. A obrigação declarada era levar o território ao governo próprio ou à independência — o que se completou entre 1986 e 1994."
   },
   {
     "id": "acordos-de-genebra-1954",
@@ -441,6 +457,14 @@
     "publicacao": "Câmara dos Representantes dos Estados Unidos",
     "data": "2022-12-22",
     "citacao": "Relatório final da comissão parlamentar sobre a invasão do Capitólio, com depoimentos majoritariamente de integrantes do próprio governo então em exercício. Suas conclusões são contestadas por parte do espectro político americano, e o atlas registra a fonte com essa ressalva."
+  },
+  {
+    "id": "compact-livre-associacao-1986",
+    "tipo": "documento-oficial",
+    "titulo": "Compact of Free Association",
+    "publicacao": "Estados Unidos, Ilhas Marshall e Micronésia",
+    "data": "1986-11-03",
+    "citacao": "Encerrou a tutela para as Marshall e a Micronésia, que se tornaram Estados soberanos com defesa delegada aos Estados Unidos. Palau seguiu o mesmo caminho em 1994. São membros da ONU por direito próprio."
   },
   {
     "id": "comuns-groenlandia-2026",
@@ -1293,6 +1317,14 @@
     "citacao": "Documento imposto ao rei João pelos barões, que estabeleceu limites ao poder real. Sua leitura como origem das liberdades inglesas é construção posterior, sobretudo do século XVII."
   },
   {
+    "id": "mandato-japones-pacifico-1920",
+    "tipo": "documento-oficial",
+    "titulo": "Mandato de Classe C da Liga das Nações para as ilhas do Pacífico ao norte do Equador",
+    "publicacao": "Liga das Nações",
+    "data": "1920-12-17",
+    "citacao": "Conferiu ao Japão a administração das antigas colônias alemãs no Pacífico norte — Marianas do Norte, Carolinas, Marshall. Mandato não transfere soberania: obriga a prestar contas anuais à Liga e proíbe fortificação militar, cláusula que o Japão violou nos anos 1930."
+  },
+  {
     "id": "massie-nicolau-alexandra",
     "tipo": "livro",
     "titulo": "Nicholas and Alexandra",
@@ -1750,6 +1782,15 @@
     "citacao": "Historiador cristão que escreveu cerca de 25 anos depois dos fatos. O livro VII narra o assassinato de Hipátia por uma turba em Alexandria, em 415, e atribui a responsabilidade ao clima criado pelo conflito entre o bispo Cirilo e o prefeito Orestes. É testemunho de dentro da Igreja, não de um adversário dela."
   },
   {
+    "id": "spector-eagle-against-the-sun",
+    "tipo": "livro",
+    "titulo": "Eagle Against the Sun: The American War with Japan",
+    "autor": "Ronald H. Spector",
+    "publicacao": "Free Press",
+    "data": "1985",
+    "citacao": "História militar da guerra do Pacífico. Referência para as datas e o custo das campanhas de ilha em ilha — Tarawa, Kwajalein, Saipan, Peleliu, Iwo Jima, Okinawa."
+  },
+  {
     "id": "sportspro-arsenal-ruanda-2025",
     "tipo": "reportagem",
     "titulo": "Arsenal drop controversial Visit Rwanda sleeve sponsorship",
@@ -1883,12 +1924,36 @@
     "citacao": "Expediu mandado de prisão contra o presidente russo e a comissária presidencial para os direitos da criança pela deportação ilegal de crianças de áreas ocupadas da Ucrânia. A Rússia não reconhece a jurisdição do tribunal, e o mandado não foi executado."
   },
   {
+    "id": "tratado-de-paris-1898",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Paris entre Espanha e Estados Unidos",
+    "publicacao": "Paris",
+    "data": "1898-12-10",
+    "citacao": "Encerrou a Guerra Hispano-Americana. A Espanha cedeu Guam, Porto Rico e as Filipinas aos Estados Unidos — Guam por cessão expressa, o que a separa juridicamente do resto das Marianas, vendidas à Alemanha no ano seguinte."
+  },
+  {
+    "id": "tratado-de-sao-francisco-1951",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Paz com o Japão",
+    "publicacao": "São Francisco",
+    "data": "1951-09-08",
+    "citacao": "O artigo 2 renunciou às possessões japonesas conquistadas desde 1895. O artigo 3 colocou as Ryukyu e as Bonin sob administração americana sem transferir soberania — o arranjo que a diplomacia japonesa chamou de soberania residual, e que devolveu Iwo Jima em 1968 e Okinawa em 1972."
+  },
+  {
     "id": "tratado-dois-mais-quatro-1990",
     "tipo": "documento-oficial",
     "titulo": "Tratado sobre o Acordo Final com respeito à Alemanha (Dois Mais Quatro)",
     "publicacao": "RFA, RDA, Estados Unidos, União Soviética, Reino Unido e França",
     "data": "1990-09-12",
     "citacao": "Devolveu à Alemanha a soberania plena suspensa desde 1945, fixou o efetivo máximo de suas forças armadas e reconheceu em definitivo a fronteira do Oder-Neisse com a Polônia. É o documento que tornou a reunificação juridicamente possível diante das quatro potências ocupantes."
+  },
+  {
+    "id": "tratado-germano-espanhol-1899",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado germano-espanhol sobre as Carolinas, Marianas e Palau",
+    "publicacao": "Madri",
+    "data": "1899-02-12",
+    "citacao": "A Espanha vendeu à Alemanha as Carolinas, as Palau e as Marianas exceto Guam por 25 milhões de pesetas. É a razão de Guam ter história separada das outras Marianas por todo o século XX."
   },
   {
     "id": "tratado-kanagawa-1854",

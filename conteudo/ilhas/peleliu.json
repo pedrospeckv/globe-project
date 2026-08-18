@@ -1,0 +1,88 @@
+{
+  "id": "peleliu",
+  "nome": "Peleliu",
+  "outrosNomes": [
+    "Beliliou",
+    "Palau"
+  ],
+  "ponto": [
+    134.24,
+    7.0
+  ],
+  "nota": "A batalha mais contestada da campanha: prevista para durar poucos dias, durou de setembro a novembro de 1944, e há historiadores que sustentam que era desnecessária, porque a ilha podia ter sido contornada como Chuuk foi. Palau é hoje Estado soberano, e foi o último território sob tutela da ONU a deixar de existir como tal.",
+  "fontes": [
+    "tratado-germano-espanhol-1899",
+    "mandato-japones-pacifico-1920",
+    "acordo-tutela-pacifico-1947",
+    "compact-livre-associacao-1986",
+    "spector-eagle-against-the-sun"
+  ],
+  "soberania": [
+    {
+      "desde": "1886",
+      "ate": "1899-02-12",
+      "poder": "Espanha",
+      "vinculo": "soberania",
+      "fontes": [
+        "tratado-germano-espanhol-1899"
+      ]
+    },
+    {
+      "desde": "1899-02-12",
+      "ate": "1914-10",
+      "poder": "Alemanha",
+      "vinculo": "soberania",
+      "nota": "Comprada com as Carolinas. A Alemanha explorou fosfato nas ilhas.",
+      "fontes": [
+        "tratado-germano-espanhol-1899"
+      ]
+    },
+    {
+      "desde": "1914-10",
+      "ate": "1920-12-17",
+      "poder": "Japão",
+      "vinculo": "ocupacao-militar",
+      "fontes": [
+        "mandato-japones-pacifico-1920"
+      ]
+    },
+    {
+      "desde": "1920-12-17",
+      "ate": "1944-11-27",
+      "poder": "Japão",
+      "vinculo": "mandato",
+      "nota": "Sob mandato, Koror virou a capital administrativa de todo o Pacífico japonês.",
+      "fontes": [
+        "mandato-japones-pacifico-1920"
+      ]
+    },
+    {
+      "desde": "1944-11-27",
+      "ate": "1947-04-02",
+      "poder": "Estados Unidos",
+      "vinculo": "ocupacao-militar",
+      "nota": "Mais de dois meses de combate num terreno de coral e cavernas, com quase toda a guarnição japonesa morta e baixas americanas muito acima do previsto. A utilidade estratégica da operação é discutida até hoje.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1947-04-02",
+      "ate": "1994-10-01",
+      "poder": "Estados Unidos",
+      "vinculo": "tutela",
+      "fontes": [
+        "acordo-tutela-pacifico-1947"
+      ]
+    },
+    {
+      "desde": "1994-10-01",
+      "poder": "Palau",
+      "vinculo": "soberania",
+      "nota": "Independência em livre associação, oito anos depois das Marshall e da Micronésia. Com ela encerrou-se o Território sob Tutela das Ilhas do Pacífico, e com ele o sistema de tutela da ONU.",
+      "fontes": [
+        "compact-livre-associacao-1986"
+      ]
+    }
+  ]
+}

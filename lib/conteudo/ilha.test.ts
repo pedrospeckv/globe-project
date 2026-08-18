@@ -14,14 +14,24 @@ const em = (id: string, data: string) =>
   soberaniaEm(ilha(id), anoFracionarioDe(data))?.poder ?? null;
 
 describe("acervo de ilhas", () => {
-  it("carrega as sete do Atlântico Sul", () => {
+  it("carrega o Atlântico Sul e o Pacífico", () => {
     expect(acervo.ilhas.map((i) => i.id).sort()).toEqual([
       "acores",
       "cabo-verde",
+      "chuuk",
       "fernando-de-noronha",
+      "guadalcanal",
+      "guam",
+      "iwo-jima",
+      "kwajalein",
       "madeira",
       "malvinas-falklands",
+      "midway",
+      "okinawa",
+      "peleliu",
+      "saipan",
       "santa-helena",
+      "tarawa",
       "tristao-da-cunha",
     ]);
   });
@@ -38,14 +48,32 @@ describe("acervo de ilhas", () => {
     }
   });
 
-  it("as coordenadas caem no Atlântico, não em terra firme continental", () => {
-    for (const i of acervo.ilhas) {
-      const [lon, lat] = i.ponto;
-      expect(lon, i.id).toBeGreaterThan(-70);
-      expect(lon, i.id).toBeLessThan(0);
-      expect(lat, i.id).toBeGreaterThan(-60);
-      expect(lat, i.id).toBeLessThan(45);
+  /*
+   * O risco real na coordenada é a troca de longitude por latitude. Para as
+   * ilhas do Pacífico o schema já pega — longitude 145 não passa como latitude
+   * —, mas Santa Helena em [-5,7; -15,9] sobreviveria invertida sem que nada
+   * acusasse. Daí a tabela de conferência por ilha, com tolerância de 1 grau.
+   */
+  it("as coordenadas conhecidas estão na ordem [longitude, latitude]", () => {
+    const esperado: Record<string, [number, number]> = {
+      "santa-helena": [-5.71, -15.96],
+      "fernando-de-noronha": [-32.42, -3.85],
+      "tristao-da-cunha": [-12.28, -37.11],
+      guam: [144.75, 13.45],
+      okinawa: [127.98, 26.33],
+      midway: [-177.37, 28.21],
+      guadalcanal: [160.15, -9.61],
+    };
+    for (const [id, [lon, lat]] of Object.entries(esperado)) {
+      const p = ilha(id).ponto;
+      expect(p[0], `${id} longitude`).toBeCloseTo(lon, 0);
+      expect(p[1], `${id} latitude`).toBeCloseTo(lat, 0);
     }
+  });
+
+  it("nenhuma ilha repete a mesma posição", () => {
+    const chaves = acervo.ilhas.map((i) => i.ponto.join(","));
+    expect(new Set(chaves).size).toBe(chaves.length);
   });
 });
 
@@ -131,5 +159,92 @@ describe("schema", () => {
   it("recusa coordenada fora do planeta", () => {
     expect(Ilha.safeParse({ ...base, ponto: [200, 0] }).success).toBe(false);
     expect(Ilha.safeParse({ ...base, ponto: [0, 100] }).success).toBe(false);
+  });
+});
+
+describe("vínculo", () => {
+  const vinculoEm = (id: string, data: string) =>
+    soberaniaEm(ilha(id), anoFracionarioDe(data))?.vinculo ?? null;
+
+  /*
+   * O campo existe por causa deste caso. Entre 1941 e 1944 quem mandava em
+   * Guam era o Japão e quem detinha título era Washington. Sem `vinculo`, o
+   * registro diria "Japão" e afirmaria posse que nenhum documento dá.
+   */
+  it("separa ocupar de possuir em Guam", () => {
+    expect(em("guam", "1940")).toBe("Estados Unidos");
+    expect(vinculoEm("guam", "1940")).toBe("soberania");
+
+    expect(em("guam", "1943")).toBe("Japão");
+    expect(vinculoEm("guam", "1943")).toBe("ocupacao-militar");
+
+    expect(em("guam", "1950")).toBe("Estados Unidos");
+    expect(vinculoEm("guam", "1950")).toBe("soberania");
+  });
+
+  it("registra mandato e tutela como administração, não como soberania", () => {
+    expect(vinculoEm("saipan", "1930")).toBe("mandato");
+    expect(em("saipan", "1930")).toBe("Japão");
+    expect(vinculoEm("saipan", "1960")).toBe("tutela");
+    expect(em("saipan", "1960")).toBe("Estados Unidos");
+    /* Só em 1986 a soberania americana passa a ser afirmada. */
+    expect(vinculoEm("saipan", "1990")).toBe("soberania");
+  });
+
+  /* Artigo 3 do Tratado de São Francisco: nem ocupação nem tutela. */
+  it("distingue a administração estrangeira de Okinawa e Iwo Jima", () => {
+    expect(vinculoEm("okinawa", "1950")).toBe("ocupacao-militar");
+    expect(vinculoEm("okinawa", "1960")).toBe("administracao-estrangeira");
+    expect(vinculoEm("okinawa", "1980")).toBe("soberania");
+    expect(em("okinawa", "1980")).toBe("Japão");
+
+    expect(vinculoEm("iwo-jima", "1960")).toBe("administracao-estrangeira");
+    expect(vinculoEm("iwo-jima", "1970")).toBe("soberania");
+  });
+
+  it("registra protetorado onde havia protetorado", () => {
+    expect(vinculoEm("guadalcanal", "1900")).toBe("protetorado");
+    expect(vinculoEm("kwajalein", "1900")).toBe("protetorado");
+    expect(em("kwajalein", "1900")).toBe("Alemanha");
+  });
+
+  /*
+   * Estado em livre associação é soberano, e classificá-lo de outro modo
+   * rebaixaria o que ele é. Marshall, Micronésia e Palau são membros da ONU.
+   */
+  it("trata livre associação como soberania do próprio país", () => {
+    expect(em("kwajalein", "2020")).toBe("Ilhas Marshall");
+    expect(vinculoEm("kwajalein", "2020")).toBe("soberania");
+    expect(em("chuuk", "2020")).toBe("Micronésia");
+    expect(em("peleliu", "2020")).toBe("Palau");
+    /* Palau saiu da tutela oito anos depois das outras duas. */
+    expect(em("peleliu", "1990")).toBe("Estados Unidos");
+    expect(vinculoEm("peleliu", "1990")).toBe("tutela");
+  });
+
+  it("Midway nunca mudou de mão — é o contraste do conjunto", () => {
+    expect(ilha("midway").soberania).toHaveLength(1);
+    for (const ano of ["1900", "1942", "2020"]) {
+      expect(em("midway", ano)).toBe("Estados Unidos");
+    }
+  });
+
+  it("Chuuk foi contornada: mandato japonês até a rendição de 1945", () => {
+    /* Hailstone destruiu a frota em fevereiro de 1944 e não tomou a ilha. */
+    expect(em("chuuk", "1944-06")).toBe("Japão");
+    expect(vinculoEm("chuuk", "1944-06")).toBe("mandato");
+    expect(em("chuuk", "1946")).toBe("Estados Unidos");
+  });
+
+  it("todo trecho declara vínculo, e o padrão é soberania", () => {
+    for (const i of acervo.ilhas) {
+      for (const s of i.soberania) {
+        expect(s.vinculo, `${i.id} em ${s.desde}`).toBeTruthy();
+      }
+    }
+    /* Os arquivos do Atlântico foram escritos antes do campo existir. */
+    expect(soberaniaEm(ilha("madeira"), anoFracionarioDe("1500"))?.vinculo).toBe(
+      "soberania"
+    );
   });
 });

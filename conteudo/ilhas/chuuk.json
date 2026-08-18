@@ -1,0 +1,88 @@
+{
+  "id": "chuuk",
+  "nome": "Chuuk",
+  "outrosNomes": [
+    "Truk",
+    "Carolinas"
+  ],
+  "ponto": [
+    151.85,
+    7.42
+  ],
+  "nota": "Foi a maior base naval japonesa do Pacífico central, chamada de Pearl Harbor do Japão. E foi contornada: os Estados Unidos destruíram a frota ancorada em fevereiro de 1944 e nunca invadiram a ilha, cuja guarnição só se rendeu em setembro de 1945. Mostra que a linha de frente não é a linha de soberania.",
+  "fontes": [
+    "tratado-germano-espanhol-1899",
+    "mandato-japones-pacifico-1920",
+    "acordo-tutela-pacifico-1947",
+    "compact-livre-associacao-1986",
+    "spector-eagle-against-the-sun"
+  ],
+  "soberania": [
+    {
+      "desde": "1886",
+      "ate": "1899-02-12",
+      "poder": "Espanha",
+      "vinculo": "soberania",
+      "nota": "A soberania espanhola sobre as Carolinas foi confirmada em 1885 numa mediação do papa Leão XIII, depois de disputa com a Alemanha.",
+      "fontes": [
+        "tratado-germano-espanhol-1899"
+      ]
+    },
+    {
+      "desde": "1899-02-12",
+      "ate": "1914-10",
+      "poder": "Alemanha",
+      "vinculo": "soberania",
+      "fontes": [
+        "tratado-germano-espanhol-1899"
+      ]
+    },
+    {
+      "desde": "1914-10",
+      "ate": "1920-12-17",
+      "poder": "Japão",
+      "vinculo": "ocupacao-militar",
+      "fontes": [
+        "mandato-japones-pacifico-1920"
+      ]
+    },
+    {
+      "desde": "1920-12-17",
+      "ate": "1945-09",
+      "poder": "Japão",
+      "vinculo": "mandato",
+      "nota": "Sob mandato, virou o principal fundeadouro da Frota Combinada. A Operação Hailstone, em fevereiro de 1944, afundou dezenas de navios e destruiu centenas de aviões, mas a ilha foi isolada em vez de tomada — a guarnição passou fome até a rendição geral do Japão.",
+      "fontes": [
+        "mandato-japones-pacifico-1920",
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1945-09",
+      "ate": "1947-04-02",
+      "poder": "Estados Unidos",
+      "vinculo": "ocupacao-militar",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1947-04-02",
+      "ate": "1986-11-03",
+      "poder": "Estados Unidos",
+      "vinculo": "tutela",
+      "fontes": [
+        "acordo-tutela-pacifico-1947"
+      ]
+    },
+    {
+      "desde": "1986-11-03",
+      "poder": "Micronésia",
+      "vinculo": "soberania",
+      "nota": "Estado soberano em livre associação com os Estados Unidos, membro da ONU. Chuuk é o estado mais populoso da federação.",
+      "fontes": [
+        "compact-livre-associacao-1986"
+      ]
+    }
+  ]
+}

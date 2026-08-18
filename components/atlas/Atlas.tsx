@@ -41,7 +41,12 @@ import { Prosa } from "@/components/conteudo/Prosa";
 import type { Fonte } from "@/lib/conteudo/fonte";
 import type { Viagem } from "@/lib/conteudo/viagem";
 import { eventosEm, type Evento } from "@/lib/conteudo/evento";
-import { conhecidaEm, soberaniaEm, type Ilha } from "@/lib/conteudo/ilha";
+import {
+  ROTULO_VINCULO,
+  conhecidaEm,
+  soberaniaEm,
+  type Ilha,
+} from "@/lib/conteudo/ilha";
 
 const LARGURA = 900;
 const ALTURA = 560;
@@ -241,13 +246,19 @@ export function Atlas({
     () =>
       ilhas
         .filter((i) => conhecidaEm(i, tempo))
-        .map((i) => ({
-          id: i.id,
-          nome: i.nome,
-          ponto: i.ponto,
-          poder: soberaniaEm(i, tempo)?.poder ?? null,
-          disputada: i.disputada,
-        })),
+        .map((i) => {
+          const s = soberaniaEm(i, tempo);
+          return {
+            id: i.id,
+            nome: i.nome,
+            ponto: i.ponto,
+            poder: s?.poder ?? null,
+            /* Soberania é o caso comum e não vira etiqueta. */
+            vinculo:
+              s && s.vinculo !== "soberania" ? ROTULO_VINCULO[s.vinculo] : null,
+            disputada: i.disputada,
+          };
+        }),
     [ilhas, tempo]
   );
 

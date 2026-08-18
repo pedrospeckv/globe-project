@@ -1,0 +1,57 @@
+{
+  "id": "guadalcanal",
+  "nome": "Guadalcanal",
+  "outrosNomes": [
+    "Ilhas Salomão"
+  ],
+  "ponto": [
+    160.15,
+    -9.61
+  ],
+  "nota": "O ponto de virada da guerra no Pacífico: foi a primeira ofensiva terrestre aliada e a primeira derrota estratégica japonesa, em seis meses de combate. A ilha nunca deixou de ser protetorado britânico em direito — o Japão a ocupou por nove meses sem nunca deter título.",
+  "fontes": [
+    "spector-eagle-against-the-sun",
+    "compact-livre-associacao-1986"
+  ],
+  "soberania": [
+    {
+      "desde": "1893",
+      "ate": "1942-05",
+      "poder": "Reino Unido",
+      "vinculo": "protetorado",
+      "nota": "Protetorado britânico das Ilhas Salomão.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1942-05",
+      "ate": "1943-02-09",
+      "poder": "Japão",
+      "vinculo": "ocupacao-militar",
+      "nota": "Ocupação para construir um aeródromo que ameaçaria as rotas entre os Estados Unidos e a Austrália. Foi a descoberta dessa pista que decidiu o desembarque americano de agosto de 1942.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1943-02-09",
+      "ate": "1978-07-07",
+      "poder": "Reino Unido",
+      "vinculo": "protetorado",
+      "nota": "Seis meses de campanha em terra, mar e ar, com várias batalhas navais no estreito que os marinheiros apelidaram de Ironbottom Sound pela quantidade de navios afundados. O Japão evacuou o que restava da guarnição em fevereiro de 1943.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1978-07-07",
+      "poder": "Ilhas Salomão",
+      "vinculo": "soberania",
+      "nota": "Independência em 7 de julho de 1978.",
+      "fontes": [
+        "compact-livre-associacao-1986"
+      ]
+    }
+  ]
+}

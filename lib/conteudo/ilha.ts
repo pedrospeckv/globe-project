@@ -35,6 +35,53 @@ const FontesDoTexto = z.array(Id).default([]);
  * de alguém. A lista responde por data, e cada trecho carrega a sua fonte.
  */
 
+/**
+ * A natureza do laço entre o poder e o território.
+ *
+ * ## Por que não basta o campo `poder`
+ *
+ * As Carolinas e as Marshall foram mandato japonês da Liga das Nações a partir
+ * de 1920 e depois território sob tutela da ONU administrado pelos Estados
+ * Unidos. Em nenhum dos dois casos o administrador detinha título soberano —
+ * mandato e tutela são regimes de administração fiduciária, com obrigação de
+ * prestar contas e, na tutela, de levar o território à autodeterminação.
+ *
+ * Escrever só "Japão" em 1930 afirmaria posse que os documentos não dão. Este
+ * campo é o que permite ao mapa dizer quem manda sem dizer de quem é.
+ *
+ * `administracao-estrangeira` é o caso do artigo 3 do Tratado de São
+ * Francisco: Okinawa e Iwo Jima ficaram sob administração americana com o
+ * Japão retendo soberania residual — não era tutela, porque os Estados Unidos
+ * nunca submeteram o arranjo à ONU, e não era ocupação de guerra, porque
+ * vigorava por tratado de paz.
+ *
+ * Estado soberano em livre associação — Marshall, Micronésia, Palau — entra
+ * como `soberania`, e o acordo fica na nota. São membros da ONU por direito
+ * próprio, e classificá-los de outro modo rebaixaria o que eles são.
+ */
+export const Vinculo = z.enum([
+  "soberania",
+  "protetorado",
+  "mandato",
+  "tutela",
+  "ocupacao-militar",
+  "administracao-estrangeira",
+  "nenhum",
+]);
+
+export type Vinculo = z.infer<typeof Vinculo>;
+
+/** Como cada vínculo é dito na tela, em minúscula, para compor frase. */
+export const ROTULO_VINCULO: Record<Vinculo, string> = {
+  soberania: "soberania",
+  protetorado: "protetorado",
+  mandato: "mandato da Liga das Nações",
+  tutela: "tutela da ONU",
+  "ocupacao-militar": "ocupação militar",
+  "administracao-estrangeira": "administração estrangeira",
+  nenhum: "sem soberania exercida",
+};
+
 export const Soberania = z
   .object({
     desde: DataHistorica,
@@ -46,6 +93,11 @@ export const Soberania = z
      * Estados e nunca terão código. Forçar ISO aqui obrigaria a mentir.
      */
     poder: z.string().min(1),
+    /**
+     * A natureza do laço. O padrão é soberania porque é o caso comum; onde
+     * for mandato, tutela ou ocupação, precisa estar escrito.
+     */
+    vinculo: Vinculo.default("soberania"),
     /** O que aconteceu, quando o trecho precisa de explicação. */
     nota: z.string().optional(),
     fontes: FontesDoTexto,

@@ -1,0 +1,59 @@
+{
+  "id": "guam",
+  "nome": "Guam",
+  "outrosNomes": [
+    "Guåhan",
+    "Ōmiya-jima"
+  ],
+  "ponto": [
+    144.75,
+    13.45
+  ],
+  "nota": "Território não incorporado dos Estados Unidos. É o caso mais limpo da diferença entre soberania e ocupação: entre 1941 e 1944 quem mandava era o Japão e quem detinha título era Washington. A Espanha cedeu Guam por tratado em 1898 e vendeu as outras Marianas à Alemanha em 1899 — por isso Guam tem história separada das vizinhas por todo o século XX.",
+  "fontes": [
+    "tratado-de-paris-1898",
+    "tratado-germano-espanhol-1899",
+    "spector-eagle-against-the-sun"
+  ],
+  "soberania": [
+    {
+      "desde": "1565",
+      "ate": "1898-12-10",
+      "poder": "Espanha",
+      "vinculo": "soberania",
+      "nota": "Reivindicada por Legazpi em 1565 e colonizada de fato a partir de 1668, com missão jesuíta. As guerras espanholas contra os chamorros reduziram muito a população nativa no século XVII.",
+      "fontes": [
+        "tratado-de-paris-1898"
+      ]
+    },
+    {
+      "desde": "1898-12-10",
+      "ate": "1941-12-10",
+      "poder": "Estados Unidos",
+      "vinculo": "soberania",
+      "nota": "Cedida no Tratado de Paris que encerrou a Guerra Hispano-Americana. Administrada pela Marinha até 1950.",
+      "fontes": [
+        "tratado-de-paris-1898"
+      ]
+    },
+    {
+      "desde": "1941-12-10",
+      "ate": "1944-08-10",
+      "poder": "Japão",
+      "vinculo": "ocupacao-militar",
+      "nota": "Tomada dois dias depois de Pearl Harbor e rebatizada Ōmiya-jima. Ocupação, não anexação: a soberania americana seguiu existindo em direito enquanto o poder de fato era japonês. Foram trinta e dois meses de trabalho forçado e execuções sobre a população chamorra.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    },
+    {
+      "desde": "1944-08-10",
+      "poder": "Estados Unidos",
+      "vinculo": "soberania",
+      "nota": "Retomada em três semanas de combate. A Lei Orgânica de 1950 deu cidadania americana aos habitantes, sem voto para presidente nem representação com voto no Congresso.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    }
+  ]
+}

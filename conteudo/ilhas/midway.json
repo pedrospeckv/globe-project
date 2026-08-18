@@ -1,0 +1,27 @@
+{
+  "id": "midway",
+  "nome": "Midway",
+  "outrosNomes": [
+    "Kuaihelani",
+    "Pihemanu"
+  ],
+  "ponto": [
+    -177.37,
+    28.21
+  ],
+  "nota": "O contraste do conjunto: das dez ilhas do Pacífico aqui, é a única que nunca mudou de mão. A batalha de junho de 1942 foi decidida no mar, e a invasão japonesa que ela pretendia nunca desembarcou — um lugar onde a história militar é enorme e a história da soberania é uma linha só.",
+  "fontes": [
+    "spector-eagle-against-the-sun"
+  ],
+  "soberania": [
+    {
+      "desde": "1867",
+      "poder": "Estados Unidos",
+      "vinculo": "soberania",
+      "nota": "Anexada em 1867, desabitada. Serviu de estação de cabo submarino, escala da aviação transpacífica e base naval. A batalha de 4 a 7 de junho de 1942 custou ao Japão quatro porta-aviões e a iniciativa da guerra, sem que nenhum soldado japonês pisasse na ilha. Hoje é refúgio nacional de vida silvestre, sem população permanente.",
+      "fontes": [
+        "spector-eagle-against-the-sun"
+      ]
+    }
+  ]
+}
