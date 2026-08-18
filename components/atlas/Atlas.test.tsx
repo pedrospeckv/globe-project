@@ -329,10 +329,40 @@ describe("Atlas", () => {
     expect(container.textContent).toMatch(/contorno dos países\s+acesos é o\s+de hoje/);
   });
 
-  it("o mapa declara de que ano é a fronteira do fundo, com a defasagem", () => {
+  /*
+   * O aviso de defasagem é GRADUADO, e é isso que precisa ser guardado. A
+   * versão anterior dizia "17 anos atrás desta data" no mesmo tom em que diria
+   * "900 anos", e com vão mediano de 70 anos entre fatias isso apresentava o
+   * dado como melhor do que é. Testar só a frase deixaria a graduação
+   * desprotegida — o texto pode mudar, a proporcionalidade não.
+   */
+  it("declara de que ano é a fronteira do fundo", () => {
     const { container } = montar();
-    expect(container.textContent).toMatch(/Fronteiras aproximadas de 2010/);
-    expect(container.textContent).toMatch(/última base disponível antes desta data/);
+    expect(container.textContent).toMatch(/Fronteiras de 2010/);
+    expect(container.textContent).toMatch(/17 anos antes desta data/);
+  });
+
+  it("não alarma quando a defasagem é pequena", () => {
+    const { container, irPara } = montar();
+    irPara("1905");
+    /* 5 anos sobre a base de 1900: informa e não grita. */
+    expect(container.textContent).toMatch(/Fronteiras de 1900, 5 anos antes/);
+    expect(container.textContent).not.toMatch(/Atenção/);
+  });
+
+  it("avisa e diz até quando o mapa fica congelado numa defasagem grande", () => {
+    const { container, irPara } = montar();
+    irPara("1450");
+    /* 50 anos sobre 1400, com a seguinte em 1492 — o intervalo todo é igual. */
+    expect(container.textContent).toMatch(/Atenção: fronteiras de 1400/);
+    expect(container.textContent).toMatch(/a base seguinte é 1492/);
+  });
+
+  it("na faixa remota, recusa a leitura como fronteira", () => {
+    const { container, irPara } = montar();
+    irPara("-1200");
+    expect(container.textContent).toMatch(/não é retrato do ano escolhido/);
+    expect(container.textContent).toMatch(/ordem de grandeza, não como fronteira/);
   });
 
   /* Crédito e licença da base são condição de uso, não enfeite de rodapé. */

@@ -7,8 +7,12 @@ import {
   ATRIBUICAO,
   FATIAS,
   PRECISAO_FIRME,
+  DEFASAGEM_DISTANTE,
+  DEFASAGEM_PROXIMA,
   defasagemDaFatia,
+  faixaDeDefasagem,
   fatiaPara,
+  proximaFatia,
   feicaoAbsurda,
   feicoesUteis,
   precisaoBaixa,
@@ -259,5 +263,62 @@ describe("feições absurdas", () => {
       .features as FatiaFeature[];
     /* 1900 é uma das 15 fatias sãs: nada deve ser descartado nela. */
     expect(feicoesUteis(todas)).toHaveLength(todas.length);
+  });
+});
+
+describe("proximaFatia", () => {
+  it("diz até quando o mapa fica congelado", () => {
+    /* Em 1450 a base é 1400 e a seguinte é 1492: 92 anos aparecem iguais. */
+    expect(fatiaPara(1450).ano).toBe(1400);
+    expect(proximaFatia(1450)?.ano).toBe(1492);
+  });
+
+  it("devolve null na última fatia", () => {
+    const ultima = FATIAS[FATIAS.length - 1].ano;
+    expect(proximaFatia(ultima)).toBeNull();
+    expect(proximaFatia(ultima + 500)).toBeNull();
+  });
+
+  it("é sempre posterior à vigente", () => {
+    for (const f of FATIAS) {
+      const prox = proximaFatia(f.ano);
+      if (prox) expect(prox.ano).toBeGreaterThan(f.ano);
+    }
+  });
+});
+
+describe("faixaDeDefasagem", () => {
+  /*
+   * Os cortes vêm da densidade medida do conjunto: de 500 a.C. em diante o vão
+   * mediano é 70 anos. 40 é menos que metade disso — o melhor que o dado
+   * oferece. Acima de 150 já se passaram duas fatias da faixa densa.
+   */
+  it("gradua nas quatro faixas", () => {
+    expect(faixaDeDefasagem(0)).toBe("exata");
+    expect(faixaDeDefasagem(1)).toBe("proxima");
+    expect(faixaDeDefasagem(DEFASAGEM_PROXIMA)).toBe("proxima");
+    expect(faixaDeDefasagem(DEFASAGEM_PROXIMA + 1)).toBe("distante");
+    expect(faixaDeDefasagem(DEFASAGEM_DISTANTE)).toBe("distante");
+    expect(faixaDeDefasagem(DEFASAGEM_DISTANTE + 1)).toBe("remota");
+  });
+
+  it("trata defasagem negativa como exata — o mapa nunca adianta", () => {
+    expect(faixaDeDefasagem(-5)).toBe("exata");
+  });
+
+  /*
+   * O caso que motivou tudo: 1913 e 3000 a.C. recebiam a mesma frase. Agora
+   * caem em faixas diferentes, e a interface pode falar em tons diferentes.
+   */
+  it("separa o detalhe do engano", () => {
+    expect(faixaDeDefasagem(defasagemDaFatia(1913))).toBe("proxima");
+    expect(faixaDeDefasagem(defasagemDaFatia(1491))).toBe("distante");
+    expect(faixaDeDefasagem(defasagemDaFatia(-2500))).toBe("remota");
+  });
+
+  it("em cima de uma fatia é sempre exata", () => {
+    for (const f of FATIAS) {
+      expect(faixaDeDefasagem(defasagemDaFatia(f.ano)), String(f.ano)).toBe("exata");
+    }
   });
 });

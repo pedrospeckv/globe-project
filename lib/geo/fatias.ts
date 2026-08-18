@@ -112,6 +112,50 @@ export function defasagemDaFatia(anoFrac: number): number {
 }
 
 /**
+ * A próxima fatia depois da vigente, ou `null` se já é a última.
+ *
+ * A interface a usa para dizer até quando o mapa fica congelado. Saber que a
+ * base é de 1400 é menos útil que saber que a seguinte é 1492: é isso que
+ * informa que os 92 anos no meio aparecem todos iguais.
+ */
+export function proximaFatia(anoFrac: number): FatiaIndice | null {
+  const vigente = fatiaPara(anoFrac);
+  const i = FATIAS.indexOf(vigente);
+  return i >= 0 && i + 1 < FATIAS.length ? FATIAS[i + 1] : null;
+}
+
+export type FaixaDeDefasagem = "exata" | "proxima" | "distante" | "remota";
+
+/**
+ * Limites das faixas, em anos, ancorados na densidade real do conjunto.
+ *
+ * De 500 a.C. em diante o vão MEDIANO entre fatias é 70 anos, com máximo de
+ * 101. Antes disso os vãos vão de 500 a 3.000 anos, e o primeiro salta 113 mil.
+ *
+ * Daí os cortes: 40 anos é menos que metade do vão mediano, ou seja o melhor
+ * que este dado consegue oferecer — avisar é honesto, alarmar seria ruído.
+ * Acima de 150 anos a defasagem passou de duas fatias inteiras da faixa densa,
+ * e o mapa deixou de ser retrato do ano escolhido.
+ */
+export const DEFASAGEM_PROXIMA = 40;
+export const DEFASAGEM_DISTANTE = 150;
+
+/**
+ * Gradua a defasagem, para a interface poder avisar na medida.
+ *
+ * Existe porque a legenda dizia "17 anos atrás desta data" no mesmo tom em que
+ * diria "900 anos". Com vão mediano de 70 anos, tratar os dois igual é o tipo
+ * de engano silencioso que o §12 do spec manda evitar: não é uma informação
+ * ausente, é uma informação apresentada como se fosse melhor do que é.
+ */
+export function faixaDeDefasagem(anos: number): FaixaDeDefasagem {
+  if (anos <= 0) return "exata";
+  if (anos <= DEFASAGEM_PROXIMA) return "proxima";
+  if (anos <= DEFASAGEM_DISTANTE) return "distante";
+  return "remota";
+}
+
+/**
  * Área acima da qual a feição é artefato, não território.
  *
  * Um esterradiano é ~8% da esfera. Nenhuma entidade histórica desta base

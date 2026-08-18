@@ -17,7 +17,10 @@ import { ISO_NUMERICO, PAISES_DO_ATLAS, type Alpha3 } from "@/lib/geo/iso";
 import {
   ATRIBUICAO,
   carregarFatia,
+  defasagemDaFatia,
+  faixaDeDefasagem,
   fatiaPara,
+  proximaFatia,
   precisaoBaixa,
   rotuloDaFatia,
   type FatiaFeature,
@@ -217,7 +220,14 @@ export function Atlas({
     };
   }, [fatiaAtual.nome]);
 
-  const defasagem = Math.max(0, Math.round(tempo - fatiaAtual.ano));
+  /*
+   * A defasagem sai da biblioteca e não de um cálculo local. Ela já estava
+   * duplicada aqui como `Math.max(0, Math.round(...))`, e duas cópias da mesma
+   * regra é como uma delas começa a divergir.
+   */
+  const defasagem = defasagemDaFatia(tempo);
+  const faixa = faixaDeDefasagem(defasagem);
+  const seguinte = useMemo(() => proximaFatia(tempo), [tempo]);
 
   /**
    * Ilhas que já eram conhecidas nesta data, com a soberania resolvida.
@@ -500,30 +510,77 @@ export function Atlas({
         O crédito ao lado não é enfeite: a base é CC-BY-SA e a atribuição é
         condição da licença.
       */}
-      <p className="max-w-2xl text-center text-[10px] leading-relaxed text-slate-600">
-        Fronteiras aproximadas de{" "}
-        <span className="font-mono text-slate-500">
-          {rotuloDeAnoHistorico(fatiaAtual.ano)}
-        </span>
-        {defasagem > 0 && (
+      <p
+        className={`max-w-2xl text-center text-[10px] leading-relaxed ${
+          faixa === "remota"
+            ? "text-amber-400/90"
+            : faixa === "distante"
+              ? "text-amber-600/80"
+              : "text-slate-600"
+        }`}
+      >
+        {/*
+          Quatro tons para quatro faixas. A frase anterior dizia "17 anos atrás
+          desta data" no mesmo tom em que diria "900 anos", e com vão mediano de
+          70 anos entre fatias isso apresentava o dado como melhor do que é.
+        */}
+        {faixa === "exata" ? (
           <>
-            {" "}
-            — a última base disponível antes desta data, {defasagem}{" "}
-            {defasagem === 1 ? "ano" : "anos"} atrás dela
+            Fronteiras de{" "}
+            <span className="font-mono">{rotuloDeAnoHistorico(fatiaAtual.ano)}</span>
+            , a base desta data.
           </>
-        )}
-        {" · "}
-        Base cartográfica de {ATRIBUICAO.autor} (
-        <a
-          href={ATRIBUICAO.url}
-          target="_blank"
-          rel="noreferrer"
-          className="underline decoration-slate-700 hover:text-slate-400"
-        >
-          {ATRIBUICAO.fonte}
-        </a>
-        ), {ATRIBUICAO.licenca}. Traço tracejado marca fronteira que a fonte
-        declara como conjectural.
+        ) : faixa === "proxima" ? (
+          <>
+            Fronteiras de{" "}
+            <span className="font-mono">{rotuloDeAnoHistorico(fatiaAtual.ano)}</span>
+            , {defasagem} {defasagem === 1 ? "ano" : "anos"} antes desta data.
+          </>
+        ) : faixa === "distante" ? (
+          <>
+            Atenção: fronteiras de{" "}
+            <span className="font-mono">{rotuloDeAnoHistorico(fatiaAtual.ano)}</span>
+            , <strong>{defasagem} anos</strong> antes desta data
+            {seguinte && (
+              <>
+                {" "}
+                — a base seguinte é{" "}
+                <span className="font-mono">{rotuloDeAnoHistorico(seguinte.ano)}</span>,
+                então todo esse intervalo aparece igual
+              </>
+            )}
+            .
+          </>
+        ) : (
+          <>
+            Nesta faixa o mapa não é retrato do ano escolhido: a base é de{" "}
+            <span className="font-mono">{rotuloDeAnoHistorico(fatiaAtual.ano)}</span>,{" "}
+            <strong>{defasagem.toLocaleString("pt-BR")} anos</strong> antes
+            {seguinte && (
+              <>
+                {" "}
+                e a seguinte só vem em{" "}
+                <span className="font-mono">{rotuloDeAnoHistorico(seguinte.ano)}</span>
+              </>
+            )}
+            {/* Travessão e não ponto: `rotuloDeAnoHistorico` já termina em
+                "a.C." nas datas antigas, e o ponto virava "1000 a.C..". */}
+            {" — leia como ordem de grandeza, não como fronteira."}
+          </>
+        )}{" "}
+        <span className="text-slate-600">
+          Base cartográfica de {ATRIBUICAO.autor} (
+          <a
+            href={ATRIBUICAO.url}
+            target="_blank"
+            rel="noreferrer"
+            className="underline decoration-slate-700 hover:text-slate-400"
+          >
+            {ATRIBUICAO.fonte}
+          </a>
+          ), {ATRIBUICAO.licenca}. Traço tracejado marca fronteira que a fonte
+          declara como conjectural.
+        </span>
       </p>
 
       {/*
