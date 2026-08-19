@@ -33,6 +33,48 @@ export interface IlhaMarcada {
   disputada: boolean;
 }
 
+/**
+ * O ano em que a base cartográfica moderna é exata.
+ *
+ * É a data da fatia local do atlas, que vem do Natural Earth 4.1.0 — a mesma
+ * geometria com que os países acesos são desenhados. Ver `conteudo/fatias/`.
+ */
+const ANO_DA_BASE = 2018;
+
+/**
+ * Piso de nitidez do contorno atual.
+ *
+ * Não pode chegar a zero. O contorno é duas coisas ao mesmo tempo: referência
+ * geográfica E o aviso de que aquele país tem dossiê para clicar. Apagá-lo por
+ * completo em 500 d.C. resolveria a primeira e destruiria a segunda — o leitor
+ * não teria como descobrir onde clicar.
+ */
+const PISO_DE_NITIDEZ = 0.2;
+
+/** A cada quantos anos a nitidez cai pela metade da distância até o piso. */
+const MEIA_VIDA = 60;
+
+/**
+ * Quão firme desenhar o contorno dos países com dossiê, numa data.
+ *
+ * O contorno é o de HOJE em todas as épocas, porque a geometria histórica dos
+ * dossiês ainda não existe. Desenhado sempre com a mesma força, ele afirma o que
+ * não é: numa captura de 573 d.C. com zoom, a fronteira atual da China aparecia
+ * cortando o Toba Wei, e em 1945 as linhas cianas do Japão e da China liam igual
+ * às fronteiras da época. Quem estuda não tem como distinguir "fronteira daquele
+ * ano" de "referência de hoje" se as duas têm o mesmo peso.
+ *
+ * A queda é por meia-vida e não linear porque a perda de validade também é: a
+ * fronteira de 2010 é quase a de hoje, a de 1990 já perdeu a URSS, e antes de 1900
+ * o mapa é colonial e o contorno atual vira apenas um localizador. Nos anos que o
+ * Pedro olhou: 2027 dá 1,00, 1945 dá 0,54, 573 dá 0,20 — o piso.
+ */
+export function nitidezDoContornoAtual(ano: number): number {
+  const anos = Math.max(0, ANO_DA_BASE - ano);
+  const restante = Math.pow(2, -anos / MEIA_VIDA);
+  return PISO_DE_NITIDEZ + (1 - PISO_DE_NITIDEZ) * restante;
+}
+
 interface Props {
   curados: PaisCurado[];
   rotas: RotaFeature[];
@@ -42,6 +84,8 @@ interface Props {
   altura: number;
   alpha: number;
   rotacao: [number, number];
+  /** Ano fracionário na tela, para graduar a nitidez do contorno atual. */
+  ano: number;
   /** Ampliação e deslocamento da vista. Ver `OpcoesProjecao`. */
   zoom?: number;
   deslocamento?: [number, number];
@@ -79,6 +123,7 @@ export function GeoOverlay({
   altura,
   alpha,
   rotacao,
+  ano,
   zoom,
   deslocamento,
   selecionado,
@@ -93,6 +138,7 @@ export function GeoOverlay({
     [largura, altura, alpha, rotacao, zoom, deslocamento]
   );
   const path = useMemo(() => geoPath(projecao), [projecao]);
+  const nitidez = nitidezDoContornoAtual(ano);
 
   const dividido = useMemo(() => new Set<string>(divididos), [divididos]);
 
@@ -182,6 +228,11 @@ export function GeoOverlay({
               fill={partido ? "url(#hachura-dividido)" : "#0ea5e9"}
               fillOpacity={partido ? 1 : ativo ? 0.35 : 0}
               stroke={ativo ? "#7dd3fc" : "#38bdf8"}
+              /*
+                O selecionado fica firme em qualquer data: ali a afirmação deixa de
+                ser "esta era a fronteira" e passa a ser "este é o dossiê aberto".
+              */
+              strokeOpacity={ativo ? 1 : nitidez}
               strokeWidth={ativo ? 1.75 : 1}
               strokeDasharray={partido ? "4 2" : undefined}
               /*

@@ -1,7 +1,7 @@
 // @vitest-environment jsdom
 import { describe, it, expect, vi } from "vitest";
 import { render, fireEvent } from "@testing-library/react";
-import { GeoOverlay } from "./GeoOverlay";
+import { GeoOverlay, nitidezDoContornoAtual } from "./GeoOverlay";
 import { semAnoCru } from "@/components/testes/dom";
 import type { PaisCurado } from "@/lib/geo/mundo";
 import type { RotaFeature } from "@/lib/geo/rota";
@@ -50,6 +50,8 @@ const base = {
   altura: 560,
   alpha: 0,
   rotacao: [-40, -10] as [number, number],
+  /* Data da base cartográfica: o contorno atual sai com nitidez cheia. */
+  ano: 2018,
   selecionado: null,
   onSelecionar: () => {},
 };
@@ -57,6 +59,57 @@ const base = {
 function paisesDe(container: HTMLElement) {
   return [...container.querySelectorAll("svg > g[data-camada=paises] > path")];
 }
+
+/*
+ * O contorno dos países com dossiê é o de HOJE em todas as épocas, porque a
+ * geometria histórica ainda não existe. Com a mesma força em qualquer data ele
+ * afirma o que não é: numa vista de 573 d.C. a fronteira atual da China aparecia
+ * cortando o Toba Wei, e em 1945 as linhas cianas liam igual às fronteiras da época.
+ */
+describe("nitidez do contorno atual", () => {
+  it("é cheia na data da base cartográfica", () => {
+    expect(nitidezDoContornoAtual(2018)).toBeCloseTo(1, 6);
+  });
+
+  it("não passa de cheia em datas futuras", () => {
+    expect(nitidezDoContornoAtual(2027)).toBeCloseTo(1, 6);
+  });
+
+  it("cai pela metade a cada 60 anos, e é monotônica", () => {
+    const em1958 = nitidezDoContornoAtual(1958);
+    /* Metade do caminho entre o piso e o cheio. */
+    expect(em1958).toBeCloseTo(0.2 + 0.8 * 0.5, 6);
+    for (const [antes, depois] of [
+      [2018, 1958],
+      [1958, 1900],
+      [1900, 1500],
+      [1500, 500],
+    ]) {
+      expect(nitidezDoContornoAtual(antes)).toBeGreaterThan(
+        nitidezDoContornoAtual(depois)
+      );
+    }
+  });
+
+  /*
+   * O piso não pode ser zero. O contorno é referência geográfica E o aviso de que
+   * o país tem dossiê para clicar; apagá-lo em 500 d.C. resolveria a primeira coisa
+   * e destruiria a segunda.
+   */
+  it("nunca apaga de todo, por antiga que seja a data", () => {
+    for (const ano of [500, -323, -1600]) {
+      expect(nitidezDoContornoAtual(ano)).toBeGreaterThanOrEqual(0.2);
+      expect(nitidezDoContornoAtual(ano)).toBeLessThan(0.21);
+    }
+  });
+
+  it("os anos que motivaram a mudança", () => {
+    /* 1945: visível, e claramente secundário. */
+    expect(nitidezDoContornoAtual(1945)).toBeCloseTo(0.54, 2);
+    /* 573: no piso. */
+    expect(nitidezDoContornoAtual(573)).toBeCloseTo(0.2, 2);
+  });
+});
 
 describe("GeoOverlay", () => {
   it("desenha um caminho por país curado, identificado no tooltip", () => {

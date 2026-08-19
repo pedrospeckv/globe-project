@@ -831,6 +831,7 @@ export function Atlas({
           altura={ALTURA}
           alpha={alpha}
           rotacao={rotacaoEfetiva}
+          ano={tempo}
           zoom={zoomEfetivo}
           deslocamento={deslocamentoEfetivo}
           selecionado={selecionado}
@@ -1129,7 +1130,10 @@ export function Atlas({
       <p className="max-w-2xl text-center text-[10px] leading-relaxed text-slate-600">
         O contorno dos países <span className="text-slate-500">acesos</span> é o
         de hoje, em todos os períodos — a geometria histórica dos dossiês ainda
-        não existe, e é a camada de fundo que muda com a data. Territórios
+        não existe, e é a camada de fundo que muda com a data. Por isso ele
+        <span className="text-slate-500"> apaga conforme a data recua</span>: em
+        2018 coincide com o mapa e sai firme; em 1945 já perdeu impérios e
+        colônias, e vira sussurro; antes de 1900 é só um localizador. Territórios
         ultramarinos ficam de fora do país aceso e aparecem só como terra, para
         o mapa não sugerir domínio séculos antes de ele existir.
       </p>
