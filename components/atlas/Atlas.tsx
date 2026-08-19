@@ -323,10 +323,29 @@ export function Atlas({
 
   const [tempo, setTempo] = useState(dominioAcervo[1]);
 
-  // Ao trocar de domínio, recolocar o tempo dentro dele.
-  useEffect(() => {
-    setTempo((t) => Math.min(Math.max(t, dominio[0]), dominio[1]));
-  }, [dominio]);
+  /**
+   * Focar uma viagem estreita o domínio, e o tempo é recolocado dentro dele AQUI,
+   * no gesto que causa a mudança — não num efeito que observa o domínio depois.
+   *
+   * Era um efeito, e o `react-hooks/set-state-in-effect` reclamava com razão:
+   * `setState` no corpo de efeito faz render em cascata, e o React manda ajustar
+   * estado no evento ou derivar na leitura.
+   *
+   * Derivar na leitura foi considerado e **descartado por mudar o comportamento**:
+   * prensar `tempo` só na leitura faria desfocar a viagem devolver a data anterior
+   * ao foco. Quem foi de 1900 para os 46 dias do Cabral e fecha a viagem espera
+   * continuar em 1500, e não ser jogado de volta a 1900. Escrevendo no gesto, o
+   * tempo prensado é o estado de verdade, como antes.
+   */
+  const focarViagem = useCallback(
+    (id: string | null) => {
+      setViagemFoco(id);
+      const v = viagens.find((x) => x.id === id);
+      const [minimo, maximo] = v ? intervaloDaViagem(v) : dominioAcervo;
+      setTempo((t) => Math.min(Math.max(t, minimo), maximo));
+    },
+    [viagens, dominioAcervo]
+  );
 
   const dataAtual = useMemo(() => dataDeAnoFracionario(tempo), [tempo]);
 
@@ -890,7 +909,7 @@ export function Atlas({
           viagens.map((v) => (
           <button
             key={v.id}
-            onClick={() => setViagemFoco(viagemFoco === v.id ? null : v.id)}
+            onClick={() => focarViagem(viagemFoco === v.id ? null : v.id)}
             className={`rounded border px-2 py-1 transition-colors ${
               viagemFoco === v.id
                 ? "border-amber-500 text-amber-400"

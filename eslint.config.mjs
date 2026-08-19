@@ -12,6 +12,12 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    /*
+     * Árvore de trabalho paralela do agente: é uma CÓPIA do repositório, com o
+     * `.next` dela dentro. Sem ignorar, `eslint .` entra lá e quebra tentando ler
+     * um chunk de build que já não existe — erro que não é do código nem do lint.
+     */
+    ".claude/worktrees/**",
   ]),
 ]);
 
