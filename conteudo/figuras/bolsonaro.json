@@ -15,7 +15,10 @@
       "enunciado": "Liderou trama para golpe de Estado e abolição violenta do Estado Democrático de Direito",
       "status": "transito-julgado",
       "data": "2025-11-25",
-      "fontes": ["stf-ap-2668", "stf-rvc-6021"],
+      "fontes": [
+        "stf-ap-2668",
+        "stf-rvc-6021"
+      ],
       "nota": "Condenado pela Primeira Turma do STF na Ação Penal 2668 a 27 anos e 3 meses, pelos crimes de organização criminosa armada, abolição violenta do Estado Democrático de Direito, golpe de Estado, dano qualificado ao patrimônio público e deterioração de patrimônio tombado. O trânsito em julgado foi reconhecido em 25/11/2025, quando começou a cumprir pena. Em 12/05/2026 a defesa protocolou a Revisão Criminal 6021, distribuída ao ministro Nunes Marques. A revisão criminal é ação cabível justamente depois do trânsito em julgado e não o suspende — enquanto não for julgada e provida, a condenação permanece definitiva."
     },
     {
@@ -23,7 +26,9 @@
       "enunciado": "Inseriu dados falsos no sistema do Ministério da Saúde para simular vacinação contra covid-19",
       "status": "investigacao-arquivada",
       "data": "2025-03-28",
-      "fontes": ["stf-pet-10405"],
+      "fontes": [
+        "stf-pet-10405"
+      ],
       "nota": "A investigação foi aberta em 2022 a pedido da Polícia Federal, que em março de 2024 indiciou Bolsonaro e Mauro Cid por associação criminosa e inserção de dados falsos. O ministro Alexandre de Moraes arquivou a apuração em 28/03/2025, atendendo a pedido da PGR: a legislação proíbe o recebimento de denúncia baseada somente em declarações de colaborador, e não foram levantadas provas além da colaboração de Mauro Cid. Arquivamento por insuficiência de prova não equivale a refutação do fato — nunca houve pronunciamento judicial sobre se a inserção ocorreu."
     },
     {
@@ -31,8 +36,122 @@
       "enunciado": "Desviou joias recebidas como presente de Estado durante viagens oficiais",
       "status": "investigacao",
       "data": "2026-03-18",
-      "fontes": ["agbrasil-joias-2026"],
+      "fontes": [
+        "agbrasil-joias-2026"
+      ],
       "nota": "Em 18/03/2026 o ministro Alexandre de Moraes determinou que a PGR apresentasse novo parecer, depois de a procuradoria ter pedido o arquivamento alegando lacuna legislativa. O caso não foi arquivado nem denunciado: segue em fase de manifestação da PGR."
+    }
+  ],
+  "textoMdx": "Capitão do Exército afastado da carreira em 1988, vereador, sete mandatos de deputado federal e presidente entre 2019 e 2022. É o primeiro presidente brasileiro condenado criminalmente por tentativa de golpe de Estado.",
+  "fontes": [
+    "maklouf-cadete-e-capitao",
+    "nicolau-brasil-dobrou-a-direita",
+    "oyama-tormenta",
+    "cpi-pandemia-relatorio",
+    "tse-inelegibilidade-2023",
+    "stf-ap-2668"
+  ],
+  "trajetoria": [
+    {
+      "id": "bolsonaro-1955-glicerio",
+      "data": "1955-03-21",
+      "rotulo": "1955",
+      "titulo": "Glicério, e o Vale do Ribeira",
+      "textoMdx": "Nasceu em 21 de março de 1955 em Glicério, no interior de São Paulo, filho de um prático de odontologia sem diploma. A família se mudou várias vezes até se fixar em Eldorado, no Vale do Ribeira — à época a região mais pobre do estado.\n\nFoi ali, adolescente, que teve o primeiro contato com o Exército: em 1970 a tropa vasculhava a região atrás dos remanescentes da guerrilha de Carlos Lamarca. Ele descreveu depois o episódio como o que o levou à carreira militar."
+    },
+    {
+      "id": "bolsonaro-1977-aman",
+      "data": "1977",
+      "rotulo": "1977–1986",
+      "titulo": "A caserna",
+      "textoMdx": "Formou-se pela Academia Militar das Agulhas Negras em 1977, seguiu para a artilharia e depois para a Escola de Educação Física do Exército. Serviu como paraquedista.\n\nA carreira foi de oficial de tropa, sem passagem pela Escola de Comando e Estado-Maior — o caminho que separa quem chega ao generalato de quem não chega. Saiu capitão."
+    },
+    {
+      "id": "bolsonaro-1986-veja",
+      "data": "1986-09",
+      "rotulo": "1986–1988",
+      "titulo": "O artigo, o processo e a absolvição",
+      "textoMdx": "Em setembro de 1986 publicou na revista *Veja* um artigo reclamando dos soldos e sugerindo que oficiais estavam insatisfeitos. Foi punido com quinze dias de detenção.\n\nNo ano seguinte a mesma revista publicou que ele planejava explodir bombas em unidades militares para pressionar por reajuste. Instaurado o Conselho de Justificação, o Exército o considerou culpado de transgressão; em 1988 o **Superior Tribunal Militar o absolveu**, por maioria, entendendo que não havia prova do plano.\n\nA distinção importa e costuma se perder nas duas direções: houve processo, houve punição disciplinar pelo artigo, e houve absolvição no que se referia ao plano das bombas."
+    },
+    {
+      "id": "bolsonaro-1988-vereador",
+      "data": "1988-11",
+      "rotulo": "1988–1990",
+      "titulo": "Da farda à Câmara Municipal",
+      "textoMdx": "Passou para a reserva como capitão e, semanas depois, elegeu-se vereador no Rio de Janeiro pelo PDC, com pouco mais de onze mil votos. A candidatura foi construída sobre a notoriedade do episódio militar e sobre a pauta corporativa dos soldos.\n\n**A base eleitoral estava definida desde ali**: as zonas do Rio com maior concentração de militares e de policiais."
+    },
+    {
+      "id": "bolsonaro-1990-deputado",
+      "data": "1990-10",
+      "rotulo": "1991–2018",
+      "titulo": "Vinte e oito anos de Câmara",
+      "textoMdx": "Eleito deputado federal em 1990 e reeleito seis vezes, cumpriu sete mandatos consecutivos. Passou por nove partidos no período.\n\nA produção legislativa foi das mais baixas da Casa — dois projetos de sua autoria viraram lei em vinte e oito anos. O que construiu a projeção nacional foi a fala pública: declarações sobre a ditadura militar, sobre tortura, sobre minorias e sobre adversárias, algumas das quais renderam processos.\n\nEm novembro de 2016 o Conselho de Ética rejeitou representação contra ele por elogiar o coronel Brilhante Ustra, chefe do DOI-CODI de São Paulo, durante a votação do impeachment de Dilma Rousseff.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Federal_Deputy_Jair_Bolsonaro_at_the_Brazilian_Chamber_of_Deputies.jpg/1920px-Federal_Deputy_Jair_Bolsonaro_at_the_Brazilian_Chamber_of_Deputies.jpg",
+        "alt": "Jair Bolsonaro sentado em audiência na Câmara dos Deputados, de terno escuro, com microfone à frente.",
+        "credito": "Agência Brasil",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Federal_Deputy_Jair_Bolsonaro_at_the_Brazilian_Chamber_of_Deputies.jpg",
+        "legenda": "Bolsonaro em audiência do Conselho de Ética da Câmara dos Deputados, novembro de 2016 — no vigésimo sexto ano de mandato."
+      }
+    },
+    {
+      "id": "bolsonaro-2018-eleicao",
+      "data": "2018-09-06",
+      "rotulo": "2018",
+      "titulo": "A facada e a eleição",
+      "textoMdx": "Em 6 de setembro de 2018, em ato de campanha em Juiz de Fora, foi esfaqueado no abdome e passou semanas internado. Não participou de nenhum debate de televisão a partir dali.\n\nVenceu o segundo turno com **55,1%** contra Fernando Haddad. A análise dos dados eleitorais mostra um deslocamento que não se explica só pelo candidato: rejeição ao PT depois da recessão de 2015-16 e da Lava Jato, insegurança pública e a difusão de conteúdo político por aplicativos de mensagem, num ano em que a campanha de televisão dele tinha oito segundos de tempo por bloco.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/07_11_2018_Encontro_com_Jair_Bolsonaro%2C_Presidente_da_Rep%C3%BAblica_eleito_%2830829449887%29.jpg/1920px-07_11_2018_Encontro_com_Jair_Bolsonaro%2C_Presidente_da_Rep%C3%BAblica_eleito_%2830829449887%29.jpg",
+        "alt": "Jair Bolsonaro, recém-eleito, em reunião no Palácio do Planalto, sentado à mesa com autoridades.",
+        "credito": "Marco Corrêa · Presidência da República",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:07_11_2018_Encontro_com_Jair_Bolsonaro,_Presidente_da_Rep%C3%BAblica_eleito_(30829449887).jpg",
+        "legenda": "Bolsonaro como presidente eleito, em encontro de transição no Planalto, 7 de novembro de 2018."
+      }
+    },
+    {
+      "id": "bolsonaro-2019-posse",
+      "data": "2019-01-01",
+      "rotulo": "2019",
+      "titulo": "A posse",
+      "textoMdx": "Assumiu em 1º de janeiro de 2019 com um ministério de vinte e duas pastas, sete delas ocupadas por militares — a maior presença de fardados no primeiro escalão desde o fim da ditadura.\n\nOs dois primeiros anos foram marcados por rotatividade alta: a Casa Civil trocou de titular quatro vezes, a Saúde três, a Educação três, e o ministro da Justiça deixou o cargo em abril de 2020 acusando o presidente de interferência na Polícia Federal.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Presidente_Jair_Messias_Bolsonaro.jpg",
+        "alt": "Jair Bolsonaro em pé no Palácio do Planalto no dia da posse, de terno, recebendo cumprimentos.",
+        "credito": "Embaixada dos Estados Unidos em Brasília",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Presidente_Jair_Messias_Bolsonaro.jpg",
+        "legenda": "Bolsonaro no Palácio do Planalto no dia da posse, 1º de janeiro de 2019."
+      }
+    },
+    {
+      "id": "bolsonaro-2020-pandemia",
+      "data": "2020-03",
+      "rotulo": "2020–2021",
+      "titulo": "A pandemia",
+      "textoMdx": "O Brasil registrou mais de setecentas mil mortes por covid-19. O governo defendeu publicamente o uso de cloroquina, minimizou medidas de distanciamento e demorou a fechar contratos de vacina — o imunizante da Pfizer foi oferecido em agosto de 2020 e o contrato assinado em março de 2021.\n\nA CPI da Pandemia, no Senado, concluiu em outubro de 2021 pedindo o indiciamento do presidente por nove crimes. **Relatório de CPI é peça política e investigativa, não decisão judicial**, e o pedido não resultou em denúncia."
+    },
+    {
+      "id": "bolsonaro-2022-derrota",
+      "data": "2022-10-30",
+      "rotulo": "2022–2023",
+      "titulo": "A derrota que não foi reconhecida",
+      "textoMdx": "Perdeu o segundo turno por 50,9% a 49,1% e não reconheceu publicamente o resultado. Deixou o país em 30 de dezembro, dois dias antes da posse do sucessor, e não participou da transmissão da faixa.\n\nEm 8 de janeiro de 2023, milhares de pessoas invadiram e depredaram as sedes do Congresso, do Planalto e do Supremo Tribunal Federal, depois de semanas de acampamentos em frente a quartéis pedindo intervenção militar."
+    },
+    {
+      "id": "bolsonaro-2023-tse",
+      "data": "2023-06-30",
+      "rotulo": "2023",
+      "titulo": "Inelegível até 2030",
+      "textoMdx": "Em 30 de junho de 2023, por 5 votos a 2, o Plenário do Tribunal Superior Eleitoral o declarou inelegível por abuso de poder político e uso indevido dos meios de comunicação: a reunião de julho de 2022 no Alvorada em que apresentou a embaixadores estrangeiros alegações sobre as urnas eletrônicas.\n\nA inelegibilidade corre por oito anos a partir da eleição de 2022. **É decisão eleitoral, e não condenação criminal** — as duas coisas correm em trilhos separados, e é por isso que a segunda veio depois."
+    },
+    {
+      "id": "bolsonaro-2025-condenacao",
+      "data": "2025-11-25",
+      "rotulo": "2025",
+      "titulo": "A condenação",
+      "textoMdx": "A Primeira Turma do Supremo Tribunal Federal o condenou na Ação Penal 2668 a 27 anos e 3 meses de prisão, e o trânsito em julgado foi reconhecido em 25 de novembro de 2025, quando começou a cumprir pena.\n\nÉ o primeiro ex-presidente brasileiro condenado por tentativa de golpe de Estado. O estado processual atual, incluindo a revisão criminal protocolada pela defesa, está na seção de alegações desta página — onde ele é mantido atualizado com a fonte de cada etapa."
     }
   ]
 }

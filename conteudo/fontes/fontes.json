@@ -266,6 +266,15 @@
     "citacao": "Reconstruiu, a partir de arquivos judiciais e empresariais, o sistema de arrendamento de presos que prendia homens negros por vadiagem e os vendia a minas e siderúrgicas até os anos 1940, amparado na exceção penal da Décima Terceira Emenda."
   },
   {
+    "id": "bourne-lula-of-brazil",
+    "tipo": "livro",
+    "titulo": "Lula of Brazil: The Story So Far",
+    "autor": "Richard Bourne",
+    "publicacao": "University of California Press",
+    "data": "2008",
+    "citacao": "Biografia escrita de fora, por jornalista britânico especializado no Brasil. Cobre o sindicalismo do ABC, a fundação do PT, as três derrotas e o primeiro mandato, com distância crítica maior que a das biografias produzidas no país."
+  },
+  {
     "id": "bowden-cruzada-secreta",
     "tipo": "livro",
     "titulo": "A Cruzada Secreta — Assassin's Creed",
@@ -1157,6 +1166,15 @@
     "citacao": "Mostrou que a aprovação do New Deal dependeu de excluir trabalhadores agrícolas e domésticos da seguridade social e das leis trabalhistas, deixando de fora a maioria dos trabalhadores negros, e que o crédito habitacional federal foi desenhado para não alcançá-los."
   },
   {
+    "id": "keck-pt-workers-party",
+    "tipo": "livro",
+    "titulo": "The Workers' Party and Democratization in Brazil",
+    "autor": "Margaret E. Keck",
+    "publicacao": "Yale University Press",
+    "data": "1992",
+    "citacao": "Estudo acadêmico sobre a formação do PT a partir do novo sindicalismo do ABC, das comunidades eclesiais de base e da esquerda universitária. Base para entender por que um partido nasce de uma greve."
+  },
+  {
     "id": "kennedy-bagda-governou",
     "tipo": "livro",
     "titulo": "When Baghdad Ruled the Muslim World: The Rise and Fall of Islam's Greatest Dynasty",
@@ -1394,6 +1412,15 @@
     "citacao": "Documento imposto ao rei João pelos barões, que estabeleceu limites ao poder real. Sua leitura como origem das liberdades inglesas é construção posterior, sobretudo do século XVII."
   },
   {
+    "id": "maklouf-cadete-e-capitao",
+    "tipo": "livro",
+    "titulo": "O cadete e o capitão: a vida de Jair Bolsonaro no quartel",
+    "autor": "Luiz Maklouf Carvalho",
+    "publicacao": "Todavia",
+    "data": "2019",
+    "citacao": "Reconstrói os anos de caserna a partir dos autos do Conselho de Justificação e do processo no Superior Tribunal Militar, com entrevistas em oficiais que serviram com ele. É a fonte documental para o episódio de 1986-1988 e para a saída do Exército."
+  },
+  {
     "id": "mandato-japones-pacifico-1920",
     "tipo": "documento-oficial",
     "titulo": "Mandato de Classe C da Liga das Nações para as ilhas do Pacífico ao norte do Equador",
@@ -1496,6 +1523,15 @@
     "citacao": "As cartas trocadas em 1645 entre líderes potiguares que serviam a lados opostos da guerra — uns com os portugueses, outros com os neerlandeses. São dos poucos documentos do período escritos em tupi por indígenas, e não sobre eles."
   },
   {
+    "id": "nicolau-brasil-dobrou-a-direita",
+    "tipo": "livro",
+    "titulo": "O Brasil dobrou à direita: uma radiografia da eleição de 2018",
+    "autor": "Jairo Nicolau",
+    "publicacao": "Zahar",
+    "data": "2020",
+    "citacao": "Análise quantitativa do resultado de 2018 a partir de dados eleitorais e de survey. Trata a eleição como fenômeno mensurável — quem mudou de voto, onde e por quê —, e não como narrativa de personalidade."
+  },
+  {
     "id": "nihon-shoki",
     "tipo": "documento-oficial",
     "titulo": "Nihon Shoki",
@@ -1543,6 +1579,15 @@
     "citacao": "Autoriza a remoção forçada de pessoas de áreas militares designadas, base jurídica do encarceramento de cerca de 120 mil nipo-americanos, dois terços deles cidadãos americanos por nascimento. Reparação oficial e indenização só vieram em 1988."
   },
   {
+    "id": "oyama-tormenta",
+    "tipo": "livro",
+    "titulo": "Tormenta: o governo Bolsonaro — crises, intrigas e segredos",
+    "autor": "Thais Oyama",
+    "publicacao": "Companhia das Letras",
+    "data": "2020",
+    "citacao": "Repórter com acesso ao entorno presidencial nos dois primeiros anos de mandato. Registra a dinâmica interna do governo, as demissões sucessivas e a condução da crise sanitária a partir de fontes do próprio Planalto."
+  },
+  {
     "id": "p360-lulinha-cannabis-2026",
     "tipo": "reportagem",
     "titulo": "Entenda a investigação da PF sobre Lulinha e tráfico de influência",
@@ -1558,6 +1603,15 @@
     "publicacao": "Cidades saxãs da Transilvânia e imprensa alemã",
     "data": "1488",
     "citacao": "Folhetos impressos entre as décadas de 1480 e 1500 descrevendo atrocidades de Vlad III, com cifras que chegam a cem mil empalados. Foram produzidos por comunidades saxãs que ele havia atacado, e circularam como propaganda — são a origem da fama e a razão de as cifras não servirem como contagem."
+  },
+  {
+    "id": "parana-lula-filho-do-brasil",
+    "tipo": "livro",
+    "titulo": "Lula, o filho do Brasil",
+    "autor": "Denise Paraná",
+    "publicacao": "Fundação Perseu Abramo",
+    "data": "2002",
+    "citacao": "Biografia dos anos de formação construída sobre entrevistas longas com Lula, a mãe e os irmãos. É a fonte de referência para a infância em Pernambuco, a migração e o período de metalúrgico — e é obra declaradamente simpática ao biografado, o que precisa ser lido junto do que ela afirma."
   },
   {
     "id": "parker-brother-sam",
@@ -1888,6 +1942,15 @@
     "citacao": "Escrito por volta de 100 a.C., é a fonte narrativa mais antiga e influente sobre as dinastias anteriores aos Han. Como toda crônica de corte tem ponto de vista: foi composta sob os Han, sobre as dinastias que eles substituíram."
   },
   {
+    "id": "singer-sentidos-do-lulismo",
+    "tipo": "livro",
+    "titulo": "Os sentidos do lulismo: reforma gradual e pacto conservador",
+    "autor": "André Singer",
+    "publicacao": "Companhia das Letras",
+    "data": "2012",
+    "citacao": "Analisa o realinhamento eleitoral dos dois mandatos: o deslocamento da base de apoio do eleitorado organizado das cidades grandes para o subproletariado do Norte e Nordeste, e o custo de mantê-lo sem confrontar o capital financeiro."
+  },
+  {
     "id": "skinner-maquiavel",
     "tipo": "livro",
     "titulo": "Machiavelli: A Very Short Introduction",
@@ -2176,6 +2239,14 @@
     "publicacao": "Tribunal Militar Internacional para o Extremo Oriente",
     "data": "1948-11-12",
     "citacao": "Condenou vinte e cinco dirigentes japoneses por crimes contra a paz e crimes de guerra, sete deles à morte. O imperador não foi indiciado, por decisão política dos ocupantes, e responsáveis pelo programa de armas biológicas receberam imunidade em troca dos dados de suas experiências. Houve votos dissidentes, entre eles o do juiz indiano Radhabinod Pal, que considerou o processo justiça de vencedores."
+  },
+  {
+    "id": "tse-inelegibilidade-2023",
+    "tipo": "decisao-judicial",
+    "titulo": "TSE declara Jair Bolsonaro inelegível por abuso de poder político e uso indevido dos meios de comunicação",
+    "publicacao": "Tribunal Superior Eleitoral, Plenário",
+    "data": "2023-06-30",
+    "citacao": "Por 5 votos a 2, o Plenário julgou procedente a ação sobre a reunião com embaixadores estrangeiros no Palácio da Alvorada, em julho de 2022, em que foram atacadas as urnas eletrônicas. A inelegibilidade vale por oito anos contados da eleição de 2022. É decisão eleitoral, de natureza distinta da condenação criminal."
   },
   {
     "id": "unga-2065-1965",

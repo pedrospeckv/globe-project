@@ -48,11 +48,17 @@ describe("dossiê de figura", () => {
     const { container } = await dossie(comCargo.id);
     /*
      * `ol` e não `ul`: os cargos viraram o trilho do memorial, e trilho é
-     * lista ORDENADA — a ordem cronológica é informação, não arranjo. O
-     * seletor precisa continuar preciso, porém: as fontes de cada alegação
-     * também são itens de lista, e vivem dentro de <article><footer>.
+     * lista ORDENADA — a ordem cronológica ali é informação, não arranjo.
+     *
+     * E a seção precisa ser encontrada pelo título, não pela posição: a
+     * trajetória usa o MESMO trilho logo abaixo, e um seletor por estrutura
+     * passou a casar com as duas de uma vez no dia em que a primeira figura
+     * ganhou blocos.
      */
-    const linhas = [...container.querySelectorAll("section ol > li")];
+    const secaoDeCargos = [...container.querySelectorAll("section")].find(
+      (s) => s.querySelector("h2")?.textContent === "Cargos"
+    )!;
+    const linhas = [...secaoDeCargos.querySelectorAll("ol > li")];
     expect(linhas).toHaveLength(comCargo.cargos.length);
     for (const [i, c] of comCargo.cargos.entries()) {
       expect(linhas[i].textContent).toContain(c.titulo);

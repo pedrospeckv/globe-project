@@ -31,8 +31,138 @@
       "enunciado": "Recebeu reformas no sítio de Atibaia como vantagem indevida de empreiteiras",
       "status": "prescrito",
       "data": "2025-07-30",
-      "fontes": ["stf-hc-193726", "conjur-atibaia-2025"],
+      "fontes": [
+        "stf-hc-193726",
+        "conjur-atibaia-2025"
+      ],
       "nota": "A ação foi anulada em 2021 quando o ministro Gilmar Mendes estendeu ao caso os efeitos da suspeição de Moro. Remetidos os autos à Justiça Federal do DF, o MPF ratificou a denúncia, mas a juíza Pollyanna Alves a rejeitou, reconhecendo a prescrição da pretensão acusatória: Lula tem mais de 70 anos, condição que reduz o prazo pela metade conforme o artigo 115 do Código Penal. Em 30/07/2025 a 10ª Turma do TRF-1 manteve a rejeição, por unanimidade. A extinção por prazo não afirma nem nega que os fatos tenham ocorrido."
+    }
+  ],
+  "textoMdx": "Metalúrgico, sindicalista, fundador do PT, três vezes derrotado antes de ser eleito, preso e depois com as condenações anuladas. É o único brasileiro a exercer a presidência em três mandatos não consecutivos.",
+  "fontes": [
+    "parana-lula-filho-do-brasil",
+    "bourne-lula-of-brazil",
+    "keck-pt-workers-party",
+    "singer-sentidos-do-lulismo",
+    "stf-hc-193726"
+  ],
+  "trajetoria": [
+    {
+      "id": "lula-1945-caetes",
+      "data": "1945-10",
+      "rotulo": "1945",
+      "titulo": "Caetés, e o pau-de-arara",
+      "textoMdx": "Nasceu em outubro de 1945 em Caetés, então distrito de Garanhuns, no agreste de Pernambuco, sétimo de oito filhos de lavradores sem terra própria. O pai já havia partido para o Sudeste antes de ele nascer.\n\nEm 1952, aos sete anos, fez com a mãe e os irmãos a viagem de treze dias de pau-de-arara até Santos. **A trajetória começa numa estatística**: o Brasil que se industrializava no Sudeste era abastecido por famílias como aquela, e a migração nordestina do pós-guerra é o pano de fundo de boa parte da política brasileira das cinco décadas seguintes."
+    },
+    {
+      "id": "lula-1963-torno",
+      "data": "1963",
+      "rotulo": "1963–1966",
+      "titulo": "O torno, e o dedo",
+      "textoMdx": "Fez o curso de torneiro mecânico do SENAI e entrou nas metalúrgicas do ABC. Num turno da noite, uma prensa levou o dedo mínimo da mão esquerda — o acidente que virou marca física e, mais tarde, símbolo de campanha.\n\nA formação técnica importa para o que vem: o novo sindicalismo do ABC nasce entre operários **qualificados**, das montadoras e das autopeças, não entre os mais pobres. Era a categoria mais bem paga da indústria brasileira, e foi ela que parou primeiro."
+    },
+    {
+      "id": "lula-1975-sindicato",
+      "data": "1975",
+      "rotulo": "1975–1978",
+      "titulo": "Presidente do sindicato",
+      "textoMdx": "Eleito em 1975 presidente do Sindicato dos Metalúrgicos de São Bernardo do Campo e Diadema, com mais de 90% dos votos, e reeleito em 1978. A entrada na vida sindical foi por insistência do irmão, e ele próprio descreveu depois a resistência inicial.\n\nEm maio de 1978 a Scania parou. A greve se espalhou pelo ABC e quebrou onze anos de silêncio: era a primeira paralisação de massa desde 1968, **dentro da ditadura e fora da estrutura sindical que o Estado controlava**."
+    },
+    {
+      "id": "lula-1980-dops",
+      "data": "1980-04",
+      "rotulo": "1980",
+      "titulo": "O partido, e a prisão",
+      "textoMdx": "Em 10 de fevereiro de 1980, no Colégio Sion, em São Paulo, foi fundado o Partido dos Trabalhadores — reunindo o sindicalismo do ABC, comunidades eclesiais de base ligadas à Igreja, intelectuais e militantes da esquerda clandestina. Era a primeira vez que um partido brasileiro de massa nascia de fora do parlamento e de fora de um quartel.\n\nEm abril, durante a greve de 41 dias, o governo interveio no sindicato e prendeu a diretoria sob a Lei de Segurança Nacional. **Lula ficou 31 dias detido.**",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/1980-lula-fichado-no-dops.png",
+        "alt": "Ficha policial datilografada de 1980 com fotografias de frente e perfil de Lula, impressões digitais e dados de identificação.",
+        "credito": "Arquivo público · autor não identificado",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:1980-lula-fichado-no-dops.png",
+        "legenda": "A ficha do DOPS, 1980. O documento é do aparato de vigilância política da ditadura, e registra como Estado descrevia quem parava a linha de montagem."
+      }
+    },
+    {
+      "id": "lula-1986-constituinte",
+      "data": "1986",
+      "rotulo": "1986–1990",
+      "titulo": "Deputado mais votado do país",
+      "textoMdx": "Eleito deputado federal por São Paulo em 1986 com a maior votação do país, participou da Assembleia Nacional Constituinte que produziu a Constituição de 1988.\n\nNão se candidatou à reeleição. Foi o único mandato legislativo da carreira: de 1990 em diante, todas as candidaturas foram ao Executivo.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Dep._lula.jpg",
+        "alt": "Lula falando ao microfone no plenário da Câmara dos Deputados, de terno, em fotografia em preto e branco.",
+        "credito": "Roosewelt Pinheiro · Agência Brasil",
+        "licenca": "CC BY 3.0 br",
+        "origem": "https://commons.wikimedia.org/wiki/File:Dep._lula.jpg",
+        "legenda": "Lula no plenário da Câmara durante o mandato de deputado federal. A foto integra a exposição dos quinze anos da Constituinte, montada em 2003."
+      }
+    },
+    {
+      "id": "lula-1989-derrotas",
+      "data": "1989",
+      "rotulo": "1989 · 1994 · 1998",
+      "titulo": "Três derrotas seguidas",
+      "textoMdx": "Em 1989, na primeira eleição direta em 29 anos, chegou ao segundo turno e perdeu para Fernando Collor por 53% a 47%. Em 1994 e 1998 perdeu para Fernando Henrique Cardoso, as duas vezes no primeiro turno — o Plano Real havia derrubado uma inflação de mais de 2.000% ao ano, e não havia campanha que competisse com isso.\n\n**Três derrotas em nove anos é o dado que explica 2002**: a mudança de estratégia que veio depois não foi conversão súbita, foi conclusão aritmética."
+    },
+    {
+      "id": "lula-2002-carta",
+      "data": "2002-06",
+      "rotulo": "2002",
+      "titulo": "A Carta ao Povo Brasileiro",
+      "textoMdx": "Em junho de 2002, com o mercado financeiro reagindo à possibilidade de vitória, o candidato publicou a *Carta ao Povo Brasileiro*: compromisso de honrar contratos, manter o superávit primário e não romper com o Fundo Monetário Internacional.\n\nFoi lida como garantia pelos credores e como recuo pela esquerda do próprio partido. Em outubro venceu no segundo turno com **61,3%**, a maior votação absoluta da história do país até então.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Lula_recebe_a_faixa_presid%C3%AAncial_%282003%29.jpg",
+        "alt": "Fernando Henrique Cardoso passa a faixa presidencial a Lula no parlatório do Palácio do Planalto, ambos de terno, cercados por autoridades.",
+        "credito": "Marcello Casal Jr. · Agência Brasil",
+        "licenca": "Attribution",
+        "origem": "https://commons.wikimedia.org/wiki/File:Lula_recebe_a_faixa_presid%C3%AAncial_(2003).jpg",
+        "legenda": "Fernando Henrique Cardoso passa a faixa a Lula no parlatório do Planalto, 1º de janeiro de 2003 — a primeira transmissão de faixa entre dois presidentes eleitos por partidos opostos desde 1961."
+      }
+    },
+    {
+      "id": "lula-2003-governo",
+      "data": "2003-01-01",
+      "rotulo": "2003–2010",
+      "titulo": "Dois mandatos",
+      "textoMdx": "O Bolsa Família, criado em outubro de 2003 pela unificação de programas anteriores, chegou a mais de doze milhões de famílias e virou referência internacional de transferência condicionada de renda. O salário mínimo subiu acima da inflação durante os oito anos, e o desemprego caiu.\n\nO mesmo período teve a crise do mensalão, em 2005, que levou à queda do ministro-chefe da Casa Civil e à condenação de dirigentes do partido. **Lula não foi denunciado no caso.**\n\nDeixou o cargo em dezembro de 2010 com aprovação acima de 80% nas pesquisas — a mais alta já registrada para um presidente brasileiro ao fim do mandato.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Lulaspeech.jpg",
+        "alt": "Lula discursando ao microfone em cerimônia pública ao ar livre, com público ao fundo.",
+        "credito": "Ricardo Stuckert · Presidência da República",
+        "licenca": "CC BY 2.5",
+        "origem": "https://commons.wikimedia.org/wiki/File:Lulaspeech.jpg",
+        "legenda": "Lula em cerimônia de entrega de unidades habitacionais em Diadema, junho de 2005."
+      }
+    },
+    {
+      "id": "lula-2018-prisao",
+      "data": "2018-04-07",
+      "rotulo": "2018–2019",
+      "titulo": "Quinhentos e oitenta dias",
+      "textoMdx": "Condenado em 2017 pelo então juiz Sergio Moro no caso do triplex do Guarujá, entregou-se em 7 de abril de 2018 e ficou preso na Superintendência da Polícia Federal em Curitiba até 8 de novembro de 2019 — **580 dias**. Estava em primeiro lugar nas pesquisas quando teve a candidatura barrada pela Lei da Ficha Limpa.\n\nO que aconteceu com essa condenação depois está registrado na seção de alegações desta página, com o estado processual de cada caso. Aqui fica só o fato: houve prisão, e ela durou esse tempo."
+    },
+    {
+      "id": "lula-2021-anulacao",
+      "data": "2021-04-15",
+      "rotulo": "2021",
+      "titulo": "As condenações caem",
+      "textoMdx": "Em março de 2021 o ministro Edson Fachin anulou as condenações por incompetência da Vara Federal de Curitiba, e em 15 de abril o Plenário do STF confirmou a decisão por 8 votos a 3. Em junho o mesmo Plenário reconheceu a suspeição de Moro.\n\n**Anulação por vício de competência e por parcialidade do julgador não é absolvição**, assim como não é confirmação dos fatos: nenhuma das decisões se pronunciou sobre o mérito. O efeito prático foi a devolução dos direitos políticos, e com ela a candidatura de 2022."
+    },
+    {
+      "id": "lula-2023-terceiro",
+      "data": "2023-01-01",
+      "rotulo": "2023",
+      "titulo": "O terceiro mandato",
+      "textoMdx": "Venceu a eleição de 2022 por 50,9% a 49,1%, a margem mais estreita desde a redemocratização, e tomou posse em 1º de janeiro de 2023. Uma semana depois, milhares de pessoas invadiram e depredaram as sedes dos três Poderes.\n\nÉ o terceiro mandato de um presidente que começou a vida pública parando uma linha de montagem, e o primeiro caso na história republicana de alguém que volta ao cargo depois de ter sido preso e de ter as condenações anuladas.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Posse_Presidencial_2023_%2852601397235%29.jpg/1920px-Posse_Presidencial_2023_%2852601397235%29.jpg",
+        "alt": "Lula chega ao Parlamento na cerimônia de posse de 2023, cercado por seguranças e fotógrafos.",
+        "credito": "Agência Senado",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Posse_Presidencial_2023_(52601397235).jpg",
+        "legenda": "Solenidade de posse no Congresso Nacional, 1º de janeiro de 2023."
+      }
     }
   ]
 }
