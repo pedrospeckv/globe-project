@@ -13,6 +13,8 @@ import {
 } from "@/components/conteudo/IconesAla";
 import { eventosDoPais } from "@/lib/conteudo/evento";
 import { episodiosDoPais, imagensDe } from "@/lib/conteudo/episodio";
+import { eleicoesDoPais } from "@/lib/conteudo/eleicao";
+import { CabecalhoDeSecao } from "@/components/design/CabecalhoDeSecao";
 import {
   GradeDeFiguras,
   type FiguraNaGrade,
@@ -75,6 +77,7 @@ export default async function PaisPage({
   const indicadores = acervo.indicadores.filter((i) => i.paisIso === iso);
   const eventos = eventosDoPais(acervo.eventos, iso);
   const episodios = episodiosDoPais(acervo.episodios, iso);
+  const eleicoes = eleicoesDoPais(acervo.eleicoes, iso);
   /*
    * Uma disputa pode envolver mais de um país do atlas — a Caxemira aparece
    * no dossiê da Índia e no da China. Filtrar por `atribuidoNaBase` só
@@ -325,6 +328,44 @@ export default async function PaisPage({
                     <span className="mt-4 font-mono text-[10px] tracking-wider text-amber-500/70">
                       {e.blocos.length} MOMENTOS · {imagensDe(e)} IMAGENS →
                     </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {eleicoes.length > 0 && (
+          /*
+            Eleição não é período nem episódio: é o presente em disputa, e o
+            único conteúdo do atlas que muda por decisão judicial de um dia
+            para o outro. Fica em seção própria, com a data da conferência
+            visível já no cartão.
+          */
+          <section id="eleicoes" className="scroll-mt-8">
+            <CabecalhoDeSecao
+              titulo="Eleições"
+              contador={`${eleicoes.length} COBERTA(S)`}
+            />
+            <ul className="space-y-3">
+              {eleicoes.map((e) => (
+                <li key={e.id}>
+                  <Link
+                    href={`/eleicao/${e.id}`}
+                    className="group block rounded-lg border border-zinc-800 bg-zinc-900/60 p-5 transition-colors hover:border-amber-500/30"
+                  >
+                    <div className="flex flex-wrap items-baseline justify-between gap-2">
+                      <span className="font-serif text-xl text-zinc-50 group-hover:text-amber-500/90">
+                        {e.titulo}
+                      </span>
+                      <span className="shrink-0 font-mono text-[10px] tracking-wider text-zinc-600">
+                        {e.chapas.length} CHAPAS · CONFERIDO EM{" "}
+                        {rotuloDeData(e.conferidoEm)}
+                      </span>
+                    </div>
+                    <p className="mt-1 font-mono text-xs tracking-wide text-zinc-500">
+                      {e.cargo} · 1º turno em {rotuloDeData(e.primeiroTurno)}
+                    </p>
                   </Link>
                 </li>
               ))}

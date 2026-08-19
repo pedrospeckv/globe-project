@@ -1118,6 +1118,15 @@
     "citacao": "Relato de testemunha do funeral de um chefe rus no Volga, incluindo o sacrifício ritual de uma escrava. É a descrição mais detalhada que existe de um funeral escandinavo por alguém que o presenciou — e vem de um observador externo, muçulmano, com repulsa declarada pelos costumes que descreve."
   },
   {
+    "id": "infomoney-candidatos-2026",
+    "tipo": "reportagem",
+    "titulo": "Eleições 2026: quem são os 13 candidatos à Presidência da República",
+    "publicacao": "InfoMoney",
+    "data": "2026-08",
+    "url": "https://www.infomoney.com.br/politica/eleicoes-2026-candidatos-presidencia-da-republica/",
+    "citacao": "Traz a lista das treze chapas com candidato, partido e vice. Registra que Pablo Marçal chega à disputa com situação jurídica em aberto: condenações eleitorais o deixaram inelegível até 2032, e a decisão sobre a permanência dele cabe ao TSE."
+  },
+  {
     "id": "infomoney-lulinha-2026",
     "tipo": "reportagem",
     "titulo": "Quem é Lulinha: da Gamecorp aos inquéritos no STF",
@@ -1495,6 +1504,15 @@
     "titulo": "Base de dados das vítimas do terror político na URSS",
     "publicacao": "Memorial",
     "citacao": "Levantamento nominal de vítimas da repressão soviética construído ao longo de três décadas a partir de arquivos e de depoimentos de famílias, e a referência independente mais completa sobre o assunto. A organização foi liquidada por decisão judicial russa em dezembro de 2021 e recebeu o Nobel da Paz em 2022."
+  },
+  {
+    "id": "metropoles-registros-2026",
+    "tipo": "reportagem",
+    "titulo": "TSE recebe 13 registros de candidaturas à Presidência",
+    "publicacao": "Metrópoles",
+    "data": "2026-08",
+    "url": "https://www.metropoles.com/brasil/tse-recebe-13-registros-de-candidaturas-a-presidencia-veja-quem-sao",
+    "citacao": "Lista os treze pedidos protocolados até o fim do prazo, às 19h de 15 de agosto de 2026, e observa que o protocolo do pedido não significa que a candidatura esteja automaticamente autorizada."
   },
   {
     "id": "moura-autonomia-na-dependencia",
@@ -1890,6 +1908,15 @@
     "autor": "Amartya Sen",
     "data": "1981",
     "citacao": "Demonstrou, a partir da fome de Bengala de 1943 e de outros casos, que fomes ocorrem sem queda na oferta de alimento, por colapso do poder de compra de grupos específicos. E observou que nenhuma fome de grande escala jamais ocorreu num país com eleições disputadas e imprensa livre — proposição que a Índia independente confirma."
+  },
+  {
+    "id": "senado-candidaturas-2026",
+    "tipo": "reportagem",
+    "titulo": "Eleições 2026: veja os números das candidaturas oficializadas",
+    "publicacao": "Agência Senado",
+    "data": "2026-08-17",
+    "url": "https://www12.senado.leg.br/noticias/materias/2026/08/17/eleicoes-2026-veja-os-numeros-das-candidaturas-oficializadas",
+    "citacao": "Contabiliza 20.506 pedidos de registro no país, 13 deles para a Presidência da República, e registra que os números se referem a pedidos apresentados — podendo mudar durante a campanha conforme a análise da Justiça Eleitoral e eventuais desistências."
   },
   {
     "id": "senado-cia-tortura-2014",
