@@ -13,12 +13,34 @@ import {
 } from "@/components/conteudo/IconesAla";
 import { eventosDoPais } from "@/lib/conteudo/evento";
 import { episodiosDoPais, imagensDe } from "@/lib/conteudo/episodio";
+import {
+  GradeDeFiguras,
+  type FiguraNaGrade,
+} from "@/components/conteudo/GradeDeFiguras";
+import { cargoMaisRecente, type Figura } from "@/lib/conteudo/figura";
 import { rotuloDeData } from "@/lib/conteudo/tempo";
 import { livros } from "@/lib/conteudo/nota";
 import { resumoDe } from "@/lib/conteudo/pais";
 import { DISPUTAS, paisesDaDisputa } from "@/lib/geo/disputas";
 
 const RAIZ = path.join(process.cwd(), "conteudo");
+
+/**
+ * A figura reduzida ao que a grade mostra.
+ *
+ * Vive aqui, e não no componente, porque é exatamente a fronteira
+ * servidor-cliente: é este mapeamento que garante que o enunciado das
+ * alegações — o texto mais pesado e mais sensível do acervo — não atravesse
+ * para o navegador só para a lista poder contá-las.
+ */
+function paraGrade(figura: Figura): FiguraNaGrade {
+  return {
+    id: figura.id,
+    nome: figura.nome,
+    cargo: cargoMaisRecente(figura)?.titulo,
+    alegacoes: figura.alegacoes.length,
+  };
+}
 
 export async function generateStaticParams() {
   const acervo = await carregarAcervo(RAIZ);
@@ -406,35 +428,13 @@ export default async function PaisPage({
         )}
 
         {figuras.length > 0 && (
-          <section id="figuras" className="scroll-mt-8 space-y-4">
-            <div className="border-b border-zinc-800 pb-4">
-              <h2 className="font-serif text-3xl tracking-tight text-zinc-50 md:text-4xl">
-                Figuras
-              </h2>
-              <p className="mt-1 font-mono text-xs tracking-widest text-amber-500/80">
-                {figuras.length} {figuras.length === 1 ? "PESSOA" : "PESSOAS"}
-              </p>
-            </div>
-            <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-              {figuras.map((f) => (
-                <li key={f.id}>
-                  <Link
-                    href={`/figura/${f.id}`}
-                    className="group flex items-baseline justify-between gap-3 rounded-lg border border-zinc-800 bg-zinc-900/60 p-4 transition-colors hover:border-amber-500/30"
-                  >
-                    <span className="font-serif text-lg text-zinc-50 group-hover:text-amber-500/90">
-                      {f.nome}
-                    </span>
-                    <span className="shrink-0 font-mono text-[10px] tracking-wider text-zinc-600">
-                      {f.alegacoes.length > 0
-                        ? `${f.alegacoes.length} ALEGAÇÃO(ÕES)`
-                        : "SEM ALEGAÇÕES"}
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
+          /*
+            A grade é componente de cliente porque a busca acontece no
+            navegador: o atlas é estático e não tem onde rodar consulta. O que
+            atravessa a fronteira é só o que a tela mostra — nome, cargo e a
+            CONTAGEM de alegações, nunca as alegações inteiras.
+          */
+          <GradeDeFiguras figuras={figuras.map(paraGrade)} />
         )}
 
         {indicadores.length > 0 && (

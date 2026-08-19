@@ -46,3 +46,25 @@ export function figurasDoPeriodo(
       })
   );
 }
+
+/**
+ * O cargo mais recente da figura, ou o em curso quando há um.
+ *
+ * Serve para distinguir na lista quem tem nome parecido — o atlas já guarda
+ * "Luiz Inácio Lula da Silva" e "Fábio Luís Lula da Silva" —, e entra no que a
+ * busca varre, para "presidente" achar quem governou sem exigir o nome.
+ *
+ * Cargo em curso ganha precedência sobre qualquer encerrado, mesmo que este
+ * tenha começado depois: quem está no posto agora é o que identifica a pessoa
+ * hoje. Entre encerrados, vence o de início mais recente.
+ */
+export function cargoMaisRecente(figura: Figura): Cargo | undefined {
+  const emCurso = figura.cargos.filter((c) => !c.fim);
+  const encerrados = figura.cargos.filter((c) => c.fim);
+  const pilha = emCurso.length > 0 ? emCurso : encerrados;
+  return pilha.reduce<Cargo | undefined>(
+    (melhor, c) =>
+      !melhor || comparaData(c.inicio, melhor.inicio) > 0 ? c : melhor,
+    undefined
+  );
+}
