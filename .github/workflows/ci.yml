@@ -37,6 +37,15 @@ jobs:
       - name: Conteúdo — schema, fontes e ligações
         run: pnpm validar
 
+      # `LayoutProps`, `PageProps` e companhia são GERADAS pelo Next a partir das
+      # rotas, e vivem em `.next/types/`, que não é versionado. Numa máquina de
+      # desenvolvimento elas já estão lá porque alguém rodou `dev` ou `build`; em
+      # checkout novo não existem, e o `tsc` reprovou com `Cannot find name
+      # 'LayoutProps'` na primeira execução deste workflow. `typegen` as produz sem
+      # pagar um build inteiro.
+      - name: Tipos gerados das rotas
+        run: pnpm exec next typegen
+
       - name: Tipos
         run: pnpm exec tsc --noEmit
 
