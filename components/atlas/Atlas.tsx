@@ -673,8 +673,13 @@ export function Atlas({
      * A promessa é rejeitada quando o navegador recusa — falta de gesto do
      * usuário, política de permissão — e engolir o erro é o certo: tela cheia é
      * conforto, e conforto não pode derrubar o mapa.
+     *
+     * As DUAS chamadas são opcionais pelo mesmo motivo: a API de tela cheia pode
+     * não existir. Guardar só a de entrada era assimetria, e ela mordia — quem
+     * não tem `requestFullscreen` também não tem `exitFullscreen`, e a saída
+     * desguardada estourava fora do fluxo do React, onde nenhum `catch` pega.
      */
-    if (document.fullscreenElement) void document.exitFullscreen().catch(() => {});
+    if (document.fullscreenElement) void document.exitFullscreen?.().catch(() => {});
     else void el.requestFullscreen?.().catch(() => {});
   }, []);
 

@@ -9,6 +9,7 @@ import type { Objects, Topology, GeometryCollection } from "topojson-specificati
 import type { Feature, FeatureCollection, Geometry } from "geojson";
 import {
   anoDoNome,
+  aplicarSubstituicoes,
   conferirFatiasLocais,
   hashDoArquivo,
   lerFeicoesLocais,
@@ -74,6 +75,17 @@ const BASE =
 
 /** Os TopoJSON, servidos estaticamente e buscados um por vez. */
 const DESTINO = path.join(process.cwd(), "public", "geo", "fatias");
+
+/**
+ * As fatias locais moram num diretório próprio.
+ *
+ * Duas razões. A primeira é prática: uma fatia local que CORRIGE uma baixada tem o
+ * mesmo nome dela, e no mesmo diretório uma sobrescreveria a outra — e a baixada
+ * precisa continuar existindo, porque é dela que a correção é derivada. A segunda é
+ * de procedência: `/geo/fatias/locais/1945.json` diz na própria URL que aquela
+ * geometria não veio do upstream.
+ */
+const DESTINO_LOCAIS = path.join(DESTINO, "locais");
 
 /**
  * O índice, ao lado do código e não dos dados.
@@ -271,7 +283,11 @@ async function converterLocal(entrada: FatiaLocal): Promise<Entrada> {
   }
 
   const json = JSON.stringify(topo);
-  await fs.writeFile(path.join(DESTINO, `${entrada.nome}.json`), json, "utf8");
+  await fs.writeFile(
+    path.join(DESTINO_LOCAIS, `${entrada.nome}.json`),
+    json,
+    "utf8"
+  );
 
   return {
     nome: entrada.nome,
@@ -298,11 +314,16 @@ const SOMENTE_LOCAIS = process.argv.includes("--locais");
 
 async function main() {
   await fs.mkdir(DESTINO, { recursive: true });
+  await fs.mkdir(DESTINO_LOCAIS, { recursive: true });
 
   const locais = lerManifesto();
   const daRede = new Set<string>(FATIAS);
   for (const l of locais) {
-    if (daRede.has(l.nome)) {
+    /*
+     * Nome igual ao de uma baixada só é legítimo quando a local declara que a
+     * SUBSTITUI. Sem isso é colisão: duas fatias disputariam o mesmo ano no índice.
+     */
+    if (daRede.has(l.nome) && l.substitui !== l.nome) {
       throw new Error(
         `a fatia local ${l.nome} tem o nome de uma fatia do upstream — ` +
           `uma sobrescreveria a outra em public/geo/fatias/`
@@ -330,6 +351,22 @@ async function main() {
           `${String(Math.round(e.bytes / 1024)).padStart(4)} kB (${pct}% do cru)`
       );
     }
+  }
+
+  /*
+   * Fatia local que declara `substitui` tira a baixada do índice.
+   *
+   * Antes de acrescentar, e não depois, porque a conferência de ano repetido logo
+   * abaixo é o que impede duas fatias na mesma data — e sem retirar a baixada
+   * primeiro ela pararia o build em vez de deixar a correção entrar.
+   *
+   * O arquivo da baixada FICA no disco: é dele que a corrigida é derivada.
+   */
+  const substituidas = aplicarSubstituicoes(entradas, locais, daRede);
+  entradas.length = 0;
+  entradas.push(...substituidas.entradas);
+  for (const r of substituidas.removidas) {
+    console.log(`  · ${r.local.padEnd(9)} substitui a baixada ${r.baixada}`);
   }
 
   for (const entrada of locais) {

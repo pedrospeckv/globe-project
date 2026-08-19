@@ -43,6 +43,9 @@ next-env.d.ts
 # ferramenta de brainstorming (mockups locais, servidor)
 .superpowers/
 
+# árvores de trabalho paralelas do agente — cópia do repo, nunca conteúdo dele
+.claude/worktrees/
+
 # material de referência (templates v0 baixados) — não é código do projeto
 *.zip
 refs/

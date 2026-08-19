@@ -8,6 +8,7 @@ import type { Topology, GeometryCollection } from "topojson-specification";
 import type { Feature, Geometry } from "geojson";
 import {
   FatiaLocal,
+  aplicarSubstituicoes,
   Manifesto,
   anoDoNome,
   conferirFatiasLocais,
@@ -17,7 +18,13 @@ import {
 } from "./fatias-locais";
 import { FATIAS, atribuicaoDaFatia, ATRIBUICAO } from "../lib/geo/fatias";
 
-const CONSTRUIDAS = path.join(process.cwd(), "public", "geo", "fatias");
+/*
+ * `conferirFatiasLocais` recebe a pasta das SERVIDAS e procura as locais dentro de
+ * `locais/` por conta própria; quem lê o arquivo construído precisa do caminho
+ * completo. São dois caminhos porque são duas perguntas diferentes.
+ */
+const SERVIDAS = path.join(process.cwd(), "public", "geo", "fatias");
+const CONSTRUIDAS = path.join(SERVIDAS, "locais");
 
 /** Pasta descartável, para poder testar as recusas sem estragar o real. */
 const temporarias: string[] = [];
@@ -261,7 +268,10 @@ describe("conferirFatiasLocais", () => {
     fs.writeFileSync(manifesto, JSON.stringify({ fatias: [ENTRADA_VALIDA] }));
     const origem = path.join(pasta, ENTRADA_VALIDA.arquivo);
     fs.writeFileSync(origem, JSON.stringify({ type: "FeatureCollection", features: [] }));
-    fs.writeFileSync(path.join(destino, "1650.json"), "{}");
+    /* Construída em `locais/`: é o diretório próprio das fatias locais, para uma
+       que CORRIGE uma baixada não sobrescrever a baixada de que foi derivada. */
+    fs.mkdirSync(path.join(destino, "locais"), { recursive: true });
+    fs.writeFileSync(path.join(destino, "locais", "1650.json"), "{}");
     return { manifesto, destino, origem, hash: hashDoArquivo(origem) };
   };
 
@@ -302,7 +312,7 @@ describe("conferirFatiasLocais", () => {
 
   it("acusa TopoJSON construído que não existe", () => {
     const c = cenario();
-    fs.rmSync(path.join(c.destino, "1650.json"));
+    fs.rmSync(path.join(c.destino, "locais", "1650.json"));
     expect(
       conferirFatiasLocais(
         [{ nome: "1650", ano: 1650, local: true, hash: c.hash }],
@@ -339,7 +349,7 @@ describe("conferirFatiasLocais", () => {
   });
 
   it("o estado real do repositório está em ordem", () => {
-    expect(conferirFatiasLocais(FATIAS, CONSTRUIDAS)).toEqual([]);
+    expect(conferirFatiasLocais(FATIAS, SERVIDAS)).toEqual([]);
   });
 });
 
@@ -385,6 +395,91 @@ describe("as fatias locais construídas", () => {
         expect(x.properties?.n).toBeTruthy();
         expect(x.properties?.p).toBeGreaterThanOrEqual(1);
       }
+    }
+  });
+});
+
+describe("aplicarSubstituicoes", () => {
+  const daRede = new Set(["1900", "1938", "1945", "1960"]);
+  const baixada = (nome: string, ano: number) => ({ nome, ano });
+  const local = (nome: string, ano: number) => ({ nome, ano, local: true });
+
+  it("tira do índice a baixada que a local declara substituir", () => {
+    const r = aplicarSubstituicoes(
+      [baixada("1900", 1900), baixada("1938", 1938), baixada("1960", 1960)],
+      [{ nome: "1938", substitui: "1938" }],
+      daRede
+    );
+    expect(r.entradas.map((e) => e.nome)).toEqual(["1900", "1960"]);
+    expect(r.removidas).toEqual([{ local: "1938", baixada: "1938" }]);
+  });
+
+  /* Sem `substitui` a local só se soma — é o caso da de 2018, que preenche vão. */
+  it("não mexe em nada quando a local não declara substituição", () => {
+    const entrada = [baixada("1938", 1938), baixada("1945", 1945)];
+    const r = aplicarSubstituicoes(entrada, [{ nome: "2018" }], daRede);
+    expect(r.entradas.map((e) => e.nome)).toEqual(["1938", "1945"]);
+    expect(r.removidas).toEqual([]);
+  });
+
+  /*
+   * A idempotência, que é o motivo desta função existir separada. No modo
+   * `--locais` o índice anterior JÁ vem sem a baixada substituída; a segunda
+   * execução não pode falhar por não achar o que ela mesma tirou.
+   */
+  it("é idempotente: rodar de novo sobre o índice já corrigido não falha", () => {
+    const manifesto = [
+      { nome: "1938", substitui: "1938" },
+      { nome: "1945", substitui: "1945" },
+    ];
+    const primeira = aplicarSubstituicoes(
+      [baixada("1900", 1900), baixada("1938", 1938), baixada("1945", 1945)],
+      manifesto,
+      daRede
+    );
+    expect(primeira.removidas).toHaveLength(2);
+
+    /* Segunda passada: o que entra é o que a primeira deixou, sem as baixadas. */
+    const segunda = aplicarSubstituicoes(primeira.entradas, manifesto, daRede);
+    expect(segunda.entradas.map((e) => e.nome)).toEqual(["1900"]);
+    expect(segunda.removidas).toEqual([]);
+  });
+
+  /* Idempotente não é permissivo: alvo que nunca existiu no upstream é erro. */
+  it("recusa alvo que não é fatia do upstream", () => {
+    expect(() =>
+      aplicarSubstituicoes([baixada("1938", 1938)], [{ nome: "1939", substitui: "1939" }], daRede)
+    ).toThrow(/não é uma fatia do upstream/);
+  });
+
+  /*
+   * A local homônima da baixada é o caso normal (a de 1938 se chama 1938), e é
+   * por isso que a busca exige `!local`: sem isso a função poderia tirar do
+   * índice a própria correção que acabou de entrar.
+   */
+  it("nunca remove uma fatia local, só a baixada de mesmo nome", () => {
+    const r = aplicarSubstituicoes(
+      [local("1938", 1938), baixada("1938", 1938)],
+      [{ nome: "1938", substitui: "1938" }],
+      daRede
+    );
+    expect(r.entradas).toEqual([local("1938", 1938)]);
+  });
+
+  /*
+   * O efeito no índice real: `fatiaPara` escolhe por ano, e ano repetido faria
+   * a escolha depender da ordem do arquivo. É a garantia que a substituição
+   * compra, conferida sobre o índice que está no disco.
+   */
+  it("o índice real não tem dois anos iguais, e as substituídas saíram", () => {
+    const anos = FATIAS.map((f) => f.ano);
+    expect(new Set(anos).size).toBe(anos.length);
+
+    for (const declarada of lerManifesto()) {
+      if (!declarada.substitui) continue;
+      const homonimas = FATIAS.filter((f) => f.nome === declarada.substitui);
+      expect(homonimas).toHaveLength(1);
+      expect(homonimas[0].local).toBe(true);
     }
   });
 });

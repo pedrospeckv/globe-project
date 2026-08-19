@@ -87,6 +87,19 @@ export const FatiaLocal = z
      * precisa saber o que ela estava consertando.
      */
     nota: z.string().min(40),
+    /**
+     * O nome da fatia baixada que esta substitui, quando é o caso.
+     *
+     * Existe porque corrigir uma fatia do upstream é diferente de preencher um vão
+     * dele. A de 2018 preenche vão: não havia nada depois de 2010. As de 1938 e
+     * 1945 corrigem: o upstream tem essas datas e erra nelas, então a local tem de
+     * TOMAR O LUGAR da baixada — sem isto o índice teria dois anos iguais, e
+     * `fatiaPara` escolheria por ordem de arquivo, calada.
+     *
+     * A baixada continua no disco de propósito: é dela que a corrigida é derivada,
+     * e apagá-la tornaria a correção irreproduzível.
+     */
+    substitui: z.string().regex(/^(bc)?[1-9]\d*$/).optional(),
     atribuicao: Atribuicao,
   })
   /*
@@ -239,7 +252,8 @@ export function conferirFatiasLocais(
       );
       continue;
     }
-    if (!fs.existsSync(path.join(destino, `${entrada.nome}.json`))) {
+    /* Construída em `locais/`, para não sobrescrever a baixada que ela corrige. */
+    if (!fs.existsSync(path.join(destino, "locais", `${entrada.nome}.json`))) {
       problemas.push(`fatia local ${entrada.nome}: falta o TopoJSON construído`);
       continue;
     }
@@ -265,4 +279,44 @@ export function conferirFatiasLocais(
   }
 
   return problemas;
+}
+
+/**
+ * Tira do índice as fatias baixadas que uma local declara substituir.
+ *
+ * Separada do script de construção para poder ser testada: é a única parte da
+ * substituição em que dá para errar em silêncio, e errar aqui significa duas
+ * fatias no mesmo ano — que é o defeito que `substitui` existe para evitar.
+ *
+ * Duas decisões sutis, ambas já custaram uma execução do build:
+ *
+ * 1. O alvo é conferido contra a **lista do download**, não contra o índice em
+ *    construção. No modo `--locais` o índice anterior já vem sem a baixada, e
+ *    conferir contra ele faria a segunda execução falhar dizendo que o alvo não
+ *    existe. Contra a lista de nomes, erro de digitação continua sendo pego.
+ * 2. Alvo ausente do índice **não é erro** — é a segunda execução encontrando o
+ *    trabalho já feito. É o que torna `--locais` idempotente.
+ */
+export function aplicarSubstituicoes<E extends { nome: string; local?: boolean }>(
+  entradas: readonly E[],
+  locais: readonly { nome: string; substitui?: string }[],
+  daRede: ReadonlySet<string>
+): { entradas: E[]; removidas: { local: string; baixada: string }[] } {
+  const restantes = [...entradas];
+  const removidas: { local: string; baixada: string }[] = [];
+
+  for (const local of locais) {
+    if (!local.substitui) continue;
+    if (!daRede.has(local.substitui)) {
+      throw new Error(
+        `${local.nome} declara substituir "${local.substitui}", que não é uma fatia do upstream`
+      );
+    }
+    const i = restantes.findIndex((e) => e.nome === local.substitui && !e.local);
+    if (i < 0) continue; /* já saiu numa construção anterior */
+    restantes.splice(i, 1);
+    removidas.push({ local: local.nome, baixada: local.substitui });
+  }
+
+  return { entradas: restantes, removidas };
 }

@@ -13,6 +13,8 @@ Share-alike: esta geometria derivada permanece sob a mesma licença.
 Estas NÃO vêm do upstream e não estão sob a licença acima. Cada uma
 traz a sua no índice, e a origem está em `conteudo/fatias/manifesto.json`.
 
+- `1938.json` — historical-basemaps, corrigido — ver scripts/gerar-fatias-corrigidas.ts, de A. Ourednik, com correções do atlas, CC-BY-SA-4.0
+- `1945.json` — historical-basemaps, corrigido — ver scripts/gerar-fatias-corrigidas.ts, de A. Ourednik, com correções do atlas, CC-BY-SA-4.0
 - `2018.json` — Natural Earth 4.1.0, Admin 0 countries 1:110m, via world-atlas, de Natural Earth, domínio público
 
 > São aproximações destinadas a estudo. Fronteira histórica é objeto de

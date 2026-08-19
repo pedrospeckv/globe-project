@@ -447,19 +447,35 @@
     {
       "nome": "1938",
       "ano": 1938,
-      "feicoes": 254,
-      "bytes": 76021,
+      "feicoes": 252,
+      "bytes": 141564,
       "precisoes": {
-        "3": 254
+        "3": 252
+      },
+      "local": true,
+      "hash": "0dfcb102359e",
+      "atribuicao": {
+        "fonte": "historical-basemaps, corrigido — ver scripts/gerar-fatias-corrigidas.ts",
+        "autor": "A. Ourednik, com correções do atlas",
+        "url": "https://github.com/aourednik/historical-basemaps",
+        "licenca": "CC-BY-SA-4.0"
       }
     },
     {
       "nome": "1945",
       "ano": 1945,
-      "feicoes": 227,
-      "bytes": 68555,
+      "feicoes": 225,
+      "bytes": 122301,
       "precisoes": {
-        "3": 227
+        "3": 225
+      },
+      "local": true,
+      "hash": "ddc211b3c625",
+      "atribuicao": {
+        "fonte": "historical-basemaps, corrigido — ver scripts/gerar-fatias-corrigidas.ts",
+        "autor": "A. Ourednik, com correções do atlas",
+        "url": "https://github.com/aourednik/historical-basemaps",
+        "licenca": "CC-BY-SA-4.0"
       }
     },
     {

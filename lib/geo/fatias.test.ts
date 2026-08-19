@@ -44,11 +44,34 @@ describe("índice de fatias", () => {
    * a barra até aquele ano — erro de tela, longe da causa. Aqui quebra no
    * `pnpm test`, que é onde erro de conteúdo quebra no resto do projeto.
    */
+  /*
+   * O caminho depende de a fatia ser local, e é resolvido aqui do mesmo jeito que
+   * `carregarFatia` resolve. Fatia local mora em `locais/` porque uma que CORRIGE
+   * uma baixada tem o mesmo nome dela — 1938 e 1945 são os casos — e no mesmo
+   * diretório uma sobrescreveria a outra.
+   */
+  const caminhoDaFatia = (f: { nome: string; local?: boolean }) =>
+    f.local
+      ? path.join(PASTA, "locais", `${f.nome}.json`)
+      : path.join(PASTA, `${f.nome}.json`);
+
   it("toda entrada tem arquivo no disco, com o tamanho declarado", () => {
     for (const f of FATIAS) {
-      const caminho = path.join(PASTA, `${f.nome}.json`);
+      const caminho = caminhoDaFatia(f);
       expect(fs.existsSync(caminho), `falta ${f.nome}.json`).toBe(true);
       expect(fs.statSync(caminho).size, `tamanho de ${f.nome}`).toBe(f.bytes);
+    }
+  });
+
+  /*
+   * A baixada que foi substituída CONTINUA no disco, e não é órfã: é dela que a
+   * corrigida é derivada, e apagá-la tornaria a correção irreproduzível.
+   */
+  it("a baixada substituída fica no disco, fora do índice", () => {
+    for (const nome of ["1938", "1945"]) {
+      expect(fs.existsSync(path.join(PASTA, `${nome}.json`)), nome).toBe(true);
+      const noIndice = FATIAS.find((f) => f.nome === nome)!;
+      expect(noIndice.local, `${nome} no índice tem de ser a local`).toBe(true);
     }
   });
 

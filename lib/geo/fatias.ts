@@ -437,7 +437,15 @@ export function carregarFatia(fatia: FatiaIndice): Promise<Fatia> {
   if (emCache) return emCache;
 
   const pedido = (async () => {
-    const resposta = await fetch(`/geo/fatias/${nome}.json`);
+    /*
+     * Fatia local mora em `locais/`, e o caminho vem do índice e não de convenção
+     * de nome: uma fatia local que corrige uma baixada tem o MESMO nome dela, e a
+     * baixada continua no disco por ser a origem da correção.
+     */
+    const caminho = fatia.local
+      ? `/geo/fatias/locais/${nome}.json`
+      : `/geo/fatias/${nome}.json`;
+    const resposta = await fetch(caminho);
     if (!resposta.ok) {
       throw new Error(`fatia ${nome}: HTTP ${resposta.status}`);
     }

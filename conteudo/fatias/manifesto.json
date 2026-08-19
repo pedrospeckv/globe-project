@@ -1,6 +1,32 @@
 {
   "fatias": [
     {
+      "nome": "1938",
+      "ano": 1938,
+      "arquivo": "1938.geojson",
+      "substitui": "1938",
+      "nota": "Corrige um anacronismo da fatia baixada de 1938, achado na auditoria de docs/auditoria-anacronismos.md. O upstream desenha o MESMO território duas vezes, uma como 'Israel' e outra como 'Mandatory Palestine (GB)' — 31.296 km² e a mesma caixa envolvente nas duas. Em 1938 aquele território era o Mandato Britânico da Palestina; Israel foi declarado em 14 de maio de 1948. Fica a feição já correta e sai a duplicata. Sai também uma feição chamada 'India' com área ZERO, numa linha vertical na longitude 56,1° — que é Omã, a mil quilômetros da Índia; a entidade indiana desta fatia é 'British Raj', com 4.810.497 km². Nada mais foi tocado: a geometria é a da fatia baixada, com os anéis invertidos pela redução consertados por repararFeicao. NÃO foi consertada uma falha de geometria da mesma fatia, porque consertá-la exigiria desenhar fronteira, que é o que a regra da fatia local proíbe: a feição chamada 'Jordan' aparece com 30 km², e tinha cerca de 90.000 — o nome também está adiantado, porque em 1938 era o Emirado da Transjordânia, mas renomear deixaria uma linha de 30 km² com o nome certo, o que não conserta nada. CORREÇÃO de 2026-08-19: esta nota afirmava também que a Síria de 1938 tem área zero e é invisível. Era falso, afirmado depois de olhar a primeira feição que casava com o nome e parar. A fatia traz DUAS chamadas 'Syria (France)': uma degenerada com 0 km² e outra com 314.505 km², que é a que se vê. A Síria de 1938 está no mapa.",
+      "atribuicao": {
+        "fonte": "historical-basemaps, corrigido — ver scripts/gerar-fatias-corrigidas.ts",
+        "autor": "A. Ourednik, com correções do atlas",
+        "url": "https://github.com/aourednik/historical-basemaps",
+        "licenca": "CC-BY-SA-4.0"
+      }
+    },
+    {
+      "nome": "1945",
+      "ano": 1945,
+      "arquivo": "1945.geojson",
+      "substitui": "1945",
+      "nota": "Corrige três anacronismos da fatia baixada de 1945. (1) Paquistão e Bangladesh aparecem como Estados: o Paquistão foi criado em agosto de 1947 pelo Indian Independence Act e o Bangladesh em 1971. Em 1945 os três territórios eram a Índia britânica, e por isso foram FUNDIDOS num só chamado 'British Raj' — fundir e não apenas renomear, porque renomear deixaria na tela as linhas da partição de 1947 dois anos antes de existirem. O nome é 'British Raj' e não 'India' porque é o que o próprio upstream usa para a mesma entidade em 1880, 1900, 1914, 1920, 1930 e 1938; chamá-la de India daria cor diferente à mesma coisa ao cruzar de 1938 para 1945. A fusão é pelos arcos compartilhados da topologia e conferida por área: 4.155.628 km² em três partes viraram os mesmos 4.155.628 km² em uma. (2) 'Israel' vira 'Mandatory Palestine (GB)', a mesma grafia que a fatia de 1938 usa, porque Israel foi declarado em 14 de maio de 1948. (3) 'Sri Lanka' vira 'Ceylon': a ilha só adotou Sri Lanka na constituição de 1972, e a fatia de 1938 já diz Ceylon. Reprodução: tsx scripts/gerar-fatias-corrigidas.ts.",
+      "atribuicao": {
+        "fonte": "historical-basemaps, corrigido — ver scripts/gerar-fatias-corrigidas.ts",
+        "autor": "A. Ourednik, com correções do atlas",
+        "url": "https://github.com/aourednik/historical-basemaps",
+        "licenca": "CC-BY-SA-4.0"
+      }
+    },
+    {
       "nome": "2018",
       "ano": 2018,
       "arquivo": "2018.geojson",
