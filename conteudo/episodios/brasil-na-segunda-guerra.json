@@ -1,0 +1,150 @@
+{
+  "id": "brasil-na-segunda-guerra",
+  "titulo": "O Brasil na Segunda Guerra",
+  "subtitulo": "Uma ditadura que vendia algodão para o Reich e acabou mandando vinte e cinco mil homens lutar contra ele — e que não sobreviveu à contradição.",
+  "inicio": "1938",
+  "fim": "1945",
+  "paises": [
+    "BRA"
+  ],
+  "periodos": [
+    "br-era-vargas"
+  ],
+  "abertura": "Em 1938 a Alemanha disputava com os Estados Unidos o primeiro lugar entre os compradores do Brasil, e a seção brasileira do partido nazista era a maior fora da Alemanha. Sete anos depois, soldados brasileiros aceitavam a rendição de uma divisão alemã inteira no norte da Itália.\n\nO caminho entre as duas coisas não foi uma conversão. Foi uma negociação — conduzida por um governo autoritário que tinha algo que os dois lados queriam, e que cobrou por isso até o último momento em que ainda dava para cobrar.",
+  "blocos": [
+    {
+      "id": "1938-comercio",
+      "data": "1938",
+      "rotulo": "1938",
+      "titulo": "O melhor cliente era o Reich",
+      "textoMdx": "O comércio com a Alemanha crescia desde 1934 por um mecanismo específico: o **marco de compensação**, moeda escritural que só podia ser gasta comprando produtos alemães. O Brasil vendia algodão e café e recebia crédito bloqueado — o que era ruim em tese e ótimo na prática, para um país sem divisas conversíveis e com o café encalhado.\n\nEm 1938 a Alemanha disputava com os Estados Unidos o primeiro lugar como destino das exportações brasileiras, e era o principal fornecedor de armamento ao Exército. Desligar-se daquilo não era decisão ideológica: era abrir mão do único arranjo comercial que estava funcionando."
+    },
+    {
+      "id": "1938-nacionalizacao",
+      "data": "1938",
+      "rotulo": "1938",
+      "titulo": "A maior filial do partido, e o fim dela",
+      "textoMdx": "A seção brasileira do NSDAP era a maior do partido fora da Alemanha, concentrada nas colônias do Sul e do Sudeste. **Não porque houvesse aqui mais alemães que em qualquer outro lugar** — os Estados Unidos tinham muito mais —, mas porque a organização exterior do partido encontrou aqui comunidades densas, com escola, imprensa e associação próprias, e pouca vigilância.\n\nEm abril de 1938, depois do putsch integralista fracassado, um decreto-lei proibiu partido político estrangeiro no território. Veio junto a campanha de nacionalização: escolas fechadas, ensino e publicação em língua estrangeira restringidos, associações dissolvidas — primeiro contra o alemão, depois contra o italiano e o japonês.\n\nA mesma ditadura que admirava a ordem dos regimes europeus desmontou a organização nazista no país. As duas coisas são verdadeiras ao mesmo tempo, e é a chave para ler o que vem depois."
+    },
+    {
+      "id": "1940-minas-gerais",
+      "data": "1940-06-11",
+      "rotulo": "junho de 1940",
+      "titulo": "O discurso a bordo do Minas Gerais",
+      "textoMdx": "A França caiu em seis semanas. Para o Exército brasileiro, treinado desde 1920 por uma missão militar francesa, foi mais que uma notícia: era a doutrina inteira desmoronando junto.\n\nEm 11 de junho de 1940, a bordo do encouraçado *Minas Gerais*, Vargas discursou sobre o fim dos \"sistemas caducos\" e a hora dos \"povos vigorosos\". Dois dias depois a Itália entrava na guerra. Em Washington o discurso foi lido como o que parecia ser — um aceno ao Eixo —, e é a partir dele que o preço de manter o Brasil do lado americano começa a subir."
+    },
+    {
+      "id": "1940-aco",
+      "data": "1940-09",
+      "rotulo": "1940–1941",
+      "titulo": "O aço que a Alemanha ofereceu e os Estados Unidos pagaram",
+      "textoMdx": "O Brasil queria uma usina siderúrgica havia anos e não tinha capital para construí-la. Quando a Krupp se ofereceu para financiar o projeto, o governo deixou a proposta circular.\n\nFuncionou. **Oswaldo Aranha**, chanceler e o nome mais pró-americano do governo, garantiu que Washington soubesse. Em setembro de 1940 o Eximbank aprovou o empréstimo, e em 9 de abril de 1941 nascia a Companhia Siderúrgica Nacional, em Volta Redonda.\n\nÉ o caso mais claro do que Gerson Moura chamou de autonomia na dependência: o Brasil não escolheu um lado, vendeu a hesitação entre os dois.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Constru%C3%A7%C3%A3o_da_Companhia_Sider%C3%BArgica_Nacional_%28CSN%29.tif/lossy-page1-1920px-Constru%C3%A7%C3%A3o_da_Companhia_Sider%C3%BArgica_Nacional_%28CSN%29.tif.jpg",
+        "alt": "Vista da obra da usina siderúrgica em Volta Redonda em 1941, com estruturas metálicas em construção e terreno aberto.",
+        "credito": "Arquivo Nacional",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Constru%C3%A7%C3%A3o_da_Companhia_Sider%C3%BArgica_Nacional_(CSN).tif",
+        "legenda": "A obra da Companhia Siderúrgica Nacional em Volta Redonda, fotografada em 30 de abril de 1941 — três semanas depois de a empresa ser criada."
+      }
+    },
+    {
+      "id": "1941-bases",
+      "data": "1941",
+      "rotulo": "1941–1942",
+      "titulo": "O trampolim",
+      "textoMdx": "O saliente nordestino é o ponto do continente americano mais próximo da África. Para os Estados Unidos, sem ele não havia rota aérea para o norte da África nem para a Europa; **Natal virou a peça mais cara da negociação**.\n\nParnamirim, nos arredores da cidade, tornou-se a maior base americana fora do território dos Estados Unidos. Em troca vieram equipamento militar pelo Lend-Lease — programa pelo qual os americanos **forneciam** material de guerra aos aliados, e não o contrário — e o compromisso de compra de materiais estratégicos brasileiros: borracha, quartzo, minério.\n\nO general Dutra manteve tropa brasileira de prontidão na região. A justificativa pública era a ameaça alemã; nos bastidores, a desconfiança era com quem estava desembarcando."
+    },
+    {
+      "id": "1942-ruptura",
+      "data": "1942-01-28",
+      "rotulo": "janeiro de 1942",
+      "titulo": "A conferência do Rio",
+      "textoMdx": "Em janeiro de 1942 os chanceleres americanos se reuniram no Rio de Janeiro para decidir o que fazer depois de Pearl Harbor. A pressão era por ruptura coletiva com o Eixo.\n\nO Brasil rompeu relações em 28 de janeiro. **Argentina e Chile não** — e a diferença marcaria a década seguinte: as embaixadas do Eixo fechadas aqui reabriram do outro lado do Prata, e com elas a rede de informação que passou a operar de Buenos Aires."
+    },
+    {
+      "id": "1942-torpedeamentos",
+      "data": "1942-08",
+      "rotulo": "agosto de 1942",
+      "titulo": "Os corpos nas praias de Sergipe",
+      "textoMdx": "Entre 15 e 17 de agosto de 1942 o submarino **U-507** afundou cinco navios mercantes brasileiros na costa de Sergipe e da Bahia — o *Baependi* primeiro, depois *Araraquara*, *Aníbal Benévolo*, *Itagiba* e *Arará*. Morreram cerca de seiscentas pessoas, quase todas civis; a contagem exata varia entre as fontes. Os corpos chegaram à praia.\n\nHouve manifestação de rua em várias capitais, e apedrejamento de estabelecimentos de alemães e italianos. Em 22 de agosto o governo reconheceu o estado de beligerância; em 31 de agosto, o decreto declarou o estado de guerra em todo o território.\n\nA entrada do Brasil na guerra não foi decidida numa mesa de negociação. Foi decidida por um comandante de submarino.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Vapor_Baependi.jpg",
+        "alt": "Fotografia antiga do navio mercante Baependi navegando, em preto e branco.",
+        "credito": "Autor não identificado",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Vapor_Baependi.jpg",
+        "legenda": "O vapor Baependi, primeiro dos cinco navios afundados pelo U-507 em agosto de 1942. Levava tropa e civis; morreram 270 pessoas a bordo."
+      }
+    },
+    {
+      "id": "1943-natal",
+      "data": "1943-01-28",
+      "rotulo": "janeiro de 1943",
+      "titulo": "Roosevelt em Natal",
+      "textoMdx": "Voltando da conferência de Casablanca, Roosevelt parou em Natal e se encontrou com Vargas a bordo do *USS Humboldt*, no rio Potengi, em 28 de janeiro de 1943.\n\nSaiu dali o compromisso que faltava: o Brasil enviaria uma força expedicionária à Europa. **Os americanos não queriam** — um exército sem experiência de combate, mal equipado e treinado por doutrina francesa obsoleta era mais problema que ajuda. Foi preciso Dutra negociar em Washington para reduzir o plano inicial de várias divisões a uma só, e ainda assim custou mais um ano até o embarque.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/U.S._President_Roosevelt_and_Brazilian_President_Get%C3%BAlio_Vargas_aboard_USS_Humboldt_%28AVP-21%29%2C_1943_%2825132077365%29.jpg/1920px-U.S._President_Roosevelt_and_Brazilian_President_Get%C3%BAlio_Vargas_aboard_USS_Humboldt_%28AVP-21%29%2C_1943_%2825132077365%29.jpg",
+        "alt": "Roosevelt e Vargas sentados lado a lado no convés de um navio de guerra, cercados por oficiais uniformizados.",
+        "credito": "National Museum of the U.S. Navy",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:U.S._President_Roosevelt_and_Brazilian_President_Get%C3%BAlio_Vargas_aboard_USS_Humboldt_(AVP-21),_1943_(25132077365).jpg",
+        "legenda": "Roosevelt e Vargas a bordo do USS Humboldt, ancorado no rio Potengi, em Natal, em 28 de janeiro de 1943."
+      }
+    },
+    {
+      "id": "1944-napoles",
+      "data": "1944-07",
+      "rotulo": "julho de 1944",
+      "titulo": "Cinco mil homens, em segredo",
+      "textoMdx": "O primeiro escalão da Força Expedicionária Brasileira partiu do Rio em 2 de julho de 1944, cerca de cinco mil homens, sob sigilo. Desembarcou em Nápoles em 16 de julho.\n\nO equipamento brasileiro foi trocado por americano ainda na Itália: fardamento, armamento, ração. **Boa parte da tropa recebeu o material com que combateria depois de já estar no teatro de operações** — e o treinamento de verdade aconteceu ali, entre uma marcha e a seguinte.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/For%C3%A7a_Expedicion%C3%A1ria_Brasileira_-_For%C3%A7a_Expedicion%C3%A1ria_Brasileira_em_N%C3%A1poles%2C_It%C3%A1lia_%281%29.jpg",
+        "alt": "Soldados brasileiros reunidos em Nápoles em 1944, em uniforme de campanha, com equipamento no chão.",
+        "credito": "Fundo Agência Nacional · Arquivo Nacional",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:For%C3%A7a_Expedicion%C3%A1ria_Brasileira_-_For%C3%A7a_Expedicion%C3%A1ria_Brasileira_em_N%C3%A1poles,_It%C3%A1lia_(1).jpg",
+        "legenda": "A Força Expedicionária Brasileira em Nápoles, 1944."
+      }
+    },
+    {
+      "id": "1944-monte-castello",
+      "data": "1944-11-29",
+      "rotulo": "1944–1945",
+      "titulo": "Monte Castello, quatro vezes",
+      "textoMdx": "A elevação dominava a estrada para Bolonha, e a FEB atacou quatro vezes entre novembro de 1944 e fevereiro de 1945. As três primeiras falharam. A posição caiu em **21 de fevereiro de 1945**.\n\nÉ o episódio que a memória do Exército guarda, e o que a historiografia acrescenta é o custo do aprendizado: as falhas iniciais vieram de reconhecimento insuficiente, artilharia mal coordenada e tropa lançada contra posição preparada, no inverno dos Apeninos, com equipamento recebido semanas antes.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Soldados_da_FEB_no_segundo_asalto_da_batalha_de_Monte_Castelo.jpg",
+        "alt": "Soldados brasileiros avançando por terreno aberto e enlameado durante o assalto a Monte Castello, no inverno italiano.",
+        "credito": "Força Expedicionária Brasileira · Exército Brasileiro",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Soldados_da_FEB_no_segundo_asalto_da_batalha_de_Monte_Castelo.jpg",
+        "legenda": "Soldados da FEB no segundo assalto a Monte Castello, perto de Torre Corneta, em 29 de novembro de 1944 — um dos três que fracassaram."
+      }
+    },
+    {
+      "id": "1945-fornovo",
+      "data": "1945-04-29",
+      "rotulo": "abril de 1945",
+      "titulo": "Collecchio e Fornovo",
+      "textoMdx": "Entre 26 e 29 de abril de 1945 a FEB cercou em Collecchio e Fornovo di Taro o que restava de forças alemãs e italianas que tentavam alcançar o Pó. A rendição foi aceita na manhã de 29 de abril: cerca de **quinze mil homens de uma vez**, incluindo a 148ª Divisão de Infantaria alemã e as divisões italianas Bersaglieri e Monte Rosa.\n\nAo longo da campanha a FEB tomou cerca de vinte mil prisioneiros. Foram duzentos e trinta e nove dias em linha de frente, e quatrocentos e cinquenta e sete mortos.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Prisioneiros_alem%C3%A3es_da_For%C3%A7a_Expedicion%C3%A1ria_Brasileira_FEB.jpg",
+        "alt": "Soldado brasileiro de costas, com a insígnia da cobra fumando no braço, diante de uma coluna de prisioneiros alemães.",
+        "credito": "Fundo Agência Nacional · Arquivo Nacional",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Prisioneiros_alem%C3%A3es_da_For%C3%A7a_Expedicion%C3%A1ria_Brasileira_FEB.jpg",
+        "legenda": "Um soldado brasileiro, com a insígnia da cobra fumando, diante de prisioneiros alemães em Collecchio, 29 de abril de 1945."
+      }
+    }
+  ],
+  "fecho": "*Duas coisas ficam em disputa, e uma terceira não.*\n\n*A primeira é a natureza da equidistância. Gerson Moura a lê como estratégia deliberada — o governo teria explorado a competição entre Berlim e Washington para extrair de ambos o que não conseguiria de nenhum. Ricardo Seitenfus vê menos cálculo e mais afinidade real com os regimes do Eixo entre 1937 e 1939, com a virada acontecendo por pressão e por oportunidade, não por plano. As duas leituras trabalham com os mesmos documentos.*\n\n*A segunda é o peso militar da FEB. Vinte e cinco mil homens num teatro de milhões é uma contribuição pequena, e a memória institucional do Exército a conta como epopeia. Nenhuma das duas descrições está errada; elas medem coisas diferentes.*\n\n*O que não está em disputa é o efeito interno. Um regime que fechara o Congresso, censurava a imprensa e prendia opositores mandou uma tropa lutar contra o fascismo na Europa — e a contradição foi dita em voz alta assim que os soldados voltaram. O Estado Novo caiu em outubro de 1945, cinco meses depois de Fornovo, e a [[br-republica-de-46|República de 1946]] começou ali.*",
+  "fontes": [
+    "mccann-alianca-brasil-eua",
+    "moura-autonomia-na-dependencia",
+    "seitenfus-brasil-de-vargas",
+    "dietrich-nazismo-tropical",
+    "maximiano-barbudos-sujos-fatigados",
+    "decreto-estado-de-guerra-1942"
+  ]
+}
