@@ -1070,6 +1070,43 @@ export function Atlas({
       </p>
 
       {/*
+        Como LER os nomes da camada de fundo, dito onde eles são lidos.
+        
+        Sai de uma auditoria de 2026-08-19 sobre as 54 fatias: de 64 Estados
+        modernos de datação incontroversa, 36 aparecem antes de existir — a Armênia
+        em 323 a.C., Gana em 800, a Sérvia em 900. A maioria NÃO é erro: a base
+        reaproveita o nome moderno para o predecessor histórico, o que é prática
+        legítima em cartografia histórica e engana quem não foi avisado. Havia um
+        reino armênio em 323 a.C., e o Império do Gana existiu — em território que
+        não é o do Gana atual.
+        
+        Foi essa distribuição que descartou a saída que eu havia proposto, de uma
+        tabela de existência que escondesse a entidade antes da fundação: ela
+        corrigiria cinco casos e apagaria a Armênia antiga junto.
+        
+        A segunda metade da nota é sobre as 232 entidades que "piscam" — aparecem,
+        somem e voltam. O Egito sai do mapa por dois mil anos e volta em 1715, e o
+        Egito ptolomaico existia; a base só não o nomeia. Lacuna de nome não é
+        ausência de Estado, e sem dizer isso o cinza vira uma afirmação falsa.
+      */}
+      {!telaCheia && (
+        <p className="max-w-2xl text-center text-[10px] leading-relaxed text-slate-600">
+          Os nomes do fundo vêm da base e{" "}
+          <span className="text-slate-500">
+            reaproveitam o nome moderno para predecessores históricos
+          </span>
+          : &ldquo;Armênia&rdquo; em 323 a.C. é o reino antigo, e &ldquo;Gana&rdquo;
+          em 800 é o império medieval, que ficava longe do Gana de hoje. Na direção
+          oposta, a base deixa de nomear territórios que tinham Estado — o Egito sai
+          do mapa entre 700 a.C. e 1715 —, então{" "}
+          <span className="text-slate-500">
+            território sem nome não quer dizer território sem Estado
+          </span>
+          .
+        </p>
+      )}
+
+      {/*
         Contexto da viagem selecionada. O traço no mapa não comporta ressalva:
         a rota do Colombo desenha um desembarque cuja ilha é disputada, e a
         linha sozinha afirmaria uma certeza que as fontes não têm.
