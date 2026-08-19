@@ -24,10 +24,19 @@ import type { FatiaFeature } from "./fatias";
  * | 2600 px         | 86 (49%)        |
  *
  * Ou seja: nem dobrando o mapa se passa da metade. O ganho real está na faixa do
- * meio — a 1600 px entram França, Alemanha, Egito, Nigéria, Quênia e Polônia,
- * que são os nomes por onde alguém se orienta ao estudar — e no ZOOM, que a 1472
- * px e 3× coloca 121 nomes. Atlas de papel resolve o resto com linha-guia e
- * prancha regional; nenhum dos dois cabe aqui ainda.
+ * meio — a 1600 px entram França, Alemanha, Egito, Nigéria, Quênia e Polônia, que
+ * são os nomes por onde alguém se orienta ao estudar.
+ *
+ * **Correção:** eu havia escrito aqui que o zoom 3× colocava 121 nomes. Estava
+ * errado — aquela contagem incluía rótulos posicionados FORA do enquadramento, que
+ * nunca apareciam na tela. Com o recorte pela tela, os números honestos num mapa de
+ * 1472 px são: 53 no mundo inteiro, 60 sobre a Europa a 3×, 45 a 6× e 7 sobre o
+ * Japão a 8×.
+ *
+ * O que o zoom faz não é mostrar MAIS nomes: é trocar QUAIS. Sobre a Europa a 6×
+ * entram Alemanha, Polônia, Itália e Espanha, que no mundo inteiro nunca caberiam,
+ * e saem os gigantes que estão fora do recorte. É o comportamento que se quer de um
+ * mapa de estudo — atlas de papel resolve isso com prancha regional.
  *
  * O critério é ELE CABER, e não a área do país: nome curto em país estreito entra
  * (Chile não, Peru sim), e escrever por cima da fronteira do vizinho seria
@@ -60,12 +69,27 @@ export interface Rotulo {
  * arrastar e aproximar não recalculam geometria.
  */
 export interface ResumoDeEntidade {
-  /** Ponto interior onde o nome vai, em lon/lat. */
+  /** Ponto interior onde o nome vai, em lon/lat. A melhor opção. */
   ancora: [number, number] | null;
   /** Caixa envolvente em graus: oeste, sul, leste, norte. */
   caixa: [number, number, number, number];
   /** Área em graus², invariante à vista. */
   areaPlana: number;
+  /** O maior polígono, guardado para gerar alternativas quando precisar. */
+  pol: Polygon;
+  /**
+   * Outros pontos interiores, para quando a âncora principal sai da tela.
+   *
+   * Calculado SOB DEMANDA e guardado aqui. Em zoom alto a âncora fica fora do
+   * enquadramento com frequência — aproximar em Kyushu tirava o nome do Japão da
+   * tela, e o país aparecia sem nome justamente quando se estava olhando ele.
+   *
+   * Preguiçoso porque a varredura custa 529 testes de contenção por entidade, e
+   * são 1.307 entidades em 1492: fazer para todas na carga da fatia custaria
+   * perto de um segundo para servir a um caso que só acontece ampliado. Assim,
+   * paga-se por entidade e uma vez só.
+   */
+  alternativas?: [number, number][];
 }
 
 /**
@@ -188,6 +212,64 @@ export function ancoraDe(pol: Polygon): [number, number] | null {
   return melhor;
 }
 
+/** Quantas âncoras alternativas guardar por entidade. */
+const ALTERNATIVAS = 24;
+
+/**
+ * Pontos interiores espalhados pelo território, para o rótulo achar lugar visível.
+ *
+ * A ordem importa e não é a de folga: é **amostragem do ponto mais distante**.
+ * Ordenar só por folga concentraria as 24 opções na parte mais larga do país — no
+ * Japão, todas em Honshu —, e aproximar em Kyushu continuaria sem nome. Começando
+ * pela de maior folga e escolhendo em seguida sempre a mais longe das já
+ * escolhidas, as opções cobrem a forma inteira.
+ *
+ * Quem desenha varre nesta ordem e usa a primeira que cai na tela: perto do centro
+ * quando o país todo está visível, e numa ponta quando só a ponta está.
+ */
+export function ancorasDe(pol: Polygon): [number, number][] {
+  const [oeste, sul, leste, norte] = caixaDe(pol);
+  const dentro: { p: [number, number]; folga: number }[] = [];
+  for (let i = 1; i < GRADE; i++) {
+    for (let j = 1; j < GRADE; j++) {
+      const p: [number, number] = [
+        oeste + ((leste - oeste) * i) / GRADE,
+        sul + ((norte - sul) * j) / GRADE,
+      ];
+      if (!geoContains(pol, p)) continue;
+      dentro.push({
+        p,
+        folga: Math.min(p[0] - oeste, leste - p[0], p[1] - sul, norte - p[1]),
+      });
+    }
+  }
+  if (dentro.length === 0) return [];
+
+  dentro.sort((a, b) => b.folga - a.folga);
+  const escolhidas: [number, number][] = [dentro[0].p];
+  const restantes = dentro.slice(1);
+  while (escolhidas.length < ALTERNATIVAS && restantes.length > 0) {
+    let melhor = 0;
+    let maiorDistancia = -1;
+    for (let k = 0; k < restantes.length; k++) {
+      let perto = Infinity;
+      for (const e of escolhidas) {
+        const dx = restantes[k].p[0] - e[0];
+        const dy = restantes[k].p[1] - e[1];
+        const d = dx * dx + dy * dy;
+        if (d < perto) perto = d;
+      }
+      if (perto > maiorDistancia) {
+        maiorDistancia = perto;
+        melhor = k;
+      }
+    }
+    escolhidas.push(restantes[melhor].p);
+    restantes.splice(melhor, 1);
+  }
+  return escolhidas;
+}
+
 /*
  * Cache por identidade da lista de feições. A fatia é criada uma vez no
  * carregador e guardada em memória, então a mesma lista volta em todo quadro — e
@@ -231,6 +313,7 @@ export function resumirFatia(
       ancora: ancoraDe(pol),
       caixa: caixaDe(pol),
       areaPlana: areas.get(nome) ?? 0,
+      pol,
     });
   }
   resumos.set(feicoes, resumo);
@@ -267,6 +350,15 @@ export interface OpcoesRotulos {
   feicoes: readonly FatiaFeature[];
   projecao: GeoProjection;
   /**
+   * Tamanho do canvas, para recusar nome que cairia fora dele.
+   *
+   * Sem isto, em zoom alto a maioria dos nomes era colocada fora do
+   * enquadramento: não apareciam, e ainda ocupavam espaço na detecção de
+   * sobreposição, podendo barrar um nome visível perto da borda.
+   */
+  largura: number;
+  altura: number;
+  /**
    * Largura do texto em pixels.
    *
    * Injetada porque só quem tem o contexto do canvas sabe medir de verdade, e
@@ -290,11 +382,17 @@ export interface OpcoesRotulos {
 export function colocarRotulos({
   feicoes,
   projecao,
+  largura: larguraDaTela,
+  altura: alturaDaTela,
   medir,
   fonte,
 }: OpcoesRotulos): Rotulo[] {
   const resumo = resumirFatia(feicoes);
   const escala = projecao.scale();
+
+  /** A caixa do texto cabe, ao menos em parte, dentro do canvas? */
+  const naTela = (c: Caixa) =>
+    c.x1 > 0 && c.x0 < larguraDaTela && c.y1 > 0 && c.y0 < alturaDaTela;
 
   const candidatos: (Rotulo & { area: number; caixa: Caixa })[] = [];
   for (const [nome, r] of resumo) {
@@ -305,21 +403,49 @@ export function colocarRotulos({
     const largura = medir(nome);
     if (largura > larguraCaixa || fonte > alturaCaixa) continue;
 
-    const xy = projecao(r.ancora);
-    if (!xy || !Number.isFinite(xy[0]) || !Number.isFinite(xy[1])) continue;
+    const caixaDoTexto = (xy: [number, number]): Caixa => ({
+      x0: xy[0] - largura / 2 - RESPIRO,
+      y0: xy[1] - fonte / 2 - RESPIRO,
+      x1: xy[0] + largura / 2 + RESPIRO,
+      y1: xy[1] + fonte / 2 + RESPIRO,
+    });
 
-    const [x, y] = xy;
+    const projetar = (p: [number, number]): Caixa | null => {
+      const xy = projecao(p);
+      if (!xy || !Number.isFinite(xy[0]) || !Number.isFinite(xy[1])) return null;
+      return caixaDoTexto(xy as [number, number]);
+    };
+
+    /*
+     * A âncora principal quando ela está na tela; se não, uma das alternativas.
+     *
+     * É o conserto de "aproximei em Kyushu e o Japão perdeu o nome": a âncora
+     * fica no centro do território, e em zoom alto o centro sai do enquadramento
+     * com frequência. As alternativas são pontos interiores espalhados, então o
+     * nome migra para a parte que está visível — e continua sobre a terra que
+     * nomeia, que é a promessa que não se pode quebrar. Deslocar o nome para
+     * dentro da tela por força bruta o colocaria no mar do vizinho.
+     */
+    let caixa = projetar(r.ancora);
+    if (!caixa || !naTela(caixa)) {
+      if (!r.alternativas) r.alternativas = ancorasDe(r.pol);
+      caixa = null;
+      for (const alt of r.alternativas) {
+        const c = projetar(alt);
+        if (c && naTela(c)) {
+          caixa = c;
+          break;
+        }
+      }
+    }
+    if (!caixa) continue;
+
     candidatos.push({
       nome,
-      x,
-      y,
+      x: (caixa.x0 + caixa.x1) / 2,
+      y: (caixa.y0 + caixa.y1) / 2,
       area: r.areaPlana,
-      caixa: {
-        x0: x - largura / 2 - RESPIRO,
-        y0: y - fonte / 2 - RESPIRO,
-        x1: x + largura / 2 + RESPIRO,
-        y1: y + fonte / 2 + RESPIRO,
-      },
+      caixa,
     });
   }
 

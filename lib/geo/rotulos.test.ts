@@ -5,8 +5,14 @@ import { feature } from "topojson-client";
 import { geoContains } from "d3-geo";
 import type { Topology, GeometryCollection } from "topojson-specification";
 import type { Polygon } from "geojson";
-import { ancoraDe, colocarRotulos, maiorPoligono } from "./rotulos";
-import { criarProjecao } from "./projecao";
+import {
+  ancoraDe,
+  ancorasDe,
+  colocarRotulos,
+  maiorPoligono,
+  resumirFatia,
+} from "./rotulos";
+import { criarProjecao, escalaPara } from "./projecao";
 import { nomeCanonico } from "./nomes";
 import type { FatiaFeature } from "./fatias";
 
@@ -37,7 +43,12 @@ const mapa = (largura: number) =>
     rotacao: [0, 0],
   });
 
-const nomesEm = (feicoes: FatiaFeature[], largura: number, zoom = 1) =>
+const nomesEm = (
+  feicoes: FatiaFeature[],
+  largura: number,
+  zoom = 1,
+  deslocamento: [number, number] = [0, 0]
+) =>
   colocarRotulos({
     feicoes,
     projecao: criarProjecao({
@@ -46,7 +57,10 @@ const nomesEm = (feicoes: FatiaFeature[], largura: number, zoom = 1) =>
       alpha: 1,
       rotacao: [0, 0],
       zoom,
+      deslocamento,
     }),
+    largura,
+    altura: Math.round(largura * 0.53),
     medir,
     fonte: FONTE,
   });
@@ -126,6 +140,43 @@ describe("ancoraDe", () => {
         const a = ancoraDe(pol);
         if (!a) continue;
         expect(geoContains(pol, a), `${nome}: ${f.properties?.n}`).toBe(true);
+      }
+    }
+  });
+});
+
+describe("ancorasDe", () => {
+  /*
+   * A ordem NÃO é por folga, é amostragem do ponto mais distante. Ordenar por folga
+   * concentraria as 24 opções na parte mais larga — no Japão, todas em Honshu
+   * central — e aproximar numa ponta continuaria sem nome. O que se cobra aqui é
+   * COBERTURA: as opções têm de se espalhar pela forma.
+   */
+  it("espalha as opções pela forma, em vez de agrupá-las no meio", () => {
+    const japao = carregar("2018", 2018).find((f) => f.properties?.n === "Japan")!;
+    const pol = maiorPoligono(japao)!;
+    const alts = ancorasDe(pol);
+    expect(alts.length).toBeGreaterThan(10);
+
+    const lats = alts.map((a) => a[1]);
+    const [, sul, , norte] = [
+      Math.min(...pol.coordinates[0].map((c) => c[0])),
+      Math.min(...pol.coordinates[0].map((c) => c[1])),
+      Math.max(...pol.coordinates[0].map((c) => c[0])),
+      Math.max(...pol.coordinates[0].map((c) => c[1])),
+    ];
+    /* Cobrem mais da metade da extensão norte-sul da ilha principal. */
+    expect(Math.max(...lats) - Math.min(...lats)).toBeGreaterThan(
+      (norte - sul) * 0.5
+    );
+  });
+
+  it("toda opção cai dentro do polígono", () => {
+    for (const f of carregar("2018", 2018).slice(0, 40)) {
+      const pol = maiorPoligono(f);
+      if (!pol) continue;
+      for (const a of ancorasDe(pol)) {
+        expect(geoContains(pol, a), f.properties?.n).toBe(true);
       }
     }
   });
@@ -258,19 +309,104 @@ describe("colocarRotulos", () => {
     expect(nomes.length).toBeGreaterThan(45);
   });
 
+  /** Deslocamento que põe um ponto do mundo no centro da tela. */
+  const centrarEm = (
+    centro: [number, number],
+    largura: number,
+    zoom: number
+  ): [number, number] => {
+    const k = escalaPara(1, largura) * zoom;
+    const RAD = Math.PI / 180;
+    return [-centro[0] * RAD * k, centro[1] * RAD * k];
+  };
+
   /*
-   * A Alemanha é o caso difícil — palavra longa em país compacto — e não cabe no
-   * mundo inteiro. É para isso que serve aproximar: a 1472 px e zoom 3 são 121
-   * nomes, e entram Alemanha, Bélgica e Chéquia, que no mundo inteiro nunca
-   * teriam espaço.
+   * Aproximar não mostra MAIS nomes: mostra os nomes DO LUGAR onde se aproximou.
+   *
+   * Eu havia afirmado "121 nomes no zoom 3", e estava errado — aquela contagem
+   * incluía rótulos colocados fora do enquadramento, que não apareciam na tela. Com
+   * o recorte pela tela, o número honesto no mundo inteiro é 53, e ampliar mantém a
+   * mesma ordem de grandeza. O que muda é QUEM: sobre a Europa a 6× entram Alemanha,
+   * Polônia, Itália e Espanha, que no mundo inteiro nunca caberiam.
    */
-  it("aproximar traz os que não cabiam", () => {
+  it("aproximar troca quais nomes aparecem, não quantos", () => {
     const feicoes = carregar("2018", 2018);
-    expect(nomesEm(feicoes, 1472).map((r) => r.nome)).not.toContain("Germany");
-    const perto = nomesEm(feicoes, 1472, 3).map((r) => r.nome);
-    expect(perto.length).toBeGreaterThan(100);
-    for (const esperado of ["Germany", "Belgium", "Czechia"]) {
-      expect(perto, esperado).toContain(esperado);
+    const mundo = nomesEm(feicoes, 1472).map((r) => r.nome);
+    expect(mundo).not.toContain("Germany");
+
+    const europa = nomesEm(feicoes, 1472, 6, centrarEm([10, 50], 1472, 6)).map(
+      (r) => r.nome
+    );
+    for (const esperado of ["Germany", "Poland", "Italy", "Spain"]) {
+      expect(europa, esperado).toContain(esperado);
+    }
+    /* Não é uma explosão de nomes: é uma troca de recorte. */
+    expect(europa.length).toBeLessThan(mundo.length * 1.5);
+  });
+
+  /*
+   * O conserto que motivou as âncoras alternativas: "aproximei e o país perdeu o
+   * nome". A âncora do Japão fica no centro de Honshu, em [136,7; 36,0], e num
+   * enquadramento sobre Hokkaido ela projeta em y ≈ 1083 — fora de um canvas de 780
+   * px. Antes disso, o Japão ficava sem nome exatamente quando se estava olhando ele.
+   */
+  it("nomeia o país mesmo quando o centro dele saiu da tela", () => {
+    const feicoes = carregar("2018", 2018);
+    const largura = 1472;
+    const altura = Math.round(largura * 0.53);
+    const zoom = 24;
+    const desl = centrarEm([142.8, 43.5], largura, zoom);
+
+    const r = resumirFatia(feicoes).get("Japan")!;
+    const p = criarProjecao({
+      largura,
+      altura,
+      alpha: 1,
+      rotacao: [0, 0],
+      zoom,
+      deslocamento: desl,
+    });
+    const principal = p(r.ancora!)!;
+    /* A âncora principal está mesmo fora — senão o teste não prova nada. */
+    expect(principal[1]).toBeGreaterThan(altura);
+
+    const japao = nomesEm(feicoes, largura, zoom, desl).find(
+      (x) => x.nome === "Japan"
+    );
+    expect(japao, "o Japão tem de ser nomeado pela alternativa").toBeDefined();
+    expect(japao!.x).toBeGreaterThan(0);
+    expect(japao!.x).toBeLessThan(largura);
+    expect(japao!.y).toBeGreaterThan(0);
+    expect(japao!.y).toBeLessThan(altura);
+  });
+
+  /*
+   * Todo nome tem de estar ao menos PARCIALMENTE na tela, em qualquer
+   * enquadramento. Parcialmente e não inteiramente: rótulo que atravessa a borda
+   * é normal em mapa, e meio nome legível vale mais que nome nenhum — Israel a 6×
+   * sobre a Europa cai 0,3 px abaixo da borda inferior, e cortá-lo seria perder a
+   * informação para ganhar simetria. O que não pode é nome desenhado inteiro fora,
+   * que era o caso antes do recorte: eles não apareciam e ainda ocupavam espaço na
+   * detecção de sobreposição, podendo barrar um vizinho visível.
+   */
+  it("nunca coloca nome inteiramente fora do canvas, nem ampliado e deslocado", () => {
+    const feicoes = carregar("2018", 2018);
+    const largura = 1472;
+    const altura = Math.round(largura * 0.53);
+    for (const [zoom, centro] of [
+      [1, [0, 0]],
+      [6, [10, 50]],
+      [24, [142.8, 43.5]],
+    ] as [number, [number, number]][]) {
+      const rotulos = nomesEm(feicoes, largura, zoom, centrarEm(centro, largura, zoom));
+      expect(rotulos.length).toBeGreaterThan(0);
+      for (const r of rotulos) {
+        const meiaLargura = medir(r.nome) / 2;
+        expect(r.x + meiaLargura, r.nome).toBeGreaterThan(0);
+        expect(r.x - meiaLargura, r.nome).toBeLessThan(largura);
+        expect(r.y + FONTE / 2, r.nome).toBeGreaterThan(0);
+        expect(r.y - FONTE / 2, r.nome).toBeLessThan(altura);
+      }
     }
   });
 

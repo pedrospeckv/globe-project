@@ -97,6 +97,8 @@ export function RotulosCanvas({
     const rotulos = colocarRotulos({
       feicoes: fatia.feicoes,
       projecao,
+      largura,
+      altura,
       medir: (t) => ctx.measureText(t).width,
       fonte: FONTE,
     });
