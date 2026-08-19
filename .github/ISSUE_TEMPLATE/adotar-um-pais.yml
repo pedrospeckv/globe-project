@@ -1,0 +1,64 @@
+name: Adotar um país
+description: Reservar um país para escrever o dossiê dele
+title: "País: "
+labels: ["país", "conteúdo"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Abrir esta issue serve para uma coisa só: **duas pessoas não escreverem o
+        mesmo país**. Não é pedido de permissão — é aviso.
+
+        A lista de quem falta está em
+        [`docs/cobertura.md`](../blob/master/docs/cobertura.md), e o passo a passo
+        em [`docs/adicionar-um-pais.md`](../blob/master/docs/adicionar-um-pais.md).
+
+  - type: input
+    id: pais
+    attributes:
+      label: Qual país
+      placeholder: Peru
+    validations:
+      required: true
+
+  - type: textarea
+    id: fontes
+    attributes:
+      label: Em que você pretende se apoiar
+      description: >
+        Livro, arquivo, base de dados — o que você já tem em mãos. Não precisa ser
+        definitivo, e não precisa ter URL: livro entra sem link. Serve para
+        alguém poder sugerir uma fonte melhor antes de você escrever.
+      placeholder: |
+        - Uma história do Peru que eu tenho aqui
+        - Constituições, para os regimes
+    validations:
+      required: false
+
+  - type: textarea
+    id: periodos
+    attributes:
+      label: Como você pensa em dividir os períodos
+      description: >
+        Só os rótulos, se já tiver ideia. É a decisão mais difícil do trabalho e a
+        que mais vale discutir ANTES de escrever 3.000 caracteres por período.
+      placeholder: |
+        - Impérios andinos (até 1532)
+        - Vice-Reino do Peru (1542–1824)
+        - República (1824–)
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: regras
+    attributes:
+      label: Antes de começar
+      options:
+        - label: >
+            Li o CONTRIBUTING e entendi que toda afirmação precisa de fonte, e que
+            URL não conferida não entra.
+          required: true
+        - label: >
+            Entendi que minha contribuição fica sob CC BY-SA 4.0 (texto) e MIT
+            (código).
+          required: true

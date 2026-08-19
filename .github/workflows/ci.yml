@@ -1,0 +1,53 @@
+# Confere todo PR e todo push no master.
+#
+# A ordem dos passos é deliberada: o mais barato e o mais informativo primeiro.
+# `validar` é o que mais interessa a quem contribui com conteúdo — ele responde
+# "a sua alegação tem fonte?" em segundos, sem esperar build de mapa nenhum.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+# PR que recebe outro commit cancela a execução anterior: ninguém precisa do
+# resultado de um commit que já foi substituído.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # Conteúdo primeiro: é o passo que a maioria dos PRs vai exercitar, e o
+      # único cuja mensagem de erro é endereçada a quem escreve, não a quem
+      # programa. Diz o arquivo, o campo e o que falta.
+      - name: Conteúdo — schema, fontes e ligações
+        run: pnpm validar
+
+      - name: Tipos
+        run: pnpm exec tsc --noEmit
+
+      - name: Testes
+        run: pnpm test
+
+      - name: Lint
+        run: pnpm lint
+
+      # O build roda por último porque é o mais caro e o que menos acrescenta
+      # depois dos anteriores — mas roda, porque é ele que gera as 136 páginas
+      # estáticas e é onde erro de link entre dossiês aparece.
+      - name: Build
+        run: pnpm build

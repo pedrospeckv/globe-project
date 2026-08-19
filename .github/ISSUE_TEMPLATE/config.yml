@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Como adicionar um país
+    url: https://github.com/pedrospeckv/globe-project/blob/master/docs/adicionar-um-pais.md
+    about: O passo a passo completo, com exemplo real. Leia antes de abrir a issue.
+  - name: O que já tem dossiê, e o que falta
+    url: https://github.com/pedrospeckv/globe-project/blob/master/docs/cobertura.md
+    about: A lista dos 165 países sem dossiê — é daqui que se escolhe um.
