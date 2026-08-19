@@ -12,6 +12,7 @@ import {
   IconePeriodos,
 } from "@/components/conteudo/IconesAla";
 import { eventosDoPais } from "@/lib/conteudo/evento";
+import { episodiosDoPais, imagensDe } from "@/lib/conteudo/episodio";
 import { rotuloDeData } from "@/lib/conteudo/tempo";
 import { livros } from "@/lib/conteudo/nota";
 import { resumoDe } from "@/lib/conteudo/pais";
@@ -51,6 +52,7 @@ export default async function PaisPage({
   const figuras = acervo.figuras.filter((f) => f.paisIso === iso);
   const indicadores = acervo.indicadores.filter((i) => i.paisIso === iso);
   const eventos = eventosDoPais(acervo.eventos, iso);
+  const episodios = episodiosDoPais(acervo.episodios, iso);
   /*
    * Uma disputa pode envolver mais de um país do atlas — a Caxemira aparece
    * no dossiê da Índia e no da China. Filtrar por `atribuidoNaBase` só
@@ -262,6 +264,51 @@ export default async function PaisPage({
             </div>
           </div>
         </section>
+
+        {episodios.length > 0 && (
+          /*
+            Os recortes que não são regime nenhum: curtos demais para virar
+            período, específicos demais para diluir na prosa de um. Entram
+            depois dos períodos porque é o período que dá a moldura — o
+            episódio só faz sentido depois de saber onde ele cai.
+          */
+          <section id="episodios" className="scroll-mt-8">
+            <div className="mb-10 border-b border-zinc-800 pb-4">
+              <h2 className="font-serif text-3xl tracking-tight text-zinc-50 md:text-4xl">
+                Episódios
+              </h2>
+              <p className="mt-1 font-mono text-xs tracking-widest text-amber-500/80">
+                {episodios.length} RECORTE(S) ILUSTRADO(S)
+              </p>
+            </div>
+
+            <ul className="grid gap-4 sm:grid-cols-2">
+              {episodios.map((e) => (
+                <li key={e.id}>
+                  <Link
+                    href={`/episodio/${e.id}`}
+                    className="group flex h-full flex-col rounded-lg border border-zinc-800 bg-zinc-900/60 p-5 transition-colors hover:border-amber-500/30"
+                  >
+                    <span className="font-mono text-[10px] tracking-wider text-zinc-600">
+                      {`${rotuloDeData(e.inicio)}–${e.fim ? rotuloDeData(e.fim) : ""}`}
+                    </span>
+                    <span className="mt-1 font-serif text-xl text-zinc-50 group-hover:text-amber-500/90">
+                      {e.titulo}
+                    </span>
+                    {e.subtitulo && (
+                      <span className="mt-2 text-sm leading-relaxed text-zinc-400">
+                        {e.subtitulo}
+                      </span>
+                    )}
+                    <span className="mt-4 font-mono text-[10px] tracking-wider text-amber-500/70">
+                      {e.blocos.length} MOMENTOS · {imagensDe(e)} IMAGENS →
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <div id="livros" className="scroll-mt-8">
           <Estante

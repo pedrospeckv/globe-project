@@ -205,6 +205,15 @@
     "citacao": "É aqui que aparece, pela primeira vez, a frase atribuída ao califa Omar sobre queimar os livros de Alexandria. Bar Hebraeus escreveu no século XIII, mais de seiscentos anos depois da conquista árabe, e nenhuma fonte anterior — cristã, grega ou árabe — menciona o episódio."
   },
   {
+    "id": "barman-forjando-nacao",
+    "tipo": "livro",
+    "titulo": "Brazil: The Forging of a Nation, 1798–1852",
+    "autor": "Roderick J. Barman",
+    "publicacao": "Stanford University Press",
+    "data": "1988",
+    "citacao": "Trata a transferência da corte, o Reino Unido e a independência como um processo único de construção de Estado, e não como três episódios. Base para a leitura de 1822 como separação negociada entre elites já instaladas no Rio."
+  },
+  {
     "id": "beard-spqr",
     "tipo": "livro",
     "titulo": "SPQR: A History of Ancient Rome",
@@ -309,6 +318,24 @@
     "citacao": "Reconstruiu, a partir de interrogatórios judiciais, como um batalhão de policiais de meia-idade sem formação ideológica especial fuzilou dezenas de milhares de civis, e argumentou que conformidade, autoridade e pressão do grupo explicam mais que ódio doutrinário. A tese oposta, de Daniel Goldhagen, atribui o comportamento a um antissemitismo eliminacionista difundido na sociedade alemã; a disputa entre as duas leituras segue aberta."
   },
   {
+    "id": "cabral-de-mello-negocio-do-brasil",
+    "tipo": "livro",
+    "titulo": "O negócio do Brasil: Portugal, os Países Baixos e o Nordeste, 1641-1669",
+    "autor": "Evaldo Cabral de Mello",
+    "publicacao": "Topbooks",
+    "data": "1998",
+    "citacao": "Acompanha a negociação diplomática que se seguiu à expulsão de 1654 e desemboca no acordo com as Províncias Unidas: Portugal manteve o território e pagou por ele, em dinheiro e sal, ao longo de décadas."
+  },
+  {
+    "id": "cabral-de-mello-olinda-restaurada",
+    "tipo": "livro",
+    "titulo": "Olinda restaurada: guerra e açúcar no Nordeste, 1630-1654",
+    "autor": "Evaldo Cabral de Mello",
+    "publicacao": "Forense Universitária",
+    "data": "1975",
+    "citacao": "Reconstrói a guerra pernambucana pelo lado econômico: a dívida dos senhores de engenho com a Companhia, o que a insurreição de 1645 defendia e por que a vitória militar não restaurou a economia açucareira anterior."
+  },
+  {
     "id": "caminha-1500",
     "tipo": "documento-oficial",
     "titulo": "Carta de Pero Vaz de Caminha a el-rei D. Manuel I",
@@ -323,6 +350,22 @@
     "publicacao": "Organização das Nações Unidas (S/1999/1257)",
     "data": "1999-12-15",
     "citacao": "Inquérito encomendado pelo próprio secretário-geral. Reconstitui a morte dos dez capacetes azuis belgas em 7 de abril de 1994, a retirada do contingente da Bélgica em seguida e a decisão do Conselho de Segurança de reduzir a UNAMIR em 21 de abril — no momento de maior matança. Conclui que a ONU falhou em prevenir e em deter o genocídio."
+  },
+  {
+    "id": "carta-lei-reino-unido-1815",
+    "tipo": "documento-oficial",
+    "titulo": "Carta de Lei de 16 de dezembro de 1815, que eleva o Brasil a Reino Unido a Portugal e Algarves",
+    "publicacao": "Rio de Janeiro",
+    "data": "1815-12-16",
+    "citacao": "Deu ao Brasil estatuto de reino, e não mais de colônia, no mesmo mês em que o Congresso de Viena redesenhava a Europa. A mudança resolvia um constrangimento diplomático — a monarquia portuguesa governava a partir de um território que seu próprio direito classificava como colônia."
+  },
+  {
+    "id": "carta-regia-abertura-portos-1808",
+    "tipo": "documento-oficial",
+    "titulo": "Carta Régia de 28 de janeiro de 1808, sobre a abertura dos portos",
+    "publicacao": "Salvador, Bahia",
+    "data": "1808-01-28",
+    "citacao": "Assinada seis dias depois do desembarque na Bahia, franqueou os portos do Brasil ao comércio das nações amigas — na prática, à Inglaterra, única potência marítima capaz de usá-la em 1808. Encerrou o monopólio comercial português sobre a colônia antes de qualquer decisão sobre o estatuto político dela."
   },
   {
     "id": "cartas-de-amarna",
@@ -685,6 +728,15 @@
     "publicacao": "República Popular da China e Reino Unido",
     "data": "1984-12-19",
     "citacao": "Tratado registrado na ONU que previu a devolução de Hong Kong em 1997 com alto grau de autonomia e manutenção do sistema social e econômico por cinquenta anos. Desde 2017 o governo chinês sustenta que o documento é histórico e não tem efeito vinculante sobre a administração atual do território; o Reino Unido discorda."
+  },
+  {
+    "id": "dias-interiorizacao-metropole",
+    "tipo": "artigo-academico",
+    "titulo": "A interiorização da metrópole (1808-1853)",
+    "autor": "Maria Odila Leite da Silva Dias",
+    "publicacao": "Em 1822: Dimensões, org. Carlos Guilherme Mota, Perspectiva",
+    "data": "1972",
+    "citacao": "Argumenta que a corte no Rio criou no próprio Brasil um núcleo de interesses burocráticos e mercantis com razões próprias para manter o centro de poder aqui — o que explica a independência como continuidade administrativa, e não como ruptura."
   },
   {
     "id": "dikotter-grande-fome",
@@ -1213,6 +1265,14 @@
     "citacao": "Obra que estabeleceu a interpretação do coronelismo como fruto da fraqueza do coronel diante do Estado, e não da sua força — leitura adotada no texto do atlas."
   },
   {
+    "id": "lech-usp-cartografia-historica",
+    "tipo": "dataset",
+    "titulo": "Laboratório de Estudos de Cartografia Histórica — Cartoteca Digital",
+    "publicacao": "Cátedra Jaime Cortesão, FFLCH/USP, com o IEB/USP e a FAPESP",
+    "url": "https://cartografiahistorica.fflch.usp.br/",
+    "citacao": "Reúne a coleção de mapas impressos cedida ao Instituto de Estudos Brasileiros por determinação da Justiça Federal, com forte presença de cartografia neerlandesa dos séculos XVI e XVII — casas Hondius, Blaeu e Visscher — e, entre ela, exemplares do mapa do Nordeste levantado por Georg Marcgrave e editado por Joan Blaeu."
+  },
+  {
     "id": "lei-arquivos-stasi-1991",
     "tipo": "documento-oficial",
     "titulo": "Lei sobre os Arquivos da Stasi (Stasi-Unterlagen-Gesetz)",
@@ -1359,6 +1419,15 @@
     "citacao": "Relato do embaixador selêucida na corte de Pataliputra, por volta de 300 a.C., preservado apenas em citações de autores gregos posteriores. Descreve uma capital cercada por paliçada de madeira com centenas de torres — descrição que a escavação do sítio confirmou."
   },
   {
+    "id": "mello-tempo-dos-flamengos",
+    "tipo": "livro",
+    "titulo": "Tempo dos flamengos: influência da ocupação holandesa na vida e na cultura do norte do Brasil",
+    "autor": "José Antônio Gonsalves de Mello",
+    "publicacao": "José Olympio",
+    "data": "1947",
+    "citacao": "Estudo de base sobre a vida cotidiana no Nordeste holandês: a administração de Nassau, a população judaica do Recife, os engenhos e a convivência entre grupos religiosos sob a Companhia das Índias Ocidentais."
+  },
+  {
     "id": "memorial-base-vitimas",
     "tipo": "dataset",
     "titulo": "Base de dados das vítimas do terror político na URSS",
@@ -1372,6 +1441,15 @@
     "publicacao": "Nature",
     "data": "2024-08",
     "citacao": "Datação e química dos grãos mostram que a Pedra do Altar veio do nordeste da Escócia, a mais de 700 km — e não do País de Gales, de onde vêm as pedras azuis menores. Amplia a distância que o material do monumento percorreu."
+  },
+  {
+    "id": "navarro-cartas-camaroes-1645",
+    "tipo": "artigo-academico",
+    "titulo": "Transcrição e tradução integral anotada das cartas dos índios Camarões, escritas em 1645 em tupi antigo",
+    "autor": "Eduardo de Almeida Navarro",
+    "publicacao": "Universidade de São Paulo",
+    "url": "https://commons.wikimedia.org/wiki/File:Transcri%C3%A7%C3%A3o_e_tradu%C3%A7%C3%A3o_integral_anotada_das_cartas_dos_%C3%ADndios_Camar%C3%B5es,_escritas_em_1645_em_tupi_antigo.pdf",
+    "citacao": "As cartas trocadas em 1645 entre líderes potiguares que serviam a lados opostos da guerra — uns com os portugueses, outros com os neerlandeses. São dos poucos documentos do período escritos em tupi por indígenas, e não sobre eles."
   },
   {
     "id": "nihon-shoki",
@@ -1478,6 +1556,16 @@
     "publicacao": "Pew Research Center",
     "data": "2009-10",
     "citacao": "Levantamento demográfico que fixa a proporção usada desde então: entre 87% e 90% dos muçulmanos são sunitas, e entre 10% e 13% xiitas. A concentração xiita está em Irã, Iraque, Azerbaijão e Bahrein."
+  },
+  {
+    "id": "piso-marcgrave-historia-naturalis-1648",
+    "tipo": "livro",
+    "titulo": "Historia Naturalis Brasiliae",
+    "autor": "Willem Piso e Georg Marcgrave",
+    "publicacao": "Leiden e Amsterdã",
+    "data": "1648",
+    "url": "https://commons.wikimedia.org/wiki/File:Historia_Naturalis_Brasiliae_(IA_dli.granth.71624).pdf",
+    "citacao": "Primeiro tratado de história natural do Brasil, resultado do levantamento feito durante o governo de Nassau. Descreve plantas, animais, doenças e povos do Nordeste, e circulou na Europa como referência por mais de um século."
   },
   {
     "id": "platt-outono-reino-celestial",
@@ -1669,6 +1757,15 @@
     "titulo": "A History of Britain",
     "autor": "Simon Schama",
     "citacao": "Narrativa de referência que cobre da Inglaterra medieval ao Reino Unido contemporâneo."
+  },
+  {
+    "id": "schultz-versalhes-tropical",
+    "tipo": "livro",
+    "titulo": "Tropical Versailles: Empire, Monarchy, and the Portuguese Royal Court in Rio de Janeiro, 1808–1821",
+    "autor": "Kirsten Schultz",
+    "publicacao": "Routledge",
+    "data": "2001",
+    "citacao": "Reconstitui o que a chegada da corte fez à cidade: as requisições de casas, a etiqueta transplantada, as instituições criadas e o custo de sustentar uma monarquia europeia numa capital que não fora construída para isso."
   },
   {
     "id": "schwarcz-starling-brasil",
@@ -1922,6 +2019,15 @@
     "publicacao": "Tribunal Penal Internacional",
     "data": "2023-03-17",
     "citacao": "Expediu mandado de prisão contra o presidente russo e a comissária presidencial para os direitos da criança pela deportação ilegal de crianças de áreas ocupadas da Ucrânia. A Rússia não reconhece a jurisdição do tribunal, e o mandado não foi executado."
+  },
+  {
+    "id": "tratado-comercio-1810",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Amizade, Comércio e Navegação entre Portugal e a Grã-Bretanha",
+    "publicacao": "Rio de Janeiro",
+    "data": "1810-02-19",
+    "url": "https://commons.wikimedia.org/wiki/File:TRATADO_de_Amizade,_commercio,_e_navega%C3%A7%C3%A3o_entre_sua_alteza_real_o_principe_regente_de_Portugal_e_sua_magestade_britannica._Assignado_no_Rio_de_Janeiro_em_19_de_Fevereiro_de_1810.pdf",
+    "citacao": "Fixou tarifa preferencial para as mercadorias britânicas, abaixo da cobrada das portuguesas — a assimetria que a historiografia econômica cita como preço da proteção naval que trouxe a corte. Concedeu ainda jurisdição própria a súditos britânicos no Brasil."
   },
   {
     "id": "tratado-de-paris-1898",

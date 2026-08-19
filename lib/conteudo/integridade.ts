@@ -4,6 +4,7 @@ import type { Pais } from "./pais";
 import type { Viagem } from "./viagem";
 import type { Indicador } from "./indicador";
 import type { Evento } from "./evento";
+import type { Episodio } from "./episodio";
 import type { Nota } from "./nota";
 import type { Ilha } from "./ilha";
 // `ligacoes` importa só o TIPO Acervo daqui, então o ciclo some na compilação.
@@ -16,6 +17,7 @@ export interface Acervo {
   viagens: Viagem[];
   indicadores: Indicador[];
   eventos: Evento[];
+  episodios: Episodio[];
   notas: Nota[];
   ilhas: Ilha[];
 }
@@ -119,6 +121,45 @@ export function verificarIntegridade(acervo: Acervo): string[] {
       if (!idsFonte.has(fonteId)) {
         erros.push(`evento "${evento.id}" cita fonte inexistente: ${fonteId}`);
       }
+    }
+  }
+
+  for (const id of duplicados(acervo.episodios.map((e) => e.id))) {
+    erros.push(`episódio com id duplicado: ${id}`);
+  }
+
+  /*
+   * O episódio é o único texto longo do acervo cuja fonte o schema já exige.
+   * O que sobra para cá é o que cruza arquivo: o país precisa existir, o
+   * período apontado precisa existir, e o id do bloco não pode repetir dentro
+   * do mesmo episódio — âncora duplicada levaria o leitor ao bloco errado.
+   */
+  const idsPeriodo = new Set(
+    acervo.paises.flatMap((p) => p.periodos.map((per) => per.id))
+  );
+
+  for (const episodio of acervo.episodios) {
+    for (const iso of episodio.paises) {
+      if (!isoPaises.has(iso)) {
+        erros.push(
+          `episódio "${episodio.id}" referencia país ${iso}, que não está no atlas`
+        );
+      }
+    }
+    for (const periodoId of episodio.periodos) {
+      if (!idsPeriodo.has(periodoId)) {
+        erros.push(
+          `episódio "${episodio.id}" aponta para período inexistente: ${periodoId}`
+        );
+      }
+    }
+    for (const fonteId of episodio.fontes) {
+      if (!idsFonte.has(fonteId)) {
+        erros.push(`episódio "${episodio.id}" cita fonte inexistente: ${fonteId}`);
+      }
+    }
+    for (const id of duplicados(episodio.blocos.map((b) => b.id))) {
+      erros.push(`episódio "${episodio.id}" tem bloco com id duplicado: ${id}`);
     }
   }
 

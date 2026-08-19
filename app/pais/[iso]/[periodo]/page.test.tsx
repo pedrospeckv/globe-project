@@ -134,14 +134,20 @@ describe("página de período", () => {
   it("todo período com texto mostra fonte — a dívida chegou a zero", async () => {
     /*
      * Este teste já verificou o contrário: que um período SEM fonte não
-     * inventava a seção. Ele deixou de ter caso quando os 84 períodos
+     * inventava a seção. Ele deixou de ter caso quando todos os períodos
      * passaram a ter lastro, e virou a afirmação positiva — que é a que
      * agora precisa ser defendida contra regressão.
+     *
+     * O número subiu de 84 para 85 quando a Colônia foi partida em 1808 e o
+     * Reino Unido de Portugal, Brasil e Algarves ganhou período próprio. É a
+     * contagem que precisa ser atualizada de propósito a cada período novo —
+     * afrouxá-la para `toBeGreaterThan` deixaria passar período entrando sem
+     * fonte, que é justamente o que ela existe para pegar.
      */
     const comTexto = acervo.paises.flatMap((p) =>
       p.periodos.filter((per) => per.textoMdx).map((per) => [p.iso, per] as const)
     );
-    expect(comTexto.length).toBe(84);
+    expect(comTexto.length).toBe(85);
 
     for (const [iso, per] of comTexto) {
       expect(per.fontes.length).toBeGreaterThan(0);

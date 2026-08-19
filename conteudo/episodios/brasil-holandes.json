@@ -1,0 +1,146 @@
+{
+  "id": "brasil-holandes",
+  "titulo": "O Brasil holandês",
+  "subtitulo": "Vinte e quatro anos em que o Nordeste açucareiro teve capital protestante, sinagoga aberta, urbanismo planejado — e uma companhia de acionistas no lugar do rei.",
+  "inicio": "1624",
+  "fim": "1654",
+  "paises": [
+    "BRA"
+  ],
+  "periodos": [
+    "br-colonia"
+  ],
+  "abertura": "Entre 1630 e 1654 a região mais rica da América portuguesa não era portuguesa. O Nordeste açucareiro — Pernambuco, Itamaracá, Paraíba, Rio Grande e, por períodos, Sergipe — foi governado a partir do Recife por uma empresa privada de acionistas neerlandeses, com moeda, tribunais, sinagoga em funcionamento e um levantamento científico que virou o primeiro tratado de história natural do Brasil.\n\nNão foi um saque de passagem nem uma ocupação militar breve: foi um Estado, com vinte e quatro anos de duração, sobre um território que o mapa moderno desenha como uma coisa só. É o tipo de recorte que a linha do tempo do atlas não tem como mostrar, e por isso ele está aqui.",
+  "blocos": [
+    {
+      "id": "1624-salvador",
+      "data": "1624",
+      "rotulo": "1624",
+      "titulo": "A Companhia atravessa o Atlântico",
+      "textoMdx": "A Companhia das Índias Ocidentais é criada em 1621, no fim da trégua entre a Espanha e as Províncias Unidas. Como Portugal e suas colônias estavam sob a Coroa espanhola desde 1580, atacar o Brasil era atacar a Espanha — e o açúcar do Nordeste era o alvo mais rentável do Atlântico.\n\nA frota chega a Salvador em maio de 1624 e toma a cidade. Não fica: uma esquadra luso-espanhola com mais de cinquenta navios a retoma em maio de 1625, na maior operação naval enviada ao Atlântico Sul até então. A Companhia conclui que errara o alvo, não o plano.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Verovering_van_San_Salvador_in_Brazili%C3%AB_door_admiraal_Jacob_Willekes%2C_1624%2C_RP-P-OB-79.372.jpg/1920px-Verovering_van_San_Salvador_in_Brazili%C3%AB_door_admiraal_Jacob_Willekes%2C_1624%2C_RP-P-OB-79.372.jpg",
+        "alt": "Gravura do século XVII mostrando a baía de Salvador tomada por navios de guerra neerlandeses, com a cidade fortificada ao fundo.",
+        "credito": "Rijksmuseum, Amsterdã",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Verovering_van_San_Salvador_in_Brazili%C3%AB_door_admiraal_Jacob_Willekes,_1624,_RP-P-OB-79.372.jpg",
+        "legenda": "Gravura neerlandesa da tomada de Salvador, publicada no calor do episódio. É propaganda impressa para acionistas: mostra a vitória de 1624 e não a reconquista do ano seguinte."
+      }
+    },
+    {
+      "id": "1630-olinda",
+      "data": "1630",
+      "rotulo": "1630",
+      "titulo": "Olinda queima, o Recife fica",
+      "textoMdx": "Em fevereiro de 1630 a Companhia volta, agora contra Pernambuco, a capitania mais rica da América portuguesa. Olinda, a sede, é tomada e depois incendiada pelos próprios neerlandeses: cidade de morros, era indefensável com poucos homens. A administração se muda para o povoado portuário do Recife — plano, cercado de água, fácil de fechar —, e é ali que o Brasil holandês se instala.\n\nOs cinco anos seguintes são de guerra de desgaste no interior, contra engenhos que não se rendem. O território só se estabiliza por volta de 1635.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Frans_Post_-_View_of_the_Ruins_of_Olinda%2C_Brazil_-_WGA18190.jpg/1920px-Frans_Post_-_View_of_the_Ruins_of_Olinda%2C_Brazil_-_WGA18190.jpg",
+        "alt": "Pintura de paisagem com ruínas de igreja tomadas pela vegetação, figuras pequenas em primeiro plano e o mar ao longe.",
+        "credito": "Frans Post · Web Gallery of Art",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Frans_Post_-_View_of_the_Ruins_of_Olinda,_Brazil_-_WGA18190.jpg",
+        "legenda": "Frans Post pintou as ruínas de Olinda por volta de 1665, duas décadas depois de ter voltado para os Países Baixos. A ruína é o assunto, não o acidente: era o que o comprador europeu queria ver."
+      }
+    },
+    {
+      "id": "1637-nassau",
+      "data": "1637",
+      "rotulo": "1637",
+      "titulo": "Nassau desembarca com pintores junto dos soldados",
+      "textoMdx": "João Maurício de Nassau-Siegen governa de janeiro de 1637 a maio de 1644, e é o motivo de o episódio ser lembrado. Traz consigo, além de tropas, uma comitiva de especialistas: os pintores Frans Post e Albert Eckhout, o médico Willem Piso, o naturalista e astrônomo Georg Marcgrave, arquitetos e cartógrafos.\n\n**A decisão não é filantropia.** Conhecer o território — clima, doenças, plantas, povos — era condição para explorá-lo, e documentar a conquista servia à Companhia diante dos acionistas em Amsterdã. O que sobrou disso é um acervo visual e científico que nenhuma outra parte da colônia teve no século XVII.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Nason_Johan_Maurits_van_Nassau-Siegen.jpg",
+        "alt": "Retrato a óleo de homem de meia-idade com armadura e faixa, cabelos longos, em pose formal do século XVII.",
+        "credito": "Pieter Nason · Museu Nacional de Varsóvia",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Nason_Johan_Maurits_van_Nassau-Siegen.jpg",
+        "legenda": "Retrato pintado por Pieter Nason em 1666, mais de vinte anos depois de Nassau deixar o Recife, quando ele já era figura estabelecida da nobreza europeia. Não é o administrador de Pernambuco: é a imagem que ele quis deixar depois."
+      }
+    },
+    {
+      "id": "1637-mauritsstad",
+      "data": "1637",
+      "rotulo": "1637–1644",
+      "titulo": "Mauritsstad, a cidade desenhada antes de existir",
+      "textoMdx": "Nassau manda erguer, do outro lado do canal, na ilha de Antônio Vaz, uma cidade nova: Mauritsstad, com traçado ortogonal, ponte ligando ao Recife, canais, jardim botânico, coleção de animais e dois palácios — Vrijburg e Boa Vista. É urbanismo planejado num continente onde as cidades cresciam sobre o relevo.\n\nQuase nada sobrou em pé. Os palácios foram demolidos, a ponte refeita, e o traçado sobrevive apenas em fragmentos. O projeto inteiro só existe hoje nos mapas e nas telas — o que é uma forma de dizer que ele nos chegou pela mão de quem o construiu.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/AMH-7318-KB_View_of_Mauritsstad.jpg/1920px-AMH-7318-KB_View_of_Mauritsstad.jpg",
+        "alt": "Gravura panorâmica do século XVII mostrando uma cidade portuária com casas de telhado alto, fortificações, ponte e navios ancorados.",
+        "credito": "Joan Blaeu e Frans Post · Atlas of Mutual Heritage / Koninklijke Bibliotheek",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:AMH-7318-KB_View_of_Mauritsstad.jpg",
+        "legenda": "Vista de Mauritsstad publicada por Joan Blaeu em 1647, gravada a partir de desenhos feitos no local por Frans Post."
+      }
+    },
+    {
+      "id": "1637-tolerancia",
+      "data": "1637",
+      "rotulo": "1637–1641",
+      "titulo": "A tolerância, e o que a sustentava",
+      "textoMdx": "Sob a Companhia, judeus podiam praticar abertamente. A congregação Kahal Zur Israel funcionava no Recife com sinagoga própria — a primeira das Américas —, e boa parte de seus membros eram cristãos-novos vindos de Portugal ou de Amsterdã que voltavam publicamente ao judaísmo. Católicos mantiveram suas igrejas, com restrições.\n\n**E a mesma administração organizou o tráfico em escala.** A Companhia tomou Elmina, na Costa do Ouro, em 1637, e Luanda em 1641, com a finalidade declarada de pôr os engenhos de Pernambuco no fim de uma cadeia que ela controlasse inteira. A liberdade de culto no Recife e o comércio de gente escravizada no Atlântico não são dois capítulos deste episódio: são o mesmo governo, nos mesmos anos.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Sinagoga_Kahal_Zur_Israel%2C_Recife%2C_Pernambuco%2C_Brasil.jpg/1920px-Sinagoga_Kahal_Zur_Israel%2C_Recife%2C_Pernambuco%2C_Brasil.jpg",
+        "alt": "Fachada de sobrado colonial estreito, pintado de branco com detalhes escuros, numa rua de casario antigo do Recife.",
+        "credito": "Wilfredor",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Sinagoga_Kahal_Zur_Israel,_Recife,_Pernambuco,_Brasil.jpg",
+        "legenda": "O prédio da Rua do Bom Jesus, antiga Rua dos Judeus, hoje. O sítio foi identificado por escavação nos anos 1990, quando se achou o banho ritual, e funciona como museu desde 2001 — a fotografia é do lugar, não do edifício do século XVII."
+      }
+    },
+    {
+      "id": "1637-ciencia",
+      "data": "1637",
+      "rotulo": "1637–1648",
+      "titulo": "O que ficou impresso",
+      "textoMdx": "O levantamento da comitiva virou livro em 1648: a *Historia Naturalis Brasiliae*, de Piso e Marcgrave — primeiro tratado de história natural do Brasil, com plantas, animais, doenças e vocabulário indígena, e referência na Europa por mais de um século. Marcgrave também levantou o mapa que Joan Blaeu gravou e publicou, o *Brasilia qua parte paret Belgis*: a representação mais detalhada do Nordeste até então, com rios, vilas e engenhos nomeados um a um.\n\n**Esse acervo é um viés, além de um tesouro.** Sabemos mais sobre estes vinte e quatro anos do que sobre séculos vizinhos porque foi o lado neerlandês que documentou — e ele documentou o que interessava a quem pagava o levantamento.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Brasilia_qua_parte_paret_Belgis%2C_da_Cole%C3%A7%C3%A3o_Brasiliana_Iconogr%C3%A1fica.jpg/1920px-Brasilia_qua_parte_paret_Belgis%2C_da_Cole%C3%A7%C3%A3o_Brasiliana_Iconogr%C3%A1fica.jpg",
+        "alt": "Mapa gravado do século XVII do litoral nordestino do Brasil, com legendas em latim, rosa dos ventos, navios desenhados no mar e cartuchos decorados.",
+        "credito": "Coleção Brasiliana Iconográfica",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Brasilia_qua_parte_paret_Belgis,_da_Cole%C3%A7%C3%A3o_Brasiliana_Iconogr%C3%A1fica.jpg",
+        "legenda": "O mapa de Georg Marcgrave gravado por Joan Blaeu. Exemplares dele estão no Instituto de Estudos Brasileiros da USP, na coleção de cartografia histórica descrita pelo laboratório da FFLCH."
+      }
+    },
+    {
+      "id": "1645-insurreicao",
+      "data": "1645",
+      "rotulo": "1645–1649",
+      "titulo": "A insurreição, e os primos em lados opostos",
+      "textoMdx": "Nassau parte em 1644, e a Companhia aperta a cobrança das dívidas dos senhores de engenho, que haviam comprado propriedades a prazo. Em junho de 1645 começa a insurreição pernambucana, juntando proprietários endividados, tropas portuguesas sem ordem oficial de Lisboa, o terço de Henrique Dias, formado por homens negros, e o de Filipe Camarão, potiguar.\n\n**A guerra parte famílias.** Antônio Filipe Camarão lutava com os portugueses; seu parente Pedro Poti servia à Companhia e fora educado nas Províncias Unidas. Em 1645 os dois trocaram cartas escritas em tupi, cada um tentando levar o outro para o seu lado. As cartas sobreviveram, e estão entre os pouquíssimos documentos do período escritos por indígenas, e não sobre eles.\n\nAs duas batalhas dos Guararapes, em abril de 1648 e fevereiro de 1649, decidem o campo.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Victor_Meirelles_-_%27Battle_of_Guararapes%27%2C_1879%2C_oil_on_canvas%2C_Museu_Nacional_de_Belas_Artes%2C_Rio_de_Janeiro.JPG/1920px-Victor_Meirelles_-_%27Battle_of_Guararapes%27%2C_1879%2C_oil_on_canvas%2C_Museu_Nacional_de_Belas_Artes%2C_Rio_de_Janeiro.JPG",
+        "alt": "Grande pintura histórica a óleo com soldados em combate corpo a corpo, bandeiras erguidas e fumaça de pólvora sobre terreno acidentado.",
+        "credito": "Victor Meirelles · Museu Nacional de Belas Artes",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Victor_Meirelles_-_%27Battle_of_Guararapes%27,_1879,_oil_on_canvas,_Museu_Nacional_de_Belas_Artes,_Rio_de_Janeiro.JPG",
+        "legenda": "A Batalha dos Guararapes, de Victor Meirelles, concluída em 1879 — mais de dois séculos depois do acontecimento, por encomenda do Império do Brasil. É pintura de fundação nacional, não registro do combate."
+      }
+    },
+    {
+      "id": "1654-saida",
+      "data": "1654",
+      "rotulo": "1654",
+      "titulo": "A saída, e para onde foram os que saíram",
+      "textoMdx": "O Recife capitula em janeiro de 1654. A guarnição embarca, e com ela boa parte da comunidade judaica, que não teria como permanecer sob um governo português que trazia de volta a Inquisição. Um grupo de vinte e três pessoas chegou a Nova Amsterdã em setembro daquele ano, depois de um desvio pelo Caribe, e fundou ali a primeira comunidade judaica da América do Norte — a cidade viraria Nova York dez anos depois.\n\n**Portugal manteve o território e ainda assim pagou por ele.** O acordo com as Províncias Unidas, negociado ao longo dos anos seguintes, previu indenização em dinheiro e sal, quitada em prestações por décadas. Vencer a guerra não bastou para encerrar o assunto.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Frans_Post_-_Engenho_de_Pernambuco.jpg",
+        "alt": "Pintura de paisagem com um engenho de açúcar entre palmeiras, casario baixo, figuras trabalhando e morros ao fundo.",
+        "credito": "Frans Post",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Frans_Post_-_Engenho_de_Pernambuco.jpg",
+        "legenda": "Engenho pintado por Frans Post. A técnica açucareira que a Companhia observou de perto no Nordeste reaparece em seguida nas colônias do Caribe, e a concorrência que daí nasce é uma das explicações correntes para o declínio do açúcar brasileiro."
+      }
+    }
+  ],
+  "fecho": "*Três coisas que este episódio costuma carregar e que o atlas não confirma.*\n\n*A primeira é o Nassau tolerante como personagem moral. A liberdade de culto no Recife é documentada, e conviveu com a tomada de Elmina e de Luanda pela mesma administração, nos mesmos anos, com a finalidade declarada de abastecer os engenhos. As duas coisas são verdadeiras ao mesmo tempo, e escolher uma delas é o que produz as duas versões que circulam.*\n\n*A segunda é a data de nascimento do Exército brasileiro nos Guararapes. É a leitura oficial da instituição, e ela projeta sobre 1648 uma ideia de nação que ainda não existia — quem lutou ali servia ao rei de Portugal.*\n\n*A terceira é o declínio do açúcar brasileiro como consequência direta da passagem neerlandesa pelo Caribe. A tese é antiga e tem defensores, mas concorre com explicações de solo, crédito e transporte, e a historiografia não fechou a conta.*",
+  "fontes": [
+    "boxer-holandeses-no-brasil",
+    "mello-tempo-dos-flamengos",
+    "cabral-de-mello-olinda-restaurada",
+    "cabral-de-mello-negocio-do-brasil",
+    "piso-marcgrave-historia-naturalis-1648",
+    "navarro-cartas-camaroes-1645",
+    "lech-usp-cartografia-historica"
+  ]
+}

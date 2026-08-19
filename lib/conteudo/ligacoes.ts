@@ -1,6 +1,13 @@
 import type { Acervo } from "./integridade";
 
-export type TipoAlvo = "pais" | "periodo" | "figura" | "evento" | "viagem" | "nota";
+export type TipoAlvo =
+  | "pais"
+  | "periodo"
+  | "figura"
+  | "evento"
+  | "episodio"
+  | "viagem"
+  | "nota";
 
 export interface Alvo {
   id: string;
@@ -75,6 +82,17 @@ export function indexarAlvos(acervo: Acervo): Alvos {
       rotulo: evento.titulo,
       href: `/pais/${evento.paises[0]}`,
       tipo: "evento",
+    };
+  }
+
+  // O episódio tem página própria, então aponta para ela — ao contrário do
+  // evento e da viagem, que só têm o contexto onde aparecem.
+  for (const episodio of acervo.episodios) {
+    alvos[episodio.id] = {
+      id: episodio.id,
+      rotulo: episodio.titulo,
+      href: `/episodio/${episodio.id}`,
+      tipo: "episodio",
     };
   }
 
@@ -154,6 +172,16 @@ function textosDoAcervo(acervo: Acervo): { onde: string; texto?: string }[] {
   for (const evento of acervo.eventos) {
     saida.push({ onde: `evento "${evento.id}"`, texto: evento.textoMdx });
   }
+  for (const episodio of acervo.episodios) {
+    saida.push({ onde: `episódio "${episodio.id}"`, texto: episodio.abertura });
+    saida.push({ onde: `fecho de "${episodio.id}"`, texto: episodio.fecho });
+    for (const bloco of episodio.blocos) {
+      saida.push({
+        onde: `bloco "${bloco.id}" de "${episodio.id}"`,
+        texto: bloco.textoMdx,
+      });
+    }
+  }
   for (const viagem of acervo.viagens) {
     saida.push({ onde: `viagem "${viagem.id}"`, texto: viagem.textoMdx });
     for (const parada of viagem.paradas) {
@@ -207,6 +235,7 @@ export function verificarLigacoes(acervo: Acervo): string[] {
   }
   for (const f of acervo.figuras) anotar(f.id, "figura");
   for (const e of acervo.eventos) anotar(e.id, "evento");
+  for (const e of acervo.episodios) anotar(e.id, "episódio");
   for (const v of acervo.viagens) anotar(v.id, "viagem");
 
   for (const [id, onde] of origens) {

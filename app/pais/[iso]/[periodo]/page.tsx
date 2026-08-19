@@ -6,6 +6,7 @@ import { indexarAlvos } from "@/lib/conteudo/ligacoes";
 import { Prosa } from "@/components/conteudo/Prosa";
 import { FotoHistorica } from "@/components/conteudo/FotoHistorica";
 import { eventosDoPeriodo } from "@/lib/conteudo/evento";
+import { episodiosDoPeriodo, imagensDe } from "@/lib/conteudo/episodio";
 import { figurasDoPeriodo } from "@/lib/conteudo/figura";
 import { vizinhosDe } from "@/lib/conteudo/pais";
 import { notasDoAlvo } from "@/lib/conteudo/nota";
@@ -52,6 +53,7 @@ export default async function PeriodoPage({
   const eventos = eventosDoPeriodo(acervo.eventos, iso, periodo);
   const figuras = figurasDoPeriodo(acervo.figuras, iso, periodo);
   const notas = notasDoAlvo(acervo.notas, periodo.id);
+  const episodios = episodiosDoPeriodo(acervo.episodios, periodo.id);
   const { anterior, proximo } = vizinhosDe(pais, periodo.id);
 
   /*
@@ -144,6 +146,51 @@ export default async function PeriodoPage({
                 ))}
               </ol>
             </div>
+          </section>
+        )}
+
+        {episodios.length > 0 && (
+          /*
+            Um recorte que não coube no período: curto demais para virar um,
+            específico demais para diluir na prosa. Fica aqui como porta, e o
+            texto do episódio mora em página própria — com as imagens, que é
+            o que ele tem e o período não.
+          */
+          <section className="mb-16 md:mb-20">
+            <div className="mb-6 border-b border-zinc-800 pb-4">
+              <h2 className="font-serif text-3xl tracking-tight text-zinc-50 md:text-4xl">
+                Episódios
+              </h2>
+              <p className="mt-1 font-mono text-xs tracking-widest text-amber-500/80">
+                DENTRO DESTE PERÍODO
+              </p>
+            </div>
+            <ul className="space-y-3">
+              {episodios.map((e) => (
+                <li key={e.id}>
+                  <Link
+                    href={`/episodio/${e.id}`}
+                    className="group block rounded-lg border border-zinc-800 bg-zinc-900/60 p-5 transition-colors hover:border-amber-500/30"
+                  >
+                    <div className="flex flex-wrap items-baseline justify-between gap-2">
+                      <span className="font-serif text-xl text-zinc-50 group-hover:text-amber-500/90">
+                        {e.titulo}
+                      </span>
+                      <span className="shrink-0 font-mono text-[10px] tracking-wider text-zinc-600">
+                        {rotuloDeData(e.inicio)}–
+                        {e.fim ? rotuloDeData(e.fim) : ""} ·{" "}
+                        {imagensDe(e)} IMAGENS
+                      </span>
+                    </div>
+                    {e.subtitulo && (
+                      <p className="mt-1 text-sm leading-relaxed text-zinc-400">
+                        {e.subtitulo}
+                      </p>
+                    )}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
 

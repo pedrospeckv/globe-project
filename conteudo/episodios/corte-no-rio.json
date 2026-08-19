@@ -1,0 +1,137 @@
+{
+  "id": "corte-no-rio",
+  "titulo": "A corte no trópico",
+  "subtitulo": "Catorze anos em que o Rio de Janeiro foi a capital de um império europeu — e em que a colônia recebeu, uma a uma, todas as coisas que lhe eram proibidas.",
+  "inicio": "1807",
+  "fim": "1821",
+  "paises": [
+    "BRA"
+  ],
+  "periodos": [
+    "br-reino-unido"
+  ],
+  "abertura": "Nenhuma outra monarquia europeia governou suas possessões a partir de uma delas. A portuguesa governou, por catorze anos, do Rio de Janeiro — e o fez por não ter alternativa: o exército de Napoleão estava a poucos dias de Lisboa.\n\nO [[br-reino-unido|período correspondente]] conta o arco político. Este episódio olha para o que a mudança fez com a cidade e com quem já morava nela, que é onde estão as imagens — e onde a conta foi paga.",
+  "blocos": [
+    {
+      "id": "1807-travessia",
+      "data": "1807-11",
+      "rotulo": "1807",
+      "titulo": "A travessia",
+      "textoMdx": "Em outubro de 1807 França e Espanha combinam a partilha de Portugal, e em novembro as tropas de Junot cruzam a fronteira. A corte embarca em Lisboa entre 27 e 29 de novembro, sob escolta da Marinha britânica, e zarpa antes que o exército francês alcance a capital.\n\n**Quantas pessoas foram é pergunta sem resposta firme:** as estimativas correntes vão de dez a quinze mil, e não sobrou lista de embarque completa. A frota se dispersa numa tempestade, e a parte que levava o príncipe regente aporta em Salvador, e não no Rio, em 22 de janeiro de 1808.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Simpl%C3%ADcio_Rodrigues_de_S%C3%A1_-_Portrait_of_Dom_Jo%C3%A3o_VI_-_Google_Art_Project.jpg/1920px-Simpl%C3%ADcio_Rodrigues_de_S%C3%A1_-_Portrait_of_Dom_Jo%C3%A3o_VI_-_Google_Art_Project.jpg",
+        "alt": "Retrato a óleo de homem corpulento em traje de corte com faixa e condecorações, em pose oficial do início do século XIX.",
+        "credito": "Simplício Rodrigues de Sá · Google Arts & Culture",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Simpl%C3%ADcio_Rodrigues_de_S%C3%A1_-_Portrait_of_Dom_Jo%C3%A3o_VI_-_Google_Art_Project.jpg",
+        "legenda": "D. João VI retratado por Simplício Rodrigues de Sá por volta de 1820, quando já reinava e ainda governava do Rio de Janeiro."
+      }
+    },
+    {
+      "id": "1808-portos",
+      "data": "1808-01-28",
+      "rotulo": "1808",
+      "titulo": "A carta régia que desmonta o motivo da colônia",
+      "textoMdx": "Seis dias depois de desembarcar na Bahia, em 28 de janeiro, o príncipe regente assina a abertura dos portos às nações amigas. A regra que dava sentido econômico ao sistema colonial — todo comércio passando por Lisboa — cai por decreto, e cai antes de qualquer decisão sobre o que o Brasil seria dali em diante.\n\nEm 1º de abril, já no Rio, outro alvará revoga a proibição de manufaturas no território, em vigor desde 1785. Em três meses, os dois pilares do pacto colonial deixaram de existir."
+    },
+    {
+      "id": "1808-instituicoes",
+      "data": "1808-10",
+      "rotulo": "1808–1810",
+      "titulo": "O Estado que aparece de uma vez",
+      "textoMdx": "Em pouco mais de dois anos surgem no Rio o Banco do Brasil, a Imprensa Régia — a primeira autorizada a funcionar no território —, a Junta do Comércio, o Jardim Botânico, a Academia Militar, escolas de cirurgia em Salvador e no Rio, e a Biblioteca Real, com os volumes trazidos de Lisboa.\n\n**Nada disso existia antes, e não era por falta de meios: era proibição.** A lista serve de medida exata do que a política colonial impedia — e do quanto ela dependia de continuar impedindo.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Estatuto_do_Banco_do_Brasil.jpg",
+        "alt": "Página manuscrita de documento oficial do início do século XIX, com caligrafia em tinta escura e cabeçalho ornamentado.",
+        "credito": "Arquivo Nacional do Brasil",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Estatuto_do_Banco_do_Brasil.jpg",
+        "legenda": "Estatuto do Banco do Brasil, criado por alvará de 12 de outubro de 1808 — o primeiro banco do país e o quarto do mundo a emitir papel-moeda."
+      }
+    },
+    {
+      "id": "1810-tratados",
+      "data": "1810-02-19",
+      "rotulo": "1810",
+      "titulo": "A conta da proteção",
+      "textoMdx": "Os tratados de 1810 com a Grã-Bretanha cobram o preço da escolta. Mercadorias britânicas passam a pagar tarifa menor que as portuguesas no próprio mercado do Reino; súditos ingleses ganham juízo próprio no Brasil; e Portugal se compromete a restringir gradualmente o tráfico de escravizados — compromisso descumprido por quarenta anos, como registra o [[br-imperio|Império]].\n\nAbrir os portos e assinar 1810 são o mesmo movimento visto de dois lados: o fim do monopólio português e o começo da preponderância inglesa."
+    },
+    {
+      "id": "1815-reino",
+      "data": "1815-12-16",
+      "rotulo": "1815",
+      "titulo": "O Brasil deixa de ser colônia no papel",
+      "textoMdx": "A carta de lei de 16 de dezembro de 1815 cria o Reino Unido de Portugal, Brasil e Algarves. O gesto resolve um constrangimento diplomático no mês em que o Congresso de Viena redesenhava a Europa: a monarquia portuguesa negociava de igual para igual com as potências enquanto governava de um território que seu próprio direito classificava como colônia.\n\nMaria I morre em 1816, e D. João é aclamado rei em fevereiro de 1818 — a única vez que um rei de Portugal foi aclamado fora de Portugal."
+    },
+    {
+      "id": "1816-missao",
+      "data": "1816-03",
+      "rotulo": "1816",
+      "titulo": "Chegam os pintores",
+      "textoMdx": "A missão artística francesa desembarca em março de 1816: Joachim Lebreton, o pintor Jean-Baptiste Debret, o arquiteto Grandjean de Montigny, Nicolas-Antoine Taunay. Vinham de uma França que acabara de expulsar os bonapartistas, e traziam o neoclassicismo como linguagem de Estado.\n\n**O efeito colateral é o que mais importa hoje.** Debret ficou quinze anos e desenhou o que via — a rua, o mercado, o castigo, a festa. Boa parte do que sabemos sobre a aparência do Rio joanino vem da mão de alguém contratado para pintar outra coisa.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Jean-Baptiste_Debret_-_Meu_ateli%C3%AA_do_Catumbi_no_Rio_de_Janeiro%2C_1816.jpg",
+        "alt": "Aquarela de interior simples de ateliê, com telhado de sapê, cavalete, móveis esparsos e vista para vegetação tropical.",
+        "credito": "Jean-Baptiste Debret",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Jean-Baptiste_Debret_-_Meu_ateli%C3%AA_do_Catumbi_no_Rio_de_Janeiro,_1816.jpg",
+        "legenda": "Meu ateliê do Catumbi no Rio de Janeiro, aquarela de Jean-Baptiste Debret feita em 1816, ano de sua chegada."
+      }
+    },
+    {
+      "id": "1817-pernambuco",
+      "data": "1817-03-06",
+      "rotulo": "1817",
+      "titulo": "A república que durou dois meses",
+      "textoMdx": "Em 6 de março de 1817 estoura no Recife uma revolução republicana. Junta padres, militares, comerciantes e senhores de engenho, governa por pouco mais de dois meses, chega a enviar emissário aos Estados Unidos e é esmagada, com execuções sumárias e exposição pública dos corpos.\n\n**O motivo é fiscal antes de ser ideológico:** o Nordeste sustentava com imposto uma corte instalada no Sudeste e não tinha parte nas decisões dela. É a primeira conta cobrada pela mudança de capital, e ela seria cobrada de novo em 1824.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Jos%C3%A9_Peregrino%2C_Revolu%C3%A7%C3%A3o_Pernambucana_%E2%80%93_1817.jpg",
+        "alt": "Pintura histórica mostrando homens em confronto dramático num interior, em cores escuras e composição teatral.",
+        "credito": "Antônio Parreiras",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Peregrino,_Revolu%C3%A7%C3%A3o_Pernambucana_%E2%80%93_1817.jpg",
+        "legenda": "José Peregrino, de Antônio Parreiras, pintado em 1918. A tela é do centenário da revolução, não do episódio: memória cívica encomendada cem anos depois."
+      }
+    },
+    {
+      "id": "1818-aclamacao",
+      "data": "1818-02",
+      "rotulo": "1818",
+      "titulo": "A aclamação",
+      "textoMdx": "A cerimônia de fevereiro de 1818 é o auge do arranjo: galeria erguida no Largo do Paço, ordens religiosas, tropas, a cidade convocada. Debret desenhou a cena e a gravou depois, em Paris, no *Voyage pittoresque et historique au Brésil*.\n\n**É também onde a contradição fica visível.** A corte europeia mais completa das Américas funcionava numa cidade que era, ao mesmo tempo, o maior porto de desembarque de africanos escravizados do mundo.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Aclama%C3%A7%C3%A3o_do_rei_Dom_Jo%C3%A3o_VI_no_Rio_de_Janeiro.jpg",
+        "alt": "Gravura do século XIX com multidão reunida diante de uma galeria cerimonial decorada, tropas perfiladas e a corte no alto.",
+        "credito": "Jean-Baptiste Debret · Voyage pittoresque et historique au Brésil",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Aclama%C3%A7%C3%A3o_do_rei_Dom_Jo%C3%A3o_VI_no_Rio_de_Janeiro.jpg",
+        "legenda": "Aclamação do rei D. João VI no Rio de Janeiro, prancha de Jean-Baptiste Debret publicada em 1834, dezesseis anos depois da cerimônia que ela retrata."
+      }
+    },
+    {
+      "id": "1821-volta",
+      "data": "1821-04-26",
+      "rotulo": "1821",
+      "titulo": "A volta, e o que ficou",
+      "textoMdx": "A Revolução do Porto, em 1820, exige o retorno do rei e o restabelecimento do monopólio comercial. D. João VI embarca em 26 de abril de 1821 levando de volta parte substancial do que o Banco do Brasil guardava — quanto exatamente é discussão antiga; que levou, não é.\n\nFicam o filho como regente, as instituições, a burocracia, e um grupo de proprietários e comerciantes com sede no Rio que tinha tudo a perder com a recolonização. Quando D. Pedro recusa voltar, em 9 de janeiro de 1822, não está rompendo com Portugal em nome de uma nação: está defendendo um centro de poder que a própria corte construiu aqui.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Debret_-_Diferentes_Nacoes_Negras.jpg",
+        "alt": "Prancha litográfica do século XIX com várias figuras de homens e mulheres africanos escravizados, retratados de corpo inteiro lado a lado.",
+        "credito": "Jean-Baptiste Debret · New York Public Library",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Debret_-_Diferentes_Nacoes_Negras.jpg",
+        "legenda": "Prancha de Jean-Baptiste Debret. Pelo cais do Valongo, no Rio joanino, passou o maior fluxo de africanos escravizados de qualquer porto das Américas."
+      }
+    }
+  ],
+  "fecho": "*A independência costuma ser contada a partir do Ipiranga. Vista destes catorze anos, ela parece outra coisa: o desfecho previsível de um processo em que a colônia ganhou porto aberto, indústria permitida, banco, imprensa, tribunais e estatuto de reino — tudo antes de existir movimento pela separação. Maria Odila Dias chamou isso de interiorização da metrópole, e é a leitura que explica por que o Brasil se separou sem guerra de independência e mantendo a mesma dinastia.*\n\n*O que a leitura não resolve: nada disso foi decidido por quem vivia aqui. As medidas vieram de uma corte em fuga atendendo à própria emergência, e quem pagou a conta — em imposto, em casa requisitada, em trabalho escravizado — não teve voz em nenhuma delas. O Recife de 1817 é o lembrete de que a conta era desigual, e de que houve quem recusasse pagá-la.*",
+  "fontes": [
+    "carta-regia-abertura-portos-1808",
+    "tratado-comercio-1810",
+    "carta-lei-reino-unido-1815",
+    "schultz-versalhes-tropical",
+    "barman-forjando-nacao",
+    "dias-interiorizacao-metropole",
+    "schwarcz-starling-brasil"
+  ]
+}

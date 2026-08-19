@@ -20,6 +20,7 @@ function acervoVazio(): Acervo {
     viagens: [],
     indicadores: [],
     eventos: [],
+    episodios: [],
     notas: [],
     ilhas: [],
   };

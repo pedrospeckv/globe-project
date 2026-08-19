@@ -48,6 +48,7 @@ function acervoBase(): Acervo {
     viagens: [],
     indicadores: [],
     eventos: [],
+    episodios: [],
     notas: [],
     ilhas: [],
   };
