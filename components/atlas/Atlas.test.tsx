@@ -417,6 +417,18 @@ describe("Atlas", () => {
       expect(tamanhoDoMapa(3000, 1600).largura).toBe(1600);
     });
 
+    /*
+     * Em tela cheia sobra mais altura para o mapa, porque a legenda das cores, a
+     * lista de eventos, o país selecionado e a nota dos acesos saem da tela — fica
+     * só o mapa, a barra de tempo, os controles e o aviso de qual fatia está no ar.
+     */
+    it("dá mais mapa em tela cheia, com a mesma janela", () => {
+      const normal = tamanhoDoMapa(1888, 1080);
+      const cheia = tamanhoDoMapa(1888, 1080, 200);
+      expect(cheia.largura).toBeGreaterThan(normal.largura);
+      expect(cheia.altura).toBeGreaterThan(normal.altura);
+    });
+
     it("não encolhe abaixo do tamanho do globo", () => {
       expect(tamanhoDoMapa(600, 500).largura).toBe(900);
     });
@@ -466,6 +478,41 @@ describe("Atlas", () => {
       const alvo = pedidos[0];
       expect(alvo.querySelector("canvas")).toBeTruthy();
       expect(alvo.querySelector('input[type="range"]')).toBeTruthy();
+    });
+
+    /*
+     * Em tela cheia entra o mapa e o que serve para navegá-lo. O aviso de qual
+     * fatia está no ar FICA: é a limitação mais importante do mapa, e esconder o
+     * ano da fronteira faria o atlas afirmar fronteiras que nunca existiram —
+     * exatamente o que a nota no código diz que não se pode fazer.
+     */
+    it("em tela cheia mantém a barra e o aviso da fatia, e tira o resto", () => {
+      const { container } = montar();
+      const proto = Element.prototype as unknown as {
+        requestFullscreen?: () => Promise<void>;
+      };
+      const antes = proto.requestFullscreen;
+      proto.requestFullscreen = () => Promise.resolve();
+      try {
+        /* O evento é o que o componente escuta; o navegador o emite ao entrar. */
+        Object.defineProperty(document, "fullscreenElement", {
+          value: container.firstChild,
+          configurable: true,
+        });
+        fireEvent.click(botao(container));
+        fireEvent(document, new Event("fullscreenchange"));
+      } finally {
+        proto.requestFullscreen = antes;
+        Object.defineProperty(document, "fullscreenElement", {
+          value: null,
+          configurable: true,
+        });
+      }
+
+      expect(container.querySelector('input[type="range"]')).toBeTruthy();
+      expect(container.textContent).toMatch(/Fronteiras de|Atenção: fronteiras/);
+      /* A legenda longa das cores sai. */
+      expect(container.textContent).not.toContain("territórios de povos");
     });
 
     /* Recusa do navegador não pode derrubar o mapa. */

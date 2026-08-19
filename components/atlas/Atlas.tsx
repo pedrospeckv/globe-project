@@ -70,8 +70,16 @@ const LARGURA_MAPA_MAX = 1600;
 /** Altura do canvas do mapa em relação à largura: o mapa é 2:1 e sobra folga. */
 const PROPORCAO_MAPA = 0.53;
 
-/** Espaço que a barra de tempo, os controles e a legenda ocupam abaixo do mapa. */
+/**
+ * Espaço que o resto da página ocupa abaixo do mapa, em pixels.
+ *
+ * Em tela cheia sobra mais para o mapa, porque ali fica só o essencial: a barra
+ * de tempo, os controles e o aviso de qual fatia está no ar. A legenda das cores,
+ * a lista de eventos, o país selecionado e a nota dos países acesos saem — em tela
+ * cheia se quer o mapa, não o aparato em volta dele.
+ */
 const RESERVA_VERTICAL = 300;
+const RESERVA_EM_TELA_CHEIA = 200;
 
 /**
  * O tamanho do mapa, limitado pelos dois eixos.
@@ -82,9 +90,10 @@ const RESERVA_VERTICAL = 300;
  */
 export function tamanhoDoMapa(
   disponivel: number,
-  alturaJanela: number
+  alturaJanela: number,
+  reserva: number = RESERVA_VERTICAL
 ): { largura: number; altura: number } {
-  const cabeNaAltura = (alturaJanela - RESERVA_VERTICAL) / PROPORCAO_MAPA;
+  const cabeNaAltura = (alturaJanela - reserva) / PROPORCAO_MAPA;
   const largura = Math.round(
     Math.max(LARGURA_GLOBO, Math.min(disponivel, LARGURA_MAPA_MAX, cabeNaAltura))
   );
@@ -246,12 +255,26 @@ export function Atlas({
     };
   }, []);
 
+  /**
+   * Tela cheia pedida na RAIZ do Atlas, e não só na área do mapa.
+   *
+   * Duas razões. A raiz leva a barra de tempo e os controles junto, e mapa em
+   * tela cheia sem a linha do tempo seria um mapa mudo. E é a raiz que o
+   * `ResizeObserver` observa, então o mapa cresce sozinho, sem nenhuma conta
+   * nova: `tamanhoDoMapa` recebe a largura e a altura novas e responde.
+   */
+  const [telaCheia, setTelaCheia] = useState(false);
+
   const { largura: LARGURA, altura: ALTURA } = useMemo(
     () =>
       modo === "mapa"
-        ? tamanhoDoMapa(espaco.largura, espaco.alturaJanela)
+        ? tamanhoDoMapa(
+            espaco.largura,
+            espaco.alturaJanela,
+            telaCheia ? RESERVA_EM_TELA_CHEIA : RESERVA_VERTICAL
+          )
         : { largura: LARGURA_GLOBO, altura: ALTURA_GLOBO },
-    [modo, espaco]
+    [modo, espaco, telaCheia]
   );
 
   /*
@@ -636,15 +659,6 @@ export function Atlas({
     setDeslocamento([0, 0]);
   }, []);
 
-  /**
-   * Tela cheia pedida na RAIZ do Atlas, e não só na área do mapa.
-   *
-   * Duas razões. A raiz leva a barra de tempo e os controles junto, e mapa em
-   * tela cheia sem a linha do tempo seria um mapa mudo. E é a raiz que o
-   * `ResizeObserver` observa, então o mapa cresce sozinho, sem nenhuma conta
-   * nova: `tamanhoDoMapa` recebe a largura e a altura novas e responde.
-   */
-  const [telaCheia, setTelaCheia] = useState(false);
 
   useEffect(() => {
     const aoMudar = () => setTelaCheia(document.fullscreenElement !== null);
@@ -1060,7 +1074,7 @@ export function Atlas({
         a rota do Colombo desenha um desembarque cuja ilha é disputada, e a
         linha sozinha afirmaria uma certeza que as fontes não têm.
       */}
-      {viagemSelecionada && (
+      {!telaCheia && viagemSelecionada && (
         <article className="max-w-2xl rounded-lg border border-amber-900/40 bg-amber-950/10 p-4">
           <h2 className="text-sm font-semibold text-amber-200">
             {viagemSelecionada.titulo}
@@ -1088,7 +1102,7 @@ export function Atlas({
         </article>
       )}
 
-      {eventosVisiveis.length > 0 && (
+      {!telaCheia && eventosVisiveis.length > 0 && (
         <ul className="flex max-w-3xl flex-wrap justify-center gap-x-4 gap-y-1 text-xs text-rose-300/90">
           {eventosVisiveis.map((ev) => (
             <li key={ev.id}>
@@ -1099,6 +1113,7 @@ export function Atlas({
         </ul>
       )}
 
+      {!telaCheia && (
       <div className="flex min-h-6 items-center gap-3 font-mono text-xs text-slate-400">
         <span>
           {paisSelecionado
@@ -1116,6 +1131,7 @@ export function Atlas({
           </Link>
         )}
       </div>
+      )}
 
       {/*
         A limitação mais importante do mapa, dita onde ela é vista. Esconder
@@ -1127,6 +1143,7 @@ export function Atlas({
         diferente — o fundo é datado e aproximado, o país aceso é a silhueta
         de hoje.
       */}
+      {!telaCheia && (
       <p className="max-w-2xl text-center text-[10px] leading-relaxed text-slate-600">
         O contorno dos países <span className="text-slate-500">acesos</span> é o
         de hoje, em todos os períodos — a geometria histórica dos dossiês ainda
@@ -1137,13 +1154,14 @@ export function Atlas({
         ultramarinos ficam de fora do país aceso e aparecem só como terra, para
         o mapa não sugerir domínio séculos antes de ele existir.
       </p>
+      )}
 
       {/*
         O cinza tem DOIS significados, e é preciso dizer os dois — senão o mapa
         pareceria afirmar "sem dono" onde a fonte nomeia alguém. Nada fica
         escondido: o hover nomeia em todos os casos.
       */}
-      {modo === "mapa" && (
+      {modo === "mapa" && !telaCheia && (
         <p className="max-w-2xl text-center text-[10px] leading-relaxed text-slate-600">
           Território em <span className="text-slate-500">cinza</span> é terra sem cor
           de identidade, por um de três motivos: a fonte não atribui dono; não há
