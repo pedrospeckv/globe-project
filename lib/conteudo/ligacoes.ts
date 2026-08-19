@@ -168,6 +168,12 @@ function textosDoAcervo(acervo: Acervo): { onde: string; texto?: string }[] {
   }
   for (const figura of acervo.figuras) {
     saida.push({ onde: `figura "${figura.id}"`, texto: figura.textoMdx });
+    for (const bloco of figura.trajetoria) {
+      saida.push({
+        onde: `bloco "${bloco.id}" de "${figura.id}"`,
+        texto: bloco.textoMdx,
+      });
+    }
   }
   for (const evento of acervo.eventos) {
     saida.push({ onde: `evento "${evento.id}"`, texto: evento.textoMdx });

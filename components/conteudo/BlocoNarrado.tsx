@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import { Prosa } from "@/components/conteudo/Prosa";
 import type { Alvos } from "@/lib/conteudo/ligacoes";
-import type { BlocoDeEpisodio } from "@/lib/conteudo/episodio";
+import type { Bloco } from "@/lib/conteudo/bloco";
 import { paralaxeDe } from "@/lib/ui/paralaxe";
 
 /**
@@ -37,7 +37,7 @@ export function BlocoNarrado({
   alvos,
   rotulo,
 }: {
-  bloco: BlocoDeEpisodio;
+  bloco: Bloco;
   alvos: Alvos;
   rotulo: string;
 }) {

@@ -76,6 +76,19 @@ export function verificarIntegridade(acervo: Acervo): string[] {
         }
       }
     }
+    /*
+     * As fontes da trajetória. O schema já exige que existam quando há bloco;
+     * o que só se pode conferir aqui é se elas apontam para fonte de verdade —
+     * sem isto, a regra seria contornável digitando um id inventado.
+     */
+    for (const fonteId of figura.fontes) {
+      if (!idsFonte.has(fonteId)) {
+        erros.push(`figura "${figura.id}" cita fonte inexistente: ${fonteId}`);
+      }
+    }
+    for (const id of duplicados(figura.trajetoria.map((b) => b.id))) {
+      erros.push(`figura "${figura.id}" tem bloco de trajetória duplicado: ${id}`);
+    }
   }
 
   for (const pais of acervo.paises) {

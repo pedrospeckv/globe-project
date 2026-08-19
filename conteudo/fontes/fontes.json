@@ -730,6 +730,14 @@
     "citacao": "Tratado registrado na ONU que previu a devolução de Hong Kong em 1997 com alto grau de autonomia e manutenção do sistema social e econômico por cinquenta anos. Desde 2017 o governo chinês sustenta que o documento é histórico e não tem efeito vinculante sobre a administração atual do território; o Reino Unido discorda."
   },
   {
+    "id": "decreto-estado-de-guerra-1942",
+    "tipo": "documento-oficial",
+    "titulo": "Decreto n.º 10.358, de 31 de agosto de 1942",
+    "publicacao": "Presidência da República",
+    "data": "1942-08-31",
+    "citacao": "Declarou o estado de guerra em todo o território nacional, nove dias depois de o governo reconhecer a beligerância com a Alemanha e a Itália. Veio na sequência do afundamento de navios mercantes na costa de Sergipe e Bahia e das manifestações de rua que se seguiram."
+  },
+  {
     "id": "dias-interiorizacao-metropole",
     "tipo": "artigo-academico",
     "titulo": "A interiorização da metrópole (1808-1853)",
@@ -737,6 +745,15 @@
     "publicacao": "Em 1822: Dimensões, org. Carlos Guilherme Mota, Perspectiva",
     "data": "1972",
     "citacao": "Argumenta que a corte no Rio criou no próprio Brasil um núcleo de interesses burocráticos e mercantis com razões próprias para manter o centro de poder aqui — o que explica a independência como continuidade administrativa, e não como ruptura."
+  },
+  {
+    "id": "dietrich-nazismo-tropical",
+    "tipo": "artigo-academico",
+    "titulo": "Nazismo tropical? O Partido Nazista no Brasil",
+    "autor": "Ana Maria Dietrich",
+    "publicacao": "Tese de doutorado, Universidade de São Paulo",
+    "data": "2007",
+    "citacao": "Levanta a seção brasileira do NSDAP a partir dos arquivos apreendidos pela polícia política: era a maior filial do partido fora da Alemanha em número de membros, concentrada no Sul e no Sudeste, e foi desmontada pela campanha de nacionalização de 1938."
   },
   {
     "id": "dikotter-grande-fome",
@@ -1403,6 +1420,24 @@
     "citacao": "Reconstitui a execução em Ecaterimburgo e a identificação genética dos restos. Detalha a comparação de DNA mitocondrial com o do príncipe Philip, sobrinho-neto de Alexandra, e o trabalho sobre os parentes vivos de Nicolau."
   },
   {
+    "id": "maximiano-barbudos-sujos-fatigados",
+    "tipo": "livro",
+    "titulo": "Barbudos, sujos e fatigados: soldados brasileiros na Segunda Guerra Mundial",
+    "autor": "Cesar Campiani Maximiano",
+    "publicacao": "Grua",
+    "data": "2010",
+    "citacao": "Reconstrói a experiência da tropa a partir de cartas, diários e entrevistas: o improviso do recrutamento, o equipamento americano recebido só na Itália, o inverno nos Apeninos e o que a narrativa oficial do Exército deixa de fora."
+  },
+  {
+    "id": "mccann-alianca-brasil-eua",
+    "tipo": "livro",
+    "titulo": "The Brazilian-American Alliance, 1937–1945",
+    "autor": "Frank D. McCann",
+    "publicacao": "Princeton University Press",
+    "data": "1973",
+    "citacao": "Obra de referência sobre a negociação que levou o Brasil da equidistância à beligerância: o financiamento de Volta Redonda, a cessão das bases do Nordeste e o preço cobrado por cada passo. Trabalha com os arquivos dos dois países."
+  },
+  {
     "id": "mcnamara-in-retrospect",
     "tipo": "livro",
     "titulo": "In Retrospect: The Tragedy and Lessons of Vietnam",
@@ -1433,6 +1468,15 @@
     "titulo": "Base de dados das vítimas do terror político na URSS",
     "publicacao": "Memorial",
     "citacao": "Levantamento nominal de vítimas da repressão soviética construído ao longo de três décadas a partir de arquivos e de depoimentos de famílias, e a referência independente mais completa sobre o assunto. A organização foi liquidada por decisão judicial russa em dezembro de 2021 e recebeu o Nobel da Paz em 2022."
+  },
+  {
+    "id": "moura-autonomia-na-dependencia",
+    "tipo": "livro",
+    "titulo": "Autonomia na dependência: a política externa brasileira de 1935 a 1942",
+    "autor": "Gerson Moura",
+    "publicacao": "Nova Fronteira",
+    "data": "1980",
+    "citacao": "Formula a tese da equidistância pragmática: o governo Vargas teria explorado deliberadamente a disputa entre Alemanha e Estados Unidos para extrair de ambos o que não conseguiria de nenhum. É a leitura que dá intenção estratégica ao que outros autores leem como oportunismo."
   },
   {
     "id": "nature-altar-stone-2024",
@@ -1775,6 +1819,15 @@
     "publicacao": "Companhia das Letras",
     "data": "2015",
     "citacao": "Síntese de referência da história do Brasil do período colonial ao século XXI, usada no atlas como base narrativa geral."
+  },
+  {
+    "id": "seitenfus-brasil-de-vargas",
+    "tipo": "livro",
+    "titulo": "O Brasil de Getúlio Vargas e a formação dos blocos, 1930-1942",
+    "autor": "Ricardo Seitenfus",
+    "publicacao": "Companhia Editora Nacional",
+    "data": "1985",
+    "citacao": "Acompanha o comércio com a Alemanha pelo sistema de marcos de compensação e a aproximação ideológica do Estado Novo com os regimes do Eixo. Diverge de Gerson Moura ao ver menos cálculo e mais afinidade no período 1937-1939."
   },
   {
     "id": "sen-pobreza-fomes",

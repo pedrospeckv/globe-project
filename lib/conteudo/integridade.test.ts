@@ -35,6 +35,8 @@ function acervoBase(): Acervo {
         nome: "Lula",
         paisIso: "BRA",
         cargos: [],
+        trajetoria: [],
+        fontes: [],
         alegacoes: [
           {
             id: "lula-triplex",
