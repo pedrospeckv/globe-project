@@ -423,6 +423,26 @@ export interface Fatia {
 const cache = new Map<string, Promise<Fatia>>();
 
 /**
+ * Onde o arquivo de uma fatia está, relativo à pasta que a serve.
+ *
+ * `locais/1938.json` ou `1938.json`. Vem do índice e não de convenção de nome,
+ * porque uma fatia local que CORRIGE uma baixada tem o mesmo nome dela e a baixada
+ * continua no disco por ser a origem da correção — no mesmo diretório uma
+ * sobrescreveria a outra.
+ *
+ * É exportada porque a resolução estava repetida à mão em quatro arquivos de
+ * teste, e todos os quatro erravam do mesmo jeito: liam a baixada NÃO corrigida de
+ * 1938 e 1945 enquanto o mapa servia a corrigida. Testes que não olham para o
+ * arquivo que vai ao ar não garantem nada sobre ele.
+ */
+export function caminhoRelativoDaFatia(fatia: {
+  nome: string;
+  local?: boolean;
+}): string {
+  return fatia.local ? `locais/${fatia.nome}.json` : `${fatia.nome}.json`;
+}
+
+/**
  * Busca uma fatia e devolve as feições.
  *
  * Só roda no cliente: o caminho é relativo à origem, e são 4,5 MB no total
@@ -437,15 +457,7 @@ export function carregarFatia(fatia: FatiaIndice): Promise<Fatia> {
   if (emCache) return emCache;
 
   const pedido = (async () => {
-    /*
-     * Fatia local mora em `locais/`, e o caminho vem do índice e não de convenção
-     * de nome: uma fatia local que corrige uma baixada tem o MESMO nome dela, e a
-     * baixada continua no disco por ser a origem da correção.
-     */
-    const caminho = fatia.local
-      ? `/geo/fatias/locais/${nome}.json`
-      : `/geo/fatias/${nome}.json`;
-    const resposta = await fetch(caminho);
+    const resposta = await fetch(`/geo/fatias/${caminhoRelativoDaFatia(fatia)}`);
     if (!resposta.ok) {
       throw new Error(`fatia ${nome}: HTTP ${resposta.status}`);
     }

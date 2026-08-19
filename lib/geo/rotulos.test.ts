@@ -14,14 +14,26 @@ import {
 } from "./rotulos";
 import { criarProjecao, escalaPara } from "./projecao";
 import { nomeCanonico } from "./nomes";
-import type { FatiaFeature } from "./fatias";
+import { FATIAS, caminhoRelativoDaFatia, type FatiaFeature } from "./fatias";
 
 const PASTA = path.join(process.cwd(), "public", "geo", "fatias");
+
+/*
+ * O arquivo de uma fatia é resolvido pelo ÍNDICE, e não montado a partir do nome:
+ * uma fatia local que corrige uma baixada tem o mesmo nome dela e mora em
+ * `locais/`. Montar à mão — o que este arquivo fazia — lia a baixada NÃO corrigida
+ * de 1938 e 1945 enquanto o mapa servia a corrigida.
+ */
+const arquivoDaFatia = (nome: string) =>
+  path.join(
+    PASTA,
+    caminhoRelativoDaFatia(FATIAS.find((f) => f.nome === nome) ?? { nome })
+  );
 
 /** Do jeito que o carregador entrega: com a grafia já normalizada. */
 function carregar(nome: string, ano: number): FatiaFeature[] {
   const topo = JSON.parse(
-    fs.readFileSync(path.join(PASTA, `${nome}.json`), "utf8")
+    fs.readFileSync(arquivoDaFatia(nome), "utf8")
   ) as Topology;
   const feicoes = feature(topo, topo.objects.mundo as GeometryCollection)
     .features as FatiaFeature[];
