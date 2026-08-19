@@ -158,7 +158,7 @@ describe("ancorasDe", () => {
     const alts = ancorasDe(pol);
     expect(alts.length).toBeGreaterThan(10);
 
-    const lats = alts.map((a) => a[1]);
+    const lats = alts.map((a) => a.p[1]);
     const [, sul, , norte] = [
       Math.min(...pol.coordinates[0].map((c) => c[0])),
       Math.min(...pol.coordinates[0].map((c) => c[1])),
@@ -171,12 +171,47 @@ describe("ancorasDe", () => {
     );
   });
 
+  /*
+   * A folga é distância ao CONTORNO, e não à caixa envolvente. A diferença apareceu
+   * na tela: a caixa da Antártida é o mundo inteiro, então um ponto na Península
+   * Antártica tinha folga máxima pela caixa — e o rótulo foi posto sobre uma língua
+   * de terra de um pixel, dentro do território pela conta e no mar para os olhos.
+   *
+   * A cruz isola a propriedade sem depender de número mágico do dado: a caixa dela
+   * tem 20° de lado, então pela caixa o centro teria 10° de folga; pelos braços, que
+   * têm 2° de largura, a folga real é de pouco mais de 1°.
+   */
+  it("mede folga pela costa, não pela caixa envolvente", () => {
+    const cruz: Polygon = {
+      type: "Polygon",
+      coordinates: [
+        /* Sentido horário: ver a nota sobre orientação no topo do arquivo. */
+        [
+          [1, 1], [10, 1], [10, -1], [1, -1], [1, -10], [-1, -10],
+          [-1, -1], [-10, -1], [-10, 1], [-1, 1], [-1, 10], [1, 10],
+          [1, 1],
+        ],
+      ],
+    };
+    expect(geoContains(cruz, [0, 0]), "a cruz tem de conter o próprio centro").toBe(
+      true
+    );
+
+    const alts = ancorasDe(cruz);
+    expect(alts.length).toBeGreaterThan(0);
+    /* Pela caixa seriam 10°; pela costa, pouco mais de 1°. */
+    expect(alts[0].folga).toBeLessThan(3);
+    expect(alts[0].folga).toBeGreaterThan(0);
+  });
+
   it("toda opção cai dentro do polígono", () => {
     for (const f of carregar("2018", 2018).slice(0, 40)) {
       const pol = maiorPoligono(f);
       if (!pol) continue;
       for (const a of ancorasDe(pol)) {
-        expect(geoContains(pol, a), f.properties?.n).toBe(true);
+        expect(geoContains(pol, a.p), f.properties?.n).toBe(true);
+        /* Folga é distância ao CONTORNO, não à caixa: nunca negativa. */
+        expect(a.folga, f.properties?.n).toBeGreaterThan(0);
       }
     }
   });
@@ -232,14 +267,24 @@ describe("colocarRotulos", () => {
       if (pol && !maiorPorNome.has(n)) maiorPorNome.set(n, pol);
     }
 
+    /*
+     * Não se compara com "a" âncora, porque não existe uma só: a colocação escolhe
+     * entre até 24 opções, a primeira que esteja na tela e tenha folga. O que se
+     * cobra é que a posição do rótulo corresponda a ALGUMA opção interior — e que
+     * essa opção esteja dentro do polígono.
+     */
     for (const r of rotulos) {
       const pol = maiorPorNome.get(r.nome)!;
-      /* Volta do pixel para lon/lat comparando com a âncora que gerou o ponto. */
-      const a = ancoraDe(pol)!;
-      const xy = p(a)!;
-      expect(geoContains(pol, a), r.nome).toBe(true);
-      expect(xy[0]).toBeCloseTo(r.x, 6);
-      expect(xy[1]).toBeCloseTo(r.y, 6);
+      const usada = ancorasDe(pol).find((cand) => {
+        const xy = p(cand.p);
+        return (
+          xy !== null &&
+          Math.abs(xy[0] - r.x) < 1e-6 &&
+          Math.abs(xy[1] - r.y) < 1e-6
+        );
+      });
+      expect(usada, `${r.nome}: nenhuma âncora corresponde à posição`).toBeDefined();
+      expect(geoContains(pol, usada!.p), r.nome).toBe(true);
     }
   });
 
@@ -300,9 +345,10 @@ describe("colocarRotulos", () => {
       "Nigeria",
       "Poland",
       "Kenya",
-      "Morocco",
       "Ukraine",
       "Tanzania",
+      /* Faixa estreita, e é o caso que fixou o limiar de folga em fonte/4. */
+      "Chile",
     ]) {
       expect(nomes, esperado).toContain(esperado);
     }
@@ -366,8 +412,9 @@ describe("colocarRotulos", () => {
       zoom,
       deslocamento: desl,
     });
-    const principal = p(r.ancora!)!;
-    /* A âncora principal está mesmo fora — senão o teste não prova nada. */
+    const melhor = ancorasDe(r.pol)[0];
+    const principal = p(melhor.p)!;
+    /* A melhor âncora está mesmo fora — senão o teste não prova nada. */
     expect(principal[1]).toBeGreaterThan(altura);
 
     const japao = nomesEm(feicoes, largura, zoom, desl).find(

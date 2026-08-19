@@ -69,27 +69,22 @@ export interface Rotulo {
  * arrastar e aproximar não recalculam geometria.
  */
 export interface ResumoDeEntidade {
-  /** Ponto interior onde o nome vai, em lon/lat. A melhor opção. */
-  ancora: [number, number] | null;
   /** Caixa envolvente em graus: oeste, sul, leste, norte. */
   caixa: [number, number, number, number];
   /** Área em graus², invariante à vista. */
   areaPlana: number;
-  /** O maior polígono, guardado para gerar alternativas quando precisar. */
+  /** O maior polígono, guardado para calcular as âncoras quando precisar. */
   pol: Polygon;
   /**
-   * Outros pontos interiores, para quando a âncora principal sai da tela.
+   * Lugares possíveis para o nome, do melhor ao mais periférico.
    *
-   * Calculado SOB DEMANDA e guardado aqui. Em zoom alto a âncora fica fora do
-   * enquadramento com frequência — aproximar em Kyushu tirava o nome do Japão da
-   * tela, e o país aparecia sem nome justamente quando se estava olhando ele.
-   *
-   * Preguiçoso porque a varredura custa 529 testes de contenção por entidade, e
-   * são 1.307 entidades em 1492: fazer para todas na carga da fatia custaria
-   * perto de um segundo para servir a um caso que só acontece ampliado. Assim,
-   * paga-se por entidade e uma vez só.
+   * Calculado SOB DEMANDA e guardado aqui. A varredura custa 529 testes de
+   * contenção por entidade, mais a distância ao contorno de cada ponto aceito, e
+   * são 1.307 entidades em 1492 — fazer para todas na carga da fatia gastaria perto
+   * de um segundo, e a maioria nem chega a ser candidata a rótulo porque o nome não
+   * cabe. Assim, paga-se só por quem pode receber nome, e uma vez só.
    */
-  alternativas?: [number, number][];
+  ancoras?: Candidato[];
 }
 
 /**
@@ -212,8 +207,26 @@ export function ancoraDe(pol: Polygon): [number, number] | null {
   return melhor;
 }
 
-/** Quantas âncoras alternativas guardar por entidade. */
+/** Quantas âncoras guardar por entidade. */
 const ALTERNATIVAS = 24;
+
+/**
+ * Um lugar possível para o nome, com a folga que ele tem ali.
+ *
+ * `folga` é a distância em GRAUS até o contorno do território — não até a caixa
+ * envolvente. A diferença não é sutil: a caixa da Antártida é o mundo inteiro, e
+ * um ponto na Península Antártica tem folga máxima pela caixa e quase nenhuma
+ * pela costa. Foi assim que o rótulo "Antarctica" foi colocado sobre uma língua
+ * de terra de UM PIXEL de espessura, formalmente dentro do território e
+ * visualmente no meio do oceano.
+ *
+ * Em graus porque é invariante à vista: quem desenha multiplica pela escala e
+ * decide se cabe, sem varrer geometria por quadro.
+ */
+export interface Candidato {
+  p: [number, number];
+  folga: number;
+}
 
 /**
  * Pontos interiores espalhados pelo território, para o rótulo achar lugar visível.
@@ -227,9 +240,46 @@ const ALTERNATIVAS = 24;
  * Quem desenha varre nesta ordem e usa a primeira que cai na tela: perto do centro
  * quando o país todo está visível, e numa ponta quando só a ponta está.
  */
-export function ancorasDe(pol: Polygon): [number, number][] {
+/**
+ * Distância do ponto ao CONTORNO, em graus, medida até os segmentos.
+ *
+ * Até os segmentos e não até os vértices, que foi a primeira versão. A diferença
+ * aparece em geometria de arestas longas: numa cruz de braços com 2° de largura, o
+ * centro fica a 1° da borda e a 4,28° do vértice mais próximo — a medida por
+ * vértice diria que há folga onde não há. Em costa real os vértices são densos e as
+ * duas quase coincidem, mas "quase" não é a mesma coisa, e um teste com forma feita
+ * à mão pegou isso.
+ */
+function folgaAteOContorno(pol: Polygon, [px, py]: [number, number]): number {
+  let menor = Infinity;
+  for (const anel of pol.coordinates) {
+    const pontos = anel as Position[];
+    for (let i = 0; i < pontos.length - 1; i++) {
+      const [ax, ay] = pontos[i];
+      const [bx, by] = pontos[i + 1];
+      const dx = bx - ax;
+      const dy = by - ay;
+      const comprimento = dx * dx + dy * dy;
+      /* Projeção do ponto sobre o segmento, presa entre as duas pontas. */
+      const t =
+        comprimento === 0
+          ? 0
+          : Math.max(
+              0,
+              Math.min(1, ((px - ax) * dx + (py - ay) * dy) / comprimento)
+            );
+      const ex = ax + t * dx - px;
+      const ey = ay + t * dy - py;
+      const d = ex * ex + ey * ey;
+      if (d < menor) menor = d;
+    }
+  }
+  return Math.sqrt(menor);
+}
+
+export function ancorasDe(pol: Polygon): Candidato[] {
   const [oeste, sul, leste, norte] = caixaDe(pol);
-  const dentro: { p: [number, number]; folga: number }[] = [];
+  const dentro: Candidato[] = [];
   for (let i = 1; i < GRADE; i++) {
     for (let j = 1; j < GRADE; j++) {
       const p: [number, number] = [
@@ -237,16 +287,21 @@ export function ancorasDe(pol: Polygon): [number, number][] {
         sul + ((norte - sul) * j) / GRADE,
       ];
       if (!geoContains(pol, p)) continue;
-      dentro.push({
-        p,
-        folga: Math.min(p[0] - oeste, leste - p[0], p[1] - sul, norte - p[1]),
-      });
+      dentro.push({ p, folga: folgaAteOContorno(pol, p) });
     }
   }
   if (dentro.length === 0) return [];
 
+  /*
+   * Ordem por AMOSTRAGEM DO PONTO MAIS DISTANTE, semeada pela maior folga.
+   *
+   * Ordenar só por folga concentraria as opções na parte mais larga do
+   * território — no Japão, todas em Honshu central — e aproximar numa ponta
+   * continuaria sem nome. Começando pela de maior folga e escolhendo em seguida
+   * sempre a mais longe das já escolhidas, as opções cobrem a forma inteira.
+   */
   dentro.sort((a, b) => b.folga - a.folga);
-  const escolhidas: [number, number][] = [dentro[0].p];
+  const escolhidas: Candidato[] = [dentro[0]];
   const restantes = dentro.slice(1);
   while (escolhidas.length < ALTERNATIVAS && restantes.length > 0) {
     let melhor = 0;
@@ -254,8 +309,8 @@ export function ancorasDe(pol: Polygon): [number, number][] {
     for (let k = 0; k < restantes.length; k++) {
       let perto = Infinity;
       for (const e of escolhidas) {
-        const dx = restantes[k].p[0] - e[0];
-        const dy = restantes[k].p[1] - e[1];
+        const dx = restantes[k].p[0] - e.p[0];
+        const dy = restantes[k].p[1] - e.p[1];
         const d = dx * dx + dy * dy;
         if (d < perto) perto = d;
       }
@@ -264,7 +319,7 @@ export function ancorasDe(pol: Polygon): [number, number][] {
         melhor = k;
       }
     }
-    escolhidas.push(restantes[melhor].p);
+    escolhidas.push(restantes[melhor]);
     restantes.splice(melhor, 1);
   }
   return escolhidas;
@@ -310,7 +365,6 @@ export function resumirFatia(
   const resumo = new Map<string, ResumoDeEntidade>();
   for (const [nome, { pol }] of maiores) {
     resumo.set(nome, {
-      ancora: ancoraDe(pol),
       caixa: caixaDe(pol),
       areaPlana: areas.get(nome) ?? 0,
       pol,
@@ -345,6 +399,20 @@ const seCruzam = (a: Caixa, b: Caixa) =>
 
 /** Folga entre dois rótulos, em pixels, para não se encostarem. */
 const RESPIRO = 2;
+
+/**
+ * Folga mínima até a costa, como fração da altura da fonte.
+ *
+ * Existe por causa do rótulo "Antarctica" colocado sobre uma língua de terra de UM
+ * pixel — dentro do território pela conta e no meio do mar para os olhos.
+ *
+ * O valor é medido, não escolhido por gosto. Com meia altura de fonte (5 px), o
+ * mapa de 1472 px cai de 53 para 48 nomes, e entre os perdidos está o CHILE, que é
+ * país que se quer nomeado — a folga dele é de ~3 px nessa escala, porque o país
+ * tem 180 km de largura. Com um quarto (2,5 px) o Chile volta, e a língua antártica
+ * continua recusada por uma ordem de grandeza: a folga dela naquela vista é 0,4 px.
+ */
+const FOLGA_MINIMA = 0.25;
 
 export interface OpcoesRotulos {
   feicoes: readonly FatiaFeature[];
@@ -396,7 +464,6 @@ export function colocarRotulos({
 
   const candidatos: (Rotulo & { area: number; caixa: Caixa })[] = [];
   for (const [nome, r] of resumo) {
-    if (!r.ancora) continue;
     const [oeste, sul, leste, norte] = r.caixa;
     const larguraCaixa = (leste - oeste) * RAD * escala;
     const alturaCaixa = (norte - sul) * RAD * escala;
@@ -417,25 +484,29 @@ export function colocarRotulos({
     };
 
     /*
-     * A âncora principal quando ela está na tela; se não, uma das alternativas.
+     * O primeiro lugar que está na tela E tem folga para o texto.
      *
-     * É o conserto de "aproximei em Kyushu e o Japão perdeu o nome": a âncora
-     * fica no centro do território, e em zoom alto o centro sai do enquadramento
-     * com frequência. As alternativas são pontos interiores espalhados, então o
-     * nome migra para a parte que está visível — e continua sobre a terra que
-     * nomeia, que é a promessa que não se pode quebrar. Deslocar o nome para
-     * dentro da tela por força bruta o colocaria no mar do vizinho.
+     * As duas condições vêm de dois defeitos diferentes, ambos vistos na tela.
+     *
+     * A tela: a âncora fica no meio do território, e em zoom alto o meio sai do
+     * enquadramento — aproximar em Kyushu tirava o nome do Japão. As opções são
+     * pontos espalhados, então o nome migra para a parte visível e CONTINUA sobre
+     * a terra que nomeia. Empurrar o nome para dentro da tela por força bruta o
+     * colocaria no mar do vizinho, e por isso não é essa a saída.
+     *
+     * A folga: o rótulo "Antarctica" foi posto sobre a Península Antártica, numa
+     * língua de terra de UM pixel de espessura — dentro do território pela conta e
+     * no meio do mar para os olhos. Exigir meia altura de fonte de folga até a
+     * costa é o que separa "está dentro" de "cabe dentro".
      */
-    let caixa = projetar(r.ancora);
-    if (!caixa || !naTela(caixa)) {
-      if (!r.alternativas) r.alternativas = ancorasDe(r.pol);
-      caixa = null;
-      for (const alt of r.alternativas) {
-        const c = projetar(alt);
-        if (c && naTela(c)) {
-          caixa = c;
-          break;
-        }
+    if (!r.ancoras) r.ancoras = ancorasDe(r.pol);
+    let caixa: Caixa | null = null;
+    for (const cand of r.ancoras) {
+      if (cand.folga * RAD * escala < FOLGA_MINIMA * fonte) continue;
+      const c = projetar(cand.p);
+      if (c && naTela(c)) {
+        caixa = c;
+        break;
       }
     }
     if (!caixa) continue;
