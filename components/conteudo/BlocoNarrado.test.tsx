@@ -2,7 +2,7 @@
 import { describe, it, expect, vi, afterEach } from "vitest";
 import { render, cleanup, act } from "@testing-library/react";
 import { BlocoNarrado } from "./BlocoNarrado";
-import type { BlocoDeEpisodio } from "@/lib/conteudo/episodio";
+import type { Bloco } from "@/lib/conteudo/bloco";
 
 /*
  * O que este arquivo cobre é a ponta que a função pura não alcança: se o
@@ -19,7 +19,7 @@ const TELA = 800;
 const ALTURA_MOLDURA = 400;
 const ALTURA_IMAGEM = 512; // 128% da moldura, como a classe do componente pede
 
-const bloco: BlocoDeEpisodio = {
+const bloco: Bloco = {
   id: "teste",
   data: "1637",
   titulo: "Um momento",

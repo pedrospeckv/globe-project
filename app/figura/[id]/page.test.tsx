@@ -46,9 +46,13 @@ describe("dossiê de figura", () => {
   it("cargos aparecem com intervalo, e o mandato em curso fica aberto", async () => {
     const comCargo = acervo.figuras.find((f) => f.cargos.length > 0)!;
     const { container } = await dossie(comCargo.id);
-    // Filho direto: as fontes de cada alegação também são <li>, mas vivem
-    // dentro de <article><footer>, não soltas na seção.
-    const linhas = [...container.querySelectorAll("section > ul > li")];
+    /*
+     * `ol` e não `ul`: os cargos viraram o trilho do memorial, e trilho é
+     * lista ORDENADA — a ordem cronológica é informação, não arranjo. O
+     * seletor precisa continuar preciso, porém: as fontes de cada alegação
+     * também são itens de lista, e vivem dentro de <article><footer>.
+     */
+    const linhas = [...container.querySelectorAll("section ol > li")];
     expect(linhas).toHaveLength(comCargo.cargos.length);
     for (const [i, c] of comCargo.cargos.entries()) {
       expect(linhas[i].textContent).toContain(c.titulo);

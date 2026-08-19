@@ -136,6 +136,8 @@ describe("verificarLigacoes", () => {
       nome: "Alguém",
       paisIso: "BRA",
       cargos: [],
+      trajetoria: [],
+      fontes: [],
       alegacoes: [],
     });
     expect(verificarLigacoes(a).some((e) => /mais de um alvo/.test(e))).toBe(true);

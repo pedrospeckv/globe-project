@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { DataHistorica, Id, comparaData } from "./primitivos";
-import { Imagem } from "./imagem";
+import { Bloco, comImagem, emOrdem } from "./bloco";
 
 /**
  * Um recorte geopolítico narrado em blocos, com imagem de época em cada um.
@@ -22,26 +22,6 @@ import { Imagem } from "./imagem";
  *   o período inteiro. Marcar a Colônia como dividida de 1500 a 1822 mentiria
  *   sobre 297 dos 322 anos.
  */
-export const BlocoDeEpisodio = z.object({
-  id: Id,
-  /**
-   * A data do bloco. Ordena e valida; o que aparece na tela pode ser outra
-   * coisa, ver `rotulo`.
-   */
-  data: DataHistorica,
-  /**
-   * O que a coluna da data mostra, quando a data exata mentiria.
-   *
-   * "1630–1637" e "c. 1640" são honestos onde "1630" sozinho afirmaria um
-   * dia que a fonte não dá. O campo existe para que a precisão do rótulo
-   * acompanhe a precisão do que se sabe, sem abrir mão da ordenação.
-   */
-  rotulo: z.string().min(1).optional(),
-  titulo: z.string().min(1, "bloco precisa de título"),
-  textoMdx: z.string().min(1, "bloco sem texto não é bloco"),
-  imagem: Imagem.optional(),
-});
-
 export const Episodio = z
   .object({
     id: Id,
@@ -57,7 +37,7 @@ export const Episodio = z
     periodos: z.array(Id).default([]),
     /** O parágrafo de entrada, antes do primeiro bloco. */
     abertura: z.string().min(1, "episódio precisa de abertura"),
-    blocos: z.array(BlocoDeEpisodio).min(2, "episódio precisa de ao menos dois blocos"),
+    blocos: z.array(Bloco).min(2, "episódio precisa de ao menos dois blocos"),
     /**
      * O fecho, no lugar que o memorial da Segunda Guerra reserva ao
      * "In Memoriam": o que ficou, o que segue em disputa, o que o atlas não
@@ -77,23 +57,11 @@ export const Episodio = z
     message: "episódio não pode terminar antes de começar",
     path: ["fim"],
   })
-  .refine(
-    (e) =>
-      e.blocos.every(
-        (b, i) => i === 0 || comparaData(b.data, e.blocos[i - 1].data) >= 0
-      ),
-    {
-      /*
-       * A ordem na tela é a ordem do arquivo — a página não reordena nada,
-       * porque reordenar em silêncio esconderia o erro de digitação em vez de
-       * mostrá-lo. Então o arquivo precisa estar certo.
-       */
-      message: "blocos fora de ordem cronológica",
-      path: ["blocos"],
-    }
-  );
+  .refine((e) => emOrdem(e.blocos), {
+    message: "blocos fora de ordem cronológica",
+    path: ["blocos"],
+  });
 
-export type BlocoDeEpisodio = z.infer<typeof BlocoDeEpisodio>;
 export type Episodio = z.infer<typeof Episodio>;
 
 /** Episódios de um país, do mais antigo para o mais recente. */
@@ -115,5 +83,5 @@ export function episodiosDoPeriodo(
 
 /** Quantas imagens o episódio traz — o número que a capa anuncia. */
 export function imagensDe(episodio: Episodio): number {
-  return episodio.blocos.filter((b) => b.imagem).length;
+  return comImagem(episodio.blocos);
 }
