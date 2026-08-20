@@ -1,0 +1,114 @@
+{
+  "iso": "CHL",
+  "isoNumerico": "152",
+  "nome": "Chile",
+  "periodos": [
+    {
+      "id": "cl-capitania",
+      "inicio": "1541",
+      "fim": "1810",
+      "rotulo": "Capitania Geral do Chile",
+      "regime": "capitania da Coroa de Castela, subordinada ao Vice-Reino do Peru; fronteira militar permanente no sul",
+      "textoMdx": "Pedro de Valdivia funda Santiago em 1541, num território que a Coroa considera pobre e distante: sem prata comparável a Potosí, sem população densa a tributar, e com uma guerra no sul que não termina.\n\n**O Tawantinsuyu tinha chegado até aqui, e parado no mesmo lugar.** O império inca administrava o norte árido e o vale central até cerca do rio Maule, e não avançou além. Os espanhóis tentam o que os incas não conseguiram, e descobrem por quê: ao sul do Bío-Bío, os mapuche combatem em terreno florestado, dispersos em unidades políticas sem capital que se possa tomar. Valdivia morre em combate em 1553; o levante de 1598 destrói as sete cidades espanholas ao sul do rio.\n\n**O Bío-Bío torna-se fronteira, e a fronteira dura duzentos e cinquenta anos.** A Coroa passa a manter um exército permanente no sul, pago por um subsídio anual vindo do Peru — o *real situado* —, o que faz do Chile colonial uma sociedade militarizada e fiscalmente dependente. A partir do século XVII, a guerra alterna com *parlamentos*, assembleias em que autoridades espanholas e lonkos mapuche negociam tréguas e comércio. É reconhecimento de fato de uma autonomia que a Espanha não conseguiu quebrar.\n\n**A economia é agrária e o poder é a terra.** Sem mineração de grande porte, formam-se haciendas no vale central, trabalhadas por inquilinos — camponeses com acesso a um pedaço de terra em troca de trabalho e lealdade. Essa estrutura, mais que qualquer instituição de Santiago, define quem manda no Chile pelos três séculos seguintes, e sobrevive intacta à independência.\n\n**A crise vem de fora.** Em 1808 Napoleão depõe o rei espanhol, e o vazio de legitimidade abre a pergunta de quem governa em nome de quem. Em setembro de 1810, uma junta se instala em Santiago jurando fidelidade a Fernando VII — o começo, ainda sem dizer o nome, da separação.",
+      "fontes": [
+        "collier-sater-chile",
+        "loveman-chile"
+      ]
+    },
+    {
+      "id": "cl-independencia",
+      "inicio": "1810",
+      "fim": "1830",
+      "rotulo": "Independência e organização da república",
+      "regime": "juntas, reconquista espanhola e governos provisórios em disputa",
+      "textoMdx": "Vinte anos entre a primeira junta e uma ordem constitucional estável, com um intervalo em que a Espanha reconquista o território e recomeça tudo.\n\n**A Patria Vieja termina em derrota.** Entre 1810 e 1814 as juntas de Santiago governam divididas entre quem quer autonomia dentro do império e quem quer separação, e entre as facções de José Miguel Carrera e Bernardo O'Higgins. A batalha de Rancagua, em outubro de 1814, entrega o país de volta às forças realistas vindas do Peru, e a repressão que segue converte muitos autonomistas em independentistas.\n\n**A independência é vencida do outro lado da cordilheira.** Os derrotados atravessam os Andes e, com José de San Martín em Mendoza, formam o Exército dos Andes. A travessia de 1817 e a vitória em Chacabuco devolvem Santiago; a independência é proclamada em 1818 e assegurada em Maipú, no mesmo ano. O Chile passa então a financiar e embarcar a expedição que San Martín levaria ao Peru em 1820 — a guerra continua, mas fora de casa.\n\n**O'Higgins governa como diretor supremo e cai por reformar demais.** Ele abole títulos de nobreza, tenta limitar o mayorazgo e enfrenta a Igreja; a oligarquia agrária e o clero reagem, e ele renuncia em 1823, exilando-se no Peru até morrer.\n\n**Seguem-se sete anos de ensaios constitucionais.** Constituições liberais e federalistas sucedem-se sem sustentar governo, num período que a historiografia chilena chama de anarquia. A escravidão é abolida em 1823, das primeiras da região. A disputa termina na guerra civil de 1829-1830 e na vitória do bando conservador em Lircay — vitória que produz, com Diego Portales, a ordem mais estável da América do Sul no século XIX.",
+      "fontes": [
+        "collier-sater-chile"
+      ]
+    },
+    {
+      "id": "cl-republica-conservadora",
+      "inicio": "1830",
+      "fim": "1861",
+      "rotulo": "República conservadora",
+      "regime": "república presidencialista autoritária sob a Constituição de 1833; voto restrito",
+      "textoMdx": "A exceção sul-americana do século XIX: enquanto os vizinhos alternam caudilhos, o Chile tem presidentes que cumprem mandato, entregam o cargo e são substituídos por eleição — controlada, mas eleição.\n\n**A Constituição de 1833 concentra poder e dura noventa anos.** Presidência forte, reeleição por um mandato, voto restrito por renda, Igreja católica como religião de Estado e estado de sítio à mão. O arquiteto político é Diego Portales, ministro que nunca foi presidente e que formulou a ideia de um governo impessoal e severo até a sociedade estar madura para outro — assassinado em 1837.\n\n**A ordem interna é usada para expansão externa.** A Confederação Peru-Boliviana, formada em 1836, ameaçava deslocar o comércio do Pacífico para Callao e Arica. O Chile declara guerra, vence em Yungay em 1839 e desfaz a união dos vizinhos. É o primeiro exercício de uma política que se repetiria: impedir a formação de um poder maior no Pacífico sul.\n\n**Valparaíso vira o porto do Pacífico.** Antes do canal do Panamá, quem contorna o cabo Horn precisa de escala, e Valparaíso a oferece com bancos, seguradoras e casas comerciais britânicas e alemãs. Trigo chileno abastece a Califórnia da corrida do ouro e a Austrália nos anos 1850. Cobre do norte torna o país um dos maiores produtores mundiais já em meados do século.\n\n**A estabilidade tem custo, e ele é cobrado por dentro.** Guerras civis em 1851 e 1859 opõem liberais e provincianos ao centralismo de Santiago. Ao mesmo tempo, a hacienda mantém a população rural sem voto efetivo nem terra, e o sul segue fora do Estado: além do Bío-Bío, o território mapuche continua autônomo, e a república que se orgulha da legalidade ainda não decidiu o que fazer com ele.",
+      "fontes": [
+        "collier-sater-chile",
+        "loveman-chile"
+      ]
+    },
+    {
+      "id": "cl-expansao",
+      "inicio": "1861",
+      "fim": "1891",
+      "rotulo": "República liberal e expansão territorial",
+      "regime": "república presidencialista com abertura liberal; guerra externa e ocupação do sul",
+      "textoMdx": "Três décadas em que o Chile quase dobra de território — para o norte por guerra, para o sul por campanha militar contra um povo que nunca havia sido conquistado.\n\n**A Guerra do Pacífico é decidida no mar e paga em salitre.** Em 1879, uma disputa tributária entre a Bolívia e uma empresa chilena aciona a aliança secreta de Peru e Bolívia. O controle naval, obtido em Angamos, permite desembarques onde Santiago escolhe: Tarapacá, Arica, Lima em 1881. Pelo Tratado de Ancón, de 1883, o Chile fica com Tarapacá; pelo acordo de 1904, com o litoral boliviano de Antofagasta. A Bolívia perde o mar; o Chile ganha o monopólio mundial do nitrato.\n\n**A ocupação da Araucanía acontece nos mesmos anos, e é uma guerra interna.** Entre 1861 e 1883, o exército avança ao sul do Bío-Bío com fortes, ferrovia e telégrafo, encerrando a autonomia mapuche mantida contra a Espanha por dois séculos e meio. A população é confinada em *reducciones* que somam uma fração pequena do território anterior, e as terras liberadas são vendidas ou entregues a colonos chilenos, alemães e suíços. O conflito por essas terras continua vivo no século XXI.\n\n**O salitre financia o Estado e cria uma classe operária.** Os *pampinos* trabalham em acampamentos no deserto, pagos em fichas válidas só no armazém da própria empresa, e organizam-se em sociedades de socorro mútuo que se tornam sindicatos. A receita de exportação do nitrato passa a sustentar metade do orçamento público — uma dependência que o país descobriria ser frágil quando a Alemanha sintetizasse o nitrogênio.\n\n**A guerra civil de 1891 encerra o presidencialismo.** José Manuel Balmaceda, que queria usar a receita do salitre em obra pública e enfrentar o Congresso, é derrotado numa guerra que mata milhares e mata-se em seguida. Quem vence é o Congresso, e o país entra num regime em que o presidente reina e o parlamento governa.",
+      "fontes": [
+        "collier-sater-chile",
+        "klaren-peru-nacao"
+      ]
+    },
+    {
+      "id": "cl-parlamentarismo",
+      "inicio": "1891",
+      "fim": "1925",
+      "rotulo": "República Parlamentar",
+      "regime": "predomínio do Congresso sobre o Executivo; gabinetes de curta duração",
+      "textoMdx": "Trinta e quatro anos em que o Congresso derruba ministérios à vontade — mais de cem gabinetes no período — enquanto a questão social cresce sem resposta.\n\n**O regime funciona para quem já manda.** O poder reparte-se entre partidos de clientela, com eleições compradas e um Executivo sem meios de impor programa. A receita do salitre segue entrando, e a obra pública, a educação e a habitação urbana ficam para depois.\n\n**A questão social irrompe, e a resposta é a tropa.** Greves portuárias e mineiras multiplicam-se a partir de 1900. Em dezembro de 1907, milhares de trabalhadores do salitre que desceram a Iquique para negociar são metralhados na escola Santa María — as estimativas de mortos variam de centenas a mais de dois mil, e o episódio se torna a data fundadora da memória operária chilena. Em 1912 nasce o Partido Operário Socialista, de Luis Emilio Recabarren, embrião do Partido Comunista.\n\n**A Primeira Guerra e a química alemã destroem a base fiscal.** O processo Haber-Bosch permite fixar nitrogênio do ar, e o salitre natural perde sentido econômico ao longo dos anos 1920. Acampamentos inteiros do deserto são abandonados, e a receita que sustentava o Estado desaparece — a primeira vez que o Chile aprende o preço de depender de um só produto.\n\n**O fim vem por intervenção militar em favor de reformas.** Em 1924, oficiais fazem ruído de sabres no Congresso para forçar a aprovação de leis sociais e trabalhistas paradas havia anos. Arturo Alessandri é deposto, volta, e em 1925 promulga uma constituição que restaura o presidencialismo, separa Igreja e Estado e cria o banco central. Segue-se um período conturbado sob Carlos Ibáñez, mas o desenho de 1925 é o que governaria o país até 1973.",
+      "fontes": [
+        "collier-sater-chile",
+        "loveman-chile"
+      ]
+    },
+    {
+      "id": "cl-presidencialismo",
+      "inicio": "1925",
+      "fim": "1970",
+      "rotulo": "República presidencialista",
+      "regime": "república presidencialista sob a Constituição de 1925; cobre como base da economia",
+      "textoMdx": "Quatro décadas e meia de democracia presidencial estável, com um sistema partidário de esquerda, centro e direita fortes — e uma disputa sobre a terra e o cobre que vai apertando.\n\n**O cobre substitui o salitre, e é estrangeiro.** Chuquicamata e El Teniente, operadas por empresas norte-americanas, tornam-se o centro da economia. A discussão sobre quanto o país recebe dessa renda atravessa todos os governos do período e termina em nacionalização.\n\n**A Frente Popular chega ao poder em 1938.** Coalizão de radicais, socialistas e comunistas, ela aposta em industrialização por substituição de importações: a Corfo, criada em 1939, funda empresas de aço, eletricidade e petróleo. A classe média urbana cresce, e com ela o funcionalismo. O voto feminino em eleições nacionais chega em 1949.\n\n**O campo permanece fechado até os anos 1960.** A hacienda e o inquilinato sobrevivem, e com eles o controle do voto rural pela direita. Isso muda com a reforma agrária: iniciada de forma limitada em 1962 e ampliada por Eduardo Frei Montalva a partir de 1964, ela expropria terras acima de um limite de tamanho e organiza os camponeses em assentamentos. Frei também compra participação majoritária nas minas de cobre, a chilenização.\n\n**A polarização se instala porque as três forças acreditam poder vencer sozinhas.** A democracia cristã propõe revolução em liberdade; a esquerda, via chilena ao socialismo; a direita, defesa da propriedade. Em 1970, Salvador Allende vence com 36,6% dos votos, à frente por margem estreita, e o Congresso o confirma — a primeira vez que uma coalizão marxista chega ao governo pelo voto.",
+      "fontes": [
+        "collier-sater-chile",
+        "halperin-donghi-america-latina"
+      ]
+    },
+    {
+      "id": "cl-unidade-popular",
+      "inicio": "1970",
+      "fim": "1973",
+      "rotulo": "Unidade Popular",
+      "regime": "governo de coalizão socialista-comunista, com maioria parlamentar adversária",
+      "textoMdx": "Mil dias em que um programa socialista é executado dentro da legalidade de uma constituição liberal, contra um Congresso adversário, um Judiciário hostil e um governo norte-americano decidido a impedi-lo.\n\n**A nacionalização do cobre é aprovada por unanimidade.** Em julho de 1971, o Congresso inteiro — inclusive a direita — vota a emenda que transfere as grandes minas ao Estado, sem indenizar as empresas norte-americanas pelo que o governo chileno considerou lucros excessivos já auferidos. É o ponto em que o conflito deixa de ser interno.\n\n**O primeiro ano funciona, e o segundo desmonta.** Aumento de salários e congelamento de preços elevam o consumo e o emprego em 1971. Depois vêm escassez, mercado paralelo e inflação de três dígitos: o preço internacional do cobre cai, o crédito externo fecha, e a produção nacionalizada e as fazendas expropriadas operam abaixo da capacidade. Filas e desabastecimento tornam-se a experiência cotidiana da classe média.\n\n**A oposição vai da urna à paralisação.** A greve dos caminhoneiros de outubro de 1972 e a de 1973 param o país por semanas, com apoio financeiro externo hoje documentado. A esquerda se divide entre quem quer consolidar e quem quer avançar por ocupações; o Congresso declara em agosto de 1973 que o governo violou a Constituição.\n\n**O 11 de setembro de 1973.** As Forças Armadas bombardeiam o palácio da Moeda; Allende mata-se durante o ataque. Assume uma junta sob Augusto Pinochet, que dissolve o Congresso, proíbe partidos, fecha universidades a intervenção e instala centros de detenção nas primeiras semanas. O golpe encerra, além de um governo, a mais longa continuidade constitucional da América do Sul.",
+      "fontes": [
+        "collier-sater-chile",
+        "informe-rettig"
+      ]
+    },
+    {
+      "id": "cl-ditadura",
+      "inicio": "1973",
+      "fim": "1990",
+      "rotulo": "Ditadura militar",
+      "regime": "ditadura militar sob junta e, depois, sob a Constituição de 1980",
+      "textoMdx": "Dezessete anos que reorganizam a economia e o Estado chilenos, com repressão apurada depois por duas comissões oficiais: 2.279 mortos e desaparecidos, e mais de 27 mil reconhecidos como vítimas de prisão política e tortura.\n\n**A repressão é centralizada e exportada.** A DINA, depois CNI, opera centros clandestinos como Villa Grimaldi e Londres 38. A Operação Condor coordena serviços de segurança do Cone Sul para perseguir exilados: o ex-chanceler Orlando Letelier é assassinado em Washington em 1976, o general Carlos Prats em Buenos Aires em 1974. Os corpos de parte dos desaparecidos nunca foram encontrados.\n\n**A economia é refundada, e é o experimento mais estudado do período.** Um grupo de economistas formados em Chicago aplica liberalização de preços, abertura comercial, privatização, previdência por capitalização individual em 1981 e redução do Estado. O cobre, porém, permanece estatal — a Codelco financia o próprio regime. Depois da crise da dívida de 1982, que quebra bancos e leva o desemprego a cerca de um quinto da força de trabalho, o Estado assume passivos privados e o modelo é ajustado; a partir de 1985 vem uma década de crescimento alto.\n\n**A Constituição de 1980 é escrita para durar depois da ditadura.** Aprovada em plebiscito sem registro eleitoral nem campanha adversária, ela institui senadores designados, um Conselho de Segurança Nacional com poder de tutela, sistema eleitoral que sobrerrepresenta a segunda força e quóruns altíssimos para reformas. É o que a transição herdaria, e o que ainda estaria em disputa quarenta anos depois.\n\n**O regime perde no plebiscito que ele mesmo convocou.** Em 5 de outubro de 1988, a pergunta era se Pinochet seguiria por mais oito anos. O Não vence com cerca de 56% contra 44%, numa campanha em que a oposição obteve faixa de televisão. Pinochet aceita o resultado, e a eleição de 1989 leva Patricio Aylwin à presidência — mas ele permanece comandante do Exército até 1998 e depois senador vitalício.",
+      "fontes": [
+        "informe-rettig",
+        "informe-valech",
+        "collier-sater-chile"
+      ]
+    },
+    {
+      "id": "cl-transicao",
+      "inicio": "1990",
+      "rotulo": "República do Chile",
+      "regime": "república presidencialista; disputa constitucional aberta desde 2019",
+      "textoMdx": "Trinta e cinco anos de democracia com crescimento e redução forte da pobreza, sobre uma arquitetura institucional herdada da ditadura que o país passou a tentar substituir e ainda não substituiu.\n\n**A transição é negociada e lenta.** A Concertación governa vinte anos com maiorias frágeis, limitada pelos senadores designados, pelo sistema eleitoral binominal e pela permanência de Pinochet no comando do Exército. As reformas de 2005 removem os enclaves mais visíveis; o binominal só cai em 2015.\n\n**A verdade avança por etapas, e a justiça também.** O Informe Rettig, de 1991, apura os mortos e desaparecidos; o Informe Valech, de 2004, cobre a tortura de sobreviventes que a primeira comissão não tratou. Pinochet é detido em Londres em 1998 a pedido de um juiz espanhol, volta ao Chile por razões de saúde e morre em 2006 sem condenação, com centenas de processos abertos. Oficiais são condenados ao longo das décadas seguintes.\n\n**O modelo econômico é mantido e vira o objeto da disputa.** Pobreza cai de perto de 40% para a casa de um dígito, e o Chile entra na OCDE em 2010. Mas educação, saúde e previdência seguem em desenho de mercado, e a dívida estudantil e as aposentadorias baixas do sistema de capitalização produzem os protestos de 2006 e 2011, conduzidos por estudantes.\n\n**Outubro de 2019 abre a crise constitucional.** Um aumento de tarifa do metrô de Santiago desencadeia o maior protesto desde o retorno da democracia, com repressão que organismos internacionais criticam. O acordo político resultante leva a um plebiscito em 2020, em que cerca de 78% aprovam escrever uma constituição nova. Dois textos são redigidos e rejeitados: o de 2022, por ampla margem, e o de 2023. Segue valendo, reformada, a Constituição de 1980 — o resultado que nenhum dos lados propôs.",
+      "fontes": [
+        "collier-sater-chile",
+        "informe-valech"
+      ]
+    }
+  ]
+}

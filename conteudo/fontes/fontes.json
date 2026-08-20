@@ -2359,5 +2359,101 @@
     "autor": "Yang Jisheng",
     "data": "2008",
     "citacao": "Jornalista da agência estatal chinesa reuniu por duas décadas documentos de arquivos provinciais e depoimentos, e estimou cerca de 36 milhões de mortos na fome do Grande Salto Adiante. O livro é proibido na China continental."
+  },
+  {
+    "id": "hemming-conquista-incas",
+    "tipo": "livro",
+    "titulo": "The Conquest of the Incas",
+    "autor": "John Hemming",
+    "data": "1970",
+    "citacao": "Narrativa de referência da conquista espanhola do Tawantinsuyu, das guerras civis entre Huáscar e Atahualpa à resistência de Vilcabamba, encerrada em 1572. Reconstrói o processo a partir das crônicas espanholas e das relações indígenas, e trata o colapso como resultado combinado de guerra civil, epidemia e aliança com povos submetidos ao Cusco."
+  },
+  {
+    "id": "klaren-peru-nacao",
+    "tipo": "livro",
+    "titulo": "Peru: Society and Nationhood in the Andes",
+    "autor": "Peter Flindell Klarén",
+    "data": "2000",
+    "citacao": "História do Peru do período pré-hispânico ao fim do século XX. Sustenta que a fratura entre a costa e a serra, e entre a república legal e a população indígena, atravessa o vice-reino e a república sem se fechar, e é a chave dos ciclos de exportação e das crises políticas."
+  },
+  {
+    "id": "cvr-informe-final",
+    "tipo": "documento-oficial",
+    "titulo": "Informe Final de la Comisión de la Verdad y Reconciliación",
+    "publicacao": "Comisión de la Verdad y Reconciliación (Peru)",
+    "data": "2003",
+    "citacao": "Apurou o conflito armado interno de 1980 a 2000 e estimou cerca de 69.280 mortos e desaparecidos, atribuindo a maior parte ao Sendero Luminoso e a parcela seguinte a agentes do Estado. Registrou que três quartos das vítimas tinham o quíchua ou outra língua indígena como língua materna, num país onde essa parcela era muito menor."
+  },
+  {
+    "id": "mann-1491",
+    "tipo": "livro",
+    "titulo": "1491: New Revelations of the Americas Before Columbus",
+    "autor": "Charles C. Mann",
+    "data": "2005",
+    "citacao": "Síntese da pesquisa sobre as sociedades americanas antes de 1492, incluindo os Estados andinos. Reúne a revisão demográfica que atribui às epidemias, e não só à guerra, a maior parte do colapso populacional posterior ao contato."
+  },
+  {
+    "id": "rock-argentina",
+    "tipo": "livro",
+    "titulo": "Argentina 1516-1987: From Spanish Colonization to Alfonsín",
+    "autor": "David Rock",
+    "data": "1987",
+    "citacao": "História da Argentina da chegada espanhola ao retorno democrático. Trata a economia agroexportadora do fim do século XIX e a imigração em massa como as forças que formaram o país, e o conflito entre Buenos Aires e o interior como o eixo político que sobrevive à mudança de regimes."
+  },
+  {
+    "id": "romero-argentina-contemporanea",
+    "tipo": "livro",
+    "titulo": "Breve historia contemporánea de la Argentina",
+    "autor": "Luis Alberto Romero",
+    "data": "1994",
+    "citacao": "História política argentina do século XX, de 1916 a 1999. Descreve a alternância entre governos eleitos e intervenções militares como padrão estrutural, e não como sequência de acidentes."
+  },
+  {
+    "id": "conadep-nunca-mais",
+    "tipo": "documento-oficial",
+    "titulo": "Nunca Más: Informe de la Comisión Nacional sobre la Desaparición de Personas",
+    "publicacao": "CONADEP (Argentina)",
+    "data": "1984",
+    "citacao": "Documentou 8.961 desaparecimentos forçados na ditadura de 1976-1983 e a existência de centros clandestinos de detenção, ressalvando que o número apurado é piso e não total. Foi a base do julgamento das juntas em 1985."
+  },
+  {
+    "id": "collier-sater-chile",
+    "tipo": "livro",
+    "titulo": "A History of Chile, 1808-2002",
+    "autor": "Simon Collier e William F. Sater",
+    "data": "2004",
+    "citacao": "História do Chile da independência ao início do século XXI. Acompanha a construção de uma ordem institucional precocemente estável no século XIX, a expansão territorial pela Guerra do Pacífico e a ruptura de 1973."
+  },
+  {
+    "id": "informe-rettig",
+    "tipo": "documento-oficial",
+    "titulo": "Informe de la Comisión Nacional de Verdad y Reconciliación (Informe Rettig)",
+    "publicacao": "Comisión Nacional de Verdad y Reconciliación (Chile)",
+    "data": "1991",
+    "citacao": "Apurou 2.279 mortes por violação de direitos humanos ou violência política entre 1973 e 1990, das quais a grande maioria atribuída a agentes do Estado. Não investigou a tortura de sobreviventes, lacuna que o Informe Valech cobriria em 2004."
+  },
+  {
+    "id": "informe-valech",
+    "tipo": "documento-oficial",
+    "titulo": "Informe de la Comisión Nacional sobre Prisión Política y Tortura (Informe Valech)",
+    "publicacao": "Comisión Nacional sobre Prisión Política y Tortura (Chile)",
+    "data": "2004",
+    "citacao": "Reconheceu mais de 27 mil pessoas como vítimas de prisão política e tortura na ditadura chilena, cobrindo o que o Informe Rettig deixara de fora por tratar apenas de mortos e desaparecidos."
+  },
+  {
+    "id": "halperin-donghi-america-latina",
+    "tipo": "livro",
+    "titulo": "Historia contemporánea de América Latina",
+    "autor": "Tulio Halperín Donghi",
+    "data": "1969",
+    "citacao": "Interpretação de conjunto da América Latina desde a independência. Liga a formação dos Estados nacionais à inserção de cada economia no mercado atlântico, e explica por que repúblicas com constituições parecidas produziram ordens políticas tão diferentes."
+  },
+  {
+    "id": "loveman-chile",
+    "tipo": "livro",
+    "titulo": "Chile: The Legacy of Hispanic Capitalism",
+    "autor": "Brian Loveman",
+    "data": "1979",
+    "citacao": "Historia do Chile da colonia ao periodo contemporaneo, com enfase na continuidade das instituicoes agrarias. Sustenta que a hacienda e o inquilinato do vale central, herdados da ordem colonial, sao a base do controle politico que sobrevive a independencia, as constituicoes e a industrializacao."
   }
 ]
