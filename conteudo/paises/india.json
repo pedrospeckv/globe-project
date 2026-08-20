@@ -14,7 +14,15 @@
         "editos-asoka",
         "arthashastra",
         "megastenes-indika"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Lion_Capital_of_Ashoka_3.jpg/1920px-Lion_Capital_of_Ashoka_3.jpg",
+        "alt": "Capitel de Ashoka em Sarnath: quatro leões esculpidos em arenito polido, de costas uns para os outros, sobre um ábaco com rodas e animais.",
+        "credito": "Apurv013",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Lion_Capital_of_Ashoka_3.jpg",
+        "legenda": "O capitel de Ashoka em Sarnath, século III a.C. Ashoka mandou gravar seus éditos em pilares por todo o império, e este virou o emblema da República da Índia — a roda dele está no centro da bandeira."
+      }
     },
     {
       "id": "in-reinos-sucessores",
@@ -25,7 +33,15 @@
       "textoMdx": "Pushyamitra Xunga mata o último imperador máuria e o subcontinente se desfaz em potências regionais que se sobrepõem por cinco séculos: os Xungas no Ganges, os reinos indo-gregos herdeiros de Alexandre no noroeste, os Satavahanas no Decã, os Sacas, e o Império Cuchana, que a partir da Báctria alcança a planície gangética.\n\n**O noroeste vira zona de tradução cultural.** O rei indo-grego Menandro aparece na literatura budista em pali como interlocutor de um monge num diálogo filosófico inteiro; a escultura de Gandara veste o Buda com panejamento de estátua grega e produz algumas das primeiras representações dele em forma humana — antes disso, ele era indicado por ausência, uma pegada, um trono vazio. É um caso raro de duas tradições visuais resolvendo juntas um problema teológico.\n\n**O budismo sai do subcontinente neste período e não volta mais como religião majoritária.** Pelas rotas de caravana que os cuchanas controlavam, mosteiros e textos chegam à Ásia Central e daí à [[cn-han|China han]]. A maior religião de exportação da Índia se estabelece fora enquanto, dentro, as tradições brâmanes e devocionais ganham terreno.\n\n**O comércio com Roma é grande o bastante para preocupar romanos.** A descoberta da navegação com as monções permite ir do mar Vermelho à costa indiana em poucas semanas; um manual de navegação grego do século I lista os portos, o que se compra em cada um e o que se deve levar de presente às autoridades locais. Tesouros de moedas romanas de ouro e prata aparecem no sul da Índia até hoje, e Plínio, o Velho, reclama por escrito da quantidade de prata romana que ia embora para pagar pimenta, tecido e pedra preciosa.\n\n**O sul tem literatura própria e independente do norte.** A poesia tâmil do período Sangam — versos sobre amor e sobre guerra, atribuídos a centenas de autores, incluindo mulheres — é uma tradição literária clássica contemporânea a tudo isso e sem relação de dependência com o sânscrito do norte. Tratar a história indiana como história do vale do Ganges deixa isso de fora.\n\nO atlas trata os cinco séculos como um período só, do mesmo modo que trata os três séculos entre os Han e os Sui na China: não porque nada tenha acontecido, mas porque nenhum Estado cobriu o território e enumerar cada dinastia regional daria uma lista, não uma cronologia.\n\n*A data de ascensão de Kanishka, o maior imperador cuchana, é um dos problemas em aberto da cronologia indiana — as propostas vão de 78 a 144 d.C. A datação mais aceita hoje é 127, mas a questão não está encerrada.*",
       "fontes": [
         "thapar-early-india"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gandhara%2C_periodo_kushan%2C_buddha_al_passo%2C_I-IV_sec.JPG/1920px-Gandhara%2C_periodo_kushan%2C_buddha_al_passo%2C_I-IV_sec.JPG",
+        "alt": "Escultura de Buda em pedra cinzenta, de pé e caminhando, em estilo greco-budista de Gandara, com túnica de dobras finas.",
+        "credito": "Sailko",
+        "licenca": "CC BY 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Gandhara,_periodo_kushan,_buddha_al_passo,_I-IV_sec.JPG",
+        "legenda": "Buda de Gandara, período cuchana. As dobras da túnica são de escultura helenística, herdadas das colônias gregas deixadas por Alexandre — é aqui que o Buda ganha rosto humano, depois de séculos representado só por símbolos."
+      }
     },
     {
       "id": "in-gupta",
@@ -36,7 +52,15 @@
       "textoMdx": "Chandragupta I inaugura a era Gupta e seus sucessores reúnem o norte sob um império que governa mais por vassalagem que por administração direta: reis derrotados frequentemente continuam no lugar, pagando tributo e reconhecendo supremacia. É um sistema mais barato e mais frágil que o máuria, e a diferença aparece na velocidade com que ele se desfaz.\n\n**A matemática do período muda o mundo depois.** A notação decimal posicional com o zero como número — e não apenas como marcador de casa vazia — se consolida aqui, e é essa notação que chegaria à Europa via árabes quase mil anos depois, substituindo os algarismos romanos e tornando possível a aritmética que a ciência moderna usa. Ariabata, nascido em 476, calcula a circunferência da Terra com erro inferior a 1%, propõe que a rotação aparente do céu se explica pela rotação da Terra, e produz uma tabela de senos.\n\n**A cultura de corte que se cristaliza aqui vira o cânone.** Kalidasa escreve o teatro e a poesia que definiriam o clássico em sânscrito; as pinturas das grutas de Ajanta são feitas neste período; o mosteiro-universidade de Nalanda começa a receber estudantes de fora do subcontinente; e o pilar de ferro de Délhi, erguido no período, permanece praticamente sem ferrugem dezesseis séculos depois.\n\n**Ao mesmo tempo, a hierarquia social se endurece por escrito.** É o período em que os tratados de norma religiosa e jurídica fixam com maior rigor as obrigações de casta, as restrições de casamento e a posição legal da mulher, incluindo a idade de casamento e a proibição de herança. Não é uma sociedade nova, mas é a codificação dela — e códigos escritos são mais difíceis de esquecer que costumes.\n\nO império entra em colapso no século VI sob as invasões dos Hunas alcônidas e a pressão fiscal de guerras sucessivas, e o norte [[in-pos-gupta|volta a se fragmentar]].\n\n*O rótulo Idade de Ouro, muito associado a este período, merece ressalva. Ele foi consolidado pela historiografia nacionalista dos séculos XIX e XX, que precisava de uma Antiguidade clássica indiana para opor à narrativa colonial britânica de um subcontinente sempre governado por estrangeiros. As realizações são reais, e o rótulo achata a experiência de quem estava fora da elite letrada — justamente o período em que sua posição foi codificada — e sugere uma unidade que não existiu: o sul do subcontinente nunca esteve sob os Gupta e vivia sua própria história.*",
       "fontes": [
         "thapar-early-india"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Remains_of_the_Dashavatara_Temple_in_Deogarh%2C_Lalitpur.jpg/1920px-Remains_of_the_Dashavatara_Temple_in_Deogarh%2C_Lalitpur.jpg",
+        "alt": "Ruínas do templo Dashavatara em Deogarh: base de pedra com painéis esculpidos e o corpo do santuário parcialmente preservado.",
+        "credito": "Work2win",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Remains_of_the_Dashavatara_Temple_in_Deogarh,_Lalitpur.jpg",
+        "legenda": "O templo Dashavatara em Deogarh, século V ou VI. É um dos primeiros templos hindus de pedra com torre que sobreviveram — o modelo de que sairia quase toda a arquitetura de templo indiana posterior."
+      }
     },
     {
       "id": "in-pos-gupta",
@@ -48,7 +72,15 @@
       "fontes": [
         "thapar-early-india",
         "xuanzang-relato"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Shore_Temple_01.jpg/1920px-Shore_Temple_01.jpg",
+        "alt": "Fotografia do Templo da Praia em Mahabalipuram: duas torres piramidais de granito à beira do mar, cercadas por um muro de touros esculpidos.",
+        "credito": "Bernard Gagnon",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Shore_Temple_01.jpg",
+        "legenda": "O Templo da Praia em Mahabalipuram, erguido pelos Pallava por volta do ano 700. Construído em granito à beira do mar, num porto que comerciava com o sudeste asiático — a fragmentação pós-Gupta não interrompeu o comércio, só o poder central."
+      }
     },
     {
       "id": "in-luta-tripartite",
@@ -59,7 +91,15 @@
       "textoMdx": "Três potências — os Gurjara-Pratiharas, os Palas de Bengala e os Rashtracutas do Decã — disputam por dois séculos o controle de Canaúje, sem que nenhuma consiga fixá-lo. A cidade valia como símbolo de supremacia sobre o norte, e a disputa consumiu as três.\n\n**No sul, os Cholas constroem a única talassocracia indiana.** Rajaraja I e Rajendra I projetam poder marítimo até o Sri Lanka, as Maldivas e, em 1025, contra Srivijaya, em Sumatra — expedição naval a mais de dois mil quilômetros de casa, feita para forçar a abertura das rotas comerciais com a China. Erguem em Tanjore um templo cuja torre tem mais de sessenta metros, e seu bronze fundido em cera perdida é considerado um dos pontos altos da escultura mundial.\n\n**E deixam registrado em pedra um procedimento eleitoral.** As inscrições de Uttiramerur, do século X, descrevem em detalhe como se escolhiam os comitês da assembleia da aldeia: qualificações de propriedade e de instrução exigidas dos candidatos, motivos de inelegibilidade, prestação de contas obrigatória, e sorteio de nomes escritos em folhas de palmeira dentro de um pote, retirados por um menino. É um dos registros mais precisos de procedimento eleitoral medieval que existem em qualquer lugar — restrito a uma elite de proprietários, como todos os da época, e escrito nas paredes do templo para que ninguém alegasse desconhecer a regra.\n\n**A partir de 1000, Mahmud de Gázni lança expedições anuais de saque sobre o noroeste**, culminando no ataque ao templo de Somnath em 1026. Elas não estabelecem domínio permanente — eram operações de pilhagem para financiar um Estado centrado no Afeganistão —, mas expõem que os reinos do norte não conseguiam se coordenar contra ameaça externa.\n\nO domínio vem depois e por outra dinastia: os Gúridas derrotam Prithviraj Chauhan em Tarain, em 1192, e em 1206 um general que era escravo se declara sultão em Délhi, fundando [[in-sultanato-delhi|o sultanato]].\n\n*A leitura desse desfecho é campo minado até hoje. Ela foi usada pela historiografia colonial britânica para dividir a história indiana em eras hindu e muçulmana — periodização que serviu à tese de que a Índia sempre fora governada por estrangeiros e que continua alimentando disputa política. A cronologia acima descreve conquistas militares; não as toma por conflito de civilizações, e vale registrar que reis indianos saquearam templos de reis indianos rivais pelos mesmos motivos de tesouro e prestígio.*",
       "fontes": [
         "thapar-early-india"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg/1920px-Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg",
+        "alt": "Templo Kandariya Mahadeva em Khajuraho: torre de arenito em picos escalonados, coberta de centenas de figuras esculpidas.",
+        "credito": "WarmaFiesta",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Kandariya_Mahadeva_Temple,_Khajuraho,_Madhya_Pradesh,_India_002.jpg",
+        "legenda": "O Kandariya Mahadeva, em Khajuraho, por volta de 1030, erguido pelos Chandela. A torre imita uma cordilheira, e as centenas de esculturas cobrem toda a superfície — riqueza de um reino regional numa Índia sem centro."
+      }
     },
     {
       "id": "in-sultanato-delhi",
@@ -70,7 +110,15 @@
       "textoMdx": "Cinco dinastias sucessivas governam o norte a partir de Délhi, estabelecendo o islã como religião de corte numa região de maioria hindu. A primeira delas é fundada por um escravo que virou general e depois soberano — a instituição do escravo militar, importada do mundo islâmico central, produz aqui uma dinastia inteira, e em 1236 põe no trono de Délhi uma mulher, Raziya, que governou quatro anos antes de ser deposta e morta pela nobreza.\n\n**O sultanato blinda a Índia do que os mongóis fizeram no resto da Ásia.** Entre o fim do século XIII e o início do XIV, sucessivas invasões mongóis são rechaçadas — algumas às portas de Délhi. Enquanto Bagdá era arrasada e a China conquistada, o norte da Índia se manteve fora do império mongol, e é para lá que migram sábios, artesãos e administradores fugidos da Ásia Central e da Pérsia.\n\n**Um sultão tabela preços e outro muda a capital.** Alauddin Khalji, para sustentar um exército permanente sem quebrar o tesouro, fixa por decreto o preço de grãos, tecidos, cavalos e escravos, instala inspetores nos mercados e monta celeiros estatais — política de guerra que funcionou enquanto durou o aparato que a fiscalizava. Muhammad bin Tughlaq, décadas depois, ordena a transferência da população de Délhi para o Decã e emite moeda fiduciária de bronze com valor de prata; as duas medidas fracassam de modo espetacular, e o viajante marroquino Ibn Battuta, que serviu como juiz em sua corte, deixou o relato.\n\n**O subcontinente não era uma unidade política.** O sul permaneceu sob dinastias próprias, entre elas o Império Vijayanagara, a partir de 1336, cuja capital Hampi foi descrita por visitantes portugueses e persas como uma das maiores cidades do mundo, e os sultanatos do Decã. O período é nomeado pela potência dominante do norte, não porque houvesse um Estado único.\n\n**A síntese cultural é concreta e mensurável.** Da convivência entre a língua da corte e as línguas locais nasce o registro que viraria o hindustani, e daí o hindi e o urdu; Amir Khusrau escreve nas duas tradições; a arquitetura combina arco e cúpula com o repertório decorativo local. Ao mesmo tempo, houve destruição de templos — praticada por motivo religioso, e também pelos mesmos motivos de tesouro e afirmação política que levavam reis indianos a saquear templos de rivais.\n\n**E a devoção popular atravessa a divisão que a política afirma.** Kabir, tecelão, escreve versos que zombam de brâmanes e de mulás na mesma estrofe; Nanak funda no Punjab, por volta de 1500, a tradição sique; os santuários sufis são visitados por hindus e muçulmanos indistintamente, e continuam sendo. O que a corte separava, a prática religiosa cotidiana frequentemente misturava.\n\nO saque de Délhi por Timur, em 1398, reduz o sultanato a uma potência regional. Ele é derrotado em 1526 por Babur, descendente de Timur e de Gengis Khan, [[in-mogol|que funda outra coisa]].",
       "fontes": [
         "thapar-early-india"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Qutb_Minar_4.jpg/1920px-Qutb_Minar_4.jpg",
+        "alt": "Fotografia do Qutb Minar, em Deli: minarete de arenito vermelho de setenta e dois metros, com faixas caneladas e varandas em relevo.",
+        "credito": "Athulvis",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Qutb_Minar_4.jpg",
+        "legenda": "O Qutb Minar, começado por volta de 1199 pelo primeiro sultão de Deli. Foi erguido com pedra retirada de templos demolidos ali mesmo — a marca de um poder novo escrita com o material do que ele substituiu."
+      }
     },
     {
       "id": "in-mogol",
@@ -82,7 +130,15 @@
       "fontes": [
         "thapar-early-india",
         "ain-i-akbari"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/El_Taj_Mahal-Agra_India0023.JPG/1920px-El_Taj_Mahal-Agra_India0023.JPG",
+        "alt": "Fotografia do Taj Mahal em Agra: mausoléu de mármore branco com cúpula bulbosa e quatro minaretes, ao fim do jardim com o espelho-d'água.",
+        "credito": "Diego Delso",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:El_Taj_Mahal-Agra_India0023.JPG",
+        "legenda": "O Taj Mahal, mausoléu construído entre 1632 e 1653 por Shah Jahan para a esposa Mumtaz Mahal. O jardim dividido em quatro é persa, o mármore vem de Makrana, e as pedras incrustadas vieram de tão longe quanto a China."
+      }
     },
     {
       "id": "in-companhia",
@@ -96,7 +152,15 @@
         "lei-governo-india-1858",
         "davis-holocaustos-vitorianos",
         "roy-economia-india-colonial"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/The_Old_Fort%2C_the_Playhouse%2C_Holwell%27s_Monument_from_Views_of_Calcutta.jpg/1920px-The_Old_Fort%2C_the_Playhouse%2C_Holwell%27s_Monument_from_Views_of_Calcutta.jpg",
+        "alt": "Água-tinta de 1786 mostrando Calcutá: o Forte Velho, o teatro e o monumento de Holwell, com europeus e indianos na rua em primeiro plano.",
+        "credito": "Thomas Daniell",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Old_Fort,_the_Playhouse,_Holwell%27s_Monument_from_Views_of_Calcutta.jpg",
+        "legenda": "Calcutá em 1786, por Thomas Daniell. A cidade era a capital de uma companhia de comércio que havia acabado de virar governo: depois de Plassey, em 1757, a Companhia das Índias Orientais cobrava impostos de milhões de pessoas."
+      }
     },
     {
       "id": "in-raj",
@@ -111,7 +175,15 @@
         "davis-holocaustos-vitorianos",
         "sen-pobreza-fomes",
         "ambedkar-aniquilacao-casta"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Delhi_Durbar_of_1903_-_LIFE_%2812%29.jpg",
+        "alt": "Fotografia do Durbar de Deli de 1903: procissão de elefantes ricamente ornamentados e tropas em formação diante de arquibancadas lotadas.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Delhi_Durbar_of_1903_-_LIFE_(12).jpg",
+        "legenda": "O Durbar de Deli de 1903, encenado para proclamar Eduardo VII imperador da Índia. Custou uma fortuna e durou duas semanas, no mesmo país em que a fome de 1899-1900 tinha matado milhões poucos anos antes."
+      }
     },
     {
       "id": "in-dominio",
@@ -124,7 +196,15 @@
         "guha-india-after-gandhi",
         "lei-independencia-india-1947",
         "constituicao-indiana-1950"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Jawaharlal_Nehru_delivering_his_%22tryst_with_destiny%22_speech.jpg/1920px-Jawaharlal_Nehru_delivering_his_%22tryst_with_destiny%22_speech.jpg",
+        "alt": "Fotografia de 15 de agosto de 1947: Jawaharlal Nehru discursando à Assembleia Constituinte na noite da independência.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Jawaharlal_Nehru_delivering_his_%22tryst_with_destiny%22_speech.jpg",
+        "legenda": "Nehru discursando à meia-noite de 15 de agosto de 1947. A independência veio junto com a partilha: a fronteira desenhada às pressas por um advogado britânico que nunca estivera na Índia deslocou milhões e matou centenas de milhares."
+      }
     },
     {
       "id": "in-republica",
@@ -137,7 +217,15 @@
         "constituicao-indiana-1950",
         "sen-pobreza-fomes",
         "ambedkar-aniquilacao-casta"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Sansad_Bhavan%2C_New_Delhi.jpg/1920px-Sansad_Bhavan%2C_New_Delhi.jpg",
+        "alt": "Fotografia do Sansad Bhavan em Nova Deli: edifício circular com colunata contínua ao redor de toda a fachada.",
+        "credito": "Nikhilb239",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Sansad_Bhavan,_New_Delhi.jpg",
+        "legenda": "O Sansad Bhavan, sede do Parlamento indiano. A Constituição de 1950 é a mais longa do mundo em vigor — em parte porque teve de escrever, artigo por artigo, direitos que a sociedade não concedia sozinha."
+      }
     }
   ]
 }

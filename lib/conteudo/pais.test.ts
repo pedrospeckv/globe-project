@@ -178,18 +178,45 @@ describe("a imagem do período, no acervo real", () => {
     }
   });
 
-  it("o Brasil tem imagem em todos os oito períodos, e todas legendadas", () => {
-    const brasil = acervo.paises.find((p) => p.iso === "BRA")!;
-    expect(brasil.periodos).toHaveLength(8);
-    for (const p of brasil.periodos) {
-      expect(p.imagem, p.id).toBeDefined();
-      /*
-       * `alt` diz o que a imagem mostra; `legenda` diz por que ela está ali.
-       * Sem a segunda, uma foto de rua em 1875 é decoração — o leitor não tem
-       * como saber que aquela rua era o centro comercial da capital do
-       * Império, que é a única razão de ela abrir o período.
-       */
-      expect(p.imagem!.legenda, p.id).toBeTruthy();
+  it("todo período do acervo tem imagem, e todas legendadas", () => {
+    /*
+     * A cobertura é total hoje, e o teste a trava aí de propósito.
+     *
+     * Não é a mesma regra da eleição, onde a lista mista é proibida porque os
+     * cartões ficam lado a lado e o vazio lê como candidatura menor. Aqui cada
+     * período é uma página só sua, e um sem imagem não seria injusto com
+     * ninguém — seria só uma página mais pobre. O que este teste impede é
+     * outra coisa: que um país novo entre pela metade e ninguém note, porque
+     * o buraco não aparece em lugar nenhum até alguém abrir aquela página.
+     */
+    for (const pais of acervo.paises) {
+      for (const p of pais.periodos) {
+        const onde = `${pais.iso}/${p.id}`;
+        expect(p.imagem, onde).toBeDefined();
+        /*
+         * `alt` diz o que a imagem mostra; `legenda` diz por que ela está ali.
+         * Sem a segunda, uma foto de rua em 1875 é decoração — o leitor não
+         * tem como saber que aquela rua era o centro comercial da capital do
+         * Império, que é a única razão de ela abrir o período.
+         */
+        expect(p.imagem!.legenda, onde).toBeTruthy();
+      }
+    }
+  });
+
+  it("nenhum crédito ficou com o resíduo do Commons", () => {
+    /*
+     * O campo `Artist` do Commons vem, em muitos arquivos, como "Unknown
+     * authorUnknown author" — o nome duplicado por como o template é montado.
+     * Copiado direto, ele vira crédito de tela e denuncia que ninguém leu o
+     * que foi gravado. "Autor desconhecido" é a forma honesta de dizer o
+     * mesmo.
+     */
+    for (const pais of acervo.paises) {
+      for (const p of pais.periodos) {
+        if (!p.imagem) continue;
+        expect(p.imagem.credito, `${pais.iso}/${p.id}`).not.toMatch(/unknown/i);
+      }
     }
   });
 });

@@ -13,7 +13,15 @@
         "foner-give-me-liberty",
         "declaracao-independencia-1776",
         "dunbar-ortiz-historia-indigena"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/BUELL%2C_Abel_%281742-1822%29._A_New_and_Correct_Map_of_the_United_States_of_North_America_Layd_Down_from_the_Latest_Observations_and_Best_Authorities_Agreeable_to_the_Peace_of_1783.jpg/1920px-thumbnail.jpg",
+        "alt": "Mapa impresso de 1784 mostrando os Estados Unidos da América do Norte, com as treze antigas colônias e as terras a oeste até o Mississippi.",
+        "credito": "Abel Buell",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:BUELL,_Abel_(1742-1822)._A_New_and_Correct_Map_of_the_United_States_of_North_America_Layd_Down_from_the_Latest_Observations_and_Best_Authorities_Agreeable_to_the_Peace_of_1783.jpg",
+        "legenda": "O mapa de Abel Buell, 1784: o primeiro mapa dos Estados Unidos gravado, impresso e publicado por um norte-americano. Sob os Artigos da Confederação o país mal tinha governo central — mas já se desenhava até o Mississippi."
+      }
     },
     {
       "id": "us-republica-federal",
@@ -27,7 +35,15 @@
         "constituicao-eua-1787",
         "dred-scott-1857",
         "dunbar-ortiz-historia-indigena"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/United_States_Capitol%2C_circa_1846%2C_by_John_Plumbe.jpg/1920px-United_States_Capitol%2C_circa_1846%2C_by_John_Plumbe.jpg",
+        "alt": "Daguerreótipo de 1846 do Capitólio dos Estados Unidos visto de leste, com a cúpula baixa original e a escadaria à frente.",
+        "credito": "John Plumbe",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:United_States_Capitol,_circa_1846,_by_John_Plumbe.jpg",
+        "legenda": "O Capitólio em 1846, num dos daguerreótipos mais antigos que existem de Washington. A cúpula é a original, baixa e de madeira revestida de cobre — a de ferro que hoje se reconhece só seria erguida durante a Guerra Civil."
+      }
     },
     {
       "id": "us-guerra-civil",
@@ -39,7 +55,15 @@
       "fontes": [
         "foner-give-me-liberty",
         "foner-reconstruction"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/A_Lonely_Grave%2C_Antietam_1862.jpg/1920px-A_Lonely_Grave%2C_Antietam_1862.jpg",
+        "alt": "Fotografia de 1862 mostrando soldados da União de pé junto à sepultura solitária de um companheiro no campo de batalha de Antietam.",
+        "credito": "Alexander Gardner",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:A_Lonely_Grave,_Antietam_1862.jpg",
+        "legenda": "\"A Lonely Grave\", título dado pelo próprio Alexander Gardner à sua fotografia em Antietam, setembro de 1862. Antietam foi o dia mais sangrento da história militar dos Estados Unidos, e a primeira batalha americana fotografada antes que os mortos fossem enterrados."
+      }
     },
     {
       "id": "us-reconstrucao",
@@ -51,7 +75,15 @@
       "fontes": [
         "foner-give-me-liberty",
         "foner-reconstruction"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Freedmen%27s_Bureau_-_Drawn_by_A.R._Waud._LCCN92514996.jpg/1920px-The_Freedmen%27s_Bureau_-_Drawn_by_A.R._Waud._LCCN92514996.jpg",
+        "alt": "Gravura de 1868 mostrando um agente do Freedmen's Bureau entre dois grupos hostis de brancos e libertos, tentando impedir um confronto.",
+        "credito": "Alfred R. Waud",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Freedmen%27s_Bureau_-_Drawn_by_A.R._Waud._LCCN92514996.jpg",
+        "legenda": "O Freedmen's Bureau desenhado por Alfred Waud para a Harper's Weekly em 1868: um agente federal posto literalmente no meio, entre brancos armados e libertos. A agência durou sete anos; a violência que ela tentava conter, muito mais."
+      }
     },
     {
       "id": "us-era-dourada",
@@ -65,7 +97,15 @@
         "plessy-ferguson-1896",
         "blackmon-servidao-penal",
         "eji-lynching-in-america"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/The_grand_display_of_fireworks_and_illuminations-_at_the_opening_of_the_great_suspension_bridge_between_New_York_and_Brooklyn_on_the_evening_of_May_24th%2C_1883_LCCN2001702100.jpg/1920px-thumbnail.jpg",
+        "alt": "Litografia colorida de 1883 mostrando fogos de artifício sobre a ponte do Brooklyn na noite de inauguração, vista do lado de Nova York.",
+        "credito": "Popular Graphic Arts",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_grand_display_of_fireworks_and_illuminations-_at_the_opening_of_the_great_suspension_bridge_between_New_York_and_Brooklyn_on_the_evening_of_May_24th,_1883_LCCN2001702100.jpg",
+        "legenda": "A inauguração da ponte do Brooklyn, 24 de maio de 1883. Era o vão suspenso mais longo do mundo e o primeiro grande uso estrutural do aço — a Era Dourada anunciando-se em fogos, catorze anos antes de a mesma economia produzir a crise de 1893."
+      }
     },
     {
       "id": "us-new-deal",
@@ -78,7 +118,15 @@
         "foner-give-me-liberty",
         "katznelson-acao-afirmativa-branca",
         "korematsu-1944"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Migrant_agricultural_worker%27s_family%2C_Nipomo%2C_California_ppmsca03054u.jpg/1920px-Migrant_agricultural_worker%27s_family%2C_Nipomo%2C_California_ppmsca03054u.jpg",
+        "alt": "Fotografia de 1936 de uma família de trabalhadores rurais migrantes num acampamento de colheita em Nipomo, Califórnia, junto a um abrigo de lona.",
+        "credito": "Dorothea Lange — Farm Security Administration",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Migrant_agricultural_worker%27s_family,_Nipomo,_California_ppmsca03054u.jpg",
+        "legenda": "Florence Owens Thompson e os filhos num acampamento de colhedores de ervilha, Califórnia, março de 1936. A foto é ela própria um produto do New Deal: Dorothea Lange trabalhava para a Farm Security Administration, agência criada para documentar — e justificar — o socorro rural."
+      }
     },
     {
       "id": "us-guerra-fria",
@@ -92,7 +140,15 @@
         "brown-v-board-1954",
         "voting-rights-act-1965",
         "kerner-1968"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/JFK_speech_Ich_bin_ein_berliner_1.jpg/1920px-JFK_speech_Ich_bin_ein_berliner_1.jpg",
+        "alt": "Fotografia de 26 de junho de 1963: John F. Kennedy discursando num palanque diante de uma multidão na Rudolph-Wilde-Platz, em Berlim Ocidental.",
+        "credito": "Robert Knudsen — Casa Branca",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:JFK_speech_Ich_bin_ein_berliner_1.jpg",
+        "legenda": "Kennedy em Berlim Ocidental, 26 de junho de 1963. O muro tinha menos de dois anos, e a frase que ele disse ali — \"Ich bin ein Berliner\" — fez de uma cidade cercada o compromisso que os Estados Unidos não poderiam desfazer sem perder a aliança inteira."
+      }
     },
     {
       "id": "us-pos-guerra-fria",
@@ -106,7 +162,15 @@
         "senado-cia-tortura-2014",
         "shelby-county-2013",
         "comissao-6-janeiro-2022"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/September_17_2001_Ground_Zero_02.jpg/1920px-September_17_2001_Ground_Zero_02.jpg",
+        "alt": "Fotografia aérea do sul de Manhattan em 17 de setembro de 2001, com os escombros do World Trade Center e o maquinário de resgate entre os prédios vizinhos.",
+        "credito": "U.S. Navy",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:September_17_2001_Ground_Zero_02.jpg",
+        "legenda": "O sul de Manhattan em 17 de setembro de 2001, seis dias depois. O período que começou com os Estados Unidos como única superpotência passou a ser organizado, por duas décadas, em torno da resposta a esta manhã."
+      }
     }
   ]
 }

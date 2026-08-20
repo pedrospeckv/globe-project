@@ -12,7 +12,15 @@
       "fontes": [
         "totman-historia-japao",
         "nihon-shoki"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Japan%2C_Yayoi_period_-_Jar_-_1984.26_-_Cleveland_Museum_of_Art.tif/lossy-page1-1920px-Japan%2C_Yayoi_period_-_Jar_-_1984.26_-_Cleveland_Museum_of_Art.tif.jpg",
+        "alt": "Jarro de cerâmica do período Yayoi, de corpo bojudo e boca larga, com faixas incisas na parte superior.",
+        "credito": "Cleveland Museum of Art",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Japan,_Yayoi_period_-_Jar_-_1984.26_-_Cleveland_Museum_of_Art.tif",
+        "legenda": "Jarro Yayoi, entre o século I a.C. e o I d.C. É com esta cerâmica que se datam as aldeias que trouxeram o cultivo do arroz irrigado ao arquipélago — a mudança que fez surgir excedente, hierarquia e, por fim, chefias."
+      }
     },
     {
       "id": "jp-kofun",
@@ -24,7 +32,15 @@
       "fontes": [
         "totman-historia-japao",
         "nihon-shoki"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/NintokuTomb_Aerial_photograph_2007.jpg",
+        "alt": "Fotografia aérea do Daisen Kofun, em Sakai: um túmulo em forma de fechadura cercado por fossos concêntricos e vegetação.",
+        "credito": "Autoridade de Informação Geoespacial do Japão",
+        "licenca": "Attribution",
+        "origem": "https://commons.wikimedia.org/wiki/File:NintokuTomb_Aerial_photograph_2007.jpg",
+        "legenda": "O Daisen Kofun, em Sakai: quase quinhentos metros de túmulo em forma de fechadura, um dos maiores do mundo em área. Erguer isto exigia mobilizar milhares de pessoas — que é justamente o que o período tem de novo."
+      }
     },
     {
       "id": "jp-asuka",
@@ -36,7 +52,15 @@
       "fontes": [
         "totman-historia-japao",
         "nihon-shoki"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Horyu-ji10s3200.jpg/1920px-Horyu-ji10s3200.jpg",
+        "alt": "Fotografia do templo Hōryū-ji em Ikaruga: o portão interno e o pagode de cinco andares em madeira, com o muro do recinto à frente.",
+        "credito": "663highland",
+        "licenca": "CC BY 2.5",
+        "origem": "https://commons.wikimedia.org/wiki/File:Horyu-ji10s3200.jpg",
+        "legenda": "O Hōryū-ji, em Ikaruga. Suas peças mais antigas estão entre as construções de madeira mais velhas do mundo ainda de pé, e datam do período em que o budismo chegou da Coreia e reorganizou a corte japonesa."
+      }
     },
     {
       "id": "jp-nara",
@@ -49,7 +73,15 @@
         "totman-historia-japao",
         "nihon-shoki",
         "kojiki-712"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/The_Great_Buddha_Hall_of_T%C5%8Ddai-ji%2C_Nara%2C_November_2016.jpg/1920px-The_Great_Buddha_Hall_of_T%C5%8Ddai-ji%2C_Nara%2C_November_2016.jpg",
+        "alt": "Fotografia do Grande Salão do Buda do Tōdai-ji, em Nara: um enorme edifício de madeira com telhado curvo, visto de frente.",
+        "credito": "Martin Falbisoner",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Great_Buddha_Hall_of_T%C5%8Ddai-ji,_Nara,_November_2016.jpg",
+        "legenda": "O Tōdai-ji, fundado em 752 para abrigar um Buda de bronze de quinze metros — obra que consumiu boa parte do cobre disponível no país. O salão atual é reconstrução de 1709, menor que o original; a estátua dentro dele é a do século VIII."
+      }
     },
     {
       "id": "jp-heian",
@@ -61,7 +93,15 @@
       "fontes": [
         "totman-historia-japao",
         "conto-de-genji"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Byodo-in_Uji03bs2640.jpg/1920px-Byodo-in_Uji03bs2640.jpg",
+        "alt": "Fotografia do Salão da Fênix do Byōdō-in, em Uji: pavilhão simétrico de madeira com asas laterais, refletido no lago à frente.",
+        "credito": "663highland",
+        "licenca": "CC BY 2.5",
+        "origem": "https://commons.wikimedia.org/wiki/File:Byodo-in_Uji03bs2640.jpg",
+        "legenda": "O Salão da Fênix do Byōdō-in, em Uji, erguido em meados do século XI pela família Fujiwara — que governava sem ocupar o trono, casando as filhas com imperadores. O prédio é a Terra Pura budista construída em tamanho real."
+      }
     },
     {
       "id": "jp-kamakura",
@@ -72,7 +112,15 @@
       "textoMdx": "Vencida a guerra, Minamoto no Yoritomo faz algo que nenhum vitorioso anterior havia feito: em vez de ocupar a corte de Quioto, monta um governo próprio em Kamakura, a centenas de quilômetros dali, e obtém do imperador o título de xogum em 1192. O imperador permanece como fonte de legitimidade e autoridade religiosa; o poder efetivo — terra, justiça, tropa — fica com o governo militar. O Japão passa a ter dois centros de governo simultâneos, e assim ficará até 1868.\n\n**As camadas de poder delegado ficam absurdas depressa.** Morto Yoritomo, a família de sua viúva, os Hōjō, assume como regente do xogum. De modo que há um regente governando em nome de um xogum, que governa em nome de um imperador, que frequentemente é uma criança no trono enquanto um imperador aposentado manda de um mosteiro. Nenhum desses cargos é abolido — todos continuam existindo, esvaziados, e é essa acumulação que dá à política japonesa sua característica mais persistente: o poder real quase nunca está onde o título diz.\n\n**Em 1221 a corte tenta retomar o comando e perde de vez.** Um imperador aposentado declara o regente Hōjō fora da lei e convoca os guerreiros a derrubá-lo. Quase ninguém atende; Kamakura marcha sobre Quioto em semanas, exila três imperadores e passa a nomear seus representantes na capital. Depois disso, a autoridade imperial é cerimonial na prática e ninguém finge o contrário.\n\n**As duas invasões mongóis quebram o vencedor.** Em 1274 e 1281, frotas enviadas por [[cn-yuan|Kublai Khan]] com tropas mongóis, chinesas e coreanas desembarcam em Kyushu e são desfeitas por resistência em muralhas construídas às pressas e por tempestades — origem da expressão *kamikaze*, vento divino. A vitória arruína o xogunato: mobilizar os guerreiros custou fortunas e não houve terra conquistada para distribuir como recompensa. Guerreiros endividados e sem prêmio são a base social da queda.\n\n**É também o período em que o budismo sai dos mosteiros.** Novas escolas pregam que a salvação não depende de erudição nem de doação: basta invocar o nome do Buda, ou a fé no Sutra do Lótus. Pela primeira vez a religião fala diretamente a camponeses e guerreiros, em japonês simples, e é dessa mudança que sai a religiosidade popular japonesa. O zen chega no mesmo período e é adotado justamente pela classe guerreira.\n\nO regime cai em 1333, derrubado por uma coalizão convocada por um imperador disposto a governar de verdade. A restauração dele dura três anos: o general que a viabilizou muda de lado e funda [[jp-ashikaga|outro xogunato]].",
       "fontes": [
         "totman-historia-japao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/The_Great_Buddha_of_Kamakura.jpg/1920px-The_Great_Buddha_of_Kamakura.jpg",
+        "alt": "Fotografia do Grande Buda de Kamakura: estátua de bronze sentada em meditação, ao ar livre, com árvores atrás.",
+        "credito": "Alexandar Vujadinovic",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Great_Buddha_of_Kamakura.jpg",
+        "legenda": "O Grande Buda de Kamakura, fundido em 1252. O salão que o cobria foi levado por tsunâmis no século XV e nunca refeito — a estátua ficou ao relento, na cidade onde o xogum governava enquanto a corte imperial seguia em Quioto."
+      }
     },
     {
       "id": "jp-ashikaga",
@@ -83,7 +131,15 @@
       "textoMdx": "O xogunato Ashikaga governa a partir de Quioto — decisão oposta à de Kamakura, e que o obriga a conviver com a corte em vez de ignorá-la. Começa com o país partido: dois imperadores rivais, em Quioto e em Yoshino, disputam a legitimidade por cinquenta e seis anos, até 1392. Sua autoridade sempre dependeu de alianças com senhores regionais que, um a um, ficaram mais fortes que ele.\n\n**O terceiro xogum aceita ser chamado de rei do Japão pelo imperador Ming.** Fez isso para obter licença comercial, e o comércio com a China rendeu fortunas — mas aceitar investidura de um soberano estrangeiro, e ainda por cima usando um título que a corte japonesa jamais reconheceria, foi escândalo na época e virou munição de nacionalistas séculos depois. É um exemplo limpo de como o Japão medieval negociava com o continente sem a rigidez que a memória posterior lhe atribuiu.\n\n**É o período de formação do que o mundo reconhece como cultura japonesa.** Teatro nô, cerimônia do chá, arranjo floral, jardim seco de pedra e areia, pintura a nanquim, arquitetura de sala com tatame e nicho — tudo isso se consolida sob patrocínio dos xoguns e dos mosteiros zen. O paradoxo é que essa produção acontece enquanto o Estado se desfaz: o Pavilhão de Prata é projetado por um xogum que assistia, da janela, à capital ser incendiada.\n\n**A Guerra Ōnin, iniciada em 1467, destrói Quioto e dissolve o poder central.** Começa como disputa de sucessão dentro do próprio xogunato, dura onze anos dentro da cidade, e termina sem vencedor porque os exércitos simplesmente vão embora cuidar de suas províncias. Segue-se mais de um século de guerra permanente entre domínios, o Sengoku, em que linhagens antigas são substituídas por quem tem tropa — o período que os japoneses chamam de o inferior derrubando o superior.\n\n**Nem toda autoridade que surge no vazio é militar.** Ligas de camponeses, monges e pequenos proprietários ligadas a uma escola budista popular tomam a província de Kaga em 1488 e a governam por quase um século sem senhor feudal, caso praticamente sem paralelo na Ásia da época. Foram esmagadas na unificação, e sumiram da narrativa que trata o período apenas como disputa entre grandes casas.\n\nOs primeiros europeus chegam em 1543: portugueses náufragos que trazem arcabuzes. Os japoneses compram, copiam e, em uma década, estão produzindo armas de fogo em quantidade que provavelmente supera a de qualquer país europeu. Missionários jesuítas chegam em 1549 e fazem centenas de milhares de convertidos no oeste do país. As duas coisas — a arma e a fé — vão pesar na [[jp-unificacao|reunificação que vem em seguida]], em direções opostas.",
       "fontes": [
         "totman-historia-japao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Shariden%2C_Kinkaku-ji%2C_Kyoto%2C_East_View_20130811_1.jpg/1920px-Shariden%2C_Kinkaku-ji%2C_Kyoto%2C_East_View_20130811_1.jpg",
+        "alt": "Fotografia do Pavilhão Dourado de Quioto: edifício de três andares coberto de folha de ouro, à beira de um lago que o reflete.",
+        "credito": "DXR",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Shariden,_Kinkaku-ji,_Kyoto,_East_View_20130811_1.jpg",
+        "legenda": "O Kinkaku-ji, retiro do xogum Ashikaga Yoshimitsu a partir de 1397. O que se vê é reconstrução de 1955: um monge ateou fogo ao pavilhão original em 1950. O jardim e o lago, esses, são do século XIV."
+      }
     },
     {
       "id": "jp-unificacao",
@@ -94,7 +150,15 @@
       "textoMdx": "Trinta anos em que três comandantes sucessivos reunificam pela força um país que estava havia um século sem centro.\n\n**Oda Nobunaga vence porque trata a guerra como problema de organização.** Emprega arcabuzes em fileiras que atiram alternadamente, sustenta exércitos profissionais em vez de camponeses sazonais, e destrói sistematicamente o poder militar dos mosteiros budistas — incendeia o complexo do monte Hiei em 1571 e sustenta uma guerra de dez anos contra a principal fortaleza-templo do país. Foi tolerante com os jesuítas em boa medida porque eles eram inimigos dos monges que ele combatia. É assassinado por um subordinado em 1582, com metade do país conquistado.\n\n**Toyotomi Hideyoshi nasce camponês e termina governando o Japão.** Completa a unificação em oito anos, e a consolida por decreto: a caça às espadas de 1588 desarma quem não é guerreiro, o levantamento cadastral mede toda a terra produtiva do país em unidades de arroz, e a separação entre guerreiro e agricultor congela a mobilidade social que ele próprio havia usado para subir. A rigidez de castas do período seguinte é obra de um homem que não teria existido nela.\n\n**As invasões da Coreia são o desastre menos lembrado no Japão e mais lembrado fora dele.** Em 1592 e 1597, exércitos de mais de cem mil homens desembarcam na península com o objetivo declarado de conquistar a China. Fracassam diante da resistência coreana, da marinha do almirante Yi e da intervenção [[cn-ming|Ming]], deixando a Coreia arrasada, com perdas enormes de população e patrimônio. Entre o que os japoneses levaram estavam ceramistas capturados, que fundaram a tradição da porcelana japonesa — e o gesto de cortar narizes das vítimas para contagem, sepultados num monte em Quioto que ainda existe.\n\n**O cristianismo passa de tolerado a proibido.** Hideyoshi edita a primeira ordem de expulsão de missionários em 1587 e manda crucificar vinte e seis cristãos em Nagasaki em 1597. O motivo é político: uma lealdade organizada, com hierarquia externa e ligação com potências que tinham frota, era exatamente o tipo de poder paralelo que a unificação existia para eliminar.\n\nMorto Hideyoshi em 1598, a disputa pela regência do filho menino se decide em Sekigahara, em outubro de 1600, na maior batalha da história japonesa até então. Tokugawa Ieyasu vence e é nomeado xogum em 1603 — e, diferentemente dos dois anteriores, monta uma estrutura feita para durar sem ele.",
       "fontes": [
         "totman-historia-japao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Nanban_Byobu_Folding_Screen_Carrack_Portuguese_Traders_in_Nagasaki_by_Kano_Domi.jpg/1920px-Nanban_Byobu_Folding_Screen_Carrack_Portuguese_Traders_in_Nagasaki_by_Kano_Domi.jpg",
+        "alt": "Biombo japonês do fim do século XVI: uma nau portuguesa atracada em Nagasaki, com mercadores de calções bufantes desembarcando entre japoneses.",
+        "credito": "Atribuído a Kanō Domi",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Nanban_Byobu_Folding_Screen_Carrack_Portuguese_Traders_in_Nagasaki_by_Kano_Domi.jpg",
+        "legenda": "Biombo nanban do período Momoyama: a nau portuguesa em Nagasaki, pintada por olhos japoneses. Os mesmos navios traziam o arcabuz que decidiria as guerras de unificação e os missionários que Hideyoshi passaria a expulsar."
+      }
     },
     {
       "id": "jp-tokugawa",
@@ -107,7 +171,15 @@
         "totman-historia-japao",
         "jansen-japao-moderno",
         "tratado-kanagawa-1854"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1920px-Tsunami_by_hokusai_19th_century.jpg",
+        "alt": "Gravura de Hokusai: uma onda enorme de crista em garras erguendo-se sobre três barcos, com o monte Fuji pequeno ao fundo.",
+        "credito": "Katsushika Hokusai",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg",
+        "legenda": "\"A Grande Onda de Kanagawa\", de Hokusai, por volta de 1830. O azul intenso é o da Prússia, pigmento importado — num país oficialmente fechado, onde o comércio externo passava por uma única ilha artificial em Nagasaki."
+      }
     },
     {
       "id": "jp-imperio",
@@ -121,7 +193,15 @@
         "jansen-japao-moderno",
         "constituicao-meiji-1889",
         "declaracao-kono-1993"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Kenpohapu-chikanobu.jpg",
+        "alt": "Xilogravura colorida de 1889 mostrando a cerimônia de promulgação da Constituição Meiji, com o imperador e a corte em trajes ocidentais num salão do palácio.",
+        "credito": "Toyohara Chikanobu",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Kenpohapu-chikanobu.jpg",
+        "legenda": "A promulgação da Constituição Meiji, em xilogravura de 1889. Todos de casaca e uniforme europeu: a carta foi outorgada pelo imperador, não votada, e desenhada a partir do modelo prussiano por ser o que mais preservava o trono."
+      }
     },
     {
       "id": "jp-ocupacao",
@@ -137,7 +217,15 @@
         "tribunal-toquio-1948",
         "dower-abracando-derrota",
         "tratado-sao-francisco-1951"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Mamoru_Shigemitsu_signs_the_Instrument_of_Surrender%2C_officially_ending_the_Second_World_War.jpg/1920px-Mamoru_Shigemitsu_signs_the_Instrument_of_Surrender%2C_officially_ending_the_Second_World_War.jpg",
+        "alt": "Fotografia de 2 de setembro de 1945: o chanceler Mamoru Shigemitsu assina o instrumento de rendição a bordo do USS Missouri, cercado por oficiais aliados.",
+        "credito": "U.S. Army Signal Corps",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Mamoru_Shigemitsu_signs_the_Instrument_of_Surrender,_officially_ending_the_Second_World_War.jpg",
+        "legenda": "Shigemitsu assina a rendição a bordo do Missouri, 2 de setembro de 1945. Seguiram-se sete anos de ocupação americana, em que o Japão recebeu uma constituição escrita em inglês por oficiais de MacArthur e traduzida depois."
+      }
     },
     {
       "id": "jp-pos-guerra",
@@ -151,7 +239,15 @@
         "constituicao-japonesa-1947",
         "tratado-seguranca-japao-eua-1960",
         "declaracao-kono-1993"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Diet_Building_of_Japan02n3200.jpg/1920px-Diet_Building_of_Japan02n3200.jpg",
+        "alt": "Fotografia do prédio da Dieta Nacional do Japão, em Tóquio: fachada simétrica de granito com uma torre central escalonada.",
+        "credito": "663highland",
+        "licenca": "CC BY 2.5",
+        "origem": "https://commons.wikimedia.org/wiki/File:Diet_Building_of_Japan02n3200.jpg",
+        "legenda": "A Dieta Nacional, em Tóquio. O Tratado de São Francisco devolveu a soberania ao Japão em 1952, mantendo bases americanas no território — arranjo que dura até hoje e que a Constituição de 1947, com seu artigo 9º, tornou possível."
+      }
     }
   ]
 }

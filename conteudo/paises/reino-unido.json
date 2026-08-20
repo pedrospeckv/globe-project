@@ -13,7 +13,15 @@
         "schama-historia-gra-bretanha",
         "magna-carta-1215",
         "domesday-book-1086"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Bayeux_Tapestry_32-33_comet_Halley_Harold.jpg/1920px-Bayeux_Tapestry_32-33_comet_Halley_Harold.jpg",
+        "alt": "Trecho da Tapeçaria de Bayeux: homens apontando para um cometa no céu e, ao lado, Haroldo sentado no trono em Westminster.",
+        "credito": "Myrabella",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_32-33_comet_Halley_Harold.jpg",
+        "legenda": "A Tapeçaria de Bayeux, bordada nos anos 1070 — uma década depois dos fatos que narra. Aqui, o cometa Halley de 1066 e Haroldo entronizado: o presságio e o rei que a conquista normanda derrubaria naquele mesmo ano."
+      }
     },
     {
       "id": "gb-tudor",
@@ -24,7 +32,15 @@
       "textoMdx": "Henrique VII chega ao trono por conquista e o mantém por contabilidade: casa-se com a herdeira de York para encerrar a guerra civil, cobra multas da nobreza que fizera o contrário e deixa o Tesouro cheio. É o começo de uma dinastia que governa por cento e dezoito anos com uma legitimidade sempre um pouco frágil — o que explica boa parte do que ela faz.\n\n**A ruptura com Roma começa como problema conjugal e vira revolução de propriedade.** Henrique VIII quer anular seu casamento, o papa recusa, e o Ato de Supremacia de 1534 o declara chefe da Igreja da Inglaterra. A dissolução dos mosteiros, entre 1536 e 1541, transfere à Coroa cerca de um quarto das terras do reino — e a Coroa, precisando de dinheiro para guerra, revende quase tudo à nobreza e à gentry. Essa é a maior redistribuição fundiária desde 1066, e ela cria a classe proprietária que, um século depois, sentaria nos Comuns [[gb-uniao-coroas|para enfrentar o rei]].\n\n**A religião muda quatro vezes em vinte e cinco anos.** Eduardo VI protestantiza; Maria I restaura o catolicismo e manda queimar cerca de trezentos protestantes, o que lhe rende na propaganda posterior um apelido que grudou; Elizabeth I impõe em 1559 um acordo deliberadamente ambíguo, com liturgia reformada e estrutura episcopal. A ambiguidade é política: pretende caber gente demais para que a guerra civil religiosa que devasta a [[fr-antigo-regime|França]] no mesmo período aconteça aqui.\n\n**A Irlanda deixa de ser periferia e vira projeto.** Henrique VIII se declara rei da Irlanda em 1541, e o restante do século é conquista militar e plantação: confisco de terras de senhores gaélicos e assentamento de colonos ingleses, primeiro em Laois e Offaly, depois em Munster. A Guerra dos Nove Anos, encerrada em 1603, quebra a última grande resistência gaélica e abre caminho para a plantação do Ulster. Quase tudo o que virá a ser o conflito irlandês tem raiz aqui.\n\n**A Inglaterra entra no Atlântico pela porta do tráfico.** John Hawkins faz três viagens negreiras entre 1562 e 1569, capturando e comprando africanos para vender no Caribe espanhol; a rainha não apenas autoriza como empresta um navio da Coroa para a segunda. Francis Drake circunavega o globo e saqueia a prata espanhola. A colônia de Roanoke fracassa. É um império ainda inexistente, feito de corso, contrabando e sociedade por ações.\n\n**A Armada de 1588 é vitória menor do que a memória guardou.** A frota espanhola é dispersa por brulotes e desbaratada pelo tempo no retorno. No ano seguinte, a contra-armada inglesa enviada à Espanha fracassa de modo tão completo quanto, e a Espanha reconstrói sua marinha. A supremacia naval britânica é história de dois séculos depois; 1588 é o momento em que ela começa a ser contada como destino.\n\nElizabeth morre sem herdeiros em março de 1603, e o trono passa ao rei da Escócia — o que resolve a sucessão inglesa criando um problema novo.\n\n*O período que os manuais chamam de era de ouro é também o do fechamento de campos comuns, da inflação de preços que corrói salários e da lei dos pobres de 1601, que institucionaliza o socorro à miséria porque a miséria havia deixado de ser exceção. Shakespeare escreve nessa Inglaterra, não em outra.*",
       "fontes": [
         "schama-historia-gra-bretanha"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Elizabeth_I_Armada_Portrait_British_School.jpg/1920px-Elizabeth_I_Armada_Portrait_British_School.jpg",
+        "alt": "Retrato de Elizabeth I por volta de 1588: a rainha de vestido bordado com pérolas, a mão sobre um globo, e ao fundo duas cenas da Armada Espanhola.",
+        "credito": "Escola britânica, autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Elizabeth_I_Armada_Portrait_British_School.jpg",
+        "legenda": "O Retrato da Armada, por volta de 1588. A mão da rainha repousa sobre o globo e as janelas ao fundo contam a história em duas cenas: a frota espanhola chegando e a frota espanhola naufragando. É propaganda dinástica, e é o documento que os Tudor quiseram deixar."
+      }
     },
     {
       "id": "gb-uniao-coroas",
@@ -37,7 +53,15 @@
         "schama-historia-gra-bretanha",
         "bill-of-rights-1689",
         "slavevoyages"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Verschuier-fire.jpg/1920px-Verschuier-fire.jpg",
+        "alt": "Pintura de 1666 mostrando o Grande Incêndio de Londres: a cidade em chamas ao longo do Tâmisa, com barcos no rio e gente observando da margem.",
+        "credito": "Lieve Verschuier",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Verschuier-fire.jpg",
+        "legenda": "O Grande Incêndio de Londres, pintado por Lieve Verschuier no próprio ano de 1666. Quatro dias de fogo consumiram treze mil casas e a velha catedral de São Paulo — no meio de um século em que a Inglaterra também decapitou um rei e experimentou uma república."
+      }
     },
     {
       "id": "gb-gra-bretanha",
@@ -51,7 +75,15 @@
         "ato-de-uniao-1707",
         "thompson-classe-operaria",
         "slavevoyages"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/%27Old_Somerset_House_from_the_River_Thames%27_by_Canaletto.jpg/1920px-%27Old_Somerset_House_from_the_River_Thames%27_by_Canaletto.jpg",
+        "alt": "Pintura de Canaletto por volta de 1750 mostrando a antiga Somerset House vista do Tâmisa, com barcaças no rio e a margem londrina ao fundo.",
+        "credito": "Canaletto",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:%27Old_Somerset_House_from_the_River_Thames%27_by_Canaletto.jpg",
+        "legenda": "Londres vista do Tâmisa, por Canaletto, por volta de 1750. O pintor veneziano passou quase uma década na Inglaterra — sinal do que era o Reino da Grã-Bretanha então: o lugar onde havia dinheiro para encomendar quadros."
+      }
     },
     {
       "id": "gb-reino-unido-irlanda",
@@ -65,7 +97,15 @@
         "kinealy-fome-irlandesa",
         "darwin-empire-project",
         "slavevoyages"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Crystal_Palace_-_interior.jpg",
+        "alt": "Litografia colorida de 1851 do interior do Palácio de Cristal, com a nave de ferro e vidro, galerias laterais e visitantes entre as exposições.",
+        "credito": "J. McNeven",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Crystal_Palace_-_interior.jpg",
+        "legenda": "O Palácio de Cristal na Grande Exposição de 1851: ferro fundido e vidro montados em nove meses para abrigar cem mil objetos de todo o mundo. Era a vitrine de um império que então governava um quarto da superfície terrestre."
+      }
     },
     {
       "id": "gb-reino-unido-atual",
@@ -79,7 +119,15 @@
         "acordo-sexta-feira-santa-1998",
         "saville-inquiry-2010",
         "darwin-empire-project"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/View_of_the_Houses_of_Parliament_from_Lambeth_Bridge_-_geograph.org.uk_-_4113141.jpg/1920px-View_of_the_Houses_of_Parliament_from_Lambeth_Bridge_-_geograph.org.uk_-_4113141.jpg",
+        "alt": "Fotografia do Palácio de Westminster visto da ponte de Lambeth, com a torre do relógio à direita e o Tâmisa em primeiro plano.",
+        "credito": "Robert Lamb",
+        "licenca": "CC BY-SA 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:View_of_the_Houses_of_Parliament_from_Lambeth_Bridge_-_geograph.org.uk_-_4113141.jpg",
+        "legenda": "O Palácio de Westminster. Em 1922 o Estado Livre Irlandês se separou, e o nome do país mudou para acomodar a perda — Reino Unido da Grã-Bretanha e Irlanda do Norte, que é o nome que ele ainda tem."
+      }
     }
   ]
 }
