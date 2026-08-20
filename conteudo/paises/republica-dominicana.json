@@ -1,0 +1,62 @@
+{
+  "iso": "DOM",
+  "isoNumerico": "214",
+  "nome": "República Dominicana",
+  "periodos": [
+    {
+      "id": "do-santo-domingo",
+      "inicio": "1492",
+      "fim": "1844",
+      "rotulo": "Santo Domingo colonial",
+      "regime": "colônia da Coroa de Castela; primeira sede do domínio espanhol nas Américas",
+      "textoMdx": "Hispaniola é onde a colonização europeia das Américas começa, e Santo Domingo é a cidade europeia mais antiga do continente ainda habitada — com a primeira catedral, a primeira universidade e a primeira audiência.\n\n**A população taína é extinta em poucas décadas.** As estimativas variam muito, mas o colapso é consensual e rápido: encomienda, trabalho nas minas de ouro e epidemias. A resistência do cacique Enriquillo, nos anos 1520, termina em acordo — e é uma das poucas capitulações espanholas a um líder indígena nas Américas.\n\n**A colônia decai quando o continente é descoberto.** Esgotado o ouro e abertas as riquezas do México e do Peru, Hispaniola perde população e função. Torna-se uma sociedade de gado e açúcar em pequena escala, esvaziada, e a Coroa despovoa por ordem, em 1605, o oeste da ilha para combater o contrabando — decisão que abre espaço para os franceses ocuparem justamente aquele terço.\n\n**A partilha é reconhecida em 1697 e invertida em 1795.** O tratado de Ryswick reconhece Saint-Domingue à França; um século depois, no tratado de Basileia, a Espanha cede também a parte oriental. A ilha inteira fica sob domínio francês, e o Haiti a unifica sob seu governo entre 1822 e 1844.\n\n**A independência dominicana é do Haiti, não da Espanha.** Em 27 de fevereiro de 1844, o movimento La Trinitaria, de Juan Pablo Duarte, proclama a separação de Porto Príncipe. É um caso único nas Américas: um país cuja data nacional marca a independência de um vizinho americano, e não de uma potência europeia — fato que moldaria a construção da identidade nacional em oposição ao Haiti.",
+      "fontes": [
+        "moya-pons-republica-dominicana",
+        "knight-caribe"
+      ]
+    },
+    {
+      "id": "do-anexacoes",
+      "inicio": "1844",
+      "fim": "1916",
+      "rotulo": "Primeira República e as anexações",
+      "regime": "república com guerras recorrentes; anexada à Espanha entre 1861 e 1865",
+      "textoMdx": "Sete décadas em que o país tenta sobreviver oferecendo-se a potências estrangeiras, e em que a soberania é interrompida duas vezes.\n\n**As guerras com o Haiti dominam as duas primeiras décadas.** Invasões sucessivas até 1856 consolidam a independência de fato e alimentam um discurso de defesa nacional que servirá de base ao antihaitianismo posterior.\n\n**Pedro Santana devolve o país à Espanha em 1861.** É a única reanexação voluntária de uma república americana a uma potência europeia. A Guerra da Restauração, de 1863 a 1865, expulsa os espanhóis por uma insurgência de guerrilhas rurais.\n\n**A tentativa de anexação aos Estados Unidos falha por um voto.** Buenaventura Báez negocia com o presidente Grant um tratado de anexação, aprovado em plebiscito local de legitimidade duvidosa, e rejeitado pelo Senado norte-americano em 1870.\n\n**Ulises Heureaux governa como ditador e endivida o país.** No poder de 1882 a 1899, ele contrai empréstimos europeus e norte-americanos com garantia em receita aduaneira; quando é assassinado, a dívida é impagável, e credores estrangeiros passam a administrar a alfândega dominicana a partir de 1905.\n\n**O açúcar chega e reorganiza o sul e o leste.** Empresários cubanos que fogem da Guerra dos Dez Anos trazem engenhos modernos; a produção cresce com capital norte-americano, e a mão de obra vem de trabalhadores de outras ilhas — cocolos anglófonos — e, cada vez mais, de haitianos, num padrão migratório que persistiria por um século.",
+      "fontes": [
+        "moya-pons-republica-dominicana"
+      ]
+    },
+    {
+      "id": "do-ocupacao-e-trujillo",
+      "inicio": "1916",
+      "fim": "1961",
+      "rotulo": "Ocupação norte-americana e a Era de Trujillo",
+      "regime": "república sob ocupação até 1924 e, de 1930 a 1961, ditadura personalista",
+      "textoMdx": "A ocupação norte-americana cria a Guarda Nacional; um oficial formado por ela toma o poder em 1930 e governa trinta e um anos — a ditadura mais totalizante do Caribe hispânico.\n\n**A ocupação de 1916 a 1924 centraliza o Estado.** Estradas, cadastro de terras que favorece o açúcar em detrimento de posseiros, e a criação de uma força militar nacional. Rafael Leónidas Trujillo faz carreira nela e chega ao comando.\n\n**A Era de Trujillo é um regime de culto e propriedade.** Ele toma o poder em 1930, renomeia a capital como Ciudad Trujillo, e acumula pessoalmente participação enorme na economia — sal, carne, tabaco, açúcar, seguros. O serviço de inteligência mantém uma rede de informantes que penetra a vida cotidiana, e a oposição é presa, torturada ou morta.\n\n**O massacre de 1937 é o ato mais grave do regime.** Trujillo ordena a matança de haitianos e dominicanos de ascendência haitiana na região de fronteira: as estimativas correntes falam de milhares de mortos, muitos a golpes de machete para simular ação popular. O episódio é acompanhado de uma política de estado de dominicanização da fronteira e de branqueamento por imigração — inclusive o acolhimento, em 1940, de refugiados judeus em Sosúa, decisão que serviu à imagem externa do regime.\n\n**As irmãs Mirabal são assassinadas em 1960.** Três das quatro irmãs, opositoras clandestinas, são mortas por agentes do regime em novembro; a data tornou-se, por decisão da ONU, o Dia Internacional para a Eliminação da Violência contra as Mulheres.\n\n**O fim vem por conspiração interna com apoio externo.** Depois de Trujillo tentar assassinar o presidente venezuelano Rómulo Betancourt em 1960, o regime perde apoio norte-americano e é sancionado pela OEA. Ele é morto a tiros numa emboscada em maio de 1961.",
+      "fontes": [
+        "moya-pons-republica-dominicana"
+      ]
+    },
+    {
+      "id": "do-guerra-civil-e-balaguer",
+      "inicio": "1961",
+      "fim": "1996",
+      "rotulo": "Da guerra civil de 1965 à era Balaguer",
+      "regime": "república presidencialista, com intervenção estrangeira em 1965 e governos autoritários eleitos",
+      "textoMdx": "A transição pós-Trujillo dura três décadas e passa por uma guerra civil de quatro meses, uma invasão norte-americana e um antigo colaborador do ditador governando por eleição.\n\n**Juan Bosch é eleito em 1962 e deposto em sete meses.** A primeira eleição livre em quatro décadas leva ao poder um escritor social-democrata; a constituição que ele promulga, com reforma agrária e direitos trabalhistas, é considerada comunista por setores militares, empresariais e eclesiásticos, e um golpe o derruba em setembro de 1963.\n\n**A guerra civil de abril de 1965 e a Operação Power Pack.** Oficiais constitucionalistas sob Francisco Caamaño se levantam para restaurar Bosch, e a população de Santo Domingo se arma. Os Estados Unidos desembarcam mais de vinte mil soldados, e a OEA cria uma Força Interamericana de Paz — com tropas brasileiras sob comando geral norte-americano. Os combates deixam milhares de mortos.\n\n**Joaquín Balaguer governa doze anos seguidos, de 1966 a 1978.** Secretário de Trujillo, ele ganha eleições sob repressão: os anos dos Doce marcam desaparecimentos e assassinatos de opositores de esquerda, com estimativas de milhares de vítimas. Ao mesmo tempo, faz grande obra pública e atrai investimento em zonas francas e turismo.\n\n**A alternância chega em 1978, sob pressão externa.** Balaguer tenta interromper a contagem de votos ao perder, e recua depois de advertência do governo norte-americano. Antonio Guzmán assume — a primeira transferência de poder a um opositor por via eleitoral na história do país. Balaguer volta a governar de 1986 a 1996, e sua última eleição, em 1994, é anulada em parte por fraude, com o mandato encurtado por acordo.",
+      "fontes": [
+        "moya-pons-republica-dominicana"
+      ]
+    },
+    {
+      "id": "do-republica",
+      "inicio": "1996",
+      "rotulo": "República Dominicana",
+      "regime": "república presidencialista",
+      "textoMdx": "Três décadas de democracia com alternância regular e o crescimento econômico mais forte e sustentado da América Latina no período — com a questão haitiana como o conflito interno mais persistente.\n\n**A economia se diversifica e cresce.** Turismo em escala massiva, zonas francas de manufatura, mineração de ouro, telecomunicações e remessas da diáspora nos Estados Unidos. O país passou décadas entre os de maior crescimento médio da região, e a pobreza caiu de forma consistente, com desigualdade que permanece alta.\n\n**As crises não interromperam o regime.** A quebra do Banco Intercontinental em 2003, com resgate que custou uma parcela enorme do produto nacional, provocou inflação e recessão, e o governo perdeu a eleição seguinte — sem ruptura institucional. A alternância entre PLD e PRD, e depois o PRM, tornou-se rotina.\n\n**A cidadania de descendentes de haitianos é a disputa mais grave.** Uma sentença do Tribunal Constitucional de 2013 reinterpretou retroativamente a regra de nacionalidade, deixando sem documentos dezenas de milhares de pessoas nascidas no país, filhas de imigrantes irregulares. A Corte Interamericana condenou o Estado, que rejeitou a decisão; uma lei de 2014 criou vias de regularização que atenderam parte dos casos. Deportações em massa e a construção de um muro na fronteira, iniciada em 2022, marcam o período recente.\n\n**A relação com o Haiti define a política externa.** Com o colapso institucional haitiano, o país passou a pressionar por intervenção internacional na ilha vizinha, fechando a fronteira em episódios de crise — dois países que dividem uma ilha e cuja diferença de renda por habitante é uma das maiores do mundo entre vizinhos terrestres.",
+      "fontes": [
+        "moya-pons-republica-dominicana"
+      ]
+    }
+  ]
+}

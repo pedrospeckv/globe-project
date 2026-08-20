@@ -1,0 +1,29 @@
+{
+  "iso": "BHS",
+  "isoNumerico": "044",
+  "nome": "Bahamas",
+  "periodos": [
+    {
+      "id": "bs-colonia",
+      "inicio": "1648",
+      "fim": "1973",
+      "rotulo": "Bahamas britânicas",
+      "regime": "colônia britânica; sucessivas economias de pirataria, algodão, salvamento e contrabando",
+      "textoMdx": "As Bahamas são o primeiro lugar das Américas onde Colombo desembarca, em 1492, e o primeiro a ser esvaziado: a população lucaia é levada como escravizada para as minas de Hispaniola e desaparece em duas décadas.\n\n**As ilhas ficam despovoadas por mais de um século.** O povoamento europeu começa em 1648 com os Eleutheran Adventurers, puritanos vindos das Bermudas em busca de liberdade religiosa. O solo é raso e calcário, e não sustenta plantação de açúcar como as ilhas vulcânicas do sul — o que faz da economia bahamense sempre algo diferente da agricultura.\n\n**Nassau é uma república de piratas entre 1706 e 1718.** Com o porto sem governo efetivo, corsários como Edward Teach, o Barba Negra, usam a cidade como base. A Coroa nomeia Woodes Rogers governador em 1718, com oferta de perdão e forca, e encerra o período — cuja lembrança rende à cidade o lema de que expulsou os piratas.\n\n**Os legalistas americanos triplicam a população em 1783.** Depois da independência dos Estados Unidos, colonos leais à Coroa emigram para as ilhas trazendo escravizados e tentando plantar algodão, que fracassa em poucos anos por praga e esgotamento do solo. A população passa a ser majoritariamente de origem africana, e a economia volta a viver do mar.\n\n**O salvamento de naufrágios é a principal indústria do século XIX.** Nos recifes das Bahamas, o resgate de cargas — legal e organizado — chega a empregar a maior parte da força de trabalho de Nassau, até que faróis e melhores cartas náuticas encerrem o negócio.\n\n**A guerra e a Lei Seca reativam o contrabando duas vezes.** As ilhas servem de entreposto para os corredores de blocada confederados nos anos 1860, e nos anos 1920 para o álcool destinado aos Estados Unidos — de onde vem o capital que inicia o turismo e a praça financeira.",
+      "fontes": [
+        "craton-bahamas",
+        "knight-caribe"
+      ]
+    },
+    {
+      "id": "bs-independencia",
+      "inicio": "1973",
+      "rotulo": "Comunidade das Bahamas",
+      "regime": "monarquia parlamentarista da Commonwealth",
+      "textoMdx": "A independência vem em 10 de julho de 1973, depois de a maioria negra tomar o governo pelo voto — o que na história bahamense se chama Quiet Revolution.\n\n**O Bay Street Boys perde o poder em 1967.** A oligarquia branca comercial que controlava a política é derrotada pelo Progressive Liberal Party de Lynden Pindling, com o sufrágio universal — o voto feminino chegou em 1962 — e o fim das distorções distritais. Pindling governa vinte e cinco anos.\n\n**A economia é turismo e finanças, e nada mais.** Proximidade da Flórida, cruzeiros e resorts fazem do turismo a maior fonte de emprego e receita; os serviços financeiros offshore são a segunda. Não há imposto de renda sobre pessoas físicas nem sobre lucros, e a renda por habitante é das mais altas das Américas — com desigualdade e dependência externa altas.\n\n**A pressão internacional reorganiza a praça financeira.** Listas de países não cooperativos da OCDE e do GAFI, a partir de 1998 e depois nos anos 2000 e 2010, levaram a mudanças em sigilo bancário e troca de informação fiscal, encolhendo parte do setor.\n\n**A geografia é o risco existencial.** Com quase todo o território poucos metros acima do nível do mar, as Bahamas estão entre os países mais expostos do mundo à elevação oceânica e a furacões. O Dorian, em 2019, atingiu Abaco e Grand Bahama como categoria 5 com ventos entre os mais fortes já registrados no Atlântico, destruiu bairros inteiros e deixou dezenas de mortos confirmados e centenas de desaparecidos.\n\n**A política é bipartidária e estável.** PLP e FNM alternam-se em eleições regulares desde 1992, sem ruptura institucional — traço comum ao Caribe anglófono e distinto da América Central continental no mesmo período.",
+      "fontes": [
+        "craton-bahamas"
+      ]
+    }
+  ]
+}

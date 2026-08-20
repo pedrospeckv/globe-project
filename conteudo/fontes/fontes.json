@@ -2615,5 +2615,205 @@
     "autor": "Richard Price",
     "data": "1983",
     "citacao": "Reconstrução da história dos quilombolas saramaka do Suriname a partir da própria tradição oral deles, confrontada com arquivos coloniais holandeses. Documenta a guerra de fuga e resistência e os tratados de paz do século XVIII, em que a Holanda reconheceu a autonomia de comunidades de escravizados fugidos."
+  },
+  {
+    "id": "perez-brignoli-america-central",
+    "tipo": "livro",
+    "titulo": "A Brief History of Central America",
+    "autor": "Héctor Pérez Brignoli",
+    "data": "1989",
+    "citacao": "História de conjunto da América Central, da colônia ao fim do século XX. Explica por que uma única capitania se fragmentou em cinco repúblicas e como o café e a banana produziram estruturas sociais opostas em países vizinhos — oligarquia cafeeira em El Salvador e Guatemala, enclave estrangeiro em Honduras e Costa Rica."
+  },
+  {
+    "id": "lafeber-revolucoes-inevitaveis",
+    "tipo": "livro",
+    "titulo": "Inevitable Revolutions: The United States in Central America",
+    "autor": "Walter LaFeber",
+    "data": "1983",
+    "citacao": "Estudo da intervenção norte-americana na América Central desde o século XIX. Sustenta que a política de sustentar regimes aliados e bloquear reformas distributivas produziu as insurreições que essa mesma política pretendia evitar."
+  },
+  {
+    "id": "knight-caribe",
+    "tipo": "livro",
+    "titulo": "The Caribbean: The Genesis of a Fragmented Nationalism",
+    "autor": "Franklin W. Knight",
+    "data": "1978",
+    "citacao": "História do Caribe do contato europeu ao século XX. Trata a plantação de açúcar com trabalho escravizado como a instituição que criou as sociedades caribenhas, e a fragmentação política da região como resultado de metrópoles diferentes explorarem o mesmo modelo em ilhas vizinhas."
+  },
+  {
+    "id": "williams-capitalismo-escravidao",
+    "tipo": "livro",
+    "titulo": "Capitalism and Slavery",
+    "autor": "Eric Williams",
+    "data": "1944",
+    "citacao": "Tese de que o comércio de escravizados e o açúcar das Antilhas financiaram a industrialização britânica, e de que a abolição avançou quando o açúcar caribenho deixou de ser central para a economia imperial — argumento que reorientou a historiografia do Atlântico."
+  },
+  {
+    "id": "coe-os-maias",
+    "tipo": "livro",
+    "titulo": "The Maya",
+    "autor": "Michael D. Coe",
+    "data": "1966",
+    "citacao": "Síntese de referência sobre a civilização maia, revista em muitas edições. Descreve as cidades-Estado do período clássico, a escrita glífica hoje decifrada em grande parte, e o colapso das terras baixas centrais no século IX — que não extinguiu os maias, apenas as cidades."
+  },
+  {
+    "id": "ceh-memoria-do-silencio",
+    "tipo": "documento-oficial",
+    "titulo": "Guatemala: Memoria del Silencio",
+    "publicacao": "Comisión para el Esclarecimiento Histórico (Guatemala)",
+    "data": "1999",
+    "citacao": "Apurou o conflito armado interno de 1960 a 1996 e estimou mais de 200 mil mortos e desaparecidos, dos quais cerca de 83% de origem maia. Atribuiu a maioria esmagadora das violações às forças do Estado e concluiu que houve atos de genocídio contra grupos maias em regiões específicas."
+  },
+  {
+    "id": "gleijeses-esperanca-destrocada",
+    "tipo": "livro",
+    "titulo": "Shattered Hope: The Guatemalan Revolution and the United States, 1944-1954",
+    "autor": "Piero Gleijeses",
+    "data": "1991",
+    "citacao": "Estudo do decênio democrático guatemalteco e de sua derrubada em 1954. Reconstrói a reforma agrária de Árbenz e a operação encoberta norte-americana a partir de arquivos dos dois países."
+  },
+  {
+    "id": "cv-el-salvador",
+    "tipo": "documento-oficial",
+    "titulo": "De la locura a la esperanza: la guerra de 12 años en El Salvador",
+    "publicacao": "Comisión de la Verdad para El Salvador, Nações Unidas",
+    "data": "1993",
+    "citacao": "Apurou as violações da guerra civil de 1980 a 1992 e atribuiu cerca de 85% dos casos denunciados a agentes do Estado e grupos paramilitares aliados. Documentou o massacre de El Mozote e o assassinato do arcebispo Óscar Romero, e recomendou o afastamento de oficiais nomeados no relatório."
+  },
+  {
+    "id": "acordos-chapultepec",
+    "tipo": "documento-oficial",
+    "titulo": "Acuerdos de Paz de Chapultepec",
+    "publicacao": "Governo de El Salvador e FMLN, com mediação das Nações Unidas",
+    "data": "1992",
+    "citacao": "Encerrou a guerra civil salvadorenha. Reduziu as Forças Armadas, extinguiu os corpos de segurança envolvidos na repressão, criou uma polícia civil nova e converteu o FMLN em partido legal, além de instituir a comissão da verdade."
+  },
+  {
+    "id": "euraque-republica-banana",
+    "tipo": "livro",
+    "titulo": "Reinterpreting the Banana Republic: Region and State in Honduras, 1870-1972",
+    "autor": "Darío Euraque",
+    "data": "1996",
+    "citacao": "Estudo da formação do Estado hondurenho em torno do enclave bananeiro da costa norte. Mostra que a fraqueza da oligarquia nacional, e não apenas o poder das companhias estrangeiras, explica por que Honduras não desenvolveu uma classe proprietária capaz de disputar o Estado."
+  },
+  {
+    "id": "walker-nicaragua",
+    "tipo": "livro",
+    "titulo": "Nicaragua: Living in the Shadow of the Eagle",
+    "autor": "Thomas W. Walker",
+    "data": "1981",
+    "citacao": "História política da Nicarágua com foco no século XX: a ocupação norte-americana, a dinastia Somoza, a revolução sandinista e a guerra da Contra. Trata a relação com os Estados Unidos como variável estrutural da política interna."
+  },
+  {
+    "id": "cij-nicaragua-eua",
+    "tipo": "decisao-judicial",
+    "titulo": "Nicarágua contra Estados Unidos da América (Atividades militares e paramilitares na Nicarágua e contra ela)",
+    "publicacao": "Corte Internacional de Justiça",
+    "data": "1986",
+    "citacao": "Condenou os Estados Unidos por violar o direito internacional ao minar portos nicaraguenses e ao treinar, armar e financiar a Contra, e determinou reparação. Os Estados Unidos não reconheceram a jurisdição da Corte no caso e não cumpriram a decisão."
+  },
+  {
+    "id": "molina-palmer-costa-rica",
+    "tipo": "livro",
+    "titulo": "The History of Costa Rica",
+    "autor": "Iván Molina e Steven Palmer",
+    "data": "1997",
+    "citacao": "História da Costa Rica da colônia ao presente. Discute criticamente a autoimagem de exceção democrática do país, mostrando o que nela é resultado de estrutura agrária de pequenos proprietários e o que é construção posterior do discurso nacional."
+  },
+  {
+    "id": "mccullough-caminho-entre-mares",
+    "tipo": "livro",
+    "titulo": "The Path Between the Seas: The Creation of the Panama Canal, 1870-1914",
+    "autor": "David McCullough",
+    "data": "1977",
+    "citacao": "História da construção do canal do Panamá, do fracasso francês de Lesseps à conclusão norte-americana. Documenta a mortalidade por febre amarela e malária, a engenharia das eclusas e a separação do Panamá da Colômbia em 1903."
+  },
+  {
+    "id": "tratado-hay-bunau-varilla",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado Hay-Bunau-Varilla",
+    "publicacao": "Estados Unidos e República do Panamá",
+    "data": "1903",
+    "citacao": "Concedeu aos Estados Unidos o uso e o controle perpétuos de uma faixa de dez milhas para construir e operar o canal, com poderes como se fossem soberanos. Foi assinado pelo francês Philippe Bunau-Varilla como representante panamenho, dias depois da independência, e nenhum panamenho o assinou."
+  },
+  {
+    "id": "tratados-torrijos-carter",
+    "tipo": "documento-oficial",
+    "titulo": "Tratados Torrijos-Carter",
+    "publicacao": "Estados Unidos e República do Panamá",
+    "data": "1977",
+    "citacao": "Substituíram o tratado de 1903, extinguiram a Zona do Canal e transferiram o canal à administração panamenha ao meio-dia de 31 de dezembro de 1999, com um tratado paralelo sobre neutralidade permanente da via."
+  },
+  {
+    "id": "perez-cuba",
+    "tipo": "livro",
+    "titulo": "Cuba: Between Reform and Revolution",
+    "autor": "Louis A. Pérez Jr.",
+    "data": "1988",
+    "citacao": "História de Cuba da colônia ao período pós-soviético. Acompanha a economia açucareira, a dependência sucessiva de Espanha, Estados Unidos e União Soviética, e as três guerras de independência que precedem 1898."
+  },
+  {
+    "id": "emenda-platt",
+    "tipo": "documento-oficial",
+    "titulo": "Emenda Platt",
+    "publicacao": "Congresso dos Estados Unidos, incorporada à Constituição cubana",
+    "data": "1901",
+    "citacao": "Condicionou a retirada das tropas norte-americanas de Cuba à aceitação, pela constituição cubana, do direito dos Estados Unidos de intervir na ilha e de manter bases navais. Vigorou até 1934; a base de Guantánamo permanece sob arrendamento derivado desse arranjo."
+  },
+  {
+    "id": "james-jacobinos-negros",
+    "tipo": "livro",
+    "titulo": "The Black Jacobins: Toussaint L'Ouverture and the San Domingo Revolution",
+    "autor": "C. L. R. James",
+    "data": "1938",
+    "citacao": "História da revolução haitiana, a única revolta de escravizados da história que resultou num Estado independente. Situa a insurreição de 1791 dentro da Revolução Francesa e do sistema econômico atlântico, e reconstrói a trajetória de Toussaint Louverture."
+  },
+  {
+    "id": "dubois-haiti",
+    "tipo": "livro",
+    "titulo": "Haiti: The Aftershocks of History",
+    "autor": "Laurent Dubois",
+    "data": "2012",
+    "citacao": "História do Haiti da independência ao início do século XXI. Argumenta que o isolamento diplomático, a indenização exigida pela França e as intervenções estrangeiras moldaram a pobreza haitiana, contra as explicações que a atribuem a características internas do país."
+  },
+  {
+    "id": "moya-pons-republica-dominicana",
+    "tipo": "livro",
+    "titulo": "The Dominican Republic: A National History",
+    "autor": "Frank Moya Pons",
+    "data": "1995",
+    "citacao": "História dominicana da colônia de Santo Domingo ao fim do século XX. Trata a relação com o Haiti, as anexações e ocupações sucessivas e a ditadura de Trujillo como os eixos da formação nacional, incluindo a construção estatal do antihaitianismo."
+  },
+  {
+    "id": "williams-trinidad-tobago",
+    "tipo": "livro",
+    "titulo": "History of the People of Trinidad and Tobago",
+    "autor": "Eric Williams",
+    "data": "1962",
+    "citacao": "História de Trinidad e Tobago escrita pelo historiador que se tornaria o primeiro primeiro-ministro do país, publicada no ano da independência. Cobre a colonização espanhola e britânica, a escravidão, o trabalho contratado indiano e a formação do movimento nacional."
+  },
+  {
+    "id": "craton-bahamas",
+    "tipo": "livro",
+    "titulo": "A History of the Bahamas",
+    "autor": "Michael Craton",
+    "data": "1962",
+    "citacao": "História das Bahamas do povoamento lucaio ao século XX. Cobre o despovoamento indígena depois de 1492, o período da pirataria, a chegada de legalistas com escravizados após a independência dos Estados Unidos, e a economia de contrabando, turismo e serviços financeiros."
+  },
+  {
+    "id": "ayala-bernabe-porto-rico",
+    "tipo": "livro",
+    "titulo": "Puerto Rico in the American Century: A History since 1898",
+    "autor": "César J. Ayala e Rafael Bernabe",
+    "data": "2007",
+    "citacao": "História de Porto Rico desde a passagem do domínio espanhol ao norte-americano. Acompanha a economia do açúcar e depois a industrialização por incentivo fiscal, a emigração em massa aos Estados Unidos e o debate sobre estatuto político que atravessa todo o período."
+  },
+  {
+    "id": "lei-jones-shafroth",
+    "tipo": "documento-oficial",
+    "titulo": "Jones-Shafroth Act",
+    "publicacao": "Congresso dos Estados Unidos",
+    "data": "1917",
+    "citacao": "Concedeu cidadania norte-americana aos porto-riquenhos e criou uma legislatura eleita na ilha, mantendo o governador nomeado por Washington e o poder do Congresso de legislar sobre o território. Tornou os porto-riquenhos sujeitos ao serviço militar obrigatório sem representação com voto no Congresso."
   }
 ]

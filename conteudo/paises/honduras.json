@@ -1,0 +1,42 @@
+{
+  "iso": "HND",
+  "isoNumerico": "340",
+  "nome": "Honduras",
+  "periodos": [
+    {
+      "id": "hn-colonia",
+      "inicio": "1524",
+      "fim": "1899",
+      "rotulo": "Província de Honduras",
+      "regime": "província da Capitania Geral da Guatemala; mineração de prata e costa fora de controle",
+      "textoMdx": "Honduras colonial é dois territórios que mal se comunicam: um interior montanhoso de mineração e gado, sob autoridade espanhola, e uma costa caribenha que a Espanha nunca controlou.\n\n**A prata de Tegucigalpa não faz um Potosí.** Descobertas do século XVI sustentam vilas mineiras, mas em escala modesta e com esgotamento rápido. Copán, uma das grandes cidades maias, está em ruínas cobertas de floresta desde o século IX.\n\n**A costa norte é britânica de fato.** A Coroa espanhola nunca ocupa efetivamente o litoral caribenho: bucaneiros usam as ilhas da Baía, e os miskitos do litoral leste — em aliança com os britânicos, que os armam e reconhecem um rei miskito — mantêm autonomia por séculos. Os garífunas, descendentes de africanos e caribes deportados de São Vicente pelos britânicos, chegam à costa em 1797 e ali permanecem.\n\n**A província é pobre e periférica dentro da capitania.** Sem produto de exportação de peso, ela depende do gado e do comércio interno, e sua elite é fraca — fato que Darío Euraque aponta como decisivo: quando a economia de exportação chegar, não haverá uma classe proprietária nacional forte o bastante para disputá-la com o capital estrangeiro.\n\n**A independência de 1821 e a federação.** Honduras adere sem guerra, integra as Províncias Unidas e dá à federação seu líder, Francisco Morazán, nascido em Tegucigalpa. Com a dissolução, em 1838, torna-se república separada — e passa o resto do século em guerra civil e intervenções dos vizinhos.",
+      "fontes": [
+        "euraque-republica-banana",
+        "perez-brignoli-america-central"
+      ]
+    },
+    {
+      "id": "hn-republica-bananeira",
+      "inicio": "1899",
+      "fim": "1982",
+      "rotulo": "República bananeira",
+      "regime": "república presidencialista com poder de fato das companhias bananeiras na costa norte",
+      "textoMdx": "A expressão república de banana descreve literalmente o que Honduras se torna: um país em que três companhias estrangeiras controlam terra, ferrovia, porto, energia e crédito, e financiam quem governa.\n\n**As concessões constroem um país paralelo na costa.** United Fruit, Standard Fruit e Cuyamel recebem grandes áreas e isenções em troca de construir ferrovias — que ligam plantação a porto, e não cidade a cidade. Nasce La Ceiba, Tela, El Progreso; a costa norte torna-se a região mais dinâmica, e o interior segue agrário e pobre.\n\n**As companhias fazem e desfazem governos.** Samuel Zemurray, da Cuyamel, financia em 1911 uma expedição armada que instala um presidente favorável às suas concessões. As rivalidades entre companhias correspondem a rivalidades entre partidos, e há guerras civis com apoio empresarial declarado. Os fuzileiros navais norte-americanos desembarcam mais de uma vez nas primeiras décadas do século.\n\n**A greve de 1954 é o ponto de virada social.** Sessenta mil trabalhadores bananeiros param por mais de dois meses; a repressão não a quebra, e o resultado é o reconhecimento sindical, um código do trabalho e legislação social. Foi a maior mobilização operária da história do país, e criou o sindicalismo hondurenho.\n\n**Honduras é a base de operações da região.** A partir de 1954, o território serve de plataforma: dali parte a força que derruba Árbenz na Guatemala naquele ano, e nos anos 1980 o país abriga bases norte-americanas e os campos da Contra nicaraguense, num período em que esquadrões da morte — o batalhão 3-16 — fazem desaparecer opositores hondurenhos.\n\n**A Guerra do Futebol, em 1969.** O conflito de cem horas com El Salvador, deflagrado em torno de partidas eliminatórias da Copa, tem causa real na presença de dezenas de milhares de camponeses salvadorenhos em terras hondurenhas e na reforma agrária que os expulsou. Ele destrói o Mercado Comum Centro-Americano por duas décadas.",
+      "fontes": [
+        "euraque-republica-banana",
+        "lafeber-revolucoes-inevitaveis"
+      ]
+    },
+    {
+      "id": "hn-democracia",
+      "inicio": "1982",
+      "rotulo": "República de Honduras",
+      "regime": "república presidencialista, interrompida por golpe em 2009",
+      "textoMdx": "Quatro décadas de democracia eleitoral com um golpe no meio, e com a violência e a migração como os fatos sociais dominantes do período recente.\n\n**A transição de 1982 é formal e tutelada.** A constituição nova devolve o governo a civis, mas nos anos 1980 o poder real está nas Forças Armadas e na embaixada norte-americana, com Honduras funcionando como retaguarda da guerra regional. A CIA e o exército hondurenho operam o batalhão 3-16, responsável por desaparecimentos apurados depois por um comissário nacional de direitos humanos.\n\n**O furacão Mitch, em 1998, é o maior desastre da história do país.** Mais de cinco mil mortos, infraestrutura destruída e retrocesso econômico de anos, num evento que acelerou a emigração.\n\n**O golpe de 2009 interrompe a ordem constitucional.** O presidente Manuel Zelaya, que propunha uma consulta sobre convocar constituinte, é retirado de casa por militares e expulso do país. A OEA suspende Honduras; o governo de fato realiza eleições no fim do ano, reconhecidas por parte da comunidade internacional e não por outra. O episódio racha o país politicamente até hoje.\n\n**A década seguinte combina violência, extrativismo e captura do Estado.** San Pedro Sula chega a ser apontada como a cidade mais violenta do mundo; a ativista indígena lenca Berta Cáceres, que liderava a oposição a uma hidrelétrica no rio Gualcarque, é assassinada em 2016, e executivos da empresa foram condenados. As caravanas de migrantes que partem de Honduras a partir de 2018 tornam-se o rosto da migração centro-americana.\n\n**A alternância volta em 2022, e um ex-presidente é condenado em Nova York.** Xiomara Castro, esposa de Zelaya, é eleita a primeira presidenta do país. Seu antecessor, Juan Orlando Hernández, é extraditado aos Estados Unidos e condenado em 2024 por tráfico de drogas — um chefe de Estado aliado de Washington durante todo o mandato, julgado por Washington ao deixá-lo.",
+      "fontes": [
+        "euraque-republica-banana",
+        "perez-brignoli-america-central"
+      ]
+    }
+  ]
+}

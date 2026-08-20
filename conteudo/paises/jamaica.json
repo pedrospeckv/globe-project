@@ -1,0 +1,40 @@
+{
+  "iso": "JAM",
+  "isoNumerico": "388",
+  "nome": "Jamaica",
+  "periodos": [
+    {
+      "id": "jm-colonia-acucareira",
+      "inicio": "1655",
+      "fim": "1938",
+      "rotulo": "Jamaica britânica",
+      "regime": "colônia da Coroa Britânica; economia de plantação de açúcar com trabalho escravizado",
+      "textoMdx": "Tomada da Espanha em 1655, a Jamaica torna-se no século XVIII a colônia britânica mais valiosa do mundo — e uma das sociedades escravistas mais desequilibradas que já existiram, com população escravizada muitas vezes maior que a livre.\n\n**Port Royal é a capital do saque antes de ser a do açúcar.** A cidade abriga corsários com licença da Coroa, entre eles Henry Morgan, e é destruída por um terremoto em 1692 — evento lido na época como juízo divino sobre a cidade mais perversa da cristandade.\n\n**O açúcar exige escala, e a escala exige tráfico contínuo.** Centenas de engenhos operam com mão de obra reposta pelo tráfico atlântico; a mortalidade e a proporção entre escravizados e livres tornam a colônia militarmente instável por definição. É a essa economia que Eric Williams liga o financiamento da industrialização britânica.\n\n**Os quilombolas obrigam o império a assinar tratados.** Os maroons — descendentes de escravizados que fugiram sob domínio espanhol e depois britânico — sustentam guerras nas montanhas do Cockpit Country, e em 1739-1740 a Grã-Bretanha assina tratados reconhecendo suas terras e autonomia em troca de não acolherem novos fugitivos. Comunidades como Accompong mantêm até hoje status próprio.\n\n**As revoltas são grandes e mudam a política imperial.** A rebelião de Tacky, em 1760, e sobretudo a Guerra Batista de 1831-1832, liderada por Samuel Sharpe, com dezenas de milhares de participantes e repressão brutal, convencem Londres de que manter a escravidão custava mais que aboli-la. A abolição vem em 1834, com aprendizado obrigatório até 1838, e os proprietários — não os libertos — recebem indenização.\n\n**A rebelião de Morant Bay, em 1865, encerra o autogoverno.** A repressão a um protesto por terra e justiça deixa centenas de mortos e execuções sumárias, incluindo o líder Paul Bogle e o político George William Gordon. O escândalo em Londres leva a colônia a abrir mão de sua assembleia e tornar-se colônia da Coroa administrada diretamente.",
+      "fontes": [
+        "williams-capitalismo-escravidao",
+        "knight-caribe"
+      ]
+    },
+    {
+      "id": "jm-movimento-nacional",
+      "inicio": "1938",
+      "fim": "1962",
+      "rotulo": "Da revolta trabalhista ao autogoverno",
+      "regime": "colônia britânica com sufrágio universal desde 1944 e autogoverno progressivo",
+      "textoMdx": "As greves e revoltas de 1938 nas plantações e nas docas produzem, em poucos anos, sindicatos, partidos, sufrágio universal e o caminho para a independência.\n\n**Os dois partidos nascem ligados a dois sindicatos.** Alexander Bustamante funda o sindicato que leva seu nome e depois o Jamaica Labour Party; Norman Manley funda o People's National Party. A rivalidade entre os primos, e entre os partidos, organiza a política jamaicana até hoje.\n\n**O sufrágio universal adulto chega em 1944**, entre os primeiros do Caribe britânico, com uma constituição nova e assembleia eleita.\n\n**Marcus Garvey já havia mudado o debate.** Jamaicano, fundador da UNIA em 1914, ele constrói o maior movimento de massas da diáspora africana da primeira metade do século XX, com jornal, companhia de navegação e a ideia de retorno e autodeterminação africana. Morre em Londres em 1940, e sua influência aparece no rastafarianismo, que se forma na ilha nos anos 1930.\n\n**A Federação das Índias Ocidentais fracassa em quatro anos.** Criada em 1958 para reunir as colônias britânicas do Caribe num único Estado, ela é dissolvida em 1962 depois de um referendo na Jamaica em que a maioria vota por sair — decisão que sepulta a ideia de um Caribe anglófono unificado e leva ilha por ilha à independência separada.\n\n**A independência vem em 6 de agosto de 1962**, com Bustamante como primeiro-ministro, mantendo a monarquia britânica como chefe de Estado e o sistema de Westminster.",
+      "fontes": [
+        "knight-caribe"
+      ]
+    },
+    {
+      "id": "jm-independencia",
+      "inicio": "1962",
+      "rotulo": "Jamaica independente",
+      "regime": "monarquia parlamentarista da Commonwealth",
+      "textoMdx": "Seis décadas de democracia parlamentar sem interrupção, com um período de polarização violenta na Guerra Fria e uma influência cultural desproporcional ao tamanho do país.\n\n**A bauxita substitui o açúcar como base da economia.** A Jamaica torna-se um dos maiores produtores mundiais de bauxita e alumina, e a renda mineral sustenta o Estado até a crise dos anos 1980.\n\n**Os anos 1970 polarizam a ilha.** Michael Manley, do PNP, adota socialismo democrático, aproxima-se de Cuba, cria imposto sobre a bauxita e amplia educação e salário mínimo; o país enfrenta fuga de capital, escassez e violência política entre grupos armados ligados aos dois partidos. A eleição de 1980, vencida por Edward Seaga, deixa centenas de mortos — a mais sangrenta da história do país.\n\n**A música jamaicana torna-se global.** Ska, rocksteady e reggae saem da ilha para o mundo; o Concerto One Love, em 1978, em que Bob Marley faz Manley e Seaga se darem as mãos no palco, é o episódio que resume o período. O dub e o sound system jamaicanos são a origem técnica de gêneros que apareceriam depois em Nova York e Londres.\n\n**A dívida e o ajuste dominam as décadas seguintes.** Programas com o FMI a partir de 1977, e depois nos anos 2010, tornaram a Jamaica um dos países mais endividados do mundo em proporção ao produto; um esforço fiscal prolongado reduziu a dívida de forma reconhecida internacionalmente, com custo social alto.\n\n**A violência armada e a monarquia são as duas questões abertas.** As taxas de homicídio estão entre as mais altas do mundo, ligadas a gangues com raízes na política partidária dos anos 1970 e ao tráfico; a operação em Tivoli Gardens, em 2010, para prender Christopher Coke deixou dezenas de mortos e foi objeto de comissão de inquérito. Desde 2022, o governo declarou a intenção de tornar-se república, retirando o rei britânico como chefe de Estado — processo que exige referendo.",
+      "fontes": [
+        "knight-caribe"
+      ]
+    }
+  ]
+}

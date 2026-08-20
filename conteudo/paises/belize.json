@@ -1,0 +1,40 @@
+{
+  "iso": "BLZ",
+  "isoNumerico": "084",
+  "nome": "Belize",
+  "periodos": [
+    {
+      "id": "bz-costa-madeireira",
+      "inicio": "1638",
+      "fim": "1964",
+      "rotulo": "Assentamentos madeireiros da Baía de Honduras",
+      "regime": "assentamentos britânicos tolerados em território reivindicado pela Espanha",
+      "textoMdx": "Belize nasce como o que a Espanha considerava uma irregularidade: náufragos, piratas e depois madeireiros britânicos instalados numa costa que a Coroa espanhola reivindicava e não ocupava.\n\n**A madeira vem primeiro, e ela define o país.** Os baymen cortam pau-campeche, usado como corante têxtil na Europa, e depois mogno. Não é plantação: a extração exige equipes pequenas percorrendo rios floresta adentro, o que produz uma sociedade escravista diferente da caribenha — sem engenho, com escravizados trabalhando dispersos e armados de machado, e com proporção de população escravizada e livre distinta.\n\n**A Espanha tenta expulsá-los e falha em 1798.** A batalha de St. George's Caye consolida a presença britânica de fato. Tratados anteriores haviam concedido direito de corte sem cessão de soberania, ambiguidade que a Guatemala invocaria depois.\n\n**A colônia é formalizada tarde, em 1862.** Passa a chamar-se Honduras Britânica, dependente da Jamaica até 1884. A economia segue extrativa e a população se diversifica: crioulos descendentes de escravizados e madeireiros, garífunas chegados de São Vicente em 1802, maias mopan e kekchi vindos da Guatemala e de Yucatán, mestiços fugidos da Guerra de Castas de Yucatán, e depois menonitas, chineses e indianos.\n\n**A reivindicação guatemalteca nasce de um tratado de 1859.** A Guatemala sustenta que o acordo previa uma estrada ao Atlântico que nunca foi construída, e que sua não execução anula a cessão. A disputa atrasaria a independência beliciana por décadas.",
+      "fontes": [
+        "knight-caribe",
+        "perez-brignoli-america-central"
+      ]
+    },
+    {
+      "id": "bz-autogoverno",
+      "inicio": "1964",
+      "fim": "1981",
+      "rotulo": "Honduras Britânica autônoma",
+      "regime": "colônia britânica com autogoverno interno",
+      "textoMdx": "O caminho para a independência é lento por uma razão externa: o Reino Unido não entrega o território enquanto a Guatemala o reivindicar e houver risco de invasão.\n\n**A desvalorização de 1949 cria o movimento nacional.** Quando Londres desvaloriza o dólar da colônia sem consultar ninguém, nasce o People's United Party de George Price, que passa a exigir autogoverno. O sufrágio universal adulto chega em 1954, e o autogoverno interno em 1964.\n\n**O nome muda para Belize em 1973.** A capital já havia mudado: depois de o furacão Hattie destruir a Cidade de Belize em 1961, constrói-se Belmopan, no interior, inaugurada em 1970 — uma das poucas capitais do mundo transferidas por causa de risco climático.\n\n**A independência é conquistada na diplomacia.** Belize leva o caso à Assembleia Geral das Nações Unidas, que aprova em 1980, por ampla maioria, resolução apoiando a independência com integridade territorial. A independência vem em 21 de setembro de 1981, com tropas britânicas permanecendo no país como garantia até 1994.\n\n**A disputa continua e hoje está em Haia.** Guatemala e Belize acordaram levar o caso à Corte Internacional de Justiça; referendos nos dois países aprovaram o encaminhamento — na Guatemala em 2018, em Belize em 2019 —, e o processo segue em curso.",
+      "fontes": [
+        "perez-brignoli-america-central"
+      ]
+    },
+    {
+      "id": "bz-independencia",
+      "inicio": "1981",
+      "rotulo": "Belize",
+      "regime": "monarquia parlamentarista da Commonwealth",
+      "textoMdx": "O único país da América Central de língua oficial inglesa, com sistema parlamentar de Westminster e a menor população do continente — e o mais próximo do Caribe em cultura e instituições.\n\n**A política é bipartidária e a alternância é regular.** PUP e UDP revezam-se no governo desde a independência, com eleições competitivas e sem interrupção institucional — a diferença mais visível em relação aos vizinhos centro-americanos no mesmo período.\n\n**A economia depende de poucos produtos e do turismo.** Açúcar, banana e cítricos sustentaram décadas; o turismo e os serviços offshore vieram depois. A barreira de corais beliciana, a segunda maior do mundo, entrou na lista de patrimônio mundial em perigo em 2009 por causa da exploração de petróleo e da ocupação costeira — e saiu dela em 2018, depois de o país decretar moratória sobre exploração de petróleo em águas marinhas.\n\n**A dívida foi reestruturada mais de uma vez.** Belize renegociou títulos soberanos em 2007, 2013 e 2017, e em 2021 fez uma operação em que o resgate da dívida foi vinculado a compromissos de proteção marinha — arranjo que passou a ser citado como modelo por organismos internacionais.\n\n**A demarcação de terras maias é a disputa interna mais longa.** A Corte Caribenha de Justiça reconheceu em 2015 os direitos consuetudinários de comunidades maias do sul sobre suas terras, e determinou que o Estado as demarque; o cumprimento tem sido lento.",
+      "fontes": [
+        "knight-caribe"
+      ]
+    }
+  ]
+}

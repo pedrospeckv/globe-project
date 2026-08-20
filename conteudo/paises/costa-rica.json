@@ -1,0 +1,51 @@
+{
+  "iso": "CRI",
+  "isoNumerico": "188",
+  "nome": "Costa Rica",
+  "periodos": [
+    {
+      "id": "cr-colonia",
+      "inicio": "1524",
+      "fim": "1848",
+      "rotulo": "Província da Costa Rica",
+      "regime": "província pobre e periférica da Capitania Geral da Guatemala",
+      "textoMdx": "A província mais pobre e mais isolada da capitania — e é dessa pobreza que a Costa Rica tira a estrutura social que a distinguiria de todos os vizinhos.\n\n**Não há metal, nem população indígena densa a tributar.** A conquista do vale central encontra sociedades menores e menos hierarquizadas que as maias do norte, e as epidemias as reduzem drasticamente. Sem mão de obra abundante para submeter e sem produto de exportação, não se formam grandes encomiendas nem uma oligarquia de peso.\n\n**Os colonos trabalham a própria terra.** Cartago, fundada em 1563, é uma capital de umas poucas centenas de famílias, tão pobres que a documentação colonial registra governadores plantando o próprio alimento. Forma-se uma sociedade de pequenos e médios proprietários no vale central — a base da tese, discutida criticamente pela historiografia moderna, de uma democracia rural de origem.\n\n**O Caribe fica fora, e a distinção étnica vem daí.** A costa atlântica é território indígena e depois de influência britânica e miskita; a população afrocaribenha chegaria mais tarde, com a ferrovia, e o vale central formou-se sem plantação escravista de larga escala — o que não significa ausência de escravidão, mas escala pequena.\n\n**A independência chega pelo correio, em 1821.** A notícia demora semanas a alcançar Cartago, e a província decide por conta própria: adere ao México, muda de opinião, entra na federação centro-americana. Em 1823 há uma guerra breve entre cidades — Cartago e Heredia pela anexação mexicana, San José e Alajuela pela república — que San José ganha, tornando-se a capital.",
+      "fontes": [
+        "molina-palmer-costa-rica"
+      ]
+    },
+    {
+      "id": "cr-cafe-e-ferrovia",
+      "inicio": "1848",
+      "fim": "1940",
+      "rotulo": "República cafeeira",
+      "regime": "república presidencialista com voto restrito; economia de café e depois banana",
+      "textoMdx": "A república é declarada em 1848, e o café que a sustenta produz aqui um resultado diferente do salvadorenho: em vez de expropriação de terras comunais, uma camada de produtores médios vendendo a beneficiadores.\n\n**O café organiza a economia sem destruir a pequena propriedade.** A distribuição de terras públicas do vale central a quem as cultivasse, iniciada no fim do período colonial, faz com que o café seja plantado por proprietários pequenos e médios. O poder concentra-se no beneficiamento, na exportação e no crédito — nos cafetaleros —, mas o campo não se converte em latifúndio com peões.\n\n**A Guerra Nacional de 1856 é fundadora do relato nacional.** A Costa Rica lidera a coalizão que expulsa William Walker da Nicarágua; a figura de Juan Santamaría, o soldado que incendeia o abrigo dos filibusteiros em Rivas, torna-se herói nacional.\n\n**A ferrovia ao Caribe cria a segunda Costa Rica.** Construída entre 1871 e 1890 para escoar o café pelo Atlântico, ela é paga com concessão de terras a Minor Keith — que planta banana ao longo dos trilhos e funda, em 1899, a United Fruit. Milhares de trabalhadores jamaicanos e outros afrocaribenhos são recrutados para a obra e para as plantações, formando a população da província de Limón, que só obteria cidadania plena e liberdade de circulação para o vale central depois de 1949.\n\n**A educação vem antes da riqueza.** A gratuidade e obrigatoriedade do ensino primário são decretadas em 1869, entre as primeiras do mundo, e a Costa Rica alcança taxas de alfabetização muito acima da média regional já no início do século XX. O golpe de Federico Tinoco, entre 1917 e 1919, é a exceção autoritária do período, e cai por pressão interna e externa.",
+      "fontes": [
+        "molina-palmer-costa-rica",
+        "perez-brignoli-america-central"
+      ]
+    },
+    {
+      "id": "cr-reformas-e-guerra-civil",
+      "inicio": "1940",
+      "fim": "1949",
+      "rotulo": "Reformas sociais e a guerra civil de 1948",
+      "regime": "república presidencialista, com guerra civil e junta em 1948-1949",
+      "textoMdx": "Uma década que produz o arranjo mais atípico da América Latina: reformas sociais aprovadas por uma aliança entre um presidente católico conservador, a Igreja e o Partido Comunista — e uma guerra civil que, ao ser vencida pela oposição, mantém as reformas e abole o exército.\n\n**As garantias sociais de 1941-1943 vêm de uma aliança improvável.** Rafael Ángel Calderón Guardia, do partido republicano, alia-se ao arcebispo Víctor Sanabria e ao comunista Manuel Mora para aprovar seguro social, código do trabalho e as garantias sociais na Constituição, e para fundar a Universidade da Costa Rica.\n\n**A guerra civil de 1948 dura quarenta e quatro dias.** A anulação da eleição presidencial pelo Congresso desencadeia o levante de José Figueres Ferrer. Cerca de dois mil mortos — o conflito mais sangrento da história costa-riquenha, e curto em comparação com os dos vizinhos.\n\n**A junta vencedora faz o contrário do esperado.** Em vez de reverter as reformas dos derrotados, ela as mantém e amplia: nacionaliza a banca, cria um imposto sobre o capital, institui o voto feminino e a cidadania plena para a população afrocaribenha, e cria um tribunal eleitoral independente. E, em 1º de dezembro de 1948, **abole o exército** — decisão inscrita na Constituição de 1949 e a que mais define o país desde então.\n\n**O Partido Comunista é proscrito, e essa é a contrapartida.** A mesma junta que preserva as garantias sociais ilegaliza o partido que as ajudou a aprovar. Figueres seria eleito presidente em 1953, e o sistema bipartidário que se forma governaria em alternância pelas cinco décadas seguintes.",
+      "fontes": [
+        "molina-palmer-costa-rica"
+      ]
+    },
+    {
+      "id": "cr-republica",
+      "inicio": "1949",
+      "rotulo": "República da Costa Rica",
+      "regime": "república presidencialista sem forças armadas",
+      "textoMdx": "Setenta e cinco anos sem exército, sem golpe e sem guerra — o registro institucional mais longo e contínuo da América Latina.\n\n**A ausência de exército é política externa, não pacifismo abstrato.** Sem forças armadas, a Costa Rica depende de direito internacional e arbitragem, e investe em educação e saúde o que os vizinhos gastavam em tropa. Nos anos 1980, cercada por três guerras, ela recusa envolver-se: Óscar Arias articula o plano de paz de Esquipulas II, que abre caminho para as negociações na Nicarágua, em El Salvador e na Guatemala, e recebe o Nobel da Paz em 1987.\n\n**O Estado social é amplo para a região.** A Caixa Costa-riquenha de Seguro Social alcança cobertura quase universal, e os indicadores de expectativa de vida e mortalidade infantil aproximam-se dos de países ricos, com uma fração da renda deles. O país é frequentemente citado como caso de desenvolvimento humano superior ao que sua renda por habitante faria prever.\n\n**A economia troca a banana pelo chip e pelo turismo.** A crise da dívida dos anos 1980 leva a ajuste e abertura; a instalação de uma fábrica da Intel em 1997 e a atração de serviços e dispositivos médicos mudam a pauta exportadora. O turismo baseado em áreas protegidas cresce a partir dos anos 1990.\n\n**A política ambiental é a marca do período recente.** Depois de ter tido uma das piores taxas de desmatamento do mundo nos anos 1980, o país inverteu a curva com pagamento por serviços ambientais, e recuperou cobertura florestal para mais da metade do território. A matriz elétrica opera quase inteiramente com fontes renováveis, com períodos longos sem uso de térmicas.\n\n**O bipartidarismo termina nos anos 2010.** PLN e PUSC perdem o monopólio, e a política se fragmenta; a adesão ao CAFTA, decidida em referendo apertado em 2007, e depois a desigualdade e o déficit fiscal, dominam o debate. Rodrigo Chaves é eleito em 2022 fora dos partidos tradicionais.",
+      "fontes": [
+        "molina-palmer-costa-rica"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "iso": "TTO",
+  "isoNumerico": "780",
+  "nome": "Trinidad e Tobago",
+  "periodos": [
+    {
+      "id": "tt-colonia",
+      "inicio": "1498",
+      "fim": "1962",
+      "rotulo": "Trinidad e Tobago coloniais",
+      "regime": "colônia espanhola e depois britânica; economia de açúcar e cacau com trabalho escravizado e contratado",
+      "textoMdx": "Duas ilhas com histórias coloniais distintas, unidas administrativamente só em 1889: Trinidad, espanhola e depois britânica, e Tobago, que trocou de mãos entre potências europeias mais vezes que qualquer outro território do Caribe.\n\n**Trinidad fica espanhola por três séculos e quase vazia.** Sem metal e longe das rotas, ela é povoada de fato só depois da Cédula de População de 1783, que atrai colonos católicos franceses e seus escravizados com oferta de terra — razão pela qual uma colônia espanhola, depois britânica, tem toponímia e sobrenomes franceses e um crioulo de base francesa.\n\n**Os britânicos tomam Trinidad em 1797, no fim do período de tráfico.** A colônia se desenvolve como plantação açucareira já sob debate abolicionista, e por isso a Grã-Bretanha a administra diretamente, sem assembleia local de plantadores.\n\n**A abolição de 1834-1838 leva ao trabalho contratado indiano.** Como na Guiana, os plantadores recorrem ao recrutamento na Índia; entre 1845 e 1917 chegam mais de cem mil trabalhadores, e a maioria permanece. Trinidad torna-se uma sociedade em que descendentes de africanos e de indianos formam as duas maiores populações, com portugueses, chineses e sírio-libaneses somados — a composição que produz o carnaval, o calipso, o steelpan e a maior diversidade religiosa do Caribe.\n\n**O petróleo aparece em 1908 e muda tudo.** Trinidad torna-se o primeiro grande produtor de petróleo do Caribe, e a economia deixa de ser puramente agrícola. Durante a Segunda Guerra, bases norte-americanas na ilha injetam dinheiro e transformam a sociedade urbana — tema recorrente do calipso da época.\n\n**A revolta trabalhista de 1937 abre o caminho político.** As greves nos campos petrolíferos sob Uriah Butler levam a sindicatos legais, e depois ao sufrágio universal em 1946 e ao autogoverno.",
+      "fontes": [
+        "williams-trinidad-tobago",
+        "knight-caribe"
+      ]
+    },
+    {
+      "id": "tt-independencia",
+      "inicio": "1962",
+      "rotulo": "Trinidad e Tobago independente",
+      "regime": "monarquia parlamentarista até 1976, depois república parlamentarista",
+      "textoMdx": "A independência chega em 31 de agosto de 1962, com Eric Williams — o historiador que escreveu *Capitalism and Slavery* — como primeiro-ministro, cargo que ocuparia por dezenove anos até morrer.\n\n**O Estado se organiza sobre a renda do petróleo.** Williams nacionaliza parte da indústria e usa o choque de preços de 1973-1974 para investir em siderurgia, metanol, amônia e infraestrutura, num programa que faz do país o mais industrializado do Caribe anglófono. Torna-se república em 1976, substituindo a rainha por um presidente cerimonial.\n\n**O Black Power de 1970 é a crise interna do período.** Protestos em massa contra a desigualdade racial e econômica levam a estado de emergência e a um motim de parte do exército em Teteron — episódio que revela que a independência formal não havia resolvido a hierarquia herdada.\n\n**A política se organiza em boa medida por linhas étnicas.** O PNM, de base afro-trinitária, e depois o UNC, de base indo-trinitária, alternam-se; em 1995 Basdeo Panday torna-se o primeiro primeiro-ministro de origem indiana, e em 2010 Kamla Persad-Bissessar a primeira mulher no cargo.\n\n**A tentativa de golpe de 1990 é a mais estranha da região.** O grupo Jamaat al Muslimeen toma o parlamento e a televisão estatal, mantém o primeiro-ministro e deputados como reféns por seis dias e se rende sob promessa de anistia — depois anulada pelos tribunais.\n\n**A economia é gás natural, e a diversificação é a pauta.** Trinidad é um grande exportador de gás liquefeito e de produtos petroquímicos, com renda por habitante alta para a região e vulnerabilidade a preço. Tobago tem assembleia própria com autonomia desde 1980, e o debate sobre ampliá-la segue aberto. O país também recebeu um contingente grande de migrantes venezuelanos, dado que a costa venezuelana está a poucos quilômetros.",
+      "fontes": [
+        "williams-trinidad-tobago"
+      ]
+    }
+  ]
+}

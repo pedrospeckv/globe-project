@@ -1,0 +1,53 @@
+{
+  "iso": "SLV",
+  "isoNumerico": "222",
+  "nome": "El Salvador",
+  "periodos": [
+    {
+      "id": "sv-colonia-e-indigo",
+      "inicio": "1524",
+      "fim": "1882",
+      "rotulo": "Província de San Salvador",
+      "regime": "província da Capitania Geral da Guatemala; economia de índigo",
+      "textoMdx": "A menor província da capitania é também a mais densamente povoada, e essa combinação — pouca terra, muita gente — atravessa a história salvadorenha inteira.\n\n**Os pipis resistem e são submetidos.** Alvarado enfrenta em 1524 os pipis de Cuscatlán, de língua aparentada ao náuatle, e a conquista leva anos. A população indígena é reunida em povoados e tributada.\n\n**O índigo organiza a economia colonial.** O corante azul extraído do xiquilite é a principal exportação da capitania inteira, e El Salvador é o centro da produção. Diferente do açúcar caribenho, a produção combina fazendas médias com trabalho indígena sazonal, e não plantation escravista de larga escala.\n\n**A independência não muda a estrutura da terra.** Declarada em 1821 sem guerra, seguida da adesão ao México e depois da federação centro-americana, ela mantém intacta a propriedade e a hierarquia social. José Matías Delgado, sacerdote salvadorenho, é figura central do processo, e El Salvador resiste à anexação mexicana chegando a pedir incorporação aos Estados Unidos em 1822 — episódio pouco lembrado.\n\n**O corante sintético mata o índigo e abre espaço ao café.** Quando a química alemã produz anilina sintética, nos anos 1870, a exportação salvadorenha desaba — e a resposta é a mesma da Guatemala: converter a terra ao café.",
+      "fontes": [
+        "perez-brignoli-america-central"
+      ]
+    },
+    {
+      "id": "sv-cafe-e-oligarquia",
+      "inicio": "1882",
+      "fim": "1980",
+      "rotulo": "República cafeeira",
+      "regime": "república presidencialista sob oligarquia cafeeira, com governos militares a partir de 1931",
+      "textoMdx": "A extinção das terras comunais, entre 1881 e 1882, é o ato fundador do El Salvador contemporâneo: ela cria ao mesmo tempo a oligarquia do café e o campesinato sem terra.\n\n**Duas leis apagam a propriedade coletiva.** As terras comunais e ejidais — que cobriam parte substancial do território e sustentavam comunidades indígenas e camponesas — são declaradas extintas e convertidas em propriedade privada. Quem tinha capital e acesso a cartório fica com elas. Forma-se uma concentração fundiária extrema, num país pequeno e populoso, sem fronteira agrícola para onde empurrar os despossuídos.\n\n**O café domina a exportação e a política.** As famílias proprietárias controlam bancos, beneficiamento e exportação, e a Guarda Nacional, criada em 1912, é usada para vigiar o trabalho no campo. Ao contrário de Honduras, aqui a oligarquia é nacional e não estrangeira — e é por isso que ela resiste a qualquer reforma com força própria.\n\n**1932 é o ano que a memória nacional carrega.** Com a crise mundial derrubando o preço do café e salários cortados, uma insurreição camponesa e indígena no oeste, ligada ao Partido Comunista de Farabundo Martí, é esmagada pelo exército sob Maximiliano Hernández Martínez. As estimativas correntes falam de algo entre dez e trinta mil mortos em poucas semanas — a matança conhecida como La Matanza. Depois dela, a língua e o traje indígenas praticamente desaparecem do espaço público salvadorenho.\n\n**Segue-se meio século de governos militares.** Hernández Martínez governa até 1944, e a partir daí oficiais se sucedem com eleições controladas e um partido oficial. A Guerra do Futebol com Honduras, em 1969, dura cem horas e tem origem na expulsão de camponeses salvadorenhos que haviam migrado para a Honduras em busca da terra que não tinham em casa.",
+      "fontes": [
+        "perez-brignoli-america-central",
+        "lafeber-revolucoes-inevitaveis"
+      ]
+    },
+    {
+      "id": "sv-guerra-civil",
+      "inicio": "1980",
+      "fim": "1992",
+      "rotulo": "Guerra civil",
+      "regime": "governos civis e militares em guerra contra a guerrilha do FMLN",
+      "textoMdx": "Doze anos de guerra num país do tamanho de um estado pequeno, com cerca de 75 mil mortos e uma comissão da verdade que atribuiu 85% dos casos denunciados a agentes do Estado e grupos aliados.\n\n**O assassinato de Romero abre a guerra.** Óscar Arnulfo Romero, arcebispo de San Salvador, denunciava semanalmente a repressão e havia pedido publicamente aos soldados que desobedecessem ordens de matar. É assassinado em 24 de março de 1980, celebrando missa. No funeral, tiros contra a multidão matam dezenas. Meses depois, quatro religiosas norte-americanas são estupradas e mortas por guardas nacionais.\n\n**As organizações guerrilheiras unificam-se no FMLN em 1980.** O conflito se estabiliza: a guerrilha controla zonas do norte e do leste, o Estado recebe grande volume de ajuda militar norte-americana, e o campo se esvazia — mais de um quinto da população deixa o país, sobretudo para os Estados Unidos, formando a diáspora que sustentaria a economia por remessas.\n\n**El Mozote, em dezembro de 1981.** O batalhão Atlacatl, treinado nos Estados Unidos, massacra a população de um povoado do departamento de Morazán — cerca de mil pessoas, a maioria crianças. O episódio foi negado por anos e confirmado depois por exumações e pela comissão da verdade; a Corte Interamericana condenou o Estado em 2012.\n\n**A guerra termina em negociação, não em vitória.** A ofensiva do FMLN em 1989, que alcança a capital, e o assassinato de seis padres jesuítas, sua governanta e a filha dela na Universidade Centro-Americana, no mesmo ano, convencem os dois lados e os patrocinadores externos de que não há solução militar. Os Acordos de Chapultepec, assinados no México em janeiro de 1992, reduzem as Forças Armadas, extinguem os corpos de segurança repressivos, criam uma polícia civil e convertem o FMLN em partido.",
+      "fontes": [
+        "cv-el-salvador",
+        "acordos-chapultepec"
+      ]
+    },
+    {
+      "id": "sv-pos-guerra",
+      "inicio": "1992",
+      "rotulo": "República de El Salvador",
+      "regime": "república presidencialista; a partir de 2019, regime de exceção prolongado",
+      "textoMdx": "A transição salvadorenha é elogiada como modelo de acordo de paz, e o país que sai dela enfrenta uma violência de outro tipo — que acabou reorganizando toda a política nacional.\n\n**As maras nascem em parte na diáspora.** Gangues formadas por jovens salvadorenhos em Los Angeles durante a guerra são deportadas em massa nos anos 1990 para um país sem instituições capazes de absorvê-las. A Mara Salvatrucha e a Barrio 18 passam a controlar territórios urbanos por extorsão, e El Salvador chega a registrar a maior taxa de homicídios do mundo em anos da década de 2010.\n\n**A alternância funciona por duas décadas.** ARENA, o partido fundado por Roberto d'Aubuisson — apontado pela comissão da verdade como responsável pela ordem de matar Romero —, governa de 1989 a 2009; o FMLN, de 2009 a 2019. A dolarização é adotada em 2001. Os dois partidos terminam o período desgastados por corrupção: três ex-presidentes são processados.\n\n**Bukele reorganiza o sistema a partir de 2019.** Eleito fora dos dois partidos, ele adota o bitcoin como moeda de curso legal em 2021 — experiência sem paralelo e de adoção baixa —, e em março de 2022, após um fim de semana com dezenas de assassinatos, decreta um regime de exceção que suspende garantias processuais.\n\n**A queda dos homicídios é real e o custo é documentado.** Mais de setenta mil pessoas foram presas sob o regime de exceção, sem as garantias ordinárias, e organizações de direitos humanos registram milhares de detenções arbitrárias e mortes sob custódia. As taxas de homicídio caíram a níveis baixíssimos para a região, e a aprovação do governo é das mais altas do continente. Bukele foi reeleito em 2024 depois de uma reinterpretação judicial da proibição constitucional de reeleição imediata.",
+      "fontes": [
+        "cv-el-salvador",
+        "acordos-chapultepec"
+      ]
+    }
+  ]
+}
