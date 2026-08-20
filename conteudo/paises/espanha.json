@@ -1,0 +1,77 @@
+{
+  "iso": "ESP",
+  "isoNumerico": "724",
+  "nome": "Espanha",
+  "periodos": [
+    {
+      "id": "es-al-andalus-e-reinos-cristaos",
+      "inicio": "711",
+      "fim": "1492",
+      "rotulo": "Al-Andalus e os reinos cristãos",
+      "regime": "califado e depois taifas muçulmanas ao sul; reinos cristãos independentes ao norte",
+      "textoMdx": "A invasão de 711 destrói o reino visigodo em poucos anos e cria, na península, uma das sociedades mais avançadas da Europa medieval — enquanto reinos cristãos residuais no norte, refugiados nas montanhas, começam um processo de reconquista que levaria quase oito séculos.\n\n**Córdoba torna-se a maior cidade da Europa ocidental.** Sob o Califado Omíada, proclamado em 929 por Abderramão III, Córdoba chega a rivalizar em população e sofisticação com Bagdá e Constantinopla, com biblioteca de centenas de milhares de volumes e convivência relativa entre muçulmanos, judeus e cristãos — a *convivencia*, hoje objeto de debate historiográfico sobre seus limites reais.\n\n**A fragmentação em taifas, a partir de 1031, abre espaço à Reconquista.** O colapso do califado em dezenas de reinos rivais permite aos reinos cristãos do norte — Leão, Castela, Aragão, Navarra, o condado de Barcelona — avançar e cobrar tributo dos taifas enfraquecidos. Toledo cai em 1085; a resposta é o chamado a dinastias berberes do Magrebe, almorávidas e depois almóadas, que reunificam Al-Andalus por períodos.\n\n**Rodrigo Díaz de Vivar, o Cid, é a figura que a lenda transformaria em símbolo nacional**, tendo lutado tanto por senhores cristãos quanto muçulmanos — biografia mais complexa do que a epopeia posterior sugere.\n\n**Las Navas de Tolosa, em 1212, quebra o poder almóada de forma decisiva.** Uma coalizão dos reinos cristãos ibéricos vence a batalha que abre as portas da Andaluzia; Córdoba cai em 1236, Sevilha em 1248. Sobra apenas o Emirado de Granada, sob os nasridas, que sobrevive como vassalo tributário de Castela por mais dois séculos e meio, deixando como legado a Alhambra.\n\n**A união dinástica de 1469 prepara o desfecho.** O casamento de Isabel de Castela com Fernando de Aragão une as duas maiores coroas cristãs sem fundir os reinos administrativamente — cada um mantém leis, cortes e instituições próprias, uma união pessoal que definiria a estrutura política espanhola por séculos.",
+      "fontes": [
+        "carr-espanha"
+      ]
+    },
+    {
+      "id": "es-uniao-dinastica",
+      "inicio": "1492",
+      "fim": "1700",
+      "rotulo": "Monarquia Hispânica dos Reis Católicos e dos Habsburgo",
+      "regime": "união dinástica de reinos com instituições próprias; potência global sob os Habsburgo",
+      "textoMdx": "O ano de 1492 concentra três eventos que definiriam a Espanha moderna: a queda de Granada, a expulsão dos judeus e a chegada de Colombo às Américas — e a monarquia que emerge desse ano se tornaria, sob os Habsburgo, a primeira potência verdadeiramente global.\n\n**Granada cai em janeiro de 1492, encerrando oito séculos de presença muçulmana organizada na península.** No mesmo ano, os Reis Católicos decretam a expulsão dos judeus que não se convertessem ao cristianismo — dezenas de milhares partem, sobretudo para o Império Otomano e para Portugal, num golpe demográfico e econômico cujo efeito se estenderia por gerações. A Inquisição espanhola, criada em 1478, intensifica a perseguição a conversos suspeitos de manter práticas judaicas em segredo — os marranos.\n\n**Colombo chega às Américas financiado pela Coroa de Castela, não pela união ibérica inteira.** A exploração e colonização do Novo Mundo seriam, formalmente, empreendimento castelhano; Aragão manteria seu próprio império mediterrâneo, com Sicília, Nápoles e Sardenha.\n\n**Carlos I herda um império sem precedente, e o expande.** Neto dos Reis Católicos e também dos Habsburgo da Áustria, ele torna-se rei de Espanha em 1516 e imperador do Sacro Império Romano-Germânico em 1519 — um domínio que, segundo a expressão da época, o sol nunca se punha nele. A prata do México e do Peru financia guerras europeias constantes contra a França, os protestantes alemães e o Império Otomano.\n\n**Filipe II governa do Escorial um império em crise crescente.** A vitória naval de Lepanto sobre os otomanos, em 1571, é o auge militar do período; a derrota da Armada Invencível contra a Inglaterra, em 1588, marca o início do declínio naval espanhol. A expulsão dos mouriscos — descendentes de muçulmanos convertidos ao cristianismo — em 1609, sob Filipe III, repete o golpe demográfico de 1492, agora contra uma população estimada em várias centenas de milhares.\n\n**O século XVII é de declínio relativo, apesar do apogeu cultural.** Enquanto Cervantes, Velázquez e Calderón produzem o Século de Ouro das letras e das artes espanholas, a Coroa perde a independência de Portugal em 1640 e enfrenta bancarrotas fiscais recorrentes, sustentada por uma prata americana cada vez mais hipotecada a banqueiros estrangeiros.",
+      "fontes": [
+        "carr-espanha",
+        "kamen-inquisicao-espanhola"
+      ]
+    },
+    {
+      "id": "es-bourbons",
+      "inicio": "1700",
+      "fim": "1931",
+      "rotulo": "Espanha bourbônica",
+      "regime": "monarquia sob a dinastia Bourbon, centralizadora; perda do império americano no século XIX",
+      "textoMdx": "A morte sem herdeiro do último Habsburgo espanhol, em 1700, provoca a maior guerra europeia desde a dos Trinta Anos — e entrega o trono a uma dinastia francesa que reorganizaria o Estado espanhol em linhas mais centralizadas.\n\n**A Guerra de Sucessão Espanhola, de 1701 a 1714, decide quem herda o império.** As potências europeias temem a união das coroas francesa e espanhola sob um só Bourbon; o conflito termina com Filipe V confirmado rei, mas cedendo territórios europeus — Gibraltar e Menorca à Grã-Bretanha entre eles — e aceitando que as coroas francesa e espanhola jamais se unificassem.\n\n**Os Decretos de Nova Planta abolem as instituições próprias da Coroa de Aragão.** Punindo os territórios que haviam apoiado o pretendente rival na guerra, Filipe V extingue entre 1707 e 1716 os foros e cortes de Aragão, Valência, Catalunha e Maiorca, impondo administração castelhana uniforme — o momento fundador da centralização espanhola moderna, e origem de ressentimentos catalães que atravessariam os séculos seguintes.\n\n**A invasão napoleônica, em 1808, provoca a primeira grande resistência guerrilheira moderna.** Napoleão impõe o irmão José Bonaparte no trono espanhol; o levante popular de 2 de maio em Madrid e a guerra de guerrilha que se segue — de onde vem a própria palavra guerrilha — desgastam as tropas francesas por seis anos, com apoio de forças britânicas sob Wellington. As Cortes de Cádiz, reunidas durante a guerra em 1812, produzem a primeira constituição liberal espanhola.\n\n**A independência das colônias americanas, entre 1810 e 1825, desmonta o império.** Aproveitando o vácuo de poder criado pela ocupação napoleônica, quase todo o continente americano espanhol se emancipa sob líderes como Bolívar e San Martín; restam a Espanha apenas Cuba, Porto Rico e as Filipinas — perdidas, por fim, na guerra de 1898 contra os Estados Unidos.\n\n**O século XIX espanhol é de instabilidade crônica entre liberais e absolutistas.** Guerras civis carlistas, pronunciamentos militares recorrentes e a Primeira República, de vida curta entre 1873 e 1874, precedem a Restauração bourbônica, que estabiliza formalmente o regime sob alternância pactuada entre dois partidos — um sistema que ocultaria, e não resolveria, as tensões sociais e regionais que explodiriam no século seguinte.",
+      "fontes": [
+        "carr-espanha"
+      ]
+    },
+    {
+      "id": "es-segunda-republica",
+      "inicio": "1931",
+      "fim": "1939",
+      "rotulo": "Segunda República",
+      "regime": "república parlamentarista, com reformas contestadas e polarização crescente",
+      "textoMdx": "Cinco anos de experimento democrático que tenta, em rápida sucessão, reformar a terra, o exército e a Igreja — e que termina na guerra civil mais estudada do século XX europeu.\n\n**A proclamação da República, em abril de 1931, é pacífica e recebida com entusiasmo urbano.** O rei Afonso XIII deixa o país sem abdicar formalmente, depois de eleições municipais que mostram apoio republicano esmagador nas cidades. O bienio reformista de 1931-1933 aprova voto feminino, reforma agrária limitada, redução do peso do exército e do clero na vida pública, e autonomia catalã.\n\n**A polarização se acelera a partir de 1933.** A vitória eleitoral da direita interrompe as reformas; a Revolução de Astúrias, em 1934 — insurreição operária reprimida com dureza pelo exército, incluindo tropas coloniais marroquinas sob o comando do general Franco — aprofunda o abismo entre esquerda e direita. A Frente Popular vence a eleição de fevereiro de 1936 por margem estreita, e a violência política de rua se intensifica dos dois lados nos meses seguintes.\n\n**O golpe militar de julho de 1936 fracassa em parte, e vira guerra civil.** Uma conspiração de generais, entre eles Franco, tenta tomar o poder em poucos dias; onde encontra resistência popular e de forças leais ao governo, o golpe se converte em guerra prolongada, dividindo o país ao meio.\n\n**A guerra dura três anos e mata entre trezentos e quinhentos mil pessoas**, segundo estimativas historiográficas correntes, somando combate, repressão nas duas retaguardas, bombardeios — Guernica, em 1937, bombardeada pela Legião Condor alemã, tornou-se símbolo da guerra pelo quadro de Picasso — e fome. A Alemanha nazista e a Itália fascista armam e enviam tropas ao lado de Franco; a União Soviética e as Brigadas Internacionais apoiam a República; as democracias ocidentais mantêm política de não intervenção formal, que na prática favorece os golpistas.\n\n**Madrid cai em março de 1939, e a guerra termina em vitória franquista completa.** Centenas de milhares de republicanos fogem para o exílio, sobretudo para a França; a repressão que se segue no interior do país é longa e sistemática.",
+      "fontes": [
+        "carr-espanha",
+        "preston-guerra-civil-espanhola"
+      ]
+    },
+    {
+      "id": "es-franquismo",
+      "inicio": "1939",
+      "fim": "1975",
+      "rotulo": "Ditadura de Franco",
+      "regime": "ditadura militar pessoal, de partido único, sob o Movimento Nacional",
+      "textoMdx": "Trinta e seis anos de ditadura pessoal de Francisco Franco, sustentada por repressão sistemática no pós-guerra, depois por isolamento internacional, e finalmente por um desenvolvimento econômico que transformou a sociedade espanhola sem tocar na estrutura política.\n\n**A repressão do pós-guerra é longa e numericamente maior que os anos de combate.** Prisões em massa, trabalho forçado, execuções sumárias e depuração administrativa e profissional atingem centenas de milhares de pessoas identificadas com a República derrotada; muitos historiadores contam mais mortos na repressão franquista posterior a 1939 do que nos três anos de guerra propriamente ditos.\n\n**O isolamento internacional do pós-guerra mundial cede à Guerra Fria.** Excluída da ONU e do Plano Marshall pelo passado fascista, a Espanha franquista é reintegrada à comunidade internacional a partir de 1953, quando acordos militares com os Estados Unidos — trocando bases americanas em solo espanhol por ajuda econômica — e a entrada na ONU, em 1955, encerram o isolamento formal.\n\n**O milagre econômico espanhol, a partir de 1959, transforma a sociedade sob controle político inalterado.** O Plano de Estabilização abre a economia, atrai investimento estrangeiro e turismo em massa; a Espanha cresce entre as taxas mais altas do mundo na década de 1960, urbaniza-se rapidamente e desenvolve uma classe média que, com o tempo, se tornaria menos tolerante ao autoritarismo político.\n\n**A oposição basca radicaliza-se em direção à luta armada.** A ETA, fundada em 1959, inicia campanha de atentados a partir de meados da década de 1960, incluindo o assassinato do almirante Carrero Blanco, sucessor designado de Franco, em 1973 — episódio que abre incerteza sobre a sucessão.\n\n**Franco morre em novembro de 1975, deixando o trono restaurado ao rei Juan Carlos I** — designado sucessor pelo próprio Franco em 1969, mas que, contrariando as expectativas do regime, conduziria a transição para a democracia nos anos seguintes.",
+      "fontes": [
+        "carr-espanha",
+        "preston-guerra-civil-espanhola"
+      ]
+    },
+    {
+      "id": "es-transicao-e-democracia",
+      "inicio": "1975",
+      "rotulo": "Reino de Espanha",
+      "regime": "monarquia parlamentarista sob a Constituição de 1978; Estado das Autonomias",
+      "textoMdx": "Cinco décadas de transição bem-sucedida a democracia consolidada, com um Estado das Autonomias que tentou acomodar as nações históricas dentro da unidade constitucional — e que enfrentou, em 2017, seu maior teste desde a própria transição.\n\n**A transição é negociada, não imposta nem revolucionária.** Adolfo Suárez, primeiro-ministro nomeado pelo rei, conduz a Lei para a Reforma Política de 1976, aprovada em referendo, que desmonta as instituições franquistas por via legal; a Constituição de 1978, aprovada por ampla maioria em referendo, estabelece monarquia parlamentarista, direitos fundamentais amplos e um Estado das Autonomias que reconhece nacionalidades e regiões dentro da unidade indivisível da nação espanhola.\n\n**A tentativa de golpe de 1981 é o momento mais tenso da transição.** Em fevereiro daquele ano, o tenente-coronel Antonio Tejero invade o Congresso dos Deputados com a Guarda Civil armada durante a votação de investidura de um novo primeiro-ministro; a intervenção pessoal do rei Juan Carlos, em discurso televisionado ordenando a submissão militar ao poder civil, é considerada decisiva para debelar o golpe.\n\n**A entrada na Comunidade Europeia, em 1986, consolida a normalização internacional.** Junto com Portugal, a Espanha ingressa no bloco após anos de negociação, acelerando modernização econômica e infraestrutura financiadas por fundos estruturais europeus.\n\n**A Lei de Memória Histórica, de 2007, e a Lei de Memória Democrática, de 2022, tentam reparar o silêncio da transição.** A transição espanhola foi construída, em larga medida, sobre um pacto de esquecimento mútuo — a chamada Lei de Anistia de 1977 — que evitava julgar crimes da ditadura; as leis de memória, décadas depois, buscam localizar vítimas em valas comuns, declarar ilegítimo o regime franquista e retirar símbolos e títulos ligados a ele, com apoio e oposição divididos ainda hoje pelas mesmas linhas políticas da guerra civil.\n\n**A crise catalã de 2017 é o desafio territorial mais grave da democracia espanhola.** O governo regional catalão convoca um referendo de independência declarado inconstitucional pelo Tribunal Constitucional; ele ocorre em 1º de outubro sob intervenção policial que deixa centenas de feridos, e a declaração unilateral de independência que se segue leva o governo central a suspender a autonomia catalã e prender ou exilar líderes do movimento — vários seriam depois condenados por sedição, e posteriormente indultados ou anistiados, numa disputa política que segue sem solução consensual.",
+      "fontes": [
+        "carr-espanha",
+        "lei-memoria-democratica-2022",
+        "corte-constitucional-espanha-catalunha-2017"
+      ]
+    }
+  ]
+}

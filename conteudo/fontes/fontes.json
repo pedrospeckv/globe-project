@@ -2943,5 +2943,77 @@
     "autor": "Finn Gad",
     "data": "1970",
     "citacao": "História da Groenlândia em vários volumes, do povoamento paleo-esquimó à administração dinamarquesa do século XX. Reconstrói a colonização nórdica medieval e seu desaparecimento, a chegada dos Thule ancestrais dos inuítes atuais, e o regime de monopólio comercial dinamarquês."
+  },
+  {
+    "id": "marques-historia-portugal",
+    "tipo": "livro",
+    "titulo": "History of Portugal",
+    "autor": "A. H. de Oliveira Marques",
+    "data": "1972",
+    "citacao": "História de Portugal do condado medieval ao século XX, em dois volumes. Trata a expansão marítima como consequência da posição atlântica e da falta de fronteira interna a explorar depois de fechada a Reconquista, e a longa duração do Estado Novo como caso à parte na Europa ocidental do pós-guerra."
+  },
+  {
+    "id": "birmingham-historia-portugal",
+    "tipo": "livro",
+    "titulo": "A Concise History of Portugal",
+    "autor": "David Birmingham",
+    "data": "1993",
+    "citacao": "Síntese da história portuguesa da fundação do condado à democracia pós-1974. Enfatiza o papel do Atlântico e do império ultramarino na formação da identidade nacional, e a dependência inglesa como constante da política externa desde o século XIV."
+  },
+  {
+    "id": "tratado-tordesilhas-1494",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Tordesilhas",
+    "publicacao": "Coroas de Castela e de Portugal, com mediação papal",
+    "data": "1494",
+    "citacao": "Dividiu entre Portugal e Castela as terras a descobrir fora da Europa por uma linha a 370 léguas a oeste de Cabo Verde, atribuindo a Portugal o que se tornaria o Brasil antes mesmo de a costa brasileira ser avistada por europeus. Vigorou como referência jurídica até ser suplantado pelo Tratado de Madri, em 1750."
+  },
+  {
+    "id": "relatorio-onu-tarrafal-e-colonias",
+    "tipo": "documento-oficial",
+    "titulo": "Descolonização de Angola, Moçambique, Guiné-Bissau, Cabo Verde e São Tomé e Príncipe",
+    "publicacao": "Nações Unidas, Comitê Especial de Descolonização",
+    "data": "1975",
+    "citacao": "Registros e resoluções do processo de reconhecimento da independência das colônias portuguesas em 1974-1975, incluindo o histórico das guerras coloniais de 1961 a 1974 que a Revolução dos Cravos encerrou."
+  },
+  {
+    "id": "carr-espanha",
+    "tipo": "livro",
+    "titulo": "Spain: A History",
+    "autor": "Raymond Carr (org.)",
+    "data": "2000",
+    "citacao": "História de conjunto da Espanha, da pré-história à democracia pós-1975, com capítulos de especialistas por período. Usada para os séculos de formação da monarquia hispânica e para a transição democrática."
+  },
+  {
+    "id": "kamen-inquisicao-espanhola",
+    "tipo": "livro",
+    "titulo": "The Spanish Inquisition: A Historical Revision",
+    "autor": "Henry Kamen",
+    "data": "1997",
+    "citacao": "Revisão histórica da Inquisição espanhola a partir dos próprios registros do tribunal. Reduz as estimativas de execuções em relação à tradição da Lenda Negra, sem minimizar a perseguição a conversos, e discute a expulsão dos judeus em 1492 e dos mouriscos em 1609."
+  },
+  {
+    "id": "preston-guerra-civil-espanhola",
+    "tipo": "livro",
+    "titulo": "The Spanish Civil War: Reaction, Revolution, and Revenge",
+    "autor": "Paul Preston",
+    "data": "1986",
+    "citacao": "História da Guerra Civil Espanhola de 1936-1939. Documenta a violência dos dois lados, o papel da intervenção alemã, italiana e soviética, e a repressão franquista sistemática no pós-guerra, com base em arquivos abertos após a transição democrática."
+  },
+  {
+    "id": "lei-memoria-democratica-2022",
+    "tipo": "documento-oficial",
+    "titulo": "Ley de Memoria Democrática",
+    "publicacao": "Congresso dos Deputados da Espanha",
+    "data": "2022",
+    "citacao": "Declarou ilegítimo o regime franquista, ordenou a busca de vítimas em valas comuns da Guerra Civil e da ditadura com apoio estatal, e revogou julgamentos sumários da era franquista. Substituiu e ampliou a Lei da Memória Histórica de 2007."
+  },
+  {
+    "id": "corte-constitucional-espanha-catalunha-2017",
+    "tipo": "decisao-judicial",
+    "titulo": "Sentença sobre a Lei do Referendo de Autodeterminação da Catalunha",
+    "publicacao": "Tribunal Constitucional da Espanha",
+    "data": "2017",
+    "citacao": "Declarou inconstitucional e nula a lei catalã que convocava o referendo de independência de 1º de outubro de 2017, por violar a soberania nacional indivisível estabelecida na Constituição de 1978. O referendo ocorreu apesar da decisão, sob intervenção policial que deixou centenas de feridos."
   }
 ]

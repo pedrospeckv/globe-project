@@ -1,0 +1,90 @@
+{
+  "iso": "PRT",
+  "isoNumerico": "620",
+  "nome": "Portugal",
+  "periodos": [
+    {
+      "id": "pt-condado",
+      "inicio": "1096",
+      "fim": "1415",
+      "rotulo": "Condado Portucalense",
+      "regime": "condado vassalo do Reino de Leão",
+      "textoMdx": "Portugal nasce como feudo de fronteira: um condado entre o rio Minho e o Mondego, entregue por Afonso VI de Leão ao cavaleiro borgonhês Henrique como recompensa por lutar contra os mouros e como dote pela mão de sua filha ilegítima, Teresa.\n\n**O filho do casal declara-se rei sem pedir licença.** Afonso Henriques rebela-se contra a própria mãe, vence-a na batalha de São Mamede em 1128, e passa vinte anos empurrando a fronteira leonesa para reivindicar autonomia. A vitória de Ourique sobre os mouros, em 1139, é a data lendária da proclamação real, embora o reconhecimento formal por Leão só viesse no Tratado de Zamora, em 1143 — e o de Roma, somente em 1179.\n\n**A Reconquista portuguesa termina um século antes da espanhola.** Lisboa cai em 1147, com apoio de cruzados ingleses, flamengos e alemães que paravam na cidade a caminho da Terra Santa. A conquista do Algarve, em 1249, sob Afonso III, fecha as fronteiras terrestres que o país mantém desde então — as mais antigas e estáveis da Europa.\n\n**A aliança inglesa começa aqui e nunca se rompe.** O primeiro tratado com a Inglaterra é de 1373, renovado e ampliado pelo Tratado de Windsor em 1386 — a aliança diplomática mais duradoura da história registrada, ainda em vigor. Ela seria decisiva em 1385.\n\n**A crise de 1383-1385 decide que Portugal não vira Castela.** Morto sem herdeiro homem o rei Fernando I, o trono é disputado entre o rei de Castela, casado com a filha dele, e João, mestre da Ordem de Avis, meio-irmão bastardo do rei morto. João vence em Aljubarrota, com apoio inglês e da população urbana de Lisboa e Porto — batalha que fixa a independência portuguesa por dois séculos e abre a dinastia de Avis, sob a qual viria a expansão marítima.",
+      "fontes": [
+        "marques-historia-portugal",
+        "birmingham-historia-portugal"
+      ]
+    },
+    {
+      "id": "pt-expansao",
+      "inicio": "1415",
+      "fim": "1640",
+      "rotulo": "Reino de Portugal e a expansão marítima",
+      "regime": "monarquia sob a dinastia de Avis; potência marítima e comercial",
+      "textoMdx": "Um pequeno reino sem fronteira terrestre para onde crescer se torna, em um século, o primeiro império marítimo global — e o primeiro europeu a estabelecer rota direta com a Ásia.\n\n**Ceuta, em 1415, é o primeiro passo, e é conquista militar, não exploração.** A tomada do porto marroquino abre o acesso português ao comércio transaariano de ouro e dá início ao patrocínio da navegação pelo infante Dom Henrique, cuja escola de Sagres organiza décadas de expedições pela costa africana em busca da rota das especiarias.\n\n**A rota do ouro e depois a rota das especiarias.** Madeira e Açores são povoados nas décadas de 1420 e 1430; a costa da Guiné é alcançada nos anos 1440, trazendo os primeiros carregamentos de africanos escravizados ao Atlântico europeu. Bartolomeu Dias dobra o Cabo da Boa Esperança em 1488; Vasco da Gama chega a Calecute, na Índia, em 1498 — a primeira rota marítima direta da Europa à Ásia, contornando o monopólio veneziano e árabe sobre as especiarias.\n\n**Tordesilhas reparte o mundo antes de ele estar todo descoberto.** O tratado de 1494 com Castela desloca a linha do primeiro acordo papal para oeste, deixando a Portugal o que se tornaria o Brasil — avistado por Pedro Álvares Cabral em 1500, seis anos depois. Em 1510 Afonso de Albuquerque toma Goa; em 1511, Malaca; a rede de feitorias fortificadas chega a Ormuz e, por fim, a Macau, em 1557, e ao Japão.\n\n**A riqueza das especiarias sustenta um reino pequeno com poder desproporcional.** Lisboa torna-se entreposto de pimenta, canela e cravo para toda a Europa, e a Casa da Índia administra o monopólio real do comércio asiático. Sob Manuel I, entre 1495 e 1521, a corte vive o auge simbólico desse poder — e é também quando, em 1497, os judeus portugueses são forçados à conversão ou à expulsão, sob pressão do casamento real com a filha dos Reis Católicos.\n\n**A união com Castela, em 1580, encerra a independência por sessenta anos.** Morto sem herdeiro o jovem rei Sebastião numa expedição militar ao Marrocos, em 1578, a sucessão recai sobre Filipe II de Castela, que reina como Filipe I de Portugal. O país mantém instituições próprias, mas perde autonomia de política externa — e é arrastado às guerras castelhanas contra a Holanda e a Inglaterra, que atacam o império ultramarino português como alvo substituto.",
+      "fontes": [
+        "marques-historia-portugal",
+        "tratado-tordesilhas-1494"
+      ]
+    },
+    {
+      "id": "pt-restauracao",
+      "inicio": "1640",
+      "fim": "1820",
+      "rotulo": "Restauração e o império atlântico",
+      "regime": "monarquia sob a dinastia de Bragança; reorientação do império para o Atlântico",
+      "textoMdx": "A independência é restaurada por um golpe de nobres em 1640, e o país reconstrói sua riqueza não mais nas especiarias asiáticas, agora perdidas em grande parte para os holandeses, mas no açúcar e depois no ouro do Brasil.\n\n**A Restauração é decidida em Lisboa, e reconhecida por Madri só décadas depois.** A revolta de dezembro de 1640 aclama João, duque de Bragança, como João IV; segue-se uma guerra intermitente contra a Espanha até o Tratado de Lisboa, em 1668, que reconhece formalmente a independência portuguesa.\n\n**Os holandeses tomam e depois perdem o Brasil açucareiro.** Entre 1630 e 1654, a Companhia das Índias Ocidentais Holandesa ocupa Pernambuco; a expulsão, concluída com apoio de colonos luso-brasileiros, devolve a Portugal o controle da economia açucareira mais rica das Américas — mas o comércio de escravizados que a sustenta permanece, em grande parte, nas mãos de mercadores portugueses e brasileiros.\n\n**O ouro de Minas Gerais, a partir de 1690, transforma a monarquia.** A febre do ouro atrai centenas de milhares de portugueses ao Brasil e enche os cofres reais com o quinto devido à Coroa; sob João V, no início do século XVIII, a riqueza financia a construção do palácio-convento de Mafra e uma corte de esplendor comparável às maiores da Europa.\n\n**O terremoto de 1755 é o evento que mais marca o século.** Um terremoto seguido de tsunami e incêndio destrói grande parte de Lisboa no Dia de Todos os Santos, matando dezenas de milhares. A reconstrução sob o Marquês de Pombal, ministro de José I, é conduzida com método científico de urbanismo e reforço antissísmico pioneiro — e Pombal aproveita a crise para concentrar poder, expulsar os jesuítas em 1759 e modernizar a administração e o ensino.\n\n**As guerras napoleônicas levam a corte para o Brasil.** Diante da invasão francesa de 1807, a família real e a corte inteira embarcam para o Rio de Janeiro sob escolta britânica — episódio sem paralelo entre as monarquias europeias, que inverteria a relação entre metrópole e colônia e prepararia, quatorze anos depois, a independência brasileira.",
+      "fontes": [
+        "marques-historia-portugal",
+        "birmingham-historia-portugal"
+      ]
+    },
+    {
+      "id": "pt-monarquia-constitucional",
+      "inicio": "1820",
+      "fim": "1910",
+      "rotulo": "Monarquia constitucional",
+      "regime": "monarquia constitucional, com guerra civil entre absolutistas e liberais",
+      "textoMdx": "Um século de monarquia limitada, aberto por uma revolução liberal e fechado por um regicídio, com a perda do Brasil no meio e uma guerra civil entre irmãos.\n\n**A Revolução Liberal do Porto, em 1820, exige constituição e o retorno do rei.** Com a corte ainda no Rio de Janeiro, oficiais e a burguesia comercial portuense convocam cortes constituintes; João VI retorna em 1821, deixando o filho Pedro como regente no Brasil — que se tornaria, no ano seguinte, o imperador de um Brasil independente.\n\n**A Guerra Civil de 1828-1834 opõe absolutistas e liberais, e são irmãos em lados opostos.** Miguel, filho mais novo de João VI, usurpa o trono absolutista em 1828; Pedro, agora sem trono no Brasil, abdica lá e vem lutar por Portugal, à frente das forças liberais. A vitória liberal em 1834 fecha conventos e consolida a monarquia constitucional, ainda que sob constante instabilidade entre facções.\n\n**A Conferência de Berlim e o Ultimato Britânico de 1890 expõem os limites do império.** Portugal reivindica ligar Angola a Moçambique por um corredor contínuo — o mapa cor-de-rosa —, projeto que colide com os planos britânicos de ligação Cabo-Cairo. A Grã-Bretanha impõe um ultimato em 1890 exigindo a retirada portuguesa; a humilhação nacional alimenta o movimento republicano.\n\n**O regicídio de 1908 antecipa o fim da monarquia.** O rei Carlos I e o príncipe herdeiro são assassinados em atentado em Lisboa; o filho mais novo, Manuel II, reina por dois anos sem conseguir estabilizar o regime.\n\n**A República é proclamada em 5 de outubro de 1910**, depois de um levante militar e popular em Lisboa. Ela herdaria, porém, a mesma instabilidade crônica da monarquia tardia — quarenta e cinco governos em dezesseis anos.",
+      "fontes": [
+        "marques-historia-portugal",
+        "birmingham-historia-portugal"
+      ]
+    },
+    {
+      "id": "pt-primeira-republica",
+      "inicio": "1910",
+      "fim": "1926",
+      "rotulo": "Primeira República",
+      "regime": "república parlamentarista de extrema instabilidade governativa",
+      "textoMdx": "Dezesseis anos de instabilidade quase sem paralelo na Europa: quarenta e cinco governos, uma guerra mundial e oito eleições presidenciais, encerrados por um golpe militar.\n\n**O anticlericalismo é o programa mais consistente do novo regime.** A Lei da Separação do Estado das Igrejas, de 1911, expulsa ordens religiosas, seculariza o registro civil e o ensino, e provoca resistência conservadora persistente, sobretudo no norte católico.\n\n**Portugal entra na Primeira Guerra por manter as colônias, não por entusiasmo popular.** A participação no front europeu, a partir de 1916, custa milhares de vidas portuguesas em Flandres, sem ganho territorial nem estabilização política — e agrava a crise econômica que already corroía o regime.\n\n**A instabilidade é estrutural, não incidental.** Entre 1910 e 1926 há mais de quarenta governos e dezenas de levantes militares e civis; o assassinato do presidente Sidónio Pais, em 1918, é sintoma da mesma fragilidade. A classe política republicana nunca consegue formar coalizão duradoura nem conter a inflação do pós-guerra.\n\n**O golpe militar de 28 de maio de 1926 encerra o experimento.** Oficiais tomam o poder em nome da ordem e da estabilidade financeira, abrindo uma ditadura militar que, dois anos depois, chamaria um professor de economia de Coimbra para sanear as contas públicas — António de Oliveira Salazar.",
+      "fontes": [
+        "marques-historia-portugal",
+        "birmingham-historia-portugal"
+      ]
+    },
+    {
+      "id": "pt-estado-novo",
+      "inicio": "1926",
+      "fim": "1974",
+      "rotulo": "Ditadura Militar e Estado Novo",
+      "regime": "ditadura militar, depois Estado corporativista de partido único sob Salazar",
+      "textoMdx": "Quarenta e oito anos de ditadura — a mais longa da Europa ocidental no século XX —, sustentada por censura, polícia política e um império colonial defendido até a última hora, em guerra, contra a maré da descolonização.\n\n**Salazar chega ao Ministério das Finanças em 1928 e ao poder em 1932.** Contratado para sanear o orçamento com poderes excepcionais, ele consolida controle total sobre o Estado como presidente do Conselho e, em 1933, promulga a Constituição do Estado Novo: corporativista, de partido único — a União Nacional —, com a PIDE como polícia política e censura prévia à imprensa.\n\n**A neutralidade na Segunda Guerra é pragmática e rentável.** Portugal vende volfrâmio aos dois lados do conflito e mantém relações com Berlim e com Londres simultaneamente, protegido pela aliança inglesa secular; Lisboa torna-se rota de fuga para refugiados europeus, incluindo milhares de judeus, em parte graças a vistos emitidos à revelia das ordens do regime pelo cônsul Aristides de Sousa Mendes em Bordéus.\n\n**As guerras coloniais consomem o país a partir de 1961.** Levantes em Angola, depois na Guiné e em Moçambique, levam Salazar a manter até cem mil soldados simultaneamente em três frentes africanas, recusando a onda de descolonização que varria o resto da Europa. O custo humano e fiscal da guerra, e o isolamento internacional crescente, corroem o regime por dentro mesmo depois de Salazar ser afastado por incapacidade em 1968 e substituído por Marcello Caetano.\n\n**A Revolução dos Cravos, em 25 de abril de 1974, é feita por capitães cansados da guerra.** O Movimento das Forças Armadas depõe Caetano em poucas horas, quase sem derramamento de sangue — o nome vem das flores colocadas nos canos dos fuzis pela população nas ruas de Lisboa. Segue-se um período revolucionário conturbado, com nacionalizações e reforma agrária, até a estabilização democrática ao final da década.\n\n**A descolonização é rápida e traumática.** Entre 1974 e 1975, Angola, Moçambique, Guiné-Bissau, Cabo Verde e São Tomé e Príncipe tornam-se independentes; cerca de meio milhão de retornados portugueses chegam a Portugal em condições precárias, e a guerra civil que explode em Angola logo em seguida mostraria o preço de uma retirada apressada.",
+      "fontes": [
+        "marques-historia-portugal",
+        "relatorio-onu-tarrafal-e-colonias"
+      ]
+    },
+    {
+      "id": "pt-republica",
+      "inicio": "1974",
+      "rotulo": "República Portuguesa",
+      "regime": "república semipresidencialista, sob a Constituição de 1976",
+      "textoMdx": "Cinco décadas de democracia consolidada, marcadas pela entrada na Europa, por uma crise financeira severa e por uma reconciliação com o passado colonial que segue incompleta.\n\n**A Constituição de 1976 nasce ainda sob influência revolucionária** e é sucessivamente revista para acomodar a economia de mercado; o sistema semipresidencial reparte poder entre presidente eleito diretamente e primeiro-ministro respondendo ao Parlamento.\n\n**A entrada na Comunidade Europeia, em 1986, é o marco da normalização.** Junto com a Espanha, Portugal ingressa no bloco depois de anos de negociação, recebendo fundos estruturais que financiam infraestrutura e modernização — e trocando o isolamento salazarista por integração plena ao continente.\n\n**A crise da dívida soberana, entre 2011 e 2014, força um resgate internacional.** Sob programa conjunto do FMI, do Banco Central Europeu e da Comissão Europeia, o país aplica cortes profundos em salários, pensões e serviços públicos; o desemprego jovem ultrapassa 40% no pico da crise, e a emigração — sobretudo para o Reino Unido e países lusófonos — retoma escala não vista desde o Estado Novo.\n\n**A relação com o passado colonial permanece em disputa aberta.** Décadas depois da independência das ex-colônias, o debate sobre memória, estatuária ligada à expansão e eventual reparação por escravidão e violência colonial ocupa espaço crescente no debate público português, sem que o Estado tenha adotado posição de reparação formal.\n\n**A política se fragmenta na década de 2020.** Depois de décadas de alternância estável entre socialistas e social-democratas, a ascensão eleitoral do partido de extrema-direita Chega, a partir de 2019, torna o sistema partidário português mais fragmentado e a formação de maiorias mais difícil — padrão comum a outras democracias europeias no mesmo período.",
+      "fontes": [
+        "marques-historia-portugal",
+        "birmingham-historia-portugal"
+      ]
+    }
+  ]
+}

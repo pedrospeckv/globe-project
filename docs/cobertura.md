@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**37 de 174 países** desenhados no mapa têm dossiê (21.3%), somando **232 períodos**.
+**39 de 174 países** desenhados no mapa têm dossiê (22.4%), somando **245 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -25,6 +25,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Cuba | `CUB` | 4 | 4 |
 | El Salvador | `SLV` | 4 | 4 |
 | Equador | `ECU` | 5 | 5 |
+| Espanha | `ESP` | 6 | 6 |
 | Estados Unidos | `USA` | 8 | 8 |
 | França | `FRA` | 10 | 10 |
 | Groenlândia | `GRL` | 3 | 3 |
@@ -41,6 +42,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Paraguai | `PRY` | 6 | 6 |
 | Peru | `PER` | 10 | 10 |
 | Porto Rico | `PRI` | 4 | 4 |
+| Portugal | `PRT` | 7 | 7 |
 | Reino Unido | `GBR` | 6 | 6 |
 | República Dominicana | `DOM` | 5 | 5 |
 | Rússia | `RUS` | 6 | 6 |
@@ -81,15 +83,14 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | Netherlands | New Caledonia | New Zealand | Niger |
 | Nigeria | North Korea | Norway | Oman |
 | Pakistan | Palestine | Papua New Guinea | Philippines |
-| Poland | Portugal | Qatar | Romania |
-| Rwanda | S. Sudan | Saudi Arabia | Senegal |
-| Serbia | Sierra Leone | Slovakia | Slovenia |
-| Solomon Is. | Somalia | South Africa | South Korea |
-| Spain | Sri Lanka | Sudan | Sweden |
-| Switzerland | Syria | Taiwan | Tajikistan |
-| Tanzania | Thailand | Timor-Leste | Togo |
-| Tunisia | Turkey | Turkmenistan | Uganda |
-| Ukraine | United Arab Emirates | Uzbekistan | Vanuatu |
-| Vietnam | W. Sahara | Yemen | Zambia |
-| Zimbabwe |  |  |  |
+| Poland | Qatar | Romania | Rwanda |
+| S. Sudan | Saudi Arabia | Senegal | Serbia |
+| Sierra Leone | Slovakia | Slovenia | Solomon Is. |
+| Somalia | South Africa | South Korea | Sri Lanka |
+| Sudan | Sweden | Switzerland | Syria |
+| Taiwan | Tajikistan | Tanzania | Thailand |
+| Timor-Leste | Togo | Tunisia | Turkey |
+| Turkmenistan | Uganda | Ukraine | United Arab Emirates |
+| Uzbekistan | Vanuatu | Vietnam | W. Sahara |
+| Yemen | Zambia | Zimbabwe |  |
 
