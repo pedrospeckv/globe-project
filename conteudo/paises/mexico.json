@@ -1,0 +1,113 @@
+{
+  "iso": "MEX",
+  "isoNumerico": "484",
+  "nome": "México",
+  "periodos": [
+    {
+      "id": "mx-mesoamerica",
+      "inicio": "-1200",
+      "fim": "1428",
+      "rotulo": "Estados mesoamericanos",
+      "regime": "cidades-Estado e Estados regionais sucessivos, sem unificação",
+      "textoMdx": "Mesoamérica é uma das poucas regiões do mundo onde a agricultura, a cidade, a escrita e o Estado foram inventados de forma independente — e o México é o centro dessa invenção.\n\n**Os olmecas estabelecem o repertório, a partir de 1200 a.C.** Nas terras baixas do golfo, San Lorenzo e La Venta produzem as cabeças colossais, o jogo de bola, a organização em centros cerimoniais e provavelmente o calendário que todas as culturas posteriores usariam. São chamados de cultura-mãe por isso, com a ressalva de que a influência foi de troca e não de império.\n\n**Teotihuacan é a maior cidade das Américas antes da chegada europeia.** No vale do México, entre os séculos I e VII, ela chega a algo entre cem e duzentos mil habitantes, com traçado ortogonal rigoroso, conjuntos habitacionais de vários andares e uma avenida de quilômetros alinhada a referências astronômicas. Sua influência aparece em cidades maias a mais de mil quilômetros. Não se sabe que língua se falava ali nem como se governava — e o nome pelo qual a conhecemos é náuatle, dado séculos depois por quem encontrou as ruínas.\n\n**Monte Albán e o vale de Oaxaca produzem escrita antiga.** Os zapotecas erguem a cidade sobre um cerro aplainado por trabalho humano, e ali estão alguns dos registros glíficos mais antigos da região. Os mixtecas produzem depois códices genealógicos que sobreviveram à conquista.\n\n**Os toltecas de Tula ficam entre a história e a legitimação.** Depois da queda de Teotihuacan, Tula domina o centro entre os séculos X e XII, e a tradição tolteca — com Quetzalcóatl no centro — torna-se a referência de nobreza a que dinastias posteriores, inclusive a mexica, ligariam sua genealogia para se legitimar.\n\n**Nada disso desaparece em 1521.** As línguas, as comunidades e as instituições locais atravessam a conquista; o que muda é quem está no topo. É por isso que o México tem hoje mais de sessenta línguas indígenas vivas.",
+      "fontes": [
+        "coe-os-maias",
+        "leon-portilla-visao-vencidos"
+      ]
+    },
+    {
+      "id": "mx-mexica",
+      "inicio": "1428",
+      "fim": "1521",
+      "rotulo": "Tríplice Aliança mexica",
+      "regime": "confederação imperial de três cidades, com tributo exigido de dezenas de senhorios",
+      "textoMdx": "Tenochtitlan é fundada em 1325 numa ilha do lago Texcoco, e em menos de um século a cidade que nasceu como vassala domina o centro da Mesoamérica.\n\n**O império é uma aliança de três, não uma monarquia única.** Em 1428 Tenochtitlan, Texcoco e Tlacopan derrotam Azcapotzalco e repartem tributo e conquistas. É esse arranjo — a Excan Tlatoloyan — que se expande até os dois oceanos sob Itzcóatl, Montezuma I e Ahuítzotl.\n\n**O tributo é o Estado.** Dezenas de províncias entregam milho, algodão, cacau, penas, jade, tecido e trabalho, registrados em pictogramas nos códices de tributo. Não há moeda de curso geral, mas grãos de cacau e mantos funcionam como equivalentes, e Tlatelolco abriga um mercado que os espanhóis descreveram como maior que qualquer um que conhecessem na Europa.\n\n**A cidade é uma obra hidráulica.** Tenochtitlan chega a algo entre duzentos e trezentos mil habitantes, sobre uma ilha ampliada por chinampas — canteiros construídos no lago, de altíssima produtividade —, com aqueduto de água potável, calçadas com pontes removíveis e um dique para separar a água salobra da doce.\n\n**A guerra e o sacrifício são institucionais, e o exagero também é fonte.** A expansão é sustentada por guerra permanente, incluindo as guerras floridas com Tlaxcala, e por sacrifício humano em escala que as fontes espanholas ampliaram para justificar a conquista, e que as fontes nauas registram sem negar. Os dois excessos precisam ser lidos com desconto.\n\n**A queda em 1521 é obra de uma coalizão indígena e de uma epidemia.** Cortés desembarca em 1519 com poucas centenas de homens e vence porque Tlaxcala e outros senhorios submetidos ao tributo mexica se aliam a ele — dezenas de milhares de guerreiros. A varíola, chegada em 1520, mata o tlatoani Cuitláhuac e devasta a cidade sitiada. Tenochtitlan cai em 13 de agosto de 1521, sob o comando de Cuauhtémoc, depois de meses de cerco e da destruição do aqueduto.",
+      "fontes": [
+        "leon-portilla-visao-vencidos",
+        "coe-os-maias"
+      ]
+    },
+    {
+      "id": "mx-nova-espanha",
+      "inicio": "1521",
+      "fim": "1821",
+      "rotulo": "Vice-Reino da Nova Espanha",
+      "regime": "vice-reino da Coroa de Castela; a maior e mais rica possessão espanhola nas Américas",
+      "textoMdx": "Três séculos em que a Cidade do México é a capital de um vice-reino que vai da Califórnia à Costa Rica e alcança as Filipinas — e em que a prata mexicana se torna a primeira moeda global.\n\n**A prata de Zacatecas e Guanajuato financia impérios.** Descobertas a partir de 1546, as minas do norte fazem da Nova Espanha a maior produtora mundial de prata, superando Potosí no século XVIII. O peso de prata mexicano circula da Europa à China, e é aceito legalmente nos Estados Unidos até 1857.\n\n**O galeão de Manila liga a Ásia à Europa pela América.** De 1565 a 1815, uma rota anual entre Acapulco e Manila troca prata mexicana por seda, porcelana e especiarias — a primeira ligação comercial regular e permanente entre os continentes, e a Nova Espanha é o pivô dela.\n\n**A conquista espiritual e a resistência das instituições locais.** Franciscanos, dominicanos e depois jesuítas convertem em massa e fundam colégios; ao mesmo tempo, as comunidades indígenas — os altepetl — sobrevivem reorganizadas como repúblicas de índios, com terras próprias, autoridades e tribunais aos quais recorrem, o que produz um arquivo enorme de litígios indígenas em língua náuatle.\n\n**A sociedade de castas é rígida e vazada por todos os lados.** Peninsulares no topo, crioulos abaixo, e uma população mestiça, indígena e africana que a nomenclatura tenta classificar em dezenas de categorias — que as pinturas de castas registram e que a prática social ignora.\n\n**A independência começa como revolta popular e termina como acordo de elites.** O padre Miguel Hidalgo convoca em setembro de 1810 uma insurreição de camponeses indígenas e mestiços; ele e depois José María Morelos, que convoca um congresso e proclama a abolição da escravidão e das castas, são executados. Dez anos depois, quando a Espanha adota uma constituição liberal, é o oficial realista Agustín de Iturbide quem pacta com os insurgentes o Plano de Iguala e consuma a independência em 1821 — preservando a ordem social que Hidalgo queria derrubar.",
+      "fontes": [
+        "gibson-astecas-sob-espanha",
+        "krauze-mexico-biografia-poder"
+      ]
+    },
+    {
+      "id": "mx-primeira-republica",
+      "inicio": "1821",
+      "fim": "1855",
+      "rotulo": "Primeiro Império e a primeira república",
+      "regime": "império efêmero, depois república federal e central em alternância; perda de metade do território",
+      "textoMdx": "Trinta e cinco anos de instabilidade extrema — dezenas de governos, uma monarquia de dez meses, secessões e duas guerras estrangeiras — ao fim dos quais o México perde metade do território.\n\n**Iturbide é imperador por dez meses.** Coroado em 1822, é derrubado em 1823 e fuzilado ao tentar voltar; a América Central separa-se no mesmo ano. A república nasce em 1824 com uma constituição federal, e passa as três décadas seguintes alternando federalismo e centralismo por golpe.\n\n**Santa Anna ocupa a presidência onze vezes.** Figura dominante do período, ele muda de lado conforme a conjuntura e é o nome associado a todas as perdas territoriais — o que o converteu em símbolo nacional do que não se deve ser.\n\n**O Texas se separa em 1836.** Colonos anglo-americanos, admitidos com a condição de se tornarem católicos e obedecerem às leis mexicanas, rebelam-se contra a centralização e contra o fim da escravidão, que o México havia abolido em 1829. Depois de El Álamo, Santa Anna é derrotado e capturado em San Jacinto. O México não reconhece a independência texana, e a anexação pelos Estados Unidos, em 1845, é o gatilho da guerra.\n\n**A guerra de 1846-1848 é a maior catástrofe da história mexicana.** Tropas norte-americanas desembarcam em Veracruz, avançam pelo interior e tomam a Cidade do México em setembro de 1847 — a defesa de Chapultepec pelos cadetes do colégio militar entra na memória nacional. Pelo Tratado de Guadalupe Hidalgo, o México cede a Alta Califórnia e o Novo México: cerca de metade do seu território, mediante indenização de quinze milhões de dólares. Poucos anos depois, a venda de La Mesilla acrescenta a última cessão.\n\n**A derrota destrói o consenso e abre a Reforma.** Fica claro que o arranjo de privilégios coloniais herdados — Igreja e exército com foros próprios, terras corporativas imobilizadas — não sustenta um Estado. A geração liberal que toma o poder em 1855 propõe desmontá-lo.",
+      "fontes": [
+        "krauze-mexico-biografia-poder",
+        "tratado-guadalupe-hidalgo"
+      ]
+    },
+    {
+      "id": "mx-reforma",
+      "inicio": "1855",
+      "fim": "1876",
+      "rotulo": "A Reforma e o Segundo Império",
+      "regime": "república liberal em guerra civil, com intervenção francesa e um império imposto",
+      "textoMdx": "Vinte anos que definem o Estado laico mexicano, com duas guerras civis e um arquiduque austríaco fuzilado.\n\n**As Leis de Reforma separam Igreja e Estado.** Sob Benito Juárez, indígena zapoteca de Oaxaca, e a geração de Melchor Ocampo e Sebastián Lerdo, o Estado nacionaliza os bens do clero, institui registro civil, casamento civil, cemitérios seculares e liberdade de culto, e a Constituição de 1857 consagra o desenho.\n\n**A desamortização atinge também as terras comunais indígenas.** A lei que obriga corporações a vender propriedades imobilizadas visava a Igreja, e alcançou as comunidades: parte de suas terras acaba em mãos de particulares. É a contradição central do liberalismo mexicano do período, e a raiz agrária da revolução meio século depois.\n\n**A Guerra da Reforma, de 1858 a 1861, é ganha pelos liberais.** Conservadores derrotados buscam apoio europeu, e a suspensão do pagamento da dívida externa por Juárez dá o pretexto: Espanha, Grã-Bretanha e França enviam esquadras em 1862. As duas primeiras se retiram; a França fica.\n\n**Cinco de maio de 1862.** O exército mexicano vence os franceses em Puebla — vitória tática que não impede a queda da capital no ano seguinte, e que se tornou a data mexicana mais celebrada fora do México.\n\n**Maximiliano governa três anos e é fuzilado.** Napoleão III instala o arquiduque Fernando Maximiliano de Habsburgo como imperador em 1864, com apoio conservador. Ele governa de forma mais liberal do que seus patrocinadores esperavam — confirma leis de reforma, tenta regular o trabalho indígena — e perde o apoio dos dois lados. Com a Guerra Civil norte-americana encerrada e pressão de Washington, a França retira as tropas em 1866; Maximiliano é capturado em Querétaro e fuzilado em junho de 1867. Juárez restaura a república e morre no cargo em 1872.",
+      "fontes": [
+        "krauze-mexico-biografia-poder"
+      ]
+    },
+    {
+      "id": "mx-porfiriato",
+      "inicio": "1876",
+      "fim": "1910",
+      "rotulo": "Porfiriato",
+      "regime": "república presidencialista sob ditadura pessoal, com eleições formais",
+      "textoMdx": "Trinta e quatro anos de Porfirio Díaz, com o slogan de ordem e progresso: crescimento econômico rápido, paz interna e uma concentração de terra que produziria a revolução.\n\n**As ferrovias e o capital estrangeiro integram o país.** De poucas centenas de quilômetros a mais de vinte mil, ligando o centro ao norte e aos portos. Petróleo, mineração, eletricidade e ferrovias ficam majoritariamente com capital britânico e norte-americano, com concessões generosas.\n\n**A lei de terras baldias transfere o campo a poucas mãos.** A titulação de terras consideradas vagas entrega enormes extensões a companhias e a aliados do regime; comunidades indígenas e camponesas perdem terras comunais e ficam sem título. Ao fim do período, uma parcela mínima da população detém a maior parte do território agrícola, e a maioria rural trabalha em haciendas endividada na loja do patrão.\n\n**A repressão é seletiva e eficaz.** A polícia rural, os rurales, garante a ordem no campo; greves são esmagadas — Cananea em 1906, Río Blanco em 1907 —, e os yaquis de Sonora e os maias de Yucatán são deportados como trabalhadores forçados a plantações de henequém e tabaco.\n\n**A ideologia é positivista e explicitamente elitista.** O grupo dos científicos formula a modernização como tarefa técnica, e a política de imigração europeia como projeto de melhoramento da população — o que dá a medida de como o regime encarava a maioria indígena e mestiça do próprio país.\n\n**A sucessão trava o sistema.** Em 1908, Díaz declara em entrevista que o México estaria pronto para a democracia; Francisco Madero toma a declaração ao pé da letra, publica um livro contra a reeleição, candidata-se em 1910, é preso, e chama à insurreição para 20 de novembro. Díaz renuncia em maio de 1911 e morre em Paris.",
+      "fontes": [
+        "krauze-mexico-biografia-poder",
+        "knight-revolucao-mexicana"
+      ]
+    },
+    {
+      "id": "mx-revolucao",
+      "inicio": "1910",
+      "fim": "1920",
+      "rotulo": "Revolução Mexicana",
+      "regime": "guerra civil entre facções revolucionárias; governos sucessivos sem estabilidade",
+      "textoMdx": "A primeira grande revolução social do século XX, dez anos antes da russa: um conflito de exércitos populares em que o que estava em jogo era a terra, e que custou centenas de milhares de vidas.\n\n**Madero vence e é assassinado.** Presidente em 1911, ele desmonta a ditadura sem tocar na estrutura agrária, o que rompe com Emiliano Zapata — cujo Plano de Ayala, de 1911, exige a devolução das terras comunais com o lema de terra e liberdade. Em fevereiro de 1913, na Decena Trágica, o general Victoriano Huerta dá um golpe com apoio do embaixador norte-americano e manda matar Madero.\n\n**A coalizão contra Huerta reúne quem depois se enfrentaria.** Venustiano Carranza no nordeste, Álvaro Obregón em Sonora, Pancho Villa com a División del Norte, Zapata no sul. Huerta cai em 1914 — e a convenção de Aguascalientes fracassa em unir os vencedores.\n\n**A guerra entre facções é a fase mais sangrenta.** Obregón derrota Villa em Celaya, em 1915, com trincheiras e metralhadoras. Villa ataca território norte-americano em 1916, e uma expedição punitiva sob Pershing o persegue no norte sem sucesso. Zapata é atraído a uma emboscada e assassinado em 1919; Carranza é morto em 1920 ao tentar impor um sucessor; Villa é assassinado em 1923; Obregón, em 1928.\n\n**A Constituição de 1917 é o maior legado do período.** Escrita em Querétaro, é a primeira do mundo a inscrever direitos sociais: jornada de oito horas e direito de greve no artigo 123, propriedade da nação sobre o subsolo no artigo 27 — base de toda a política petroleira futura —, educação laica e obrigatória, e limites à Igreja. Antecede em dois anos a Constituição de Weimar.\n\n**O custo humano é enorme.** As estimativas correntes de mortos, por combate, fome e a gripe de 1918, ficam na ordem de um milhão de pessoas, num país de quinze milhões — e a migração para os Estados Unidos que a guerra inicia nunca mais parou.",
+      "fontes": [
+        "knight-revolucao-mexicana",
+        "constituicao-mexico-1917"
+      ]
+    },
+    {
+      "id": "mx-pri",
+      "inicio": "1920",
+      "fim": "2000",
+      "rotulo": "A revolução institucionalizada",
+      "regime": "república presidencialista sob partido hegemônico, com sucessão presidencial controlada",
+      "textoMdx": "Oito décadas em que um partido único de fato governa sem interrupção — o que Mario Vargas Llosa chamou de ditadura perfeita — combinando eleição regular, sucessão sem reeleição e cooptação de sindicatos e camponeses.\n\n**A Guerra do Cristo Rei mostra os limites do Estado laico.** A aplicação estrita dos artigos anticlericais por Plutarco Elías Calles provoca, de 1926 a 1929, uma insurreição católica no centro-oeste com dezenas de milhares de mortos, encerrada por acordo.\n\n**Calles cria o partido em 1929 para resolver a sucessão.** Depois do assassinato de Obregón, o PNR — depois PRM, depois PRI — passa a ser o mecanismo pelo qual as facções revolucionárias resolvem suas disputas sem guerra: o presidente escolhe o sucessor, não se reelege, e todos aceitam.\n\n**Lázaro Cárdenas cumpre a promessa agrária e nacionaliza o petróleo.** Entre 1934 e 1940, distribui mais terra que todos os antecessores somados, sobretudo em ejidos coletivos, organiza a central sindical e a camponesa dentro do partido, e em 18 de março de 1938 expropria as companhias petroleiras britânicas e norte-americanas, criando a Pemex — data que virou feriado cívico. Acolhe os refugiados republicanos espanhóis e concede asilo a Trótski.\n\n**O milagre mexicano dura três décadas.** Industrialização por substituição de importações, crescimento alto e estável, urbanização acelerada, universidade pública em massa. O Estado é ao mesmo tempo empresário, árbitro trabalhista e distribuidor.\n\n**1968 quebra a legitimidade.** Dez dias antes dos Jogos Olímpicos da Cidade do México, tropas e franco-atiradores disparam contra uma manifestação estudantil na praça das Três Culturas, em Tlatelolco; o número de mortos foi ocultado por décadas. Segue-se a guerra suja dos anos 1970, com desaparecimentos forçados em Guerrero, apurados depois pela fiscalia especial.\n\n**A crise e o fim do ciclo.** A nacionalização dos bancos e a moratória de 1982 abrem uma década de ajuste; o terremoto de 1985, com a sociedade civil organizando o resgate diante da paralisia oficial, e a eleição de 1988, com a queda do sistema de apuração e a vitória contestada de Carlos Salinas, corroem o regime. O NAFTA entra em vigor em 1º de janeiro de 1994 — dia em que o EZLN se levanta em Chiapas —, e o ano termina com o assassinato do candidato presidencial Luis Donaldo Colosio e uma crise cambial devastadora. Em 2000, o PRI perde a presidência pela primeira vez em setenta e um anos.",
+      "fontes": [
+        "krauze-mexico-biografia-poder",
+        "femospp-informe-historico"
+      ]
+    },
+    {
+      "id": "mx-alternancia",
+      "inicio": "2000",
+      "rotulo": "Estados Unidos Mexicanos",
+      "regime": "república federal presidencialista com alternância partidária",
+      "textoMdx": "Vinte e cinco anos de alternância no poder, com uma violência que nenhum dos governos conseguiu conter e que redefiniu a política nacional.\n\n**A transição é institucional e limitada.** Vicente Fox, do PAN, vence em 2000; a autoridade eleitoral autônoma, a lei de acesso à informação e a fiscalia sobre crimes do passado são conquistas do período. As reformas de fundo — fiscal, energética, judicial — avançam pouco, e o PRI segue governando estados e o Congresso.\n\n**A guerra às drogas, declarada em 2006, muda a escala da violência.** Felipe Calderón mobiliza as Forças Armadas contra os cartéis; a fragmentação dos grupos multiplica os confrontos. As contas oficiais de homicídios acumulam centenas de milhares de mortos nas duas décadas, e o registro nacional de pessoas desaparecidas passou de cem mil — número sem paralelo em país que não está em guerra declarada.\n\n**Ayotzinapa, em 2014, é o caso que concentra tudo.** Quarenta e três estudantes de uma escola normal rural desaparecem em Iguala. A versão oficial — incineração num lixão — foi desmontada tecnicamente pelo grupo de especialistas independentes da Comissão Interamericana, que documentou obstrução e tortura de detidos. O caso segue sem esclarecimento pleno.\n\n**A imprensa e a política local pagam o preço mais alto.** O México é sistematicamente apontado como um dos países mais letais do mundo para jornalistas, e centenas de candidatos e autoridades municipais foram assassinados em ciclos eleitorais recentes.\n\n**A alternância continua e o poder se reconcentra.** Andrés Manuel López Obrador vence em 2018 com a maior votação da história do país, amplia transferências sociais e o salário mínimo, entrega tarefas civis e obras às Forças Armadas, e mantém confronto aberto com órgãos autônomos e com o Judiciário. Em 2024, Claudia Sheinbaum é eleita a primeira presidenta do México, e uma reforma aprovada no mesmo ano passa a submeter juízes, inclusive os da Suprema Corte, a eleição por voto popular — mudança sem precedente entre democracias e objeto de disputa sobre seus efeitos na independência judicial.",
+      "fontes": [
+        "krauze-mexico-biografia-poder",
+        "giei-ayotzinapa"
+      ]
+    }
+  ]
+}

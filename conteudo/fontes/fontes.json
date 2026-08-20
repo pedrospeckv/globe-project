@@ -2815,5 +2815,133 @@
     "publicacao": "Congresso dos Estados Unidos",
     "data": "1917",
     "citacao": "Concedeu cidadania norte-americana aos porto-riquenhos e criou uma legislatura eleita na ilha, mantendo o governador nomeado por Washington e o poder do Congresso de legislar sobre o território. Tornou os porto-riquenhos sujeitos ao serviço militar obrigatório sem representação com voto no Congresso."
+  },
+  {
+    "id": "krauze-mexico-biografia-poder",
+    "tipo": "livro",
+    "titulo": "Mexico: Biography of Power. A History of Modern Mexico, 1810-1996",
+    "autor": "Enrique Krauze",
+    "data": "1997",
+    "citacao": "História do México desde a independência, organizada em torno das figuras que exerceram o poder. Sustenta que a presidência mexicana herdou atributos do vice-rei e do tlatoani, e que o sistema do PRI institucionalizou o caudilhismo em vez de superá-lo."
+  },
+  {
+    "id": "knight-revolucao-mexicana",
+    "tipo": "livro",
+    "titulo": "The Mexican Revolution",
+    "autor": "Alan Knight",
+    "data": "1986",
+    "citacao": "Estudo em dois volumes da revolução de 1910-1920. Trata o conflito como uma revolução popular e majoritariamente agrária, com múltiplos movimentos regionais de origem camponesa, contra as leituras que a reduzem a uma disputa entre elites."
+  },
+  {
+    "id": "leon-portilla-visao-vencidos",
+    "tipo": "livro",
+    "titulo": "Visión de los vencidos: relaciones indígenas de la Conquista",
+    "autor": "Miguel León-Portilla",
+    "data": "1959",
+    "citacao": "Reúne e traduz relatos nauas sobre a conquista de Tenochtitlan, escritos em náuatle nas décadas seguintes. Permite ler o episódio pelas fontes dos derrotados, e não apenas pelas cartas de Cortés e pelas crônicas espanholas."
+  },
+  {
+    "id": "gibson-astecas-sob-espanha",
+    "tipo": "livro",
+    "titulo": "The Aztecs Under Spanish Rule: A History of the Indians of the Valley of Mexico, 1519-1810",
+    "autor": "Charles Gibson",
+    "data": "1964",
+    "citacao": "Estudo de referência sobre a continuidade e a transformação das instituições indígenas do vale do México durante os três séculos coloniais. Mostra como a comunidade indígena, o altepetl, sobreviveu reorganizada dentro da ordem espanhola."
+  },
+  {
+    "id": "tratado-guadalupe-hidalgo",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Guadalupe Hidalgo",
+    "publicacao": "Estados Unidos Mexicanos e Estados Unidos da América",
+    "data": "1848",
+    "citacao": "Encerrou a guerra de 1846-1848 e transferiu aos Estados Unidos cerca de metade do território mexicano — a Alta Califórnia e o Novo México —, mediante indenização de 15 milhões de dólares. Previa garantias de propriedade e cidadania aos mexicanos que permanecessem nas terras cedidas, cumpridas de forma limitada."
+  },
+  {
+    "id": "constituicao-mexico-1917",
+    "tipo": "documento-oficial",
+    "titulo": "Constitución Política de los Estados Unidos Mexicanos",
+    "publicacao": "Congresso Constituinte de Querétaro",
+    "data": "1917",
+    "citacao": "Primeira constituição do mundo a incorporar direitos sociais: jornada de oito horas, direito de greve e proteção ao trabalho no artigo 123, propriedade originária da nação sobre o subsolo no artigo 27, e educação laica no artigo 3. Antecedeu em dois anos a Constituição de Weimar."
+  },
+  {
+    "id": "femospp-informe-historico",
+    "tipo": "documento-oficial",
+    "titulo": "Informe Histórico a la Sociedad Mexicana",
+    "publicacao": "Fiscalía Especial para Movimientos Sociales y Políticos del Pasado (México)",
+    "data": "2006",
+    "citacao": "Apurou a repressão estatal entre os anos 1960 e 1980 — o massacre de Tlatelolco em 1968, o de Corpus Christi em 1971 e a guerra suja em Guerrero — documentando desaparecimentos forçados, tortura e execuções por corpos do Estado. Sua publicação foi disputada dentro do próprio governo, e uma versão circulou antes da oficial."
+  },
+  {
+    "id": "giei-ayotzinapa",
+    "tipo": "documento-oficial",
+    "titulo": "Informes sobre el caso Ayotzinapa",
+    "publicacao": "Grupo Interdisciplinario de Expertos Independientes, Comissão Interamericana de Direitos Humanos",
+    "data": "2016",
+    "citacao": "Desmontou tecnicamente a versão oficial sobre o desaparecimento de 43 estudantes da escola normal de Ayotzinapa em setembro de 2014, mostrando que a incineração dos corpos no lixão de Cocula era fisicamente impossível, e documentando obstrução da investigação e tortura de detidos."
+  },
+  {
+    "id": "morton-historia-canada",
+    "tipo": "livro",
+    "titulo": "A Short History of Canada",
+    "autor": "Desmond Morton",
+    "data": "1983",
+    "citacao": "História do Canadá do contato europeu ao presente. Acompanha a construção de uma federação a partir de colônias com línguas, religiões e economias distintas, e a tensão permanente entre centro federal, províncias e a questão do Quebec."
+  },
+  {
+    "id": "trc-canada",
+    "tipo": "documento-oficial",
+    "titulo": "Honouring the Truth, Reconciling for the Future: Final Report of the Truth and Reconciliation Commission of Canada",
+    "publicacao": "Truth and Reconciliation Commission of Canada",
+    "data": "2015",
+    "citacao": "Apurou o sistema de escolas residenciais que retirou cerca de 150 mil crianças indígenas, inuítes e métis de suas famílias entre o século XIX e 1996, documentando abuso, morte e a proibição de línguas e práticas próprias. Concluiu que o sistema constituiu genocídio cultural e formulou 94 chamados à ação."
+  },
+  {
+    "id": "proclamacao-real-1763",
+    "tipo": "documento-oficial",
+    "titulo": "Royal Proclamation of 1763",
+    "publicacao": "Coroa Britânica",
+    "data": "1763",
+    "citacao": "Organizou os territórios tomados da França e reservou às nações indígenas as terras a oeste dos Apalaches, exigindo que qualquer cessão fosse feita à Coroa em assembleia pública. É invocada até hoje nos tribunais canadenses como base dos direitos de tratado, e está referida na Constituição de 1982."
+  },
+  {
+    "id": "ato-britanico-america-norte-1867",
+    "tipo": "documento-oficial",
+    "titulo": "British North America Act",
+    "publicacao": "Parlamento do Reino Unido",
+    "data": "1867",
+    "citacao": "Uniu Canadá, Nova Escócia e Nova Brunswick numa federação com parlamento próprio, repartindo competências entre o governo federal e as províncias. Não era independência: assuntos externos e emendas constitucionais permaneciam em Londres, situação alterada em 1931 e concluída em 1982."
+  },
+  {
+    "id": "estatuto-westminster-1931",
+    "tipo": "documento-oficial",
+    "titulo": "Statute of Westminster",
+    "publicacao": "Parlamento do Reino Unido",
+    "data": "1931",
+    "citacao": "Reconheceu a igualdade legislativa entre o Reino Unido e os domínios, encerrando a capacidade do Parlamento britânico de legislar para eles sem consentimento. É a data em que o Canadá passa a ter soberania externa plena, embora a emenda constitucional continuasse dependendo de Londres."
+  },
+  {
+    "id": "ato-constitucional-1982",
+    "tipo": "documento-oficial",
+    "titulo": "Constitution Act, 1982",
+    "publicacao": "Parlamento do Canadá e do Reino Unido",
+    "data": "1982",
+    "citacao": "Repatriou a Constituição canadense, criando fórmula de emenda interna, e incorporou a Carta Canadense de Direitos e Liberdades, com a cláusula derrogatória do artigo 33, além de reconhecer os direitos ancestrais e de tratado dos povos indígenas no artigo 35. O Quebec não a assinou."
+  },
+  {
+    "id": "corte-suprema-secessao-quebec",
+    "tipo": "decisao-judicial",
+    "titulo": "Reference re Secession of Quebec",
+    "publicacao": "Suprema Corte do Canadá",
+    "data": "1998",
+    "citacao": "Decidiu que o Quebec não pode separar-se unilateralmente, nem pelo direito interno nem pelo internacional, mas que uma maioria clara em resposta a uma pergunta clara obrigaria o resto do Canadá a negociar. A decisão é citada internacionalmente como modelo de tratamento jurídico de pedidos de secessão."
+  },
+  {
+    "id": "gad-historia-groenlandia",
+    "tipo": "livro",
+    "titulo": "The History of Greenland",
+    "autor": "Finn Gad",
+    "data": "1970",
+    "citacao": "História da Groenlândia em vários volumes, do povoamento paleo-esquimó à administração dinamarquesa do século XX. Reconstrói a colonização nórdica medieval e seu desaparecimento, a chegada dos Thule ancestrais dos inuítes atuais, e o regime de monopólio comercial dinamarquês."
   }
 ]

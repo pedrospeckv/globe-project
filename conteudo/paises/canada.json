@@ -1,0 +1,67 @@
+{
+  "iso": "CAN",
+  "isoNumerico": "124",
+  "nome": "Canadá",
+  "periodos": [
+    {
+      "id": "ca-nova-franca",
+      "inicio": "1608",
+      "fim": "1763",
+      "rotulo": "Nova França",
+      "regime": "colônia da Coroa francesa; economia de peles, com aliança e guerra com nações indígenas",
+      "textoMdx": "Samuel de Champlain funda Quebec em 1608, e a colônia que se forma é diferente das inglesas ao sul: pequena em população, imensa em extensão, e dependente de alianças com nações indígenas para existir.\n\n**A pele de castor é a razão da colônia.** O chapéu de feltro europeu cria demanda por castor, e o comércio exige parceiros que conheçam o interior. Os franceses aliam-se aos hurões-wendat, aos algonquinos e aos innus, e herdam a inimizade destes com a Confederação Iroquesa — as Cinco Nações haudenosaunee, que tinham instituições próprias, uma lei constitucional oral, a Grande Lei da Paz, e conduziam sua própria política externa entre franceses, holandeses e ingleses.\n\n**As guerras dos castores redesenham o interior.** Entre as décadas de 1640 e 1660, os iroqueses, armados com mosquetes holandeses, dispersam a confederação huroniana. A epidemia acompanha o comércio: varíola e sarampo reduzem populações inteiras antes de qualquer combate.\n\n**A colônia é povoada por decisão de Estado.** Sob Luís XIV e Colbert, a Nova França passa a província real em 1663; envia-se um regimento e cerca de oitocentas mulheres, as *filles du roi*, para formar famílias. Ainda assim, quando cai, tem algo em torno de setenta mil habitantes de origem europeia, contra mais de um milhão nas Treze Colônias.\n\n**A rede se estende do Atlântico ao golfo do México.** Postos e missões alcançam os Grandes Lagos, o Mississippi e a Louisiana. Os *coureurs des bois* e depois os *voyageurs* criam, com mulheres indígenas, as comunidades de que descende o povo métis — uma nação nova, com língua própria, o michif.\n\n**A queda é decidida em 1759-1760.** Na Guerra dos Sete Anos, os britânicos vencem na planície de Abraão, tomam Quebec e depois Montreal. Pelo Tratado de Paris de 1763, a França cede o Canadá e mantém apenas duas ilhas pesqueiras. Antes disso, em 1755, os britânicos já haviam deportado em massa a população acadiana — o Grand Dérangement, que dispersou milhares de pessoas pelas colônias e pela Louisiana.",
+      "fontes": [
+        "morton-historia-canada"
+      ]
+    },
+    {
+      "id": "ca-america-britanica",
+      "inicio": "1763",
+      "fim": "1867",
+      "rotulo": "América do Norte Britânica",
+      "regime": "colônias da Coroa Britânica, com governo responsável a partir da década de 1840",
+      "textoMdx": "Um século em que os britânicos administram uma colônia de população francesa e católica, e em que se decide que ela não vira anglófona nem se junta aos Estados Unidos.\n\n**A Proclamação Real de 1763 reserva terras às nações indígenas.** Ela exige que qualquer cessão seja feita à Coroa em assembleia pública, e é invocada até hoje nos tribunais canadenses; a Constituição de 1982 a menciona expressamente.\n\n**O Ato do Quebec, de 1774, é a decisão que preserva o Canadá francês.** Em vez de assimilar, Londres garante o livre exercício do catolicismo, o direito civil francês e o regime senhorial — cálculo pragmático para manter a lealdade da população num momento em que as colônias ao sul se agitavam. Nas Treze Colônias, o ato é listado entre as Leis Intoleráveis.\n\n**Os legalistas mudam a demografia.** Depois de 1783, dezenas de milhares de colonos leais à Coroa migram para o norte, incluindo os Mohawk sob Joseph Brant e cerca de três mil legalistas negros. Criam-se o Alto Canadá anglófono e Nova Brunswick.\n\n**A Guerra de 1812 fixa a fronteira e o autoentendimento.** Invasões norte-americanas são repelidas por regulares britânicos, milícias e aliados indígenas sob Tecumseh; Washington é incendiada em resposta a York. Nenhum território muda de mãos, e o episódio fica na memória canadense como o momento em que se decidiu não ser americano.\n\n**As rebeliões de 1837-1838 levam ao governo responsável.** Revoltas no Alto e no Baixo Canadá contra o poder de oligarquias locais são derrotadas, mas o relatório de Lord Durham recomenda unir as duas colônias e conceder governo responsável — implantado nos anos 1840. É a inovação constitucional que permitiria a autonomia sem independência, e que o restante do império britânico copiaria.",
+      "fontes": [
+        "morton-historia-canada",
+        "proclamacao-real-1763"
+      ]
+    },
+    {
+      "id": "ca-confederacao",
+      "inicio": "1867",
+      "fim": "1931",
+      "rotulo": "Domínio do Canadá",
+      "regime": "federação autônoma dentro do Império Britânico, com assuntos externos em Londres",
+      "textoMdx": "A confederação de 1º de julho de 1867 cria uma federação de quatro províncias que se expande até o Pacífico e o Ártico em cinquenta anos — e o preço dessa expansão é pago pelos povos indígenas e métis.\n\n**O Ato Britânico da América do Norte reparte competências.** Uma federação com parlamento em Ottawa, províncias com poderes próprios, e a Coroa britânica ainda responsável pela política externa e pelas emendas constitucionais. A motivação é tripla: medo dos Estados Unidos depois da Guerra Civil, necessidade de financiar ferrovias e o impasse político entre as duas Canadás.\n\n**A ferrovia transcontinental é a condição da unidade.** Concluída em 1885, ela é o preço da adesão da Colúmbia Britânica, e é construída em grande parte por milhares de trabalhadores chineses, mal pagos e com mortalidade alta — que depois seriam alvo de um imposto de cabeça e, em 1923, de uma lei que praticamente proibiu a imigração chinesa.\n\n**As pradarias são incorporadas por tratado e por fome.** Entre 1871 e 1921, os Tratados Numerados transferem à Coroa direitos sobre terras imensas, sob promessas de reservas, ensino e assistência frequentemente descumpridas. O desaparecimento do bisão remove a base alimentar das nações das pradarias, e o sistema de passes restringe sua circulação.\n\n**Os métis resistem duas vezes e perdem.** Louis Riel lidera a resistência do Rio Vermelho em 1869-1870, que resulta na criação de Manitoba, e a rebelião do Noroeste em 1885, depois da qual é julgado e enforcado — decisão que rachou o país entre anglófonos e francófonos por gerações.\n\n**As escolas residenciais começam nesse período.** Financiadas pelo Estado e operadas em grande parte por igrejas, elas retiram crianças indígenas, inuítes e métis de suas famílias, com frequência sob coerção legal. A comissão da verdade apuraria depois cerca de 150 mil crianças no sistema.\n\n**A autonomia externa cresce com a guerra.** A Primeira Guerra mobiliza mais de 600 mil canadenses numa população de oito milhões; Vimy, em 1917, torna-se marco de identidade nacional, e a crise da conscrição opõe Quebec ao resto do país. O Canadá assina o Tratado de Versalhes em nome próprio e entra sozinho na Liga das Nações.",
+      "fontes": [
+        "ato-britanico-america-norte-1867",
+        "morton-historia-canada",
+        "trc-canada"
+      ]
+    },
+    {
+      "id": "ca-soberania",
+      "inicio": "1931",
+      "fim": "1982",
+      "rotulo": "Canadá soberano",
+      "regime": "monarquia parlamentarista federal soberana, com emenda constitucional ainda em Londres",
+      "textoMdx": "Meio século entre a soberania externa e a Constituição própria, em que o Canadá constrói um Estado social, uma política externa de mediação e enfrenta a primeira crise séria de separação do Quebec.\n\n**O Estatuto de Westminster, de 1931, encerra a tutela legislativa.** O Canadá passa a legislar sem interferência britânica — exceto quanto à própria Constituição, que só poderia ser emendada em Londres, situação que duraria até 1982 por falta de acordo interno sobre a fórmula.\n\n**A Segunda Guerra e o pós-guerra criam o Estado social.** Mais de um milhão de canadenses servem; Dieppe e o desembarque em Juno Beach são os episódios mais lembrados, e a política de internamento de nipo-canadenses e de confisco de seus bens é o passivo do período, objeto de reparação em 1988. Depois de 1945 vêm seguro-desemprego, pensões, e o sistema público e universal de saúde, adotado em Saskatchewan em 1962 e federalizado em 1966 — hoje o traço mais citado da identidade nacional.\n\n**A política externa se define pela mediação.** Lester Pearson recebe o Nobel da Paz em 1957 por propor a força de paz da ONU na crise de Suez, e o país adota o papel de potência média, que sustenta pela participação na OTAN e na ONU sem seguir automaticamente Washington — o Canadá não envia tropas ao Vietnã e recebe milhares de recusantes.\n\n**A Revolução Tranquila transforma o Quebec nos anos 1960.** A província passa em uma década de sociedade dominada pela Igreja católica a Estado laico e intervencionista, com nacionalização da hidroeletricidade e educação pública — e com um nacionalismo que deixa de ser conservador e passa a ser de projeto de Estado.\n\n**A Crise de Outubro de 1970 é o ponto mais grave.** A FLQ sequestra um diplomata britânico e assassina o ministro Pierre Laporte; Pierre Trudeau invoca a Lei de Medidas de Guerra, suspendendo garantias em tempo de paz, com centenas de detenções sem acusação. O separatismo abandona a via armada e se torna eleitoral: o Parti Québécois vence em 1976 e realiza um referendo em 1980, derrotado por cerca de 60% a 40%.\n\n**A política de bilinguismo e multiculturalismo é resposta institucional.** A Lei das Línguas Oficiais, de 1969, e a política de multiculturalismo, de 1971 — a primeira do mundo adotada como política de Estado — reorganizam a autodefinição do país.",
+      "fontes": [
+        "estatuto-westminster-1931",
+        "morton-historia-canada"
+      ]
+    },
+    {
+      "id": "ca-constituicao",
+      "inicio": "1982",
+      "rotulo": "Canadá",
+      "regime": "monarquia parlamentarista federal, sob a Constituição de 1982",
+      "textoMdx": "Quatro décadas em que o Canadá ganha uma Carta de direitos, quase perde o Quebec por cinquenta mil votos, e passa a encarar o que fez aos povos indígenas.\n\n**A repatriação de 1982 vem sem o Quebec.** A Constituição passa a ser emendável no país e incorpora a Carta Canadense de Direitos e Liberdades, com a cláusula derrogatória que permite a legislaturas suspender certas garantias por cinco anos, e o artigo 35, que reconhece direitos ancestrais e de tratado dos povos indígenas. O Quebec, único a não assinar, chama o episódio de Noite dos Punhais Longos.\n\n**Duas tentativas de acordo com o Quebec falham.** Meech Lake, em 1987, e Charlottetown, rejeitado em referendo em 1992. A frustração alimenta o segundo referendo de soberania, em outubro de 1995: o Não vence por 50,58% contra 49,42% — cerca de cinquenta mil votos numa participação de quase 94%.\n\n**A Suprema Corte responde à pergunta em 1998.** Ela decide que o Quebec não pode separar-se unilateralmente, nem pelo direito interno nem pelo internacional, e que uma maioria clara sobre uma pergunta clara obrigaria o resto do país a negociar. A decisão é citada internacionalmente como o tratamento jurídico mais equilibrado dado a um pedido de secessão.\n\n**Os direitos indígenas avançam nos tribunais e no mapa.** Decisões como Delgamuukw, em 1997, e Tsilhqot'in, em 2014, reconhecem título aborígine; Nunavut é criado em 1999, dando à maioria inuíte um território com governo próprio — a maior mudança no mapa canadense desde 1949.\n\n**A comissão da verdade entrega o relatório em 2015.** Ela documenta o sistema de escolas residenciais, que passou por cerca de 150 mil crianças e funcionou até 1996, conclui que constituiu genocídio cultural e formula 94 chamados à ação. Em 2021, a localização de sepulturas não marcadas em antigos internatos, começando em Kamloops, provoca comoção nacional e um pedido de desculpas do papa em solo canadense em 2022.\n\n**As tensões atuais são energia, clima e vizinhança.** O país é grande exportador de petróleo, inclusive de areias bituminosas, o que coloca em choque compromissos climáticos, direitos territoriais indígenas sobre rotas de oleoduto e economia provincial. E a dependência de um único mercado — os Estados Unidos absorvem a maior parte das exportações — voltou ao centro do debate político na década de 2020.",
+      "fontes": [
+        "ato-constitucional-1982",
+        "corte-suprema-secessao-quebec",
+        "trc-canada"
+      ]
+    }
+  ]
+}
