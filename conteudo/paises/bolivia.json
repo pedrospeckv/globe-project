@@ -1,0 +1,98 @@
+{
+  "iso": "BOL",
+  "isoNumerico": "068",
+  "nome": "Bolívia",
+  "periodos": [
+    {
+      "id": "bo-charcas",
+      "inicio": "1538",
+      "fim": "1825",
+      "rotulo": "Audiência de Charcas",
+      "regime": "audiência da Coroa de Castela; jurisdição transferida do Peru ao Rio da Prata em 1776",
+      "textoMdx": "O território que virá a ser a Bolívia é, por dois séculos e meio, a peça mais valiosa da América espanhola — e é uma peça que não se governa a si mesma.\n\n**Potosí é a cidade da prata, e por um tempo é uma das maiores do mundo.** O cerro é descoberto em 1545 e, no auge do início do século XVII, a cidade tem população comparável a Londres ou Sevilha, a quatro mil metros de altitude, num lugar onde nada cresce. Tudo — comida, mula, madeira, tecido, coca — chega de fora, e é isso que sustenta economias inteiras no Peru, no norte argentino e no Chile.\n\n**O trabalho é obrigatório e a mortalidade é o preço declarado.** O vice-rei Toledo converte a *mita* andina em turnos forçados: dezesseis províncias enviam a Potosí um sétimo dos homens adultos por vez, viagem de semanas, para descer a galerias sem ventilação e trabalhar com mercúrio na amalgamação. Muitos não voltam. Comunidades inteiras deslocam-se ou fogem para escapar do sorteio, o que desorganiza a agricultura do altiplano.\n\n**A prata financia a Europa e deixa pouco onde é extraída.** Estima-se que a maior parte da prata que circulou no mundo entre os séculos XVI e XVII tenha saído daqui, e boa parte terminou na China via Manila, pagando seda e porcelana. O que fica no altiplano é uma sociedade de castas rígida, com senhores locais mantidos como cobradores e uma Igreja rica.\n\n**A jurisdição muda de mão e a independência começa aqui.** Em 1776, Charcas é transferida do Vice-Reino do Peru para o novo Vice-Reino do Rio da Prata — decisão fiscal que ligaria o altiplano a Buenos Aires. Em 25 de maio de 1809, Chuquisaca tem o primeiro levante autonomista da América do Sul, antes de Caracas e de Buenos Aires. E é o último a terminar: o Alto Peru é campo de batalha por quinze anos, com repúblicas de guerrilha nos vales, e só se separa em 1825, depois de Ayacucho.",
+      "fontes": [
+        "klein-bolivia",
+        "klaren-peru-nacao"
+      ]
+    },
+    {
+      "id": "bo-republica-inicial",
+      "inicio": "1825",
+      "fim": "1879",
+      "rotulo": "República de Bolívar",
+      "regime": "república de caudilhos militares; economia da prata em declínio",
+      "textoMdx": "Sucre proclama a independência em agosto de 1825, e o país recebe o nome do libertador. Bolívar escreve-lhe uma constituição com presidente vitalício, que dura pouco — como quase tudo no meio século seguinte.\n\n**A prata está em baixa e o Estado não tem receita.** As minas ficaram sem manutenção durante quinze anos de guerra, o mercúrio de Huancavelica está esgotado, e a rota comercial que ia a Potosí perdeu sentido. O tributo indígena, que a república prometera abolir, é restabelecido e volta a ser a principal fonte de receita pública — situação em que a maioria da população sustenta um Estado que não a reconhece como cidadã.\n\n**A tentativa de refazer o mapa fracassa.** Andrés de Santa Cruz une Bolívia e Peru na Confederação, entre 1836 e 1839, para reconstituir a unidade econômica que o vice-reino tinha. O Chile intervém, vence em Yungay, e a Confederação se desfaz. Foi a última chance de o altiplano voltar a ter porto próprio pela via política.\n\n**Governos curtos e violentos.** Entre 1839 e 1880 sucedem-se caudilhos como Manuel Belzu, José María Achá e Mariano Melgarejo, este último célebre por vender território e por decretos assinados em estado de embriaguez segundo a memória popular. É no período que a Bolívia cede ao Brasil, em 1867, uma faixa amazônica, e assina com o Chile acordos sobre o deserto salitreiro que preparam o desastre.\n\n**A terra comunal é privatizada por lei.** A Lei de Ex-vinculação, de 1874, declara extintas as comunidades indígenas e converte suas terras em propriedade individual negociável — o que na prática as transfere a fazendeiros. Segue-se a maior expansão latifundiária da história boliviana e uma sequência de levantes indígenas, o maior deles sob Pablo Zárate Willka, na década de 1890.",
+      "fontes": [
+        "klein-bolivia",
+        "halperin-donghi-america-latina"
+      ]
+    },
+    {
+      "id": "bo-guerra-do-pacifico",
+      "inicio": "1879",
+      "fim": "1932",
+      "rotulo": "Guerra do Pacífico e a perda do litoral",
+      "regime": "república em guerra e depois sem acesso soberano ao mar",
+      "textoMdx": "Cinco anos de guerra em que a Bolívia perde a costa e, com ela, a possibilidade de exportar sem depender de vizinho — o fato que mais determina a política externa boliviana desde então.\n\n**O gatilho é um imposto de dez centavos.** O litoral de Antofagasta é boliviano, mas o salitre é explorado por capital e trabalhadores chilenos, sob um tratado que congelava tributos. Quando a Bolívia cria um imposto sobre a Compañía de Salitres y Ferrocarril de Antofagasta, em 1878, e ameaça confiscar bens, o Chile ocupa o porto em fevereiro de 1879. O tratado secreto de aliança com o Peru, de 1873, é acionado.\n\n**A participação boliviana termina no primeiro ano.** Depois da derrota em Tacna, em maio de 1880, o exército boliviano deixa de operar, e a guerra segue entre Chile e Peru por mais três anos. A Bolívia negocia trégua em 1884, e o acerto definitivo vem no Tratado de Paz e Amizade de 1904: cede em definitivo o litoral, e recebe em troca uma ferrovia de Arica a La Paz e livre trânsito comercial por portos chilenos.\n\n**Livre trânsito não é soberania, e é aí que a disputa continua.** A Bolívia mantém marinha, dia do mar e reivindicação permanente de saída soberana. Levou o caso à Corte Internacional de Justiça, que decidiu em 2018 que o Chile não tem obrigação jurídica de negociar — sem se pronunciar sobre o mérito histórico.\n\n**O estanho substitui a prata e move o eixo do país.** No fim do século XIX, o preço da prata cai e a demanda mundial por estanho explode com a lata de conserva. As minas do estanho ficam em Oruro e no norte de Potosí, e o capital que as controla se concentra em três famílias — Patiño, Aramayo e Hochschild. A capital política desloca-se de Sucre para La Paz depois da guerra civil de 1899, e quem manda no país passa a ser quem manda no estanho.",
+      "fontes": [
+        "tratado-paz-amizade-1904",
+        "klein-bolivia"
+      ]
+    },
+    {
+      "id": "bo-guerra-do-chaco",
+      "inicio": "1932",
+      "fim": "1935",
+      "rotulo": "Guerra do Chaco",
+      "regime": "república em guerra total contra o Paraguai",
+      "textoMdx": "A guerra mais mortífera da América do Sul no século XX: três anos no Chaco Boreal, um semideserto sem água potável, entre os dois países mais pobres do continente e os dois únicos sem litoral.\n\n**A causa alegada é petróleo, e ele não estava lá.** A Bolívia, sem mar desde 1904, procura saída fluvial pelo rio Paraguai e acredita em jazidas no Chaco; empresas estrangeiras alimentam a expectativa dos dois lados. Nenhuma reserva significativa é encontrada na área disputada durante a guerra.\n\n**A Bolívia tem mais gente, mais dinheiro e perde.** O exército boliviano é maior e melhor equipado, mas luta a mais de mil quilômetros do altiplano, com soldados recrutados a quatro mil metros de altitude e enviados a combater ao nível do mar, num calor extremo. A sede mata mais que o combate. O comando paraguaio, sob José Félix Estigarribia, conhece o terreno e opera com linhas curtas de suprimento.\n\n**As perdas são desproporcionais à população.** Estimativas correntes falam de algo em torno de sessenta mil mortos bolivianos e trinta mil paraguaios, em países que somavam poucos milhões de habitantes. O tratado de 1938 entrega ao Paraguai a maior parte do território disputado, e à Bolívia uma saída fluvial limitada.\n\n**A derrota politiza a geração que faria 1952.** Soldados indígenas e camponeses recrutados à força voltam do Chaco com a experiência de que o Estado sabia mobilizá-los para morrer e não para reconhecê-los. Do choque saem os partidos que dominariam o meio século seguinte — entre eles o MNR — e uma sequência de governos militares reformistas nos anos 1930 e 1940, que nacionalizam a Standard Oil em 1937 e escrevem uma constituição social em 1938.",
+      "fontes": [
+        "klein-bolivia",
+        "whigham-guerra-paraguai"
+      ]
+    },
+    {
+      "id": "bo-revolucao-52",
+      "inicio": "1935",
+      "fim": "1964",
+      "rotulo": "Da guerra à Revolução Nacional",
+      "regime": "instabilidade entre governos militares e civis; a partir de 1952, governo revolucionário do MNR",
+      "textoMdx": "O período que muda a estrutura social boliviana mais que qualquer outro, e que começa e termina em golpe.\n\n**Os anos entre as guerras são de choque e massacre.** O sindicalismo mineiro se organiza e o Estado responde com tropa: Catavi, em 1942, e Villa Victoria depois. Em 1946 o presidente Gualberto Villarroel, que havia aprovado um congresso indígena e decretos contra o trabalho gratuito nas fazendas, é linchado e pendurado num poste em La Paz. Em 1951 o MNR vence a eleição e os militares anulam o resultado.\n\n**Abril de 1952 é uma insurreição urbana, não um golpe.** Mineiros com dinamite e trabalhadores de La Paz derrotam o exército em três dias de combate, com centenas de mortos. Víctor Paz Estenssoro assume, e o que segue é a segunda maior reforma social da América Latina no século, atrás só do México.\n\n**Quatro medidas refazem o país.** Voto universal, que multiplica o eleitorado por cinco ao incluir analfabetos e, portanto, a maioria indígena. Nacionalização das minas dos três grandes, criando a Comibol. Reforma agrária de 1953, que desmonta o latifúndio no altiplano e nos vales e entrega terra a quem a trabalhava. E reforma educacional que leva escola ao campo.\n\n**O que a reforma não resolve.** A Comibol herda minas exauridas e assume a folha de pagamento inteira; a produtividade cai. A reforma agrária divide a terra em parcelas pequenas sem crédito nem técnica, e a produção de alimento não acompanha as cidades. A inflação obriga a um plano de estabilização em 1956 com apoio norte-americano, que corta salários e racha o movimento que fizera a revolução. Em 1964 o vice-presidente militar de Paz Estenssoro, René Barrientos, o depõe.",
+      "fontes": [
+        "klein-bolivia"
+      ]
+    },
+    {
+      "id": "bo-ditaduras",
+      "inicio": "1964",
+      "fim": "1982",
+      "rotulo": "Ditaduras militares",
+      "regime": "sucessão de governos militares, com breves intervalos civis",
+      "textoMdx": "Dezoito anos de governos militares, com dois deles nacionalistas de esquerda e o mais longo alinhado à repressão coordenada do Cone Sul.\n\n**Che Guevara morre aqui, em 1967.** A guerrilha instalada em Ñancahuazú não consegue apoio camponês — em parte porque a reforma agrária de 1953 já havia entregado a terra que ele prometia — e é destruída por unidades treinadas por norte-americanos. Guevara é executado em La Higuera em outubro.\n\n**O massacre de San Juan e o padrão da repressão.** Em 1967, tropas atacam o acampamento mineiro de Siglo XX na noite de festa de San Juan, matando dezenas. A relação entre o Estado e os sindicatos mineiros, que havia sido a base de 1952, torna-se novamente de guerra.\n\n**Dois militares nacionalistas, e o giro.** Alfredo Ovando nacionaliza a Gulf Oil em 1969; Juan José Torres, entre 1970 e 1971, cria uma assembleia popular com sindicatos e mineiros. Em agosto de 1971, Hugo Banzer toma o poder e governa sete anos: partidos suspensos, sindicatos intervindos, exílios, e participação na Operação Condor — Torres é assassinado em Buenos Aires em 1976.\n\n**A transição é caótica e passa por um golpe sangrento.** Entre 1978 e 1982 há eleições anuladas, presidentes de dias e sucessivos golpes. O pior é o de Luis García Meza, em 1980, cujo governo assassina o líder socialista Marcelo Quiroga Santa Cruz, opera com apoio de traficantes de cocaína e emprega o criminoso de guerra nazista Klaus Barbie, que vivia no país. Em outubro de 1982, Hernán Siles Zuazo assume, eleito pelo resultado de 1980, e a democracia se restabelece — com hiperinflação que chegaria a mais de dez mil por cento ao ano.",
+      "fontes": [
+        "klein-bolivia"
+      ]
+    },
+    {
+      "id": "bo-democracia-neoliberal",
+      "inicio": "1982",
+      "fim": "2006",
+      "rotulo": "Democracia e ajuste",
+      "regime": "democracia presidencialista com governos de coalizão e reformas de mercado",
+      "textoMdx": "Vinte anos de continuidade democrática sustentada por pactos entre partidos, com estabilização severa, privatização e o crescimento de um movimento social que acabaria substituindo todo o sistema.\n\n**A hiperinflação é vencida em 1985, e o custo é a mina.** O Decreto 21060, de Paz Estenssoro, liberaliza preços e câmbio, congela salários e desmonta a Comibol: cerca de vinte mil mineiros são demitidos. A maioria migra — ao Chapare, onde passa a plantar coca, e às periferias de El Alto e Cochabamba. É a origem, ao mesmo tempo, do movimento cocaleiro e da nova geografia urbana boliviana.\n\n**A guerra às drogas vira política interna.** Sob pressão e financiamento norte-americanos, os governos dos anos 1990 fazem erradicação forçada de coca no Chapare, com confronto e mortes. O sindicato cocaleiro torna-se o movimento mais organizado do país, e seu dirigente, Evo Morales, entra no Congresso em 1997.\n\n**A capitalização entrega as estatais.** Entre 1994 e 1997, sob Gonzalo Sánchez de Lozada e Hugo Banzer, petróleo e gás, ferrovias, telecomunicações e eletricidade passam a operadores privados estrangeiros em troca de investimento. Ao mesmo tempo, a Lei de Participação Popular descentraliza recursos para municípios — a reforma mais elogiada do período.\n\n**Duas revoltas encerram o ciclo.** A Guerra da Água, em Cochabamba, em 2000, reverte a concessão do sistema de abastecimento a um consórcio internacional depois de semanas de confronto. A Guerra do Gás, em 2003, contra um projeto de exportação de gás pelo Chile, deixa dezenas de mortos em El Alto e derruba Sánchez de Lozada, que foge do país. Em 2005, Evo Morales é eleito com maioria absoluta no primeiro turno.",
+      "fontes": [
+        "klein-bolivia"
+      ]
+    },
+    {
+      "id": "bo-estado-plurinacional",
+      "inicio": "2006",
+      "rotulo": "Estado Plurinacional da Bolívia",
+      "regime": "república plurinacional presidencialista",
+      "textoMdx": "Pela primeira vez a maioria indígena governa o país onde é maioria — resultado que a república de 1825 levou cento e oitenta anos para produzir.\n\n**A constituição de 2009 redefine o Estado.** Aprovada em referendo, declara a Bolívia plurinacional, reconhece 36 idiomas oficiais, institui autonomias indígenas e jurisdição indígena ao lado da ordinária, e declara o acesso à água direito humano. Os hidrocarbonetos são renacionalizados em 2006, com renegociação de contratos que eleva fortemente a receita estatal.\n\n**A renda do gás financia redução de pobreza real.** Com preços altos, transferências condicionadas, aumento do salário mínimo e investimento público reduzem a pobreza extrema de forma significativa, e o país cresce de modo constante por uma década. A economia segue dependente de gás, minério e soja.\n\n**O conflito interno se desloca.** A oposição regional da meia-lua oriental — Santa Cruz e o oriente agroexportador — chega a promover referendos autonômicos em 2008, com episódios violentos em Pando. Mais tarde, o próprio movimento indígena entra em choque com o governo pela estrada projetada através do território e parque Tipnis, em 2011.\n\n**A crise de 2019 e o que veio depois.** Morales concorre a um quarto mandato após perder um referendo sobre reeleição e obter autorização do Tribunal Constitucional. A eleição de outubro de 2019 é contestada, com relatório da OEA apontando irregularidades e auditorias posteriores questionando essa conclusão; protestos, motins policiais e a sugestão das Forças Armadas levam Morales a renunciar e sair do país. O governo interino de Jeanine Áñez é marcado pelos massacres de Sacaba e Senkata, com dezenas de mortos. Em 2020, o MAS volta ao poder com Luis Arce, eleito com ampla maioria — e o país entra em crise fiscal e de combustível na década seguinte, com o gás em declínio.",
+      "fontes": [
+        "klein-bolivia"
+      ]
+    }
+  ]
+}

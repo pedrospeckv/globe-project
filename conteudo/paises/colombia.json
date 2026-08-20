@@ -1,0 +1,89 @@
+{
+  "iso": "COL",
+  "isoNumerico": "170",
+  "nome": "Colômbia",
+  "periodos": [
+    {
+      "id": "co-nova-granada",
+      "inicio": "1717",
+      "fim": "1819",
+      "rotulo": "Vice-Reino de Nova Granada",
+      "regime": "vice-reino da Coroa de Castela, com capital em Santa Fé de Bogotá",
+      "textoMdx": "Criado em 1717, suspenso, e restabelecido em 1739, o vice-reino reúne o que hoje é Colômbia, Venezuela, Equador e Panamá — e é sobre essa unidade administrativa que Bolívar tentaria construir um país.\n\n**A geografia manda mais que a administração.** Três cordilheiras separam vales que se comunicam mal, e a capital está a 2.600 metros de altitude, a semanas do mar. O resultado é um vice-reino de regiões que se desenvolvem de costas umas para as outras — Cartagena olhando o Caribe, Popayán para o sul andino, Antioquia mineira e isolada — e um Estado que nunca alcança tudo. É a raiz de longo prazo da fraqueza estatal no campo colombiano.\n\n**Ouro, e não prata.** Nova Granada é o maior produtor de ouro da América espanhola, extraído em aluviões do Chocó e de Antioquia sobretudo por trabalho escravizado africano. Cartagena das Índias é a principal porta de entrada de africanos escravizados na América do Sul espanhola, e uma das cidades mais fortificadas do continente.\n\n**A revolta dos comuneros, em 1781, antecede a independência.** Milhares de pessoas do Socorro e de Vélez marcham contra novos impostos e forçam um acordo com as autoridades, depois desconhecido; o líder José Antonio Galán é executado. É a maior insurreição contra a Coroa na região antes de 1810, no mesmo ano da de Túpac Amaru no Peru.\n\n**A independência começa em 1810 e leva nove anos.** A Patria Boba — nome dado pela historiografia às disputas entre federalistas e centralistas de 1810 a 1816 — impede uma frente comum, e a reconquista espanhola sob Pablo Morillo restabelece o domínio com execuções, entre elas a da educadora Policarpa Salavarrieta. A vitória decisiva vem em Boyacá, em agosto de 1819, com Bolívar chegando pelos llanos venezuelanos.",
+      "fontes": [
+        "bushnell-colombia"
+      ]
+    },
+    {
+      "id": "co-gran-colombia",
+      "inicio": "1819",
+      "fim": "1830",
+      "rotulo": "Grã-Colômbia",
+      "regime": "república unitária reunindo Nova Granada, Venezuela, Equador e Panamá",
+      "textoMdx": "Onze anos de um país que reuniu quatro dos atuais e se desfez pelas mesmas razões que o tinham criado: distância, guerra e a disputa entre Bolívar e os que queriam federação.\n\n**A união é decidida em Angostura e formalizada em Cúcuta.** O congresso de 1821 estabelece uma república unitária com capital em Bogotá, presidida por Bolívar e vice-presidida por Francisco de Paula Santander, que governa de fato enquanto Bolívar continua a guerra ao sul — Pichincha em 1822 libertando Quito, depois Junín e Ayacucho no Peru.\n\n**Bolívar e Santander representam dois projetos.** Bolívar quer autoridade central forte, presidência vitalícia e uma federação de repúblicas andinas capaz de resistir à Europa e aos Estados Unidos. Santander defende constituição, legalidade e governo civil — o hombre de las leyes. O choque atravessa o período e termina com Bolívar assumindo poderes ditatoriais em 1828, escapando de um atentado e perdendo apoio.\n\n**As distâncias tornam o país ingovernável com a tecnologia da época.** De Caracas ou Quito a Bogotá são semanas de viagem. As elites de Venezuela e do Equador não aceitam que decisões fiscais e militares sejam tomadas numa cidade que a maioria de seus dirigentes nunca visitou, e os credores da guerra pressionam por receita que ninguém consegue arrecadar.\n\n**Em 1830 a Grã-Colômbia se desmancha.** A Venezuela separa-se sob José Antonio Páez, o Equador sob Juan José Flores. Bolívar renuncia e morre em Santa Marta em dezembro do mesmo ano, a caminho do exílio. Do que sobra nasce a Nova Granada, que trocaria de nome mais quatro vezes até chegar a Colômbia, em 1886 — e que ainda incluía o Panamá.",
+      "fontes": [
+        "bushnell-colombia",
+        "halperin-donghi-america-latina"
+      ]
+    },
+    {
+      "id": "co-partidos-e-guerras",
+      "inicio": "1830",
+      "fim": "1902",
+      "rotulo": "Repúblicas granadinas e as guerras civis",
+      "regime": "república com alternância entre constituições federais e centralistas; guerras civis recorrentes",
+      "textoMdx": "Sessenta anos em que se formam os dois partidos mais longevos da América Latina, e em que a Colômbia troca de nome e de constituição quase tantas vezes quanto entra em guerra civil.\n\n**Liberais e Conservadores nascem por escrito, em 1848 e 1849.** Diferente de Uruguai e Argentina, onde as divisas vêm da batalha, aqui os dois partidos surgem de programas publicados: federalismo, livre-comércio, separação entre Igreja e Estado e abolição de um lado; ordem, centralização e aliança com a Igreja do outro. As filiações se tornam hereditárias e territoriais, e organizam a vida social de vilas inteiras por gerações.\n\n**As reformas do meio do século são profundas.** A escravidão é abolida em 1851, extinguem-se os resguardos indígenas e os monopólios coloniais, e a constituição de 1863 cria os Estados Unidos da Colômbia — federação tão descentralizada que os estados mantêm exércitos próprios. Segue-se a guerra civil quase permanente que a própria federação viabiliza.\n\n**A Regeneração inverte tudo em 1886.** Rafael Núñez impõe uma constituição centralista, com mandato longo, Estado confessional e concordata com a Santa Sé; o nome do país passa a ser República da Colômbia. O desenho duraria mais de cem anos, até 1991.\n\n**O café muda a economia e a base social.** A partir do fim do século, o café de encosta, cultivado em pequenas e médias propriedades em Antioquia, Caldas e Santander, torna-se a principal exportação e cria uma classe de proprietários rurais média — diferente da plantation e do latifúndio pecuário dos vizinhos. É a base do crescimento colombiano no século XX.\n\n**A Guerra dos Mil Dias e a perda do Panamá.** O conflito de 1899 a 1902 mata algo em torno de cem mil pessoas e deixa o país exaurido. Em 1903, com apoio naval dos Estados Unidos, o Panamá separa-se, e o canal é construído sob controle norte-americano. A Colômbia só reconheceria a separação em 1914, mediante indenização.",
+      "fontes": [
+        "bushnell-colombia",
+        "palacios-colombia"
+      ]
+    },
+    {
+      "id": "co-republica-conservadora",
+      "inicio": "1902",
+      "fim": "1958",
+      "rotulo": "Hegemonia conservadora e a República Liberal",
+      "regime": "república presidencialista sob a Constituição de 1886; alternância pactuada entre os dois partidos",
+      "textoMdx": "Quatro décadas de crescimento cafeeiro e paz relativa, seguidas de dezesseis anos de governos liberais reformistas — e do assassinato que abriria a década mais violenta do país.\n\n**A hegemonia conservadora governa de 1886 a 1930.** Estabiliza a moeda, constrói ferrovias parciais e recebe a indenização do Panamá, aplicada em infraestrutura. O período termina no massacre das bananeiras, em dezembro de 1928: o exército dispara contra trabalhadores em greve da United Fruit em Ciénaga, com número de mortos nunca estabelecido e objeto de disputa até hoje. O episódio derruba o prestígio do governo e alimenta a oposição liberal.\n\n**A República Liberal, de 1930 a 1946, tenta a reforma.** Alfonso López Pumarejo, na Revolución en Marcha, promove reforma constitucional em 1936, legislação trabalhista, direito de sindicalização, imposto de renda e a Lei 200 de 1936, que condicionava a propriedade rural ao uso produtivo. A reforma agrária é a que menos avança, travada por reação de proprietários — e a terra segue sendo a questão não resolvida.\n\n**A guerra com o Peru, em 1932-1933, é breve e definidora do trapézio amazônico.** Um grupo peruano toma Letícia; a Colômbia envia força fluvial e o conflito termina por mediação da Liga das Nações, confirmando a soberania colombiana sobre a saída ao Amazonas.\n\n**O 9 de abril de 1948 parte o século em dois.** Jorge Eliécer Gaitán, líder liberal de enorme apelo popular e candidato provável à presidência, é assassinado em Bogotá. O Bogotazo destrói o centro da capital, e a violência se espalha pelo campo: começa La Violencia, o conflito entre liberais e conservadores que mataria cerca de duas centenas de milhares de pessoas em uma década, com deslocamento em massa e a formação das primeiras guerrilhas de autodefesa camponesa.",
+      "fontes": [
+        "bushnell-colombia",
+        "palacios-colombia"
+      ]
+    },
+    {
+      "id": "co-frente-nacional",
+      "inicio": "1958",
+      "fim": "1974",
+      "rotulo": "Frente Nacional",
+      "regime": "república com alternância obrigatória da presidência entre os dois partidos",
+      "textoMdx": "Um acordo que resolve a guerra entre os partidos fechando a política a todos os outros — e a consequência é que a oposição passa a se organizar fora do sistema, com armas.\n\n**A ditadura de Rojas Pinilla é a ponte.** O general governa de 1953 a 1957, com anistia parcial às guerrilhas liberais, e cai por pressão conjunta dos dois partidos e de uma greve cívica. O voto feminino, instituído sob ele, é exercido pela primeira vez em 1957, no plebiscito que aprova o pacto.\n\n**A Frente Nacional reparte o Estado por dezesseis anos.** Liberais e Conservadores alternam a presidência a cada quatro anos e dividem meio a meio ministérios, governos regionais e cargos. A violência partidária de fato cessa. O preço é a exclusão institucional de qualquer terceira força: a única via de oposição real fica fora das urnas.\n\n**As guerrilhas nascem nesse fechamento.** As FARC formam-se em 1964 a partir de autodefesas camponesas comunistas atacadas em Marquetalia; o ELN no mesmo ano, de inspiração cubana e com participação de sacerdotes — Camilo Torres morre em combate em 1966; o EPL de linha maoísta, e mais tarde o M-19, nascido em 1970 da denúncia de fraude na eleição que derrotou Rojas Pinilla.\n\n**A economia cresce e a cidade absorve o campo em fuga.** Industrialização, café e urbanização acelerada mudam o país; Bogotá, Medellín, Cali e Barranquilla recebem milhões de deslocados pela violência rural. O Estado, porém, continua ausente de vastas regiões — e é nessas regiões que se instalam, nos anos seguintes, a coca, a maconha e os grupos armados.",
+      "fontes": [
+        "bushnell-colombia",
+        "palacios-colombia"
+      ]
+    },
+    {
+      "id": "co-conflito-e-narcotrafico",
+      "inicio": "1974",
+      "fim": "2016",
+      "rotulo": "Conflito armado e narcotráfico",
+      "regime": "república presidencialista sob conflito armado interno, com estados de sítio recorrentes",
+      "textoMdx": "Quatro décadas em que três violências se sobrepõem no mesmo território: guerrilhas, cartéis de droga e paramilitares — com o Estado às vezes combatendo, às vezes tolerando, às vezes colaborando.\n\n**A cocaína transforma a escala de tudo, a partir dos anos 1970.** Os cartéis de Medellín e de Cali acumulam poder econômico capaz de comprar juízes, deputados e polícias. Pablo Escobar chega a ser eleito suplente na Câmara em 1982. A resposta ao pedido de extradição é uma guerra contra o Estado: o assassinato do ministro Rodrigo Lara Bonilla em 1984, do diretor de *El Espectador* em 1986, do candidato presidencial Luis Carlos Galán em 1989, e a explosão do voo 203 no mesmo ano.\n\n**O ano de 1985 mostra a fragilidade do Estado duas vezes.** Em novembro, o M-19 toma o Palácio da Justiça; a retomada militar deixa mais de cem mortos, entre eles metade dos magistrados da Corte Suprema, e desaparecidos até hoje. Dias depois, a erupção do Nevado del Ruiz sepulta Armero, matando mais de vinte mil pessoas apesar de alertas científicos prévios.\n\n**Os paramilitares crescem como resposta privada, e se autonomizam.** Grupos formados por proprietários, empresários e narcotraficantes contra a extorsão guerrilheira unificam-se nas AUC em 1997. Praticam massacres — El Salado, Mapiripán, Bojayá em ação conjunta com a guerrilha — e chegam a controlar economias e prefeituras regionais. O escândalo da parapolítica, na década de 2000, levaria à condenação de dezenas de parlamentares por aliança com esses grupos.\n\n**A Constituição de 1991 é a reforma democrática do período.** Escrita por uma constituinte que incluiu o M-19 desmobilizado, indígenas e evangélicos, ela substitui a carta de 1886: institui a ação de tutela para defesa direta de direitos fundamentais, uma Corte Constitucional, reconhece a Colômbia como país pluriétnico e multicultural, e cria territórios coletivos para comunidades negras e indígenas.\n\n**A negociação falha em 1998-2002 e a política endurece.** O processo do Caguán, sob Andrés Pastrana, termina sem acordo com as FARC em plena expansão. Álvaro Uribe governa de 2002 a 2010 com a Segurança Democrática, reduz sequestros e homicídios e recupera território — e o período é marcado pelo escândalo dos falsos positivos: milhares de civis executados por militares e apresentados como guerrilheiros mortos em combate, apurados depois pela justiça transicional.",
+      "fontes": [
+        "palacios-colombia",
+        "comision-verdad-colombia"
+      ]
+    },
+    {
+      "id": "co-acordo-de-paz",
+      "inicio": "2016",
+      "rotulo": "República da Colômbia",
+      "regime": "república presidencialista em implementação de acordo de paz",
+      "textoMdx": "O acordo com as FARC encerra o conflito armado mais longo do hemisfério e abre uma disputa política sobre como cumpri-lo — que segue aberta.\n\n**O acordo é rejeitado no plebiscito e assinado de novo.** Negociado em Havana por quatro anos, o texto é submetido a plebiscito em outubro de 2016 e reprovado por margem estreita, com abstenção alta. É renegociado com pontos da oposição e aprovado pelo Congresso. Juan Manuel Santos recebe o Nobel da Paz naquele ano.\n\n**O conteúdo vai além do desarmamento.** Cinco pontos: reforma rural integral com fundo de terras, participação política dos desmobilizados com assentos garantidos, substituição voluntária de cultivos ilícitos, justiça transicional pela JEP — que troca pena de prisão por verdade e reparação — e reparação às vítimas, registradas em milhões.\n\n**A comissão da verdade entrega o relatório em 2022.** Estimou cerca de 450 mil mortos entre 1985 e 2018 e documentou o deslocamento interno de milhões de pessoas, um dos maiores contingentes do mundo. Atribuiu responsabilidades a paramilitares, guerrilhas e agentes do Estado, e a JEP abriu processos que incluem tanto ex-comandantes das FARC por sequestro quanto militares pelos falsos positivos.\n\n**A implementação é parcial e a violência muda de forma.** Dissidências das FARC, o ELN e grupos herdeiros do paramilitarismo disputam as economias de coca e mineração ilegal em regiões que o Estado não ocupou depois da desmobilização. Centenas de lideranças sociais e de ex-combatentes desmobilizados foram assassinados desde 2016.\n\n**A política se reorganiza.** O estallido social de 2021, contra uma reforma tributária em plena pandemia, é reprimido com dezenas de mortos. Em 2022 Gustavo Petro é eleito, o primeiro presidente de esquerda da história colombiana, com Francia Márquez, primeira vice-presidente afrodescendente — resultado que era impensável no arranjo político que a Frente Nacional havia fechado sessenta anos antes.",
+      "fontes": [
+        "comision-verdad-colombia",
+        "acordo-final-colombia-2016"
+      ]
+    }
+  ]
+}

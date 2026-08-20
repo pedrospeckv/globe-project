@@ -1,0 +1,52 @@
+{
+  "iso": "SUR",
+  "isoNumerico": "740",
+  "nome": "Suriname",
+  "periodos": [
+    {
+      "id": "sr-guiana-holandesa",
+      "inicio": "1667",
+      "fim": "1954",
+      "rotulo": "Guiana Holandesa",
+      "regime": "colônia da Sociedade de Suriname e depois dos Países Baixos; economia de plantação com trabalho escravizado",
+      "textoMdx": "A Holanda troca Nova Amsterdã pelo Suriname no tratado de Breda, em 1667 — Manhattan pela colônia de açúcar. Por dois séculos, o que se produz aqui é açúcar, café e cacau com trabalho escravizado, num dos regimes mais violentos do continente.\n\n**A brutalidade do sistema é registrada pelos próprios contemporâneos.** Relatos do século XVIII, inclusive de europeus a serviço da colônia, descrevem punições e mortalidade que chocavam mesmo pelos padrões escravistas da época. A reposição constante de trabalhadores por novo tráfico, em vez de crescimento da população, é o traço econômico dessa violência.\n\n**A fuga em massa cria sociedades novas no interior.** Milhares de escravizados fogem para a floresta e formam comunidades organizadas — os quilombolas conhecidos como marrons: saramaka, ndyuka, matawai, paramaka, aluku e kwinti. Combatem a colônia por décadas.\n\n**A Holanda assina tratados de paz com eles no século XVIII.** Entre 1760 e 1767, incapaz de derrotá-los militarmente, a colônia reconhece por tratado a autonomia territorial dos saramaka e dos ndyuka, com obrigação de não acolher novos fugitivos. É um reconhecimento formal de soberania a comunidades de escravizados fugidos, coisa raríssima nas Américas, e a base pela qual esses povos mantêm até hoje instituições, línguas crioulas e direito próprios.\n\n**A abolição é tardia e seguida por trabalho contratado.** A escravidão só termina em 1863, com dez anos de tutela obrigatória até 1873. Para substituir a mão de obra, os Países Baixos recrutam trabalhadores contratados na Índia britânica e, depois de 1890, em Java, então colônia holandesa. Daí resulta a composição do Suriname atual: hindustanis, javaneses, marrons, crioulos, indígenas, chineses e libaneses — o país mais diverso da América do Sul em relação ao seu tamanho, com o neerlandês como língua oficial e o sranan tongo como língua franca.",
+      "fontes": [
+        "price-first-time",
+        "hoefte-suriname"
+      ]
+    },
+    {
+      "id": "sr-autonomia",
+      "inicio": "1954",
+      "fim": "1975",
+      "rotulo": "Suriname autônomo no Reino dos Países Baixos",
+      "regime": "país autônomo dentro do Reino, com assuntos externos e defesa em Haia",
+      "textoMdx": "Vinte e um anos de autogoverno dentro do Reino, em que se forma o sistema político surinamês — partidos organizados por comunidade étnica, governando por coalizão — e em que a bauxita paga as contas.\n\n**O Estatuto de 1954 dá autonomia sem independência.** Depois da Segunda Guerra, durante a qual tropas norte-americanas protegeram as minas de bauxita essenciais à indústria de alumínio aliada, o Suriname passa a país constituinte do Reino, com parlamento e governo próprios.\n\n**A política se organiza por comunidade, e funciona por acordo.** Partidos crioulos, hindustanis e javaneses disputam a eleição cada um em sua base e governam em coalizão — a *verbroedering*, fraternização, que evita o confronto étnico aberto que marcou a Guiana vizinha no mesmo período.\n\n**A bauxita e a represa refazem a geografia.** A Alcoa constrói a barragem de Afobaka nos anos 1960 para alimentar a fundição de alumínio; o reservatório inunda territórios marrons e desloca milhares de pessoas, com reassentamento precário — um passivo que segue em disputa.\n\n**A independência é negociada rápido, e metade do país vai embora.** Haia, disposta a se desfazer da colônia, e a coalizão de Henck Arron acertam a data: 25 de novembro de 1975. Como o acordo garantia a nacionalidade holandesa a quem emigrasse antes do prazo, cerca de um terço da população — e mais no total, ao longo dos anos seguintes — muda-se para os Países Baixos. Hoje vive lá uma comunidade surinamesa comparável em tamanho à população do próprio país.",
+      "fontes": [
+        "hoefte-suriname"
+      ]
+    },
+    {
+      "id": "sr-independencia-e-ditadura",
+      "inicio": "1975",
+      "fim": "1991",
+      "rotulo": "República do Suriname e a ditadura militar",
+      "regime": "república parlamentarista, depois regime militar sob Desi Bouterse entre 1980 e 1987",
+      "textoMdx": "A independência dura cinco anos antes do golpe, e o regime que segue produz o episódio que ainda domina a política surinamesa: os assassinatos de dezembro de 1982.\n\n**O golpe dos sargentos, em fevereiro de 1980.** Dezesseis suboficiais liderados por Desi Bouterse depõem o governo de Arron. Segue-se um período de governos nomeados, com conselhos militares e reviravoltas internas.\n\n**Dezembro de 1982.** Quinze opositores — advogados, jornalistas, professores, sindicalistas e militares — são presos e assassinados no Forte Zeelandia. Os Países Baixos suspendem a ajuda ao desenvolvimento, que era a base do orçamento, e a economia entra em crise. O julgamento pelos assassinatos só começa em 2007; Bouterse foi condenado a vinte anos em 2019, com a condenação confirmada em última instância em 2023.\n\n**A guerra do interior, de 1986 a 1992, é entre o Estado e os marrons.** Um ex-guarda-costas de Bouterse, Ronnie Brunswijk, organiza o Jungle Commando com base nas comunidades ndyuka do leste. O conflito mata centenas e desloca milhares; o massacre de Moiwana, em 1986, em que soldados mataram dezenas de civis, foi levado à Corte Interamericana, que condenou o Estado surinamês em 2005.\n\n**A pressão internacional força a volta às urnas.** Uma constituição é aprovada em referendo em 1987 e há eleição no mesmo ano, com vitória da oposição; um novo golpe, o telefone-golpe de 1990, interrompe brevemente o processo, e em 1991 a democracia se restabelece.",
+      "fontes": [
+        "hoefte-suriname"
+      ]
+    },
+    {
+      "id": "sr-republica",
+      "inicio": "1991",
+      "rotulo": "República do Suriname",
+      "regime": "república parlamentarista, com presidente eleito pela Assembleia Nacional",
+      "textoMdx": "Três décadas de democracia em que o líder do regime militar volta ao poder pelo voto, é condenado por assassinato, e o país aposta em ouro e depois em petróleo para sair de crises recorrentes.\n\n**Bouterse volta eleito.** Seu partido, o NDP, ganha a eleição de 2010, e a Assembleia Nacional o elege presidente; ele governa até 2020. Em 2012 o parlamento aprova uma anistia para os fatos de 1982, depois considerada inaplicável pelos tribunais, e o processo segue até a condenação definitiva. Ele morreu em 2024, foragido do cumprimento da pena.\n\n**A economia oscila com o preço do que se extrai.** A bauxita, que sustentou o século XX, perde peso e a refinaria da Suralco fecha em 2015; ouro, tanto de grandes operações quanto de garimpo com mercúrio na floresta, torna-se a principal exportação. Crises de moeda e de dívida em 2016 e 2020 levam o país ao FMI, com inflação alta e reestruturação de dívida.\n\n**A descoberta de petróleo repete a história da Guiana.** Achados em águas profundas na mesma bacia levaram, em 2024, à decisão final de investimento no bloco 58, com produção prevista para o fim da década. A discussão pública é sobre como administrar a renda — com o vizinho como exemplo recente e a Venezuela como advertência mais antiga.\n\n**Os direitos territoriais dos povos do interior seguem sem lei.** A Corte Interamericana condenou o Suriname mais de uma vez — nos casos Moiwana, Saramaka e Kaliña e Lokono — por não reconhecer em lei a propriedade coletiva de marrons e indígenas sobre as terras que ocupam, e por conceder ali concessões de mineração e madeira. É a pendência jurídica mais antiga do país, e ela contradiz os tratados que a própria colônia holandesa assinou no século XVIII.",
+      "fontes": [
+        "hoefte-suriname",
+        "price-first-time"
+      ]
+    }
+  ]
+}

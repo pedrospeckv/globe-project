@@ -1,0 +1,62 @@
+{
+  "iso": "ECU",
+  "isoNumerico": "218",
+  "nome": "Equador",
+  "periodos": [
+    {
+      "id": "ec-audiencia-quito",
+      "inicio": "1563",
+      "fim": "1830",
+      "rotulo": "Real Audiência de Quito",
+      "regime": "audiência da Coroa de Castela, subordinada ao Peru e depois a Nova Granada",
+      "textoMdx": "Quito era a segunda capital do Tawantinsuyu, e é isso que faz do Equador um caso incomum: o passado inca aqui não é província distante, é centro — e a cidade colonial se ergueu sobre ele.\n\n**O norte do império inca cai antes do sul.** Huayna Cápac governava de Quito, e a guerra de sucessão entre Atahualpa, sediado ali, e Huáscar, no Cusco, começa nesta região. A resistência de Rumiñahui é derrotada em 1534, e a Quito espanhola é fundada sobre a cidade incendiada pelos próprios defensores.\n\n**A economia é o tecido, e a mão de obra é compulsória.** Sem grande mineração, a audiência especializa-se em obrajes — oficinas de tecido de lã que abastecem Potosí e Lima. O trabalho é feito por indígenas sob mita e por dívida hereditária; as condições nos obrajes são das mais duras do império espanhol. Forma-se ao mesmo tempo o latifúndio serrano com o sistema de huasipungo, em que o trabalhador recebe uma parcela para subsistir em troca de trabalho não remunerado — que sobreviveria até 1964.\n\n**Guayaquil cresce de costas para Quito.** O porto vive de estaleiro, cacau e comércio, orientado ao Pacífico e ao mundo, enquanto a serra vive de terra e Igreja. A oposição entre a costa liberal e comercial e a serra conservadora e agrária é o eixo da política equatoriana até hoje.\n\n**A independência é longa e a união dura pouco.** O primeiro grito autonomista é de agosto de 1809, em Quito, e é esmagado com o massacre dos patriotas em 1810. Guayaquil declara-se independente em 1820, e a batalha de Pichincha, em maio de 1822, com Sucre, decide a serra. O território entra na Grã-Colômbia e, com a dissolução de 1830, torna-se a República do Equador — nome tirado da linha do equador, escolhido por não haver nome comum às regiões que o formavam.",
+      "fontes": [
+        "ayala-mora-equador"
+      ]
+    },
+    {
+      "id": "ec-republica-inicial",
+      "inicio": "1830",
+      "fim": "1925",
+      "rotulo": "República inicial e o Estado católico",
+      "regime": "república de caudilhos, depois Estado confessional sob Gabriel García Moreno",
+      "textoMdx": "Meio século entre a independência e a formação de um Estado nacional, marcado pela regionalização, pela guerra com vizinhos e pelo projeto mais explicitamente teocrático da América Latina.\n\n**O país quase não se governa nas primeiras décadas.** Juan José Flores e Vicente Rocafuerte alternam-se, e em 1859 há quatro governos simultâneos em regiões diferentes, com o Peru ocupando Guayaquil. O território é grande no papel — reivindica a Amazônia até o Marañón — e o controle efetivo é pequeno.\n\n**García Moreno constrói o Estado com a Igreja como cimento.** No poder entre 1861 e 1875, ele consagra o país ao Sagrado Coração de Jesus, restringe a cidadania a católicos pela constituição de 1869, e ao mesmo tempo faz o que nenhum antecessor fez: estrada de Quito a Guayaquil, escolas, observatório astronômico, politécnico, moeda estável e serviço público não patrimonial. É modernização por via confessional, e ele é assassinado em Quito em 1875.\n\n**O cacau financia a costa e cria a burguesia de Guayaquil.** No fim do século, o Equador é o maior exportador mundial de cacau, e a renda gera bancos, jornais e uma elite comercial liberal que não deve nada à terra da serra.\n\n**A Revolução Liberal de 1895 inverte o Estado.** Eloy Alfaro toma o poder e faz o oposto de García Moreno: separação entre Igreja e Estado, casamento civil, divórcio, ensino laico e gratuito, fim do dízimo, expropriação de bens do clero e a ferrovia que finalmente liga a costa à serra, concluída em 1908. Alfaro é linchado em Quito em 1912, e o país entra num período em que os bancos de Guayaquil governam de fato.",
+      "fontes": [
+        "ayala-mora-equador"
+      ]
+    },
+    {
+      "id": "ec-instabilidade",
+      "inicio": "1925",
+      "fim": "1979",
+      "rotulo": "Instabilidade republicana",
+      "regime": "alternância rápida entre governos civis e militares; ciclos de exportação",
+      "textoMdx": "Meio século com dezenas de governos, três guerras e a perda de metade do território reivindicado — e, ao fim, a chegada do petróleo.\n\n**A Revolução Juliana de 1925 tira os bancos do centro.** Militares jovens depõem o governo, criam o Banco Central, a Contraloría e a legislação trabalhista, e encerram o domínio direto da banca guayaquilenha. Segue-se, ainda assim, instabilidade crônica: entre 1931 e 1948 há mais de vinte governos.\n\n**A guerra de 1941 com o Peru define a fronteira e a ferida.** O Peru ocupa províncias do sul e do oriente; o Protocolo do Rio de Janeiro, de 1942, com garantia de quatro países, fixa a fronteira e retira do Equador a maior parte da Amazônia que reivindicava. O país considerou o protocolo nulo por décadas, e a frase de que o Equador é um país amazônico virou política de Estado. A disputa reacende no Alto Cenepa em 1995 e só se encerra no acordo de paz de 1998.\n\n**Velasco Ibarra é eleito cinco vezes e termina o mandato uma.** Figura dominante entre 1934 e 1972, populista sem partido estável, ele encarna a política do período: apelo direto às massas urbanas, coalizões instáveis e derrubada por golpe.\n\n**A banana substitui o cacau, e depois vem o petróleo.** O Equador torna-se o maior exportador mundial de banana nos anos 1950, com produção de médias propriedades na costa. Em 1967 acha-se petróleo na Amazônia, e a exportação começa em 1972 — no mesmo ano em que os militares tomam o poder para administrar a nova renda. A ditadura de 1972 a 1979 investe em infraestrutura, entra na OPEP e endivida o país.\n\n**O huasipungo é abolido em 1964.** A reforma agrária extingue o trabalho não remunerado na serra e distribui parte das terras, sem alterar decisivamente a concentração — e provoca migração rural para Quito e Guayaquil.",
+      "fontes": [
+        "ayala-mora-equador"
+      ]
+    },
+    {
+      "id": "ec-democracia-instavel",
+      "inicio": "1979",
+      "fim": "2007",
+      "rotulo": "Retorno à democracia e crise",
+      "regime": "república presidencialista com sucessivas destituições e uma dolarização",
+      "textoMdx": "Vinte anos que começam com a primeira eleição em uma década e terminam com o país abandonando a própria moeda.\n\n**A dívida e o preço do petróleo dominam a década de 1980.** O Equador é dos primeiros a entrar em crise de dívida na região, e os governos alternam ajuste e subsídio sem resolver o desequilíbrio. Jaime Roldós, o presidente eleito em 1979, morre em acidente aéreo em 1981.\n\n**O movimento indígena se torna ator nacional em 1990.** O levantamento organizado pela CONAIE paralisa estradas da serra por dias e coloca na agenda território, educação bilíngue e reconhecimento plurinacional. Ele passa a ser capaz de derrubar governos, e o faz mais de uma vez.\n\n**Três presidentes caem em quatro anos.** Abdalá Bucaram é destituído em 1997 por incapacidade mental declarada pelo Congresso; Jamil Mahuad cai em janeiro de 2000, derrubado por uma mobilização indígena e militar; Lucio Gutiérrez, o coronel que participara daquele episódio e depois foi eleito, é destituído em 2005.\n\n**A crise de 1999 é a pior da história econômica do país.** O fenômeno El Niño destrói safras, o preço do petróleo cai, e a quebra bancária consome uma parte enorme do produto nacional; o governo congela depósitos. Em janeiro de 2000, o Equador adota o dólar como moeda oficial — decisão que estabiliza os preços e retira do país qualquer política monetária própria. Segue-se a maior emigração da história equatoriana, sobretudo para a Espanha e os Estados Unidos, e as remessas passam a ser a segunda fonte de divisas.",
+      "fontes": [
+        "ayala-mora-equador"
+      ]
+    },
+    {
+      "id": "ec-republica",
+      "inicio": "2007",
+      "rotulo": "República do Equador",
+      "regime": "república presidencialista sob a Constituição de 2008, plurinacional",
+      "textoMdx": "Dezoito anos que começam com a reconstrução do Estado sob renda petroleira alta e terminam com uma crise de segurança que reorganizou a política do país.\n\n**A Constituição de 2008 é a mais inovadora do período na região.** Aprovada em referendo, declara o Equador Estado plurinacional e intercultural, incorpora o sumak kawsay como princípio econômico e é a primeira do mundo a atribuir direitos à natureza como sujeito — cláusula depois usada em tribunais para barrar projetos extrativos.\n\n**Rafael Correa governa dez anos com investimento público e conflito.** Renegocia a dívida, aumenta a arrecadação petroleira, constrói hidrelétricas, estradas, escolas e hospitais, e reduz pobreza e desigualdade de forma significativa. Ao mesmo tempo, entra em choque com a imprensa, com o movimento indígena e com organizações ambientais, e amplia a mineração e o petróleo na Amazônia — inclusive depois de a iniciativa Yasuní-ITT, que propunha deixar o petróleo no subsolo em troca de compensação internacional, ter fracassado por falta de aportes em 2013.\n\n**O caso Chevron-Texaco atravessa o período.** Comunidades amazônicas obtêm em tribunal equatoriano condenação bilionária por contaminação em Lago Agrio; a empresa recorre a arbitragem internacional e obtém decisões favoráveis. É um dos litígios ambientais mais longos do mundo, e segue sem execução efetiva.\n\n**A segurança colapsa a partir de 2021.** Com as rotas de cocaína se reorganizando depois do acordo de paz colombiano, o Equador — dolarizado, com portos grandes e sem produção de coca — torna-se corredor de exportação. Homicídios multiplicam-se em poucos anos, motins prisionais matam centenas, e em agosto de 2023 o candidato presidencial Fernando Villavicencio é assassinado em plena campanha. Daniel Noboa, eleito em seguida, declara conflito armado interno contra as organizações criminosas em janeiro de 2024. O país que era conhecido na região pela estabilidade relativa passou a ter uma das taxas de homicídio mais altas das Américas.",
+      "fontes": [
+        "constituicao-equador-2008",
+        "ayala-mora-equador"
+      ]
+    }
+  ]
+}

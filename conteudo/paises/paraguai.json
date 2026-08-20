@@ -1,0 +1,77 @@
+{
+  "iso": "PRY",
+  "isoNumerico": "600",
+  "nome": "Paraguai",
+  "periodos": [
+    {
+      "id": "py-provincia-e-missoes",
+      "inicio": "1537",
+      "fim": "1811",
+      "rotulo": "Província do Paraguai e as missões",
+      "regime": "província da Coroa de Castela; trinta povoados jesuíticos com administração própria",
+      "textoMdx": "Assunção é fundada em 1537 e por dois séculos é uma província pobre e isolada, sem metal e sem porto, cuja singularidade está em duas coisas: uma sociedade mestiça de língua guarani e um Estado missionário dentro do Estado.\n\n**O guarani sobrevive como língua da população, não como língua de minoria.** A colonização se dá por união entre espanhóis e mulheres guarani, e a língua atravessa as classes; até hoje o Paraguai é o único país americano em que uma língua indígena é falada pela maioria e tem estatuto oficial, ao lado do espanhol. O que não impede o sistema de encomienda de submeter a população indígena ao trabalho compulsório.\n\n**As missões jesuíticas são um caso à parte na América.** Entre 1609 e 1767, a Companhia de Jesus organiza cerca de trinta *reducciones* na bacia do Paraná com dezenas de milhares de guaranis, produção comunitária de erva-mate e algodão, oficinas, imprensa, música barroca escrita e executada por músicos guaranis, e milícias armadas com autorização real para repelir os bandeirantes de São Paulo que caçavam escravizados.\n\n**O Tratado de Madri de 1750 destrói o arranjo.** Ao trocar territórios entre Espanha e Portugal, ele manda sete povoados a leste do Uruguai passarem a domínio português e sua população mudar-se. A recusa leva à Guerra Guaranítica, de 1754 a 1756, em que exércitos das duas coroas derrotam as milícias missioneiras. Em 1767 os jesuítas são expulsos de todos os domínios espanhóis, e as missões se desfazem em poucas décadas.\n\n**A independência é discreta e imediata.** Em maio de 1811, Assunção depõe o governador espanhol e recusa tanto a Espanha quanto a autoridade de Buenos Aires — que pretendia herdar o vice-reino inteiro. O Paraguai é o único caso da região em que a independência não passa por guerra prolongada contra a metrópole, e sim por afirmação contra o vizinho.",
+      "fontes": [
+        "whigham-guerra-paraguai",
+        "halperin-donghi-america-latina"
+      ]
+    },
+    {
+      "id": "py-francia-e-lopez",
+      "inicio": "1811",
+      "fim": "1864",
+      "rotulo": "Ditadura de Francia e os López",
+      "regime": "ditadura perpétua, depois presidências hereditárias de fato; Estado proprietário da maior parte da terra",
+      "textoMdx": "Cinquenta e três anos de um projeto raro na América Latina: um Estado que fecha o país, controla a economia, não se endivida e constrói infraestrutura própria — governado por três homens.\n\n**José Gaspar Rodríguez de Francia governa até morrer, em 1840.** Nomeado ditador perpétuo em 1816, ele fecha as fronteiras ao comércio, expropria a elite espanhola, proíbe casamento entre espanhóis, submete a Igreja ao Estado e transforma o Estado no maior proprietário de terra e gado do país, arrendando parcelas a camponeses. O resultado é uma sociedade sem grande latifúndio privado, quase sem dívida externa e sem fome — e sem imprensa, oposição ou eleição.\n\n**Carlos Antonio López abre e moderniza, sem soltar.** No poder de 1841 a 1862, reabre o comércio, contrata engenheiros britânicos, constrói a primeira ferrovia da região, funda a fundição de Ybycuí, telégrafo, arsenal e estaleiro, e manda estudantes à Europa. Continua sendo ditadura, e ele deixa o cargo ao filho.\n\n**A geografia é o problema insolúvel.** O Paraguai não tem litoral e depende da navegação do Paraná e do Paraguai, cujos cursos inferiores estão sob controle argentino. Toda a política externa gira em torno de garantir esse acesso, e é o que explica a atenção do governo ao que acontece em Montevidéu.\n\n**Francisco Solano López herda um Estado forte e o gasta numa guerra.** Ele assume em 1862 com o maior exército permanente da região e a convicção de que o equilíbrio do Prata depende de o Uruguai não cair sob influência brasileira. Quando o Império do Brasil intervém no Uruguai em 1864, ele apreende um navio brasileiro, invade Mato Grosso, pede passagem pela Argentina para atacar o Rio Grande do Sul, é recusado e invade Corrientes. Com isso, alinha contra si Brasil, Argentina e o novo governo uruguaio ao mesmo tempo.",
+      "fontes": [
+        "whigham-guerra-paraguai"
+      ]
+    },
+    {
+      "id": "py-guerra-triplice-alianca",
+      "inicio": "1864",
+      "fim": "1870",
+      "rotulo": "Guerra da Tríplice Aliança",
+      "regime": "república em guerra total; ocupação estrangeira ao fim",
+      "textoMdx": "A guerra mais destrutiva da história da América do Sul, e a única em que um país perde mais da metade da população.\n\n**A aliança é formalizada em 1865 e o desequilíbrio é enorme.** Brasil, Argentina e Uruguai somam população muitas vezes maior, acesso a crédito britânico e domínio naval. A batalha do Riachuelo, em junho de 1865, entrega os rios à esquadra brasileira, e o Paraguai fica sitiado dentro de si mesmo.\n\n**A resistência prolonga a guerra por cinco anos.** Humaitá resiste até 1868; depois da queda de Assunção, em 1869, Solano López continua a guerra nas serras do norte com um exército que já recruta velhos e crianças. Ele é morto em Cerro Corá, em março de 1870, recusando-se a render-se — episódio que o converteria, décadas mais tarde, em herói nacional.\n\n**As perdas humanas não têm paralelo na região.** As estimativas variam muito e são objeto de debate historiográfico, mas as mais aceitas indicam que o Paraguai perdeu entre metade e dois terços da população, e a maior parte dos homens adultos. Fome e epidemia mataram mais que o combate. O país sai da guerra com uma sociedade majoritariamente feminina e sem geração adulta masculina.\n\n**A derrota também redefine o território e a economia.** O Paraguai cede a Brasil e Argentina áreas contestadas, é ocupado por tropas brasileiras até 1876, e contrai a primeira dívida externa de sua história para pagar indenizações. As terras públicas que Francia e os López haviam mantido sob o Estado são vendidas em enormes lotes a compradores estrangeiros nas décadas seguintes — e é essa venda, mais que a guerra, que cria a concentração de terra que o Paraguai tem hoje.",
+      "fontes": [
+        "whigham-guerra-paraguai"
+      ]
+    },
+    {
+      "id": "py-republica-liberal",
+      "inicio": "1870",
+      "fim": "1954",
+      "rotulo": "República liberal e a Guerra do Chaco",
+      "regime": "república de constituição liberal, com alternância instável entre Colorados e Liberais",
+      "textoMdx": "Sessenta anos de reconstrução sob duas legendas que se alternam por golpe quase tanto quanto por eleição, e que terminam numa segunda guerra — esta, vencida.\n\n**A terra pública vira propriedade estrangeira.** As leis de venda de terras de 1883 e 1885 transferem a maior parte do território a poucas empresas, muitas argentinas e britânicas, dedicadas a erva-mate, tanino e gado. Nasce o padrão de concentração fundiária que faz do Paraguai um dos países mais desiguais do mundo na distribuição da terra, e nasce o campesinato sem título.\n\n**A instabilidade política é crônica.** Entre 1870 e 1930 há mais de trinta presidentes; os Liberais governam de 1904 a 1936, com golpes internos frequentes, e uma guerra civil em 1922-1923.\n\n**A Guerra do Chaco é vencida contra um adversário maior.** Entre 1932 e 1935, o Paraguai enfrenta a Bolívia pelo Chaco Boreal. Sob José Félix Estigarribia, forças menores e mais bem adaptadas ao terreno empurram os bolivianos para o oeste. O tratado de 1938 confirma para o Paraguai a maior parte da área disputada. As perdas paraguaias, na ordem de trinta mil mortos, são enormes para o tamanho do país.\n\n**A vitória desestabiliza os vencedores.** Veteranos formam um movimento nacionalista que derruba o governo liberal em 1936 — a Revolução Febrerista, que decreta reforma agrária e leis trabalhistas e cai em um ano. Segue-se uma década de governos militares e civis breves, uma guerra civil em 1947 e, em 1954, o golpe de um comandante do exército chamado Alfredo Stroessner.",
+      "fontes": [
+        "whigham-guerra-paraguai",
+        "lewis-paraguai-stroessner"
+      ]
+    },
+    {
+      "id": "py-stronato",
+      "inicio": "1954",
+      "fim": "1989",
+      "rotulo": "Ditadura de Stroessner",
+      "regime": "ditadura de partido único sob estado de sítio permanente",
+      "textoMdx": "Trinta e cinco anos no poder, a mais longa ditadura da América do Sul no século XX, sustentada por três pilares: as Forças Armadas, o Partido Colorado e a administração pública, com filiação obrigatória para quem quisesse emprego público.\n\n**O estado de sítio é renovado a cada três meses por décadas.** Prisão sem processo, tortura sistemática, exílio de opositores e um partido único de fato, com eleições em que a vitória do presidente era conhecida antes. A comissão de verdade instalada depois apurou milhares de detidos e torturados e algo mais de quatrocentas execuções e desaparecimentos comprovados.\n\n**O regime opera dentro da coordenação repressiva do Cone Sul.** O Paraguai participa da Operação Condor, e a prova documental mais importante dela é paraguaia: o Arquivo do Terror, toneladas de fichas da polícia política encontradas em Lambaré em 1992, que registram prisões e a troca de informação entre serviços de Chile, Argentina, Brasil, Uruguai e Bolívia.\n\n**A lealdade é paga com contrabando e terra.** Cargos e concessões distribuem renda de contrabando de cigarro, uísque e eletrônicos, e a colonização agrícola transfere milhões de hectares a militares, dirigentes colorados e produtores de soja vindos do Brasil — os *brasiguaios*. O Estado é ao mesmo tempo repressor e distribuidor.\n\n**Itaipu financia o auge e o fim.** O tratado com o Brasil, de 1973, e a construção da hidrelétrica trazem uma década de crescimento acelerado, emprego e dinheiro para a obra. Terminada a construção nos anos 1980, a economia desacelera, a dívida aparece, e as rachaduras internas do Partido Colorado se abrem. Em fevereiro de 1989, Stroessner é derrubado por seu próprio consogro e comandante do I Corpo, Andrés Rodríguez, e exila-se no Brasil, onde morre sem ser julgado.",
+      "fontes": [
+        "lewis-paraguai-stroessner",
+        "cvj-paraguai",
+        "arquivo-do-terror"
+      ]
+    },
+    {
+      "id": "py-republica",
+      "inicio": "1989",
+      "rotulo": "República do Paraguai",
+      "regime": "república presidencialista; Partido Colorado no governo quase todo o período",
+      "textoMdx": "Trinta e cinco anos de democracia formal em que o partido da ditadura continua ganhando eleições — situação sem paralelo na região —, com a estrutura agrária intacta e a soja no lugar do contrabando.\n\n**A Constituição de 1992 fecha a porta do continuísmo.** Ela proíbe a reeleição presidencial, garante o guarani como idioma oficial ao lado do espanhol, reconhece direitos indígenas e subordina as Forças Armadas ao poder civil. A tentativa do general Lino Oviedo de voltar ao poder por golpe, em 1996, e a crise de 1999, com a morte de manifestantes no Marzo Paraguayo, testam e confirmam o desenho.\n\n**A soja reorganiza o campo, e a população sai dele.** A expansão da soja transgênica e da pecuária faz do Paraguai um dos maiores exportadores mundiais, com renda concentrada e uso intenso de agrotóxico. O campesinato sem terra é deslocado, e o conflito fundiário produz o episódio de Curuguaty, em 2012: dezessete mortos numa ação de despejo, usado como base para destituir o presidente Fernando Lugo por julgamento político de dois dias.\n\n**A única alternância dura cinco anos.** Lugo, bispo católico eleito em 2008 por uma coalizão ampla, encerra 61 anos de governo colorado ininterrupto. Sua destituição em 2012 devolve o poder ao Partido Colorado, que o mantém desde então.\n\n**A comissão de verdade entrega o relatório em 2008.** Baseada em parte no Arquivo do Terror, ela apura as violações do período 1954-2003 e recomenda reparações e restituição de terras indígenas e camponesas apropriadas na ditadura. O cumprimento dessas recomendações segue parcial.",
+      "fontes": [
+        "cvj-paraguai",
+        "lewis-paraguai-stroessner"
+      ]
+    }
+  ]
+}
