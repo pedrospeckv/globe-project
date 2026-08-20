@@ -13,7 +13,15 @@
       "fontes": [
         "duby-historia-franca",
         "reynolds-fiefs-vassals"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Codex_Aureus_Sankt_Emmeram.jpg",
+        "alt": "Página iluminada do Codex Aureus de São Emerano, do século IX, com Cristo entronizado em ouro e cores sobre fundo decorado.",
+        "credito": "Image was made by the Bayerische Staatsbibliothek München and the work itself was made by Carolingian craftsmen in ca. 870 AD.",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Codex_Aureus_Sankt_Emmeram.jpg",
+        "legenda": "O Codex Aureus de São Emerano, encomendado por volta de 870 por Carlos, o Calvo — o rei que ficou com a parte ocidental depois que Verdun repartiu o império de Carlos Magno entre três netos. É dessa partilha que a França se conta."
+      }
     },
     {
       "id": "fr-capetingios",
@@ -24,7 +32,15 @@
       "textoMdx": "Os primeiros capetíngios controlam pouco mais que a região entre Paris e Orléans, e nem ali com folga: castelães do próprio domínio real desafiam a coroa em armas. O reino existe no título; o poder está com duques e condes que não devem obediência prática a ninguém.\n\n**A dinastia se salva por um truque de sucessão.** Cada rei faz sagrar o filho ainda em vida, associando-o ao trono. Repetido por gerações, o expediente esvazia o princípio eletivo que havia levado Hugo Capeto ao poder e transforma a escolha dos grandes em formalidade. O resultado é uma linha masculina ininterrupta por mais de três séculos — continuidade rara na Europa do período, e a base sobre a qual tudo o mais é construído.\n\n**A reversão territorial leva duzentos anos.** O casamento de Leonor da Aquitânia com Henrique Plantageneta, em 1152, monta do outro lado do Canal um conjunto de domínios maior que o do rei da França, ainda que formalmente vassalo dele. Filipe Augusto usa exatamente esse vínculo: julga João Sem-Terra como vassalo faltoso, confisca seus feudos e toma Normandia, Anjou e Touraine em 1204. A vitória de Bouvines, em 1214, sela o ganho. A cruzada albigense, entre 1209 e 1229, esmaga a heresia cátara e entrega o Languedoc à coroa — o sul de língua occitana entra na França pela guerra, e a Inquisição se instala no rastro dela.\n\n**A justiça vira instrumento de Estado.** Luís IX firma o recurso ao tribunal do rei como instância acima da dos senhores, proíbe o duelo judiciário e impõe tréguas às guerras privadas. O mesmo rei manda queimar exemplares do Talmude em Paris em 1242 e morre em cruzada diante de Túnis; canonizado em 1297, dá à monarquia francesa um santo próprio.\n\n**Filipe, o Belo, testa até onde o rei pode ir.** Enfrenta o papa Bonifácio VIII e sai por cima; a corte pontifícia se transfere para Avignon em 1309. Convoca os primeiros Estados Gerais em 1302 para obter apoio na disputa. Expulsa os judeus do reino em 1306, confiscando seus bens, e destrói a Ordem do Templo a partir de 1307 pelo mesmo motivo fiscal, com confissões obtidas sob tortura. Adultera a moeda tantas vezes que o apelido de rei falsário circula em vida.\n\nEm 1328 Carlos IV morre sem herdeiro homem, o terceiro filho de Filipe, o Belo, a morrer assim em catorze anos. A sucessão que se abre aí produz a [[fr-guerra-cem-anos|guerra do período seguinte]].\n\n*A exclusão da linha feminina foi justificada depois pela lei sálica, texto franco do século VI que nada dizia sobre a coroa. Ele foi recuperado e reinterpretado como princípio dinástico ao longo dos séculos XIV e XV, quando já era preciso defender a escolha feita em 1328 contra a reivindicação inglesa. A regra não fundamentou a decisão: foi construída para sustentá-la.*",
       "fontes": [
         "duby-historia-franca"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sainte_Chapelle_Interior_Stained_Glass.jpg/1920px-Sainte_Chapelle_Interior_Stained_Glass.jpg",
+        "alt": "Interior da Sainte-Chapelle em Paris: paredes quase inteiramente de vitrais coloridos entre colunas finas, com abóbada estrelada.",
+        "credito": "Oldmanisold",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Sainte_Chapelle_Interior_Stained_Glass.jpg",
+        "legenda": "A Sainte-Chapelle, terminada em 1248 por Luís IX para guardar a Coroa de Espinhos. A parede virou vidro — a técnica gótica em seu limite, paga por um rei que comprou relíquias por mais do que custou o edifício."
+      }
     },
     {
       "id": "fr-guerra-cem-anos",
@@ -35,7 +51,15 @@
       "textoMdx": "Eduardo III da Inglaterra reivindica o trono francês por linha materna. Os pares franceses coroam Filipe de Valois, primo pela linha masculina. A disputa vira guerra aberta em 1337 e atravessa cinco reinados de cada lado.\n\n**O estopim não é só dinástico.** Filipe VI confisca a Guiena, que o rei inglês possuía como vassalo do rei francês — um arranjo que humilhava um e enfraquecia o outro havia gerações. Some-se Flandres, cujas cidades têxteis dependiam da lã inglesa e cujo conde devia fidelidade a Paris, e a guerra tem economia, vassalagem e dinastia no mesmo nó.\n\n**A França perde quase todas as batalhas grandes.** Crécy em 1346, Poitiers em 1356 — onde o rei João II é capturado e depois resgatado por três milhões de escudos de ouro — e Azincourt em 1415. O arco longo inglês e a indisciplina da cavalaria francesa aparecem em todas as três. Entre elas, a peste negra chega em 1348 e mata algo em torno de um terço da população europeia, seguida da revolta camponesa da Jacquerie em 1358 e da insurreição de Étienne Marcel em Paris.\n\n**O pior momento é uma guerra civil.** A loucura de Carlos VI abre uma disputa entre armagnacs e borguinhões que rasga o reino ao meio e leva o duque da Borgonha a se aliar aos ingleses. O Tratado de Troyes, em 1420, deserda o delfim e reconhece o herdeiro inglês como futuro rei da França. Em 1429 metade do país obedece a Paris ocupada.\n\n**A virada tem nome.** [[joana-darc]], camponesa de Domrémy, convence a corte de Chinon, rompe o cerco de Orléans em maio de 1429 e conduz Carlos VII a ser sagrado em Reims em julho — o rito que faltava para que ele fosse rei aos olhos do reino. Capturada pelos borguinhões em 1430, vendida aos ingleses e condenada por um tribunal eclesiástico, é queimada em Ruão em 1431. O processo é anulado em 1456, a pedido do rei que ela coroou.\n\n**A guerra constrói o Estado que a vence.** Para sustentar exército permanente, a coroa obtém dos Estados Gerais, em 1439, o direito de cobrar a talha sem nova autorização a cada vez, e organiza as companhias de ordenança em 1445. Imposto permanente e tropa profissional nascem juntos e não vão mais embora. A Borgonha troca de lado em Arras, em 1435; a artilharia real decide Castillon em 1453; resta aos ingleses apenas Calais, que só cai em 1558.\n\n*Cento e dezesseis anos de trégua, campanha e trégua de novo só viraram uma guerra única no século XIX, quando os manuais precisaram de um nome. Quem viveu aquilo não estava numa Guerra dos Cem Anos, e nem sempre estava numa guerra entre dois países: em boa parte do tempo, o conflito era entre um rei e um vassalo que se dizia rei.*",
       "fontes": [
         "duby-historia-franca"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Battle_of_crecy_froissart.jpg/1920px-Battle_of_crecy_froissart.jpg",
+        "alt": "Miniatura de manuscrito do século XV mostrando a batalha de Crécy: arqueiros ingleses de arco longo à direita, besteiros e cavaleiros franceses à esquerda.",
+        "credito": "Loyset Liédet",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Battle_of_crecy_froissart.jpg",
+        "legenda": "Crécy, 1346, iluminada por Loyset Liédet para as Crônicas de Froissart no século seguinte. À direita, o arco longo inglês; à esquerda, a cavalaria francesa — o encontro que mostrou que o cavaleiro montado tinha deixado de decidir batalhas."
+      }
     },
     {
       "id": "fr-antigo-regime",
@@ -47,7 +71,15 @@
       "fontes": [
         "duby-historia-franca",
         "code-noir-1685"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Chateau_de_Versailles_1668_Pierre_Patel.jpg/1920px-Chateau_de_Versailles_1668_Pierre_Patel.jpg",
+        "alt": "Pintura de 1668 mostrando o Palácio de Versalhes visto do alto, com os jardins geométricos, o pátio de entrada e as carruagens chegando.",
+        "credito": "Pierre Patel",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Chateau_de_Versailles_1668_Pierre_Patel.jpg",
+        "legenda": "Versalhes em 1668, pintado por Pierre Patel quando as obras mal tinham começado. Luís XIV mudaria a corte para lá em 1682, e a nobreza que morava em seus próprios castelos passaria a morar sob os olhos do rei — que era o ponto."
+      }
     },
     {
       "id": "fr-revolucao",
@@ -60,7 +92,15 @@
         "duby-historia-franca",
         "furet-revolucao-francesa",
         "declaracao-direitos-1789"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Prise_de_la_Bastille.jpg/1920px-Prise_de_la_Bastille.jpg",
+        "alt": "Aquarela de 1789 mostrando a tomada da Bastilha: fumaça sobre a fortaleza, multidão armada no pátio e a prisão do governador ao centro.",
+        "credito": "Jean-Pierre Houël",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Prise_de_la_Bastille.jpg",
+        "legenda": "A tomada da Bastilha, aquarelada por Jean-Pierre Houël no próprio ano de 1789. A fortaleza guardava sete presos e um depósito de pólvora; o que se tomou ali foi menos a prisão do que a prova de que ela podia ser tomada."
+      }
     },
     {
       "id": "fr-imperios-restauracoes",
@@ -72,7 +112,15 @@
       "fontes": [
         "duby-historia-franca",
         "codigo-civil-1804"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/1920px-Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg",
+        "alt": "Pintura monumental da sagração de Napoleão em Notre-Dame: ele de pé coroando Josefina ajoelhada, com o papa Pio VII sentado atrás.",
+        "credito": "Jacques-Louis David / Georges Rouget",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg",
+        "legenda": "A sagração, por Jacques-Louis David, 1805–1807. Napoleão chamou o papa a Paris e coroou a si mesmo antes de coroar Josefina — a cena que David escolheu pintar. O gesto diz o período inteiro: a legitimidade sai da Igreja e passa para quem tem o exército."
+      }
     },
     {
       "id": "fr-terceira-republica",
@@ -84,7 +132,15 @@
       "fontes": [
         "duby-historia-franca",
         "lei-separacao-1905"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/View_of_Exposition_Universelle_from_Eiffel_Tower%2C_Paris%2C_1889.jpg",
+        "alt": "Fotografia de 1889 tirada do alto da Torre Eiffel, mostrando os pavilhões da Exposição Universal no Campo de Marte e a cidade ao fundo.",
+        "credito": "Neurdein",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:View_of_Exposition_Universelle_from_Eiffel_Tower,_Paris,_1889.jpg",
+        "legenda": "A Exposição Universal de 1889, vista do alto da torre construída para ela. A Terceira República celebrava o centenário da Revolução com uma estrutura de ferro que trezentos artistas assinaram um manifesto para impedir."
+      }
     },
     {
       "id": "fr-vichy",
@@ -96,7 +152,15 @@
       "fontes": [
         "duby-historia-franca",
         "paxton-vichy"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Photographie_de_propagande_le_mar%C3%A9chal_P%C3%A9tain_re%C3%A7oit_les_d%C3%A9l%C3%A9gu%C3%A9s_des_associations_professionnelles_mixtes%2C_PH23721.jpg",
+        "alt": "Fotografia de propaganda do Estado Francês mostrando o marechal Pétain recebendo delegados das associações profissionais mistas.",
+        "credito": "Service central photographique (SCP) (Secrétariat d'etat à l'Information du Gouvernement de Vichy), agence de photographe",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Photographie_de_propagande_le_mar%C3%A9chal_P%C3%A9tain_re%C3%A7oit_les_d%C3%A9l%C3%A9gu%C3%A9s_des_associations_professionnelles_mixtes,_PH23721.jpg",
+        "legenda": "Fotografia de propaganda do Estado Francês — é assim que ela vem classificada no acervo de origem, e é por isso que serve. Pétain recebe delegados das corporações profissionais, encenando a concórdia entre patrões e operários que a Revolução Nacional prometia, enquanto o regime colaborava com a ocupação e entregava judeus à deportação."
+      }
     },
     {
       "id": "fr-quarta-republica",
@@ -108,7 +172,15 @@
       "fontes": [
         "duby-historia-franca",
         "stora-guerra-argelia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Crowds_of_French_patriots_line_the_Champs_Elysees.jpg/1920px-Crowds_of_French_patriots_line_the_Champs_Elysees.jpg",
+        "alt": "Fotografia de 26 de agosto de 1944: multidão lotando os Champs-Élysées enquanto blindados da 2ª Divisão Blindada de Leclerc desfilam sob o Arco do Triunfo.",
+        "credito": "Jack Downey, U.S. Office of War Information",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Crowds_of_French_patriots_line_the_Champs_Elysees.jpg",
+        "legenda": "Os Champs-Élysées em 26 de agosto de 1944, um dia depois da rendição alemã em Paris. Que a 2ª Divisão Blindada de Leclerc — francesa — tenha entrado primeiro foi decisão política de De Gaulle, e é a base sobre a qual a França reconstruiu a própria legitimidade."
+      }
     },
     {
       "id": "fr-quinta-republica",
@@ -120,7 +192,15 @@
         "duby-historia-franca",
         "constituicao-francesa-1958",
         "stora-guerra-argelia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Palais_Bourbon%2C_Paris_7e%2C_NW_View_140402_1.jpg/1920px-Palais_Bourbon%2C_Paris_7e%2C_NW_View_140402_1.jpg",
+        "alt": "Fotografia do Palais Bourbon em Paris, sede da Assembleia Nacional, com sua fachada de colunas coríntias vista de noroeste.",
+        "credito": "DXR",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Palais_Bourbon,_Paris_7e,_NW_View_140402_1.jpg",
+        "legenda": "O Palais Bourbon, sede da Assembleia Nacional. A Quinta República, desenhada em 1958 para dar ao presidente o poder que a Quarta não dera a ninguém, é a mais longeva da França desde a Revolução."
+      }
     }
   ]
 }

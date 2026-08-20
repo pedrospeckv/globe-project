@@ -15,7 +15,15 @@
         "projeto-cronologia-xsz",
         "sima-qian-shiji",
         "inscricoes-oraculares-anyang"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Late_Shang_Bronze_Tripod_Ding_01.jpg/1920px-Late_Shang_Bronze_Tripod_Ding_01.jpg",
+        "alt": "Caldeirão ritual de bronze do fim da dinastia Shang, de três pés e duas alças, com a superfície coberta de motivos geométricos em relevo.",
+        "credito": "Gary Todd",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Late_Shang_Bronze_Tripod_Ding_01.jpg",
+        "legenda": "Ding de bronze do fim dos Shang. O caldeirão ritual é o objeto que define a dinastia: fundi-lo exigia minas, oficinas e mão de obra coordenada, e possuí-lo era a prova visível de quem tinha direito de sacrificar aos ancestrais."
+      }
     },
     {
       "id": "cn-zhou-ocidental",
@@ -28,7 +36,15 @@
         "fairbank-china",
         "projeto-cronologia-xsz",
         "sima-qian-shiji"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Western_Zhou_Bronze_%22Yu%22_Ding_Inscriptions.jpg/1920px-Western_Zhou_Bronze_%22Yu%22_Ding_Inscriptions.jpg",
+        "alt": "Detalhe do interior de um bronze Zhou Ocidental, com uma longa inscrição em caracteres arcaicos fundidos na parede do vaso.",
+        "credito": "Gary Todd",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Western_Zhou_Bronze_%22Yu%22_Ding_Inscriptions.jpg",
+        "legenda": "Inscrição fundida num bronze do reinado do rei Li, Zhou Ocidental. Estes textos são a primeira documentação escrita extensa da China: registram doações de terra, nomeações e batalhas — arquivo de Estado gravado em metal."
+      }
     },
     {
       "id": "cn-primaveras-outonos",
@@ -41,7 +57,15 @@
         "fairbank-china",
         "sima-qian-shiji",
         "analectos-confucio"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Spring_%26_Autumn_Bronze_Bianzhong_Chimes_03.jpg/1920px-Spring_%26_Autumn_Bronze_Bianzhong_Chimes_03.jpg",
+        "alt": "Conjunto de sinos de bronze do período das Primaveras e Outonos, pendurados em ordem de tamanho numa armação.",
+        "credito": "Gary Lee Todd, Ph.D.",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Spring_%26_Autumn_Bronze_Bianzhong_Chimes_03.jpg",
+        "legenda": "Carrilhão de sinos do período das Primaveras e Outonos. Cada sino dá duas notas conforme onde é golpeado, e conjuntos assim pertenciam a cortes de principados que já agiam como Estados — o rei Zhou reinava, mas não governava."
+      }
     },
     {
       "id": "cn-reinos-combatentes",
@@ -54,7 +78,15 @@
         "fairbank-china",
         "sima-qian-shiji",
         "livro-senhor-shang"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Warring_States_Lacquered_Coffin%2C_Chu_State_%2810162728495%29.jpg/1920px-Warring_States_Lacquered_Coffin%2C_Chu_State_%2810162728495%29.jpg",
+        "alt": "Detalhe de um caixão laqueado do Estado de Chu, período dos Reinos Combatentes, com desenhos de dragões e fênix em vermelho e preto.",
+        "credito": "Gary Todd from Xinzheng, China",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Warring_States_Lacquered_Coffin,_Chu_State_(10162728495).jpg",
+        "legenda": "Caixão laqueado do Estado de Chu, achado no túmulo 2 de Baoshan, Hubei. Chu era um dos sete reinos que sobraram de mais de cem principados — dois séculos e meio de guerra de aniquilação em que o vencedor foi Qin."
+      }
     },
     {
       "id": "cn-qin",
@@ -67,7 +99,15 @@
         "fairbank-china",
         "sima-qian-shiji",
         "livro-senhor-shang"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Terracotta_warriors_%2858322%29.jpg/1920px-Terracotta_warriors_%2858322%29.jpg",
+        "alt": "Fileiras de guerreiros de terracota em tamanho natural dentro da vala escavada, em Xi'an.",
+        "credito": "Ideophagous",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Terracotta_warriors_(58322).jpg",
+        "legenda": "O exército de terracota do mausoléu do Primeiro Imperador. São milhares de figuras em tamanho natural, cada uma com rosto próprio, produzidas em série por oficinas do Estado — o mesmo Estado que padronizou a escrita, a moeda e a bitola dos eixos de carroça."
+      }
     },
     {
       "id": "cn-han",
@@ -79,7 +119,15 @@
       "fontes": [
         "fairbank-china",
         "sima-qian-shiji"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Earthenware_architecture_models%2C_Eastern_Han_Dynasty%2C_1.JPG/1920px-Earthenware_architecture_models%2C_Eastern_Han_Dynasty%2C_1.JPG",
+        "alt": "Modelos de cerâmica vidrada do Han Oriental representando torres e casas de vários andares, feitos para acompanhar o morto no túmulo.",
+        "credito": "PericlesofAthens",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Earthenware_architecture_models,_Eastern_Han_Dynasty,_1.JPG",
+        "legenda": "Maquetes de cerâmica do Han Oriental, postas em túmulos para que o morto tivesse casa e torre de vigia no além. São a melhor fonte que existe sobre como era a arquitetura de madeira do período, da qual nada sobreviveu."
+      }
     },
     {
       "id": "cn-divisao",
@@ -90,7 +138,15 @@
       "textoMdx": "Três séculos e meio sem unidade, e o período em que a China deixa de ser apenas confuciana.\n\n**Começa com os Três Reinos, que a literatura transformou em outra coisa.** A disputa entre Wei, Shu e Wu dura sessenta anos e virou, mil anos depois, um dos grandes romances da língua chinesa — a ponto de as figuras históricas serem hoje conhecidas sobretudo pelas versões ficcionais. O registro administrativo é bem menos glorioso: o número de pessoas arroladas em censo despenca de cerca de 57 milhões para algo em torno de 16 milhões, queda que combina mortandade real com o colapso da capacidade de registrar quem existe.\n\n**O norte é conquistado e acaba conquistando os conquistadores.** Povos das estepes fundam dinastias sucessivas ao norte do Yangtzé e, para governar populações agrícolas enormes, adotam a administração, a língua e o cânone chineses. O caso mais explícito é o dos Wei do Norte, cujo imperador Xiaowen decreta em 494 a mudança da capital para Luoyang e proíbe na corte a roupa, a língua e os sobrenomes do próprio povo. Não é assimilação espontânea: é política de Estado, e ela produz uma elite mista da qual sairiam as dinastias que reunificariam o país.\n\n**O sul recebe as famílias que fugiram e vira outro tipo de lugar.** A aristocracia do norte se transfere para o vale do Yangtzé levando bibliotecas e genealogias, e as cortes meridionais desenvolvem uma cultura letrada de caligrafia, poesia e crítica literária que se tornaria referência permanente. A expansão agrícola do sul começa aqui, e com ela o deslocamento do centro econômico da China, que no fim das contas nunca voltaria para o norte.\n\n**O budismo deixa de ser religião estrangeira.** Chegado da Índia pelas rotas da Ásia Central, difunde-se em massa num período em que nem a ordem confuciana nem a dinastia inspiravam confiança. Equipes de tradução vertem para o chinês milhares de textos — trabalho intelectual de grande escala, que teve de inventar vocabulário para conceitos inexistentes na língua. Nas rochas de Yungang e Longmen escavam-se santuários com dezenas de milhares de imagens, financiados por cortes que se queriam legitimadas por eles. A partir daqui, China é confuciana, taoista e budista ao mesmo tempo, e a maioria das pessoas não vê contradição nisso.\n\nA reunificação vem em 589, e vem [[cn-sui|do norte mestiço]], não do sul letrado.",
       "fontes": [
         "fairbank-china"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Yungang_Grottoes_02.jpg/1920px-Yungang_Grottoes_02.jpg",
+        "alt": "Buda colossal esculpido na rocha das grutas de Yungang, em Datong, com o rosto sereno e as pernas cruzadas.",
+        "credito": "Steve Cadman from London, U.K.",
+        "licenca": "CC BY-SA 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Yungang_Grottoes_02.jpg",
+        "legenda": "Buda das grutas de Yungang, em Datong, escavadas pelos Wei do Norte a partir de 460. Foram dinastias de origem estepária que patrocinaram o budismo na China — os três séculos de divisão política foram também os de maior importação cultural."
+      }
     },
     {
       "id": "cn-sui",
@@ -101,7 +157,15 @@
       "textoMdx": "Dinastia curta e decisiva. Um general da elite mista do norte reunifica a China depois de 369 anos de divisão e reconstrói o Estado imperial em menos de uma geração: recenseamento geral, código legal novo, sistema de campos iguais redistribuindo terra por adulto em troca de imposto e serviço, celeiros públicos, exames para recrutar funcionários.\n\n**A obra que justifica a dinastia é o Grande Canal.** Cerca de dois mil quilômetros de vias navegáveis ligam o vale do Yangtzé, que produzia o arroz, ao norte, onde ficavam a capital e os exércitos. Resolve o problema estrutural da China imperial — o centro político e o centro produtor estarem em bacias fluviais diferentes, que correm todas para o leste e não se comunicam — e estrutura a economia do país por mais de mil anos. Foi construído por conscrição em massa, com números de trabalhadores e de mortos que as fontes contam aos milhões.\n\n**O que derruba a dinastia é a Coreia.** Três campanhas sucessivas contra o reino de Goguryeo, entre 612 e 614, mobilizam exércitos gigantescos e fracassam de forma humilhante. Some-se o esgotamento das obras e o resultado é revolta generalizada; o segundo imperador é assassinado pela própria guarda em 618, e um primo aristocrata funda a dinastia seguinte.\n\n*Sui e [[cn-qin|Qin]] são o mesmo enredo com oitocentos anos de distância: reunificam o país após longa fragmentação, executam obras públicas de escala inédita, esgotam a população que as constrói, duram menos de trinta anos e caem — deixando para a dinastia seguinte, que governará séculos, a infraestrutura e as instituições que elas pagaram. E em ambos os casos quem escreveu a história foi o sucessor, que tinha interesse em explicar a queda pela tirania do antecessor e não pela dificuldade da tarefa.*",
       "fontes": [
         "fairbank-china"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Zhaozhou_Bridge.jpg/1920px-Zhaozhou_Bridge.jpg",
+        "alt": "Ponte de Zhaozhou: arco de pedra único e abatido sobre o rio, com arcos vazados menores nos ombros.",
+        "credito": "English Wikipedia user Zhao 1974",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Zhaozhou_Bridge.jpg",
+        "legenda": "A ponte de Anji, em Zhaozhou, construída entre 595 e 605 por Li Chun. É a mais antiga ponte de arco abatido em pedra ainda em uso no mundo — e está de pé há mil e quatrocentos anos, muito mais do que a dinastia que a encomendou, que durou trinta e sete."
+      }
     },
     {
       "id": "cn-tang",
@@ -112,7 +176,15 @@
       "textoMdx": "Chang'an é provavelmente a maior cidade do mundo no período: cerca de um milhão de pessoas dentro de muros traçados em xadrez, com bairros fechados à noite, mercados regulados e comunidades persas, sogdianas, árabes, indianas, coreanas e japonesas. Templos budistas, mosteiros nestorianos, zoroastristas e uma mesquita convivem na mesma capital.\n\n**O exame imperial vira caminho de poder, sem ainda ser o único.** A seleção por composição literária e conhecimento dos clássicos cria uma via de ascensão que não depende de nascimento, e os aprovados no grau mais alto formam uma elite de prestígio enorme. Mas as grandes famílias aristocráticas continuam dominando os cargos de cúpula durante quase toda a dinastia — a meritocracia Tang é real e é minoritária. O modelo, mesmo assim, é exportado para a Coreia, o [[jp-nara|Japão]] e o Vietnã, que copiam código legal, capital em xadrez e burocracia.\n\n**Uma mulher governa como imperador, e a história a trata de acordo.** Wu Zetian, concubina que se torna imperatriz, depois regente e por fim soberana em nome próprio entre 690 e 705, é o único caso na história chinesa. Governou com competência administrativa reconhecida até por seus detratores, ampliou o recrutamento por exame e enfrentou a aristocracia — e as crônicas escritas por letrados confucianos derrotados por ela a legaram à posteridade como monstro de intriga sexual e crueldade. Separar as duas coisas é trabalho de historiador até hoje.\n\n**A rota da seda opera em plena capacidade, e a cultura acompanha.** Cavalos ferghana, música e dança da Ásia Central, moda estrangeira nas ruas da capital, e a poesia que a China trata como seu ponto mais alto — Li Bai e Du Fu escrevem nesta dinastia, e Du Fu escreve a guerra que a parte ao meio.\n\n**A rebelião de An Lushan, em 755, é o corte.** Um general de origem sogdiana com comando de tropas de fronteira marcha sobre a capital; a corte foge; a supressão leva oito anos e exige chamar tropas estrangeiras. Os registros de população caem de cerca de 53 milhões para menos de 17 milhões — outra vez mistura de mortandade real com colapso do aparato de registro, e os historiadores discutem a proporção. O que não se discute é o efeito político: os comandos militares regionais nunca mais devolvem o poder ao centro, e a dinastia sobrevive cento e cinquenta anos governando cada vez menos.\n\nO fim é uma sequência de perseguições e revoltas: em 845 o Estado confisca os bens dos mosteiros budistas e obriga centenas de milhares de monges a voltar à vida civil; a partir de 878, a revolta de Huang Chao arrasa o sul e massacra a colônia de mercadores estrangeiros de Guangzhou, encerrando o grande comércio marítimo do período. Em 907 um chefe militar depõe o último imperador.",
       "fontes": [
         "fairbank-china"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/WLA_vanda_Tang_Camel.jpg/1920px-WLA_vanda_Tang_Camel.jpg",
+        "alt": "Figura funerária Tang em cerâmica sancai representando um camelo bactriano carregado, com vidrado em âmbar, verde e creme.",
+        "credito": "Wikipedia Loves Art participant \"Opal_Art_Seekers_4\"",
+        "licenca": "CC BY 2.5",
+        "origem": "https://commons.wikimedia.org/wiki/File:WLA_vanda_Tang_Camel.jpg",
+        "legenda": "Camelo de cerâmica sancai, entre 700 e 750. Figuras assim iam para os túmulos das famílias ricas de Chang'an, então a maior cidade do mundo: o camelo é a Rota da Seda posta dentro da sepultura junto com o defunto."
+      }
     },
     {
       "id": "cn-cinco-dinastias",
@@ -123,7 +195,15 @@
       "textoMdx": "Cinquenta e três anos, cinco dinastias sucessivas no norte e cerca de dez reinos simultâneos no sul. Nenhum governo dura o suficiente para se consolidar, e a maioria termina por golpe do próprio comandante militar.\n\n**A fragmentação política não interrompe a economia.** O sul, poupado das piores guerras, prospera com o arroz de duas safras, a cerâmica e o comércio marítimo — e vários dos reinos meridionais são, na prática, Estados mercantis bem administrados. O eixo econômico da China, que já vinha migrando desde as [[cn-divisao|dinastias do norte e do sul]], se firma definitivamente no Yangtzé neste período.\n\n**A impressão se difunde e muda o que significa saber.** A xilogravura, usada antes sobretudo para textos budistas, é aplicada em escala aos clássicos confucianos: entre 932 e 953, o governo patrocina a primeira edição impressa completa deles. Livro deixa de ser objeto copiado à mão por encomenda e vira mercadoria reproduzível — condição sem a qual o sistema de exames [[cn-song|do período seguinte]] não teria como funcionar na escala em que funcionou.\n\n**Uma decisão de 938 cobra caro por três séculos.** Para se manter no trono, um dos imperadores do norte cede aos quitanes as dezesseis prefeituras que controlavam os passos montanhosos ao norte de onde hoje é Pequim. Sem essa barreira natural, o Estado chinês perde a linha de defesa da planície do norte — e a dinastia que reunificar o país terá de conviver com um vizinho estepário instalado do lado de dentro da porta, comprando paz com tributo anual.\n\nA unificação recomeça em 960, quando um general é aclamado imperador pelas próprias tropas em campanha, num golpe que ele sempre alegou não ter planejado.",
       "fontes": [
         "fairbank-china"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/%E8%91%A3%E6%BA%90_%E5%A4%8F%E5%B1%B1%E5%9B%BE%E5%8D%B7.jpg/1920px-%E8%91%A3%E6%BA%90_%E5%A4%8F%E5%B1%B1%E5%9B%BE%E5%8D%B7.jpg",
+        "alt": "Trecho de um rolo horizontal chinês em tinta sobre seda mostrando montanhas de verão em névoa, com árvores e água.",
+        "credito": "Dong Yuan",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:%E8%91%A3%E6%BA%90_%E5%A4%8F%E5%B1%B1%E5%9B%BE%E5%8D%B7.jpg",
+        "legenda": "\"Montanhas de Verão\", de Dong Yuan, no período das Cinco Dinastias. É um rolo horizontal, feito para ser desenrolado por trechos, e o que se vê aqui é um deles. Com o império partido em dez reinos, a pintura de paisagem virou o que a China teve de mais duradouro no século."
+      }
     },
     {
       "id": "cn-song",
@@ -136,7 +216,15 @@
         "fairbank-china",
         "elvin-padrao-passado-chines",
         "pomeranz-grande-divergencia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Along_the_River_During_the_Qingming_Festival_%28detail_of_original%29.jpg/1920px-Along_the_River_During_the_Qingming_Festival_%28detail_of_original%29.jpg",
+        "alt": "Detalhe do rolo \"Às margens do rio durante o Festival Qingming\": uma ponte de madeira em arco cheia de gente, com barcos passando por baixo.",
+        "credito": "Zhang Zeduan",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_(detail_of_original).jpg",
+        "legenda": "Detalhe do rolo de Zhang Zeduan, por volta de 1100: a ponte de madeira sobre o rio em Kaifeng, com barqueiros, mercadores e curiosos. A capital Song tinha perto de um milhão de habitantes e uma economia monetizada como nenhuma outra do mundo então."
+      }
     },
     {
       "id": "cn-yuan",
@@ -147,7 +235,15 @@
       "textoMdx": "Pela primeira vez a China inteira é governada por uma dinastia estrangeira. Kublai Khan, neto de Gêngis, adota nome dinástico chinês, estabelece a capital onde hoje é Pequim e se apresenta simultaneamente como imperador da China e como grande cã de um império que ia da Coreia à Hungria.\n\n**A administração é deliberadamente estrangeira.** A população é classificada em quatro categorias hierárquicas, com mongóis no topo, aliados da Ásia Central e do Oriente Médio em seguida, chineses do norte depois e chineses do sul — os últimos a serem conquistados — na base. Cargos de confiança vão a muçulmanos, uigures e persas; o sistema de exames é suspenso por quase quarenta anos e, quando restaurado em 1315, opera com cotas que garantem aos mongóis metade das aprovações para uma fração ínfima da população. A elite letrada chinesa fica sem carreira, e parte dela migra para o teatro e o romance em língua vernácula — a grande literatura popular chinesa nasce desse desemprego.\n\n**A integração ao império mongol conecta continentes.** Rotas terrestres relativamente seguras ligam a China à Pérsia e ao Mediterrâneo; técnicos, astrônomos e médicos circulam nos dois sentidos; a pólvora e a impressão seguem para o oeste. É o período em que um mercador veneziano diz ter servido à corte de Kublai — e as mesmas rotas que levaram mercadorias muito provavelmente levaram também a peste que devastaria a Europa nos anos 1340.\n\n**O domínio dura menos de um século.** Cheias catastróficas do rio Amarelo na década de 1340 exigem obras de reparo com centenas de milhares de trabalhadores conscritos; vêm fome, epidemia, inflação do papel-moeda emitido sem lastro e revoltas milenaristas de camponeses. Os Turbantes Vermelhos derrubam a dinastia em 1368, e quem sai vencedor da disputa entre os rebeldes é [[cn-ming|um órfão camponês]].\n\n*O relato de Marco Polo é a principal fonte europeia sobre a China Yuan e é objeto de suspeita antiga: ele não menciona chá, escrita com pincel, pés atados nem a muralha, e não aparece em nenhum registro chinês. A discussão vai de considerá-lo testemunho direto com falhas de memória a tratá-lo como compilação de relatos de mercadores persas. O atlas usa o nome porque ele é referência conhecida, sem apoiar afirmação alguma nele.*",
       "fontes": [
         "fairbank-china"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Yuan_Underglaze_Blue_Jingdezhen_Porcelain_Plate.jpg/1920px-Yuan_Underglaze_Blue_Jingdezhen_Porcelain_Plate.jpg",
+        "alt": "Prato de porcelana Yuan de Jingdezhen, branco com desenhos em azul de cobalto sob o vidrado.",
+        "credito": "Gary Lee Todd, Ph.D.",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Yuan_Underglaze_Blue_Jingdezhen_Porcelain_Plate.jpg",
+        "legenda": "Porcelana azul e branca de Jingdezhen, dinastia Yuan. O cobalto vinha da Pérsia e boa parte das peças ia para o mundo islâmico — a China sob domínio mongol estava mais ligada ao ocidente da Ásia do que nunca antes."
+      }
     },
     {
       "id": "cn-ming",
@@ -158,7 +254,15 @@
       "textoMdx": "Fundada por um órfão camponês que sobreviveu à fome mendigando num mosteiro e terminou imperador. Zhu Yuanzhang desconfiava da burocracia que precisava para governar, aboliu o cargo de chanceler para concentrar tudo em si e conduziu purgas que, segundo as próprias fontes oficiais, mataram dezenas de milhares de funcionários e suas famílias.\n\n**A capital muda de lugar e a China muda de posição.** O terceiro imperador, que toma o trono do sobrinho numa guerra civil, transfere a corte de Nanquim para Pequim em 1421 e constrói a Cidade Proibida. A decisão põe o governo à distância de marcha da fronteira estepária — defensivamente lógico, e economicamente caro, porque obriga a alimentar a capital pelo Grande Canal.\n\n**As maiores frotas do mundo saem e depois são desmontadas.** Entre 1405 e 1433, sete expedições sob o comando de Zheng He alcançam o Sudeste Asiático, a Índia, a Arábia e a costa da África Oriental, com centenas de navios e embarcações maiores que qualquer coisa que a Europa poria no mar naquele século. E aí a corte simplesmente para. Não foi isolamento por temperamento: foi disputa política interna, com a burocracia letrada tratando as viagens como extravagância de eunucos, somada ao custo de reconstruir a muralha e de sustentar a nova capital. A decisão é tomada décadas antes de os portugueses contornarem o cabo da Boa Esperança, e o mar fica vago.\n\n**A Grande Muralha que se visita hoje é desta dinastia.** Erguida em pedra e tijolo ao longo do século XVI contra incursões mongóis, é uma obra defensiva de um império que havia desistido de campanhas ofensivas — e sua imagem como símbolo milenar da China é, em boa medida, construção recente.\n\n**A economia Ming funciona com prata americana.** A reforma fiscal do século XVI converte impostos e corveias em pagamento único em prata, e a China não produzia prata suficiente. O metal chega pelo comércio com Manila, vindo das minas espanholas na América — de modo que a política tributária chinesa e a extração colonial no Novo Mundo passam a ser o mesmo sistema. Quando o fluxo de prata é perturbado, no século XVII, o efeito se sente em Pequim.\n\nO fim combina tudo: décadas de frio anômalo e más colheitas, epidemias, revolta camponesa e um Estado sem caixa. Li Zicheng toma Pequim em abril de 1644 e o último imperador Ming se enforca numa colina atrás do palácio. Um general que guardava o passo da muralha decide abrir a fronteira e chamar [[cn-qing|os manchus]] para expulsar os rebeldes. Eles expulsam, e ficam.",
       "fontes": [
         "fairbank-china"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hall_of_Supreme_Harmony.JPG/1920px-Hall_of_Supreme_Harmony.JPG",
+        "alt": "Salão da Harmonia Suprema na Cidade Proibida, em Pequim: pavilhão de madeira sobre terraço triplo de mármore branco, visto de frente.",
+        "credito": "Gisling",
+        "licenca": "CC BY 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony.JPG",
+        "legenda": "O Salão da Harmonia Suprema, na Cidade Proibida, erguida entre 1406 e 1420 quando os Ming mudaram a capital para Pequim. O terraço triplo de mármore, o eixo norte-sul, a simetria: o palácio é uma tese sobre a ordem do mundo construída em madeira e pedra."
+      }
     },
     {
       "id": "cn-qing",
@@ -171,7 +275,15 @@
         "fairbank-china",
         "tratado-nanquim-1842",
         "platt-outono-reino-celestial"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/The_Admonitions_of_the_Court_Instructress_to_Court_Ladies%2C_2_of_4%2C_by_the_Qianlong_emperor%2C_1747_AD%2C_after_a_painting_attributed_to_Li_Gonglin%2C_1049-1106_AD%2C_ink_on_paper_-_Peabody_Essex_Museum_-_DSC07971.jpg/1920px-thumbnail.jpg",
+        "alt": "Rolo em tinta sobre papel pintado pelo imperador Qianlong em 1747, copiando uma composição atribuída a Li Gonglin, com figuras da corte e colunas de caligrafia.",
+        "credito": "Daderot",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Admonitions_of_the_Court_Instructress_to_Court_Ladies,_2_of_4,_by_the_Qianlong_emperor,_1747_AD,_after_a_painting_attributed_to_Li_Gonglin,_1049-1106_AD,_ink_on_paper_-_Peabody_Essex_Museum_-_DSC07971.jpg",
+        "legenda": "Rolo pintado pelo próprio imperador Qianlong em 1747, refazendo uma composição do século XI. Qianlong colecionava, copiava e carimbava obras antigas em escala industrial — um monarca manchu provando, com pincel, ser o herdeiro legítimo da tradição chinesa."
+      }
     },
     {
       "id": "cn-republica",
@@ -182,7 +294,15 @@
       "textoMdx": "A república nasce sem controlar o próprio território. Sun Yat-sen é presidente provisório por semanas e entrega o cargo ao general que comandava o único exército moderno do país; esse general dissolve o parlamento, tenta se proclamar imperador em 1915 e morre isolado no ano seguinte. Depois de 1916 não há mais centro: o país se reparte entre exércitos regionais que cobram os próprios impostos.\n\n**O Movimento de Quatro de Maio é a data que a China moderna reconhece como sua.** Em 1919, ao saber que o Tratado de Versalhes transferia ao Japão as concessões alemãs em Shandong em vez de devolvê-las à China — que havia entrado na guerra ao lado dos vencedores —, estudantes de Pequim vão às ruas. O movimento vira campanha de renovação cultural: escrita em língua falada em vez de clássica, crítica ao confucionismo como estrutura de opressão familiar, ciência e democracia como palavras de ordem. É desse caldo que sai o Partido Comunista Chinês, fundado em 1921.\n\n**Os dois partidos que disputariam o século nascem aliados.** Nacionalistas e comunistas, ambos organizados com assessoria soviética, unem-se para reunificar o país na Expedição do Norte, a partir de 1926. Em abril de 1927, ao chegar a Xangai, Chiang Kai-shek volta as armas contra os aliados e os massacra na cidade. Os sobreviventes se reorganizam no campo, são cercados, e escapam na Longa Marcha entre 1934 e 1935 — travessia de milhares de quilômetros em que a maioria morre e da qual Mao Tsé-tung emerge como líder do partido.\n\n**A guerra com o Japão define tudo o que vem depois.** O Japão toma a Manchúria em 1931 e invade o restante do país em julho de 1937. As estimativas de mortos chineses no conflito variam entre 15 e 20 milhões, a esmagadora maioria civis. Em dezembro de 1937, tropas japonesas cometem em Nanquim massacre e estupros em massa: a cifra oficial chinesa é de 300 mil mortos, historiadores fora da China trabalham com faixas mais baixas, e a divergência é sobre magnitude — a ocorrência está estabelecida por documentação militar, registro de testemunhas estrangeiras presentes e pelos julgamentos do pós-guerra. A negação do episódio por setores políticos japoneses é motivo de atrito diplomático permanente.\n\n**Nem toda catástrofe do período é do invasor.** Em 1938, para deter o avanço japonês, o governo nacionalista rompe os diques do rio Amarelo sem avisar a população: a inundação mata centenas de milhares de chineses e desloca milhões. A fome de Henan, em 1942 e 1943, mata entre dois e três milhões sob administração nacionalista que seguiu cobrando imposto em grão.\n\nA guerra civil recomeça em 1946 com o Partido Nacionalista desgastado por inflação descontrolada e corrupção, e termina em 1949. O governo derrotado se retira para Taiwan levando a reserva de ouro e o acervo do Museu do Palácio; [[cn-rpc|a República Popular]] é proclamada em Pequim em 1º de outubro.",
       "fontes": [
         "fairbank-china"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/1930_Shanghai.jpg/1920px-1930_Shanghai.jpg",
+        "alt": "Panorama fotográfico de 1930 mostrando o Bund de Xangai: a fileira de edifícios ocidentais à beira do rio Huangpu, com navios atracados.",
+        "credito": "U.S. Signal Corps",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:1930_Shanghai.jpg",
+        "legenda": "O Bund de Xangai em 1930. A fileira de bancos e casas comerciais ficava em concessões estrangeiras, fora da jurisdição chinesa — a República herdou um país onde as cidades mais ricas eram, em parte, governadas por outros."
+      }
     },
     {
       "id": "cn-rpc",
@@ -198,7 +318,15 @@
         "resolucao-pcc-1981",
         "declaracao-sino-britanica-1984",
         "onu-acnudh-xinjiang-2022"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tiananmen_Gate_%282872270062%29.jpg/1920px-Tiananmen_Gate_%282872270062%29.jpg",
+        "alt": "Fotografia do Portão de Tiananmen em Pequim, com o muro vermelho, os telhados curvos e o retrato de Mao Tsé-Tung sobre o arco central.",
+        "credito": "allen watkin from London, UK",
+        "licenca": "CC BY-SA 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Tiananmen_Gate_(2872270062).jpg",
+        "legenda": "O Portão de Tiananmen. Foi da varanda deste portão Ming que Mao proclamou a República Popular em 1º de outubro de 1949 — o regime novo instalando-se, literalmente, na porta do palácio imperial."
+      }
     }
   ]
 }

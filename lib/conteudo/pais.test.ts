@@ -2,6 +2,7 @@ import path from "node:path";
 import { describe, it, expect } from "vitest";
 import { Pais, Periodo, estaDividido } from "./pais";
 import { carregarAcervo } from "./carregar";
+import { coberturaDeImagens } from "./integridade";
 
 const acervo = await carregarAcervo(path.join(process.cwd(), "conteudo"));
 
@@ -208,18 +209,56 @@ describe("a imagem do período, no acervo real", () => {
     }
   });
 
-  it("o Brasil tem imagem em todos os oito períodos, e todas legendadas", () => {
-    const brasil = acervo.paises.find((p) => p.iso === "BRA")!;
-    expect(brasil.periodos).toHaveLength(8);
-    for (const p of brasil.periodos) {
-      expect(p.imagem, p.id).toBeDefined();
-      /*
-       * `alt` diz o que a imagem mostra; `legenda` diz por que ela está ali.
-       * Sem a segunda, uma foto de rua em 1875 é decoração — o leitor não tem
-       * como saber que aquela rua era o centro comercial da capital do
-       * Império, que é a única razão de ela abrir o período.
-       */
-      expect(p.imagem!.legenda, p.id).toBeTruthy();
+  it("nenhum país ficou pela metade — ou ilustra todos os períodos, ou nenhum", () => {
+    /*
+     * Este teste já nasceu errado uma vez, e a correção é a lição.
+     *
+     * A primeira versão exigia imagem em TODO período do acervo, porque no dia
+     * em que foi escrita a cobertura era total. Duas semanas depois entraram
+     * vinte e quatro países novos pela frente de largura, e o teste passou a
+     * reprovar trabalho alheio que não tinha defeito nenhum — a Argentina não
+     * está quebrada por não ter imagem ainda.
+     *
+     * Um teste que exige do repositório inteiro o estado do dia em que foi
+     * escrito não protege invariante: congela um instante.
+     *
+     * O invariante de verdade é por país. País sem nenhuma imagem é dívida
+     * declarada, contada em voz alta pelo validador junto com as outras. País
+     * PELA METADE é o defeito: alguém começou a ilustrar, parou, e ninguém
+     * notou — porque o buraco não aparece em lugar nenhum até um leitor abrir
+     * justamente aquele período.
+     */
+    const cob = coberturaDeImagens(acervo);
+    expect(cob.pelaMetade).toEqual([]);
+    // E o bloco inteiro só faz sentido se houver o que conferir.
+    expect(cob.completos.length).toBeGreaterThan(0);
+  });
+
+  it("onde há imagem, há legenda", () => {
+    /*
+     * `alt` diz o que a imagem mostra; `legenda` diz por que ela está ali.
+     * Sem a segunda, uma foto de rua em 1875 é decoração — o leitor não tem
+     * como saber que aquela rua era o centro comercial da capital do Império,
+     * que é a única razão de ela abrir o período.
+     */
+    for (const { pais, periodo } of comImagem) {
+      expect(periodo.imagem!.legenda, `${pais.iso}/${periodo.id}`).toBeTruthy();
+    }
+  });
+
+  it("nenhum crédito ficou com o resíduo do Commons", () => {
+    /*
+     * O campo `Artist` do Commons vem, em muitos arquivos, como "Unknown
+     * authorUnknown author" — o nome duplicado por como o template é montado.
+     * Copiado direto, ele vira crédito de tela e denuncia que ninguém leu o
+     * que foi gravado. "Autor desconhecido" é a forma honesta de dizer o
+     * mesmo.
+     */
+    for (const pais of acervo.paises) {
+      for (const p of pais.periodos) {
+        if (!p.imagem) continue;
+        expect(p.imagem.credito, `${pais.iso}/${p.id}`).not.toMatch(/unknown/i);
+      }
     }
   });
 });
