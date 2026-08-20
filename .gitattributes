@@ -1,0 +1,10 @@
+# Os .geojson entram byte a byte no hash de `lib/geo/fatias-indice.json`, e o
+# índice é construído com LF. Num checkout Windows com `core.autocrlf=true`
+# eles chegam ao disco em CRLF, o hash muda, e `pnpm validar` acusa as três
+# fatias como "alteradas desde a construção" sem que ninguém as tenha tocado.
+#
+# O sintoma engana: o erro pede `reconstrua com --locais`, e reconstruir de
+# fato faz passar — gravando no índice o hash da versão CRLF, que então quebra
+# para todo mundo que não usa Windows. Marcar `eol=lf` mantém o disco igual ao
+# objeto guardado, que é a única versão de que o hash fala.
+*.geojson text eol=lf
