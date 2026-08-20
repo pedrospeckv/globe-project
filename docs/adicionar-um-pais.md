@@ -191,7 +191,7 @@ E para ver na tela:
 pnpm dev
 ```
 
-Em <http://localhost:3000/atlas>, arraste a barra do tempo até uma data dentro de
+Em <http://localhost:3000>, arraste a barra do tempo até uma data dentro de
 um dos seus períodos: o país deve **acender** com contorno azul e virar clicável.
 Se não acender, confira se a data está dentro de algum período — o `isoNumerico`
 errado já teria sido barrado pelo `pnpm validar`.
