@@ -55,14 +55,14 @@ pnpm install
 pnpm dev
 ```
 
-Abre em <http://localhost:3000>. O mapa está em `/atlas`.
+Abre em <http://localhost:3000>, e o mapa é a própria página inicial.
 
 Os comandos que importam:
 
 | comando | o que faz |
 |---|---|
 | `pnpm validar` | confere schema, fontes e ligações do conteúdo |
-| `pnpm test` | a suíte (781 testes) |
+| `pnpm test` | a suíte de testes |
 | `pnpm build` | valida o conteúdo e gera as páginas estáticas |
 | `pnpm tsx scripts/cobertura.ts` | regera `docs/cobertura.md` |
 

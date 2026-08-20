@@ -14,11 +14,19 @@ import {
 import { geoContains } from "d3-geo";
 import type { Position } from "geojson";
 import { carregarMundo, prepararMundo, separarPaises } from "./mundo";
-import { alpha3De, PAISES_DO_ATLAS } from "./iso";
+import { criarTraducaoIso } from "./iso";
+import { ISOS_DO_ACERVO, PAISES_DO_ACERVO } from "./__fixtures__/acervo";
+
+/*
+ * A tradução é montada do acervo, e não vem de tabela global: o código numérico
+ * mora no arquivo de cada país desde 2026-08-19, para que PR de país novo não
+ * toque em arquivo compartilhado. Ver `lib/geo/iso.ts`.
+ */
+const { alpha3De } = criarTraducaoIso(PAISES_DO_ACERVO);
 import { anoFracionarioDe } from "@/lib/conteudo/tempo";
 
 const mundo = await carregarMundo();
-const preparado = prepararMundo(mundo, PAISES_DO_ATLAS);
+const preparado = prepararMundo(mundo, PAISES_DO_ACERVO);
 const russia = mundo.find(
   (f) => f.id !== undefined && alpha3De(f.id as string) === "RUS"
 )!;
@@ -32,7 +40,7 @@ describe("disputas", () => {
     for (const d of DISPUTAS) {
       const paises = paisesDaDisputa(d);
       expect(paises.length).toBeGreaterThan(0);
-      for (const p of paises) expect(PAISES_DO_ATLAS).toContain(p);
+      for (const p of paises) expect(ISOS_DO_ACERVO).toContain(p);
       expect(d.nota.length).toBeGreaterThan(80);
     }
   });
@@ -108,7 +116,7 @@ describe("disputas", () => {
   it("marcar a Caxemira não hachura nem um metro a mais de território", () => {
     const r = separarPaises(
       preparado,
-      PAISES_DO_ATLAS,
+      ISOS_DO_ACERVO,
       idsDeDisputasVigentes(anoFracionarioDe("2020"))
     );
     // Uma só área disputada em 2020: a Crimeia. A Caxemira é alfinete.
@@ -152,10 +160,10 @@ describe("disputas", () => {
   });
 
   it("antes de 2014 o polígono desce para o fundo em vez de acender", () => {
-    const antes = separarPaises(preparado, PAISES_DO_ATLAS, idsDeDisputasVigentes(anoFracionarioDe("2000")));
+    const antes = separarPaises(preparado, ISOS_DO_ACERVO, idsDeDisputasVigentes(anoFracionarioDe("2000")));
     expect(antes.disputados).toHaveLength(0);
 
-    const depois = separarPaises(preparado, PAISES_DO_ATLAS, idsDeDisputasVigentes(anoFracionarioDe("2014")));
+    const depois = separarPaises(preparado, ISOS_DO_ACERVO, idsDeDisputasVigentes(anoFracionarioDe("2014")));
     expect(depois.disputados).toHaveLength(1);
 
     // A península não sumiu num caso nem no outro.
@@ -185,12 +193,12 @@ describe("disputas", () => {
 
   it("sem instante informado, separarPaises não marca disputa nenhuma", () => {
     // A página de país não tem barra de tempo; ela não deve inventar uma data.
-    const { disputados } = separarPaises(preparado, PAISES_DO_ATLAS);
+    const { disputados } = separarPaises(preparado, ISOS_DO_ACERVO);
     expect(disputados).toHaveLength(0);
   });
 
   it("nada de terra some por causa do recorte", () => {
-    const r = separarPaises(preparado, PAISES_DO_ATLAS, idsDeDisputasVigentes(anoFracionarioDe("2020")));
+    const r = separarPaises(preparado, ISOS_DO_ACERVO, idsDeDisputasVigentes(anoFracionarioDe("2020")));
     const soma = (fs: { geometry: unknown }[]) =>
       fs.reduce((s, f) => s + geoArea(f as Parameters<typeof geoArea>[0]), 0);
     expect(

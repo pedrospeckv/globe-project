@@ -1,0 +1,86 @@
+{
+  "iso": "GTM",
+  "isoNumerico": "320",
+  "nome": "Guatemala",
+  "periodos": [
+    {
+      "id": "gt-cidades-maias",
+      "inicio": "250",
+      "fim": "1524",
+      "rotulo": "Cidades-Estado maias",
+      "regime": "cidades-Estado dinásticas independentes, em guerra e aliança recorrentes",
+      "textoMdx": "As terras baixas do Petén abrigam, entre os séculos III e IX, dezenas de Estados dinásticos com escrita própria — o único sistema de escrita plenamente desenvolvido das Américas antes de 1492, hoje decifrado em grande parte.\n\n**Não houve um império maia, e isso é o ponto.** Tikal, Calakmul, Palenque, Copán e Quiriguá são capitais rivais, com dinastias que registram em estelas suas próprias datas de entronização, guerras e casamentos. A rivalidade entre Tikal e Calakmul organiza a política das terras baixas por séculos, com Estados menores mudando de aliança conforme a força de cada uma.\n\n**A escrita permite ler a história pelos nomes próprios dos governantes.** Os glifos registram genealogia dinástica, cativos tomados em guerra e rituais de sangue. É a única região americana em que se pode nomear reis e datar seus reinados a partir de fontes escritas pelos próprios contemporâneos, e não por cronistas europeus posteriores.\n\n**O calendário e a matemática são consequência da astronomia.** A contagem longa, com data zero em 3114 a.C., permite situar eventos ao dia ao longo de milênios; o zero é usado como posição em cálculo séculos antes de chegar à Europa. Registros de ciclos de Vênus e de eclipses aparecem em códices sobreviventes.\n\n**O colapso do século IX esvazia as cidades, não o povo.** Entre 800 e 900, as capitais das terras baixas centrais param de erguer monumentos e são abandonadas, num processo que combina seca prolongada, guerra endêmica e esgotamento agrícola. Os maias continuam existindo — no norte de Yucatán, com Chichén Itzá, e nas terras altas guatemaltecas, onde os quichés formam o reino de Q'umarkaj, que os espanhóis encontrariam.",
+      "fontes": [
+        "coe-os-maias"
+      ]
+    },
+    {
+      "id": "gt-capitania",
+      "inicio": "1524",
+      "fim": "1823",
+      "rotulo": "Capitania Geral da Guatemala",
+      "regime": "capitania da Coroa de Castela, com jurisdição sobre toda a América Central",
+      "textoMdx": "Pedro de Alvarado invade as terras altas em 1524, e a capitania que se forma governa por três séculos o que hoje são cinco países — Guatemala, El Salvador, Honduras, Nicarágua e Costa Rica —, além de Chiapas.\n\n**A conquista é rápida porque explora a divisão entre os reinos maias.** Alvarado alia-se aos cakchiqueles contra os quichés, vence-os em 1524, e depois volta-se contra os próprios aliados. A resistência continua por décadas em regiões periféricas, e o Petén só é submetido em 1697, quando cai Tayasal, o último Estado maia independente — cento e setenta anos depois da chegada dos espanhóis.\n\n**A epidemia mata mais que a guerra.** Varíola e outras doenças chegam antes das tropas, vindas do México, e reduzem a população em proporções que a arqueologia e os registros de tributo indicam ter sido enorme ao longo do século XVI.\n\n**A economia é de tributo e corante.** Sem metal em quantidade, a capitania exporta cacau, depois índigo — cultivado sobretudo em El Salvador — e cochonilha. A população indígena é reunida em povoados, tributada e submetida a trabalho compulsório; a Igreja administra grande parte do cotidiano rural, e a estrutura de terras comunais indígenas convive com a fazenda espanhola.\n\n**A independência é declarada sem guerra, em 1821.** As autoridades da capitania aderem à independência mexicana e, em 1823, separam-se do México formando as Províncias Unidas da América Central. A ausência de guerra de independência é significativa: a ordem colonial de castas e propriedade atravessa a mudança de regime praticamente intacta.",
+      "fontes": [
+        "perez-brignoli-america-central"
+      ]
+    },
+    {
+      "id": "gt-provincias-unidas",
+      "inicio": "1823",
+      "fim": "1871",
+      "rotulo": "Províncias Unidas da América Central",
+      "regime": "república federal de cinco Estados, com guerra civil recorrente",
+      "textoMdx": "Uma federação de quinze anos que reunia Guatemala, El Salvador, Honduras, Nicarágua e Costa Rica, e que se desfez pelas mesmas divisões que separariam a região em cinco países que continuam separados até hoje.\n\n**O projeto liberal é ambicioso e tem base social estreita.** A federação abole a escravidão em 1824, adota constituição republicana, restringe privilégios da Igreja e tenta uniformizar a legislação. Sob Francisco Morazán, presidente a partir de 1830, o programa se radicaliza: expulsão de ordens religiosas, casamento civil, códigos legais importados.\n\n**A reação vem do campo e da Igreja, e tem um líder camponês.** Rafael Carrera, porqueiro analfabeto de origem mestiça, lidera a partir de 1837 uma revolta rural na Guatemala contra os impostos, contra a lei que abria terras a colonos estrangeiros e contra as medidas anticlericais, num momento em que uma epidemia de cólera é atribuída pelo boato ao envenenamento de poços pelo governo.\n\n**A federação se dissolve entre 1838 e 1841.** Os Estados se declaram soberanos um a um; Morazán é derrotado, exila-se e é fuzilado na Costa Rica em 1842, ao tentar restaurar a união. Carrera governa a Guatemala até morrer, em 1865, revertendo boa parte do programa liberal e protegendo as terras comunais indígenas — o que faz dele figura ambígua na historiografia.\n\n**A separação define a região.** Cada Estado passa a inserir-se sozinho no mercado mundial, e as diferenças de estrutura agrária que existiam dentro da capitania tornam-se diferenças nacionais. A ideia de reunificação reaparece em tratados e tentativas ao longo do século XIX e nunca se concretiza.",
+      "fontes": [
+        "perez-brignoli-america-central"
+      ]
+    },
+    {
+      "id": "gt-cafe-e-ditaduras",
+      "inicio": "1871",
+      "fim": "1944",
+      "rotulo": "República liberal cafeeira",
+      "regime": "república presidencialista sob ditaduras liberais; economia de café e banana",
+      "textoMdx": "A Reforma Liberal de 1871 constrói o Estado guatemalteco moderno sobre uma base: garantir terra e trabalho baratos ao café.\n\n**As terras comunais indígenas são desmanteladas.** Justo Rufino Barrios extingue os censos enfitêuticos e as terras da Igreja e das comunidades, transferindo-as a produtores de café na Bocacosta. Ao mesmo tempo, decretos de mandamiento obrigam comunidades a fornecer trabalhadores às fazendas, e leis contra a vadiagem prendem quem não comprovar emprego. O trabalho forçado indígena é a base da economia cafeeira por décadas, e só é formalmente abolido em 1944.\n\n**A United Fruit torna-se a maior proprietária do país.** A partir do início do século XX, a companhia recebe concessões de terra, controla a ferrovia, o porto de Puerto Barrios e a energia elétrica, com isenções fiscais amplas. A expressão república de banana nasce dessa configuração, embora em Honduras ela seja mais literal.\n\n**Duas ditaduras longas ocupam meio século.** Manuel Estrada Cabrera governa de 1898 a 1920, e Jorge Ubico de 1931 a 1944, este último com censo de trabalhadores, cartão de trabalho obrigatório e simpatia declarada por regimes europeus autoritários. A oposição é estudantil e urbana, e cresce durante a Segunda Guerra.\n\n**Ubico cai em 1944 numa greve de professores e estudantes.** A Revolução de Outubro daquele ano abre o período mais democrático da história guatemalteca até então, e o primeiro em que se discute abertamente o que fazer com a terra.",
+      "fontes": [
+        "perez-brignoli-america-central",
+        "gleijeses-esperanca-destrocada"
+      ]
+    },
+    {
+      "id": "gt-decenio",
+      "inicio": "1944",
+      "fim": "1954",
+      "rotulo": "Decênio democrático",
+      "regime": "democracia presidencialista com reforma agrária e legislação social",
+      "textoMdx": "Dez anos que os guatemaltecos chamam de primavera democrática, encerrados por uma operação encoberta que se tornaria modelo para outras na região.\n\n**Juan José Arévalo constrói o Estado social.** Eleito em 1944, ele institui código do trabalho, previdência social, sindicalização legal, alfabetização e autonomia universitária, e chama seu programa de socialismo espiritual — sem tocar na estrutura da propriedade rural.\n\n**Jacobo Árbenz toca na terra, em 1952.** O Decreto 900 expropria terras ociosas de propriedades acima de certo tamanho, indenizando pelo valor que o proprietário declarava para efeito de imposto. Cerca de meio milhão de pessoas recebem terra em dois anos. A United Fruit, que mantinha grandes áreas sem cultivo como reserva, é a maior atingida, e o valor declarado ao fisco era muito inferior ao que ela reclamava.\n\n**A derrubada é operação da CIA, hoje documentada.** A Operação PBSUCCESS, em junho de 1954, combina uma pequena força armada na Honduras, bombardeios, uma rádio clandestina e pressão diplomática. O exército guatemalteco não resiste, Árbenz renuncia, e Carlos Castillo Armas assume, revertendo a reforma agrária e ilegalizando partidos e sindicatos.\n\n**A consequência é longa.** A porta eleitoral fechada empurra parte da oposição à luta armada: as primeiras guerrilhas surgem em 1960, a partir de uma revolta de oficiais jovens. Começa um conflito que duraria trinta e seis anos.",
+      "fontes": [
+        "gleijeses-esperanca-destrocada",
+        "lafeber-revolucoes-inevitaveis"
+      ]
+    },
+    {
+      "id": "gt-conflito-armado",
+      "inicio": "1954",
+      "fim": "1996",
+      "rotulo": "Conflito armado interno",
+      "regime": "governos militares e civis tutelados, sob conflito armado interno",
+      "textoMdx": "Trinta e seis anos de guerra, apurados por uma comissão das Nações Unidas em mais de 200 mil mortos e desaparecidos, dos quais cerca de 83% de origem maia — e com a conclusão de que houve atos de genocídio.\n\n**A repressão urbana precede o massacre rural.** Nos anos 1960 e 1970 desaparecem sindicalistas, estudantes e políticos de oposição na capital; o desaparecimento forçado como método é usado na Guatemala antes de se tornar padrão no Cone Sul.\n\n**A fase mais letal é 1981-1983, no altiplano.** As campanhas de terra arrasada sob Romeo Lucas García e Efraín Ríos Montt destroem centenas de aldeias maias inteiras — a comissão documentou mais de seiscentos massacres —, com deslocamento de centenas de milhares de pessoas, fuga para o México e organização de patrulhas de autodefesa civil que obrigavam camponeses a participar da repressão de vizinhos.\n\n**A justiça vem tarde e é parcial.** Ríos Montt foi condenado por genocídio em 2013 pela Justiça guatemalteca; a condenação foi anulada dias depois por questão processual, e ele morreu em 2018 sem sentença firme. É, ainda assim, a primeira vez que um tribunal nacional condenou um ex-chefe de Estado por genocídio no próprio país.\n\n**A paz é assinada em 1996.** Os acordos entre o governo e a URNG encerram o conflito e preveem reconhecimento dos povos indígenas, reforma fiscal e desmilitarização. O cumprimento foi limitado: uma consulta popular de 1999 rejeitou as reformas constitucionais previstas.",
+      "fontes": [
+        "ceh-memoria-do-silencio"
+      ]
+    },
+    {
+      "id": "gt-republica",
+      "inicio": "1996",
+      "rotulo": "República da Guatemala",
+      "regime": "república presidencialista",
+      "textoMdx": "Quase três décadas de democracia formal em que o combate à impunidade avançou mais do que em qualquer vizinho — e depois foi desmontado.\n\n**A CICIG é uma experiência sem paralelo.** Criada em 2007 por acordo com as Nações Unidas, a Comissão Internacional contra a Impunidade investiga com a promotoria local e desmonta redes criminosas dentro do Estado. Em 2015, o caso La Línea leva à renúncia e prisão do presidente Otto Pérez Molina e da vice-presidente, depois de protestos semanais em praça pública.\n\n**A reação vem em seguida.** O governo de Jimmy Morales, ele próprio investigado, expulsa a comissão em 2019. Promotores e juízes que atuaram nos casos são processados e dezenas deixam o país; a promotoria passa a atuar contra quem investigava.\n\n**A desigualdade e a migração seguem estruturais.** A Guatemala tem uma das maiores populações indígenas proporcionais das Américas e alguns dos piores indicadores de desnutrição infantil do continente. A emigração para os Estados Unidos e as remessas tornaram-se peça central da economia.\n\n**A eleição de 2023 testa o sistema até o limite.** Bernardo Arévalo — filho de Juan José Arévalo, o presidente de 1944 — vence com plataforma anticorrupção depois de vários candidatos serem excluídos por decisões judiciais. Seguem-se tentativas de anular o resultado e de suspender seu partido; ele toma posse em janeiro de 2024, com atraso de horas e sob protesto de organizações indígenas que ocuparam as ruas em defesa do resultado.",
+      "fontes": [
+        "ceh-memoria-do-silencio",
+        "perez-brignoli-america-central"
+      ]
+    }
+  ]
+}

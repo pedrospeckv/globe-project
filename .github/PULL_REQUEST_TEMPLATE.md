@@ -22,7 +22,7 @@ com ajuda de IA — links verossímeis que nunca existiram.)
 - [ ] `pnpm validar` passa
 - [ ] `pnpm test` passa
 - [ ] toda afirmação tem fonte, e nenhuma URL foi inventada
-- [ ] se é país novo: acende no mapa em `/atlas` numa data dos períodos
+- [ ] se é país novo: acende no mapa da página inicial numa data dos períodos
 - [ ] se é país novo: `docs/cobertura.md` regerado (`pnpm tsx scripts/cobertura.ts`)
 
 ## Em dúvida sobre algo?

@@ -1,0 +1,52 @@
+{
+  "iso": "CUB",
+  "isoNumerico": "192",
+  "nome": "Cuba",
+  "periodos": [
+    {
+      "id": "cu-colonia",
+      "inicio": "1511",
+      "fim": "1902",
+      "rotulo": "Colônia espanhola de Cuba",
+      "regime": "colônia da Coroa de Castela; economia de açúcar com trabalho escravizado a partir do século XVIII",
+      "textoMdx": "Cuba é ocupada em 1511 e passa dois séculos como escala militar — a Havana que abriga as frotas — antes de se tornar, no século XIX, a maior produtora de açúcar do mundo.\n\n**A população taína desaparece em uma geração.** A encomienda, o trabalho forçado e as epidemias reduzem os indígenas a quase nada nas primeiras décadas; a resistência de Hatuey, executado em 1512, entra na memória nacional. É a partir daí que a mão de obra passa a ser africana escravizada.\n\n**Havana vale mais que a ilha por dois séculos.** A baía é o ponto de reunião das frotas que voltam ao continente, e a cidade se fortifica e vive de serviços e estaleiro. O interior é gado e tabaco, com pouca gente.\n\n**A tomada britânica de Havana, em 1762, abre o açúcar.** Em onze meses de ocupação, os britânicos liberam o comércio e importam milhares de escravizados. Devolvida à Espanha em troca da Flórida, a ilha nunca volta ao regime anterior: a elite crioula viu o que o comércio livre e o açúcar podiam render.\n\n**A revolução haitiana faz de Cuba o maior produtor mundial.** Com a destruição da colônia francesa de Saint-Domingue, a partir de 1791, o preço do açúcar dispara e Cuba ocupa o espaço. Seguem-se décadas de expansão do engenho, ferrovia — a primeira da América Latina, em 1837 — e a entrada de centenas de milhares de africanos escravizados, muito depois de o tráfico ter sido formalmente proibido.\n\n**Três guerras de independência em trinta anos.** A Guerra dos Dez Anos, de 1868 a 1878, começa com Carlos Manuel de Céspedes libertando os próprios escravizados; a Guerra Chiquita vem depois; e a guerra de 1895, organizada por José Martí no exílio, com Máximo Gómez e Antonio Maceo no campo. A escravidão é abolida em 1886, das últimas do continente. Em 1898, com a Espanha já em dificuldade, a explosão do encouraçado Maine leva os Estados Unidos à guerra — e a independência cubana passa a ser decidida em Washington.",
+      "fontes": [
+        "perez-cuba",
+        "knight-caribe"
+      ]
+    },
+    {
+      "id": "cu-republica-e-platt",
+      "inicio": "1902",
+      "fim": "1959",
+      "rotulo": "República sob a Emenda Platt",
+      "regime": "república presidencialista com direito de intervenção estrangeira inscrito na Constituição",
+      "textoMdx": "A independência formal vem em 1902 com uma cláusula: a Constituição cubana incorpora a Emenda Platt, que dá aos Estados Unidos o direito de intervir na ilha e de manter bases navais.\n\n**A soberania é limitada por escrito.** A ocupação militar norte-americana de 1898 a 1902 só termina quando Cuba aceita a emenda. Os Estados Unidos intervêm militarmente em 1906, 1912 e 1917, e a base de Guantánamo é arrendada em 1903 — arranjo que persiste até hoje, com Cuba recusando-se a descontar os cheques desde 1959.\n\n**O açúcar e o capital norte-americano dominam a economia.** Companhias dos Estados Unidos compram engenhos e terras; a safra determina o emprego e o tempo morto entre colheitas define a pobreza rural. A dependência de um produto e de um comprador é quase total.\n\n**A política é instável e a corrupção é sistêmica.** Gerardo Machado, eleito em 1925, governa como ditador a partir de 1928 e cai em 1933 numa greve geral com revolta de sargentos. O governo dos Cem Dias, sob Ramón Grau, decreta jornada de oito horas, voto feminino e revoga a Emenda Platt — e é derrubado com apoio norte-americano.\n\n**Fulgencio Batista manda por vinte e cinco anos, com e sem cargo.** Sargento que lidera a revolta de 1933, ele controla o país por presidentes interpostos, é eleito em 1940 sob uma constituição avançada — que institui direitos sociais amplos —, entrega o poder em 1944, e volta por golpe em março de 1952, três meses antes de uma eleição que ele perderia.\n\n**O golpe de 1952 fecha a via eleitoral.** Um advogado de 26 anos que era candidato a deputado, Fidel Castro, ataca o quartel Moncada em 26 de julho de 1953, é preso, anistiado, exila-se no México e volta em 1956 no iate Granma. A guerrilha na Sierra Maestra e a resistência urbana crescem; em 1º de janeiro de 1959 Batista foge, e os rebeldes entram em Havana.",
+      "fontes": [
+        "perez-cuba",
+        "emenda-platt"
+      ]
+    },
+    {
+      "id": "cu-revolucao",
+      "inicio": "1959",
+      "fim": "2008",
+      "rotulo": "Revolução Cubana",
+      "regime": "governo revolucionário e, a partir de 1965, república socialista de partido único",
+      "textoMdx": "A revolução transforma um país dependente do açúcar e dos Estados Unidos num Estado socialista aliado da União Soviética, com resultados sociais notáveis e sem liberdade política.\n\n**As primeiras medidas rompem com Washington em dezoito meses.** Reforma agrária em 1959, nacionalização de refinarias e depois de empresas norte-americanas em 1960, seguidas de embargo comercial e ruptura de relações em janeiro de 1961. Em abril de 1961, a invasão da Baía dos Porcos, organizada pela CIA com exilados cubanos, é derrotada em três dias.\n\n**A crise dos mísseis, em outubro de 1962, é o momento mais perigoso da Guerra Fria.** A instalação de mísseis soviéticos na ilha leva a um bloqueio naval e a treze dias em que uma guerra nuclear foi considerada possível. A saída é negociada entre Moscou e Washington sem participação cubana: retirada dos mísseis em troca do compromisso de não invadir a ilha e da remoção de mísseis norte-americanos da Turquia.\n\n**Os indicadores sociais melhoram de forma inequívoca.** Campanha de alfabetização em 1961, medicina preventiva com cobertura universal, mortalidade infantil e expectativa de vida que passam a se comparar às de países ricos, formação em massa de médicos — depois exportados como política externa. Ao mesmo tempo, o Estado assume toda a economia, o partido único é constitucionalizado em 1976, e a dissidência é criminalizada: presos políticos, campos de trabalho, perseguição a homossexuais nos anos 1960 e 1970, e emigração em massa em ondas — 1965, Mariel em 1980, os balseiros em 1994.\n\n**A economia troca de dependência.** O açúcar continua central, agora vendido à União Soviética a preços preferenciais em troca de petróleo, o que financia o Estado social e sustenta uma política externa de escala improvável para uma ilha — dezenas de milhares de soldados em Angola e na Etiópia nos anos 1970 e 1980.\n\n**O colapso soviético produz o Período Especial.** A partir de 1991, com o fim dos subsídios, o produto interno cai drasticamente, faltam alimento e combustível, e o país legaliza o dólar, abre-se ao turismo e permite trabalho por conta própria. O embargo, endurecido em 1992 e 1996, agrava a escassez, e é objeto de condenação anual na Assembleia Geral da ONU por ampla maioria.",
+      "fontes": [
+        "perez-cuba"
+      ]
+    },
+    {
+      "id": "cu-atual",
+      "inicio": "2008",
+      "rotulo": "República de Cuba",
+      "regime": "república socialista de partido único, sob a Constituição de 2019",
+      "textoMdx": "Fidel Castro transfere o cargo ao irmão em 2008, e desde então o país tenta uma reforma econômica sem reforma política — com uma crise material que se aprofundou.\n\n**Raúl Castro faz aberturas limitadas.** Ampliação do trabalho por conta própria, autorização para compra e venda de casas e carros, e uma unificação monetária adiada por anos e finalmente executada em 2021, com inflação alta. Em 2018 a presidência passa a Miguel Díaz-Canel, primeiro chefe de Estado nascido depois da revolução; Raúl deixa a chefia do partido em 2021, encerrando seis décadas de Castro no comando formal.\n\n**O degelo com os Estados Unidos dura pouco.** Relações diplomáticas são restabelecidas em 2015, com visita de Barack Obama à ilha em 2016 — a primeira de um presidente norte-americano em quase noventa anos. A política é revertida a partir de 2017, com novas restrições e a reinclusão de Cuba na lista de patrocinadores do terrorismo.\n\n**A Constituição de 2019 atualiza sem mudar o essencial.** Reconhece propriedade privada e investimento estrangeiro, cria o cargo de primeiro-ministro, mantém o partido único como força dirigente. Em 2022, um Código das Famílias aprovado em referendo legaliza o casamento entre pessoas do mesmo sexo e a adoção — resultado incomum na região e aprovado com oposição relevante.\n\n**Os protestos de 11 de julho de 2021 são os maiores desde 1959.** Manifestações simultâneas em dezenas de cidades, motivadas por escassez de alimento e medicamento, apagões e o colapso do turismo na pandemia, resultam em centenas de detenções e penas longas de prisão.\n\n**A crise atual é a mais grave desde o Período Especial.** Apagões prolongados por falta de combustível e de manutenção das termelétricas, escassez de insumos, inflação, e uma emigração que, nos anos recentes, foi proporcionalmente das maiores do mundo — o que soma às ondas anteriores uma diáspora comparável a uma parcela grande da população da ilha.",
+      "fontes": [
+        "perez-cuba"
+      ]
+    }
+  ]
+}

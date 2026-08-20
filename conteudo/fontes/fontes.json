@@ -2359,5 +2359,461 @@
     "autor": "Yang Jisheng",
     "data": "2008",
     "citacao": "Jornalista da agência estatal chinesa reuniu por duas décadas documentos de arquivos provinciais e depoimentos, e estimou cerca de 36 milhões de mortos na fome do Grande Salto Adiante. O livro é proibido na China continental."
+  },
+  {
+    "id": "hemming-conquista-incas",
+    "tipo": "livro",
+    "titulo": "The Conquest of the Incas",
+    "autor": "John Hemming",
+    "data": "1970",
+    "citacao": "Narrativa de referência da conquista espanhola do Tawantinsuyu, das guerras civis entre Huáscar e Atahualpa à resistência de Vilcabamba, encerrada em 1572. Reconstrói o processo a partir das crônicas espanholas e das relações indígenas, e trata o colapso como resultado combinado de guerra civil, epidemia e aliança com povos submetidos ao Cusco."
+  },
+  {
+    "id": "klaren-peru-nacao",
+    "tipo": "livro",
+    "titulo": "Peru: Society and Nationhood in the Andes",
+    "autor": "Peter Flindell Klarén",
+    "data": "2000",
+    "citacao": "História do Peru do período pré-hispânico ao fim do século XX. Sustenta que a fratura entre a costa e a serra, e entre a república legal e a população indígena, atravessa o vice-reino e a república sem se fechar, e é a chave dos ciclos de exportação e das crises políticas."
+  },
+  {
+    "id": "cvr-informe-final",
+    "tipo": "documento-oficial",
+    "titulo": "Informe Final de la Comisión de la Verdad y Reconciliación",
+    "publicacao": "Comisión de la Verdad y Reconciliación (Peru)",
+    "data": "2003",
+    "citacao": "Apurou o conflito armado interno de 1980 a 2000 e estimou cerca de 69.280 mortos e desaparecidos, atribuindo a maior parte ao Sendero Luminoso e a parcela seguinte a agentes do Estado. Registrou que três quartos das vítimas tinham o quíchua ou outra língua indígena como língua materna, num país onde essa parcela era muito menor."
+  },
+  {
+    "id": "mann-1491",
+    "tipo": "livro",
+    "titulo": "1491: New Revelations of the Americas Before Columbus",
+    "autor": "Charles C. Mann",
+    "data": "2005",
+    "citacao": "Síntese da pesquisa sobre as sociedades americanas antes de 1492, incluindo os Estados andinos. Reúne a revisão demográfica que atribui às epidemias, e não só à guerra, a maior parte do colapso populacional posterior ao contato."
+  },
+  {
+    "id": "rock-argentina",
+    "tipo": "livro",
+    "titulo": "Argentina 1516-1987: From Spanish Colonization to Alfonsín",
+    "autor": "David Rock",
+    "data": "1987",
+    "citacao": "História da Argentina da chegada espanhola ao retorno democrático. Trata a economia agroexportadora do fim do século XIX e a imigração em massa como as forças que formaram o país, e o conflito entre Buenos Aires e o interior como o eixo político que sobrevive à mudança de regimes."
+  },
+  {
+    "id": "romero-argentina-contemporanea",
+    "tipo": "livro",
+    "titulo": "Breve historia contemporánea de la Argentina",
+    "autor": "Luis Alberto Romero",
+    "data": "1994",
+    "citacao": "História política argentina do século XX, de 1916 a 1999. Descreve a alternância entre governos eleitos e intervenções militares como padrão estrutural, e não como sequência de acidentes."
+  },
+  {
+    "id": "conadep-nunca-mais",
+    "tipo": "documento-oficial",
+    "titulo": "Nunca Más: Informe de la Comisión Nacional sobre la Desaparición de Personas",
+    "publicacao": "CONADEP (Argentina)",
+    "data": "1984",
+    "citacao": "Documentou 8.961 desaparecimentos forçados na ditadura de 1976-1983 e a existência de centros clandestinos de detenção, ressalvando que o número apurado é piso e não total. Foi a base do julgamento das juntas em 1985."
+  },
+  {
+    "id": "collier-sater-chile",
+    "tipo": "livro",
+    "titulo": "A History of Chile, 1808-2002",
+    "autor": "Simon Collier e William F. Sater",
+    "data": "2004",
+    "citacao": "História do Chile da independência ao início do século XXI. Acompanha a construção de uma ordem institucional precocemente estável no século XIX, a expansão territorial pela Guerra do Pacífico e a ruptura de 1973."
+  },
+  {
+    "id": "informe-rettig",
+    "tipo": "documento-oficial",
+    "titulo": "Informe de la Comisión Nacional de Verdad y Reconciliación (Informe Rettig)",
+    "publicacao": "Comisión Nacional de Verdad y Reconciliación (Chile)",
+    "data": "1991",
+    "citacao": "Apurou 2.279 mortes por violação de direitos humanos ou violência política entre 1973 e 1990, das quais a grande maioria atribuída a agentes do Estado. Não investigou a tortura de sobreviventes, lacuna que o Informe Valech cobriria em 2004."
+  },
+  {
+    "id": "informe-valech",
+    "tipo": "documento-oficial",
+    "titulo": "Informe de la Comisión Nacional sobre Prisión Política y Tortura (Informe Valech)",
+    "publicacao": "Comisión Nacional sobre Prisión Política y Tortura (Chile)",
+    "data": "2004",
+    "citacao": "Reconheceu mais de 27 mil pessoas como vítimas de prisão política e tortura na ditadura chilena, cobrindo o que o Informe Rettig deixara de fora por tratar apenas de mortos e desaparecidos."
+  },
+  {
+    "id": "halperin-donghi-america-latina",
+    "tipo": "livro",
+    "titulo": "Historia contemporánea de América Latina",
+    "autor": "Tulio Halperín Donghi",
+    "data": "1969",
+    "citacao": "Interpretação de conjunto da América Latina desde a independência. Liga a formação dos Estados nacionais à inserção de cada economia no mercado atlântico, e explica por que repúblicas com constituições parecidas produziram ordens políticas tão diferentes."
+  },
+  {
+    "id": "loveman-chile",
+    "tipo": "livro",
+    "titulo": "Chile: The Legacy of Hispanic Capitalism",
+    "autor": "Brian Loveman",
+    "data": "1979",
+    "citacao": "Historia do Chile da colonia ao periodo contemporaneo, com enfase na continuidade das instituicoes agrarias. Sustenta que a hacienda e o inquilinato do vale central, herdados da ordem colonial, sao a base do controle politico que sobrevive a independencia, as constituicoes e a industrializacao."
+  },
+  {
+    "id": "klein-bolivia",
+    "tipo": "livro",
+    "titulo": "A Concise History of Bolivia",
+    "autor": "Herbert S. Klein",
+    "data": "2003",
+    "citacao": "História da Bolívia do período pré-hispânico ao início do século XXI. Trata a mineração — prata em Potosí, depois estanho — como o eixo que organiza a economia, a política e a própria geografia do país, e a maioria indígena como o sujeito que a república excluiu por um século e meio."
+  },
+  {
+    "id": "tratado-paz-amizade-1904",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Paz y Amistad entre Chile y Bolivia",
+    "publicacao": "Chile e Bolívia",
+    "data": "1904",
+    "citacao": "Encerrou formalmente a Guerra do Pacífico entre os dois países, cedendo em definitivo ao Chile o litoral boliviano de Antofagasta em troca de uma ferrovia até La Paz e de livre trânsito comercial por portos chilenos. É o documento que fixa a condição de país sem costa, e a Bolívia mantém desde então a reivindicação de saída soberana ao mar."
+  },
+  {
+    "id": "whigham-guerra-paraguai",
+    "tipo": "livro",
+    "titulo": "The Paraguayan War: Causes and Early Conduct",
+    "autor": "Thomas L. Whigham",
+    "data": "2002",
+    "citacao": "Estudo das origens e do primeiro período da guerra de 1864-1870 entre o Paraguai e a Tríplice Aliança. Reconstrói a decisão paraguaia de intervir no Uruguai e desmonta tanto a versão que atribui a guerra apenas ao imperialismo britânico quanto a que a explica pela loucura de Solano López."
+  },
+  {
+    "id": "lewis-paraguai-stroessner",
+    "tipo": "livro",
+    "titulo": "Paraguay under Stroessner",
+    "autor": "Paul H. Lewis",
+    "data": "1980",
+    "citacao": "Análise do regime de Alfredo Stroessner, no poder desde 1954. Descreve o sistema de sustentação em três pernas — Forças Armadas, Partido Colorado e administração pública —, o estado de sítio permanente e a distribuição de contrabando e terra como moeda de lealdade."
+  },
+  {
+    "id": "cvj-paraguai",
+    "tipo": "documento-oficial",
+    "titulo": "Informe Final da Comisión de Verdad y Justicia (Anive haguã oiko)",
+    "publicacao": "Comisión de Verdad y Justicia (Paraguai)",
+    "data": "2008",
+    "citacao": "Apurou as violações de direitos humanos entre 1954 e 2003, sobretudo na ditadura de Stroessner: milhares de detidos e torturados e algo mais de quatrocentas execuções e desaparecimentos comprovados, além da expropriação de terras indígenas e camponesas. Baseou-se em parte no Arquivo do Terror, achado em 1992."
+  },
+  {
+    "id": "arquivo-do-terror",
+    "tipo": "documento-oficial",
+    "titulo": "Arquivo do Terror (Archivo del Terror)",
+    "publicacao": "Polícia da Capital, Paraguai",
+    "data": "1992",
+    "citacao": "Acervo de toneladas de documentos da polícia política paraguaia, localizado em Lambaré em dezembro de 1992. Registra prisões, interrogatórios e a troca de informações entre serviços de segurança do Cone Sul, e é a principal prova documental da Operação Condor."
+  },
+  {
+    "id": "nahum-uruguai",
+    "tipo": "livro",
+    "titulo": "Manual de historia del Uruguay",
+    "autor": "Benjamín Nahum",
+    "data": "1993",
+    "citacao": "História do Uruguai da colônia ao fim do século XX. Acompanha a construção do Estado batllista no começo do século XX — legislação social precoce, empresas públicas, laicidade — e a crise do modelo a partir dos anos 1950, quando a exportação de carne e lã deixa de sustentá-lo."
+  },
+  {
+    "id": "comision-para-la-paz",
+    "tipo": "documento-oficial",
+    "titulo": "Informe Final de la Comisión para la Paz",
+    "publicacao": "Presidência da República Oriental do Uruguai",
+    "data": "2003",
+    "citacao": "Primeiro reconhecimento estatal uruguaio dos desaparecimentos forçados na ditadura de 1973-1985. Confirmou dezenas de casos de uruguaios desaparecidos no país e na Argentina, e registrou a prática de entrega de crianças e a cooperação entre as forças de segurança dos dois países."
+  },
+  {
+    "id": "bushnell-colombia",
+    "tipo": "livro",
+    "titulo": "The Making of Modern Colombia: A Nation in Spite of Itself",
+    "autor": "David Bushnell",
+    "data": "1993",
+    "citacao": "História da Colômbia da independência ao fim do século XX. Explica a longevidade excepcional dos partidos Liberal e Conservador, e como a estabilidade formal das instituições coexistiu com guerras civis recorrentes e com um Estado que nunca controlou todo o território."
+  },
+  {
+    "id": "palacios-colombia",
+    "tipo": "livro",
+    "titulo": "Between Legitimacy and Violence: A History of Colombia, 1875-2002",
+    "autor": "Marco Palacios",
+    "data": "2006",
+    "citacao": "Interpretação da violência colombiana como fenômeno de longa duração, ligado à disputa por terra, à fraqueza do Estado no campo e à captura das instituições locais por interesses privados armados — e não como sequência de conflitos isolados."
+  },
+  {
+    "id": "comision-verdad-colombia",
+    "tipo": "documento-oficial",
+    "titulo": "Hay futuro si hay verdad: Informe Final de la Comisión de la Verdad",
+    "publicacao": "Comisión para el Esclarecimiento de la Verdad (Colômbia)",
+    "data": "2022",
+    "citacao": "Relatório final da comissão criada pelo acordo de paz de 2016. Estimou cerca de 450 mil mortos no conflito armado entre 1985 e 2018, atribuídos a grupos paramilitares, guerrilhas e agentes do Estado, e documentou milhões de deslocados internos — um dos maiores contingentes do mundo."
+  },
+  {
+    "id": "acordo-final-colombia-2016",
+    "tipo": "documento-oficial",
+    "titulo": "Acuerdo Final para la Terminación del Conflicto y la Construcción de una Paz Estable y Duradera",
+    "publicacao": "Governo da Colômbia e FARC-EP",
+    "data": "2016",
+    "citacao": "Acordo de paz assinado em Havana e Bogotá que desmobilizou as FARC-EP. Prevê reforma rural, participação política dos desmobilizados, substituição de cultivos ilícitos e uma jurisdição especial de justiça transicional. Uma primeira versão foi rejeitada em plebiscito por margem estreita em outubro de 2016 e renegociada."
+  },
+  {
+    "id": "ayala-mora-equador",
+    "tipo": "livro",
+    "titulo": "Resumen de historia del Ecuador",
+    "autor": "Enrique Ayala Mora",
+    "data": "1993",
+    "citacao": "Síntese da história equatoriana do período pré-hispânico ao fim do século XX. Trata a tensão entre a serra latifundiária de Quito e a costa exportadora de Guayaquil como o eixo da política do país, e os ciclos do cacau, da banana e do petróleo como as bases sucessivas do Estado."
+  },
+  {
+    "id": "constituicao-equador-2008",
+    "tipo": "documento-oficial",
+    "titulo": "Constitución de la República del Ecuador",
+    "publicacao": "Assembleia Constituinte do Equador",
+    "data": "2008",
+    "citacao": "Aprovada em referendo, define o Equador como Estado plurinacional e intercultural, e foi a primeira constituição do mundo a atribuir direitos à natureza como sujeito, além de incorporar o conceito de sumak kawsay (bem viver) como princípio de organização econômica."
+  },
+  {
+    "id": "coronil-estado-magico",
+    "tipo": "livro",
+    "titulo": "The Magical State: Nature, Money, and Modernity in Venezuela",
+    "autor": "Fernando Coronil",
+    "data": "1997",
+    "citacao": "Estudo do Estado venezuelano como distribuidor de renda petroleira. Sustenta que o petróleo permitiu ao Estado apresentar-se como fonte de riqueza em vez de mediador dela, e que essa posição modelou a política do país tanto na democracia de partidos quanto no período seguinte."
+  },
+  {
+    "id": "ewell-venezuela",
+    "tipo": "livro",
+    "titulo": "Venezuela: A Century of Change",
+    "autor": "Judith Ewell",
+    "data": "1984",
+    "citacao": "História da Venezuela no século XX, do caudilhismo andino à democracia de partidos instaurada em 1958. Acompanha a formação das instituições petroleiras e a construção do pacto entre AD e COPEI que sustentou o regime por quatro décadas."
+  },
+  {
+    "id": "r4v-migracao-venezuelana",
+    "tipo": "dataset",
+    "titulo": "Refugiados e migrantes da Venezuela",
+    "publicacao": "Plataforma de Coordinação Interagencial para Refugiados e Migrantes da Venezuela (R4V), ACNUR e OIM",
+    "data": "2024",
+    "citacao": "Contagem interagencial de venezuelanos que deixaram o país, acima de sete milhões de pessoas, o que a torna um dos maiores deslocamentos do mundo e o maior das Américas. Os números são consolidados a partir de registros dos países de acolhimento."
+  },
+  {
+    "id": "rodney-guiana-trabalhadores",
+    "tipo": "livro",
+    "titulo": "A History of the Guyanese Working People, 1881-1905",
+    "autor": "Walter Rodney",
+    "data": "1981",
+    "citacao": "Estudo da formação da classe trabalhadora guianesa depois da abolição, com base nos arquivos da colônia. Mostra como o recrutamento de trabalhadores contratados da Índia foi usado para conter o salário dos ex-escravizados africanos, e como daí nasce a divisão étnica que a política do país herdaria."
+  },
+  {
+    "id": "hoefte-suriname",
+    "tipo": "livro",
+    "titulo": "Suriname in the Long Twentieth Century: Domination, Contestation, Globalization",
+    "autor": "Rosemarijn Hoefte",
+    "data": "2014",
+    "citacao": "História do Suriname do fim do século XIX ao início do XXI. Acompanha a economia da bauxita, a organização política por linhas étnicas herdada do trabalho contratado, a independência de 1975 com emigração em massa para os Países Baixos, e a ditadura de Desi Bouterse."
+  },
+  {
+    "id": "price-first-time",
+    "tipo": "livro",
+    "titulo": "First-Time: The Historical Vision of an African American People",
+    "autor": "Richard Price",
+    "data": "1983",
+    "citacao": "Reconstrução da história dos quilombolas saramaka do Suriname a partir da própria tradição oral deles, confrontada com arquivos coloniais holandeses. Documenta a guerra de fuga e resistência e os tratados de paz do século XVIII, em que a Holanda reconheceu a autonomia de comunidades de escravizados fugidos."
+  },
+  {
+    "id": "perez-brignoli-america-central",
+    "tipo": "livro",
+    "titulo": "A Brief History of Central America",
+    "autor": "Héctor Pérez Brignoli",
+    "data": "1989",
+    "citacao": "História de conjunto da América Central, da colônia ao fim do século XX. Explica por que uma única capitania se fragmentou em cinco repúblicas e como o café e a banana produziram estruturas sociais opostas em países vizinhos — oligarquia cafeeira em El Salvador e Guatemala, enclave estrangeiro em Honduras e Costa Rica."
+  },
+  {
+    "id": "lafeber-revolucoes-inevitaveis",
+    "tipo": "livro",
+    "titulo": "Inevitable Revolutions: The United States in Central America",
+    "autor": "Walter LaFeber",
+    "data": "1983",
+    "citacao": "Estudo da intervenção norte-americana na América Central desde o século XIX. Sustenta que a política de sustentar regimes aliados e bloquear reformas distributivas produziu as insurreições que essa mesma política pretendia evitar."
+  },
+  {
+    "id": "knight-caribe",
+    "tipo": "livro",
+    "titulo": "The Caribbean: The Genesis of a Fragmented Nationalism",
+    "autor": "Franklin W. Knight",
+    "data": "1978",
+    "citacao": "História do Caribe do contato europeu ao século XX. Trata a plantação de açúcar com trabalho escravizado como a instituição que criou as sociedades caribenhas, e a fragmentação política da região como resultado de metrópoles diferentes explorarem o mesmo modelo em ilhas vizinhas."
+  },
+  {
+    "id": "williams-capitalismo-escravidao",
+    "tipo": "livro",
+    "titulo": "Capitalism and Slavery",
+    "autor": "Eric Williams",
+    "data": "1944",
+    "citacao": "Tese de que o comércio de escravizados e o açúcar das Antilhas financiaram a industrialização britânica, e de que a abolição avançou quando o açúcar caribenho deixou de ser central para a economia imperial — argumento que reorientou a historiografia do Atlântico."
+  },
+  {
+    "id": "coe-os-maias",
+    "tipo": "livro",
+    "titulo": "The Maya",
+    "autor": "Michael D. Coe",
+    "data": "1966",
+    "citacao": "Síntese de referência sobre a civilização maia, revista em muitas edições. Descreve as cidades-Estado do período clássico, a escrita glífica hoje decifrada em grande parte, e o colapso das terras baixas centrais no século IX — que não extinguiu os maias, apenas as cidades."
+  },
+  {
+    "id": "ceh-memoria-do-silencio",
+    "tipo": "documento-oficial",
+    "titulo": "Guatemala: Memoria del Silencio",
+    "publicacao": "Comisión para el Esclarecimiento Histórico (Guatemala)",
+    "data": "1999",
+    "citacao": "Apurou o conflito armado interno de 1960 a 1996 e estimou mais de 200 mil mortos e desaparecidos, dos quais cerca de 83% de origem maia. Atribuiu a maioria esmagadora das violações às forças do Estado e concluiu que houve atos de genocídio contra grupos maias em regiões específicas."
+  },
+  {
+    "id": "gleijeses-esperanca-destrocada",
+    "tipo": "livro",
+    "titulo": "Shattered Hope: The Guatemalan Revolution and the United States, 1944-1954",
+    "autor": "Piero Gleijeses",
+    "data": "1991",
+    "citacao": "Estudo do decênio democrático guatemalteco e de sua derrubada em 1954. Reconstrói a reforma agrária de Árbenz e a operação encoberta norte-americana a partir de arquivos dos dois países."
+  },
+  {
+    "id": "cv-el-salvador",
+    "tipo": "documento-oficial",
+    "titulo": "De la locura a la esperanza: la guerra de 12 años en El Salvador",
+    "publicacao": "Comisión de la Verdad para El Salvador, Nações Unidas",
+    "data": "1993",
+    "citacao": "Apurou as violações da guerra civil de 1980 a 1992 e atribuiu cerca de 85% dos casos denunciados a agentes do Estado e grupos paramilitares aliados. Documentou o massacre de El Mozote e o assassinato do arcebispo Óscar Romero, e recomendou o afastamento de oficiais nomeados no relatório."
+  },
+  {
+    "id": "acordos-chapultepec",
+    "tipo": "documento-oficial",
+    "titulo": "Acuerdos de Paz de Chapultepec",
+    "publicacao": "Governo de El Salvador e FMLN, com mediação das Nações Unidas",
+    "data": "1992",
+    "citacao": "Encerrou a guerra civil salvadorenha. Reduziu as Forças Armadas, extinguiu os corpos de segurança envolvidos na repressão, criou uma polícia civil nova e converteu o FMLN em partido legal, além de instituir a comissão da verdade."
+  },
+  {
+    "id": "euraque-republica-banana",
+    "tipo": "livro",
+    "titulo": "Reinterpreting the Banana Republic: Region and State in Honduras, 1870-1972",
+    "autor": "Darío Euraque",
+    "data": "1996",
+    "citacao": "Estudo da formação do Estado hondurenho em torno do enclave bananeiro da costa norte. Mostra que a fraqueza da oligarquia nacional, e não apenas o poder das companhias estrangeiras, explica por que Honduras não desenvolveu uma classe proprietária capaz de disputar o Estado."
+  },
+  {
+    "id": "walker-nicaragua",
+    "tipo": "livro",
+    "titulo": "Nicaragua: Living in the Shadow of the Eagle",
+    "autor": "Thomas W. Walker",
+    "data": "1981",
+    "citacao": "História política da Nicarágua com foco no século XX: a ocupação norte-americana, a dinastia Somoza, a revolução sandinista e a guerra da Contra. Trata a relação com os Estados Unidos como variável estrutural da política interna."
+  },
+  {
+    "id": "cij-nicaragua-eua",
+    "tipo": "decisao-judicial",
+    "titulo": "Nicarágua contra Estados Unidos da América (Atividades militares e paramilitares na Nicarágua e contra ela)",
+    "publicacao": "Corte Internacional de Justiça",
+    "data": "1986",
+    "citacao": "Condenou os Estados Unidos por violar o direito internacional ao minar portos nicaraguenses e ao treinar, armar e financiar a Contra, e determinou reparação. Os Estados Unidos não reconheceram a jurisdição da Corte no caso e não cumpriram a decisão."
+  },
+  {
+    "id": "molina-palmer-costa-rica",
+    "tipo": "livro",
+    "titulo": "The History of Costa Rica",
+    "autor": "Iván Molina e Steven Palmer",
+    "data": "1997",
+    "citacao": "História da Costa Rica da colônia ao presente. Discute criticamente a autoimagem de exceção democrática do país, mostrando o que nela é resultado de estrutura agrária de pequenos proprietários e o que é construção posterior do discurso nacional."
+  },
+  {
+    "id": "mccullough-caminho-entre-mares",
+    "tipo": "livro",
+    "titulo": "The Path Between the Seas: The Creation of the Panama Canal, 1870-1914",
+    "autor": "David McCullough",
+    "data": "1977",
+    "citacao": "História da construção do canal do Panamá, do fracasso francês de Lesseps à conclusão norte-americana. Documenta a mortalidade por febre amarela e malária, a engenharia das eclusas e a separação do Panamá da Colômbia em 1903."
+  },
+  {
+    "id": "tratado-hay-bunau-varilla",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado Hay-Bunau-Varilla",
+    "publicacao": "Estados Unidos e República do Panamá",
+    "data": "1903",
+    "citacao": "Concedeu aos Estados Unidos o uso e o controle perpétuos de uma faixa de dez milhas para construir e operar o canal, com poderes como se fossem soberanos. Foi assinado pelo francês Philippe Bunau-Varilla como representante panamenho, dias depois da independência, e nenhum panamenho o assinou."
+  },
+  {
+    "id": "tratados-torrijos-carter",
+    "tipo": "documento-oficial",
+    "titulo": "Tratados Torrijos-Carter",
+    "publicacao": "Estados Unidos e República do Panamá",
+    "data": "1977",
+    "citacao": "Substituíram o tratado de 1903, extinguiram a Zona do Canal e transferiram o canal à administração panamenha ao meio-dia de 31 de dezembro de 1999, com um tratado paralelo sobre neutralidade permanente da via."
+  },
+  {
+    "id": "perez-cuba",
+    "tipo": "livro",
+    "titulo": "Cuba: Between Reform and Revolution",
+    "autor": "Louis A. Pérez Jr.",
+    "data": "1988",
+    "citacao": "História de Cuba da colônia ao período pós-soviético. Acompanha a economia açucareira, a dependência sucessiva de Espanha, Estados Unidos e União Soviética, e as três guerras de independência que precedem 1898."
+  },
+  {
+    "id": "emenda-platt",
+    "tipo": "documento-oficial",
+    "titulo": "Emenda Platt",
+    "publicacao": "Congresso dos Estados Unidos, incorporada à Constituição cubana",
+    "data": "1901",
+    "citacao": "Condicionou a retirada das tropas norte-americanas de Cuba à aceitação, pela constituição cubana, do direito dos Estados Unidos de intervir na ilha e de manter bases navais. Vigorou até 1934; a base de Guantánamo permanece sob arrendamento derivado desse arranjo."
+  },
+  {
+    "id": "james-jacobinos-negros",
+    "tipo": "livro",
+    "titulo": "The Black Jacobins: Toussaint L'Ouverture and the San Domingo Revolution",
+    "autor": "C. L. R. James",
+    "data": "1938",
+    "citacao": "História da revolução haitiana, a única revolta de escravizados da história que resultou num Estado independente. Situa a insurreição de 1791 dentro da Revolução Francesa e do sistema econômico atlântico, e reconstrói a trajetória de Toussaint Louverture."
+  },
+  {
+    "id": "dubois-haiti",
+    "tipo": "livro",
+    "titulo": "Haiti: The Aftershocks of History",
+    "autor": "Laurent Dubois",
+    "data": "2012",
+    "citacao": "História do Haiti da independência ao início do século XXI. Argumenta que o isolamento diplomático, a indenização exigida pela França e as intervenções estrangeiras moldaram a pobreza haitiana, contra as explicações que a atribuem a características internas do país."
+  },
+  {
+    "id": "moya-pons-republica-dominicana",
+    "tipo": "livro",
+    "titulo": "The Dominican Republic: A National History",
+    "autor": "Frank Moya Pons",
+    "data": "1995",
+    "citacao": "História dominicana da colônia de Santo Domingo ao fim do século XX. Trata a relação com o Haiti, as anexações e ocupações sucessivas e a ditadura de Trujillo como os eixos da formação nacional, incluindo a construção estatal do antihaitianismo."
+  },
+  {
+    "id": "williams-trinidad-tobago",
+    "tipo": "livro",
+    "titulo": "History of the People of Trinidad and Tobago",
+    "autor": "Eric Williams",
+    "data": "1962",
+    "citacao": "História de Trinidad e Tobago escrita pelo historiador que se tornaria o primeiro primeiro-ministro do país, publicada no ano da independência. Cobre a colonização espanhola e britânica, a escravidão, o trabalho contratado indiano e a formação do movimento nacional."
+  },
+  {
+    "id": "craton-bahamas",
+    "tipo": "livro",
+    "titulo": "A History of the Bahamas",
+    "autor": "Michael Craton",
+    "data": "1962",
+    "citacao": "História das Bahamas do povoamento lucaio ao século XX. Cobre o despovoamento indígena depois de 1492, o período da pirataria, a chegada de legalistas com escravizados após a independência dos Estados Unidos, e a economia de contrabando, turismo e serviços financeiros."
+  },
+  {
+    "id": "ayala-bernabe-porto-rico",
+    "tipo": "livro",
+    "titulo": "Puerto Rico in the American Century: A History since 1898",
+    "autor": "César J. Ayala e Rafael Bernabe",
+    "data": "2007",
+    "citacao": "História de Porto Rico desde a passagem do domínio espanhol ao norte-americano. Acompanha a economia do açúcar e depois a industrialização por incentivo fiscal, a emigração em massa aos Estados Unidos e o debate sobre estatuto político que atravessa todo o período."
+  },
+  {
+    "id": "lei-jones-shafroth",
+    "tipo": "documento-oficial",
+    "titulo": "Jones-Shafroth Act",
+    "publicacao": "Congresso dos Estados Unidos",
+    "data": "1917",
+    "citacao": "Concedeu cidadania norte-americana aos porto-riquenhos e criou uma legislatura eleita na ilha, mantendo o governador nomeado por Washington e o poder do Congresso de legislar sobre o território. Tornou os porto-riquenhos sujeitos ao serviço militar obrigatório sem representação com voto no Congresso."
   }
 ]

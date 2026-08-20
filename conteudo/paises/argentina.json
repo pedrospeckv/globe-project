@@ -1,0 +1,124 @@
+{
+  "iso": "ARG",
+  "isoNumerico": "032",
+  "nome": "Argentina",
+  "periodos": [
+    {
+      "id": "ar-governacao-prata",
+      "inicio": "1580",
+      "fim": "1776",
+      "rotulo": "Governação do Rio da Prata",
+      "regime": "governação da Coroa de Castela subordinada ao Vice-Reino do Peru; comércio legal proibido pelo Atlântico",
+      "textoMdx": "Buenos Aires é fundada duas vezes: em 1536, abandonada diante da fome e do cerco; e em 1580, em definitivo, por uma expedição vinda do Paraguai. Por dois séculos ela é uma cidade de fundo de império, proibida de comerciar pelo mar que tem na frente.\n\n**A Coroa manda a prata dar a volta ao mundo.** O sistema de frotas obriga a produção de Potosí a sair por Lima e o Pacífico, atravessar o Panamá e seguir a Sevilha. Buenos Aires fica fora da rota legal, embora esteja a poucas semanas da mina pelo caminho de terra. O resultado previsível é o contrabando: couro, prata e escravizados passam por navios portugueses, holandeses e britânicos, e a cidade vive do que a lei proíbe.\n\n**O norte é que é rico, e a lógica é servir a mina.** Córdoba, Tucumán, Salta e Jujuy prosperam vendendo mulas, tecidos e alimento para Potosí. Onde os incas haviam chegado — o noroeste andino — a população indígena é densa e organizada em encomiendas; a guerra calchaquí, no vale de Salta, é combatida por mais de um século e termina com a deportação de povos inteiros em 1666.\n\n**No sul e no leste não há Estado europeu.** A pampa e a Patagônia permanecem sob controle de povos equestres — tehuelche, e depois mapuche vindos do oeste dos Andes — que adotam o cavalo trazido pelos espanhóis e passam a dominar a distância melhor que qualquer coluna colonial. As missões jesuíticas guarani, no nordeste, formam um sistema próprio de trinta povoados até a expulsão da ordem em 1767.\n\n**A reviravolta vem em 1776.** Para conter a expansão portuguesa no Prata e regularizar o contrabando cobrando imposto, a Coroa cria um vice-reino novo com capital em Buenos Aires — e o porto que era proibido passa a ser o centro.",
+      "fontes": [
+        "rock-argentina",
+        "halperin-donghi-america-latina"
+      ]
+    },
+    {
+      "id": "ar-vice-reino",
+      "inicio": "1776",
+      "fim": "1810",
+      "rotulo": "Vice-Reino do Rio da Prata",
+      "regime": "vice-reino da Coroa de Castela, com capital em Buenos Aires",
+      "textoMdx": "Trinta e quatro anos que criam a Argentina como possibilidade: um vice-reino que reúne o que hoje é Argentina, Uruguai, Paraguai e Bolívia, com a capital no porto e a riqueza no altiplano — contradição que definiria o século seguinte.\n\n**A abertura do comércio inverte a hierarquia.** Com o livre comércio de 1778, a prata de Potosí passa a sair pelo Atlântico, e Buenos Aires vira aduana do império no sul. Os comerciantes do porto ficam entre os homens mais ricos da América espanhola; as cidades do interior, que viviam de abastecer a rota andina, começam a perder para a mercadoria importada que chega mais barata pelo rio.\n\n**As invasões britânicas de 1806 e 1807 mudam a política.** Duas expedições tomam Buenos Aires e são expulsas por milícias locais, sem ajuda da Espanha e depois de o vice-rei fugir. A cidade descobre que sabe se defender sozinha, os chefes de milícia tornam-se poder político, e Santiago de Liniers é aclamado vice-rei pelos próprios vizinhos — precedente de que a autoridade pode vir de baixo.\n\n**Maio de 1810 é a consequência, não a causa.** Quando chega a notícia de que a Junta Central espanhola caiu diante de Napoleão, um cabildo aberto depõe o vice-rei e instala uma junta em nome de Fernando VII. A independência formal só vem em 1816, em Tucumán, e o que se abre entre uma data e outra é uma guerra em três frentes: contra os realistas no Alto Peru, contra os do Paraguai e contra a praça de Montevidéu.\n\n**O vice-reino não sobrevive à independência.** O Alto Peru torna-se Bolívia em 1825, o Paraguai separa-se de fato desde 1811, e a Banda Oriental vira Uruguai em 1828 depois de guerra entre Buenos Aires e o Império do Brasil. Do vice-reino de 1776, sobra pouco mais de metade.",
+      "fontes": [
+        "rock-argentina",
+        "halperin-donghi-america-latina"
+      ]
+    },
+    {
+      "id": "ar-guerras-independencia",
+      "inicio": "1810",
+      "fim": "1835",
+      "rotulo": "Guerras de independência e Províncias Unidas",
+      "regime": "juntas e governos provisórios em guerra; soberania disputada entre Buenos Aires e as províncias",
+      "textoMdx": "Vinte anos de guerra em que a independência é conquistada e o país, não. Ganha-se a batalha contra a Espanha e perde-se a discussão sobre quem governa.\n\n**San Martín resolve a guerra mudando de teatro.** Depois de campanhas custosas no Alto Peru, ele conclui que o poder realista está em Lima e que o caminho é pelo Chile. Organiza em Mendoza o Exército dos Andes, atravessa a cordilheira em 1817, liberta o Chile em Chacabuco e Maipú, e desembarca no Peru em 1820. Em 1822 encontra Bolívar em Guayaquil, retira-se da guerra e parte para a Europa, onde morre.\n\n**A independência é declarada em 1816, sob pressão.** O congresso reunido em Tucumán proclama as Províncias Unidas em julho, num momento em que a Espanha reconquistava terreno em todo o continente. Discute-se seriamente instaurar uma monarquia, inclusive com um descendente inca no trono — proposta de Manuel Belgrano, hoje curiosa, então plausível para dar legitimidade a um Estado novo.\n\n**A guerra civil começa antes de a externa acabar.** José Gervasio Artigas, na Banda Oriental, defende uma federação de províncias iguais contra o centralismo do porto; é derrotado pela conjunção de Buenos Aires e da invasão portuguesa, e morre exilado no Paraguai. Em 1820 o exército federal do litoral desfaz o governo central em Cepeda, e o país fica sem autoridade nacional por décadas.\n\n**A questão é fiscal, e é por isso que não se resolve.** Toda a receita aduaneira entra em Buenos Aires, e o porto quer administrá-la; as províncias querem repartir. Constituições unitárias em 1819 e 1826 são recusadas pelo interior. Não há Argentina como Estado entre 1820 e 1853 — há províncias soberanas que delegam a Buenos Aires apenas a representação externa.",
+      "fontes": [
+        "rock-argentina"
+      ]
+    },
+    {
+      "id": "ar-rosas",
+      "inicio": "1835",
+      "fim": "1861",
+      "rotulo": "Confederação Argentina sob Rosas",
+      "regime": "confederação de províncias soberanas sob a hegemonia do governador de Buenos Aires",
+      "textoMdx": "Juan Manuel de Rosas governa Buenos Aires com a soma do poder público — poderes extraordinários votados pela legislatura — e sem constituição nacional, por vinte e três anos, mantendo a unidade do país pela força e recusando organizá-lo por lei.\n\n**A ordem é federal no nome e centralizada no efeito.** Cada província mantém soberania formal, e nenhuma pode negociar com o exterior nem cobrar aduana própria; a de Buenos Aires continua entrando toda no porto. Quem discorda é combatido: unitários são perseguidos pela Sociedade Popular Restauradora e sua polícia, a Mazorca, e a geração de intelectuais que produziria a Argentina seguinte escreve do exílio em Montevidéu e Santiago.\n\n**Duas potências europeias bloqueiam o Prata e recuam.** França em 1838 e França e Grã-Bretanha em 1845 impõem bloqueios navais para forçar a livre navegação dos rios interiores. A resistência em Vuelta de Obligado, em 1845, não impede a passagem dos navios, mas o custo da ocupação e a impossibilidade de vencer em terra levam os dois países a assinar tratados reconhecendo a soberania argentina sobre os rios.\n\n**A fronteira interna segue aberta.** Ao sul da linha de fortins, a pampa continua sob controle indígena. Rosas conduz uma campanha ao deserto em 1833 e depois administra a fronteira por tratado e pagamento de gado e vícios — política mais barata que a guerra e que sustenta um equilíbrio por décadas.\n\n**A queda vem de fora e de dentro ao mesmo tempo.** Justo José de Urquiza, governador de Entre Ríos, cansado de que a aduana de Buenos Aires financie o país inteiro sem repartir, alia-se ao Brasil e a uruguaios e vence Rosas em Caseros, em fevereiro de 1852. Rosas exila-se na Inglaterra. A constituição federal, finalmente, é sancionada em 1853 — e Buenos Aires recusa-se a aceitá-la, separando-se por quase uma década.",
+      "fontes": [
+        "rock-argentina",
+        "halperin-donghi-america-latina"
+      ]
+    },
+    {
+      "id": "ar-organizacao-nacional",
+      "inicio": "1861",
+      "fim": "1916",
+      "rotulo": "Organização nacional",
+      "regime": "república federal presidencialista, com voto masculino sem sigilo efetivo",
+      "textoMdx": "Buenos Aires é derrotada em Pavón em 1861 e, ao entrar na federação, passa a dirigi-la. Em cinquenta anos a Argentina constrói um Estado nacional, uma economia de exportação e uma população nova — e faz isso ocupando militarmente o que faltava do território.\n\n**Três presidências fundam as instituições.** Mitre, Sarmiento e Avellaneda organizam exército nacional, moeda, código civil, correio, censo e escola pública em escala inédita na região. A federalização da cidade de Buenos Aires, em 1880, encerra a disputa de sessenta anos sobre a capital.\n\n**A Guerra do Paraguai é o custo externo do período.** Entre 1865 e 1870, a Tríplice Aliança com Brasil e Uruguai destrói o Paraguai, que perde mais da metade da população. Na Argentina a guerra é impopular no interior e provoca levantes, e serve para consolidar o exército nacional que depois seria usado dentro de casa.\n\n**A Conquista do Deserto é uma guerra de extermínio e de terra.** Entre 1878 e 1885, com Julio Roca à frente, o exército avança sobre a pampa e a Patagônia com fuzis Remington, telégrafo e ferrovia. Comunidades são destruídas, milhares de pessoas mortas, prisioneiros distribuídos como servos em cidades e engenhos, famílias separadas. Somam-se ao patrimônio nacional dezenas de milhões de hectares, repartidos em grandes propriedades entre poucos beneficiários — a estrutura agrária que a Argentina tem até hoje.\n\n**A imigração refaz a população.** Entre 1870 e 1914 chegam milhões de italianos e espanhóis, e em 1914 cerca de um terço dos habitantes do país é estrangeiro — proporção maior que a dos Estados Unidos no mesmo período. Buenos Aires triplica, nasce o tango, nascem os sindicatos anarquistas e socialistas, e o Estado responde com a Lei de Residência de 1902, que permite deportar estrangeiros sem julgamento.\n\n**A carne e o trigo pagam tudo.** Frigorífico, navio a vapor e ferrovia de traçado radial, financiada por capital britânico, convertem a pampa em fornecedora do mercado europeu. Por volta de 1910 a renda por habitante argentina está entre as mais altas do mundo, o que torna as décadas seguintes um dos casos mais discutidos de reversão econômica.",
+      "fontes": [
+        "rock-argentina",
+        "halperin-donghi-america-latina"
+      ]
+    },
+    {
+      "id": "ar-radical",
+      "inicio": "1916",
+      "fim": "1946",
+      "rotulo": "República radical e a Década Infame",
+      "regime": "democracia de voto universal masculino secreto, interrompida por golpe em 1930",
+      "textoMdx": "A lei Sáenz Peña, de 1912, institui voto secreto e obrigatório para homens, e em 1916 a União Cívica Radical de Hipólito Yrigoyen ganha a primeira eleição limpa da história argentina. Catorze anos depois, o exército interrompe o experimento e passa treze anos fraudando eleições.\n\n**O radicalismo governa para a classe média nova.** Filhos de imigrantes chegam à universidade com a reforma de Córdoba de 1918, que institui autonomia e cogoverno estudantil e se espalha pela América Latina. Cria-se a YPF, a petroleira estatal, em 1922 — das primeiras do mundo.\n\n**A repressão trabalhista continua.** A Semana Trágica de 1919, em Buenos Aires, e os fuzilamentos de peões na Patagônia rebelde, em 1921, mostram que o voto universal não alterou a resposta do Estado à greve.\n\n**O golpe de 1930 é o primeiro de seis no século.** Com a crise mundial e Yrigoyen envelhecido num segundo mandato, José Félix Uriburu depõe o governo em setembro. Segue-se a Década Infame: governos conservadores mantidos pela fraude patriótica, isto é, urnas trocadas com naturalidade declarada, mais o Pacto Roca-Runciman de 1933, que garante o mercado britânico para a carne em troca de concessões.\n\n**A cidade cresce por migração interna, e é isso que prepara o que vem.** A industrialização por substituição de importações, acelerada pelas duas guerras, traz para a periferia de Buenos Aires centenas de milhares de trabalhadores do interior, sem sindicato nem partido que os represente. Em 1943 um novo golpe militar leva ao governo um coronel encarregado de uma secretaria menor, a do Trabalho — Juan Domingo Perón.",
+      "fontes": [
+        "romero-argentina-contemporanea",
+        "rock-argentina"
+      ]
+    },
+    {
+      "id": "ar-peronismo",
+      "inicio": "1946",
+      "fim": "1955",
+      "rotulo": "Primeiro peronismo",
+      "regime": "república presidencialista com base sindical; oposição restringida",
+      "textoMdx": "Perón é preso em outubro de 1945 e libertado pela mobilização de trabalhadores que enche a Praça de Maio no dia 17 — a data fundadora do peronismo. Em fevereiro de 1946 ele vence a eleição, e a política argentina passa a se organizar a favor ou contra ele pelos oitenta anos seguintes.\n\n**A cidadania social é ampliada de forma rápida e visível.** Aguinaldo, férias pagas, indenização, tribunais do trabalho, previdência, hospitais, escolas e turismo sindical. O salário real sobe forte no primeiro governo, e a participação dos salários na renda nacional alcança o ponto mais alto da história do país. Ferrovias britânicas e telefones são nacionalizados; cria-se o IAPI, que compra a safra e transfere renda do campo para a indústria.\n\n**O voto feminino chega em 1947, e Eva Perón é peça política central.** Ela dirige uma fundação com recursos públicos e sindicais que distribui casas, máquinas de costura e hospitais, e organiza o ramo feminino do partido. Morre em 1952, aos 33 anos, e sua figura torna-se objeto de disputa simbólica por décadas.\n\n**O regime é democrático na origem e restritivo na prática.** A imprensa opositora é comprada ou fechada — o jornal *La Prensa* é expropriado em 1951 —, professores são demitidos, opositores presos, e a lealdade partidária é exigida no serviço público. A Constituição de 1949 permite a reeleição, e Perón vence de novo em 1951 por larga margem.\n\n**A queda combina economia e Igreja.** A partir de 1949 faltam divisas, a seca reduz a safra e o salário real recua; o governo aperta e perde apoio. O conflito com a Igreja católica, em 1954-1955, com o divórcio e a suspensão do ensino religioso, alia o clero à oposição. Em setembro de 1955, a Revolução Libertadora derruba Perón, que se exila por dezoito anos — e o peronismo é proscrito, com a simples menção ao nome proibida por decreto.",
+      "fontes": [
+        "romero-argentina-contemporanea",
+        "rock-argentina"
+      ]
+    },
+    {
+      "id": "ar-proscricao",
+      "inicio": "1955",
+      "fim": "1976",
+      "rotulo": "Proscrição do peronismo e alternância militar",
+      "regime": "alternância entre governos militares e governos eleitos com o principal partido proibido",
+      "textoMdx": "Dezoito anos em que o partido mais votado do país não pode disputar eleição, e nenhum governo — militar ou civil — consegue durar. É o período que a historiografia argentina chama de empate: nenhuma força consegue impor sua ordem, e todas conseguem inviabilizar a dos outros.\n\n**Governos civis sem legitimidade, governos militares sem projeto.** Frondizi é eleito em 1958 com votos peronistas negociados e derrubado em 1962; Illia é eleito em 1963 com um quarto dos votos e derrubado em 1966. Cada intervenção é justificada pelo perigo do retorno peronista, e cada eleição sem o peronismo produz um governo que ninguém defende.\n\n**A resistência peronista é sindical, e o sindicato torna-se o partido.** Sem poder eleger, o movimento age por greve, sabotagem e negociação direta; a CGT converte-se no principal ator político da oposição, e a figura ausente de Perón, no exílio em Madri, arbitra as disputas por carta e gravação.\n\n**A radicalização dos anos 1960 tem endereço.** A Revolução Cubana e a ditadura de Onganía, instalada em 1966, empurram parte da juventude à luta armada: nascem os Montoneros, de origem peronista, e o ERP, de origem marxista. O Cordobazo, insurreição urbana de operários e estudantes em Córdoba em maio de 1969, é o ponto em que o regime militar perde a rua e começa a procurar uma saída eleitoral.\n\n**O retorno de Perón dura nove meses.** Ele volta em 1973, é eleito com mais de 60% dos votos e morre em julho de 1974, deixando a presidência para a vice, sua esposa Isabel. O governo passa a ser conduzido por José López Rega, que organiza a Tríplice A, esquadrão paraestatal que assassina centenas de militantes. Com inflação de três dígitos, violência crescente dos dois lados e o Estado em decomposição, o golpe de março de 1976 é esperado — e recebido com alívio por parte da sociedade.",
+      "fontes": [
+        "romero-argentina-contemporanea"
+      ]
+    },
+    {
+      "id": "ar-ditadura",
+      "inicio": "1976",
+      "fim": "1983",
+      "rotulo": "Processo de Reorganização Nacional",
+      "regime": "ditadura militar com terrorismo de Estado e desaparecimento forçado como método",
+      "textoMdx": "Sete anos em que o Estado argentino faz do desaparecimento de pessoas um método administrativo. A CONADEP documentou 8.961 casos e advertiu que o número apurado é piso, não total; organismos de direitos humanos sustentam cifra bem maior.\n\n**O método é o campo clandestino.** Cerca de 340 centros de detenção — a ESMA, em Buenos Aires, e La Perla, em Córdoba, entre os maiores — onde se sequestra, tortura, mata e faz desaparecer sem registro nem processo. Os voos da morte lançam presos vivos ao mar. Recém-nascidos de detidas são entregues a outras famílias com identidade falsa: as Avós da Praça de Maio localizaram mais de uma centena deles ao longo das décadas seguintes.\n\n**A economia é aberta e o resultado é a dívida.** Sob José Martínez de Hoz, o país liberaliza o câmbio e o crédito, com juros altos que atraem capital de curto prazo — a *plata dulce* — e destroem a indústria voltada ao mercado interno. A dívida externa multiplica-se por cinco na década, e passivos privados são estatizados em 1982. O salário real cai fortemente.\n\n**As Mães da Praça de Maio começam a marchar em 1977.** Catorze mulheres que procuravam filhos desaparecidos passam a dar voltas em torno da pirâmide da praça porque a reunião parada estava proibida. Três delas são sequestradas e assassinadas naquele mesmo ano. Foi a forma de oposição pública que o regime não soube desmontar.\n\n**A guerra das Malvinas encerra o regime.** Em abril de 1982, com a economia em crise e protestos na rua, a junta de Leopoldo Galtieri ocupa as ilhas em disputa com o Reino Unido desde 1833. A resposta britânica é uma força-tarefa naval; em 14 de junho a Argentina se rende, com 649 mortos do próprio lado, muitos deles conscritos. A derrota tira a última justificativa da ditadura, e em outubro de 1983 há eleição.",
+      "fontes": [
+        "conadep-nunca-mais",
+        "romero-argentina-contemporanea"
+      ]
+    },
+    {
+      "id": "ar-democracia",
+      "inicio": "1983",
+      "rotulo": "República Argentina",
+      "regime": "república federal presidencialista; crise econômica recorrente",
+      "textoMdx": "Quatro décadas de continuidade democrática — a mais longa da história argentina — com uma economia que entra em crise com regularidade e uma política de memória que avançou mais que a de qualquer vizinho.\n\n**O julgamento das juntas, em 1985, é sem precedente na região.** Raúl Alfonsín cria a CONADEP, cujo relatório *Nunca Más* é publicado em 1984, e leva os comandantes a tribunal civil: Videla e Massera recebem prisão perpétua. Levantes militares forçam depois as leis de Ponto Final e Obediência Devida, e Menem indulta os condenados em 1990. As leis são anuladas em 2003 e declaradas inconstitucionais em 2005, e desde então centenas de agentes foram julgados e condenados em processos que seguem em curso.\n\n**A hiperinflação derruba um presidente e a conversibilidade derruba outro.** Alfonsín entrega o cargo cinco meses antes do prazo, em 1989, com preços fora de controle. Carlos Menem ancora o peso ao dólar em 1991, privatiza quase tudo e estabiliza — e o desemprego chega a cerca de um quinto da força de trabalho. Em dezembro de 2001 o esquema quebra: restrição a saques bancários, protestos com dezenas de mortos, cinco presidentes em duas semanas e a maior moratória soberana já declarada até então.\n\n**A recuperação vem com preço de soja e conflito recorrente sobre o câmbio.** Os governos de Néstor Kirchner e Cristina Fernández, entre 2003 e 2015, crescem com commodities altas, reestatizam a previdência e a YPF e ampliam transferências sociais; a inflação volta, e o câmbio duplo se instala. Macri, Fernández e Milei alternam abordagens opostas sobre o mesmo problema, e o país recorre novamente ao FMI.\n\n**As Malvinas seguem em disputa, e a reivindicação está na Constituição.** A reforma de 1994 inscreveu o objetivo de recuperar as ilhas por via pacífica. O Reino Unido as administra e realizou em 2013 um referendo local em que a população votou por manter o vínculo britânico — resultado que a Argentina não reconhece como aplicável a uma disputa de soberania entre Estados.",
+      "fontes": [
+        "romero-argentina-contemporanea",
+        "conadep-nunca-mais"
+      ]
+    }
+  ]
+}

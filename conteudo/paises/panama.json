@@ -1,0 +1,53 @@
+{
+  "iso": "PAN",
+  "isoNumerico": "591",
+  "nome": "Panamá",
+  "periodos": [
+    {
+      "id": "pa-istmo-espanhol",
+      "inicio": "1519",
+      "fim": "1903",
+      "rotulo": "Istmo de Panamá espanhol",
+      "regime": "audiência e depois província da Coroa de Castela; entreposto do comércio imperial",
+      "textoMdx": "Panamá existe, desde a primeira hora, por causa da geografia: é o lugar mais estreito entre dois oceanos, e por três séculos foi a passagem por onde a prata do Peru cruzava para a Europa.\n\n**A cidade do Panamá é fundada em 1519, a primeira no Pacífico americano.** Dali partem as expedições que conquistam o Peru, e por ali volta a prata: sobe o rio Chagres, atravessa em mula o Caminho Real até Portobelo ou Nombre de Dios, e embarca nas frotas.\n\n**As feiras de Portobelo são o coração do comércio imperial.** Durante semanas, galeões e mercadores negociam prata contra manufaturas europeias. A riqueza atrai ataque: Francis Drake, Henry Morgan — que saqueia e queima a cidade do Panamá em 1671 —, e o almirante Vernon, que destrói Portobelo em 1739.\n\n**A rota decai quando a Coroa muda o caminho.** Depois dos ataques do século XVIII, a Espanha passa a mandar navios pelo cabo Horn, e o istmo perde sua função. A província entra em declínio e é anexada ao Vice-Reino de Nova Granada.\n\n**A independência de 1821 é uma adesão à Colômbia.** Panamá separa-se da Espanha em novembro de 1821 e junta-se por decisão própria à Grã-Colômbia. Nas décadas seguintes há várias tentativas separatistas, e o istmo é província colombiana com autonomia variável.\n\n**A corrida do ouro reativa a passagem, em 1848.** Milhares de norte-americanos atravessam o istmo a caminho da Califórnia, e uma companhia dos Estados Unidos constrói a ferrovia transístmica, concluída em 1855 — a primeira ferrovia interoceânica do mundo, erguida com trabalhadores caribenhos, chineses e irlandeses, com mortalidade altíssima por doença.",
+      "fontes": [
+        "mccullough-caminho-entre-mares"
+      ]
+    },
+    {
+      "id": "pa-canal-e-zona",
+      "inicio": "1903",
+      "fim": "1968",
+      "rotulo": "República do Panamá e a Zona do Canal",
+      "regime": "república presidencialista, com uma faixa do território sob administração dos Estados Unidos",
+      "textoMdx": "O Panamá torna-se independente da Colômbia em 3 de novembro de 1903, com apoio naval norte-americano — e quinze dias depois assina um tratado que entrega a um país estrangeiro, em perpetuidade, uma faixa que corta o seu território em dois.\n\n**O fracasso francês precede tudo.** Ferdinand de Lesseps, o construtor de Suez, tenta um canal ao nível do mar a partir de 1881 e fracassa: febre amarela e malária matam mais de vinte mil trabalhadores, e a companhia quebra num escândalo financeiro que sacode a França.\n\n**A separação da Colômbia e o tratado são o mesmo movimento.** Depois de o Senado colombiano rejeitar o tratado Herrán-Hay, o Panamá declara independência com a marinha norte-americana impedindo o desembarque de tropas colombianas. O tratado Hay-Bunau-Varilla é assinado por um francês, Philippe Bunau-Varilla, como representante panamenho; nenhum panamenho assina. Ele concede aos Estados Unidos uso e controle perpétuos de uma faixa de dez milhas, com poderes como se fossem soberanos.\n\n**A obra é concluída em 1914 e é uma vitória de saúde pública.** William Gorgas ataca os vetores de febre amarela e malária, e a estratégia muda para eclusas e um lago artificial, o Gatún. Ainda assim morrem milhares, a maioria trabalhadores antilhanos — de Barbados, Jamaica e outras ilhas —, que formam a comunidade afroantilhana panamenha. Os salários eram pagos em dois sistemas, ouro e prata, separando brancos norte-americanos dos demais.\n\n**A Zona é um enclave com leis, escolas, polícia e tribunais próprios.** Panamenhos precisam de autorização para nela trabalhar ou residir. A soberania sobre a Zona torna-se a questão nacional por três gerações.\n\n**O Dia dos Mártires, em janeiro de 1964, é o ponto de virada.** Estudantes panamenhos que tentam hastear a bandeira nacional numa escola da Zona são reprimidos; morrem mais de vinte pessoas. O Panamá rompe relações com os Estados Unidos, e a negociação de um novo tratado torna-se inevitável.",
+      "fontes": [
+        "mccullough-caminho-entre-mares",
+        "tratado-hay-bunau-varilla"
+      ]
+    },
+    {
+      "id": "pa-militares",
+      "inicio": "1968",
+      "fim": "1990",
+      "rotulo": "Governos militares",
+      "regime": "governo militar sob a Guarda Nacional, depois Forças de Defesa",
+      "textoMdx": "Vinte e um anos de regime militar que conquistam o canal na mesa de negociação e terminam com uma invasão estrangeira.\n\n**Omar Torrijos governa de 1968 a 1981 com um programa nacionalista.** Reforma agrária, código do trabalho, expansão da educação, e um centro financeiro internacional criado em 1970 que faria do Panamá uma praça bancária. Partidos são suspensos e a oposição perseguida; o regime é ao mesmo tempo popular e autoritário.\n\n**Os tratados Torrijos-Carter, de 1977, são a maior vitória diplomática do país.** Eles extinguem a Zona do Canal e transferem o canal à administração panamenha ao meio-dia de 31 de dezembro de 1999, com neutralidade permanente garantida por tratado paralelo. A aprovação no Senado norte-americano é obtida por um voto de margem.\n\n**Torrijos morre em acidente aéreo em 1981, e o poder passa à inteligência.** Manuel Noriega, chefe do serviço de inteligência militar, assume o comando em 1983 e governa por presidentes interpostos. Colaborador de longa data da CIA, é ao mesmo tempo envolvido em tráfico de drogas e lavagem — combinação tolerada enquanto foi útil.\n\n**A ruptura com Washington vem em 1987-1989.** Noriega é indiciado nos Estados Unidos em 1988; anula a eleição de 1989, ganha por Guillermo Endara, e reprime a manifestação em que o vice-presidente eleito aparece ensanguentado nas fotos que correm o mundo.\n\n**A invasão de dezembro de 1989.** A Operação Causa Justa mobiliza mais de vinte mil soldados norte-americanos; o bairro de El Chorrillo é destruído por bombardeio e incêndio. As estimativas de mortos civis variam de centenas a milhares, e a Assembleia Geral da ONU condenou a intervenção como violação do direito internacional. Noriega rende-se, é julgado em Miami e cumpre pena nos Estados Unidos, na França e no Panamá, morrendo em 2017.",
+      "fontes": [
+        "mccullough-caminho-entre-mares",
+        "tratados-torrijos-carter"
+      ]
+    },
+    {
+      "id": "pa-republica",
+      "inicio": "1990",
+      "rotulo": "República do Panamá",
+      "regime": "república presidencialista; canal sob administração nacional desde 1999",
+      "textoMdx": "Três décadas e meia de democracia em que o país recebe o canal, o amplia, e vê sua praça financeira tornar-se objeto do maior vazamento de documentos da história.\n\n**As Forças de Defesa são abolidas.** A Constituição foi emendada em 1994 para proibir a existência de exército permanente — o segundo país da região a fazê-lo, depois da Costa Rica.\n\n**O canal passa a mãos panamenhas em 31 de dezembro de 1999.** A Autoridade do Canal do Panamá o administra desde então com desempenho operacional e financeiro que superou as projeções, e as receitas passam a ser a maior fonte de recursos do Estado. A ampliação com um terceiro conjunto de eclusas, aprovada em referendo em 2006 e inaugurada em 2016, permite a passagem de navios muito maiores e alterou rotas do comércio mundial.\n\n**A economia é a de maior crescimento da região por duas décadas.** Canal, logística, zona franca de Colón, bancos, cobre e construção. A desigualdade permanece alta e a pobreza concentra-se nas comarcas indígenas, que têm autonomia territorial reconhecida — o caso guna, com autogoverno desde 1938, é dos mais antigos das Américas.\n\n**Os Panama Papers, em 2016, expõem o outro lado da praça financeira.** O vazamento de mais de onze milhões de documentos de um escritório de advocacia local revela estruturas offshore usadas por políticos e empresários de dezenas de países. O episódio levou o Panamá a reformar regras de transparência sob pressão internacional.\n\n**A seca e a migração são os problemas atuais.** O canal depende de água doce do lago Gatún, e estiagens ligadas ao El Niño forçaram, em 2023 e 2024, a redução do número de navios por dia — uma via de comércio mundial limitada pela hidrologia. Ao mesmo tempo, a selva do Darién, na fronteira com a Colômbia, tornou-se rota de centenas de milhares de migrantes por ano rumo ao norte. Em 2023, protestos massivos contra um contrato de mineração de cobre levaram a Corte Suprema a declará-lo inconstitucional e o país a fechar a maior mina a céu aberto da América Central.",
+      "fontes": [
+        "tratados-torrijos-carter",
+        "mccullough-caminho-entre-mares"
+      ]
+    }
+  ]
+}

@@ -17,6 +17,7 @@ function acervoBase(): Acervo {
     paises: [
       {
         iso: "BRA",
+        isoNumerico: "076",
         nome: "Brasil",
         periodos: [
           {

@@ -138,23 +138,28 @@ describe("página de período", () => {
      * passaram a ter lastro, e virou a afirmação positiva — que é a que
      * agora precisa ser defendida contra regressão.
      *
-     * O número subiu de 84 para 85 quando a Colônia foi partida em 1808 e o
-     * Reino Unido de Portugal, Brasil e Algarves ganhou período próprio. É a
-     * contagem que precisa ser atualizada de propósito a cada período novo —
-     * afrouxá-la para `toBeGreaterThan` deixaria passar período entrando sem
-     * fonte, que é justamente o que ela existe para pegar.
+     * A contagem era FIXA, e o comentário anterior defendia isso dizendo que
+     * afrouxá-la deixaria passar período sem fonte. **Não procede**: o laço
+     * abaixo exige fonte de TODO período com texto, um por um, então um
+     * período entrando sem lastro reprova ali, com o número fixo ou sem ele. O
+     * que a contagem pegava era só "mudou" — e passou a cobrar de cada PR de
+     * país novo a atualização de um teste que não é dele. Com 162 países por
+     * escrever, é o mesmo atrito que tirou a tabela central de `lib/geo/iso.ts`
+     * do caminho de quem contribui.
+     *
+     * Fica o piso, contra o teste passar por vacuidade num acervo vazio.
      */
     const comTexto = acervo.paises.flatMap((p) =>
       p.periodos.filter((per) => per.textoMdx).map((per) => [p.iso, per] as const)
     );
-    expect(comTexto.length).toBe(85);
+    expect(comTexto.length).toBeGreaterThan(0);
 
     for (const [iso, per] of comTexto) {
       expect(per.fontes.length).toBeGreaterThan(0);
       for (const id of per.fontes) {
         expect(acervo.fontes.some((f) => f.id === id)).toBe(true);
       }
-      // Amostra na tela, para não renderizar 84 páginas neste teste.
+      // Amostra na tela, para não renderizar o acervo inteiro neste teste.
       if (per.id === "de-nazista" || per.id === "cn-shang") {
         const { container } = await pagina(iso, per.id);
         const titulos = [...container.querySelectorAll("h2")].map((h) => h.textContent);

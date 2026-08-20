@@ -221,7 +221,9 @@ describe("emenda do mapa", () => {
     // O caso relatado, com a geometria real do world-atlas em vez de um
     // polígono de mentira: faixa de 848px na altura do paralelo 38.
     const { carregarMundo } = await import("./mundo");
-    const { alpha3De } = await import("./iso");
+    const { criarTraducaoIso } = await import("./iso");
+    const { PAISES_DO_ACERVO } = await import("./__fixtures__/acervo");
+    const { alpha3De } = criarTraducaoIso(PAISES_DO_ACERVO);
     const mundo = await carregarMundo();
     const usa = mundo.find(
       (f) => f.id !== undefined && alpha3De(f.id as string) === "USA"

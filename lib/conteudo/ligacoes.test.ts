@@ -101,6 +101,7 @@ describe("verificarLigacoes", () => {
     const a = acervoVazio();
     a.paises.push({
       iso: "BRA",
+      isoNumerico: "076",
       nome: "Brasil",
       periodos: [
         {
@@ -127,6 +128,7 @@ describe("verificarLigacoes", () => {
     const a = acervoVazio();
     a.paises.push({
       iso: "BRA",
+      isoNumerico: "076",
       nome: "Brasil",
       periodos: [
         { id: "colisao", inicio: "1500", rotulo: "X", regime: "y", entidades: [], fontes: [] },
@@ -154,6 +156,7 @@ describe("verificarLigacoes", () => {
     const a = acervoVazio();
     a.paises.push({
       iso: "BRA",
+      isoNumerico: "076",
       nome: "Brasil",
       periodos: [
         { id: "algo", inicio: "1500", rotulo: "X", regime: "y", entidades: [], fontes: [] },
@@ -172,6 +175,7 @@ describe("verificarLigacoes", () => {
     const a = acervoVazio();
     a.paises.push({
       iso: "BRA",
+      isoNumerico: "076",
       nome: "Brasil",
       periodos: [
         {

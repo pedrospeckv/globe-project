@@ -1,0 +1,126 @@
+{
+  "iso": "PER",
+  "isoNumerico": "604",
+  "nome": "Peru",
+  "periodos": [
+    {
+      "id": "pe-estados-andinos",
+      "inicio": "600",
+      "fim": "1438",
+      "rotulo": "Estados andinos anteriores ao Tawantinsuyu",
+      "regime": "senhorios e Estados sucessivos, sem unificação dos Andes centrais",
+      "textoMdx": "Antes do Cusco os Andes centrais já tinham Estados, e é isso que explica a velocidade do império que vem depois: o Tawantinsuyu não inventa a administração andina, ele herda uma.\n\n**Wari e Tiwanaku ocupam o mesmo tempo e resolvem o mesmo problema de formas diferentes.** Wari, no vale de Ayacucho, expande-se a partir do século VII com centros administrativos plantados longe da capital e estradas ligando-os — o desenho que o Cusco reaproveitaria. Tiwanaku, no altiplano ao sul do lago Titicaca, cresce em torno de um centro cerimonial e de cultivo em canteiros elevados capazes de resistir à geada a quase quatro mil metros. Os dois entram em colapso entre os séculos X e XI, num período de seca prolongada.\n\n**O problema central andino é a altitude, e a resposta é institucional.** Um único vale oferece faixas ecológicas empilhadas: milho embaixo, tubérculos no alto, pastagem de camelídeos acima. Grupos de parentesco mantêm acesso simultâneo a várias faixas, às vezes a dias de caminhada uma da outra, e é essa dispersão deliberada que garante a colheita quando uma altitude falha. O Estado que vier terá de organizar trabalho, não mercado: não há moeda, e o tributo é prestado em dias de serviço.\n\n**Chimor é o Estado que o Cusco precisou vencer.** Na costa norte, herdeira da tradição moche, a capital Chan Chan comanda uma sequência de vales irrigados por canais que atravessam divisores de água — obra que exige autoridade capaz de coordenar mão de obra entre vales rivais. Quando os incas a submetem, por volta de 1470, levam para o Cusco artesãos e administradores, não apenas tributo.\n\n**A escrita não existe, e o registro sim.** As contas do Estado são mantidas em *quipus*, cordões com nós cuja posição e torção codificam quantidades e, ao que tudo indica, categorias. É o instrumento que permite a um império sem alfabeto saber quantos homens cada província deve e quanto há em cada depósito.",
+      "fontes": [
+        "mann-1491",
+        "klaren-peru-nacao"
+      ]
+    },
+    {
+      "id": "pe-tawantinsuyu",
+      "inicio": "1438",
+      "fim": "1533",
+      "rotulo": "Tawantinsuyu",
+      "regime": "império com administração decimal e tributo prestado em trabalho",
+      "textoMdx": "Tawantinsuyu quer dizer as quatro regiões reunidas, e em menos de um século ele vai do vale do Cusco ao sul da atual Colômbia e ao rio Maule, no Chile — perto de quatro mil quilômetros de norte a sul.\n\n**A expansão é rápida porque nem sempre é guerra.** A oferta ao senhor local é conhecida: submeter-se e manter posição, contra a alternativa de ser deslocado. Quem aceita entrega mão de obra e recebe obras — canais, depósitos, terras trabalhadas pelo Estado. Quem resiste é combatido e, em alguns casos, transferido inteiro para outra província, a política dos *mitmaq*, que quebra a base territorial da rebeldia e ao mesmo tempo povoa fronteiras.\n\n**O tributo é trabalho, e o nome dele é *mita*.** Cada unidade doméstica deve dias de serviço ao Estado — em estradas, campos, minas ou no exército — e não uma parcela da própria colheita. Em troca, os depósitos estatais alimentam quem trabalha e socorrem a província em ano ruim. É um sistema de redistribuição sem mercado, contado em *quipus* e organizado em unidades decimais que agrupam de dez a dez mil famílias.\n\n**A rede de estradas é o império.** Cerca de trinta mil quilômetros de caminhos, com pontes de fibra sobre desfiladeiros e postos de troca de mensageiros a distâncias curtas, levam ordem e informação em poucos dias entre pontos que hoje pertencem a países diferentes. Nada disso é feito com roda ou animal de tração: o transporte é lhama e carregador humano.\n\n**A sucessão não tem regra fixa, e é aí que o edifício racha.** A morte de Huayna Cápac, por volta de 1527, provavelmente numa epidemia que chega antes dos espanhóis, abre uma guerra entre Huáscar, no Cusco, e Atahualpa, em Quito. Quando Francisco Pizarro desembarca com menos de duzentos homens, encontra um império que acabou de sair de uma guerra civil, com metade da elite derrotada e povos submetidos dispostos a mudar de lado.",
+      "fontes": [
+        "hemming-conquista-incas",
+        "mann-1491",
+        "klaren-peru-nacao"
+      ]
+    },
+    {
+      "id": "pe-conquista",
+      "inicio": "1533",
+      "fim": "1542",
+      "rotulo": "Conquista e guerras entre conquistadores",
+      "regime": "domínio espanhol em disputa, sem administração consolidada",
+      "textoMdx": "Atahualpa é capturado em Cajamarca em novembro de 1532, paga um resgate de ouro e prata e é executado em 1533. A entrada no Cusco no fim daquele ano não encerra nada: abre nove anos em que quem governa o Peru é quem venceu a última briga.\n\n**A conquista é feita com aliados andinos, e isso não é detalhe.** Povos submetidos pelo Cusco havia poucas décadas somam-se aos espanhóis contra os cusquenhos; senhores locais fornecem carregadores, alimento e informação. O que se dissolve em 1533 não é uma sociedade diante de estrangeiros, é uma coalição imperial recém-formada e já em guerra consigo mesma.\n\n**A resistência inca dura quarenta anos.** Manco Inca, entronizado pelos espanhóis, rebela-se em 1536 e cerca Cusco e Lima. Derrotado, retira-se para Vilcabamba, na vertente amazônica, onde um Estado inca reduzido sobrevive sob quatro governantes sucessivos até 1572, quando Túpac Amaru é capturado e executado no Cusco.\n\n**Entre os vencedores, guerra aberta.** Pizarro e Diego de Almagro disputam a repartição do território: Almagro é executado em 1538, Pizarro assassinado em 1541, o filho de Almagro derrotado e morto em 1542. Quando a Coroa promulga as Leis Novas de 1542, limitando o poder dos encomenderos sobre a população indígena, a reação é uma rebelião que mata o primeiro vice-rei em 1546.\n\n**A epidemia é o fato demográfico maior, e chega sem batalha.** Varíola, sarampo e tifo avançam pelas mesmas estradas que o Estado inca construiu, em populações sem exposição prévia. O colapso é da ordem de dois terços ou mais ao longo do século, e desmonta o próprio sistema de tributo em trabalho: o número de mãos que a *mita* pressupõe deixa de existir.",
+      "fontes": [
+        "hemming-conquista-incas",
+        "mann-1491"
+      ]
+    },
+    {
+      "id": "pe-vice-reino",
+      "inicio": "1542",
+      "fim": "1824",
+      "rotulo": "Vice-Reino do Peru",
+      "regime": "vice-reino da Coroa de Castela; economia de prata com trabalho compulsório",
+      "textoMdx": "Criado em 1542, o Vice-Reino do Peru é por dois séculos a peça mais valiosa do império espanhol na América do Sul, e a razão tem nome: Potosí.\n\n**A prata reorganiza tudo, e o continente é desenhado em função dela.** O cerro de Potosí, descoberto em 1545 no que hoje é a Bolívia, torna-se a maior fonte de prata do mundo; Huancavelica, no Peru, fornece o mercúrio necessário para extraí-la por amalgamação. Lima concentra o comércio legal com a Espanha, e o interior existe para abastecer a mina — mulas de Tucumán, tecidos de Quito, coca dos vales orientais, alimento do altiplano. É uma economia continental montada em torno de um único morro.\n\n**O vice-rei Francisco de Toledo institucionaliza a coerção, entre 1569 e 1581.** Ele reúne a população indígena dispersa em povoados de traçado espanhol, as *reducciones*, o que facilita cobrar tributo e catequizar e ao mesmo tempo rompe o acesso simultâneo a várias altitudes de que a agricultura andina dependia. E converte a *mita* inca em turnos obrigatórios de trabalho na mina: províncias inteiras passam a enviar um sétimo dos homens adultos a Potosí, viagem de semanas, com mortalidade alta e retorno incerto.\n\n**A sociedade é legalmente dividida em duas repúblicas.** A dos espanhóis e a dos índios, cada uma com seus tribunais, tributos e autoridades — os curacas, senhores locais mantidos como intermediários. Na prática a divisão vaza por todos os lados: nasce uma população mestiça que nenhuma das duas categorias cobre, e a Igreja atua como o principal aparelho de administração cotidiana no campo.\n\n**A rebelião de 1780 é a maior do período colonial americano.** José Gabriel Condorcanqui, curaca que assume o nome de Túpac Amaru II, reivindicando descendência do último inca de Vilcabamba, levanta o sul andino contra os impostos e a *mita*. A guerra alcança o altiplano boliviano, mobiliza dezenas de milhares e é reprimida com execuções públicas. Depois dela, a Coroa proíbe títulos incas, retratos e a leitura dos *Comentarios reales*.\n\n**A independência chega de fora, e isso marca o país.** Lima é a capital mais leal à Espanha na América do Sul; a elite tem mais a perder do que a ganhar. A libertação vem por expedições vizinhas — San Martín desembarca em 1820, proclama a independência em 1821, e a guerra só termina com as vitórias de Bolívar e Sucre em Junín e Ayacucho, em 1824.",
+      "fontes": [
+        "klaren-peru-nacao",
+        "halperin-donghi-america-latina"
+      ]
+    },
+    {
+      "id": "pe-guano",
+      "inicio": "1824",
+      "fim": "1879",
+      "rotulo": "República inicial e a era do guano",
+      "regime": "república de caudilhos militares; receita estatal dependente do guano",
+      "textoMdx": "A república nasce sem projeto de elite, com o exército como única instituição de alcance nacional e com uma fronteira sul que ainda vai custar uma guerra.\n\n**Quatro décadas de caudilhos, e uma tentativa de refazer o mapa.** Entre 1824 e 1845 o poder muda de mãos por levante mais de uma vez por biênio. A experiência mais ambiciosa é a Confederação Peru-Boliviana, de 1836 a 1839, que reúne os dois países sob Andrés de Santa Cruz e é desfeita por uma intervenção chilena — a primeira vez em que Santiago age para impedir a formação de um vizinho maior que ela.\n\n**O guano paga o Estado, e é o que há de mais próximo de um milagre fiscal.** A partir de 1840, o excremento de aves acumulado por milênios nas ilhas da costa revela-se o melhor fertilizante disponível para a agricultura europeia. Sob Ramón Castilla, a receita permite abolir o tributo indígena em 1854, abolir a escravidão no mesmo ano, construir a primeira ferrovia da América do Sul e sustentar uma burocracia — tudo sem cobrar imposto interno significativo.\n\n**Uma receita que não vira economia.** A exploração é entregue a consignatários e a casas estrangeiras, sobretudo britânicas; boa parte do dinheiro sai em juros e comissões, e o Estado toma empréstimos garantidos por embarques futuros. Quando o guano começa a esgotar, na década de 1870, o país está mais endividado do que antes de descobri-lo. O trabalho nas ilhas é feito em condições brutais por chineses trazidos sob contrato, dezenas de milhares deles, num regime que se distingue mal da escravidão que o país tinha acabado de abolir.\n\n**O salitre é o capítulo seguinte, e leva à guerra.** Esgotado o guano, a atenção passa ao nitrato do deserto de Tarapacá, no extremo sul, e de Antofagasta, então bolivianas. Peru e Bolívia assinam aliança defensiva em 1873; capital e trabalhadores chilenos operam boa parte das salitreiras. Em 1879, um imposto boliviano sobre uma empresa chilena aciona o alinhamento.",
+      "fontes": [
+        "klaren-peru-nacao",
+        "halperin-donghi-america-latina"
+      ]
+    },
+    {
+      "id": "pe-guerra-do-pacifico",
+      "inicio": "1879",
+      "fim": "1884",
+      "rotulo": "Guerra do Pacífico",
+      "regime": "guerra e ocupação; governo dividido entre resistência e capitulação",
+      "textoMdx": "Chile contra Peru e Bolívia, cinco anos, e o mapa da América do Sul muda para sempre — a Bolívia perde o mar, o Peru perde a província que sustentaria sua receita.\n\n**Quem tem esquadra decide a guerra.** O teatro é um deserto sem água nem estrada: tropa e suprimento só chegam por mar. O combate naval de Angamos, em outubro de 1879, tira de ação o monitor *Huáscar* e entrega o mar ao Chile; a partir daí os desembarques ocorrem onde Santiago escolhe. Tarapacá cai, depois Arica, e em janeiro de 1881 as tropas chilenas entram em Lima.\n\n**A ocupação da capital não encerra a guerra.** A resistência continua na serra central sob Andrés Avelino Cáceres, com colunas de camponeses quíchuas mobilizadas em campanhas de guerrilha por mais de dois anos. É a primeira vez que a população indígena aparece armada em nome da nação peruana, e o incômodo que isso causa à elite limenha é parte da política das décadas seguintes.\n\n**O Tratado de Ancón, de 1883, cobra o preço.** O Peru cede Tarapacá em definitivo e entrega Tacna e Arica a administração chilena por dez anos, com plebiscito previsto — que nunca se realiza. A pendência só se resolve em 1929: Tacna volta ao Peru, Arica fica com o Chile. A Bolívia, por acordo separado, perde o litoral de Antofagasta e torna-se um país sem costa.\n\n**O que resta é um Estado desmontado.** A Biblioteca Nacional é saqueada, as salitreiras foram-se, a dívida externa continua, e o país entra em nova guerra civil entre 1884 e 1885. A derrota produz também uma pergunta que atravessa o pensamento peruano por décadas: por que um país maior e mais rico perdeu — e a resposta que se firma, na geração seguinte, aponta para a exclusão da maioria indígena da nação que se dizia existir.",
+      "fontes": [
+        "klaren-peru-nacao",
+        "collier-sater-chile"
+      ]
+    },
+    {
+      "id": "pe-republica-aristocratica",
+      "inicio": "1884",
+      "fim": "1930",
+      "rotulo": "República Aristocrática",
+      "regime": "república oligárquica de voto restrito, sob o Partido Civil",
+      "textoMdx": "Reconstrução sob uma elite costeira estreita, com voto limitado por renda e alfabetização e uma economia que troca o produto único por vários — sem trocar quem manda.\n\n**A exportação se diversifica, e o capital é estrangeiro.** Açúcar e algodão nos vales da costa norte, lã no sul andino, cobre em Cerro de Pasco, borracha na Amazônia até o colapso de preço em 1912, petróleo em Talara. A propriedade concentra-se: engenhos de açúcar absorvem terras de pequenos produtores, e no altiplano fazendas de lã avançam sobre terras comunais.\n\n**A dívida da guerra é paga com um contrato que entrega a infraestrutura.** Em 1890, o Peru transfere a administração das ferrovias e a exploração do guano remanescente à Peruvian Corporation, formada por credores britânicos, por décadas. Foi a saída encontrada para sair da inadimplência, e o preço foi ceder o controle das linhas que ligavam a serra à costa.\n\n**Aparece a pergunta indígena como questão política.** A expansão das fazendas provoca revoltas no sul, sobretudo em Puno nos anos 1910 e 1920. Em resposta, uma geração de intelectuais — Manuel González Prada antes, José Carlos Mariátegui depois — sustenta que o país que se chama Peru exclui a maioria de sua população, e que o problema do índio é problema de terra, não de raça nem de educação. Mariátegui publica os *7 ensayos de interpretación de la realidad peruana* em 1928; no mesmo período nasce a Aliança Popular Revolucionária Americana, de Haya de la Torre, que organizaria a política peruana por meio século.\n\n**Onze anos de um só presidente encerram o período.** Augusto Leguía governa de 1919 a 1930 com constituição nova, obra pública em Lima, empréstimos norte-americanos e oposição presa ou exilada. A crise de 1929 corta o crédito e o preço das exportações, e um golpe militar em 1930 abre uma sequência de regimes em que o exército decide quem governa.",
+      "fontes": [
+        "klaren-peru-nacao"
+      ]
+    },
+    {
+      "id": "pe-massas-e-militares",
+      "inicio": "1930",
+      "fim": "1980",
+      "rotulo": "Política de massas e governos militares",
+      "regime": "alternância entre eleições restritas e governos militares; APRA proscrita boa parte do período",
+      "textoMdx": "Cinco décadas em que a política peruana se organiza em torno de um partido de massas que quase nunca pode disputar eleição, e de um exército que decide o resto.\n\n**O APRA é proscrito, revolta-se e é reprimido.** A insurreição de Trujillo, em 1932, termina com execuções em massa e fixa uma inimizade entre o partido e as Forças Armadas que dura gerações. Nas décadas seguintes o APRA alterna clandestinidade e alianças de conveniência, e Haya de la Torre passa cinco anos asilado numa embaixada em Lima.\n\n**A migração muda o país mais do que qualquer governo.** A partir dos anos 1940, a população andina desce para a costa em escala inédita: Lima passa de algumas centenas de milhares para milhões, e cresce sobretudo por ocupação de terrenos na periferia, as *barriadas*, erguidas antes de existir rua, água ou título. O Peru deixa de ser majoritariamente rural sem que a estrutura da terra no interior tenha mudado.\n\n**A reforma agrária vem por golpe, não por eleição.** Em 1968, os militares depõem Belaúnde e, sob Juan Velasco Alvarado, fazem o oposto do que se esperava de um regime militar na região: expropriam as grandes fazendas da costa e da serra, criam cooperativas, nacionalizam petróleo, mineração e pesca, reconhecem o quíchua como língua oficial em 1975 e substituem o Dia do Índio pelo Dia do Camponês. Foi a maior redistribuição de terra da história do país.\n\n**O resultado é ambíguo, e a segunda fase desfaz parte da primeira.** As cooperativas recebem terra sem crédito, técnica ou mercado; a produção cai, a dívida externa sobe, e a crise de 1973 fecha o financiamento. Velasco é substituído em 1975 por Morales Bermúdez, que reverte medidas e organiza a saída: constituinte em 1978 e eleição em 1980, a primeira com voto de analfabetos — o que, num país com essa história, significa a primeira em que boa parte da população rural andina vota.",
+      "fontes": [
+        "klaren-peru-nacao",
+        "halperin-donghi-america-latina"
+      ]
+    },
+    {
+      "id": "pe-conflito-interno",
+      "inicio": "1980",
+      "fim": "2000",
+      "rotulo": "Conflito armado interno",
+      "regime": "democracia sob conflito armado; estado de emergência em boa parte do território",
+      "textoMdx": "No dia da eleição que devolve o poder aos civis, em maio de 1980, um grupo queima urnas em Chuschi, Ayacucho. Foi o começo de vinte anos que a comissão da verdade apuraria em cerca de 69.280 mortos e desaparecidos — mais do que qualquer guerra externa do país.\n\n**O Sendero Luminoso não é uma guerrilha comum.** Nascido na universidade de Huamanga sob Abimael Guzmán, propõe destruir o Estado a partir do campo e trata como inimigo tudo o que se interpõe, incluindo sindicatos, partidos de esquerda e comunidades camponesas que recusam sua autoridade. A comissão da verdade atribuiu a ele a maior parte das mortes do conflito, o que é incomum entre conflitos armados internos da região.\n\n**O Estado responde com repressão indiscriminada, e a conta é regional.** Províncias inteiras dos Andes centrais ficam sob comando militar; desaparecimentos, execuções e massacres ocorrem dos dois lados. Três de cada quatro vítimas tinham o quíchua ou outra língua indígena como língua materna, numa população em que essa parcela era muito menor — a medida mais crua de quem o país considerava dispensável.\n\n**A economia entra em colapso ao mesmo tempo.** O primeiro governo de Alan García, de 1985 a 1990, tenta crescer por demanda, suspende o pagamento da dívida e termina com hiperinflação que acumula milhares de por cento e desabastecimento. Em 1990, um desconhecido, Alberto Fujimori, vence a eleição contra Mario Vargas Llosa.\n\n**Fujimori estabiliza e fecha o Congresso.** Ele aplica um ajuste severo, retoma o pagamento externo e, em abril de 1992, dissolve o Congresso e intervém no Judiciário com apoio militar — o *autogolpe*, aprovado por larga maioria na opinião pública. Em setembro, Guzmán é capturado, e o Sendero perde a espinha. Segue-se uma década de crescimento com serviços de inteligência atuando como polícia política, imprensa comprada e uma campanha de esterilização em áreas rurais depois reconhecida como forçada em milhares de casos. Fujimori cai em 2000, com a divulgação de vídeos de suborno, e foge ao Japão.",
+      "fontes": [
+        "cvr-informe-final",
+        "klaren-peru-nacao"
+      ]
+    },
+    {
+      "id": "pe-republica",
+      "inicio": "2000",
+      "rotulo": "República do Peru",
+      "regime": "república presidencialista; crise recorrente de presidências interrompidas",
+      "textoMdx": "Duas décadas e meia de crescimento econômico sustentado e de instabilidade política sem paralelo na região: o país que mais trocou de presidente sem trocar de regime.\n\n**A economia cresce por mineração, e a desigualdade não acompanha.** Cobre e ouro, com preços altos ao longo dos anos 2000 e 2010, sustentam taxas de crescimento fortes e queda real da pobreza. Mas o conflito socioambiental torna-se a forma dominante de protesto: projetos como Conga e Tía María são paralisados por comunidades que disputam água e terra, e a arrecadação da mineração raramente chega como serviço público às regiões onde ela ocorre.\n\n**A comissão da verdade entrega o relatório em 2003.** Ela estabelece a cifra do conflito, nomeia responsabilidades dos dois lados e recomenda reparações. Fujimori é extraditado do Chile e condenado em 2009 a 25 anos por homicídio qualificado e desaparecimento forçado — uma das poucas condenações de ex-chefe de Estado por direitos humanos julgada em tribunal do próprio país.\n\n**A presidência vira cargo de curta duração.** Entre 2016 e 2023, sete pessoas ocupam o posto. Ollanta Humala, Alejandro Toledo, Pedro Pablo Kuczynski, Martín Vizcarra e Pedro Castillo enfrentam prisão, extradição ou destituição; Alan García mata-se em 2019 diante de uma ordem de prisão. A ferramenta recorrente é a vacância por *incapacidad moral permanente*, cláusula constitucional de contorno vago que o Congresso passa a usar como voto de desconfiança.\n\n**Dezembro de 2022 é o ponto mais agudo.** Pedro Castillo, professor rural eleito por margem estreita em 2021, anuncia o fechamento do Congresso, é destituído em horas e preso. Os protestos que seguem, concentrados no sul andino, deixam dezenas de mortos por ação das forças de segurança. A fratura que a comissão da verdade havia descrito — entre Lima e a serra, entre a república legal e a maioria andina — reaparece na mesma geografia.",
+      "fontes": [
+        "cvr-informe-final",
+        "klaren-peru-nacao"
+      ]
+    }
+  ]
+}

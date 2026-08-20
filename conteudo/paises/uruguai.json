@@ -1,0 +1,75 @@
+{
+  "iso": "URY",
+  "isoNumerico": "858",
+  "nome": "Uruguai",
+  "periodos": [
+    {
+      "id": "uy-banda-oriental",
+      "inicio": "1726",
+      "fim": "1816",
+      "rotulo": "Banda Oriental",
+      "regime": "província da Coroa de Castela, disputada com Portugal; fronteira móvel",
+      "textoMdx": "O território existe, na origem, como problema militar entre dois impérios: uma margem de rio que Espanha e Portugal disputam por um século e meio, sem que nenhuma das duas a povoe de verdade.\n\n**Duas fundações, dois impérios.** Portugal funda a Colônia do Sacramento em 1680, em frente a Buenos Aires, como base de contrabando de prata. A Espanha responde fundando Montevidéu em 1726, com uma baía que é o melhor porto natural do Prata. A partir daí, a Banda Oriental é a zona onde as duas coroas testam limites.\n\n**A riqueza é o gado solto.** Sem mineração e sem população indígena densa a tributar, o que há é gado bovino multiplicado sem dono nas pastagens, e couro que se exporta para a Europa. Forma-se uma sociedade rural de gaúchos, com pouca autoridade efetiva e propriedade de contorno vago — base do conflito posterior entre estancieiros e governo.\n\n**Montevidéu vira praça militar e rival do porto vizinho.** Sede de governo próprio a partir de 1749 e de uma base naval espanhola, a cidade compete com Buenos Aires pelo comércio, o que faz dela, em 1810, a praça leal à Espanha quando a outra margem se revolta.\n\n**Artigas é o ponto em que a Banda Oriental se torna sujeito próprio.** José Gervasio Artigas lidera a revolução na campanha a partir de 1811, propõe uma federação de províncias iguais contra o centralismo de Buenos Aires, e edita em 1815 um regulamento de terras que distribui campos a pobres livres, indígenas e negros libertos — o documento mais radical da independência sul-americana. Derrotado pela conjunção de Buenos Aires com a invasão luso-brasileira, morre exilado no Paraguai em 1850.",
+      "fontes": [
+        "nahum-uruguai",
+        "halperin-donghi-america-latina"
+      ]
+    },
+    {
+      "id": "uy-cisplatina",
+      "inicio": "1816",
+      "fim": "1830",
+      "rotulo": "Província Cisplatina",
+      "regime": "província anexada ao Reino Unido de Portugal e depois ao Império do Brasil",
+      "textoMdx": "Doze anos em que o território é parte do Brasil, e é dessa anexação que nasce, por reação, a independência uruguaia.\n\n**A invasão é luso-brasileira e tem o apoio tácito de Buenos Aires.** Tropas portuguesas entram em 1816, tomam Montevidéu em 1817 e derrotam Artigas em 1820. Em 1821 o território é incorporado como Província Cisplatina, primeiro ao Reino Unido de Portugal, Brasil e Algarves, e depois ao Império do Brasil recém-independente.\n\n**A Cruzada Libertadora começa em 1825.** Juan Antonio Lavalleja desembarca com um grupo pequeno, vence em Sarandí e reúne uma assembleia que declara a independência do Brasil e a união às Províncias Unidas do Rio da Prata. Buenos Aires aceita, e o Império declara guerra.\n\n**A guerra termina num Estado que nenhum dos dois lados queria.** O conflito de 1825 a 1828 é caro para os dois e bloqueia o comércio do Prata, o que mobiliza a mediação britânica. A Convenção Preliminar de Paz de 1828 resolve o impasse criando um Estado independente entre os dois: nem província argentina, nem província brasileira.\n\n**A independência é, portanto, produto de equilíbrio externo.** Isso marca o país: um território pequeno entre dois vizinhos grandes, cuja soberania interessa às duas potências regionais e à britânica precisamente por ser de ninguém. A primeira constituição é jurada em 1830.",
+      "fontes": [
+        "nahum-uruguai"
+      ]
+    },
+    {
+      "id": "uy-guerras-civis",
+      "inicio": "1830",
+      "fim": "1903",
+      "rotulo": "República Oriental e as guerras civis",
+      "regime": "república com dois partidos armados; intervenções estrangeiras recorrentes",
+      "textoMdx": "Meio século em que os dois partidos que organizariam a política uruguaia até hoje nascem em campo de batalha, e em que o país é palco das guerras dos vizinhos.\n\n**Blancos e Colorados nascem numa guerra, em 1836.** As divisas branca e vermelha usadas pelos partidários de Manuel Oribe e Fructuoso Rivera dão nome aos dois partidos, entre os mais antigos do mundo em atividade contínua. A Guerra Grande, de 1839 a 1851, junta o conflito interno às disputas do Prata: Montevidéu sitiada por nove anos, com Oribe apoiado por Rosas e a cidade defendida com apoio de franceses, britânicos e legiões estrangeiras — Garibaldi entre elas.\n\n**A Guerra da Tríplice Aliança começa aqui.** Em 1864 o Império do Brasil intervém no Uruguai a favor dos Colorados; é essa intervenção que Solano López tenta impedir, e é dela que se desdobra a guerra que destruiria o Paraguai. O Uruguai participa como o menor dos três aliados.\n\n**A economia se ordena com o arame e o navio a vapor.** A partir dos anos 1870, o cercamento dos campos com arame farpado define propriedade, encerra o gado solto e expulsa o gaúcho sem terra; o frigorífico e o transporte a vapor abrem o mercado europeu para carne e lã. O militarismo de Lorenzo Latorre e seus sucessores, entre 1876 e 1890, moderniza o Estado à força — código rural, exército profissional, escola pública sob a reforma de José Pedro Varela.\n\n**A partilha do poder é o arranjo que evita a guerra.** Depois da revolução de 1897, Blancos e Colorados acertam a divisão de chefaturas departamentais. A última guerra civil ocorre em 1904, com a derrota e morte de Aparicio Saravia — e a partir dela a disputa passa a ser eleitoral.",
+      "fontes": [
+        "nahum-uruguai"
+      ]
+    },
+    {
+      "id": "uy-batllismo",
+      "inicio": "1903",
+      "fim": "1967",
+      "rotulo": "Estado batllista",
+      "regime": "república presidencialista, depois colegiada; legislação social precoce e empresas públicas",
+      "textoMdx": "José Batlle y Ordóñez constrói, nas duas primeiras décadas do século XX, o Estado social mais avançado das Américas — décadas antes dos vizinhos e, em alguns pontos, da Europa.\n\n**A legislação chega antes da industrialização.** Jornada de oito horas em 1915, direito de greve, indenização por acidente, pensão à velhice, divórcio por vontade da mulher em 1913, abolição da pena de morte em 1907, separação entre Igreja e Estado em 1919, ensino secundário e universitário gratuitos. O voto feminino chega em 1932 e é exercido em 1938.\n\n**O Estado assume setores inteiros da economia.** Criam-se ou estatizam-se banco, seguro, energia elétrica, portos, telefonia, ferrovia, refino de petróleo com a ANCAP em 1931 e frigorífico nacional. A ideia declarada é que serviço essencial não deve gerar lucro privado, e que o Estado é o instrumento de igualação de um país sem oligarquia mineira nem plantation.\n\n**A carne e a lã pagam a conta, e as guerras mundiais ajudam.** A demanda europeia dá ao Uruguai renda por habitante alta e uma classe média urbana grande e escolarizada; Montevidéu concentra quase metade da população. O país ganha a fama de Suíça da América, com política pacífica e alfabetização quase universal.\n\n**A engenharia institucional é peculiar.** Batlle propõe substituir o presidente por um colegiado, e o país adota executivos colegiados em dois períodos, de 1918 a 1933 e de 1952 a 1967. O sistema da dupla candidatura simultânea permite que frações do mesmo partido concorram entre si somando votos — o que preserva a unidade dos dois partidos históricos.\n\n**O modelo depende de exportar, e o mundo muda.** Passada a Segunda Guerra, o preço da carne e da lã cai, a substituição de importações esgota o mercado interno pequeno, e a partir dos anos 1950 vêm inflação, déficit e greve. O golpe de Gabriel Terra, em 1933, já tinha sido um primeiro aviso de que o consenso não era permanente.",
+      "fontes": [
+        "nahum-uruguai"
+      ]
+    },
+    {
+      "id": "uy-crise-e-ditadura",
+      "inicio": "1967",
+      "fim": "1985",
+      "rotulo": "Crise, guerrilha e ditadura militar",
+      "regime": "presidencialismo com medidas prontas de segurança e, de 1973 a 1985, ditadura civil-militar",
+      "textoMdx": "O país mais estável da região torna-se, em uma década, o que teve a maior proporção de presos políticos do mundo.\n\n**A crise econômica precede a violência.** Inflação alta, salário em queda e greves gerais levam os governos de Óscar Gestido e Jorge Pacheco Areco a governar por medidas prontas de segurança — suspensão de garantias tornada rotina, sindicatos e jornais fechados.\n\n**Os Tupamaros são urbanos e não vencem.** O Movimento de Libertação Nacional atua por assaltos, sequestros e ações de propaganda, incluindo a fuga de mais de cem presos do cárcere de Punta Carretas em 1971. Em 1972 o movimento é militarmente derrotado, e a estrutura de exceção montada para combatê-lo permanece.\n\n**O golpe é gradual e tem presidente civil.** Em junho de 1973, Juan María Bordaberry, eleito em 1971, dissolve o Parlamento com apoio das Forças Armadas e governa com um Conselho de Estado; em 1976 os militares o substituem. O regime prende, tortura e mantém presos por longos anos — a proporção de presos políticos por habitante foi a mais alta do mundo no período —, e centenas de milhares de uruguaios emigram.\n\n**A repressão é transfronteiriça.** Uruguaios são sequestrados e assassinados em Buenos Aires no âmbito da Operação Condor, incluindo os parlamentares Zelmar Michelini e Héctor Gutiérrez Ruiz, em 1976. A Comisión para la Paz, em 2003, foi o primeiro reconhecimento estatal desses desaparecimentos, e confirmou a prática de entrega de filhos de detidas.\n\n**O regime perde o plebiscito que convocou.** Em 1980, os militares submetem a referendo uma constituição que institucionalizaria a tutela militar, e o Não vence com cerca de 57%. A negociação que segue, no Pacto do Clube Naval, conduz à eleição de 1984 e à posse de Julio María Sanguinetti em 1985.",
+      "fontes": [
+        "nahum-uruguai",
+        "comision-para-la-paz"
+      ]
+    },
+    {
+      "id": "uy-republica",
+      "inicio": "1985",
+      "rotulo": "República Oriental do Uruguai",
+      "regime": "república presidencialista; forte uso de referendo e plebiscito",
+      "textoMdx": "Quatro décadas de democracia com um traço próprio: as decisões mais difíceis passam pela urna em consulta direta, e a população já reverteu por voto o que o Parlamento aprovou.\n\n**A anistia é confirmada duas vezes pelo voto, e depois contornada.** A Lei de Caducidade de 1986, que impedia julgar agentes do Estado, é mantida em referendo de 1989 e novamente em 2009. Ainda assim, julgamentos avançaram por interpretações que excluíam certos crimes do alcance da lei — Bordaberry e o ex-chanceler Juan Carlos Blanco foram condenados —, e a Corte Interamericana declarou a lei incompatível com a Convenção Americana em 2011.\n\n**O sistema partidário se abre para uma terceira força.** A Frente Amplio, coalizão de esquerda fundada em 1971, ganha Montevidéu em 1989 e a presidência em 2004 com Tabaré Vázquez, governando quinze anos seguidos — o fim do bipartidarismo de um século e meio. José Mujica, ex-tupamaro preso por mais de uma década, é presidente entre 2010 e 2015.\n\n**As reformas sociais da década de 2010 são atípicas na região.** Casamento entre pessoas do mesmo sexo e interrupção legal da gravidez em 2012-2013, e a regulação estatal do mercado de cannabis em 2013, a primeira do mundo em escala nacional, justificada como política de segurança para separar o consumidor do tráfico.\n\n**A economia é pequena, aberta e menos volátil que a dos vizinhos.** A crise de 2002, contágio do colapso argentino, é a mais grave do período; depois dela, soja, celulose, carne e serviços sustentam crescimento longo. O país tem os indicadores de desigualdade e de institucionalidade democrática mais favoráveis da América do Sul, e uma alternância entre Frente Amplio e coalizões de centro-direita que ocorre sem crise de regime.",
+      "fontes": [
+        "nahum-uruguai",
+        "comision-para-la-paz"
+      ]
+    }
+  ]
+}

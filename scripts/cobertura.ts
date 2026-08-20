@@ -4,7 +4,7 @@ import path from "node:path";
 import { feature } from "topojson-client";
 import type { Topology, GeometryCollection } from "topojson-specification";
 import { Pais } from "../lib/conteudo/pais";
-import { alpha3De } from "../lib/geo/iso";
+import { normalizarNumerico } from "../lib/geo/iso";
 
 /**
  * Gera `docs/cobertura.md` — quais países têm dossiê e quais não.
@@ -23,6 +23,14 @@ import { alpha3De } from "../lib/geo/iso";
  * quais 174 têm código e nome. Não é uma lista de
  * países inventada aqui, e é deliberado: se o mapa não desenha, não há onde o
  * dossiê acender, então a lista de candidatos é exatamente a do mapa.
+ *
+ * ## Como um país do conteúdo é casado com um do mapa
+ *
+ * Pelo código ISO NUMÉRICO que o próprio arquivo do país declara. A primeira
+ * versão disto casava por nome e errou em 8 dos 9: o conteúdo está em português
+ * ("Alemanha") e a base em inglês ("Germany"), então só a China casou, por
+ * coincidência de grafia. A segunda casava por alpha-3 via a tabela à mão de
+ * `lib/geo/iso.ts`, o que limitava esta conta aos países que já estivessem lá.
  *
  * O que ela NÃO é: uma opinião sobre quem é país. O Natural Earth resolve casos
  * disputados de um jeito que não é o único possível, e o atlas herda essas
@@ -50,7 +58,8 @@ function doMapa(): NoMapa[] {
   const feicoes = feature(topo, colecao).features;
   return feicoes
     .map((f) => ({
-      numerico: String(f.id ?? ""),
+      /* Normalizado porque o topojson alterna "076", "76" e 76 conforme a base. */
+      numerico: f.id === undefined ? "" : normalizarNumerico(f.id as string | number),
       nome: String((f.properties as { name?: string } | null)?.name ?? ""),
     }))
     .filter((x) => x.numerico && x.nome)
@@ -59,6 +68,7 @@ function doMapa(): NoMapa[] {
 
 interface ComDossie {
   iso: string;
+  isoNumerico: string;
   nome: string;
   periodos: number;
   comTexto: number;
@@ -75,6 +85,7 @@ function comDossie(): ComDossie[] {
       const p = Pais.parse(bruto);
       return {
         iso: p.iso,
+        isoNumerico: p.isoNumerico,
         nome: p.nome,
         periodos: p.periodos.length,
         comTexto: p.periodos.filter((x) => x.textoMdx).length,
@@ -86,27 +97,18 @@ function comDossie(): ComDossie[] {
 
 const mapa = doMapa();
 const dossies = comDossie();
-const isosComDossie = new Set(dossies.map((d) => d.iso));
+const numericosComDossie = new Set(dossies.map((d) => d.isoNumerico));
 
 /*
- * O casamento é por CÓDIGO ISO, e a primeira versão disto errou: casava por nome,
- * e falhou em 8 dos 9 países porque o conteúdo está em português ("Alemanha") e o
- * `world-atlas` em inglês ("Germany"). Só a China casou, por coincidência de
- * grafia.
- *
- * A tradução numérico → alpha-3 vem de `lib/geo/iso.ts`, e é aqui que a limitação
- * dele fica visível: aquela tabela é escrita à mão e tem só os nove países do
- * atlas, então um país novo é invisível para esta conta até alguém acrescentá-lo
- * lá. É o que a seção de gargalo do CONTRIBUTING descreve.
+ * Dossiê cujo código não aponta para nenhuma feição do mapa. O validador do build
+ * já barra isso — `conferirCodigosDePais` —, então aqui é rede de segurança para
+ * quem rodar este script com a árvore em estado intermediário.
  */
 const naoCasaram = dossies.filter(
-  (d) => !mapa.some((m) => alpha3De(m.numerico) === d.iso)
+  (d) => !mapa.some((m) => m.numerico === d.isoNumerico)
 );
 
-const faltando = mapa.filter((m) => {
-  const a3 = alpha3De(m.numerico);
-  return !a3 || !isosComDossie.has(a3);
-});
+const faltando = mapa.filter((m) => !numericosComDossie.has(m.numerico));
 const pct = ((dossies.length / mapa.length) * 100).toFixed(1);
 const periodos = dossies.reduce((s, d) => s + d.periodos, 0);
 
@@ -154,11 +156,14 @@ if (naoCasaram.length > 0) {
   linhas.push(
     "## Atenção: dossiê que não casou com o mapa",
     "",
-    "Estes têm dossiê mas o nome não corresponde a nenhuma feição do mapa, então",
+    "Estes têm dossiê mas o código numérico não corresponde a nenhuma feição do",
+    "mapa, então",
     "aparecem como faltando na lista acima. É descasamento de grafia a resolver,",
     "não país inexistente.",
     "",
-    ...naoCasaram.map((d) => `- ${d.nome} (\`${d.iso}\`, ${d.arquivo})`),
+    ...naoCasaram.map(
+      (d) => `- ${d.nome} (\`${d.iso}\`, numérico \`${d.isoNumerico}\`, ${d.arquivo})`
+    ),
     ""
   );
 }

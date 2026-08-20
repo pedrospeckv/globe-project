@@ -1,0 +1,76 @@
+{
+  "iso": "NIC",
+  "isoNumerico": "558",
+  "nome": "Nicarágua",
+  "periodos": [
+    {
+      "id": "ni-colonia",
+      "inicio": "1524",
+      "fim": "1855",
+      "rotulo": "Província da Nicarágua",
+      "regime": "província da Capitania Geral da Guatemala; costa caribenha sob influência britânica",
+      "textoMdx": "Como Honduras, a Nicarágua colonial são dois países: o Pacífico espanhol, com Léon e Granada nos lagos, e uma costa caribenha que a Espanha nunca ocupou — e que ainda hoje tem outra língua, outra religião e estatuto autônomo.\n\n**Léon e Granada nascem rivais em 1524.** Léon, sede do bispado e do poder administrativo, e Granada, comercial e ligada ao lago e ao rio San Juan, disputam a primazia por três séculos. A rivalidade se converterá em liberais contra conservadores, e depois em guerras civis.\n\n**A rota interoceânica é a obsessão desde o século XVI.** O lago Nicarágua e o rio San Juan quase atravessam o istmo, e a possibilidade de um canal ou de uma travessia mista faz do território objeto de interesse permanente de Espanha, Grã-Bretanha e depois Estados Unidos.\n\n**A Costa dos Mosquitos é um protetorado britânico de fato.** Os britânicos aliam-se aos miskitos, armam-nos, reconhecem uma monarquia miskita e mantêm influência de Bluefields ao norte por séculos. A região só é incorporada à Nicarágua em 1894, e a população costeira — miskita, criolla anglófona, rama, garífuna — mantém identidade distinta; desde 1987 há duas regiões autônomas.\n\n**A independência de 1821 não pacifica nada.** Depois da dissolução da federação, a Nicarágua entra em guerra civil recorrente entre Léon e Granada, e é isso que abre a porta para o episódio mais estranho de sua história.",
+      "fontes": [
+        "walker-nicaragua",
+        "perez-brignoli-america-central"
+      ]
+    },
+    {
+      "id": "ni-walker-e-conservadores",
+      "inicio": "1855",
+      "fim": "1912",
+      "rotulo": "Da aventura de Walker à hegemonia conservadora",
+      "regime": "república com governo imposto por mercenários, depois trinta anos de governos conservadores",
+      "textoMdx": "Um advogado norte-americano de trinta e um anos toma o poder na Nicarágua com menos de sessenta homens, faz-se presidente, restabelece a escravidão e é derrotado por um exército centro-americano unido.\n\n**William Walker é contratado por um dos lados.** Os liberais de Léon o trazem em 1855 para vencer a guerra civil; ele vence, e em 1856 declara-se presidente, faz do inglês língua oficial e revoga a proibição da escravidão — com vistas a alinhar o país aos estados escravistas do sul norte-americano. É reconhecido brevemente por Washington.\n\n**A resposta une a América Central.** Costa Rica, Guatemala, El Salvador e Honduras enviam tropas na Guerra Nacional de 1856-1857. O episódio da Batalha de Rivas e o do menino tamborileiro costa-riquenho Juan Santamaría entram nas narrativas nacionais dos dois países. Walker rende-se, tenta voltar duas vezes, e é fuzilado em Honduras em 1860.\n\n**A vitória entrega o país aos conservadores por trinta anos.** Os Trinta Anos, de 1857 a 1893, são o período mais estável do século XIX nicaraguense: capital transferida para Manágua como solução de compromisso entre as duas cidades rivais, café introduzido no planalto, e paz interna.\n\n**O liberal José Santos Zelaya governa de 1893 a 1909.** Ele incorpora a Costa dos Mosquitos, seculariza o Estado, constrói ferrovias e escolas — e, ao negociar concessão de canal com potências que não os Estados Unidos, perde o apoio de Washington. Sua queda, em 1909, com apoio norte-americano a uma revolta conservadora, abre duas décadas de intervenção direta.",
+      "fontes": [
+        "walker-nicaragua",
+        "perez-brignoli-america-central"
+      ]
+    },
+    {
+      "id": "ni-ocupacao-e-sandino",
+      "inicio": "1912",
+      "fim": "1936",
+      "rotulo": "Ocupação norte-americana e a guerra de Sandino",
+      "regime": "república sob ocupação militar dos Estados Unidos, com interrupções",
+      "textoMdx": "Vinte e um anos de presença de fuzileiros navais norte-americanos, um tratado que cede direitos de canal e uma guerra de guerrilha que dá nome ao movimento político dominante do século XX nicaraguense.\n\n**O tratado Bryan-Chamorro, de 1914, vende o canal que não se construiu.** A Nicarágua concede aos Estados Unidos direito exclusivo e perpétuo de construir um canal, mais base naval no golfo de Fonseca — em parte para garantir que ninguém mais o construísse, já que o Panamá já estava aberto. Costa Rica e El Salvador contestaram o tratado em tribunal centro-americano e ganharam; a Nicarágua e os Estados Unidos ignoraram a decisão.\n\n**Os fuzileiros ficam de 1912 a 1925 e voltam em 1926.** As eleições ocorrem sob supervisão norte-americana, a alfândega é administrada por credores, e a política se reduz a acordos entre facções aceitáveis a Washington.\n\n**Augusto César Sandino recusa o acordo de 1927.** Quando liberais e conservadores assinam a paz sob mediação norte-americana, ele se retira às montanhas de Las Segovias e combate por seis anos com uma força camponesa pequena, sem vencer batalhas decisivas e sem ser derrotado. A campanha torna-o figura continental; os fuzileiros deixam o país em janeiro de 1933.\n\n**A Guarda Nacional é a instituição que sobra.** Criada e treinada pelos norte-americanos como força apolítica, fica sob o comando de Anastasio Somoza García. Em fevereiro de 1934, com Sandino em Manágua para negociar, Somoza manda assassiná-lo depois de um jantar na casa do presidente. Dois anos depois, ele mesmo toma o poder.",
+      "fontes": [
+        "walker-nicaragua",
+        "lafeber-revolucoes-inevitaveis"
+      ]
+    },
+    {
+      "id": "ni-somoza",
+      "inicio": "1936",
+      "fim": "1979",
+      "rotulo": "Dinastia Somoza",
+      "regime": "ditadura familiar hereditária apoiada na Guarda Nacional",
+      "textoMdx": "Quarenta e três anos de uma família no poder: o pai, e depois dois filhos, com presidentes interpostos quando conveniente, e a Guarda Nacional como instrumento e propriedade.\n\n**O Estado é administrado como patrimônio.** Os Somoza acumulam terras, gado, companhia aérea, cimento, pesca e imóveis, chegando a controlar uma parcela enorme da economia nacional. A Guarda Nacional é polícia, exército, correio, telégrafo, alfândega e fisco ao mesmo tempo.\n\n**O alinhamento externo é a garantia de sobrevivência.** A Nicarágua serve de base para a operação contra a Guatemala em 1954 e para a invasão da Baía dos Porcos em 1961. Somoza García é assassinado em 1956 pelo poeta Rigoberto López Pérez; sucede-o Luis, e depois Anastasio Somoza Debayle, formado em West Point.\n\n**O terremoto de 1972 destrói Manágua e a legitimidade do regime.** Cerca de dez mil mortos, o centro da capital arrasado, e a ajuda internacional desviada de forma tão ostensiva que setores empresariais até então aliados rompem com a família.\n\n**A FSLN cresce a partir de 1961 e vence em 1979.** A Frente Sandinista de Libertação Nacional, fundada por Carlos Fonseca, passa de guerrilha marginal a insurreição nacional depois do assassinato do jornalista Pedro Joaquín Chamorro em 1978, que provoca greve geral. A ofensiva final, em 1979, com insurreições urbanas simultâneas, derruba o regime; Somoza foge a Miami e depois ao Paraguai, onde é morto em 1980. O bombardeio de cidades próprias pela Guarda Nacional nos últimos meses deixa dezenas de milhares de mortos no total da guerra.",
+      "fontes": [
+        "walker-nicaragua"
+      ]
+    },
+    {
+      "id": "ni-revolucao-sandinista",
+      "inicio": "1979",
+      "fim": "1990",
+      "rotulo": "Revolução Sandinista e a guerra da Contra",
+      "regime": "governo revolucionário de junta e, a partir de 1985, presidência eleita, sob guerra",
+      "textoMdx": "Onze anos em que um governo revolucionário alfabetiza o país, faz reforma agrária e combate uma guerra financiada de fora — e depois entrega o poder por ter perdido uma eleição que ele mesmo convocou.\n\n**As primeiras medidas são de escala grande.** A propriedade da família Somoza é confiscada; a Cruzada Nacional de Alfabetização, em 1980, mobiliza dezenas de milhares de jovens e reduz o analfabetismo de mais da metade a cerca de um sétimo em cinco meses, mérito reconhecido com prêmio da Unesco. Saúde preventiva, vacinação e reforma agrária avançam.\n\n**A guerra da Contra consome tudo a partir de 1981.** Os Estados Unidos organizam, treinam e financiam forças contrarrevolucionárias baseadas em Honduras e na Costa Rica; minam portos nicaraguenses; impõem embargo comercial. A Nicarágua leva o caso à Corte Internacional de Justiça, que em 1986 condena os Estados Unidos e determina reparação — decisão que Washington não reconhece nem cumpre. O escândalo Irã-Contras revela financiamento por venda clandestina de armas ao Irã, contornando proibição do Congresso.\n\n**O conflito com a costa caribenha é erro próprio do governo.** O deslocamento forçado de comunidades miskitas do rio Coco, em 1981-1982, empurra parte delas para a resistência armada. A correção veio em 1987, com o estatuto de autonomia das duas regiões da costa — hoje o principal legado institucional do período.\n\n**A economia entra em colapso sob guerra e embargo.** Serviço militar obrigatório, escassez e hiperinflação corroem o apoio popular. Metade do orçamento vai à defesa.\n\n**A eleição de 1990 é o desfecho mais improvável.** Sob o plano de paz centro-americano de Esquipulas, articulado pelo costa-riquenho Óscar Arias, a Nicarágua realiza eleição observada internacionalmente; Violeta Chamorro, viúva do jornalista assassinado, vence com margem clara, e Daniel Ortega entrega o poder. Foi a primeira vez que um governo revolucionário armado deixou o poder por derrota eleitoral.",
+      "fontes": [
+        "walker-nicaragua",
+        "cij-nicaragua-eua"
+      ]
+    },
+    {
+      "id": "ni-republica",
+      "inicio": "1990",
+      "rotulo": "República da Nicarágua",
+      "regime": "república presidencialista; a partir de 2007, concentração progressiva de poder",
+      "textoMdx": "Dezesseis anos de alternância seguidos de quase duas décadas em que o líder da revolução volta ao poder e desmonta as instituições que a própria transição havia criado.\n\n**A transição dos anos 1990 é de ajuste e desmobilização.** Chamorro reduz o exército, desmobiliza a Contra e aplica estabilização; segue-se Arnoldo Alemán, condenado depois por corrupção, e Enrique Bolaños. A pobreza permanece alta e a emigração cresce.\n\n**Ortega volta em 2007 com menos de 40% dos votos.** A vitória se dá com uma reforma eleitoral negociada com Alemán que baixou o piso do primeiro turno — o pacto entre adversários que é o marco inicial do arranjo seguinte. Vem então a aliança com a hierarquia católica, incluindo a proibição total do aborto em 2006, e com o grande empresariado, e o financiamento venezuelano pelo petróleo.\n\n**A reeleição indefinida é liberada por decisão judicial em 2009** e depois constitucionalizada. Em 2016, Rosario Murillo, esposa do presidente, é eleita vice-presidenta.\n\n**Abril de 2018 é a ruptura.** Protestos que começam contra uma reforma previdenciária e contra a resposta oficial a um incêndio na reserva Indio Maíz são reprimidos com centenas de mortos, segundo organismos internacionais. Segue-se o fechamento de organizações civis por milhares, o cancelamento da personalidade jurídica de universidades, a expulsão de bispos e a retirada de nacionalidade de opositores exilados — inclusive de escritores como Gioconda Belli e Sergio Ramírez, este último vice-presidente na própria revolução.\n\n**A eleição de 2021 ocorre com os candidatos presos.** Sete pré-candidatos de oposição são detidos meses antes do pleito. Em 2025, uma reforma constitucional institui a copresidência, formalizando o exercício conjunto do casal — e o país que produziu a insurreição contra uma dinastia familiar passou a ser governado por outra.",
+      "fontes": [
+        "walker-nicaragua"
+      ]
+    }
+  ]
+}

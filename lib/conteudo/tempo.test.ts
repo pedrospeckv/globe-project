@@ -14,6 +14,7 @@ import type { Viagem } from "./viagem";
 
 const brasil: Pais = {
   iso: "BRA",
+  isoNumerico: "076",
   nome: "Brasil",
   periodos: [
     { id: "br-colonia", inicio: "1500", fim: "1822", rotulo: "Colônia", regime: "x", entidades: [], fontes: [] },
@@ -118,6 +119,7 @@ describe("datas antes de Cristo na linha do tempo", () => {
   it("periodoVigente funciona com período a.C.", () => {
     const china: Pais = {
       iso: "CHN",
+      isoNumerico: "156",
       nome: "China",
       periodos: [
         { id: "cn-qin", inicio: "-221", fim: "-202", rotulo: "Qin", regime: "x", entidades: [], fontes: [] },

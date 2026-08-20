@@ -1,0 +1,65 @@
+{
+  "iso": "VEN",
+  "isoNumerico": "862",
+  "nome": "Venezuela",
+  "periodos": [
+    {
+      "id": "ve-capitania",
+      "inicio": "1777",
+      "fim": "1830",
+      "rotulo": "Capitania Geral da Venezuela",
+      "regime": "capitania da Coroa de Castela; economia de cacau com trabalho escravizado",
+      "textoMdx": "Reunida como capitania única em 1777, a Venezuela colonial é uma sociedade de plantação de cacau na costa, com uma elite crioula — os mantuanos — que seria a mais ativa da América espanhola na independência.\n\n**O cacau, não o ouro, e portanto a escravidão.** Sem metal, o valor está no cacau exportado a Nova Espanha e à Europa, produzido por africanos escravizados nos vales da costa. A Companhia Guipuzcoana, monopólio basco criado em 1728, controla o comércio e é objeto da revolta de Juan Francisco de León em 1749.\n\n**Os llanos são outro país dentro do mesmo.** As planícies interiores são de gado solto e de uma população mestiça e liberta de vaqueiros — os llaneros — que não pertence à ordem da plantação. Na guerra de independência, quem os comandar ganha; foi por isso que Boves quase venceu pela Espanha, e que Páez venceu por Bolívar.\n\n**Os precursores agem antes de 1810.** Francisco de Miranda combate na Revolução Francesa, propõe às potências europeias a independência hispano-americana e tenta um desembarque em 1806. José Leonardo Chirino lidera uma insurreição de negros e mulatos livres em Coro, em 1795, pedindo o fim da escravidão e a lei dos franceses.\n\n**A guerra é longa, e a primeira república cai em um ano.** Caracas instala junta em abril de 1810 e declara independência em julho de 1811 — a primeira formal da América do Sul. O terremoto de 1812 e a ofensiva realista derrubam a república; Miranda é entregue aos espanhóis e morre em Cádis. Bolívar retoma a guerra com a Campanha Admirável, decreta guerra à morte, perde de novo, refugia-se no Haiti — onde recebe apoio com a condição de abolir a escravidão — e volta pelos llanos. Carabobo, em junho de 1821, decide a Venezuela.",
+      "fontes": [
+        "ewell-venezuela",
+        "halperin-donghi-america-latina"
+      ]
+    },
+    {
+      "id": "ve-caudilhos",
+      "inicio": "1830",
+      "fim": "1935",
+      "rotulo": "República dos caudilhos",
+      "regime": "república presidencialista dominada por chefes militares regionais; guerras civis recorrentes",
+      "textoMdx": "Sete décadas em que o país que produziu os libertadores do continente não consegue construir um Estado, e em que a guerra civil é a forma normal de sucessão.\n\n**A separação da Grã-Colômbia é obra de Páez.** Ele governa ou domina a política entre 1830 e 1848, apoiado nos llaneros e na elite conservadora de Caracas. A escravidão só é abolida em 1854.\n\n**A Guerra Federal é a mais destrutiva do século XIX venezuelano.** Entre 1859 e 1863, liberais federalistas e conservadores centralistas destroem o interior; as estimativas de mortos chegam a mais de cem mil, numa população de menos de dois milhões. O resultado é a federação no nome e a ruína no campo.\n\n**Guzmán Blanco moderniza a fachada, entre 1870 e 1888.** Ensino primário obrigatório e gratuito, registro civil, censo, estatística, obras em Caracas, e submissão da Igreja ao Estado. Sob ele o caudilhismo passa a ter forma administrativa, sem deixar de ser caudilhismo.\n\n**O café sustenta o Estado, e a disputa com potências define a fronteira.** A crise do Essequibo com a Grã-Bretanha, em 1895, leva os Estados Unidos a invocar a Doutrina Monroe; o laudo arbitral de 1899 atribui a área à Guiana Britânica, e a Venezuela o declara nulo em 1962 — disputa que segue viva. Em 1902, potências europeias bloqueiam portos venezuelanos por dívidas.\n\n**Os andinos tomam o poder em 1899 e ficam quatro décadas.** Cipriano Castro e depois Juan Vicente Gómez, no poder de 1908 a 1935, encerram o caudilhismo regional criando um exército nacional profissional — e uma ditadura pessoal. É sob Gómez que o petróleo aparece.",
+      "fontes": [
+        "ewell-venezuela"
+      ]
+    },
+    {
+      "id": "ve-petroleo-e-ditadura",
+      "inicio": "1935",
+      "fim": "1958",
+      "rotulo": "O Estado petroleiro e a ditadura",
+      "regime": "governos militares com abertura intermitente; economia reorganizada pelo petróleo",
+      "textoMdx": "A erupção do poço Barroso II, em 1922, muda tudo: em poucos anos a Venezuela é o maior exportador mundial de petróleo, e o Estado deixa de depender de imposto sobre a agricultura para depender de renda que vem do subsolo.\n\n**O petróleo cria um Estado distribuidor, não arrecadador.** Como a receita vem de concessões a empresas estrangeiras, e não de tributo sobre a sociedade, o Estado passa a aparecer como fonte de riqueza em si — e a política nacional se organiza em torno de repartir essa renda. Agricultura e artesanato encolhem; o país passa a importar comida.\n\n**A morte de Gómez, em 1935, abre a política.** Sob López Contreras e Medina Angarita há partidos, sindicatos e a Lei de Hidrocarbonetos de 1943, que eleva a participação estatal. Em 1945 um golpe civil-militar instala o trienio de Acción Democrática, com Rómulo Betancourt e depois o escritor Rómulo Gallegos eleito em 1947 no primeiro pleito de voto universal, direto e secreto — derrubado em 1948.\n\n**A doutrina do fifty-fifty é invenção venezuelana e viaja o mundo.** A ideia de que o Estado deve ficar com metade do lucro petroleiro, formulada por Juan Pablo Pérez Alfonzo, é adotada em outros países produtores e leva à fundação da OPEP em 1960, com a Venezuela entre os cinco criadores, ao lado de países árabes e do Irã.\n\n**A ditadura de Pérez Jiménez, de 1948 a 1958, constrói e reprime.** Autopistas, blocos habitacionais, siderúrgica, imigração europeia em massa e Caracas modernista, com polícia política, exílio e tortura. Ele cai em 23 de janeiro de 1958, por greve geral e revolta militar.",
+      "fontes": [
+        "coronil-estado-magico",
+        "ewell-venezuela"
+      ]
+    },
+    {
+      "id": "ve-punto-fijo",
+      "inicio": "1958",
+      "fim": "1999",
+      "rotulo": "Democracia de Punto Fijo",
+      "regime": "democracia presidencialista com alternância pactuada entre AD e COPEI",
+      "textoMdx": "Quarenta anos da democracia mais estável da América do Sul, sustentada por um pacto entre partidos e pela renda do petróleo — e desfeita quando a renda caiu.\n\n**O Pacto de Punto Fijo reparte o jogo entre dois partidos.** Acción Democrática e COPEI comprometem-se a respeitar o resultado eleitoral, dividir cargos e defender o regime; o Partido Comunista fica fora. O arranjo sobrevive a tentativas de golpe e a uma guerrilha de inspiração cubana nos anos 1960, derrotada e depois pacificada.\n\n**A nacionalização do petróleo, em 1976, cria a PDVSA.** Antes dela, o ferro em 1975. Com o choque de preços de 1973-1974, a receita quadruplica, e o governo de Carlos Andrés Pérez lança a Venezuela Saudita: obra pública, subsídio, empresas estatais e endividamento contra receita futura.\n\n**A queda do preço vira crise permanente.** O Viernes Negro de fevereiro de 1983 desvaloriza o bolívar e institui controle de câmbio; a dívida e a inflação corroem o salário na década seguinte. O Estado que se apresentava como distribuidor perde a capacidade de distribuir, e a legitimidade do pacto vai com ela.\n\n**O Caracazo de 1989 é a ruptura.** Um ajuste anunciado no início do segundo governo de Pérez, com aumento de transporte e combustível, provoca saques e protestos em Caracas e arredores; a repressão deixa centenas de mortos, com estimativas que chegam a mais de mil e valas comuns identificadas depois. Em 1992 há duas tentativas de golpe, a primeira liderada pelo tenente-coronel Hugo Chávez, que vai preso e ganha notoriedade nacional. Pérez é destituído por corrupção em 1993, e em 1998 Chávez é eleito presidente com a promessa de acabar com o sistema de Punto Fijo.",
+      "fontes": [
+        "coronil-estado-magico",
+        "ewell-venezuela"
+      ]
+    },
+    {
+      "id": "ve-republica-bolivariana",
+      "inicio": "1999",
+      "rotulo": "República Bolivariana da Venezuela",
+      "regime": "república presidencialista; legitimidade eleitoral contestada desde 2015",
+      "textoMdx": "Vinte e cinco anos em que a maior reserva de petróleo do mundo coexiste com uma das piores contrações econômicas registradas em tempo de paz e com o maior deslocamento de população das Américas.\n\n**A Constituição de 1999 refunda o Estado.** Aprovada em referendo, muda o nome do país, cria poderes eleitoral e cidadão, amplia mandato presidencial e institui referendo revogatório. Segue-se uma década de conflito agudo: o golpe de abril de 2002, que remove Chávez por 47 horas; o locaute da PDVSA em 2002-2003, com demissão de milhares de técnicos; e o revogatório de 2004, que Chávez vence.\n\n**A renda alta financia redução de pobreza real e dependência maior do petróleo.** Com o barril em alta nos anos 2000, missões sociais de saúde, alfabetização e alimentação reduzem a pobreza e a desigualdade de forma expressiva. Ao mesmo tempo a economia se desindustrializa, o câmbio é controlado com múltiplas taxas, empresas e terras são expropriadas, e a participação do petróleo nas exportações chega perto da totalidade.\n\n**O colapso vem depois de 2014.** A queda do preço do petróleo encontra um país sem poupança, com a PDVSA endividada e a produção em declínio por falta de investimento e perda de quadros. Sob Nicolás Maduro, o produto interno encolhe mais da metade em poucos anos, e a hiperinflação acumula taxas de milhões por cento, com reconversões monetárias sucessivas. Faltam alimento e medicamento; indicadores de saúde erradicados regridem.\n\n**A legitimidade eleitoral passa a ser o eixo do conflito.** A oposição ganha a Assembleia Nacional em 2015, e o Executivo cria em 2017 uma Assembleia Constituinte que a esvazia; a eleição presidencial de 2018 é rejeitada por parte da comunidade internacional; em 2019 Juan Guaidó proclama-se presidente interino, reconhecido por dezenas de países. Sanções norte-americanas ao petróleo, a partir de 2019, agravam a contração — quanto do colapso vem delas e quanto da política interna é objeto de disputa. A eleição de 2024 é reivindicada pelos dois lados, com o governo declarando vitória sem publicar as atas e a oposição divulgando cópias que indicam o contrário.\n\n**A emigração é o fato social do período.** Mais de sete milhões de venezuelanos deixaram o país segundo a contagem interagencial de ACNUR e OIM — o maior deslocamento das Américas e um dos maiores do mundo, comparável em números aos de países em guerra.",
+      "fontes": [
+        "r4v-migracao-venezuelana",
+        "coronil-estado-magico"
+      ]
+    }
+  ]
+}

@@ -2,7 +2,12 @@ import { feature } from "topojson-client";
 import { geoArea, geoDistance } from "d3-geo";
 import type { Feature, Geometry, Polygon, Position } from "geojson";
 import type { Topology, GeometryCollection } from "topojson-specification";
-import { alpha3De, type Alpha3 } from "./iso";
+import {
+  criarTraducaoIso,
+  normalizarNumerico,
+  type Alpha3,
+  type PaisIdentificado,
+} from "./iso";
 import { extrairDisputados, type TerritorioDisputado } from "./disputas";
 
 export type PaisFeature = Feature<Geometry, { name?: string }>;
@@ -149,15 +154,23 @@ export interface MundoPreparado {
  */
 export function prepararMundo(
   mundo: PaisFeature[],
-  doAtlas: readonly Alpha3[]
+  /**
+   * Os países do acervo, com alpha-3 E código numérico.
+   *
+   * Recebia só os alpha-3 e consultava uma tabela global para traduzir. Passou a
+   * receber os dois porque a tradução deixou de ser global: o número agora mora no
+   * arquivo de cada país, para que adicionar um não exija tocar em arquivo
+   * compartilhado. Ver `lib/geo/iso.ts`.
+   */
+  doAtlas: readonly PaisIdentificado[]
 ): MundoPreparado {
-  const alvo = new Set<string>(doAtlas);
+  const traducao = criarTraducaoIso(doAtlas);
   const paises: PaisPreparado[] = [];
   const resto: PaisFeature[] = [];
 
   for (const f of mundo) {
-    const a3 = f.id === undefined ? undefined : alpha3De(f.id as string | number);
-    if (!a3 || !alvo.has(a3)) {
+    const a3 = f.id === undefined ? undefined : traducao.alpha3De(f.id as string | number);
+    if (!a3) {
       resto.push(f);
       continue;
     }
@@ -228,4 +241,82 @@ export function separarPaises(
   }
 
   return { curados, fundo, disputados };
+}
+
+/** O que o país declarou, e o país do mapa que aquele código realmente aponta. */
+export interface CodigoConferido {
+  iso: Alpha3;
+  isoNumerico: string;
+  /** Nome como o `world-atlas` o traz, em inglês. */
+  noMapa: string;
+}
+
+/**
+ * Confere os códigos numéricos dos países contra a geometria empacotada.
+ *
+ * É o que faz `Pais.isoNumerico` ser afirmação CONFERÍVEL em vez de palavra do
+ * contribuidor. Sem isto, tirar a tabela central de `iso.ts` só teria mudado o
+ * lugar do erro: um número trocado faria o dossiê acender no polígono do vizinho,
+ * ou não acender em lugar nenhum — e das duas, a segunda é a que passa
+ * despercebida, porque um país que não acende parece um país que ainda não foi
+ * escrito.
+ *
+ * Devolve a lista de problemas e a lista do que conferiu, em vez de estourar no
+ * primeiro: quem roda o build quer saber tudo o que precisa arrumar.
+ *
+ * O nome do mapa volta junto de propósito. Nenhum programa sabe se o
+ * contribuidor QUIS o Peru ou o Chile — mas imprimir `PER 604 → Peru` deixa um
+ * humano ver num relance que o código plausível é o código certo.
+ */
+export function conferirCodigosDePais(
+  mundo: readonly PaisFeature[],
+  paises: readonly PaisIdentificado[]
+): { problemas: string[]; conferidos: CodigoConferido[] } {
+  const problemas: string[] = [];
+  const conferidos: CodigoConferido[] = [];
+
+  const nomePorNumerico = new Map<string, string>();
+  for (const f of mundo) {
+    if (f.id === undefined) continue;
+    nomePorNumerico.set(
+      normalizarNumerico(f.id as string | number),
+      f.properties?.name ?? "(sem nome na base)"
+    );
+  }
+
+  const vistosIso = new Map<string, string>();
+  const vistosNumerico = new Map<string, string>();
+
+  for (const p of paises) {
+    const num = normalizarNumerico(p.isoNumerico);
+
+    const isoRepetido = vistosIso.get(p.iso);
+    if (isoRepetido) {
+      problemas.push(
+        `${p.iso}: dois países declaram o mesmo alpha-3 (o outro tem numérico ${isoRepetido})`
+      );
+    }
+    vistosIso.set(p.iso, num);
+
+    const numRepetido = vistosNumerico.get(num);
+    if (numRepetido) {
+      problemas.push(
+        `${p.iso}: o código numérico ${num} já é de ${numRepetido} — um dos dois está errado`
+      );
+    }
+    vistosNumerico.set(num, p.iso);
+
+    const noMapa = nomePorNumerico.get(num);
+    if (!noMapa) {
+      problemas.push(
+        `${p.iso}: não existe país com o código numérico ${num} na geometria ` +
+          `empacotada, então o dossiê não teria onde acender — confira o ISO 3166-1 ` +
+          `numérico (ver docs/adicionar-um-pais.md)`
+      );
+      continue;
+    }
+    conferidos.push({ iso: p.iso, isoNumerico: num, noMapa });
+  }
+
+  return { problemas, conferidos };
 }
