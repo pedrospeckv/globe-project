@@ -12,7 +12,15 @@
       "fontes": [
         "slavevoyages",
         "schwarcz-starling-brasil"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Frans_Post_-_Engenho_de_cana_%28MNBA%29.jpg/1920px-Frans_Post_-_Engenho_de_cana_%28MNBA%29.jpg",
+        "alt": "Pintura de um engenho de cana no Brasil colonial: a casa-grande, a moenda movida por roda-d'água e pessoas escravizadas trabalhando no terreiro.",
+        "credito": "Attributed to Frans Post — Museu Nacional de Belas Artes",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Frans_Post_-_Engenho_de_cana_(MNBA).jpg",
+        "legenda": "O engenho de açúcar, pintado no século XVII por quem esteve aqui: Frans Post veio na comitiva de Nassau e pintou o Nordeste do natural. É a peça central da economia colonial, e mostra o trabalho escravizado que a sustentava."
+      }
     },
     {
       "id": "br-reino-unido",
@@ -28,7 +36,15 @@
         "schultz-versalhes-tropical",
         "barman-forjando-nacao",
         "dias-interiorizacao-metropole"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Thomas_Ender_-_View_of_Rio_de_Janeiro.jpg/1920px-Thomas_Ender_-_View_of_Rio_de_Janeiro.jpg",
+        "alt": "Aquarela panorâmica do Rio de Janeiro em 1817, com a baía, os morros e a cidade baixa vistos de cima.",
+        "credito": "Thomas Ender",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Thomas_Ender_-_View_of_Rio_de_Janeiro.jpg",
+        "legenda": "O Rio em 1817, por Thomas Ender, que chegou com a missão austríaca no ano em que a cidade era, formalmente, a capital de um reino europeu — a única vez que uma colônia americana sediou a corte da metrópole."
+      }
     },
     {
       "id": "br-imperio",
@@ -40,7 +56,15 @@
       "fontes": [
         "schwarcz-starling-brasil",
         "carvalho-bestializados"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Rua_Direita%2C_atual_rua_Primeiro_de_Mar%C3%A7o_%28007A5P3F05-008%29.jpg/1920px-Rua_Direita%2C_atual_rua_Primeiro_de_Mar%C3%A7o_%28007A5P3F05-008%29.jpg",
+        "alt": "Fotografia da rua Direita no centro do Rio de Janeiro por volta de 1875, com sobrados, comércio e o morro ao fundo.",
+        "credito": "Núcleo de digitalização / IMS",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Rua_Direita,_atual_rua_Primeiro_de_Mar%C3%A7o_(007A5P3F05-008).jpg",
+        "legenda": "A rua Direita, hoje Primeiro de Março, no coração comercial da capital do Império por volta de 1875. Acervo do Instituto Moreira Salles."
+      }
     },
     {
       "id": "br-republica-velha",
@@ -53,7 +77,15 @@
         "leal-coronelismo",
         "carvalho-bestializados",
         "fausto-historia-brasil"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Avenida_Central%2C_atual_Rio_Branco_%28007_IMG_3330%29.jpg/1920px-Avenida_Central%2C_atual_Rio_Branco_%28007_IMG_3330%29.jpg",
+        "alt": "Fotografia panorâmica da Avenida Central do Rio de Janeiro por volta de 1910, larga e ladeada por prédios ecléticos recém-construídos.",
+        "credito": "Núcleo de digitalização / IMS",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Avenida_Central,_atual_Rio_Branco_(007_IMG_3330).jpg",
+        "legenda": "A Avenida Central por volta de 1910, aberta a golpe de demolição na reforma de Pereira Passos. A vitrine da República Velha foi erguida sobre os cortiços que ela derrubou."
+      }
     },
     {
       "id": "br-era-vargas",
@@ -65,7 +97,15 @@
       "fontes": [
         "gomes-invencao-trabalhismo",
         "fausto-historia-brasil"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Manifesta%C3%A7%C3%A3o_a_favor_de_Get%C3%BAlio_Vargas_ao_final_do_Estado_Novo.tif/lossy-page1-1920px-Manifesta%C3%A7%C3%A3o_a_favor_de_Get%C3%BAlio_Vargas_ao_final_do_Estado_Novo.tif.jpg",
+        "alt": "Fotografia de multidão em manifestação a favor de Getúlio Vargas em agosto de 1945.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Manifesta%C3%A7%C3%A3o_a_favor_de_Get%C3%BAlio_Vargas_ao_final_do_Estado_Novo.tif",
+        "legenda": "Manifestação por Vargas em 21 de agosto de 1945, nas semanas finais do Estado Novo. Ele cairia dois meses depois, deposto pelos mesmos militares que o haviam mantido. Fundo Correio da Manhã."
+      }
     },
     {
       "id": "br-republica-de-46",
@@ -77,7 +117,15 @@
       "fontes": [
         "parker-brother-sam",
         "fausto-historia-brasil"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Constru%C3%A7%C3%A3o_do_Congresso_Nacional_1959-2.jpg/1920px-Constru%C3%A7%C3%A3o_do_Congresso_Nacional_1959-2.jpg",
+        "alt": "Fotografia das obras do Congresso Nacional em Brasília em 1959, com as estruturas de concreto ainda em esqueleto no descampado.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Constru%C3%A7%C3%A3o_do_Congresso_Nacional_1959-2.jpg",
+        "legenda": "O Congresso Nacional em obras, 1959. Brasília é a aposta que define o período — e o Congresso ficou pronto a tempo de ser fechado pelo regime seguinte."
+      }
     },
     {
       "id": "br-regime-militar",
@@ -90,7 +138,15 @@
         "cnv-relatorio",
         "stf-adpf-153",
         "corteidh-gomes-lund"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Posse_de_Castelo_Branco_como_Presidente_da_Rep%C3%BAblica.tif/lossy-page1-1280px-Posse_de_Castelo_Branco_como_Presidente_da_Rep%C3%BAblica.tif.jpg",
+        "alt": "Fotografia da posse de Humberto de Alencar Castelo Branco como presidente da República em 15 de abril de 1964.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Posse_de_Castelo_Branco_como_Presidente_da_Rep%C3%BAblica.tif",
+        "legenda": "A posse de Castelo Branco em 15 de abril de 1964, duas semanas depois do golpe. O rito é o da Constituição de 1946, que o Ato Institucional já havia começado a esvaziar. Fundo Agência Nacional."
+      }
     },
     {
       "id": "br-nova-republica",
@@ -102,7 +158,15 @@
         "constituicao-1988",
         "cpi-pandemia-relatorio",
         "ibge-sidra-1737"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Promulga%C3%A7%C3%A3o-Constitui%C3%A7%C3%A3o-1988.jpg/1920px-Promulga%C3%A7%C3%A3o-Constitui%C3%A7%C3%A3o-1988.jpg",
+        "alt": "Fotografia do plenário da Câmara dos Deputados em 5 de outubro de 1988, com parlamentares de pé comemorando a promulgação da Constituição.",
+        "credito": "Agência Brasil",
+        "licenca": "CC BY 3.0 br",
+        "origem": "https://commons.wikimedia.org/wiki/File:Promulga%C3%A7%C3%A3o-Constitui%C3%A7%C3%A3o-1988.jpg",
+        "legenda": "A promulgação da Constituição de 1988. É a carta que organiza o período até hoje, e o marco a partir do qual a Nova República se conta."
+      }
     }
   ]
 }

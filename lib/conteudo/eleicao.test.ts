@@ -6,6 +6,7 @@ import {
   SituacaoDaCandidatura,
   eleicoesDoPais,
   emOrdemAlfabetica,
+  emRetratoUniforme,
 } from "./eleicao";
 import { carregarAcervo } from "./carregar";
 import { verificarIntegridade } from "./integridade";
@@ -115,6 +116,29 @@ describe("ordem alfabética", () => {
     expect(emOrdemAlfabetica([e.chapas[1], e.chapas[0]])).toBe(false);
   });
 
+  it("retrato é tudo ou nada — meia lista com foto é o estado ruim", () => {
+    const e = base();
+    const foto = {
+      url: "https://upload.wikimedia.org/a.jpg",
+      alt: "retrato",
+      credito: "TSE",
+      licenca: "CC BY 4.0",
+    };
+    const nenhum = e.chapas;
+    const todos = e.chapas.map((c) => ({ ...c, foto }));
+    const meio = [{ ...e.chapas[0], foto }, e.chapas[1]];
+
+    expect(emRetratoUniforme(nenhum)).toBe(true);
+    expect(emRetratoUniforme(todos)).toBe(true);
+    expect(emRetratoUniforme(meio)).toBe(false);
+
+    // E o schema recusa, para a lista mista não chegar à tela.
+    expect(Eleicao.safeParse({ ...e, chapas: todos }).success).toBe(true);
+    const r = Eleicao.safeParse({ ...e, chapas: meio });
+    expect(r.success).toBe(false);
+    expect(JSON.stringify(r.error?.issues)).toContain("candidatura menor");
+  });
+
   it("usa pt-BR, para acento não jogar nome para o fim", () => {
     // Sem `localeCompare` em pt-BR, "Ângela" cairia depois de "Zema".
     const chapas = [
@@ -219,6 +243,44 @@ describe("a eleição de 2026 no acervo", () => {
       expect(c.partido.length).toBeGreaterThan(0);
       expect(SituacaoDaCandidatura.options).toContain(c.situacao);
     }
+  });
+
+  it("os treze têm retrato, e todos do mesmo lote oficial", () => {
+    expect(emRetratoUniforme(e.chapas)).toBe(true);
+    for (const c of e.chapas) {
+      expect(c.foto).toBeDefined();
+      expect(c.foto!.credito).toContain("Tribunal Superior Eleitoral");
+      expect(c.foto!.licenca).toBe("CC BY 4.0");
+      expect(c.foto!.alt.length).toBeGreaterThan(0);
+      // Servida do Commons e sem o rastreio que a API gruda na miniatura.
+      expect(c.foto!.url.startsWith("https://upload.wikimedia.org/")).toBe(true);
+      expect(c.foto!.url).not.toContain("?");
+      expect(c.foto!.origem?.startsWith("https://commons.wikimedia.org/")).toBe(
+        true
+      );
+    }
+  });
+
+  it("cada retrato é o do seu candidato, e não o do vizinho", () => {
+    /*
+     * Treze arquivos de nome quase igual, colhidos por script: trocar dois é
+     * o erro mais fácil de cometer e o mais difícil de ver, porque a página
+     * continua bonita e simétrica com os rostos errados. O `alt` carrega o
+     * nome, então dá para conferir o par.
+     */
+    for (const c of e.chapas) {
+      expect(c.foto!.alt).toContain(c.candidato);
+    }
+    const urls = e.chapas.map((c) => c.foto!.url);
+    expect(new Set(urls).size).toBe(urls.length);
+  });
+
+  it("o retrato fora do lote se declara — e é o único", () => {
+    const comLegenda = e.chapas.filter((c) => c.foto?.legenda);
+    expect(comLegenda).toHaveLength(1);
+    expect(comLegenda[0].id).toBe("lula-2026");
+    expect(comLegenda[0].foto!.legenda).toContain("2022");
+    expect(comLegenda[0].foto!.alt).toContain("2022");
   });
 
   it("as fontes existem e o país é o Brasil", () => {

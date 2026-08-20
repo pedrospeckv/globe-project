@@ -112,18 +112,71 @@ export default async function EleicaoPage({
             uma lista de candidatos supõe um critério na primeira linha; dizer
             depois seria tarde.
           */}
-          <p className="mb-8 text-sm leading-relaxed text-zinc-500">
+          <p className="mb-4 text-sm leading-relaxed text-zinc-500">
             A lista está em ordem alfabética pelo primeiro nome do candidato — não
             por pesquisa, tamanho de partido ou tempo de propaganda. Todos os
             cartões têm o mesmo tamanho pelo mesmo motivo.
           </p>
 
+          {/*
+            A procedência dos retratos vem junto da explicação da ordem, e pelo
+            mesmo motivo: as duas são decisões que o leitor não tem como
+            verificar sozinho, e que mudam o que a página parece dizer.
+
+            Retrato é o mais fácil de editorializar sem escrever nada — foto de
+            palanque para um, foto de depoimento para outro, e a lista inteira
+            muda de tom. Todos vêm do mesmo lote oficial de registro.
+          */}
+          {eleicao.chapas.every((c) => c.foto) && (
+            <p className="mb-8 text-sm leading-relaxed text-zinc-500">
+              Os retratos são os que cada candidato entregou ao tribunal no
+              registro: mesma origem, mesmo enquadramento, mesmo tamanho para
+              todos. Não houve escolha de foto a fazer, que é a intenção.
+            </p>
+          )}
+
           <ul className="space-y-3">
             {eleicao.chapas.map((c) => (
               <li
                 key={c.id}
-                className="rounded-lg border border-zinc-800 bg-zinc-900/60 p-5 transition-colors hover:border-amber-500/30"
+                className="flex gap-5 rounded-lg border border-zinc-800 bg-zinc-900/60 p-5 transition-colors hover:border-amber-500/30"
               >
+                {c.foto && (
+                  /*
+                    Coluna de largura fixa e proporção fixa, idêntica nos treze
+                    cartões. O arquivo do TSE é 161x225 em todos, então o
+                    `object-cover` aqui não corta nada — a proporção do quadro é
+                    a do arquivo. Está escrita assim mesmo assim, porque um
+                    retrato futuro fora do padrão tem de ser aparado para o
+                    quadro comum em vez de esticar o cartão dele.
+                  */
+                  <figure className="w-20 shrink-0 space-y-1.5 sm:w-24">
+                    <img
+                      src={c.foto.url}
+                      alt={c.foto.alt}
+                      loading="lazy"
+                      className="aspect-[161/225] w-full rounded border border-zinc-800 bg-zinc-950 object-cover object-top"
+                    />
+                    <figcaption className="font-mono text-[9px] leading-tight tracking-wide text-zinc-600">
+                      {c.foto.origem ? (
+                        <a
+                          href={c.foto.origem}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="hover:text-amber-500/70"
+                        >
+                          {c.foto.credito}
+                        </a>
+                      ) : (
+                        c.foto.credito
+                      )}
+                      {" · "}
+                      {c.foto.licenca}
+                    </figcaption>
+                  </figure>
+                )}
+
+                <div className="min-w-0 flex-1">
                 <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
                   <h3 className="font-serif text-xl text-zinc-50">
                     {c.figura ? (
@@ -162,6 +215,20 @@ export default async function EleicaoPage({
                     <Prosa texto={c.nota} alvos={alvos} />
                   </div>
                 )}
+
+                {c.foto?.legenda && (
+                  /*
+                    Só aparece quando o retrato foge do lote — hoje, no único
+                    caso em que a foto é de outro ano. É assimetria de acervo,
+                    não de candidato, e dizê-la é o que a mantém inofensiva:
+                    calada, viraria uma foto visivelmente mais velha que as
+                    outras doze sem explicação nenhuma.
+                  */
+                  <p className="mt-3 font-mono text-[10px] leading-relaxed tracking-wide text-zinc-600">
+                    {c.foto.legenda}
+                  </p>
+                )}
+                </div>
               </li>
             ))}
           </ul>

@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { DataHistorica, Id, comparaData } from "./primitivos";
+import { Imagem } from "./imagem";
 
 /**
  * Lista fechada, e pelo mesmo motivo de `StatusAlegacao`: a distinção que o
@@ -39,6 +40,22 @@ export const Chapa = z.object({
   nota: z.string().optional(),
   /** Liga à `Figura` do acervo, quando existe uma. Quase nunca existe. */
   figura: Id.optional(),
+  /**
+   * O retrato oficial de registro — a foto que o próprio candidato entregou
+   * ao tribunal.
+   *
+   * A escolha da fonte é a decisão editorial, não a de pôr foto. Retrato é a
+   * coisa mais fácil de editorializar numa página de eleição: basta dar ao
+   * candidato A a foto de palanque e ao candidato B a foto de depoimento, e
+   * a página inteira muda de tom sem que uma palavra mude. Vindos todos do
+   * mesmo lote oficial, no mesmo enquadramento e no mesmo tamanho, não sobra
+   * escolha a fazer — e é por isso que só o retrato de registro serve aqui.
+   *
+   * Opcional porque nem toda chapa tem um publicado, e uma chapa sem retrato
+   * não pode ficar de fora da lista por causa disso. `emRetratoUniforme`
+   * confere que o conjunto não virou meia dúzia com foto e meia dúzia sem.
+   */
+  foto: Imagem.optional(),
 });
 
 export const Eleicao = z
@@ -89,7 +106,13 @@ export const Eleicao = z
       message: "prazo de registro não pode ser depois da votação",
       path: ["prazoDeRegistro"],
     }
-  );
+  )
+  .refine((e) => e.chapas.every((c) => c.foto) || e.chapas.every((c) => !c.foto), {
+    message:
+      "ou todas as chapas têm retrato, ou nenhuma tem — lista mista faz o " +
+      "cartão sem foto parecer candidatura menor",
+    path: ["chapas"],
+  });
 
 export type SituacaoDaCandidatura = z.infer<typeof SituacaoDaCandidatura>;
 export type Chapa = z.infer<typeof Chapa>;
@@ -121,5 +144,24 @@ export function emOrdemAlfabetica(chapas: readonly Chapa[]): boolean {
   return chapas.every(
     (c, i) =>
       i === 0 || chapas[i - 1].candidato.localeCompare(c.candidato, "pt-BR") <= 0
+  );
+}
+
+/**
+ * Ou todas as chapas têm retrato, ou nenhuma tem.
+ *
+ * O meio-termo é o estado ruim, e ele não parece ruim: seis cartões com rosto
+ * e sete com um quadro cinza leem como duas categorias de candidato, e o
+ * leitor atribui a diferença ao candidato — pequeno, marginal, não-sério —
+ * quando ela é só do acervo de imagens. A página que gasta um parágrafo
+ * explicando que a ordem não é ranking não pode desmentir isso no primeiro
+ * olhar, que é o que a tela dá antes de qualquer texto ser lido.
+ *
+ * Recusar a lista mista força a decisão para o único lugar onde ela é
+ * honesta: achar o retrato que falta, ou tirar os treze.
+ */
+export function emRetratoUniforme(chapas: readonly Chapa[]): boolean {
+  return (
+    chapas.every((c) => c.foto) || chapas.every((c) => !c.foto)
   );
 }
