@@ -7,6 +7,7 @@ import {
   coberturaDeNotas,
 } from "../lib/conteudo/integridade";
 import { FATIAS } from "../lib/geo/fatias";
+import { carregarMundo, conferirCodigosDePais } from "../lib/geo/mundo";
 import { conferirFatiasLocais, lerManifesto } from "./fatias-locais";
 
 /**
@@ -44,6 +45,26 @@ async function main() {
     process.exit(1);
   }
 
+  /*
+   * O código numérico de cada país, contra a geometria empacotada.
+   *
+   * Entra aqui porque é o que sustenta a decisão de tirar a tabela central de
+   * `lib/geo/iso.ts`: o número passou a morar no arquivo do próprio país, para
+   * que um PR de país novo não toque em arquivo compartilhado — e a troca só é
+   * segura se alguém conferir o número. Sem isto o erro mudaria de lugar em vez
+   * de desaparecer.
+   */
+  const mundo = await carregarMundo();
+  const codigos = conferirCodigosDePais(mundo, acervo.paises);
+  if (codigos.problemas.length > 0) {
+    console.error(`
+✗ ${codigos.problemas.length} problema(s) de código de país
+`);
+    for (const erro of codigos.problemas) console.error(`  • ${erro}`);
+    console.error("");
+    process.exit(1);
+  }
+
   const erros = verificarIntegridade(acervo);
   if (erros.length > 0) {
     console.error(`\n✗ ${erros.length} problema(s) de integridade\n`);
@@ -61,6 +82,18 @@ async function main() {
       `${acervo.viagens.length} viagens, ` +
       `${acervo.indicadores.length} indicadores, ${acervo.ilhas.length} ilhas, ${acervo.fontes.length} fontes`
   );
+  /*
+   * A lista sai por extenso, e não só a contagem: nenhum programa sabe se o
+   * contribuidor quis o Peru ou o Chile, mas `PER 604 → Peru` deixa um humano
+   * ver num relance que o código plausível é o certo.
+   */
+  console.log(
+    `✓ os ${codigos.conferidos.length} códigos de país existem no mapa: ` +
+      codigos.conferidos
+        .map((c) => `${c.iso} ${c.isoNumerico} → ${c.noMapa}`)
+        .join(", ")
+  );
+
   const locais = lerManifesto();
   console.log(
     `✓ ${FATIAS.length} fatias de fronteira, ${locais.length} de geometria própria` +

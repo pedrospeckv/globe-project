@@ -2,16 +2,25 @@ import { describe, it, expect } from "vitest";
 import { geoArea, geoBounds } from "d3-geo";
 import {
   carregarMundo,
+  conferirCodigosDePais,
   prepararMundo,
   separarPaises,
   separarUltramar,
 } from "./mundo";
-import { PAISES_DO_ATLAS, alpha3De } from "./iso";
+import { criarTraducaoIso } from "./iso";
+import { ISOS_DO_ACERVO, PAISES_DO_ACERVO } from "./__fixtures__/acervo";
+
+/*
+ * A tradução é montada do acervo, e não vem de tabela global: o código numérico
+ * mora no arquivo de cada país desde 2026-08-19, para que PR de país novo não
+ * toque em arquivo compartilhado. Ver `lib/geo/iso.ts`.
+ */
+const { alpha3De } = criarTraducaoIso(PAISES_DO_ACERVO);
 
 /** Decomposição estática, feita uma vez — como na página. */
 async function prepararTudo() {
   const mundo = await carregarMundo();
-  return { mundo, preparado: prepararMundo(mundo, PAISES_DO_ATLAS) };
+  return { mundo, preparado: prepararMundo(mundo, PAISES_DO_ACERVO) };
 }
 
 describe("carregarMundo", () => {
@@ -25,14 +34,14 @@ describe("carregarMundo", () => {
     // Guarda contra o problema clássico de Natural Earth, em que um país vem
     // com código inválido e simplesmente some do mapa sem erro nenhum.
     const { preparado } = await prepararTudo();
-    const { curados } = separarPaises(preparado, PAISES_DO_ATLAS);
+    const { curados } = separarPaises(preparado, ISOS_DO_ACERVO);
     const achados = curados.map((f) => f.alpha3).sort();
-    expect(achados).toEqual([...PAISES_DO_ATLAS].sort());
+    expect(achados).toEqual([...ISOS_DO_ACERVO].sort());
   });
 
   it("separa curados de fundo sem perder país nem duplicar", async () => {
     const { mundo, preparado } = await prepararTudo();
-    const { curados, fundo } = separarPaises(preparado, PAISES_DO_ATLAS);
+    const { curados, fundo } = separarPaises(preparado, ISOS_DO_ACERVO);
 
     // Cada país do atlas aparece uma vez só entre os curados.
     expect(new Set(curados.map((c) => c.alpha3)).size).toBe(curados.length);
@@ -100,12 +109,12 @@ describe("carregarMundo", () => {
     it("o ultramar desce para o fundo em vez de sumir do mapa", async () => {
       const { mundo, preparado } = await prepararTudo();
       const semAtlas = separarPaises(preparado, []).fundo.length;
-      const comAtlas = separarPaises(preparado, PAISES_DO_ATLAS);
+      const comAtlas = separarPaises(preparado, ISOS_DO_ACERVO);
       const areaTotal = (fs: { geometry: unknown }[]) =>
         fs.reduce((s, f) => s + geoArea(f as Parameters<typeof geoArea>[0]), 0);
 
       expect(comAtlas.fundo.length).toBeGreaterThan(
-        semAtlas - PAISES_DO_ATLAS.length
+        semAtlas - ISOS_DO_ACERVO.length
       );
       // A soma das áreas continua sendo o mundo inteiro.
       expect(
@@ -116,7 +125,7 @@ describe("carregarMundo", () => {
 
   it("cada país curado carrega geometria utilizável", async () => {
     const { preparado } = await prepararTudo();
-    const { curados } = separarPaises(preparado, PAISES_DO_ATLAS);
+    const { curados } = separarPaises(preparado, ISOS_DO_ACERVO);
     for (const c of curados) {
       expect(["Polygon", "MultiPolygon"]).toContain(c.feature.geometry.type);
     }
@@ -140,11 +149,72 @@ describe("carregarMundo", () => {
 
       const t0 = performance.now();
       for (let i = 0; i < 200; i++) {
-        separarPaises(preparado, PAISES_DO_ATLAS, ["crimeia"]);
+        separarPaises(preparado, ISOS_DO_ACERVO, ["crimeia"]);
       }
       const porChamada = (performance.now() - t0) / 200;
 
       expect(porChamada).toBeLessThan(1);
     });
+  });
+});
+
+describe("conferirCodigosDePais", () => {
+  /*
+   * Esta é a rede que sustenta a decisão de tirar a tabela central de `iso.ts`.
+   * Sem ela, tirar a tabela só teria MUDADO O LUGAR do erro: um número trocado
+   * faria o dossiê acender no polígono do vizinho, ou não acender em lugar
+   * nenhum — e a segunda passa despercebida, porque país que não acende parece
+   * país que ainda não foi escrito.
+   */
+  it("aprova o acervo real e diz que país cada código achou", async () => {
+    const mundo = await carregarMundo();
+    const { problemas, conferidos } = conferirCodigosDePais(mundo, PAISES_DO_ACERVO);
+
+    expect(problemas).toEqual([]);
+    expect(conferidos).toHaveLength(PAISES_DO_ACERVO.length);
+    /* O nome vem da base, em inglês, e é o que deixa um humano ver o acerto. */
+    const brasil = conferidos.find((c) => c.iso === "BRA");
+    expect(brasil).toMatchObject({ isoNumerico: "076", noMapa: "Brazil" });
+  });
+
+  it("acusa código que não existe na geometria", async () => {
+    const mundo = await carregarMundo();
+    const { problemas } = conferirCodigosDePais(mundo, [
+      { iso: "XXX", isoNumerico: "999" },
+    ]);
+    expect(problemas).toHaveLength(1);
+    expect(problemas[0]).toMatch(/XXX.*não existe país com o código numérico 999/);
+  });
+
+  it("acusa dois países com o mesmo código numérico", async () => {
+    const mundo = await carregarMundo();
+    const { problemas } = conferirCodigosDePais(mundo, [
+      { iso: "BRA", isoNumerico: "076" },
+      { iso: "ARG", isoNumerico: "076" },
+    ]);
+    expect(problemas.some((p) => /076 já é de BRA/.test(p))).toBe(true);
+  });
+
+  /*
+   * Devolve TODOS os problemas, e não estoura no primeiro: quem roda o build
+   * quer saber tudo o que precisa arrumar numa passada.
+   */
+  it("junta os problemas em vez de parar no primeiro", async () => {
+    const mundo = await carregarMundo();
+    const { problemas } = conferirCodigosDePais(mundo, [
+      { iso: "XXX", isoNumerico: "998" },
+      { iso: "YYY", isoNumerico: "999" },
+    ]);
+    expect(problemas).toHaveLength(2);
+  });
+
+  /* Normaliza o zero à esquerda dos dois lados — o topojson não é consistente. */
+  it("casa mesmo que o código venha sem zero à esquerda", async () => {
+    const mundo = await carregarMundo();
+    const { problemas, conferidos } = conferirCodigosDePais(mundo, [
+      { iso: "BRA", isoNumerico: "76" },
+    ]);
+    expect(problemas).toEqual([]);
+    expect(conferidos[0]).toMatchObject({ isoNumerico: "076", noMapa: "Brazil" });
   });
 });

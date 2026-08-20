@@ -25,13 +25,17 @@ A casca:
 ```json
 {
   "iso": "RUS",
+  "isoNumerico": "643",
   "nome": "Rússia",
   "periodos": []
 }
 ```
 
-- **`iso`** — o código ISO 3166-1 **alpha-3**, três letras maiúsculas. É o que liga
-  o dossiê ao polígono no mapa.
+- **`iso`** — o código ISO 3166-1 **alpha-3**, três letras maiúsculas. É como o
+  conteúdo do atlas identifica o país.
+- **`isoNumerico`** — o ISO 3166-1 **numérico**, três dígitos com o zero à
+  esquerda (`"076"`, não `"76"`). É como o **mapa** identifica o país, e é o que
+  liga o dossiê ao polígono. **Não adivinhe** — a seção 5 mostra como descobrir.
 - **`nome`** — em português, como você quer que apareça na tela.
 
 ## 3. Dividir em períodos
@@ -146,31 +150,26 @@ livro. Vale o esforço de escrever bem.
 com ajuda de IA mais falha — modelos produzem links verossímeis que nunca
 existiram. Sem URL o conteúdo é aceito; com URL inventada, não.
 
-## 5. A linha em `lib/geo/iso.ts`
+## 5. Descobrir o `isoNumerico`
 
-Para o dossiê acender no mapa, o código numérico precisa estar na tabela:
-
-```ts
-export const ISO_NUMERICO = {
-  BRA: "076",
-  // ...
-  RUS: "643",
-} as const;
-```
-
-O número é o **ISO 3166-1 numérico**, e você não deve adivinhá-lo: ele está no
-próprio mapa. Para descobrir o do seu país:
+O número não se adivinha: ele está no próprio mapa que o projeto empacota. Para
+descobrir o do seu país:
 
 ```bash
 pnpm tsx -e "const t=require('world-atlas/countries-110m.json');console.log(t.objects.countries.geometries.filter(g=>/Peru/i.test(g.properties.name)).map(g=>g.properties.name+' = '+g.id).join('\n'))"
 ```
 
-Trocando `Peru` pelo nome **em inglês**, que é como a base o traz. Se não aparecer
-nada, o mapa não desenha aquele país nesta resolução — vale abrir uma issue em vez
-de forçar.
+Trocando `Peru` pelo nome **em inglês**, que é como a base o traz. Sai
+`Peru = 604`, e é esse número que vai em `isoNumerico`. Se não aparecer nada, o
+mapa não desenha aquele país nesta resolução — vale abrir uma issue em vez de
+forçar.
 
-Este é o passo que vai desaparecer; ver o gargalo no
-[CONTRIBUTING](../CONTRIBUTING.md#gargalo-conhecido-libgeoisots).
+**Não existe nenhum outro arquivo para editar.** O número mora no arquivo do
+próprio país justamente para que o seu PR não toque em nada compartilhado, e
+portanto não conflite com o PR de quem estiver escrevendo outro país. O `pnpm
+validar` confere o número contra a geometria e imprime qual país ele achou —
+`PER 604 → Peru` —, então um número trocado reprova o build em vez de fazer o seu
+dossiê acender no polígono do vizinho.
 
 ## 6. Conferir
 
@@ -194,7 +193,8 @@ pnpm dev
 
 Em <http://localhost:3000/atlas>, arraste a barra do tempo até uma data dentro de
 um dos seus períodos: o país deve **acender** com contorno azul e virar clicável.
-Se não acender, quase sempre é o passo 5.
+Se não acender, confira se a data está dentro de algum período — o `isoNumerico`
+errado já teria sido barrado pelo `pnpm validar`.
 
 ## 7. Regerar a cobertura e abrir o PR
 

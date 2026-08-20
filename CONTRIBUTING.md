@@ -50,8 +50,7 @@ O guia passo a passo, com um exemplo real, está em
    já existem.
 4. Cada período com prosa precisa de pelo menos uma fonte em
    `conteudo/fontes/fontes.json`.
-5. Acrescente o país a `lib/geo/iso.ts` (uma linha — ver o gargalo abaixo).
-6. `pnpm validar && pnpm test`.
+5. `pnpm validar && pnpm test`.
 
 ### Uma fatia de fronteira
 
@@ -61,17 +60,24 @@ em prosa, e o build recusa em geometria. Ver `scripts/fatias-locais.ts`, que
 explica o contrato, e `scripts/gerar-fatias-corrigidas.ts`, que mostra o caso de
 derivar uma fatia corrigida de outra.
 
-## Gargalo conhecido: `lib/geo/iso.ts`
+## Um país novo é um arquivo novo, e nada mais
 
-Hoje adicionar um país exige uma linha em `lib/geo/iso.ts`, uma tabela escrita à
-mão que traduz o código numérico do mapa (`"076"`) para o alpha-3 do conteúdo
-(`"BRA"`). É o único arquivo compartilhado que um PR de país precisa tocar — e com
-165 países pela frente, é onde os PRs vão colidir uns com os outros.
+Vale dizer explicitamente, porque em muitos projetos não é assim: **o seu PR de
+país não precisa tocar em nenhum arquivo compartilhado.** Você cria
+`conteudo/paises/<pais>.json`, acrescenta as fontes que citou, e pronto. Nenhuma
+tabela central, nenhum registro, nenhum `index` para atualizar — logo, nenhum
+conflito com o PR de outra pessoa que está escrevendo outro país.
 
-**Está previsto mudar**: o código numérico passa a morar no próprio arquivo do
-país, conferido no build contra a geometria que tem de existir. Aí um país novo
-será *um arquivo novo* e nada mais. Se você pegar um PR e der conflito nessa
-tabela, é isso — resolva mantendo as duas linhas.
+Até 2026-08-19 não era assim: havia uma tabela à mão em `lib/geo/iso.ts` que
+traduzia o código numérico do mapa (`"076"`) para o alpha-3 do conteúdo (`"BRA"`),
+e todo país novo precisava de uma linha nela. Com 165 países por escrever, era o
+lugar onde os PRs colidiriam uns com os outros. O código numérico passou a morar
+no arquivo do próprio país, no campo `isoNumerico`.
+
+O que substitui a tabela é conferência: `pnpm validar` verifica que existe um país
+com aquele código na geometria que o projeto empacota, e imprime qual —
+`PER 604 → Peru`. Código inexistente ou repetido reprova o build. É a mesma regra
+da alegação sem fonte, aplicada a código de país.
 
 ## O fluxo
 

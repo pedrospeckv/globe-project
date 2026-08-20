@@ -15,7 +15,7 @@ import {
   idsDeDisputasVigentes,
   type DisputaSemRecorte,
 } from "@/lib/geo/disputas";
-import { ISO_NUMERICO, PAISES_DO_ATLAS, type Alpha3 } from "@/lib/geo/iso";
+import type { Alpha3 } from "@/lib/geo/iso";
 import {
   atribuicaoDaFatia,
   carregarFatia,
@@ -360,10 +360,16 @@ export function Atlas({
    * mundo inteiro a cada ano que a barra atravessa — o array novo invalidava
    * tudo abaixo mesmo com conteúdo idêntico.
    */
+  /*
+   * Havia aqui um `.filter(iso => iso in ISO_NUMERICO)`, que era tautologia:
+   * `paises` É o acervo, então todo `p.iso` estava na tabela. Servia só para
+   * estreitar o tipo — e tinha um efeito ruim, o de fazer um país recém-escrito
+   * DESAPARECER calado do mapa se alguém esquecesse a linha na tabela. Hoje o
+   * código numérico vem do próprio arquivo do país e o build confere.
+   */
   const acesosChave = paises
     .filter((p) => periodoVigente(p, tempo) !== null)
     .map((p) => p.iso)
-    .filter((iso): iso is Alpha3 => iso in ISO_NUMERICO)
     .join(",");
 
   const acesos = useMemo(
@@ -400,10 +406,17 @@ export function Atlas({
    * instante e custava 200ms a cada mexida na barra — a interface inteira
    * emperrava. O recorte de ultramar não depende do tempo; não tem por que
    * refazê-lo quando o tempo muda.
+   *
+   * `paises` entrou nas dependências junto com a saída da tabela central de
+   * `iso.ts`: antes o segundo argumento era uma constante de módulo, e `[mundo]`
+   * era lista completa; hoje é uma prop, e omiti-la deixaria o mundo decomposto
+   * defasado do acervo. É seguro pelo custo porque `paises` vem do servidor como
+   * prop deste componente — identidade estável enquanto ele vive —, então isto
+   * continua rodando uma vez e não a cada render.
    */
   const preparado = useMemo(
-    () => prepararMundo(mundo, PAISES_DO_ATLAS),
-    [mundo]
+    () => prepararMundo(mundo, paises),
+    [mundo, paises]
   );
 
   const { curados, fundo, disputados } = useMemo(
@@ -419,8 +432,7 @@ export function Atlas({
           const periodo = periodoVigente(p, tempo);
           return periodo !== null && estaDividido(periodo);
         })
-        .map((p) => p.iso)
-        .filter((iso): iso is Alpha3 => iso in ISO_NUMERICO),
+        .map((p) => p.iso),
     [paises, tempo]
   );
 

@@ -70,6 +70,24 @@ export const Periodo = z
 
 export const Pais = z.object({
   iso: z.string().regex(/^[A-Z]{3}$/, "iso deve ter 3 letras maiúsculas"),
+  /**
+   * O ISO 3166-1 NUMÉRICO, que é como o mapa identifica país.
+   *
+   * Mora aqui, no arquivo do próprio país, e não numa tabela central — e a razão
+   * é de projeto aberto, não de gosto. Era `lib/geo/iso.ts`, escrita à mão: o
+   * único arquivo compartilhado que um PR de país precisava tocar. Com 165 países
+   * por escrever, é onde os PRs colidiriam uns com os outros, e um contribuidor
+   * gastaria a primeira meia hora resolvendo conflito num arquivo que não é o
+   * dele. Agora país novo é UM arquivo novo e nada mais.
+   *
+   * O número não é palavra do contribuidor: `scripts/validar-conteudo.ts` confere
+   * que existe uma feição com este código na geometria que o projeto empacota. Se
+   * o país não estiver lá, o build para — que é a mesma regra da alegação sem
+   * fonte, aplicada a código de país.
+   */
+  isoNumerico: z
+    .string()
+    .regex(/^\d{3}$/, "isoNumerico deve ter 3 dígitos — o ISO 3166-1 numérico, como \"076\""),
   nome: z.string().min(1),
   periodos: z.array(Periodo).min(1, "país precisa de ao menos um período"),
 });

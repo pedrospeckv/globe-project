@@ -119,7 +119,12 @@ describe("estaDividido", () => {
 });
 
 describe("Pais", () => {
-  const brasil = { iso: "BRA", nome: "Brasil", periodos: [periodo] };
+  const brasil = {
+    iso: "BRA",
+    isoNumerico: "076",
+    nome: "Brasil",
+    periodos: [periodo],
+  };
 
   it("aceita país com períodos", () => {
     expect(Pais.safeParse(brasil).success).toBe(true);
@@ -127,6 +132,31 @@ describe("Pais", () => {
 
   it.each(["br", "BR", "brasil", "BRAS"])("rejeita iso %s", (iso) => {
     expect(Pais.safeParse({ ...brasil, iso }).success).toBe(false);
+  });
+
+  /*
+   * `isoNumerico` é o código com que o MAPA identifica país, e ele mora aqui —
+   * no arquivo do próprio país — e não numa tabela central. A razão é de projeto
+   * aberto: a tabela era o único arquivo compartilhado que um PR de país novo
+   * precisava tocar, e com 165 países por escrever é onde eles colidiriam.
+   *
+   * O schema só confere a FORMA. Que o código aponte para um país que existe na
+   * geometria é conferido no build, por `conferirCodigosDePais` — aqui não daria,
+   * porque exigiria carregar o mundo inteiro para validar um schema.
+   */
+  it("exige isoNumerico com três dígitos", () => {
+    expect(Pais.safeParse({ ...brasil, isoNumerico: "076" }).success).toBe(true);
+    /* Zero à esquerda FAZ parte: "76" não é o código do Brasil, é forma errada. */
+    expect(Pais.safeParse({ ...brasil, isoNumerico: "76" }).success).toBe(false);
+    expect(Pais.safeParse({ ...brasil, isoNumerico: "0760" }).success).toBe(false);
+    expect(Pais.safeParse({ ...brasil, isoNumerico: "BRA" }).success).toBe(false);
+    expect(Pais.safeParse({ ...brasil, isoNumerico: 76 }).success).toBe(false);
+  });
+
+  it("REJEITA país sem isoNumerico — sem ele o dossiê não tem onde acender", () => {
+    const semNumerico: Record<string, unknown> = { ...brasil };
+    delete semNumerico.isoNumerico;
+    expect(Pais.safeParse(semNumerico).success).toBe(false);
   });
 
   it("REJEITA país sem nenhum período — país sem retrato não existe no atlas", () => {
