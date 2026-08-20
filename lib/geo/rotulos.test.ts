@@ -14,20 +14,57 @@ import {
 } from "./rotulos";
 import { criarProjecao, escalaPara } from "./projecao";
 import { nomeCanonico } from "./nomes";
-import type { FatiaFeature } from "./fatias";
+import { FATIAS, caminhoRelativoDaFatia, type FatiaFeature } from "./fatias";
 
 const PASTA = path.join(process.cwd(), "public", "geo", "fatias");
 
+/*
+ * O arquivo de uma fatia é resolvido pelo ÍNDICE, e não montado a partir do nome:
+ * uma fatia local que corrige uma baixada tem o mesmo nome dela e mora em
+ * `locais/`. Montar à mão — o que este arquivo fazia — lia a baixada NÃO corrigida
+ * de 1938 e 1945 enquanto o mapa servia a corrigida.
+ */
+const arquivoDaFatia = (nome: string) =>
+  path.join(
+    PASTA,
+    caminhoRelativoDaFatia(FATIAS.find((f) => f.nome === nome) ?? { nome })
+  );
+
 /** Do jeito que o carregador entrega: com a grafia já normalizada. */
+/*
+ * A fatia é lida UMA vez por (nome, ano) e o mesmo vetor é devolvido a todos os
+ * testes, de propósito.
+ *
+ * `resumirFatia` guarda o resumo geométrico num `WeakMap` chaveado pelo VETOR de
+ * feições, e a diferença é brutal: medido em 2018 a 1600 px, a primeira colocação
+ * custa 331 ms e a segunda sobre o mesmo vetor custa 0,6 ms. Este arquivo chama
+ * `colocarRotulos` cerca de vinte vezes; com um vetor novo por chamada eram vinte
+ * caminhos frios, uns 7 s, acima do timeout de 5 s do vitest — e o teste passava
+ * ou não conforme a máquina estivesse ocupada.
+ *
+ * É o mesmo cache de que o app se beneficia: lá a fatia carregada fica em memória,
+ * então os 331 ms são pagos uma vez por data e não por quadro.
+ *
+ * O preço é que os testes dividem objetos mutáveis. Vale porque nenhum deles
+ * escreve nas feições — `colocarRotulos` só lê — e porque a alternativa medida era
+ * uma suíte que falha por lentidão.
+ */
+const lidas = new Map<string, FatiaFeature[]>();
+
 function carregar(nome: string, ano: number): FatiaFeature[] {
+  const chave = `${nome}@${ano}`;
+  const emCache = lidas.get(chave);
+  if (emCache) return emCache;
+
   const topo = JSON.parse(
-    fs.readFileSync(path.join(PASTA, `${nome}.json`), "utf8")
+    fs.readFileSync(arquivoDaFatia(nome), "utf8")
   ) as Topology;
   const feicoes = feature(topo, topo.objects.mundo as GeometryCollection)
     .features as FatiaFeature[];
   for (const f of feicoes) {
     if (f.properties?.n) f.properties.n = nomeCanonico(f.properties.n, ano);
   }
+  lidas.set(chave, feicoes);
   return feicoes;
 }
 

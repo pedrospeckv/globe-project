@@ -20,9 +20,26 @@ import {
   precisaoBaixa,
   rotuloDaFatia,
   type FatiaFeature,
+  caminhoRelativoDaFatia,
 } from "./fatias";
 
 const PASTA = path.join(process.cwd(), "public", "geo", "fatias");
+
+/*
+ * As baixadas que uma fatia local substitui. Ficam no disco de propósito, fora do
+ * índice: são a origem de que a corrigida é derivada.
+ */
+const SUBSTITUIDAS = ["1938", "1945"];
+
+/*
+ * A resolução vem de `fatias.ts`, a mesma que `carregarFatia` usa, e não de uma
+ * cópia local. A cópia existia dentro de um `describe` só, e os outros quatro
+ * testes que percorrem `FATIAS` montavam o caminho à mão: liam, para as três
+ * fatias locais, o arquivo ERRADO — a baixada não corrigida de 1938 e 1945, e uma
+ * cópia obsoleta de 2018 que só continuava passando porque ainda estava no disco.
+ */
+const caminhoDaFatia = (f: { nome: string; local?: boolean }) =>
+  path.join(PASTA, caminhoRelativoDaFatia(f));
 
 describe("índice de fatias", () => {
   it("está ordenado do mais antigo para o mais recente", () => {
@@ -46,19 +63,52 @@ describe("índice de fatias", () => {
    */
   it("toda entrada tem arquivo no disco, com o tamanho declarado", () => {
     for (const f of FATIAS) {
-      const caminho = path.join(PASTA, `${f.nome}.json`);
+      const caminho = caminhoDaFatia(f);
       expect(fs.existsSync(caminho), `falta ${f.nome}.json`).toBe(true);
       expect(fs.statSync(caminho).size, `tamanho de ${f.nome}`).toBe(f.bytes);
     }
   });
 
-  it("não há arquivo órfão na pasta servida", () => {
-    const noDisco = fs
-      .readdirSync(PASTA)
+  /*
+   * A baixada que foi substituída CONTINUA no disco, e não é órfã: é dela que a
+   * corrigida é derivada, e apagá-la tornaria a correção irreproduzível.
+   */
+  it("a baixada substituída fica no disco, fora do índice", () => {
+    for (const nome of SUBSTITUIDAS) {
+      expect(fs.existsSync(path.join(PASTA, `${nome}.json`)), nome).toBe(true);
+      const noIndice = FATIAS.find((f) => f.nome === nome)!;
+      expect(noIndice.local, `${nome} no índice tem de ser a local`).toBe(true);
+    }
+  });
+
+  const jsonEm = (pasta: string) =>
+    fs
+      .readdirSync(pasta)
       .filter((a) => a.endsWith(".json"))
       .map((a) => a.replace(/\.json$/, ""))
       .sort();
-    expect(noDisco).toEqual([...FATIAS.map((f) => f.nome)].sort());
+
+  /*
+   * As duas pastas são conferidas SEPARADAMENTE, e é o que a versão anterior deste
+   * teste não fazia: ela comparava só a pasta de cima com o índice inteiro, e as
+   * duas listas coincidiam por acidente — a `2018.json` que sobrara da mudança das
+   * locais para `locais/` casava com a entrada `2018` do índice, que é local. Uma
+   * cópia obsoleta de 166 kB passava por arquivo legítimo, e ainda era a que
+   * quatro testes deste arquivo estavam lendo.
+   */
+  it("a pasta de cima tem as baixadas, e só elas", () => {
+    const esperado = [
+      ...FATIAS.filter((f) => !f.local).map((f) => f.nome),
+      ...SUBSTITUIDAS,
+    ].sort();
+    expect(jsonEm(PASTA)).toEqual(esperado);
+  });
+
+  it("`locais/` tem as locais do índice, e só elas", () => {
+    const esperado = FATIAS.filter((f) => f.local)
+      .map((f) => f.nome)
+      .sort();
+    expect(jsonEm(path.join(PASTA, "locais"))).toEqual(esperado);
   });
 
   /* Share-alike sem crédito é violação de licença, não descuido de estilo. */
@@ -228,7 +278,7 @@ describe("a Antártida", () => {
     const semAntartida: string[] = [];
     for (const f of FATIAS) {
       const topo = JSON.parse(
-        fs.readFileSync(path.join(PASTA, `${f.nome}.json`), "utf8")
+        fs.readFileSync(caminhoDaFatia(f), "utf8")
       ) as Topology;
       const feicoes = feicoesUteis(
         feature(topo, topo.objects.mundo as GeometryCollection)
@@ -252,7 +302,7 @@ describe("a Antártida", () => {
   /* E na fatia local ela é nomeada e marcada como terra sem soberano. */
   it("é nomeada e sem soberano na fatia de 2018", () => {
     const topo = JSON.parse(
-      fs.readFileSync(path.join(PASTA, "2018.json"), "utf8")
+      fs.readFileSync(path.join(PASTA, "locais", "2018.json"), "utf8")
     ) as Topology;
     const feicoes = feature(topo, topo.objects.mundo as GeometryCollection)
       .features as FatiaFeature[];
@@ -272,7 +322,7 @@ describe("feições absurdas", () => {
   it("nenhuma fatia entrega feição cobrindo mais de 1 sr", () => {
     for (const f of FATIAS) {
       const topo = JSON.parse(
-        fs.readFileSync(path.join(PASTA, `${f.nome}.json`), "utf8")
+        fs.readFileSync(caminhoDaFatia(f), "utf8")
       ) as Topology;
       const todas = feature(topo, topo.objects.mundo as GeometryCollection)
         .features as FatiaFeature[];
@@ -295,7 +345,7 @@ describe("feições absurdas", () => {
     const perdidasNomeadas: string[] = [];
     for (const f of FATIAS) {
       const topo = JSON.parse(
-        fs.readFileSync(path.join(PASTA, `${f.nome}.json`), "utf8")
+        fs.readFileSync(caminhoDaFatia(f), "utf8")
       ) as Topology;
       const todas = feature(topo, topo.objects.mundo as GeometryCollection)
         .features as FatiaFeature[];
@@ -343,7 +393,7 @@ describe("feições absurdas", () => {
   it("descarta pouco — no máximo 4% das feições de cada fatia", () => {
     for (const f of FATIAS) {
       const topo = JSON.parse(
-        fs.readFileSync(path.join(PASTA, `${f.nome}.json`), "utf8")
+        fs.readFileSync(caminhoDaFatia(f), "utf8")
       ) as Topology;
       const todas = feature(topo, topo.objects.mundo as GeometryCollection)
         .features as FatiaFeature[];

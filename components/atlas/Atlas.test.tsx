@@ -494,12 +494,17 @@ describe("Atlas", () => {
       const antes = proto.requestFullscreen;
       proto.requestFullscreen = () => Promise.resolve();
       try {
-        /* O evento é o que o componente escuta; o navegador o emite ao entrar. */
+        /*
+         * Na ordem do navegador: o clique pede, e só DEPOIS de atendido o
+         * `fullscreenElement` passa a existir e o evento é emitido. Fazer o
+         * contrário — marcar o elemento antes do clique — punha o componente no
+         * ramo de SAIR de tela cheia, que é o oposto do que este teste mede.
+         */
+        fireEvent.click(botao(container));
         Object.defineProperty(document, "fullscreenElement", {
           value: container.firstChild,
           configurable: true,
         });
-        fireEvent.click(botao(container));
         fireEvent(document, new Event("fullscreenchange"));
       } finally {
         proto.requestFullscreen = antes;

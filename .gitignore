@@ -43,6 +43,9 @@ next-env.d.ts
 # ferramenta de brainstorming (mockups locais, servidor)
 .superpowers/
 
+# árvores de trabalho paralelas do agente — cópia do repo, nunca conteúdo dele
+.claude/worktrees/
+
 # material de referência (templates v0 baixados) — não é código do projeto
 *.zip
 refs/
@@ -50,3 +53,9 @@ refs/
 # sistema (Windows)
 Thumbs.db
 desktop.ini
+
+# Vercel: `.vercel/` guarda o id do projeto e `.env.local` recebe um
+# VERCEL_OIDC_TOKEN a cada `vercel link` — nenhum dos dois pode ser versionado,
+# menos ainda agora que o repositório é público. Linhas escritas pelo próprio CLI.
+.vercel
+.env*
