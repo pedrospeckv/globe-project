@@ -79,6 +79,7 @@ async function main() {
     `✓ conteúdo válido — ${acervo.paises.length} países (${periodos} períodos), ` +
       `${acervo.figuras.length} figuras, ${alegacoes} alegações, ` +
       `${acervo.eventos.length} eventos, ${acervo.episodios.length} episódios, ` +
+      `${acervo.eleicoes.length} eleições, ` +
       `${acervo.viagens.length} viagens, ` +
       `${acervo.indicadores.length} indicadores, ${acervo.ilhas.length} ilhas, ${acervo.fontes.length} fontes`
   );

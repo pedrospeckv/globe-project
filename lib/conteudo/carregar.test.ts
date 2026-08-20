@@ -49,6 +49,7 @@ describe("carregarAcervo", () => {
       indicadores: [],
       eventos: [],
       episodios: [],
+      eleicoes: [],
       notas: [],
       ilhas: [],
     });

@@ -135,6 +135,7 @@ describe("integridade cruzando arquivos", () => {
     indicadores: [],
     eventos: [],
     episodios: [],
+    eleicoes: [],
     notas: [],
     ilhas: [],
   };
@@ -192,6 +193,7 @@ describe("o episódio no espaço de nomes das ligações", () => {
       indicadores: [],
       eventos: [],
       episodios: [base()] as unknown as Episodio[],
+      eleicoes: [],
       notas: [],
       ilhas: [],
     });
@@ -221,6 +223,7 @@ describe("o episódio no espaço de nomes das ligações", () => {
           ],
         },
       ] as unknown as Episodio[],
+      eleicoes: [],
       notas: [],
       ilhas: [],
     });

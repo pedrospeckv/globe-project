@@ -87,6 +87,24 @@ export default async function PeriodoPage({
           </p>
         </header>
 
+        {periodo.imagem && (
+          /*
+            A imagem do período vem ANTES da prosa, e é a única do dossiê que
+            ocupa a largura toda.
+
+            Antes do texto porque ela é a abertura do período, não ilustração
+            de um parágrafo — o leitor chega da linha do tempo do país, onde só
+            viu um rótulo e um intervalo de datas, e a foto é o que dá lugar e
+            época ao que vem a seguir. Depois da prosa ela viraria rodapé.
+
+            A regra que governa a escolha está no schema: feita durante o
+            período, não sobre ele.
+          */
+          <div className="mb-16 md:mb-20">
+            <FotoHistorica imagem={periodo.imagem} />
+          </div>
+        )}
+
         {periodo.textoMdx && (
           <article className="mb-16 max-w-3xl text-zinc-300 md:mb-20">
             <Prosa texto={periodo.textoMdx} alvos={alvos} />

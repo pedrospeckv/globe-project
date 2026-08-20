@@ -5,6 +5,7 @@ import type { Viagem } from "./viagem";
 import type { Indicador } from "./indicador";
 import type { Evento } from "./evento";
 import type { Episodio } from "./episodio";
+import type { Eleicao } from "./eleicao";
 import type { Nota } from "./nota";
 import type { Ilha } from "./ilha";
 // `ligacoes` importa só o TIPO Acervo daqui, então o ciclo some na compilação.
@@ -18,6 +19,7 @@ export interface Acervo {
   indicadores: Indicador[];
   eventos: Evento[];
   episodios: Episodio[];
+  eleicoes: Eleicao[];
   notas: Nota[];
   ilhas: Ilha[];
 }
@@ -173,6 +175,40 @@ export function verificarIntegridade(acervo: Acervo): string[] {
     }
     for (const id of duplicados(episodio.blocos.map((b) => b.id))) {
       erros.push(`episódio "${episodio.id}" tem bloco com id duplicado: ${id}`);
+    }
+  }
+
+  for (const id of duplicados(acervo.eleicoes.map((e) => e.id))) {
+    erros.push(`eleição com id duplicado: ${id}`);
+  }
+
+  /*
+   * A eleição é o conteúdo mais volátil do acervo, e o que mais depende de
+   * referência cruzada correta: chapa que aponta para figura inexistente
+   * publicaria link morto num assunto em que o leitor confere.
+   */
+  const idsFigura = new Set(acervo.figuras.map((f) => f.id));
+
+  for (const eleicao of acervo.eleicoes) {
+    if (!isoPaises.has(eleicao.paisIso)) {
+      erros.push(
+        `eleição "${eleicao.id}" referencia país ${eleicao.paisIso}, que não está no atlas`
+      );
+    }
+    for (const fonteId of eleicao.fontes) {
+      if (!idsFonte.has(fonteId)) {
+        erros.push(`eleição "${eleicao.id}" cita fonte inexistente: ${fonteId}`);
+      }
+    }
+    for (const id of duplicados(eleicao.chapas.map((c) => c.id))) {
+      erros.push(`eleição "${eleicao.id}" tem chapa com id duplicado: ${id}`);
+    }
+    for (const chapa of eleicao.chapas) {
+      if (chapa.figura && !idsFigura.has(chapa.figura)) {
+        erros.push(
+          `chapa "${chapa.id}" em "${eleicao.id}" aponta para figura inexistente: ${chapa.figura}`
+        );
+      }
     }
   }
 

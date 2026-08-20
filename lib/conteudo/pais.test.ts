@@ -1,5 +1,9 @@
+import path from "node:path";
 import { describe, it, expect } from "vitest";
 import { Pais, Periodo, estaDividido } from "./pais";
+import { carregarAcervo } from "./carregar";
+
+const acervo = await carregarAcervo(path.join(process.cwd(), "conteudo"));
 
 const periodo = {
   id: "br-nova-republica",
@@ -161,5 +165,61 @@ describe("Pais", () => {
 
   it("REJEITA país sem nenhum período — país sem retrato não existe no atlas", () => {
     expect(Pais.safeParse({ ...brasil, periodos: [] }).success).toBe(false);
+  });
+});
+
+describe("a imagem do período, no acervo real", () => {
+  const comImagem = acervo.paises.flatMap((p) =>
+    p.periodos.filter((per) => per.imagem).map((per) => ({ pais: p, periodo: per }))
+  );
+
+  it("existe pelo menos uma, senão este bloco não está conferindo nada", () => {
+    expect(comImagem.length).toBeGreaterThan(0);
+  });
+
+  it("toda imagem declara crédito, licença e descrição, e vem do Commons", () => {
+    for (const { pais, periodo } of comImagem) {
+      const onde = `${pais.iso}/${periodo.id}`;
+      const img = periodo.imagem!;
+      expect(img.credito.length, onde).toBeGreaterThan(0);
+      expect(img.licenca.length, onde).toBeGreaterThan(0);
+      expect(img.alt.length, onde).toBeGreaterThan(0);
+      expect(img.url.startsWith("https://upload.wikimedia.org/"), onde).toBe(true);
+      // O `?utm_source=` que a API gruda na miniatura é rastreio da consulta.
+      expect(img.url, onde).not.toContain("?");
+      expect(img.origem?.startsWith("https://commons.wikimedia.org/"), onde).toBe(
+        true
+      );
+    }
+  });
+
+  it("nenhuma aponta para TIFF — navegador não desenha TIFF, baixa", () => {
+    /*
+     * Dois dos melhores documentos do Arquivo Nacional estão no Commons como
+     * .tif, e o endereço do original parece igual ao de qualquer outro. Posto
+     * cru, o período abriria com um download em vez de uma foto, e o build
+     * passaria: o schema só confere que a URL é https. Quem serve é a
+     * miniatura JPEG que o Commons gera (`lossy-page1-...tif.jpg`).
+     */
+    for (const { pais, periodo } of comImagem) {
+      expect(periodo.imagem!.url, `${pais.iso}/${periodo.id}`).not.toMatch(
+        /\.tiff?$/i
+      );
+    }
+  });
+
+  it("o Brasil tem imagem em todos os oito períodos, e todas legendadas", () => {
+    const brasil = acervo.paises.find((p) => p.iso === "BRA")!;
+    expect(brasil.periodos).toHaveLength(8);
+    for (const p of brasil.periodos) {
+      expect(p.imagem, p.id).toBeDefined();
+      /*
+       * `alt` diz o que a imagem mostra; `legenda` diz por que ela está ali.
+       * Sem a segunda, uma foto de rua em 1875 é decoração — o leitor não tem
+       * como saber que aquela rua era o centro comercial da capital do
+       * Império, que é a única razão de ela abrir o período.
+       */
+      expect(p.imagem!.legenda, p.id).toBeTruthy();
+    }
   });
 });

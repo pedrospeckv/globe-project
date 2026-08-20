@@ -6,6 +6,7 @@ export type TipoAlvo =
   | "figura"
   | "evento"
   | "episodio"
+  | "eleicao"
   | "viagem"
   | "nota";
 
@@ -93,6 +94,16 @@ export function indexarAlvos(acervo: Acervo): Alvos {
       rotulo: episodio.titulo,
       href: `/episodio/${episodio.id}`,
       tipo: "episodio",
+    };
+  }
+
+  // A eleição também tem página própria.
+  for (const eleicao of acervo.eleicoes) {
+    alvos[eleicao.id] = {
+      id: eleicao.id,
+      rotulo: eleicao.titulo,
+      href: `/eleicao/${eleicao.id}`,
+      tipo: "eleicao",
     };
   }
 
@@ -188,6 +199,16 @@ function textosDoAcervo(acervo: Acervo): { onde: string; texto?: string }[] {
       });
     }
   }
+  for (const eleicao of acervo.eleicoes) {
+    saida.push({ onde: `eleição "${eleicao.id}"`, texto: eleicao.abertura });
+    saida.push({ onde: `fecho de "${eleicao.id}"`, texto: eleicao.fecho });
+    for (const chapa of eleicao.chapas) {
+      saida.push({
+        onde: `chapa "${chapa.id}" em "${eleicao.id}"`,
+        texto: chapa.nota,
+      });
+    }
+  }
   for (const viagem of acervo.viagens) {
     saida.push({ onde: `viagem "${viagem.id}"`, texto: viagem.textoMdx });
     for (const parada of viagem.paradas) {
@@ -242,6 +263,7 @@ export function verificarLigacoes(acervo: Acervo): string[] {
   for (const f of acervo.figuras) anotar(f.id, "figura");
   for (const e of acervo.eventos) anotar(e.id, "evento");
   for (const e of acervo.episodios) anotar(e.id, "episódio");
+  for (const e of acervo.eleicoes) anotar(e.id, "eleição");
   for (const v of acervo.viagens) anotar(v.id, "viagem");
 
   for (const [id, onde] of origens) {

@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { DataHistorica, Id, comparaData } from "./primitivos";
+import { Imagem } from "./imagem";
 
 /**
  * Fonte no período é OPCIONAL, e a assimetria com a alegação é deliberada.
@@ -55,6 +56,18 @@ export const Periodo = z
     regime: z.string().min(1),
     textoMdx: z.string().optional(),
     fontes: FontesDoTexto,
+    /**
+     * Uma imagem feita DURANTE o período, e não uma que o represente.
+     *
+     * A distinção não é preciosismo: "Independência ou Morte" é de 1888 e
+     * mostra 1822 como o Império quis ser lembrado no fim da vida; "Primeira
+     * Missa no Brasil" é de 1860 e inventa uma cena de 1500. As duas são
+     * quadros sobre a memória do período, não documentos dele, e postas como
+     * ilustração de período passam por documento sem que nada na página diga
+     * que não são. O schema não consegue conferir a data da imagem — quem
+     * confere é `imagensDoPeriodo` nos testes, contra o intervalo declarado.
+     */
+    imagem: Imagem.optional(),
     /** Vazio no caso normal; 2 ou mais quando o território esteve dividido. */
     entidades: z.array(Entidade).default([]),
   })

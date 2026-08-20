@@ -1,0 +1,205 @@
+{
+  "id": "2026-presidencial",
+  "titulo": "Eleição presidencial de 2026",
+  "paisIso": "BRA",
+  "cargo": "Presidente da República",
+  "primeiroTurno": "2026-10-04",
+  "segundoTurno": "2026-10-25",
+  "prazoDeRegistro": "2026-08-15",
+  "conferidoEm": "2026-08-19",
+  "abertura": "O prazo fechou às 19h de 15 de agosto de 2026 com **treze pedidos de registro** para a Presidência — um a mais que em 2022. No país inteiro foram 20.506 pedidos, para todos os cargos.\n\n**Pedido protocolado não é candidatura aprovada.** A Justiça Eleitoral ainda analisa documentação, condições de elegibilidade e eventuais causas de inelegibilidade de cada chapa, e partidos, candidatos, coligações e o Ministério Público Eleitoral podem impugnar qualquer registro nessa fase. Até que isso termine, o estado correto de todas as treze é o mesmo: protocolado.\n\nEsta página é um retrato datado, e diz no rodapé quando foi conferido.",
+  "chapas": [
+    {
+      "id": "augusto-cury",
+      "candidato": "Augusto Cury",
+      "vice": "Júlio Delgado",
+      "partido": "Avante",
+      "situacao": "registro-protocolado",
+      "foto": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/2026_ESCRITOR_AUGUSTO_CURY_CANDIDATO_PRESIDENTE_TSE_%28280002551547%29.jpg",
+        "alt": "Retrato oficial de Augusto Cury, entregue ao Tribunal Superior Eleitoral no registro da candidatura de 2026.",
+        "credito": "Tribunal Superior Eleitoral (TSE)",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2026_ESCRITOR_AUGUSTO_CURY_CANDIDATO_PRESIDENTE_TSE_(280002551547).jpg"
+      }
+    },
+    {
+      "id": "clariana-barao",
+      "candidato": "Clariana Barão",
+      "vice": "Fabiana Torquato",
+      "partido": "DC",
+      "situacao": "registro-protocolado",
+      "foto": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/2026_CLARIANA_BARAO_CANDIDATA_PRESIDENTE_TSE_%28280002552484%29.jpg",
+        "alt": "Retrato oficial de Clariana Barão, entregue ao Tribunal Superior Eleitoral no registro da candidatura de 2026.",
+        "credito": "Tribunal Superior Eleitoral (TSE)",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2026_CLARIANA_BARAO_CANDIDATA_PRESIDENTE_TSE_(280002552484).jpg"
+      }
+    },
+    {
+      "id": "edmilson-costa",
+      "candidato": "Edmilson Costa",
+      "vice": "Cleusa Santos",
+      "partido": "PCB",
+      "situacao": "registro-protocolado",
+      "foto": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/2026_EDMILSON_COSTA_CANDIDATO_PRESIDENTE_TSE_%28280002551975%29.jpg",
+        "alt": "Retrato oficial de Edmilson Costa, entregue ao Tribunal Superior Eleitoral no registro da candidatura de 2026.",
+        "credito": "Tribunal Superior Eleitoral (TSE)",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2026_EDMILSON_COSTA_CANDIDATO_PRESIDENTE_TSE_(280002551975).jpg"
+      }
+    },
+    {
+      "id": "flavio-bolsonaro",
+      "candidato": "Flávio Bolsonaro",
+      "vice": "Alfredo Gaspar",
+      "partido": "PL",
+      "situacao": "registro-protocolado",
+      "foto": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/2026_FLAVIO_BOLSONARO_CANDIDATO_PRESIDENTE_TSE_%28280002551544%29.jpg",
+        "alt": "Retrato oficial de Flávio Bolsonaro, entregue ao Tribunal Superior Eleitoral no registro da candidatura de 2026.",
+        "credito": "Tribunal Superior Eleitoral (TSE)",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2026_FLAVIO_BOLSONARO_CANDIDATO_PRESIDENTE_TSE_(280002551544).jpg"
+      }
+    },
+    {
+      "id": "hertz-dias",
+      "candidato": "Hertz Dias",
+      "vice": "Vanessa Portugal",
+      "partido": "PSTU",
+      "situacao": "registro-protocolado",
+      "foto": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/2026_HERTZ_DIAS_CANDIDATO_PRESIDENTE_TSE_%28280002541457%29.jpg",
+        "alt": "Retrato oficial de Hertz Dias, entregue ao Tribunal Superior Eleitoral no registro da candidatura de 2026.",
+        "credito": "Tribunal Superior Eleitoral (TSE)",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2026_HERTZ_DIAS_CANDIDATO_PRESIDENTE_TSE_(280002541457).jpg"
+      }
+    },
+    {
+      "id": "lula-2026",
+      "candidato": "Luiz Inácio Lula da Silva",
+      "vice": "Geraldo Alckmin",
+      "partido": "PT",
+      "situacao": "registro-protocolado",
+      "figura": "lula",
+      "nota": "Concorre à reeleição, com o mesmo vice do mandato atual. Alckmin é filiado ao PSB — a chapa reúne dois partidos, como em 2022.",
+      "foto": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/2022_LULA_CANDIDATO_PRESIDENTE_TSE_%28280001607829%29.jpg",
+        "alt": "Retrato oficial de Luiz Inácio Lula da Silva, entregue ao Tribunal Superior Eleitoral no registro da candidatura de 2022.",
+        "credito": "Tribunal Superior Eleitoral (TSE)",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2022_LULA_CANDIDATO_PRESIDENTE_TSE_(280001607829).jpg",
+        "legenda": "Retrato de 2022: o registro de 2026 ainda não foi publicado no acervo aberto do TSE."
+      }
+    },
+    {
+      "id": "pablo-marcal",
+      "candidato": "Pablo Marçal",
+      "vice": "Leonardo Avalanche",
+      "partido": "PRTB",
+      "situacao": "registro-protocolado",
+      "nota": "**Registrado e inelegível ao mesmo tempo.** Condenações eleitorais anteriores o tornaram inelegível até 2032, e a liminar que reconheceu provisoriamente a filiação dele ao PRTB **não suspendeu essa inelegibilidade**. O pedido foi protocolado assim mesmo, no último dia do prazo; quem decide se ele concorre é o TSE. É o caso que mostra por que este acervo separa registro protocolado de registro deferido, e os dois de elegibilidade.",
+      "foto": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/2026_PABLO_MAR%C3%87AL_CANDIDATO_PRESIDENTE_TSE_%28280002553884%29.jpg",
+        "alt": "Retrato oficial de Pablo Marçal, entregue ao Tribunal Superior Eleitoral no registro da candidatura de 2026.",
+        "credito": "Tribunal Superior Eleitoral (TSE)",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2026_PABLO_MAR%C3%87AL_CANDIDATO_PRESIDENTE_TSE_(280002553884).jpg"
+      }
+    },
+    {
+      "id": "renan-santos",
+      "candidato": "Renan Santos",
+      "vice": "Aroldo Medina",
+      "partido": "Missão",
+      "situacao": "registro-protocolado",
+      "foto": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/2026_RENAN_SANTOS_CANDIDATO_PRESIDENTE_TSE_%28280002540694%29.jpg",
+        "alt": "Retrato oficial de Renan Santos, entregue ao Tribunal Superior Eleitoral no registro da candidatura de 2026.",
+        "credito": "Tribunal Superior Eleitoral (TSE)",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2026_RENAN_SANTOS_CANDIDATO_PRESIDENTE_TSE_(280002540694).jpg"
+      }
+    },
+    {
+      "id": "romeu-zema",
+      "candidato": "Romeu Zema",
+      "vice": "Eduardo Girão",
+      "partido": "Novo",
+      "situacao": "registro-protocolado",
+      "foto": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/2026_ZEMA_CANDIDATO_PRESIDENTE_TSE_%28280002539826%29.jpg",
+        "alt": "Retrato oficial de Romeu Zema, entregue ao Tribunal Superior Eleitoral no registro da candidatura de 2026.",
+        "credito": "Tribunal Superior Eleitoral (TSE)",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2026_ZEMA_CANDIDATO_PRESIDENTE_TSE_(280002539826).jpg"
+      }
+    },
+    {
+      "id": "ronaldo-caiado",
+      "candidato": "Ronaldo Caiado",
+      "vice": "Gilberto Kassab",
+      "partido": "PSD",
+      "situacao": "registro-protocolado",
+      "foto": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/2026_RONALDO_CAIADO_CANDIDATO_PRESIDENTE_TSE_%28280002551932%29.jpg",
+        "alt": "Retrato oficial de Ronaldo Caiado, entregue ao Tribunal Superior Eleitoral no registro da candidatura de 2026.",
+        "credito": "Tribunal Superior Eleitoral (TSE)",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2026_RONALDO_CAIADO_CANDIDATO_PRESIDENTE_TSE_(280002551932).jpg"
+      }
+    },
+    {
+      "id": "rui-costa-pimenta",
+      "candidato": "Rui Costa Pimenta",
+      "vice": "Antônio Carlos Silva",
+      "partido": "PCO",
+      "situacao": "registro-protocolado",
+      "foto": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/2026_RUI_COSTA_PIMENTA_CANDIDATO_PRESIDENTE_TSE_%28280002552487%29.jpg",
+        "alt": "Retrato oficial de Rui Costa Pimenta, entregue ao Tribunal Superior Eleitoral no registro da candidatura de 2026.",
+        "credito": "Tribunal Superior Eleitoral (TSE)",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2026_RUI_COSTA_PIMENTA_CANDIDATO_PRESIDENTE_TSE_(280002552487).jpg"
+      }
+    },
+    {
+      "id": "samara-martins",
+      "candidato": "Samara Martins",
+      "vice": "Raquel Brício",
+      "partido": "UP",
+      "situacao": "registro-protocolado",
+      "foto": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/2026_SAMARA_CANDIDATA_PRESIDENTE_TSE_%28280002538811%29.JPG",
+        "alt": "Retrato oficial de Samara Martins, entregue ao Tribunal Superior Eleitoral no registro da candidatura de 2026.",
+        "credito": "Tribunal Superior Eleitoral (TSE)",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2026_SAMARA_CANDIDATA_PRESIDENTE_TSE_(280002538811).JPG"
+      }
+    },
+    {
+      "id": "wilson-grassi",
+      "candidato": "Wilson Grassi",
+      "vice": "Suêd Haidar",
+      "partido": "Democrata",
+      "situacao": "registro-protocolado",
+      "foto": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/2026_VETERIN%C3%81RIO_WILSON_GRASSI_CANDIDATO_PRESIDENTE_TSE_%28280002548139%29.jpg",
+        "alt": "Retrato oficial de Wilson Grassi, entregue ao Tribunal Superior Eleitoral no registro da candidatura de 2026.",
+        "credito": "Tribunal Superior Eleitoral (TSE)",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2026_VETERIN%C3%81RIO_WILSON_GRASSI_CANDIDATO_PRESIDENTE_TSE_(280002548139).jpg"
+      }
+    }
+  ],
+  "fecho": "*O que ainda pode mudar, e por quê.*\n\n*Um registro pode ser indeferido pelo TSE, e ainda assim o candidato concorre — recurso pendente mantém a candidatura sub judice, e os votos são contados até a decisão final. Uma chapa pode ser impugnada por adversário ou pelo Ministério Público Eleitoral. Um candidato pode renunciar, e o partido tem prazo para substituí-lo. Nenhuma dessas hipóteses é remota: em 2022, decisões sobre registro se estenderam por semanas depois do prazo.*\n\n*Por isso esta página registra a situação de cada chapa com um rótulo fechado, em vez de dizer \"é candidato\". A frase é curta e cabe em manchete, e é imprecisa nos três sentidos que mais importam aqui: pedido entregue não é registro deferido, registro deferido não encerra a discussão sobre elegibilidade, e registro indeferido não é, sozinho, o fim da disputa.*\n\n*O atlas não publica pesquisa de intenção de voto nem classifica os candidatos por posição no espectro político. As duas coisas envelhecem em dias, e são exatamente o que faz leitor de esquerda e de direita verem telas diferentes.*",
+  "fontes": [
+    "senado-candidaturas-2026",
+    "infomoney-candidatos-2026",
+    "metropoles-registros-2026"
+  ]
+}
