@@ -5,6 +5,7 @@ import {
   verificarIntegridade,
   coberturaDeFontes,
   coberturaDeNotas,
+  coberturaDeImagens,
 } from "../lib/conteudo/integridade";
 import { FATIAS } from "../lib/geo/fatias";
 import { carregarMundo, conferirCodigosDePais } from "../lib/geo/mundo";
@@ -134,6 +135,36 @@ async function main() {
         `${notas.semFonte.length} ainda cruas do cofre`
     );
     for (const id of notas.semFonte) console.log(`  · ${id}`);
+    console.log("");
+  }
+
+  /*
+   * A terceira dívida contada, pelo mesmo motivo das duas de cima: curadoria
+   * de imagem é lenta — cada período pede uma peça feita DENTRO do período,
+   * sob licença livre e com descrição que permita escrever o alt sem inventar
+   * o que a foto mostra — e exigi-la de todo país novo travaria a frente de
+   * largura, que é a prioridade declarada.
+   *
+   * País PELA METADE é o único caso que não é dívida e sim defeito, e por
+   * isso ele grita aqui e reprova no teste: quer dizer que alguém começou a
+   * ilustrar e parou, e nada na tela denuncia isso até um leitor abrir
+   * justamente o período que ficou sem.
+   */
+  const img = coberturaDeImagens(acervo);
+  if (img.pelaMetade.length > 0) {
+    console.log(
+      `\n⚠ país com imagem pela metade: ${img.pelaMetade.join(", ")}` +
+        `\n  ou ilustra todos os períodos, ou nenhum — meio termo some da vista.`
+    );
+  }
+  if (img.vazios.length === 0) {
+    console.log(`✓ os ${img.periodos} períodos têm imagem de época`);
+  } else {
+    console.log(
+      `\n⚠ imagem nos períodos: ${img.comImagem}/${img.periodos} ` +
+        `(${img.completos.length} países completos, ${img.vazios.length} ainda sem nenhuma)`
+    );
+    console.log(`  · sem imagem: ${img.vazios.join(", ")}`);
     console.log("");
   }
 }

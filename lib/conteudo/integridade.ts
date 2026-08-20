@@ -333,3 +333,50 @@ export function coberturaDeNotas(acervo: Acervo): Cobertura {
     semFonte,
   };
 }
+
+export interface CoberturaDeImagens {
+  /** Países com imagem em todos os períodos. */
+  completos: string[];
+  /** Países sem imagem em nenhum período — dívida declarada, não defeito. */
+  vazios: string[];
+  /** Países com uns períodos ilustrados e outros não. É este o defeito. */
+  pelaMetade: string[];
+  periodos: number;
+  comImagem: number;
+}
+
+/**
+ * Quanto do acervo tem imagem de época, contado por país.
+ *
+ * A distinção entre "vazio" e "pela metade" é a razão de esta função existir.
+ *
+ * País sem nenhuma imagem é dívida declarada: entrou pela cobertura em largura
+ * e ainda não passou pela curadoria de imagem, que é lenta — cada período pede
+ * uma peça feita DENTRO do período, sob licença livre, com descrição que
+ * permita escrever o texto alternativo sem inventar o que a foto mostra.
+ * Exigir isso de todo país novo travaria a largura, que é a prioridade
+ * declarada do projeto.
+ *
+ * País pela metade é outra coisa. Significa que alguém começou a ilustrar e
+ * parou, e ninguém notou — porque o buraco não aparece em lugar nenhum até um
+ * leitor abrir justamente aquele período. É o único dos três estados que não
+ * se explica sozinho, e por isso é o que o teste recusa.
+ */
+export function coberturaDeImagens(acervo: Acervo): CoberturaDeImagens {
+  const completos: string[] = [];
+  const vazios: string[] = [];
+  const pelaMetade: string[] = [];
+  let periodos = 0;
+  let comImagem = 0;
+
+  for (const pais of acervo.paises) {
+    const com = pais.periodos.filter((p) => p.imagem).length;
+    periodos += pais.periodos.length;
+    comImagem += com;
+    if (com === 0) vazios.push(pais.iso);
+    else if (com === pais.periodos.length) completos.push(pais.iso);
+    else pelaMetade.push(`${pais.iso} (${com}/${pais.periodos.length})`);
+  }
+
+  return { completos, vazios, pelaMetade, periodos, comImagem };
+}

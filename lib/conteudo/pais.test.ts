@@ -2,6 +2,7 @@ import path from "node:path";
 import { describe, it, expect } from "vitest";
 import { Pais, Periodo, estaDividido } from "./pais";
 import { carregarAcervo } from "./carregar";
+import { coberturaDeImagens } from "./integridade";
 
 const acervo = await carregarAcervo(path.join(process.cwd(), "conteudo"));
 
@@ -208,29 +209,40 @@ describe("a imagem do período, no acervo real", () => {
     }
   });
 
-  it("todo período do acervo tem imagem, e todas legendadas", () => {
+  it("nenhum país ficou pela metade — ou ilustra todos os períodos, ou nenhum", () => {
     /*
-     * A cobertura é total hoje, e o teste a trava aí de propósito.
+     * Este teste já nasceu errado uma vez, e a correção é a lição.
      *
-     * Não é a mesma regra da eleição, onde a lista mista é proibida porque os
-     * cartões ficam lado a lado e o vazio lê como candidatura menor. Aqui cada
-     * período é uma página só sua, e um sem imagem não seria injusto com
-     * ninguém — seria só uma página mais pobre. O que este teste impede é
-     * outra coisa: que um país novo entre pela metade e ninguém note, porque
-     * o buraco não aparece em lugar nenhum até alguém abrir aquela página.
+     * A primeira versão exigia imagem em TODO período do acervo, porque no dia
+     * em que foi escrita a cobertura era total. Duas semanas depois entraram
+     * vinte e quatro países novos pela frente de largura, e o teste passou a
+     * reprovar trabalho alheio que não tinha defeito nenhum — a Argentina não
+     * está quebrada por não ter imagem ainda.
+     *
+     * Um teste que exige do repositório inteiro o estado do dia em que foi
+     * escrito não protege invariante: congela um instante.
+     *
+     * O invariante de verdade é por país. País sem nenhuma imagem é dívida
+     * declarada, contada em voz alta pelo validador junto com as outras. País
+     * PELA METADE é o defeito: alguém começou a ilustrar, parou, e ninguém
+     * notou — porque o buraco não aparece em lugar nenhum até um leitor abrir
+     * justamente aquele período.
      */
-    for (const pais of acervo.paises) {
-      for (const p of pais.periodos) {
-        const onde = `${pais.iso}/${p.id}`;
-        expect(p.imagem, onde).toBeDefined();
-        /*
-         * `alt` diz o que a imagem mostra; `legenda` diz por que ela está ali.
-         * Sem a segunda, uma foto de rua em 1875 é decoração — o leitor não
-         * tem como saber que aquela rua era o centro comercial da capital do
-         * Império, que é a única razão de ela abrir o período.
-         */
-        expect(p.imagem!.legenda, onde).toBeTruthy();
-      }
+    const cob = coberturaDeImagens(acervo);
+    expect(cob.pelaMetade).toEqual([]);
+    // E o bloco inteiro só faz sentido se houver o que conferir.
+    expect(cob.completos.length).toBeGreaterThan(0);
+  });
+
+  it("onde há imagem, há legenda", () => {
+    /*
+     * `alt` diz o que a imagem mostra; `legenda` diz por que ela está ali.
+     * Sem a segunda, uma foto de rua em 1875 é decoração — o leitor não tem
+     * como saber que aquela rua era o centro comercial da capital do Império,
+     * que é a única razão de ela abrir o período.
+     */
+    for (const { pais, periodo } of comImagem) {
+      expect(periodo.imagem!.legenda, `${pais.iso}/${periodo.id}`).toBeTruthy();
     }
   });
 
