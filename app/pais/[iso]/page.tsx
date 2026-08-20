@@ -7,6 +7,8 @@ import { Prosa } from "@/components/conteudo/Prosa";
 import { IndicadorChart } from "@/components/conteudo/IndicadorChart";
 import { Estante } from "@/components/conteudo/Estante";
 import {
+  IconeEleicoes,
+  IconeEpisodios,
   IconeFiguras,
   IconeLivros,
   IconePeriodos,
@@ -97,6 +99,85 @@ export default async function PaisPage({
     acervo.notas.filter((n) => n.alvos.some((a) => idsDoPais.has(a)))
   );
 
+  /*
+   * As alas da central, dirigidas por dados em vez de escritas à mão.
+   *
+   * Eram três cartões fixos no JSX, e foi por isso que Episódios e Eleições
+   * ficaram invisíveis: as duas alas novas existiam como seção lá embaixo,
+   * sem nada no topo apontando para elas. Quem abria o dossiê do Brasil não
+   * tinha como saber que havia uma eleição dentro — só descobria rolando.
+   *
+   * Como lista, a central mostra só o que o país tem, e a próxima ala entra
+   * acrescentando uma entrada em vez de mais um bloco copiado. É a mesma
+   * regra da grade de figuras: a ala vazia não vira cartão morto.
+   */
+  const alas = [
+    {
+      chave: "periodos",
+      Icone: IconePeriodos,
+      titulo: "Períodos",
+      texto:
+        "A linha do tempo do território, um regime por vez, com o que mudou de fronteira e de governo em cada um.",
+      href: "#periodos",
+      contador: `${pais.periodos.length} →`,
+    },
+    {
+      chave: "figuras",
+      Icone: IconeFiguras,
+      titulo: "Figuras",
+      texto:
+        "Quem respondeu por decisão registrada, com alegação, fonte e estado processual declarados.",
+      href: figuras.length > 0 ? "#figuras" : "#periodos",
+      contador: figuras.length > 0 ? `${figuras.length} →` : "nenhuma ainda",
+    },
+    ...(episodios.length > 0
+      ? [
+          {
+            chave: "episodios",
+            Icone: IconeEpisodios,
+            titulo: "Episódios",
+            texto:
+              "Recortes que não cabem num período: narrados em blocos datados, com foto de época em cada parada.",
+            href: "#episodios",
+            contador: `${episodios.length} →`,
+          },
+        ]
+      : []),
+    ...(eleicoes.length > 0
+      ? [
+          {
+            chave: "eleicoes",
+            Icone: IconeEleicoes,
+            titulo: "Eleições",
+            texto:
+              "A disputa em curso, chapa por chapa, com a situação de cada registro e a data em que a lista foi conferida.",
+            /*
+             * Com uma eleição só, a seção é um degrau para nada: um item, um
+             * clique, a mesma página. O cartão vai direto. Com duas ou mais
+             * ele volta a ser âncora, porque aí há escolha a fazer.
+             */
+            href:
+              eleicoes.length === 1
+                ? `/eleicao/${eleicoes[0].id}`
+                : "#eleicoes",
+            contador:
+              eleicoes.length === 1
+                ? `${eleicoes[0].chapas.length} chapas →`
+                : `${eleicoes.length} →`,
+          },
+        ]
+      : []),
+    {
+      chave: "livros",
+      Icone: IconeLivros,
+      titulo: "Livros",
+      texto:
+        "O que foi lido sobre este país, com a nota de leitura de cada título.",
+      href: estante.length > 0 ? "#livros" : "/biblioteca",
+      contador: estante.length > 0 ? `${estante.length} →` : "a biblioteca →",
+    },
+  ];
+
   const primeiro = pais.periodos[0];
   const ultimo = pais.periodos[pais.periodos.length - 1];
   const cobertura = primeiro
@@ -162,58 +243,30 @@ export default async function PaisPage({
       </section>
 
       <div className="mx-auto max-w-5xl space-y-20 px-6 py-16 md:py-24">
-        {/* As três alas, como os três cartões de navegação do template. */}
-        <section className="grid grid-cols-1 gap-8 md:grid-cols-3">
-          <a
-            href="#periodos"
-            className="group rounded-lg border border-zinc-800 p-6 transition-colors hover:border-amber-500/30"
-          >
-            <div className="flex flex-col items-center gap-3 text-center">
-              <IconePeriodos className="h-10 w-10 text-amber-500" />
-              <h3 className="font-serif text-xl text-zinc-50">Períodos</h3>
-              <p className="text-sm leading-relaxed text-zinc-400">
-                A linha do tempo do território, um regime por vez, com o que
-                mudou de fronteira e de governo em cada um.
-              </p>
-              <span className="mt-1 font-mono text-xs text-amber-500/70 group-hover:text-amber-500">
-                {pais.periodos.length} →
-              </span>
-            </div>
-          </a>
+        {/*
+          As alas, na forma dos cartões de navegação do template.
 
-          <a
-            href={figuras.length > 0 ? "#figuras" : "#periodos"}
-            className="group rounded-lg border border-zinc-800 p-6 transition-colors hover:border-amber-500/30"
-          >
-            <div className="flex flex-col items-center gap-3 text-center">
-              <IconeFiguras className="h-10 w-10 text-amber-500" />
-              <h3 className="font-serif text-xl text-zinc-50">Figuras</h3>
-              <p className="text-sm leading-relaxed text-zinc-400">
-                Quem respondeu por decisão registrada, com alegação, fonte e
-                estado processual declarados.
-              </p>
-              <span className="mt-1 font-mono text-xs text-amber-500/70 group-hover:text-amber-500">
-                {figuras.length > 0 ? `${figuras.length} →` : "nenhuma ainda"}
-              </span>
-            </div>
-          </a>
-
-          <a
-            href={estante.length > 0 ? "#livros" : "/biblioteca"}
-            className="group rounded-lg border border-zinc-800 p-6 transition-colors hover:border-amber-500/30"
-          >
-            <div className="flex flex-col items-center gap-3 text-center">
-              <IconeLivros className="h-10 w-10 text-amber-500" />
-              <h3 className="font-serif text-xl text-zinc-50">Livros</h3>
-              <p className="text-sm leading-relaxed text-zinc-400">
-                O que foi lido sobre este país, com a nota de leitura de cada
-                título.
-              </p>
-              <span className="mt-1 font-mono text-xs text-amber-500/70 group-hover:text-amber-500">
-                {estante.length > 0 ? `${estante.length} →` : "a biblioteca →"}
-              </span>
-            </div>
-          </a>
+          `sm:grid-cols-2 lg:grid-cols-3` em vez do `md:grid-cols-3` fixo de
+          antes: o número de cartões passou a depender do país, e três colunas
+          rígidas quebravam assim que um país tivesse cinco alas.
+        */}
+        <section className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {alas.map(({ chave, Icone, titulo, texto, href, contador }) => (
+            <a
+              key={chave}
+              href={href}
+              className="group rounded-lg border border-zinc-800 p-6 transition-colors hover:border-amber-500/30"
+            >
+              <div className="flex flex-col items-center gap-3 text-center">
+                <Icone className="h-10 w-10 text-amber-500" />
+                <h3 className="font-serif text-xl text-zinc-50">{titulo}</h3>
+                <p className="text-sm leading-relaxed text-zinc-400">{texto}</p>
+                <span className="mt-1 font-mono text-xs text-amber-500/70 group-hover:text-amber-500">
+                  {contador}
+                </span>
+              </div>
+            </a>
+          ))}
         </section>
 
         {/*

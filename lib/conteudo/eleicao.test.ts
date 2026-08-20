@@ -29,13 +29,15 @@ function base() {
         id: "a",
         candidato: "Ana",
         partido: "X",
-        situacao: "registro-protocolado",
+        // `as const` senão o literal alarga para `string` e `emOrdemAlfabetica`,
+        // que recebe `Chapa[]`, deixa de aceitar a fixture.
+        situacao: "registro-protocolado" as const,
       },
       {
         id: "b",
         candidato: "Bruno",
         partido: "Y",
-        situacao: "registro-deferido",
+        situacao: "registro-deferido" as const,
       },
     ],
     fontes: ["alguma-fonte"],

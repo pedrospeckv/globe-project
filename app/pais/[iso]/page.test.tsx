@@ -138,3 +138,76 @@ describe("dossiê de país", () => {
     expect(container.textContent).not.toContain("Indicadores");
   });
 });
+
+/**
+ * Os cartões do topo — a única navegação que o leitor vê sem rolar.
+ *
+ * Existem porque Episódios e Eleições passaram a existir como seção sem
+ * existir como cartão: o conteúdo estava na página e não havia como chegar
+ * nele senão rolando o dossiê inteiro até topar com a seção. Um cartão que
+ * aponta para lugar nenhum é a mesma falha vista do outro lado, e o primeiro
+ * teste aqui cobre as duas direções de uma vez.
+ */
+describe("as alas da central", () => {
+  function alas(container: HTMLElement) {
+    return [...container.querySelectorAll("section.grid > a")];
+  }
+
+  it.each(acervo.paises.map((p) => p.iso))(
+    "%s: toda âncora de cartão cai numa seção que existe",
+    async (iso) => {
+      const { container } = await dossie(iso);
+      const ancoras = alas(container)
+        .map((a) => a.getAttribute("href")!)
+        .filter((h) => h.startsWith("#"));
+
+      expect(ancoras.length).toBeGreaterThan(0);
+      for (const href of ancoras) {
+        expect(container.querySelector(href)).not.toBeNull();
+      }
+    }
+  );
+
+  it.each(acervo.paises.map((p) => p.iso))(
+    "%s: toda seção nova do dossiê tem cartão apontando para ela",
+    async (iso) => {
+      const { container } = await dossie(iso);
+      const destinos = new Set(alas(container).map((a) => a.getAttribute("href")));
+
+      /*
+         Episódios e Eleições e nada mais: Períodos e Figuras têm cartão
+         mesmo vazios, e Livros cai na biblioteca geral quando a estante do
+         país está vazia. Estas duas só aparecem quando há conteúdo, e é
+         justamente aí que o cartão precisa aparecer junto.
+      */
+      for (const id of ["#episodios", "#eleicoes"]) {
+        if (!container.querySelector(id)) continue;
+        const direto = id === "#eleicoes" && [...destinos].some((h) => h?.startsWith("/eleicao/"));
+        expect(destinos.has(id) || direto).toBe(true);
+      }
+    }
+  );
+
+  it("o Brasil ganhou cartão de eleição, e ele entra direto na página", async () => {
+    const { container } = await dossie("BRA");
+    const cartao = alas(container).find((a) =>
+      a.textContent?.includes("Eleições")
+    );
+    expect(cartao).toBeDefined();
+    // Uma eleição só: a seção seria um clique a mais para o mesmo lugar.
+    expect(cartao!.getAttribute("href")).toBe("/eleicao/2026-presidencial");
+    expect(cartao!.textContent).toContain("13 chapas");
+  });
+
+  it("país sem eleição nem episódio não ganha cartão morto", async () => {
+    const iso = acervo.paises.find(
+      (p) =>
+        !acervo.eleicoes.some((e) => e.paisIso === p.iso) &&
+        !acervo.episodios.some((e) => e.paises.includes(p.iso))
+    )!.iso;
+    const { container } = await dossie(iso);
+    const textos = alas(container).map((a) => a.querySelector("h3")?.textContent);
+    expect(textos).not.toContain("Eleições");
+    expect(textos).not.toContain("Episódios");
+  });
+});
