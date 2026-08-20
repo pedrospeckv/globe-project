@@ -1,0 +1,39 @@
+{
+  "iso": "SWE",
+  "isoNumerico": "752",
+  "nome": "Suécia",
+  "periodos": [
+    {
+      "id": "se-era-viking-e-uniao",
+      "inicio": "800",
+      "fim": "1523",
+      "rotulo": "Era Viking e Reino da Suécia",
+      "regime": "chefaturas e depois monarquia unificada, sob a União de Kalmar entre 1397 e 1523",
+      "textoMdx": "Os vikings suecos olham para o leste, não para o oeste: enquanto noruegueses e dinamarqueses saqueiam as ilhas britânicas e a França, os suecos navegam os rios russos até o Mar Cáspio e Constantinopla, comerciando e fundando principados que dariam origem ao próprio nome da Rússia.\n\n**Os Rus, mercadores-guerreiros suecos, fundam os primeiros principados eslavos orientais.** A partir do século IX, eles estabelecem rotas comerciais pelos rios Volga e Dniepre; a tradição historiográfica liga o nome Rus, origem de Rússia, a esses colonos escandinavos que se fundiriam gradualmente com a população eslava local.\n\n**O cristianismo se consolida lentamente, ao longo dos séculos XI e XII**, e a monarquia sueca emerge de uma confederação de chefaturas regionais — Svear e Götar — para um reino unificado apenas de forma gradual, sem a centralização mais rápida vista na Dinamarca do mesmo período.\n\n**A União de Kalmar, em 1397, une as três coroas escandinavas sob um só monarca.** Dinamarca, Noruega e Suécia — esta incluindo a Finlândia, então parte integral do reino sueco — formam uma união pessoal sob a rainha Margarida I; o arranjo, dominado na prática pela Dinamarca, gera ressentimento sueco crescente ao longo do século XV.\n\n**O Banho de Sangue de Estocolmo, em 1520, é o evento que rompe a união.** O rei dinamarquês Christian II manda executar dezenas de nobres suecos após tomar a capital; a repressão provoca revolta liderada por Gustav Vasa, que expulsa os dinamarqueses e é coroado rei Gustavo I em 1523 — fundando a dinastia Vasa e a Suécia como reino plenamente independente.",
+      "fontes": [
+        "scott-suecia-historia"
+      ]
+    },
+    {
+      "id": "se-grande-potencia",
+      "inicio": "1523",
+      "fim": "1809",
+      "rotulo": "Reino da Suécia: era de grande potência",
+      "regime": "monarquia absolutista; potência militar dominante no Báltico nos séculos XVII e XVIII",
+      "textoMdx": "Por um século, entre a intervenção na Guerra dos Trinta Anos e a derrota diante de Pedro, o Grande, a Suécia é a maior potência militar do norte da Europa — um reino de população pequena que domina, por força das armas, todo o litoral báltico.\n\n**Gustavo Adolfo transforma o exército sueco no mais avançado da Europa.** Reformas táticas e organizacionais — infantaria móvel, artilharia leve, disciplina rigorosa — fazem da intervenção sueca na Guerra dos Trinta Anos, a partir de 1630, decisiva para salvar a causa protestante alemã contra os Habsburgo; o rei morre em combate em Lützen, em 1632, mas a Suécia emerge da Paz de Vestfália, em 1648, com território e prestígio ampliados.\n\n**O domínio báltico chega ao auge sob Carlos X e Carlos XI**, com territórios abrangendo partes da atual Alemanha, Polônia, países bálticos e Finlândia — o chamado Império Báltico Sueco, sustentado por uma economia agrária relativamente pobre mediante extração fiscal intensa e serviço militar obrigatório da população camponesa.\n\n**A Grande Guerra do Norte, de 1700 a 1721, destrói essa hegemonia.** Carlos XII enfrenta uma coalizão liderada pela Rússia de Pedro, o Grande; a derrota devastadora na Batalha de Poltava, em 1709, marca o fim irreversível do status de grande potência sueca. A Paz de Nystad, em 1721, cede território báltico à Rússia emergente, que assumiria dali em diante o papel de potência dominante da região.\n\n**A Era da Liberdade, entre 1718 e 1772, transfere poder real ao parlamento.** Enfraquecida a monarquia pelo desastre militar, o Riksdag — o parlamento de estamentos — governa de fato através de facções partidárias rivais, um experimento de parlamentarismo relativamente avançado para a época, interrompido por golpe do rei Gustavo III em 1772, que restaura poder real mais forte até seu assassinato em 1792.",
+      "fontes": [
+        "scott-suecia-historia"
+      ]
+    },
+    {
+      "id": "se-neutralidade",
+      "inicio": "1809",
+      "rotulo": "Reino da Suécia neutro",
+      "regime": "monarquia constitucional; neutralidade militar sustentada desde 1814",
+      "textoMdx": "Perdida a Finlândia para a Rússia em 1809 e abandonada a ambição de grande potência, a Suécia reconstrói sua política externa sobre um princípio que manteria por mais de dois séculos: não entrar em guerra.\n\n**A perda da Finlândia, em 1809, é o choque que redefine a estratégia sueca.** Depois de guerra desastrosa contra a Rússia, a Suécia cede a Finlândia inteira, território que administrava havia seiscentos anos; a resposta é uma nova constituição no mesmo ano, limitando o poder real, e uma política externa deliberadamente mais cautelosa.\n\n**A União com a Noruega, de 1814 a 1905, é a última expansão territorial sueca.** Depois das guerras napoleônicas, a Suécia recebe a Noruega — cedida pela Dinamarca, aliada derrotada de Napoleão — numa união pessoal onde a Noruega mantém constituição e instituições próprias; a união se dissolve pacificamente em 1905, quando a Noruega vota pela independência plena.\n\n**A neutralidade em duas guerras mundiais consolida a política de não alinhamento.** A Suécia permanece formalmente neutra tanto na Primeira quanto na Segunda Guerra Mundial — nesta última, com concessões controversas à Alemanha nazista, como permitir trânsito de tropas alemãs pelo território, decisão hoje objeto de debate histórico sobre até onde a neutralidade real se estendeu.\n\n**A industrialização tardia mas acelerada, no fim do século XIX, transforma um país agrário pobre.** Empresas como a Ericsson, a SKF e mais tarde a Volvo emergem dessa transformação; a emigração maciça para os Estados Unidos, entre 1850 e 1930, reflete a pobreza rural anterior à decolagem industrial.\n\n**O modelo social-democrata sueco, construído a partir dos anos 1930 sob o Partido Social-Democrata**, combina economia de mercado com Estado de bem-estar extenso — educação e saúde universais, previdência ampla, forte regulação trabalhista — tornando-se referência internacional do que ficaria conhecido como modelo nórdico.\n\n**A entrada na União Europeia, em 1995, mantém a tradição de não alinhamento militar** — a Suécia permanece fora da OTAN por quase oito décadas, até que a invasão russa da Ucrânia, em 2022, levasse o país a solicitar adesão à aliança, ingressando formalmente em 2024 e encerrando a mais longa política de neutralidade militar da Europa.",
+      "fontes": [
+        "scott-suecia-historia"
+      ]
+    }
+  ]
+}

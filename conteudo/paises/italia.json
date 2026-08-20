@@ -1,0 +1,52 @@
+{
+  "iso": "ITA",
+  "isoNumerico": "380",
+  "nome": "Itália",
+  "periodos": [
+    {
+      "id": "it-fragmentacao",
+      "inicio": "962",
+      "fim": "1861",
+      "rotulo": "Fragmentação pós-carolíngia: repúblicas, reinos e o Papado",
+      "regime": "mosaico de repúblicas marítimas, comunas, senhorios, reinos e Estados Pontifícios independentes",
+      "textoMdx": "Depois da queda do Império Carolíngio, a península que Dante chamaria de jardim do império fica sem coroa unificada por novecentos anos — e nesse vazio nascem as repúblicas comerciais mais ricas da Europa medieval.\n\n**Veneza, Gênova e Pisa disputam o Mediterrâneo.** Repúblicas marítimas oligárquicas, governadas por mercadores e não por nobreza feudal, elas constroem impérios comerciais que chegam ao Levante e ao Mar Negro; Veneza saqueia Constantinopla na Quarta Cruzada, em 1204, e domina rotas de especiarias por séculos. A rivalidade entre Gênova e Veneza é guerra quase constante.\n\n**As comunas do centro-norte inventam formas de autogoverno urbano.** Florença, Siena, Milão e dezenas de outras cidades desenvolvem instituições republicanas, guildas e uma economia bancária sofisticada — o florim florentino torna-se moeda de referência internacional. A luta entre guelfos, aliados do papado, e gibelinos, aliados do império, atravessa gerações de conflito urbano.\n\n**O Papado governa um Estado territorial no centro da península**, os Estados Pontifícios, com o papa como soberano temporal além de autoridade espiritual — arranjo que duraria, com interrupções, até 1870.\n\n**O Renascimento nasce dessa fragmentação política competitiva.** É precisamente a rivalidade entre cortes — Médici em Florença, Sforza em Milão, os papas em Roma — que financia Leonardo, Michelangelo e Rafael, numa corrida de prestígio artístico entre Estados pequenos demais para competir militarmente com as monarquias emergentes da França e da Espanha.\n\n**As Guerras Italianas, de 1494 a 1559, expõem essa fragilidade militar.** França e Espanha disputam o controle da península por décadas; termina com a Paz de Cateau-Cambrésis consolidando domínio espanhol sobre grande parte do território, e a Itália entra em três séculos de domínio estrangeiro fragmentado — austríaco, espanhol, depois napoleônico — sem jamais deixar de ser, nas palavras de Metternich, uma mera expressão geográfica.",
+      "fontes": [
+        "duggan-historia-italia"
+      ]
+    },
+    {
+      "id": "it-unificacao-e-liberal",
+      "inicio": "1861",
+      "fim": "1922",
+      "rotulo": "Reino da Itália liberal",
+      "regime": "monarquia constitucional parlamentar sob a Casa de Sabóia",
+      "textoMdx": "A unificação, proclamada em 1861, reúne pela primeira vez em mil e trezentos anos a península sob uma coroa — mas o país que nasce tem um norte industrial e um sul agrário tão distintos que os próprios italianos debatem se são o mesmo povo.\n\n**Cavour orquestra a unificação pela diplomacia, Garibaldi pela guerra.** O primeiro-ministro do Reino da Sardenha-Piemonte, Camillo Cavour, negocia alianças com a França para expulsar a Áustria do norte; Giuseppe Garibaldi, com seus Mil camisas vermelhas, conquista o Reino das Duas Sicílias no sul em 1860 e o entrega ao rei Vítor Emanuel II — episódio que combina conquista militar popular com anexação monárquica.\n\n**Roma só se junta em 1870, à força.** A capital dos Estados Pontifícios resiste até as tropas italianas romperem a Porta Pia; o papa Pio IX se declara prisioneiro no Vaticano, recusando reconhecer o novo Estado — a Questão Romana só seria resolvida pelos Pactos de Latrão, em 1929.\n\n**O sul é anexado, não integrado.** A diferença econômica entre o norte industrializado e o Mezzogiorno agrário e latifundiário — questione meridionale — torna-se o problema estrutural do Estado italiano; a repressão do banditismo no sul nos anos 1860 é conduzida como guerra colonial interna, e a emigração em massa para as Américas começa nessa desigualdade, não depois dela.\n\n**O voto é restrito e o Estado é anticlerical por reação ao papado.** Apenas uma fração pequena da população adulta masculina vota até reformas graduais ampliarem o sufrágio; o Vaticano proíbe católicos de participar da política do reino, situação só revertida no início do século XX.\n\n**A entrada na Primeira Guerra, em 1915, é decidida por interesse territorial e mina o liberalismo.** Prometida a território austríaco pelo Tratado de Londres em troca de entrar ao lado dos Aliados, a Itália sofre perdas enormes — a derrota de Caporetto, em 1917, quase colapsa o front — e sai da guerra vitoriosa, mas sentindo-se traída pelo que recebe no Tratado de Versalhes: a chamada vitória mutilada alimentaria o nacionalismo que o fascismo exploraria.",
+      "fontes": [
+        "duggan-historia-italia"
+      ]
+    },
+    {
+      "id": "it-fascismo",
+      "inicio": "1922",
+      "fim": "1943",
+      "rotulo": "Itália fascista",
+      "regime": "ditadura de partido único sob Mussolini, monarquia mantida como fachada",
+      "textoMdx": "Vinte e um anos em que a Itália se torna o primeiro Estado fascista do mundo, oferecendo o modelo que a Alemanha nazista adaptaria uma década depois — e terminando em guerra civil e execução sumária do próprio líder.\n\n**A Marcha sobre Roma, em outubro de 1922, é mais intimidação que golpe militar.** Dezenas de milhares de camisas negras convergem sobre a capital; o rei Vítor Emanuel III, temendo guerra civil, nomeia Mussolini primeiro-ministro em vez de declarar estado de sítio — a legalidade formal disfarça a tomada de poder.\n\n**O assassinato de Matteotti, em 1924, é o momento em que o regime se revela.** O deputado socialista que denunciara fraude eleitoral fascista é sequestrado e morto por esquadrões do regime; em vez de recuar sob a indignação pública, Mussolini assume responsabilidade política em discurso ao Parlamento e acelera a construção do Estado de partido único.\n\n**Os Pactos de Latrão, em 1929, resolvem a Questão Romana em favor do regime.** Mussolini negocia com a Santa Sé o reconhecimento mútuo — soberania papal sobre o Vaticano, catolicismo como religião de Estado — ganhando legitimidade e apoio clerical que a monarquia liberal nunca havia conseguido.\n\n**O corporativismo organiza economia e sociedade sob controle estatal**, com sindicatos e associações patronais fundidos em corporações supervisionadas pelo Estado — modelo que Mussolini exportaria como alternativa tanto ao liberalismo quanto ao comunismo.\n\n**A invasão da Etiópia, em 1935-1936, e as Leis Raciais de 1938 mostram a radicalização do regime.** A conquista colonial usa gás venenoso contra a população etíope; três anos depois, seguindo o exemplo alemão, a Itália fascista impõe legislação antissemita que expulsa judeus da vida pública, profissional e educacional.\n\n**A aliança com Hitler leva à guerra e ao colapso.** Depois de derrotas na Grécia, no norte da África e na própria Itália, o Grande Conselho Fascista depõe Mussolini em julho de 1943; resgatado pelos alemães, ele lidera um Estado fantoche no norte, a República de Saló, enquanto o país se divide entre partisans, Aliados avançando pelo sul e ocupação alemã no norte. Capturado por partisans em abril de 1945, é executado sumariamente perto do Lago de Como.",
+      "fontes": [
+        "gilbert-mussolini-fascismo",
+        "trattato-lateranense-1929"
+      ]
+    },
+    {
+      "id": "it-republica",
+      "inicio": "1943",
+      "rotulo": "República Italiana",
+      "regime": "república parlamentarista, sob a Constituição de 1948",
+      "textoMdx": "Oito décadas desde o armistício, passando pelo milagre econômico, pelos anos de chumbo do terrorismo político, e por uma reformulação completa do sistema partidário na década de 1990 — sem jamais alcançar a estabilidade governamental de seus vizinhos europeus.\n\n**O referendo de 1946 substitui a monarquia pela república por margem estreita.** Depois de vinte anos de colaboração da coroa com o fascismo, os italianos votam abolir a monarquia; a Constituição de 1948 estabelece um parlamentarismo com poderes deliberadamente fragmentados, reação ao trauma do executivo forte fascista.\n\n**O milagre econômico, entre os anos 1950 e 1960, transforma um país agrário em potência industrial.** Fiat, Olivetti e a indústria do design fazem da Itália uma das maiores economias do mundo; a migração maciça do sul pobre para as fábricas do norte reconfigura a geografia social do país sem resolver a questione meridionale original.\n\n**Os anos de chumbo, dos anos 1960 aos 1980, são de terrorismo político dos dois extremos.** As Brigadas Vermelhas, de esquerda, sequestram e assassinam o ex-primeiro-ministro Aldo Moro em 1978; grupos neofascistas realizam atentados como o da estação de Bolonha, em 1980, que mata dezenas. O Estado italiano opera sob suspeita permanente de conluio entre serviços secretos e extrema-direita — a chamada estratégia da tensão.\n\n**A Mãos Limpas, entre 1992 e 1994, destrói o sistema partidário da Primeira República.** Uma investigação judicial sobre corrupção sistêmica entre partidos e empresas leva ao colapso da Democracia Cristã e do Partido Socialista, que haviam dominado o governo desde 1948; Silvio Berlusconi, empresário de mídia, funda um partido do zero e vence a eleição seguinte, inaugurando um período de instabilidade e polarização que se estenderia por décadas.\n\n**A instabilidade governamental é estrutural, não incidental.** A Itália tem mais de sessenta governos desde 1946, com mandatos médios inferiores a um ano; a eleição de Giorgia Meloni em 2022, à frente de uma coalizão de direita com raízes no pós-fascismo, marca outra reconfiguração do sistema partidário, num país que segue sem resolver a diferença econômica entre norte e sul.",
+      "fontes": [
+        "ginsborg-italia-contemporanea",
+        "duggan-historia-italia"
+      ]
+    }
+  ]
+}

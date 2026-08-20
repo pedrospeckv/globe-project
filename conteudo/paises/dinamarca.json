@@ -1,0 +1,39 @@
+{
+  "iso": "DNK",
+  "isoNumerico": "208",
+  "nome": "Dinamarca",
+  "periodos": [
+    {
+      "id": "dk-reino-viking",
+      "inicio": "958",
+      "fim": "1814",
+      "rotulo": "Reino da Dinamarca",
+      "regime": "monarquia unificada sob Haroldo Dente-Azul, cristianizada por volta de 965",
+      "textoMdx": "A Dinamarca reivindica ser a monarquia contínua mais antiga da Europa, remontando à unificação sob Haroldo Dente-Azul, cujo nome, aliás, batizaria séculos depois a tecnologia de conexão sem fio Bluetooth — homenagem à sua fama de unificador.\n\n**Haroldo Dente-Azul unifica o reino e adota o cristianismo por volta de 965**, decisão registrada na pedra rúnica de Jelling, monumento que ele próprio ergueu proclamando ter tornado os dinamarqueses cristãos — um dos documentos políticos mais antigos da Escandinávia.\n\n**Canuto, o Grande, governa um império do Mar do Norte no início do século XI**, unindo sob sua coroa Dinamarca, Inglaterra e Noruega por um período — o apogeu do poder viking dinamarquês, dissolvido rapidamente após sua morte em 1035, quando os três reinos se separam novamente.\n\n**A União de Kalmar, em 1397, coloca a Dinamarca no centro do poder escandinavo.** Sob a rainha Margarida I, dinamarquesa, a união das três coroas — Dinamarca, Noruega, Suécia — é dominada na prática por Copenhague; esse domínio geraria o ressentimento sueco que romperia a união em 1523, mas a Dinamarca manteria a Noruega sob seu controle direto por mais quatro séculos.\n\n**A Reforma Protestante, adotada oficialmente em 1536, reorganiza Igreja e Estado sob controle real direto**, com confisco de propriedades eclesiásticas que fortaleceria significativamente as finanças da coroa dinamarquesa nos séculos seguintes.",
+      "fontes": [
+        "jespersen-historia-dinamarca"
+      ]
+    },
+    {
+      "id": "dk-declinio-territorial",
+      "inicio": "1814",
+      "fim": "1940",
+      "rotulo": "Reino da Dinamarca reduzido",
+      "regime": "monarquia absolutista até 1849, depois constitucional; perdas territoriais sucessivas",
+      "textoMdx": "O século XIX dinamarquês é de contração territorial contínua: a Noruega em 1814, Schleswig-Holstein em 1864 — cada perda reduzindo o reino de potência regional a pequeno Estado, processo que moldaria profundamente a identidade nacional dinamarquesa.\n\n**O Tratado de Kiel, em 1814, cede a Noruega à Suécia** como punição por a Dinamarca ter se aliado a Napoleão na guerra; a perda de um território administrado por quatro séculos é o primeiro grande choque territorial do período.\n\n**A Guerra dos Ducados, em 1864, é ainda mais traumática.** A Prússia e a Áustria derrotam a Dinamarca numa guerra breve pela posse dos ducados de Schleswig e Holstein, de população mista dinamarquesa e alemã; a derrota custa cerca de dois quintos do território e da população do reino, encolhendo a Dinamarca à sua extensão territorial atual, aproximadamente — perda que a memória nacional dinamarquesa trataria por gerações como ferida fundamental.\n\n**A resposta a essas perdas é introspectiva e reconstrutiva, não revanchista.** O movimento agrário e educacional inspirado por N. F. S. Grundtvig, com suas escolas populares — folkehøjskoler —, promove alfabetização, cooperativismo agrícola e identidade cultural dinamarquesa centrada na língua e na tradição, em vez de ambição territorial; o cooperativismo leiteiro e agrícola que floresce no fim do século transformaria a Dinamarca numa das economias agrícolas mais eficientes da Europa.\n\n**A transição do absolutismo para a monarquia constitucional, em 1849, ocorre de forma relativamente pacífica**, sob pressão das revoluções liberais que varriam a Europa naquele ano — a June Constitution estabelece parlamento bicameral e direitos civis, marco da democratização dinamarquesa.",
+      "fontes": [
+        "jespersen-historia-dinamarca"
+      ]
+    },
+    {
+      "id": "dk-guerra-e-estado-social",
+      "inicio": "1940",
+      "rotulo": "Ocupação alemã e reconstrução do Estado social",
+      "regime": "ocupação militar alemã até 1945; depois monarquia constitucional com Estado de bem-estar amplo",
+      "textoMdx": "A ocupação alemã, de 1940 a 1945, é administrada de forma incomumente branda para os padrões nazistas — o que tornaria ainda mais notável o resgate quase completo da população judaica dinamarquesa em 1943.\n\n**A invasão alemã, em abril de 1940, encontra resistência mínima.** Superada em poucas horas, a Dinamarca é ocupada mas mantém governo e administração civil próprios sob supervisão alemã — arranjo conhecido como a ocupação modelo, significativamente menos repressivo que o regime imposto a outros territórios ocupados, ao menos até 1943.\n\n**O resgate dos judeus dinamarqueses, em outubro de 1943, é episódio único no Holocausto europeu.** Avisada de planos de deportação iminente, a resistência dinamarquesa organiza, em poucos dias, a travessia clandestina de quase toda a comunidade judaica — mais de sete mil pessoas — para a Suécia neutra, de barco, através do estreito de Øresund; cerca de 99% da população judaica dinamarquesa sobrevive ao Holocausto, proporção sem paralelo em qualquer outro país ocupado.\n\n**O Estado de bem-estar social dinamarquês, construído sobretudo a partir do pós-guerra**, expande-se sobre bases lançadas ainda nos anos 1930 pelo governo social-democrata — educação e saúde universais, previdência ampla, mercado de trabalho flexível combinado a seguridade forte, modelo conhecido como flexicurity.\n\n**A relação com a Groenlândia e as Ilhas Faroé evolui de colonial para autonomia extensa.** A Groenlândia, integrada como parte do reino em 1953, obtém autogoverno em 1979 e autonomia ampliada em 2009, incluindo direito a referendo de independência; as Ilhas Faroé têm autogoverno desde 1948. A Dinamarca hoje se define como reino unitário multiterritorial mais que Estado unicamente europeu.\n\n**A entrada na Comunidade Europeia, em 1973, é seguida de relação ambivalente com a integração europeia.** Referendos rejeitam adoção do euro, em 2000, e participação em certas políticas de defesa e justiça comuns, refletindo ceticismo popular persistente quanto à cessão adicional de soberania — mesmo padrão que aparece, com intensidade variável, nos demais países nórdicos.",
+      "fontes": [
+        "jespersen-historia-dinamarca"
+      ]
+    }
+  ]
+}

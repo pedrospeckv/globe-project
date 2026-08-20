@@ -3015,5 +3015,117 @@
     "publicacao": "Tribunal Constitucional da Espanha",
     "data": "2017",
     "citacao": "Declarou inconstitucional e nula a lei catalã que convocava o referendo de independência de 1º de outubro de 2017, por violar a soberania nacional indivisível estabelecida na Constituição de 1978. O referendo ocorreu apesar da decisão, sob intervenção policial que deixou centenas de feridos."
+  },
+  {
+    "id": "duggan-historia-italia",
+    "tipo": "livro",
+    "titulo": "A Concise History of Italy",
+    "autor": "Christopher Duggan",
+    "data": "1994",
+    "citacao": "História da Itália da fragmentação medieval à unificação e ao século XX. Trata a diferença entre norte industrial e sul agrário como problema estrutural não resolvido pela unificação de 1861, e o fascismo como resposta à crise do liberalismo pós-Primeira Guerra."
+  },
+  {
+    "id": "gilbert-mussolini-fascismo",
+    "tipo": "livro",
+    "titulo": "Mussolini and Fascist Italy",
+    "autor": "Martin Blinkhorn",
+    "data": "1984",
+    "citacao": "Síntese do regime fascista italiano, da Marcha sobre Roma em 1922 à queda de Mussolini em 1943. Discute o corporativismo como projeto econômico, as Leis Raciais de 1938 e a aliança com a Alemanha nazista."
+  },
+  {
+    "id": "ginsborg-italia-contemporanea",
+    "tipo": "livro",
+    "titulo": "A History of Contemporary Italy: Society and Politics, 1943-1988",
+    "autor": "Paul Ginsborg",
+    "data": "1990",
+    "citacao": "História social e política da Itália do armistício de 1943 ao fim dos anos 1980. Acompanha o milagre econômico, os anos de chumbo e a estabilidade instável da Primeira República sob domínio democrata-cristão."
+  },
+  {
+    "id": "trattato-lateranense-1929",
+    "tipo": "documento-oficial",
+    "titulo": "Patti Lateranensi",
+    "publicacao": "Reino da Itália e Santa Sé",
+    "data": "1929",
+    "citacao": "Encerrou a Questão Romana aberta desde 1870, reconhecendo a soberania da Santa Sé sobre a Cidade do Vaticano e o catolicismo como religião do Estado italiano em troca do reconhecimento papal do Reino da Itália. Negociado por Mussolini, permaneceu em vigor, com revisão em 1984, depois da queda do fascismo."
+  },
+  {
+    "id": "davies-campo-de-jogo-deus",
+    "tipo": "livro",
+    "titulo": "God's Playground: A History of Poland",
+    "autor": "Norman Davies",
+    "data": "1981",
+    "citacao": "História da Polônia em dois volumes, da fundação medieval ao século XX. Situa o país entre potências que repetidamente a dividiram, e trata a Comunidade Polaco-Lituana como experimento constitucional único na Europa moderna, com o liberum veto como sua fraqueza estrutural."
+  },
+  {
+    "id": "snyder-terras-de-sangue",
+    "tipo": "livro",
+    "titulo": "Bloodlands: Europe Between Hitler and Stalin",
+    "autor": "Timothy Snyder",
+    "data": "2010",
+    "citacao": "Estudo comparado da violência de massa nazista e soviética na Europa Central e Oriental entre 1933 e 1945, com a Polônia como um dos territórios mais atingidos pelos dois regimes. Documenta o Holocausto, o massacre de Katyn e a fome deliberada na Ucrânia."
+  },
+  {
+    "id": "protocolo-secreto-molotov-ribbentrop",
+    "tipo": "documento-oficial",
+    "titulo": "Protocolo Secreto Adicional ao Pacto Molotov-Ribbentrop",
+    "publicacao": "Alemanha nazista e União Soviética",
+    "data": "1939-08-23",
+    "citacao": "Dividiu a Europa Oriental em esferas de influência entre a Alemanha e a URSS, incluindo a partilha da Polônia. Sua existência foi negada pela URSS por décadas e só reconhecida oficialmente em 1989, com a publicação do texto original."
+  },
+  {
+    "id": "acordo-mesa-redonda-polonia-1989",
+    "tipo": "documento-oficial",
+    "titulo": "Acordos da Mesa Redonda Polonesa",
+    "publicacao": "Governo da República Popular da Polônia e Solidariedade",
+    "data": "1989",
+    "citacao": "Negociação entre o governo comunista polonês e a oposição liderada pelo Solidariedade que levou a eleições semilivres em junho de 1989, as primeiras do bloco soviético, e abriu caminho para o primeiro governo não comunista da Europa Oriental desde a Segunda Guerra."
+  },
+  {
+    "id": "scott-suecia-historia",
+    "tipo": "livro",
+    "titulo": "Sweden: The Nation's History",
+    "autor": "Franklin D. Scott",
+    "data": "1977",
+    "citacao": "História sueca da era viking à segunda metade do século XX. Acompanha a era da grande potência báltica no século XVII, a neutralidade construída após 1814 e a formação do Estado de bem-estar social do século XX."
+  },
+  {
+    "id": "derry-historia-noruega",
+    "tipo": "livro",
+    "titulo": "A History of Modern Norway, 1814-1972",
+    "autor": "T. K. Derry",
+    "data": "1973",
+    "citacao": "História da Noruega da união com a Suécia em 1814 à independência de 1905 e ao século XX. Trata a descoberta de petróleo no Mar do Norte, no fim dos anos 1960, como o evento que redefiniu a economia norueguesa."
+  },
+  {
+    "id": "jespersen-historia-dinamarca",
+    "tipo": "livro",
+    "titulo": "A History of Denmark",
+    "autor": "Knud J. V. Jespersen",
+    "data": "2004",
+    "citacao": "História dinamarquesa do reino viking ao Estado social contemporâneo. Discute a perda da Noruega em 1814 e de Schleswig-Holstein em 1864 como os choques que reduziram a Dinamarca de potência regional a pequeno Estado, e a resposta social-democrata do século XX."
+  },
+  {
+    "id": "singleton-historia-finlandia",
+    "tipo": "livro",
+    "titulo": "A Short History of Finland",
+    "autor": "Fred Singleton",
+    "data": "1989",
+    "citacao": "História finlandesa do domínio sueco e russo à independência de 1917 e ao século XX. Acompanha a Guerra Civil de 1918, a Guerra de Inverno de 1939-1940 contra a URSS e a política de neutralidade cautelosa da Guerra Fria, conhecida como finlandização."
+  },
+  {
+    "id": "tratado-paz-paris-1947",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Paz de Paris com a Finlândia",
+    "publicacao": "Potências Aliadas e Finlândia",
+    "data": "1947",
+    "citacao": "Encerrou formalmente o estado de guerra entre a Finlândia e os Aliados, confirmando as cessões territoriais à União Soviética acordadas em 1944 — incluindo a Carélia — e impondo reparações de guerra pagas por completo até 1952."
+  },
+  {
+    "id": "karlsson-historia-islandia",
+    "tipo": "livro",
+    "titulo": "The History of Iceland",
+    "autor": "Gunnar Karlsson",
+    "data": "2000",
+    "citacao": "História islandesa do povoamento viking em 874 ao século XX. Trata o Althing, fundado em 930, como uma das assembleias legislativas mais antigas do mundo em funcionamento contínuo, e as Guerras do Bacalhau do século XX como disputa central da política externa islandesa moderna."
   }
 ]

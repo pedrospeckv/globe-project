@@ -1,0 +1,51 @@
+{
+  "iso": "FIN",
+  "isoNumerico": "246",
+  "nome": "Finlândia",
+  "periodos": [
+    {
+      "id": "fi-dominio-sueco",
+      "inicio": "1155",
+      "fim": "1809",
+      "rotulo": "Finlândia sob domínio sueco",
+      "regime": "território integrado ao Reino da Suécia, administrado como parte do reino",
+      "textoMdx": "Diferente de seus vizinhos escandinavos, a Finlândia não emerge como reino próprio na Idade Média: ela é gradualmente incorporada ao Reino da Suécia a partir do século XII, permanecendo parte integrante da coroa sueca por mais de seis séculos — período que moldaria profundamente sua língua administrativa, religião e instituições.\n\n**A chamada Primeira Cruzada sueca à Finlândia, tradicionalmente datada de 1155**, é semilendária, mas marca o início convencional da integração cristã e política finlandesa à esfera sueca; a conquista real e gradual se estende ao longo dos séculos XII e XIII, incluindo conflito prolongado com a República de Novgorod pelo controle do território oriental.\n\n**O sueco torna-se língua da administração, da nobreza e da educação**, enquanto o finlandês permanece majoritariamente língua falada pela população rural — divisão linguística que perduraria como questão social e política até o século XX, mesmo após a independência.\n\n**A Reforma Protestante chega à Finlândia através da Suécia no século XVI.** Mikael Agricola, bispo de Turku, traduz o Novo Testamento para o finlandês em 1548 e é considerado o pai da língua escrita finlandesa — um dos raros momentos em que a Finlândia produz um marco cultural próprio dentro do período sueco.\n\n**A Grande Cólera do Norte, de 1695 a 1697, mata talvez um terço da população finlandesa**, uma das piores catástrofes demográficas da história europeia registrada, decorrente de colheitas fracassadas sucessivas — episódio pouco lembrado fora da Finlândia, mas que marca profundamente a memória histórica local.\n\n**A Grande Guerra do Norte, no início do século XVIII, traz ocupação russa devastadora à Finlândia** — o período conhecido como a Grande Ira, entre 1714 e 1721 —, prenúncio do padrão que se repetiria: a Finlândia como território disputado entre Suécia e Rússia, cada vez mais às custas da segunda.",
+      "fontes": [
+        "singleton-historia-finlandia"
+      ]
+    },
+    {
+      "id": "fi-grao-ducado-russo",
+      "inicio": "1809",
+      "fim": "1917",
+      "rotulo": "Grão-Ducado da Finlândia",
+      "regime": "grão-ducado autônomo sob o czar russo, com constituição, senado e moeda próprios",
+      "textoMdx": "A conquista russa de 1809 paradoxalmente confere à Finlândia mais autonomia institucional do que ela jamais tivera sob domínio sueco — um grão-ducado com constituição, parlamento consultivo, moeda e, eventualmente, exército próprios, tudo sob a coroa do czar.\n\n**A Guerra Finlandesa, de 1808-1809, transfere a Finlândia da Suécia para a Rússia.** Napoleão e o czar Alexandre I, aliados por acordo em Tilsit, coordenam a invasão russa; a Suécia perde definitivamente o território que administrara por seis séculos, e a Finlândia torna-se grão-ducado autônomo do Império Russo.\n\n**Alexandre I concede autonomia extensa, calculadamente.** Mantendo as leis suecas existentes, convocando a Dieta finlandesa e preservando privilégios locais, o czar busca lealdade da nova população através de concessão institucional, não repressão — arranjo que permite à Finlândia desenvolver, ao longo do século XIX, instituições nacionais próprias sob guarda-chuva imperial russo relativamente frouxo.\n\n**Helsinque torna-se capital em 1812**, substituindo Turku, num gesto deliberado de reorientar o centro administrativo finlandês para mais perto de São Petersburgo e mais longe da influência sueca residual.\n\n**O despertar nacional finlandês floresce sob esse guarda-chuva autonomista.** A publicação do Kalevala, epopeia nacional compilada por Elias Lönnrot a partir de tradição oral em 1835, e a promoção gradual do finlandês a par do sueco como língua oficial, em 1863, constroem identidade nacional distinta que a autonomia russa, paradoxalmente, permitira florescer.\n\n**A russificação, a partir de 1899, rompe esse equilíbrio.** O czar Nicolau II inicia política de integração mais estreita, restringindo a autonomia finlandesa, impondo o russo na administração e tentando incorporar o exército finlandês ao russo — políticas que geram resistência crescente e preparam psicologicamente a população para a independência que a Revolução Russa de 1917 tornaria possível.",
+      "fontes": [
+        "singleton-historia-finlandia"
+      ]
+    },
+    {
+      "id": "fi-guerra-civil-e-independencia",
+      "inicio": "1917",
+      "fim": "1948",
+      "rotulo": "Independência e Guerra Civil",
+      "regime": "república proclamada em 1917; guerra civil entre brancos e vermelhos em 1918",
+      "textoMdx": "A independência, declarada em dezembro de 1917 no colapso do Império Russo, é seguida quase imediatamente por guerra civil sangrenta entre finlandeses — um trauma fundacional que dividiria a memória nacional por gerações.\n\n**A declaração de independência, em 6 de dezembro de 1917, é reconhecida pela própria Rússia soviética de Lenin** dentro de semanas — gesto bolchevique de apoio à autodeterminação nacional que rapidamente se revelaria irrelevante diante do conflito interno finlandês que se seguiria.\n\n**A Guerra Civil de 1918 opõe brancos, apoiados pela Alemanha, e vermelhos, de orientação socialista.** Os brancos, sob o comando do general Carl Gustaf Mannerheim, vencem em poucos meses, mas com custo humano desproporcional: milhares de vermelhos capturados morrem em campos de prisioneiros por fome e doença após o fim dos combates — episódio que deixaria cicatriz social profunda, só plenamente reconhecida e processada décadas depois.\n\n**A jovem república opta por regime republicano em vez de monárquico**, apesar de negociações iniciais com a Alemanha para instalar um príncipe alemão no trono — plano abandonado com a derrota alemã na Primeira Guerra Mundial em novembro de 1918.\n\n**A Guerra de Inverno, de 1939 a 1940, é o episódio mais celebrado da história militar finlandesa.** Invadida pela União Soviética após a Finlândia recusar exigências territoriais soviéticas — parte do acordo do Pacto Molotov-Ribbentrop —, a Finlândia resiste com sucesso surpreendente por cento e cinco dias, infligindo perdas desproporcionais ao Exército Vermelho antes de aceitar paz que cede território, incluindo parte da Carélia.\n\n**A Guerra de Continuação, de 1941 a 1944, é a Finlândia tentando reaver o perdido ao lado da Alemanha** — aliança de conveniência contra inimigo comum soviético que a colocaria, tecnicamente, do lado do Eixo, embora a Finlândia jamais tenha participado do Holocausto nem cedido soberania interna à Alemanha. A guerra termina com nova derrota e o Tratado de Paz de Paris, de 1947, confirmando cessões territoriais e impondo reparações pesadas — pagas integralmente até 1952, façanha que consolidaria reputação finlandesa de confiabilidade financeira internacional.",
+      "fontes": [
+        "singleton-historia-finlandia",
+        "tratado-paz-paris-1947"
+      ]
+    },
+    {
+      "id": "fi-finlandizacao-e-republica",
+      "inicio": "1948",
+      "rotulo": "República da Finlândia na Guerra Fria e depois",
+      "regime": "república semipresidencialista; neutralidade cautelosa durante a Guerra Fria",
+      "textoMdx": "Vizinha direta da União Soviética e tendo lutado duas guerras contra ela, a Finlândia constrói no pós-guerra uma política externa de cautela extrema — tão deferente às sensibilidades soviéticas que o termo finlandização entraria no vocabulário político internacional como conceito genérico.\n\n**O Tratado de Amizade, Cooperação e Assistência Mútua, de 1948, formaliza essa cautela.** Sem se tornar satélite soviético como os países do Leste Europeu, a Finlândia compromete-se a consultar a URSS em questões de segurança e evita alinhamento ocidental explícito — mantendo democracia multipartidária, economia de mercado e liberdade civil, mas praticando autocensura significativa em política externa e mídia quanto a críticas a Moscou.\n\n**A reconstrução econômica do pós-guerra transforma um país agrário empobrecido em economia industrial avançada.** As reparações de guerra pagas à URSS, embora pesadas, forçam desenvolvimento de indústria pesada e naval que, paradoxalmente, lançaria bases da industrialização finlandesa; nas décadas seguintes, o país constrói Estado de bem-estar ao estilo nórdico e se torna, mais tarde, líder global em tecnologia através da Nokia.\n\n**A Conferência de Helsinque, em 1975, é o momento de maior visibilidade diplomática finlandesa da Guerra Fria** — sediar as negociações que produziriam os Acordos de Helsinque, reconhecendo fronteiras europeias do pós-guerra e estabelecendo padrões de direitos humanos, confirma o papel finlandês como ponte cuidadosa entre blocos.\n\n**O colapso soviético, em 1991, liberta a Finlândia dessa cautela geopolítica.** O país busca imediatamente integração ocidental mais estreita: entra na União Europeia em 1995 e adota o euro em 1999 — sendo o único país nórdico a fazê-lo —, embora mantenha, por décadas ainda, política de não alinhamento militar formal.\n\n**A invasão russa da Ucrânia, em 2022, encerra abruptamente oitenta anos de neutralidade militar.** Num giro histórico rápido, a opinião pública finlandesa se converte majoritariamente a favor da adesão à OTAN em semanas; a Finlândia ingressa formalmente na aliança em 2024, mais do que dobrando a fronteira terrestre da OTAN com a Rússia — decisão vista como o fim definitivo da era de cautela iniciada em 1948.",
+      "fontes": [
+        "singleton-historia-finlandia"
+      ]
+    }
+  ]
+}

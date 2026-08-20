@@ -1,0 +1,75 @@
+{
+  "iso": "POL",
+  "isoNumerico": "616",
+  "nome": "Polônia",
+  "periodos": [
+    {
+      "id": "pl-reino-piast",
+      "inicio": "966",
+      "fim": "1569",
+      "rotulo": "Reino da Polônia sob os Piastas",
+      "regime": "monarquia sob a dinastia Piasta, cristianizada em 966",
+      "textoMdx": "O batismo do duque Mieszko I, em 966, é o ato fundador convencional da Polônia como Estado europeu — e situa o país, desde o início, na órbita cristã ocidental, e não bizantina, decisão com consequências que atravessariam mil anos.\n\n**A coroação de Bolesław I, em 1025, eleva o ducado a reino.** Sob os primeiros Piastas, a Polônia se expande e se fragmenta em ciclos, disputando território com o Sacro Império Romano-Germânico a oeste e com principados eslavos orientais a leste.\n\n**A fragmentação feudal, do século XII ao XIV, divide o reino entre herdeiros rivais.** Segue-se um período de reunificação gradual sob Władysław I Łokietek e, sobretudo, sob Casimiro III, o Grande, no século XIV — que reforma a administração, funda a Universidade de Cracóvia em 1364, a segunda da Europa Central, e acolhe judeus expulsos de outras partes da Europa, política que faria da Polônia o maior centro de vida judaica europeia por séculos.\n\n**A ameaça dos Cavaleiros Teutônicos define a política externa do período.** A ordem militar religiosa, estabelecida na Prússia desde o século XIII, expande-se às custas de territórios polacos e lituanos; a derrota teutônica na Batalha de Grunwald, em 1410 — uma das maiores batalhas medievais europeias —, sob a aliança polaco-lituana, quebra o poder militar da ordem sem eliminá-la.\n\n**O casamento de 1386 entre a rainha Jadwiga e o grão-duque lituano Jogaila** — que se converte ao cristianismo e se torna rei Władysław II Jagiełło — une dinasticamente Polônia e Lituânia, formando o núcleo do que se tornaria a maior potência territorial da Europa nos séculos seguintes.",
+      "fontes": [
+        "davies-campo-de-jogo-deus"
+      ]
+    },
+    {
+      "id": "pl-comunidade-polaco-lituana",
+      "inicio": "1569",
+      "fim": "1918",
+      "rotulo": "Comunidade Polaco-Lituana",
+      "regime": "monarquia eletiva com nobreza detendo poder de veto legislativo",
+      "textoMdx": "A União de Lublin, em 1569, transforma uma união dinástica em Estado federado único — a Rzeczpospolita —, que se tornaria por um século o maior país territorial da Europa, com um sistema político sem paralelo: rei eleito pela nobreza, e qualquer nobre com poder de vetar toda a legislação.\n\n**O liberum veto é a inovação constitucional mais radical e mais destrutiva do período.** Qualquer membro do Sejm, a dieta legislativa, podia bloquear uma sessão inteira e anular decisões já tomadas com uma única objeção; concebido como proteção contra tirania da maioria, tornou-se, ao longo do século XVII e XVIII, instrumento de paralisia paga por potências estrangeiras interessadas em enfraquecer o Estado polaco por dentro.\n\n**A tolerância religiosa é excepcional para a Europa do século XVI.** A Confederação de Varsóvia, de 1573, garante liberdade de culto num continente em guerras religiosas; a Comunidade abriga a maior população judaica da Europa, protestantes, ortodoxos e católicos sob um mesmo teto político.\n\n**O Dilúvio Sueco, de 1655 a 1660, devasta o território e marca o início do declínio.** Invasão sueca simultânea a revoltas cossacas na Ucrânia e guerra com a Rússia deixam a Comunidade exaurida demograficamente e fiscalmente, iniciando um século de decadência relativa frente a vizinhos que se centralizavam e militarizavam.\n\n**A Constituição de 3 de Maio de 1791 tenta reformar tarde demais.** Considerada a primeira constituição escrita moderna da Europa, ela aboliria o liberum veto e fortaleceria o Estado central — mas a reação de nobres conservadores aliados à Rússia, na Confederação de Targowica, provoca intervenção militar russa que a anula em menos de um ano e meio.\n\n**As três partições, entre 1772 e 1795, apagam a Polônia do mapa.** Rússia, Prússia e Áustria dividem o território em etapas sucessivas; a última partição, em 1795, extingue completamente o Estado polaco, que desapareceria da cartografia política por cento e vinte e três anos — apesar de sobreviver como nação através da língua, da Igreja e de sucessivas insurreições reprimidas ao longo do século XIX.",
+      "fontes": [
+        "davies-campo-de-jogo-deus"
+      ]
+    },
+    {
+      "id": "pl-segunda-republica",
+      "inicio": "1918",
+      "fim": "1939",
+      "rotulo": "Segunda República Polonesa",
+      "regime": "república parlamentarista, depois autoritária sob Piłsudski a partir de 1926",
+      "textoMdx": "A independência renasce em novembro de 1918, no colapso simultâneo dos três impérios que haviam repartido a Polônia — russo, alemão e austro-húngaro — e é imediatamente testada por guerra contra a Rússia soviética.\n\n**Józef Piłsudski funda o Estado e o defende militarmente.** Comandante que havia organizado legiões polacas durante a Primeira Guerra, ele se torna chefe de Estado do país reconstituído e lidera a resistência na Guerra Polaco-Soviética de 1919-1921; a vitória polaca na Batalha de Varsóvia, em agosto de 1920 — o Milagre do Vístula —, detém o avanço bolchevique para o oeste e garante fronteiras favoráveis pelo Tratado de Riga.\n\n**As fronteiras da Segunda República incorporam minorias numerosas.** Cerca de um terço da população não é etnicamente polaca — ucranianos, bielorrussos, judeus, alemães —, o que gera tensões territoriais e políticas persistentes, sobretudo com a Lituânia, quanto à posse de Vilnius, e com a Alemanha, quanto ao Corredor Polaco que dava acesso ao mar ao custo de separar a Prússia Oriental do restante do território alemão.\n\n**Piłsudski assume poder autoritário em 1926, pelo Golpe de Maio.** Descontente com a instabilidade parlamentar da jovem democracia, ele toma o poder por força militar e governa, até morrer em 1935, sob um regime chamado sanacja — saneamento —, que restringe liberdades sem chegar ao totalitarismo de vizinhos.\n\n**A Polônia é o primeiro país invadido na Segunda Guerra Mundial.** A invasão alemã de 1º de setembro de 1939, seguida da invasão soviética a partir do leste em 17 de setembro — em execução do protocolo secreto do Pacto Molotov-Ribbentrop, que dividira o país entre as duas potências —, encerra a Segunda República em semanas. O governo foge ao exílio; a Polônia deixaria de existir como Estado soberano por seis anos.",
+      "fontes": [
+        "davies-campo-de-jogo-deus",
+        "protocolo-secreto-molotov-ribbentrop"
+      ]
+    },
+    {
+      "id": "pl-segunda-guerra",
+      "inicio": "1939",
+      "fim": "1945",
+      "rotulo": "Ocupação nazista e soviética",
+      "regime": "território dividido e ocupado por dois regimes totalitários; governo polaco no exílio em Londres",
+      "textoMdx": "Seis anos em que a Polônia se torna o epicentro geográfico do Holocausto e sofre, proporcionalmente, as maiores perdas humanas de qualquer país na Segunda Guerra — cerca de um em cada cinco polacos morre.\n\n**A ocupação nazista transforma o território num sistema de campos de extermínio.** Auschwitz-Birkenau, Treblinka, Sobibor e outros campos são construídos em solo polaco ocupado, onde os nazistas exterminam a maior parte dos cerca de três milhões de judeus poloneses — a maior comunidade judaica da Europa antes da guerra — junto com milhões de outras vítimas de toda a Europa ocupada.\n\n**O massacre de Katyn, em 1940, é crime soviético negado por décadas.** A NKVD executa cerca de vinte mil oficiais, intelectuais e membros da elite polaca capturados na invasão soviética de 1939; Moscou atribuiu o crime aos alemães até 1990, quando finalmente reconheceu a autoria soviética.\n\n**O Gueto de Varsóvia e sua revolta, em 1943, tornam-se símbolo de resistência.** Confinados em condições de fome deliberada, os judeus do gueto organizam um levante armado contra a deportação para campos de extermínio — esmagado pelas SS após semanas de combate urbano, com o gueto arrasado.\n\n**A Revolta de Varsóvia, em 1944, é tragédia distinta e ainda mais devastadora.** O Exército Nacional polaco, leal ao governo no exílio, levanta-se contra a ocupação alemã na expectativa de apoio soviético que nunca chega — o Exército Vermelho permanece parado do outro lado do Vístula enquanto os alemães esmagam a revolta e depois destroem sistematicamente a cidade, quarteirão por quarteirão, em represália.\n\n**A libertação soviética, em 1944-1945, substitui uma ocupação por outra.** O Exército Vermelho expulsa os alemães, mas instala um governo comunista alinhado a Moscou em vez de restaurar o governo no exílio reconhecido pelos Aliados ocidentais — decisão selada nas conferências de Yalta e Potsdam, que também deslocam as fronteiras polacas inteiras para oeste, cedendo território oriental à URSS e recebendo território alemão ao oeste.",
+      "fontes": [
+        "snyder-terras-de-sangue"
+      ]
+    },
+    {
+      "id": "pl-republica-popular",
+      "inicio": "1945",
+      "fim": "1989",
+      "rotulo": "República Popular da Polônia",
+      "regime": "Estado socialista de partido único sob o Partido Operário Unificado, alinhado à URSS",
+      "textoMdx": "Quatro décadas de governo comunista alinhado a Moscou, marcadas por rebeliões operárias recorrentes que a Polônia, mais que qualquer outro país do bloco soviético, jamais deixou de produzir.\n\n**As fronteiras deslocadas exigem transferências populacionais massivas.** Milhões de alemães são expulsos do território que passa a ser polaco a oeste; milhões de polacos são transferidos do território cedido à URSS a leste — um dos maiores deslocamentos forçados de população da história europeia, executado em poucos anos do pós-guerra.\n\n**As eleições de 1947 são fraudadas para consolidar o poder comunista**, contrariando os compromissos de Yalta de realizar eleições livres; a oposição não comunista é suprimida, e o Partido Operário Unificado Polaco assume controle exclusivo sob supervisão soviética.\n\n**Poznań, em 1956, é a primeira grande revolta operária do bloco soviético contra o próprio regime comunista.** Trabalhadores protestam por salários e condições, e são reprimidos com dezenas de mortos — mas a crise força mudanças na liderança do partido e liberalização relativa.\n\n**A Igreja Católica funciona como espaço de resistência que nenhum outro país do bloco possuía em escala comparável.** Com a maioria esmagadora da população praticante, a Igreja mantém autonomia institucional parcial mesmo sob repressão; a eleição do cardeal Karol Wojtyła como papa João Paulo II, em 1978, e sua visita triunfal à Polônia em 1979, são creditadas por historiadores como catalisador moral decisivo para o movimento que se seguiria.\n\n**O Solidariedade nasce dos estaleiros de Gdańsk em agosto de 1980.** Liderado por Lech Wałęsa, o sindicato independente cresce para dez milhões de membros em meses — o primeiro sindicato livre em massa de todo o bloco soviético. O governo responde impondo lei marcial em dezembro de 1981, sob o general Wojciech Jaruzelski, prendendo milhares de ativistas e proibindo o movimento por anos.\n\n**A crise econômica dos anos 1980 força negociação.** Décadas de ineficiência do planejamento central, dívida externa crescente e escassez crônica levam o regime, enfraquecido também pela reforma soviética sob Gorbachev, à Mesa Redonda de 1989 com o Solidariedade — negociação que abriria as primeiras eleições semilivres do bloco comunista europeu desde a Segunda Guerra.",
+      "fontes": [
+        "davies-campo-de-jogo-deus",
+        "acordo-mesa-redonda-polonia-1989"
+      ]
+    },
+    {
+      "id": "pl-terceira-republica",
+      "inicio": "1989",
+      "rotulo": "República da Polônia",
+      "regime": "república parlamentarista; membro da União Europeia desde 2004",
+      "textoMdx": "As eleições de junho de 1989, negociadas na Mesa Redonda, entregam vitória esmagadora ao Solidariedade nos assentos disputados livremente — resultado que precipita a queda dos regimes comunistas em toda a Europa Oriental naquele mesmo ano.\n\n**A transição econômica é a mais radical da região, e é chamada de terapia de choque.** O plano do ministro Leszek Balcerowicz, aplicado a partir de 1990, liberaliza preços, privatiza empresas estatais e estabiliza a moeda em ritmo acelerado, com custo social alto de desemprego nos primeiros anos, mas resultando em crescimento sustentado nas décadas seguintes.\n\n**A entrada na OTAN, em 1999, e na União Europeia, em 2004, ancoram o país ao Ocidente.** A Polônia se torna, dentro da UE, uma das maiores beneficiárias de fundos estruturais, com crescimento econômico consistente que a transforma de economia pós-comunista periférica em uma das principais da Europa Central.\n\n**A polarização política se intensifica a partir de 2015, sob o partido Lei e Justiça.** Reformas do Judiciário criticadas pela União Europeia por comprometerem a independência dos tribunais levam a processos de infração e disputas prolongadas com Bruxelas sobre o Estado de direito; restrições ao direito ao aborto, em 2020, provocam os maiores protestos de rua desde a queda do comunismo.\n\n**A guerra na Ucrânia, a partir de 2022, recoloca a Polônia no centro geopolítico europeu.** O país recebe milhões de refugiados ucranianos, torna-se rota logística essencial de apoio militar ocidental a Kiev, e aumenta drasticamente o gasto em defesa — postura moldada pela memória histórica das partições e da ocupação, e pela fronteira compartilhada com a Bielorrússia e o enclave russo de Kaliningrado.\n\n**A eleição de Donald Tusk como primeiro-ministro, no fim de 2023, encerra oito anos de governo do Lei e Justiça**, numa disputa marcada por tentativas do governo cessante de reter controle sobre a mídia estatal e o Judiciário até o último momento — teste, ainda em curso, da resiliência das instituições democráticas polacas construídas desde 1989.",
+      "fontes": [
+        "davies-campo-de-jogo-deus",
+        "acordo-mesa-redonda-polonia-1989"
+      ]
+    }
+  ]
+}

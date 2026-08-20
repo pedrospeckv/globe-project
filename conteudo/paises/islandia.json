@@ -1,0 +1,39 @@
+{
+  "iso": "ISL",
+  "isoNumerico": "352",
+  "nome": "Islândia",
+  "periodos": [
+    {
+      "id": "is-commonwealth",
+      "inicio": "874",
+      "fim": "1262",
+      "rotulo": "Commonwealth Islandesa",
+      "regime": "assembleia legislativa e judicial sem monarca nem executivo central — o Althing",
+      "textoMdx": "A Islândia é povoada por colonos nórdicos, em sua maioria vindos da Noruega fugindo da centralização monárquica de Harald Cabelos Belos, a partir de 874 — e por mais de três séculos e meio, viveria sob um sistema político sem paralelo na Europa medieval: sem rei, sem executivo central, apenas uma assembleia.\n\n**O Althing, fundado em 930, é uma das assembleias legislativas mais antigas do mundo em existência contínua.** Reunindo-se anualmente ao ar livre em Þingvellir, chefes regionais — goðar — debatiam leis, julgavam disputas e mantinham ordem sem exército permanente nem burocracia estatal; decisões eram executadas através de pressão social e vingança regulada, não força policial centralizada.\n\n**A conversão ao cristianismo, por volta do ano 1000, é decidida pelo próprio Althing por consenso, não por conquista.** Diante de tensão crescente entre facções pagãs e cristãs que ameaçava dividir a Commonwealth, o líder Þorgeir Ljósvetningagoði medeia acordo pelo qual toda a ilha aceitaria formalmente o cristianismo, mantendo tolerância privada temporária a práticas pagãs — solução pragmática que evita guerra civil religiosa.\n\n**A literatura das sagas islandesas, escritas nos séculos XIII e XIV, registra essa era de forma única no mundo medieval.** As Sagas dos Islandeses narram disputas, viagens e vida cotidiana dos primeiros séculos de povoamento com detalhe literário sem paralelo contemporâneo em outras partes da Europa, tornando-se fonte histórica e literária de valor incomum, embora sua precisão histórica factual seja debatida por historiadores modernos.\n\n**A Era dos Sturlungos, no século XIII, é o período de violência faccionária crescente que levaria ao colapso do sistema.** Rivalidades entre clãs poderosos — os Sturlungos entre eles, que dão nome ao período — degeneram em guerra civil de baixa intensidade mas persistente; incapaz de conter essa violência sem autoridade executiva central, a elite islandesa aceita, em 1262, submeter-se à coroa norueguesa através do chamado Antigo Pacto — encerrando a independência da Commonwealth.",
+      "fontes": [
+        "karlsson-historia-islandia"
+      ]
+    },
+    {
+      "id": "is-dominio-norueguez-e-dinamarques",
+      "inicio": "1262",
+      "fim": "1918",
+      "rotulo": "Islândia sob domínio norueguês e dinamarquês",
+      "regime": "território sob a coroa da Noruega, e depois da Dinamarca a partir de 1380",
+      "textoMdx": "Cinco séculos e meio sob soberania estrangeira — primeiro norueguesa, depois dinamarquesa através da União de Kalmar —, período que a historiografia islandesa tradicionalmente retrata como de estagnação econômica e empobrecimento, embora revisões recentes matizem esse quadro.\n\n**A submissão à Noruega, em 1262, preserva autonomia legal interna significativa**, com o Althing continuando a funcionar como corte suprema, ainda que sem o poder legislativo pleno do período da Commonwealth; a Islândia paga tributo à coroa norueguesa em troca de proteção nominal e acesso comercial.\n\n**A União de Kalmar, em 1397, transfere a Islândia à órbita dinamarquesa junto com a Noruega**, e quando a união se rompe em 1523, a Islândia permanece sob controle dinamarquês direto — arranjo que perduraria, com variações de intensidade, até o século XX.\n\n**O Monopólio Comercial Dinamarquês, imposto em 1602, restringe severamente a economia islandesa por quase dois séculos.** Toda a atividade comercial da ilha é forçada a passar exclusivamente por comerciantes dinamarquenses licenciados, com preços fixados pela Coroa — política que historiadores consideram ter contribuído significativamente ao empobrecimento islandês do período.\n\n**A erupção do vulcão Laki, em 1783-1784, é a catástrofe natural mais devastadora da história islandesa.** A fissura vulcânica libera gases tóxicos que matam a maior parte do gado da ilha e provocam fome que mataria cerca de um quinto da população islandesa nos anos seguintes — e cujos efeitos climáticos globais são hoje associados a colheitas fracassadas na Europa continental, contribuindo indiretamente à crise que antecederia a Revolução Francesa.\n\n**O movimento nacional islandês do século XIX, inspirado pelo romantismo nacionalista europeu**, tem em Jón Sigurðsson sua figura central; sob pressão desse movimento, o monopólio comercial é abolido em 1854 e o Althing é restaurado como órgão consultivo em 1845, retomando gradualmente poder legislativo ao longo das décadas seguintes.",
+      "fontes": [
+        "karlsson-historia-islandia"
+      ]
+    },
+    {
+      "id": "is-reino-soberano-e-republica",
+      "inicio": "1918",
+      "rotulo": "Reino soberano e República da Islândia",
+      "regime": "reino em união pessoal com a Dinamarca até 1944; república desde então",
+      "textoMdx": "A soberania plena chega em 1918, mas em união pessoal com a coroa dinamarquesa; a independência total só se consuma em 1944, no meio da Segunda Guerra Mundial, através de referendo aproveitando a ocupação alemã da própria Dinamarca.\n\n**A Lei da União, de 1918, reconhece a Islândia como reino soberano** partilhando monarca com a Dinamarca, mas com política externa e defesa ainda coordenadas por Copenhague — arranjo previsto para revisão após vinte e cinco anos.\n\n**A ocupação britânica e depois norte-americana, a partir de 1940, protege a Islândia da guerra sem consentimento formal islandês inicial.** Temendo ocupação alemã da ilha estrategicamente vital para o controle do Atlântico Norte, a Grã-Bretanha ocupa preventivamente em maio de 1940; forças norte-americanas assumiriam a responsabilidade principal a partir de 1941.\n\n**A independência plena é declarada por referendo em 1944**, aproveitando que a Dinamarca, ocupada pela Alemanha, não poderia formalmente objetar; mais de 97% dos votantes islandeses aprovam romper a união pessoal e estabelecer república — a Islândia torna-se o único país nórdico sem monarquia.\n\n**As Guerras do Bacalhau, travadas em quatro rodadas entre 1958 e 1976, são a disputa externa central da política islandesa do século XX.** Sucessivas ampliações unilaterais da zona de pesca exclusiva islandesa, de quatro para até duzentas milhas náuticas, provocam confrontos navais de baixa intensidade com o Reino Unido; a Islândia, dependente da pesca como base quase exclusiva de sua economia, prevalece em cada rodada, com apoio da OTAN preocupada em não perder a aliança islandesa estrategicamente vital durante a Guerra Fria.\n\n**O colapso bancário de 2008 é a crise financeira mais severa, proporcionalmente, de qualquer país desenvolvido naquela década.** Os três maiores bancos islandeses, tendo expandido ativos a múltiplos muitas vezes superiores ao PIB nacional através de especulação internacional agressiva, colapsam em poucos dias em outubro de 2008; a moeda islandesa desvaloriza drasticamente, e o país recorre a resgate do FMI — mas, diferentemente de outros países em crise, recusa-se a resgatar credores estrangeiros dos bancos, deixando-os absorver perdas, e processa criminalmente executivos bancários e o próprio ex-primeiro-ministro, numa resposta considerada incomumente rigorosa entre economias desenvolvidas.",
+      "fontes": [
+        "karlsson-historia-islandia"
+      ]
+    }
+  ]
+}
