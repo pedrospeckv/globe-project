@@ -1,0 +1,50 @@
+{
+  "iso": "NER",
+  "isoNumerico": "562",
+  "nome": "Níger",
+  "periodos": [
+    {
+      "id": "ner-sultanato-agades",
+      "inicio": "1449",
+      "fim": "1900",
+      "rotulo": "Sultanato de Agades",
+      "regime": "sultanato tuaregue, controlando encruzilhada estratégica de rotas trans-saarianas",
+      "textoMdx": "O Sultanato de Agades, estabelecido por volta de 1449 por confederações tuaregues no maciço do Aïr, controla encruzilhada estratégica de rotas comerciais trans-saarianas que conectam a África Ocidental ao Magrebe e ao Egito.\n\n**O sultanato alterna entre autonomia própria e vassalagem periódica a potências regionais maiores — o Império Songai em seu apogeu, e mais tarde influência crescente do Império Canem-Bornu — sem jamais perder inteiramente identidade e estrutura política tuaregue distinta.**\n\n**A revolta tuaregue de Kaocen, entre 1916 e 1917, contra a conquista colonial francesa, é esmagada com repressão severa que mataria milhares — resistência tardia mas significativa que retardaria, sem impedir, a consolidação definitiva do controle francês sobre o território nigerino.**",
+      "fontes": [
+        "finn-fuglestad-niger"
+      ]
+    },
+    {
+      "id": "ner-niger-frances",
+      "inicio": "1900",
+      "fim": "1960",
+      "rotulo": "Níger Francês",
+      "regime": "colônia francesa, entre as menos desenvolvidas de toda a África Ocidental Francesa",
+      "textoMdx": "A colônia do Níger, formalizada em 1922 dentro da África Ocidental Francesa, permanece território de investimento colonial mínimo — vasta extensão desértica e semidesértica de baixa densidade populacional que atrairia pouco interesse econômico direto francês além do controle estratégico.\n\n**O movimento nacionalista nigerino cresce gradualmente no período pós-Segunda Guerra Mundial, embora de forma menos intensa que em colônias vizinhas mais desenvolvidas — a independência seria obtida em agosto de 1960, sob a liderança de Hamani Diori.**",
+      "fontes": [
+        "finn-fuglestad-niger"
+      ]
+    },
+    {
+      "id": "ner-independencia-diori-golpes",
+      "inicio": "1960",
+      "fim": "1993",
+      "rotulo": "Independência, Diori e os golpes militares",
+      "regime": "república de partido único, depois ditadura militar prolongada",
+      "textoMdx": "Hamani Diori governa com relações estreitas mantidas com a França, até ser deposto em golpe militar liderado por Seyni Kountché em 1974, em meio a crise de seca e fome severa que expõe as fragilidades profundas do governo civil.\n\n**A descoberta e exploração de reservas de urânio transformam o Níger em fornecedor global crucial, especialmente para a indústria nuclear francesa — riqueza mineral que, no entanto, se traduziria muito pouco em desenvolvimento amplo para a população nigerina.**\n\n**A abertura democrática gradual do início dos anos 1990, culminando em Conferência Nacional em 1991 e nova constituição multipartidária em 1992-1993, encerraria quase duas décadas de domínio militar ininterrupto — ainda que instabilidade política recorrente permanecesse característica persistente da política nigerina nas décadas seguintes.**",
+      "fontes": [
+        "finn-fuglestad-niger"
+      ]
+    },
+    {
+      "id": "ner-democracia-instavel-golpes-recentes",
+      "inicio": "1993",
+      "rotulo": "Democracia instável e os golpes recentes",
+      "regime": "república democrática frágil, interrompida por golpe militar em 2023",
+      "textoMdx": "O período democrático pós-1993 seria marcado por novos golpes militares em 1996 e 1999, intercalados com governos eleitos — apenas sob Mahamadou Issoufou, presidente entre 2011 e 2021, o Níger alcançaria sua primeira transferência pacífica de poder entre presidentes eleitos, para o sucessor Mohamed Bazoum.\n\n**O golpe militar de julho de 2023, liderado pelo comandante da guarda presidencial Abdourahamane Tchiani, deposta Bazoum e provoca crise regional sem precedentes — a CEDEAO chegaria a ameaçar intervenção militar para restaurar o governo desconstituído, ameaça que jamais se concretizaria.**\n\n**A junta militar nigerina rompe relações militares com a França, expulsando suas tropas, e se aproxima da Rússia, aderindo à nova Aliança dos Estados do Sahel junto com o Mali e o Burkina Faso — os três países romperiam formalmente com a CEDEAO em 2024, enquanto a insurgência jihadista regional continua a devastar vastas áreas do território nigerino.**",
+      "fontes": [
+        "finn-fuglestad-niger"
+      ]
+    }
+  ]
+}

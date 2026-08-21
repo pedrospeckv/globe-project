@@ -4287,5 +4287,61 @@
     "publicacao": "Tribunal Especial para Serra Leoa",
     "data": "2012-05-30",
     "citacao": "Condenou o ex-presidente liberiano Charles Taylor por crimes de guerra e contra a humanidade cometidos em Serra Leoa através do apoio à Frente Revolucionária Unida — primeira condenação de um ex-chefe de Estado por tribunal internacional desde os julgamentos de Nuremberg."
+  },
+  {
+    "id": "mcfarland-rupley-burkina-faso",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of Burkina Faso",
+    "autor": "Daniel Miles McFarland e Lawrence Rupley",
+    "data": "1998",
+    "citacao": "Obra de referência sobre a história do Burkina Faso, dos reinos mossi que resistiram por séculos à expansão dos impérios do Mali e Songai à instabilidade política contemporânea."
+  },
+  {
+    "id": "ernest-harsch-sankara",
+    "tipo": "livro",
+    "titulo": "Thomas Sankara: An African Revolutionary",
+    "autor": "Ernest Harsch",
+    "data": "2014",
+    "citacao": "Biografia política de Thomas Sankara, líder revolucionário que renomeou o Alto Volta como Burkina Faso em 1984 e conduziu programa radical de autossuficiência antes de ser assassinado em golpe liderado por seu antigo aliado Blaise Compaoré em 1987."
+  },
+  {
+    "id": "finn-fuglestad-niger",
+    "tipo": "livro",
+    "titulo": "A History of Niger, 1850-1960",
+    "autor": "Finn Fuglestad",
+    "data": "1983",
+    "citacao": "História nigerina do Sultanato de Agades e da revolta tuaregue de Kaocen contra o domínio francês à independência de 1960."
+  },
+  {
+    "id": "samuel-decalo-benin",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of Benin",
+    "autor": "Samuel Decalo",
+    "data": "1995",
+    "citacao": "Obra de referência sobre a história beninense, do Reino do Daomé — com seu exército feminino de elite e papel central no comércio atlântico de escravos — à Conferência Nacional de 1990, citada como modelo de transição democrática pacífica na África francófona."
+  },
+  {
+    "id": "samuel-decalo-togo",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of Togo",
+    "autor": "Samuel Decalo",
+    "data": "1996",
+    "citacao": "Obra de referência sobre a história togolesa, da partilha entre a Togolândia britânica e francesa ao domínio ininterrupto da família Gnassingbé desde 1967, um dos mais longos da história política africana."
+  },
+  {
+    "id": "anthony-pazzanita-mauritania",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of Mauritania",
+    "autor": "Anthony G. Pazzanita",
+    "data": "2008",
+    "citacao": "Obra de referência sobre a história mauritana, cobrindo a posição do país como ponte entre a África árabe-berbere e a África negra subsaariana, a violência étnica de 1989-1991 e a criminalização tardia da escravidão em 2007."
+  },
+  {
+    "id": "hughes-perfect-gambia",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of the Gambia",
+    "autor": "Arnold Hughes e David Perfect",
+    "data": "2008",
+    "citacao": "Obra de referência sobre a história gambiana, da presença comercial britânica no Forte James à ditadura excêntrica e repressiva de Yahya Jammeh e sua derrubada por intervenção militar regional em 2017."
   }
 ]

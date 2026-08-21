@@ -1,0 +1,50 @@
+{
+  "iso": "GMB",
+  "isoNumerico": "270",
+  "nome": "Gâmbia",
+  "periodos": [
+    {
+      "id": "gmb-comercio-britanico-colonia-coroa",
+      "inicio": "1661",
+      "fim": "1965",
+      "rotulo": "Comércio Britânico e a Colônia da Coroa",
+      "regime": "posto comercial britânico, depois colônia da coroa de dimensões territoriais mínimas",
+      "textoMdx": "A Grã-Bretanha estabelece presença comercial permanente a partir de 1661 no Forte James, ilha fluvial que se tornaria nó importante do comércio atlântico de escravos — fronteira colonial resultante das negociações anglo-francesas na região criaria a Gâmbia como faixa territorial estreita ao longo do rio homônimo, cercada por todos os lados terrestres pelo Senegal francês.\n\n**A colônia permanece, ao longo de todo o período colonial britânico, uma das possessões africanas menos desenvolvidas e menos prioritárias do império — posição periférica que preservaria, paradoxalmente, tradição política relativamente estável em comparação a colônias vizinhas maiores.**\n\n**O movimento nacionalista sob Dawda Jawara conduz negociações pacíficas de independência, obtida em fevereiro de 1965, sem conflito armado significativo.**",
+      "fontes": [
+        "hughes-perfect-gambia"
+      ]
+    },
+    {
+      "id": "gmb-jawara-confederacao-senegambia",
+      "inicio": "1965",
+      "fim": "1994",
+      "rotulo": "Era Jawara e a Confederação da Senegâmbia",
+      "regime": "república democrática, brevemente unida em confederação frouxa com o Senegal vizinho",
+      "textoMdx": "Dawda Jawara governa a Gâmbia independente com estabilidade e abertura democrática relativamente incomuns para a região e a época, sobrevivendo a séria tentativa de golpe de esquerda em 1981 apenas graças à intervenção militar direta do vizinho Senegal, enquanto se encontrava em Londres para o casamento real britânico.\n\n**A Confederação da Senegâmbia, formada em 1982 como resposta direta àquela crise de segurança, tentaria unir política e economicamente os dois países profundamente desiguais em tamanho — experimento que colapsaria já em 1989, diante de resistência gambiana a perder soberania efetiva para o parceiro muito maior.**\n\n**Jawara permaneceria no poder até ser finalmente deposto por golpe militar incruento liderado pelo jovem tenente Yahya Jammeh, em julho de 1994, encerrando quase três décadas de governo civil ininterrupto.**",
+      "fontes": [
+        "hughes-perfect-gambia"
+      ]
+    },
+    {
+      "id": "gmb-jammeh-ditadura",
+      "inicio": "1994",
+      "fim": "2017",
+      "rotulo": "Ditadura de Yahya Jammeh",
+      "regime": "ditadura militar excêntrica e severamente repressiva",
+      "textoMdx": "Jammeh governa por 22 anos através de repressão extensa, incluindo desaparecimentos forçados de opositores documentados, ao lado de declarações públicas bizarras — alegando capacidade pessoal de curar aids e infertilidade através de remédios herbais próprios, e ameaçando publicamente decapitar pessoas homossexuais.\n\n**Jammeh declara a Gâmbia república islâmica em 2015, retira o país da Comunidade das Nações em 2013 e anuncia, em 2016, intenção de deixar o Tribunal Penal Internacional, acusando-o de viés sistemático contra a África.**\n\n**Jammeh perde a eleição presidencial de dezembro de 2016 para o opositor Adama Barrow, resultado surpreendente que inicialmente aceitaria antes de reverter a posição e recusar-se a deixar o poder — provocando crise regional que exigiria resposta internacional coordenada para resolução.**",
+      "fontes": [
+        "hughes-perfect-gambia"
+      ]
+    },
+    {
+      "id": "gmb-barrow-transicao-atual",
+      "inicio": "2017",
+      "rotulo": "Transição sob Barrow",
+      "regime": "república democrática em reconstrução institucional pós-ditadura",
+      "textoMdx": "Uma intervenção militar regional liderada principalmente por forças senegalesas, sob autorização da CEDEAO, força Jammeh ao exílio na Guiné Equatorial em janeiro de 2017 — um dos raros casos bem-sucedidos de pressão multilateral africana revertendo tentativa de golpe eleitoral.\n\n**Adama Barrow conduz reconstrução institucional gradual, incluindo Comissão de Verdade, Reconciliação e Reparações que investigaria abusos da era Jammeh, apresentando relatório final em 2021 recomendando processos judiciais contra responsáveis identificados.**\n\n**A Gâmbia permanece um dos menores e mais pobres países da África Ocidental, mas sua transição democrática pós-Jammeh se tornaria, para além de suas dimensões territoriais reduzidas, um dos exemplos mais encorajadores recentes de reversão pacífica de entrincheiramento autoritário na região.**",
+      "fontes": [
+        "hughes-perfect-gambia"
+      ]
+    }
+  ]
+}
