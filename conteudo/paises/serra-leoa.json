@@ -1,0 +1,63 @@
+{
+  "iso": "SLE",
+  "isoNumerico": "694",
+  "nome": "Serra Leoa",
+  "periodos": [
+    {
+      "id": "sle-provincia-liberdade-colonia-coroa",
+      "inicio": "1787",
+      "fim": "1896",
+      "rotulo": "Província da Liberdade e a Colônia da Coroa",
+      "regime": "assentamento abolicionista britânico, depois colônia da coroa formada por sucessivas ondas de população liberta",
+      "textoMdx": "Abolicionistas britânicos fundam, em 1787, assentamento para ex-escravos libertos na região que se tornaria Serra Leoa — projeto batizado \"Província da Liberdade\", cuja capital, Freetown, seria estabelecida em 1792 por colonos negros leais à coroa britânica vindos da Nova Escócia, no Canadá, após lutarem ao lado dos britânicos na Revolução Americana.\n\n**Maroons jamaicanos, deportados após revolta na Jamaica, chegam em 1800, e milhares de africanos libertados de navios negreiros interceptados pela Marinha Real britânica após a abolição do tráfico em 1807 se somariam à população nas décadas seguintes** — mistura extraordinariamente diversa de origens que criaria a distintiva cultura e língua crioulas de Serra Leoa.\n\n**Freetown se torna base naval principal da esquadra britânica de combate ao tráfico transatlântico de escravos, e a colônia é elevada a Colônia da Coroa britânica em 1808** — os chamados \"recaptivos\", libertos diretamente dos navios negreiros, se tornariam elemento central e influente da sociedade crioula emergente.",
+      "fontes": [
+        "joe-alie-serra-leoa"
+      ]
+    },
+    {
+      "id": "sle-protetorado-britanico",
+      "inicio": "1896",
+      "fim": "1961",
+      "rotulo": "Protetorado Britânico",
+      "regime": "colônia costeira e protetorado do interior, sob estatutos legais distintos e desiguais",
+      "textoMdx": "A Grã-Bretanha estende protetorado formal sobre o interior serra-leonês em 1896, criando estrutura administrativa dual que distingue juridicamente a população da colônia costeira, com direitos mais amplos, da população do protetorado interior, submetida a regras mais restritivas.\n\n**A imposição de um imposto sobre habitações, em 1898, provoca revolta armada liderada pelo chefe Bai Bureh — a Guerra do Imposto sobre Choupanas mataria centenas antes de ser suprimida, expondo o ressentimento profundo contra a nova ordem tributária colonial.**\n\n**O movimento nacionalista cresce gradualmente ao longo da primeira metade do século XX, unificando politicamente, ainda que de forma tensa, as populações da colônia e do protetorado — independência plena seria obtida em abril de 1961, sob a liderança de Milton Margai.**",
+      "fontes": [
+        "joe-alie-serra-leoa"
+      ]
+    },
+    {
+      "id": "sle-independencia-stevens-partido-unico",
+      "inicio": "1961",
+      "fim": "1991",
+      "rotulo": "Independência e o partido único de Stevens",
+      "regime": "república parlamentar, depois Estado de partido único sob domínio pessoal prolongado",
+      "textoMdx": "Milton Margai governa com relativa estabilidade os primeiros anos de independência, mas sua morte em 1964 abre disputa sucessória que Siaka Stevens venceria de forma contestada — consolidando poder pessoal cada vez mais absoluto ao longo das duas décadas seguintes.\n\n**Stevens formaliza Estado de partido único em 1978, enquanto a riqueza mineral do país, sobretudo diamantífera, seria progressivamente desviada por redes de corrupção e contrabando em vez de financiar desenvolvimento nacional** — colapso econômico e institucional que, ao final dos anos 1980, deixaria o país extremamente vulnerável à instabilidade armada que se seguiria.",
+      "fontes": [
+        "joe-alie-serra-leoa"
+      ]
+    },
+    {
+      "id": "sle-guerra-civil",
+      "inicio": "1991",
+      "fim": "2002",
+      "rotulo": "Guerra Civil",
+      "regime": "Estado em colapso, fragmentado por insurgência armada extremamente violenta financiada por diamantes de conflito",
+      "textoMdx": "A Frente Revolucionária Unida, sob Foday Sankoh e apoiada inicialmente pelo senhor da guerra liberiano Charles Taylor, invade Serra Leoa em 1991, iniciando guerra civil que se tornaria notória internacionalmente pela brutalidade sistemática contra civis — amputação em massa de mãos, braços e pernas como tática deliberada de terror.\n\n**O financiamento do conflito através da exploração e contrabando de diamantes — os chamados \"diamantes de sangue\" — atrairia atenção internacional que resultaria, anos depois, na criação do Processo de Kimberley, sistema de certificação destinado a impedir o comércio de pedras extraídas de zonas de conflito.**\n\n**A intervenção militar britânica de 2000, complementando força de paz nigeriana e depois da própria ONU, se provaria decisiva para encerrar o conflito — a guerra seria declarada oficialmente terminada em janeiro de 2002, deixando entre cinquenta e setenta mil mortos, e o Tribunal Especial para Serra Leoa condenaria, em 2012, o próprio Charles Taylor pelo apoio prestado ao RUF, primeira condenação de um ex-chefe de Estado por tribunal internacional desde Nuremberg.**",
+      "fontes": [
+        "joe-alie-serra-leoa",
+        "lansana-gberie-guerra-serra-leoa",
+        "tpi-serra-leoa-taylor-2012"
+      ]
+    },
+    {
+      "id": "sle-reconstrucao-ebola-atual",
+      "inicio": "2002",
+      "rotulo": "Reconstrução, o Ebola e a Serra Leoa contemporânea",
+      "regime": "república democrática em reconstrução pós-guerra",
+      "textoMdx": "A reconstrução pós-guerra inclui desarmamento extenso de ex-combatentes e reformas na exploração diamantífera sob o novo sistema de certificação internacional, enquanto eleições democráticas sucessivas consolidam transições pacíficas de poder entre partidos rivais.\n\n**A epidemia de Ebola, entre 2014 e 2016, sobrecarrega dramaticamente um sistema de saúde já fragilizado por mais de uma década de guerra civil, matando milhares de pessoas e expondo lacunas estruturais profundas na capacidade de resposta sanitária do país.**\n\n**Serra Leoa manteria, apesar dos desafios persistentes de pobreza e reconstrução institucional, trajetória de relativa estabilidade democrática e paz civil nas décadas seguintes à guerra** — recuperação notável para um país que estivera, poucos anos antes, entre os símbolos mais visíveis de colapso estatal na África Ocidental.",
+      "fontes": [
+        "joe-alie-serra-leoa"
+      ]
+    }
+  ]
+}

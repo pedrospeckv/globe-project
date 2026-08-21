@@ -4239,5 +4239,53 @@
     "publicacao": "Governo da Costa do Marfim e facções rebeldes, mediado pela França",
     "data": "2003-01-24",
     "citacao": "Buscou encerrar a Primeira Guerra Civil Marfinense através de governo de reconciliação nacional — acordo frágil que não impediria a eclosão de nova e mais devastadora crise após as eleições disputadas de 2010."
+  },
+  {
+    "id": "joe-alie-serra-leoa",
+    "tipo": "livro",
+    "titulo": "A New History of Sierra Leone",
+    "autor": "Joe A. D. Alie",
+    "data": "1990",
+    "citacao": "História serra-leonesa da fundação como assentamento de ex-escravos libertados em 1787 à independência de 1961, cobrindo a cultura crioula distintiva formada pela mistura de colonos negros da Nova Escócia, maroons jamaicanos e africanos resgatados de navios negreiros interceptados."
+  },
+  {
+    "id": "lansana-gberie-guerra-serra-leoa",
+    "tipo": "livro",
+    "titulo": "A Dirty War in West Africa: The RUF and the Destruction of Sierra Leone",
+    "autor": "Lansana Gberie",
+    "data": "2005",
+    "citacao": "História da Guerra Civil de Serra Leoa (1991-2002), documentando a violência extrema da Frente Revolucionária Unida — incluindo amputação sistemática de civis como tática de terror — e o papel do comércio de diamantes de conflito no financiamento da guerra."
+  },
+  {
+    "id": "gus-liebenow-liberia",
+    "tipo": "livro",
+    "titulo": "Liberia: The Quest for Democracy",
+    "autor": "J. Gus Liebenow",
+    "data": "1987",
+    "citacao": "História liberiana da fundação por afro-americanos libertos em 1822 ao domínio político exclusivo do Partido Whig Verdadeiro por mais de um século, examinando a desigualdade estrutural entre a elite ameríco-liberiana e a população indígena majoritária."
+  },
+  {
+    "id": "colin-waugh-taylor-liberia",
+    "tipo": "livro",
+    "titulo": "Charles Taylor and Liberia: Ambition and Atrocity in Africa's Lone Star State",
+    "autor": "Colin M. Waugh",
+    "data": "2011",
+    "citacao": "Biografia política de Charles Taylor, cobrindo sua rebelião de 1989 que deflagra a Primeira Guerra Civil Liberiana, seu governo repressivo entre 1997 e 2003, e o apoio ao RUF de Serra Leoa através do comércio de diamantes de conflito."
+  },
+  {
+    "id": "elizabeth-schmidt-guine",
+    "tipo": "livro",
+    "titulo": "Mobilizing the Masses: Gender, Ethnicity, and Class in the Nationalist Movement in Guinea, 1939-1958",
+    "autor": "Elizabeth Schmidt",
+    "data": "2005",
+    "citacao": "História do movimento nacionalista guineense liderado por Ahmed Sékou Touré, culminando no histórico referendo de 1958 em que a Guiné foi o único território francês africano a rejeitar a Comunidade Francesa proposta por de Gaulle, optando pela independência imediata."
+  },
+  {
+    "id": "tpi-serra-leoa-taylor-2012",
+    "tipo": "decisao-judicial",
+    "titulo": "Prosecutor v. Charles Taylor",
+    "publicacao": "Tribunal Especial para Serra Leoa",
+    "data": "2012-05-30",
+    "citacao": "Condenou o ex-presidente liberiano Charles Taylor por crimes de guerra e contra a humanidade cometidos em Serra Leoa através do apoio à Frente Revolucionária Unida — primeira condenação de um ex-chefe de Estado por tribunal internacional desde os julgamentos de Nuremberg."
   }
 ]

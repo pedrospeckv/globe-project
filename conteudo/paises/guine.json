@@ -1,0 +1,50 @@
+{
+  "iso": "GIN",
+  "isoNumerico": "324",
+  "nome": "Guiné",
+  "periodos": [
+    {
+      "id": "gin-imamado-futa-jalom",
+      "inicio": "1727",
+      "fim": "1896",
+      "rotulo": "Imamado de Futa Jalom",
+      "regime": "confederação teocrática islâmica fulani, entre os primeiros Estados jihadistas da África Ocidental",
+      "textoMdx": "Comunidades fulani muçulmanas nas terras altas do Futa Jalom se organizam, a partir de 1727, em confederação teocrática que se tornaria um dos primeiros Estados jihadistas bem-sucedidos da África Ocidental — décadas antes dos movimentos jihadistas mais famosos do século XIX na região do Sokoto.\n\n**O poder político e religioso do imamado alterna entre duas linhagens familiares rivais que se revezam na liderança suprema, o cargo de almamy — arranjo institucional que preservaria relativa estabilidade interna por mais de um século.**\n\n**O enfraquecimento gradual por disputas sucessórias internas, combinado com a resistência prolongada do vizinho Samory Touré contra o avanço colonial francês na mesma região, adiaria mas não impediria a conquista francesa definitiva do território, completada por volta da década de 1890.**",
+      "fontes": [
+        "elizabeth-schmidt-guine"
+      ]
+    },
+    {
+      "id": "gin-guine-francesa",
+      "inicio": "1891",
+      "fim": "1958",
+      "rotulo": "Guiné Francesa",
+      "regime": "colônia francesa integrada à África Ocidental Francesa",
+      "textoMdx": "A colônia da Guiné Francesa se consolida como parte da vasta África Ocidental Francesa, com economia progressivamente voltada à extração mineral, sobretudo bauxita, cujas reservas se revelariam entre as maiores do mundo.\n\n**Ahmed Sékou Touré, descendente direto do lendário resistente anticolonial Samory Touré, emerge como líder sindical e depois nacionalista dominante nos anos 1950, articulando movimento de independência que se distinguiria decisivamente do restante da África francesa.**\n\n**No histórico referendo de 1958 sobre a Comunidade Francesa proposta pelo general de Gaulle, a Guiné é o único território francês africano a votar \"não\" — Sékou Touré declara publicamente preferir \"a pobreza na liberdade à riqueza na escravidão\", e a França reagiria retirando-se abruptamente, levando consigo ou destruindo documentação administrativa e infraestrutura antes de partir.**",
+      "fontes": [
+        "elizabeth-schmidt-guine"
+      ]
+    },
+    {
+      "id": "gin-sekou-toure-totalitarismo",
+      "inicio": "1958",
+      "fim": "1984",
+      "rotulo": "Ditadura totalitária de Sékou Touré",
+      "regime": "república socialista de partido único, sob um dos regimes mais repressivos da África pós-colonial",
+      "textoMdx": "A independência guineense de outubro de 1958, obtida meses antes de qualquer outra colônia francesa africana, começa sob promessa pan-africanista otimista de Sékou Touré — que se transformaria, ao longo de 26 anos ininterruptos no poder, em um dos regimes mais paranoicos e repressivos de toda a África independente.\n\n**A rede de campos de prisão política do regime, com o notório Campo Boiro à frente, mataria dezenas de milhares de guineenses reais ou supostamente opositores através de purgas sucessivas, execuções sumárias e tortura sistemática ao longo de mais de duas décadas.**\n\n**A riqueza mineral guineense, sobretudo em bauxita, seria mal administrada sob planejamento econômico centralizado ineficiente — Sékou Touré morreria subitamente em 1984, durante tratamento médico no exterior, sem jamais responder por décadas de repressão sistemática.**",
+      "fontes": [
+        "elizabeth-schmidt-guine"
+      ]
+    },
+    {
+      "id": "gin-conte-conde-golpes-atual",
+      "inicio": "1984",
+      "rotulo": "De Conté a Condé: golpes e a democracia interrompida",
+      "regime": "sucessivos regimes militares e civis autoritários, interrompidos por breve democracia competitiva",
+      "textoMdx": "Lansana Conté toma o poder por golpe militar dias após a morte de Sékou Touré, governando por 24 anos com liberalização política cautelosa que jamais comprometeria seu próprio domínio pessoal absoluto — morreria em exercício do cargo em 2008.\n\n**O caos militar que se segue sob Moussa Dadis Camara culmina no massacre do estádio de Conacri, em setembro de 2009, quando tropas governamentais matam e estupram publicamente dezenas de manifestantes opositores reunidos pacificamente — mais de cento e cinquenta mortos em episódio amplamente condenado internacionalmente.**\n\n**Alpha Condé vence, em 2010, a primeira eleição verdadeiramente competitiva e democrática da história guineense — mas sua própria busca por terceiro mandato controverso, através de reforma constitucional em 2020, provocaria repressão e instabilidade renovadas, culminando em golpe militar liderado por Mamady Doumbouya em setembro de 2021**, que depõe Condé e instaura junta militar de transição cujo cronograma de retorno ao governo civil permanece incerto.",
+      "fontes": [
+        "elizabeth-schmidt-guine"
+      ]
+    }
+  ]
+}

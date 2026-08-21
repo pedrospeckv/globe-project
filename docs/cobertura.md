@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**124 de 174 países** desenhados no mapa têm dossiê (71.3%), somando **649 períodos**.
+**127 de 174 países** desenhados no mapa têm dossiê (73.0%), somando **662 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -64,6 +64,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Groenlândia | `GRL` | 3 | 3 |
 | Guatemala | `GTM` | 7 | 7 |
 | Guiana | `GUY` | 4 | 4 |
+| Guiné | `GIN` | 4 | 4 |
 | Haiti | `HTI` | 5 | 5 |
 | Honduras | `HND` | 3 | 3 |
 | Hungria | `HUN` | 7 | 7 |
@@ -82,6 +83,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Laos | `LAO` | 5 | 5 |
 | Letônia | `LVA` | 6 | 6 |
 | Líbano | `LBN` | 6 | 6 |
+| Libéria | `LBR` | 4 | 4 |
 | Líbia | `LBY` | 4 | 4 |
 | Lituânia | `LTU` | 7 | 7 |
 | Luxemburgo | `LUX` | 3 | 3 |
@@ -112,6 +114,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Romênia | `ROU` | 4 | 4 |
 | Rússia | `RUS` | 6 | 6 |
 | Senegal | `SEN` | 4 | 4 |
+| Serra Leoa | `SLE` | 5 | 5 |
 | Sérvia | `SRB` | 7 | 7 |
 | Síria | `SYR` | 5 | 5 |
 | Somália | `SOM` | 5 | 5 |
@@ -149,12 +152,11 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | Burundi | Cameroon | Central African Rep. | Chad |
 | Congo | Cyprus | Dem. Rep. Congo | Eq. Guinea |
 | eSwatini | Falkland Is. | Fr. S. Antarctic Lands | Gabon |
-| Gambia | Guinea | Guinea-Bissau | Ireland |
-| Israel | Lesotho | Liberia | Madagascar |
-| Malawi | Mauritania | Moldova | Mongolia |
-| Mozambique | Namibia | Nepal | New Caledonia |
-| Niger | North Korea | Pakistan | Palestine |
-| Rwanda | Sierra Leone | South Africa | South Korea |
-| Sri Lanka | Taiwan | Togo | W. Sahara |
-| Zambia | Zimbabwe |  |  |
+| Gambia | Guinea-Bissau | Ireland | Israel |
+| Lesotho | Madagascar | Malawi | Mauritania |
+| Moldova | Mongolia | Mozambique | Namibia |
+| Nepal | New Caledonia | Niger | North Korea |
+| Pakistan | Palestine | Rwanda | South Africa |
+| South Korea | Sri Lanka | Taiwan | Togo |
+| W. Sahara | Zambia | Zimbabwe |  |
 
