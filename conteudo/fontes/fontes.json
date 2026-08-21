@@ -3983,5 +3983,85 @@
     "autor": "Jeremy MacClancy",
     "data": "1980",
     "citacao": "História concisa de Vanuatu, cobrindo o incomum Condomínio Anglo-Francês das Novas Hébridas — duas administrações coloniais paralelas sobre o mesmo território — e o movimento cultual John Frum surgido na ilha de Tanna."
+  },
+  {
+    "id": "ian-shaw-egito-antigo",
+    "tipo": "livro",
+    "titulo": "The Oxford History of Ancient Egypt",
+    "autor": "Ian Shaw (org.)",
+    "data": "2000",
+    "citacao": "História de referência do Egito antigo, da unificação sob Narmer por volta de 3100 a.C. à conquista de Alexandre, o Grande, cobrindo os reinos Antigo, Médio e Novo e os períodos intermediários de fragmentação e domínio estrangeiro."
+  },
+  {
+    "id": "al-sayyid-marsot-egito-moderno",
+    "tipo": "livro",
+    "titulo": "A History of Egypt: From the Arab Conquest to the Present",
+    "autor": "Afaf Lutfi al-Sayyid-Marsot",
+    "data": "2007",
+    "citacao": "História egípcia da conquista árabe de 641 à era Mubarak, cobrindo o Sultanato Mameluco, a dinastia de Muhammad Ali, o protetorado britânico e a revolução de 1952."
+  },
+  {
+    "id": "tratado-paz-egito-israel-1979",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Paz entre o Egito e Israel",
+    "publicacao": "Egito e Israel, mediado pelos Estados Unidos em Camp David",
+    "data": "1979-03-26",
+    "citacao": "Tornou o Egito o primeiro país árabe a reconhecer formalmente Israel e assinar paz permanente, em troca da devolução integral do Sinai ocupado desde 1967 — acordo que isolaria temporariamente o Egito do restante do mundo árabe e precipitaria o assassinato do presidente Anwar Sadat por militantes islamistas em 1981."
+  },
+  {
+    "id": "dirk-vandewalle-libia",
+    "tipo": "livro",
+    "titulo": "A History of Modern Libya",
+    "autor": "Dirk Vandewalle",
+    "data": "2012",
+    "citacao": "História líbia da colonização italiana ao pós-Gaddafi, cobrindo a resistência senussita de Omar Mukhtar, a monarquia de Idris, o regime excêntrico da Jamahiriya de Gaddafi e o colapso estatal após 2011."
+  },
+  {
+    "id": "kenneth-perkins-tunisia",
+    "tipo": "livro",
+    "titulo": "A History of Modern Tunisia",
+    "autor": "Kenneth Perkins",
+    "data": "2014",
+    "citacao": "História tunisiana do protetorado francês à Primavera Árabe, cobrindo o reformismo secular de Bourguiba e a Revolução de Jasmim de 2011 que desencadearia levantes por todo o mundo árabe."
+  },
+  {
+    "id": "james-mcdougall-argelia",
+    "tipo": "livro",
+    "titulo": "A History of Algeria",
+    "autor": "James McDougall",
+    "data": "2017",
+    "citacao": "História argelina da Regência Otomana de Argel à Argélia contemporânea, cobrindo a colonização francesa como território integrado à própria França, a guerra de independência e a guerra civil dos anos 1990."
+  },
+  {
+    "id": "alistair-horne-guerra-argelia",
+    "tipo": "livro",
+    "titulo": "A Savage War of Peace: Algeria 1954-1962",
+    "autor": "Alistair Horne",
+    "data": "1977",
+    "citacao": "Relato clássico da Guerra de Independência argelina, documentando o uso sistemático de tortura pelas forças francesas e a violência da Frente de Libertação Nacional, incluindo a Batalha de Argel de 1956-1957."
+  },
+  {
+    "id": "acordos-evian-1962",
+    "tipo": "documento-oficial",
+    "titulo": "Acordos de Évian",
+    "publicacao": "França e o Governo Provisório da República Argelina",
+    "data": "1962-03-18",
+    "citacao": "Encerrou a Guerra de Independência argelina, estabelecendo cessar-fogo e cronograma para referendo de autodeterminação — aprovado por mais de 99% dos votantes argelinos em julho de 1962, consumando a independência."
+  },
+  {
+    "id": "cr-pennell-marrocos",
+    "tipo": "livro",
+    "titulo": "Morocco: From Empire to Independence",
+    "autor": "C. R. Pennell",
+    "data": "2013",
+    "citacao": "História marroquina das dinastias xerifianas medievais à monarquia contemporânea, tratando o Marrocos como o único Estado do Magrebe nunca conquistado pelos otomanos, e cobrindo os protetorados francês e espanhol e os 'Anos de Chumbo' sob Hassan II."
+  },
+  {
+    "id": "tratado-fez-1912",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Fez",
+    "publicacao": "França e o Sultanato do Marrocos",
+    "data": "1912-03-30",
+    "citacao": "Estabeleceu o protetorado francês sobre a maior parte do Marrocos, preservando o sultão como soberano nominal sob administração residencial francesa efetiva — arranjo que perduraria até a independência de 1956."
   }
 ]

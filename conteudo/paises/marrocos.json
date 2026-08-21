@@ -1,0 +1,73 @@
+{
+  "iso": "MAR",
+  "isoNumerico": "504",
+  "nome": "Marrocos",
+  "periodos": [
+    {
+      "id": "mar-dinastia-idrissida",
+      "inicio": "789",
+      "fim": "985",
+      "rotulo": "Dinastia Idríssida",
+      "regime": "primeiro Estado islâmico independente marroquino, sob dinastia xerifiana",
+      "textoMdx": "Idris ibn Abdallah, descendente do profeta Maomé fugido da perseguição abássida no Oriente Médio, funda em 789 o primeiro Estado islâmico independente no território marroquino — seu filho, Idris II, fundaria a cidade de Fez, que se tornaria centro religioso e intelectual duradouro.\n\n**A dinastia idríssida, embora fragmentada por disputas sucessórias já no século X, estabelece o precedente da legitimidade xerifiana — descendência direta do profeta — que dinastias marroquinas posteriores invocariam repetidamente para justificar autoridade política e religiosa combinada.**",
+      "fontes": [
+        "cr-pennell-marrocos"
+      ]
+    },
+    {
+      "id": "mar-imperios-almoravida-almoada",
+      "inicio": "1040",
+      "fim": "1269",
+      "rotulo": "Impérios Almorávida e Almóada",
+      "regime": "impérios berberes sucessivos, estendendo-se do Marrocos à Península Ibérica e à África Ocidental",
+      "textoMdx": "O movimento religioso almorávida, surgido entre tribos berberes do Saara ocidental, unifica o Marrocos a partir de 1040 e expande domínio tanto para o sul, alcançando o rico império de Gana na África Ocidental, quanto para o norte, sobre boa parte da Espanha muçulmana — Marrakech, fundada em 1070, se tornaria capital imperial.\n\n**O movimento almóada sucede os almorávidas a partir de 1147, construindo império ainda maior que se estenderia por todo o Magrebe e a maior parte da Península Ibérica muçulmana — período de florescimento filosófico notável, incluindo a obra do polímata Averróis, cujos comentários sobre Aristóteles influenciariam profundamente a escolástica cristã medieval europeia.**\n\n**A derrota almóada na batalha de Las Navas de Tolosa, em 1212, diante de coalizão de reinos cristãos ibéricos, inicia declínio irreversível do domínio muçulmano na Espanha e fragmentação progressiva do próprio império almóada no norte da África.**",
+      "fontes": [
+        "cr-pennell-marrocos"
+      ]
+    },
+    {
+      "id": "mar-dinastias-marinida-saadiana",
+      "inicio": "1244",
+      "fim": "1659",
+      "rotulo": "Dinastias Marínida e Saadiana",
+      "regime": "dinastias sucessivas, com apogeu saadiano incluindo vitória decisiva contra Portugal",
+      "textoMdx": "A dinastia Marínida, que consolida controle sobre o Marrocos a partir de 1244, governa por dois séculos antes de ceder lugar à dinastia Saadiana em 1549 — a primeira dinastia marroquina de origem árabe xerifiana, não berbere, a assumir o trono.\n\n**A batalha de Ksar el-Kebir, em 1578, na qual as forças saadianas aniquilam exército invasor português e matam o próprio rei Sebastião de Portugal, tem repercussões que se estenderiam muito além do Marrocos — a crise sucessória portuguesa resultante levaria à anexação espanhola de Portugal, dois anos depois.**\n\n**Uma expedição militar saadiana atravessa o deserto do Saara e conquista o poderoso Império Songhai, na atual Mali e Níger, em 1591 — extensão territorial impressionante, ainda que de difícil manutenção duradoura a tamanha distância da base marroquina.**",
+      "fontes": [
+        "cr-pennell-marrocos"
+      ]
+    },
+    {
+      "id": "mar-dinastia-alauita-pre-protetorado",
+      "inicio": "1666",
+      "fim": "1912",
+      "rotulo": "Dinastia Alauita até o Protetorado",
+      "regime": "monarquia xerifiana hereditária, o único Estado do Magrebe nunca subjugado pelos otomanos",
+      "textoMdx": "A dinastia Alauita, que assume o trono marroquino em 1666 e governa ininterruptamente até hoje, reivindica descendência direta do profeta Maomé — o Marrocos permanece, ao longo de toda a era otomana, o único Estado do norte da África a nunca ser conquistado ou integrado ao império turco, preservando soberania nativa contínua.\n\n**A crescente pressão colonial europeia ao longo do século XIX — francesa a partir da Argélia vizinha, espanhola pelo norte — reduz progressivamente a autonomia efetiva marroquina, apesar da soberania formal preservada**, culminando em disputas diplomáticas internacionais sobre o futuro do país que se resolveriam, no início do século XX, em favor do estabelecimento de protetorados estrangeiros.",
+      "fontes": [
+        "cr-pennell-marrocos"
+      ]
+    },
+    {
+      "id": "mar-protetorado-frances-espanhol",
+      "inicio": "1912",
+      "fim": "1956",
+      "rotulo": "Protetorados Francês e Espanhol",
+      "regime": "sultanato sob dupla administração residencial francesa e espanhola",
+      "textoMdx": "O Tratado de Fez, de 1912, estabelece protetorado francês sobre a maior parte do território marroquino, preservando o sultão como soberano formal sob autoridade residencial francesa efetiva — pequenas zonas ao norte e ao sul permaneceriam sob administração espanhola separada.\n\n**A Guerra do Rife, entre 1921 e 1926, vê o líder berbere Abd el-Krim infligir derrota humilhante às forças espanholas em Anual, chegando a proclamar república independente antes de ser esmagado por ofensiva conjunta franco-espanhola que inclui uso documentado de armas químicas pela Espanha.**\n\n**A deposição e exílio forçado do sultão Mohammed V pela França, em 1953, longe de enfraquecer o movimento nacionalista, o transformaria em símbolo unificador da luta pela independência** — seu retorno triunfal em 1955 prepara caminho para a independência plena, obtida no ano seguinte.",
+      "fontes": [
+        "cr-pennell-marrocos",
+        "tratado-fez-1912"
+      ]
+    },
+    {
+      "id": "mar-independencia-hassan-ii-mohammed-vi",
+      "inicio": "1956",
+      "rotulo": "Independência sob Hassan II e Mohammed VI",
+      "regime": "monarquia constitucional de poderes executivos amplos",
+      "textoMdx": "Mohammed V se torna rei em 1957, sucedido por seu filho Hassan II em 1961, cujo reinado de quase quatro décadas incluiria os chamados \"Anos de Chumbo\" — repressão sistemática de opositores políticos, desaparecimentos forçados e prisões secretas como a notória instalação de Tazmamart, cuja existência o Estado negaria por anos.\n\n**Hassan II sobrevive a duas tentativas de golpe militar, em 1971 e 1972, e organiza em 1975 a Marcha Verde, mobilizando trezentos e cinquenta mil civis marroquinos desarmados para ocupar o Saara Ocidental após a retirada espanhola** — território cuja soberania final permanece disputada internacionalmente até hoje, sem reconhecimento unânime da administração marroquina.\n\n**Mohammed VI, que sucede o pai em 1999, promove Comissão de Equidade e Reconciliação para investigar abusos dos Anos de Chumbo e conduz reformas legais significativas, incluindo novo código de família ampliando direitos femininos em 2004** — mas as reformas constitucionais de 2011, apresentadas como resposta à Primavera Árabe regional, preservariam poderes executivos reais e religiosos substanciais concentrados na própria monarquia.",
+      "fontes": [
+        "cr-pennell-marrocos"
+      ]
+    }
+  ]
+}

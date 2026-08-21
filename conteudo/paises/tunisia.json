@@ -1,0 +1,61 @@
+{
+  "iso": "TUN",
+  "isoNumerico": "788",
+  "nome": "Tunísia",
+  "periodos": [
+    {
+      "id": "tun-cartago",
+      "inicio": "-814",
+      "fim": "-146",
+      "rotulo": "Cartago",
+      "regime": "cidade-Estado fenícia, depois potência mediterrânea rival de Roma",
+      "textoMdx": "Colonos fenícios fundam Cartago, tradicionalmente em 814 antes de Cristo, no local da atual Tunes — a cidade se tornaria, ao longo dos séculos seguintes, a maior potência comercial e naval do Mediterrâneo ocidental, controlando rotas comerciais que se estendiam da Espanha à Sicília.\n\n**As Guerras Púnicas contra Roma, travadas entre 264 e 146 antes de Cristo em três conflitos sucessivos, incluem a lendária travessia dos Alpes por Aníbal com elefantes de guerra em 218 antes de Cristo, e vitórias cartaginesas notáveis como Canas** — mas a superioridade de recursos e resiliência romana prevaleceria ao final.\n\n**A Terceira Guerra Púnica termina, em 146 antes de Cristo, com a destruição total de Cartago pelas legiões romanas — a cidade é incendiada, sua população escravizada ou dispersa, e o território transformado em província romana**, encerrando definitivamente a soberania cartaginesa sobre a região.",
+      "fontes": [
+        "kenneth-perkins-tunisia"
+      ]
+    },
+    {
+      "id": "tun-dinastias-islamicas-medievais",
+      "inicio": "670",
+      "fim": "1574",
+      "rotulo": "Dinastias islâmicas medievais",
+      "regime": "sucessivas dinastias islâmicas, com graus variados de autonomia em relação aos califados centrais",
+      "textoMdx": "O general árabe Uqba ibn Nafi funda Cairuão em 670, que se tornaria uma das cidades mais sagradas do islã sunita e base da conquista árabe de todo o norte da África — a cidade preservaria prestígio religioso duradouro muito além de seu papel político.\n\n**A dinastia Aglábida, a partir de 800, governa com autonomia crescente da autoridade abássida central e conquista a Sicília bizantina, enquanto a dinastia Fatímida, que se origina na Tunísia antes de conquistar o Egito em 969, deixa como legado a fundação de instituições religiosas e comerciais duradouras.**\n\n**A dinastia Hafsida, estabelecida em 1229 com capital em Tunes, governa por mais de três séculos, período de relativa estabilidade e prosperidade comercial mediterrânea — encerrado apenas pela conquista otomana de 1574, que integraria definitivamente a Tunísia ao sistema imperial turco.**",
+      "fontes": [
+        "kenneth-perkins-tunisia"
+      ]
+    },
+    {
+      "id": "tun-tunisia-otomana-protetorado-frances",
+      "inicio": "1574",
+      "fim": "1956",
+      "rotulo": "Tunísia Otomana e o Protetorado Francês",
+      "regime": "regência otomana sob dinastia local hereditária, depois protetorado francês",
+      "textoMdx": "A dinastia Huceínida, estabelecida em 1705 sob suserania otomana nominal, governa a Tunísia com autonomia interna substancial — o país promulgaria, em 1861, uma das primeiras constituições escritas de todo o mundo árabe e islâmico, ainda que de vida curta.\n\n**A crise da dívida pública tunisiana, explorada por credores europeus ao longo do século XIX, leva à intervenção militar francesa e ao Tratado do Bardo, de 1881, que estabelece protetorado francês — arranjo que preservaria o bei como soberano nominal sob controle administrativo francês efetivo.**\n\n**O movimento nacionalista, articulado desde o início do século XX pelo Partido Destur e depois pelo Neo-Destur de Habib Bourguiba a partir de 1934, conduz campanha organizada e relativamente disciplinada pela independência, obtida finalmente em 1956 através de negociação mais que confronto armado prolongado.**",
+      "fontes": [
+        "kenneth-perkins-tunisia"
+      ]
+    },
+    {
+      "id": "tun-independencia-bourguiba-ben-ali",
+      "inicio": "1956",
+      "fim": "2011",
+      "rotulo": "Independência sob Bourguiba e Ben Ali",
+      "regime": "república presidencialista de partido dominante",
+      "textoMdx": "Habib Bourguiba, primeiro presidente da Tunísia independente, conduz reformas sociais notavelmente progressistas para os padrões regionais — o Código do Estatuto Pessoal, de 1956, abole a poligamia e concede direitos legais amplos às mulheres, tornando a Tunísia pioneira secular no mundo árabe.\n\n**Bourguiba se declara presidente vitalício em 1975, consolidando domínio pessoal cada vez mais autoritário que se estenderia por mais de trinta anos — até ser deposto em 1987 por seu primeiro-ministro, Zine El Abidine Ben Ali, através de \"golpe médico\" que o declara mentalmente incapaz de governar.**\n\n**Ben Ali governaria por mais de duas décadas adicionais sob regime igualmente autoritário, marcado por corrupção extensa associada à família de sua segunda esposa, Leila Trabelsi, até ser derrubado pela revolta popular de dezembro de 2010 e janeiro de 2011.**",
+      "fontes": [
+        "kenneth-perkins-tunisia"
+      ]
+    },
+    {
+      "id": "tun-primavera-arabe-democracia-atual",
+      "inicio": "2011",
+      "rotulo": "Primavera Árabe e a democracia tunisiana",
+      "regime": "república democrática, com retrocesso autoritário recente sob poderes presidenciais ampliados",
+      "textoMdx": "A autoimolação do vendedor ambulante Mohamed Bouazizi, em dezembro de 2010, em protesto contra confisco arbitrário de sua mercadoria por autoridades locais, deflagra a Revolução de Jasmim que derruba Ben Ali em semanas — episódio que inspiraria, quase imediatamente, levantes semelhantes por todo o mundo árabe.\n\n**A Tunísia se tornaria a única transição democrática bem-sucedida e duradoura entre todos os países atingidos pela Primavera Árabe, com nova constituição aprovada em 2014 e eleições competitivas sucessivas** — o Quarteto do Diálogo Nacional Tunisiano, coalizão de organizações da sociedade civil que mediou a transição, receberia o Prêmio Nobel da Paz em 2015.\n\n**O presidente Kais Saied, eleito em 2019, suspende o parlamento e concentra poderes executivos extraordinários a partir de julho de 2021, promulgando nova constituição em 2022 que consolida sistema presidencialista muito mais centralizado** — retrocesso que preocuparia observadores internacionais como reversão significativa da única história de sucesso democrático clara da Primavera Árabe.",
+      "fontes": [
+        "kenneth-perkins-tunisia"
+      ]
+    }
+  ]
+}

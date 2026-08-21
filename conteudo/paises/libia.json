@@ -1,0 +1,50 @@
+{
+  "iso": "LBY",
+  "isoNumerico": "434",
+  "nome": "Líbia",
+  "periodos": [
+    {
+      "id": "lby-colonizacao-italiana",
+      "inicio": "1911",
+      "fim": "1951",
+      "rotulo": "Colonização italiana",
+      "regime": "colônia italiana, sob resistência armada prolongada na Cirenaica",
+      "textoMdx": "A Itália invade a Tripolitânia e a Cirenaica otomanas em 1911, na Guerra Ítalo-Turca, iniciando conquista que se revelaria muito mais prolongada e violenta do que planejado — a resistência liderada pela ordem religiosa Senussi na Cirenaica, sob o comando do professor rural Omar Mukhtar, resistiria por duas décadas.\n\n**A campanha de pacificação italiana na Cirenaica, entre 1923 e 1931, inclui a criação de campos de concentração que confinam boa parte da população pastoril local — mortandade que historiadores estimam ter reduzido a população da região em cerca de um terço, um dos episódios coloniais mais letais e menos reconhecidos internacionalmente do século XX.**\n\n**Omar Mukhtar é capturado e executado publicamente por enforcamento em 1931, diante de prisioneiros reunidos à força para testemunhar — mas se tornaria, décadas depois, símbolo nacional líbio da resistência anticolonial, retratado inclusive em moeda nacional.** A derrota italiana na Segunda Guerra Mundial encerra o domínio colonial em 1943, deixando o território sob administração militar britânica e francesa até a independência.",
+      "fontes": [
+        "dirk-vandewalle-libia"
+      ]
+    },
+    {
+      "id": "lby-independencia-monarquia-idris",
+      "inicio": "1951",
+      "fim": "1969",
+      "rotulo": "Independência sob o Rei Idris",
+      "regime": "monarquia constitucional, unificando três regiões historicamente distintas",
+      "textoMdx": "A Líbia se torna, em 1951, o primeiro país a alcançar independência sob os auspícios diretos das Nações Unidas — unindo Tripolitânia, Cirenaica e Fezzan, três regiões de trajetórias históricas distintas, sob o rei Idris al-Senussi, líder religioso senussita e veterano da resistência anticolonial.\n\n**A descoberta de petróleo em quantidade comercial, em 1959, transforma radicalmente as perspectivas de um dos países mais pobres do mundo — riqueza súbita que, contudo, se concentraria de forma cada vez mais visível nas mãos de elite reduzida, alimentando ressentimento nacionalista e pan-arabista crescente contra a monarquia percebida como excessivamente próxima do Ocidente.**",
+      "fontes": [
+        "dirk-vandewalle-libia"
+      ]
+    },
+    {
+      "id": "lby-era-gaddafi",
+      "inicio": "1969",
+      "fim": "2011",
+      "rotulo": "Era de Muammar Gaddafi",
+      "regime": "ditadura pessoal sob sistema formalmente descrito como 'democracia direta das massas'",
+      "textoMdx": "O coronel Muammar Gaddafi depõe o rei Idris em golpe incruento em setembro de 1969, instaurando ao longo das décadas seguintes sistema político singular — a \"Jamahiriya\", supostamente governo direto das massas através de comitês populares, mas na prática ditadura pessoal centrada inteiramente em torno de sua própria figura.\n\n**A Líbia de Gaddafi financia e apoia dezenas de movimentos revolucionários e organizações armadas ao redor do mundo, incluindo o atentado ao voo Pan Am 103 sobre Lockerbie, na Escócia, em 1988, que mata 270 pessoas** — envolvimento que levaria a sanções internacionais severas durante toda a década de 1990.\n\n**Gaddafi renuncia formalmente a programas de armas de destruição em massa em 2003, buscando reaproximação com o Ocidente que renderia alívio parcial de sanções — mas os protestos da Primavera Árabe de 2011 escalariam rapidamente para guerra civil, com intervenção militar da OTAN decisiva para a derrota das forças governamentais.** Gaddafi seria capturado e morto por combatentes rebeldes em outubro de 2011, após 42 anos ininterruptos no poder.",
+      "fontes": [
+        "dirk-vandewalle-libia"
+      ]
+    },
+    {
+      "id": "lby-guerra-civil-fragmentacao-atual",
+      "inicio": "2011",
+      "rotulo": "Guerra Civil e a fragmentação líbia",
+      "regime": "Estado fragmentado entre governos rivais apoiados por potências estrangeiras distintas",
+      "textoMdx": "A queda de Gaddafi deixa vácuo de poder que nenhuma autoridade central conseguiria preencher plenamente — o país se fragmentaria progressivamente entre múltiplos governos e milícias armadas rivais, sem que qualquer eleição ou acordo político produzisse unificação duradoura.\n\n**A guerra civil de 2014 em diante opõe, principalmente, um governo baseado em Trípoli, reconhecido internacionalmente e apoiado pela Turquia, a forças do general Khalifa Haftar baseadas em Bengasi e no leste, apoiadas por Rússia, Emirados Árabes Unidos e Egito** — a ofensiva de Haftar contra a própria Trípoli, entre 2019 e 2020, termina em fracasso militar e cessar-fogo negociado, sem resolver a divisão territorial de fundo.\n\n**O colapso da barragem de Derna, em setembro de 2023, durante a tempestade Daniel, mata milhares de pessoas em poucas horas — desastre que expõe diretamente o abandono de infraestrutura básica ao longo de mais de uma década de conflito e fragmentação institucional**, com o país permanecendo, mais de uma década depois da queda de Gaddafi, sem governo unificado nem perspectiva clara de reunificação.",
+      "fontes": [
+        "dirk-vandewalle-libia"
+      ]
+    }
+  ]
+}

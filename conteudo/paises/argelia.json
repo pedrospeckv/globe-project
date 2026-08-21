@@ -1,0 +1,74 @@
+{
+  "iso": "DZA",
+  "isoNumerico": "012",
+  "nome": "Argélia",
+  "periodos": [
+    {
+      "id": "dza-dinastias-islamicas-medievais",
+      "inicio": "767",
+      "fim": "1516",
+      "rotulo": "Dinastias islâmicas medievais",
+      "regime": "sucessivas dinastias e principados islâmicos regionais",
+      "textoMdx": "O Imamado Rustâmida, fundado em 767 na cidade de Tahert por seguidores do ibadismo — ramo do islã distinto do sunismo e do xiismo —, estabelece um dos primeiros Estados islâmicos independentes do norte da África, sobrevivendo até sua destruição pelos fatímidas em 909.\n\n**Diversas dinastias berberes e árabes sucedem-se no controle de partes do território ao longo dos séculos seguintes, incluindo os impérios almorávida e almóada, baseados no Marrocos vizinho, que estenderiam autoridade sobre boa parte da Argélia atual em seus respectivos apogeus territoriais.**\n\n**A dinastia Zayânida de Tlemcen, estabelecida em 1235, preserva principado relativamente estável e comercialmente próspero por mais de três séculos, situado estrategicamente entre os impérios rivais do Marrocos e da Tunísia**, até a chegada do poder otomano no início do século XVI.",
+      "fontes": [
+        "james-mcdougall-argelia"
+      ]
+    },
+    {
+      "id": "dza-regencia-otomana-argel",
+      "inicio": "1516",
+      "fim": "1830",
+      "rotulo": "Regência Otomana de Argel",
+      "regime": "regência otomana vassala, na prática autônoma sob governo militar local",
+      "textoMdx": "Os irmãos corsários Barba-Ruiva estabelecem controle otomano sobre Argel em 1516, criando regência que se tornaria, na prática, amplamente autônoma da autoridade de Istambul — governada, a partir de 1671, por um dey eleito localmente pelos próprios oficiais militares janízaros.\n\n**Argel se torna base notória de corsários berberes que atacariam navegação e litorais europeus por séculos, capturando e escravizando dezenas de milhares de cativos cristãos — incluindo o famoso \"Rapto Turco\" da Islândia em 1627, quando corsários argelinos sequestram centenas de islandeses de uma ilha tão distante quanto o Atlântico Norte.**\n\n**Repetidas expedições navais europeias e americanas, incluindo as Guerras Barbarescas travadas pelos Estados Unidos entre 1801 e 1815, fracassam em encerrar definitivamente a pirataria argelina — apenas a invasão francesa de 1830, sob pretexto de um incidente diplomático menor, encerraria a regência de forma permanente.**",
+      "fontes": [
+        "james-mcdougall-argelia"
+      ]
+    },
+    {
+      "id": "dza-colonizacao-francesa",
+      "inicio": "1830",
+      "fim": "1954",
+      "rotulo": "Colonização Francesa",
+      "regime": "colônia integrada administrativamente à própria França, com extensa população de colonos europeus",
+      "textoMdx": "A conquista francesa, iniciada em 1830, enfrenta resistência prolongada liderada pelo emir Abdelkader entre 1832 e 1847 — apenas superada após campanha militar de contrainsurgência extensa que inclui destruição sistemática de aldeias e colheitas.\n\n**A Argélia é incorporada, de forma incomum entre as colônias francesas, como parte administrativa integral do próprio território metropolitano francês, dividida em departamentos — arranjo que atrairia colonização europeia maciça, os chamados pieds-noirs, que chegariam a somar mais de um milhão de pessoas, concentrando terra e poder econômico às custas da maioria muçulmana argelina.**\n\n**O massacre de Sétif, em maio de 1945, quando forças francesas e milícias de colonos matam milhares de argelinos durante manifestações nacionalistas que coincidem com as celebrações da vitória aliada na Europa, radicaliza definitivamente o movimento independentista** — precedente direto da guerra armada que eclodiria menos de uma década depois.",
+      "fontes": [
+        "james-mcdougall-argelia"
+      ]
+    },
+    {
+      "id": "dza-guerra-independencia",
+      "inicio": "1954",
+      "fim": "1962",
+      "rotulo": "Guerra de Independência",
+      "regime": "movimento revolucionário armado em guerra contra a administração colonial francesa",
+      "textoMdx": "A Frente de Libertação Nacional lança insurreição armada em novembro de 1954, iniciando guerra que se estenderia por oito anos e mataria, segundo estimativas argelinas, mais de um milhão de pessoas — números que historiadores independentes consideram superestimados, mas que não alteram a magnitude da violência do conflito.\n\n**A Batalha de Argel, em 1956-1957, na qual forças francesas empregam tortura sistemática documentada para desmantelar redes urbanas da FLN, se tornaria símbolo internacional dos métodos empregados pela contrainsurgência colonial francesa — e geraria debate moral duradouro dentro da própria sociedade francesa.**\n\n**O general Charles de Gaulle, retornando ao poder francês em 1958 em parte devido à crise argelina, reverteria progressivamente a posição francesa em direção à autodeterminação — os Acordos de Évian, de março de 1962, estabelecem cessar-fogo e referendo que aprovaria a independência com mais de 99% dos votos em julho daquele ano**, seguido de êxodo maciço e abrupto da população pied-noir e dos harkis, argelinos que haviam combatido ao lado da França.",
+      "fontes": [
+        "james-mcdougall-argelia",
+        "alistair-horne-guerra-argelia",
+        "acordos-evian-1962"
+      ]
+    },
+    {
+      "id": "dza-independencia-fln-guerra-civil",
+      "inicio": "1962",
+      "fim": "2019",
+      "rotulo": "Independência sob o FLN e a Guerra Civil",
+      "regime": "república socialista de partido único, depois Estado em guerra civil a partir de 1992",
+      "textoMdx": "A Argélia independente se consolida sob domínio único da Frente de Libertação Nacional, com o coronel Houari Boumédiène depondo o primeiro presidente Ahmed Ben Bella em golpe em 1965 e nacionalizando extensamente a economia, incluindo a indústria petrolífera.\n\n**A abertura política de 1989, permitindo eleições multipartidárias após anos de agitação social, resulta em vitória eleitoral esmagadora do partido islamista Frente Islâmica de Salvação em 1991 — resultado que o Exército anula através de golpe, cancelando o segundo turno e proibindo o partido.**\n\n**A Guerra Civil Argelina, entre 1992 e 2002, conhecida internamente como a \"Década Negra\", mata entre 150 e 200 mil pessoas, incluindo massacres de aldeias inteiras atribuídos a grupos islamistas armados, em circunstâncias cujo grau de envolvimento dos próprios serviços de segurança do Estado permanece disputado até hoje** — o presidente Abdelaziz Bouteflika, eleito em 1999, promoveria lei de reconciliação nacional que encerraria formalmente o conflito, mas permaneceria no poder por duas décadas adicionais.",
+      "fontes": [
+        "james-mcdougall-argelia"
+      ]
+    },
+    {
+      "id": "dza-hirak-atual",
+      "inicio": "2019",
+      "rotulo": "O Hirak e a Argélia contemporânea",
+      "regime": "república sob domínio militar de facto, desafiada por movimento de protesto popular",
+      "textoMdx": "O movimento de protesto pacífico conhecido como Hirak, iniciado em fevereiro de 2019 contra a tentativa de Bouteflika de buscar um quinto mandato presidencial apesar de saúde debilitada, força sua renúncia em abril daquele ano após mobilizações semanais maciças em todo o país.\n\n**Apesar da queda de Bouteflika, o establishment militar que efetivamente governa a Argélia desde a independência preserva controle decisivo sobre a transição política, conduzindo eleição presidencial de 2019 que o Hirak amplamente boicotaria por considerá-la manipulada.**\n\n**Abdelmadjid Tebboune, eleito presidente em meio a essa contestação, governa desde então navegando entre demandas populares por mudança genuína e a persistência das estruturas de poder militar tradicionais** — a Argélia, com suas vastas reservas de gás natural, ganharia importância geopolítica adicional como fornecedor alternativo à Europa após a redução das importações de gás russo a partir de 2022.",
+      "fontes": [
+        "james-mcdougall-argelia"
+      ]
+    }
+  ]
+}

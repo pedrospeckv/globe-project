@@ -1,0 +1,73 @@
+{
+  "iso": "EGY",
+  "isoNumerico": "818",
+  "nome": "Egito",
+  "periodos": [
+    {
+      "id": "egy-egito-antigo",
+      "inicio": "-3100",
+      "fim": "-30",
+      "rotulo": "Egito Antigo",
+      "regime": "monarquia divina unificada, com dinastias sucessivas ao longo de três milênios",
+      "textoMdx": "Narmer unifica o Alto e o Baixo Egito por volta de 3100 antes de Cristo, criando um dos primeiros Estados territoriais unificados da história — civilização que preservaria continuidade cultural e política notável por quase três milênios, através de dezenas de dinastias sucessivas.\n\n**O Reino Antigo constrói as grandes pirâmides de Gizé, por volta de 2560 antes de Cristo, sob a Quarta Dinastia — monumentos funerários que permaneceriam, por quase quatro mil anos, as estruturas mais altas já erguidas pela humanidade.**\n\n**O Reino Novo, entre cerca de 1550 e 1070 antes de Cristo, leva o Egito ao apogeu imperial sob faraós como Hatshepsut, Akhenaton — que impõe breve e controversa reforma monoteísta centrada no deus Aton — e Ramessés II, cujo longo reinado inclui a batalha de Kadesh contra os hititas e o mais antigo tratado de paz já documentado na história.**\n\n**O declínio gradual do poder centralizado, a partir de cerca de 1070 antes de Cristo, expõe o Egito a sucessivas conquistas estrangeiras — núbia, assíria, persa aquemênida — antes de Alexandre, o Grande, conquistar o território em 332 antes de Cristo, fundando Alexandria e abrindo caminho à dinastia ptolomaica grega, que governaria até o suicídio de Cleópatra VII e a anexação romana, em 30 antes de Cristo.**",
+      "fontes": [
+        "ian-shaw-egito-antigo"
+      ]
+    },
+    {
+      "id": "egy-conquista-arabe-dinastias-islamicas",
+      "inicio": "641",
+      "fim": "1517",
+      "rotulo": "Conquista Árabe e as dinastias islâmicas",
+      "regime": "califado provincial, depois dinastias progressivamente independentes",
+      "textoMdx": "A conquista árabe, completada em 641 depois de sete séculos de domínio romano e bizantino, integra o Egito ao mundo islâmico emergente — processo gradual de arabização e islamização que se estenderia por séculos sobre a população predominantemente cristã copta original.\n\n**A dinastia Fatímida, xiita ismaelita, funda o Cairo em 969 como nova capital e califado rival ao califado abássida sunita de Bagdá, transformando o Egito em um dos principais centros de poder, comércio e erudição de todo o mundo islâmico.**\n\n**Saladino derruba os fatímidas em 1171, restaura o sunismo e funda a dinastia aiúbida, recapturando Jerusalém dos cruzados em 1187 — mas seriam os mamelucos, ex-escravos-soldados que tomam o poder em 1250, que dominariam o Egito pelos três séculos seguintes, derrotando os mongóis em Ain Jalut, em 1260, e expulsando definitivamente os últimos reinos cruzados do Levante.**",
+      "fontes": [
+        "al-sayyid-marsot-egito-moderno"
+      ]
+    },
+    {
+      "id": "egy-egito-otomano",
+      "inicio": "1517",
+      "fim": "1805",
+      "rotulo": "Egito Otomano",
+      "regime": "província do Império Otomano, com influência mameluca residual persistente",
+      "textoMdx": "A conquista otomana de 1517 integra o Egito ao império do sultão, mas preserva considerável poder mameluco de facto na administração provincial local — arranjo híbrido que persistiria por quase três séculos, com o poder real frequentemente exercido por beis mamelucos rivais mais que pelo governador otomano nominal.\n\n**A invasão francesa de Napoleão Bonaparte, em 1798, embora militarmente breve — expulsa por forças britânicas e otomanas em 1801 —, expõe o Egito a atenção científica e política europeia sem precedentes, incluindo a descoberta da Pedra de Roseta, que décadas depois permitiria decifrar os hieróglifos egípcios.**\n\n**O vácuo de poder deixado pela retirada francesa permite a ascensão de Muhammad Ali Pasha, oficial otomano de origem albanesa que massacra os líderes mamelucos remanescentes em 1811, consolidando controle pessoal sobre o Egito que se tornaria, na prática, quase inteiramente independente da autoridade otomana.**",
+      "fontes": [
+        "al-sayyid-marsot-egito-moderno"
+      ]
+    },
+    {
+      "id": "egy-dinastia-muhammad-ali-protetorado-britanico",
+      "inicio": "1805",
+      "fim": "1952",
+      "rotulo": "Dinastia de Muhammad Ali e o protetorado britânico",
+      "regime": "dinastia hereditária semi-autônoma, depois protetorado britânico de facto e formal",
+      "textoMdx": "Muhammad Ali conduz modernização militar e industrial ambiciosa, fundando dinastia que governaria o Egito, com autonomia crescente da autoridade otomana nominal, até a revolução de 1952 — seu neto Ismail obteria o título de Khedive e endividaria catastroficamente o país na construção do Canal de Suez, inaugurado em 1869.\n\n**A crise da dívida egípcia, explorada por credores europeus, leva à ocupação militar britânica em 1882 — nominalmente preservando soberania otomana e depois khedival, mas com controle efetivo britânico sobre finanças, exército e política externa egípcios pelas sete décadas seguintes.**\n\n**O protetorado britânico formal, declarado em 1914 ao início da Primeira Guerra Mundial, cede lugar a independência nominal em 1922 sob o rei Fuad — mas a Grã-Bretanha preserva controle sobre a zona do Canal de Suez, defesa e política externa, gerando ressentimento nacionalista crescente que culminaria na revolução dos Oficiais Livres de 1952.**",
+      "fontes": [
+        "al-sayyid-marsot-egito-moderno"
+      ]
+    },
+    {
+      "id": "egy-republica-nasser-sadat-mubarak",
+      "inicio": "1952",
+      "fim": "2011",
+      "rotulo": "República sob Nasser, Sadat e Mubarak",
+      "regime": "república presidencialista de partido dominante",
+      "textoMdx": "A Revolução dos Oficiais Livres, em julho de 1952, depõe o rei Farouk e aboliria a monarquia no ano seguinte — Gamal Abdel Nasser emergiria como líder dominante, nacionalizando o Canal de Suez em 1956 e sobrevivendo à invasão conjunta de Israel, Reino Unido e França graças a pressão diplomática americana e soviética conjunta, consolidando-se como principal voz do nacionalismo árabe.\n\n**A derrota catastrófica na Guerra dos Seis Dias, em 1967, custa ao Egito a perda da península do Sinai para Israel e abala profundamente o prestígio nasserista — Anwar Sadat, sucessor de Nasser após sua morte em 1970, lançaria a Guerra de Outubro de 1973 buscando restaurar honra militar árabe antes de negociar paz histórica com Israel em 1979, tornando o Egito o primeiro país árabe a reconhecer o Estado judeu.**\n\n**Sadat seria assassinado por militantes islâmicos em 1981, precisamente durante desfile militar que celebrava a própria Guerra de Outubro — Hosni Mubarak, seu vice-presidente, governaria por quase trinta anos consecutivos sob estado de emergência quase ininterrupto, até ser derrubado pelos protestos da Primavera Árabe em 2011.**",
+      "fontes": [
+        "al-sayyid-marsot-egito-moderno",
+        "tratado-paz-egito-israel-1979"
+      ]
+    },
+    {
+      "id": "egy-primavera-arabe-sisi-atual",
+      "inicio": "2011",
+      "rotulo": "Primavera Árabe e a era de Sisi",
+      "regime": "república presidencialista, sob transição democrática interrompida por golpe militar",
+      "textoMdx": "A queda de Mubarak, em fevereiro de 2011, abre caminho às primeiras eleições verdadeiramente competitivas da história egípcia moderna, vencidas pelo candidato da Irmandade Muçulmana, Mohamed Morsi, em 2012 — presidência que se revelaria polarizadora e de curta duração.\n\n**O general Abdel Fattah al-Sisi depõe Morsi em julho de 2013, após protestos de massa contra seu governo, e reprime a resposta da Irmandade Muçulmana com violência extrema — o massacre da praça Rabaa, em agosto daquele ano, mata mais de oitocentos manifestantes num único dia, uma das maiores mortandades de manifestantes documentadas da história recente.**\n\n**Sisi, eleito presidente em 2014 e reeleito desde então sob emendas constitucionais que ampliam mandatos presidenciais, governa de forma crescentemente autoritária, combinando repressão política extensa com projetos de infraestrutura monumentais — incluindo a expansão do Canal de Suez e a construção de nova capital administrativa no deserto a leste do Cairo.**",
+      "fontes": [
+        "al-sayyid-marsot-egito-moderno"
+      ]
+    }
+  ]
+}
