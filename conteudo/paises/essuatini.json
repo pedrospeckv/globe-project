@@ -1,0 +1,39 @@
+{
+  "iso": "SWZ",
+  "isoNumerico": "748",
+  "nome": "Essuatíni",
+  "periodos": [
+    {
+      "id": "swz-reino-suazi-dlamini",
+      "inicio": "1750",
+      "fim": "1903",
+      "rotulo": "Reino Suázi sob a dinastia Dlamini",
+      "regime": "reino consolidado sob dinastia que permanece no trono até os dias atuais",
+      "textoMdx": "A dinastia Dlamini consolida o reino suázi ao longo do século XVIII e início do XIX, sobretudo sob o rei Sobhuza I — seu neto, Mswati II, cujo próprio nome batizaria a nação suázi, expandiria e consolidaria ainda mais o território entre 1840 e 1868.\n\n**O reino navega, ao longo da segunda metade do século XIX, pressão crescente e perigosa de duas frentes simultâneas — a expansão da República bôer do Transvaal e o avanço colonial britânico —, período de reivindicações territoriais sobrepostas e disputadas entre as duas potências.**\n\n**O território se tornaria protetorado britânico formal em 1903, após período de autoridade contestada entre interesses bôeres e britânicos rivais.**",
+      "fontes": [
+        "alan-booth-essuatini"
+      ]
+    },
+    {
+      "id": "swz-protetorado-britanico",
+      "inicio": "1903",
+      "fim": "1968",
+      "rotulo": "Protetorado Britânico",
+      "regime": "protetorado britânico, sob reinado excepcionalmente longo de um único monarca",
+      "textoMdx": "O território permanece sob administração colonial britânica por mais de seis décadas, enquanto o rei Sobhuza II, coroado ainda em 1921, reinaria continuamente ao longo de todo esse período e muito além — reinado que se estenderia por mais de 82 anos ao todo, um dos mais longos já documentados na história política mundial.\n\n**A independência plena seria finalmente obtida em setembro de 1968, com Sobhuza II permanecendo à frente do novo Estado independente como havia estado à frente do próprio protetorado colonial por décadas.**",
+      "fontes": [
+        "alan-booth-essuatini"
+      ]
+    },
+    {
+      "id": "swz-monarquia-absoluta-atual",
+      "inicio": "1968",
+      "rotulo": "Monarquia absoluta contemporânea",
+      "regime": "uma das últimas monarquias absolutas do mundo, com partidos políticos formalmente banidos",
+      "textoMdx": "Sobhuza II abole a constituição do período da independência em 1973, estabelecendo formalmente governo por decreto real e autoridade monárquica absoluta — morreria em 1982, depois de reinado extraordinariamente longo.\n\n**O rei Mswati III, coroado em 1986 após período de regência, mantém a monarquia absoluta até os dias atuais — partidos políticos permanecem formalmente banidos, situação que torna a Essuatíni uma das últimas monarquias absolutas do mundo, ao lado de um punhado reduzido de outros Estados globalmente.**\n\n**Mswati III renomeia o país de Suazilândia para Essuatíni em 2018, buscando afirmar identidade nacional africana distinta e evitar confusão com a Suíça — movimento unilateral que atrairia crítica por falta de consulta pública ampla** — movimento pró-democracia significativo se intensificaria a partir de 2021, exigindo reforma constitucional e enfrentando repressão violenta das forças de segurança que mataria dezenas de manifestantes, deixando o futuro político do reino em tensão não resolvida entre a monarquia absoluta e crescente movimento doméstico por mudança democrática.",
+      "fontes": [
+        "alan-booth-essuatini"
+      ]
+    }
+  ]
+}

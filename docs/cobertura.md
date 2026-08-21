@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**146 de 174 países** desenhados no mapa têm dossiê (83.9%), somando **736 períodos**.
+**152 de 174 países** desenhados no mapa têm dossiê (87.4%), somando **756 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -29,6 +29,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Bielorrússia | `BLR` | 5 | 5 |
 | Bolívia | `BOL` | 8 | 8 |
 | Bósnia e Herzegovina | `BIH` | 7 | 7 |
+| Botsuana | `BWA` | 2 | 2 |
 | Brasil | `BRA` | 8 | 8 |
 | Brunei | `BRN` | 3 | 3 |
 | Bulgária | `BGR` | 6 | 6 |
@@ -58,6 +59,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Eslováquia | `SVK` | 6 | 6 |
 | Eslovênia | `SVN` | 5 | 5 |
 | Espanha | `ESP` | 6 | 6 |
+| Essuatíni | `SWZ` | 3 | 3 |
 | Estados Unidos | `USA` | 8 | 8 |
 | Estônia | `EST` | 5 | 5 |
 | Etiópia | `ETH` | 7 | 7 |
@@ -92,6 +94,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Jordânia | `JOR` | 3 | 3 |
 | Kuwait | `KWT` | 3 | 3 |
 | Laos | `LAO` | 5 | 5 |
+| Lesoto | `LSO` | 3 | 3 |
 | Letônia | `LVA` | 6 | 6 |
 | Líbano | `LBN` | 6 | 6 |
 | Libéria | `LBR` | 4 | 4 |
@@ -99,7 +102,9 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Lituânia | `LTU` | 7 | 7 |
 | Luxemburgo | `LUX` | 3 | 3 |
 | Macedônia do Norte | `MKD` | 3 | 3 |
+| Madagascar | `MDG` | 4 | 4 |
 | Malásia | `MYS` | 5 | 5 |
+| Malaui | `MWI` | 4 | 4 |
 | Mali | `MLI` | 6 | 6 |
 | Marrocos | `MAR` | 6 | 6 |
 | Mauritânia | `MRT` | 3 | 3 |
@@ -107,6 +112,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Mianmar | `MMR` | 7 | 7 |
 | Moçambique | `MOZ` | 4 | 4 |
 | Montenegro | `MNE` | 6 | 6 |
+| Namíbia | `NAM` | 4 | 4 |
 | Nicarágua | `NIC` | 6 | 6 |
 | Níger | `NER` | 4 | 4 |
 | Nigéria | `NGA` | 6 | 6 |
@@ -167,10 +173,9 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | | | | |
 |---|---|---|---|
 | Afghanistan | Antarctica | Bangladesh | Bhutan |
-| Botswana | Burundi | Cyprus | eSwatini |
-| Falkland Is. | Fr. S. Antarctic Lands | Ireland | Israel |
-| Lesotho | Madagascar | Malawi | Moldova |
-| Mongolia | Namibia | Nepal | New Caledonia |
-| North Korea | Pakistan | Palestine | Rwanda |
-| South Korea | Sri Lanka | Taiwan | W. Sahara |
+| Burundi | Cyprus | Falkland Is. | Fr. S. Antarctic Lands |
+| Ireland | Israel | Moldova | Mongolia |
+| Nepal | New Caledonia | North Korea | Pakistan |
+| Palestine | Rwanda | South Korea | Sri Lanka |
+| Taiwan | W. Sahara |  |  |
 

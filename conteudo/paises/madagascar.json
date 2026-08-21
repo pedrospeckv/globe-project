@@ -1,0 +1,50 @@
+{
+  "iso": "MDG",
+  "isoNumerico": "450",
+  "nome": "Madagascar",
+  "periodos": [
+    {
+      "id": "mdg-reino-imerina",
+      "inicio": "1787",
+      "fim": "1896",
+      "rotulo": "Reino de Imerina",
+      "regime": "reino das terras altas centrais que unificaria a maior parte da ilha",
+      "textoMdx": "Andrianampoinimerina inicia, a partir de 1787, a unificação decisiva da maior parte da ilha sob o Reino de Imerina, das terras altas centrais — seu filho e sucessor, Radama I, obteria reconhecimento britânico formal a partir de 1810 e conduziria modernização significativa, incluindo treinamento militar e educacional segundo modelos ocidentais.\n\n**A rainha Ranavalona I, no trono entre 1828 e 1861, conduz reinado severo e controverso — perseguição intensa a convertidos cristãos e influências estrangeiras, sistemas judiciais brutais de julgamento por ordália, e políticas que provocariam perdas populacionais massivas por guerra e trabalho forçado** — reinado que a historiografia nacionalista malgaxe posterior reinterpretaria, de forma contestada, como defesa firme da soberania nacional contra o avanço colonial europeu.\n\n**A última rainha, Ranavalona III, resiste à pressão francesa crescente até a conquista militar de 1895-1896 extinguir formalmente a monarquia — a rainha seria exilada, primeiro à Reunião e depois à Argélia, onde morreria em 1917.**",
+      "fontes": [
+        "randrianja-ellis-madagascar"
+      ]
+    },
+    {
+      "id": "mdg-madagascar-frances",
+      "inicio": "1896",
+      "fim": "1960",
+      "rotulo": "Madagascar Francês",
+      "regime": "colônia francesa, palco de um dos episódios mais violentos de repressão colonial em todo o império francês",
+      "textoMdx": "A revolta dos \"Xales Vermelhos\", entre 1895 e 1898, resiste à conquista colonial francesa recém-consumada, sendo reprimida com violência considerável antes da consolidação da administração colonial plena.\n\n**A Revolta Malgaxe de 1947 se tornaria um dos episódios de repressão colonial mais violentos de toda a história do império francês — estimativas de mortos variam enormemente, de cerca de onze mil a cem mil pessoas, disparidade que reflete décadas de supressão institucional da memória histórica completa do evento, reconhecido de forma mais ampla apenas décadas depois.**\n\n**A independência plena seria finalmente obtida em junho de 1960, encerrando 64 anos de domínio colonial francês direto.**",
+      "fontes": [
+        "randrianja-ellis-madagascar"
+      ]
+    },
+    {
+      "id": "mdg-independencia-tsiranana-ratsiraka",
+      "inicio": "1960",
+      "fim": "2002",
+      "rotulo": "Independência, Tsiranana e a era Ratsiraka",
+      "regime": "república presidencialista, alternando entre orientação pró-francesa, socialismo e crise eleitoral severa",
+      "textoMdx": "Philibert Tsiranana lidera governo inicial de orientação estreitamente pró-francesa, derrubado por levante popular em 1972 — Didier Ratsiraka governaria, em passagens intermitentes ao longo de décadas seguintes, sob orientações que alternariam entre socialismo declarado e liberalização gradual.\n\n**A crise eleitoral de 2001-2002 quase divide o país em dois, com resultados contestados e violência política significativa, antes que reconhecimento internacional se consolidasse em torno da vitória de Marc Ravalomanana.**",
+      "fontes": [
+        "randrianja-ellis-madagascar"
+      ]
+    },
+    {
+      "id": "mdg-instabilidade-rajoelina-atual",
+      "inicio": "2002",
+      "rotulo": "Instabilidade política e a era Rajoelina",
+      "regime": "república democrática instável, interrompida por golpe apoiado militarmente em 2009",
+      "textoMdx": "Ravalomanana é deposto por golpe liderado por Andry Rajoelina em 2009, com apoio militar direto — episódio que provocaria sanções internacionais e suspensão de Madagascar da União Africana.\n\n**O governo de transição de Rajoelina cederia eventualmente lugar a eleições, com Hery Rajaonarimampianina eleito em 2013 — Rajoelina retornaria ao poder por via eleitoral em 2018 e novamente em 2023, esta última eleição marcada por boicote de oposição e disputas sobre sua elegibilidade diante de questionamentos sobre cidadania dupla.**\n\n**Madagascar permanece entre os países mais pobres do mundo apesar de biodiversidade globalmente única — mais de 90% de sua fauna não existe em nenhum outro lugar do planeta —, enfrentando crises humanitárias recorrentes severas, incluindo fome no extremo sul do país que a própria ONU atribuiria explicitamente às mudanças climáticas, e não a conflito armado, um dos primeiros casos de atribuição formal desse tipo já registrados.**",
+      "fontes": [
+        "randrianja-ellis-madagascar"
+      ]
+    }
+  ]
+}

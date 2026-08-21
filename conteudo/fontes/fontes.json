@@ -4527,5 +4527,69 @@
     "publicacao": "Governo angolano do MPLA e UNITA",
     "data": "1994-11-20",
     "citacao": "Buscou encerrar a Guerra Civil Angolana através de desmobilização militar e governo de unidade nacional — acordo que colapsaria em nova fase de guerra em 1998, com o conflito só terminando definitivamente com a morte em combate do líder da UNITA, Jonas Savimbi, em 2002."
+  },
+  {
+    "id": "jan-bart-gewald-herero",
+    "tipo": "livro",
+    "titulo": "Herero Heroes: A Socio-Political History of the Herero of Namibia, 1890-1923",
+    "autor": "Jan-Bart Gewald",
+    "data": "1999",
+    "citacao": "História do povo herero da Namíbia, incluindo o genocídio de 1904-1908 sob ordens de extermínio do general alemão Lothar von Trotha — considerado o primeiro genocídio do século XX, reconhecido formalmente como tal pela Alemanha apenas em 2021."
+  },
+  {
+    "id": "marion-wallace-namibia",
+    "tipo": "livro",
+    "titulo": "A History of Namibia: From the Beginning to 1990",
+    "autor": "Marion Wallace",
+    "data": "2011",
+    "citacao": "História namibiana de referência, da colonização alemã à independência de 1990, cobrindo a ocupação sul-africana ilegal após a revogação do mandato pela ONU em 1966 e a Guerra de Independência liderada pela SWAPO."
+  },
+  {
+    "id": "declaracao-alemanha-namibia-genocidio-2021",
+    "tipo": "documento-oficial",
+    "titulo": "Declaração Conjunta Alemanha-Namíbia sobre o Genocídio Herero e Nama",
+    "publicacao": "Governos da Alemanha e da Namíbia",
+    "data": "2021-05-28",
+    "citacao": "Reconheceu formalmente, pela primeira vez, que os massacres coloniais alemães contra os povos herero e nama entre 1904 e 1908 constituíram genocídio, oferecendo pacote de desenvolvimento de 1,1 bilhão de euros — reconhecimento e reparação que descendentes herero e nama criticariam como tardios, insuficientes e insuficientemente consultados."
+  },
+  {
+    "id": "morton-ramsay-mgadla-botsuana",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of Botswana",
+    "autor": "Fred Morton, Jeff Ramsay e Part Themba Mgadla",
+    "data": "2008",
+    "citacao": "Obra de referência sobre a história botsuana, da missão diplomática de três reis tswana a Londres em 1895 para evitar anexação pela Companhia Britânica da África do Sul à transformação do país pela descoberta de diamantes em 1967."
+  },
+  {
+    "id": "john-mccracken-malaui",
+    "tipo": "livro",
+    "titulo": "A History of Malawi, 1859-1966",
+    "autor": "John McCracken",
+    "data": "2012",
+    "citacao": "História malauiana da chegada de David Livingstone à independência de 1964, cobrindo o Império Maravi que deu nome ao país e a formação da Niassalândia sob domínio colonial britânico."
+  },
+  {
+    "id": "elizabeth-eldredge-lesoto",
+    "tipo": "livro",
+    "titulo": "A South African Kingdom: The Pursuit of Security in Nineteenth-Century Lesotho",
+    "autor": "Elizabeth A. Eldredge",
+    "data": "1993",
+    "citacao": "História do reino basoto sob Moshoeshoe I, examinando como o soberano unificou refugiados dispersos pelo mfecane numa nova nação coesa através de diplomacia hábil e da fortaleza inexpugnável de Thaba Bosiu, preservando a independência basota contra o Estado Livre de Orange bôer."
+  },
+  {
+    "id": "alan-booth-essuatini",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of Swaziland",
+    "autor": "Alan R. Booth",
+    "data": "2000",
+    "citacao": "Obra de referência sobre a história suázi sob a dinastia Dlamini, cobrindo o protetorado britânico e o longuíssimo reinado do rei Sobhuza II, que aboliria a constituição em 1973 para estabelecer monarquia absoluta ainda vigente sob seu sucessor Mswati III."
+  },
+  {
+    "id": "randrianja-ellis-madagascar",
+    "tipo": "livro",
+    "titulo": "Madagascar: A Short History",
+    "autor": "Solofo Randrianja e Stephen Ellis",
+    "data": "2009",
+    "citacao": "História malgaxe do Reino de Imerina à instabilidade política contemporânea, cobrindo o reinado controverso da rainha Ranavalona I e a Revolta Malgaxe de 1947, um dos episódios de repressão colonial mais violentos de todo o império francês, com estimativas de mortos que variam entre 11 mil e 100 mil pessoas."
   }
 ]
