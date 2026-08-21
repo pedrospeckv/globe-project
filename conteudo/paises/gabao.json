@@ -1,0 +1,39 @@
+{
+  "iso": "GAB",
+  "isoNumerico": "266",
+  "nome": "Gabão",
+  "periodos": [
+    {
+      "id": "gab-libreville-colonizacao-francesa",
+      "inicio": "1839",
+      "fim": "1967",
+      "rotulo": "Libreville e a colonização francesa",
+      "regime": "posto naval francês, depois colônia integrada à África Equatorial Francesa",
+      "textoMdx": "A França estabelece presença naval no estuário do Gabão a partir de 1839, fundando Libreville em 1849 como assentamento para escravos libertados de navios negreiros interceptados — ecoando, em escala menor, a lógica fundacional de Freetown e Monróvia em outras partes da costa africana.\n\n**A colônia do Gabão, integrada à África Equatorial Francesa, recebe desenvolvimento colonial relativamente modesto, com economia baseada principalmente na extração madeireira e, mais tarde, em recursos minerais** — a independência seria obtida em agosto de 1960 sob Léon M'ba, com relações estreitas e duradouras mantidas com a antiga metrópole francesa.",
+      "fontes": [
+        "gardinier-yates-gabao"
+      ]
+    },
+    {
+      "id": "gab-dinastia-bongo",
+      "inicio": "1967",
+      "fim": "2023",
+      "rotulo": "Dinastia Bongo",
+      "regime": "república presidencialista sob domínio pessoal e depois dinástico prolongado, financiado por riqueza petrolífera",
+      "textoMdx": "Omar Bongo assume a presidência em 1967, após a morte de M'ba, e governaria ininterruptamente por 41 anos — um dos reinados mais longos de qualquer chefe de Estado da história política moderna mundial.\n\n**A descoberta de petróleo nos anos 1970 transforma o pequeno Gabão numa das economias de maior renda per capita de toda a África, riqueza que permaneceria, contudo, extremamente concentrada entre a elite política próxima a Bongo — o \"Caso Elf\", escândalo de corrupção envolvendo pagamentos da petrolífera francesa Elf Aquitaine a líderes africanos, incluindo o próprio Bongo, exporia décadas depois a extensão dessa rede de patronagem franco-africana.**\n\n**Bongo morre em 2009, sucedido pelo filho Ali Bongo através de eleição amplamente contestada — perpetuando domínio dinástico que se estenderia por eleições adicionais igualmente disputadas em 2016 e 2023, mesmo depois de Ali Bongo sofrer derrame debilitante em 2018 que levantaria dúvidas sérias sobre sua capacidade de governar.**",
+      "fontes": [
+        "gardinier-yates-gabao"
+      ]
+    },
+    {
+      "id": "gab-golpe-militar-atual",
+      "inicio": "2023",
+      "rotulo": "Golpe militar e a transição",
+      "regime": "governo militar de transição",
+      "textoMdx": "O golpe militar de agosto de 2023, deflagrado imediatamente após o anúncio da controversa reeleição de Ali Bongo, encerra 56 anos de domínio ininterrupto da família Bongo sobre o Gabão.\n\n**O general Brice Oligui Nguema, líder da junta — e, de forma reveladora das dinâmicas de poder gabonesas, ele próprio primo da família Bongo por parte materna —, promete transição de volta ao governo civil constitucional, ainda que cronograma e substância exatos dessa transição permaneçam, no momento presente, incertos.**\n\n**O golpe gabonês se inseriria numa onda mais ampla de rupturas militares que atingiria diversos Estados da África Ocidental e Central ao longo dos anos 2020, embora o Gabão, diferentemente do Mali, do Níger e do Burkina Faso, não tenha rompido de forma comparável com parcerias ocidentais tradicionais nem se aproximado da Rússia.**",
+      "fontes": [
+        "gardinier-yates-gabao"
+      ]
+    }
+  ]
+}

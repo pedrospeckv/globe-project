@@ -1,0 +1,39 @@
+{
+  "iso": "GNQ",
+  "isoNumerico": "226",
+  "nome": "Guiné Equatorial",
+  "periodos": [
+    {
+      "id": "gnq-guine-espanhola",
+      "inicio": "1778",
+      "fim": "1968",
+      "rotulo": "Guiné Espanhola",
+      "regime": "colônia espanhola, o único território africano de língua oficial espanhola",
+      "textoMdx": "Portugal cede à Espanha, pelo Tratado de El Pardo de 1778, direitos sobre as ilhas do Golfo da Guiné e reivindicações territoriais continentais — controle espanhol efetivo se consolidaria apenas gradualmente ao longo do século seguinte, com a ilha de Fernando Pó brevemente arrendada à Grã-Bretanha como base naval antiescravagista no início do século XIX.\n\n**A colônia da Guiné Espanhola, consolidada plenamente apenas por volta do início do século XX, permaneceria administrativamente negligenciada mesmo para os padrões já modestos do colonialismo espanhol tardio.**\n\n**A independência, obtida em outubro de 1968 sob Francisco Macías Nguema, tornaria a Guiné Equatorial o único país africano de língua oficial espanhola — distinção linguística única que sobreviveria, de forma paradoxal, ao terror que se seguiria quase imediatamente à independência.**",
+      "fontes": [
+        "liniger-goumaz-guine-equatorial"
+      ]
+    },
+    {
+      "id": "gnq-macias-nguema-terror",
+      "inicio": "1968",
+      "fim": "1979",
+      "rotulo": "Terror de Macías Nguema",
+      "regime": "um dos regimes totalitários mais extremos e mortíferos da história africana pós-colonial",
+      "textoMdx": "Francisco Macías Nguema transforma rapidamente seu governo em um dos regimes mais extremos já documentados na África independente — proíbe formalmente a própria palavra \"intelectual\", fecha todas as igrejas e escolas do país, e conduz campanha de terror sistemático contra qualquer suspeita de oposição.\n\n**Estimativas históricas apontam que entre um terço da população equato-guineense teria morrido, sido executada ou fugido ao exílio ao longo dos onze anos de seu governo — proporção populacional devastadora que situaria o regime entre os mais letais do século XX em relação ao tamanho do país afetado.**\n\n**Macías Nguema é deposto, julgado e executado por seu próprio sobrinho, Teodoro Obiang Nguema Mbasogo, em golpe militar de 1979 — encerrando um dos capítulos mais sombrios de toda a história política africana pós-colonial.**",
+      "fontes": [
+        "liniger-goumaz-guine-equatorial"
+      ]
+    },
+    {
+      "id": "gnq-obiang-petroleo-atual",
+      "inicio": "1979",
+      "rotulo": "Era Obiang e o petróleo",
+      "regime": "república presidencialista sob domínio pessoal prolongado, transformada pela riqueza petrolífera offshore",
+      "textoMdx": "Teodoro Obiang Nguema governa ininterruptamente desde 1979, tornando-se um dos chefes de Estado com mais tempo consecutivo no poder de todo o mundo contemporâneo.\n\n**Descobertas maciças de petróleo offshore, nos anos 1990, transformam a pequena Guiné Equatorial numa das economias de maior renda per capita de toda a África — riqueza que permaneceria, contudo, extraordinariamente concentrada na família Obiang e em seu círculo íntimo, deixando a maioria da população em pobreza persistente apesar dos números macroeconômicos favoráveis.**\n\n**O filho e vice-presidente Teodorín Obiang enfrentaria processos judiciais por corrupção na França e nos Estados Unidos, incluindo confisco judicial de mansão de luxo em Malibu e coleção de veículos avaliada em dezenas de milhões de dólares, adquiridos com fundos públicos desviados** — a Guiné Equatorial permanece, décadas depois da descoberta petrolífera, entre os Estados menos transparentes e mais repressivos do mundo, segundo organizações internacionais de direitos humanos.",
+      "fontes": [
+        "liniger-goumaz-guine-equatorial"
+      ]
+    }
+  ]
+}

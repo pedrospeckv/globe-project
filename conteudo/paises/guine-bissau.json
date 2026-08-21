@@ -1,0 +1,40 @@
+{
+  "iso": "GNB",
+  "isoNumerico": "624",
+  "nome": "Guiné-Bissau",
+  "periodos": [
+    {
+      "id": "gnb-reino-kaabu",
+      "inicio": "1537",
+      "fim": "1867",
+      "rotulo": "Reino de Kaabu",
+      "regime": "Estado sucessor mandinga do Império do Mali, dominante na região por mais de três séculos",
+      "textoMdx": "O Reino de Kaabu se consolida por volta de 1537 como Estado sucessor mandinga do declinante Império do Mali, exercendo domínio e cobrança de tributo sobre reinos menores vizinhos na região que hoje compreende a Guiné-Bissau e partes do Senegal e da Gâmbia.\n\n**Kaabu preserva estrutura política e militar mandinga distinta por mais de três séculos, controlando rotas comerciais regionais significativas mesmo diante da crescente presença comercial europeia na costa atlântica próxima.**\n\n**O reino seria finalmente destruído em 1867 por forças jihadistas fulani vindas do Futa Jalom, na vizinha Guiné — conquista religiosa que encerraria definitivamente o domínio político mandinga na região, décadas antes da consolidação colonial portuguesa completa sobre o território.**",
+      "fontes": [
+        "lobban-mendy-guine-bissau"
+      ]
+    },
+    {
+      "id": "gnb-guine-portuguesa",
+      "inicio": "1446",
+      "fim": "1974",
+      "rotulo": "Guiné Portuguesa",
+      "regime": "um dos primeiros contatos coloniais europeus na África Ocidental, consolidado tardiamente como colônia formal",
+      "textoMdx": "Navegadores portugueses estabelecem contato comercial já em meados do século XV — um dos primeiros pontos de presença europeia sustentada em toda a África Ocidental —, envolvendo-se extensamente no comércio atlântico de escravos ao longo dos séculos seguintes.\n\n**A administração colonial formal se consolidaria apenas tardiamente, diante de resistência local persistente, apenas por volta do final do século XIX — Amílcar Cabral funda o PAIGC em 1956 e lança, a partir de 1963, guerra de libertação sofisticada que alcançaria sucesso militar considerável no terreno, obtendo reconhecimento internacional crescente mesmo antes do colapso do próprio regime colonial português.**\n\n**Cabral é assassinado por rival dentro do próprio movimento em janeiro de 1973, meses antes de testemunhar a independência unilateral declarada naquele setembro — Portugal reconheceria formalmente a soberania guineense em 1974, após a própria Revolução dos Cravos derrubar o regime colonial português.**",
+      "fontes": [
+        "patrick-chabal-cabral",
+        "lobban-mendy-guine-bissau"
+      ]
+    },
+    {
+      "id": "gnb-independencia-instabilidade-atual",
+      "inicio": "1974",
+      "rotulo": "Independência e a instabilidade crônica",
+      "regime": "república cronicamente instável, sob sucessivos golpes militares e assassinatos políticos",
+      "textoMdx": "Luís Cabral, meio-irmão de Amílcar, se torna o primeiro presidente, mas seria deposto em golpe liderado por João Bernardo \"Nino\" Vieira em 1980 — início de padrão de instabilidade política que persistiria por décadas, incluindo guerra civil devastadora entre 1998 e 1999 que afastaria temporariamente Vieira do poder.\n\n**Vieira retornaria à presidência através de eleição democrática em 2005, apenas para ser assassinado em 2009, em aparente retaliação pelo assassinato do próprio chefe do estado-maior das forças armadas ocorrido horas antes — episódio que ilustraria a profunda fragilidade institucional persistente do país.**\n\n**A Guiné-Bissau se tornaria, a partir dos anos 2000, ponto de trânsito internacionalmente notório para o tráfico de cocaína sul-americana rumo à Europa, explorando a fragilidade das instituições estatais e o controle territorial limitado do governo central** — organizações internacionais chegariam a alertar sobre o risco de o país se tornar efetivamente um \"narcoestado\", enquanto o ciclo de golpes e tentativas de golpe continuaria a marcar a política guineense até os anos 2020, mantendo o país entre os mais pobres e politicamente instáveis do mundo, décadas depois de conquistar a independência no campo de batalha.",
+      "fontes": [
+        "lobban-mendy-guine-bissau"
+      ]
+    }
+  ]
+}

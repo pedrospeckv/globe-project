@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**137 de 174 países** desenhados no mapa têm dossiê (78.7%), somando **703 períodos**.
+**141 de 174 países** desenhados no mapa têm dossiê (81.0%), somando **716 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -41,6 +41,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Chile | `CHL` | 9 | 9 |
 | China | `CHN` | 16 | 16 |
 | Colômbia | `COL` | 7 | 7 |
+| Congo | `COG` | 4 | 4 |
 | Costa do Marfim | `CIV` | 4 | 4 |
 | Costa Rica | `CRI` | 4 | 4 |
 | Croácia | `HRV` | 6 | 6 |
@@ -62,6 +63,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Filipinas | `PHL` | 5 | 5 |
 | Finlândia | `FIN` | 4 | 4 |
 | França | `FRA` | 10 | 10 |
+| Gabão | `GAB` | 3 | 3 |
 | Gâmbia | `GMB` | 4 | 4 |
 | Gana | `GHA` | 4 | 4 |
 | Geórgia | `GEO` | 6 | 6 |
@@ -70,6 +72,8 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Guatemala | `GTM` | 7 | 7 |
 | Guiana | `GUY` | 4 | 4 |
 | Guiné | `GIN` | 4 | 4 |
+| Guiné Equatorial | `GNQ` | 3 | 3 |
+| Guiné-Bissau | `GNB` | 3 | 3 |
 | Haiti | `HTI` | 5 | 5 |
 | Honduras | `HND` | 3 | 3 |
 | Hungria | `HUN` | 7 | 7 |
@@ -158,9 +162,8 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | | | | |
 |---|---|---|---|
 | Afghanistan | Angola | Antarctica | Bangladesh |
-| Bhutan | Botswana | Burundi | Congo |
-| Cyprus | Eq. Guinea | eSwatini | Falkland Is. |
-| Fr. S. Antarctic Lands | Gabon | Guinea-Bissau | Ireland |
+| Bhutan | Botswana | Burundi | Cyprus |
+| eSwatini | Falkland Is. | Fr. S. Antarctic Lands | Ireland |
 | Israel | Lesotho | Madagascar | Malawi |
 | Moldova | Mongolia | Mozambique | Namibia |
 | Nepal | New Caledonia | North Korea | Pakistan |

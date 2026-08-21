@@ -4399,5 +4399,53 @@
     "publicacao": "Câmaras Africanas Extraordinárias, Senegal",
     "data": "2016-05-30",
     "citacao": "Condenou o ex-ditador chadiano Hissène Habré por crimes contra a humanidade, tortura e crimes de guerra cometidos entre 1982 e 1990 — primeira vez na história que um ex-chefe de Estado foi julgado e condenado pelos tribunais de outro país por violações de direitos humanos."
+  },
+  {
+    "id": "decalo-congo",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of Congo",
+    "autor": "Samuel Decalo",
+    "data": "1996",
+    "citacao": "Obra de referência sobre a história do Congo-Brazzaville, do Reino de Loango costeiro à declaração do país como primeiro Estado oficialmente marxista-leninista da África em 1969, sob Marien Ngouabi."
+  },
+  {
+    "id": "john-clark-congo-democracia",
+    "tipo": "livro",
+    "titulo": "The Failure of Democracy in the Republic of Congo",
+    "autor": "John F. Clark",
+    "data": "2008",
+    "citacao": "Análise do colapso da transição democrática congolesa dos anos 1990, cobrindo as guerras civis de 1993-1994 e 1997, esta última na qual Denis Sassou Nguesso retomaria o poder pela força, com apoio militar angolano, contra o presidente eleito Pascal Lissouba."
+  },
+  {
+    "id": "gardinier-yates-gabao",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of Gabon",
+    "autor": "David E. Gardinier e Douglas A. Yates",
+    "data": "2006",
+    "citacao": "Obra de referência sobre a história gabonesa, da fundação de Libreville como assentamento de ex-escravos libertos em 1849 aos 41 anos ininterruptos de Omar Bongo no poder e ao Caso Elf de corrupção franco-africana."
+  },
+  {
+    "id": "liniger-goumaz-guine-equatorial",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of Equatorial Guinea",
+    "autor": "Max Liniger-Goumaz",
+    "data": "2000",
+    "citacao": "Obra de referência sobre a história da Guiné Equatorial, cobrindo o terror totalitário de Francisco Macías Nguema, que exterminaria ou expulsaria cerca de um terço da população do país entre 1968 e 1979, e a era petrolífera sob Teodoro Obiang Nguema."
+  },
+  {
+    "id": "patrick-chabal-cabral",
+    "tipo": "livro",
+    "titulo": "Amílcar Cabral: Revolutionary Leadership and People's War",
+    "autor": "Patrick Chabal",
+    "data": "1983",
+    "citacao": "Biografia política de Amílcar Cabral, líder do PAIGC e um dos teóricos revolucionários mais influentes da história africana, assassinado por rival dentro do próprio movimento em janeiro de 1973, meses antes da independência da Guiné-Bissau que ele ajudara a conquistar no campo de batalha."
+  },
+  {
+    "id": "lobban-mendy-guine-bissau",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of the Republic of Guinea-Bissau",
+    "autor": "Richard Lobban e Peter Mendy",
+    "data": "2013",
+    "citacao": "Obra de referência sobre a história guineense, do Reino de Kaabu, sucessor mandinga do Império do Mali, à instabilidade política crônica pós-independência e ao surgimento do país como importante rota de tráfico de cocaína sul-americana para a Europa."
   }
 ]
