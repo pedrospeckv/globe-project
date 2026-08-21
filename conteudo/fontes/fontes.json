@@ -3127,5 +3127,85 @@
     "autor": "Gunnar Karlsson",
     "data": "2000",
     "citacao": "História islandesa do povoamento viking em 874 ao século XX. Trata o Althing, fundado em 930, como uma das assembleias legislativas mais antigas do mundo em funcionamento contínuo, e as Guerras do Bacalhau do século XX como disputa central da política externa islandesa moderna."
+  },
+  {
+    "id": "beller-historia-austria",
+    "tipo": "livro",
+    "titulo": "A Concise History of Austria",
+    "autor": "Steven Beller",
+    "data": "2006",
+    "citacao": "História austríaca do domínio dos Habsburgo ao século XXI. Trata o colapso do império multinacional em 1918 como trauma que deixou a pequena república sem clareza sobre a própria identidade nacional, problema só resolvido, argumenta o autor, no pós-Segunda Guerra."
+  },
+  {
+    "id": "judson-imperio-habsburgo",
+    "tipo": "livro",
+    "titulo": "The Habsburg Empire: A New History",
+    "autor": "Pieter M. Judson",
+    "data": "2016",
+    "citacao": "Revisão histórica do Império Habsburgo que contesta a tese de declínio inevitável, mostrando instituições funcionais e identidades múltiplas coexistindo até o colapso abrupto de 1918, precipitado pela guerra e não por decadência interna de longa data."
+  },
+  {
+    "id": "tratado-estado-austria-1955",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Estado Austríaco",
+    "publicacao": "Áustria e as quatro potências ocupantes (EUA, URSS, Reino Unido, França)",
+    "data": "1955",
+    "citacao": "Encerrou a ocupação quadripartite da Áustria pós-guerra, restaurou a soberania plena e estabeleceu a neutralidade permanente do país como condição para a retirada soviética — meses antes de o Pacto de Varsóvia ser formado, dando à Áustria margem de manobra que a Alemanha dividida não teve."
+  },
+  {
+    "id": "church-historia-suica",
+    "tipo": "livro",
+    "titulo": "A Concise History of Switzerland",
+    "autor": "Clive H. Church e Randolph C. Head",
+    "data": "2013",
+    "citacao": "História suíça do Pacto de 1291 ao federalismo contemporâneo. Discute a neutralidade armada como construção deliberada do século XIX, e não tradição imemorial, e a democracia direta por referendo como mecanismo que ao mesmo tempo estabiliza e retarda mudança social — o voto feminino nacional só chegou em 1971."
+  },
+  {
+    "id": "bergier-relatorio-suica-nazismo",
+    "tipo": "documento-oficial",
+    "titulo": "Suíça, Nacional-Socialismo e a Segunda Guerra Mundial",
+    "publicacao": "Comissão Independente de Peritos Suíça-Segunda Guerra Mundial (Comissão Bergier)",
+    "data": "2002",
+    "citacao": "Investigação oficial encomendada pelo governo suíço sobre o papel do país durante o nazismo: recusa de refugiados judeus na fronteira, comércio de ouro com o Reichsbank alemão e ativos não reclamados de vítimas do Holocausto em bancos suíços. Levou a acordo de compensação bilionário com organizações judaicas em 1998."
+  },
+  {
+    "id": "israel-republica-holandesa",
+    "tipo": "livro",
+    "titulo": "The Dutch Republic: Its Rise, Greatness, and Fall, 1477-1806",
+    "autor": "Jonathan I. Israel",
+    "data": "1995",
+    "citacao": "História de referência da República Holandesa, do domínio dos Habsburgo à era napoleônica. Trata o Século de Ouro holandês como resultado da revolta contra a Espanha combinada a inovação financeira e comercial sem precedente na Europa do século XVII."
+  },
+  {
+    "id": "schama-riqueza-embaracosa",
+    "tipo": "livro",
+    "titulo": "The Embarrassment of Riches: An Interpretation of Dutch Culture in the Golden Age",
+    "autor": "Simon Schama",
+    "data": "1987",
+    "citacao": "Estudo cultural do Século de Ouro holandês, examinando a tensão entre prosperidade material sem precedente e uma cultura calvinista desconfiada da própria riqueza — incluindo a especulação das tulipas de 1637 como episódio revelador dessa ambivalência."
+  },
+  {
+    "id": "hochschild-fantasma-rei-leopoldo",
+    "tipo": "livro",
+    "titulo": "King Leopold's Ghost: A Story of Greed, Terror, and Heroism in Colonial Africa",
+    "autor": "Adam Hochschild",
+    "data": "1998",
+    "citacao": "Reconstrução do domínio pessoal de Leopoldo II sobre o Estado Livre do Congo entre 1885 e 1908, com base em relatos de missionários, diplomatas e sobreviventes. Documenta o sistema de trabalho forçado da borracha e estima em milhões a mortalidade da população congolesa no período, entre as maiores atrocidades coloniais já registradas."
+  },
+  {
+    "id": "witte-belgica-politica",
+    "tipo": "livro",
+    "titulo": "Political History of Belgium: From 1830 Onwards",
+    "autor": "Els Witte, Jan Craeybeckx e Alain Meynen",
+    "data": "2000",
+    "citacao": "História política belga da independência de 1830 ao início do século XXI. Acompanha a federalização progressiva do Estado unitário original em resposta ao conflito linguístico entre Flandres e Valônia, processo que se estende por reformas constitucionais sucessivas a partir de 1970."
+  },
+  {
+    "id": "kreins-historia-luxemburgo",
+    "tipo": "livro",
+    "titulo": "Histoire du Luxembourg",
+    "autor": "Jean-Marie Kreins",
+    "data": "1996",
+    "citacao": "História luxemburguesa do condado medieval à condição de centro financeiro e sede de instituições europeias. Trata a Crise Luxemburguesa de 1867 como o momento em que as grandes potências garantem a neutralidade permanente do pequeno Estado para evitar guerra franco-prussiana antecipada por sua causa."
   }
 ]

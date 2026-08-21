@@ -1,0 +1,39 @@
+{
+  "iso": "LUX",
+  "isoNumerico": "442",
+  "nome": "Luxemburgo",
+  "periodos": [
+    {
+      "id": "lu-condado-e-ducado",
+      "inicio": "963",
+      "fim": "1867",
+      "rotulo": "Condado e Ducado de Luxemburgo",
+      "regime": "condado, depois ducado do Sacro Império Romano-Germânico; sucessivas dominações estrangeiras",
+      "textoMdx": "Luxemburgo nasce em 963, quando o conde Sigefroi adquire um pequeno castelo rochoso às margens do rio Alzette — núcleo do que se tornaria, séculos depois, uma das capitais financeiras da Europa, mas que passaria a maior parte de sua história sob domínio de potências vizinhas maiores.\n\n**A dinastia de Luxemburgo produz quatro imperadores do Sacro Império entre os séculos XIV e XV**, incluindo Carlos IV, que fez de Praga capital imperial — um período de prestígio dinástico desproporcional ao tamanho do território, antes de a linhagem se extinguir e o ducado passar a domínios estrangeiros sucessivos.\n\n**Uma sucessão de potências governa o território a partir do século XV**: os duques da Borgonha, depois os Habsburgo espanhóis, a França sob Luís XIV, os Habsburgo austríacos novamente, a França revolucionária e napoleônica — cada mudança de domínio deixando marca na identidade e na fortificação da capital, conhecida como a Gibraltar do Norte por suas defesas sucessivamente ampliadas.\n\n**O Congresso de Viena, em 1815, cria o Grão-Ducado de Luxemburgo em união pessoal com os Países Baixos**, ao mesmo tempo em que o inclui na Confederação Germânica, com guarnição prussiana na fortaleza da capital — arranjo ambíguo que refletia a insistência das potências europeias em manter o pequeno território como zona-tampão fortificada entre França e os Estados alemães.\n\n**A Revolução Belga de 1830 divide o território pela metade.** A maior parte da população, de língua francesa e sentimento próximo à Bélgica, adere à revolução; a partilha de 1839 cede a porção ocidental, majoritariamente francófona, à Bélgica como província belga de Luxemburgo, deixando ao Grão-Ducado apenas a metade oriental, de língua predominantemente luxemburguesa e alemã — fronteira que permanece até hoje.",
+      "fontes": [
+        "kreins-historia-luxemburgo"
+      ]
+    },
+    {
+      "id": "lu-neutralidade-e-industrializacao",
+      "inicio": "1867",
+      "fim": "1944",
+      "rotulo": "Grão-Ducado neutro e a era do aço",
+      "regime": "grão-ducado sob neutralidade internacionalmente garantida; monarquia própria a partir de 1890",
+      "textoMdx": "A Crise Luxemburguesa de 1867 quase provoca guerra entre a França e a Prússia por causa de um território de menos de trezentos mil habitantes — resolvida por garantia internacional de neutralidade perpétua que definiria a política externa luxemburguesa pelas oito décadas seguintes.\n\n**A tentativa francesa de comprar Luxemburgo à Holanda, em 1867, provoca crise diplomática europeia.** A Prússia, tendo acabado de derrotar a Áustria e temendo expansão francesa na fronteira, ameaça guerra; a Conferência de Londres resolve a crise desmantelando a fortaleza prussiana da capital e declarando Luxemburgo perpetuamente neutro sob garantia coletiva das potências — status que se revelaria, décadas depois, tão frágil quanto a neutralidade belga equivalente.\n\n**A união com os Países Baixos termina em 1890, por acidente dinástico.** A morte do rei-grão-duque Guilherme III sem herdeiro homem ativa lei sucessória luxemburguesa distinta da holandesa, que permitia sucessão feminina; as duas coroas se separam, e Luxemburgo ganha dinastia própria e permanente pela primeira vez desde a Idade Média.\n\n**A descoberta de minério de ferro na região sul, a partir de meados do século XIX, transforma a pequena economia agrária.** A indústria siderúrgica, com a Arbed — fundida posteriormente na multinacional ArcelorMittal — tornando-se um dos maiores produtores de aço do mundo em relação ao tamanho do país, faz de Luxemburgo, ainda no início do século XX, uma das economias mais industrializadas per capita da Europa.\n\n**A neutralidade luxemburguesa é violada duas vezes pela Alemanha, exatamente como a belga.** A ocupação alemã de 1914-1918 é relativamente branda, mas a de 1940-1944 inclui anexação de facto ao Reich em 1942, com imposição de serviço militar obrigatório alemão à população luxemburguesa — episódio que provoca a Greve Geral de 1942, reprimida com execuções, e que encerraria definitivamente qualquer expectativa de neutralidade luxemburguesa como proteção real.",
+      "fontes": [
+        "kreins-historia-luxemburgo"
+      ]
+    },
+    {
+      "id": "lu-integracao-europeia",
+      "inicio": "1944",
+      "rotulo": "Grão-Ducado de Luxemburgo contemporâneo",
+      "regime": "monarquia constitucional; centro financeiro internacional e sede de instituições da União Europeia",
+      "textoMdx": "Abandonando definitivamente a neutralidade que falhara duas vezes em protegê-lo, o Luxemburgo do pós-guerra torna-se um dos arquitetos mais entusiásticos da integração europeia — e, através de política fiscal deliberadamente favorável, uma das maiores praças financeiras do mundo em relação ao próprio tamanho.\n\n**Luxemburgo é membro fundador de praticamente toda estrutura de integração europeia do pós-guerra.** Do Benelux, em 1944, à Comunidade Europeia do Carvão e do Aço, em 1951 — cuja Alta Autoridade se instala inicialmente na capital luxemburguesa —, à Comunidade Econômica Europeia, em 1957, o pequeno país aposta a própria sobrevivência econômica e política na integração continental, hospedando desde então instituições centrais como o Tribunal de Justiça da União Europeia e parte do Parlamento Europeu.\n\n**O declínio da siderurgia, a partir dos anos 1970, força reinvenção econômica completa.** A crise do aço que atinge toda a Europa industrial obriga Luxemburgo a redirecionar a economia para serviços financeiros; políticas de sigilo bancário e tributação favorável, adotadas progressivamente a partir da década de 1980, transformam o pequeno país num dos maiores centros de fundos de investimento e gestão de patrimônio do mundo.\n\n**O escândalo LuxLeaks, revelado em 2014, expõe a escala dos acordos fiscais favoráveis a multinacionais.** Documentos vazados mostram centenas de acordos tributários confidenciais entre a administração fiscal luxemburguesa e grandes corporações internacionais, negociados enquanto o próprio Jean-Claude Juncker, então recém-empossado presidente da Comissão Europeia, havia sido primeiro-ministro luxemburguês por quase vinte anos — episódio que gera pressão europeia significativa por maior transparência fiscal.\n\n**O país mantém, no século XXI, um dos maiores rendas per capita do mundo**, sustentada por serviços financeiros, população fortemente multilíngue — luxemburguês, francês e alemão como línguas oficiais — e proporção altíssima de trabalhadores estrangeiros e transfronteiriços, vindos diariamente da França, Bélgica e Alemanha para trabalhar na capital, refletindo tanto a prosperidade quanto a pequena escala populacional de um Estado que a história repetidamente tratou como peça de troca entre vizinhos maiores.",
+      "fontes": [
+        "kreins-historia-luxemburgo"
+      ]
+    }
+  ]
+}

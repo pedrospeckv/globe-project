@@ -1,0 +1,54 @@
+{
+  "iso": "AUT",
+  "isoNumerico": "040",
+  "nome": "Áustria",
+  "periodos": [
+    {
+      "id": "at-marca-e-ducado",
+      "inicio": "976",
+      "fim": "1804",
+      "rotulo": "Marca e Ducado da Áustria",
+      "regime": "marca fronteiriça, depois ducado do Sacro Império Romano-Germânico",
+      "textoMdx": "A Áustria nasce como zona-tampão: uma marca militar criada pelo Sacro Império para conter incursões húngaras e eslavas na fronteira leste da Baviera — nome que, em alemão antigo, Ostarrîchi, significa literalmente o reino do leste.\n\n**A concessão de 976 à Casa de Babenberg é o ato fundador convencional.** O imperador Otto II confia a marca a Leopoldo I de Babenberg, cuja dinastia governaria o território por mais de dois séculos e meio, elevando-o de marca a ducado pleno em 1156, com privilégios de autonomia incomuns dentro do Império.\n\n**A extinção dos Babenberg, em 1246, abre disputa que os Habsburgo vencem.** Rudolf I de Habsburgo, eleito imperador em 1273, assegura o ducado austríaco para sua própria dinastia em 1282 — início de um domínio Habsburgo sobre a Áustria que duraria, ininterrupto, até 1918.\n\n**A ascensão dos Habsburgo ao trono imperial torna a Áustria centro de um império muito maior que si mesma.** A partir do século XV, a Casa de Habsburgo ocupa quase continuamente o trono do Sacro Império Romano-Germânico, e através de casamentos estratégicos — a máxima Tu, felix Austria, nube resume a estratégia — acumula territórios na Espanha, nos Países Baixos, na Itália e na Europa Central, fazendo de Viena capital de facto de um dos maiores conglomerados dinásticos da história europeia.\n\n**Os cercos otomanos de Viena, em 1529 e 1683, marcam a Áustria como bastião cristão contra o avanço turco.** O segundo cerco, repelido por coalizão liderada pelo rei polaco Jan Sobieski, inicia a reconquista austríaca da Hungria e dos Bálcãs otomanos nas décadas seguintes, expandindo o território Habsburgo para o sudeste.",
+      "fontes": [
+        "beller-historia-austria",
+        "judson-imperio-habsburgo"
+      ]
+    },
+    {
+      "id": "at-imperio-austriaco",
+      "inicio": "1804",
+      "fim": "1918",
+      "rotulo": "Império Austríaco",
+      "regime": "monarquia absolutista multinacional, depois dual monarquia austro-húngara a partir de 1867",
+      "textoMdx": "Diante da ameaça de Napoleão de assumir o título imperial, Francisco II proclama-se imperador da Áustria em 1804 — criando um título novo que sobreviveria à extinção do próprio Sacro Império Romano-Germânico, dissolvido dois anos depois sob pressão napoleônica.\n\n**O Congresso de Viena, em 1815, faz da Áustria a árbitra da ordem europeia pós-napoleônica.** Sob a liderança do chanceler Metternich, a Áustria organiza um sistema conservador de equilíbrio de poder que reprimiria movimentos liberais e nacionalistas por três décadas — período conhecido como a Era Metternich, marcado por censura e polícia política.\n\n**As revoluções de 1848 abalam o império sem derrubá-lo.** Levantes simultâneos em Viena, na Hungria, na Itália e na Boêmia forçam a abdicação do imperador Fernando I e a queda de Metternich; o jovem Francisco José, que assumiria o trono naquele ano, governaria por sessenta e oito anos, reprimindo as revoltas com ajuda militar russa na Hungria.\n\n**O Compromisso de 1867 reestrutura o império em dupla monarquia.** Derrotada pela Prússia em 1866 e perdendo influência na Alemanha, a Áustria negocia com a nobreza húngara a criação da Áustria-Hungria: dois Estados com administração interna separada, unidos pela coroa, pelas relações exteriores e pelas forças armadas — arranjo que deixa outras nacionalidades do império, tchecos, poloneses, croatas, eslovenos, sem status equivalente.\n\n**O assassinato do arquiduque Francisco Ferdinando, em Sarajevo em junho de 1914, precipita a Primeira Guerra Mundial.** O ultimato austríaco à Sérvia, seguido de declaração de guerra, aciona o sistema de alianças que arrastaria toda a Europa ao conflito; quatro anos depois, derrotado e exausto, o império multinacional se dissolveria em Estados nacionais sucessores — Áustria reduzida a pequena república de língua alemã, sombra territorial do que fora.",
+      "fontes": [
+        "judson-imperio-habsburgo",
+        "beller-historia-austria"
+      ]
+    },
+    {
+      "id": "at-primeira-republica-e-anschluss",
+      "inicio": "1918",
+      "fim": "1945",
+      "rotulo": "Primeira República e o Anschluss",
+      "regime": "república parlamentarista, depois ditadura corporativista a partir de 1934; anexada à Alemanha em 1938",
+      "textoMdx": "A pequena república que emerge do colapso imperial em 1918 enfrenta uma pergunta existencial que a própria elite política debate abertamente: seria a Áustria de língua alemã sequer viável como Estado independente, ou deveria unir-se à Alemanha?\n\n**A Primeira República nasce sem certeza sobre a própria identidade nacional.** Reduzida de império de mais de cinquenta milhões de habitantes a uma república de sete milhões, muitos austríacos e políticos da época consideravam a união com a Alemanha — o Anschluss — solução natural; os tratados de paz de 1919 proíbem explicitamente essa união, forçando a Áustria a uma independência que boa parte de sua elite não desejava.\n\n**A Guerra Civil de fevereiro de 1934 encerra a democracia parlamentar por dentro.** Confronto armado entre milícias social-democratas e o governo conservador do chanceler Dollfuss, apoiado pela Itália fascista, resulta na proibição do Partido Social-Democrata e na instauração de um regime corporativista autoritário — o Estado Federal Austríaco, que se apresentava como alternativa católica e conservadora tanto ao socialismo quanto ao nazismo alemão.\n\n**Dollfuss é assassinado por nazistas austríacos em julho de 1934**, numa tentativa de golpe que falha, mas sinaliza a força crescente do movimento nacional-socialista dentro do país; seu sucessor, Schuschnigg, tentaria por anos resistir à pressão de Hitler para incorporar a Áustria ao Reich.\n\n**O Anschluss, em março de 1938, é recebido com aclamação popular significativa.** Tropas alemãs cruzam a fronteira sem resistência militar; multidões saúdam Hitler em Viena, sua cidade de juventude, e um plebiscito subsequente, realizado sob controle nazista, aprova a anexação com margem esmagadora — dado que complicaria, décadas depois, a narrativa austríaca de ter sido a primeira vítima do nazismo, e não também participante entusiástico dele.",
+      "fontes": [
+        "beller-historia-austria",
+        "judson-imperio-habsburgo"
+      ]
+    },
+    {
+      "id": "at-segunda-republica",
+      "inicio": "1945",
+      "rotulo": "Segunda República da Áustria",
+      "regime": "república parlamentarista federal; neutralidade permanente desde 1955",
+      "textoMdx": "Ocupada por quatro potências aliadas por dez anos, mais tempo que a Alemanha Ocidental levaria para recuperar soberania plena, a Áustria emerge em 1955 com um estatuto único: neutralidade permanente negociada como preço da retirada soviética, meses antes da formação do próprio Pacto de Varsóvia.\n\n**A narrativa de primeira vítima do nazismo é politicamente construída no pós-guerra.** A Declaração de Moscou dos Aliados, de 1943, já qualificara a Áustria como a primeira vítima da agressão hitlerista, formulação que a política austríaca do pós-guerra adotaria amplamente para evitar responsabilização coletiva — apesar da participação desproporcional de austríacos na máquina nazista, incluindo o próprio Hitler e figuras centrais do aparato de extermínio, como Adolf Eichmann.\n\n**O Tratado de Estado de 1955 restaura soberania plena mediante neutralidade permanente.** Diferentemente da Alemanha, dividida por décadas, a Áustria negocia com as quatro potências ocupantes a retirada simultânea em troca de compromisso constitucional de não integrar alianças militares nem hospedar bases estrangeiras — status que lhe permitiria papel de mediação diplomática discreta durante toda a Guerra Fria, incluindo sediar organismos internacionais em Viena.\n\n**O caso Waldheim, em 1986, força reavaliação tardia do passado nazista.** A revelação de que o candidato presidencial e ex-secretário-geral da ONU Kurt Waldheim havia servido em unidades militares alemãs ligadas a crimes de guerra nos Bálcãs, e ocultado esse passado, provoca escândalo internacional; Waldheim vence a eleição mesmo assim, mas o episódio inicia debate público austríaco mais honesto sobre cumplicidade coletiva no nazismo, décadas depois de a Alemanha ter começado processo semelhante.\n\n**A entrada na União Europeia, em 1995, não altera a neutralidade militar formal**, embora a participação austríaca em missões de paz e cooperação de segurança europeia tenha evoluído; o país mantém, ainda no século XXI, recusa a integrar a OTAN, tradição de não alinhamento raramente questionada mesmo após a invasão russa da Ucrânia em 2022 — contraste direto com o giro sueco e finlandês no mesmo período.",
+      "fontes": [
+        "tratado-estado-austria-1955",
+        "beller-historia-austria"
+      ]
+    }
+  ]
+}

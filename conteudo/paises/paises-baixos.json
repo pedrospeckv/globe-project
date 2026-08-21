@@ -1,0 +1,63 @@
+{
+  "iso": "NLD",
+  "isoNumerico": "528",
+  "nome": "Países Baixos",
+  "periodos": [
+    {
+      "id": "nl-dominio-habsburgo-e-revolta",
+      "inicio": "1482",
+      "fim": "1648",
+      "rotulo": "Domínio dos Habsburgo e a Revolta Holandesa",
+      "regime": "dezessete províncias sob domínio Habsburgo espanhol; revolta e guerra de independência a partir de 1568",
+      "textoMdx": "As dezessete províncias dos Países Baixos passam ao domínio dos Habsburgo por herança dinástica em 1482 e, um século depois, uma revolta contra o domínio espanhol produziria a primeira república burguesa moderna da Europa — e uma das maiores potências comerciais do mundo.\n\n**A herança Habsburgo une território fragmentado sob administração centralizada crescente.** Carlos V, nascido em Ghent, governa as dezessete províncias como parte de seu vasto império; ao abdicar em 1555, transfere-as a seu filho Filipe II da Espanha, cuja política de centralização fiscal e religiosa — impondo catolicismo estrito contra crescente população protestante — provocaria revolta generalizada.\n\n**A Revolta Holandesa, iniciada em 1568, dura oitenta anos.** Sob a liderança de Guilherme de Orange, as províncias do norte, predominantemente calvinistas, rebelam-se contra a repressão espanhola conduzida pelo Duque de Alba; a União de Utrecht, em 1579, une formalmente as sete províncias do norte, que declarariam independência da Espanha em 1581 — enquanto as províncias do sul, majoritariamente católicas, permaneceriam sob domínio espanhol, tornando-se eventualmente a Bélgica.\n\n**O reconhecimento internacional só vem com a Paz de Vestfália, em 1648**, encerrando formalmente a Guerra dos Oitenta Anos e reconhecendo a República das Sete Províncias Unidas como Estado soberano — mas na prática, a nova república já operava havia décadas como potência comercial e naval independente.",
+      "fontes": [
+        "israel-republica-holandesa"
+      ]
+    },
+    {
+      "id": "nl-seculo-de-ouro",
+      "inicio": "1648",
+      "fim": "1795",
+      "rotulo": "República das Sete Províncias Unidas",
+      "regime": "república federal descentralizada sob os Estados Gerais; potência comercial e naval global",
+      "textoMdx": "No Século de Ouro holandês, uma república pequena e sem monarca torna-se a maior potência comercial e financeira do mundo, pioneira em instituições — bolsa de valores, banco central, companhia por ações — que definiriam o capitalismo moderno.\n\n**A Companhia Holandesa das Índias Orientais, fundada em 1602, é a primeira grande corporação multinacional da história.** Com poder de guerrear, negociar tratados e administrar território em nome próprio, ela domina o comércio de especiarias asiático, estabelecendo postos do Cabo da Boa Esperança a Jacarta e ao Japão — onde os holandeses seriam, por dois séculos, os únicos europeus autorizados a comerciar, através do posto isolado de Dejima.\n\n**Amsterdã torna-se o centro financeiro do mundo.** A Bolsa de Amsterdã, fundada em 1602, é a primeira bolsa de valores moderna com negociação contínua de ações; o Banco de Amsterdã, de 1609, antecipa funções de banco central. A especulação com bulbos de tulipa, em 1637, colapsaria dramaticamente, tornando-se caso paradigmático de bolha financeira estudado até hoje.\n\n**A tolerância religiosa relativa atrai refugiados e talento de toda a Europa.** Judeus sefarditas expulsos de Portugal e Espanha, huguenotes franceses e dissidentes religiosos ingleses encontram refúgio relativo em Amsterdã; filósofos como Descartes e Spinoza trabalham no ambiente intelectualmente mais aberto da Europa do período, embora a tolerância tivesse limites práticos e sociais reais.\n\n**As guerras anglo-holandesas, ao longo da segunda metade do século XVII, desgastam a supremacia naval holandesa.** Quatro conflitos sucessivos contra a Inglaterra disputam domínio comercial e marítimo; embora vitórias notáveis ocorram — a incursão holandesa no Tâmisa em 1667 —, o custo cumulativo das guerras, somado à invasão francesa de 1672 (o Ano do Desastre), inicia declínio relativo frente a rivais em ascensão.\n\n**A era estatúder e a crescente influência da Casa de Orange marcam o século XVIII**, culminando na ocupação francesa revolucionária de 1795, que aboliria a república e instalaria regime satélite — encerrando dois séculos de independência republicana antes da restauração monárquica pós-napoleônica.",
+      "fontes": [
+        "israel-republica-holandesa",
+        "schama-riqueza-embaracosa"
+      ]
+    },
+    {
+      "id": "nl-republica-batava",
+      "inicio": "1795",
+      "fim": "1815",
+      "rotulo": "República Batava e anexação francesa",
+      "regime": "república satélite francesa, depois reino cliente, depois anexação direta ao Império Francês",
+      "textoMdx": "A invasão francesa de 1795, apoiada por patriotas holandeses exilados desde a repressão de revoltas democráticas na década anterior, derruba a República das Sete Províncias Unidas e a substitui por um Estado unitário e centralizado — o oposto exato da estrutura federal descentralizada que definira a república por dois séculos.\n\n**A República Batava, proclamada em 1795, é a primeira experiência holandesa de Estado unitário moderno.** Sob influência francesa direta, ela abole os privilégios provinciais e institui constituição centralizada nos moldes revolucionários — mas permanece, na prática, satélite fiscal e militar da França, obrigada a pagar indenizações de guerra pesadas e a sustentar tropas de ocupação.\n\n**Napoleão substitui a república por um reino sob seu irmão, em 1806.** Luís Bonaparte reina como Luís I da Holanda, e — para surpresa e irritação do próprio Napoleão — desenvolve simpatia genuína pelos súditos holandeses, resistindo a algumas exigências fiscais e militares francesas mais extremas; essa relativa independência lhe custaria o trono.\n\n**A anexação direta ao Império Francês, em 1810, elimina até essa autonomia nominal.** Napoleão depõe o próprio irmão e incorpora o território como departamentos franceses comuns, extinguindo formalmente qualquer Estado holandês distinto pela primeira vez em séculos — e submetendo a população a conscrição militar francesa direta, incluindo participação forçada na desastrosa campanha da Rússia em 1812.\n\n**O colapso napoleônico devolve a independência em 1813.** Com a derrota francesa, um governo provisório convida Guilherme de Orange, filho do último estatúder, a retornar; o Congresso de Viena, em 1815, formalizaria a restauração como reino soberano — agora unido também à Bélgica, unificação que duraria apenas quinze anos antes da revolta belga de 1830.",
+      "fontes": [
+        "israel-republica-holandesa"
+      ]
+    },
+    {
+      "id": "nl-reino-e-descolonizacao",
+      "inicio": "1815",
+      "fim": "1949",
+      "rotulo": "Reino dos Países Baixos",
+      "regime": "monarquia constitucional; império colonial na Indonésia até 1949",
+      "textoMdx": "Restaurado como monarquia pelo Congresso de Viena em 1815 — inicialmente unido à Bélgica, que se separaria em revolta armada em 1830 —, o Reino dos Países Baixos reconstrói prosperidade em torno de um vasto império colonial na atual Indonésia, cuja perda abrupta no pós-guerra forçaria reinvenção nacional completa.\n\n**O Sistema de Cultivo, imposto a Java a partir de 1830, extrai riqueza colonial em escala que financia diretamente o orçamento holandês.** Camponeses javaneses são obrigados a dedicar parcela de suas terras e trabalho a culturas de exportação — café, açúcar, anil — sob controle estatal direto; os lucros repatriados sustentam infraestrutura e finanças públicas na metrópole por décadas, ao custo de fome recorrente na colônia.\n\n**A neutralidade na Primeira Guerra Mundial não se repete na Segunda.** A invasão alemã de maio de 1940, com o bombardeio devastador de Roterdã forçando rendição em cinco dias, submete o país a cinco anos de ocupação; a família real e o governo fogem a Londres, enquanto a resistência interna, incluindo esconderijo de judeus — o caso de Anne Frank tornaria essa história mundialmente conhecida —, opera sob repressão crescente. O Inverno da Fome, de 1944-1945, mata milhares nas províncias ocidentais ainda ocupadas quando os Aliados já haviam libertado o sul.\n\n**A independência indonésia, proclamada em 1945 e reconhecida em 1949 após guerra colonial**, encerra abruptamente quatro séculos de presença holandesa no arquipélago — a chamada Ação Policial holandesa para reconquistar a colônia enfrentaria condenação internacional crescente, incluindo pressão dos Estados Unidos, que ameaçara cortar ajuda do Plano Marshall se a guerra continuasse.\n\n**A reconstrução do pós-guerra reorienta a economia holandesa para a integração europeia.** Fundador do Benelux com Bélgica e Luxemburgo já em 1944, e depois da Comunidade Europeia do Carvão e do Aço em 1951, o país torna-se um dos arquitetos centrais do projeto de integração continental — Roterdã emergindo como maior porto europeu, ponto de entrada comercial para toda a Europa central.",
+      "fontes": [
+        "israel-republica-holandesa"
+      ]
+    },
+    {
+      "id": "nl-contemporaneo",
+      "inicio": "1949",
+      "rotulo": "Reino dos Países Baixos contemporâneo",
+      "regime": "monarquia constitucional parlamentarista; Estado de bem-estar amplo com liberalismo social pioneiro",
+      "textoMdx": "No pós-guerra, os Países Baixos constroem reputação internacional de liberalismo social pioneiro — em drogas, eutanásia e casamento entre pessoas do mesmo sexo —, ao mesmo tempo enfrentando tensões migratórias e uma reavaliação dolorosa e tardia do papel do país no Holocausto.\n\n**A reconstrução do pós-guerra é rápida, sustentada por ajuda do Plano Marshall e integração europeia crescente.** A adesão fundadora à Comunidade Europeia do Carvão e do Aço, em 1951, e depois à Comunidade Econômica Europeia, em 1957, ancora a economia holandesa ao projeto de integração continental desde o início.\n\n**A proporção de vítimas judias do Holocausto na Holanda é desproporcionalmente alta entre países ocidentais ocupados** — cerca de três quartos da população judaica holandesa pré-guerra não sobrevive, taxa superior à da França ou da Bélgica —, fato que geraria décadas depois debate historiográfico sobre a eficiência da burocracia de registro civil holandesa, inadvertidamente facilitando identificação e deportação pelos ocupantes alemães.\n\n**A política de tolerância regulada, a partir dos anos 1970, distingue os Países Baixos internacionalmente.** A descriminalização de fato do consumo de cannabis em pequena escala, através dos coffeeshops, e políticas pragmáticas de redução de danos em relação a drogas mais pesadas, refletem abordagem que prioriza saúde pública sobre repressão penal — modelo estudado e debatido internacionalmente por décadas.\n\n**O país torna-se pioneiro global em direitos civis progressistas.** A eutanásia é legalizada e regulamentada em 2002, após décadas de prática tolerada informalmente sob critérios médicos rigorosos; o casamento entre pessoas do mesmo sexo é legalizado em 2001, o primeiro país do mundo a fazê-lo.\n\n**A ascensão de partidos anti-imigração e antieuropeus, a partir dos anos 2000, tensiona o consenso liberal tradicional.** O assassinato do político Pim Fortuyn em 2002 e do cineasta Theo van Gogh em 2004, este por extremista islâmico em represália a filme crítico ao Islã, abalam a autoimagem de tolerância irrestrita; o crescimento eleitoral de partidos como o de Geert Wilders nas décadas seguintes reflete polarização crescente sobre imigração e identidade nacional, num país que segue, ao mesmo tempo, entre os mais ricos e mais igualitários do mundo.",
+      "fontes": [
+        "israel-republica-holandesa",
+        "schama-riqueza-embaracosa"
+      ]
+    }
+  ]
+}

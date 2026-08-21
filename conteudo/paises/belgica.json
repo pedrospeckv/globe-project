@@ -1,0 +1,41 @@
+{
+  "iso": "BEL",
+  "isoNumerico": "056",
+  "nome": "Bélgica",
+  "periodos": [
+    {
+      "id": "be-independencia",
+      "inicio": "1830",
+      "fim": "1914",
+      "rotulo": "Reino da Bélgica independente",
+      "regime": "monarquia constitucional parlamentar",
+      "textoMdx": "A Revolução Belga de 1830, deflagrada por uma apresentação de ópera em Bruxelas cujo enredo sobre revolta napolitana inflamou o público, separa as províncias do sul, católicas e industrializadas, do Reino Unido dos Países Baixos formado apenas quinze anos antes.\n\n**A separação é reconhecida rapidamente pelas grandes potências europeias**, interessadas em criar Estado-tampão neutro entre França e os territórios alemães; o Tratado de Londres, de 1839, garante formalmente a independência e a neutralidade perpétua belgas — garantia que a Alemanha violaria ao invadir o país em 1914, precipitando a entrada britânica na Primeira Guerra Mundial em defesa desse mesmo tratado.\n\n**A industrialização belga é a mais precoce do continente europeu depois da britânica.** Rica em carvão e ferro na região valã, a Bélgica torna-se, ainda no século XIX, uma das economias mais industrializadas per capita do mundo — riqueza que financiaria, entre outras coisas, a aventura colonial pessoal do rei Leopoldo II na África central.\n\n**O Estado Livre do Congo, de 1885 a 1908, é possessão pessoal do rei, não colônia belga.** Reconhecido pelas potências europeias na Conferência de Berlim como propriedade privada de Leopoldo II, o território é explorado através de sistema brutal de trabalho forçado para extração de borracha, com mortalidade estimada em milhões de congoleses — escândalo internacional crescente, documentado por missionários e jornalistas, força o Parlamento belga a assumir a administração direta do território em 1908, encerrando o domínio pessoal do rei.",
+      "fontes": [
+        "witte-belgica-politica",
+        "hochschild-fantasma-rei-leopoldo"
+      ]
+    },
+    {
+      "id": "be-guerras-mundiais",
+      "inicio": "1914",
+      "fim": "1944",
+      "rotulo": "Bélgica ocupada nas duas guerras mundiais",
+      "regime": "monarquia constitucional sob ocupação alemã em 1914-1918 e 1940-1944",
+      "textoMdx": "A invasão alemã de agosto de 1914, violando a neutralidade garantida por tratado desde 1839, transforma a pequena Bélgica em campo de batalha central da Primeira Guerra Mundial — e, uma geração depois, repetiria o padrão sob ocupação ainda mais brutal.\n\n**A resistência belga em 1914, apesar de rapidamente esmagada militarmente, atrasa o avanço alemão o suficiente para permitir mobilização francesa e britânica** — atraso que historiadores consideram ter sido estrategicamente relevante para impedir a vitória alemã rápida prevista pelo Plano Schlieffen. Ypres e o Somme, travados em solo belga e vizinho, tornam-se sinônimos da carnificina da guerra de trincheiras.\n\n**A ocupação alemã de 1914-1918 inclui violência sistemática contra civis nas primeiras semanas** — episódios conhecidos como as atrocidades de 1914, incluindo a destruição da biblioteca universitária de Leuven e execuções de civis, amplamente divulgados pela propaganda aliada, embora a extensão exata permaneça objeto de debate historiográfico.\n\n**A neutralidade belga na Segunda Guerra Mundial dura apenas até maio de 1940.** A invasão alemã, coordenada com o ataque à França, submete o país em dezoito dias; o rei Leopoldo III se rende às forças alemãs sem consultar o governo, decisão que gera crise constitucional profunda no pós-guerra — a chamada Questão Real, resolvida apenas em 1950 com sua abdicação em favor do filho Balduíno, após referendo dividido e protestos violentos.\n\n**A resistência belga e a colaboração convivem de forma tensa durante a ocupação**, com divisões que muitas vezes seguiam linhas linguísticas e políticas já existentes; a deportação da população judaica belga, coordenada pela ocupação alemã com graus variados de colaboração administrativa local, mata a maioria dos judeus do país — embora taxas de sobrevivência tenham sido mais altas que na vizinha Holanda.",
+      "fontes": [
+        "witte-belgica-politica"
+      ]
+    },
+    {
+      "id": "be-federalizacao",
+      "inicio": "1944",
+      "rotulo": "Bélgica federal",
+      "regime": "monarquia constitucional progressivamente federalizada em resposta ao conflito linguístico",
+      "textoMdx": "No pós-guerra, a Bélgica reconstrói prosperidade através da integração europeia — sediando as principais instituições da futura União Europeia e da OTAN em Bruxelas — enquanto o conflito linguístico interno entre Flandres e Valônia leva, ao longo de décadas, à transformação de um Estado unitário em uma das federações mais complexas do mundo.\n\n**O Congo se torna independente abruptamente em 1960, com preparação administrativa mínima.** Pressão internacional crescente e revolta interna forçam a Bélgica a conceder independência em prazo muito mais curto que o planejado; o assassinato do primeiro-ministro congolês Patrice Lumumba, meses depois, com envolvimento documentado de serviços belgas, deixaria marca duradoura nas relações entre os dois países — reconhecida formalmente pelo governo belga apenas em 2002.\n\n**O desequilíbrio econômico entre Flandres e Valônia se inverte ao longo do século XX.** A Valônia industrial, rica em carvão e siderurgia no século XIX, entra em declínio econômico relativo com o esgotamento das minas; a Flandres, agrária e mais pobre historicamente, ultrapassa a Valônia em riqueza a partir dos anos 1960 — inversão que alimentaria ressentimentos linguísticos e regionais crescentes.\n\n**A federalização belga ocorre em ondas sucessivas de reforma constitucional, a partir de 1970.** Seis reformas constitucionais principais, entre 1970 e 2014, transferem poderes progressivamente do governo central a três regiões — Flandres, Valônia, Bruxelas — e três comunidades linguísticas, criando estrutura de governança sobreposta e complexa sem paralelo exato em outros países europeus.\n\n**A crise política de 2010-2011 produz recorde mundial de tempo sem governo formado.** Após eleições que não produzem maioria clara, negociações entre partidos flamengos e valões se estendem por 541 dias sem governo federal efetivo — situação absorvida sem colapso institucional grave, mas que expõe as tensões estruturais persistentes entre as duas comunidades linguísticas do país, que sediaria, ao mesmo tempo, as principais instituições de governança da União Europeia.",
+      "fontes": [
+        "witte-belgica-politica",
+        "hochschild-fantasma-rei-leopoldo"
+      ]
+    }
+  ]
+}

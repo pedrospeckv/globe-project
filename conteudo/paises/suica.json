@@ -1,0 +1,40 @@
+{
+  "iso": "CHE",
+  "isoNumerico": "756",
+  "nome": "Suíça",
+  "periodos": [
+    {
+      "id": "ch-confederacao-antiga",
+      "inicio": "1291",
+      "fim": "1798",
+      "rotulo": "Antiga Confederação Suíça",
+      "regime": "aliança militar defensiva entre cantões autônomos, sem soberano único",
+      "textoMdx": "O Pacto Federal de 1291, unindo três vales alpinos — Uri, Schwyz e Unterwalden — contra a interferência dos Habsburgo, é celebrado como ato fundador da Suíça, embora a Confederação levasse séculos para se transformar no que hoje se entende por Estado.\n\n**As vitórias militares contra a cavalaria feudal estabelecem a reputação suíça.** Em Morgarten, 1315, e Sempach, 1386, contingentes camponeses derrotam forças Habsburgo tecnicamente superiores usando formações de piqueiros disciplinados — vitórias que consolidam a autonomia dos cantões fundadores e atraem novos membros à aliança.\n\n**A Confederação se expande por adesão gradual de novos cantões e cidades**, cada um mantendo governo próprio, leis próprias e, frequentemente, língua própria; o vínculo entre eles é uma rede de tratados de aliança mútua, não uma constituição unificada — arranjo frouxo que sobreviveria, com ajustes, por cinco séculos.\n\n**A Reforma Protestante do século XVI divide a Confederação por linhas religiosas.** Zurique, sob Zwinglio, e depois Genebra, sob Calvino, tornam-se centros protestantes de influência internacional, enquanto os cantões centrais permanecem católicos — divisão que geraria conflitos internos intermitentes, incluindo guerras religiosas entre cantões, ao longo dos séculos seguintes.\n\n**A independência formal do Sacro Império é reconhecida na Paz de Vestfália, em 1648**, embora a Confederação já operasse de fato como entidade autônoma havia gerações; o reconhecimento internacional formal chega tarde em relação à realidade política suíça no terreno.",
+      "fontes": [
+        "church-historia-suica"
+      ]
+    },
+    {
+      "id": "ch-republica-helvetica-e-restauracao",
+      "inicio": "1798",
+      "fim": "1848",
+      "rotulo": "República Helvética e a Restauração",
+      "regime": "república unitária imposta pela França, depois confederação restaurada de cantões soberanos",
+      "textoMdx": "A invasão francesa de 1798 impõe à Suíça uma república unitária centralizada segundo modelo revolucionário francês — experimento que dura pouco e ensina aos suíços, pela via do trauma, a valorizar o federalismo frouxo que a Restauração devolveria.\n\n**A República Helvética, imposta por Napoleão, abole a soberania cantonal tradicional** e centraliza administração segundo linhas jacobinas; a medida encontra resistência generalizada — os cantões centrais, sobretudo, veem na centralização ameaça à autonomia que defendiam havia séculos — e o experimento colapsa em revoltas e instabilidade crônica.\n\n**Napoleão intervém pessoalmente em 1803 com o Ato de Mediação**, restaurando estrutura mais próxima da confederação tradicional, embora ainda sob tutela francesa; só com a derrota final de Napoleão a Suíça recuperaria soberania plena.\n\n**O Congresso de Viena, em 1815, reconhece e garante a neutralidade suíça permanente** — não como concessão suíça isolada, mas como interesse das próprias grandes potências europeias em manter um território-tampão estável nos Alpes, entre França, Áustria e os Estados alemães; essa neutralidade internacionalmente garantida distingue a Suíça da neutralidade unilateral de outros pequenos Estados.\n\n**A Guerra do Sonderbund, em 1847, é o último conflito armado interno suíço.** Cantões católicos conservadores formam liga separatista contra a maioria liberal protestante; a derrota rápida do Sonderbund, com poucas baixas, abre caminho para a Constituição Federal de 1848 — que transforma a antiga confederação frouxa em Estado federal moderno, com governo central, moeda única e mercado interno unificado, mantendo ampla autonomia cantonal.",
+      "fontes": [
+        "church-historia-suica"
+      ]
+    },
+    {
+      "id": "ch-estado-federal",
+      "inicio": "1848",
+      "rotulo": "Confederação Suíça moderna",
+      "regime": "república federal com democracia direta extensa; neutralidade armada permanente",
+      "textoMdx": "A Constituição de 1848, revisada em 1874 e substituída por versão totalmente reformulada em 1999, estabelece o arranjo político suíço contemporâneo: federalismo genuíno combinado a mecanismos de democracia direta que dão ao eleitorado poder de veto e iniciativa sobre legislação com frequência incomum no mundo.\n\n**O referendo e a iniciativa popular tornam-se instrumentos de governo cotidiano, não excepcional.** Suíços votam em múltiplos referendos por ano sobre questões que vão de política externa a regulação urbana; o mecanismo estabiliza consenso amplo antes de mudanças significativas, mas também retarda reformas sociais — o voto feminino em nível federal só é aprovado em referendo majoritariamente masculino em 1971, entre os últimos países da Europa Ocidental a concedê-lo, e um cantão, Appenzell Innerrhoden, resistiria até 1990, por decisão judicial federal.\n\n**A neutralidade armada é mantida rigorosamente nas duas guerras mundiais**, sustentada por serviço militar obrigatório extenso e fortificações alpinas — o chamado Reduto Nacional, plano de defesa que previa resistência prolongada nas montanhas mesmo que o território baixo fosse ocupado. A Comissão Bergier, encomendada pelo próprio governo suíço em 1996, examinaria décadas depois práticas do período: recusa de refugiados judeus na fronteira e relações financeiras com o regime nazista, incluindo compra de ouro de origem duvidosa pelo banco central suíço.\n\n**O centro financeiro suíço floresce sob sigilo bancário rigoroso ao longo do século XX**, atraindo capital internacional por estabilidade política, moeda forte e discrição regulatória — modelo que enfrentaria pressão internacional crescente a partir dos anos 2000, culminando em acordos de troca automática de informação fiscal que erodiram significativamente o sigilo histórico.\n\n**A Suíça permanece fora da União Europeia por escolha deliberada, confirmada em referendo em 1992**, optando por rede densa de acordos bilaterais setoriais que garantem acesso substancial ao mercado europeu sem integração institucional plena — e só ingressa na ONU em 2002, também por referendo, entre os últimos países do mundo a fazê-lo, reflexo da mesma cautela histórica quanto a comprometer a neutralidade através de organismos multilaterais.",
+      "fontes": [
+        "church-historia-suica",
+        "bergier-relatorio-suica-nazismo"
+      ]
+    }
+  ]
+}
