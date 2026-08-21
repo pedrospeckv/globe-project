@@ -1,0 +1,75 @@
+{
+  "iso": "GRC",
+  "isoNumerico": "300",
+  "nome": "Grécia",
+  "periodos": [
+    {
+      "id": "grc-independencia-reino",
+      "inicio": "1821",
+      "fim": "1863",
+      "rotulo": "Guerra de Independência e primeiro Reino da Grécia",
+      "regime": "guerra revolucionária, depois monarquia absoluta sob príncipe bávaro",
+      "textoMdx": "A revolta grega contra o domínio otomano, iniciada em 1821 em múltiplas frentes simultâneas, mobiliza tanto população local quanto voluntários europeus filohelenos — entre eles o poeta britânico Lord Byron, morto em Missolonghi em 1824 — atraídos pelo ideal romântico de restauração da Grécia clássica, embora a Grécia otomana daquele momento tivesse pouca continuidade institucional direta com a Antiguidade.\n\n**A intervenção naval conjunta de Grã-Bretanha, França e Rússia, que destroem a frota turco-egípcia em Navarino em 1827, é decisiva para reverter o rumo militar do conflito** — vitória europeia que reflete tanto simpatia filo-helênica quanto cálculo geopolítico de conter o Império Otomano.\n\n**O Protocolo de Londres de 1830 reconhece formalmente a independência grega, mas apenas de um território pequeno em torno de Atenas e do Peloponeso**, deixando fora regiões de maioria grega como Creta, Macedônia e Trácia — fronteira exígua que alimentaria o projeto irredentista da \"Grande Ideia\" pelas décadas seguintes.\n\n**As potências europeias impõem, em 1832, o príncipe bávaro Otto como primeiro rei, sem consulta popular direta** — reinado autoritário e financeiramente dependente de empréstimos europeus que terminaria em revolta militar e deposição, em 1862, abrindo caminho para nova dinastia importada, desta vez dinamarquesa.",
+      "fontes": [
+        "richard-clogg-grecia",
+        "protocolo-londres-1830"
+      ]
+    },
+    {
+      "id": "grc-reino-jorge-catastrofe",
+      "inicio": "1863",
+      "fim": "1924",
+      "rotulo": "Reino sob a dinastia dinamarquesa, expansão balcânica e a Catástrofe da Ásia Menor",
+      "regime": "monarquia constitucional",
+      "textoMdx": "Jorge I, príncipe dinamarquês coroado em 1863 aos dezessete anos, reinaria por meio século, presidindo expansão territorial gradual — a Grã-Bretanha cede as Ilhas Jônicas como presente de coroação, e as Guerras Balcânicas de 1912-1913 quase dobram o território grego, incorporando Creta, partes da Macedônia e Epiro.\n\n**O Cisma Nacional durante a Primeira Guerra Mundial divide profundamente o país entre o rei Constantino I, favorável à neutralidade e simpático à Alemanha por laços dinásticos, e o primeiro-ministro Eleftherios Venizelos, que forma governo paralelo e leva a Grécia à guerra ao lado dos Aliados** — episódio que revela fratura política estrutural entre monarquistas e republicanos venizelistas que marcaria décadas de instabilidade seguintes.\n\n**A vitória aliada de 1918 permite à Grécia avançar sobre território otomano na Ásia Menor, ocupando Esmirna em 1919 com apoio britânico, na tentativa de realizar plenamente a \"Grande Ideia\" de restauração do helenismo asiático.** A contraofensiva turca sob Mustafa Kemal Atatürk reverte completamente a situação, culminando no incêndio de Esmirna e na expulsão em massa da população grega da Anatólia em 1922 — episódio que a memória nacional grega chama de Catástrofe da Ásia Menor.\n\n**A Convenção de Lausanne de 1923 formaliza uma troca compulsória de populações entre Grécia e Turquia, baseada em religião, não em língua ou identidade nacional** — mais de um milhão de gregos ortodoxos da Anatólia são reassentados à força na Grécia, e centenas de milhares de muçulmanos da Grécia são enviados à Turquia, transformação demográfica que homogeneíza etnicamente ambos os países e alimenta a proclamação da Segunda República Helênica, em 1924, com a deposição da monarquia.",
+      "fontes": [
+        "richard-clogg-grecia",
+        "convencao-lausanne-1923"
+      ]
+    },
+    {
+      "id": "grc-republica-restauracao-metaxas",
+      "inicio": "1924",
+      "fim": "1941",
+      "rotulo": "Segunda República, restauração monárquica e ditadura de Metaxas",
+      "regime": "república instável, depois monarquia restaurada em 1935, depois ditadura militar a partir de 1936",
+      "textoMdx": "A Segunda República Helênica, proclamada em 1924, herda a instabilidade crônica do Cisma Nacional, com sucessivos golpes militares e mudanças de governo — a integração de mais de um milhão de refugiados da Ásia Menor, embora custosa economicamente, transformaria profundamente a sociedade e a cultura urbana gregas, especialmente em Atenas e Salônica.\n\n**Um plebiscito de resultado amplamente contestado restaura a monarquia em 1935, trazendo de volta Jorge II**, que no ano seguinte nomeia o general Ioannis Metaxas primeiro-ministro — Metaxas rapidamente suspende o parlamento e institui ditadura pessoal inspirada esteticamente em modelos fascistas europeus, embora sem alinhamento externo formal ao Eixo.\n\n**A recusa de Metaxas ao ultimato italiano de outubro de 1940 — resposta lendária resumida como \"Óchi\", \"não\" —, seguida de vitória militar grega que repele a invasão italiana pelas montanhas do Epiro, é celebrada até hoje como o \"Dia do Não\".** A vitória seria revertida meses depois, em abril de 1941, quando a Alemanha invade em socorro ao aliado italiano humilhado, ocupando o país inteiro em poucas semanas.",
+      "fontes": [
+        "richard-clogg-grecia"
+      ]
+    },
+    {
+      "id": "grc-ocupacao-guerra-civil",
+      "inicio": "1941",
+      "fim": "1949",
+      "rotulo": "Ocupação do Eixo e Guerra Civil Grega",
+      "regime": "território ocupado e dividido em zonas alemã, italiana e búlgara, depois Estado em guerra civil",
+      "textoMdx": "A ocupação do Eixo divide a Grécia em zonas alemã, italiana e búlgara, com fome generalizada no inverno de 1941-1942 que mata dezenas de milhares de civis em Atenas — a resistência grega, dividida entre a guerrilha comunista ELAS e grupos republicanos e monarquistas rivais, trava conflito interno já durante a própria ocupação.\n\n**A deportação da população judaica grega, sobretudo a antiga e numerosa comunidade sefardita de Salônica, extermina cerca de 85% dos judeus do país — uma das taxas de mortalidade mais altas do Holocausto europeu**, com a cooperação administrativa variável das autoridades de ocupação alemã e búlgara.\n\n**A libertação em 1944 não traz paz: a tensão entre a resistência comunista e o governo grego apoiado pelo Reino Unido, e depois pelos Estados Unidos, explode em guerra civil aberta entre 1946 e 1949** — um dos primeiros confrontos armados diretos da Guerra Fria, que a Doutrina Truman de 1947 cita explicitamente como justificativa para a contenção americana ao comunismo.\n\n**A vitória das forças governamentais em 1949, com apoio militar americano decisivo, mantém a Grécia fora do bloco comunista — resultado que a distinguiria de toda a vizinhança balcânica**, mas ao custo de dezenas de milhares de mortos e de repressão política duradoura contra a esquerda nas décadas seguintes.",
+      "fontes": [
+        "richard-clogg-grecia",
+        "mark-mazower-grecia-ocupacao"
+      ]
+    },
+    {
+      "id": "grc-pos-guerra-ditadura-coroneis",
+      "inicio": "1949",
+      "fim": "1974",
+      "rotulo": "Reconstrução pós-guerra e Ditadura dos Coronéis",
+      "regime": "monarquia constitucional, depois ditadura militar entre 1967 e 1974",
+      "textoMdx": "A reconstrução grega do pós-guerra, financiada em parte pelo Plano Marshall, convive com repressão política persistente contra ex-combatentes comunistas da guerra civil, muitos mantidos presos ou exilados em ilhas por anos após o fim do conflito.\n\n**A crescente polarização política dos anos 1960, incluindo o assassinato do deputado de esquerda Grigoris Lambrakis em 1963 — episódio que inspiraria o filme \"Z\", de Costa-Gavras —, culmina no golpe militar de abril de 1967**, que um grupo de coronéis de escalão médio executa em nome de suposta ameaça comunista iminente, instaurando ditadura que duraria sete anos.\n\n**A junta militar, marcada por tortura sistemática de opositores e nacionalismo autoritário, comete seu erro fatal ao apoiar golpe em Chipre, em julho de 1974, visando união com a Grécia — decisão que provoca invasão turca da ilha e colapso imediato do próprio regime militar em Atenas**, incapaz de sustentar confronto militar com a Turquia.",
+      "fontes": [
+        "richard-clogg-grecia"
+      ]
+    },
+    {
+      "id": "grc-terceira-republica",
+      "inicio": "1974",
+      "rotulo": "Metapolitefsi e a Terceira República Helênica",
+      "regime": "república parlamentar",
+      "textoMdx": "O colapso da junta, em julho de 1974, traz de volta Konstantinos Karamanlis do exílio para liderar a transição democrática — a chamada Metapolitefsi —, e um referendo em dezembro daquele ano abole definitivamente a monarquia, com margem superior a 69% dos votos, encerrando de vez a questão dinástica que dividira a política grega desde o século XIX.\n\n**A legalização do Partido Comunista, banido desde a guerra civil, e a consolidação de sistema bipartidário entre a Nova Democracia conservadora e o PASOK socialista de Andreas Papandreou estabilizam a democracia grega ao longo das décadas seguintes** — a adesão à Comunidade Econômica Europeia, em 1981, simboliza a normalização definitiva do país no cenário europeu ocidental.\n\n**A adoção do euro em 2001 e os Jogos Olímpicos de Atenas em 2004 marcam momento de otimismo que a crise da dívida soberana, deflagrada em 2009, reverteria drasticamente** — a revelação de déficits fiscais maquiados leva a sucessivos resgates internacionais entre 2010 e 2018, condicionados a duras medidas de austeridade que reduzem o PIB grego em mais de um quarto e provocam anos de protestos massivos em Atenas.\n\n**A crise migratória europeia, a partir de 2015, transforma ilhas gregas do Egeu em ponto de entrada principal para refugiados rumo à Europa**, sobrecarregando infraestrutura local e gerando tensão política interna e europeia sobre responsabilidade compartilhada — mais um episódio na longa história grega de posição geográfica na fronteira entre continentes e sistemas políticos rivais.",
+      "fontes": [
+        "richard-clogg-grecia"
+      ]
+    }
+  ]
+}

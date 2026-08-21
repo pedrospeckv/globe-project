@@ -1,0 +1,74 @@
+{
+  "iso": "BGR",
+  "isoNumerico": "100",
+  "nome": "Bulgária",
+  "periodos": [
+    {
+      "id": "bgr-primeiro-imperio",
+      "inicio": "681",
+      "fim": "1018",
+      "rotulo": "Primeiro Império Búlgaro",
+      "regime": "cânato, depois império, sob as dinastias Dulo e depois de Krum e Simeão",
+      "textoMdx": "O cã Asparukh atravessa o Danúbio com seus búlgaros em 680 e, no ano seguinte, força Constantinopla a reconhecer por tratado um Estado búlgaro ao sul do rio — um dos primeiros reinos não bizantinos formalmente reconhecidos pelo Império Romano do Oriente, fundindo elite guerreira búlgara de origem turcomana com população eslava já estabelecida na região.\n\n**A conversão ao cristianismo ortodoxo, sob o cã Boris I em 864, redefine a identidade búlgara e sua relação com Bizâncio.** A criação do alfabeto glagolítico e depois cirílico pelos discípulos de Cirilo e Metódio, acolhidos na Bulgária após expulsão da Morávia, torna o país centro de irradiação da liturgia e literatura eslavas para toda a Europa oriental ortodoxa.\n\n**O reinado de Simeão I, entre 893 e 927, leva o império búlgaro ao apogeu territorial, estendendo-se da Adriática ao Mar Negro.** Simeão se autoproclama \"czar dos búlgaros e romanos\", desafiando diretamente a supremacia bizantina na região — ambição que a Bulgária não conseguiria sustentar após sua morte, entrando em declínio que culminaria na conquista bizantina completa em 1018, sob o imperador Basílio II, cujo epíteto póstumo, \"o Matador de Búlgaros\", reflete a brutalidade da campanha final.",
+      "fontes": [
+        "rj-crampton-bulgaria"
+      ]
+    },
+    {
+      "id": "bgr-segundo-imperio",
+      "inicio": "1185",
+      "fim": "1396",
+      "rotulo": "Segundo Império Búlgaro",
+      "regime": "império medieval sob a dinastia Asen, em declínio e fragmentação após o apogeu",
+      "textoMdx": "A revolta dos irmãos Ivan Asen e Petar, em 1185, contra impostos bizantinos crescentes, restaura o Estado búlgaro após quase dois séculos de domínio bizantino direto — novo império que estabelece capital em Tarnovo, reivindicando explicitamente a herança do primeiro império de Simeão.\n\n**O reinado de Ivan Asen II, entre 1218 e 1241, marca o apogeu territorial e cultural do segundo império**, com expansão até o mar Adriático e florescimento artístico e literário na capital Tarnovo — período que a historiografia búlgara recorda como idade de ouro comparável, em prestígio, à de Simeão três séculos antes.\n\n**As invasões mongóis a partir de meados do século XIII e a fragmentação subsequente em principados rivais enfraquecem progressivamente o império**, tornando-o vulnerável ao avanço otomano que se intensifica a partir da segunda metade do século XIV — a queda de Tarnovo, em 1393, e a derrota final em Nicópolis, em 1396, extinguem o Estado búlgaro por quase cinco séculos.",
+      "fontes": [
+        "rj-crampton-bulgaria"
+      ]
+    },
+    {
+      "id": "bgr-dominio-otomano",
+      "inicio": "1396",
+      "fim": "1878",
+      "rotulo": "Domínio Otomano e Renascimento Nacional",
+      "regime": "província do Império Otomano",
+      "textoMdx": "Sob domínio otomano direto por quase cinco séculos — mais longo que qualquer outro território balcânico —, a Bulgária perde inclusive sua hierarquia eclesiástica própria em 1767, quando o patriarcado búlgaro é abolido e subordinado ao patriarcado grego de Constantinopla, apagamento institucional que se tornaria símbolo do que o nacionalismo búlgaro posterior chamaria de \"jugo turco\".\n\n**O Renascimento Nacional Búlgaro, a partir do final do século XVIII, começa como movimento cultural e eclesiástico antes de se tornar político** — a restauração de uma igreja búlgara autônoma, obtida do sultão em 1870 através do Exarcado Búlgaro, precede e prepara a mobilização nacional que culminaria na revolta armada.\n\n**A Insurreição de Abril de 1876, esmagada com brutalidade que choca a opinião pública europeia — os chamados \"horrores búlgaros\", documentados pela imprensa britânica —, precipita intervenção russa.** A guerra russo-otomana de 1877-1878 termina com a derrota otomana e o Tratado preliminar de San Stefano, que criaria uma Grande Bulgária logo revista, meses depois, pelo Congresso de Berlim — que reduziria drasticamente o território búlgaro por temor das outras potências à influência russa excessiva na região.",
+      "fontes": [
+        "rj-crampton-bulgaria",
+        "misha-glenny-balcas"
+      ]
+    },
+    {
+      "id": "bgr-principado-reino",
+      "inicio": "1878",
+      "fim": "1946",
+      "rotulo": "Principado autônomo e Reino da Bulgária",
+      "regime": "principado vassalo, depois reino plenamente soberano a partir de 1908",
+      "textoMdx": "O Congresso de Berlim de 1878 cria principado búlgaro autônomo, mas vassalo nominal do sultão e territorialmente reduzido em relação ao projetado em San Stefano — frustração que alimentaria décadas de irredentismo búlgaro voltado a recuperar a Macedônia e outros territórios considerados búlgaros por herança histórica e linguística.\n\n**A união com a Rumélia Oriental, em 1885, e a independência plena declarada em 1908 por Ferdinando I, que se proclama czar, completam a soberania búlgara** — mas as Guerras Balcânicas de 1912-1913 terminam em desastre: vitoriosa na primeira guerra contra os otomanos, a Bulgária é derrotada na segunda pelos antigos aliados sérvio e grego, perdendo território macedônio que ambicionava.\n\n**A Bulgária se alinha às Potências Centrais na Primeira Guerra Mundial, buscando reverter as perdas de 1913, e é derrotada novamente — padrão que se repetiria na Segunda Guerra Mundial, quando o país adere ao Eixo em 1941 sem, contudo, declarar guerra à União Soviética nem deportar sua população judaica**, protegida por resistência de parlamentares, do clero ortodoxo e do próprio rei Boris III, episódio que salvaria praticamente toda a comunidade judaica búlgara do Holocausto, mesmo enquanto judeus de territórios ocupados pela Bulgária na Macedônia e Trácia eram deportados.\n\n**A ocupação soviética, a partir de setembro de 1944, quando a URSS declara guerra a um país que já buscava armistício com os Aliados, instala rapidamente governo comunista.** A monarquia é abolida por referendo em 1946, e o jovem rei Simeão II, futuro primeiro-ministro seis décadas depois em democracia restaurada, parte para o exílio.",
+      "fontes": [
+        "rj-crampton-bulgaria",
+        "tratado-berlim-1878"
+      ]
+    },
+    {
+      "id": "bgr-republica-popular",
+      "inicio": "1946",
+      "fim": "1990",
+      "rotulo": "República Popular da Bulgária",
+      "regime": "república socialista de partido único, aliada próxima da União Soviética",
+      "textoMdx": "A Bulgária socialista se torna um dos aliados mais próximos e submissos de Moscou entre os países do Pacto de Varsóvia, sob a liderança de Todor Zhivkov, que governaria ininterruptamente de 1954 a 1989 — a mais longa permanência no poder entre os líderes comunistas do bloco soviético europeu.\n\n**A campanha de \"renascimento\" forçada contra a minoria turca búlgara, entre 1984 e 1989, obriga cerca de 800 mil pessoas a adotar nomes eslavos e proíbe o uso público da língua turca** — política de assimilação forçada que culmina, em 1989, no chamado \"grande êxodo\", quando mais de 300 mil búlgaros de origem turca fogem para a Turquia em poucos meses.\n\n**A queda de Zhivkov, em novembro de 1989, ocorre por golpe interno do próprio Partido Comunista, um dia depois da queda do Muro de Berlim — não por revolução popular direta como em outros países do bloco**, abrindo caminho, ainda assim, para transição negociada rumo a eleições multipartidárias já em 1990.",
+      "fontes": [
+        "rj-crampton-bulgaria"
+      ]
+    },
+    {
+      "id": "bgr-republica-atual",
+      "inicio": "1990",
+      "rotulo": "República da Bulgária pós-comunista",
+      "regime": "república parlamentar",
+      "textoMdx": "A transição pós-comunista búlgara é lenta e economicamente dolorosa, com hiperinflação e colapso bancário em 1996-1997 que provocam nova onda de protestos e forçam governo de transição a acelerar reformas de mercado sob supervisão do Fundo Monetário Internacional.\n\n**A Bulgária adere à OTAN em 2004 e à União Europeia em 2007, junto com a Romênia — a mais recente onda de ampliação para o leste antes da adesão da Croácia em 2013.** A adesão à União Europeia ocorre, porém, sob mecanismo de monitoramento específico para combate à corrupção e ao crime organizado, sinal de reformas judiciais consideradas incompletas pelos parceiros europeus.\n\n**A instabilidade política do século XXI inclui ciclos recorrentes de eleições antecipadas e protestos anticorrupção massivos**, incluindo os de 2020-2021 contra o então primeiro-ministro Boyko Borisov — a Bulgária permanece, segundo métricas da própria União Europeia, o país-membro com os níveis mais baixos de renda per capita e mais altos percebidos de corrupção, décadas depois da adesão.",
+      "fontes": [
+        "rj-crampton-bulgaria"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "iso": "ROU",
+  "isoNumerico": "642",
+  "nome": "Romênia",
+  "periodos": [
+    {
+      "id": "rou-uniao-principados",
+      "inicio": "1859",
+      "fim": "1881",
+      "rotulo": "União dos Principados e caminho à independência",
+      "regime": "união pessoal dos principados da Valáquia e Moldávia, depois principado soberano a partir de 1878",
+      "textoMdx": "A eleição simultânea de Alexandru Ioan Cuza como príncipe da Valáquia e da Moldávia, em janeiro de 1859 — aproveitando ambiguidade jurídica que não proibia explicitamente a mesma pessoa de ocupar os dois tronos —, une na prática dois principados que por séculos preservaram autonomia própria, ainda que sob suserania otomana nominal, sem jamais terem constituído Estado único antes.\n\n**Cuza é deposto por golpe em 1866, substituído por Carol de Hohenzollern-Sigmaringen, príncipe alemão convidado a reinar sobre o novo Estado romeno unificado** — escolha que buscava, através de vínculo dinástico europeu, reforçar a legitimidade internacional do país recém-formado.\n\n**A independência plena é conquistada em combate ao lado da Rússia na guerra russo-otomana de 1877-1878, reconhecida formalmente pelo Congresso de Berlim** — a Romênia cede a Bessarábia meridional à Rússia em troca da Dobruja, ganho territorial que lhe dá acesso ao mar Negro, e Carol se proclama rei em 1881, elevando o principado a reino soberano.",
+      "fontes": [
+        "keith-hitchins-romenia",
+        "tratado-berlim-1878"
+      ]
+    },
+    {
+      "id": "rou-reino-grande-romenia",
+      "inicio": "1881",
+      "fim": "1940",
+      "rotulo": "Reino da Romênia e a Grande Romênia",
+      "regime": "monarquia constitucional, democracia parlamentar frágil entre guerras",
+      "textoMdx": "O Reino da Romênia entra na Primeira Guerra Mundial em 1916, do lado da Tríplice Entente, atraído pela promessa de anexar a Transilvânia húngara de maioria romena — decisão que leva a derrotas militares devastadoras nos primeiros meses, com ocupação de Bucareste pelas potências centrais, antes de a vitória aliada final reverter completamente a situação.\n\n**O colapso dos impérios austro-húngaro e russo, em 1918, permite à Romênia quase dobrar seu território, anexando Transilvânia, Bessarábia e Bucovina — a chamada \"Grande Romênia\", maior extensão territorial romena da história.** A nova diversidade étnica do país, com minorias húngaras, alemãs, judias e ucranianas substanciais, geraria tensões nacionalistas persistentes ao longo do período entre guerras.\n\n**A democracia parlamentar romena do entreguerras é cronicamente instável, marcada pela ascensão da Guarda de Ferro — movimento fascista e antissemita de base religiosa ortodoxa —, que pratica violência política, incluindo assassinatos de primeiros-ministros.** O rei Carol II responde instaurando ditadura pessoal em 1938, banindo partidos e reprimindo tanto a Guarda de Ferro quanto a oposição democrática, num esforço de controle que se mostraria insuficiente diante da crise territorial iminente de 1940.",
+      "fontes": [
+        "keith-hitchins-romenia"
+      ]
+    },
+    {
+      "id": "rou-guerra-comunismo",
+      "inicio": "1940",
+      "fim": "1989",
+      "rotulo": "Ditadura de Antonescu, ocupação soviética e República Popular",
+      "regime": "ditadura militar aliada ao Eixo, depois república popular comunista de partido único sob ocupação e depois tutela soviética",
+      "textoMdx": "O ano de 1940 é catastrófico para a integridade territorial romena: sob pressão soviética e do Eixo, o país perde a Bessarábia à URSS, a Transilvânia setentrional à Hungria e a Dobruja meridional à Bulgária em poucos meses — humilhação que força a abdicação de Carol II e leva o general Ion Antonescu ao poder, aliado a Hitler na esperança de recuperar os territórios perdidos.\n\n**A Romênia de Antonescu participa da invasão da União Soviética em 1941 e conduz, por conta própria, campanha de extermínio contra a população judaica na Bessarábia, Bucovina e Transnístria ocupada** — historiadores estimam a morte de mais de 250 mil judeus sob responsabilidade direta romena, o segundo maior número entre os aliados do Eixo depois da própria Alemanha.\n\n**A guinada romena em agosto de 1944, quando o rei Miguel I depõe e prende Antonescu, declarando guerra à Alemanha, não impede a ocupação soviética nem a imposição de governo comunista já em 1945, com a abdicação forçada do rei em 1947.** O Partido Comunista, sob Gheorghiu-Dej e depois Nicolae Ceaușescu a partir de 1965, consolida um dos regimes de partido único mais duradouros do bloco soviético.\n\n**Ceaușescu cultiva política externa de independência relativa de Moscou — condenando a invasão soviética da Checoslováquia em 1968, mantendo relações com Israel e a China — enquanto impõe, internamente, um dos regimes mais repressivos e um culto à personalidade dos mais extremos da Europa comunista.** A polícia secreta Securitate mantém vigilância onipresente, e o programa de \"sistematização\" dos anos 1980 destrói milhares de aldeias e bairros históricos de Bucareste para reconstrução segundo visão megalômana pessoal do ditador — política que, somada ao racionamento severo de alimentos e energia, empobrece drasticamente a população.",
+      "fontes": [
+        "keith-hitchins-romenia",
+        "dennis-deletant-ceausescu"
+      ]
+    },
+    {
+      "id": "rou-republica-atual",
+      "inicio": "1989",
+      "rotulo": "República romena pós-comunista",
+      "regime": "república semipresidencialista",
+      "textoMdx": "A Revolução Romena de dezembro de 1989 é a única transição violenta entre os regimes comunistas do Leste Europeu naquele ano — protestos iniciados em Timișoara se espalham rapidamente, e Ceaușescu e sua esposa Elena são capturados em fuga, julgados sumariamente por tribunal militar e executados por fuzilamento no dia de Natal, transmitido pela televisão dias depois.\n\n**A Frente de Salvação Nacional, formada por quadros comunistas de segundo escalão nos dias caóticos da revolução, domina a transição inicial**, gerando controvérsia duradoura sobre até que ponto 1989 representou ruptura completa ou apenas realinhamento interno do antigo aparelho de poder — os chamados \"mineiros\" seriam mobilizados por esse governo para reprimir violentamente protestos estudantis em Bucareste, em junho de 1990.\n\n**A Romênia adere à OTAN em 2004 e à União Europeia em 2007, integração que exige reformas judiciais profundas ainda incompletas décadas depois** — o país permanece, como a vizinha Bulgária, sob mecanismo europeu de monitoramento anticorrupção, refletindo captura institucional persistente por redes de influência herdadas da era comunista.\n\n**Os protestos anticorrupção de 2017, os maiores desde 1989, forçam o governo a recuar de decreto que enfraqueceria leis anticorrupção**, e o cancelamento judicial da eleição presidencial de 2024, após acusação de interferência russa através de campanha digital favorável a candidato de extrema-direita, expõe vulnerabilidades democráticas que a integração europeia não eliminou por completo.",
+      "fontes": [
+        "keith-hitchins-romenia"
+      ]
+    }
+  ]
+}

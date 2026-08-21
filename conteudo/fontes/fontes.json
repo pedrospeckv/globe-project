@@ -3295,5 +3295,69 @@
     "autor": "Leopoldina Plut-Pregelj e Carole Rogel",
     "data": "1996",
     "citacao": "Obra de referência sobre a história eslovena, do ducado eslavo da Carantânia à independência de 1991, cobrindo o longo período de mais de um milênio em que os territórios de fala eslovena permaneceram fragmentados sem estatalidade própria."
+  },
+  {
+    "id": "rj-crampton-bulgaria",
+    "tipo": "livro",
+    "titulo": "A Concise History of Bulgaria",
+    "autor": "R. J. Crampton",
+    "data": "2005",
+    "citacao": "História búlgara dos dois impérios medievais ao pós-comunismo. Trata os cinco séculos de domínio otomano direto como o mais longo entre os territórios balcânicos, e a proteção da população judaica búlgara pelo rei Boris III em 1943 como episódio moralmente ambíguo — salva os judeus do território búlgaro original, mas não impede a deportação dos judeus das zonas ocupadas na Macedônia e na Trácia."
+  },
+  {
+    "id": "keith-hitchins-romenia",
+    "tipo": "livro",
+    "titulo": "A Concise History of Romania",
+    "autor": "Keith Hitchins",
+    "data": "2014",
+    "citacao": "História romena da união dos principados em 1859 ao pós-comunismo, cobrindo a formação da Grande Romênia em 1918, o regime de Antonescu e sua participação no Holocausto na Transnístria, e a ditadura de Ceaușescu."
+  },
+  {
+    "id": "dennis-deletant-ceausescu",
+    "tipo": "livro",
+    "titulo": "Ceaușescu and the Securitate: Coercion and Dissent in Romania, 1965-1989",
+    "autor": "Dennis Deletant",
+    "data": "1995",
+    "citacao": "Estudo do aparato de repressão do regime de Nicolae Ceaușescu, com base em documentos da polícia secreta Securitate, cobrindo o culto à personalidade, a política de sistematização urbana e rural, e o colapso do regime na revolução de dezembro de 1989."
+  },
+  {
+    "id": "richard-clogg-grecia",
+    "tipo": "livro",
+    "titulo": "A Concise History of Greece",
+    "autor": "Richard Clogg",
+    "data": "2013",
+    "citacao": "História grega da guerra de independência de 1821 ao século XXI, incluindo a Catástrofe da Ásia Menor de 1922, a guerra civil de 1946-1949 e a crise da dívida soberana de 2009-2018."
+  },
+  {
+    "id": "mark-mazower-grecia-ocupacao",
+    "tipo": "livro",
+    "titulo": "Inside Hitler's Greece: The Experience of Occupation, 1941-44",
+    "autor": "Mark Mazower",
+    "data": "1993",
+    "citacao": "Estudo da ocupação do Eixo na Grécia, cobrindo a fome de 1941-1942 em Atenas, a deportação da comunidade judaica sefardita de Salônica e a fragmentação da resistência grega entre facções comunistas e não comunistas rivais, prenúncio direto da guerra civil que se seguiria."
+  },
+  {
+    "id": "miranda-vickers-albania",
+    "tipo": "livro",
+    "titulo": "The Albanians: A Modern History",
+    "autor": "Miranda Vickers",
+    "data": "1995",
+    "citacao": "História albanesa da Liga de Lezhë sob Skanderbeg ao pós-comunismo, com atenção especial ao isolacionismo extremo do regime de Enver Hoxha e às sucessivas rupturas com Iugoslávia, União Soviética e China."
+  },
+  {
+    "id": "protocolo-londres-1830",
+    "tipo": "documento-oficial",
+    "titulo": "Protocolo de Londres",
+    "publicacao": "Reino Unido, França e Rússia",
+    "data": "1830-02-03",
+    "citacao": "Reconheceu formalmente a independência da Grécia como Estado soberano, limitada a um território pequeno em torno de Atenas e do Peloponeso, deixando fora regiões de população grega significativa que alimentariam o projeto irredentista da Grande Ideia nas décadas seguintes."
+  },
+  {
+    "id": "convencao-lausanne-1923",
+    "tipo": "documento-oficial",
+    "titulo": "Convenção Relativa à Troca das Populações Gregas e Turcas",
+    "publicacao": "Conferência de Lausanne, Grécia e Turquia",
+    "data": "1923-01-30",
+    "citacao": "Impôs troca compulsória de populações entre Grécia e Turquia com base em religião, não em língua ou identidade nacional, deslocando à força mais de um milhão de gregos ortodoxos da Anatólia e centenas de milhares de muçulmanos da Grécia — um dos maiores episódios de deslocamento populacional sancionado por tratado internacional do século XX."
   }
 ]

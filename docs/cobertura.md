@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**57 de 174 países** desenhados no mapa têm dossiê (32.8%), somando **323 períodos**.
+**61 de 174 países** desenhados no mapa têm dossiê (35.1%), somando **345 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -11,6 +11,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 
 | país | iso | períodos | com texto |
 |---|---|---|---|
+| Albânia | `ALB` | 6 | 6 |
 | Alemanha | `DEU` | 8 | 8 |
 | Argentina | `ARG` | 10 | 10 |
 | Áustria | `AUT` | 4 | 4 |
@@ -20,6 +21,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Bolívia | `BOL` | 8 | 8 |
 | Bósnia e Herzegovina | `BIH` | 7 | 7 |
 | Brasil | `BRA` | 8 | 8 |
+| Bulgária | `BGR` | 6 | 6 |
 | Canadá | `CAN` | 5 | 5 |
 | Chile | `CHL` | 9 | 9 |
 | China | `CHN` | 16 | 16 |
@@ -35,6 +37,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Estados Unidos | `USA` | 8 | 8 |
 | Finlândia | `FIN` | 4 | 4 |
 | França | `FRA` | 10 | 10 |
+| Grécia | `GRC` | 6 | 6 |
 | Groenlândia | `GRL` | 3 | 3 |
 | Guatemala | `GTM` | 7 | 7 |
 | Guiana | `GUY` | 4 | 4 |
@@ -60,6 +63,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Portugal | `PRT` | 7 | 7 |
 | Reino Unido | `GBR` | 6 | 6 |
 | República Dominicana | `DOM` | 5 | 5 |
+| Romênia | `ROU` | 4 | 4 |
 | Rússia | `RUS` | 6 | 6 |
 | Sérvia | `SRB` | 7 | 7 |
 | Suécia | `SWE` | 3 | 3 |
@@ -77,28 +81,27 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 
 | | | | |
 |---|---|---|---|
-| Afghanistan | Albania | Algeria | Angola |
-| Antarctica | Armenia | Australia | Azerbaijan |
-| Bangladesh | Belarus | Benin | Bhutan |
-| Botswana | Brunei | Bulgaria | Burkina Faso |
-| Burundi | Cambodia | Cameroon | Central African Rep. |
-| Chad | Congo | Côte d'Ivoire | Cyprus |
-| Czechia | Dem. Rep. Congo | Djibouti | Egypt |
-| Eq. Guinea | Eritrea | Estonia | eSwatini |
-| Ethiopia | Falkland Is. | Fiji | Fr. S. Antarctic Lands |
-| Gabon | Gambia | Georgia | Ghana |
-| Greece | Guinea | Guinea-Bissau | Hungary |
-| Indonesia | Iran | Iraq | Ireland |
-| Israel | Jordan | Kazakhstan | Kenya |
-| Kuwait | Kyrgyzstan | Laos | Latvia |
-| Lebanon | Lesotho | Liberia | Libya |
-| Lithuania | Madagascar | Malawi | Malaysia |
-| Mali | Mauritania | Moldova | Mongolia |
-| Morocco | Mozambique | Myanmar | Namibia |
-| Nepal | New Caledonia | New Zealand | Niger |
-| Nigeria | North Korea | Oman | Pakistan |
-| Palestine | Papua New Guinea | Philippines | Qatar |
-| Romania | Rwanda | S. Sudan | Saudi Arabia |
+| Afghanistan | Algeria | Angola | Antarctica |
+| Armenia | Australia | Azerbaijan | Bangladesh |
+| Belarus | Benin | Bhutan | Botswana |
+| Brunei | Burkina Faso | Burundi | Cambodia |
+| Cameroon | Central African Rep. | Chad | Congo |
+| Côte d'Ivoire | Cyprus | Czechia | Dem. Rep. Congo |
+| Djibouti | Egypt | Eq. Guinea | Eritrea |
+| Estonia | eSwatini | Ethiopia | Falkland Is. |
+| Fiji | Fr. S. Antarctic Lands | Gabon | Gambia |
+| Georgia | Ghana | Guinea | Guinea-Bissau |
+| Hungary | Indonesia | Iran | Iraq |
+| Ireland | Israel | Jordan | Kazakhstan |
+| Kenya | Kuwait | Kyrgyzstan | Laos |
+| Latvia | Lebanon | Lesotho | Liberia |
+| Libya | Lithuania | Madagascar | Malawi |
+| Malaysia | Mali | Mauritania | Moldova |
+| Mongolia | Morocco | Mozambique | Myanmar |
+| Namibia | Nepal | New Caledonia | New Zealand |
+| Niger | Nigeria | North Korea | Oman |
+| Pakistan | Palestine | Papua New Guinea | Philippines |
+| Qatar | Rwanda | S. Sudan | Saudi Arabia |
 | Senegal | Sierra Leone | Slovakia | Solomon Is. |
 | Somalia | South Africa | South Korea | Sri Lanka |
 | Sudan | Syria | Taiwan | Tajikistan |

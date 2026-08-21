@@ -1,0 +1,73 @@
+{
+  "iso": "ALB",
+  "isoNumerico": "008",
+  "nome": "Albânia",
+  "periodos": [
+    {
+      "id": "alb-liga-lezhe",
+      "inicio": "1444",
+      "fim": "1479",
+      "rotulo": "Liga de Lezhë sob Skanderbeg",
+      "regime": "confederação militar de príncipes albaneses",
+      "textoMdx": "Gjergj Kastrioti, conhecido como Skanderbeg, ex-refém otomano que desertara do exército do sultão, une os príncipes albaneses rivais na Liga de Lezhë, em 1444, formando frente comum contra o avanço otomano nos Bálcãs — aliança que resistiria, com sucesso notável, a repetidas campanhas militares otomanas por mais de duas décadas.\n\n**Skanderbeg obtém vitórias sucessivas contra exércitos otomanos superiores em número, incluindo contra o próprio sultão Mehmed II, conquistador de Constantinopla em 1453**, tornando-se figura celebrada na cristandade europeia como baluarte contra o avanço turco, com apoio ocasional, embora inconstante, de Veneza e do papado.\n\n**A morte de Skanderbeg, em 1468, remove a liderança que mantinha unida a resistência albanesa fragmentada**, e as últimas fortalezas resistentes caem ao domínio otomano em 1479 — início de mais de quatro séculos de domínio direto que apagariam, por gerações, a memória política da breve unidade albanesa do século XV, embora Skanderbeg permanecesse símbolo nacional invocado séculos depois pelo movimento de independência.",
+      "fontes": [
+        "miranda-vickers-albania"
+      ]
+    },
+    {
+      "id": "alb-dominio-otomano",
+      "inicio": "1479",
+      "fim": "1912",
+      "rotulo": "Domínio Otomano e Despertar Nacional",
+      "regime": "sanjacos e depois vilaietes do Império Otomano",
+      "textoMdx": "Sob domínio otomano por mais de quatro séculos, o território albanês vê conversão substancial ao islã — hoje maioria religiosa do país —, embora mantendo minorias católicas no norte e ortodoxas no sul, e fornece ao próprio Império Otomano numerosos administradores e grão-vizires de origem albanesa, incluindo a poderosa dinastia dos Köprülü.\n\n**A Liga de Prizren, fundada em 1878 em reação direta às perdas territoriais que o Congresso de Berlim impunha a áreas de população albanesa, marca o início do movimento nacional albanês moderno** — organização que buscava inicialmente autonomia dentro do próprio Império Otomano, não independência plena, mas evoluiria para reivindicação nacionalista mais ampla nas décadas seguintes.\n\n**O declínio final do poder otomano nos Bálcãs, culminando nas Guerras Balcânicas de 1912-1913, cria simultaneamente a oportunidade e a ameaça: enquanto Sérvia, Montenegro e Grécia avançam sobre território albanês, líderes nacionais proclamam independência em Vlorë, em novembro de 1912**, buscando preservar a existência de um Estado próprio antes que o território fosse inteiramente partilhado pelos vizinhos vitoriosos.",
+      "fontes": [
+        "miranda-vickers-albania",
+        "misha-glenny-balcas"
+      ]
+    },
+    {
+      "id": "alb-independencia-instabilidade",
+      "inicio": "1912",
+      "fim": "1939",
+      "rotulo": "Independência, instabilidade e o reinado de Zog",
+      "regime": "principado, depois república presidencialista, depois monarquia sob Ahmet Zogu",
+      "textoMdx": "A independência albanesa, reconhecida internacionalmente pela Conferência de Londres de 1913 mas com fronteiras que deixam significativa população albanesa fora do novo Estado — sobretudo no Kosovo, atribuído à Sérvia —, começa sob o príncipe alemão Wilhelm de Wied, cujo reinado dura apenas seis meses antes de colapsar com a eclosão da Primeira Guerra Mundial.\n\n**A ocupação por múltiplos exércitos estrangeiros durante a guerra — austro-húngaro, italiano, francês, sérvio — deixa a Albânia praticamente sem governo central efetivo por anos**, situação que só se estabiliza gradualmente na década de 1920 sob a liderança cada vez mais autoritária de Ahmet Zogu.\n\n**Zogu se proclama primeiro presidente da república em 1925 e depois rei, como Zog I, em 1928, consolidando regime pessoal apoiado financeira e militarmente pela Itália fascista**, dependência crescente que tornaria o país vulnerável a pressão italiana direta — a economia albanesa permanece, ao longo de todo o período, a mais pobre e menos desenvolvida dos Bálcãs.",
+      "fontes": [
+        "miranda-vickers-albania"
+      ]
+    },
+    {
+      "id": "alb-ocupacao-italiana-alema",
+      "inicio": "1939",
+      "fim": "1944",
+      "rotulo": "Ocupação italiana e depois alemã",
+      "regime": "protetorado anexado à coroa italiana, depois ocupação alemã direta a partir de 1943",
+      "textoMdx": "A Itália fascista invade a Albânia em abril de 1939, meses antes de deflagrar a Segunda Guerra Mundial, depondo Zog — que foge ao exílio — e unindo formalmente a coroa albanesa à italiana sob Vítor Emanuel III, numa anexação que serve de base para a invasão italiana da Grécia no ano seguinte.\n\n**A resistência albanesa se organiza majoritariamente sob liderança comunista, unificada no Movimento de Libertação Nacional a partir de 1942 sob Enver Hoxha**, que consolidaria controle sobre as demais facções de resistência, incluindo grupos nacionalistas rivais, ao longo da guerra.\n\n**A capitulação italiana em setembro de 1943 transfere o controle do território à ocupação alemã direta, que se retira apenas em novembro de 1944 sob pressão da guerrilha partisan** — a Albânia se tornaria, entre os países europeus ocupados, um dos poucos libertados majoritariamente por forças de resistência interna, sem intervenção decisiva de exércitos aliados regulares em seu território.",
+      "fontes": [
+        "miranda-vickers-albania"
+      ]
+    },
+    {
+      "id": "alb-republica-popular-hoxha",
+      "inicio": "1944",
+      "fim": "1991",
+      "rotulo": "República Popular sob Enver Hoxha",
+      "regime": "república socialista de partido único, stalinista, progressivamente isolacionista",
+      "textoMdx": "Enver Hoxha estabelece, a partir de 1944, um dos regimes comunistas mais rígidos e duradouros da Europa, mantendo-se no poder por quatro décadas através de purgas sucessivas contra rivais reais ou imaginados dentro do próprio partido.\n\n**A ruptura com a Iugoslávia de Tito, em 1948, é seguida pela ruptura com a União Soviética em 1961, quando Hoxha se recusa a acompanhar a desestalinização de Khrushchov, e finalmente pela ruptura com a China, em 1978, depois da aproximação chinesa aos Estados Unidos** — sequência de rupturas que deixa a Albânia sem qualquer aliado externo, na mais extrema situação de autoisolamento entre os países comunistas do mundo.\n\n**O regime constrói centenas de milhares de bunkers de concreto por todo o território — símbolo físico da paranoia securitária do Estado —, proíbe formalmente qualquer prática religiosa a partir de 1967, declarando o país o primeiro Estado oficialmente ateu do mundo, e restringe severamente viagens e informação externa**, mantendo a população em isolamento quase completo do resto do continente até o final dos anos 1980.\n\n**A morte de Hoxha em 1985 não altera imediatamente o sistema, mas a pressão econômica e o exemplo das revoluções do Leste Europeu de 1989 levam a protestos estudantis crescentes**, forçando o regime a permitir, em 1990 e 1991, as primeiras eleições multipartidárias da história albanesa desde a independência.",
+      "fontes": [
+        "miranda-vickers-albania"
+      ]
+    },
+    {
+      "id": "alb-republica-pos-comunista",
+      "inicio": "1991",
+      "rotulo": "República da Albânia pós-comunista",
+      "regime": "república parlamentar",
+      "textoMdx": "A transição albanesa pós-comunista é particularmente turbulenta: o colapso de esquemas financeiros piramidais em 1997, nos quais boa parte da população havia investido suas economias, provoca colapso quase total da ordem pública, com saques generalizados de arsenais militares e centenas de mortos em meses de anarquia armada.\n\n**A crise do Kosovo, entre 1998 e 1999, transborda diretamente para a Albânia, que recebe centenas de milhares de refugiados albaneses-kosovares fugindo da limpeza étnica sérvia** — episódio que reforça vínculos entre as duas populações albanesas separadas por fronteiras desde 1913, embora sem levar a projeto político de unificação formal entre os dois Estados.\n\n**A Albânia adere à OTAN em 2009, e a candidatura à União Europeia avança lentamente, condicionada a reformas judiciais e de combate ao crime organizado e ao tráfico** — o país permanece, décadas depois da abertura de 1991, entre os mais pobres da Europa, com emigração massiva de sua população para Itália, Grécia e outros destinos ocidentais desde o início da transição.",
+      "fontes": [
+        "miranda-vickers-albania"
+      ]
+    }
+  ]
+}
