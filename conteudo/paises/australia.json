@@ -1,0 +1,39 @@
+{
+  "iso": "AUS",
+  "isoNumerico": "036",
+  "nome": "Austrália",
+  "periodos": [
+    {
+      "id": "aus-colonizacao-britanica-seis-colonias",
+      "inicio": "1788",
+      "fim": "1901",
+      "rotulo": "Colonização britânica e as seis colônias",
+      "regime": "colônias penais britânicas, depois colônias de autogoverno",
+      "textoMdx": "A Primeira Frota britânica desembarca em Sydney Cove em janeiro de 1788, estabelecendo colônia penal em Nova Gales do Sul sobre território já habitado por povos aborígenes havia dezenas de milhares de anos — sem qualquer tratado ou reconhecimento formal de soberania indígena, sob a doutrina jurídica de terra nullius, \"terra de ninguém\".\n\n**A expansão colonial ao longo do século XIX provoca violência de fronteira generalizada contra populações aborígenes, incluindo massacres documentados e deslocamento forçado sistemático** — a população aborígene entraria em colapso demográfico severo por doença, violência e perda de acesso a terras e recursos tradicionais, processo que historiadores contemporâneos descrevem cada vez mais abertamente como próximo do genocídio em extensas regiões do continente.\n\n**As corridas do ouro, a partir de 1851, atraem imigração maciça, incluindo dezenas de milhares de trabalhadores chineses — presença que provocaria hostilidade racial crescente e leis restritivas locais, precursoras diretas da futura Política da Austrália Branca.**\n\n**Seis colônias distintas — Nova Gales do Sul, Tasmânia, Austrália Ocidental, Austrália do Sul, Vitória e Queensland — desenvolvem-se com graus crescentes de autogoverno ao longo do século, culminando em movimento de federação que uniria as colônias em nação única ao virar do século.**",
+      "fontes": [
+        "stuart-macintyre-australia"
+      ]
+    },
+    {
+      "id": "aus-federacao-guerras-mundiais",
+      "inicio": "1901",
+      "fim": "1945",
+      "rotulo": "Federação e as guerras mundiais",
+      "regime": "domínio federal britânico, com política de imigração explicitamente racial",
+      "textoMdx": "A Comunidade da Austrália nasce em 1º de janeiro de 1901, unindo as seis antigas colônias em federação — uma das primeiras leis aprovadas pelo novo parlamento nacional, a Lei de Restrição à Imigração de 1901, formaliza a Política da Austrália Branca, que restringiria severamente imigração não europeia por sete décadas.\n\n**O desembarque de Gallipoli, em abril de 1915, torna-se mito fundador da identidade nacional australiana moderna, apesar de constituir derrota militar — o dia do ANZAC, comemorando a campanha, se tornaria a data cívica mais solene do calendário nacional**, à frente inclusive do próprio dia da federação.\n\n**O bombardeio japonês de Darwin, em fevereiro de 1942, primeiro ataque direto a solo australiano na história, expõe a vulnerabilidade estratégica do país e acelera reorientação decisiva da aliança militar britânica tradicional para os Estados Unidos** — mudança que definiria a política externa e de defesa australiana pelas décadas seguintes.",
+      "fontes": [
+        "stuart-macintyre-australia"
+      ]
+    },
+    {
+      "id": "aus-pos-guerra-multiculturalismo-atual",
+      "inicio": "1945",
+      "rotulo": "Pós-guerra, multiculturalismo e a Austrália contemporânea",
+      "regime": "federação democrática, progressivamente multicultural e em processo de reconciliação com povos aborígenes",
+      "textoMdx": "O programa de imigração maciça do pós-guerra, sob o lema \"povoar ou perecer\", atrai milhões de imigrantes, inicialmente europeus — a Política da Austrália Branca seria desmontada gradualmente ao longo das décadas de 1960 e 1970, abrindo caminho a imigração asiática crescente que transformaria profundamente a composição demográfica do país.\n\n**O referendo de 1967, aprovado por mais de 90% dos votantes, remove cláusulas constitucionais discriminatórias contra aborígenes e permite sua inclusão no censo nacional — mas o reconhecimento pleno de direitos territoriais indígenas só viria com a decisão histórica Mabo, de 1992, que derruba juridicamente a doutrina da terra nullius.**\n\n**O primeiro-ministro Kevin Rudd pede desculpas formais em 2008 pelas \"Gerações Roubadas\" — décadas de remoção forçada sistemática de crianças aborígenes de suas famílias, sob políticas de assimilação que se estenderam até os anos 1970 — mas o referendo de 2023 sobre criação de órgão consultivo indígena constitucional, a \"Voz ao Parlamento\", seria rejeitado pela maioria dos eleitores australianos**, revelando limites persistentes ao processo de reconciliação nacional mais de meio século depois do referendo de 1967.",
+      "fontes": [
+        "stuart-macintyre-australia"
+      ]
+    }
+  ]
+}

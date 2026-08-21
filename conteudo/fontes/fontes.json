@@ -3919,5 +3919,69 @@
     "publicacao": "Conselho de Segurança das Nações Unidas",
     "data": "1990-11-29",
     "citacao": "Autorizou o uso de todos os meios necessários para expulsar as forças iraquianas do Kuwait, caso não se retirassem até 15 de janeiro de 1991 — base jurídica internacional da coalizão liderada pelos Estados Unidos que libertaria o Kuwait na Guerra do Golfo."
+  },
+  {
+    "id": "stuart-macintyre-australia",
+    "tipo": "livro",
+    "titulo": "A Concise History of Australia",
+    "autor": "Stuart Macintyre",
+    "data": "2004",
+    "citacao": "História australiana da colônia penal de 1788 à nação multicultural contemporânea, cobrindo a violência de fronteira contra povos aborígenes, a Política da Austrália Branca e sua desmontagem gradual a partir dos anos 1960."
+  },
+  {
+    "id": "michael-king-nova-zelandia",
+    "tipo": "livro",
+    "titulo": "The Penguin History of New Zealand",
+    "autor": "Michael King",
+    "data": "2003",
+    "citacao": "História neozelandesa de referência, do Tratado de Waitangi de 1840 à política biculturalista contemporânea, tratando as divergências entre as versões inglesa e maori do tratado fundacional como fonte persistente de disputa legal e política."
+  },
+  {
+    "id": "tratado-waitangi-1840",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Waitangi",
+    "publicacao": "Coroa Britânica e chefes maori",
+    "data": "1840-02-06",
+    "citacao": "Estabeleceu a soberania britânica sobre a Nova Zelândia através de tratado com lideranças maori, não por conquista ou declaração unilateral — mas as versões em inglês e em maori diferem significativamente quanto ao que exatamente foi cedido, disparidade que alimenta disputas legais e reivindicações territoriais até hoje."
+  },
+  {
+    "id": "john-waiko-papua-nova-guine",
+    "tipo": "livro",
+    "titulo": "A Short History of Papua New Guinea",
+    "autor": "John Dademo Waiko",
+    "data": "1993",
+    "citacao": "História da Papua-Nova Guiné escrita por historiador nativo do país, cobrindo a partilha colonial entre Alemanha e Grã-Bretanha, a administração australiana e os desafios de construção nacional num território com mais de oitocentas línguas distintas."
+  },
+  {
+    "id": "brij-lal-fiji",
+    "tipo": "livro",
+    "titulo": "Broken Waves: A History of the Fiji Islands in the Twentieth Century",
+    "autor": "Brij V. Lal",
+    "data": "1992",
+    "citacao": "História fijiana do século XX, examinando como a importação colonial de trabalhadores contratados indianos para as plantações de açúcar criou a divisão étnica entre fijianos indígenas e indo-fijianos que definiria os sucessivos golpes militares do país."
+  },
+  {
+    "id": "escritura-cessao-fiji-1874",
+    "tipo": "documento-oficial",
+    "titulo": "Escritura de Cessão de Fiji",
+    "publicacao": "Chefes fijianos liderados por Ratu Seru Cakobau e a Coroa Britânica",
+    "data": "1874-10-10",
+    "citacao": "Cedeu a soberania sobre o arquipélago fijiano à Grã-Bretanha, negociada pelo chefe supremo Cakobau da confederação de Bau em nome de chefes rivais cuja autoridade sobre a totalidade do território era, na prática, disputada."
+  },
+  {
+    "id": "judith-bennett-ilhas-salomao",
+    "tipo": "livro",
+    "titulo": "Wealth of the Solomons: A History of a Pacific Archipelago, 1800-1978",
+    "autor": "Judith Bennett",
+    "data": "1987",
+    "citacao": "História das Ilhas Salomão do período do recrutamento de trabalho forçado do século XIX à independência de 1978, cobrindo o protetorado britânico de 1893 e a devastadora campanha de Guadalcanal da Segunda Guerra Mundial."
+  },
+  {
+    "id": "jeremy-maclancy-vanuatu",
+    "tipo": "livro",
+    "titulo": "To Kill a Bird with Two Stones: A Short History of Vanuatu",
+    "autor": "Jeremy MacClancy",
+    "data": "1980",
+    "citacao": "História concisa de Vanuatu, cobrindo o incomum Condomínio Anglo-Francês das Novas Hébridas — duas administrações coloniais paralelas sobre o mesmo território — e o movimento cultual John Frum surgido na ilha de Tanna."
   }
 ]

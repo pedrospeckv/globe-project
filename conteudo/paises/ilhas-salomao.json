@@ -1,0 +1,39 @@
+{
+  "iso": "SLB",
+  "isoNumerico": "090",
+  "nome": "Ilhas Salomão",
+  "periodos": [
+    {
+      "id": "slb-protetorado-britanico",
+      "inicio": "1893",
+      "fim": "1942",
+      "rotulo": "Protetorado Britânico",
+      "regime": "protetorado britânico de administração mínima",
+      "textoMdx": "A Grã-Bretanha estabelece protetorado sobre as Ilhas Salomão em 1893, motivada em parte pela necessidade de conter o \"blackbirding\" — recrutamento frequentemente coercitivo ou fraudulento de trabalhadores ilhéus para plantações australianas e de outras colônias do Pacífico — e em parte pela rivalidade colonial com a Alemanha na região.\n\n**A administração colonial britânica investe minimamente em infraestrutura e desenvolvimento do território ao longo das décadas seguintes**, deixando as Ilhas Salomão entre os territórios menos desenvolvidos do império britânico no Pacífico até a irrupção da Segunda Guerra Mundial transformar abruptamente sua importância estratégica.",
+      "fontes": [
+        "judith-bennett-ilhas-salomao"
+      ]
+    },
+    {
+      "id": "slb-guerra-mundial-descolonizacao",
+      "inicio": "1942",
+      "fim": "1978",
+      "rotulo": "Segunda Guerra Mundial e a descolonização",
+      "regime": "território ocupado por combate, depois protetorado em transição ao autogoverno",
+      "textoMdx": "A Campanha de Guadalcanal, entre agosto de 1942 e fevereiro de 1943, torna-se uma das batalhas mais decisivas e sangrentas da Guerra do Pacífico — primeira grande ofensiva terrestre aliada contra o Japão, com dezenas de milhares de baixas de ambos os lados, e ponto de virada estratégico que deteria definitivamente o avanço japonês pelo Pacífico Sul.\n\n**O pós-guerra traz gradual desenvolvimento institucional e caminho lento ao autogoverno, com as Ilhas Salomão obtendo independência plena da Grã-Bretanha em julho de 1978** — Estado insular de dimensões reduzidas, mas com diversidade linguística e cultural interna considerável entre suas numerosas ilhas dispersas.",
+      "fontes": [
+        "judith-bennett-ilhas-salomao"
+      ]
+    },
+    {
+      "id": "slb-independencia-tensoes-atual",
+      "inicio": "1978",
+      "rotulo": "Independência, as Tensões e as Ilhas Salomão contemporâneas",
+      "regime": "república parlamentar, marcada por conflito interétnico e intervenção internacional de segurança",
+      "textoMdx": "A migração de população de Malaita para Guadalcanal, ilha da capital Honiara, ao longo das décadas pós-independência, gera ressentimento crescente entre guadalcanalenses nativos — tensão que explode em conflito armado de baixa intensidade conhecido como \"as Tensões\", entre 1998 e 2003, incluindo derrubada do governo eleito por milícia armada em 2000.\n\n**A Missão de Assistência Regional às Ilhas Salomão, força multinacional liderada pela Austrália, intervém em 2003 para restaurar ordem pública e reconstruir instituições estatais praticamente colapsadas — presença que se estenderia por quatorze anos, até 2017.**\n\n**A decisão do governo salomônico, em 2019, de transferir reconhecimento diplomático de Taiwan para a China, provoca reação interna intensa, incluindo motins em Honiara em 2021 que incendeiam parte do bairro chinês da capital** — episódio que refletiria tanto ressentimentos internos regionais antigos quanto a crescente disputa geopolítica entre China e potências ocidentais por influência no Pacífico Sul, consolidada por acordo de segurança sino-salomônico assinado em 2022.",
+      "fontes": [
+        "judith-bennett-ilhas-salomao"
+      ]
+    }
+  ]
+}

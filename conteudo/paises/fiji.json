@@ -1,0 +1,40 @@
+{
+  "iso": "FJI",
+  "isoNumerico": "242",
+  "nome": "Fiji",
+  "periodos": [
+    {
+      "id": "fji-colonia-britanica",
+      "inicio": "1874",
+      "fim": "1970",
+      "rotulo": "Colônia Britânica de Fiji",
+      "regime": "colônia britânica, com política de segregação social e econômica entre comunidades indígena e imigrante",
+      "textoMdx": "O chefe supremo Ratu Seru Cakobau, da confederação de Bau, cede formalmente a soberania sobre o arquipélago fijiano à Grã-Bretanha em 1874, através de escritura de cessão negociada apesar de sua autoridade sobre chefes rivais de outras ilhas ser, na prática, disputada.\n\n**A administração colonial recruta dezenas de milhares de trabalhadores contratados da Índia, entre 1879 e 1916, para trabalhar nas plantações de açúcar sob o sistema girmit — imigração maciça que criaria, ao longo de décadas, comunidade indo-fijiana numerosa que se aproximaria da maioria demográfica do território.**\n\n**A política colonial britânica preserva deliberadamente separação institucional entre a estrutura de terras comunais e liderança tradicional dos fijianos indígenas e a vida econômica predominantemente indo-fijiana das plantações** — segregação estrutural que semearia as bases da tensão étnico-política que definiria a política fijiana independente pelas décadas seguintes.",
+      "fontes": [
+        "brij-lal-fiji",
+        "escritura-cessao-fiji-1874"
+      ]
+    },
+    {
+      "id": "fji-independencia-instabilidade-golpes",
+      "inicio": "1970",
+      "fim": "2006",
+      "rotulo": "Independência e a instabilidade dos golpes étnicos",
+      "regime": "monarquia constitucional, depois república instável sob sucessivos golpes militares de motivação étnica",
+      "textoMdx": "A independência fijiana, obtida em outubro de 1970, preserva delicado equilíbrio político entre as comunidades indígena e indo-fijiana — equilíbrio que se rompe em 1987, quando a eleição de governo apoiado majoritariamente por eleitores indo-fijianos provoca dois golpes militares sucessivos liderados pelo coronel Sitiveni Rabuka, restaurando domínio político indígena por meio de nova constituição discriminatória.\n\n**Um terceiro golpe, em 2000, liderado pelo civil George Speight, mantém reféns membros do governo eleito por semanas em crise que reflete novamente ressentimento nacionalista indígena — episódio que aprofundaria ainda mais a emigração de população indo-fijiana qualificada para a Austrália, a Nova Zelândia e o Canadá.**\n\n**Um quarto golpe, em 2006, liderado pelo comandante militar Frank Bainimarama, se distingue explicitamente dos anteriores ao se apresentar como movimento anticorrupção e multirracial, não pró-supremacia indígena** — reposicionamento que definiria a trajetória política fijiana da década seguinte.",
+      "fontes": [
+        "brij-lal-fiji"
+      ]
+    },
+    {
+      "id": "fji-bainimarama-democracia-atual",
+      "inicio": "2006",
+      "rotulo": "De Bainimarama à democracia multirracial",
+      "regime": "regime militar, depois república democrática sob nova constituição não racializada",
+      "textoMdx": "Bainimarama consolida poder através de regime militar por vários anos após o golpe de 2006, antes de promulgar nova constituição em 2013 que remove disposições explicitamente baseadas em raça da estrutura eleitoral fijiana — mudança controversa entre nacionalistas indígenas, mas apresentada pelo governo como promoção de identidade nacional unificada acima de divisões comunais.\n\n**Bainimarama vence eleições competitivas como candidato civil em 2014 e 2018, legitimando democraticamente seu domínio político depois de anos de governo militar não eleito.**\n\n**As eleições de 2022 produzem resultado apertado que derruba Bainimarama, trazendo ao poder coalizão de oposição liderada por Sitiveni Rabuka — o mesmo oficial que liderara os golpes de 1987, agora retornando ao poder através de processo eleitoral inteiramente democrático** — transição pacífica que contrasta notavelmente com a história de rupturas militares violentas que definira a política fijiana pelas três décadas anteriores.",
+      "fontes": [
+        "brij-lal-fiji"
+      ]
+    }
+  ]
+}

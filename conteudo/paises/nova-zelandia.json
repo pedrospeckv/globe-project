@@ -1,0 +1,40 @@
+{
+  "iso": "NZL",
+  "isoNumerico": "554",
+  "nome": "Nova Zelândia",
+  "periodos": [
+    {
+      "id": "nzl-tratado-waitangi-guerras-maori",
+      "inicio": "1840",
+      "fim": "1907",
+      "rotulo": "Tratado de Waitangi e as Guerras Maori",
+      "regime": "colônia britânica estabelecida por tratado com lideranças maori",
+      "textoMdx": "O Tratado de Waitangi, assinado em fevereiro de 1840 entre a Coroa britânica e diversos chefes maori, estabelece soberania britânica sobre a Nova Zelândia através de acordo negociado, não conquista unilateral — mas as versões inglesa e maori do tratado divergem significativamente quanto ao que exatamente fora cedido, disparidade que geraria disputas legais e políticas ainda vivas quase dois séculos depois.\n\n**As Guerras Neozelandesas, travadas entre 1845 e 1872 principalmente na Ilha do Norte, opõem forças britânicas e coloniais a grupos maori resistindo à confiscação sistemática de terras** — apesar de vitórias táticas maori frequentes em diversas campanhas, o resultado final seria perda territorial maciça e duradoura para as comunidades indígenas.\n\n**A Nova Zelândia se torna, em 1893, o primeiro país autogovernado do mundo a conceder sufrágio feminino pleno** — precedência que consolidaria reputação de vanguarda social progressista que o país cultivaria repetidamente ao longo do século seguinte, antes de obter status de Domínio autônomo dentro do Império Britânico em 1907.",
+      "fontes": [
+        "michael-king-nova-zelandia",
+        "tratado-waitangi-1840"
+      ]
+    },
+    {
+      "id": "nzl-dominio-guerras-mundiais-bem-estar",
+      "inicio": "1907",
+      "fim": "1984",
+      "rotulo": "Domínio, as guerras mundiais e o Estado de bem-estar",
+      "regime": "domínio autônomo britânico, desenvolvendo Estado de bem-estar social pioneiro",
+      "textoMdx": "O desembarque de Gallipoli, em 1915, ao lado das forças australianas, consolida a identidade ANZAC compartilhada entre os dois países — baixas neozelandesas proporcionalmente altíssimas em ambas as guerras mundiais, dada a população reduzida do país, reforçariam vínculo emocional duradouro com a memória desses conflitos.\n\n**O governo trabalhista eleito em 1935 constrói um dos primeiros e mais abrangentes sistemas de bem-estar social do mundo ocidental — pensões universais, moradia pública em larga escala, saúde pública gratuita** — modelo que influenciaria políticas sociais de outras democracias ocidentais nas décadas seguintes.\n\n**A entrada do Reino Unido na Comunidade Econômica Europeia, em 1973, rompe abruptamente o acesso privilegiado neozelandês ao mercado britânico de exportações agrícolas do qual a economia dependia profundamente**, forçando diversificação comercial dolorosa e reorientação em direção à Ásia-Pacífico que se completaria apenas gradualmente ao longo das décadas seguintes.",
+      "fontes": [
+        "michael-king-nova-zelandia"
+      ]
+    },
+    {
+      "id": "nzl-politica-nuclear-livre-atual",
+      "inicio": "1984",
+      "rotulo": "Política antinuclear e a Nova Zelândia contemporânea",
+      "regime": "democracia parlamentar independente, com política externa distintamente antinuclear",
+      "textoMdx": "O governo trabalhista declara a Nova Zelândia zona livre de armas nucleares em 1984-1987, proibindo a entrada de navios de propulsão ou armamento nuclear — os Estados Unidos suspenderiam suas obrigações de defesa mútua sob o tratado ANZUS em resposta, ruptura rara entre aliados ocidentais tradicionais motivada por princípio, não por disputa territorial ou comercial.\n\n**Agentes do serviço secreto francês afundam o navio do Greenpeace Rainbow Warrior no porto de Auckland, em 1985, matando um fotógrafo a bordo — ataque contra embarcação que protestava testes nucleares franceses no Pacífico, e que provocaria escândalo diplomático internacional grave.**\n\n**O Tribunal de Waitangi, criado em 1975 para investigar violações históricas do tratado fundacional, processaria centenas de reivindicações maori ao longo das décadas seguintes, resultando em indenizações financeiras e devoluções territoriais significativas — processo de reconciliação ainda em curso.**\n\n**O ataque terrorista às mesquitas de Christchurch, em março de 2019, que mata cinquenta e uma pessoas, provoca resposta imediata de reforma no controle de armas sob a primeira-ministra Jacinda Ardern**, cuja liderança durante a crise receberia reconhecimento internacional amplo.",
+      "fontes": [
+        "michael-king-nova-zelandia"
+      ]
+    }
+  ]
+}

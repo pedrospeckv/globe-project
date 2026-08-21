@@ -1,0 +1,28 @@
+{
+  "iso": "VUT",
+  "isoNumerico": "548",
+  "nome": "Vanuatu",
+  "periodos": [
+    {
+      "id": "vut-condominio-anglo-frances",
+      "inicio": "1906",
+      "fim": "1980",
+      "rotulo": "Condomínio Anglo-Francês das Novas Hébridas",
+      "regime": "condomínio colonial dual, com administrações britânica e francesa paralelas sobre o mesmo território",
+      "textoMdx": "A Grã-Bretanha e a França estabelecem, em 1906, arranjo colonial extraordinariamente incomum sobre o arquipélago das Novas Hébridas — duas administrações paralelas e plenamente separadas, cada uma com seus próprios tribunais, força policial e moeda para seus respectivos cidadãos, num sistema que contemporâneos apelidariam de \"Pandemônio\" pela confusão administrativa resultante.\n\n**A população melanésia nativa permanece, por décadas, em limbo jurídico peculiar dentro desse sistema — tecnicamente sem cidadania de nenhuma das duas potências coloniais, podendo optar por submeter-se à jurisdição britânica, francesa, ou permanecer sob direito consuetudinário local.**\n\n**O movimento cultual John Frum, surgido na ilha de Tanna a partir da década de 1930, combina profecias milenaristas locais com expectativa de retorno messiânico de figura associada aos Estados Unidos — fenômeno religioso que sobreviveria à independência e mantém seguidores ativos, incluindo partido político próprio, até os dias atuais.**\n\n**A breve rebelião conhecida como \"Guerra do Coco\", liderada por Jimmy Stevens na ilha de Espiritu Santo pouco antes da independência formal, em 1980, é suprimida com apoio de tropas da vizinha Papua-Nova Guiné.**",
+      "fontes": [
+        "jeremy-maclancy-vanuatu"
+      ]
+    },
+    {
+      "id": "vut-independencia-atual",
+      "inicio": "1980",
+      "rotulo": "Vanuatu independente",
+      "regime": "república parlamentar",
+      "textoMdx": "A independência plena, obtida em julho de 1980, unifica pela primeira vez sob administração única o arquipélago antes dividido entre duas potências coloniais rivais — a nova nação enfrentaria décadas de instabilidade política com trocas frequentes de governo, embora sem violência armada significativa.\n\n**A extrema vulnerabilidade de Vanuatu a ciclones, terremotos e erupções vulcânicas — o país ocupa consistentemente posições de topo em índices globais de risco a desastres naturais — culmina no Ciclone Pam, de 2015, categoria máxima que devasta infraestrutura e deixa dezenas de milhares de desabrigados.**\n\n**Vanuatu lidera, junto com outras pequenas nações insulares do Pacífico, iniciativa diplomática internacional que resultaria, em 2023, em resolução da Assembleia Geral da ONU solicitando parecer consultivo da Corte Internacional de Justiça sobre obrigações legais dos Estados quanto às mudanças climáticas** — protagonismo diplomático desproporcional ao tamanho do país, refletindo a urgência existencial que a crise climática representa para nações insulares de baixa altitude.",
+      "fontes": [
+        "jeremy-maclancy-vanuatu"
+      ]
+    }
+  ]
+}
