@@ -1,0 +1,75 @@
+{
+  "iso": "VNM",
+  "isoNumerico": "704",
+  "nome": "Vietnã",
+  "periodos": [
+    {
+      "id": "vnm-independencia-primeiras-dinastias",
+      "inicio": "938",
+      "fim": "1427",
+      "rotulo": "Independência e as primeiras dinastias vietnamitas",
+      "regime": "monarquias vietnamitas sucessivas, sob suserania nominal chinesa periódica",
+      "textoMdx": "A vitória de Ngô Quyền sobre a frota chinesa no rio Bạch Đằng, em 938, encerra mais de mil anos de dominação direta chinesa sobre o território vietnamita — início de sequência de dinastias nativas que preservariam a independência vietnamita, com interrupções, pelos mil anos seguintes.\n\n**A dinastia Lý, a partir de 1009, funda a capital em Thăng Long — atual Hanói — e consolida instituições administrativas duradouras, incluindo o primeiro exame imperial de mérito confuciano do país, em 1075.**\n\n**A dinastia Trần repele três invasões mongóis sucessivas, em 1258, 1285 e 1288, sob a liderança militar do general Trần Hưng Đạo** — feito notável considerando que os mongóis haviam conquistado a China Song e chegado às portas da Europa, tornando o Vietnã um dos poucos territórios asiáticos a derrotar repetidamente os exércitos de Kublai Khan.\n\n**Uma reconquista chinesa Ming, entre 1407 e 1427, interrompe brevemente a independência vietnamita antes de ser expulsa pela revolta de Lê Lợi**, que fundaria a dinastia Lê e restauraria a soberania vietnamita.",
+      "fontes": [
+        "christopher-goscha-vietna"
+      ]
+    },
+    {
+      "id": "vnm-le-restauracao-divisao",
+      "inicio": "1427",
+      "fim": "1802",
+      "rotulo": "Restauração Lê e a divisão entre senhores Trịnh e Nguyễn",
+      "regime": "monarquia Lê nominal, com poder efetivo dividido entre clãs rivais Trịnh, no norte, e Nguyễn, no sul",
+      "textoMdx": "A dinastia Lê Posterior, restaurada por Lê Lợi em 1428, atinge apogeu territorial e cultural sob Lê Thánh Tông, no final do século XV, expandindo o território vietnamita para o sul às custas do reino de Champa.\n\n**A partir do século XVI, a dinastia Lê se torna cada vez mais figurativa, com poder real dividido entre os senhores Trịnh, que controlam o norte a partir de Hanói, e os senhores Nguyễn, que expandem território próprio a partir de Huế, no centro-sul** — divisão de facto que perduraria por mais de dois séculos, apesar de ambos os clãs nominalmente servirem ao mesmo imperador Lê.\n\n**A revolta camponesa Tây Sơn, iniciada em 1771 pelos três irmãos Nguyễn Huệ, Nguyễn Nhạc e Nguyễn Lữ, derruba ambos os clãs dominantes e reunifica brevemente o Vietnã** — Nguyễn Huệ, coroado imperador Quang Trung, derrotaria decisivamente uma invasão chinesa Qing em 1789, antes de sua morte prematura abrir caminho para Nguyễn Ánh, sobrevivente do clã Nguyễn deposto, derrotar os Tây Sơn remanescentes e fundar nova dinastia unificada em 1802.",
+      "fontes": [
+        "christopher-goscha-vietna"
+      ]
+    },
+    {
+      "id": "vnm-dinastia-nguyen-colonizacao",
+      "inicio": "1802",
+      "fim": "1945",
+      "rotulo": "Dinastia Nguyễn e a colonização francesa",
+      "regime": "monarquia unificada, depois protetorado e colônia sob administração francesa",
+      "textoMdx": "A dinastia Nguyễn, fundada por Gia Long em 1802, unifica pela primeira vez todo o território vietnamita moderno sob administração centralizada, mas adota políticas conservadoras e crescentemente isolacionistas, incluindo perseguição a missionários católicos que serviria de pretexto a intervenção militar francesa.\n\n**A França ataca Đà Nẵng em 1858 e completa a conquista do Vietnã em etapas ao longo de três décadas, formando a União Indochinesa Francesa em 1887, que incluiria também o Camboja e, depois, o Laos** — o Vietnã seria dividido administrativamente entre a colônia direta da Cochinchina, ao sul, e os protetorados de Annam e Tonkim, preservando a corte Nguyễn apenas como fachada simbólica.\n\n**A ocupação japonesa durante a Segunda Guerra Mundial mantém inicialmente a administração colonial francesa de Vichy, até um golpe japonês em março de 1945 assumir controle direto** — a combinação de políticas de requisição de arroz japonesas e francesas com desastres naturais provoca fome catastrófica no norte do Vietnã em 1945, matando entre um e dois milhões de pessoas, poucos meses antes da rendição japonesa abrir caminho à independência.",
+      "fontes": [
+        "christopher-goscha-vietna"
+      ]
+    },
+    {
+      "id": "vnm-guerra-independencia-frances",
+      "inicio": "1945",
+      "fim": "1954",
+      "rotulo": "Revolução de Agosto e Guerra de Independência contra a França",
+      "regime": "governo revolucionário em guerra pela independência plena",
+      "textoMdx": "Hồ Chí Minh proclama a independência da República Democrática do Vietnã em setembro de 1945, citando explicitamente a Declaração de Independência americana em seu discurso — mas a França recusa reconhecer a nova república, buscando restaurar o domínio colonial.\n\n**A Guerra da Indochina, entre 1946 e 1954, opõe as forças coloniais francesas ao movimento comunista-nacionalista Viet Minh, numa guerra de guerrilha que se prolongaria por quase uma década** com apoio crescente chinês e soviético ao Viet Minh e apoio americano cada vez mais substancial à França, prenunciando o envolvimento direto dos Estados Unidos que se seguiria.\n\n**A derrota francesa decisiva na batalha de Điện Biên Phủ, em maio de 1954, força negociações que resultam nos Acordos de Genebra, dividindo temporariamente o país no paralelo 17 entre um Vietnã do Norte comunista e um Vietnã do Sul apoiado pelo Ocidente**, com eleições de reunificação previstas para 1956 que jamais ocorreriam — consolidando divisão que levaria à guerra ainda mais devastadora que se seguiria.",
+      "fontes": [
+        "christopher-goscha-vietna",
+        "max-hastings-guerra-vietna",
+        "acordos-genebra-1954"
+      ]
+    },
+    {
+      "id": "vnm-guerra-vietna-divisao",
+      "inicio": "1954",
+      "fim": "1975",
+      "rotulo": "Vietnã dividido e a Guerra do Vietnã",
+      "regime": "dois Estados rivais — a República Democrática do Vietnã, comunista, e a República do Vietnã, apoiada pelos Estados Unidos",
+      "textoMdx": "O Vietnã do Sul, sob Ngô Đình Diệm e sucessivos governos militares, enfrenta insurgência comunista crescente do Viet Cong, apoiada logisticamente pelo Norte através da Trilha Ho Chi Minh que atravessava território laosiano e cambojano.\n\n**A escalada militar americana, a partir de 1965, envolve o envio de centenas de milhares de tropas de combate e campanha de bombardeio maciço sobre o Vietnã do Norte e áreas de infiltração vizinhas — a guerra se tornaria o conflito mais divisivo da política americana desde a Guerra Civil**, alimentando movimento de protesto doméstico crescente à medida que baixas e custos se acumulavam sem vitória decisiva à vista.\n\n**A Ofensiva do Tet, em janeiro de 1968, embora derrotada militarmente, abala decisivamente a opinião pública americana sobre a viabilidade da vitória, precipitando negociações de paz e retirada gradual das tropas americanas** — os Acordos de Paz de Paris, de 1973, retiram as forças americanas, mas os combates entre Norte e Sul continuariam até a queda de Saigon, em abril de 1975, quando forças norte-vietnamitas tomam a capital sulista, encerrando a guerra com vitória comunista completa.",
+      "fontes": [
+        "christopher-goscha-vietna",
+        "max-hastings-guerra-vietna"
+      ]
+    },
+    {
+      "id": "vnm-reunificacao-atual",
+      "inicio": "1975",
+      "rotulo": "Reunificação e o Vietnã socialista",
+      "regime": "república socialista de partido único",
+      "textoMdx": "A reunificação formal, em 1976, cria a República Socialista do Vietnã sob administração comunista única — os primeiros anos trazem repressão extensa contra ex-funcionários e militares do regime sulista derrotado, através de campos de \"reeducação\", e nacionalização econômica que provocaria êxodo maciço de refugiados por mar, os chamados \"boat people\", ao longo do final da década de 1970.\n\n**A invasão vietnamita do Camboja, em 1978-1979, derruba o regime genocida do Khmer Vermelho, mas provoca retaliação chinesa: a breve mas sangrenta guerra sino-vietnamita de 1979 deixa dezenas de milhares de mortos em ambos os lados**, sem alterar fronteiras significativamente.\n\n**As reformas do Đổi Mới, \"renovação\", lançadas em 1986, introduzem elementos substanciais de economia de mercado dentro do sistema político de partido único — modelo que se provaria extraordinariamente bem-sucedido em termos de crescimento econômico nas décadas seguintes**, embora sem qualquer abertura política correspondente; a normalização de relações diplomáticas com os próprios Estados Unidos, em 1995, completaria a reintegração vietnamita à economia internacional duas décadas depois do fim da guerra.",
+      "fontes": [
+        "christopher-goscha-vietna"
+      ]
+    }
+  ]
+}

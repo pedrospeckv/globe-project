@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**78 de 174 países** desenhados no mapa têm dossiê (44.8%), somando **440 períodos**.
+**83 de 174 países** desenhados no mapa têm dossiê (47.7%), somando **469 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -25,6 +25,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Bósnia e Herzegovina | `BIH` | 7 | 7 |
 | Brasil | `BRA` | 8 | 8 |
 | Bulgária | `BGR` | 6 | 6 |
+| Camboja | `KHM` | 7 | 7 |
 | Canadá | `CAN` | 5 | 5 |
 | Cazaquistão | `KAZ` | 4 | 4 |
 | Chéquia | `CZE` | 6 | 6 |
@@ -57,11 +58,13 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Itália | `ITA` | 4 | 4 |
 | Jamaica | `JAM` | 3 | 3 |
 | Japão | `JPN` | 12 | 12 |
+| Laos | `LAO` | 5 | 5 |
 | Letônia | `LVA` | 6 | 6 |
 | Lituânia | `LTU` | 7 | 7 |
 | Luxemburgo | `LUX` | 3 | 3 |
 | Macedônia do Norte | `MKD` | 3 | 3 |
 | México | `MEX` | 9 | 9 |
+| Mianmar | `MMR` | 7 | 7 |
 | Montenegro | `MNE` | 6 | 6 |
 | Nicarágua | `NIC` | 6 | 6 |
 | Noruega | `NOR` | 3 | 3 |
@@ -81,6 +84,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Suécia | `SWE` | 3 | 3 |
 | Suíça | `CHE` | 3 | 3 |
 | Suriname | `SUR` | 4 | 4 |
+| Tailândia | `THA` | 4 | 4 |
 | Tajiquistão | `TJK` | 5 | 5 |
 | Trinidad e Tobago | `TTO` | 2 | 2 |
 | Turcomenistão | `TKM` | 3 | 3 |
@@ -89,6 +93,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Uruguai | `URY` | 6 | 6 |
 | Uzbequistão | `UZB` | 6 | 6 |
 | Venezuela | `VEN` | 5 | 5 |
+| Vietnã | `VNM` | 6 | 6 |
 
 ## Sem dossiê
 
@@ -101,25 +106,24 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | Afghanistan | Algeria | Angola | Antarctica |
 | Australia | Bangladesh | Benin | Bhutan |
 | Botswana | Brunei | Burkina Faso | Burundi |
-| Cambodia | Cameroon | Central African Rep. | Chad |
-| Congo | Côte d'Ivoire | Cyprus | Dem. Rep. Congo |
-| Djibouti | Egypt | Eq. Guinea | Eritrea |
-| eSwatini | Ethiopia | Falkland Is. | Fiji |
-| Fr. S. Antarctic Lands | Gabon | Gambia | Ghana |
-| Guinea | Guinea-Bissau | Indonesia | Iran |
-| Iraq | Ireland | Israel | Jordan |
-| Kenya | Kuwait | Laos | Lebanon |
-| Lesotho | Liberia | Libya | Madagascar |
-| Malawi | Malaysia | Mali | Mauritania |
-| Moldova | Mongolia | Morocco | Mozambique |
-| Myanmar | Namibia | Nepal | New Caledonia |
-| New Zealand | Niger | Nigeria | North Korea |
-| Oman | Pakistan | Palestine | Papua New Guinea |
-| Philippines | Qatar | Rwanda | S. Sudan |
-| Saudi Arabia | Senegal | Sierra Leone | Solomon Is. |
-| Somalia | South Africa | South Korea | Sri Lanka |
-| Sudan | Syria | Taiwan | Tanzania |
-| Thailand | Timor-Leste | Togo | Tunisia |
-| Uganda | United Arab Emirates | Vanuatu | Vietnam |
-| W. Sahara | Yemen | Zambia | Zimbabwe |
+| Cameroon | Central African Rep. | Chad | Congo |
+| Côte d'Ivoire | Cyprus | Dem. Rep. Congo | Djibouti |
+| Egypt | Eq. Guinea | Eritrea | eSwatini |
+| Ethiopia | Falkland Is. | Fiji | Fr. S. Antarctic Lands |
+| Gabon | Gambia | Ghana | Guinea |
+| Guinea-Bissau | Indonesia | Iran | Iraq |
+| Ireland | Israel | Jordan | Kenya |
+| Kuwait | Lebanon | Lesotho | Liberia |
+| Libya | Madagascar | Malawi | Malaysia |
+| Mali | Mauritania | Moldova | Mongolia |
+| Morocco | Mozambique | Namibia | Nepal |
+| New Caledonia | New Zealand | Niger | Nigeria |
+| North Korea | Oman | Pakistan | Palestine |
+| Papua New Guinea | Philippines | Qatar | Rwanda |
+| S. Sudan | Saudi Arabia | Senegal | Sierra Leone |
+| Solomon Is. | Somalia | South Africa | South Korea |
+| Sri Lanka | Sudan | Syria | Taiwan |
+| Tanzania | Timor-Leste | Togo | Tunisia |
+| Uganda | United Arab Emirates | Vanuatu | W. Sahara |
+| Yemen | Zambia | Zimbabwe |  |
 

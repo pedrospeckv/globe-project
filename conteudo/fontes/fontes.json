@@ -3639,5 +3639,85 @@
     "publicacao": "Governo do Tajiquistão, Oposição Tadjique Unida e Nações Unidas",
     "data": "1997-06-27",
     "citacao": "Encerrou a guerra civil tadjique de 1992-1997, mediado pela ONU, estabelecendo comissão de reconciliação nacional e integração parcial da oposição ao governo — acordo que consolidaria, na prática, o domínio duradouro de Emomali Rahmon sobre a política tadjique nas décadas seguintes."
+  },
+  {
+    "id": "david-wyatt-tailandia",
+    "tipo": "livro",
+    "titulo": "Thailand: A Short History",
+    "autor": "David K. Wyatt",
+    "data": "2003",
+    "citacao": "História tailandesa dos reinos de Sukhothai e Ayutthaya à monarquia constitucional contemporânea, examinando como o Sião evitou a colonização europeia direta através de reformas modernizadoras e diplomacia hábil sob Mongkut e Chulalongkorn no século XIX."
+  },
+  {
+    "id": "christopher-goscha-vietna",
+    "tipo": "livro",
+    "titulo": "Vietnam: A New History",
+    "autor": "Christopher Goscha",
+    "data": "2016",
+    "citacao": "História vietnamita das primeiras dinastias independentes à reunificação socialista, tratando a resistência à dominação chinesa milenar e depois francesa como fio condutor central da formação do Estado vietnamita moderno."
+  },
+  {
+    "id": "max-hastings-guerra-vietna",
+    "tipo": "livro",
+    "titulo": "Vietnam: An Epic Tragedy, 1945-1975",
+    "autor": "Max Hastings",
+    "data": "2018",
+    "citacao": "História das guerras vietnamitas contra a França e os Estados Unidos, combinando testemunhos de combatentes de todos os lados do conflito com análise da estratégia militar e política que resultou na derrota americana e na reunificação comunista."
+  },
+  {
+    "id": "acordos-genebra-1954",
+    "tipo": "documento-oficial",
+    "titulo": "Acordos de Genebra sobre a Indochina",
+    "publicacao": "França, Vietminh e potências participantes da Conferência de Genebra",
+    "data": "1954-07-21",
+    "citacao": "Encerrou a Guerra da Indochina francesa, dividindo temporariamente o Vietnã no paralelo 17 até eleições de reunificação previstas para 1956 — eleições que jamais ocorreriam, consolidando a divisão que levaria à Guerra do Vietnã."
+  },
+  {
+    "id": "thant-myint-u-birmania",
+    "tipo": "livro",
+    "titulo": "The River of Lost Footsteps: Histories of Burma",
+    "autor": "Thant Myint-U",
+    "data": "2006",
+    "citacao": "História birmanesa do reino de Pagan ao regime militar contemporâneo, escrita por historiador birmanês com acesso privilegiado a arquivos, cobrindo as guerras anglo-birmanesas do século XIX e o isolamento imposto pela junta militar após 1962."
+  },
+  {
+    "id": "thant-myint-u-birmania-oculta",
+    "tipo": "livro",
+    "titulo": "The Hidden History of Burma: Race, Capitalism, and the Crisis of Democracy in the 21st Century",
+    "autor": "Thant Myint-U",
+    "data": "2019",
+    "citacao": "Análise da abertura democrática birmanesa de 2011-2020, da perseguição à minoria rohingya em 2016-2017 e do colapso da transição democrática, examinando por que a liberalização econômica e política não impediu o retrocesso autoritário."
+  },
+  {
+    "id": "david-chandler-camboja",
+    "tipo": "livro",
+    "titulo": "A History of Cambodia",
+    "autor": "David Chandler",
+    "data": "2007",
+    "citacao": "História cambojana de referência, do Império Khmer de Angkor ao pós-Khmer Vermelho, escrita por um dos principais historiadores do genocídio cambojano de 1975-1979."
+  },
+  {
+    "id": "acordos-paris-camboja-1991",
+    "tipo": "documento-oficial",
+    "titulo": "Acordos de Paz de Paris sobre o Camboja",
+    "publicacao": "Governo cambojano, facções em conflito e dezenove países, sob mediação da ONU",
+    "data": "1991-10-23",
+    "citacao": "Encerrou mais de uma década de guerra civil cambojana pós-Khmer Vermelho, estabelecendo a Autoridade Transitória das Nações Unidas no Camboja (UNTAC) para supervisionar cessar-fogo, desarmamento parcial e eleições realizadas em 1993."
+  },
+  {
+    "id": "tpi-camboja-caso002-2018",
+    "tipo": "decisao-judicial",
+    "titulo": "Caso 002/02 contra Nuon Chea e Khieu Samphan",
+    "publicacao": "Câmaras Extraordinárias nas Cortes do Camboja (ECCC)",
+    "data": "2018-11-16",
+    "citacao": "Condenou os dois mais altos líderes sobreviventes do Khmer Vermelho por genocídio contra as minorias cham muçulmana e vietnamita, além de crimes contra a humanidade — primeira condenação formal por genocídio na história cambojana, mais de quatro décadas depois dos fatos."
+  },
+  {
+    "id": "martin-stuart-fox-laos",
+    "tipo": "livro",
+    "titulo": "A History of Laos",
+    "autor": "Martin Stuart-Fox",
+    "data": "1997",
+    "citacao": "História laosiana do reino de Lan Xang à República Democrática Popular contemporânea, cobrindo a fragmentação em três reinos rivais, o protetorado francês e a guerra civil secreta financiada pelos Estados Unidos durante a Guerra do Vietnã."
   }
 ]

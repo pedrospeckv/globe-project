@@ -1,0 +1,83 @@
+{
+  "iso": "MMR",
+  "isoNumerico": "104",
+  "nome": "Mianmar",
+  "periodos": [
+    {
+      "id": "mmr-reino-pagan",
+      "inicio": "849",
+      "fim": "1297",
+      "rotulo": "Reino de Pagan",
+      "regime": "monarquia budista, primeiro Estado birmanês unificado",
+      "textoMdx": "O reino de Pagan, fundado por volta de 849 na planície central do rio Irauádi, atinge unificação plena da Birmânia sob o rei Anawrahta, a partir de 1044, que adota o budismo Theravada como religião de Estado — escolha que definiria a identidade religiosa birmanesa até hoje.\n\n**Os sucessores de Anawrahta constroem, ao longo de dois séculos, mais de dez mil templos e estupas na planície de Pagan, financiados pela riqueza agrícola do vale do Irauádi** — complexo monumental que sobrevive parcialmente até hoje como um dos maiores sítios arqueológicos religiosos do mundo, comparável em escala a Angkor.\n\n**A invasão mongol de Kublai Khan, em 1287, explora fraquezas internas já existentes no reino, precipitando colapso rápido da autoridade central** — Pagan se fragmentaria definitivamente em Estados sucessores rivais nas décadas seguintes, sem que nenhum recuperasse a hegemonia birmanesa por mais de dois séculos.",
+      "fontes": [
+        "thant-myint-u-birmania"
+      ]
+    },
+    {
+      "id": "mmr-fragmentacao-reinos-rivais",
+      "inicio": "1297",
+      "fim": "1531",
+      "rotulo": "Fragmentação entre reinos rivais",
+      "regime": "reinos regionais concorrentes, sem poder central unificado",
+      "textoMdx": "O colapso de Pagan divide o território birmanês entre reinos rivais: Ava, no norte, herdeiro mais direto da tradição política de Pagan; Hanthawaddy, no sul, de maioria populacional mon; e diversos principados xans nas terras altas do leste, cada um mantendo relativa autonomia.\n\n**Guerras recorrentes entre Ava e Hanthawaddy ao longo dos séculos XIV e XV consomem recursos consideráveis sem que nenhum dos dois reinos consiga subjugar definitivamente o outro** — período de fragmentação que apenas a ascensão de nova dinastia unificadora, a partir do pequeno principado de Toungoo, romperia no século XVI.",
+      "fontes": [
+        "thant-myint-u-birmania"
+      ]
+    },
+    {
+      "id": "mmr-dinastia-toungoo-konbaung",
+      "inicio": "1531",
+      "fim": "1885",
+      "rotulo": "Dinastias Toungoo e Konbaung",
+      "regime": "monarquias birmanesas reunificadas, em conflito recorrente com o Sião e, no final, com a Grã-Bretanha",
+      "textoMdx": "A dinastia Toungoo reunifica a Birmânia a partir de 1531, atingindo sob o rei Bayinnaung, entre 1550 e 1581, o que muitos historiadores consideram o maior império territorial já formado no Sudeste Asiático, incluindo domínio temporário sobre grande parte do próprio Sião.\n\n**A dinastia Konbaung, fundada por Alaungpaya em 1752 após período de fragmentação renovada, reunifica novamente o território e chega a saquear a capital siamesa Ayutthaya em 1767** — apogeu militar que se reverteria diante de ameaça bem mais duradoura: o avanço colonial britânico a partir da Índia vizinha.\n\n**Três Guerras Anglo-Birmanesas sucessivas, em 1824-1826, 1852 e 1885, reduzem progressivamente o território birmanês independente**, culminando na conquista total do reino remanescente e no exílio do último rei, Thibaw, para a Índia britânica — extinguindo a monarquia birmanesa nativa depois de mais de mil anos de tradição estatal ininterrupta com intervalos.",
+      "fontes": [
+        "thant-myint-u-birmania"
+      ]
+    },
+    {
+      "id": "mmr-birmania-britanica",
+      "inicio": "1885",
+      "fim": "1948",
+      "rotulo": "Birmânia sob domínio britânico",
+      "regime": "província do Império Britânico da Índia, depois colônia separada a partir de 1937",
+      "textoMdx": "A Birmânia é administrada inicialmente como província da Índia britânica, com imigração maciça de trabalhadores indianos que transformaria demograficamente Rangum e alimentaria ressentimento nacionalista birmanês crescente contra a presença econômica indiana, tanto quanto contra o próprio domínio colonial.\n\n**A ocupação japonesa, a partir de 1942, é inicialmente recebida com apoio de parte do movimento nacionalista birmanês, incluindo o Exército de Independência da Birmânia liderado por Aung San — aliança que se reverteria já em 1945, quando as forças birmanesas mudam de lado para apoiar o retorno aliado contra os japoneses.**\n\n**Aung San negocia a independência birmanesa com o governo britânico em 1947, mas é assassinado, junto com a maior parte de seu gabinete, meses antes da independência formal ser proclamada em janeiro de 1948** — perda que privaria a jovem nação de sua liderança mais unificadora justamente no momento de maior necessidade.",
+      "fontes": [
+        "thant-myint-u-birmania"
+      ]
+    },
+    {
+      "id": "mmr-independencia-democracia-golpe",
+      "inicio": "1948",
+      "fim": "1962",
+      "rotulo": "Independência e a breve democracia parlamentar",
+      "regime": "república parlamentar democrática, fragilizada por insurgências étnicas simultâneas",
+      "textoMdx": "O governo de U Nu enfrenta, quase desde o primeiro dia de independência, múltiplas insurgências armadas simultâneas — comunistas, nacionalistas karen, e outras minorias étnicas que reivindicam autonomia ou independência própria —, deixando vastas áreas do país fora do controle efetivo do governo central de Rangum.\n\n**A fragilidade política e a percepção militar de desintegração nacional iminente fornecem justificativa recorrente para intervenção do Exército, que assumiria brevemente o poder em 1958-1960 antes de devolvê-lo a U Nu, e definitivamente em março de 1962, através de golpe liderado pelo general Ne Win.**",
+      "fontes": [
+        "thant-myint-u-birmania"
+      ]
+    },
+    {
+      "id": "mmr-junta-militar-isolamento",
+      "inicio": "1962",
+      "fim": "2011",
+      "rotulo": "Junta militar e isolamento sob o 'Caminho Birmanês ao Socialismo'",
+      "regime": "regime militar de partido único, sob ideologia nacionalista-socialista isolacionista",
+      "textoMdx": "Ne Win impõe o \"Caminho Birmanês ao Socialismo\", combinação de nacionalização econômica extensa e isolamento internacional quase completo que empobreceria progressivamente um país outrora considerado um dos mais promissores da Ásia recém-independente.\n\n**O levante popular de 1988, provocado por crise econômica profunda, é reprimido com milhares de mortos, mas leva à emergência de Aung San Suu Kyi, filha de Aung San, como líder do movimento pró-democracia — a junta militar, reorganizada sob nova sigla, permite eleições em 1990 que a Liga Nacional para a Democracia de Suu Kyi vence esmagadoramente, mas se recusa a reconhecer o resultado.**\n\n**Suu Kyi permaneceria sob prisão domiciliar por quase quinze dos vinte anos seguintes, tornando-se símbolo internacional de resistência não violenta e recebendo o prêmio Nobel da Paz em 1991**, enquanto a junta renomeia o país de Birmânia para Mianmar em 1989 — mudança que a oposição democrática rejeitaria por décadas como ilegítima — e constrói nova capital administrativa isolada em Naypyidaw a partir de 2005.",
+      "fontes": [
+        "thant-myint-u-birmania"
+      ]
+    },
+    {
+      "id": "mmr-transicao-golpe-2021",
+      "inicio": "2011",
+      "rotulo": "Abertura democrática, governo de Aung San Suu Kyi e o golpe de 2021",
+      "regime": "abertura democrática parcial sob constituição que garante papel político permanente aos militares, revertida por golpe militar em 2021",
+      "textoMdx": "A abertura política iniciada em 2011 liberta Suu Kyi e permite eleições mais competitivas, culminando na vitória esmagadora da Liga Nacional para a Democracia em 2015 — Suu Kyi, constitucionalmente impedida de ser presidente por ter filhos estrangeiros, governa de facto como Conselheira de Estado.\n\n**A perseguição da minoria muçulmana rohingya, no estado de Rakhine, se intensifica dramaticamente em 2016-2017, quando operações militares provocam êxodo de mais de 700 mil pessoas para Bangladesh em meio a relatos generalizados de assassinatos, estupros e incêndios de aldeias** — episódio que organizações internacionais de direitos humanos e a própria Corte Internacional de Justiça classificariam como possível genocídio, e que a defesa pública de Suu Kyi aos militares na Corte de Haia, em 2019, destruiria irreparavelmente sua reputação internacional de ícone de direitos humanos.\n\n**O golpe militar de fevereiro de 2021, deflagrado horas antes da posse de novo parlamento eleito com vitória ainda maior da Liga Nacional para a Democracia, prende Suu Kyi e reinstaura domínio militar direto** — desencadeando resistência civil generalizada e o surgimento de numerosas milícias de resistência armada aliadas a organizações étnicas insurgentes já existentes, mergulhando o país em guerra civil multifacetada que permanece sem resolução.",
+      "fontes": [
+        "thant-myint-u-birmania-oculta"
+      ]
+    }
+  ]
+}

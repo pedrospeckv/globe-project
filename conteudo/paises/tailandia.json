@@ -1,0 +1,50 @@
+{
+  "iso": "THA",
+  "isoNumerico": "764",
+  "nome": "Tailândia",
+  "periodos": [
+    {
+      "id": "tha-sukhothai-ayutthaya",
+      "inicio": "1238",
+      "fim": "1767",
+      "rotulo": "Reinos de Sukhothai e Ayutthaya",
+      "regime": "monarquias tailandesas sucessivas, a segunda como potência comercial regional",
+      "textoMdx": "O reino de Sukhothai, fundado em 1238 quando chefes tailandeses locais expulsam a guarnição do Império Khmer, é tradicionalmente considerado o primeiro Estado tailandês — o rei Ramkhamhaeng é creditado pela criação da escrita tailandesa, adaptada de modelos khmer e mon, por volta de 1283.\n\n**Ayutthaya, fundada em 1351 ao sul, eclipsa rapidamente Sukhothai e se torna um dos maiores centros comerciais da Ásia, com relações diplomáticas e mercantis extensas com a Pérsia, o Japão, a China e, a partir do século XVI, as potências europeias** — a cidade chegaria a abrigar comunidades estrangeiras residentes numerosas, incluindo um aventureiro grego, Constantine Phaulkon, que se tornaria ministro poderoso na corte no século XVII.\n\n**A guerra birmanesa-siamesa de 1765-1767 termina com o saque quase total de Ayutthaya, capital de mais de quatro séculos, incendiada e com sua população dispersa ou escravizada** — um dos maiores traumas coletivos da história tailandesa, que o país levaria décadas para superar territorial e psicologicamente.",
+      "fontes": [
+        "david-wyatt-tailandia"
+      ]
+    },
+    {
+      "id": "tha-thonburi-rattanakosin-absoluta",
+      "inicio": "1767",
+      "fim": "1932",
+      "rotulo": "Reinos de Thonburi e Rattanakosin sob monarquia absoluta",
+      "regime": "monarquia absoluta, com reformas modernizadoras a partir de meados do século XIX",
+      "textoMdx": "O general Taksin reunifica o território siamês fragmentado após a destruição de Ayutthaya, estabelecendo nova capital em Thonburi — mas seria deposto e executado em 1782, abrindo caminho para o general Chakri assumir o trono como Rama I, fundando a dinastia que governa a Tailândia até hoje e transferindo a capital para a margem oposta do rio, em Bangkok.\n\n**Os reis Mongkut, Rama IV, e Chulalongkorn, Rama V, entre 1851 e 1910, conduzem modernização deliberada do Estado siamês — reforma administrativa, abolição gradual da escravidão, educação ocidentalizada — como estratégia consciente para evitar o destino colonial dos vizinhos**, cedendo territórios periféricos à Grã-Bretanha e à França em troca de preservar a independência do núcleo do reino, o único Estado do Sudeste Asiático a nunca ser formalmente colonizado por potência europeia.\n\n**A modernização militar e diplomática siamesa se prova decisiva durante a era do \"novo imperialismo\" europeu no Sudeste Asiático**, quando praticamente todos os vizinhos — Birmânia, Indochina francesa, Malásia, as Índias Orientais Holandesas — perdem soberania plena entre o final do século XIX e o início do XX.",
+      "fontes": [
+        "david-wyatt-tailandia"
+      ]
+    },
+    {
+      "id": "tha-fim-monarquia-absoluta-guerra",
+      "inicio": "1932",
+      "fim": "1973",
+      "rotulo": "Fim da monarquia absoluta e domínio militar",
+      "regime": "monarquia constitucional sob domínio militar quase contínuo",
+      "textoMdx": "A Revolução de 1932, golpe incruento liderado por oficiais militares e civis educados no exterior, encerra 150 anos de monarquia absoluta Chakri, instaurando monarquia constitucional que preservaria o rei como símbolo, mas transferiria poder efetivo aos militares.\n\n**O marechal Plaek Phibunsongkhram, no poder a partir de 1938, promove nacionalismo tailandês assertivo — inclusive a mudança do nome do país de Sião para Tailândia, em 1939 — e alinha o país ao Japão durante a Segunda Guerra Mundial**, declarando guerra aos Aliados em 1942 antes de reverter a posição estrategicamente ao final do conflito.\n\n**O regime militar de Sarit Thanarat, a partir de 1957, consolida aliança estreita com os Estados Unidos durante a Guerra Fria**, transformando a Tailândia em base logística crucial para operações americanas durante a Guerra do Vietnã, enquanto suprime duramente qualquer oposição política interna.",
+      "fontes": [
+        "david-wyatt-tailandia"
+      ]
+    },
+    {
+      "id": "tha-democracia-instavel-atual",
+      "inicio": "1973",
+      "rotulo": "Democracia instável sob tutela militar e monárquica",
+      "regime": "monarquia constitucional, alternando governos civis eleitos e regimes militares através de golpes recorrentes",
+      "textoMdx": "O levante estudantil de outubro de 1973 derruba o governo militar e inaugura período de abertura democrática de curta duração, interrompido por massacre de estudantes na Universidade Thammasat em 1976 e novo golpe militar — padrão de alternância entre democracia eleitoral e intervenção militar que se repetiria diversas vezes nas décadas seguintes.\n\n**O bilionário Thaksin Shinawatra, eleito primeiro-ministro em 2001 com base eleitoral rural inédita, é deposto por golpe militar em 2006, iniciando polarização política profunda entre suas bases populares — as \"camisas vermelhas\" — e a elite urbana e monárquica de Bangkok**, que se manteria como eixo central da política tailandesa pelas duas décadas seguintes.\n\n**O golpe militar de 2014, liderado pelo general Prayuth Chan-ocha, deposta a irmã de Thaksin, Yingluck Shinawatra, e instaura junta que permaneceria formalmente no poder por cinco anos** — a morte do rei Bhumibol Adulyadej, em 2016, após sete décadas de reinado, e a sucessão de seu filho Vajiralongkorn, abrem novo capítulo de incerteza sobre o papel da monarquia numa sociedade tailandesa cada vez mais dividida sobre a questão.",
+      "fontes": [
+        "david-wyatt-tailandia"
+      ]
+    }
+  ]
+}

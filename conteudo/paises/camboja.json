@@ -1,0 +1,85 @@
+{
+  "iso": "KHM",
+  "isoNumerico": "116",
+  "nome": "Camboja",
+  "periodos": [
+    {
+      "id": "khm-imperio-khmer",
+      "inicio": "802",
+      "fim": "1431",
+      "rotulo": "Império Khmer",
+      "regime": "monarquia hindu-budista centralizada, uma das maiores potências territoriais do sudeste asiático medieval",
+      "textoMdx": "Jayavarman II se autoproclama \"rei universal\" numa cerimônia ritual em 802, tradicionalmente considerada a fundação do Império Khmer, que se tornaria, nos séculos seguintes, a civilização dominante do sudeste asiático continental, com capital eventual na região de Angkor.\n\n**Suryavarman II constrói, no início do século XII, o templo de Angkor Wat, o maior monumento religioso do mundo — originalmente dedicado ao deus hindu Vishnu, seria posteriormente convertido a santuário budista, refletindo a transição religiosa gradual do próprio império.**\n\n**Jayavarman VII, no final do século XII, expande o império ao seu apogeu territorial e constrói extensa rede de hospitais, estradas e reservatórios de água, além do complexo murado de Angkor Thom e do templo Bayon, com suas centenas de faces monumentais esculpidas em pedra** — um dos maiores programas de construção pública da história pré-moderna mundial.\n\n**O declínio khmer, a partir do século XIV, combina pressão militar crescente do reino siamês de Ayutthaya com possível colapso do sofisticado sistema hidráulico que sustentava a agricultura da região** — o saque final de Angkor pelas forças siamesas, em 1431, força o abandono definitivo da capital e o deslocamento do centro político khmer para o sul, rumo à atual Phnom Penh.",
+      "fontes": [
+        "david-chandler-camboja"
+      ]
+    },
+    {
+      "id": "khm-periodo-sombrio-vassalagem",
+      "inicio": "1431",
+      "fim": "1863",
+      "rotulo": "Período de vassalagem entre o Sião e o Vietnã",
+      "regime": "reino enfraquecido, sob suserania alternada e disputada de vizinhos mais poderosos",
+      "textoMdx": "O Camboja pós-Angkor entra em longo período de declínio relativo que a historiografia cambojana chama informalmente de \"era sombria\" — capital transferida diversas vezes, território e influência reduzidos drasticamente diante da ascensão simultânea do Sião a oeste e do Vietnã em expansão territorial a leste.\n\n**Os reis cambojanos, ao longo dos séculos XVII e XVIII, alternam pedidos de proteção entre Bangkok e Huế conforme a ameaça imediata mais premente, numa política de sobrevivência através de vassalagem dupla e contraditória** — estratégia que preservaria alguma forma de monarquia cambojana nominal, mas às custas de perda territorial contínua para ambos os vizinhos poderosos.\n\n**No início do século XIX, o Camboja está à beira de desaparecer completamente como entidade política independente, dividido de facto em esferas de influência siamesa e vietnamita** — situação que apenas a intervenção da França, motivada por rivalidade colonial com essas mesmas potências regionais, reverteria décadas depois.",
+      "fontes": [
+        "david-chandler-camboja"
+      ]
+    },
+    {
+      "id": "khm-protetorado-frances",
+      "inicio": "1863",
+      "fim": "1953",
+      "rotulo": "Protetorado Francês",
+      "regime": "protetorado francês, sob monarquia cambojana nominal preservada",
+      "textoMdx": "O rei Norodom aceita proteção francesa em 1863, movido tanto pela ameaça de absorção completa por Sião e Vietnã quanto pela esperança de que a França preservaria alguma autonomia cambojana — a França viria, de fato, a negociar a devolução da região de Angkor, ainda sob controle siamês, ao Camboja em 1907.\n\n**A administração colonial francesa, integrada à União Indochinesa junto com o Vietnã e depois o Laos, é geralmente menos intrusiva no Camboja que na vizinha colônia vietnamita, preservando estrutura administrativa tradicional e a monarquia como fachada de legitimidade** — mas extrai recursos agrícolas através de impostos pesados sobre a população camponesa.\n\n**O movimento nacionalista cambojano se fortalece no período pós-Segunda Guerra Mundial, e o jovem rei Norodom Sihanouk lidera pessoalmente campanha diplomática internacional pela independência — a chamada \"Cruzada Real pela Independência\"**, obtida pacificamente em 1953, dois anos antes da derrota francesa definitiva na vizinha Indochina.",
+      "fontes": [
+        "david-chandler-camboja"
+      ]
+    },
+    {
+      "id": "khm-independencia-sihanouk",
+      "inicio": "1953",
+      "fim": "1970",
+      "rotulo": "Independência sob Sihanouk e o Sangkum",
+      "regime": "monarquia constitucional, depois sistema de partido único sob liderança pessoal de Sihanouk",
+      "textoMdx": "Sihanouk abdica do trono em 1955 para se tornar líder político direto, fundando o movimento Sangkum Reastr Niyum, que dominaria a política cambojana por quinze anos de relativa estabilidade e desenvolvimento, com Sihanouk cultivando política externa de neutralidade formal na Guerra Fria.\n\n**Essa neutralidade se tornaria cada vez mais fictícia à medida que a Guerra do Vietnã se intensifica: o Vietnã do Norte utiliza território cambojano de fronteira para reabastecer forças no sul do Vietnã através da Trilha Ho Chi Minh**, provocando bombardeio secreto americano maciço sobre território cambojano a partir de 1969, sem declaração formal de guerra nem aprovação do Congresso americano.\n\n**Um golpe liderado pelo general Lon Nol, em março de 1970, aproveitando ausência de Sihanouk em viagem ao exterior, depõe o príncipe e declara república pró-americana** — decisão que radicalizaria ainda mais o conflito, já que Sihanouk, exilado em Pequim, se aliaria por despeito ao movimento comunista Khmer Vermelho que combatia havia anos.",
+      "fontes": [
+        "david-chandler-camboja"
+      ]
+    },
+    {
+      "id": "khm-republica-khmer-khmer-vermelho",
+      "inicio": "1970",
+      "fim": "1979",
+      "rotulo": "República Khmer e o genocídio do Khmer Vermelho",
+      "regime": "república militar, depois regime totalitário maoista radical sob o Partido Comunista do Kampuchea",
+      "textoMdx": "A República Khmer de Lon Nol trava guerra civil crescentemente desesperada contra o Khmer Vermelho, enquanto o bombardeio americano continua a devastar o campo cambojano e desestabilizar a economia rural — condições que a historiografia aponta como fator direto na radicalização e no crescimento do movimento comunista.\n\n**O Khmer Vermelho toma Phnom Penh em abril de 1975 e, sob a liderança de Pol Pot, implementa em poucos dias um dos programas mais radicais e violentos da história: evacuação forçada de todas as cidades, abolição de dinheiro, mercados, propriedade privada, religião e até a estrutura familiar tradicional**, em nome de uma utopia agrária maoísta extremada conhecida como \"Kampuchea Democrática\".\n\n**O genocídio resultante, entre 1975 e 1979, mata entre um e meio e dois milhões de pessoas — cerca de um quarto da população total do país — através de execuções sumárias, trabalho forçado, fome deliberada e doença**, com perseguição sistemática adicional contra minorias étnicas cham muçulmana, vietnamita e chinesa, e contra qualquer pessoa associada a educação, religião ou ao antigo regime.\n\n**A invasão vietnamita, em dezembro de 1978, motivada por ataques transfronteiriços do próprio Khmer Vermelho, derruba o regime de Pol Pot em poucas semanas** — mas o Khmer Vermelho sobreviveria como força de guerrilha nas fronteiras por mais duas décadas, mantendo, de forma grotesca, reconhecimento diplomático internacional como governo legítimo do Camboja nas Nações Unidas durante boa parte da década de 1980, resultado direto da Guerra Fria e da oposição ocidental e chinesa à ocupação vietnamita.",
+      "fontes": [
+        "david-chandler-camboja"
+      ]
+    },
+    {
+      "id": "khm-republica-popular-kampuchea-transicao",
+      "inicio": "1979",
+      "fim": "1993",
+      "rotulo": "República Popular do Kampuchea e a transição da ONU",
+      "regime": "governo instalado pela ocupação vietnamita, depois transição sob administração transitória da ONU",
+      "textoMdx": "O governo instalado por Hanói, sob Heng Samrin e depois Hun Sen, reconstrói instituições básicas devastadas pelo Khmer Vermelho, mas enfrenta guerra civil persistente contra coalizão de resistência que inclui, de forma incômoda, tanto o próprio Khmer Vermelho remanescente quanto forças monarquistas e republicanas apoiadas pelo Ocidente e pela China.\n\n**A retirada das tropas vietnamitas, em 1989, e o fim da Guerra Fria abrem caminho para os Acordos de Paz de Paris de 1991, que estabelecem a Autoridade Transitória das Nações Unidas no Camboja — uma das maiores e mais ambiciosas operações de peacekeeping da história da ONU até então.**\n\n**As eleições supervisionadas pela ONU, em 1993, restauram monarquia constitucional sob Sihanouk, embora Hun Sen, derrotado nas urnas, force acordo de copremiê que preservaria seu poder efetivo** — arranjo instável que ele consolidaria definitivamente a seu favor através de golpe contra o correinante em 1997.",
+      "fontes": [
+        "david-chandler-camboja",
+        "acordos-paris-camboja-1991"
+      ]
+    },
+    {
+      "id": "khm-monarquia-constitucional-hun-sen",
+      "inicio": "1993",
+      "rotulo": "Monarquia constitucional sob o domínio de Hun Sen",
+      "regime": "monarquia constitucional, com poder político efetivo concentrado sob domínio de partido único de facto",
+      "textoMdx": "Hun Sen, primeiro-ministro desde 1985 e consolidado no poder após o golpe de 1997 contra seu correinante, governaria o Camboja por quase quatro décadas ininterruptas, combinando crescimento econômico real com repressão sistemática de oposição política, imprensa independente e sociedade civil.\n\n**As Câmaras Extraordinárias nas Cortes do Camboja, tribunal híbrido cambojano-internacional estabelecido com apoio da ONU, condenam finalmente os líderes sobreviventes do Khmer Vermelho por genocídio em 2018 — mais de quatro décadas depois dos crimes, e depois da morte do próprio Pol Pot, em 1998, sem jamais responder por seus atos perante a justiça.**\n\n**Hun Sen transfere formalmente o poder a seu filho Hun Manet em 2023, mantendo influência substancial nos bastidores** — sucessão dinástica que consolida o Camboja como um dos regimes de partido dominante mais duradouros e menos disputados do sudeste asiático contemporâneo.",
+      "fontes": [
+        "david-chandler-camboja",
+        "tpi-camboja-caso002-2018"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "iso": "LAO",
+  "isoNumerico": "418",
+  "nome": "Laos",
+  "periodos": [
+    {
+      "id": "lao-reino-lan-xang",
+      "inicio": "1353",
+      "fim": "1707",
+      "rotulo": "Reino de Lan Xang",
+      "regime": "monarquia budista unificada",
+      "textoMdx": "Fa Ngum, príncipe laosiano criado na corte khmer de Angkor, funda em 1353 o reino de Lan Xang — \"Terra do Milhão de Elefantes\" —, unificando pela primeira vez os principados laosianos dispersos ao longo do rio Mekong sob autoridade única, com apoio militar e religioso khmer.\n\n**O reino atinge estabilidade e prosperidade comercial considerável ao longo dos séculos XVI e XVII, situado em posição estratégica de comércio entre a China, o Vietnã e o Sião**, com a capital estabelecida sucessivamente em Luang Prabang e depois Vientiane.\n\n**Disputas sucessórias internas ao longo do início do século XVIII fragmentam definitivamente o reino em três entidades rivais — Luang Prabang, Vientiane e Champasak —, que jamais se reunificariam sob autoridade laosiana própria**, tornando-se presas fáceis da crescente influência siamesa na região nas décadas seguintes.",
+      "fontes": [
+        "martin-stuart-fox-laos"
+      ]
+    },
+    {
+      "id": "lao-reinos-fragmentados-vassalagem-siamesa",
+      "inicio": "1707",
+      "fim": "1893",
+      "rotulo": "Reinos fragmentados sob vassalagem siamesa",
+      "regime": "três reinos rivais, progressivamente subordinados como vassalos do Sião",
+      "textoMdx": "Os três reinos laosianos fragmentados — Luang Prabang, Vientiane e Champasak — pagam tributo crescente ao Sião ao longo do século XVIII, perdendo autonomia efetiva mesmo preservando dinastias e cortes locais nominalmente independentes.\n\n**A revolta do rei Anouvong de Vientiane, em 1826-1828, tentativa desesperada de reafirmar independência laosiana contra a dominação siamesa, termina em desastre militar completo: as forças siamesas destroem Vientiane quase por completo e deportam grande parte de sua população para o território siamês** — trauma fundacional que a memória nacional laosiana recordaria por gerações como o ponto mais baixo da soberania nacional.\n\n**A pressão francesa a partir da vizinha Indochina vietnamita, culminando na crise franco-siamesa de 1893, força o Sião a ceder o território laosiano à esfera de influência francesa** — episódio de \"diplomacia das canhoneiras\" que salvaria, paradoxalmente, a existência territorial de um Laos distinto, ainda que sob nova forma de domínio colonial estrangeiro.",
+      "fontes": [
+        "martin-stuart-fox-laos"
+      ]
+    },
+    {
+      "id": "lao-protetorado-frances",
+      "inicio": "1893",
+      "fim": "1953",
+      "rotulo": "Protetorado Francês",
+      "regime": "protetorado francês, integrado à União Indochinesa",
+      "textoMdx": "A administração francesa trata o Laos como território de importância secundária dentro da União Indochinesa, priorizando investimento e desenvolvimento administrativo no Vietnã, mais populoso e economicamente relevante — abandono relativo que deixaria o Laos, ao final do período colonial, como o território menos desenvolvido de toda a Indochina francesa.\n\n**Uma breve declaração de independência sob patrocínio japonês, em 1945, ao final da Segunda Guerra Mundial, é revertida pelo retorno francês nos meses seguintes**, embora tenha estabelecido precedente e organização política que os movimentos nacionalistas laosianos utilizariam nas negociações de independência da década seguinte.\n\n**A independência plena, obtida gradualmente entre 1949 e 1953 através de negociação mais que confronto armado direto, contrasta com a experiência vietnamita simultânea**, embora o jovem Estado laosiano herdasse, quase imediatamente, as tensões da Guerra Fria que se intensificavam na vizinhança regional.",
+      "fontes": [
+        "martin-stuart-fox-laos"
+      ]
+    },
+    {
+      "id": "lao-guerra-civil-secreta",
+      "inicio": "1953",
+      "fim": "1975",
+      "rotulo": "Independência e a Guerra Civil Secreta",
+      "regime": "monarquia constitucional em guerra civil, com território extensamente bombardeado por potência estrangeira sem declaração formal de guerra",
+      "textoMdx": "A independência laosiana mergulha rapidamente em guerra civil entre o governo real de Vientiane, apoiado pelos Estados Unidos, e o movimento comunista Pathet Lao, apoiado pelo Vietnã do Norte — conflito que se tornaria inseparável da Guerra do Vietnã, dada a importância estratégica do território laosiano para a Trilha Ho Chi Minh norte-vietnamita.\n\n**A CIA conduz, entre 1964 e 1973, campanha de bombardeio secreto sobre o Laos sem aprovação do Congresso americano nem conhecimento público amplo — mais de duas milhões de toneladas de bombas lançadas, tornando o Laos, per capita, o país mais bombardeado da história militar mundial**, com dezenas de milhares de mortes civis e um legado de munições não detonadas que continuaria matando e mutilando pessoas décadas depois do fim do conflito.\n\n**A vitória comunista no Vietnã e no Camboja, em 1975, precipita colapso final da monarquia laosiana: o Pathet Lao assume controle total do país em dezembro daquele ano, abolindo a monarquia e proclamando a República Democrática Popular do Laos** — o rei Savang Vatthana e sua família seriam enviados a campo de reeducação, onde morreriam em circunstâncias nunca oficialmente esclarecidas.",
+      "fontes": [
+        "martin-stuart-fox-laos"
+      ]
+    },
+    {
+      "id": "lao-republica-popular-atual",
+      "inicio": "1975",
+      "rotulo": "República Democrática Popular do Laos",
+      "regime": "república socialista de partido único",
+      "textoMdx": "O novo regime comunista impõe coletivização agrícola e nacionalização extensa nos primeiros anos, provocando êxodo de parte significativa da elite educada e comercial do país — incluindo grande parte da minoria étnica hmong, que havia lutado ao lado dos americanos durante a guerra civil e enfrentaria retaliação e perseguição prolongada do novo governo.\n\n**Reformas econômicas de mercado, inspiradas no modelo vietnamita do Đổi Mới, são introduzidas gradualmente a partir de 1986 sob o nome de \"Novo Mecanismo Econômico\"**, permitindo crescimento econômico real nas décadas seguintes sem qualquer abertura política correspondente ao sistema de partido único.\n\n**O Laos se torna, no século XXI, cada vez mais dependente de investimento chinês em infraestrutura — incluindo ferrovia de alta velocidade inaugurada em 2021 conectando o país à China — e de projetos hidrelétricos no rio Mekong que geram tensão ambiental e diplomática crescente com os países a jusante, Camboja e Vietnã.**",
+      "fontes": [
+        "martin-stuart-fox-laos"
+      ]
+    }
+  ]
+}
