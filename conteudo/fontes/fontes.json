@@ -3207,5 +3207,93 @@
     "autor": "Jean-Marie Kreins",
     "data": "1996",
     "citacao": "História luxemburguesa do condado medieval à condição de centro financeiro e sede de instituições europeias. Trata a Crise Luxemburguesa de 1867 como o momento em que as grandes potências garantem a neutralidade permanente do pequeno Estado para evitar guerra franco-prussiana antecipada por sua causa."
+  },
+  {
+    "id": "misha-glenny-balcas",
+    "tipo": "livro",
+    "titulo": "The Balkans: Nationalism, War, and the Great Powers, 1804-2012",
+    "autor": "Misha Glenny",
+    "data": "2012",
+    "citacao": "História abrangente dos Bálcãs modernos, da primeira insurreição sérvia às guerras iugoslavas e seu rescaldo. Trata o envolvimento recorrente das grandes potências europeias na região como fator tão determinante para os conflitos balcânicos quanto as próprias rivalidades locais entre nacionalismos concorrentes."
+  },
+  {
+    "id": "tim-judah-servios",
+    "tipo": "livro",
+    "titulo": "The Serbs: History, Myth and the Destruction of Yugoslavia",
+    "autor": "Tim Judah",
+    "data": "1997",
+    "citacao": "História sérvia da Idade Média à desintegração iugoslava dos anos 1990, com atenção especial ao papel do mito nacional da batalha de Kosovo de 1389 na mobilização política sérvia contemporânea sob Milošević."
+  },
+  {
+    "id": "tratado-berlim-1878",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Berlim",
+    "publicacao": "Congresso de Berlim, potências europeias",
+    "data": "1878-07-13",
+    "citacao": "Reconheceu a independência plena de Sérvia, Montenegro e Romênia, redesenhou as fronteiras balcânicas após a guerra russo-otomana e autorizou a ocupação austro-húngara da Bósnia-Herzegovina, mantendo nominalmente a soberania otomana sobre o território."
+  },
+  {
+    "id": "dejan-djokic-iugoslavia",
+    "tipo": "livro",
+    "titulo": "Elusive Compromise: A History of Interwar Yugoslavia",
+    "autor": "Dejan Djokić",
+    "data": "2007",
+    "citacao": "Reavaliação da Iugoslávia entre guerras, contestando a narrativa de fracasso inevitável do Estado multinacional e examinando as negociações e compromissos, malsucedidos ou não, entre as elites políticas sérvia e croata do período."
+  },
+  {
+    "id": "marcus-tanner-croacia",
+    "tipo": "livro",
+    "titulo": "Croatia: A Nation Forged in War",
+    "autor": "Marcus Tanner",
+    "data": "1997",
+    "citacao": "História croata do reino medieval à independência dos anos 1990, escrita por jornalista que cobriu a guerra de independência. Situa o conflito de 1991-1995 dentro de um padrão histórico mais longo de subordinação croata a poderes vizinhos maiores."
+  },
+  {
+    "id": "noel-malcolm-bosnia",
+    "tipo": "livro",
+    "titulo": "Bosnia: A Short History",
+    "autor": "Noel Malcolm",
+    "data": "1994",
+    "citacao": "História da Bósnia desde o banato medieval até a guerra de 1992-1995, contestando explicitamente a tese de ódios étnicos ancestrais como explicação do conflito e enfatizando fatores políticos e externos específicos do século XX."
+  },
+  {
+    "id": "acordo-dayton-1995",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo-Quadro Geral para a Paz na Bósnia e Herzegovina (Acordo de Dayton)",
+    "publicacao": "Governos da Bósnia-Herzegovina, Croácia e República Federal da Iugoslávia, com mediação dos Estados Unidos",
+    "data": "1995-12-14",
+    "citacao": "Encerrou a guerra da Bósnia, dividindo o país em duas entidades semiautônomas — a Federação da Bósnia e Herzegovina e a Republika Srpska — sob governo central fraco e supervisão de um Alto Representante internacional, arranjo institucional que permanece em vigor décadas depois."
+  },
+  {
+    "id": "tribunal-haia-krstic-2004",
+    "tipo": "decisao-judicial",
+    "titulo": "Prosecutor v. Radislav Krstić, Julgamento da Câmara de Recursos",
+    "publicacao": "Tribunal Penal Internacional para a antiga Iugoslávia (ICTY)",
+    "data": "2004-04-19",
+    "citacao": "Confirmou em recurso que o massacre de Srebrenica, de julho de 1995, constituiu genocídio nos termos do direito internacional — o único crime assim classificado juridicamente em solo europeu desde a Segunda Guerra Mundial, embora tenha revisto a responsabilidade individual de Krstić de autor para cúmplice do crime."
+  },
+  {
+    "id": "elizabeth-roberts-montenegro",
+    "tipo": "livro",
+    "titulo": "Realm of the Black Mountain: A History of Montenegro",
+    "autor": "Elizabeth Roberts",
+    "data": "2007",
+    "citacao": "História de referência de Montenegro, do principado medieval de Duklja à independência de 2006, com atenção especial ao incomum principado-bispado teocrático dos Petrović-Njegoš e à disputa histórica sobre identidade sérvia ou montenegrina distinta."
+  },
+  {
+    "id": "andrew-rossos-macedonia",
+    "tipo": "livro",
+    "titulo": "Macedonia and the Macedonians: A History",
+    "autor": "Andrew Rossos",
+    "data": "2008",
+    "citacao": "História da região macedônia e da identidade nacional macedônia moderna, da partilha otomana às disputas contemporâneas de nome e identidade com Grécia e Bulgária, tratando a formação da identidade nacional macedônia como processo do século XX, não continuidade antiga."
+  },
+  {
+    "id": "leopoldina-plut-pregelj-eslovenia",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of Slovenia",
+    "autor": "Leopoldina Plut-Pregelj e Carole Rogel",
+    "data": "1996",
+    "citacao": "Obra de referência sobre a história eslovena, do ducado eslavo da Carantânia à independência de 1991, cobrindo o longo período de mais de um milênio em que os territórios de fala eslovena permaneceram fragmentados sem estatalidade própria."
   }
 ]

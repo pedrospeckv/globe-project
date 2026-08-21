@@ -1,0 +1,93 @@
+{
+  "iso": "SRB",
+  "isoNumerico": "688",
+  "nome": "Sérvia",
+  "periodos": [
+    {
+      "id": "srb-reino-imperio-medieval",
+      "inicio": "1217",
+      "fim": "1459",
+      "rotulo": "Reino e Império Sérvio medieval",
+      "regime": "monarquia medieval, com apogeu imperial sob a dinastia Nemanjić",
+      "textoMdx": "A coroação de Stefan Nemanjić como rei da Sérvia em 1217, com bênção papal, consolida um Estado sérvio já erguido por seu pai, Stefan Nemanja, ao longo de décadas de expansão territorial e consolidação eclesiástica em torno da Igreja Ortodoxa Sérvia, fundada pelo irmão do rei, São Sava, em 1219.\n\n**O reinado de Stefan Dušan, entre 1331 e 1355, leva o reino sérvio ao apogeu territorial.** Coroado imperador dos sérvios e dos gregos em 1346, Dušan expande o território para incluir grande parte da Macedônia, Épiro, Tessália e Albânia atuais, promulgando um código legal — o Zakonik de Dušan — que organiza administração, justiça e relações entre nobreza e camponesado no império recém-formado.\n\n**A morte de Dušan, em 1355, sem sucessor capaz de manter a unidade, inicia fragmentação rápida do império em principados rivais.** A batalha de Kosovo, em 1389, entre forças sérvias lideradas pelo príncipe Lazar e o exército otomano de Murad I, torna-se o evento fundador da memória nacional sérvia — ambos os líderes morrem no combate, e embora o resultado militar imediato seja disputado pelos historiadores, a batalha marca o início do avanço otomano decisivo sobre o território sérvio.\n\n**O Despotado Sérvio sobrevive como vassalo otomano por sete décadas após Kosovo, até a queda de sua capital, Smederevo, em 1459.** A conquista otomana completa extingue a última forma de Estado sérvio independente por mais de trezentos anos, período que a tradição sérvia posterior recordaria como o início do \"jugo turco\".",
+      "fontes": [
+        "tim-judah-servios",
+        "misha-glenny-balcas"
+      ]
+    },
+    {
+      "id": "srb-dominio-otomano",
+      "inicio": "1459",
+      "fim": "1815",
+      "rotulo": "Domínio Otomano",
+      "regime": "província do Império Otomano, com autonomias locais variáveis",
+      "textoMdx": "Sob domínio otomano, a Sérvia é organizada em sanjaks administrados a partir de Istambul, com a população cristã sujeita ao sistema de millet — autonomia religiosa e civil limitada sob a Igreja Ortodoxa — e ao imposto devshirme, recrutamento forçado de meninos cristãos para o corpo de janízaros, prática que perdura até o século XVII.\n\n**A migração sérvia para o norte, para territórios sob domínio dos Habsburgo, ocorre em ondas ao longo dos séculos XVII e XVIII**, fugindo de represálias otomanas após guerras austro-turcas malsucedidas; a Grande Migração de 1690, liderada pelo patriarca sérvio Arsenije III, estabelece comunidades sérvias significativas na Voivodina e na Fronteira Militar Habsburga, que se tornariam bases futuras do nacionalismo sérvio moderno.\n\n**A Primeira Insurreição Sérvia, iniciada em 1804 sob liderança de Đorđe Petrović, conhecido como Karađorđe, rompe séculos de domínio direto otomano.** Deflagrada inicialmente como revolta contra abusos locais de janízaros renegados, mais que contra o sultão propriamente, a insurreição evolui para movimento de independência nacional, conquistando controle de Belgrado antes de ser esmagada por forças otomanas em 1813.\n\n**A Segunda Insurreição Sérvia, liderada por Miloš Obrenović em 1815, obtém autonomia negociada em vez de vitória militar completa** — reconhecendo a impossibilidade de derrota total do exército otomano, Obrenović negocia diretamente com autoridades otomanas locais um regime de autonomia crescente, estratégia pragmática que fundaria a rivalidade dinástica entre as casas Karađorđević e Obrenović que marcaria a política sérvia pelo século seguinte.",
+      "fontes": [
+        "tim-judah-servios",
+        "misha-glenny-balcas"
+      ]
+    },
+    {
+      "id": "srb-principado-reino",
+      "inicio": "1815",
+      "fim": "1918",
+      "rotulo": "Principado autônomo e Reino independente",
+      "regime": "principado vassalo, depois monarquia constitucional plenamente soberana a partir de 1878",
+      "textoMdx": "A autonomia negociada em 1815 se consolida gradualmente: os hatt-i-sharifs otomanos de 1830 e 1833 reconhecem a Sérvia como principado autônomo hereditário sob a Casa de Obrenović, com guarnições turcas retiradas das cidades sérvias apenas em 1867, após décadas de pressão diplomática e uma crise que quase leva a novo confronto armado.\n\n**O Congresso de Berlim, em 1878, reconhece a independência plena da Sérvia**, junto com Romênia e Montenegro, encerrando definitivamente a suserania otomana nominal que ainda persistia; o príncipe Milan Obrenović se proclama rei em 1882, elevando o principado a reino.\n\n**As Guerras Balcânicas de 1912-1913 quase dobram o território sérvio**, expulsando o domínio otomano quase por completo dos Bálcãs na primeira guerra e depois derrotando a Bulgária na segunda disputa pela partilha dos despojos — vitórias que alimentam ambições sérvias de liderança entre os eslavos do sul e tensões crescentes com a vizinha Áustria-Hungria sobre a Bósnia, anexada por Viena em 1908.\n\n**O assassinato do arquiduque Francisco Ferdinando em Sarajevo, em junho de 1914, por um nacionalista bósnio-sérvio ligado a rede de oficiais sérvios, precipita ultimato austríaco e a Primeira Guerra Mundial.** A Sérvia resiste à invasão inicial mas é ocupada por completo em 1915, forçando o exército e o governo a uma retirada catastrófica através das montanhas albanesas rumo ao exílio — episódio que a memória nacional sérvia guarda como sacrifício fundador, antes da vitória aliada de 1918 permitir a formação do novo Reino dos Sérvios, Croatas e Eslovenos sob a coroa sérvia.",
+      "fontes": [
+        "tim-judah-servios",
+        "misha-glenny-balcas",
+        "tratado-berlim-1878"
+      ]
+    },
+    {
+      "id": "srb-reino-iugoslavia-guerra",
+      "inicio": "1918",
+      "fim": "1945",
+      "rotulo": "Reino da Iugoslávia e ocupação na Segunda Guerra",
+      "regime": "monarquia constitucional centralizada sob a dinastia Karađorđević, depois ditadura real a partir de 1929, depois ocupação",
+      "textoMdx": "O Reino dos Sérvios, Croatas e Eslovenos, proclamado em dezembro de 1918 sob o rei sérvio Alexandre I Karađorđević, une território que nunca compartilhara Estado comum — a tensão entre a visão centralizadora sérvia e as aspirações federalistas croatas domina a política interna desde o início.\n\n**O assassinato do líder croata Stjepan Radić no parlamento, em 1928, leva o rei Alexandre a suspender a constituição e instaurar ditadura pessoal em 1929**, renomeando o país Iugoslávia — \"terra dos eslavos do sul\" — na tentativa de apagar identidades nacionais concorrentes sob identidade iugoslava unificada, projeto que fracassa em conter o ressentimento croata.\n\n**A invasão do Eixo, em abril de 1941, desmembra a Iugoslávia em semanas**, com território sérvio ocupado diretamente pela Alemanha sob governo colaboracionista de Milan Nedić, enquanto a Croácia se torna Estado fantoche independente sob os ustaše — organização fascista responsável por campanha de extermínio contra sérvios, judeus e ciganos no território croata, incluindo o campo de concentração de Jasenovac.\n\n**A resistência sérvia se divide entre monarquistas chetniks e partisans comunistas de Tito, que travam guerra civil paralela à luta contra a ocupação.** Os partisans, com apoio aliado crescente a partir de 1943 devido a maior eficácia militar, emergem vitoriosos em 1945, controlando território sérvio e toda a futura Iugoslávia — vitória que também consolida memória sérvia de vitimização dupla, pela ocupação e pelo genocídio ustaše contra a população sérvia da Croácia e Bósnia vizinhas.",
+      "fontes": [
+        "tim-judah-servios",
+        "dejan-djokic-iugoslavia",
+        "marcus-tanner-croacia"
+      ]
+    },
+    {
+      "id": "srb-iugoslavia-socialista",
+      "inicio": "1945",
+      "fim": "1992",
+      "rotulo": "República socialista dentro da Iugoslávia de Tito",
+      "regime": "república socialista federativa, um partido",
+      "textoMdx": "A Sérvia se torna a maior das seis repúblicas da Iugoslávia socialista de Tito, incluindo dentro de suas fronteiras as províncias autônomas de Kosovo, de maioria albanesa, e da Voivodina, multiétnica — arranjo constitucional que concentraria tensão crescente ao longo das décadas seguintes.\n\n**A ruptura de Tito com Stalin, em 1948, situa a Iugoslávia fora do bloco soviético**, permitindo relativa abertura econômica e o desenvolvimento de um sistema próprio de autogestão operária nas fábricas, além de papel de liderança iugoslava no Movimento dos Países Não Alinhados a partir de 1961 — posicionamento que renderia à Sérvia, como núcleo federal, prestígio internacional desproporcional ao seu tamanho.\n\n**A constituição de 1974 amplia a autonomia de Kosovo e da Voivodina a ponto de quase equipará-las às repúblicas plenas**, decisão que a maioria sérvia passaria a ressentir como diminuição de sua própria soberania sobre território que considera berço histórico da nação, alimentando ressentimento que Slobodan Milošević exploraria politicamente após a morte de Tito, em 1980.\n\n**A ascensão de Milošević à liderança sérvia, culminando no discurso de Gazimestan em 1989, no sexto centenário da batalha de Kosovo, mistura nacionalismo histórico com política de poder centralizadora.** A revogação da autonomia de Kosovo em 1989, seguida da eclosão das guerras de secessão iugoslavas a partir de 1991 — Eslovênia, Croácia, depois Bósnia —, deixa a Sérvia como núcleo de um Estado iugoslavo que se desintegra sob acusações internacionais de agressão e limpeza étnica.",
+      "fontes": [
+        "tim-judah-servios",
+        "dejan-djokic-iugoslavia",
+        "misha-glenny-balcas"
+      ]
+    },
+    {
+      "id": "srb-serbia-montenegro",
+      "inicio": "1992",
+      "fim": "2006",
+      "rotulo": "República Federal e depois União de Sérvia e Montenegro",
+      "regime": "república federal, sob sanções internacionais e depois guerra com a OTAN em 1999",
+      "textoMdx": "A proclamação da República Federal da Iugoslávia, em abril de 1992, une apenas Sérvia e Montenegro entre as antigas repúblicas iugoslavas, sob liderança de facto de Milošević, enquanto o país enfrenta sanções internacionais pesadas pelo apoio às forças sérvias na guerra da Bósnia, vizinha.\n\n**A guerra do Kosovo, entre 1998 e 1999, opõe forças sérvias a guerrilha albanesa separatista e termina em bombardeio da OTAN sobre a Sérvia**, incluindo Belgrado, sem autorização do Conselho de Segurança da ONU — episódio controverso que expulsa a administração sérvia de Kosovo e coloca o território sob administração da ONU, embora permanecesse formalmente parte da Sérvia.\n\n**A queda de Milošević, em outubro de 2000, após protestos populares que se seguem a fraude eleitoral evidente, encerra a era das guerras iugoslavas para a Sérvia.** Extraditado ao Tribunal Penal Internacional para a antiga Iugoslávia em Haia no ano seguinte, Milošević morreria na prisão em 2006, antes da conclusão de seu julgamento por genocídio e crimes de guerra.\n\n**A União de Sérvia e Montenegro, formada em 2003 sob pressão da União Europeia como alternativa mais frouxa à antiga federação, dura apenas três anos.** O referendo de independência montenegrino de maio de 2006, aprovado por margem estreita acima do limiar de 55% exigido pela própria União Europeia, dissolve pacificamente a última união política entre os dois países, deixando a Sérvia, pela primeira vez em quase um século, como Estado unitário sem parceiros federativos.",
+      "fontes": [
+        "tim-judah-servios",
+        "misha-glenny-balcas"
+      ]
+    },
+    {
+      "id": "srb-republica-independente",
+      "inicio": "2006",
+      "rotulo": "República da Sérvia independente",
+      "regime": "república parlamentar",
+      "textoMdx": "A independência sérvia de 2006 encontra o país isolado internacionalmente pelo legado das guerras dos anos 1990 e ainda sem resolver o status de Kosovo, que declara independência unilateral em fevereiro de 2008 — declaração que a Sérvia rejeita até hoje, com apoio de Rússia e China no Conselho de Segurança da ONU, embora mais de cem países a reconheçam.\n\n**A captura dos últimos fugitivos sérvios indiciados por Haia, Ratko Mladić em 2011 e Radovan Karadžić já preso desde 2008, remove obstáculo central à aproximação europeia da Sérvia.** Ambos seriam condenados por genocídio, entre outras acusações, pelo massacre de Srebrenica de 1995 — o pior crime em solo europeu desde a Segunda Guerra Mundial, cometido por forças sérvio-bósnias mas que projeta sombra sobre a responsabilidade sérvia mais ampla, dado o apoio de Belgrado documentado ao longo do conflito bósnio.\n\n**A Sérvia obtém status de país candidato à União Europeia em 2012, mas as negociações avançam lentamente**, condicionadas em parte à normalização de relações com Kosovo — processo mediado pela União Europeia desde 2011, que produziu acordos parciais sem resolver a disputa central sobre soberania.\n\n**A política externa sérvia do século XXI busca equilíbrio entre aproximação europeia e laços históricos com a Rússia**, parceiro que veta reconhecimento internacional de Kosovo no Conselho de Segurança e mantém vínculos energéticos e culturais estreitos com Belgrado — postura de \"assentar-se em duas cadeiras\" que gera tensão crescente com Bruxelas à medida que a guerra russa na Ucrânia, a partir de 2022, polariza o continente.",
+      "fontes": [
+        "tim-judah-servios",
+        "misha-glenny-balcas"
+      ]
+    }
+  ]
+}

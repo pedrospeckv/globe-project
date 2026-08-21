@@ -1,0 +1,41 @@
+{
+  "iso": "MKD",
+  "isoNumerico": "807",
+  "nome": "Macedônia do Norte",
+  "periodos": [
+    {
+      "id": "mkd-macedonia-iugoslava",
+      "inicio": "1944",
+      "fim": "1991",
+      "rotulo": "República socialista da Macedônia dentro da Iugoslávia",
+      "regime": "república socialista federativa, um partido",
+      "textoMdx": "O território da atual Macedônia do Norte, parte da região geográfica mais ampla da Macedônia otomana até as Guerras Balcânicas de 1912-1913, é anexado à Sérvia após a partilha da região entre Sérvia, Grécia e Bulgária — sem constituir, ao longo de séculos de domínio bizantino, búlgaro medieval e otomano sucessivos, unidade política própria distinta reconhecida como Estado independente.\n\n**A Assembleia Antifascista de Libertação Nacional da Macedônia, reunida em novembro de 1944 sob liderança dos partisans comunistas de Tito, proclama pela primeira vez uma república macedônia como entidade política reconhecida** — decisão que codifica formalmente uma língua macedônia distinta do sérvio e do búlgaro, e que a Bulgária vizinha contestaria historicamente, considerando os macedônios eslavos etnicamente búlgaros, disputa identitária que persiste até hoje sem consenso acadêmico definitivo.\n\n**A ocupação búlgara do território durante a Segunda Guerra Mundial, entre 1941 e 1944, inicialmente recebida com certo apoio popular por evocar união com a Bulgária, se transforma em repressão crescente que alimenta a resistência partisan** — experiência que reforça, paradoxalmente, a identidade macedônia distinta que o regime búlgaro tentava apagar.\n\n**Como a menos desenvolvida economicamente das repúblicas iugoslavas, a Macedônia recebe investimento federal proporcionalmente maior ao longo do período socialista**, sem, contudo, alcançar o nível de desenvolvimento das repúblicas do norte — desigualdade que persistiria como fator estrutural após a independência.",
+      "fontes": [
+        "andrew-rossos-macedonia",
+        "misha-glenny-balcas"
+      ]
+    },
+    {
+      "id": "mkd-independencia-fyrom",
+      "inicio": "1991",
+      "fim": "2019",
+      "rotulo": "Independência sob disputa de nome com a Grécia",
+      "regime": "república parlamentar",
+      "textoMdx": "A independência macedônia, declarada em setembro de 1991 e obtida sem guerra — caso único entre as repúblicas iugoslavas que se separaram naquele período —, enfrenta obstáculo imediato e duradouro: a Grécia se opõe ao reconhecimento internacional do novo país sob o nome \"Macedônia\", alegando que o nome e símbolos associados pertencem exclusivamente à herança grega da região histórica homônima.\n\n**A disputa leva à admissão do país na ONU, em 1993, sob a designação provisória de \"Ex-República Iugoslava da Macedônia\" (FYROM), usada oficialmente por décadas em organismos internacionais** — arranjo insatisfatório para ambos os lados, que a Grécia reforça com embargo econômico entre 1994 e 1995, pressão que contribui para agravar a já frágil situação econômica do novo Estado.\n\n**A insurgência armada de guerrilha albanesa, em 2001, motivada por reivindicações de maior autonomia da minoria albanesa concentrada no oeste do país — cerca de um quarto da população —, é resolvida pelo Acordo-Quadro de Ohrid, mediado internacionalmente**, que amplia direitos linguísticos e de representação política albanesa sem alterar fronteiras, evitando repetição dos padrões de guerra observados na Bósnia e no Kosovo vizinhos.\n\n**A disputa do nome bloqueia sistematicamente o avanço macedônio rumo à OTAN e à União Europeia**, com a Grécia vetando reiteradamente a adesão apesar de recomendações favoráveis da própria União Europeia — impasse que se estenderia por mais de duas décadas antes de solução negociada.",
+      "fontes": [
+        "andrew-rossos-macedonia",
+        "misha-glenny-balcas"
+      ]
+    },
+    {
+      "id": "mkd-macedonia-norte",
+      "inicio": "2019",
+      "rotulo": "República da Macedônia do Norte",
+      "regime": "república parlamentar",
+      "textoMdx": "O Acordo de Préspa, assinado em junho de 2018 entre os primeiros-ministros grego e macedônio, resolve a disputa de mais de duas décadas: o país adota o nome constitucional \"República da Macedônia do Norte\", em troca do fim do veto grego à sua integração euro-atlântica — compromisso ratificado por referendo macedônio de participação baixa, mas aprovado, e por votação parlamentar em ambos os países.\n\n**A mudança de nome, formalizada em fevereiro de 2019, permite a adesão macedônia à OTAN já em 2020**, removendo o veto grego que bloqueava a organização havia mais de uma década — a candidatura à União Europeia, porém, encontraria novo obstáculo, desta vez da Bulgária, que exige reconhecimento macedônio de vínculos históricos e linguísticos búlgaros como condição para desbloquear as negociações de adesão.\n\n**A disputa búlgara, centrada em questões de identidade histórica e linguística que remontam à ambiguidade da codificação da língua macedônia em 1944, ilustra como a região continua a negociar identidade nacional através de reconhecimento de vizinhos, mais que através de consolidação interna** — impasse que, passada mais de meia década desde o Acordo de Préspa, ainda não permitiu à Macedônia do Norte abrir plenamente as negociações de adesão à União Europeia.",
+      "fontes": [
+        "andrew-rossos-macedonia"
+      ]
+    }
+  ]
+}

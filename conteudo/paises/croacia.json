@@ -1,0 +1,77 @@
+{
+  "iso": "HRV",
+  "isoNumerico": "191",
+  "nome": "Croácia",
+  "periodos": [
+    {
+      "id": "hrv-reino-medieval",
+      "inicio": "925",
+      "fim": "1102",
+      "rotulo": "Reino medieval da Croácia",
+      "regime": "monarquia medieval independente",
+      "textoMdx": "A coroação de Tomislav como rei em torno de 925, reconhecida por carta papal, marca a unificação dos antigos principados croatas da Panônia e da Dalmácia em reino único — um dos primeiros reinos eslavos reconhecidos pela cristandade ocidental, situado na fronteira entre as esferas de influência bizantina e franca.\n\n**O reino croata medieval mantém independência por quase dois séculos**, período em que consolida instituições próprias, cunhagem e relações diplomáticas com o papado e Veneza, disputando controle sobre as cidades costeiras dálmatas com a República de Veneza, rival comercial que se tornaria presença permanente na costa croata pelos séculos seguintes.\n\n**A morte do rei Zvonimir, em 1089, sem herdeiro claro, mergulha o reino em crise sucessória que a vizinha Hungria explora.** O rei húngaro Ladislau I invade e ocupa parte do território croata, e seu sucessor Coloman formaliza, em 1102, união pessoal entre as coroas húngara e croata através do acordo conhecido como Pacta Conventa — que a historiografia croata posterior interpretaria como união entre iguais, e a húngara, como submissão.",
+      "fontes": [
+        "marcus-tanner-croacia"
+      ]
+    },
+    {
+      "id": "hrv-uniao-hungria-habsburgo",
+      "inicio": "1102",
+      "fim": "1918",
+      "rotulo": "União com a Hungria e depois os Habsburgo",
+      "regime": "reino em união pessoal com a Hungria, depois território da coroa dos Habsburgo dentro da Áustria-Hungria",
+      "textoMdx": "A união com a Hungria, embora preserve nominalmente instituições croatas próprias — a assembleia chamada Sabor, e o título de bano como governador —, subordina progressivamente a Croácia às decisões tomadas em Budapeste, relação que se tensiona ao longo dos séculos seguintes sem jamais se romper completamente até 1918.\n\n**O avanço otomano no século XVI reduz drasticamente o território croata efetivamente controlado**, forçando a nobreza croata a buscar proteção dos Habsburgo austríacos, que assumem a coroa húngaro-croata em 1527; a fronteira militar organizada pelos Habsburgo contra os otomanos, povoada por colonos sérvios refugiados com privilégios militares especiais, criaria enclave sérvio persistente em território croata que geraria tensão étnica séculos depois.\n\n**O Compromisso Croato-Húngaro de 1868, seguindo o modelo do acordo austro-húngaro do ano anterior, concede à Croácia autonomia interna limitada dentro do Reino da Hungria** — arranjo insatisfatório que alimenta movimento nacional croata crescente, articulado por figuras como o bispo Josip Juraj Strossmayer, que promove ideal de unidade eslava do sul como alternativa à subordinação húngara.\n\n**A dissolução da Áustria-Hungria, em outubro de 1918, permite ao Sabor croata declarar união com a Sérvia e a Eslovênia**, formando o efêmero Estado dos Eslovenos, Croatas e Sérvios antes de sua rápida fusão, em dezembro do mesmo ano, ao Reino liderado pela dinastia sérvia — decisão tomada sob pressão de ameaças territoriais italianas que a historiografia croata posterior recordaria como precipitada e mal negociada.",
+      "fontes": [
+        "marcus-tanner-croacia",
+        "misha-glenny-balcas"
+      ]
+    },
+    {
+      "id": "hrv-reino-iugoslavia",
+      "inicio": "1918",
+      "fim": "1941",
+      "rotulo": "Croácia no Reino da Iugoslávia",
+      "regime": "província dentro de monarquia centralizada sérvia",
+      "textoMdx": "A Croácia entra no novo reino iugoslavo como a região economicamente mais desenvolvida, mas politicamente subordinada a uma estrutura centralizada que a liderança política croata, encabeçada pelo Partido Camponês de Stjepan Radić, considera dominação sérvia disfarçada de unidade eslava do sul.\n\n**O assassinato de Radić e outros deputados croatas no parlamento de Belgrado, em 1928, radicaliza definitivamente o movimento nacional croata.** A ditadura real que se segue em 1929 suprime ainda mais a autonomia croata, alimentando tanto o movimento moderado do Partido Camponês, que buscaria acordo negociado, quanto a organização terrorista ustaše, fundada no exílio por Ante Pavelić com apoio da Itália fascista e da Hungria revisionista.\n\n**O Acordo Cvetković-Maček, de agosto de 1939, cria finalmente uma Banovina croata autônoma dentro da Iugoslávia** — concessão tardia que satisfaz parcialmente as demandas moderadas croatas, mas chega poucos meses antes de a Segunda Guerra Mundial tornar irrelevante qualquer arranjo interno iugoslavo, com a invasão do Eixo em abril de 1941 desmantelando o Estado por completo.",
+      "fontes": [
+        "marcus-tanner-croacia",
+        "dejan-djokic-iugoslavia"
+      ]
+    },
+    {
+      "id": "hrv-estado-independente",
+      "inicio": "1941",
+      "fim": "1945",
+      "rotulo": "Estado Independente da Croácia sob os ustaše",
+      "regime": "Estado fantoche fascista de partido único, sob proteção militar do Eixo",
+      "textoMdx": "A proclamação do Estado Independente da Croácia, dias depois da invasão do Eixo em abril de 1941, entrega o poder a Ante Pavelić e ao movimento ustaše, minoritário mesmo entre nacionalistas croatas até então, mas favorecido pela Alemanha e pela Itália como instrumento de controle sobre território que incluía toda a Bósnia-Herzegovina atual.\n\n**O regime ustaše conduz campanha de extermínio contra a minoria sérvia, além de judeus e ciganos, através de rede de campos de concentração — o mais notório em Jasenovac.** Estimativas historiográficas sobre o número de vítimas sérvias variam amplamente, de dezenas de milhares a várias centenas de milhares, disputa numérica que persistiria como fonte de tensão política entre sérvios e croatas décadas depois, incluindo durante as guerras iugoslavas dos anos 1990.\n\n**A resistência partisan comunista, liderada pelo croata Josip Broz Tito, ganha força crescente no território croata a partir de 1943**, atraindo tanto croatas quanto sérvios locais horrorizados com a violência ustaše, e emergindo como força dominante na libertação do território em 1945 — vitória que permitiria a Tito reconstruir a Iugoslávia como federação, com a Croácia entre suas repúblicas constituintes.",
+      "fontes": [
+        "marcus-tanner-croacia",
+        "misha-glenny-balcas"
+      ]
+    },
+    {
+      "id": "hrv-iugoslavia-socialista",
+      "inicio": "1945",
+      "fim": "1991",
+      "rotulo": "República socialista dentro da Iugoslávia de Tito",
+      "regime": "república socialista federativa, um partido",
+      "textoMdx": "A Croácia se torna a segunda maior república da Iugoslávia federal, com significativa minoria sérvia concentrada na região da Krajina — herança direta do assentamento militar dos Habsburgo contra os otomanos, séculos antes — que se tornaria decisiva na guerra de independência dos anos 1990.\n\n**A Primavera Croata de 1971, movimento por maior autonomia cultural e econômica dentro da federação, é reprimida por Tito, que expurga a liderança do partido croata.** A constituição de 1974, paradoxalmente, ampliaria a autonomia das repúblicas iugoslavas em geral, incluindo mecanismos que décadas depois facilitariam a própria secessão croata.\n\n**A morte de Tito, em 1980, remove a figura que conciliava as tensões nacionais iugoslavas por autoridade pessoal, e a crise econômica dos anos 1980 aprofunda o descontentamento.** A ascensão de Franjo Tuđman e da União Democrática Croata, com plataforma nacionalista abertamente rememorativa de símbolos do período do Estado Independente, alarma a minoria sérvia local, que organiza sua própria autonomia armada na Krajina antes mesmo da declaração formal de independência croata.",
+      "fontes": [
+        "marcus-tanner-croacia",
+        "dejan-djokic-iugoslavia"
+      ]
+    },
+    {
+      "id": "hrv-independencia-consolidacao",
+      "inicio": "1991",
+      "rotulo": "Independência, Guerra Pátria e consolidação democrática",
+      "regime": "república parlamentar",
+      "textoMdx": "A declaração de independência croata, em junho de 1991, desencadeia guerra imediata contra o Exército Popular Iugoslavo, cada vez mais controlado por Belgrado, e contra forças sérvias locais que proclamam sua própria \"República Sérvia da Krajina\" em território croata — conflito que a Croácia chamaria de Guerra Pátria, marcado pelo cerco devastador de Vukovar em 1991 e pelo bombardeio de Dubrovnik, cidade histórica sem valor militar significativo.\n\n**A Operação Tempestade, em agosto de 1995, reconquista a Krajina em poucos dias e provoca o êxodo de praticamente toda a população sérvia da região** — operação que a Croácia celebra como vitória decisiva da guerra de independência, e que organizações de direitos humanos e o Tribunal de Haia investigariam por crimes cometidos contra civis sérvios em fuga, embora o general croata responsável fosse eventualmente absolvido em recurso.\n\n**A morte de Tuđman, em 1999, e a derrota eleitoral de seu partido no ano seguinte abrem caminho para reformas democráticas e aproximação europeia mais decidida.** A cooperação com o Tribunal de Haia, incluindo a entrega de generais croatas indiciados, torna-se condição central para o avanço nas negociações de adesão.\n\n**A Croácia adere à União Europeia em 2013, a mais recente adesão até hoje, e à zona do euro em 2023**, completando trajetória de duas décadas desde o fim da guerra — mas o país segue lidando com as consequências demográficas do êxodo sérvio de 1995 e com tensões periódicas na relação com a Sérvia sobre a memória da guerra.",
+      "fontes": [
+        "marcus-tanner-croacia",
+        "misha-glenny-balcas"
+      ]
+    }
+  ]
+}

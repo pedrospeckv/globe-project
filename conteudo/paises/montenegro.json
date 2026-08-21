@@ -1,0 +1,75 @@
+{
+  "iso": "MNE",
+  "isoNumerico": "499",
+  "nome": "Montenegro",
+  "periodos": [
+    {
+      "id": "mne-duklja-zeta",
+      "inicio": "1042",
+      "fim": "1516",
+      "rotulo": "Duklja e Zeta medievais",
+      "regime": "principado, depois reino reconhecido pelo papado, depois principado fragmentado sob pressão otomana crescente, depois anexado como sanjaco otomano direto a partir de 1496",
+      "textoMdx": "O príncipe Stefan Vojislav lidera, em 1042, revolta bem-sucedida contra o domínio bizantino que estabelece o principado independente de Duklja, na região costeira montenegrina — Estado que seu sucessor, Mihailo, obteria reconhecimento papal como reino em 1077, um dos primeiros reinos eslavos reconhecidos por Roma.\n\n**O território, rebatizado Zeta a partir do século XII, alterna entre autonomia própria e subordinação ao poderoso reino sérvio vizinho**, sendo absorvido pelo Império Sérvio de Dušan em sua fase de maior expansão, no século XIV, e recuperando independência de facto com a fragmentação do império sérvio após 1355.\n\n**A dinastia Crnojević, a partir de meados do século XV, consolida domínio sobre o território montanhoso do interior, estabelecendo capital em Cetinje**, à medida que o avanço otomano reduz progressivamente o território costeiro sob seu controle — a impressora Crnojević, instalada em Cetinje em 1493, produz um dos primeiros livros impressos em língua eslava do sul, símbolo de identidade cultural que sobreviveria à conquista otomana que se completaria em 1496.\n\n**A queda de Zeta, em 1496, extingue o domínio secular dos Crnojević, e o território é incorporado como sanjaco sob administração otomana direta pelas duas décadas seguintes.** Sem Estado próprio nesse intervalo, a região permanece sob esse domínio direto até 1516, quando o último herdeiro dos Crnojević, Đorđe, cede o poder secular ao metropolita ortodoxo de Cetinje — arranjo que fundaria o incomum principado-bispado montenegrino dos séculos seguintes.",
+      "fontes": [
+        "elizabeth-roberts-montenegro"
+      ]
+    },
+    {
+      "id": "mne-principado-eclesiastico",
+      "inicio": "1516",
+      "fim": "1852",
+      "rotulo": "Principado-Bispado eclesiástico sob os Petrović-Njegoš",
+      "regime": "teocracia eletiva, depois hereditária a partir de 1697, sob suserania otomana nominal",
+      "textoMdx": "A entrega do poder secular pelo último Crnojević ao metropolita ortodoxo de Cetinje, em 1516, cria arranjo incomum na Europa: um principado-bispado em que a mesma pessoa exerce autoridade religiosa e política, governando território montanhoso pobre demais para interessar plenamente ao domínio direto otomano.\n\n**A dinastia Petrović-Njegoš assume o título hereditariamente a partir de 1697, mantendo, ao longo de dois séculos, autonomia de facto que nenhuma outra região balcânica sob nominal suserania otomana conseguiria preservar de forma tão contínua** — o clã montenegrino, organizado em estrutura tribal armada e guerreira nas montanhas do Lovćen, resiste a sucessivas tentativas otomanas de subjugação plena.\n\n**Petar II Petrović-Njegoš, vladika entre 1830 e 1851, é simultaneamente governante e um dos maiores poetas da literatura sérvio-montenegrina**, autor de \"A Grinalda da Montanha\" — obra que celebra a resistência montenegrina ao domínio otomano e se tornaria texto fundacional da identidade nacional, ainda hoje objeto de debate sobre até que ponto expressa identidade sérvia, montenegrina, ou ambas indistintamente.",
+      "fontes": [
+        "elizabeth-roberts-montenegro"
+      ]
+    },
+    {
+      "id": "mne-principado-reino",
+      "inicio": "1852",
+      "fim": "1918",
+      "rotulo": "Principado secularizado e depois Reino independente",
+      "regime": "principado, depois reino, monarquia absolutista",
+      "textoMdx": "Danilo II, ao assumir o poder em 1851, recusa a ordenação eclesiástica e se declara príncipe secular, encerrando três séculos de teocracia e transformando Montenegro em principado dinástico convencional sob a Casa Petrović-Njegoš.\n\n**O Congresso de Berlim, em 1878, reconhece a independência plena de Montenegro**, junto com Sérvia e Romênia, e quase dobra seu território — reconhecimento internacional que corona séculos de resistência de facto nunca antes formalizada pelas potências europeias.\n\n**O príncipe Nicolau I se proclama rei em 1910, e Montenegro participa das Guerras Balcânicas de 1912-1913 ao lado da Sérvia, expandindo ainda mais seu território** — aliança que se estenderia à Primeira Guerra Mundial, quando o país é ocupado pela Áustria-Hungria após breve resistência, com o rei Nicolau exilado.\n\n**A Assembleia de Podgorica, em novembro de 1918, organizada sob controle sérvio logo após a retirada austro-húngara, vota a deposição do rei Nicolau e a união incondicional com a Sérvia** — decisão que partidários da dinastia Petrović-Njegoš contestariam como fraudulenta, alegando coerção e exclusão de opositores, disputa histórica que alimentaria ressentimento montenegrino sobre a legitimidade da união que perduraria por gerações.",
+      "fontes": [
+        "elizabeth-roberts-montenegro",
+        "tratado-berlim-1878"
+      ]
+    },
+    {
+      "id": "mne-iugoslavia",
+      "inicio": "1918",
+      "fim": "1992",
+      "rotulo": "Montenegro dentro do Reino e depois da Iugoslávia socialista",
+      "regime": "província dentro da monarquia centralizada, depois república socialista federativa a partir de 1945",
+      "textoMdx": "A anexação de 1918 extingue a independência montenegrina havida desde 1878, incorporando o pequeno reino ao Estado sérvio-liderado sem reconhecimento de identidade política distinta — decisão que provoca a chamada Revolta de Natal de dezembro de 1918, rebelião armada de partidários da dinastia deposta, esmagada pelas forças sérvias nos meses seguintes.\n\n**Durante a ocupação do Eixo, na Segunda Guerra Mundial, a Itália fascista cria um efêmero \"Reino de Montenegro\" fantoche em 1941, tentativa de explorar ressentimento local contra a anexação sérvia de 1918** — projeto que fracassa em obter apoio popular significativo, com a resistência partisan comunista rapidamente se tornando força dominante no território.\n\n**Tito reconhece Montenegro como uma das seis repúblicas constituintes da Iugoslávia federal em 1945, restaurando pela primeira vez desde 1918 um território político montenegrino reconhecido** — decisão significativa, já que Montenegro, ao contrário da Bósnia ou Macedônia, já havia sido Estado soberano internacionalmente reconhecido antes da anexação sérvia.\n\n**Montenegro permanece o aliado mais próximo da Sérvia durante a desintegração iugoslava dos anos 1990**, com tropas montenegrinas participando do cerco de Dubrovnik em 1991-1992 ao lado do exército federal — alinhamento que preservaria a união entre os dois territórios mesmo quando as demais repúblicas se separavam, embora sob crescente sanção internacional pelo apoio à guerra na Bósnia vizinha.",
+      "fontes": [
+        "elizabeth-roberts-montenegro",
+        "tim-judah-servios"
+      ]
+    },
+    {
+      "id": "mne-serbia-montenegro",
+      "inicio": "1992",
+      "fim": "2006",
+      "rotulo": "República Federal e depois União de Sérvia e Montenegro",
+      "regime": "república federal, depois união frouxa de dois Estados a partir de 2003",
+      "textoMdx": "A permanência montenegrina na República Federal da Iugoslávia, formada em 1992 apenas com a Sérvia, submete o pequeno território a anos de sanções internacionais e isolamento pelo apoio às forças sérvias na Bósnia — custo que gradualmente alimentaria movimento montenegrino próprio favorável à distância política de Belgrado.\n\n**O presidente montenegrino Milo Đukanović rompe com Milošević a partir de 1997, buscando distanciamento gradual de Belgrado sem provocar ruptura imediata** — estratégia pragmática que inclui a adoção do marco alemão, e depois do euro, como moeda de facto montenegrina em 1999 e 2002, mesmo sem união monetária formal com a zona do euro.\n\n**A União de Sérvia e Montenegro, formada em 2003 sob mediação da União Europeia como fórmula mais frouxa que a antiga federação, é concebida, na prática, como período de transição rumo a eventual separação** — a própria União Europeia impõe o limiar de 55% dos votos para validar qualquer futuro referendo de independência, condição que geraria disputa acirrada anos depois.",
+      "fontes": [
+        "elizabeth-roberts-montenegro",
+        "tim-judah-servios"
+      ]
+    },
+    {
+      "id": "mne-independencia",
+      "inicio": "2006",
+      "rotulo": "República de Montenegro independente",
+      "regime": "república parlamentar",
+      "textoMdx": "O referendo de independência de maio de 2006 aprova a separação por margem de apenas 55,5% dos votos — pouco acima do limiar exigido pela União Europeia —, refletindo país profundamente dividido entre identidade montenegrina distinta e vínculos históricos, familiares e religiosos estreitos com a Sérvia.\n\n**Milo Đukanović, figura dominante da política montenegrina desde o fim dos anos 1990, alterna entre os cargos de primeiro-ministro e presidente ao longo de quase três décadas**, período marcado por acusações recorrentes, nunca provadas em tribunal, de vínculos com contrabando e crime organizado — controvérsia que acompanha a trajetória política montenegrina sem jamais impedir sua reeleição sucessiva até a derrota eleitoral de seu partido em 2020.\n\n**Montenegro adere à OTAN em 2017, decisão que a Rússia denuncia como provocação e que motivaria, segundo autoridades montenegrinas e ocidentais, tentativa de golpe de Estado frustrada no dia da eleição de 2016, atribuída a agentes russos e sérvios** — episódio que ilustra a posição estratégica sensível do pequeno país na disputa de influência entre Ocidente e Rússia nos Bálcãs.\n\n**A candidatura à União Europeia avança de forma mais adiantada que a de outros Estados sucessores da Iugoslávia**, com negociações abertas desde 2012, embora reformas judiciais e de combate à corrupção permaneçam incompletas — Montenegro segue, formalmente, como o candidato mais próximo à adesão plena entre os países da região.",
+      "fontes": [
+        "elizabeth-roberts-montenegro"
+      ]
+    }
+  ]
+}

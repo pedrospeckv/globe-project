@@ -1,0 +1,90 @@
+{
+  "iso": "BIH",
+  "isoNumerico": "070",
+  "nome": "Bósnia e Herzegovina",
+  "periodos": [
+    {
+      "id": "bih-reino-medieval",
+      "inicio": "1154",
+      "fim": "1463",
+      "rotulo": "Banato e Reino medieval da Bósnia",
+      "regime": "banato, depois reino, sob suserania nominal húngara variável",
+      "textoMdx": "O primeiro banato bósnio documentado, sob o Ban Borić por volta de 1154, governa território montanhoso entre os reinos húngaro-croata e sérvio, região que desenvolve identidade religiosa própria em torno da controversa Igreja Bósnia — comunidade cristã considerada herética tanto por Roma quanto por Constantinopla, cuja natureza exata permanece disputada pela historiografia.\n\n**O reinado do Ban Tvrtko I, entre 1353 e 1391, leva a Bósnia ao apogeu territorial e à proclamação de reino em 1377.** Tvrtko se coroa também rei da Sérvia, reivindicando herança da dinastia Nemanjić extinta, e expande o território bósnio até incluir parte da costa dálmata — o momento de maior poder de um Estado bósnio independente antes da conquista otomana.\n\n**A conquista otomana, completada com a queda do último rei bósnio, Stjepan Tomašević, em 1463, encontra uma nobreza bósnia religiosamente dividida** entre católicos, ortodoxos e adeptos da Igreja Bósnia — fragmentação que facilitaria conversões maciças ao islã nos séculos seguintes sob domínio otomano, criando a base da futura identidade bosníaca muçulmana que distingue a Bósnia de suas vizinhas de maioria cristã.",
+      "fontes": [
+        "noel-malcolm-bosnia"
+      ]
+    },
+    {
+      "id": "bih-dominio-otomano",
+      "inicio": "1463",
+      "fim": "1878",
+      "rotulo": "Domínio Otomano",
+      "regime": "eyalet, depois vilayet do Império Otomano",
+      "textoMdx": "Sob domínio otomano por mais de quatro séculos, a Bósnia se torna a região dos Bálcãs com maior proporção de conversão ao islã — processo gradual, não coercitivo em geral, atribuído por historiadores a fatores como a fragilidade prévia das instituições cristãs locais e os incentivos fiscais e sociais oferecidos a convertidos dentro do sistema otomano.\n\n**A sociedade bósnia otomana se organiza em três comunidades religiosas principais — muçulmana, ortodoxa sérvia e católica croata — convivendo sob o sistema de millet, com graus variáveis de tensão e cooperação.** Sarajevo se torna importante centro urbano otomano na região, com mesquitas, mercados e instituições administrativas que ainda hoje marcam a paisagem da cidade.\n\n**O declínio do poder otomano no século XIX traz revoltas camponesas recorrentes contra a exploração da nobreza muçulmana local**, incluindo a insurreição de 1875 que, espalhando-se pela região, contribuiria para a crise que levaria à guerra russo-otomana de 1877-1878 e, por consequência, ao fim do domínio otomano direto sobre a Bósnia.",
+      "fontes": [
+        "noel-malcolm-bosnia",
+        "misha-glenny-balcas"
+      ]
+    },
+    {
+      "id": "bih-austria-hungria",
+      "inicio": "1878",
+      "fim": "1918",
+      "rotulo": "Ocupação e anexação pela Áustria-Hungria",
+      "regime": "território ocupado pelo Congresso de Berlim, depois anexado formalmente em 1908",
+      "textoMdx": "O Congresso de Berlim de 1878, embora mantenha a soberania nominal otomana, autoriza a Áustria-Hungria a ocupar e administrar a Bósnia-Herzegovina — arranjo ambíguo que dura três décadas até a anexação formal em 1908, decisão unilateral vienense que provoca crise diplomática internacional grave e ressentimento sérvio profundo, já que Belgrado nutria ambições próprias sobre o território.\n\n**A administração austro-húngara moderniza infraestrutura — ferrovias, instituições administrativas, arquitetura urbana — enquanto mantém estrutura fundiária que privilegia a antiga nobreza muçulmana sobre o campesinato cristão**, gerando ressentimento social que se somaria às tensões nacionais crescentes entre as três comunidades bósnias.\n\n**O assassinato do arquiduque Francisco Ferdinando em Sarajevo, em 28 de junho de 1914, por Gavrilo Princip — jovem nacionalista bósnio-sérvio ligado à organização Mão Negra sediada em Belgrado — precipita a Primeira Guerra Mundial.** A Bósnia, palco do evento que desencadeia o conflito, sofreria mobilização e repressão intensas contra a população sérvia local durante a guerra, antes de ser incorporada, com a derrota austro-húngara em 1918, ao novo Reino dos Sérvios, Croatas e Eslovenos.",
+      "fontes": [
+        "noel-malcolm-bosnia",
+        "misha-glenny-balcas"
+      ]
+    },
+    {
+      "id": "bih-iugoslavia-guerra",
+      "inicio": "1918",
+      "fim": "1945",
+      "rotulo": "Bósnia no Reino da Iugoslávia e na Segunda Guerra",
+      "regime": "território dividido administrativamente dentro da monarquia iugoslava, depois anexado ao Estado Independente da Croácia",
+      "textoMdx": "No Reino da Iugoslávia, a Bósnia-Herzegovina não constitui unidade administrativa própria, sendo dividida entre diferentes banovinas cujas fronteiras ignoram deliberadamente a especificidade histórica bósnia — arranjo que a comunidade muçulmana bósnia, sem reino nacional próprio como sérvios e croatas, sente como apagamento de identidade distinta.\n\n**A invasão do Eixo em 1941 anexa toda a Bósnia-Herzegovina ao recém-criado Estado Independente da Croácia sob os ustaše**, que classificam os muçulmanos bósnios como \"croatas da fé islâmica\" em tentativa de cooptação, enquanto conduzem campanha de extermínio contra a população sérvia da região — a Bósnia se tornaria um dos territórios de maior violência interétnica da guerra na Iugoslávia, com massacres cometidos por múltiplas facções armadas.\n\n**A resistência partisan comunista encontra na Bósnia multiétnica um dos seus principais teatros de operação**, com Tito convocando em Jajce, em 1943, o congresso que lançaria as bases da futura Iugoslávia federal — reconhecendo, ainda que de forma limitada, a Bósnia-Herzegovina como república constituinte própria, decisão que restauraria pela primeira vez desde 1463 um território político bósnio reconhecido.",
+      "fontes": [
+        "noel-malcolm-bosnia",
+        "marcus-tanner-croacia"
+      ]
+    },
+    {
+      "id": "bih-iugoslavia-socialista",
+      "inicio": "1945",
+      "fim": "1992",
+      "rotulo": "República socialista dentro da Iugoslávia de Tito",
+      "regime": "república socialista federativa, um partido",
+      "textoMdx": "A Bósnia-Herzegovina socialista se consolida como a mais etnicamente diversa e territorialmente misturada das repúblicas iugoslavas, sem grupo majoritário absoluto entre muçulmanos bósnios, sérvios ortodoxos e croatas católicos — composição que a tornaria, décadas depois, o território de mais difícil divisão quando a federação se desintegrasse.\n\n**O reconhecimento oficial dos muçulmanos bósnios como nacionalidade constitutiva própria, em 1968, e não apenas categoria religiosa, formaliza identidade nacional bosníaca distinta de sérvios e croatas** — decisão que consolidaria o status da Bósnia como república de três povos constituintes, arranjo constitucional que se tornaria, décadas depois, tanto justificativa para a guerra quanto modelo, ainda que imperfeito, para sua resolução.\n\n**A morte de Tito em 1980 e o agravamento da crise econômica iugoslava ao longo da década deixam a Bósnia particularmente vulnerável à polarização nacionalista que se espalha a partir da Sérvia e da Croácia** — sem maioria étnica própria capaz de reivindicar liderança exclusiva do território, a Bósnia se tornaria o campo de batalha mais sangrento da desintegração iugoslava, à medida que Belgrado e Zagreb avançam projetos territoriais rivais sobre seu território nos anos seguintes.",
+      "fontes": [
+        "noel-malcolm-bosnia",
+        "tim-judah-servios"
+      ]
+    },
+    {
+      "id": "bih-guerra-genocidio",
+      "inicio": "1992",
+      "fim": "1995",
+      "rotulo": "Guerra da Bósnia e genocídio de Srebrenica",
+      "regime": "Estado em colapso, fragmentado por controle militar de facções armadas",
+      "textoMdx": "O referendo de independência bósnio de fevereiro de 1992, boicotado pela população sérvia local e reconhecido internacionalmente semanas depois, desencadeia guerra imediata: forças sérvio-bósnias, armadas e apoiadas pelo Exército Popular Iugoslavo remanescente em Belgrado, cercam Sarajevo e ocupam rapidamente cerca de dois terços do território bósnio.\n\n**O cerco de Sarajevo, de abril de 1992 a fevereiro de 1996, torna-se o mais longo cerco de uma capital na história militar moderna**, com bombardeio de artilharia e franco-atiradores matando milhares de civis ao longo de quase quatro anos, transmitido diariamente pela televisão internacional sem que isso, por muito tempo, provocasse intervenção externa decisiva.\n\n**O massacre de Srebrenica, em julho de 1995, mata mais de oito mil homens e meninos muçulmanos bósnios em área nominalmente protegida pela ONU como \"zona segura\", sob os olhos de tropas holandesas de paz insuficientemente armadas para impedi-lo.** O Tribunal Penal Internacional para a antiga Iugoslávia, em Haia, classificaria formalmente o massacre como genocídio — o único assim reconhecido juridicamente em solo europeu desde a Segunda Guerra Mundial —, condenando os generais sérvio-bósnios Ratko Mladić e Radovan Karadžić.\n\n**A intervenção da OTAN, a partir de agosto de 1995, com bombardeios contra posições sérvio-bósnias, força as partes à mesa de negociação em Dayton, Ohio, culminando no acordo de paz assinado em Paris em dezembro daquele ano** — encerrando guerra que deixou cerca de cem mil mortos e mais de dois milhões de deslocados, quase metade da população pré-guerra do país.",
+      "fontes": [
+        "noel-malcolm-bosnia",
+        "acordo-dayton-1995",
+        "tribunal-haia-krstic-2004"
+      ]
+    },
+    {
+      "id": "bih-dayton-atual",
+      "inicio": "1995",
+      "rotulo": "Bósnia-Herzegovina sob o Acordo de Dayton",
+      "regime": "república federal de estrutura tripartite, dividida em duas entidades semiautônomas sob supervisão internacional",
+      "textoMdx": "O Acordo de Dayton preserva a Bósnia-Herzegovina como Estado único, mas a divide internamente em duas entidades quase autônomas — a Federação da Bósnia e Herzegovina, de maioria bosníaca e croata, e a Republika Srpska, de maioria sérvia — unidas por um governo central deliberadamente fraco, com presidência tripartite rotativa entre representantes dos três povos constituintes.\n\n**Um Alto Representante internacional, com poderes extraordinários para impor leis e demitir autoridades eleitas, supervisiona a implementação do acordo desde 1995** — arranjo concebido como temporário que persiste três décadas depois, sinal da fragilidade contínua do consenso político interno sobre o funcionamento do próprio Estado.\n\n**A reconstrução pós-guerra avança de forma desigual, com Sarajevo parcialmente reconstruída e áreas rurais ainda marcadas por minas terrestres e deslocamento populacional não revertido**, enquanto a Republika Srpska mantém, sob lideranças políticas sucessivas, retórica secessionista recorrente que a comunidade internacional considera ameaça permanente à integridade do Estado.\n\n**A candidatura à União Europeia avança lentamente, obstruída pela própria complexidade institucional criada em Dayton**, que dificulta reformas exigidas pelo processo de adesão; a Bósnia obtém status de país candidato apenas em 2022, quase três décadas depois do fim da guerra, o mais lento entre os Estados sucessores da Iugoslávia.",
+      "fontes": [
+        "noel-malcolm-bosnia",
+        "acordo-dayton-1995"
+      ]
+    }
+  ]
+}

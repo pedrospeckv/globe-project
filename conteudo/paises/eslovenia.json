@@ -1,0 +1,65 @@
+{
+  "iso": "SVN",
+  "isoNumerico": "705",
+  "nome": "Eslovênia",
+  "periodos": [
+    {
+      "id": "svn-carantania",
+      "inicio": "660",
+      "fim": "828",
+      "rotulo": "Ducado eslavo da Carantânia",
+      "regime": "principado eslavo, depois ducado vassalo do Império Franco",
+      "textoMdx": "A Carantânia, formada por tribos eslavas estabelecidas na região alpina oriental a partir do século VI, emerge como um dos primeiros principados eslavos documentados da Europa, com estrutura política própria centrada na região da atual Caríntia austríaca e norte da Eslovênia atual.\n\n**A conversão ao cristianismo, promovida a partir de meados do século VIII sob influência bávara e franca, acompanha a perda gradual de autonomia política do principado.** A cerimônia de entronização dos duques carantanos, realizada em língua eslava sobre uma pedra ritual — a chamada Pedra Príncipe —, sobreviveria como símbolo até muito depois de a Carantânia perder independência efetiva, sendo invocada por movimentos nacionais eslovenos do século XIX como prova de estatalidade eslava antiga.\n\n**A incorporação definitiva ao Império Franco, por volta de 828, sob Luís, o Piedoso, extingue a autonomia política carantana**, dando início a mais de mil anos em que os territórios de fala eslovena permaneceriam fragmentados entre diferentes ducados e províncias do Sacro Império Romano-Germânico e, depois, da monarquia dos Habsburgo — Caríntia, Carniola, Estíria — sem constituir unidade política própria até o século XX.",
+      "fontes": [
+        "leopoldina-plut-pregelj-eslovenia"
+      ]
+    },
+    {
+      "id": "svn-reino-iugoslavia",
+      "inicio": "1918",
+      "fim": "1941",
+      "rotulo": "Eslovênia no Reino da Iugoslávia",
+      "regime": "província dentro de monarquia centralizada sérvia",
+      "textoMdx": "Após mais de um milênio sem estatalidade própria, os territórios eslovenos — Carniola, partes da Estíria e da Caríntia — se unem em 1918, primeiro ao efêmero Estado dos Eslovenos, Croatas e Sérvios, depois ao Reino liderado pela dinastia sérvia, entrando pela primeira vez em Estado que reconhece formalmente identidade eslovena distinta.\n\n**O Tratado de Saint-Germain de 1919 e o plebiscito da Caríntia de 1920 fixam a fronteira norte eslovena, deixando parte significativa de população de fala eslovena do lado austríaco** — território que a Eslovênia jamais recuperaria, e cuja minoria eslovena na Áustria persiste, reduzida, até hoje.\n\n**A relativa distância geográfica e cultural da Eslovênia em relação a Belgrado gera menos conflito político direto que o observado na relação sérvio-croata do mesmo período**, embora a centralização do reino limite igualmente a autonomia eslovena — situação que mudaria drasticamente com a invasão do Eixo em 1941, que dividiria o pequeno território esloveno entre três potências ocupantes diferentes.",
+      "fontes": [
+        "leopoldina-plut-pregelj-eslovenia",
+        "dejan-djokic-iugoslavia"
+      ]
+    },
+    {
+      "id": "svn-ocupacao-particao",
+      "inicio": "1941",
+      "fim": "1945",
+      "rotulo": "Eslovênia ocupada e dividida entre Alemanha, Itália e Hungria",
+      "regime": "território anexado e dividido entre três potências ocupantes",
+      "textoMdx": "A invasão do Eixo, em abril de 1941, resulta na partição direta do território esloveno entre Alemanha, Itália e Hungria — anexação territorial direta, sem sequer a fachada de um Estado fantoche local, política de ocupação incomumente dura mesmo pelos padrões da Europa ocupada.\n\n**A ocupação alemã na Estíria e na Alta Carniola inclui política deliberada de germanização, com deportações em massa da população eslovena e recrutamento forçado para o exército alemão**, enquanto a zona italiana na Baixa Carniola pratica repressão mais tradicional contra o movimento de resistência crescente.\n\n**A Frente de Libertação eslovena, dominada pelos comunistas mas incluindo outras correntes antifascistas, organiza uma das resistências mais eficazes da Europa ocupada em relação ao tamanho da população**, com território extenso sob controle partisan já em 1943 — contribuição que garantiria à Eslovênia posição de destaque relativo na futura Iugoslávia socialista, e a recuperação, no pós-guerra, da região costeira de Trieste disputada com a Itália, resolvida apenas definitivamente em 1975.",
+      "fontes": [
+        "leopoldina-plut-pregelj-eslovenia",
+        "dejan-djokic-iugoslavia"
+      ]
+    },
+    {
+      "id": "svn-iugoslavia-socialista",
+      "inicio": "1945",
+      "fim": "1991",
+      "rotulo": "República socialista dentro da Iugoslávia de Tito",
+      "regime": "república socialista federativa, um partido",
+      "textoMdx": "A Eslovênia se torna a mais próspera e etnicamente homogênea das repúblicas iugoslavas, com economia industrial e comercial voltada historicamente para a Europa central — vantagem que se traduziria, ao longo das décadas socialistas, em padrão de vida sistematicamente superior ao das demais repúblicas.\n\n**A proximidade cultural e econômica com a Áustria e a Itália vizinhas mantém a Eslovênia relativamente aberta a influências ocidentais durante o período socialista**, mais que o restante da Iugoslávia — abertura que alimentaria, nos anos 1980, movimento de opinião pública favorável a maior autonomia e eventual separação da federação.\n\n**A crise econômica e o crescente centralismo sérvio dos anos 1980, sob Milošević, alarmam a liderança eslovena, que passa a defender abertamente reforma confederal da Iugoslávia** — proposta rejeitada por Belgrado, levando a Eslovênia a organizar plebiscito de independência em dezembro de 1990, aprovado por mais de 88% dos votantes, decisão que a colocaria em rota de colisão com o exército federal.",
+      "fontes": [
+        "leopoldina-plut-pregelj-eslovenia",
+        "dejan-djokic-iugoslavia"
+      ]
+    },
+    {
+      "id": "svn-independencia",
+      "inicio": "1991",
+      "rotulo": "República da Eslovênia independente",
+      "regime": "república parlamentar",
+      "textoMdx": "A declaração de independência eslovena, em junho de 1991, provoca reação militar do Exército Popular Iugoslavo, mas a chamada Guerra dos Dez Dias termina rapidamente com retirada federal — a homogeneidade étnica eslovena, sem minoria sérvia significativa a defender, e a distância geográfica de Belgrado tornam o território de pouco interesse estratégico para Milošević, que já concentrava atenção na Croácia.\n\n**A Eslovênia emerge da desintegração iugoslava como a república mais rapidamente integrada ao Ocidente**, tornando-se o primeiro dos Estados sucessores a aderir à União Europeia e à OTAN, ambos em 2004, e à zona do euro em 2007 — trajetória sem paralelo entre as demais repúblicas iugoslavas, beneficiada pela ausência de guerra prolongada em seu território.\n\n**A disputa sobre os \"apagados\" — cerca de 25 mil residentes, majoritariamente de outras repúblicas iugoslavas, removidos administrativamente do registro de residentes eslovenos em 1992 sem notificação — permanece ferida aberta da transição**, reconhecida parcialmente pelo Tribunal Constitucional esloveno e pelo Tribunal Europeu de Direitos Humanos como violação, com reparação ainda incompleta décadas depois.",
+      "fontes": [
+        "leopoldina-plut-pregelj-eslovenia",
+        "dejan-djokic-iugoslavia"
+      ]
+    }
+  ]
+}

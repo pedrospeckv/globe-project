@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**51 de 174 países** desenhados no mapa têm dossiê (29.3%), somando **289 períodos**.
+**57 de 174 países** desenhados no mapa têm dossiê (32.8%), somando **323 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -18,16 +18,19 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Bélgica | `BEL` | 3 | 3 |
 | Belize | `BLZ` | 3 | 3 |
 | Bolívia | `BOL` | 8 | 8 |
+| Bósnia e Herzegovina | `BIH` | 7 | 7 |
 | Brasil | `BRA` | 8 | 8 |
 | Canadá | `CAN` | 5 | 5 |
 | Chile | `CHL` | 9 | 9 |
 | China | `CHN` | 16 | 16 |
 | Colômbia | `COL` | 7 | 7 |
 | Costa Rica | `CRI` | 4 | 4 |
+| Croácia | `HRV` | 6 | 6 |
 | Cuba | `CUB` | 4 | 4 |
 | Dinamarca | `DNK` | 3 | 3 |
 | El Salvador | `SLV` | 4 | 4 |
 | Equador | `ECU` | 5 | 5 |
+| Eslovênia | `SVN` | 5 | 5 |
 | Espanha | `ESP` | 6 | 6 |
 | Estados Unidos | `USA` | 8 | 8 |
 | Finlândia | `FIN` | 4 | 4 |
@@ -43,7 +46,9 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Jamaica | `JAM` | 3 | 3 |
 | Japão | `JPN` | 12 | 12 |
 | Luxemburgo | `LUX` | 3 | 3 |
+| Macedônia do Norte | `MKD` | 3 | 3 |
 | México | `MEX` | 9 | 9 |
+| Montenegro | `MNE` | 6 | 6 |
 | Nicarágua | `NIC` | 6 | 6 |
 | Noruega | `NOR` | 3 | 3 |
 | Países Baixos | `NLD` | 5 | 5 |
@@ -56,6 +61,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Reino Unido | `GBR` | 6 | 6 |
 | República Dominicana | `DOM` | 5 | 5 |
 | Rússia | `RUS` | 6 | 6 |
+| Sérvia | `SRB` | 7 | 7 |
 | Suécia | `SWE` | 3 | 3 |
 | Suíça | `CHE` | 3 | 3 |
 | Suriname | `SUR` | 4 | 4 |
@@ -74,32 +80,31 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | Afghanistan | Albania | Algeria | Angola |
 | Antarctica | Armenia | Australia | Azerbaijan |
 | Bangladesh | Belarus | Benin | Bhutan |
-| Bosnia and Herz. | Botswana | Brunei | Bulgaria |
-| Burkina Faso | Burundi | Cambodia | Cameroon |
-| Central African Rep. | Chad | Congo | Côte d'Ivoire |
-| Croatia | Cyprus | Czechia | Dem. Rep. Congo |
-| Djibouti | Egypt | Eq. Guinea | Eritrea |
-| Estonia | eSwatini | Ethiopia | Falkland Is. |
-| Fiji | Fr. S. Antarctic Lands | Gabon | Gambia |
-| Georgia | Ghana | Greece | Guinea |
-| Guinea-Bissau | Hungary | Indonesia | Iran |
-| Iraq | Ireland | Israel | Jordan |
-| Kazakhstan | Kenya | Kuwait | Kyrgyzstan |
-| Laos | Latvia | Lebanon | Lesotho |
-| Liberia | Libya | Lithuania | Macedonia |
-| Madagascar | Malawi | Malaysia | Mali |
-| Mauritania | Moldova | Mongolia | Montenegro |
+| Botswana | Brunei | Bulgaria | Burkina Faso |
+| Burundi | Cambodia | Cameroon | Central African Rep. |
+| Chad | Congo | Côte d'Ivoire | Cyprus |
+| Czechia | Dem. Rep. Congo | Djibouti | Egypt |
+| Eq. Guinea | Eritrea | Estonia | eSwatini |
+| Ethiopia | Falkland Is. | Fiji | Fr. S. Antarctic Lands |
+| Gabon | Gambia | Georgia | Ghana |
+| Greece | Guinea | Guinea-Bissau | Hungary |
+| Indonesia | Iran | Iraq | Ireland |
+| Israel | Jordan | Kazakhstan | Kenya |
+| Kuwait | Kyrgyzstan | Laos | Latvia |
+| Lebanon | Lesotho | Liberia | Libya |
+| Lithuania | Madagascar | Malawi | Malaysia |
+| Mali | Mauritania | Moldova | Mongolia |
 | Morocco | Mozambique | Myanmar | Namibia |
 | Nepal | New Caledonia | New Zealand | Niger |
 | Nigeria | North Korea | Oman | Pakistan |
 | Palestine | Papua New Guinea | Philippines | Qatar |
 | Romania | Rwanda | S. Sudan | Saudi Arabia |
-| Senegal | Serbia | Sierra Leone | Slovakia |
-| Slovenia | Solomon Is. | Somalia | South Africa |
-| South Korea | Sri Lanka | Sudan | Syria |
-| Taiwan | Tajikistan | Tanzania | Thailand |
-| Timor-Leste | Togo | Tunisia | Turkey |
-| Turkmenistan | Uganda | Ukraine | United Arab Emirates |
-| Uzbekistan | Vanuatu | Vietnam | W. Sahara |
-| Yemen | Zambia | Zimbabwe |  |
+| Senegal | Sierra Leone | Slovakia | Solomon Is. |
+| Somalia | South Africa | South Korea | Sri Lanka |
+| Sudan | Syria | Taiwan | Tajikistan |
+| Tanzania | Thailand | Timor-Leste | Togo |
+| Tunisia | Turkey | Turkmenistan | Uganda |
+| Ukraine | United Arab Emirates | Uzbekistan | Vanuatu |
+| Vietnam | W. Sahara | Yemen | Zambia |
+| Zimbabwe |  |  |  |
 
