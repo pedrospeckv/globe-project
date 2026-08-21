@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**152 de 174 países** desenhados no mapa têm dossiê (87.4%), somando **756 períodos**.
+**158 de 174 países** desenhados no mapa têm dossiê (90.8%), somando **784 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -11,6 +11,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 
 | país | iso | períodos | com texto |
 |---|---|---|---|
+| Afeganistão | `AFG` | 5 | 5 |
 | África do Sul | `ZAF` | 4 | 4 |
 | Albânia | `ALB` | 6 | 6 |
 | Alemanha | `DEU` | 8 | 8 |
@@ -23,6 +24,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Áustria | `AUT` | 4 | 4 |
 | Azerbaijão | `AZE` | 5 | 5 |
 | Bahamas | `BHS` | 2 | 2 |
+| Bangladesh | `BGD` | 4 | 4 |
 | Bélgica | `BEL` | 3 | 3 |
 | Belize | `BLZ` | 3 | 3 |
 | Benin | `BEN` | 4 | 4 |
@@ -34,6 +36,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Brunei | `BRN` | 3 | 3 |
 | Bulgária | `BGR` | 6 | 6 |
 | Burkina Faso | `BFA` | 4 | 4 |
+| Butão | `BTN` | 4 | 4 |
 | Camarões | `CMR` | 4 | 4 |
 | Camboja | `KHM` | 7 | 7 |
 | Canadá | `CAN` | 5 | 5 |
@@ -113,6 +116,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Moçambique | `MOZ` | 4 | 4 |
 | Montenegro | `MNE` | 6 | 6 |
 | Namíbia | `NAM` | 4 | 4 |
+| Nepal | `NPL` | 5 | 5 |
 | Nicarágua | `NIC` | 6 | 6 |
 | Níger | `NER` | 4 | 4 |
 | Nigéria | `NGA` | 6 | 6 |
@@ -122,6 +126,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Países Baixos | `NLD` | 5 | 5 |
 | Panamá | `PAN` | 4 | 4 |
 | Papua-Nova Guiné | `PNG` | 3 | 3 |
+| Paquistão | `PAK` | 4 | 4 |
 | Paraguai | `PRY` | 6 | 6 |
 | Peru | `PER` | 10 | 10 |
 | Polônia | `POL` | 6 | 6 |
@@ -140,6 +145,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Sérvia | `SRB` | 7 | 7 |
 | Síria | `SYR` | 5 | 5 |
 | Somália | `SOM` | 5 | 5 |
+| Sri Lanka | `LKA` | 6 | 6 |
 | Sudão | `SDN` | 7 | 7 |
 | Sudão do Sul | `SSD` | 2 | 2 |
 | Suécia | `SWE` | 3 | 3 |
@@ -172,10 +178,8 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 
 | | | | |
 |---|---|---|---|
-| Afghanistan | Antarctica | Bangladesh | Bhutan |
-| Burundi | Cyprus | Falkland Is. | Fr. S. Antarctic Lands |
-| Ireland | Israel | Moldova | Mongolia |
-| Nepal | New Caledonia | North Korea | Pakistan |
-| Palestine | Rwanda | South Korea | Sri Lanka |
-| Taiwan | W. Sahara |  |  |
+| Antarctica | Burundi | Cyprus | Falkland Is. |
+| Fr. S. Antarctic Lands | Ireland | Israel | Moldova |
+| Mongolia | New Caledonia | North Korea | Palestine |
+| Rwanda | South Korea | Taiwan | W. Sahara |
 

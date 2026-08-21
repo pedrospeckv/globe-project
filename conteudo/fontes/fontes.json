@@ -4591,5 +4591,69 @@
     "autor": "Solofo Randrianja e Stephen Ellis",
     "data": "2009",
     "citacao": "História malgaxe do Reino de Imerina à instabilidade política contemporânea, cobrindo o reinado controverso da rainha Ranavalona I e a Revolta Malgaxe de 1947, um dos episódios de repressão colonial mais violentos de todo o império francês, com estimativas de mortos que variam entre 11 mil e 100 mil pessoas."
+  },
+  {
+    "id": "thomas-barfield-afeganistao",
+    "tipo": "livro",
+    "titulo": "Afghanistan: A Cultural and Political History",
+    "autor": "Thomas Barfield",
+    "data": "2010",
+    "citacao": "História afegã do Império Durrani de 1747 à guerra americana pós-2001, cobrindo o Grande Jogo entre impérios britânico e russo, a invasão soviética de 1979 e a ascensão do Talibã."
+  },
+  {
+    "id": "acordo-doha-2020",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo entre os Estados Unidos e o Talibã",
+    "publicacao": "Estados Unidos e Talibã, mediado pelo Catar",
+    "data": "2020-02-29",
+    "citacao": "Estabeleceu cronograma de retirada das tropas americanas do Afeganistão em troca de garantias talibãs contra o uso do território por grupos terroristas — acordo que precederia a retirada caótica de agosto de 2021 e a rápida retomada do país pelo próprio Talibã."
+  },
+  {
+    "id": "ian-talbot-paquistao",
+    "tipo": "livro",
+    "titulo": "Pakistan: A Modern History",
+    "autor": "Ian Talbot",
+    "data": "2009",
+    "citacao": "História paquistanesa da Partição de 1947 à era Musharraf, cobrindo os golpes militares recorrentes, a cisão de Bangladesh em 1971 e o programa nuclear testado em 1998."
+  },
+  {
+    "id": "willem-van-schendel-bangladesh",
+    "tipo": "livro",
+    "titulo": "A History of Bangladesh",
+    "autor": "Willem van Schendel",
+    "data": "2009",
+    "citacao": "História bangladeshiana do Paquistão Oriental à era contemporânea, cobrindo o Movimento da Língua de 1952, a Guerra de Libertação de 1971 e a rivalidade política de décadas entre Sheikh Hasina e Khaleda Zia."
+  },
+  {
+    "id": "john-whelpton-nepal",
+    "tipo": "livro",
+    "titulo": "A History of Nepal",
+    "autor": "John Whelpton",
+    "data": "2005",
+    "citacao": "História nepalesa da unificação sob Prithvi Narayan Shah à monarquia constitucional pós-2006, cobrindo a oligarquia hereditária Rana, o Massacre Real de 2001 e a insurgência maoista que levaria à abolição da monarquia em 2008."
+  },
+  {
+    "id": "acordo-paz-nepal-2006",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo Geral de Paz do Nepal",
+    "publicacao": "Governo do Nepal e Partido Comunista do Nepal (Maoista)",
+    "data": "2006-11-21",
+    "citacao": "Encerrou a Guerra Civil Nepalesa de 1996-2006, que matou cerca de dezessete mil pessoas, abrindo caminho para a abolição da monarquia em 2008 e a transformação do Nepal em república federal democrática."
+  },
+  {
+    "id": "karma-phuntsho-butao",
+    "tipo": "livro",
+    "titulo": "The History of Bhutan",
+    "autor": "Karma Phuntsho",
+    "data": "2013",
+    "citacao": "História butanesa da fundação sob o Zhabdrung Ngawang Namgyal no século XVII à monarquia constitucional de 2008, cobrindo o isolamento internacional deliberado do país ao longo do século XX e a expulsão da minoria lhotshampa nos anos 1990."
+  },
+  {
+    "id": "km-de-silva-sri-lanka",
+    "tipo": "livro",
+    "titulo": "A History of Sri Lanka",
+    "autor": "K. M. de Silva",
+    "data": "2005",
+    "citacao": "História do Sri Lanka de referência, do Reino de Anuradhapura à Guerra Civil de 1983-2009, cobrindo a notável sobrevivência do Reino de Candy à colonização portuguesa e holandesa até a conquista britânica final de 1815."
   }
 ]

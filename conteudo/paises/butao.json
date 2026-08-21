@@ -1,0 +1,50 @@
+{
+  "iso": "BTN",
+  "isoNumerico": "064",
+  "nome": "Butão",
+  "periodos": [
+    {
+      "id": "btn-fundacao-zhabdrung-dual",
+      "inicio": "1634",
+      "fim": "1907",
+      "rotulo": "Fundação sob o Zhabdrung e o sistema dual",
+      "regime": "teocracia dual, sob autoridade civil e religiosa exercidas separadamente",
+      "textoMdx": "O lama tibetano Zhabdrung Ngawang Namgyal unifica o Butão como Estado distinto ao longo das décadas de 1630 a 1650, estabelecendo sistema incomum de autoridade dual — o Druk Desi como líder civil e o Je Khenpo como autoridade religiosa suprema, ambos preservados institucionalmente até hoje em formas adaptadas.\n\n**O Butão enfrenta conflito periódico com a Índia britânica em expansão, incluindo a Guerra de Duar de 1864-1865, que resulta na perda de territórios meridionais através do Tratado de Sinchula.**\n\n**O sistema dual de governança enfraquece gradualmente ao longo do século XIX diante de disputas de poder crescentes entre governadores regionais rivais, os penlops, preparando terreno para reorganização política definitiva no início do século seguinte.**",
+      "fontes": [
+        "karma-phuntsho-butao"
+      ]
+    },
+    {
+      "id": "btn-monarquia-wangchuck-isolamento",
+      "inicio": "1907",
+      "fim": "1998",
+      "rotulo": "Monarquia Wangchuck e o isolamento",
+      "regime": "monarquia hereditária centralizada, sob política deliberada de isolamento internacional",
+      "textoMdx": "Ugyen Wangchuck é eleito primeiro rei hereditário do Butão em 1907, unificando pela primeira vez os antigos governadores regionais rivais sob autoridade real centralizada e fundando a dinastia que governa o país até hoje.\n\n**O Butão adota política de isolamento internacional quase completo ao longo de boa parte do século XX — televisão e internet permaneceriam banidas até 1999 —, enquanto sucessivos reis conduzem modernização extremamente gradual e cuidadosamente controlada.**\n\n**O reino desenvolveria, a partir da década de 1970, sua influente filosofia de desenvolvimento da \"Felicidade Interna Bruta\", proposta explicitamente como alternativa ao PIB convencional como medida de progresso nacional — conceito que ganharia reconhecimento e influência internacional consideráveis nas décadas seguintes.**",
+      "fontes": [
+        "karma-phuntsho-butao"
+      ]
+    },
+    {
+      "id": "btn-crise-etnica-transicao-democratica",
+      "inicio": "1990",
+      "fim": "2008",
+      "rotulo": "Crise étnica e a transição democrática",
+      "regime": "monarquia absoluta, sob crise de expulsão étnica seguida de transição democrática voluntariamente iniciada pelo próprio rei",
+      "textoMdx": "Políticas controversas de cidadania e assimilação cultural, no início dos anos 1990, levam à expulsão ou fuga de mais de cem mil butaneses de origem nepalesa étnica — os lhotshampa —, cerca de um sexto da população total do país à época, para campos de refugiados no Nepal, episódio de direitos humanos que permanece apenas parcialmente resolvido, com a maioria dos refugiados eventualmente reassentada em terceiros países, incluindo os Estados Unidos, sem jamais retornar ao Butão.\n\n**O quarto rei, Jigme Singye Wangchuck, inicia voluntária e proativamente transição democrática — movimento raro e notável para um monarca absoluto ainda popular reduzir deliberadamente seu próprio poder constitucional —, abdicando em favor do filho em 2006.**",
+      "fontes": [
+        "karma-phuntsho-butao"
+      ]
+    },
+    {
+      "id": "btn-monarquia-constitucional-atual",
+      "inicio": "2008",
+      "rotulo": "Monarquia constitucional contemporânea",
+      "regime": "monarquia constitucional democrática",
+      "textoMdx": "O Butão realiza suas primeiras eleições parlamentares democráticas em 2008, completando transição formal para monarquia constitucional.\n\n**O reino continua modernização cuidadosa e incremental, preservando deliberadamente distintividade cultural e proteções ambientais rigorosas — o Butão é constitucionalmente obrigado a manter ao menos 60% de cobertura florestal, e permanece um dos únicos países do mundo com balanço de carbono negativo**, equilibrando abertura crescente ao mundo exterior com o mesmo ritmo cauteloso e deliberado de mudança que há muito caracteriza sua governança moderna.",
+      "fontes": [
+        "karma-phuntsho-butao"
+      ]
+    }
+  ]
+}

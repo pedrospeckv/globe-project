@@ -1,0 +1,62 @@
+{
+  "iso": "AFG",
+  "isoNumerico": "004",
+  "nome": "Afeganistão",
+  "periodos": [
+    {
+      "id": "afg-imperio-durrani",
+      "inicio": "1747",
+      "fim": "1826",
+      "rotulo": "Império Durrani",
+      "regime": "império fundador do Estado afegão moderno",
+      "textoMdx": "Ahmad Shah Durrani, ex-comandante do exército persa de Nader Shah, funda em 1747 o império que a historiografia afegã considera o Estado fundador da nação moderna — expansão rápida que chegaria a se estender do Irã à Caxemira e às portas de Délhi, tornando-o um dos maiores impérios islâmicos de sua época.\n\n**Ahmad Shah é celebrado até hoje como \"pai da nação\" afegã, título que reflete o papel fundacional atribuído ao seu reinado na formação da identidade estatal afegã contemporânea.**\n\n**A morte de Ahmad Shah, em 1772, abre décadas de disputas sucessórias e fragmentação territorial progressiva entre seus herdeiros — enfraquecimento que deixaria o Afeganistão vulnerável à rivalidade crescente entre os impérios britânico e russo que se intensificaria ao longo do século seguinte.**",
+      "fontes": [
+        "thomas-barfield-afeganistao"
+      ]
+    },
+    {
+      "id": "afg-grande-jogo-emirado",
+      "inicio": "1826",
+      "fim": "1919",
+      "rotulo": "Grande Jogo e o Emirado do Afeganistão",
+      "regime": "emirado, campo de disputa central entre os impérios britânico e russo",
+      "textoMdx": "O Afeganistão se torna palco central do \"Grande Jogo\", rivalidade geopolítica entre o Império Britânico, temendo avanço russo sobre a Índia, e o Império Russo, expandindo-se pela Ásia Central — a Primeira Guerra Anglo-Afegã, de 1839 a 1842, termina em desastre militar britânico: de cerca de 16.500 pessoas na retirada de Cabul, apenas um sobrevivente alcançaria Jalalabad.\n\n**Abdur Rahman Khan, o \"Emir de Ferro\", consolida fronteiras e autoridade central modernas entre 1880 e 1901 com subsídios britânicos substanciais — a Linha Durand, traçada em 1893 como fronteira com a Índia britânica, dividiria territórios pashtuns de forma que geraria tensão persistente com o futuro Paquistão.**\n\n**A Terceira Guerra Anglo-Afegã, de 1919, embora breve, força a Grã-Bretanha a reconhecer plena independência afegã sobre política externa — encerrando décadas de controle britânico indireto sobre as relações exteriores do país.**",
+      "fontes": [
+        "thomas-barfield-afeganistao"
+      ]
+    },
+    {
+      "id": "afg-independencia-monarquia-reformas",
+      "inicio": "1919",
+      "fim": "1973",
+      "rotulo": "Independência e a monarquia reformista",
+      "regime": "monarquia constitucional, com tentativas de modernização de ritmo e sucesso variáveis",
+      "textoMdx": "O rei Amanullah Khan conduz reformas modernizadoras ambiciosas — direitos femininos ampliados, educação secular, mudanças no código de vestimenta — que provocariam reação conservadora violenta e sua deposição em 1929.\n\n**Zahir Shah reinaria por quatro décadas, de 1933 a 1973, período de estabilidade relativa e modernização mais cautelosa frequentemente recordado com nostalgia como uma \"era dourada\" de paz comparativa antes das décadas de conflito que se seguiriam.**\n\n**Zahir Shah é deposto em golpe incruento por seu primo Daoud Khan em 1973, que declara república — encerrando quatro décadas de reinado e a monarquia afegã como instituição política ativa.**",
+      "fontes": [
+        "thomas-barfield-afeganistao"
+      ]
+    },
+    {
+      "id": "afg-golpes-invasao-sovietica-guerra-civil",
+      "inicio": "1973",
+      "fim": "1996",
+      "rotulo": "Golpes, a invasão soviética e a guerra civil",
+      "regime": "república, depois governo comunista sob ocupação soviética, depois Estado fragmentado por guerra civil entre facções mujahedin",
+      "textoMdx": "A república de Daoud é derrubada pela Revolução de Saur em 1978, instalando governo comunista cuja disputa faccional interna violenta provocaria intervenção militar soviética direta em dezembro de 1979.\n\n**A Guerra Soviético-Afegã, de 1979 a 1989, torna-se um dos conflitos por procuração mais significativos da Guerra Fria, com os mujahedin recebendo apoio maciço de Estados Unidos, Paquistão e Arábia Saudita — conflito que contribuiria diretamente para o próprio colapso soviético e forjaria a experiência formativa de figuras como Osama bin Laden.**\n\n**A retirada soviética, em 1989, não encerra o conflito: o governo comunista de Najibullah sobreviveria até 1992, quando o país mergulharia em guerra civil brutal entre facções mujahedin rivais — caos que criaria as condições diretas para a ascensão do movimento talibã.**",
+      "fontes": [
+        "thomas-barfield-afeganistao"
+      ]
+    },
+    {
+      "id": "afg-taliban-guerra-eua-atual",
+      "inicio": "1996",
+      "rotulo": "Talibã, a guerra dos EUA e o Afeganistão atual",
+      "regime": "emirado islâmico sob o Talibã, interrompido por duas décadas de intervenção internacional",
+      "textoMdx": "O Talibã toma Cabul em 1996, impondo interpretação extremamente rigorosa da lei islâmica — proibição de música, restrições severas à educação e ao trabalho femininos — e hospedando a liderança da al-Qaeda, incluindo Osama bin Laden, cujo planejamento dos ataques de 11 de setembro de 2001 ocorreria parcialmente em solo afegão.\n\n**A invasão liderada pelos Estados Unidos, em outubro de 2001, derruba o Talibã em semanas — duas décadas de intervenção internacional e construção estatal sob os governos de Hamid Karzai e depois Ashraf Ghani enfrentariam insurgência talibã persistente ao longo de todo o período.**\n\n**O Acordo de Doha de 2020 estabelece cronograma de retirada americana — a retirada caótica de agosto de 2021 veria o Talibã retomar controle de todo o país em questão de dias, com o governo de Ghani fugindo e Cabul caindo sem resistência significativa.** O Talibã reimporia governo islâmico rigoroso desde então, incluindo restrições severas renovadas contra mulheres e meninas — banidas de educação secundária e universitária e da maior parte do emprego —, permanecendo sem reconhecimento internacional amplo como governo legítimo em meio a crise humanitária e econômica severa persistente.",
+      "fontes": [
+        "thomas-barfield-afeganistao",
+        "acordo-doha-2020"
+      ]
+    }
+  ]
+}
