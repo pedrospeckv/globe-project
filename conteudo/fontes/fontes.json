@@ -4727,5 +4727,69 @@
     "autor": "Christopher P. Atwood",
     "data": "2004",
     "citacao": "Referência enciclopédica sobre a história mongol, do Império de Genghis Khan e a Dinastia Yuan ao domínio Qing, à independência de 1911 sob o Bogd Khan, à República Popular socialista e à transição democrática de 1990."
+  },
+  {
+    "id": "costas-kyrris-chipre",
+    "tipo": "livro",
+    "titulo": "History of Cyprus",
+    "autor": "Costas P. Kyrris",
+    "data": "1985",
+    "citacao": "História cipriota abrangente, da Antiguidade e do domínio bizantino ao Reino de Lusignan, ao domínio veneziano e otomano, referência de base para os períodos pré-britânicos da ilha."
+  },
+  {
+    "id": "william-mallinson-chipre",
+    "tipo": "livro",
+    "titulo": "Cyprus: A Modern History",
+    "autor": "William Mallinson",
+    "data": "2005",
+    "citacao": "História cipriota moderna do domínio britânico à independência de 1960, ao golpe apoiado pela junta grega e à invasão turca de 1974 que dividiria permanentemente a ilha."
+  },
+  {
+    "id": "acordos-zurique-londres-1959",
+    "tipo": "documento-oficial",
+    "titulo": "Acordos de Zurique e Londres",
+    "publicacao": "Grécia, Turquia e Reino Unido",
+    "data": "1959-02-19",
+    "citacao": "Estabeleceram o arcabouço constitucional para a independência do Chipre em 1960, incluindo o Tratado de Garantia que autorizaria a intervenção militar turca invocada em 1974."
+  },
+  {
+    "id": "rf-foster-irlanda-moderna",
+    "tipo": "livro",
+    "titulo": "Modern Ireland 1600-1972",
+    "autor": "R. F. Foster",
+    "data": "1988",
+    "citacao": "História irlandesa de referência da conquista Tudor e da colonização ao Grande Fome, à ascensão do nacionalismo e à independência de 1922."
+  },
+  {
+    "id": "sean-duffy-irlanda-medieval",
+    "tipo": "livro",
+    "titulo": "Ireland in the Middle Ages",
+    "autor": "Seán Duffy",
+    "data": "1997",
+    "citacao": "História da Irlanda gaélica medieval, dos reinos e da alta realeza pré-normanda à invasão normanda de 1169-1171."
+  },
+  {
+    "id": "tratado-anglo-irlandes-1921",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado Anglo-Irlandês",
+    "publicacao": "Reino Unido e delegação irlandesa",
+    "data": "1921-12-06",
+    "citacao": "Encerrou a Guerra da Independência Irlandesa, criando o Estado Livre Irlandês como domínio autônomo e formalizando a partição da ilha, que precipitaria a Guerra Civil Irlandesa subsequente."
+  },
+  {
+    "id": "charles-king-moldova",
+    "tipo": "livro",
+    "titulo": "The Moldovans: Romania, Russia, and the Politics of Culture",
+    "autor": "Charles King",
+    "data": "2000",
+    "citacao": "História da Bessarábia e da identidade moldava, da anexação russa de 1812 à divisão do antigo Principado da Moldávia, à RSS Moldava soviética e à independência de 1991."
+  },
+  {
+    "id": "tratado-bucareste-1812",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Bucareste",
+    "publicacao": "Império Russo e Império Otomano",
+    "data": "1812-05-28",
+    "citacao": "Encerrou a Guerra Russo-Turca de 1806-1812, cedendo a Bessarábia — metade oriental do Principado da Moldávia, correspondente aproximadamente à Moldova moderna — ao Império Russo."
   }
 ]

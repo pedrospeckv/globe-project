@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**163 de 174 países** desenhados no mapa têm dossiê (93.7%), somando **809 períodos**.
+**166 de 174 países** desenhados no mapa têm dossiê (95.4%), somando **824 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -47,6 +47,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Chéquia | `CZE` | 6 | 6 |
 | Chile | `CHL` | 9 | 9 |
 | China | `CHN` | 16 | 16 |
+| Chipre | `CYP` | 5 | 5 |
 | Colômbia | `COL` | 7 | 7 |
 | Congo | `COG` | 4 | 4 |
 | Coreia do Norte | `PRK` | 4 | 4 |
@@ -93,6 +94,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Indonésia | `IDN` | 8 | 8 |
 | Irã | `IRN` | 6 | 6 |
 | Iraque | `IRQ` | 4 | 4 |
+| Irlanda | `IRL` | 5 | 5 |
 | Islândia | `ISL` | 3 | 3 |
 | Itália | `ITA` | 4 | 4 |
 | Jamaica | `JAM` | 3 | 3 |
@@ -117,6 +119,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | México | `MEX` | 9 | 9 |
 | Mianmar | `MMR` | 7 | 7 |
 | Moçambique | `MOZ` | 4 | 4 |
+| Moldávia | `MDA` | 5 | 5 |
 | Mongólia | `MNG` | 5 | 5 |
 | Montenegro | `MNE` | 6 | 6 |
 | Namíbia | `NAM` | 4 | 4 |
@@ -183,7 +186,6 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 
 | | | | |
 |---|---|---|---|
-| Antarctica | Cyprus | Falkland Is. | Fr. S. Antarctic Lands |
-| Ireland | Israel | Moldova | New Caledonia |
-| Palestine | Taiwan | W. Sahara |  |
+| Antarctica | Falkland Is. | Fr. S. Antarctic Lands | Israel |
+| New Caledonia | Palestine | Taiwan | W. Sahara |
 

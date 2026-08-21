@@ -1,0 +1,63 @@
+{
+  "iso": "CYP",
+  "isoNumerico": "196",
+  "nome": "Chipre",
+  "periodos": [
+    {
+      "id": "cyp-bizancio",
+      "inicio": "330",
+      "fim": "1191",
+      "rotulo": "Chipre bizantino",
+      "regime": "província do Império Bizantino, incluindo período incomum de condomínio bizantino-árabe",
+      "textoMdx": "O Chipre integra o Império Bizantino desde sua fundação em 330, após séculos sob domínio romano precedido por fenícios, assírios, egípcios, persas e o período helenístico ptolemaico — a ilha desenvolveria identidade grega-ortodoxa profundamente enraizada que permanece central à sua história até hoje.\n\n**Um arranjo territorial incomum na história medieval, entre aproximadamente 688 e 965, vê Chipre administrado como condomínio conjunto entre o Império Bizantino e o Califado Árabe, com receitas fiscais divididas entre as duas potências — período de relativa neutralidade que terminaria quando o imperador bizantino Nicéforo II Focas reconquistaria controle exclusivo da ilha em 965.**\n\n**O domínio bizantino direto se manteria pelos dois séculos seguintes, até Ricardo Coração de Leão conquistar a ilha durante a Terceira Cruzada, em 1191, encerrando abruptamente mais de oito séculos de continuidade administrativa bizantina.**",
+      "fontes": [
+        "costas-kyrris-chipre"
+      ]
+    },
+    {
+      "id": "cyp-lusignan-veneza",
+      "inicio": "1191",
+      "fim": "1571",
+      "rotulo": "Reino de Lusignan e domínio veneziano",
+      "regime": "reino cruzado franco-cipriota, depois colônia da República de Veneza",
+      "textoMdx": "Ricardo Coração de Leão vende Chipre aos Templários e depois a Guy de Lusignan, nobre franco que fundaria dinastia e reino cruzado que governaria a ilha por quase três séculos — o Reino de Lusignan se tornaria centro comercial e cultural relevante do Mediterrâneo oriental, refúgio para cristãos após a queda dos últimos redutos cruzados no Levante em 1291.\n\n**A República de Veneza assume controle direto da ilha em 1489, através de manobra diplomática envolvendo a rainha cipriota Catarina Cornaro, veneziana de nascimento — Chipre se tornaria posto avançado estratégico veneziano no Mediterrâneo oriental, fortificado extensamente contra a ameaça otomana crescente.**",
+      "fontes": [
+        "costas-kyrris-chipre"
+      ]
+    },
+    {
+      "id": "cyp-dominio-otomano",
+      "inicio": "1571",
+      "fim": "1878",
+      "rotulo": "Domínio Otomano",
+      "regime": "província do Império Otomano",
+      "textoMdx": "O Império Otomano conquista Chipre após campanha militar sangrenta em 1570-1571, incluindo o cerco brutal de Famagusta — a conquista otomana introduziria população turco-cipriota muçulmana significativa na ilha, ao lado da maioria grego-cipriota ortodoxa preexistente, plantando as bases demográficas da divisão comunal que marcaria a história cipriota séculos depois.\n\n**A administração otomana permaneceria formalmente vigente por mais de três séculos, até pressões geopolíticas europeias no contexto da rivalidade russo-otomana levarem à cessão administrativa da ilha à Grã-Bretanha em 1878, embora a soberania otomana nominal persistisse formalmente até a Primeira Guerra Mundial.**",
+      "fontes": [
+        "costas-kyrris-chipre"
+      ]
+    },
+    {
+      "id": "cyp-dominio-britanico",
+      "inicio": "1878",
+      "fim": "1960",
+      "rotulo": "Domínio Britânico",
+      "regime": "administração britânica, depois colônia da coroa",
+      "textoMdx": "A Grã-Bretanha assume administração de Chipre em 1878, formalizando anexação direta em 1914 após o Império Otomano aderir às Potências Centrais na Primeira Guerra Mundial, e estabelecendo colônia da coroa britânica em 1925.\n\n**O movimento pela enosis, união política com a Grécia, ganha força crescente entre a maioria grego-cipriota ao longo do século XX — a insurgência armada da organização EOKA, entre 1955 e 1959, liderada por George Grivas, pressiona a Grã-Bretanha através de campanha de guerrilha e atentados, enquanto a minoria turco-cipriota, temendo subordinação numa Chipre unida à Grécia, passa a defender alternativamente a partição da ilha.**\n\n**Os Acordos de Zurique e Londres, de 1959, negociados entre Grécia, Turquia e Reino Unido, estabelecem arcabouço constitucional para independência que rejeitaria tanto a enosis grega quanto a partição turca — Chipre se tornaria Estado independente em 1960, sob a presidência do arcebispo Makarios III.**",
+      "fontes": [
+        "costas-kyrris-chipre",
+        "william-mallinson-chipre",
+        "acordos-zurique-londres-1959"
+      ]
+    },
+    {
+      "id": "cyp-independencia-divisao-atual",
+      "inicio": "1960",
+      "rotulo": "Independência e a divisão da ilha",
+      "regime": "república presidencialista, com o terço norte sob ocupação militar turca desde 1974",
+      "textoMdx": "A independência de 1960 traz consigo constituição de partilha de poder extremamente complexa entre as comunidades grego e turco-cipriota, que rapidamente se revelaria instável — violência intercomunal generalizada, a partir de 1963, forçaria a retirada turco-cipriota das instituições governamentais conjuntas e a criação de enclaves comunitários segregados ao longo da década seguinte.\n\n**Um golpe de Estado apoiado pela junta militar grega, em julho de 1974, buscando enosis forçada com a Grécia, derruba Makarios III e serve de justificativa para a invasão militar turca que se segue dias depois, invocando o Tratado de Garantia de 1959 — as forças turcas ocupariam definitivamente cerca de um terço setentrional da ilha, deslocando dezenas de milhares de pessoas de ambas as comunidades em ambas as direções.**\n\n**A \"República Turca do Chipre do Norte\", proclamada unilateralmente em 1983, permanece reconhecida apenas pela própria Turquia, sem reconhecimento internacional amplo — a linha verde da ONU divide a ilha até hoje, apesar de sucessivas tentativas de reunificação fracassadas, incluindo a rejeição do Plano Annan em referendo grego-cipriota de 2004 e o colapso das negociações de Crans-Montana em 2017.** A República de Chipre ingressaria na União Europeia em 2004, embora o acervo legal europeu permaneça suspenso no território sob controle turco-cipriota.",
+      "fontes": [
+        "william-mallinson-chipre"
+      ]
+    }
+  ]
+}

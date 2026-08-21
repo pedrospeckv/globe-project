@@ -1,0 +1,62 @@
+{
+  "iso": "MDA",
+  "isoNumerico": "498",
+  "nome": "Moldávia",
+  "periodos": [
+    {
+      "id": "mda-principado-moldavia",
+      "inicio": "1359",
+      "fim": "1812",
+      "rotulo": "Principado da Moldávia",
+      "regime": "principado medieval, sob suserania otomana a partir do século XVI",
+      "textoMdx": "O voievoda Bogdan I funda o Principado da Moldávia em 1359, território que se estenderia originalmente dos Cárpatos ao Mar Negro — o reinado de Estêvão, o Grande, entre 1457 e 1504, marcaria o auge da resistência militar moldava contra expansão otomana, húngara e polonesa, e permanece figura de reverência nacional tanto para romenos quanto para moldavos até hoje.\n\n**O principado se tornaria vassalo tributário do Império Otomano ao longo do século XVI, preservando autonomia interna considerável sob essa suserania por cerca de três séculos, governado por dinastias locais e depois por hospodars fanariotas gregos nomeados diretamente por Istambul a partir do início do século XVIII.**\n\n**A Guerra Russo-Turca de 1806-1812 encerraria essa continuidade territorial: o Tratado de Bucareste de 1812 cederia a metade oriental do principado, a Bessarábia — território que corresponde aproximadamente à Moldova moderna — ao Império Russo, enquanto a metade ocidental restante continuaria como Principado da Moldávia até se unir à Valáquia em 1859, formando a Romênia moderna.**",
+      "fontes": [
+        "charles-king-moldova",
+        "tratado-bucareste-1812"
+      ]
+    },
+    {
+      "id": "mda-bessarabia-imperio-russo",
+      "inicio": "1812",
+      "fim": "1918",
+      "rotulo": "Bessarábia sob o Império Russo",
+      "regime": "província do Império Russo",
+      "textoMdx": "A Bessarábia é incorporada ao Império Russo como província separada em 1812, submetida a processo gradual de russificação administrativa e cultural ao longo do século seguinte, embora a maioria rural da população mantivesse língua e costumes romenos/moldavos.\n\n**Movimentos nacionalistas românicos locais ganhariam força crescente diante do colapso do poder czarista durante a Primeira Guerra Mundial — a assembleia regional Sfatul Țării declararia a união da Bessarábia com a Romênia em 1918, união que a jovem União Soviética jamais reconheceria como legítima.**",
+      "fontes": [
+        "charles-king-moldova"
+      ]
+    },
+    {
+      "id": "mda-uniao-romania-entreguerras",
+      "inicio": "1918",
+      "fim": "1940",
+      "rotulo": "União com a Romênia no período entreguerras",
+      "regime": "província do Reino da Romênia",
+      "textoMdx": "A Bessarábia integra o Reino da Romênia como província ao longo de todo o período entreguerras, enquanto a União Soviética mantém reivindicação territorial não reconhecida sobre o território, chegando a criar república autônoma soviética moldava nominal na margem oriental do rio Dniester, já em território sovietico, como reivindicação simbólica.\n\n**O protocolo secreto do Pacto Molotov-Ribbentrop, de agosto de 1939, atribuiria a Bessarábia à esfera de influência soviética — a União Soviética emitiria ultimato à Romênia exigindo sua devolução em junho de 1940, ocupando o território militarmente dias depois.**",
+      "fontes": [
+        "charles-king-moldova"
+      ]
+    },
+    {
+      "id": "mda-anexacao-sovietica-rss-moldava",
+      "inicio": "1940",
+      "fim": "1991",
+      "rotulo": "Anexação soviética e a RSS Moldava",
+      "regime": "república socialista soviética",
+      "textoMdx": "A União Soviética formaliza a República Socialista Soviética Moldava em agosto de 1940, unindo a Bessarábia anexada a uma faixa oriental do rio Dniester previamente soviética — a Romênia, aliada da Alemanha nazista, reocuparia brevemente o território entre 1941 e 1944, antes da reconquista soviética definitiva ao final da Segunda Guerra Mundial.\n\n**Décadas de sovietização subsequente incluiriam deportações em massa para a Sibéria e o Cazaquistão, coletivização agrícola forçada e política demográfica deliberada de imigração russa e ucraniana, sobretudo concentrada na margem oriental do Dniester — políticas que semeariam divisões regionais e linguísticas que se tornariam centrais ao conflito territorial pós-independência.**",
+      "fontes": [
+        "charles-king-moldova"
+      ]
+    },
+    {
+      "id": "mda-independencia-transnistria-atual",
+      "inicio": "1991",
+      "rotulo": "Independência e o conflito da Transnístria",
+      "regime": "república semipresidencialista independente, com controle efetivo não estendido à margem oriental do Dniester",
+      "textoMdx": "A Moldova declara independência em agosto de 1991, em meio ao colapso da União Soviética — a região da Transnístria, faixa estreita na margem oriental do rio Dniester de população majoritariamente russófona e nostalgia soviética, declara separação unilateral já em 1990, temendo unificação futura com a Romênia.\n\n**A Guerra da Transnístria, de 1992, breve mas sangrenta, termina em cessar-fogo que deixaria tropas russas estacionadas permanentemente na região — a Transnístria permanece, décadas depois, território separatista congelado sem reconhecimento internacional, efetivamente fora do controle governamental moldavo.**\n\n**A Moldova navegaria décadas de equilíbrio geopolítico delicado entre aspirações de integração europeia e influência russa persistente — a eleição da pró-europeia Maia Sandu à presidência, em 2020, e a concessão de status de candidata à União Europeia, em 2022, sinalizariam reorientação decisiva rumo ao Ocidente, acelerada pelo temor regional provocado pela invasão russa da Ucrânia vizinha naquele mesmo ano.**",
+      "fontes": [
+        "charles-king-moldova"
+      ]
+    }
+  ]
+}

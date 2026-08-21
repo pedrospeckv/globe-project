@@ -1,0 +1,63 @@
+{
+  "iso": "IRL",
+  "isoNumerico": "372",
+  "nome": "Irlanda",
+  "periodos": [
+    {
+      "id": "irl-reinos-gaelicos-alta-realeza",
+      "inicio": "800",
+      "fim": "1171",
+      "rotulo": "Reinos gaélicos e a Alta Realeza",
+      "regime": "mosaico de reinos gaélicos regionais sob a autoridade nominal e disputada de um Alto Rei",
+      "textoMdx": "A Irlanda gaélica medieval se organiza como mosaico de dezenas de pequenos reinos regionais (tuatha), unidos apenas nominalmente sob a instituição contestada da Alta Realeza (Ard Rí) — o título carregava prestígio simbólico considerável, mas raramente traduzia-se em autoridade administrativa efetiva sobre toda a ilha.\n\n**Incursões vikings recorrentes a partir do final do século VIII estabeleceriam entrepostos costeiros fortificados que se tornariam as primeiras cidades irlandesas verdadeiras, incluindo Dublin — o alto-rei Brian Boru derrotaria coalizão viking-irlandesa decisiva na Batalha de Clontarf, em 1014, mas seu assassinato na própria batalha impediria a consolidação duradoura de autoridade centralizada que sua vitória parecia prometer.**\n\n**Décadas de disputa sucessória subsequente entre dinastias rivais deixariam a Irlanda gaélica fragmentada e vulnerável justamente quando o rei deposto de Leinster buscaria apoio militar normando-inglês para recuperar seu trono — convite que traria as forças de Ricardo de Clare, o \"Strongbow\", e desencadearia a invasão normanda de 1169-1171.**",
+      "fontes": [
+        "sean-duffy-irlanda-medieval"
+      ]
+    },
+    {
+      "id": "irl-senhorio-normando-reino-ingles",
+      "inicio": "1171",
+      "fim": "1541",
+      "rotulo": "Senhorio Normando e a lenta conquista Tudor",
+      "regime": "senhorio sob a coroa inglesa, com autoridade efetiva reduzida a uma área litorânea encolhida",
+      "textoMdx": "O rei Henrique II da Inglaterra estabelece o Senhorio da Irlanda em 1171, mas a autoridade inglesa efetiva permaneceria, por séculos, confinada a uma área litorânea fortificada em torno de Dublin conhecida como o \"Pale\" — além dessa fronteira, senhores anglo-normandos assimilados progressivamente aos costumes gaélicos, e reinos gaélicos nativos independentes, preservariam autonomia considerável.\n\n**A frase satírica \"mais irlandeses que os próprios irlandeses\", cunhada para descrever famílias anglo-normandas como os FitzGerald que se casaram e culturalmente se fundiram com a nobreza gaélica local, capturaria bem os limites reais da autoridade inglesa medieval sobre a ilha ao longo de mais de três séculos.**",
+      "fontes": [
+        "sean-duffy-irlanda-medieval",
+        "rf-foster-irlanda-moderna"
+      ]
+    },
+    {
+      "id": "irl-reino-irlanda-conquista-tudor-colonizacao",
+      "inicio": "1541",
+      "fim": "1801",
+      "rotulo": "Reino da Irlanda: conquista Tudor e colonização",
+      "regime": "reino sob a coroa inglesa, submetido à conquista militar completa e à colonização plantation",
+      "textoMdx": "Henrique VIII proclama o Reino da Irlanda em 1541, iniciando processo de conquista militar completa e sistemática que se estenderia por décadas sob seus sucessores Tudor — a conquista de Munster e Ulster, completada apenas sob Elizabeth I ao final do século XVI, submeteria pela primeira vez toda a ilha à autoridade inglesa direta e efetiva.\n\n**A colonização plantation transplantaria colonos protestantes ingleses e escoceses para terras confiscadas de proprietários católicos gaélicos, sobretudo no Ulster a partir de 1609 — reconfiguração demográfica e religiosa profunda que semearia divisões sectárias com consequências duradouras até os dias de hoje.**\n\n**A reconquista de Oliver Cromwell, entre 1649 e 1653, marcada por violência excepcional incluindo os massacres de Drogheda e Wexford, e a derrota final das forças jacobitas católicas na Guerra Guilhermita de 1689-1691, consolidariam supremacia protestante através das severas Leis Penais que restringiriam drasticamente direitos políticos, econômicos e religiosos católicos por gerações.**",
+      "fontes": [
+        "rf-foster-irlanda-moderna"
+      ]
+    },
+    {
+      "id": "irl-uniao-reino-unido-fome-independencia",
+      "inicio": "1801",
+      "fim": "1922",
+      "rotulo": "União com a Grã-Bretanha, a Grande Fome e a independência",
+      "regime": "parte integrante do Reino Unido, sob parlamento próprio abolido pelo Ato de União",
+      "textoMdx": "O Ato de União de 1800-1801 extingue o parlamento irlandês, integrando formalmente a Irlanda ao Reino Unido da Grã-Bretanha e Irlanda — a emancipação católica de 1829, conquistada através de campanha de agitação popular liderada por Daniel O'Connell, restauraria direitos políticos católicos básicos décadas depois.\n\n**A Grande Fome, entre 1845 e 1852, provocada pela praga da batata mas dramaticamente agravada pelas políticas e pela indiferença do governo britânico, mataria cerca de um milhão de pessoas e forçaria a emigração de outro milhão — trauma demográfico e nacional catastrófico que reduziria permanentemente a população irlandesa e alimentaria décadas de ressentimento nacionalista subsequente.**\n\n**O Levante da Páscoa de 1916, insurreição armada inicialmente impopular mas cuja repressão brutal britânica reverteria drasticamente a opinião pública irlandesa, prepararia terreno para a Guerra da Independência Irlandesa de 1919-1921 — o Tratado Anglo-Irlandês de 1921 criaria o Estado Livre Irlandês como domínio autônomo, mas também formalizaria a partição da ilha, deixando seis condados do Ulster como Irlanda do Norte dentro do Reino Unido.**",
+      "fontes": [
+        "rf-foster-irlanda-moderna",
+        "tratado-anglo-irlandes-1921"
+      ]
+    },
+    {
+      "id": "irl-estado-livre-republica-atual",
+      "inicio": "1922",
+      "rotulo": "Do Estado Livre à República contemporânea",
+      "regime": "domínio autônomo, depois república soberana e Estado-membro da União Europeia",
+      "textoMdx": "O Estado Livre Irlandês nasce imediatamente mergulhado em guerra civil, entre 1922 e 1923, opondo apoiadores e opositores do próprio Tratado Anglo-Irlandês — nova constituição de 1937 e a declaração formal de república, em 1949, completariam gradualmente a soberania plena do Estado, rompendo os últimos laços constitucionais residuais com a coroa britânica.\n\n**A Irlanda ingressa na então Comunidade Econômica Europeia em 1973, e experimentaria décadas depois transformação econômica dramática conhecida como \"Tigre Celta\", nos anos 1990 e 2000, antes de ser duramente atingida pela crise financeira global de 2008 e pelo colapso bancário doméstico associado, exigindo resgate internacional severo.**\n\n**O país passaria, nas décadas recentes, por liberalização social rápida e notável — referendos populares aprovariam o casamento igualitário em 2015 e a legalização do aborto em 2018, marcando ruptura expressiva com a influência histórica dominante da Igreja Católica na vida pública irlandesa — enquanto a Irlanda do Norte, permanecendo parte do Reino Unido, seguiria trajetória distinta marcada por décadas de conflito sectário conhecido como os Troubles até o Acordo de Sexta-Feira Santa de 1998.**",
+      "fontes": [
+        "rf-foster-irlanda-moderna"
+      ]
+    }
+  ]
+}
