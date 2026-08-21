@@ -4175,5 +4175,69 @@
     "publicacao": "Governo do Sudão e Movimento/Exército de Libertação do Povo Sudanês",
     "data": "2005-01-09",
     "citacao": "Encerrou a Segunda Guerra Civil Sudanesa, uma das mais longas e mortíferas da história africana, concedendo autonomia ao sul do país e estabelecendo cronograma para referendo de autodeterminação — realizado em 2011, com resultado esmagador pela independência do Sudão do Sul."
+  },
+  {
+    "id": "falola-heaton-nigeria",
+    "tipo": "livro",
+    "titulo": "A History of Nigeria",
+    "autor": "Toyin Falola e Matthew M. Heaton",
+    "data": "2008",
+    "citacao": "História nigeriana do Império Canem-Bornu à Quarta República, cobrindo o Califado de Socoto, a amalgamação colonial britânica de 1914 e a Guerra Civil de Biafra de 1967-1970."
+  },
+  {
+    "id": "roger-gocking-gana",
+    "tipo": "livro",
+    "titulo": "The History of Ghana",
+    "autor": "Roger S. Gocking",
+    "data": "2005",
+    "citacao": "História ganesa do Império Asante à democracia contemporânea, cobrindo as Guerras Anglo-Asante, a liderança pan-africanista de Kwame Nkrumah e a consolidação democrática sob Jerry Rawlings."
+  },
+  {
+    "id": "boubacar-barry-senegambia",
+    "tipo": "livro",
+    "titulo": "Senegambia and the Atlantic Slave Trade",
+    "autor": "Boubacar Barry",
+    "data": "1998",
+    "citacao": "História da região senegambiana, do Império Jolofo e os reinos wolof sucessores ao impacto devastador do comércio atlântico de escravos e à colonização francesa progressiva a partir de Saint-Louis."
+  },
+  {
+    "id": "nehemia-levtzion-gana-mali",
+    "tipo": "livro",
+    "titulo": "Ancient Ghana and Mali",
+    "autor": "Nehemia Levtzion",
+    "data": "1973",
+    "citacao": "Estudo acadêmico clássico sobre os impérios de Gana e do Mali, incluindo a peregrinação lendária de Mansa Musa a Meca em 1324-1325, cujo gasto de ouro teria perturbado os mercados mediterrâneos por anos."
+  },
+  {
+    "id": "imperato-dicionario-mali",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of Mali",
+    "autor": "Pascal James Imperato e Gavin H. Imperato",
+    "data": "2008",
+    "citacao": "Obra de referência sobre a história do Mali, do Império Songai à crise jihadista do norte a partir de 2012, cobrindo a colonização francesa e a resistência prolongada de Samory Touré."
+  },
+  {
+    "id": "acordo-argel-2015-mali",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Paz e Reconciliação no Mali",
+    "publicacao": "Governo do Mali e coalizões de grupos armados do norte, mediado pela Argélia",
+    "data": "2015-06-20",
+    "citacao": "Buscou encerrar a rebelião tuaregue e a insurgência jihadista no norte do Mali, concedendo maior autonomia regional — implementação que permaneceria incompleta diante da continuidade da violência jihadista e de sucessivos golpes militares em Bamaco."
+  },
+  {
+    "id": "mike-mcgovern-costa-marfim",
+    "tipo": "livro",
+    "titulo": "Making War in Côte d'Ivoire",
+    "autor": "Mike McGovern",
+    "data": "2011",
+    "citacao": "Análise da crise política e das guerras civis marfinenses das décadas de 2000 e 2010, examinando como o conceito divisivo de 'ivoiridade' transformou imigração e identidade regional em armas políticas."
+  },
+  {
+    "id": "acordo-linas-marcoussis-2003",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Linas-Marcoussis",
+    "publicacao": "Governo da Costa do Marfim e facções rebeldes, mediado pela França",
+    "data": "2003-01-24",
+    "citacao": "Buscou encerrar a Primeira Guerra Civil Marfinense através de governo de reconciliação nacional — acordo frágil que não impediria a eclosão de nova e mais devastadora crise após as eleições disputadas de 2010."
   }
 ]

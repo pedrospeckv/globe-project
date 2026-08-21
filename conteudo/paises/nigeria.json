@@ -1,0 +1,72 @@
+{
+  "iso": "NGA",
+  "isoNumerico": "566",
+  "nome": "Nigéria",
+  "periodos": [
+    {
+      "id": "nga-canem-bornu",
+      "inicio": "900",
+      "fim": "1900",
+      "rotulo": "Império Canem-Bornu",
+      "regime": "um dos Estados mais duradouros da história africana, centrado no lago Chade",
+      "textoMdx": "O Império Canem-Bornu, centrado na bacia do lago Chade, se consolida a partir de cerca de 900 depois de Cristo, convertendo-se ao islã por volta do século XI — sua sobrevivência ininterrupta por quase um milênio o tornaria um dos Estados mais duradouros de toda a história africana.\n\n**O império controla rotas comerciais trans-saarianas cruciais, conectando a região dos Grandes Lagos africanos ao Egito e ao Magrebe, prosperando através do comércio de sal, escravos e produtos manufaturados.**\n\n**A dinastia Sayfawa, no poder por mais de setecentos anos, seria substituída pela dinastia Kanemi apenas no início do século XIX, diante de pressão do movimento jihadista fulani que também transformaria profundamente o restante do território nigeriano** — o império sobreviveria, territorialmente reduzido, até ser finalmente absorvido pela partilha colonial britânica, francesa e alemã no início do século XX.",
+      "fontes": [
+        "falola-heaton-nigeria"
+      ]
+    },
+    {
+      "id": "nga-califado-socoto-reinos-sul",
+      "inicio": "1804",
+      "fim": "1903",
+      "rotulo": "Califado de Socoto e os reinos do sul",
+      "regime": "califado islâmico confederado no norte, reinos iorubás e o Império de Benin no sul",
+      "textoMdx": "Usman dan Fodio lidera jihad islâmica a partir de 1804 que conquistaria os Estados hauçás do norte nigeriano, fundando o Califado de Socoto — confederação de emirados que se tornaria um dos maiores Estados pré-coloniais africanos, com o sultão de Socoto exercendo autoridade religiosa e política suprema.\n\n**No sudoeste, o outrora poderoso Império de Oió entra em colapso ao longo do início do século XIX, fragmentando-se em guerras civis iorubás prolongadas entre cidades-Estado rivais** — enquanto o Reino de Benin, com sua tradição artística de bronzes reais renomados internacionalmente, preservaria independência até expedição punitiva britânica destruí-lo completamente em 1897, saqueando milhares de obras de arte que permanecem, até hoje, centro de disputa internacional por restituição.\n\n**O Califado de Socoto seria conquistado militarmente pelas forças britânicas apenas em 1903, encerrando quase um século de soberania islâmica no norte nigeriano** — mas sua estrutura administrativa de emirados sobreviveria, preservada pelo sistema britânico de domínio indireto, até os dias atuais como instituição cultural e religiosa relevante.",
+      "fontes": [
+        "falola-heaton-nigeria"
+      ]
+    },
+    {
+      "id": "nga-protetorados-colonia-britanica",
+      "inicio": "1900",
+      "fim": "1960",
+      "rotulo": "Protetorados e a Colônia Britânica",
+      "regime": "protetorados administrados separadamente, amalgamados em colônia única a partir de 1914",
+      "textoMdx": "A Grã-Bretanha administra inicialmente o norte e o sul nigerianos como protetorados distintos, com estratégias coloniais radicalmente diferentes — domínio indireto preservando a estrutura emiral islâmica no norte, administração mais direta no sul, onde presença missionária e educação ocidental se expandiam rapidamente.\n\n**Lorde Frederick Lugard amalgama os dois protetorados em 1914, criando administrativamente a \"Nigéria\" — nome cunhado por sua futura esposa, a jornalista Flora Shaw, a partir do rio Níger** — união que juntaria populações de tradições políticas, religiosas e linguísticas profundamente distintas sob fronteira colonial única e artificial.\n\n**O movimento nacionalista nigeriano cresce rapidamente no período pós-Segunda Guerra Mundial, mas as profundas diferenças regionais entre o norte muçulmano hauçá-fulani, o sudoeste iorubá e o sudeste igbo complicariam sensivelmente as negociações de independência** — obtida finalmente em outubro de 1960, sob estrutura federal que tentaria, sem sucesso duradouro, acomodar essas divisões estruturais profundas.",
+      "fontes": [
+        "falola-heaton-nigeria"
+      ]
+    },
+    {
+      "id": "nga-independencia-guerra-biafra",
+      "inicio": "1960",
+      "fim": "1970",
+      "rotulo": "Independência e a Guerra de Biafra",
+      "regime": "federação parlamentar, mergulhada em golpes militares e guerra civil separatista",
+      "textoMdx": "A jovem federação nigeriana enfrenta instabilidade crescente desde os primeiros anos, culminando em golpe militar de janeiro de 1966 liderado majoritariamente por oficiais igbo, percebido pelo norte como tomada de poder etnicamente motivada — contragolpe em julho daquele ano e pogroms subsequentes contra a população igbo residente no norte matariam milhares.\n\n**A região sudeste, de maioria igbo, declara independência como República de Biafra em maio de 1967, precipitando guerra civil que se estenderia por quase três anos — o bloqueio federal da região provoca fome catastrófica que mataria, segundo estimativas, entre um e dois milhões de pessoas, a maioria crianças, tornando-se uma das primeiras crises humanitárias amplamente documentadas pela televisão internacional.**\n\n**A rendição biafrense, em janeiro de 1970, encerra o conflito sem que o governo federal buscasse retaliação sistemática ampla contra a população derrotada — política de reconciliação relativamente moderada para os padrões de guerras civis contemporâneas, embora o ressentimento regional persistisse por décadas.**",
+      "fontes": [
+        "falola-heaton-nigeria"
+      ]
+    },
+    {
+      "id": "nga-ditaduras-militares-petroleo",
+      "inicio": "1970",
+      "fim": "1999",
+      "rotulo": "Ditaduras militares e a era do petróleo",
+      "regime": "sucessivos governos militares, interrompidos por breve república civil",
+      "textoMdx": "A riqueza petrolífera crescente ao longo dos anos 1970 transforma a economia nigeriana, mas alimenta também corrupção sistêmica em escala descomunal — fenômeno que ficaria conhecido internacionalmente como \"maldição dos recursos naturais\", com bilhões de dólares desviados por sucessivas elites políticas e militares.\n\n**A Segunda República, sob o civil Shehu Shagari a partir de 1979, colapsa em novo golpe militar em 1983 — a Nigéria alternaria entre regimes militares diversos pela década e meia seguinte, sem retorno estável ao governo civil.**\n\n**O regime de Sani Abacha, entre 1993 e 1998, se tornaria notório por repressão extrema, incluindo a execução do escritor e ativista ambiental Ken Saro-Wiwa e oito companheiros ogoni, em 1995, por protestos contra a poluição petrolífera na região do delta do Níger** — execução que provocaria condenação internacional generalizada e suspensão temporária da Nigéria da Comunidade das Nações, encerrada apenas com a morte súbita de Abacha em 1998.",
+      "fontes": [
+        "falola-heaton-nigeria"
+      ]
+    },
+    {
+      "id": "nga-quarta-republica-atual",
+      "inicio": "1999",
+      "rotulo": "Quarta República",
+      "regime": "república federal presidencialista democrática",
+      "textoMdx": "A transição democrática de 1999, sob o ex-general Olusegun Obasanjo agora eleito civilmente, inaugura o mais longo período ininterrupto de governo democrático da história nigeriana — recorde que persiste até hoje, apesar de desafios de segurança e governança consideráveis.\n\n**A insurgência do Boko Haram, grupo jihadista que emerge no nordeste nigeriano por volta de 2009, se tornaria uma das ameaças de segurança mais persistentes e mortíferas da região — o sequestro de mais de duzentas estudantes na cidade de Chibok, em 2014, geraria campanha internacional de conscientização sob a hashtag #BringBackOurGirls, embora muitas das vítimas jamais fossem recuperadas.**\n\n**As eleições de 2015 marcam a primeira transferência pacífica de poder da história nigeriana entre um presidente em exercício derrotado e um candidato de partido de oposição — Muhammadu Buhari sucedendo Goodluck Jonathan** — enquanto o país, já o mais populoso da África, projetaria crescimento demográfico que o tornaria, segundo projeções da ONU, um dos países mais populosos do mundo até meados do século XXI.",
+      "fontes": [
+        "falola-heaton-nigeria"
+      ]
+    }
+  ]
+}

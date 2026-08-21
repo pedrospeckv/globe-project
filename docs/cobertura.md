@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**119 de 174 países** desenhados no mapa têm dossiê (68.4%), somando **625 períodos**.
+**124 de 174 países** desenhados no mapa têm dossiê (71.3%), somando **649 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -37,6 +37,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Chile | `CHL` | 9 | 9 |
 | China | `CHN` | 16 | 16 |
 | Colômbia | `COL` | 7 | 7 |
+| Costa do Marfim | `CIV` | 4 | 4 |
 | Costa Rica | `CRI` | 4 | 4 |
 | Croácia | `HRV` | 6 | 6 |
 | Cuba | `CUB` | 4 | 4 |
@@ -57,6 +58,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Filipinas | `PHL` | 5 | 5 |
 | Finlândia | `FIN` | 4 | 4 |
 | França | `FRA` | 10 | 10 |
+| Gana | `GHA` | 4 | 4 |
 | Geórgia | `GEO` | 6 | 6 |
 | Grécia | `GRC` | 6 | 6 |
 | Groenlândia | `GRL` | 3 | 3 |
@@ -85,11 +87,13 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Luxemburgo | `LUX` | 3 | 3 |
 | Macedônia do Norte | `MKD` | 3 | 3 |
 | Malásia | `MYS` | 5 | 5 |
+| Mali | `MLI` | 6 | 6 |
 | Marrocos | `MAR` | 6 | 6 |
 | México | `MEX` | 9 | 9 |
 | Mianmar | `MMR` | 7 | 7 |
 | Montenegro | `MNE` | 6 | 6 |
 | Nicarágua | `NIC` | 6 | 6 |
+| Nigéria | `NGA` | 6 | 6 |
 | Noruega | `NOR` | 3 | 3 |
 | Nova Zelândia | `NZL` | 3 | 3 |
 | Omã | `OMN` | 4 | 4 |
@@ -107,6 +111,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | República Dominicana | `DOM` | 5 | 5 |
 | Romênia | `ROU` | 4 | 4 |
 | Rússia | `RUS` | 6 | 6 |
+| Senegal | `SEN` | 4 | 4 |
 | Sérvia | `SRB` | 7 | 7 |
 | Síria | `SYR` | 5 | 5 |
 | Somália | `SOM` | 5 | 5 |
@@ -142,15 +147,14 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | Afghanistan | Angola | Antarctica | Bangladesh |
 | Benin | Bhutan | Botswana | Burkina Faso |
 | Burundi | Cameroon | Central African Rep. | Chad |
-| Congo | Côte d'Ivoire | Cyprus | Dem. Rep. Congo |
-| Eq. Guinea | eSwatini | Falkland Is. | Fr. S. Antarctic Lands |
-| Gabon | Gambia | Ghana | Guinea |
-| Guinea-Bissau | Ireland | Israel | Lesotho |
-| Liberia | Madagascar | Malawi | Mali |
-| Mauritania | Moldova | Mongolia | Mozambique |
-| Namibia | Nepal | New Caledonia | Niger |
-| Nigeria | North Korea | Pakistan | Palestine |
-| Rwanda | Senegal | Sierra Leone | South Africa |
-| South Korea | Sri Lanka | Taiwan | Togo |
-| W. Sahara | Zambia | Zimbabwe |  |
+| Congo | Cyprus | Dem. Rep. Congo | Eq. Guinea |
+| eSwatini | Falkland Is. | Fr. S. Antarctic Lands | Gabon |
+| Gambia | Guinea | Guinea-Bissau | Ireland |
+| Israel | Lesotho | Liberia | Madagascar |
+| Malawi | Mauritania | Moldova | Mongolia |
+| Mozambique | Namibia | Nepal | New Caledonia |
+| Niger | North Korea | Pakistan | Palestine |
+| Rwanda | Sierra Leone | South Africa | South Korea |
+| Sri Lanka | Taiwan | Togo | W. Sahara |
+| Zambia | Zimbabwe |  |  |
 
