@@ -846,5 +846,261 @@
     "fontes": [
       "bruce-cumings-coreia"
     ]
+  },
+  {
+    "id": "speke-na-corte-de-mutesa",
+    "data": "1862",
+    "titulo": "Speke chega à corte de Mutesa I",
+    "ponto": [
+      32.55,
+      0.3
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "John Speke, procurando a nascente do Nilo, é o primeiro europeu a alcançar a corte de Buganda. O kabaka Mutesa I passa as três décadas seguintes mantendo comerciantes muçulmanos da costa, missionários anglicanos e missionários católicos em concorrência entre si, sem dar vantagem decisiva a nenhum — política que funciona enquanto ele vive.",
+    "fontes": [
+      "kiwanuka-buganda"
+    ]
+  },
+  {
+    "id": "martires-de-uganda",
+    "data": "1886",
+    "titulo": "Execução dos convertidos cristãos da corte",
+    "ponto": [
+      32.55,
+      0.3
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "O kabaka Mwanga II manda executar dezenas de pajens e cortesãos convertidos ao cristianismo, entre 1885 e 1887, para reafirmar autoridade sobre uma corte que se dividia por lealdades religiosas novas. O efeito é o inverso do pretendido: os mortos tornam-se mártires e as facções religiosas deixam de ser correntes na corte para virar exércitos.",
+    "fontes": [
+      "kiwanuka-buganda"
+    ]
+  },
+  {
+    "id": "maxim-de-lugard-em-mengo",
+    "data": "1892-01",
+    "titulo": "A metralhadora de Lugard decide a guerra civil",
+    "ponto": [
+      32.55,
+      0.3
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "Depois de quatro anos de guerra civil de três lados entre facções católica, protestante e muçulmana, Frederick Lugard entra no conflito ao lado dos protestantes com uma metralhadora Maxim. A batalha em Mengo encerra a disputa e define qual facção herda o Estado — e qual potência europeia herda a facção.",
+    "fontes": [
+      "kiwanuka-buganda"
+    ]
+  },
+  {
+    "id": "protetorado-de-uganda-declarado",
+    "data": "1894-06-19",
+    "titulo": "Declaração do protetorado britânico",
+    "ponto": [
+      32.58,
+      0.32
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "A Grã-Bretanha assume formalmente o protetorado sobre Buganda e o estende nos anos seguintes aos demais reinos e territórios. A administração é montada sobre a estrutura que Buganda já tinha, e agentes baganda são enviados para administrar povos que Buganda não governava — economia de pessoal britânico que deixa ressentimento regional duradouro.",
+    "fontes": [
+      "mutibwa-uganda"
+    ]
+  },
+  {
+    "id": "acordo-de-buganda",
+    "data": "1900-03-10",
+    "titulo": "Acordo de Buganda e a terra mailo",
+    "ponto": [
+      32.55,
+      0.3
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "O acordo fixa a autonomia interna do reino e converte a terra em propriedade privada titulada, distribuída ao kabaka e a cerca de mil chefes e notáveis. Cria de uma vez uma classe proprietária africana com interesse direto na manutenção da ordem colonial.",
+    "fontes": [
+      "acordo-de-buganda-1900"
+    ]
+  },
+  {
+    "id": "ferrovia-chega-ao-lago",
+    "data": "1901-12",
+    "titulo": "A ferrovia alcança o lago Vitória",
+    "ponto": [
+      32.58,
+      0.32
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "A linha de Mombaça é concluída depois de cinco anos de obra executada por cerca de trinta e dois mil trabalhadores contratados na Índia, milhares dos quais morreram no trajeto. Muitos sobreviventes ficaram, e é dessa migração que vem a comunidade asiática que passou a dominar o comércio ugandense.",
+    "fontes": [
+      "mutibwa-uganda"
+    ]
+  },
+  {
+    "id": "deportacao-do-kabaka",
+    "data": "1953-11",
+    "titulo": "Os britânicos deportam o kabaka Mutesa II",
+    "ponto": [
+      32.55,
+      0.3
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "Mutesa II é deportado para Londres por resistir ao projeto britânico de federação da África Oriental, que Buganda temia como diluição de sua autonomia. Volta em 1955 como herói, com o prestígio do reino maior do que antes — e com a certeza, para os nacionalistas ugandenses, de que Buganda negociaria por conta própria.",
+    "fontes": [
+      "mutibwa-uganda"
+    ]
+  },
+  {
+    "id": "independencia-de-uganda",
+    "data": "1962-10-09",
+    "titulo": "Independência",
+    "ponto": [
+      32.58,
+      0.32
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "Uganda torna-se independente sob arranjo federal que concede a Buganda status especial, com o kabaka Mutesa II na presidência e Milton Obote como primeiro-ministro. Os dois cargos representam projetos incompatíveis de Estado, e o arranjo dura quatro anos.",
+    "fontes": [
+      "mutibwa-uganda"
+    ]
+  },
+  {
+    "id": "ataque-ao-palacio-de-mengo",
+    "data": "1966-05",
+    "titulo": "O exército ataca o palácio do kabaka",
+    "ponto": [
+      32.55,
+      0.3
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "Obote suspende a constituição, assume poderes plenos e manda o exército — sob comando de Idi Amin — atacar o palácio em Mengo. Mutesa II foge para Londres, onde morre em 1969. A constituição de 1967 abole todos os reinos tradicionais do país.",
+    "fontes": [
+      "mutibwa-uganda"
+    ]
+  },
+  {
+    "id": "golpe-de-idi-amin",
+    "data": "1971-01-25",
+    "titulo": "Golpe de Idi Amin",
+    "ponto": [
+      32.58,
+      0.32
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "Amin depõe Obote aproveitando uma viagem do presidente ao exterior. Governa oito anos, com estimativas de mortos que vão de cem mil a meio milhão — a distância entre as contas existe porque as agências de segurança executavam fora de qualquer registro, e nunca houve apuração sistemática.",
+    "fontes": [
+      "mutibwa-uganda"
+    ]
+  },
+  {
+    "id": "expulsao-dos-asiaticos-de-uganda",
+    "data": "1972-08-04",
+    "titulo": "Expulsão da comunidade asiática",
+    "ponto": [
+      32.58,
+      0.32
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "Amin dá noventa dias para que entre sessenta e oitenta mil pessoas de origem sul-asiática deixem o país, e distribui seus negócios a militares e aliados sem experiência para operá-los. O abastecimento urbano entra em colapso do qual o regime nunca se recupera. Muitos dos expulsos foram convidados a voltar depois de 1986, e receberam propriedades de volta.",
+    "fontes": [
+      "mutibwa-uganda"
+    ]
+  },
+  {
+    "id": "queda-de-kampala-1979",
+    "data": "1979-04-11",
+    "titulo": "A Tanzânia derruba Amin",
+    "ponto": [
+      32.58,
+      0.32
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "Depois de Amin invadir o norte da Tanzânia em 1978, a Tanzânia contra-ataca com apoio de exilados ugandenses e toma Kampala. Amin foge e morre na Arábia Saudita em 2003, sem ter respondido por nada. O que se segue — a eleição contestada de 1980 e a guerra do Triângulo de Luwero — mata mais gente que o regime derrubado.",
+    "fontes": [
+      "mutibwa-uganda"
+    ]
+  },
+  {
+    "id": "museveni-toma-kampala",
+    "data": "1986-01-26",
+    "titulo": "A guerrilha de Museveni toma Kampala",
+    "ponto": [
+      32.58,
+      0.32
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "O Exército de Resistência Nacional entra em Kampala depois de cinco anos de guerra no mato, e Yoweri Museveni assume a presidência. Governa dezenove anos sob o \"sistema de Movimento\", em que candidatos concorrem sem legenda partidária, por diagnóstico de que partidos em país dividido por região e etnia viram máquinas de mobilizar divisão.",
+    "fontes": [
+      "mutibwa-uganda"
+    ]
+  },
+  {
+    "id": "mandados-do-tpi-contra-o-lra",
+    "data": "2005-07",
+    "titulo": "O TPI expede mandados contra a liderança do LRA",
+    "ponto": [
+      32.3,
+      2.77
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "São os primeiros mandados de prisão da história do Tribunal Penal Internacional. O Exército de Resistência do Senhor sustentou-se por duas décadas no norte sequestrando crianças para usá-las como combatentes e carregadoras, e a resposta do governo concentrou perto de dois milhões de pessoas em campos de deslocados. Joseph Kony nunca foi capturado.",
+    "fontes": [
+      "tpi-mandados-lra-2005"
+    ]
+  },
+  {
+    "id": "emenda-de-2005-uganda",
+    "data": "2005-07",
+    "titulo": "Multipartidarismo restaurado e limite de mandatos removido",
+    "ponto": [
+      32.58,
+      0.32
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "A mesma emenda constitucional faz as duas coisas: devolve a competição partidária e retira o teto de dois mandatos presidenciais. Em 2017 cai também o limite de idade de setenta e cinco anos, que encerraria a carreira do presidente na eleição seguinte.",
+    "fontes": [
+      "mutibwa-uganda"
+    ]
+  },
+  {
+    "id": "eleicao-de-2021-uganda",
+    "data": "2021-01-14",
+    "titulo": "Eleição contra Bobi Wine",
+    "ponto": [
+      32.58,
+      0.32
+    ],
+    "paises": [
+      "UGA"
+    ],
+    "textoMdx": "O músico e deputado Robert Kyagulanyi, conhecido como Bobi Wine, desafia Museveni numa campanha marcada por prisões de apoiadores e por bloqueio nacional de internet no dia da votação. Museveni é declarado vencedor com folga, e completa em 2026 quatro décadas no poder sem indicar sucessor.",
+    "fontes": [
+      "mutibwa-uganda"
+    ]
   }
 ]

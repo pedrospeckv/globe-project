@@ -8,43 +8,77 @@
       "inicio": "1300",
       "fim": "1894",
       "rotulo": "Reino de Buganda",
-      "regime": "monarquia centralizada, a mais poderosa da região dos Grandes Lagos africanos",
-      "textoMdx": "O Reino de Buganda, segundo a tradição fundado por Kintu em época incerta anterior ao século XIV, desenvolve ao longo dos séculos seguintes uma das estruturas administrativas mais centralizadas e sofisticadas de toda a África Oriental pré-colonial, sob a autoridade de um monarca chamado kabaka.\n\nBuganda se torna, ao longo do século XIX, o reino claramente dominante entre os diversos Estados vizinhos da região — Bunyoro, Ankole, Toro —, posição que atrairia atenção comercial e religiosa europeia crescente, incluindo missionários católicos, protestantes e comerciantes muçulmanos que disputariam influência na corte real.\n\n**Conflitos religiosos internos entre facções cristãs católicas, protestantes e muçulmanas convertidas, ao longo da década de 1880, desestabilizam a corte de Buganda profundamente** — fragilidade que a Grã-Bretanha exploraria para estabelecer protetorado formal sobre o reino em 1894, usando sua estrutura administrativa existente como base do domínio colonial sobre todo o futuro território ugandense.",
+      "regime": "monarquia centralizada com chefia nomeada, dominante na região dos Grandes Lagos",
+      "textoMdx": "Buganda concentrou população onde a maior parte da África tropical não conseguia, e a razão é agrícola: **a banana é uma cultura perene**, colhida o ano inteiro do mesmo pé, sem a rotação de terras que a agricultura de coivara exige. Com comida estável e trabalho leve o suficiente para liberar homens para outras funções, o reino sustentou uma capital densa, uma frota de canoas no lago Vitória e um exército permanente.\n\nA diferença política em relação aos vizinhos era o modo de nomear chefes. Em vez de linhagens hereditárias com direito próprio ao território, **o kabaka nomeava e demitia seus chefes** — o que fazia da administração um instrumento do trono e não um contrapeso a ele. Buganda cresceu às custas de Bunyoro-Kitara, o rival ao norte, e a disputa por territórios tomados no processo continuou envenenando a política ugandense por mais de um século.\n\nO primeiro europeu chegou à corte em 1862: John Speke, procurando a nascente do Nilo. O kabaka Mutesa I entendeu o que estava em jogo e jogou — recebeu comerciantes muçulmanos da costa, depois missionários anglicanos em 1877 e católicos em 1879, mantendo os três grupos em concorrência e nenhum em vantagem.\n\nSeu sucessor, Mwanga II, tentou reverter o processo e executou dezenas de convertidos cristãos da própria corte entre 1885 e 1887. O resultado foi o oposto do pretendido: os mortos tornaram-se mártires, e as facções religiosas passaram de correntes na corte a exércitos. **Entre 1888 e 1892 Buganda teve uma guerra civil de três lados** — católicos, protestantes e muçulmanos —, com o trono trocando de mãos repetidamente.\n\nQuem decidiu a guerra foi um estrangeiro com uma arma nova. Frederick Lugard, da Companhia Imperial Britânica da África Oriental, entrou no conflito ao lado dos protestantes com uma metralhadora Maxim, em 1892. O protetorado britânico veio dois anos depois, montado sobre a estrutura administrativa que Buganda já tinha pronta.",
       "fontes": [
         "kiwanuka-buganda"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Le_Tour_du_monde-09-p352.jpg/1920px-Le_Tour_du_monde-09-p352.jpg",
+        "alt": "Gravura de 1864 mostrando o rei Mutesa sob um dossel passando em revista um regimento de soldados enfileirados com lanças e escudos, num terreiro cercado por espectadores.",
+        "credito": "Émile Bayard, para *Le Tour du monde*, volume 9",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Le_Tour_du_monde-09-p352.jpg",
+        "legenda": "O kabaka Mutesa I passando um regimento em revista, gravado em 1864 a partir do relato de Speke — dois anos depois de o primeiro europeu chegar à corte. A imagem é o que a Europa viu de Buganda antes de ter qualquer poder sobre ela: um Estado com exército permanente e cerimonial próprio."
+      }
     },
     {
       "id": "uga-protetorado-britanico",
       "inicio": "1894",
       "fim": "1962",
-      "rotulo": "Protetorado Britânico",
-      "regime": "protetorado britânico, administrado indiretamente através da estrutura existente do reino de Buganda",
-      "textoMdx": "A administração colonial britânica estende o modelo de domínio indireto de Buganda aos demais reinos e territórios que comporiam o protetorado ugandense — Bunyoro, historicamente rival de Buganda, receberia status subordinado que geraria ressentimento duradouro entre os dois reinos.\n\n**O protetorado ugandense, ao contrário de colônias vizinhas como o Quênia, atrai relativamente pouca colonização europeia de povoamento, preservando estrutura fundiária africana majoritariamente intacta** — fator que contribuiria para transição de independência comparativamente menos violenta que a queniana.\n\n**As negociações de independência, complicadas pela ambição de Buganda de preservar autonomia especial dentro do futuro Estado ugandense, resultam em arranjo federal complexo que concederia status privilegiado ao antigo reino** — compromisso frágil que se revelaria insustentável nos primeiros anos após a independência plena, obtida em outubro de 1962.",
+      "rotulo": "Protetorado de Uganda",
+      "regime": "protetorado britânico administrado indiretamente, com Buganda como intermediária",
+      "textoMdx": "A administração britânica governou por procuração e usou os baganda como procuradores: **agentes de Buganda foram enviados para administrar povos que Buganda não governava**, de Bunyoro ao leste do território. Isso poupou funcionários britânicos e deixou um ressentimento regional que a independência herdou inteiro.\n\nO Acordo de Buganda de 1900 fez o arranjo durar. Concedeu ao reino autonomia interna e converteu a terra em propriedade privada titulada — o sistema *mailo* — distribuída a cerca de mil chefes e notáveis, criando de uma vez uma classe proprietária com interesse na ordem colonial.\n\nA ferrovia de Mombaça ao lago, concluída em 1901, foi construída por cerca de trinta e dois mil trabalhadores contratados na Índia, dos quais milhares morreram na obra. Muitos dos sobreviventes ficaram, e **é dessa migração que vem a comunidade asiática que dominou o comércio ugandense** — e que Amin expulsaria setenta anos depois. Até 1921 a moeda do protetorado foi a rupia.\n\nA economia foi montada sobre algodão a partir de 1904 e depois café, cultivados por pequenos produtores africanos em terra africana. A diferença em relação ao Quênia vizinho é decisiva: **não houve tomada de terra para colonos brancos**, e por isso Uganda não teve nada parecido com o levante Mau Mau.\n\nHouve, em troca, um desequilíbrio interno que explica quase tudo o que veio depois. O sul ganhou as culturas de exportação, as escolas missionárias e a burocracia; o norte, sem lavoura comercial, forneceu soldados e mão de obra migrante. **A riqueza ficou no sul e o exército ficou no norte** — e em 1962 o país recebeu as duas coisas separadas.\n\nEm 1953 os britânicos deportaram o kabaka Mutesa II por resistir a um projeto de federação da África Oriental. Ele voltou em 1955 como herói, com o prestígio de Buganda maior do que antes. A independência, em outubro de 1962, saiu de um acordo federal que deu ao reino status especial, com Mutesa II na presidência e Milton Obote como primeiro-ministro — dois cargos e dois projetos incompatíveis.",
       "fontes": [
-        "mutibwa-uganda"
-      ]
+        "mutibwa-uganda",
+        "acordo-de-buganda-1900"
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/East_Africa_%26_Uganda_Protectorates_1912_500R.jpg/1920px-East_Africa_%26_Uganda_Protectorates_1912_500R.jpg",
+        "alt": "Selo fiscal de 1912 com a inscrição East Africa and Uganda Protectorates, o valor de quinhentas rupias e o retrato do rei Jorge V em moldura ornamentada.",
+        "credito": "Governo britânico",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:East_Africa_%26_Uganda_Protectorates_1912_500R.jpg",
+        "legenda": "Selo fiscal de quinhentas rupias, 1912. Duas coisas estão impressas nele: que Uganda e a África Oriental eram administradas como uma unidade fiscal só, e que a moeda era a **rupia** — a ferrovia foi construída com trabalhadores contratados na Índia, e o dinheiro veio com eles."
+      }
     },
     {
       "id": "uga-independencia-obote-amin",
       "inicio": "1962",
       "fim": "1986",
       "rotulo": "Independência, Obote e a ditadura de Amin",
-      "regime": "república parlamentar, depois ditadura militar",
-      "textoMdx": "Milton Obote, primeiro-ministro na independência, aboliria formalmente todos os reinos tradicionais em 1966-1967, incluindo ataque militar direto ao palácio do próprio kabaka de Buganda — ruptura que radicalizaria profundamente as divisões regionais e étnicas ugandenses.\n\nIdi Amin depõe Obote em golpe militar em 1971, instaurando um dos regimes mais brutais da história africana pós-colonial — estimativas de mortos sob seu domínio variam entre cem mil e meio milhão de pessoas, enquanto a expulsão em massa da comunidade asiática ugandense, em 1972, devastaria a economia comercial do país.\n\nA invasão ugandense da Tanzânia, em 1978, provoca contraofensiva tanzaniana que derrubaria Amin em 1979 — Obote retornaria ao poder em 1980, governando de forma igualmente autoritária até ser deposto por golpe militar em 1985, abrindo caminho à guerrilha vitoriosa de Yoweri Museveni no ano seguinte.",
+      "regime": "república parlamentar, depois ditadura militar, depois guerra civil",
+      "textoMdx": "O arranjo federal de 1962 durou quatro anos. Em 1966 Obote suspendeu a constituição, assumiu poderes plenos e mandou o exército — sob comando de um oficial chamado Idi Amin — atacar o palácio do kabaka em Mengo. Mutesa II fugiu para Londres, onde morreu em 1969. A constituição de 1967 aboliu todos os reinos tradicionais.\n\nAmin depôs Obote em janeiro de 1971, aproveitando uma viagem do presidente ao exterior. Em agosto de 1972 deu **noventa dias para a comunidade asiática deixar o país** — entre sessenta e oitenta mil pessoas, donas da maior parte do comércio e da indústria leve. Os negócios foram distribuídos a militares e aliados sem experiência para operá-los, e o abastecimento urbano entrou em colapso do qual não se recuperou durante o regime.\n\nAs estimativas de mortos sob Amin variam de cem mil a meio milhão, e a distância entre elas é grande porque não houve apuração sistemática: as agências de segurança executavam fora de qualquer registro. Entre as vítimas conhecidas estão o arcebispo anglicano Janani Luwum, morto em 1977, e o presidente do Supremo Tribunal, retirado do próprio tribunal em 1972.\n\nO fim veio de fora. Em 1978 Amin invadiu o norte da Tanzânia; **a Tanzânia contra-atacou com exilados ugandenses e tomou Kampala em abril de 1979.** Amin morreu na Arábia Saudita, em 2003, sem jamais responder por nada.\n\nO que se seguiu foi pior em número de mortos. Obote voltou ao poder na eleição contestada de 1980, e a guerrilha de Yoweri Museveni pegou em armas. A guerra concentrou-se no chamado Triângulo de Luwero, ao norte de Kampala, com massacres de civis atribuídos sobretudo ao exército governamental. Obote foi deposto pelos próprios generais em 1985, e em janeiro de 1986 a guerrilha de Museveni entrou em Kampala.",
       "fontes": [
         "mutibwa-uganda"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Idi_Amin_at_UN_%28United_Nations%2C_New_York%29_gtfy.00132.jpg/1920px-Idi_Amin_at_UN_%28United_Nations%2C_New_York%29_gtfy.00132.jpg",
+        "alt": "Fotografia de Idi Amin em 1975, de uniforme militar com condecorações no peito, falando ao microfone na tribuna das Nações Unidas.",
+        "credito": "Bernard Gotfryd — Library of Congress",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Idi_Amin_at_UN_(United_Nations,_New_York)_gtfy.00132.jpg",
+        "legenda": "Idi Amin discursando na Assembleia Geral da ONU em outubro de 1975, três anos depois de expulsar a comunidade asiática do país e no ano em que presidiu a Organização da Unidade Africana. Foi recebido com aplausos."
+      }
     },
     {
       "id": "uga-museveni-atual",
       "inicio": "1986",
-      "rotulo": "Era de Museveni",
-      "regime": "república presidencialista, sob domínio pessoal duradouro de um único líder",
-      "textoMdx": "Yoweri Museveni, cujo Exército de Resistência Nacional toma o poder em 1986 após guerra de guerrilha prolongada, restaura status cultural — mas não político — dos reinos tradicionais em 1993, incluindo a reentronização do kabaka de Buganda.\n\nA insurgência do Exército de Resistência do Senhor, liderada por Joseph Kony no norte do país a partir de 1987, se tornaria notória pelo sequestro sistemático de crianças forçadas a se tornarem combatentes — violência que se estenderia por duas décadas antes de ser amplamente contida, embora Kony permanecesse foragido internacionalmente por muito mais tempo.\n\nMuseveni remove limites constitucionais de mandatos presidenciais em 2005 e limites de idade em 2017, permanecendo no poder por quase quatro décadas consecutivas — seu governo endureceria progressivamente contra oposição política, incluindo o desafio eleitoral do músico e deputado Bobi Wine em 2021, e aprovaria legislação anti-homossexualidade entre as mais severas do mundo em 2014 e novamente em 2023, provocando condenação e sanções internacionais.",
+      "rotulo": "Era Museveni",
+      "regime": "república presidencialista sob o mesmo presidente desde 1986",
+      "textoMdx": "Museveni chegou com um diagnóstico: partidos políticos, em país dividido por região e etnia, viram máquinas de mobilizar divisão. Governou dezenove anos sob o \"sistema de Movimento\", em que candidatos concorriam sem legenda — arranjo que, na prática, deixou uma organização única no centro de tudo.\n\nOs primeiros anos entregaram resultado. A economia foi reconstruída, os asiáticos foram convidados a voltar e receberam propriedades de volta, e **a resposta ugandense à epidemia de HIV tornou-se referência internacional**: campanha pública franca, começada no fim dos anos 1980 quando a maior parte dos governos africanos ainda negava o problema, com prevalência caindo de cerca de 15% para perto de 5%. Em 1993 os reinos foram restaurados como instituições culturais, sem poder político.\n\nNo norte, outra guerra durou vinte anos. O Exército de Resistência do Senhor, de Joseph Kony, sustentou-se sequestrando crianças para usá-las como combatentes e carregadoras, e a resposta do governo concentrou quase dois milhões de pessoas em campos de deslocados. O Tribunal Penal Internacional expediu mandados contra a liderança do grupo em 2005. **Kony nunca foi capturado.**\n\nA abertura política e o fim dos limites de mandato vieram na mesma emenda constitucional, em 2005: multipartidarismo restaurado e teto de dois mandatos removido. Em 2017 caiu também o limite de idade de setenta e cinco anos, que teria encerrado a carreira do presidente na eleição seguinte. Em 2021 o desafio veio do músico e deputado Bobi Wine, numa campanha marcada por prisões e por bloqueio nacional de internet no dia da votação.\n\nDuas leis anti-homossexualidade, em 2014 e 2023, estão entre as mais severas do mundo — a primeira foi anulada por vício de procedimento, a segunda prevê pena de morte para o que define como homossexualidade agravada, e levou o Banco Mundial a suspender novos empréstimos ao país. Museveni completou em 2026 quatro décadas no poder, e ainda não indicou sucessor.",
       "fontes": [
-        "mutibwa-uganda"
-      ]
+        "mutibwa-uganda",
+        "tpi-mandados-lra-2005"
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Building_in_Kampala_%281487842229%29.jpg/1920px-Building_in_Kampala_%281487842229%29.jpg",
+        "alt": "Fotografia de 2005 do edifício da Suprema Corte de Uganda em Kampala, uma construção modernista de concreto com fachada em grade, vista da rua.",
+        "credito": "Jocelyn Saurini",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Building_in_Kampala_(1487842229).jpg",
+        "legenda": "A Suprema Corte em Kampala, fotografada em 2005 — o ano da emenda que restaurou o multipartidarismo e removeu o limite de mandatos presidenciais no mesmo texto."
+      }
     }
   ]
 }

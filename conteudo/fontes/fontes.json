@@ -4899,5 +4899,21 @@
     "publicacao": "Parlamento da Grã-Bretanha e Parlamento da Irlanda",
     "data": "1800",
     "citacao": "Extinguiu o parlamento irlandês e criou o Reino Unido da Grã-Bretanha e Irlanda a partir de 1º de janeiro de 1801."
+  },
+  {
+    "id": "acordo-de-buganda-1900",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Buganda (Buganda Agreement)",
+    "publicacao": "Governo britânico e Reino de Buganda",
+    "data": "1900-03-10",
+    "citacao": "Fixou a autonomia interna de Buganda dentro do protetorado e converteu a terra em propriedade privada titulada — o sistema mailo —, distribuída ao kabaka e a cerca de mil chefes e notáveis. Criou de uma vez uma classe proprietária com interesse na ordem colonial."
+  },
+  {
+    "id": "tpi-mandados-lra-2005",
+    "tipo": "decisao-judicial",
+    "titulo": "Mandados de prisão do Tribunal Penal Internacional contra a liderança do Exército de Resistência do Senhor",
+    "publicacao": "Tribunal Penal Internacional",
+    "data": "2005",
+    "citacao": "Primeiros mandados expedidos pelo TPI desde sua criação. Joseph Kony permanece foragido; a insurgência sustentou-se por duas décadas sequestrando crianças, e a resposta do governo ugandense concentrou perto de dois milhões de pessoas em campos de deslocados."
   }
 ]
