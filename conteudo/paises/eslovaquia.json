@@ -1,0 +1,73 @@
+{
+  "iso": "SVK",
+  "isoNumerico": "703",
+  "nome": "Eslováquia",
+  "periodos": [
+    {
+      "id": "svk-grande-moravia",
+      "inicio": "833",
+      "fim": "907",
+      "rotulo": "Grande Morávia",
+      "regime": "principado eslavo, depois estado tributário do Império Franco",
+      "textoMdx": "Mojmír I unifica principados eslavos rivais na bacia do Morava, por volta de 833, criando a Grande Morávia — um dos primeiros Estados eslavos organizados da Europa central, cujo território incluía boa parte da atual Eslováquia.\n\n**O príncipe Rastislav convida, em 863, os missionários bizantinos Cirilo e Metódio para evangelizar seu povo em língua eslava, não em latim — missão que desenvolveria o alfabeto glagolítico e a liturgia eslava, base da futura tradição litúrgica eslava oriental**, mesmo que a Grande Morávia em si adotasse eventualmente o rito latino sob pressão do clero franco-bávaro rival.\n\n**O apogeu territorial sob Svatopluk I, ao final do século IX, estende o domínio moravo por vasta área da Europa central**, mas disputas sucessórias internas e, sobretudo, a invasão de tribos magiaras recém-chegadas à bacia do Danúbio desmantelam o Estado morávio por volta de 907 — os magiares absorveriam o território eslovaco ao Reino da Hungria por quase mil anos ininterruptos.",
+      "fontes": [
+        "stanislav-kirschbaum-eslovaquia"
+      ]
+    },
+    {
+      "id": "svk-reino-hungria",
+      "inicio": "907",
+      "fim": "1918",
+      "rotulo": "Eslováquia dentro do Reino da Hungria",
+      "regime": "condados do Reino da Hungria",
+      "textoMdx": "Incorporado ao Reino da Hungria desde o início do século X, o território eslovaco permaneceria parte integrante da coroa húngara por quase mil anos ininterruptos — período longo o suficiente para que a própria noção de fronteira política eslovaca distinta não existisse antes do século XX.\n\n**Durante a ocupação otomana do centro da Hungria, entre os séculos XVI e XVII, Bratislava — então chamada Pressburg — serve como capital de facto do Reino Húngaro remanescente e cidade de coroação dos reis húngaros**, papel que manteria por quase dois séculos e meio, entre 1536 e 1783.\n\n**O Despertar Nacional Eslovaco, a partir de meados do século XIX, codifica pela primeira vez uma língua literária eslovaca padronizada, sob liderança de Ľudovít Štúr em 1843** — separando definitivamente o eslovaco escrito do tcheco, com o qual mantinha proximidade linguística considerável, e lançando as bases culturais para reivindicações políticas de autonomia dentro da monarquia dual húngara.",
+      "fontes": [
+        "stanislav-kirschbaum-eslovaquia"
+      ]
+    },
+    {
+      "id": "svk-primeira-republica-czechoslovaquia",
+      "inicio": "1918",
+      "fim": "1938",
+      "rotulo": "Eslováquia na Primeira República Tchecoslovaca",
+      "regime": "componente regional de república parlamentar centralizada em Praga",
+      "textoMdx": "A união com os tchecos, formalizada em 1918, promete autonomia eslovaca substancial através do Acordo de Pittsburgh, assinado em maio daquele ano por organizações de imigrantes eslovacos nos Estados Unidos com o próprio Masaryk — promessa que o governo centralizado de Praga jamais cumpriria integralmente.\n\n**A administração checoslovaca, embora traga desenvolvimento educacional e de infraestrutura significativo à Eslováquia, historicamente mais rural e menos industrializada que as terras tchecas, é percebida por parte da elite eslovaca como paternalista e centralizadora** — ressentimento que o Partido Popular Eslovaco de Andrej Hlinka exploraria politicamente ao longo de todo o período entre guerras, exigindo autonomia jamais concedida na prática.",
+      "fontes": [
+        "mary-heimann-czechoslovaquia",
+        "acordo-pittsburgh-1918"
+      ]
+    },
+    {
+      "id": "svk-estado-eslovaco",
+      "inicio": "1938",
+      "fim": "1945",
+      "rotulo": "Primeiro Estado Eslovaco",
+      "regime": "Estado clerical-autoritário de partido único, cliente da Alemanha nazista",
+      "textoMdx": "A crise dos Sudetos, em 1938, concede à Eslováquia autonomia dentro da Tchecoslováquia em outubro daquele ano — autonomia que se transformaria em independência formal apenas cinco meses depois, em março de 1939, quando a Alemanha desmembra o que restava do país, criando Estado eslovaco cliente sob o padre católico Jozef Tiso.\n\n**O regime de Tiso, clerical-autoritário e de partido único, colabora ativamente com a política racial nazista: entre 1942, o governo eslovaco paga voluntariamente à Alemanha por cada judeu deportado do país, uma das poucas nações do Eixo a financiar diretamente sua própria limpeza étnica** — mais de 70 mil judeus eslovacos, cerca de três quartos da população judaica do país, são exterminados.\n\n**O Levante Nacional Eslovaco, em agosto de 1944, mobiliza forças militares e civis eslovacas contra o próprio regime de Tiso e a ocupação alemã que se segue à revolta**, num dos movimentos de resistência armada mais significativos do Eixo contra si mesmo — esmagado militarmente em meses, mas que a Eslováquia pós-guerra recordaria como prova de resistência antifascista genuína, contrapondo-se à colaboração do regime oficial.",
+      "fontes": [
+        "stanislav-kirschbaum-eslovaquia"
+      ]
+    },
+    {
+      "id": "svk-czechoslovaquia-socialista",
+      "inicio": "1945",
+      "fim": "1993",
+      "rotulo": "Eslováquia na Tchecoslováquia socialista",
+      "regime": "componente regional de república socialista, elevada a status federativo formal a partir de 1969",
+      "textoMdx": "A Tchecoslováquia restaurada em 1945 pune a colaboração do regime de Tiso, executado em 1947, mas o golpe comunista de 1948 rapidamente subordina novamente a Eslováquia à centralização política de Praga sob novo sistema ideológico.\n\n**A reforma federativa de 1968-1969, um dos poucos elementos da Primavera de Praga que sobreviveria à invasão soviética, transforma a Tchecoslováquia em federação formal de duas repúblicas iguais** — concessão que atenderia parcialmente reivindicação eslovaca antiga por reconhecimento institucional próprio, mesmo sob regime comunista que se tornaria, nos anos seguintes, ainda mais repressivo sob a chamada \"normalização\".\n\n**A Revolução de Veludo de 1989 chega à Eslováquia com dinâmica própria, e as diferenças de ritmo e prioridade de reforma econômica entre Praga e Bratislava se aprofundariam rapidamente na transição pós-comunista** — divergência que levaria, em poucos anos, à decisão negociada de separação do Estado comum.",
+      "fontes": [
+        "mary-heimann-czechoslovaquia"
+      ]
+    },
+    {
+      "id": "svk-republica-independente",
+      "inicio": "1993",
+      "rotulo": "República Eslovaca independente",
+      "regime": "república parlamentar",
+      "textoMdx": "O Divórcio de Veludo, em 1º de janeiro de 1993, torna a Eslováquia Estado soberano pela primeira vez em sua história — decisão negociada entre as lideranças políticas de Praga e Bratislava, sem referendo popular, e sem violência entre as duas novas nações.\n\n**O governo de Vladimír Mečiar, nos primeiros anos da independência, adota estilo político populista e semiautoritário que isola a Eslováquia diplomaticamente, atrasando sua integração euro-atlântica em relação à vizinha República Tcheca** — a Eslováquia ingressaria na OTAN e na União Europeia apenas em 2004, junto com a maior parte da Europa central, e adotaria o euro em 2009, à frente da própria Chéquia nesse aspecto.\n\n**O assassinato do jornalista investigativo Ján Kuciak e de sua noiva, em 2018, enquanto investigava vínculos entre o governo e o crime organizado, provoca as maiores manifestações de rua da história eslovaca independente e força a renúncia do primeiro-ministro Robert Fico** — que retornaria ao poder em eleições posteriores, mantendo a Eslováquia como um dos países europeus mais divididos sobre apoio à Ucrânia diante da invasão russa de 2022.",
+      "fontes": [
+        "stanislav-kirschbaum-eslovaquia"
+      ]
+    }
+  ]
+}

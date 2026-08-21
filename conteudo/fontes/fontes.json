@@ -3535,5 +3535,69 @@
     "publicacao": "Reino da Polônia e Grão-Ducado da Lituânia",
     "data": "1569-07-01",
     "citacao": "Transformou a união pessoal entre Polônia e Lituânia, vigente desde 1385, em união real plena — a Comunidade Polaco-Lituana —, com parlamento e política externa comuns, embora exércitos, tesouro e leis internas permanecessem separados entre os dois componentes."
+  },
+  {
+    "id": "laszlo-kontler-hungria",
+    "tipo": "livro",
+    "titulo": "A History of Hungary",
+    "autor": "László Kontler",
+    "data": "2002",
+    "citacao": "História húngara da conquista magiar do século IX ao pós-comunismo, tratando o Tratado de Trianon de 1920 como trauma nacional central e persistente, e o levante de 1956 como episódio fundador da identidade política húngara tardo-comunista."
+  },
+  {
+    "id": "victor-sebestyen-1956",
+    "tipo": "livro",
+    "titulo": "Twelve Days: Revolution 1956",
+    "autor": "Victor Sebestyen",
+    "data": "2006",
+    "citacao": "Reconstrução detalhada dos doze dias da Revolução Húngara de 1956, da explosão popular espontânea à repressão soviética, com base em documentos de arquivo abertos após o fim da União Soviética."
+  },
+  {
+    "id": "tratado-trianon-1920",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Trianon",
+    "publicacao": "Potências Aliadas e Hungria",
+    "data": "1920-06-04",
+    "citacao": "Formalizou a perda de cerca de dois terços do território e um terço da população etnicamente húngara do antigo Reino da Hungria, transferidos à Romênia, à Tchecoslováquia, ao Reino dos Sérvios, Croatas e Eslovenos e à Áustria — trauma nacional que moldaria a política externa revisionista húngara pelas duas décadas seguintes."
+  },
+  {
+    "id": "derek-sayer-boemia",
+    "tipo": "livro",
+    "titulo": "The Coasts of Bohemia: A Czech History",
+    "autor": "Derek Sayer",
+    "data": "1998",
+    "citacao": "História cultural e política tcheca do reino medieval boêmio ao pós-comunismo, examinando criticamente a narrativa nacional dos '300 anos de escuridão' após a Batalha da Montanha Branca de 1620."
+  },
+  {
+    "id": "mary-heimann-czechoslovaquia",
+    "tipo": "livro",
+    "titulo": "Czechoslovakia: The State that Failed",
+    "autor": "Mary Heimann",
+    "data": "2009",
+    "citacao": "História revisionista da Tchecoslováquia de 1918 a 1992, questionando a narrativa convencional da Primeira República como democracia modelo sem falhas, e cobrindo o Acordo de Munique, o Estado eslovaco de Tiso, a Primavera de Praga e a Revolução de Veludo."
+  },
+  {
+    "id": "acordo-munique-1938",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Munique",
+    "publicacao": "Alemanha, Reino Unido, França e Itália",
+    "data": "1938-09-29",
+    "citacao": "Cedeu a região dos Sudetos, de maioria populacional de língua alemã, da Tchecoslováquia à Alemanha nazista, sem participação do governo tchecoslovaco nas negociações — episódio que a memória tcheca resume na expressão 'sobre nós, sem nós', e que não impediu a ocupação alemã completa do restante do território seis meses depois."
+  },
+  {
+    "id": "stanislav-kirschbaum-eslovaquia",
+    "tipo": "livro",
+    "titulo": "A History of Slovakia: The Struggle for Survival",
+    "autor": "Stanislav J. Kirschbaum",
+    "data": "2005",
+    "citacao": "História eslovaca da Grande Morávia à independência de 1993, cobrindo quase um milênio sob domínio húngaro, o Estado eslovaco clerical-fascista de Jozef Tiso e o Levante Nacional Eslovaco de 1944 contra esse mesmo regime."
+  },
+  {
+    "id": "acordo-pittsburgh-1918",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Pittsburgh",
+    "publicacao": "Organizações de imigrantes tchecos e eslovacos nos Estados Unidos, com Tomáš Masaryk",
+    "data": "1918-05-30",
+    "citacao": "Prometeu autonomia eslovaca substancial — parlamento, tribunais e administração próprios — dentro do futuro Estado tchecoslovaco comum, promessa que o governo de Praga jamais implementaria plenamente, alimentando ressentimento eslovaco ao longo de toda a Primeira República."
   }
 ]

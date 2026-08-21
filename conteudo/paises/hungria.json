@@ -1,0 +1,85 @@
+{
+  "iso": "HUN",
+  "isoNumerico": "348",
+  "nome": "Hungria",
+  "periodos": [
+    {
+      "id": "hun-principado-reino-medieval",
+      "inicio": "895",
+      "fim": "1526",
+      "rotulo": "Principado e Reino medieval da Hungria",
+      "regime": "principado tribal, depois monarquia cristã",
+      "textoMdx": "As sete tribos magiares, lideradas pelo príncipe Árpád, atravessam os Cárpatos e se estabelecem na bacia do Danúbio médio por volta de 895 — a chamada Honfoglalás, \"conquista da pátria\", que estabeleceria a base territorial húngara até hoje, em região já habitada por populações eslavas e remanescentes avaros.\n\n**Santo Estêvão, coroado rei em torno do ano 1000 com coroa enviada pelo papa Silvestre II, converte o reino ao cristianismo ocidental e o integra à cristandade latina europeia** — escolha que distinguiria permanentemente a Hungria de seus vizinhos eslavos ortodoxos e moldaria sua orientação civilizacional pelos mil anos seguintes.\n\n**A invasão mongol de 1241-1242 devasta o território, matando talvez metade da população em alguns relatos, antes de os mongóis se retirarem abruptamente pela morte do grão-cã em Karakorum** — o rei Béla IV reconstrói o reino nas décadas seguintes, incluindo rede extensa de castelos de pedra que faltavam antes da invasão.\n\n**O reinado de Matias Corvino, entre 1458 e 1490, marca o apogeu renascentista húngaro, com corte que rivaliza em esplendor cultural com as principais cortes italianas** — apogeu que se revelaria frágil: a derrota catastrófica diante dos otomanos na batalha de Mohács, em 1526, mata o rei Luís II e fragmenta o reino húngaro por quase dois séculos.",
+      "fontes": [
+        "laszlo-kontler-hungria"
+      ]
+    },
+    {
+      "id": "hun-fragmentacao-tripartida",
+      "inicio": "1526",
+      "fim": "1699",
+      "rotulo": "Hungria tripartida",
+      "regime": "reino fragmentado em três zonas: domínio direto otomano, Hungria Real habsburga e Principado vassalo da Transilvânia",
+      "textoMdx": "A derrota de Mohács divide o antigo reino húngaro em três partes: o centro sob ocupação otomana direta, o norte e o oeste sob os Habsburgo como \"Hungria Real\", e a Transilvânia, a leste, como principado semiautônomo sob suserania otomana nominal, mas com governo próprio substancial.\n\n**A Transilvânia se torna, sob príncipes como Gábor Bethlen no início do século XVII, centro de tolerância religiosa incomum para a época — luteranos, calvinistas, unitaristas e católicos convivendo sob proteção legal —, além de base de resistência política húngara contra o absolutismo habsburgo.**\n\n**A reconquista habsburga do território otomano, entre 1683 e 1699, reunifica gradualmente a Hungria sob domínio austríaco**, processo formalizado pelo Tratado de Karlowitz de 1699 — mas a reunificação sob os Habsburgo traria consigo décadas de resistência húngara à centralização vienense.",
+      "fontes": [
+        "laszlo-kontler-hungria"
+      ]
+    },
+    {
+      "id": "hun-habsburgo-reunificado",
+      "inicio": "1699",
+      "fim": "1867",
+      "rotulo": "Hungria reunificada sob os Habsburgo",
+      "regime": "reino sob a coroa dos Habsburgo, com autonomia institucional formal mas subordinação política crescente",
+      "textoMdx": "A Guerra de Independência liderada pelo príncipe Francisco II Rákóczi, entre 1703 e 1711, contra o domínio habsburgo, termina em derrota militar mas obtém concessões de autonomia que preservariam instituições húngaras formais dentro do império.\n\n**A Revolução Húngara de 1848, liderada por Lajos Kossuth, declara independência da Áustria e abole a servidão — movimento esmagado apenas com intervenção militar direta russa em 1849, a pedido do imperador austríaco**, episódio que a memória nacional húngara recorda como momento heroico de resistência ao absolutismo estrangeiro.\n\n**A derrota austríaca na guerra contra a Prússia, em 1866, força Viena a negociar o Compromisso de 1867 com a elite política húngara**, criando a monarquia dual da Áustria-Hungria — arranjo que devolveria à Hungria parlamento, governo e administração próprios, unidos à Áustria apenas pela coroa, pelas relações exteriores e pelas forças armadas.",
+      "fontes": [
+        "laszlo-kontler-hungria"
+      ]
+    },
+    {
+      "id": "hun-austria-hungria",
+      "inicio": "1867",
+      "fim": "1918",
+      "rotulo": "Reino da Hungria na Monarquia Dual",
+      "regime": "reino constitucional dentro de monarquia dual com a Áustria",
+      "textoMdx": "A Hungria da monarquia dual experimenta décadas de rápida industrialização e crescimento urbano, com Budapeste se tornando uma das grandes capitais europeias, sede de arquitetura monumental construída para celebrar o milênio da conquista magiar em 1896.\n\n**O governo húngaro impõe política de magiarização linguística e cultural sobre as extensas minorias eslavas, românicas e alemãs do reino — romenos na Transilvânia, eslovacos ao norte, croatas e sérvios ao sul —, gerando ressentimento nacional crescente que explodiria com a dissolução do império.**\n\n**O assassinato do arquiduque Francisco Ferdinando em Sarajevo, em 1914, e o ultimato austro-húngaro à Sérvia que se segue, precipitam a Primeira Guerra Mundial** — derrota que, em 1918, dissolveria por completo a monarquia dual e abriria a Hungria a uma sequência de revoluções e contrarrevoluções violentas.",
+      "fontes": [
+        "laszlo-kontler-hungria"
+      ]
+    },
+    {
+      "id": "hun-trianon-entreguerras",
+      "inicio": "1918",
+      "fim": "1944",
+      "rotulo": "Da revolução comunista ao Tratado de Trianon e o regime de Horthy",
+      "regime": "república soviética efêmera, depois regência autoritária conservadora",
+      "textoMdx": "A curta República Soviética Húngara de Béla Kun, proclamada em março de 1919 — um dos primeiros governos comunistas do mundo depois da própria Rússia —, colapsa em cerca de cinco meses diante de invasão romena e oposição interna, abrindo caminho para regência conservadora sob o almirante Miklós Horthy.\n\n**O Tratado de Trianon, de 1920, formaliza a perda de cerca de dois terços do território húngaro e de um terço da população etnicamente húngara, transferidos à Romênia, à Tchecoslováquia e ao novo reino iugoslavo** — trauma nacional que moldaria obsessivamente a política externa húngara revisionista pelas duas décadas seguintes.\n\n**A aliança com a Alemanha nazista, buscando reverter as perdas de Trianon, rende à Hungria recuperação territorial parcial através dos Laudos de Viena de 1938 e 1940**, mas arrasta o país à guerra ao lado do Eixo — quando a Hungria tenta negociar armistício separado com os Aliados em 1944, a Alemanha ocupa o país diretamente e instala o regime fascista das Cruzes Flechadas.\n\n**A deportação da população judaica húngara para Auschwitz, entre maio e julho de 1944, extermina mais de 400 mil pessoas em poucas semanas — uma das operações de extermínio mais rápidas e intensas de todo o Holocausto**, coordenada por Adolf Eichmann com colaboração ativa das autoridades húngaras locais.",
+      "fontes": [
+        "laszlo-kontler-hungria",
+        "tratado-trianon-1920"
+      ]
+    },
+    {
+      "id": "hun-republica-popular",
+      "inicio": "1944",
+      "fim": "1989",
+      "rotulo": "Ocupação soviética e República Popular",
+      "regime": "ocupação militar soviética, depois república popular de partido único",
+      "textoMdx": "A libertação soviética, entre 1944 e 1945, é seguida pela imposição de governo comunista sob Mátyás Rákosi, que instaura um dos regimes stalinistas mais rígidos da Europa central, com polícia secreta, coletivização forçada e culto à personalidade.\n\n**A Revolução Húngara de outubro de 1956, iniciada por protestos estudantis e rapidamente transformada em insurreição armada nacional, forma governo reformista sob Imre Nagy, que anuncia saída do Pacto de Varsóvia** — a União Soviética responde com invasão militar maciça, esmagando o levante em dias, matando milhares e forçando a fuga de cerca de 200 mil húngaros para o Ocidente; Nagy seria capturado, julgado secretamente e executado em 1958.\n\n**János Kádár, instalado pelos soviéticos após 1956, desenvolveria paradoxalmente o regime comunista mais liberal do bloco soviético — o chamado \"comunismo goulash\"**, com tolerância maior a pequeno comércio privado e viagens ao exterior, comprando aquiescência popular em troca de silêncio político sobre a repressão de 1956.\n\n**A Hungria abre sua fronteira com a Áustria em maio de 1989, permitindo a fuga de milhares de alemães orientais rumo ao Ocidente**, num dos primeiros e mais decisivos rompimentos físicos da Cortina de Ferro, meses antes da queda do Muro de Berlim.",
+      "fontes": [
+        "laszlo-kontler-hungria",
+        "victor-sebestyen-1956"
+      ]
+    },
+    {
+      "id": "hun-republica-atual",
+      "inicio": "1989",
+      "rotulo": "República da Hungria",
+      "regime": "república parlamentar",
+      "textoMdx": "A transição pacífica de 1989-1990 leva a eleições multipartidárias livres e à adesão húngara à OTAN em 1999 e à União Europeia em 2004, completando reorientação ocidental buscada desde a queda do comunismo.\n\n**Viktor Orbán, primeiro-ministro desde 2010 após retorno ao poder com maioria parlamentar de dois terços, remodela progressivamente as instituições democráticas húngaras — reforma constitucional, controle sobre o judiciário e a mídia, redesenho de distritos eleitorais** —, declarando explicitamente em 2014 buscar construir uma \"democracia iliberal\" inspirada em modelos como a Rússia de Putin e a China.\n\n**O governo húngaro se choca repetidamente com a União Europeia sobre Estado de direito, independência judicial e política migratória, levando a bloqueio parcial de fundos europeus destinados ao país**, ao mesmo tempo em que mantém relações energéticas e diplomáticas próximas com a Rússia, mesmo após a invasão da Ucrânia em 2022 — posição que isola a Hungria de boa parte do consenso europeu sobre o conflito.",
+      "fontes": [
+        "laszlo-kontler-hungria"
+      ]
+    }
+  ]
+}

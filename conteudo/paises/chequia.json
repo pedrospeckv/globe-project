@@ -1,0 +1,73 @@
+{
+  "iso": "CZE",
+  "isoNumerico": "203",
+  "nome": "Chéquia",
+  "periodos": [
+    {
+      "id": "cze-ducado-reino-boemia",
+      "inicio": "870",
+      "fim": "1526",
+      "rotulo": "Ducado e Reino da Boêmia",
+      "regime": "ducado do Sacro Império Romano-Germânico, elevado a reino em 1198",
+      "textoMdx": "A dinastia Přemyslida consolida, a partir de cerca de 870, ducado próprio na Boêmia após o colapso da Grande Morávia vizinha — o duque Venceslau, assassinado por seu próprio irmão em 935, se tornaria santo padroeiro nacional, símbolo da estatalidade cristã boêmia que sobreviveria mil anos além de sua morte.\n\n**Otokar I obtém, em 1198, reconhecimento imperial do título de rei hereditário da Boêmia, elevando o ducado a reino dentro do Sacro Império Romano-Germânico, com autonomia interna considerável.**\n\n**O reinado de Carlos IV, entre 1346 e 1378, simultaneamente rei da Boêmia e imperador do Sacro Império, faz de Praga capital imperial e centro cultural da Europa central** — funda a Universidade Carolina em 1348, a mais antiga universidade da Europa central, e constrói a Ponte Carlos e a Catedral de São Vito que ainda hoje definem a paisagem urbana pragense.\n\n**As Guerras Hussitas, entre 1419 e 1434, seguem-se à execução do reformador religioso Jan Hus em 1415 por heresia — Praga se torna centro de movimento religioso pré-protestante que resistiria militarmente a sucessivas cruzadas papais**, antes de o movimento se dividir internamente e chegar a acordo negociado com a Igreja em 1436.",
+      "fontes": [
+        "derek-sayer-boemia"
+      ]
+    },
+    {
+      "id": "cze-boemia-habsburgo",
+      "inicio": "1526",
+      "fim": "1918",
+      "rotulo": "Boêmia sob os Habsburgo",
+      "regime": "reino sob a coroa dos Habsburgo, com autonomia progressivamente reduzida após 1620",
+      "textoMdx": "A eleição de Fernando de Habsburgo como rei da Boêmia, em 1526, inicia domínio da dinastia que duraria quase quatro séculos — inicialmente preservando instituições e autonomia boêmias substanciais, incluindo tolerância religiosa incomum diante da forte presença protestante local.\n\n**A Defenestração de Praga, em 1618, quando nobres protestantes atiram representantes imperiais pela janela do Castelo de Praga, deflagra revolta que se transformaria na devastadora Guerra dos Trinta Anos** — a derrota boêmia na Batalha da Montanha Branca, em 1620, é seguida de execução em massa da liderança nobre protestante e re-catolicização forçada, período que a tradição nacionalista tcheca chamaria de \"trezentos anos de escuridão\", embora historiadores contemporâneos questionem a uniformidade dessa narrativa.\n\n**O Renascimento Nacional Tcheco, a partir do final do século XVIII, recupera e codifica a língua tcheca como veículo literário e científico**, quase extinta como idioma de elite depois de séculos de germanização cultural sob domínio habsburgo — movimento cultural que prepararia o terreno para as reivindicações políticas de autonomia e, eventualmente, independência do século XX.",
+      "fontes": [
+        "derek-sayer-boemia"
+      ]
+    },
+    {
+      "id": "cze-primeira-republica-czechoslovaquia",
+      "inicio": "1918",
+      "fim": "1938",
+      "rotulo": "Primeira República Tchecoslovaca",
+      "regime": "república parlamentar democrática",
+      "textoMdx": "A Tchecoslováquia, proclamada em outubro de 1918 sob liderança do filósofo Tomáš Masaryk, une tchecos e eslovacos num único Estado que a maioria dos historiadores considera a democracia mais estável e bem-sucedida da Europa central entre guerras.\n\n**A nova república herda, porém, minoria alemã numerosa concentrada na região dos Sudetos — cerca de três milhões de pessoas, mais que a população eslovaca —, além de minorias húngara, polonesa e ruteno-ucraniana**, que jamais se sentiriam plenamente representadas pela estrutura centralizada de Praga.\n\n**A industrialização tcheca, herdada da porção mais desenvolvida do antigo império austro-húngaro, faz da Tchecoslováquia entre as dez economias mais industrializadas do mundo na década de 1930** — prosperidade que não impediria a crise existencial que se abateria sobre o país ao final da década, quando a Alemanha nazista reivindicaria a região dos Sudetos sob pretexto de autodeterminação alemã.",
+      "fontes": [
+        "mary-heimann-czechoslovaquia"
+      ]
+    },
+    {
+      "id": "cze-munique-ocupacao",
+      "inicio": "1938",
+      "fim": "1945",
+      "rotulo": "Acordo de Munique e ocupação nazista",
+      "regime": "território desmembrado por acordo internacional, depois protetorado anexado diretamente à Alemanha",
+      "textoMdx": "O Acordo de Munique, assinado em setembro de 1938 pela Alemanha, o Reino Unido, a França e a Itália sem participação tcheca nas negociações, cede a região dos Sudetos à Alemanha — episódio que a memória nacional tcheca resumiria na expressão \"sobre nós, sem nós\".\n\n**A cessão dos Sudetos, que continha a maior parte das fortificações defensivas tchecas, deixa o restante do país militarmente indefensável — a Alemanha ocuparia o restante da Boêmia e da Morávia diretamente em março de 1939, criando o Protetorado da Boêmia e Morávia, enquanto a Eslováquia se declarava formalmente \"independente\" como Estado cliente alemão.**\n\n**O assassinato de Reinhard Heydrich, governador nazista do protetorado, por paraquedistas tchecos treinados na Grã-Bretanha em 1942, provoca represália brutal: a aldeia de Lidice é inteiramente destruída, com todos os homens executados e mulheres e crianças deportadas** — um dos episódios de repressão coletiva mais notórios da ocupação nazista na Europa.",
+      "fontes": [
+        "mary-heimann-czechoslovaquia",
+        "acordo-munique-1938"
+      ]
+    },
+    {
+      "id": "cze-czechoslovaquia-socialista",
+      "inicio": "1945",
+      "fim": "1993",
+      "rotulo": "Tchecoslováquia socialista",
+      "regime": "república restaurada, depois república socialista de partido único a partir de 1948",
+      "textoMdx": "A Tchecoslováquia restaurada, em 1945, expulsa quase toda a população étnica alemã dos Sudetos — cerca de três milhões de pessoas, sob os decretos Beneš, num dos maiores episódios de transferência forçada de população da Europa do pós-guerra, com milhares de mortes durante as deportações.\n\n**O golpe comunista de fevereiro de 1948, aproveitando crise governamental e apoio soviético, instaura regime de partido único que reprimiria duramente qualquer dissidência pelas duas décadas seguintes.**\n\n**A Primavera de Praga, de 1968, liderada pelo reformista eslovaco Alexander Dubček sob o lema \"socialismo com rosto humano\", é esmagada pela invasão das forças do Pacto de Varsóvia em agosto daquele ano** — episódio que encerraria décadas de esperança reformista dentro do próprio sistema comunista e inauguraria a chamada \"normalização\", período de repressão renovada.\n\n**A Revolução de Veludo, em novembro de 1989, deflagrada por protesto estudantil reprimido violentamente, colapsa o regime comunista em semanas sem derramamento de sangue significativo** — o dramaturgo dissidente Václav Havel, preso poucos meses antes, se tornaria presidente já em dezembro daquele ano.",
+      "fontes": [
+        "mary-heimann-czechoslovaquia"
+      ]
+    },
+    {
+      "id": "cze-republica-tcheca",
+      "inicio": "1993",
+      "rotulo": "República Tcheca",
+      "regime": "república parlamentar",
+      "textoMdx": "A Divórcio de Veludo, em 1º de janeiro de 1993, dissolve pacificamente a Tchecoslováquia em dois Estados separados — decisão tomada por negociação entre lideranças políticas, sem referendo popular direto em nenhum dos dois países, e sem qualquer violência.\n\n**A República Tcheca adere à OTAN em 1999 e à União Europeia em 2004**, consolidando reorientação ocidental buscada desde 1989, embora permanecesse fora da zona do euro, mantendo moeda própria.\n\n**O país adotaria oficialmente, em 2016, \"Czechia\" como nome curto internacional em inglês, ao lado do nome formal \"República Tcheca\"** — mudança que buscava simplificar o uso internacional do nome do país, com adoção gradual e ainda incompleta por parte de organizações e meios de comunicação internacionais.",
+      "fontes": [
+        "mary-heimann-czechoslovaquia"
+      ]
+    }
+  ]
+}
