@@ -34,6 +34,40 @@ function duplicados(ids: string[]): string[] {
   return [...dup];
 }
 
+/** Um `**` que embrulha o parágrafo do começo ao fim. DOTALL: pode ter linha dentro. */
+const PARAGRAFO_EMBRULHADO = /^\*\*([\s\S]+)\*\*$/;
+
+/**
+ * Parágrafos onde o negrito embrulha o texto INTEIRO — que não é ênfase.
+ *
+ * No `Prosa` o `strong` vira `font-semibold text-slate-100`, um tom mais claro
+ * que os `text-slate-300` em volta. Num parágrafo inteiro isso não destaca
+ * nada: só deixa o bloco mais claro e mais pesado que os vizinhos, e a página
+ * vira faixas de brilho alternadas. Nos dossiês escritos à mão o negrito lifta
+ * uma FRASE — um nome, uma data, o número que importa — e a medição separa os
+ * dois usos com nitidez: os nove primeiros países têm 0,6 negritos por
+ * parágrafo e zero parágrafos embrulhados; nos 157 escritos em lote, 469
+ * parágrafos vinham embrulhados, até 62% dos de um mesmo país.
+ *
+ * Por que no validador e não no schema: o Zod olha um campo por vez e este é
+ * um defeito de REGISTRO, não de forma — o texto é markdown válido e o período
+ * é válido. É a mesma razão que põe a fonte inexistente aqui.
+ *
+ * `**A** e **B**` fica: tem `**` dentro do que foi capturado, então é ênfase
+ * de frase e passa.
+ */
+function paragrafosTodosEmNegrito(texto?: string): string[] {
+  if (!texto) return [];
+  const achados: string[] = [];
+  for (const bruto of texto.split("\n\n")) {
+    const casa = PARAGRAFO_EMBRULHADO.exec(bruto.trim());
+    if (casa && !casa[1].includes("**")) {
+      achados.push(casa[1].slice(0, 60) + (casa[1].length > 60 ? "…" : ""));
+    }
+  }
+  return achados;
+}
+
 /**
  * Checagens que nenhum schema isolado consegue fazer, por cruzarem arquivos.
  *
@@ -100,6 +134,11 @@ export function verificarIntegridade(acervo: Acervo): string[] {
           erros.push(`período "${periodo.id}" cita fonte inexistente: ${fonteId}`);
         }
       }
+      for (const paragrafo of paragrafosTodosEmNegrito(periodo.textoMdx)) {
+        erros.push(
+          `período "${periodo.id}" tem parágrafo inteiro em negrito: "${paragrafo}"`
+        );
+      }
       for (const entidade of periodo.entidades) {
         for (const fonteId of entidade.fontes) {
           if (!idsFonte.has(fonteId)) {
@@ -107,6 +146,11 @@ export function verificarIntegridade(acervo: Acervo): string[] {
               `entidade "${entidade.nome}" em "${periodo.id}" cita fonte inexistente: ${fonteId}`
             );
           }
+        }
+        for (const paragrafo of paragrafosTodosEmNegrito(entidade.textoMdx)) {
+          erros.push(
+            `entidade "${entidade.nome}" em "${periodo.id}" tem parágrafo inteiro em negrito: "${paragrafo}"`
+          );
         }
       }
     }

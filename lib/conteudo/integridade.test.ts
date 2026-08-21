@@ -185,6 +185,45 @@ describe("verificarIntegridade", () => {
       verificarIntegridade(a).some((e) => /RDA.*fonte-fantasma/.test(e))
     ).toBe(true);
   });
+
+  /*
+   * O negrito de parágrafo inteiro. Os três casos que importam estão aqui
+   * porque a diferença entre eles é a regra: embrulhar tudo não é ênfase,
+   * realçar uma frase é, e um parágrafo com duas frases realçadas continua
+   * sendo ênfase mesmo começando e terminando em `**`.
+   */
+  it("ACUSA parágrafo inteiro em negrito", () => {
+    const a = acervoBase();
+    a.paises[0].periodos[0].textoMdx = "**A Nova República começa em 1985.**";
+    expect(
+      verificarIntegridade(a).some((e) => /parágrafo inteiro em negrito/.test(e))
+    ).toBe(true);
+  });
+
+  it("aceita negrito que realça uma frase dentro do parágrafo", () => {
+    const a = acervoBase();
+    a.paises[0].periodos[0].textoMdx =
+      "A Nova República começa em **1985**, com a eleição indireta de Tancredo.";
+    expect(verificarIntegridade(a)).toHaveLength(0);
+  });
+
+  it("aceita parágrafo que começa e termina em negrito mas realça duas frases", () => {
+    const a = acervoBase();
+    a.paises[0].periodos[0].textoMdx =
+      "**Tancredo** é eleito e morre antes de tomar posse; assume **Sarney**";
+    expect(verificarIntegridade(a)).toHaveLength(0);
+  });
+
+  it("ACUSA parágrafo inteiro em negrito na entidade", () => {
+    const a = acervoBase();
+    a.paises[0].periodos[0].entidades = [
+      { nome: "RDA", regime: "x", fontes: [], textoMdx: "**Estado socialista.**" },
+      { nome: "RFA", regime: "y", fontes: [] },
+    ];
+    expect(
+      verificarIntegridade(a).some((e) => /RDA.*parágrafo inteiro em negrito/.test(e))
+    ).toBe(true);
+  });
 });
 
 describe("coberturaDeFontes", () => {
