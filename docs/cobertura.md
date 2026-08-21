@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**133 de 174 países** desenhados no mapa têm dossiê (76.4%), somando **685 períodos**.
+**137 de 174 países** desenhados no mapa têm dossiê (78.7%), somando **703 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -31,10 +31,12 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Brunei | `BRN` | 3 | 3 |
 | Bulgária | `BGR` | 6 | 6 |
 | Burkina Faso | `BFA` | 4 | 4 |
+| Camarões | `CMR` | 4 | 4 |
 | Camboja | `KHM` | 7 | 7 |
 | Canadá | `CAN` | 5 | 5 |
 | Catar | `QAT` | 3 | 3 |
 | Cazaquistão | `KAZ` | 4 | 4 |
+| Chade | `TCD` | 5 | 5 |
 | Chéquia | `CZE` | 6 | 6 |
 | Chile | `CHL` | 9 | 9 |
 | China | `CHN` | 16 | 16 |
@@ -115,6 +117,8 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Quênia | `KEN` | 4 | 4 |
 | Quirguistão | `KGZ` | 3 | 3 |
 | Reino Unido | `GBR` | 6 | 6 |
+| República Centro-Africana | `CAF` | 4 | 4 |
+| República Democrática do Congo | `COD` | 5 | 5 |
 | República Dominicana | `DOM` | 5 | 5 |
 | Romênia | `ROU` | 4 | 4 |
 | Rússia | `RUS` | 6 | 6 |
@@ -154,9 +158,8 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | | | | |
 |---|---|---|---|
 | Afghanistan | Angola | Antarctica | Bangladesh |
-| Bhutan | Botswana | Burundi | Cameroon |
-| Central African Rep. | Chad | Congo | Cyprus |
-| Dem. Rep. Congo | Eq. Guinea | eSwatini | Falkland Is. |
+| Bhutan | Botswana | Burundi | Congo |
+| Cyprus | Eq. Guinea | eSwatini | Falkland Is. |
 | Fr. S. Antarctic Lands | Gabon | Guinea-Bissau | Ireland |
 | Israel | Lesotho | Madagascar | Malawi |
 | Moldova | Mongolia | Mozambique | Namibia |

@@ -1,0 +1,50 @@
+{
+  "iso": "CAF",
+  "isoNumerico": "140",
+  "nome": "República Centro-Africana",
+  "periodos": [
+    {
+      "id": "caf-ubangui-chari-frances",
+      "inicio": "1894",
+      "fim": "1960",
+      "rotulo": "Ubangui-Chari Francês",
+      "regime": "colônia francesa, sob notório sistema de concessões privadas que reproduziria abusos comparáveis ao Congo Belga",
+      "textoMdx": "A colônia de Ubangui-Chari, integrada à África Equatorial Francesa, é entregue em grande parte a companhias concessionárias privadas com poder quase absoluto sobre a exploração econômica e do trabalho da população local — sistema que reproduziria, sob bandeira francesa, abusos comparáveis aos documentados no vizinho Estado Livre do Congo.\n\n**O escritor francês André Gide, em seu relato de viagem \"Viagem ao Congo\", de 1927, expõe publicamente os abusos do sistema de concessões centro-africano, contribuindo para pressão internacional que forçaria reformas parciais nas décadas seguintes.**\n\n**Barthélemy Boganda emerge como líder nacionalista carismático e unificador nos anos 1950, mas morre em acidente de avião em 1959, meses antes da independência — perda que muitos historiadores consideram consequência direta e duradoura para a instabilidade política que se seguiria, privando o país de sua liderança mais amplamente respeitada logo no momento fundacional.**",
+      "fontes": [
+        "pierre-kalck-centro-africana"
+      ]
+    },
+    {
+      "id": "caf-instabilidade-bokassa",
+      "inicio": "1960",
+      "fim": "1979",
+      "rotulo": "Instabilidade e o Império de Bokassa",
+      "regime": "república instável, depois monarquia autoproclamada sob um dos regimes mais excêntricos da África pós-colonial",
+      "textoMdx": "A ausência de Boganda deixa vácuo de liderança que David Dacko, seu primeiro sucessor, não conseguiria preencher — Jean-Bédel Bokassa depõe Dacko em golpe militar em 1965, iniciando reinado que se tornaria um dos mais bizarros de toda a história política africana.\n\n**Bokassa se autoproclama imperador em 1976, numa cerimônia de coroação suntuosa que consumiria fração substancial do orçamento anual do país — seu governo seria marcado por abusos de direitos humanos extensos, incluindo alegações documentadas de canibalismo, e por escândalo de presentes de diamantes ao presidente francês Valéry Giscard d'Estaing que contribuiria para a própria queda política deste no cenário francês.**\n\n**A intervenção militar francesa direta, em 1979, depõe Bokassa e restaura Dacko ao poder — episódio que ilustraria, de forma particularmente flagrante, o padrão de intervenção francesa recorrente na política de suas antigas colônias africanas ao longo de décadas.**",
+      "fontes": [
+        "pierre-kalck-centro-africana"
+      ]
+    },
+    {
+      "id": "caf-golpes-transicao-democratica",
+      "inicio": "1979",
+      "fim": "2003",
+      "rotulo": "Golpes e a transição democrática",
+      "regime": "sucessivos regimes militares e civis, com breve interlúdio de democracia competitiva",
+      "textoMdx": "André Kolingba governa autoritariamente entre 1981 e 1993, período de estagnação política e econômica antes de a pressão internacional e doméstica forçar abertura multipartidária genuína.\n\n**Ange-Félix Patassé vence a primeira eleição verdadeiramente competitiva da história centro-africana, em 1993, inaugurando década de governo civil relativamente estável — interrompida por golpe militar liderado por François Bozizé em 2003, que encerraria esse breve período democrático.**",
+      "fontes": [
+        "pierre-kalck-centro-africana"
+      ]
+    },
+    {
+      "id": "caf-guerra-civil-selekas-atual",
+      "inicio": "2003",
+      "rotulo": "Guerra Civil, a Séleka e a República Centro-Africana atual",
+      "regime": "Estado fragmentado por guerra civil sectária, sob presença crescente de mercenários russos",
+      "textoMdx": "O governo de Bozizé é derrubado, em 2013, pela coalizão rebelde Séleka, de composição predominantemente muçulmana — tomada de poder que provoca reação sectária violenta de milícias cristãs e animistas conhecidas como anti-balaka, mergulhando o país em guerra civil de contornos religiosos que a ONU classificaria como aproximando-se de risco de genocídio.\n\n**Forças de paz francesas e depois da própria ONU intervêm para impedir colapso estatal completo, mas vastas áreas do território permaneceriam, por anos, sob controle de dezenas de grupos armados rivais fora da autoridade efetiva do governo central.**\n\n**Faustin-Archange Touadéra, eleito presidente em 2016, recorreria progressivamente a mercenários russos do Grupo Wagner para segurança pessoal e acesso a recursos minerais a partir de 2018 — um dos primeiros e mais extensos casos de presença Wagner na África, associado a abusos de direitos humanos documentados** — a República Centro-Africana permanece, apesar de acordos formais de paz, entre os Estados mais frágeis e fragmentados territorialmente do mundo contemporâneo.",
+      "fontes": [
+        "pierre-kalck-centro-africana"
+      ]
+    }
+  ]
+}

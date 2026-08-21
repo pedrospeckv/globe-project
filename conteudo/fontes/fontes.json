@@ -4343,5 +4343,61 @@
     "autor": "Arnold Hughes e David Perfect",
     "data": "2008",
     "citacao": "Obra de referência sobre a história gambiana, da presença comercial britânica no Forte James à ditadura excêntrica e repressiva de Yahya Jammeh e sua derrubada por intervenção militar regional em 2017."
+  },
+  {
+    "id": "john-thornton-reino-congo",
+    "tipo": "livro",
+    "titulo": "The Kongo Kingdom: The Origins, Dynamics, and Cosmology of an African State",
+    "autor": "John Thornton",
+    "data": "2020",
+    "citacao": "História do Reino do Congo, de sua fundação por volta de 1390 à conversão ao cristianismo em 1491, incluindo as cartas do rei Afonso I ao rei de Portugal, no início do século XVI, protestando contra a devastação causada pelo comércio de escravos ao próprio reino."
+  },
+  {
+    "id": "nzongola-ntalaja-congo",
+    "tipo": "livro",
+    "titulo": "The Congo from Leopold to Kabila: A People's History",
+    "autor": "Georges Nzongola-Ntalaja",
+    "data": "2002",
+    "citacao": "História crítica do Congo do Estado Livre de Leopoldo II à era Kabila, cobrindo o assassinato de Lumumba em 1961, a cleptocracia de Mobutu e as duas guerras congolesas de 1996-2003, o conflito mais mortífero desde a Segunda Guerra Mundial em número de mortos."
+  },
+  {
+    "id": "delancey-camaroes",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of the Republic of Cameroon",
+    "autor": "Mark DeLancey, Rebecca Neh Mbuh e Mark W. DeLancey",
+    "data": "2010",
+    "citacao": "Obra de referência sobre a história camaronesa, da partilha colonial entre Alemanha, França e Grã-Bretanha à unificação federal de 1961 e à crise anglófona iniciada em 2016."
+  },
+  {
+    "id": "mario-azevedo-chade",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of Chad",
+    "autor": "Mario Azevedo",
+    "data": "2005",
+    "citacao": "Obra de referência sobre a história chadiana, do núcleo original do Império de Canem às guerras civis entre norte e sul e à repressão de Hissène Habré, cuja polícia secreta mataria cerca de quarenta mil pessoas na década de 1980."
+  },
+  {
+    "id": "pierre-kalck-centro-africana",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of the Central African Republic",
+    "autor": "Pierre Kalck",
+    "data": "2005",
+    "citacao": "Obra de referência sobre a história centro-africana, do sistema de concessões coloniais francesas denunciado por André Gide em 1927 ao breve e bizarro Império de Bokassa e à guerra civil entre a Séleka e as milícias anti-balaka a partir de 2013."
+  },
+  {
+    "id": "cij-aouzou-1994",
+    "tipo": "decisao-judicial",
+    "titulo": "Caso da Disputa Territorial (Líbia/Chade)",
+    "publicacao": "Corte Internacional de Justiça",
+    "data": "1994-02-03",
+    "citacao": "Determinou que a Faixa de Aouzou, ocupada pela Líbia desde 1973 e rica em suspeitos depósitos de urânio, pertencia legalmente ao Chade — a Líbia cumpriria a decisão e retiraria suas tropas ainda naquele ano, raro caso de disputa territorial africana resolvida pacificamente por via judicial internacional."
+  },
+  {
+    "id": "camaras-africanas-habre-2016",
+    "tipo": "decisao-judicial",
+    "titulo": "Ministério Público v. Hissène Habré",
+    "publicacao": "Câmaras Africanas Extraordinárias, Senegal",
+    "data": "2016-05-30",
+    "citacao": "Condenou o ex-ditador chadiano Hissène Habré por crimes contra a humanidade, tortura e crimes de guerra cometidos entre 1982 e 1990 — primeira vez na história que um ex-chefe de Estado foi julgado e condenado pelos tribunais de outro país por violações de direitos humanos."
   }
 ]
