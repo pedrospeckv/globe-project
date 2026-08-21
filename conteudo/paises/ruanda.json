@@ -1,0 +1,62 @@
+{
+  "iso": "RWA",
+  "isoNumerico": "646",
+  "nome": "Ruanda",
+  "periodos": [
+    {
+      "id": "rwa-reino-nyiginya",
+      "inicio": "1600",
+      "fim": "1897",
+      "rotulo": "Reino Nyiginya",
+      "regime": "monarquia centralizada sob a dinastia Nyiginya, com sistema social hierárquico entre categorias tutsi, hutu e twa",
+      "textoMdx": "O Reino Nyiginya se consolida no planalto central ruandês a partir de aproximadamente 1600, desenvolvendo ao longo de séculos um dos aparelhos estatais pré-coloniais mais centralizados e sofisticados de toda a África dos Grandes Lagos, sustentado por complexo sistema de clientelismo pastoril conhecido como ubuhake.\n\n**O reinado do mwami Kigeli IV Rwabugiri, entre 1867 e 1895, marca o auge da expansão e centralização do reino — suas reformas administrativas endureceriam significativamente as distinções entre categorias sociais tutsi, hutu e twa, historicamente mais fluidas e permeáveis, plantando sementes que a colonização europeia posterior exploraria e rigidificaria de forma catastrófica.**\n\n**A morte de Rwabugiri, em 1895, deixa o reino em meio a disputa sucessória interna justamente quando exploradores e depois colonizadores alemães começam a estabelecer presença na região.**",
+      "fontes": [
+        "gerard-prunier-ruanda"
+      ]
+    },
+    {
+      "id": "rwa-colonizacao-alema-belga",
+      "inicio": "1897",
+      "fim": "1959",
+      "rotulo": "Colonização alemã e depois belga",
+      "regime": "colônia alemã e depois mandato/tutela belga, exercendo administração indireta através da monarquia tutsi existente",
+      "textoMdx": "A África Oriental Alemã incorpora Ruanda a partir de 1897, governando de forma indireta através da estrutura monárquica tutsi preexistente — a Bélgica assumiria o controle após a Primeira Guerra Mundial, primeiro como mandato da Liga das Nações e depois como território sob tutela das Nações Unidas, unificando administrativamente Ruanda e Burundi como Ruanda-Urundi.\n\n**A administração belga intensifica drasticamente a rigidez das categorias étnicas herdadas do período Nyiginya, introduzindo cartões de identidade obrigatórios que classificavam formalmente cada indivíduo como tutsi, hutu ou twa a partir de 1933 — sistema de classificação racializada, apoiado por pseudociência colonial europeia sobre origens raciais distintas, que se tornaria instrumento direto e documentado da violência genocida de décadas depois.**\n\n**A Igreja Católica belga, inicialmente aliada da elite tutsi dominante, muda de posição nas décadas de 1950, passando a apoiar crescentemente aspirações políticas hutu majoritárias — realinhamento que prepararia terreno para a ruptura revolucionária do final da década.**",
+      "fontes": [
+        "gerard-prunier-ruanda"
+      ]
+    },
+    {
+      "id": "rwa-revolucao-social-independencia",
+      "inicio": "1959",
+      "fim": "1973",
+      "rotulo": "Revolução Social e independência",
+      "regime": "república presidencialista, nascida de revolução que aboliu a monarquia tutsi",
+      "textoMdx": "A Revolução Social de 1959, também chamada Revolução Hutu, derruba violentamente a monarquia tutsi centenária e a estrutura de poder a ela associada — dezenas de milhares de tutsis morreriam ou fugiriam para países vizinhos nesse período, criando diáspora refugiada que se tornaria central à história ruandesa subsequente.\n\n**O Ruanda alcança independência formal em 1962 sob a presidência de Grégoire Kayibanda e o domínio do partido Parmehutu, invertendo formalmente a hierarquia étnica colonial ao consolidar poder político hutu majoritário.**\n\n**Episódios recorrentes de violência antitutsi, incluindo massacres significativos em 1963 e 1973, acompanhariam esse período — o general Juvénal Habyarimana depõe Kayibanda em golpe incruento em 1973, estabelecendo regime de partido único que governaria por mais de duas décadas.**",
+      "fontes": [
+        "gerard-prunier-ruanda"
+      ]
+    },
+    {
+      "id": "rwa-habyarimana-guerra-genocidio",
+      "inicio": "1973",
+      "fim": "1994",
+      "rotulo": "Habyarimana, a guerra civil e o genocídio",
+      "regime": "regime de partido único, mergulhado em guerra civil e culminando no genocídio contra os tutsis",
+      "textoMdx": "O regime de partido único de Habyarimana mantém sistema de cotas étnicas e regionais discriminatórias ao longo de quase duas décadas, enquanto a Frente Patriótica Ruandesa, formada por descendentes de refugiados tutsis exilados desde 1959, invade a partir de Uganda em 1990, deflagrando a Guerra Civil Ruandesa.\n\n**A morte de Habyarimana, em 6 de abril de 1994, quando seu avião é abatido sobre Kigali em circunstâncias que permanecem disputadas, serve de estopim imediato para o Genocídio contra os Tutsis — ao longo de cerca de cem dias, entre abril e julho de 1994, aproximadamente oitocentas mil pessoas, majoritariamente tutsis mas também hutus moderados, seriam sistematicamente assassinadas por milícias interahamwe e cidadãos comuns mobilizados, num dos genocídios mais rápidos e intensos já documentados na história humana.**\n\n**A comunidade internacional, incluindo a força de paz da ONU presente no país sob comando do general Roméo Dallaire, falharia catastroficamente em intervir para deter a matança, apesar de avisos prévios claros — falha que marcaria profundamente a política humanitária internacional subsequente.** A vitória militar da Frente Patriótica Ruandesa, em julho de 1994, encerraria o genocídio e a guerra civil simultaneamente.",
+      "fontes": [
+        "gerard-prunier-ruanda",
+        "veredicto-akayesu-tpir-1998"
+      ]
+    },
+    {
+      "id": "rwa-pos-genocidio-atual",
+      "inicio": "1994",
+      "rotulo": "Reconstrução pós-genocídio sob Kagame",
+      "regime": "república presidencialista sob domínio de partido dominante, combinando reconstrução econômica notável e repressão política documentada",
+      "textoMdx": "Paul Kagame, líder militar da Frente Patriótica Ruandesa vitoriosa, consolida controle político efetivo desde 1994, tornando-se presidente formal em 2000 — seu governo conduziria processo de reconciliação nacional através dos tribunais comunitários gacaca, abolindo formalmente a menção a categorias étnicas na identificação oficial e na vida pública.\n\n**O Ruanda alcançaria, sob Kagame, crescimento econômico e desenvolvimento institucional notáveis, incluindo avanços expressivos em saúde pública, tecnologia e representação política feminina — o país mantém, desde 2008, o parlamento com a maior proporção de mulheres do mundo.**\n\n**Esse progresso material convive, contudo, com acusações amplamente documentadas de repressão política severa contra opositores e jornalistas, controle rígido do discurso público e envolvimento militar ruandês recorrente em conflitos na vizinha República Democrática do Congo — Kagame permanece no poder décadas depois do genocídio, através de emendas constitucionais que estenderam significativamente seus limites de mandato.**",
+      "fontes": [
+        "gerard-prunier-ruanda"
+      ]
+    }
+  ]
+}

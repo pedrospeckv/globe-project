@@ -1,0 +1,73 @@
+{
+  "iso": "BDI",
+  "isoNumerico": "108",
+  "nome": "Burundi",
+  "periodos": [
+    {
+      "id": "bdi-reino-ganwa",
+      "inicio": "1680",
+      "fim": "1897",
+      "rotulo": "Reino de Burundi sob a dinastia Ganwa",
+      "regime": "monarquia centralizada sob a dinastia Ganwa, com estrutura de poder distinta da vizinha Ruanda",
+      "textoMdx": "O Reino de Burundi se consolida sob a liderança fundadora tradicionalmente atribuída a Ntare I Rushatsi, por volta do final do século XVII, desenvolvendo estrutura de poder distinta e menos rigidamente etnicizada que a do vizinho Reino Nyiginya de Ruanda — a autoridade real se apoiava numa categoria própria de príncipes, os ganwa, considerados distintos tanto de tutsis quanto de hutus.\n\n**Essa distinção estrutural entre os sistemas políticos burundinês e ruandês, apesar de ambos os territórios abrigarem populações hutu, tutsi e twa em proporções semelhantes, provaria ser historicamente significativa — Burundi evitaria, ao longo de boa parte do século XX, a polarização étnica binária tão característica da experiência ruandesa vizinha, embora sua própria história political viesse a ser marcada por violência intraétnica recorrente e severa.**\n\n**O reino mantém relativa estabilidade interna até a chegada de exploradores e depois colonizadores europeus ao final do século XIX.**",
+      "fontes": [
+        "rene-lemarchand-burundi"
+      ]
+    },
+    {
+      "id": "bdi-colonizacao-alema-belga",
+      "inicio": "1897",
+      "fim": "1962",
+      "rotulo": "Colonização alemã e depois belga",
+      "regime": "colônia alemã e depois mandato/tutela belga, administrada conjuntamente com Ruanda como Ruanda-Urundi",
+      "textoMdx": "A África Oriental Alemã incorpora Burundi a partir de 1897, seguida pela administração belga após a Primeira Guerra Mundial — Burundi seria administrado conjuntamente com o vizinho Ruanda sob a denominação Ruanda-Urundi, primeiro como mandato da Liga das Nações e depois como território sob tutela das Nações Unidas, apesar de suas estruturas políticas internas distintas.\n\n**A monarquia ganwa é preservada sob administração indireta belga ao longo de todo o período colonial, em contraste com a trajetória ruandesa — o príncipe herdeiro Louis Rwagasore lideraria movimento nacionalista de sucesso notável, unindo diferentes grupos étnicos sob plataforma de independência, antes de ser assassinado por rivais políticos apenas semanas após vencer eleições decisivas em 1961.**\n\n**O assassinato de Rwagasore privaria Burundi de liderança fundadora unificadora bem no momento da independência, formalmente obtida em julho de 1962 sob a monarquia constitucional do mwami Mwambutsa IV.**",
+      "fontes": [
+        "rene-lemarchand-burundi"
+      ]
+    },
+    {
+      "id": "bdi-independencia-monarquia",
+      "inicio": "1962",
+      "fim": "1966",
+      "rotulo": "Independência sob a monarquia constitucional",
+      "regime": "monarquia constitucional independente, sob crescente instabilidade política e étnica",
+      "textoMdx": "O mwami Mwambutsa IV preside a independência de Burundi em 1962, mas seu governo enfrentaria instabilidade política crescente diante de tensão étnica e faccional interna, incluindo assassinato de primeiro-ministro em 1965 e tentativa de golpe hutu no mesmo ano, reprimida com violência considerável contra oficiais e políticos hutus.\n\n**O capitão Michel Micombero, membro da elite militar tutsi, depõe o filho e sucessor de Mwambutsa em 1966, abolindo a monarquia e declarando república — encerrando abruptamente a instituição monárquica ganwa que unificara Burundi havia séculos.**",
+      "fontes": [
+        "rene-lemarchand-burundi"
+      ]
+    },
+    {
+      "id": "bdi-genocidio-1972-instabilidade",
+      "inicio": "1966",
+      "fim": "1993",
+      "rotulo": "República militar tutsi e o genocídio de 1972",
+      "regime": "república sob sucessivos governos militares de composição predominantemente tutsi",
+      "textoMdx": "A tentativa de insurreição hutu de abril de 1972 provoca resposta estatal de violência extrema e sistemática por parte do governo militar de Micombero — o episódio conhecido como Ikiza, ou \"a catástrofe\", mataria entre cem mil e trezentas mil pessoas, majoritariamente homens hutus educados e de elite, deliberadamente visados numa campanha amplamente reconhecida por historiadores como genocídio, embora permaneça sem reconhecimento judicial internacional formal comparável ao caso ruandês de 1994.\n\n**Sucessivos governos militares de composição predominantemente tutsi — Micombero, depois Jean-Baptiste Bagaza a partir de 1976, depois Pierre Buyoya a partir de 1987 — manteriam controle político ao longo de mais de duas décadas, entre golpes palacianos internos e violência étnica episódica recorrente, incluindo novos massacres significativos em 1988.**",
+      "fontes": [
+        "rene-lemarchand-burundi"
+      ]
+    },
+    {
+      "id": "bdi-assassinato-ndadaye-guerra-civil",
+      "inicio": "1993",
+      "fim": "2005",
+      "rotulo": "Assassinato de Ndadaye e a Guerra Civil",
+      "regime": "república democrática interrompida por golpe e assassinato, mergulhada em guerra civil prolongada",
+      "textoMdx": "Melchior Ndadaye se torna, em junho de 1993, o primeiro presidente hutu eleito democraticamente na história de Burundi — seu assassinato, apenas meses depois, em outubro daquele ano, por oficiais tutsis extremistas, deflagra a Guerra Civil de Burundi, conflito que se estenderia por mais de uma década e mataria cerca de trezentas mil pessoas.\n\n**O Acordo de Paz de Arusha, de 2000, negociado sob mediação regional incluindo Nelson Mandela, estabelece arquitetura constitucional inédita de partilha obrigatória de poder entre hutus e tutsis, aplicada ao governo, ao parlamento e às forças armadas — mecanismo que permanece em vigor décadas depois, amplamente creditado por ter contido a repetição de violência étnica em massa comparável à ruandesa.**\n\n**A guerra terminaria formalmente em 2005, com a ascensão de Pierre Nkurunziza e do partido rebelde hutu CNDD-FDD ao poder através de eleições, encerrando a fase mais sangrenta do conflito.**",
+      "fontes": [
+        "rene-lemarchand-burundi",
+        "acordo-arusha-burundi-2000"
+      ]
+    },
+    {
+      "id": "bdi-nkurunziza-crise-atual",
+      "inicio": "2005",
+      "rotulo": "Era Nkurunziza e o Burundi contemporâneo",
+      "regime": "república presidencialista sob domínio de partido dominante, abalada por grave crise constitucional em 2015",
+      "textoMdx": "Pierre Nkurunziza governa Burundi por mais de uma década a partir de 2005, período de estabilidade relativa em comparação com décadas anteriores, mas também de erosão democrática progressiva.\n\n**A decisão de Nkurunziza de buscar um controverso terceiro mandato presidencial, em 2015, interpretada por opositores como violação tanto da constituição quanto do próprio Acordo de Arusha, provoca crise política grave — tentativa de golpe malsucedida, repressão violenta de protestos e nova onda de refugiados somariam-se a período de isolamento internacional crescente do país.**\n\n**A morte súbita de Nkurunziza, em 2020, oficialmente por parada cardíaca em meio à pandemia de covid-19, traz Évariste Ndayishimiye ao poder — seu governo sinalizaria abertura cautelosa e gradual ao reengajamento internacional, ainda que Burundi permaneça um dos países mais pobres do mundo, com desafios de governança e direitos humanos persistentes.**",
+      "fontes": [
+        "rene-lemarchand-burundi"
+      ]
+    }
+  ]
+}

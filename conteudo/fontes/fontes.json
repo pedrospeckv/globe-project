@@ -4655,5 +4655,37 @@
     "autor": "K. M. de Silva",
     "data": "2005",
     "citacao": "História do Sri Lanka de referência, do Reino de Anuradhapura à Guerra Civil de 1983-2009, cobrindo a notável sobrevivência do Reino de Candy à colonização portuguesa e holandesa até a conquista britânica final de 1815."
+  },
+  {
+    "id": "gerard-prunier-ruanda",
+    "tipo": "livro",
+    "titulo": "The Rwanda Crisis: History of a Genocide",
+    "autor": "Gérard Prunier",
+    "data": "1995",
+    "citacao": "História ruandesa do reino pré-colonial Nyiginya à colonização alemã e belga, à Revolução Social de 1959 e ao genocídio de 1994, referência central sobre as raízes históricas do conflito hutu-tutsi."
+  },
+  {
+    "id": "rene-lemarchand-burundi",
+    "tipo": "livro",
+    "titulo": "Burundi: Ethnic Conflict and Genocide",
+    "autor": "René Lemarchand",
+    "data": "1994",
+    "citacao": "História burundinesa do reino Ganwa pré-colonial ao genocídio de 1972 contra hutus e à instabilidade política recorrente, analisando as diferenças estruturais entre os sistemas de poder de Burundi e Ruanda apesar da colonização conjunta como Ruanda-Urundi."
+  },
+  {
+    "id": "veredicto-akayesu-tpir-1998",
+    "tipo": "decisao-judicial",
+    "titulo": "Promotor v. Jean-Paul Akayesu",
+    "publicacao": "Tribunal Penal Internacional para Ruanda",
+    "data": "1998-09-02",
+    "citacao": "Primeira condenação por genocídio da história do direito internacional, e primeiro reconhecimento judicial internacional do estupro em massa como instrumento de genocídio."
+  },
+  {
+    "id": "acordo-arusha-burundi-2000",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Paz e Reconciliação de Arusha para Burundi",
+    "publicacao": "Governo de Burundi e facções rebeldes, mediado pela Tanzânia",
+    "data": "2000-08-28",
+    "citacao": "Encerrou formalmente a Guerra Civil de Burundi de 1993-2005, estabelecendo partilha de poder étnica constitucional entre hutus e tutsis que permanece em vigor."
   }
 ]
