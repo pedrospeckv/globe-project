@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**110 de 174 países** desenhados no mapa têm dossiê (63.2%), somando **585 períodos**.
+**114 de 174 países** desenhados no mapa têm dossiê (65.5%), somando **603 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -41,15 +41,18 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Croácia | `HRV` | 6 | 6 |
 | Cuba | `CUB` | 4 | 4 |
 | Dinamarca | `DNK` | 3 | 3 |
+| Djibuti | `DJI` | 2 | 2 |
 | Egito | `EGY` | 6 | 6 |
 | El Salvador | `SLV` | 4 | 4 |
 | Emirados Árabes Unidos | `ARE` | 4 | 4 |
 | Equador | `ECU` | 5 | 5 |
+| Eritreia | `ERI` | 4 | 4 |
 | Eslováquia | `SVK` | 6 | 6 |
 | Eslovênia | `SVN` | 5 | 5 |
 | Espanha | `ESP` | 6 | 6 |
 | Estados Unidos | `USA` | 8 | 8 |
 | Estônia | `EST` | 5 | 5 |
+| Etiópia | `ETH` | 7 | 7 |
 | Fiji | `FJI` | 3 | 3 |
 | Filipinas | `PHL` | 5 | 5 |
 | Finlândia | `FIN` | 4 | 4 |
@@ -105,6 +108,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Rússia | `RUS` | 6 | 6 |
 | Sérvia | `SRB` | 7 | 7 |
 | Síria | `SYR` | 5 | 5 |
+| Somália | `SOM` | 5 | 5 |
 | Suécia | `SWE` | 3 | 3 |
 | Suíça | `CHE` | 3 | 3 |
 | Suriname | `SUR` | 4 | 4 |
@@ -134,16 +138,15 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | Benin | Bhutan | Botswana | Burkina Faso |
 | Burundi | Cameroon | Central African Rep. | Chad |
 | Congo | Côte d'Ivoire | Cyprus | Dem. Rep. Congo |
-| Djibouti | Eq. Guinea | Eritrea | eSwatini |
-| Ethiopia | Falkland Is. | Fr. S. Antarctic Lands | Gabon |
-| Gambia | Ghana | Guinea | Guinea-Bissau |
-| Ireland | Israel | Kenya | Lesotho |
-| Liberia | Madagascar | Malawi | Mali |
-| Mauritania | Moldova | Mongolia | Mozambique |
-| Namibia | Nepal | New Caledonia | Niger |
-| Nigeria | North Korea | Pakistan | Palestine |
-| Rwanda | S. Sudan | Senegal | Sierra Leone |
-| Somalia | South Africa | South Korea | Sri Lanka |
+| Eq. Guinea | eSwatini | Falkland Is. | Fr. S. Antarctic Lands |
+| Gabon | Gambia | Ghana | Guinea |
+| Guinea-Bissau | Ireland | Israel | Kenya |
+| Lesotho | Liberia | Madagascar | Malawi |
+| Mali | Mauritania | Moldova | Mongolia |
+| Mozambique | Namibia | Nepal | New Caledonia |
+| Niger | Nigeria | North Korea | Pakistan |
+| Palestine | Rwanda | S. Sudan | Senegal |
+| Sierra Leone | South Africa | South Korea | Sri Lanka |
 | Sudan | Taiwan | Tanzania | Togo |
 | Uganda | W. Sahara | Zambia | Zimbabwe |
 

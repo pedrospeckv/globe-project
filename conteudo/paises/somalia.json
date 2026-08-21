@@ -1,0 +1,61 @@
+{
+  "iso": "SOM",
+  "isoNumerico": "706",
+  "nome": "Somália",
+  "periodos": [
+    {
+      "id": "som-sultanato-adal",
+      "inicio": "1415",
+      "fim": "1577",
+      "rotulo": "Sultanato de Adal",
+      "regime": "sultanato islâmico, no apogeu quase conquistando a Etiópia cristã vizinha",
+      "textoMdx": "O Sultanato de Adal, com base na cidade portuária de Zeila, no Chifre da África, se consolida como potência islâmica regional a partir do início do século XV, controlando rotas comerciais estratégicas do mar Vermelho.\n\n**Sob a liderança militar de Ahmad ibn Ibrahim al-Ghazi, conhecido como Ahmad Gragn, \"o canhoto\", o sultanato quase conquista por completo a vizinha Etiópia cristã entre 1529 e 1543 — campanha revertida apenas pela intervenção de força expedicionária portuguesa que ajudaria a restaurar o trono etíope ameaçado.**\n\n**A morte de Ahmad Gragn em combate, em 1543, e migrações oromo subsequentes que alterariam profundamente o equilíbrio demográfico da região, levam ao declínio e fragmentação gradual do sultanato ao longo da segunda metade do século XVI** — sem que qualquer poder unificado sucessor surgisse no território somali pelos três séculos seguintes, marcado por organização predominantemente clânica descentralizada.",
+      "fontes": [
+        "im-lewis-somalia"
+      ]
+    },
+    {
+      "id": "som-colonizacao-britanica-italiana",
+      "inicio": "1884",
+      "fim": "1960",
+      "rotulo": "Colonização Britânica e Italiana",
+      "regime": "território fragmentado entre protetorados britânico e italiano rivais",
+      "textoMdx": "A Grã-Bretanha estabelece protetorado sobre o norte somali a partir de 1884, motivada principalmente por garantir suprimento de carne para a guarnição britânica no Iêmen vizinho, enquanto a Itália coloniza progressivamente o sul a partir de 1889, formando a Somália Italiana.\n\n**A partilha colonial fragmenta permanentemente o território e o povo somali entre múltiplas administrações estrangeiras — britânica, italiana, francesa no atual Djibuti, e mesmo território cedido à Etiópia e à colônia britânica do Quênia**, fragmentação que alimentaria projeto nacionalista de reunificação de todos os territórios somalis, simbolizado pelas cinco pontas da futura bandeira nacional.\n\n**A administração fiduciária da ONU sobre a Somália Italiana, entre 1950 e 1960, prepara gradualmente o território para autogoverno — a Somalilândia Britânica obtém independência breve em junho de 1960, unindo-se dias depois à Somália italiana recém-independente para formar a República Somali.**",
+      "fontes": [
+        "im-lewis-somalia"
+      ]
+    },
+    {
+      "id": "som-republica-somali-independencia",
+      "inicio": "1960",
+      "fim": "1969",
+      "rotulo": "República Somali e a democracia inicial",
+      "regime": "república parlamentar multipartidária",
+      "textoMdx": "A jovem república unifica os antigos protetorados britânico e italiano sob sistema parlamentar multipartidário que funcionaria, por quase uma década, com estabilidade relativamente incomum entre Estados africanos recém-independentes.\n\n**A busca por reunificação com territórios somalis sob domínio etíope e queniano — o projeto da \"Grande Somália\" — tensiona repetidamente relações com ambos os vizinhos, sem jamais alcançar seu objetivo territorial expansionista.**\n\n**O assassinato do presidente Abdirashid Ali Shermarke, em outubro de 1969, é seguido dias depois por golpe militar liderado pelo general Siad Barre, que encerraria definitivamente o experimento democrático inicial somali.**",
+      "fontes": [
+        "im-lewis-somalia"
+      ]
+    },
+    {
+      "id": "som-siad-barre-guerra-civil",
+      "inicio": "1969",
+      "fim": "1991",
+      "rotulo": "Regime de Siad Barre e o colapso do Estado",
+      "regime": "ditadura militar de \"socialismo científico\", em colapso final por rebeliões clânicas armadas",
+      "textoMdx": "Siad Barre impõe ideologia de \"socialismo científico\" combinando marxismo com apelos ao nacionalismo somali, inicialmente com apoio soviético substancial — aliança que se inverteria dramaticamente durante a Guerra de Ogaden.\n\n**A Guerra de Ogaden, de 1977 a 1978, começa com invasão somali bem-sucedida do território etíope de maioria somali, mas termina em derrota catastrófica quando a União Soviética, revertendo alianças, passa a apoiar militarmente a Etiópia com tropas cubanas de apoio direto.**\n\n**A repressão do regime contra o clã Isaaq, no norte do país, atinge ápice particularmente brutal com o bombardeio da cidade de Hargeisa, em 1988, que mata milhares de civis e que alguns pesquisadores classificam como genocídio** — violência que semearia diretamente o movimento separatista que declararia a independência não reconhecida da Somalilândia poucos anos depois. O regime de Barre colapsaria completamente em janeiro de 1991, quando é derrubado por coalizão de milícias clânicas armadas, sem que nenhuma força conseguisse assumir controle centralizado do país.",
+      "fontes": [
+        "im-lewis-somalia"
+      ]
+    },
+    {
+      "id": "som-colapso-estatal-guerra-civil-atual",
+      "inicio": "1991",
+      "rotulo": "Colapso estatal, intervenção internacional e a Somália contemporânea",
+      "regime": "Estado fragmentado por décadas sem governo central efetivo, gradualmente reconstituído a partir de 2012",
+      "textoMdx": "O colapso total do Estado somali em 1991 mergulha o país no que se tornaria o mais longo período de ausência de governo central efetivo da história moderna — fome catastrófica em 1991-1992 provoca intervenção militar liderada pela ONU e pelos Estados Unidos, que terminaria abruptamente após a Batalha de Mogadíscio de 1993, quando milicianos somalis abatem helicópteros americanos e matam dezoito soldados, episódio retratado no filme \"Falcão Negro em Perigo\".\n\n**A ascensão da União dos Tribunais Islâmicos, em 2006, e sua derrota subsequente por intervenção militar etíope apoiada pelos Estados Unidos, dá origem ao grupo insurgente Al-Shabaab, vinculado à al-Qaeda**, que controlaria vastas áreas do território somali e conduziria ataques terroristas regionais recorrentes, incluindo o ataque ao Shopping Westgate em Nairóbi, no Quênia, em 2013.\n\n**Um governo federal somali, reconhecido internacionalmente, se reconstitui gradualmente a partir de 2012 com apoio de força de paz da União Africana — mas o Al-Shabaab permanece ameaça de segurança significativa décadas depois do colapso original**, enquanto a região norte da Somalilândia mantém, desde 1991, administração autônoma estável e relativamente democrática, sem que qualquer país no mundo tenha reconhecido formalmente sua independência.",
+      "fontes": [
+        "im-lewis-somalia"
+      ]
+    }
+  ]
+}

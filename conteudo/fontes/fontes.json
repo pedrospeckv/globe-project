@@ -4063,5 +4063,53 @@
     "publicacao": "França e o Sultanato do Marrocos",
     "data": "1912-03-30",
     "citacao": "Estabeleceu o protetorado francês sobre a maior parte do Marrocos, preservando o sultão como soberano nominal sob administração residencial francesa efetiva — arranjo que perduraria até a independência de 1956."
+  },
+  {
+    "id": "harold-marcus-etiopia",
+    "tipo": "livro",
+    "titulo": "A History of Ethiopia",
+    "autor": "Harold G. Marcus",
+    "data": "2002",
+    "citacao": "História etíope de referência, do Reino de Axum à era pós-Derg, cobrindo a dinastia salomônica, a vitória sobre a Itália em Adwa em 1896 e a única ocupação estrangeira da história etíope, entre 1936 e 1941."
+  },
+  {
+    "id": "ruth-iyob-eritreia",
+    "tipo": "livro",
+    "titulo": "The Eritrean Struggle for Independence: Domination, Resistance, Nationalism 1941-1993",
+    "autor": "Ruth Iyob",
+    "data": "1995",
+    "citacao": "História do movimento de independência eritreu, de uma das guerras mais longas da África — trinta anos, entre 1961 e 1991 — à independência formal confirmada por referendo em 1993."
+  },
+  {
+    "id": "resolucao-onu-390-1952",
+    "tipo": "documento-oficial",
+    "titulo": "Resolução 390(V) da Assembleia Geral da ONU",
+    "publicacao": "Assembleia Geral das Nações Unidas",
+    "data": "1952-12-02",
+    "citacao": "Estabeleceu a federação da Eritreia com a Etiópia sob a coroa de Haile Selassie, preservando parlamento e governo eritreus autônomos — autonomia que a Etiópia erodiria progressivamente até a anexação unilateral de 1962, precipitando a guerra de independência eritreia."
+  },
+  {
+    "id": "im-lewis-somalia",
+    "tipo": "livro",
+    "titulo": "A Modern History of Somalia: Nation and State in the Horn of Africa",
+    "autor": "I. M. Lewis",
+    "data": "2002",
+    "citacao": "História somali de referência, cobrindo a fragmentação clânica pré-colonial, a partilha entre impérios britânico e italiano, a breve democracia multipartidária e o colapso estatal completo após a queda de Siad Barre em 1991."
+  },
+  {
+    "id": "acordo-pretoria-2022",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Cessação Permanente de Hostilidades",
+    "publicacao": "Governo Federal da Etiópia e Frente de Libertação do Povo Tigray, mediado pela União Africana",
+    "data": "2022-11-02",
+    "citacao": "Encerrou a fase principal da Guerra do Tigré, um dos conflitos mais mortíferos do século XXI com centenas de milhares de mortos, sem que a Eritreia — cujas tropas permaneceriam em território etíope — fosse signatária do próprio acordo."
+  },
+  {
+    "id": "alwan-mibrathu-djibuti",
+    "tipo": "livro",
+    "titulo": "Historical Dictionary of Djibouti",
+    "autor": "Daoud A. Alwan e Yohanis Mibrathu",
+    "data": "2000",
+    "citacao": "Obra de referência sobre a história djibutiana, do posto comercial francês de Obock em 1862 à independência de 1977, cobrindo a importância estratégica do território para o acesso etíope ao mar Vermelho."
   }
 ]

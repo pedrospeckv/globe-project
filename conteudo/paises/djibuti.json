@@ -1,0 +1,28 @@
+{
+  "iso": "DJI",
+  "isoNumerico": "262",
+  "nome": "Djibuti",
+  "periodos": [
+    {
+      "id": "dji-colonizacao-francesa",
+      "inicio": "1862",
+      "fim": "1977",
+      "rotulo": "Colonização Francesa",
+      "regime": "posto comercial, depois colônia francesa estratégica no mar Vermelho",
+      "textoMdx": "A França estabelece posto comercial em Obock, em 1862, pequeno assentamento na costa do mar Vermelho que se tornaria, décadas depois, base da colônia formal da Costa Francesa dos Somalis, proclamada em 1896.\n\n**A construção da ferrovia entre Djibuti e Adis Abeba, concluída em 1917, transforma o pequeno território em rota comercial vital para a Etiópia vizinha, que carece de acesso próprio ao mar** — infraestrutura que definiria a importância estratégica djibutiana muito além de seu tamanho territorial reduzido.\n\n**Um referendo de 1967 sobre o futuro estatuto do território, amplamente criticado como manipulado, expulsa milhares de somalis simpáticos à independência imediata e à unificação com a Somália — o território é renomeado Território Francês dos Afares e Issas naquele mesmo ano**, adiando a independência plena por mais uma década, até 1977, quando o Djibuti se tornaria a última colônia africana a obter independência da França.",
+      "fontes": [
+        "alwan-mibrathu-djibuti"
+      ]
+    },
+    {
+      "id": "dji-independencia-gouled-guelleh",
+      "inicio": "1977",
+      "rotulo": "Independência sob Gouled e Guelleh",
+      "regime": "república presidencialista de partido dominante, transformada em base militar multinacional estratégica",
+      "textoMdx": "Hassan Gouled Aptidon, primeiro presidente djibutiano, consolida domínio político de partido único ao longo de suas duas décadas no poder — a guerra civil entre o governo, de base populacional issa somali, e a insurgência afar da FRUD, entre 1991 e 1994, termina em acordo de paz que integraria a oposição afar ao governo.\n\n**Ismail Omar Guelleh, sobrinho de Gouled, assume a presidência em 1999 e mantém, desde então, domínio político praticamente ininterrupto sob eleições de competitividade limitada.**\n\n**A posição geográfica djibutiana, controlando acesso ao estreito de Bab-el-Mandeb entre o mar Vermelho e o oceano Índico, transformaria o pequeno país em base militar simultânea de múltiplas potências estrangeiras rivais — França, Estados Unidos, com sua maior base militar permanente na África, Japão e, a partir de 2017, a primeira base militar chinesa no exterior** — arranjo excepcional que gera receita significativa de aluguel militar, ao mesmo tempo em que o endividamento djibutiano com a China, para financiar porto e ferrovia modernizados, levanta preocupações internacionais sobre sustentabilidade financeira de longo prazo.",
+      "fontes": [
+        "alwan-mibrathu-djibuti"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "iso": "ETH",
+  "isoNumerico": "231",
+  "nome": "Etiópia",
+  "periodos": [
+    {
+      "id": "eth-reino-axum",
+      "inicio": "100",
+      "fim": "960",
+      "rotulo": "Reino de Axum",
+      "regime": "monarquia comercial, entre as quatro grandes potências do mundo antigo tardio",
+      "textoMdx": "O Reino de Axum emerge, por volta do ano 100, como potência comercial marítima que conectaria a África, a Arábia e o Mediterrâneo — o profeta persa Mani, no século III, o classificaria entre as quatro grandes potências de seu tempo, ao lado de Roma, Pérsia e China.\n\n**O rei Ezana converte o reino ao cristianismo por volta de 330, tornando Axum um dos primeiros Estados do mundo a adotar oficialmente a fé cristã — décadas antes do próprio Império Romano fazê-lo**, estabelecendo tradição religiosa ortodoxa etíope que permanece central à identidade nacional até hoje.\n\n**A expansão islâmica a partir do século VII corta progressivamente as rotas comerciais que sustentavam a prosperidade axumita, isolando o reino do comércio marítimo internacional** — declínio gradual que dissolveria a autoridade centralizada axumita ao longo dos séculos seguintes, sem jamais apagar completamente a memória de seu esplendor passado, preservada nos obeliscos monumentais que ainda hoje marcam a paisagem da cidade de Axum.",
+      "fontes": [
+        "harold-marcus-etiopia"
+      ]
+    },
+    {
+      "id": "eth-dinastia-zague",
+      "inicio": "1137",
+      "fim": "1270",
+      "rotulo": "Dinastia Zagué",
+      "regime": "dinastia sucessora pós-axumita, célebre por seu programa de construção religiosa monumental",
+      "textoMdx": "A dinastia Zagué, cuja origem exata permanece pouco documentada, consolida controle sobre os antigos territórios axumitas a partir de 1137, governando de região montanhosa mais ao sul do que a antiga capital.\n\n**O rei Lalibela, no início do século XIII, ordena a escavação de onze igrejas monolíticas talhadas diretamente na rocha viva — complexo religioso monumental concebido como \"nova Jerusalém\" etíope, que permaneceria centro de peregrinação cristã ortodoxa por oito séculos.**\n\n**A dinastia Zagué seria derrubada em 1270 por Yekuno Amlak, que reivindica descendência direta do antigo rei bíblico Salomão e da Rainha de Sabá — restaurando o que a tradição etíope chamaria de linha \"salomônica\" legítima, mito fundacional que legitimaria a monarquia etíope pelos setecentos anos seguintes.**",
+      "fontes": [
+        "harold-marcus-etiopia"
+      ]
+    },
+    {
+      "id": "eth-dinastia-salomonica-pre-moderna",
+      "inicio": "1270",
+      "fim": "1855",
+      "rotulo": "Dinastia Salomônica pré-moderna",
+      "regime": "monarquia cristã reivindicando descendência bíblica direta, progressivamente fragmentada por poder regional",
+      "textoMdx": "A dinastia salomônica restaurada expande e consolida o território etíope ao longo dos séculos seguintes, mantendo a Igreja Ortodoxa Etíope como pilar central da legitimidade e identidade do reino cristão isolado, cercado por vizinhos majoritariamente muçulmanos.\n\n**A guerra contra o Sultanato de Adal, entre 1529 e 1543, quase extingue o reino cristão etíope: o líder muçulmano Ahmad ibn Ibrahim al-Ghazi, conhecido como Gragn, \"o canhoto\", conquista a maior parte do território antes de força expedicionária portuguesa ajudar a reverter o curso da guerra, preservando a independência etíope por pouco.**\n\n**A chamada Era dos Príncipes, entre 1769 e 1855, reduz o imperador a figura decorativa sem poder real, enquanto senhores feudais regionais rivais disputam controle efetivo do território fragmentado** — período de fraqueza central que se encerraria apenas com a ascensão de Tewodros II, determinado a reunificar o país pela força.",
+      "fontes": [
+        "harold-marcus-etiopia"
+      ]
+    },
+    {
+      "id": "eth-reunificacao-adwa",
+      "inicio": "1855",
+      "fim": "1930",
+      "rotulo": "Reunificação e a Batalha de Adwa",
+      "regime": "monarquia reunificada, preservando independência através de vitória militar decisiva sobre potência colonial europeia",
+      "textoMdx": "Tewodros II inicia a reunificação forçada do território etíope fragmentado a partir de 1855, processo continuado por seus sucessores Yohannes IV e, sobretudo, Menelik II, que expandiria significativamente as fronteiras e modernizaria o exército etíope com armamento importado.\n\n**A Batalha de Adwa, em março de 1896, na qual as forças de Menelik II infligem derrota decisiva e completa ao exército invasor italiano, torna a Etiópia o único Estado africano, além da Libéria, a preservar soberania plena durante toda a Partilha da África pelas potências europeias** — vitória que se tornaria símbolo internacional de resistência anticolonial, celebrada por movimentos de libertação e de orgulho negro ao redor do mundo por gerações seguintes.\n\n**A morte de Menelik II, em 1913, sem sucessor claramente consolidado, mergulha o país em anos de instabilidade sucessória** — resolvida apenas com a ascensão de Ras Tafari Makonnen, que se tornaria imperador Haile Selassie I em 1930.",
+      "fontes": [
+        "harold-marcus-etiopia"
+      ]
+    },
+    {
+      "id": "eth-haile-selassie-ocupacao-italiana",
+      "inicio": "1930",
+      "fim": "1974",
+      "rotulo": "Haile Selassie e a ocupação italiana",
+      "regime": "monarquia modernizadora, interrompida pela única ocupação estrangeira da história etíope",
+      "textoMdx": "Haile Selassie I, coroado em 1930, conduz modernização institucional considerável — primeira constituição escrita do país, reformas administrativas e educacionais — antes de a Itália fascista de Mussolini invadir em 1935, buscando vingança tardia pela humilhação de Adwa quatro décadas antes.\n\n**A invasão italiana emprega gás mostarda extensivamente contra tropas e civis etíopes, em violação flagrante de convenções internacionais — o discurso de Haile Selassie perante a Liga das Nações, em 1936, alertando \"sou eu hoje, sereis vós amanhã\", tornaria-se um dos apelos mais lembrados e ao mesmo tempo mais ignorados da história diplomática do século XX.**\n\n**A ocupação italiana, único período de domínio estrangeiro efetivo em toda a história etíope registrada, dura apenas cinco anos — forças britânicas e etíopes libertariam o país em 1941, restaurando Haile Selassie ao trono**, que ocuparia continuamente até ser deposto em meio a fome ocultada e crescente descontentamento popular em 1974.",
+      "fontes": [
+        "harold-marcus-etiopia"
+      ]
+    },
+    {
+      "id": "eth-derg-guerra-civil",
+      "inicio": "1974",
+      "fim": "1991",
+      "rotulo": "O Derg e a guerra civil",
+      "regime": "junta militar marxista-leninista, em guerra permanente contra insurgências regionais",
+      "textoMdx": "O Derg, junta militar que depõe Haile Selassie em 1974 — imperador que morreria em circunstâncias nunca esclarecidas sob custódia militar no ano seguinte —, instaura regime marxista-leninista sob liderança cada vez mais pessoal de Mengistu Haile Mariam.\n\n**O \"Terror Vermelho\", entre 1977 e 1978, extermina dezenas de milhares de opositores reais ou suspeitos em campanha de repressão sistemática que atingiria estudantes, intelectuais e qualquer suspeita de dissidência.**\n\n**A fome de 1983-1985, agravada por políticas de coletivização forçada e pela continuação da guerra civil, mata até um milhão de pessoas e se torna, através de cobertura midiática internacional maciça e do concerto beneficente Live Aid de 1985, um dos eventos humanitários mais visíveis globalmente daquela década** — o regime enfrentaria simultaneamente insurgências armadas na Eritreia e no Tigré, até ser derrubado pelas forças da coalizão EPRDF em 1991.",
+      "fontes": [
+        "harold-marcus-etiopia"
+      ]
+    },
+    {
+      "id": "eth-eprdf-federalismo-etnico-atual",
+      "inicio": "1991",
+      "rotulo": "EPRDF, federalismo étnico e a Etiópia contemporânea",
+      "regime": "república federal organizada em Estados regionais de base etnolinguística",
+      "textoMdx": "A coalizão EPRDF, liderada pela Frente de Libertação do Povo Tigray, assume o poder em 1991 sob Meles Zenawi, promulgando nova constituição que reorganiza a Etiópia em Estados regionais baseados em identidade etnolinguística — modelo federalista incomum que reconheceria formalmente a independência eritreia, confirmada por referendo em 1993.\n\n**A Guerra Etíope-Eritreia, entre 1998 e 2000, deflagrada por disputa de fronteira aparentemente menor, mata entre setenta e cem mil pessoas em combates de trincheira que recordariam a Primeira Guerra Mundial** — conflito que deixaria relação hostil e fronteira fechada entre os dois países por quase duas décadas.\n\n**Abiy Ahmed, primeiro-ministro a partir de 2018, negocia paz histórica com a Eritreia naquele mesmo ano, conquistando o Prêmio Nobel da Paz de 2019** — reconhecimento que se revelaria prematuro diante da Guerra do Tigré, deflagrada em novembro de 2020 entre o governo federal e a liderança regional tigrense, conflito que mataria centenas de milhares de pessoas por combate, fome e atrocidades documentadas de múltiplos lados antes do Acordo de Pretória encerrar os combates principais em novembro de 2022 — um dos conflitos mais letais do século XXI, e um dos menos cobertos internacionalmente, dado o apagão de comunicações imposto sobre a região durante boa parte do conflito.",
+      "fontes": [
+        "harold-marcus-etiopia",
+        "acordo-pretoria-2022"
+      ]
+    }
+  ]
+}
