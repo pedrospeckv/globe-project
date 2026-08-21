@@ -3359,5 +3359,109 @@
     "publicacao": "Conferência de Lausanne, Grécia e Turquia",
     "data": "1923-01-30",
     "citacao": "Impôs troca compulsória de populações entre Grécia e Turquia com base em religião, não em língua ou identidade nacional, deslocando à força mais de um milhão de gregos ortodoxos da Anatólia e centenas de milhares de muçulmanos da Grécia — um dos maiores episódios de deslocamento populacional sancionado por tratado internacional do século XX."
+  },
+  {
+    "id": "caroline-finkel-otomanos",
+    "tipo": "livro",
+    "titulo": "Osman's Dream: The Story of the Ottoman Empire, 1300-1923",
+    "autor": "Caroline Finkel",
+    "data": "2005",
+    "citacao": "História abrangente do Império Otomano, do beilhado fronteiriço de Osman I à dissolução em 1923. Trata a derrota diante de Tamerlão em 1402 como quase colapso do Estado nascente, e o cerco fracassado de Viena em 1683 como ponto de inflexão que encerra a expansão europeia otomana."
+  },
+  {
+    "id": "halil-inalcik-otomanos-classico",
+    "tipo": "livro",
+    "titulo": "The Ottoman Empire: The Classical Age, 1300-1600",
+    "autor": "Halil İnalcık",
+    "data": "1973",
+    "citacao": "Estudo de referência sobre a estrutura administrativa, legal e social do Império Otomano em seu apogeu, incluindo o sistema de recrutamento devshirme e a organização jurídica sob Solimão, o Magnífico."
+  },
+  {
+    "id": "erik-zurcher-turquia",
+    "tipo": "livro",
+    "titulo": "Turkey: A Modern History",
+    "autor": "Erik J. Zürcher",
+    "data": "2004",
+    "citacao": "História turca dos Jovens Turcos ao século XXI, cobrindo a fundação da república sob Atatürk, o regime de partido único, a transição multipartidária de 1950 e os golpes militares de 1960, 1971 e 1980."
+  },
+  {
+    "id": "taner-akcam-genocidio-armenio",
+    "tipo": "livro",
+    "titulo": "A Shameful Act: The Armenian Genocide and the Question of Turkish Responsibility",
+    "autor": "Taner Akçam",
+    "data": "2006",
+    "citacao": "Estudo do genocídio armênio de 1915-1916 escrito por historiador turco, com base em documentos otomanos, argumentando pela responsabilidade direta do governo do Comitê de União e Progresso na deportação e extermínio da população armênia do império."
+  },
+  {
+    "id": "tratado-lausanne-1923",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Lausanne",
+    "publicacao": "Potências Aliadas e Turquia",
+    "data": "1923-07-24",
+    "citacao": "Substituiu o não ratificado Tratado de Sèvres, reconhecendo as fronteiras da Turquia moderna estabelecidas pela Guerra de Independência e encerrando formalmente o estado de guerra entre a Turquia e as potências aliadas da Primeira Guerra Mundial."
+  },
+  {
+    "id": "ronald-suny-georgia",
+    "tipo": "livro",
+    "titulo": "The Making of the Georgian Nation",
+    "autor": "Ronald Grigor Suny",
+    "data": "1994",
+    "citacao": "História georgiana do reino medieval unificado ao final do período soviético, cobrindo a fragmentação em reinos rivais após o século XV, a anexação russa e a breve Primeira República Democrática de 1918-1921."
+  },
+  {
+    "id": "stephen-jones-georgia-pos-independencia",
+    "tipo": "livro",
+    "titulo": "Georgia: A Political History Since Independence",
+    "autor": "Stephen F. Jones",
+    "data": "2013",
+    "citacao": "História política da Geórgia independente desde 1991, cobrindo os conflitos separatistas na Abecásia e na Ossétia do Sul, a Revolução das Rosas de 2003 e a guerra russo-georgiana de 2008."
+  },
+  {
+    "id": "tratado-georgievsk-1783",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Georgievsk",
+    "publicacao": "Império Russo e Reino de Kartli-Kakheti",
+    "data": "1783-07-24",
+    "citacao": "Estabeleceu protetorado russo sobre o reino georgiano de Kartli-Kakheti em troca de garantias de proteção militar contra a Pérsia — arranjo que a Rússia violaria unilateralmente ao anexar o reino diretamente em 1801."
+  },
+  {
+    "id": "razmik-panossian-armenios",
+    "tipo": "livro",
+    "titulo": "The Armenians: From Kings and Priests to Merchants and Commissars",
+    "autor": "Razmik Panossian",
+    "data": "2006",
+    "citacao": "História da identidade nacional armênia desde os reinos antigos até o período soviético e pós-soviético, cobrindo o Reino Arsácida, o reino bagratúnida de Ani e o reino armênio da Cilícia."
+  },
+  {
+    "id": "thomas-de-waal-jardim-negro",
+    "tipo": "livro",
+    "titulo": "Black Garden: Armenia and Azerbaijan through Peace and War",
+    "autor": "Thomas de Waal",
+    "data": "2013",
+    "citacao": "História do conflito de Nagorno-Karabakh entre armênios e azerbaijanos, da atribuição soviética do território em 1923 à primeira guerra de 1988-1994, com entrevistas de ambos os lados do conflito."
+  },
+  {
+    "id": "audrey-altstadt-azerbaijao",
+    "tipo": "livro",
+    "titulo": "The Azerbaijani Turks: Power and Identity under Russian Rule",
+    "autor": "Audrey L. Altstadt",
+    "data": "1992",
+    "citacao": "História do Azerbaijão sob domínio russo e soviético, cobrindo os canatos pré-russos, o boom petrolífero de Baku no final do século XIX e a formação da identidade nacional azerbaijana moderna."
+  },
+  {
+    "id": "tratado-turkmenchay-1828",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Turkmenchay",
+    "publicacao": "Império Russo e Pérsia Cajar",
+    "data": "1828-02-22",
+    "citacao": "Encerrou a segunda guerra russo-persa, transferindo definitivamente à Rússia os canatos ao norte do rio Araxes — dividindo permanentemente o território de população azerbaijana entre o império russo e a Pérsia, divisão que persiste como fronteira entre o Azerbaijão e o Irã."
+  },
+  {
+    "id": "declaracao-trilateral-karabakh-2020",
+    "tipo": "documento-oficial",
+    "titulo": "Declaração Trilateral sobre Nagorno-Karabakh",
+    "publicacao": "Rússia, Armênia e Azerbaijão",
+    "data": "2020-11-10",
+    "citacao": "Encerrou a Segunda Guerra de Nagorno-Karabakh, reconhecendo os ganhos territoriais azerbaijanos e estabelecendo força de paz russa na região — acordo que a Armênia assinou em posição de derrota militar, e que seria seguido, em 2023, pela retomada azerbaijana total do território e êxodo da população armênia local."
   }
 ]

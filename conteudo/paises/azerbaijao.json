@@ -1,0 +1,64 @@
+{
+  "iso": "AZE",
+  "isoNumerico": "031",
+  "nome": "Azerbaijão",
+  "periodos": [
+    {
+      "id": "aze-canatos-anexacao-russa",
+      "inicio": "1747",
+      "fim": "1828",
+      "rotulo": "Canatos azerbaijanos sob suserania persa e anexação russa",
+      "regime": "canatos autônomos sob suserania persa nominal, depois anexados pela Rússia",
+      "textoMdx": "A morte do conquistador persa Nader Shah, em 1747, fragmenta seu império em canatos regionais de facto autônomos, embora nominalmente vassalos da Pérsia — entre eles Baku, Ganja, Carabague, Xirvã e Quba, os principais centros de poder no território azerbaijano.\n\n**As guerras russo-persas do início do século XIX, motivadas pela expansão russa em direção ao Cáucaso, terminam em derrota persa decisiva** — o Tratado de Gulistan, de 1813, transfere a maior parte dos canatos azerbaijanos à Rússia, e o Tratado de Turkmenchay, de 1828, completa a divisão, fixando o rio Araxes como fronteira e deixando parte significativa da população azerbaijana permanentemente sob soberania persa, hoje o noroeste do Irã.",
+      "fontes": [
+        "audrey-altstadt-azerbaijao",
+        "tratado-turkmenchay-1828"
+      ]
+    },
+    {
+      "id": "aze-imperio-russo",
+      "inicio": "1828",
+      "fim": "1918",
+      "rotulo": "Azerbaijão dentro do Império Russo",
+      "regime": "governadorias do Império Russo",
+      "textoMdx": "A anexação russa integra o território azerbaijano como província periférica do império, situação que se transformaria radicalmente com a descoberta de grandes reservas de petróleo em torno de Baku a partir da década de 1870 — a cidade se tornaria, por volta de 1900, produtora de mais da metade do petróleo mundial, atraindo investimento maciço, inclusive das famílias Nobel e Rothschild.\n\n**O boom petrolífero transforma Baku em cidade cosmopolita e industrializada, mas também palco de tensão étnica crescente entre populações armênia e azerbaijana, que explode nos massacres inter-comunitários de 1905, conhecidos como massacres armênio-tártaros** — violência que prenunciaria, décadas depois, o conflito de Nagorno-Karabakh.\n\n**O colapso do Império Russo, em 1917, abre caminho para independência azerbaijana dentro de federação transcaucásica de curta duração, dissolvida já em 1918 diante de divergências entre georgianos, armênios e azerbaijanos.**",
+      "fontes": [
+        "audrey-altstadt-azerbaijao"
+      ]
+    },
+    {
+      "id": "aze-primeira-republica",
+      "inicio": "1918",
+      "fim": "1920",
+      "rotulo": "República Democrática do Azerbaijão",
+      "regime": "república parlamentar, primeira democracia secular do mundo muçulmano",
+      "textoMdx": "O Azerbaijão proclama independência em maio de 1918, tornando-se a primeira república democrática secular do mundo muçulmano, com Baku, rica em petróleo, mas ainda disputada, alcançada como capital apenas meses depois.\n\n**A jovem república concede sufrágio feminino pleno em 1919, entre os primeiros países do mundo a fazê-lo — mais cedo que a maioria das democracias ocidentais europeias**, e mantém parlamento multipartidário que inclui representação de minorias étnicas e religiosas.\n\n**O Exército Vermelho invade em abril de 1920, atraído em parte pela importância estratégica do petróleo de Baku para a economia soviética emergente, sovietizando o país em poucos dias de resistência** — a breve experiência republicana deixaria legado simbólico que o Azerbaijão independente readotaria em 1991, incluindo a bandeira tricolor original.",
+      "fontes": [
+        "audrey-altstadt-azerbaijao"
+      ]
+    },
+    {
+      "id": "aze-azerbaijao-sovietico",
+      "inicio": "1920",
+      "fim": "1991",
+      "rotulo": "República Socialista Soviética do Azerbaijão",
+      "regime": "república socialista soviética de partido único",
+      "textoMdx": "O petróleo de Baku permanece central à economia soviética ao longo de todo o período, e se tornaria alvo estratégico direto da invasão nazista em 1942 — a campanha alemã rumo ao Cáucaso, interrompida pela derrota em Stalingrado, visava explicitamente cortar o abastecimento petrolífero soviético na fonte.\n\n**A atribuição de Nagorno-Karabakh, região de maioria populacional armênia, como oblast autônomo dentro do próprio Azerbaijão soviético, decidida por Moscou em 1923, estabeleceria a base territorial do conflito que explodiria seis décadas depois** — arranjo que o Azerbaijão defenderia sempre como legítimo por integridade territorial soviética herdada, e que a Armênia contestaria como imposição arbitrária de Stálin.\n\n**O pogrom de Sumgait, em fevereiro de 1988, no qual multidões azerbaijanas atacam e matam dezenas de residentes armênios da cidade, marca o início da violência interétnica aberta que precederia a dissolução soviética** — episódio que a Armênia recorda como prenúncio direto do primeiro conflito de Karabakh.",
+      "fontes": [
+        "audrey-altstadt-azerbaijao",
+        "thomas-de-waal-jardim-negro"
+      ]
+    },
+    {
+      "id": "aze-independencia-atual",
+      "inicio": "1991",
+      "rotulo": "República do Azerbaijão independente",
+      "regime": "república presidencialista",
+      "textoMdx": "A independência azerbaijana, declarada em outubro de 1991, coincide com a escalada da primeira guerra de Nagorno-Karabakh, que terminaria em 1994 com derrota azerbaijana e perda de controle não apenas sobre o próprio Karabakh, mas também sobre territórios adjacentes — gerando mais de seiscentos mil deslocados internos azerbaijanos.\n\n**Heydar Aliyev, ex-chefe da KGB azerbaijana e membro do politburo soviético, assume o poder em 1993 e o transmite ao filho Ilham em 2003, estabelecendo domínio familiar contínuo sobre a política do país** — regime que combina autoritarismo político persistente com riqueza petrolífera crescente, explorada através de contratos com companhias ocidentais a partir de meados dos anos 1990.\n\n**A Segunda Guerra de Nagorno-Karabakh, em 2020, reverte decisivamente o resultado de 1994: o exército azerbaijano, modernizado com drones turcos e israelenses, recupera a maior parte dos territórios perdidos** — a declaração trilateral de cessar-fogo, mediada pela Rússia, consolida os ganhos, e em setembro de 2023 uma ofensiva final retoma o controle total de Nagorno-Karabakh, provocando êxodo quase completo da população armênia local em poucos dias — episódio que o Azerbaijão celebra como restauração da integridade territorial, e que organizações de direitos humanos armênias descrevem como limpeza étnica.",
+      "fontes": [
+        "thomas-de-waal-jardim-negro",
+        "declaracao-trilateral-karabakh-2020"
+      ]
+    }
+  ]
+}

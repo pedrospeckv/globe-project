@@ -1,0 +1,74 @@
+{
+  "iso": "GEO",
+  "isoNumerico": "268",
+  "nome": "Geórgia",
+  "periodos": [
+    {
+      "id": "geo-reino-unificado",
+      "inicio": "1008",
+      "fim": "1490",
+      "rotulo": "Reino unificado da Geórgia",
+      "regime": "monarquia medieval unificada, depois fragmentada sob pressão mongol e timúrida",
+      "textoMdx": "Bagrat III unifica, em 1008, os reinos separados de Abecásia e Kartli-Ibéria sob coroa única, criando o primeiro Estado georgiano plenamente unificado — base territorial e política sobre a qual seus sucessores construiriam a idade de ouro georgiana dos séculos seguintes.\n\n**O reinado de Davi IV, o Construtor, entre 1089 e 1125, expulsa invasores seljúcidas e expande o território georgiano à sua maior extensão histórica**, reformando o exército e a administração e estabelecendo as bases institucionais que sua bisneta, a rainha Tamar, consolidaria no apogeu cultural do reino entre 1184 e 1213 — período de florescimento literário, incluindo o poema épico nacional \"O Cavaleiro com a Pele de Tigre\".\n\n**As invasões mongóis, a partir da década de 1220, e depois as campanhas devastadoras de Tamerlão no final do século XIV, desmantelam progressivamente a unidade e a prosperidade do reino georgiano** — fragmentação que se completa por volta de 1490, quando o território se divide definitivamente em reinos rivais de Kartli, Kakheti e Imereti, além de principados menores, sem jamais se reunificar sob coroa única novamente.",
+      "fontes": [
+        "ronald-suny-georgia"
+      ]
+    },
+    {
+      "id": "geo-reinos-fragmentados",
+      "inicio": "1490",
+      "fim": "1801",
+      "rotulo": "Reinos fragmentados sob pressão persa e otomana",
+      "regime": "reinos e principados rivais, sob suserania alternada persa e otomana",
+      "textoMdx": "A Geórgia fragmentada se torna campo de disputa entre os impérios safávida persa e otomano, que dividem informalmente esferas de influência sobre os diferentes reinos georgianos — Kartli e Kakheti orientados para a órbita persa, Imereti e a costa ocidental mais sujeitas à pressão otomana.\n\n**Invasões persas recorrentes, incluindo a campanha particularmente devastadora de Shah Abbas I no início do século XVII, que deporta e massacra dezenas de milhares de georgianos de Kakheti**, ilustram o custo humano contínuo da posição geográfica georgiana entre impérios rivais maiores.\n\n**Diante de ameaças persistentes, o rei Herákli II de Kartli-Kakheti busca proteção russa através do Tratado de Georgievsk, em 1783, que estabelece protetorado russo sobre seu reino em troca de garantias de defesa** — arranjo que a Rússia violaria unilateralmente ao anexar Kartli-Kakheti diretamente, em 1801, após a morte do sucessor de Herákli, extinguindo de fato a última linha de monarcas georgianos independentes.",
+      "fontes": [
+        "ronald-suny-georgia",
+        "tratado-georgievsk-1783"
+      ]
+    },
+    {
+      "id": "geo-imperio-russo",
+      "inicio": "1801",
+      "fim": "1918",
+      "rotulo": "Geórgia dentro do Império Russo",
+      "regime": "governadorias do Império Russo",
+      "textoMdx": "A anexação russa se estende gradualmente aos demais reinos e principados georgianos ao longo das primeiras décadas do século XIX, com Imereti incorporada em 1810 e os últimos principados ocidentais absorvidos até meados do século — processo administrativo que integra a Geórgia como província periférica do império, com Tíflis como sede do vice-reinado russo do Cáucaso.\n\n**O movimento nacional georgiano do final do século XIX se articula fortemente em torno do Partido Social-Democrata, que atrairia figuras que se tornariam centrais na história soviética posterior** — entre elas o jovem Ióssif Djugachvíli, futuro Stálin, nascido em Gori em 1878.\n\n**O colapso do Império Russo, em 1917, abre caminho para autonomia georgiana crescente dentro de federação transcaucásica de curta duração**, que se dissolveria já em 1918 diante de divergências entre georgianos, armênios e azerbaijanos sobre o rumo político da região — cada um proclamando independência separada nos meses seguintes.",
+      "fontes": [
+        "ronald-suny-georgia"
+      ]
+    },
+    {
+      "id": "geo-republica-democratica",
+      "inicio": "1918",
+      "fim": "1921",
+      "rotulo": "Primeira República Democrática da Geórgia",
+      "regime": "república parlamentar sob liderança social-democrata",
+      "textoMdx": "A Geórgia proclama independência em maio de 1918, sob liderança do Partido Social-Democrata menchevique — experimento incomum de socialismo democrático parlamentar em meio à turbulência revolucionária russa, reconhecido de facto pela própria Rússia soviética em tratado de 1920.\n\n**A jovem república reforma a posse de terras, garante direitos trabalhistas amplos e mantém eleições multipartidárias competitivas, mesmo sob pressão externa constante de exércitos brancos russos e ameaça bolchevique crescente ao norte** — experiência que historiadores posteriores citariam como alternativa socialista genuinamente democrática à trajetória autoritária que o bolchevismo tomaria na própria Rússia.\n\n**O Exército Vermelho invade a Geórgia em fevereiro de 1921, apesar do reconhecimento formal de independência assinado um ano antes, sovietizando o país à força em semanas** — o governo social-democrata parte para exílio em Paris, e a breve experiência democrática georgiana seria apagada da memória oficial soviética pelas sete décadas seguintes.",
+      "fontes": [
+        "ronald-suny-georgia"
+      ]
+    },
+    {
+      "id": "geo-georgia-sovietica",
+      "inicio": "1921",
+      "fim": "1991",
+      "rotulo": "República Socialista Soviética da Geórgia",
+      "regime": "república socialista soviética de partido único",
+      "textoMdx": "A Geórgia soviética integra inicialmente a República Socialista Federativa Soviética Transcaucásica, junto com Armênia e Azerbaijão, até sua dissolução em 1936, quando se torna república da União Soviética por direito próprio — dois georgianos, Stálin e seu chefe de polícia secreta Lavrenti Béria, ocupariam posições de poder supremo em Moscou por décadas, embora governando a própria Geórgia com a mesma repressão aplicada ao resto da União.\n\n**Os expurgos estalinistas dos anos 1930 atingem a Geórgia com intensidade particular, e a morte de Stálin em 1953 provoca em Tbilisi, em 1956, protestos violentamente reprimidos contra a desestalinização promovida por Khrushchov** — episódio que revela apego local ambivalente à memória do ditador georgiano mais famoso.\n\n**O massacre de Tbilisi, em abril de 1989, quando tropas soviéticas dispersam com violência letal manifestação pacífica por independência, mata pelo menos vinte pessoas e radicaliza definitivamente o movimento nacional georgiano** — precipitando, em poucos anos, o colapso final do domínio soviético sobre o território.",
+      "fontes": [
+        "ronald-suny-georgia",
+        "stephen-jones-georgia-pos-independencia"
+      ]
+    },
+    {
+      "id": "geo-independencia-atual",
+      "inicio": "1991",
+      "rotulo": "Geórgia independente",
+      "regime": "república parlamentar, depois semipresidencialista",
+      "textoMdx": "A independência georgiana, declarada em abril de 1991, mergulha rapidamente em guerra civil interna e em conflitos separatistas na Abecásia e na Ossétia do Sul, regiões que, com apoio militar russo, escapam ao controle efetivo de Tbilisi já nos primeiros anos da década de 1990.\n\n**A Revolução das Rosas, em novembro de 2003, derruba pacificamente o governo de Eduard Shevardnadze — ex-ministro soviético das relações exteriores — após eleições fraudadas, trazendo ao poder Mikheil Saakashvili com plataforma de reformas anticorrupção e aproximação ocidental decidida.**\n\n**A guerra russo-georgiana de agosto de 2008, deflagrada por escalada militar na Ossétia do Sul, termina em derrota georgiana e reconhecimento russo formal da independência de Abecásia e Ossétia do Sul** — território que a Geórgia e a maioria da comunidade internacional continuam a considerar ocupação ilegal.\n\n**A candidatura à União Europeia, formalizada em 2022 em resposta direta à invasão russa da Ucrânia, avança em meio a tensão política interna crescente**, com protestos massivos em 2023-2024 contra legislação de \"influência estrangeira\" que a oposição considera modelada na lei russa usada para reprimir organizações civis independentes.",
+      "fontes": [
+        "stephen-jones-georgia-pos-independencia"
+      ]
+    }
+  ]
+}

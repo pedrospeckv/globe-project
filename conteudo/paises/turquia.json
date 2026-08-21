@@ -1,0 +1,98 @@
+{
+  "iso": "TUR",
+  "isoNumerico": "792",
+  "nome": "Turquia",
+  "periodos": [
+    {
+      "id": "tur-sultanato-rum",
+      "inicio": "1077",
+      "fim": "1299",
+      "rotulo": "Sultanato Seljúcida de Rum",
+      "regime": "sultanato turco-seljúcida, vassalo nominal do grande sultanato seljúcida, depois independente",
+      "textoMdx": "A vitória seljúcida sobre o exército bizantino na batalha de Manzikert, em 1071, abre a Anatólia à colonização turcomana em massa — processo que Suleiman ibn Qutulmish consolida politicamente ao fundar, em 1077, o Sultanato de Rum, com capital inicial em Niceia e depois, após a Primeira Cruzada expulsá-lo da costa, em Konya.\n\n**O sultanato atinge apogeu cultural e territorial sob Kayqubad I, no início do século XIII, com Konya se tornando centro de produção artística, arquitetônica e religiosa** — sede, entre outros, do poeta místico persa Rumi, fundador da ordem sufi dos dervixes giróvagos.\n\n**A invasão mongol, com a derrota seljúcida na batalha de Köse Dağ em 1243, reduz o sultanato a vassalo dos ilcanatos mongóis da Pérsia**, iniciando fragmentação progressiva do poder central em pequenos principados turcomanos independentes — os beilhados —, entre os quais emergiria, décadas depois, o de Osman, na fronteira noroeste com Bizâncio.",
+      "fontes": [
+        "caroline-finkel-otomanos"
+      ]
+    },
+    {
+      "id": "tur-ascensao-otomana",
+      "inicio": "1299",
+      "fim": "1453",
+      "rotulo": "Ascensão do Beilhado e Sultanato Otomano",
+      "regime": "beilhado guerreiro fronteiriço, depois sultanato em expansão",
+      "textoMdx": "Osman I funda, por volta de 1299, principado guerreiro na fronteira anatólia com o Império Bizantino, aproveitando a fragmentação seljúcida e a debilidade bizantina para expandir território através de conquista e alianças com outros guerreiros fronteiriços turcomanos, os ghazis.\n\n**A travessia para os Bálcãs, a partir de 1354, transforma o beilhado otomano em potência com presença simultânea em duas margens do Bósforo** — a derrota sérvia na batalha de Kosovo em 1389 e a conquista búlgara consolidam domínio otomano crescente sobre o sudeste europeu, décadas antes mesmo da queda de Constantinopla.\n\n**A derrota diante de Tamerlão, em Ancara em 1402, quase destrói o Estado otomano nascente, fragmentando-o em guerra civil sucessória entre os filhos do sultão capturado** — recuperação notável que permite, cinco décadas depois, sob Mehmed II, a conquista final de Constantinopla em 29 de maio de 1453, extinguindo o milenar Império Bizantino e transformando a cidade na nova capital otomana, rebatizada Istambul.",
+      "fontes": [
+        "caroline-finkel-otomanos"
+      ]
+    },
+    {
+      "id": "tur-apogeu-otomano",
+      "inicio": "1453",
+      "fim": "1683",
+      "rotulo": "Apogeu do Império Otomano",
+      "regime": "sultanato absolutista, potência multicontinental",
+      "textoMdx": "A conquista de Constantinopla dá início a dois séculos de expansão praticamente ininterrupta: o Egito mameluco e as cidades sagradas islâmicas de Meca e Medina são anexados em 1517, tornando o sultão otomano também guardião dos lugares santos e reivindicador do califado sobre todo o mundo muçulmano sunita.\n\n**O reinado de Solimão, o Magnífico, entre 1520 e 1566, marca o apogeu territorial, militar, jurídico e cultural do império** — conquista Belgrado e grande parte da Hungria, cerca Viena pela primeira vez em 1529, e organiza o vasto código legal otomano que lhe rende, na tradição turca, o epíteto de Kanuni, \"o Legislador\".\n\n**A administração otomana clássica organiza um sistema incomumente meritocrático de recrutamento — o devshirme, que retira meninos cristãos das províncias balcânicas para formar tanto os janízaros, elite militar de infantaria, quanto altos administradores do Estado**, muitos dos quais ascenderiam a grão-vizir, o mais alto cargo abaixo do sultão.\n\n**O segundo cerco otomano a Viena, em 1683, termina em derrota decisiva diante de coalizão liderada pelo rei polaco Jan Sobieski** — ponto de inflexão que encerra o avanço otomano na Europa central e inicia lenta reversão territorial que se estenderia pelos séculos seguintes.",
+      "fontes": [
+        "caroline-finkel-otomanos",
+        "halil-inalcik-otomanos-classico"
+      ]
+    },
+    {
+      "id": "tur-declinio-tanzimat",
+      "inicio": "1683",
+      "fim": "1908",
+      "rotulo": "Declínio, reformas do Tanzimat e a era hamidiana",
+      "regime": "sultanato absolutista em retração territorial, com reformas administrativas e constitucionais parciais a partir de 1839",
+      "textoMdx": "A derrota de Viena inaugura período de perdas territoriais recorrentes para a Áustria, a Rússia e, no século XIX, os nacionalismos balcânicos — a Grécia se torna independente em 1830, seguida por Sérvia, Romênia e Bulgária ao longo do século, reduzindo progressivamente o território europeu otomano.\n\n**As reformas do Tanzimat, iniciadas em 1839, buscam modernizar o Estado otomano segundo modelos europeus — codificação legal, igualdade formal entre súditos de diferentes religiões, exércitos e burocracia reorganizados** — na tentativa de deter o declínio relativo diante das potências europeias, processo que culmina na primeira constituição otomana, de 1876.\n\n**O sultão Abdul Hamid II suspende a constituição já em 1878 e governa por três décadas como autocrata, período que a historiografia chama de era hamidiana** — marcado por repressão política crescente e pelos massacres de população armênia entre 1894 e 1896, nos quais estima-se a morte de dezenas a centenas de milhares de armênios sob pretexto de suprimir agitação nacionalista.\n\n**A Revolução dos Jovens Turcos, em 1908, liderada por oficiais do Comitê de União e Progresso, força Abdul Hamid a restaurar a constituição** — movimento que prometia inicialmente igualdade multiétnica dentro do império, mas que radicalizaria progressivamente rumo a nacionalismo turco excludente nos anos seguintes.",
+      "fontes": [
+        "caroline-finkel-otomanos",
+        "erik-zurcher-turquia"
+      ]
+    },
+    {
+      "id": "tur-jovens-turcos-guerra-genocidio",
+      "inicio": "1908",
+      "fim": "1923",
+      "rotulo": "Jovens Turcos, Primeira Guerra Mundial e genocídio armênio",
+      "regime": "monarquia constitucional dominada pelo Comitê de União e Progresso, depois ditadura de guerra, depois movimento de independência republicano",
+      "textoMdx": "O triunvirato do Comitê de União e Progresso — Enver, Talat e Djemal Paxás — assume controle efetivo do governo otomano após golpe em 1913, e leva o império à Primeira Guerra Mundial ao lado da Alemanha em outubro de 1914, decisão que se revelaria catastrófica.\n\n**O genocídio armênio, iniciado em abril de 1915 com a prisão e execução de líderes intelectuais armênios em Istambul, extermina entre um milhão e um milhão e meio de armênios através de deportações forçadas, marchas da morte pelo deserto sírio e massacres diretos** — a Turquia moderna nunca reconheceria oficialmente o termo genocídio, embora a maioria dos historiadores e mais de trinta países hoje o classifiquem dessa forma.\n\n**A derrota na guerra, em 1918, leva à ocupação aliada de Istambul e ao Tratado de Sèvres de 1920, que propõe desmembrar drasticamente o território anatólio remanescente entre gregos, armênios, curdos e potências europeias** — tratado que jamais seria ratificado, rejeitado por movimento de resistência nacional liderado pelo general Mustafa Kemal.\n\n**A Guerra de Independência turca, entre 1919 e 1922, reverte militarmente os termos de Sèvres — incluindo a expulsão decisiva das forças gregas que ocupavam Esmirna — e força negociação de novo tratado.** O Tratado de Lausanne de 1923 reconhece as fronteiras da Turquia moderna, e a proclamação da república, em outubro daquele ano, sob a presidência de Mustafa Kemal, extingue definitivamente o sultanato otomano de seis séculos.",
+      "fontes": [
+        "erik-zurcher-turquia",
+        "taner-akcam-genocidio-armenio",
+        "tratado-lausanne-1923"
+      ]
+    },
+    {
+      "id": "tur-republica-kemalismo",
+      "inicio": "1923",
+      "fim": "1950",
+      "rotulo": "República e o kemalismo de partido único",
+      "regime": "república de partido único sob o Partido Republicano do Povo",
+      "textoMdx": "Mustafa Kemal, que adotaria o sobrenome Atatürk — \"pai dos turcos\" — em 1934, conduz transformação radical e acelerada da sociedade turca: abolição do califado em 1924, substituição da lei islâmica por códigos civis inspirados na Suíça e na Itália, adoção do alfabeto latino em 1928 e do sufrágio feminino pleno já em 1934, mais de uma década antes da França.\n\n**O laicismo de Estado, elevado a princípio constitucional em 1937, remove o islã como religião oficial e restringe severamente sua expressão pública** — projeto que buscava romper deliberadamente com a identidade otomano-islâmica em favor de identidade nacional turca secular, orientada à Europa.\n\n**A revolta curda de Dersim, em 1937-1938, reprimida com violência extrema que incluiu bombardeios aéreos e deportações em massa, revela os limites da inclusão multiétnica prometida pelo projeto republicano** — episódio que a Turquia reconheceria oficialmente como massacre apenas décadas depois, em 2011.\n\n**A morte de Atatürk em 1938 não interrompe o regime de partido único sob İsmet İnönü, que mantém a Turquia neutra durante quase toda a Segunda Guerra Mundial** — a transição para democracia multipartidária, sob pressão tanto interna quanto do novo alinhamento ocidental da Guerra Fria, ocorreria apenas em 1946, com as primeiras eleições livres em 1950.",
+      "fontes": [
+        "erik-zurcher-turquia"
+      ]
+    },
+    {
+      "id": "tur-democracia-golpes",
+      "inicio": "1950",
+      "fim": "2002",
+      "rotulo": "Democracia multipartidária e os golpes militares",
+      "regime": "república parlamentar interrompida por golpes militares em 1960, 1971 e 1980",
+      "textoMdx": "A vitória do Partido Democrata em 1950 encerra 27 anos de domínio único do partido de Atatürk, mas a nova era multipartidária se revela instável — o exército, autoproclamado guardião do legado laico kemalista, deporia governos eleitos repetidamente ao longo das décadas seguintes.\n\n**O golpe de 1960 executa o primeiro-ministro Adnan Menderes após julgamento sumário, precedente que marcaria a política turca pelas décadas seguintes**; novos golpes em 1971 e, mais duramente, em 1980 — este último seguido de repressão maciça contra a esquerda, a direita nacionalista e o movimento curdo simultaneamente — reafirmam o padrão de tutela militar sobre a democracia civil.\n\n**O conflito armado entre o Estado turco e o Partido dos Trabalhadores do Curdistão, PKK, iniciado em 1984, mataria mais de 40 mil pessoas ao longo de décadas**, tornando-se a mais persistente fonte de instabilidade interna da Turquia republicana, com ciclos alternados de repressão militar e tentativas malsucedidas de negociação política.\n\n**O chamado \"golpe pós-moderno\" de 1997, em que o exército força a renúncia do primeiro-ministro islamista Necmettin Erbakan sem tomar diretamente o poder, ilustra a tensão persistente entre laicismo militar e crescente popularidade eleitoral de partidos de base religiosa** — tensão que explodiria de forma decisiva com a ascensão eleitoral do Partido da Justiça e Desenvolvimento, o AKP, em 2002.",
+      "fontes": [
+        "erik-zurcher-turquia"
+      ]
+    },
+    {
+      "id": "tur-erdogan-atual",
+      "inicio": "2002",
+      "rotulo": "Era Erdoğan",
+      "regime": "república parlamentar, depois presidencialista a partir de 2018",
+      "textoMdx": "A vitória eleitoral do AKP em 2002, sob liderança de Recep Tayyip Erdoğan, inaugura era de estabilidade política incomum para os padrões turcos recentes, combinada a crescimento econômico expressivo na primeira década e negociações de adesão à União Europeia iniciadas em 2005, processo que se estagnaria progressivamente nos anos seguintes.\n\n**A tentativa de golpe militar de julho de 2016, rapidamente derrotada, é seguida por purga em massa: mais de 100 mil funcionários públicos demitidos e dezenas de milhares presos, sob acusação de vínculo com o movimento do clérigo Fethullah Gülen, apontado por Ancara como mandante do golpe** — repressão que a Turquia justifica como necessária à segurança do Estado, e que organizações de direitos humanos denunciam como perseguição política desproporcional.\n\n**O referendo constitucional de 2017 e as eleições de 2018 transformam a Turquia de sistema parlamentar em presidencialista, concentrando poderes executivos sem precedentes nas mãos de Erdoğan**, que governa ininterruptamente desde 2003, primeiro como primeiro-ministro, depois como presidente.\n\n**A Turquia mantém posição geopolítica ambígua entre a OTAN, da qual é membro desde 1952, e aproximações pontuais com a Rússia — incluindo a compra do sistema de defesa antiaérea russo S-400, que provocaria sanções americanas —, além de intervenções militares diretas no norte da Síria contra forças curdas a partir de 2016.**",
+      "fontes": [
+        "erik-zurcher-turquia"
+      ]
+    }
+  ]
+}

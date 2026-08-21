@@ -1,0 +1,75 @@
+{
+  "iso": "ARM",
+  "isoNumerico": "051",
+  "nome": "Armênia",
+  "periodos": [
+    {
+      "id": "arm-reino-antigo",
+      "inicio": "-190",
+      "fim": "428",
+      "rotulo": "Reino armênio antigo, das dinastias Artáxida e Arsácida",
+      "regime": "monarquia helenística, depois reino vassalo romano-parta, primeiro Estado a adotar o cristianismo como religião oficial",
+      "textoMdx": "Artaxias I funda, por volta de 190 antes de Cristo, o reino armênio da dinastia Artáxida, que atingiria seu apogeu sob Tigranes, o Grande, entre 95 e 55 antes de Cristo — império que se estenderia temporariamente da Capadócia ao Cáucaso e ao Levante, antes de ser reduzido pela expansão romana.\n\n**A dinastia Arsácida, ramo da família real parta instalado no trono armênio a partir de 52 depois de Cristo, governa por quase quatro séculos como reino vassalo, disputado entre as esferas de influência romana e persa** — posição geográfica de fronteira entre impérios que definiria repetidamente o destino armênio ao longo dos séculos seguintes.\n\n**A conversão oficial ao cristianismo, tradicionalmente datada de 301 sob o rei Tiridates III, faz da Armênia o primeiro Estado da história a adotar o cristianismo como religião oficial**, décadas antes do próprio Império Romano — a Igreja Apostólica Armênia, com hierarquia e liturgia próprias, se tornaria elemento central e duradouro da identidade nacional armênia.\n\n**A partilha do reino entre o Império Romano do Oriente e a Pérsia Sassânida, em 387, e a abolição definitiva da monarquia arsácida armênia pelos persas em 428, extinguem a estatalidade armênia por séculos** — o território permaneceria sob domínio sassânida, depois árabe, sem reino próprio restaurado até o final do século IX.",
+      "fontes": [
+        "razmik-panossian-armenios"
+      ]
+    },
+    {
+      "id": "arm-reino-bagratuni",
+      "inicio": "885",
+      "fim": "1045",
+      "rotulo": "Reino Bagratúnida da Armênia",
+      "regime": "monarquia medieval, reconhecida por Bizâncio e pelo califado abássida",
+      "textoMdx": "Ashot I Bagratúnida obtém, em 885, reconhecimento simultâneo do califa abássida e do imperador bizantino como rei da Armênia, restaurando estatalidade armênia após mais de quatro séculos e meio de domínio estrangeiro direto.\n\n**O reinado de Gagik I, no início do século XI, marca o apogeu do reino, com a capital Ani se tornando centro urbano próspero conhecido como \"cidade das mil e uma igrejas\"** — florescimento arquitetônico e comercial que refletia posição privilegiada nas rotas comerciais entre o mundo bizantino, persa e a Rota da Seda.\n\n**A anexação bizantina de Ani em 1045, seguida poucas décadas depois pela devastadora invasão seljúcida que culmina na batalha de Manzikert em 1071, desmantela definitivamente o reino bagratúnida** — muitos nobres e população armênia migrariam, nos anos seguintes, para o sudoeste da Anatólia, rumo à região da Cilícia, onde reconstituiriam Estado armênio em novo território.",
+      "fontes": [
+        "razmik-panossian-armenios"
+      ]
+    },
+    {
+      "id": "arm-armenia-ciliciana",
+      "inicio": "1045",
+      "fim": "1375",
+      "rotulo": "Principado e Reino Armênio da Cilícia",
+      "regime": "principado, depois reino a partir de 1198, cruzado e aliado de potências europeias e depois dos mongóis",
+      "textoMdx": "Refugiados armênios da Anatólia central, fugindo do avanço seljúcida logo após a queda de Ani em 1045, migram para a Cilícia, região costeira mediterrânea, onde o nobre Ruben I funda por volta de 1080 um principado que preservaria a estatalidade armênia fora do planalto histórico armênio — Leo I elevaria esse principado a reino em 1198, com coroação reconhecida pelo papado e pelo Sacro Império Romano-Germânico.\n\n**A Armênia da Cilícia se torna aliada estreita dos Estados cruzados vizinhos e, posteriormente, do Império Mongol, adotando estratégia diplomática de alinhamento com potências externas para sobreviver entre vizinhos maiores** — aliança mongol que se revelaria, ao final, insuficiente proteção diante da ascensão do sultanato mameluco egípcio.\n\n**Campanhas mamelucas sucessivas ao longo do século XIV desgastam progressivamente o reino, culminando na queda da capital Sis em 1375** — extinção do último Estado armênio soberano por mais de cinco séculos, período em que a população armênia permaneceria dispersa sob domínio bizantino, depois otomano e persa, sem território político próprio.",
+      "fontes": [
+        "razmik-panossian-armenios"
+      ]
+    },
+    {
+      "id": "arm-primeira-republica",
+      "inicio": "1918",
+      "fim": "1920",
+      "rotulo": "Primeira República da Armênia",
+      "regime": "república parlamentar, formada em meio a crise humanitária do genocídio",
+      "textoMdx": "A Armênia proclama independência em maio de 1918, dias depois do colapso da breve federação transcaucásica, em circunstâncias extremas: a população armênia do Império Otomano vizinho acabara de sofrer o genocídio de 1915-1916, que exterminara entre um milhão e um milhão e meio de pessoas, e a jovem república recebe onda maciça de refugiados sobreviventes em território já empobrecido pela guerra.\n\n**A guerra armênio-turca de 1920 termina em derrota militar armênia e perda territorial significativa, enquanto simultaneamente o Exército Vermelho avança pelo leste** — a república, espremida entre dois inimigos, colapsa em dezembro de 1920, quando aceita sovietização como alternativa à conquista turca total do território restante.\n\n**Apesar de sua brevidade e das condições extremas em que operou, a Primeira República deixaria legado duradouro: a bandeira tricolor, o hino nacional e símbolos que a Armênia independente readotaria integralmente após 1991**, tratando o período de 1918-1920 como precedente direto de soberania moderna, e não experimento isolado.",
+      "fontes": [
+        "razmik-panossian-armenios",
+        "taner-akcam-genocidio-armenio"
+      ]
+    },
+    {
+      "id": "arm-armenia-sovietica",
+      "inicio": "1920",
+      "fim": "1991",
+      "rotulo": "República Socialista Soviética da Armênia",
+      "regime": "república socialista soviética de partido único",
+      "textoMdx": "A Armênia soviética, integrada inicialmente à federação transcaucásica junto com Geórgia e Azerbaijão até 1936, recebe papel de destino simbólico como refúgio nacional armênio, com repatriação organizada de parte da diáspora ao longo das décadas seguintes.\n\n**A atribuição de Nagorno-Karabakh, região montanhosa de maioria populacional armênia, como oblast autônomo dentro da República Socialista Soviética do Azerbaijão, decidida por Moscou em 1923, plantaria a semente do conflito armênio-azerbaijano que explodiria seis décadas depois** — decisão administrativa soviética que ambos os lados interpretariam, décadas mais tarde, de formas irreconciliáveis.\n\n**O terremoto de Spitak, em dezembro de 1988, mata mais de 25 mil pessoas e devasta a economia armênia** — tragédia natural que coincide com a escalada do movimento por reunificação de Karabakh à Armênia, mobilização popular que se tornaria o núcleo do movimento de independência armênio ao final da década.",
+      "fontes": [
+        "razmik-panossian-armenios",
+        "thomas-de-waal-jardim-negro"
+      ]
+    },
+    {
+      "id": "arm-independencia-atual",
+      "inicio": "1991",
+      "rotulo": "República da Armênia independente",
+      "regime": "república parlamentar, depois semipresidencialista",
+      "textoMdx": "A independência armênia, declarada em setembro de 1991, ocorre em meio à primeira guerra de Nagorno-Karabakh, que se estenderia até 1994 com vitória armênia — forças armênias ocupam não apenas o próprio Karabakh como territórios azerbaijanos adjacentes, gerando mais de seiscentos mil deslocados azerbaijanos e fronteira fechada com a Turquia, que apoia o Azerbaijão por afinidade étnica turca.\n\n**O bloqueio econômico imposto pela Turquia e pelo Azerbaijão, mantido por décadas, isola a Armênia comercialmente e a torna dependente da Rússia e do Irã como principais parceiros externos** — a Armênia hospeda base militar russa e permanece membro da aliança militar liderada por Moscou, mesmo enquanto setores da sociedade civil pressionam por maior aproximação ocidental.\n\n**A Revolução de Veludo, em 2018, leva pacificamente ao poder o jornalista e ativista Nikol Pachinián, encerrando duas décadas de domínio político dominado por veteranos da guerra de Karabakh.**\n\n**A Segunda Guerra de Nagorno-Karabakh, em 2020, termina em derrota militar armênia decisiva diante de exército azerbaijano tecnologicamente superior, com uso extensivo de drones turcos e israelenses** — a declaração trilateral de cessar-fogo, mediada pela Rússia, reconhece amplos ganhos territoriais azerbaijanos, e em 2023 o Azerbaijão retomaria o controle total do restante de Karabakh, provocando êxodo quase completo da população armênia local, cerca de 100 mil pessoas, em poucos dias.",
+      "fontes": [
+        "thomas-de-waal-jardim-negro",
+        "declaracao-trilateral-karabakh-2020"
+      ]
+    }
+  ]
+}
