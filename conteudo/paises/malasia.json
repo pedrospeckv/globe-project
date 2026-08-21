@@ -1,0 +1,61 @@
+{
+  "iso": "MYS",
+  "isoNumerico": "458",
+  "nome": "Malásia",
+  "periodos": [
+    {
+      "id": "mys-sultanato-malaca",
+      "inicio": "1400",
+      "fim": "1511",
+      "rotulo": "Sultanato de Malaca",
+      "regime": "sultanato islâmico, maior entreposto comercial do sudeste asiático",
+      "textoMdx": "Parameswara, príncipe fugitivo de Sumatra, funda Malaca por volta de 1400 em posição estratégica no estreito homônimo — a conversão ao islã de seus governantes, no início do século XV, transformaria a cidade em centro de irradiação da fé islâmica por todo o arquipélago malaio.\n\n**Malaca se torna, ao longo do século XV, o maior e mais cosmopolita entreposto comercial do sudeste asiático, atraindo mercadores chineses, indianos, árabes, persas e, eventualmente, europeus** — riqueza que financiaria expansão de influência política sobre boa parte da península malaia e da costa de Sumatra.\n\n**A conquista portuguesa de Malaca, em 1511, liderada por Afonso de Albuquerque, encerra o sultanato como potência independente**, embora a dinastia sobrevivente fundasse, no exílio, o sultanato de Johor como sucessor político e espiritual direto.",
+      "fontes": [
+        "andaya-andaya-malasia"
+      ]
+    },
+    {
+      "id": "mys-sultanatos-sucessores-europeus",
+      "inicio": "1511",
+      "fim": "1874",
+      "rotulo": "Sultanatos malaios sucessores e a chegada europeia",
+      "regime": "sultanatos malaios regionais, sob influência comercial e territorial europeia crescente",
+      "textoMdx": "O sultanato de Johor, herdeiro direto de Malaca, disputa com holandeses e outros sultanatos malaios rivais o controle do comércio regional, enquanto a Holanda toma Malaca dos portugueses em 1641, transferindo o centro comercial regional para Batávia, em Java.\n\n**A Companhia Britânica das Índias Orientais estabelece presença comercial crescente a partir do final do século XVIII — Penang em 1786, Singapura fundada por Stamford Raffles em 1819, e Malaca obtida dos holandeses por troca territorial em 1824** — os três portos formariam, juntos, os Assentamentos do Estreito britânicos.\n\n**O Tratado de Pangkor, de 1874, marca o início da intervenção formal britânica na administração interna dos sultanatos malaios da península, através do sistema de residentes britânicos com autoridade consultiva que rapidamente se tornaria efetivamente decisória** — precedente que se estenderia progressivamente a outros sultanatos nas décadas seguintes.",
+      "fontes": [
+        "andaya-andaya-malasia"
+      ]
+    },
+    {
+      "id": "mys-malasia-britanica",
+      "inicio": "1874",
+      "fim": "1957",
+      "rotulo": "Malásia sob domínio britânico",
+      "regime": "protetorados e colônias britânicas sobre território fragmentado em sultanatos federados e não federados",
+      "textoMdx": "A administração colonial britânica atrai imigração maciça de trabalhadores chineses para as minas de estanho e indianos para as plantações de borracha, transformando permanentemente a composição demográfica da península — criando a sociedade multiétnica malaia, chinesa e indiana que definiria a Malásia moderna.\n\n**A queda de Singapura para o Japão, em fevereiro de 1942, considerada por Winston Churchill \"o pior desastre\" da história militar britânica, expõe a vulnerabilidade do domínio colonial e alimentaria movimentos nacionalistas locais nos anos seguintes.**\n\n**A Emergência Malaia, entre 1948 e 1960, opõe forças britânicas e malaias a insurgência comunista de maioria étnica chinesa** — conflito de contrainsurgência prolongado que terminaria com derrota da guerrilha comunista, pavimentando caminho para a independência da Federação da Malaia em 1957, sob o primeiro-ministro Tunku Abdul Rahman.",
+      "fontes": [
+        "andaya-andaya-malasia"
+      ]
+    },
+    {
+      "id": "mys-formacao-malasia-dominio-bn",
+      "inicio": "1957",
+      "fim": "2018",
+      "rotulo": "Formação da Malásia e o domínio da Barisan Nasional",
+      "regime": "federação parlamentar sob domínio quase ininterrupto de uma única coalizão governante",
+      "textoMdx": "A Federação da Malásia se forma em 1963, unindo a Malaia independente a Singapura, Sabah e Sarawak — mas Singapura, de maioria étnica chinesa, seria expulsa da federação já em 1965, após tensões políticas e raciais insustentáveis com a liderança malaia dominante.\n\n**Os motins raciais de maio de 1969, entre malaios e chineses, deixam centenas de mortos em Kuala Lumpur e levam à suspensão temporária do parlamento — resposta institucional inclui a Nova Política Econômica, sistema de discriminação positiva em favor da maioria étnica malaia que redefiniria a política econômica malaia pelas décadas seguintes.**\n\n**Mahathir Mohamad, primeiro-ministro entre 1981 e 2003, conduz transformação econômica acelerada da Malásia em economia industrializada de renda média-alta**, consolidando ao mesmo tempo domínio político quase absoluto da coalizão Barisan Nasional — hegemonia que se manteria ininterrupta por 61 anos, até a derrota eleitoral histórica de 2018.",
+      "fontes": [
+        "andaya-andaya-malasia"
+      ]
+    },
+    {
+      "id": "mys-instabilidade-politica-anwar",
+      "inicio": "2018",
+      "rotulo": "Instabilidade política e a ascensão de Anwar Ibrahim",
+      "regime": "república parlamentar, marcada por sucessivas trocas de governo sem eleição",
+      "textoMdx": "A derrota eleitoral da Barisan Nasional em 2018, após seis décadas de domínio ininterrupto, traz de volta ao poder o próprio Mahathir Mohamad, agora liderando a coalizão de oposição — desfecho notável que incluiria, meses depois, a condenação de seu antigo protegido e sucessor Najib Razak por corrupção massiva relacionada ao fundo estatal 1MDB.\n\n**A crise política conhecida como \"Movimento Sheraton\", em 2020, derruba o governo de Mahathir através de manobras parlamentares sem nova eleição, inaugurando período de instabilidade com múltiplas trocas de primeiro-ministro em rápida sucessão.**\n\n**Anwar Ibrahim, figura de oposição por mais de duas décadas, presa duas vezes sob acusações amplamente consideradas politicamente motivadas, finalmente se torna primeiro-ministro em novembro de 2022** — culminação de uma das trajetórias políticas mais longas e turbulentas da história democrática malaia.",
+      "fontes": [
+        "andaya-andaya-malasia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "iso": "BRN",
+  "isoNumerico": "096",
+  "nome": "Brunei",
+  "periodos": [
+    {
+      "id": "brn-imperio-bruneano",
+      "inicio": "1368",
+      "fim": "1888",
+      "rotulo": "Império de Brunei",
+      "regime": "sultanato islâmico, potência marítima regional em seu apogeu",
+      "textoMdx": "O sultanato de Brunei se converte ao islã por volta do século XV e atinge apogeu territorial sob o sultão Bolkiah, no início do século XVI, controlando grande parte da costa de Bornéu e partes do arquipélago filipino — a própria Manila pré-espanhola, então chamada Kota Seludong, funcionava como entreposto vassalo bruneano antes da conquista espanhola.\n\n**O declínio bruneano, a partir do final do século XVI, combina pirataria crescente, disputas sucessórias internas e pressão comercial europeia crescente**, reduzindo progressivamente tanto o território quanto a influência regional do sultanato ao longo de dois séculos e meio.\n\n**James Brooke, aventureiro britânico, recebe o território de Sarawak como recompensa por ajudar a suprimir rebelião local em 1841, tornando-se o primeiro dos \"rajás brancos\" que governariam Sarawak como dinastia própria por um século** — cessão que marca o início de perdas territoriais sucessivas que reduziriam Brunei a fração ínfima de seu antigo domínio, incluindo a perda adicional do norte de Bornéu para companhia comercial britânica em 1881.",
+      "fontes": [
+        "graham-saunders-brunei"
+      ]
+    },
+    {
+      "id": "brn-protetorado-britanico",
+      "inicio": "1888",
+      "fim": "1984",
+      "rotulo": "Protetorado Britânico",
+      "regime": "protetorado britânico, com sultanato preservado sob supervisão residencial",
+      "textoMdx": "O protetorado britânico, aceito em 1888 diante da ameaça de dissolução total do que restava do território, preserva a existência do sultanato como entidade distinta, ainda que sob supervisão residencial britânica crescente a partir de 1906.\n\n**A descoberta de petróleo no campo de Seria, em 1929, transformaria radicalmente as finanças do pequeno sultanato ao longo das décadas seguintes**, embora os benefícios econômicos plenos só se materializassem após a Segunda Guerra Mundial e a ocupação japonesa que interrompe brevemente a produção.\n\n**A Revolta de Brunei, em 1962, liderada pelo Partido Popular de Brunei contra a proposta de adesão à recém-formada Federação da Malásia e contra a monarquia absoluta, é esmagada com apoio militar britânico** — episódio que consolidaria a decisão de Brunei permanecer fora da federação malaia e manter trajetória política própria rumo à independência plena.",
+      "fontes": [
+        "graham-saunders-brunei"
+      ]
+    },
+    {
+      "id": "brn-independencia-hassanal-bolkiah",
+      "inicio": "1984",
+      "rotulo": "Brunei independente sob o Sultão Hassanal Bolkiah",
+      "regime": "monarquia absoluta islâmica, financiada por vastas reservas de petróleo e gás natural",
+      "textoMdx": "A independência plena, obtida em janeiro de 1984, preserva monarquia absoluta sob o sultão Hassanal Bolkiah, que já governava desde 1967 e se tornaria, ao longo das décadas seguintes, um dos monarcas mais ricos do mundo e um dos chefes de Estado com mais tempo ininterrupto no poder.\n\n**A riqueza petrolífera per capita permite ao Estado bruneano financiar sistema extenso de bem-estar social sem cobrança de imposto de renda — educação e saúde gratuitas, subsídios generalizados —, mantendo estabilidade social que contrasta com a ausência quase completa de liberdades políticas.**\n\n**A implementação de código penal baseado na sharia islâmica, anunciada em 2014 e expandida em 2019 para incluir penas como apedrejamento por adultério e homossexualidade, provoca boicote internacional amplo, incluindo de celebridades e empresas ocidentais** — pressão que levaria o próprio sultão a declarar moratória de facto sobre a pena de morte, mesmo mantendo a legislação formalmente em vigor.",
+      "fontes": [
+        "graham-saunders-brunei"
+      ]
+    }
+  ]
+}

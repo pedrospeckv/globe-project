@@ -1,0 +1,51 @@
+{
+  "iso": "TLS",
+  "isoNumerico": "626",
+  "nome": "Timor-Leste",
+  "periodos": [
+    {
+      "id": "tls-timor-portugues",
+      "inicio": "1520",
+      "fim": "1975",
+      "rotulo": "Timor Português",
+      "regime": "colônia portuguesa, uma das mais antigas e mais negligenciadas possessões europeias na Ásia",
+      "textoMdx": "Comerciantes portugueses estabelecem presença comercial na ilha de Timor a partir de cerca de 1515-1520, atraídos pelo comércio de madeira de sândalo — o território se tornaria, ao longo dos séculos seguintes, uma das colônias mais pobres e administrativamente negligenciadas de todo o império português.\n\n**A divisão da ilha entre Portugal, na metade oriental, e a Holanda, na ocidental, é formalizada por tratados sucessivos em 1859 e 1913 — fronteira colonial que sobreviveria, praticamente inalterada, à independência da Indonésia em 1945 e determinaria décadas depois qual metade da ilha se tornaria Estado próprio.**\n\n**A Revolução dos Cravos de 1974, em Portugal, precipita processo de descolonização abrupto e mal preparado no Timor Português — breve guerra civil entre as facções timorenses FRETILIN e UDT eclode em 1975, e a FRETILIN declara independência unilateral em 28 de novembro daquele ano**, apenas dias antes da invasão indonésia que se seguiria.",
+      "fontes": [
+        "james-dunn-timor-leste"
+      ]
+    },
+    {
+      "id": "tls-ocupacao-indonesia",
+      "inicio": "1975",
+      "fim": "1999",
+      "rotulo": "Ocupação indonésia",
+      "regime": "território anexado pela Indonésia como vigésima sétima província, nunca reconhecido pela ONU",
+      "textoMdx": "A Indonésia invade o Timor-Leste em 7 de dezembro de 1975, dias após a declaração de independência, com aprovação tácita americana e australiana em pleno contexto de Guerra Fria — anexando o território como sua vigésima sétima província, decisão jamais reconhecida pela Organização das Nações Unidas.\n\n**A ocupação, que se estenderia por 24 anos, mata segundo estimativas entre cem e duzentos mil timorenses — proporção da população total comparável às piores atrocidades do século XX —, através de combate direto, reassentamento forçado, fome e doença**, enquanto a guerrilha Falintil mantém resistência armada nas montanhas ao longo de todo o período.\n\n**O massacre de Santa Cruz, em novembro de 1991, quando tropas indonésias abrem fogo contra manifestantes pacíficos pró-independência num cemitério de Díli, é filmado por jornalistas estrangeiros presentes e transmitido internacionalmente**, tornando-se ponto de virada decisivo na atenção internacional ao conflito — o líder resistente Xanana Gusmão seria capturado no ano seguinte, e o bispo Carlos Filipe Ximenes Belo e José Ramos-Horta receberiam o Prêmio Nobel da Paz em 1996 pelo trabalho de resistência não violenta.",
+      "fontes": [
+        "james-dunn-timor-leste"
+      ]
+    },
+    {
+      "id": "tls-referendo-transicao-onu",
+      "inicio": "1999",
+      "fim": "2002",
+      "rotulo": "Referendo, violência e transição da ONU",
+      "regime": "território sob administração transitória das Nações Unidas",
+      "textoMdx": "A queda de Suharto, em 1998, abre caminho para consulta popular timorense supervisionada pela ONU em agosto de 1999 — mais de 78% dos votantes optam pela independência, apesar de intimidação generalizada por milícias pró-Indonésia nos meses anteriores à votação.\n\n**O resultado desencadeia campanha de violência incendiária das milícias, com cumplicidade documentada de elementos do próprio exército indonésio, destruindo cerca de 70% da infraestrutura do território e deslocando à força centenas de milhares de pessoas em poucas semanas** — devastação que força intervenção de força internacional de paz liderada pela Austrália, a INTERFET, para restaurar a ordem.\n\n**A Administração Transitória das Nações Unidas no Timor-Leste governa o território por quase três anos, reconstruindo instituições estatais básicas do zero antes de transferir soberania plena em maio de 2002** — um dos exercícios mais extensos de administração territorial direta pela ONU na história da organização.",
+      "fontes": [
+        "james-dunn-timor-leste",
+        "acordo-5-maio-1999-timor"
+      ]
+    },
+    {
+      "id": "tls-independencia-atual",
+      "inicio": "2002",
+      "rotulo": "Timor-Leste independente",
+      "regime": "república semipresidencialista",
+      "textoMdx": "Xanana Gusmão, líder histórico da resistência, se torna o primeiro presidente do Timor-Leste independente em maio de 2002 — nação que nasce como um dos países mais pobres da Ásia, apesar de reservas significativas de petróleo e gás no Mar de Timor.\n\n**Uma crise de segurança grave, em 2006, envolvendo divisões dentro das próprias forças armadas e violência entre facções regionais, quase leva ao colapso do jovem Estado, exigindo nova intervenção de forças de paz internacionais por vários anos.**\n\n**A disputa de fronteira marítima com a Austrália sobre os ricos campos de petróleo e gás do Mar de Timor, fonte crucial de receita para o pequeno Estado, seria finalmente resolvida por tratado de delimitação apenas em 2018** — décadas depois da independência, e após anos de negociação tensa sobre um recurso do qual o Timor-Leste dependeria de forma quase existencial para seu orçamento nacional.",
+      "fontes": [
+        "james-dunn-timor-leste"
+      ]
+    }
+  ]
+}

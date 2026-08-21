@@ -1,0 +1,95 @@
+{
+  "iso": "IDN",
+  "isoNumerico": "360",
+  "nome": "Indonésia",
+  "periodos": [
+    {
+      "id": "idn-srivijaya",
+      "inicio": "671",
+      "fim": "1288",
+      "rotulo": "Império de Srivijaya",
+      "regime": "talassocracia comercial budista, baseada em Sumatra",
+      "textoMdx": "O império de Srivijaya, com base na atual Sumatra, se consolida a partir do século VII como potência marítima e comercial que controla o estreito de Malaca — rota crucial do comércio entre a Índia e a China —, tornando-se também importante centro de estudos budistas que atrairia monges peregrinos de toda a Ásia.\n\n**O monge chinês Yijing, que passa anos estudando em Srivijaya no final do século VII, descreve a capital como grande centro de erudição budista comparável às principais universidades monásticas indianas da época** — testemunho raro da vida intelectual do império.\n\n**O declínio de Srivijaya, a partir do século XI, é acelerado por incursões navais do império Chola do sul da Índia, em 1025, e pela ascensão de portos comerciais rivais** — fragmentação gradual que se completaria ao longo dos séculos seguintes, abrindo caminho para a ascensão de novo poder centralizador na vizinha Java.",
+      "fontes": [
+        "mc-ricklefs-indonesia"
+      ]
+    },
+    {
+      "id": "idn-majapahit",
+      "inicio": "1293",
+      "fim": "1527",
+      "rotulo": "Império de Majapahit",
+      "regime": "império hindu-budista javanês, o maior domínio territorial pré-colonial do arquipélago",
+      "textoMdx": "Raden Wijaya funda o reino de Majapahit em Java oriental, em 1293, aproveitando o caos deixado por uma expedição naval mongol malsucedida contra a ilha — o novo reino se expandiria, nas décadas seguintes, ao maior domínio territorial já reunido no arquipélago indonésio antes da era colonial.\n\n**Sob o rei Hayam Wuruk e seu primeiro-ministro Gajah Mada, em meados do século XIV, Majapahit reivindica suserania sobre a maior parte do arquipélago moderno e além — o \"Juramento de Palapa\" de Gajah Mada, prometendo unificar o Nusantara sob domínio majapahita, seria invocado séculos depois pelo nacionalismo indonésio como precedente histórico da nação unificada.**\n\n**Disputas sucessórias internas, combinadas com a ascensão de portos comerciais islâmicos crescentemente poderosos na costa norte de Java, desgastam progressivamente o poder majapahita ao longo do século XV** — o reino seria finalmente extinto pelo avanço do sultanato islâmico de Demak, por volta de 1527, encerrando a era dos grandes impérios hindu-budistas do arquipélago.",
+      "fontes": [
+        "mc-ricklefs-indonesia"
+      ]
+    },
+    {
+      "id": "idn-sultanatos-islamicos-vocs",
+      "inicio": "1527",
+      "fim": "1800",
+      "rotulo": "Sultanatos islâmicos e a Companhia das Índias Orientais",
+      "regime": "sultanatos islâmicos regionais, progressivamente subordinados ao monopólio comercial da VOC holandesa",
+      "textoMdx": "A islamização do arquipélago, processo gradual conduzido por redes comerciais desde o século XIII, consolida-se politicamente com a ascensão de sultanatos como Demak, Mataram, Aceh, Banten e os sultanatos das Molucas, Ternate e Tidore — as lendárias Ilhas das Especiarias, cujo controle atrairia interesse comercial europeu decisivo.\n\n**A Companhia Holandesa das Índias Orientais, fundada em 1602, estabelece progressivamente monopólio comercial violento sobre a produção de especiarias** — o massacre das Ilhas Banda, em 1621, ordenado pelo governador-geral Jan Pieterszoon Coen, extermina ou escraviza quase toda a população nativa banda para garantir controle exclusivo sobre a produção de noz-moscada.\n\n**A falência da Companhia, em 1799, vítima de corrupção interna extensa e guerras europeias custosas, transfere suas possessões territoriais diretamente à coroa holandesa** — transição que marcaria o início da administração colonial estatal formal, mais sistemática e territorialmente ambiciosa que o modelo comercial anterior.",
+      "fontes": [
+        "mc-ricklefs-indonesia"
+      ]
+    },
+    {
+      "id": "idn-indias-orientais-holandesas",
+      "inicio": "1800",
+      "fim": "1942",
+      "rotulo": "Índias Orientais Holandesas",
+      "regime": "colônia holandesa direta",
+      "textoMdx": "A administração colonial holandesa direta expande território sob controle efetivo muito além dos antigos entrepostos comerciais da VOC, enfrentando resistência armada considerável — a Guerra de Java, entre 1825 e 1830, liderada pelo príncipe Diponegoro, mata dezenas de milhares antes de ser esmagada.\n\n**O Sistema de Cultivo, imposto a partir de 1830, força camponeses javaneses a dedicar parte obrigatória de suas terras e trabalho a culturas de exportação lucrativas ao tesouro holandês, provocando fomes periódicas nas décadas seguintes** — política que geraria críticas humanitárias crescentes na própria Holanda, levando a reformas graduais sob a chamada Política Ética do início do século XX.\n\n**Os primeiros movimentos nacionalistas organizados emergem no início do século XX, incluindo o Sarekat Islam e, a partir de 1927, o Partido Nacional Indonésio de Sukarno**, articulando pela primeira vez identidade \"indonésia\" unificada acima das diversas etnias e ilhas do arquipélago — projeto que a ocupação japonesa, décadas depois, acabaria paradoxalmente por acelerar.",
+      "fontes": [
+        "mc-ricklefs-indonesia"
+      ]
+    },
+    {
+      "id": "idn-ocupacao-japonesa-revolucao",
+      "inicio": "1942",
+      "fim": "1949",
+      "rotulo": "Ocupação japonesa e a Revolução Nacional",
+      "regime": "ocupação militar japonesa, depois república revolucionária em guerra contra a tentativa de reocupação holandesa",
+      "textoMdx": "A ocupação japonesa, embora brutal em termos de trabalho forçado (romusha) e repressão, treina e arma milícias de jovens indonésios que forneceriam, ao final da guerra, base militar organizada para o movimento de independência.\n\n**Sukarno e Mohammad Hatta proclamam a independência indonésia em 17 de agosto de 1945, dois dias após a rendição japonesa — data que se tornaria a mais importante celebração nacional indonésia.**\n\n**A tentativa holandesa de reocupar o arquipélago desencadeia a Revolução Nacional Indonésia, guerra de guerrilha e diplomacia internacional simultâneas que se estenderiam até 1949**, quando pressão internacional crescente, incluindo dos próprios Estados Unidos, força a Holanda a reconhecer formalmente a independência indonésia em dezembro daquele ano.",
+      "fontes": [
+        "mc-ricklefs-indonesia"
+      ]
+    },
+    {
+      "id": "idn-sukarno-democracia-guiada",
+      "inicio": "1949",
+      "fim": "1965",
+      "rotulo": "Sukarno e a Democracia Guiada",
+      "regime": "democracia parlamentar, depois presidencialismo autoritário a partir de 1959",
+      "textoMdx": "A jovem república enfrenta instabilidade parlamentar crônica ao longo da década de 1950, levando Sukarno a decretar a chamada \"Democracia Guiada\" em 1959 — sistema presidencialista autoritário que equilibra, de forma cada vez mais precária, o Exército e o Partido Comunista Indonésio, um dos maiores partidos comunistas do mundo fora do bloco soviético e chinês.\n\n**A política de \"Confrontasi\" contra a recém-formada Malásia, entre 1963 e 1966, e a saída indonésia da ONU em 1965, refletem orientação externa cada vez mais radical de Sukarno**, alinhada a Pequim e distanciada do Ocidente, enquanto tensões internas entre militares anticomunistas e o PKI se aproximam do ponto de ruptura.\n\n**O chamado Movimento 30 de Setembro, em 1965, tentativa de golpe atribuída ao Partido Comunista que resulta no assassinato de seis generais do Exército, fornece pretexto imediato para contragolpe liderado pelo general Suharto** — episódio cujas circunstâncias exatas permanecem historicamente contestadas até hoje.",
+      "fontes": [
+        "mc-ricklefs-indonesia"
+      ]
+    },
+    {
+      "id": "idn-massacres-nova-ordem-suharto",
+      "inicio": "1965",
+      "fim": "1998",
+      "rotulo": "Massacres anticomunistas e a Nova Ordem de Suharto",
+      "regime": "ditadura militar de partido dominante",
+      "textoMdx": "A repressão anticomunista desencadeada após o Movimento 30 de Setembro mata, entre 1965 e 1966, entre quinhentos mil e mais de um milhão de pessoas — comunistas reais ou apenas suspeitos, sindicalistas, e membros da minoria étnica chinesa —, num dos maiores massacres do século XX, ainda hoje pouco reconhecido internacionalmente em comparação a outros genocídios da era.\n\n**Suharto consolida poder formal em 1967 e governa por mais de três décadas sob a chamada \"Nova Ordem\", combinando crescimento econômico real com corrupção sistêmica em favor de sua família e aliados próximos.**\n\n**A invasão e anexação do Timor Português, em 1975, iniciam ocupação de 24 anos que mataria, segundo estimativas, entre cem e duzentos mil timorenses — cerca de um quarto da população do território —, por combate, fome e doença.**\n\n**A Crise Financeira Asiática de 1997-1998 expõe a fragilidade estrutural por trás do crescimento indonésio, provocando colapso econômico e protestos de massa que forçam a renúncia de Suharto em maio de 1998**, encerrando mais de três décadas de domínio pessoal ininterrupto.",
+      "fontes": [
+        "mc-ricklefs-indonesia",
+        "vincent-bevins-metodo-jacarta"
+      ]
+    },
+    {
+      "id": "idn-reformasi-democracia-atual",
+      "inicio": "1998",
+      "rotulo": "Reformasi e a democracia indonésia",
+      "regime": "república presidencialista democrática",
+      "textoMdx": "A Reformasi inaugura transição democrática substancial, incluindo descentralização administrativa extensa e eleições presidenciais diretas a partir de 2004 — a Indonésia se tornaria a maior democracia de maioria muçulmana do mundo, com alternância pacífica de poder através de sucessivas eleições competitivas.\n\n**O Timor-Leste vota esmagadoramente pela independência em referendo de 1999, decisão seguida de campanha de violência incendiária por milícias pró-indonésias antes de força internacional de paz restaurar a ordem** — a Indonésia reconheceria formalmente a perda do território meses depois.\n\n**O presidente Joko Widodo, eleito em 2014 como primeiro líder sem vínculos com a elite política ou militar tradicional, promove desenvolvimento de infraestrutura acelerado, incluindo a construção de nova capital, Nusantara, em Bornéu, para substituir a sobrecarregada e afundando Jacarta** — projeto monumental que simboliza ambições indonésias de modernização, ainda em curso na segunda década do século XXI.",
+      "fontes": [
+        "mc-ricklefs-indonesia"
+      ]
+    }
+  ]
+}

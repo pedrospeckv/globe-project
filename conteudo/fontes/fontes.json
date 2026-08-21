@@ -3719,5 +3719,77 @@
     "autor": "Martin Stuart-Fox",
     "data": "1997",
     "citacao": "História laosiana do reino de Lan Xang à República Democrática Popular contemporânea, cobrindo a fragmentação em três reinos rivais, o protetorado francês e a guerra civil secreta financiada pelos Estados Unidos durante a Guerra do Vietnã."
+  },
+  {
+    "id": "mc-ricklefs-indonesia",
+    "tipo": "livro",
+    "titulo": "A History of Modern Indonesia since c.1200",
+    "autor": "M. C. Ricklefs",
+    "data": "2008",
+    "citacao": "História indonésia de referência, de Srivijaya e Majapahit à democracia pós-Suharto, cobrindo a colonização holandesa, a revolução nacional de 1945-1949 e os massacres anticomunistas de 1965-1966."
+  },
+  {
+    "id": "vincent-bevins-metodo-jacarta",
+    "tipo": "livro",
+    "titulo": "The Jakarta Method: Washington's Anticommunist Crusade and the Mass Murder Program that Shaped Our World",
+    "autor": "Vincent Bevins",
+    "data": "2020",
+    "citacao": "Investigação sobre os massacres anticomunistas indonésios de 1965-1966, que mataram entre quinhentos mil e mais de um milhão de pessoas, situando o episódio como modelo replicado por operações anticomunistas similares em outros países durante a Guerra Fria."
+  },
+  {
+    "id": "luis-francia-filipinas",
+    "tipo": "livro",
+    "titulo": "A History of the Philippines: From Indios Bravos to Filipinos",
+    "autor": "Luis H. Francia",
+    "data": "2010",
+    "citacao": "História filipina dos sultanatos islâmicos pré-coloniais à era pós-Marcos, cobrindo a colonização espanhola, a Guerra Filipino-Americana e a ditadura de Ferdinand Marcos."
+  },
+  {
+    "id": "tratado-paris-1898",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Paris",
+    "publicacao": "Espanha e Estados Unidos",
+    "data": "1898-12-10",
+    "citacao": "Encerrou a Guerra Hispano-Americana, transferindo Cuba, Porto Rico, Guam e as Filipinas à órbita americana — a cessão filipina, negociada sem qualquer participação de representantes filipinos, precipitaria a Guerra Filipino-Americana meses depois."
+  },
+  {
+    "id": "acordo-carpenter-1915",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo Carpenter",
+    "publicacao": "Governo colonial americano nas Filipinas e Sultanato de Sulu",
+    "data": "1915-03-22",
+    "citacao": "Transferiu a soberania política e temporal do Sultanato de Sulu à administração colonial americana, preservando apenas autoridade religiosa nominal ao sultão — marco do fim da soberania política efetiva do sultanato, embora a linha sucessória titular persista, de forma disputada, até hoje."
+  },
+  {
+    "id": "andaya-andaya-malasia",
+    "tipo": "livro",
+    "titulo": "A History of Malaysia",
+    "autor": "Barbara Watson Andaya e Leonard Y. Andaya",
+    "data": "2001",
+    "citacao": "História malaia de referência, do Sultanato de Malaca à Malásia contemporânea, cobrindo a chegada portuguesa, holandesa e britânica, a Emergência Malaia e a formação da federação multiétnica em 1963."
+  },
+  {
+    "id": "graham-saunders-brunei",
+    "tipo": "livro",
+    "titulo": "A History of Brunei",
+    "autor": "Graham Saunders",
+    "data": "2002",
+    "citacao": "História de Brunei do apogeu do império marítimo no século XVI ao sultanato independente contemporâneo, cobrindo o longo declínio territorial do século XIX e a transformação econômica trazida pela descoberta de petróleo em 1929."
+  },
+  {
+    "id": "james-dunn-timor-leste",
+    "tipo": "livro",
+    "titulo": "East Timor: A Rough Passage to Independence",
+    "autor": "James Dunn",
+    "data": "2003",
+    "citacao": "História do Timor-Leste sob colonização portuguesa e ocupação indonésia, escrita por ex-diplomata australiano que testemunhou o período, documentando a violência da invasão de 1975 e da ocupação subsequente que mataria dezenas de milhares de timorenses."
+  },
+  {
+    "id": "acordo-5-maio-1999-timor",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de 5 de Maio",
+    "publicacao": "Indonésia, Portugal e Nações Unidas",
+    "data": "1999-05-05",
+    "citacao": "Estabeleceu os termos da consulta popular timorense de agosto de 1999, na qual mais de 78% dos votantes optariam pela independência — resultado seguido de campanha de violência incendiária por milícias pró-indonésias que destruiria a maior parte da infraestrutura do território."
   }
 ]
