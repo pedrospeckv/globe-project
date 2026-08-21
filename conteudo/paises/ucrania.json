@@ -1,0 +1,87 @@
+{
+  "iso": "UKR",
+  "isoNumerico": "804",
+  "nome": "Ucrânia",
+  "periodos": [
+    {
+      "id": "ukr-rus-de-kiev",
+      "inicio": "882",
+      "fim": "1240",
+      "rotulo": "Rus de Kiev",
+      "regime": "monarquia medieval, principado federado sob dinastia Rurikida",
+      "textoMdx": "O príncipe varegue Oleg unifica, por volta de 882, os centros eslavos orientais de Novgorod e Kiev sob domínio único, fundando o que a historiografia chama de Rus de Kiev — o primeiro grande Estado eslavo oriental, e a raiz histórica comum reivindicada por ucranianos, russos e bielorrussos, embora cada tradição nacional a interprete de forma distinta.\n\n**A conversão ao cristianismo ortodoxo, sob o príncipe Vladimir, o Grande, em 988, integra a Rus de Kiev à órbita bizantina** e estabelece a Igreja Ortodoxa como instituição central da vida política e cultural do Estado pelos séculos seguintes; o reinado de Yaroslav, o Sábio, no século XI, consolida código legal próprio e alianças dinásticas com quase toda a realeza europeia da época.\n\n**A fragmentação em principados rivais, a partir de meados do século XII, enfraquece progressivamente o poder central de Kiev**, embora a cidade mantivesse prestígio simbólico como sede metropolitana — vulnerabilidade que a invasão mongol exploraria de forma devastadora.\n\n**O saque mongol de Kiev, em 1240, sob Batu Khan, encerra definitivamente a era da Rus de Kiev como potência unificada**, reduzindo os principados eslavos orientais remanescentes a vassalos tributários da Horda de Ouro — destino que, no território ucraniano, o principado de Galícia-Volínia, ao oeste, conseguiria adiar por mais um século.",
+      "fontes": [
+        "serhii-plokhy-ucrania"
+      ]
+    },
+    {
+      "id": "ukr-galicia-volinia",
+      "inicio": "1199",
+      "fim": "1349",
+      "rotulo": "Principado de Galícia-Volínia",
+      "regime": "principado medieval, sucessor ocidental da Rus de Kiev, depois vassalo mongol",
+      "textoMdx": "Romano, o Grande, une os principados vizinhos de Galícia e Volínia em 1199, criando o mais poderoso Estado sucessor da Rus de Kiev no território que hoje constitui o oeste da Ucrânia — seu filho Danilo seria coroado rei em 1253, com bênção papal, numa tentativa malsucedida de aliança católica contra os mongóis.\n\n**Mesmo sob suserania tributária da Horda de Ouro após 1240, Galícia-Volínia preserva administração e dinastia próprias por mais de um século**, mantendo relações diplomáticas e comerciais com a Polônia, a Hungria e os Estados cruzados bálticos vizinhos.\n\n**A extinção da linha dinástica local, em 1340, abre disputa sucessória entre Polônia e Lituânia que se resolveria, ao longo das décadas seguintes, com a divisão do território entre os dois vizinhos** — a Galícia absorvida pela Polônia, a Volínia pelo Grão-Ducado da Lituânia, encerrando a última forma de Estado próprio no território ucraniano por três séculos.",
+      "fontes": [
+        "serhii-plokhy-ucrania"
+      ]
+    },
+    {
+      "id": "ukr-hetmanato-cossaco",
+      "inicio": "1648",
+      "fim": "1764",
+      "rotulo": "Hetmanato Cossaco",
+      "regime": "Estado cossaco autônomo, sob protetorado russo crescente a partir de 1654",
+      "textoMdx": "Após três séculos sob domínio lituano-polonês, sem Estado ucraniano próprio, a revolta cossaca liderada por Bohdan Khmelnitsky, em 1648, contra a exploração fundiária e religiosa da nobreza polonesa católica, estabelece o Hetmanato — Estado cossaco autônomo organizado em torno da fortaleza-capital de Baturyn, com base social nos guerreiros cossacos das estepes do sul.\n\n**O Tratado de Pereyaslav, de 1654, sela aliança entre Khmelnitsky e o czar russo — interpretado pela historiografia russa como submissão voluntária, e pela ucraniana como aliança militar de proteção mútua** — ambiguidade jurídica que geraria disputas de interpretação exploradas politicamente por ambos os lados nos séculos seguintes.\n\n**A autonomia cossaca é erodida progressivamente ao longo do século seguinte, apesar de tentativas de reversão como a aliança do hetman Ivan Mazepa com a Suécia de Carlos XII, derrotada na batalha de Poltava em 1709** — derrota que Pedro, o Grande, usaria como pretexto para intensificar o controle direto russo sobre o território cossaco.\n\n**Catarina, a Grande, extingue formalmente o Hetmanato em 1764, incorporando definitivamente o território à administração direta do Império Russo** — fim da última forma substancial de autogoverno ucraniano antes do século XX.",
+      "fontes": [
+        "serhii-plokhy-ucrania",
+        "tratado-pereyaslav-1654"
+      ]
+    },
+    {
+      "id": "ukr-imperios-russo-austro-hungaro",
+      "inicio": "1764",
+      "fim": "1917",
+      "rotulo": "Ucrânia dividida entre os Impérios Russo e Austro-Húngaro",
+      "regime": "território dividido entre governadorias do Império Russo e a província da Galícia sob os Habsburgo",
+      "textoMdx": "A maior parte do território ucraniano permanece sob administração russa direta, sujeita a políticas de russificação que restringem severamente o uso público da língua ucraniana, incluindo decretos que proíbem publicações e representações teatrais no idioma a partir da década de 1870.\n\n**A Galícia ocidental, incorporada aos domínios dos Habsburgo já na primeira partilha da Polônia em 1772, desenvolve trajetória cultural distinta — Lviv se torna centro relativamente tolerante do renascimento nacional ucraniano**, com maior liberdade de imprensa e organização política que a permitida do lado russo, moldando divergência regional que persistiria por gerações.\n\n**A Primeira Guerra Mundial devasta o território ucraniano como um dos principais teatros da frente oriental**, com populações civis presas entre exércitos russo e austro-húngaro — colapso que, com a queda de ambos os impérios em 1917-1918, abriria breve janela de oportunidade para independência ucraniana.",
+      "fontes": [
+        "serhii-plokhy-ucrania"
+      ]
+    },
+    {
+      "id": "ukr-guerra-independencia",
+      "inicio": "1917",
+      "fim": "1921",
+      "rotulo": "Guerra de Independência ucraniana",
+      "regime": "sucessão de governos rivais — república nacional, hetmanato apoiado pela Alemanha, e república popular ocidental — em guerra civil multifacetada",
+      "textoMdx": "O colapso do Império Russo, em 1917, permite a proclamação da República Popular Ucraniana em Kiev, logo em disputa com um governo alternativo apoiado pela Alemanha sob o hetman Pavlo Skoropadsky em 1918, enquanto na Galícia ocidental surge simultaneamente a República Popular Ucraniana Ocidental.\n\n**O conflito se torna guerra multifacetada envolvendo bolcheviques, exércitos brancos russos, forças polonesas, o movimento anarquista de Nestor Makhno e sucessivos governos ucranianos rivais**, com Kiev trocando de mãos diversas vezes entre 1918 e 1920 — período de violência extrema que inclui pogroms generalizados contra a população judaica.\n\n**A Paz de Riga, em 1921, entre a Polônia e a Rússia soviética, divide o território ucraniano sem consulta a qualquer governo ucraniano: a Galícia e a Volínia ocidental vão para a Polônia, o restante se torna república soviética** — encerrando a tentativa de independência ucraniana por sete décadas.",
+      "fontes": [
+        "serhii-plokhy-ucrania"
+      ]
+    },
+    {
+      "id": "ukr-ucrania-sovietica",
+      "inicio": "1921",
+      "fim": "1991",
+      "rotulo": "República Socialista Soviética da Ucrânia",
+      "regime": "república socialista soviética de partido único, membro fundador da URSS",
+      "textoMdx": "A Ucrânia soviética, membro fundador da União Soviética em 1922, passa pela política de ucranização dos anos 1920 — promoção controlada da língua e cultura ucranianas — revertida abruptamente no início da década seguinte pela repressão estalinista.\n\n**O Holodomor, fome provocada pela coletivização forçada e pela requisição extrema de grãos entre 1932 e 1933, mata entre três e cinco milhões de ucranianos** — mais de trinta países, incluindo a própria Ucrânia, reconhecem oficialmente o episódio como genocídio deliberado contra a população camponesa ucraniana, classificação que a Rússia rejeita como fome de causas econômicas gerais, sem intenção étnica específica.\n\n**A Segunda Guerra Mundial devasta a Ucrânia como um dos principais teatros do conflito, com mais de sete milhões de mortos**, incluindo o massacre de Babi Yar, em Kiev em 1941, no qual forças alemãs executam mais de trinta mil judeus em dois dias — um dos maiores massacres únicos do Holocausto.\n\n**A anexação da Crimeia à Ucrânia soviética, em 1954, decisão administrativa de Nikita Khrushchov justificada por proximidade geográfica e econômica, se tornaria consequência política de longo alcance seis décadas depois.** O desastre nuclear de Chernobyl, em 1986, expõe as falhas sistêmicas do regime soviético e alimentaria diretamente o movimento de independência do final da década.",
+      "fontes": [
+        "serhii-plokhy-ucrania",
+        "anne-applebaum-holodomor",
+        "protocolo-secreto-molotov-ribbentrop"
+      ]
+    },
+    {
+      "id": "ukr-independencia-guerra-russa",
+      "inicio": "1991",
+      "rotulo": "Ucrânia independente e guerra com a Rússia",
+      "regime": "república semipresidencialista",
+      "textoMdx": "A independência ucraniana, aprovada por referendo em dezembro de 1991 com apoio de mais de 90% dos votantes, inclusive maioria na Crimeia e no leste russófono, encerra definitivamente a União Soviética — Ucrânia e Rússia reconhecem mutuamente suas fronteiras no Memorando de Budapeste de 1994, em troca da entrega do arsenal nuclear soviético herdado por Kiev.\n\n**A Revolução Laranja de 2004 e o Euromaidan de 2013-2014 marcam dois pontos de virada em direção à integração ocidental**, o segundo culminando na fuga do presidente Viktor Yanukovych após meses de protestos e repressão violenta que mata mais de cem manifestantes.\n\n**A Rússia anexa a Crimeia em março de 2014, através de referendo não reconhecido pela maioria da comunidade internacional, e apoia forças separatistas em Donetsk e Lugansk, deflagrando guerra no Donbass que mataria mais de 14 mil pessoas antes de 2022.**\n\n**A invasão russa em larga escala, iniciada em 24 de fevereiro de 2022, torna-se o maior conflito armado convencional na Europa desde a Segunda Guerra Mundial** — a Rússia anexaria formalmente quatro regiões ucranianas parcialmente ocupadas em setembro daquele ano, sem reconhecimento internacional, e o Tribunal Penal Internacional emitiria, em 2023, mandado de prisão contra o presidente russo Vladimir Putin por deportação ilegal de crianças ucranianas — a guerra permanece em curso, com a Ucrânia recebendo apoio militar ocidental substancial e mantendo resistência que poucos analistas previam nos primeiros dias do conflito.",
+      "fontes": [
+        "serhii-plokhy-guerra-russo-ucraniana",
+        "tpi-mandado-putin-2023"
+      ]
+    }
+  ]
+}

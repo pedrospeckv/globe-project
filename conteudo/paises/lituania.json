@@ -1,0 +1,86 @@
+{
+  "iso": "LTU",
+  "isoNumerico": "440",
+  "nome": "Lituânia",
+  "periodos": [
+    {
+      "id": "ltu-grao-ducado",
+      "inicio": "1253",
+      "fim": "1569",
+      "rotulo": "Grão-Ducado da Lituânia",
+      "regime": "monarquia pagã, depois grão-ducado cristianizado em união dinástica crescente com a Polônia",
+      "textoMdx": "Mindaugas unifica tribos bálticas rivais e se faz coroar rei da Lituânia em 1253, com bênção papal — mas o batismo seria posteriormente abandonado, e a Lituânia permaneceria o último Estado pagão da Europa por mais de um século, resistindo a sucessivas cruzadas promovidas pela Ordem Teutônica sob pretexto de conversão forçada.\n\n**Sob Gediminas e depois Algirdas, no século XIV, o grão-ducado se expande vertiginosamente para o sul e o leste, absorvendo vastos territórios eslavos da antiga Rus de Kiev**, tornando-se o maior Estado territorial da Europa — império multiétnico e multirreligioso administrado, em suas partes eslavas, na língua eslava oriental antiga, não no lituano.\n\n**Jogaila aceita o batismo católico e a coroa polonesa através da União de Krewo, em 1385, iniciando união dinástica que uniria progressivamente os dois Estados** — decisão que garante aliança militar decisiva: a vitória conjunta polaco-lituana sobre a Ordem Teutônica em Grunwald, em 1410, encerra definitivamente a ameaça cruzada ao território báltico.\n\n**Vytautas, o Grande, entre 1392 e 1430, leva o grão-ducado ao apogeu territorial, estendendo-o do mar Báltico ao mar Negro** — mas sua morte sem sucessor consolidado inicia processo de integração cada vez mais estreita com a Polônia, que culminaria na união plena de 1569.",
+      "fontes": [
+        "sc-rowell-lituania",
+        "andres-kasekamp-baltico"
+      ]
+    },
+    {
+      "id": "ltu-comunidade-polaco-lituana",
+      "inicio": "1569",
+      "fim": "1795",
+      "rotulo": "Lituânia na Comunidade Polaco-Lituana",
+      "regime": "componente de união real dual, com exército e leis internas próprios sob coroa e parlamento comuns",
+      "textoMdx": "A União de Lublin, de 1569, transforma a antiga união pessoal em união real plena: a Comunidade Polaco-Lituana passa a ter parlamento e política externa comuns, embora a Lituânia preservasse exército, tesouro e código legal próprios — arranjo que a historiografia de ambos os países reivindica como herança compartilhada, não subordinação de um ao outro.\n\n**A nobreza lituana se torna crescentemente polonizada linguística e culturalmente ao longo dos séculos XVII e XVIII, mesmo mantendo identidade política lituana distinta** — fenômeno que geraria, séculos depois, debate sobre até que ponto figuras históricas nascidas em território lituano pertencem à tradição nacional polonesa ou lituana.\n\n**As sucessivas partilhas da Comunidade Polaco-Lituana entre a Rússia, a Prússia e a Áustria, entre 1772 e 1795, extinguem definitivamente a soberania conjunta** — a quase totalidade do território lituano é absorvida pelo Império Russo, encerrando mais de dois séculos de união com a Polônia.",
+      "fontes": [
+        "andres-kasekamp-baltico",
+        "uniao-lublin-1569"
+      ]
+    },
+    {
+      "id": "ltu-imperio-russo",
+      "inicio": "1795",
+      "fim": "1918",
+      "rotulo": "Lituânia dentro do Império Russo",
+      "regime": "governadorias do Império Russo, sob repressão cultural intensificada após 1863",
+      "textoMdx": "A administração russa reprime duramente levantes sucessivos — em 1830-1831 e, mais duramente ainda, em 1863, ambos coordenados com a Polônia vizinha — respondendo com abolição de instituições autônomas remanescentes e proibição do alfabeto latino para publicações em língua lituana entre 1865 e 1904.\n\n**A proibição da imprensa latina origina o fenômeno dos knygnešiai, \"carregadores de livros\", que contrabandeavam publicações lituanas impressas na Prússia Oriental através da fronteira**, movimento clandestino que preservaria e fortaleceria a identidade nacional lituana justamente através da repressão destinada a apagá-la.\n\n**O colapso do Império Russo, em 1917, sob ocupação militar alemã que já controlava o território desde 1915, abre caminho para a proclamação de independência em fevereiro de 1918** — momento fundador que a Lituânia moderna celebra como data nacional central.",
+      "fontes": [
+        "andres-kasekamp-baltico"
+      ]
+    },
+    {
+      "id": "ltu-primeira-republica",
+      "inicio": "1918",
+      "fim": "1940",
+      "rotulo": "Primeira República da Lituânia",
+      "regime": "república parlamentar, depois presidencialista autoritária a partir de 1926",
+      "textoMdx": "A jovem república trava guerra simultânea de independência contra forças soviéticas, contra a milícia germano-báltica remanescente e contra a Polônia, que ocuparia e anexaria Vilnius — capital histórica lituana — em 1920, forçando o governo a estabelecer capital provisória em Kaunas por duas décadas.\n\n**Um golpe militar em 1926 leva Antanas Smetona ao poder, que governaria de forma cada vez mais autoritária e centralizada até o fim da república**, suprimindo o parlamento e partidos de oposição, embora mantendo desenvolvimento econômico e educacional considerável na década de 1930.\n\n**O protocolo secreto do Pacto Molotov-Ribbentrop, de 1939, atribui a Lituânia à esfera de influência soviética — Moscou impõe ultimato em junho de 1940, forçando a formação de governo pró-soviético e a anexação formal como república soviética meses depois**, extinguindo a independência lituana por meio século.",
+      "fontes": [
+        "andres-kasekamp-baltico",
+        "protocolo-secreto-molotov-ribbentrop"
+      ]
+    },
+    {
+      "id": "ltu-ocupacoes-guerra",
+      "inicio": "1940",
+      "fim": "1944",
+      "rotulo": "Ocupações soviética e nazista",
+      "regime": "território ocupado sucessivamente por administração soviética e depois alemã",
+      "textoMdx": "A primeira ocupação soviética, entre 1940 e 1941, inclui deportação em massa de dezenas de milhares de lituanos considerados elementos socialmente perigosos — intelectuais, oficiais, proprietários rurais — para a Sibéria, em vagões de gado, dias antes da invasão alemã de junho de 1941 interromper abruptamente o processo.\n\n**A ocupação nazista subsequente extermina praticamente toda a extensa e histórica comunidade judaica lituana — mais de 90% dos cerca de duzentos mil judeus do país, uma das taxas de mortalidade mais altas do Holocausto europeu**, com participação documentada de unidades de colaboração local em massacres como o de Ponary, nos arredores de Vilnius.\n\n**O retorno do Exército Vermelho, em 1944, inicia segunda onda de deportações em massa e provoca a mais longa resistência armada partisan anti-soviética da Europa — os \"irmãos da floresta\" lutariam até meados da década de 1950**, custando dezenas de milhares de vidas de ambos os lados antes de serem finalmente esmagados.",
+      "fontes": [
+        "andres-kasekamp-baltico"
+      ]
+    },
+    {
+      "id": "ltu-lituania-sovietica",
+      "inicio": "1944",
+      "fim": "1990",
+      "rotulo": "República Socialista Soviética da Lituânia",
+      "regime": "república socialista soviética de partido único",
+      "textoMdx": "A reincorporação soviética impõe coletivização agrícola forçada, industrialização acelerada e imigração russófona significativa, embora em proporção menor que na Letônia e Estônia vizinhas — a Lituânia preservaria, ao final do período soviético, a maior proporção de população étnica titular entre as três repúblicas bálticas.\n\n**A Igreja Católica, instituição historicamente central à identidade lituana, torna-se foco persistente de resistência cultural ao regime ateu soviético**, apesar de perseguição sistemática ao clero e fechamento de seminários e conventos ao longo das décadas.\n\n**O movimento Sąjūdis, fundado em 1988 em meio à abertura promovida por Gorbachov, lidera mobilização de massa que faria da Lituânia a primeira república soviética a declarar restauração de independência, em março de 1990** — desafio direto que Moscou tentaria reverter por força militar, sem sucesso final.",
+      "fontes": [
+        "andres-kasekamp-baltico"
+      ]
+    },
+    {
+      "id": "ltu-independencia-atual",
+      "inicio": "1990",
+      "rotulo": "Lituânia independente",
+      "regime": "república parlamentar semipresidencialista",
+      "textoMdx": "O confronto direto ocorre em janeiro de 1991, quando tropas soviéticas tomam a torre de televisão de Vilnius, matando quatorze civis desarmados que a defendiam — repressão que, ao invés de intimidar, fortalece a determinação lituana e o apoio internacional à independência, plenamente reconhecida após o fracasso do golpe soviético de agosto daquele ano.\n\n**A Lituânia adere à União Europeia e à OTAN simultaneamente em 2004, e à zona do euro em 2015 — a mais tardia entre as três repúblicas bálticas a adotar a moeda comum**, completando trajetória de integração ocidental buscada como garantia de segurança contra qualquer ambição russa futura sobre a região.\n\n**A guerra russa na Ucrânia, a partir de 2022, reforça dramaticamente a percepção lituana de vulnerabilidade histórica, dada a proximidade com o enclave russo fortemente militarizado de Kaliningrado** — a Lituânia se tornaria um dos membros da OTAN a proporcionalmente mais aumentar gastos militares e apoio direto a Kiev no período.",
+      "fontes": [
+        "andres-kasekamp-baltico"
+      ]
+    }
+  ]
+}

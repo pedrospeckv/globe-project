@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**65 de 174 países** desenhados no mapa têm dossiê (37.4%), somando **370 períodos**.
+**70 de 174 países** desenhados no mapa têm dossiê (40.2%), somando **400 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -20,6 +20,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Bahamas | `BHS` | 2 | 2 |
 | Bélgica | `BEL` | 3 | 3 |
 | Belize | `BLZ` | 3 | 3 |
+| Bielorrússia | `BLR` | 5 | 5 |
 | Bolívia | `BOL` | 8 | 8 |
 | Bósnia e Herzegovina | `BIH` | 7 | 7 |
 | Brasil | `BRA` | 8 | 8 |
@@ -37,6 +38,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Eslovênia | `SVN` | 5 | 5 |
 | Espanha | `ESP` | 6 | 6 |
 | Estados Unidos | `USA` | 8 | 8 |
+| Estônia | `EST` | 5 | 5 |
 | Finlândia | `FIN` | 4 | 4 |
 | França | `FRA` | 10 | 10 |
 | Geórgia | `GEO` | 6 | 6 |
@@ -51,6 +53,8 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Itália | `ITA` | 4 | 4 |
 | Jamaica | `JAM` | 3 | 3 |
 | Japão | `JPN` | 12 | 12 |
+| Letônia | `LVA` | 6 | 6 |
+| Lituânia | `LTU` | 7 | 7 |
 | Luxemburgo | `LUX` | 3 | 3 |
 | Macedônia do Norte | `MKD` | 3 | 3 |
 | México | `MEX` | 9 | 9 |
@@ -74,6 +78,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Suriname | `SUR` | 4 | 4 |
 | Trinidad e Tobago | `TTO` | 2 | 2 |
 | Turquia | `TUR` | 8 | 8 |
+| Ucrânia | `UKR` | 7 | 7 |
 | Uruguai | `URY` | 6 | 6 |
 | Venezuela | `VEN` | 5 | 5 |
 
@@ -86,19 +91,18 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | | | | |
 |---|---|---|---|
 | Afghanistan | Algeria | Angola | Antarctica |
-| Australia | Bangladesh | Belarus | Benin |
-| Bhutan | Botswana | Brunei | Burkina Faso |
-| Burundi | Cambodia | Cameroon | Central African Rep. |
-| Chad | Congo | Côte d'Ivoire | Cyprus |
-| Czechia | Dem. Rep. Congo | Djibouti | Egypt |
-| Eq. Guinea | Eritrea | Estonia | eSwatini |
-| Ethiopia | Falkland Is. | Fiji | Fr. S. Antarctic Lands |
-| Gabon | Gambia | Ghana | Guinea |
-| Guinea-Bissau | Hungary | Indonesia | Iran |
-| Iraq | Ireland | Israel | Jordan |
-| Kazakhstan | Kenya | Kuwait | Kyrgyzstan |
-| Laos | Latvia | Lebanon | Lesotho |
-| Liberia | Libya | Lithuania | Madagascar |
+| Australia | Bangladesh | Benin | Bhutan |
+| Botswana | Brunei | Burkina Faso | Burundi |
+| Cambodia | Cameroon | Central African Rep. | Chad |
+| Congo | Côte d'Ivoire | Cyprus | Czechia |
+| Dem. Rep. Congo | Djibouti | Egypt | Eq. Guinea |
+| Eritrea | eSwatini | Ethiopia | Falkland Is. |
+| Fiji | Fr. S. Antarctic Lands | Gabon | Gambia |
+| Ghana | Guinea | Guinea-Bissau | Hungary |
+| Indonesia | Iran | Iraq | Ireland |
+| Israel | Jordan | Kazakhstan | Kenya |
+| Kuwait | Kyrgyzstan | Laos | Lebanon |
+| Lesotho | Liberia | Libya | Madagascar |
 | Malawi | Malaysia | Mali | Mauritania |
 | Moldova | Mongolia | Morocco | Mozambique |
 | Myanmar | Namibia | Nepal | New Caledonia |
@@ -110,7 +114,6 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | Sri Lanka | Sudan | Syria | Taiwan |
 | Tajikistan | Tanzania | Thailand | Timor-Leste |
 | Togo | Tunisia | Turkmenistan | Uganda |
-| Ukraine | United Arab Emirates | Uzbekistan | Vanuatu |
-| Vietnam | W. Sahara | Yemen | Zambia |
-| Zimbabwe |  |  |  |
+| United Arab Emirates | Uzbekistan | Vanuatu | Vietnam |
+| W. Sahara | Yemen | Zambia | Zimbabwe |
 

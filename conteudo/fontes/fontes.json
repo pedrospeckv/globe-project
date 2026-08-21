@@ -3463,5 +3463,77 @@
     "publicacao": "Rússia, Armênia e Azerbaijão",
     "data": "2020-11-10",
     "citacao": "Encerrou a Segunda Guerra de Nagorno-Karabakh, reconhecendo os ganhos territoriais azerbaijanos e estabelecendo força de paz russa na região — acordo que a Armênia assinou em posição de derrota militar, e que seria seguido, em 2023, pela retomada azerbaijana total do território e êxodo da população armênia local."
+  },
+  {
+    "id": "serhii-plokhy-ucrania",
+    "tipo": "livro",
+    "titulo": "The Gates of Europe: A History of Ukraine",
+    "autor": "Serhii Plokhy",
+    "data": "2015",
+    "citacao": "História ucraniana da Rus de Kiev ao Euromaidan, tratando o território como zona de fronteira disputada entre impérios sucessivos — lituano-polonês, russo, austro-húngaro, soviético — e a formação da identidade nacional ucraniana como processo moderno construído sobre essa experiência de fronteira."
+  },
+  {
+    "id": "anne-applebaum-holodomor",
+    "tipo": "livro",
+    "titulo": "Red Famine: Stalin's War on Ukraine",
+    "autor": "Anne Applebaum",
+    "data": "2017",
+    "citacao": "Estudo vencedor do prêmio Pulitzer sobre o Holodomor de 1932-1933, documentando com base em arquivos soviéticos abertos após 1991 como políticas de coletivização e requisição de grãos, aplicadas com particular severidade na Ucrânia, produziram fome que matou milhões — e o crescente reconhecimento internacional do episódio como genocídio."
+  },
+  {
+    "id": "serhii-plokhy-guerra-russo-ucraniana",
+    "tipo": "livro",
+    "titulo": "The Russo-Ukrainian War",
+    "autor": "Serhii Plokhy",
+    "data": "2023",
+    "citacao": "História da guerra entre Rússia e Ucrânia desde a anexação da Crimeia em 2014 até a invasão em larga escala de 2022, situando o conflito na longa disputa sobre a relação entre os dois países desde o colapso da União Soviética."
+  },
+  {
+    "id": "tratado-pereyaslav-1654",
+    "tipo": "documento-oficial",
+    "titulo": "Tratado de Pereyaslav",
+    "publicacao": "Hetmanato Cossaco e Czarado da Rússia",
+    "data": "1654-01-18",
+    "citacao": "Selou aliança entre o hetman cossaco Bohdan Khmelnitsky e o czar russo Aleksei — interpretado pela historiografia russa como submissão voluntária da Ucrânia à soberania russa, e pela historiografia ucraniana como aliança militar de proteção que preservava autonomia cossaca substancial, progressivamente erodida nas décadas seguintes."
+  },
+  {
+    "id": "tpi-mandado-putin-2023",
+    "tipo": "decisao-judicial",
+    "titulo": "Mandado de prisão contra Vladimir Putin e Maria Lvova-Belova",
+    "publicacao": "Tribunal Penal Internacional",
+    "data": "2023-03-17",
+    "citacao": "Emitiu mandado de prisão contra o presidente russo Vladimir Putin e a comissária russa para os direitos da criança, por deportação ilegal de crianças ucranianas de território ocupado para a Rússia — primeiro mandado do Tribunal Penal Internacional contra o chefe de Estado de um dos cinco membros permanentes do Conselho de Segurança da ONU."
+  },
+  {
+    "id": "andrew-wilson-bielorrussia",
+    "tipo": "livro",
+    "titulo": "Belarus: The Last European Dictatorship",
+    "autor": "Andrew Wilson",
+    "data": "2011",
+    "citacao": "História bielorrussa do principado medieval de Polotsk ao regime de Aleksandr Lukashenko, tratando a fraca formação de identidade nacional bielorrussa pré-soviética como fator que explica a persistência de um dos últimos regimes autoritários clássicos da Europa."
+  },
+  {
+    "id": "andres-kasekamp-baltico",
+    "tipo": "livro",
+    "titulo": "A History of the Baltic States",
+    "autor": "Andres Kasekamp",
+    "data": "2010",
+    "citacao": "História comparada da Estônia, Letônia e Lituânia, do domínio das ordens cruzadas alemãs e do Grão-Ducado da Lituânia às primeiras repúblicas de 1918-1940, à ocupação soviética e nazista, e à restauração da independência em 1991."
+  },
+  {
+    "id": "sc-rowell-lituania",
+    "tipo": "livro",
+    "titulo": "Lithuania Ascending: A Pagan Empire within East-Central Europe, 1295-1345",
+    "autor": "S. C. Rowell",
+    "data": "1994",
+    "citacao": "Estudo acadêmico sobre a formação do Grão-Ducado da Lituânia como a última grande potência pagã da Europa medieval, expandindo-se através de conquista e diplomacia enquanto resistia à cristianização forçada promovida pela Ordem Teutônica."
+  },
+  {
+    "id": "uniao-lublin-1569",
+    "tipo": "documento-oficial",
+    "titulo": "União de Lublin",
+    "publicacao": "Reino da Polônia e Grão-Ducado da Lituânia",
+    "data": "1569-07-01",
+    "citacao": "Transformou a união pessoal entre Polônia e Lituânia, vigente desde 1385, em união real plena — a Comunidade Polaco-Lituana —, com parlamento e política externa comuns, embora exércitos, tesouro e leis internas permanecessem separados entre os dois componentes."
   }
 ]

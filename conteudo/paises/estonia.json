@@ -1,0 +1,62 @@
+{
+  "iso": "EST",
+  "isoNumerico": "233",
+  "nome": "Estônia",
+  "periodos": [
+    {
+      "id": "est-imperio-russo",
+      "inicio": "1721",
+      "fim": "1918",
+      "rotulo": "Estônia dentro do Império Russo",
+      "regime": "governadorias bálticas do Império Russo, sob domínio social da nobreza báltico-alemã",
+      "textoMdx": "O Tratado de Nystad, de 1721, transfere formalmente a Estônia do domínio sueco — período ainda hoje recordado com relativo apreço na memória popular local, em contraste com épocas posteriores — ao Império Russo, ao final da Grande Guerra do Norte, embora a nobreza báltico-alemã local preservasse privilégios sociais e administrativos extensos sob a nova soberania.\n\n**A servidão é abolida nas províncias bálticas já entre 1816 e 1819, décadas antes do restante do império russo**, embora sem redistribuição de terras que beneficiasse imediatamente o campesinato estoniano liberto, que permaneceria majoritariamente sem propriedade própria por décadas.\n\n**O Despertar Nacional estoniano, a partir de meados do século XIX, floresce através de sociedades corais e literárias — o primeiro Festival da Canção estoniano, em 1869, reuniria milhares de participantes e se tornaria tradição nacional contínua até hoje**, sobrevivendo inclusive à repressão soviética como expressão de identidade cultural tolerada.",
+      "fontes": [
+        "andres-kasekamp-baltico"
+      ]
+    },
+    {
+      "id": "est-primeira-republica",
+      "inicio": "1918",
+      "fim": "1940",
+      "rotulo": "Primeira República da Estônia",
+      "regime": "república parlamentar, depois presidencialista autoritária a partir de 1934",
+      "textoMdx": "A independência estoniana, proclamada em fevereiro de 1918 e efetivamente conquistada após guerra contra forças soviéticas e contra a milícia germano-báltica Landeswehr, é reconhecida pela Rússia soviética no Tratado de Tartu de 1920 — que Moscou celebraria décadas depois, ironicamente, como precedente jurídico ao reconhecer novamente a independência estoniana em 1991.\n\n**A reforma agrária de 1919 expropria sem compensação as vastas propriedades da antiga nobreza báltico-alemã, redistribuindo terra a dezenas de milhares de famílias camponesas estonianas** — uma das reformas agrárias mais radicais da Europa entre guerras, consolidando apoio popular à jovem república.\n\n**Um golpe preventivo liderado por Konstantin Päts em 1934, para impedir vitória eleitoral de movimento de extrema-direita, instaura regime autoritário que se manteria até o ultimato soviético de junho de 1940** — decorrente do protocolo secreto Molotov-Ribbentrop, que anexaria a Estônia como república soviética meses depois.",
+      "fontes": [
+        "andres-kasekamp-baltico",
+        "protocolo-secreto-molotov-ribbentrop"
+      ]
+    },
+    {
+      "id": "est-ocupacoes-guerra",
+      "inicio": "1940",
+      "fim": "1944",
+      "rotulo": "Ocupações soviética e nazista",
+      "regime": "território ocupado sucessivamente por administração soviética e depois alemã",
+      "textoMdx": "A primeira ocupação soviética culmina, em junho de 1941, na deportação em massa de milhares de estonianos — famílias inteiras, incluindo crianças — para a Sibéria, dias antes da invasão alemã interromper abruptamente a ocupação soviética inicial.\n\n**A ocupação nazista extermina a pequena mas histórica comunidade judaica estoniana quase por completo, e a Estônia seria declarada \"livre de judeus\" — judenfrei — pela administração de ocupação já em 1942**, uma das primeiras regiões europeias a receber essa classificação nazista.\n\n**O retorno soviético, em 1944, provoca nova onda de deportações em massa, incluindo a operação de março de 1949 que deportou mais de vinte mil pessoas em poucos dias**, sob acusação de colaboração com a resistência armada partisan que persistiria, em escala reduzida, até meados da década seguinte.",
+      "fontes": [
+        "andres-kasekamp-baltico"
+      ]
+    },
+    {
+      "id": "est-estonia-sovietica",
+      "inicio": "1944",
+      "fim": "1991",
+      "rotulo": "República Socialista Soviética da Estônia",
+      "regime": "república socialista soviética de partido único",
+      "textoMdx": "A imigração russófona maciça, promovida deliberadamente pela política soviética de industrialização, reduz drasticamente a proporção de estonianos étnicos no país — de mais de 90% antes da guerra a pouco mais de 60% ao final do período soviético, com Tallinn e a região nordeste industrial particularmente russificadas.\n\n**A Revolução Cantante, entre 1987 e 1991, batiza-se assim pelas manifestações de massa que combinavam protesto político com canto coral tradicional em grandes festivais** — expressão pacífica de resistência nacional que culminaria na participação estoniana na Via Báltica de agosto de 1989, corrente humana unindo as três capitais bálticas.\n\n**A Estônia declara restauração de independência em agosto de 1991, durante o colapso do golpe conservador em Moscou**, tornando-se a primeira das repúblicas bálticas a obter reconhecimento soviético formal, semanas depois, da própria Rússia soviética sob Yeltsin.",
+      "fontes": [
+        "andres-kasekamp-baltico"
+      ]
+    },
+    {
+      "id": "est-independencia-atual",
+      "inicio": "1991",
+      "rotulo": "Estônia independente",
+      "regime": "república parlamentar",
+      "textoMdx": "A Estônia adota, na década de 1990, reformas econômicas liberais particularmente rápidas e radicais para os padrões da região — moeda própria já em 1992, privatização acelerada e política fiscal de imposto único —, ganhando reputação de \"tigre báltico\" por seu crescimento econômico expressivo.\n\n**O pioneirismo estoniano em governo digital, incluindo votação eletrônica nacional já em 2005 e sistema de identidade digital abrangente, tornaria o pequeno país referência internacional em administração pública digitalizada** — trajetória que contrasta deliberadamente com a imagem soviética de burocracia analógica e ineficiente.\n\n**Os distúrbios do \"Soldado de Bronze\", em 2007, provocados pela remoção de monumento soviético do centro de Tallinn, incluem os primeiros ataques cibernéticos em larga escala atribuídos à Rússia contra infraestrutura digital de um país inteiro** — episódio que consolidaria a reputação estoniana como alvo e, simultaneamente, referência em cibersegurança. A adesão à União Europeia e à OTAN em 2004, e ao euro em 2011, completa a trajetória de integração ocidental buscada como garantia de segurança.",
+      "fontes": [
+        "andres-kasekamp-baltico"
+      ]
+    }
+  ]
+}

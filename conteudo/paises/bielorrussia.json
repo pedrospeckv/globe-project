@@ -1,0 +1,62 @@
+{
+  "iso": "BLR",
+  "isoNumerico": "112",
+  "nome": "Bielorrússia",
+  "periodos": [
+    {
+      "id": "blr-principado-polotsk",
+      "inicio": "862",
+      "fim": "1307",
+      "rotulo": "Principado de Polotsk",
+      "regime": "principado medieval eslavo oriental, semi-independente da Rus de Kiev",
+      "textoMdx": "O principado de Polotsk, mencionado já nas primeiras crônicas eslavas orientais do século IX, desenvolve trajetória política distinta dos demais centros da Rus de Kiev, mantendo notável independência de facto mesmo enquanto nominalmente integrado à rede de principados rurikidas.\n\n**O reinado de Vseslav, o Feiticeiro, no século XI, figura semilendária associada a poderes sobrenaturais no folclore eslavo posterior, marca o apogeu do principado**, que chega a ocupar brevemente o próprio trono de Kiev em 1068, episódio raro de um príncipe periférico assumindo a capital central.\n\n**A fragmentação progressiva do principado entre ramos rivais da dinastia, ao longo dos séculos XII e XIII, o torna vulnerável à expansão do emergente Grão-Ducado da Lituânia**, que absorveria Polotsk através de combinação de conquista militar e alianças dinásticas ao longo do século XIV — processo que encerraria a última forma de Estado eslavo oriental independente no território bielorrusso por mais de seis séculos.",
+      "fontes": [
+        "andrew-wilson-bielorrussia"
+      ]
+    },
+    {
+      "id": "blr-imperio-russo",
+      "inicio": "1795",
+      "fim": "1918",
+      "rotulo": "Bielorrússia dentro do Império Russo",
+      "regime": "governadorias do Império Russo",
+      "textoMdx": "Depois de séculos como núcleo territorial do Grão-Ducado da Lituânia e, a partir de 1569, da Comunidade Polaco-Lituana — período em que a língua bielorrussa antiga funcionava como idioma administrativo oficial do próprio grão-ducado, mesmo sob dinastia lituana —, as sucessivas partilhas da Polônia entre 1772 e 1795 transferem todo o território bielorrusso à administração direta russa.\n\n**A identidade nacional bielorrussa permanece a menos consolidada das nações eslavas orientais ao longo do século XIX, sem movimento de renascimento cultural tão robusto quanto o ucraniano ou o polonês vizinhos** — fator que a historiografia aponta como explicação parcial para a trajetória política bielorrussa posterior, marcada por identificação nacional mais frágil e maior propensão à integração russa ou soviética.\n\n**A Primeira Guerra Mundial transforma o território bielorrusso em linha de frente direta entre os impérios russo e alemão**, com destruição extensa de infraestrutura e deslocamento maciço de população civil nos anos finais do conflito.",
+      "fontes": [
+        "andrew-wilson-bielorrussia"
+      ]
+    },
+    {
+      "id": "blr-republica-popular",
+      "inicio": "1918",
+      "fim": "1919",
+      "rotulo": "República Popular Bielorrussa",
+      "regime": "governo declarado sob ocupação militar alemã, sem controle territorial efetivo consolidado",
+      "textoMdx": "A República Popular Bielorrussa, proclamada em Minsk em março de 1918 sob proteção da ocupação militar alemã que se retirava do front oriental após Brest-Litovsk, jamais consolida controle territorial efetivo nem reconhecimento internacional amplo, dependendo quase inteiramente da presença militar alemã para sua existência nominal.\n\n**A retirada alemã ao final da Primeira Guerra Mundial expõe imediatamente a fragilidade do projeto: o Exército Vermelho ocupa Minsk semanas depois**, e o governo bielorrusso parte para exílio, onde manteria existência simbólica por décadas como voz da diáspora nacionalista, sem jamais recuperar controle territorial.",
+      "fontes": [
+        "andrew-wilson-bielorrussia"
+      ]
+    },
+    {
+      "id": "blr-bielorrussia-sovietica",
+      "inicio": "1919",
+      "fim": "1991",
+      "rotulo": "República Socialista Soviética da Bielorrússia",
+      "regime": "república socialista soviética de partido único, membro fundador da URSS",
+      "textoMdx": "A Bielorrússia soviética, membro fundador da União Soviética em 1922, tem seu território reduzido pela Paz de Riga de 1921, que cede a metade ocidental à Polônia — reunificada apenas em 1939, quando a União Soviética ocupa a Polônia oriental conforme o protocolo secreto do Pacto Molotov-Ribbentrop.\n\n**A Segunda Guerra Mundial devasta a Bielorrússia proporcionalmente mais que qualquer outra república soviética: estima-se que o país perdeu cerca de um quarto de sua população total**, incluindo praticamente toda a numerosa comunidade judaica local, e centenas de aldeias inteiras foram incendiadas com seus habitantes por unidades alemãs em represália a operações partisans — o memorial de Khatyn, reconstrução da aldeia arrasada em 1943, se tornaria símbolo nacional do sofrimento bielorrusso na guerra.\n\n**O desastre nuclear de Chernobyl, em 1986, ocorrido em território ucraniano na fronteira, contamina proporcionalmente mais território bielorrusso que ucraniano, devido aos padrões de vento no momento do acidente** — cerca de 70% da radioatividade liberada se depositaria em solo bielorrusso, forçando a evacuação permanente de vastas áreas agrícolas do sul do país.",
+      "fontes": [
+        "andrew-wilson-bielorrussia",
+        "protocolo-secreto-molotov-ribbentrop"
+      ]
+    },
+    {
+      "id": "blr-independencia-lukashenko",
+      "inicio": "1991",
+      "rotulo": "Bielorrússia independente sob Lukashenko",
+      "regime": "república presidencialista autoritária",
+      "textoMdx": "A independência bielorrussa, declarada em 1991, mantém de início vínculos econômicos e políticos excepcionalmente próximos com a Rússia — a Bielorrússia seria o único Estado pós-soviético a preservar símbolos essencialmente soviéticos, incluindo bandeira similar à da era comunista, após referendo de 1995.\n\n**Aleksandr Lukashenko, eleito presidente em 1994 na única eleição amplamente considerada livre da história bielorrussa independente, consolidaria nas décadas seguintes um dos regimes autoritários mais duradouros da Europa**, reprimindo sistematicamente oposição política, imprensa independente e sociedade civil.\n\n**As eleições presidenciais de agosto de 2020, amplamente consideradas fraudulentas por observadores internacionais e pela oposição liderada por Sviatlana Tsikhanouskaya, provocam as maiores manifestações de rua da história bielorrussa** — protestos reprimidos com violência policial extensa, milhares de detenções e exílio forçado de boa parte da liderança opositora.\n\n**A Bielorrússia serve de base de lançamento para parte da invasão russa da Ucrânia em fevereiro de 2022, aprofundando a dependência do regime de Lukashenko em relação a Moscou** e o isolamento internacional do país através de sanções ocidentais coordenadas com as impostas à própria Rússia.",
+      "fontes": [
+        "andrew-wilson-bielorrussia"
+      ]
+    }
+  ]
+}
