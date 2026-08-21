@@ -1,0 +1,63 @@
+{
+  "iso": "KOR",
+  "isoNumerico": "410",
+  "nome": "Coreia do Sul",
+  "periodos": [
+    {
+      "id": "kor-dinastia-joseon",
+      "inicio": "1392",
+      "fim": "1910",
+      "rotulo": "Dinastia Joseon",
+      "regime": "monarquia confucionista centralizada, uma das dinastias mais duradouras da história mundial",
+      "textoMdx": "O general Yi Seong-gye funda a Dinastia Joseon em 1392, estabelecendo ordem confucionista centralizada que governaria toda a península coreana unificada por mais de cinco séculos — uma das dinastias de existência mais longa e estável de toda a história mundial, com capital estabelecida em Hanseong, atual Seul.\n\n**O reinado do rei Sejong, o Grande, entre 1418 e 1450, produz o alfabeto hangul, sistema de escrita fonético desenhado especificamente para promover alfabetização popular em contraste com os caracteres chineses classicos até então dominantes — invenção que permanece central à identidade cultural coreana até hoje.**\n\n**Invasões japonesas devastadoras entre 1592 e 1598, e depois invasões manchus no século XVII, marcariam períodos de crise severa — o reino sobreviveria a ambas, mas adotaria política de isolamento internacional deliberado que lhe renderia a alcunha ocidental de \"reino eremita\".** Breve declaração do Império Coreano, em 1897, tentaria modernização defensiva tardia diante de pressão imperial japonesa crescente, sem sucesso em deter a anexação formal de 1910.",
+      "fontes": [
+        "bruce-cumings-coreia"
+      ]
+    },
+    {
+      "id": "kor-colonizacao-japonesa",
+      "inicio": "1910",
+      "fim": "1945",
+      "rotulo": "Colonização japonesa",
+      "regime": "colônia do Império do Japão, sob política de assimilação forçada cada vez mais severa",
+      "textoMdx": "O Japão anexa formalmente a Coreia em 1910, impondo administração colonial que exploraria recursos e mão de obra coreanos enquanto suprimia sistematicamente a cultura, a língua e a identidade nacional coreanas — o Movimento Primeiro de Março de 1919, levante popular pacífico por independência, seria reprimido com violência considerável, mas consolidaria o nacionalismo coreano moderno.\n\n**As décadas finais da ocupação, sobretudo a partir da invasão japonesa da China em 1937, intensificam a repressão através de políticas de assimilação forçada — coreanos seriam obrigados a adotar nomes japoneses, e centenas de milhares de mulheres coreanas seriam forçadas à escravidão sexual como \"mulheres de conforto\" para o exército japonês, episódio que permanece fonte de tensão diplomática não plenamente resolvida entre as duas nações até hoje.**\n\n**A rendição japonesa, em agosto de 1945, ao final da Segunda Guerra Mundial, liberta a Coreia da ocupação colonial — mas a decisão apressada das potências aliadas de dividir a península ao longo do paralelo 38, com ocupação soviética ao norte e americana ao sul, lançaria as bases diretas da divisão permanente que se seguiria.**",
+      "fontes": [
+        "bruce-cumings-coreia"
+      ]
+    },
+    {
+      "id": "kor-divisao-guerra-rhee",
+      "inicio": "1945",
+      "fim": "1961",
+      "rotulo": "Divisão, a Guerra da Coreia e a Primeira República",
+      "regime": "governo militar americano, depois república presidencialista autoritária sob Syngman Rhee",
+      "textoMdx": "A ocupação militar americana no sul estabelece a República da Coreia em agosto de 1948, sob a presidência de Syngman Rhee, enquanto o norte soviético estabelece governo comunista rival sob Kim Il-sung — cada governo reivindicaria legitimidade sobre toda a península, disputa que jamais seria resolvida formalmente.\n\n**A invasão norte-coreana de junho de 1950 deflagra a Guerra da Coreia, conflito que mataria entre dois e três milhões de pessoas, majoritariamente civis, antes do armistício de 1953 restaurar fronteira próxima ao paralelo 38 original — nenhum tratado de paz jamais seria assinado, deixando as duas Coreias tecnicamente em estado de guerra até os dias de hoje.**\n\n**O governo de Rhee, cada vez mais autoritário e marcado por fraude eleitoral, seria derrubado pelo levante estudantil da Revolução de Abril, em 1960, forçando sua renúncia e exílio.**",
+      "fontes": [
+        "bruce-cumings-coreia",
+        "acordo-armisticio-coreano-1953"
+      ]
+    },
+    {
+      "id": "kor-park-chung-hee-milagre-han",
+      "inicio": "1961",
+      "fim": "1987",
+      "rotulo": "Park Chung-hee, o Milagre do Rio Han e a democratização",
+      "regime": "regimes militares autoritários orientados ao desenvolvimento econômico, encerrados por movimento democrático popular",
+      "textoMdx": "O general Park Chung-hee toma o poder em golpe militar em 1961, conduzindo ao longo de quase duas décadas transformação econômica extraordinária conhecida como \"Milagre do Rio Han\" — industrialização estatal acelerada que transformaria a Coreia do Sul de uma das nações mais pobres do mundo em potência industrial exportadora, ao custo de repressão política severa e restrição de liberdades civis.\n\n**O assassinato de Park por seu próprio chefe de inteligência, em 1979, é seguido por novo golpe militar liderado por Chun Doo-hwan — o Massacre de Gwangju, de maio de 1980, veria forças militares matarem centenas de manifestantes pró-democracia na cidade de Gwangju, episódio de trauma nacional profundo que se tornaria símbolo central da luta democrática sul-coreana.**\n\n**O Movimento Democrático de Junho de 1987, mobilização popular massiva, força finalmente eleições presidenciais diretas e a transição para democracia multipartidária plena — encerrando quase três décadas ininterruptas de governo militar autoritário.**",
+      "fontes": [
+        "bruce-cumings-coreia"
+      ]
+    },
+    {
+      "id": "kor-democracia-atual",
+      "inicio": "1987",
+      "rotulo": "Democracia consolidada e a Coreia do Sul contemporânea",
+      "regime": "república democrática multipartidária, com presidencialismo forte",
+      "textoMdx": "A Coreia do Sul consolida democracia multipartidária estável a partir de 1987, sobrevivendo inclusive a grave crise financeira asiática de 1997, que exigiria resgate do Fundo Monetário Internacional e reformas econômicas estruturais dolorosas mas eventualmente bem-sucedidas.\n\n**O país se tornaria, nas décadas seguintes, potência cultural global através da chamada \"onda coreana\" — K-pop, cinema e séries de streaming coreanos conquistariam audiências mundiais, ao lado de conglomerados industriais como Samsung e Hyundai que se tornariam players globais de primeira linha.**\n\n**A democracia sul-coreana, apesar dessa maturidade institucional aparente, revelaria fragilidades notáveis nos anos recentes — o impeachment da presidente Park Geun-hye em 2017, por escândalo de corrupção, e sobretudo a tentativa chocante do presidente Yoon Suk-yeol de impor lei marcial em dezembro de 2024, rapidamente revertida por resistência parlamentar e popular e seguida por seu próprio impeachment, testemunhariam tanto a persistência de tensões institucionais profundas quanto a resiliência das instituições democráticas construídas desde 1987.**",
+      "fontes": [
+        "bruce-cumings-coreia",
+        "don-oberdorfer-duas-coreias"
+      ]
+    }
+  ]
+}

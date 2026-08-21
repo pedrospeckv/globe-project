@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**160 de 174 países** desenhados no mapa têm dossiê (92.0%), somando **795 períodos**.
+**163 de 174 países** desenhados no mapa têm dossiê (93.7%), somando **809 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -49,6 +49,8 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | China | `CHN` | 16 | 16 |
 | Colômbia | `COL` | 7 | 7 |
 | Congo | `COG` | 4 | 4 |
+| Coreia do Norte | `PRK` | 4 | 4 |
+| Coreia do Sul | `KOR` | 5 | 5 |
 | Costa do Marfim | `CIV` | 4 | 4 |
 | Costa Rica | `CRI` | 4 | 4 |
 | Croácia | `HRV` | 6 | 6 |
@@ -115,6 +117,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | México | `MEX` | 9 | 9 |
 | Mianmar | `MMR` | 7 | 7 |
 | Moçambique | `MOZ` | 4 | 4 |
+| Mongólia | `MNG` | 5 | 5 |
 | Montenegro | `MNE` | 6 | 6 |
 | Namíbia | `NAM` | 4 | 4 |
 | Nepal | `NPL` | 5 | 5 |
@@ -181,7 +184,6 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | | | | |
 |---|---|---|---|
 | Antarctica | Cyprus | Falkland Is. | Fr. S. Antarctic Lands |
-| Ireland | Israel | Moldova | Mongolia |
-| New Caledonia | North Korea | Palestine | South Korea |
-| Taiwan | W. Sahara |  |  |
+| Ireland | Israel | Moldova | New Caledonia |
+| Palestine | Taiwan | W. Sahara |  |
 

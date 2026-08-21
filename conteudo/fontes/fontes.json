@@ -4687,5 +4687,45 @@
     "publicacao": "Governo de Burundi e facções rebeldes, mediado pela Tanzânia",
     "data": "2000-08-28",
     "citacao": "Encerrou formalmente a Guerra Civil de Burundi de 1993-2005, estabelecendo partilha de poder étnica constitucional entre hutus e tutsis que permanece em vigor."
+  },
+  {
+    "id": "bruce-cumings-coreia",
+    "tipo": "livro",
+    "titulo": "Korea's Place in the Sun: A Modern History",
+    "autor": "Bruce Cumings",
+    "data": "1997",
+    "citacao": "História coreana de referência, do declínio da dinastia Joseon e da colonização japonesa à divisão de 1945 e à Guerra da Coreia — base para o tratamento da história pré-divisão como legado compartilhado."
+  },
+  {
+    "id": "don-oberdorfer-duas-coreias",
+    "tipo": "livro",
+    "titulo": "The Two Koreas: A Contemporary History",
+    "autor": "Don Oberdorfer e Robert Carlin",
+    "data": "2013",
+    "citacao": "História contemporânea detalhada das relações entre as duas Coreias no pós-guerra, cobrindo a era Park Chung-hee no sul, a sucessão dinástica Kim no norte e os ciclos de tensão e diálogo entre os dois Estados."
+  },
+  {
+    "id": "acordo-armisticio-coreano-1953",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Armistício da Coreia",
+    "publicacao": "Comando das Nações Unidas, Coreia do Norte e China",
+    "data": "1953-07-27",
+    "citacao": "Suspendeu as hostilidades da Guerra da Coreia sem jamais ser substituído por tratado de paz formal — Coreia do Norte e Coreia do Sul permanecem tecnicamente em estado de guerra até hoje."
+  },
+  {
+    "id": "relatorio-onu-direitos-humanos-rpdc-2014",
+    "tipo": "documento-oficial",
+    "titulo": "Relatório da Comissão de Inquérito sobre Direitos Humanos na RPDC",
+    "publicacao": "Conselho de Direitos Humanos das Nações Unidas",
+    "data": "2014-02-07",
+    "citacao": "Documentou de forma extensa violações sistemáticas, generalizadas e graves de direitos humanos na Coreia do Norte, incluindo campos de prisioneiros políticos, comparando algumas práticas a crimes contra a humanidade."
+  },
+  {
+    "id": "christopher-atwood-mongolia",
+    "tipo": "livro",
+    "titulo": "Encyclopedia of Mongolia and the Mongol Empire",
+    "autor": "Christopher P. Atwood",
+    "data": "2004",
+    "citacao": "Referência enciclopédica sobre a história mongol, do Império de Genghis Khan e a Dinastia Yuan ao domínio Qing, à independência de 1911 sob o Bogd Khan, à República Popular socialista e à transição democrática de 1990."
   }
 ]
