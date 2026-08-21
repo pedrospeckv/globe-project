@@ -4915,5 +4915,31 @@
     "publicacao": "Tribunal Penal Internacional",
     "data": "2005",
     "citacao": "Primeiros mandados expedidos pelo TPI desde sua criação. Joseph Kony permanece foragido; a insurgência sustentou-se por duas décadas sequestrando crianças, e a resposta do governo ugandense concentrou perto de dois milhões de pessoas em campos de deslocados."
+  },
+  {
+    "id": "ultimatum-britanico-1890",
+    "tipo": "documento-oficial",
+    "titulo": "Ultimatum britânico a Portugal",
+    "publicacao": "Governo do Reino Unido",
+    "data": "1890-01-11",
+    "citacao": "Exigiu a retirada das forças portuguesas dos territórios entre Angola e Moçambique, encerrando a pretensão do Mapa Cor-de-Rosa de 1886 a uma faixa contínua de costa a costa — que cruzava exatamente onde a Grã-Bretanha projetava sua própria linha do Cairo ao Cabo. O tratado do ano seguinte fixou as fronteiras atuais de Moçambique."
+  },
+  {
+    "id": "auditoria-kroll-mocambique-2017",
+    "tipo": "documento-oficial",
+    "titulo": "Auditoria forense independente aos empréstimos da EMATUM, ProIndicus e MAM",
+    "autor": "Kroll",
+    "publicacao": "Procuradoria-Geral da República de Moçambique",
+    "data": "2017",
+    "citacao": "Auditoria contratada pela Procuradoria moçambicana sobre cerca de dois bilhões de dólares em empréstimos garantidos pelo Estado sem informar o parlamento nem o FMI. Não conseguiu localizar a destinação de parte substancial do dinheiro. A revelação, em 2016, levou à suspensão do apoio dos doadores e ao default soberano."
+  },
+  {
+    "id": "laudo-radcliffe-1947",
+    "tipo": "documento-oficial",
+    "titulo": "Laudo da Comissão de Fronteiras (Radcliffe Award)",
+    "autor": "Cyril Radcliffe",
+    "publicacao": "Comissão de Fronteiras da Índia",
+    "data": "1947-08-17",
+    "citacao": "Traçou a divisão de Punjab e Bengala com base em censos religiosos desatualizados, em cerca de cinco semanas, por um advogado britânico que nunca havia estado na Índia. Publicado em 17 de agosto, dois dias APÓS a independência dos dois países — milhões de pessoas comemoraram sem saber em qual país estavam."
   }
 ]

@@ -4,37 +4,79 @@
   "nome": "Guiné-Bissau",
   "periodos": [
     {
-      "id": "gnb-reino-kaabu",
-      "inicio": "1537",
+      "id": "gnb-feitorias-e-kaabu",
+      "inicio": "1446",
       "fim": "1867",
-      "rotulo": "Reino de Kaabu",
-      "regime": "Estado sucessor mandinga do Império do Mali, dominante na região por mais de três séculos",
-      "textoMdx": "O Reino de Kaabu se consolida por volta de 1537 como Estado sucessor mandinga do declinante Império do Mali, exercendo domínio e cobrança de tributo sobre reinos menores vizinhos na região que hoje compreende a Guiné-Bissau e partes do Senegal e da Gâmbia.\n\nKaabu preserva estrutura política e militar mandinga distinta por mais de três séculos, controlando rotas comerciais regionais significativas mesmo diante da crescente presença comercial europeia na costa atlântica próxima.\n\nO reino seria finalmente destruído em 1867 por forças jihadistas fulani vindas do Futa Jalom, na vizinha Guiné — conquista religiosa que encerraria definitivamente o domínio político mandinga na região, décadas antes da consolidação colonial portuguesa completa sobre o território.",
+      "rotulo": "Feitorias portuguesas e o reino de Kaabu",
+      "regime": "postos comerciais europeus no litoral e um Estado mandinga no interior, simultâneos e distintos",
+      "textoMdx": "Nenhum poder controlou este território inteiro por quatro séculos. Havia dois, e eles se encaixavam: **um Estado mandinga no interior que fazia cativos, e feitorias europeias no litoral que os embarcavam.**\n\nOs portugueses chegaram ao rio Geba em 1446, entre os primeiros pontos de presença europeia sustentada em toda a África Ocidental — e ficaram na beira. Cacheu foi fortificada em 1588, Bissau em 1687, e nenhuma das duas comandava o que estava a trinta quilômetros de distância. A costa era ocupada por sociedades sem Estado centralizado — balantas, papéis, manjacos — difíceis de conquistar justamente por não ter um centro que se pudesse tomar, e os bijagós do arquipélago atacavam a navegação portuguesa em canoas de guerra.\n\nO detalhe administrativo que resume o lugar: **até 1879 a Guiné não era uma colônia, era um apêndice de Cabo Verde** — governada de outro arquipélago, a mais de seiscentos quilômetros de distância.\n\nO interior tinha dono. Kaabu consolidou-se por volta de 1537 como Estado sucessor mandinga do Império do Mali em declínio, cobrando tributo de reinos menores por uma área que hoje se reparte entre Guiné-Bissau, Senegal e Gâmbia. Durou mais de três séculos e caiu não para europeus, mas para a jihad fula vinda do Futa Jalom: no cerco de Kansala, em 1867, o último mansa **mandou explodir o próprio depósito de pólvora** em vez de se render.\n\nSó depois disso, com o interior sem poder organizado e Cabo Verde desligado da equação, é que Portugal começou a tentar ocupar o que dizia possuir havia quatro séculos.",
       "fontes": [
         "lobban-mendy-guine-bissau"
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Carte_de_la_cotte_d%27Affrique_contenant_partie_de_la_concession_de_la_Compagnie_royale_du_Senegal%2C_depuis_le_cap_Blanc_jusque_au_Bissaux%2C_%2817..%29_-_btv1b530531507.jpg/1920px-thumbnail.jpg",
+        "alt": "Mapa manuscrito do século XVIII da costa da África Ocidental, do cabo Branco até Bissau, com o arquipélago dos Bijagós detalhado, brasões em cartela e o interior praticamente vazio de topônimos.",
+        "credito": "Bibliothèque nationale de France",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Carte_de_la_cotte_d%27Affrique_contenant_partie_de_la_concession_de_la_Compagnie_royale_du_Senegal,_depuis_le_cap_Blanc_jusque_au_Bissaux,_(17..)_-_btv1b530531507.jpg",
+        "legenda": "A costa \"do cabo Branco até Bissau\", levantada no século XVIII para a Companhia Real do Senegal. O mapa mede rio por rio e ilha por ilha o que interessava a quem embarcava carga, e deixa o interior em branco — onde ficava Kaabu, que os cartógrafos não precisavam conhecer para fazer negócio."
+      },
+      "entidades": [
+        {
+          "nome": "Reino de Kaabu",
+          "regime": "Estado mandinga sucessor do Império do Mali, com suserania tributária sobre reinos menores",
+          "textoMdx": "Consolidado por volta de 1537 no interior, controlava as rotas comerciais que ligavam o alto Níger à costa atlântica e cobrava tributo de chefaturas vizinhas. Fornecia cativos ao comércio atlântico que as feitorias do litoral escoavam — a relação entre os dois poderes deste período era comercial antes de ser conflituosa. Destruído em 1867 pelas forças fulas do Futa Jalom, no cerco de Kansala.",
+          "fontes": [
+            "lobban-mendy-guine-bissau"
+          ]
+        },
+        {
+          "nome": "Feitorias portuguesas da Guiné",
+          "regime": "postos comerciais fortificados, subordinados administrativamente a Cabo Verde até 1879",
+          "textoMdx": "Cacheu, fortificada em 1588, e Bissau, em 1687, eram entrepostos de embarque de escravos, não bases de conquista territorial. A autoridade portuguesa não passava do alcance da artilharia dos fortes, e a administração era exercida de Cabo Verde. Portugal chegou primeiro que qualquer outra potência europeia à África Ocidental e foi um dos últimos a ocupar o interior do que reivindicava.",
+          "fontes": [
+            "lobban-mendy-guine-bissau"
+          ]
+        }
       ]
     },
     {
       "id": "gnb-guine-portuguesa",
-      "inicio": "1446",
+      "inicio": "1867",
       "fim": "1974",
       "rotulo": "Guiné Portuguesa",
-      "regime": "um dos primeiros contatos coloniais europeus na África Ocidental, consolidado tardiamente como colônia formal",
-      "textoMdx": "Navegadores portugueses estabelecem contato comercial já em meados do século XV — um dos primeiros pontos de presença europeia sustentada em toda a África Ocidental —, envolvendo-se extensamente no comércio atlântico de escravos ao longo dos séculos seguintes.\n\nA administração colonial formal se consolidaria apenas tardiamente, diante de resistência local persistente, apenas por volta do final do século XIX — Amílcar Cabral funda o PAIGC em 1956 e lança, a partir de 1963, guerra de libertação sofisticada que alcançaria sucesso militar considerável no terreno, obtendo reconhecimento internacional crescente mesmo antes do colapso do próprio regime colonial português.\n\nCabral é assassinado por rival dentro do próprio movimento em janeiro de 1973, meses antes de testemunhar a independência unilateral declarada naquele setembro — Portugal reconheceria formalmente a soberania guineense em 1974, após a própria Revolução dos Cravos derrubar o regime colonial português.",
+      "regime": "colônia sob conquista militar prolongada, depois teatro da guerra de libertação mais eficaz do império português",
+      "textoMdx": "Portugal levou quase setenta anos para ocupar o que já chamava seu. As campanhas de \"pacificação\" começaram no fim do século XIX e só terminaram por volta de 1936 — a do oficial Teixeira Pinto, entre 1913 e 1915, foi conduzida em boa parte por mercenários uolofes sob comando de um chefe local, e os bijagós só foram submetidos nos anos 1930. **Da chegada ao Geba até o controle efetivo do território, passaram-se quase cinco séculos.**\n\nA colônia foi separada de Cabo Verde em 1879 e organizada em torno da requisição de amendoim e do trabalho forçado, com a população dividida por lei entre \"civilizados\" e \"indígenas\".\n\nO movimento que a derrubou nasceu com uma vantagem incomum. Amílcar Cabral era agrônomo formado em Lisboa e, em 1953, conduziu o **censo agrícola da Guiné Portuguesa** — percorreu o território levantando solos, culturas e estrutura de propriedade. Terminou o trabalho conhecendo o país e sua sociedade melhor que a administração colonial, e usou esse conhecimento para organizar a guerrilha por etnia, por região e por relação de terra.\n\nO ponto de virada foi o massacre de Pidjiguiti, em agosto de 1959, quando a repressão a uma greve de estivadores no porto de Bissau matou dezenas de trabalhadores. O PAIGC concluiu que a luta urbana pacífica não tinha saída e passou às armas em 1963.\n\nA guerra na Guiné foi a mais bem-sucedida das três que Portugal travava. Em 1973 o PAIGC controlava a maior parte do campo e **administrava escolas, clínicas, tribunais e lojas do povo nas zonas libertadas** — não era só insurgência, era Estado paralelo em funcionamento. Cabral foi assassinado em Conacri em janeiro de 1973, por um dissidente do próprio movimento, oito meses antes da declaração unilateral de independência em setembro, reconhecida por dezenas de países antes de Portugal.\n\nPortugal reconheceu em setembro de 1974, depois da Revolução dos Cravos. O general que comandara na Guiné, António de Spínola, foi quem encabeçou a mudança em Lisboa.",
       "fontes": [
-        "patrick-chabal-cabral",
-        "lobban-mendy-guine-bissau"
-      ]
+        "lobban-mendy-guine-bissau",
+        "patrick-chabal-cabral"
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Guerrilheiros_do_PAIGC_transportando_as_pe%C3%A7as_de_um_canh%C3%A3o_sem_rec%C3%BAo.png",
+        "alt": "Fotografia em preto e branco de guerrilheiros do PAIGC carregando a pé, por uma trilha de mata fechada, as peças desmontadas de um canhão sem recuo.",
+        "credito": "Autor não identificado — acervo Casa Comum, Fundação Mário Soares",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Guerrilheiros_do_PAIGC_transportando_as_pe%C3%A7as_de_um_canh%C3%A3o_sem_rec%C3%BAo.png",
+        "legenda": "Guerrilheiros do PAIGC transportando a pé as peças de um canhão sem recuo B10 de 82 mm, de fabricação soviética, entre 1966 e 1970. Artilharia carregada no ombro pela mata é o que explica por que a Guiné foi a frente onde Portugal perdeu terreno de verdade."
+      }
     },
     {
       "id": "gnb-independencia-instabilidade-atual",
       "inicio": "1974",
       "rotulo": "Independência e a instabilidade crônica",
-      "regime": "república cronicamente instável, sob sucessivos golpes militares e assassinatos políticos",
-      "textoMdx": "Luís Cabral, meio-irmão de Amílcar, se torna o primeiro presidente, mas seria deposto em golpe liderado por João Bernardo \"Nino\" Vieira em 1980 — início de padrão de instabilidade política que persistiria por décadas, incluindo guerra civil devastadora entre 1998 e 1999 que afastaria temporariamente Vieira do poder.\n\nVieira retornaria à presidência através de eleição democrática em 2005, apenas para ser assassinado em 2009, em aparente retaliação pelo assassinato do próprio chefe do estado-maior das forças armadas ocorrido horas antes — episódio que ilustraria a profunda fragilidade institucional persistente do país.\n\n**A Guiné-Bissau se tornaria, a partir dos anos 2000, ponto de trânsito internacionalmente notório para o tráfico de cocaína sul-americana rumo à Europa, explorando a fragilidade das instituições estatais e o controle territorial limitado do governo central** — organizações internacionais chegariam a alertar sobre o risco de o país se tornar efetivamente um \"narcoestado\", enquanto o ciclo de golpes e tentativas de golpe continuaria a marcar a política guineense até os anos 2020, mantendo o país entre os mais pobres e politicamente instáveis do mundo, décadas depois de conquistar a independência no campo de batalha.",
+      "regime": "república em que quase nenhum presidente eleito completou o mandato",
+      "textoMdx": "O país que venceu a guerra no terreno não conseguiu montar um governo estável em cinquenta anos. Luís Cabral, meio-irmão de Amílcar, foi o primeiro presidente e caiu em 1980 no golpe de João Bernardo \"Nino\" Vieira — que também enterrou o projeto de união política com Cabo Verde, herdado do partido único que os dois países compartilhavam.\n\nDesde então houve quatro golpes bem-sucedidos e mais de uma dezena de tentativas. A guerra civil de 1998 e 1999 afastou Vieira; ele voltou pelo voto em 2005 e **foi assassinado em março de 2009, horas depois de o chefe do estado-maior das forças armadas morrer numa explosão** — cada morte apresentada como retaliação pela outra. Nenhum dos dois casos foi julgado.\n\nO que sustenta parte dessa instabilidade tem endereço fora do país. A partir de meados dos anos 2000 a Guiné-Bissau tornou-se ponto de trânsito da cocaína sul-americana rumo à Europa, atraída por um Estado sem controle sobre o próprio litoral e sem capacidade de investigação. **Em 2013 o antigo chefe da Marinha foi preso em alto-mar numa operação disfarçada da agência antidrogas americana** e levado a julgamento em Nova York — a hierarquia militar não estava contornando o tráfico, estava dentro dele.\n\nA economia depende de um produto só: a castanha de caju responde pela quase totalidade das exportações, e o preço internacional dela define o orçamento do Estado. A Guiné-Bissau segue entre os países mais pobres do mundo, com tentativas de golpe registradas em 2022 e 2023, meio século depois de conquistar a independência lutando.",
       "fontes": [
         "lobban-mendy-guine-bissau"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Hastear_da_bandeira_da_Guin%C3%A9_Bissau_ap%C3%B3s_o_arrear_da_de_Portugal.jpg/1920px-Hastear_da_bandeira_da_Guin%C3%A9_Bissau_ap%C3%B3s_o_arrear_da_de_Portugal.jpg",
+        "alt": "Fotografia de 1974 do hasteamento da bandeira da Guiné-Bissau numa praça de terra batida, com militares e civis em volta e jovens de camiseta estampada com um retrato.",
+        "credito": "João Carvalho",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Hastear_da_bandeira_da_Guin%C3%A9_Bissau_ap%C3%B3s_o_arrear_da_de_Portugal.jpg",
+        "legenda": "Canjadude, nordeste da Guiné-Bissau, 1974: a bandeira portuguesa acaba de ser arriada e a guineense sobe. Militares brancos e negros estão no mesmo enquadramento, e os jovens à frente vestem camisetas com o retrato de Amílcar Cabral — assassinado no ano anterior, sem ver o que organizou."
+      }
     }
   ]
 }

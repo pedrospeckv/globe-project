@@ -7,45 +7,78 @@
       "id": "pak-particao-independencia",
       "inicio": "1947",
       "fim": "1958",
-      "rotulo": "Partição e a Independência",
-      "regime": "domínio britânico independente, criado como pátria para muçulmanos do subcontinente sul-asiático",
-      "textoMdx": "A Partição da Índia britânica, em agosto de 1947, cria o Paquistão como Estado independente sob a liderança de Muhammad Ali Jinnah e da Liga Muçulmana — processo catastroficamente violento que mataria entre um e dois milhões de pessoas em violência comunal e deslocaria cerca de quinze milhões, uma das maiores migrações em massa já registradas na história humana.\n\nO novo país nasce dividido em duas alas geograficamente separadas por mais de 1.600 quilômetros de território indiano — o Paquistão Ocidental, atual Paquistão, e o Paquistão Oriental, que se tornaria Bangladesh décadas depois.\n\nJinnah morre apenas um ano depois da independência, em 1948, privando o jovem Estado de sua liderança fundadora mais unificadora logo no momento de maior necessidade institucional.",
+      "rotulo": "Partição e os primeiros anos",
+      "regime": "domínio dentro da Comunidade Britânica, em duas alas separadas por 1.600 km de território indiano",
+      "textoMdx": "A fronteira foi traçada por um advogado inglês que nunca havia posto os pés na Índia. Cyril Radcliffe recebeu cerca de cinco semanas para dividir Punjab e Bengala, com base em censos religiosos desatualizados, e **o mapa só foi publicado em 17 de agosto de 1947 — dois dias depois da independência.** Milhões de pessoas comemoraram sem saber em qual dos dois países estavam.\n\nO que se seguiu foi uma das maiores migrações forçadas da história: cerca de quinze milhões de pessoas atravessaram a fronteira nos dois sentidos, e as estimativas de mortos na violência comunal variam entre um e dois milhões. Trens chegavam às estações com todos os passageiros mortos.\n\nO Estado que nasceu era geograficamente absurdo: **duas alas separadas por mil e seiscentos quilômetros de território indiano**, sem língua comum, sem contiguidade e com a maioria da população numa ala e o poder na outra. O Paquistão Oriental tinha mais gente que o Ocidental; a capital, o exército e a burocracia ficaram no oeste.\n\nA decisão que selou essa fratura foi linguística. O urdu foi declarado idioma nacional, embora o bengali fosse a língua materna da maioria absoluta do país. **Em fevereiro de 1952, a polícia atirou em estudantes que protestavam por isso em Dacca** — o Movimento da Língua é a data fundadora do nacionalismo bengali, e a linha reta de 1952 a 1971 é curta.\n\nJinnah morreu em setembro de 1948, treze meses depois da independência; o primeiro-ministro Liaquat Ali Khan foi assassinado em 1951. A primeira constituição levou nove anos para sair, em 1956, e foi suspensa dois anos depois. A primeira guerra com a Índia pela Caxemira começou já em 1947 e terminou em linha de cessar-fogo que continua sendo a fronteira de fato.",
       "fontes": [
         "ian-talbot-paquistao",
-        "lei-independencia-india-1947"
-      ]
+        "lei-independencia-india-1947",
+        "laudo-radcliffe-1947"
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Columns_of_refugees_from_West_Punjab.jpg",
+        "alt": "Fotografia de 1947 de uma coluna imensa de refugiados a pé e em carros de boi, estendendo-se até o horizonte por uma estrada de terra, carregando trouxas e animais.",
+        "credito": "Photo Division, Governo da Índia",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Columns_of_refugees_from_West_Punjab.jpg",
+        "legenda": "Coluna de refugiados saindo do Punjab ocidental em setembro de 1947, um mês depois da partição. Colunas iguais a esta cruzavam na direção oposta ao mesmo tempo — cerca de quinze milhões de pessoas trocaram de país em poucos meses."
+      }
     },
     {
       "id": "pak-golpes-guerras-cisao-bangladesh",
       "inicio": "1958",
       "fim": "1988",
-      "rotulo": "Golpes, guerras e a cisão de Bangladesh",
-      "regime": "sucessivos governos militares, interrompidos pela perda catastrófica do Paquistão Oriental",
-      "textoMdx": "O golpe do general Ayub Khan, em 1958, inaugura padrão recorrente de domínio militar direto que definiria boa parte da história paquistanesa subsequente — o Paquistão travaria guerras com a Índia em 1965 e, catastroficamente, em 1971.\n\nA guerra de 1971 termina com a secessão do Paquistão Oriental como Bangladesh independente, após repressão militar brutal contra a população bengali e intervenção militar direta indiana que derrotaria as forças paquistanesas em apenas duas semanas — trauma nacional profundo que persiste na memória política paquistanesa até hoje.\n\n**O general Zia-ul-Haq depõe e mais tarde executa o primeiro-ministro eleito Zulfikar Ali Bhutto em golpe de 1977, conduzindo programa de islamização que reformularia significativamente a lei e a sociedade paquistanesas, enquanto o país se tornaria canal crucial de apoio americano à resistência mujahedin contra a ocupação soviética do Afeganistão vizinho** — legado complexo e duradouro para o extremismo regional futuro. Zia morre em acidente aéreo nunca plenamente esclarecido em 1988.",
+      "rotulo": "Governos militares e a perda do Paquistão Oriental",
+      "regime": "ditaduras militares intercaladas com um governo civil, e a cisão de metade do país",
+      "textoMdx": "Ayub Khan tomou o poder em 1958 e governou onze anos com bom crescimento e má distribuição: a Revolução Verde aumentou a produção agrícola, a indústria cresceu, e a concentração de renda virou palavra de ordem política quando um economista do próprio governo denunciou que **cerca de vinte e duas famílias controlavam a maior parte da indústria e dos bancos do país**. Islamabad foi construída do zero para substituir Carachi como capital.\n\nA guerra de 1965 pela Caxemira terminou empatada. A eleição de 1970, a primeira genuinamente livre, terminou de forma que ninguém no oeste estava disposto a aceitar: a Liga Awami do Paquistão Oriental ganhou maioria absoluta no parlamento nacional com cadeiras quase todas de uma só ala. **Entregar o governo significava um primeiro-ministro bengali**, e o poder no oeste preferiu enviar o exército.\n\nA repressão iniciada em março de 1971 provocou a fuga de milhões de pessoas para a Índia e a formação de uma guerrilha bengali. **O número de mortos é uma das cifras mais disputadas da história do sul da Ásia**: Bangladesh sustenta três milhões, comissões paquistanesas e parte da historiografia acadêmica trabalham com números muito menores, e a divergência é política antes de ser estatística — ninguém contesta que houve matança em massa e violência sexual sistemática. A intervenção indiana em dezembro encerrou a guerra em treze dias, com a rendição de cerca de noventa mil militares paquistaneses.\n\nZulfikar Ali Bhutto assumiu o país reduzido à metade, nacionalizou indústrias, promulgou a constituição de 1973 que continua em vigor e decidiu construir a bomba. O general Zia-ul-Haq o depôs em 1977 e **o enforcou em 1979, após um julgamento cuja lisura é contestada até hoje**.\n\nZia governou nove anos e mudou o país por lei: as Ordenanças Hudood de 1979 introduziram punições islâmicas no direito penal, a lei de blasfêmia foi endurecida, e a rede de madraças multiplicou-se com financiamento externo. Ao mesmo tempo, o Paquistão tornou-se o canal do dinheiro americano e saudita para a resistência afegã contra a URSS, recebeu cerca de três milhões de refugiados afegãos e herdou o tráfico de heroína e a difusão de armas automáticas que vieram com a operação. Zia morreu em queda de avião em 1988, sem causa jamais estabelecida.",
       "fontes": [
         "ian-talbot-paquistao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Zulfikar_Ali_Bhutto_1971.jpg",
+        "alt": "Retrato fotográfico de Zulfikar Ali Bhutto em dezembro de 1971, de terno, olhando para a câmera com expressão fechada.",
+        "credito": "Arquivo Nacional dos Países Baixos, coleção Anefo",
+        "licenca": "CC BY-SA 3.0 nl",
+        "origem": "https://commons.wikimedia.org/wiki/File:Zulfikar_Ali_Bhutto_1971.jpg",
+        "legenda": "Zulfikar Ali Bhutto em 21 de dezembro de 1971 — cinco dias depois da rendição em Daca e da perda de metade do país. Assumiu o que restou, escreveu a constituição que ainda vige, e foi enforcado oito anos depois pelo general que o depôs."
+      }
     },
     {
       "id": "pak-democracia-instavel-nuclear",
       "inicio": "1988",
       "fim": "1999",
-      "rotulo": "Democracia instável e a era nuclear",
-      "regime": "república parlamentar civil, interrompida por golpe militar em 1999",
-      "textoMdx": "Benazir Bhutto se torna, em 1988, a primeira mulher a chefiar governo de um país de maioria muçulmana — governos civis alternados e frequentemente interrompidos por acusações de corrupção e tensão civil-militar crônica marcariam a década seguinte.\n\nO Paquistão realiza testes nucleares em 1998, resposta direta a testes indianos anteriores naquele mesmo ano — o programa nuclear paquistanês seria posteriormente associado a rede de proliferação controversa liderada pelo cientista Abdul Qadir Khan.\n\nO general Pervez Musharraf toma o poder em golpe militar em 1999, encerrando essa década de governo civil instável.",
+      "rotulo": "Década civil e a bomba",
+      "regime": "república parlamentar em que nenhum governo completou o mandato",
+      "textoMdx": "Benazir Bhutto tomou posse em dezembro de 1988 como **a primeira mulher a chefiar o governo de um país de maioria muçulmana**, aos 35 anos, onze anos depois de o pai ser deposto pelo general que o enforcou.\n\nA década teve quatro governos e nenhum mandato completo. Benazir foi demitida em 1990, Nawaz Sharif em 1993, Benazir de novo em 1996, e Sharif voltou em 1997 para cair em 1999. O instrumento era o mesmo: um artigo constitucional que dava ao presidente o poder de dissolver o parlamento, usado sempre com apoio do quartel. **A alternância existia, o mandato não.**\n\nEm maio de 1998 a Índia realizou testes nucleares; o Paquistão respondeu dezessete dias depois com cinco detonações nas montanhas de Chagai, no Baluquistão, e uma sexta dois dias mais tarde. Os dois países passaram a ser potências nucleares declaradas com uma fronteira em disputa ativa. Sanções vieram e foram sendo levantadas. O cientista responsável pelo programa de enriquecimento, Abdul Qadir Khan, foi depois identificado como centro de uma rede que vendeu tecnologia nuclear à Líbia, ao Irã e à Coreia do Norte.\n\nO fim da década civil veio de uma operação militar que o primeiro-ministro afirma não ter autorizado. Em 1999, tropas paquistanesas ocuparam posições de altitude do lado indiano da linha de controle em Kargil; a pressão internacional forçou a retirada, e a recriminação entre Sharif e o comandante do exército terminou em outubro com **Pervez Musharraf depondo o governo enquanto voltava de viagem** — o avião em que estava foi impedido de aterrissar em Carachi.",
       "fontes": [
         "ian-talbot-paquistao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Benazir_Bhutto_US_visit_19890605.jpg/1920px-Benazir_Bhutto_US_visit_19890605.jpg",
+        "alt": "Fotografia de 1989 de Benazir Bhutto descendo a escada de um avião com o filho pequeno no colo, recebida por autoridades numa base aérea.",
+        "credito": "SRA Gerald B. Johnson — Departamento de Defesa dos Estados Unidos",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Benazir_Bhutto_US_visit_19890605.jpg",
+        "legenda": "Benazir Bhutto desembarcando em visita de Estado aos Estados Unidos em junho de 1989, carregando o filho Bilawal. Estava havia seis meses no cargo; foi demitida no ano seguinte, voltou em 1993, caiu em 1996 e foi assassinada em 2007."
+      }
     },
     {
       "id": "pak-musharraf-instabilidade-atual",
       "inicio": "1999",
-      "rotulo": "Musharraf e a instabilidade contemporânea",
-      "regime": "governo militar, depois república civil recorrentemente instável sob tensão civil-militar persistente",
-      "textoMdx": "Musharraf navega a aliança pós-11 de setembro com os Estados Unidos contra o Talibã e a al-Qaeda, em meio a acusações persistentes de duplo jogo dados os vínculos históricos dos serviços de inteligência paquistaneses com redes militantes afegãs.\n\nBenazir Bhutto é assassinada em 2007, durante campanha por retorno ao poder — forças americanas encontrariam e matariam Osama bin Laden em Abbottabad, no Paquistão, em 2011, num local incomodamente próximo a importante academia militar paquistanesa, levantando questões nunca respondidas sobre conhecimento oficial da presença do líder da al-Qaeda.\n\nDesafios internos severos de terrorismo, sobretudo do Talibã paquistanês, e disputa civil-militar persistente continuariam a minar governos eleitos sucessivos — a deposição dramática de Imran Khan em 2022 e seu posterior encarceramento, em meio a turbulência política e econômica profunda, ilustrariam a fragilidade contínua das instituições democráticas civis paquistanesas décadas depois da independência.",
+      "rotulo": "Do golpe de 1999 ao presente",
+      "regime": "governo militar, depois república civil sob tutela militar persistente",
+      "textoMdx": "O golpe de outubro de 1999 tinha duas semanas de idade quando os ataques de 11 de setembro de 2001 transformaram Musharraf em aliado indispensável de Washington. O Paquistão cedeu bases e rotas de abastecimento e recebeu bilhões em ajuda — enquanto acusações de jogo duplo persistiam, porque os mesmos serviços de inteligência que cooperavam mantinham vínculos históricos com redes militantes afegãs.\n\nO ano de 2007 concentrou tudo. O cerco à Mesquita Vermelha em Islamabad, o estado de emergência, a demissão de juízes do Supremo — e a resposta que a demissão provocou: **o Movimento dos Advogados, com togas nas ruas, conseguiu a reintegração do presidente do Supremo**, uma vitória de sociedade civil incomum na região. Em dezembro, Benazir Bhutto foi assassinada em Rawalpindi durante a campanha de retorno.\n\nDuas datas medem a institucionalização, e as duas são recentes: 2008 foi a primeira transferência de poder de um militar a um civil eleito, e **2013 foi a primeira vez na história do país que um governo eleito completou o mandato e entregou o cargo a outro governo eleito** — sessenta e seis anos depois da independência.\n\nO que não se estabilizou foi a segurança. Osama bin Laden foi morto em 2011 em Abbottabad, a poucas centenas de metros da principal academia militar do país, sem que a operação americana fosse comunicada a Islamabad. Em dezembro de 2014, o Talibã paquistanês atacou uma escola do exército em Peshawar e matou mais de cento e trinta crianças — o episódio que virou a opinião pública contra a leniência com grupos armados.\n\nImran Khan, ex-capitão da seleção de críquete, chegou ao poder em 2018 com apoio tácito do quartel, perdeu esse apoio, foi derrubado por moção de desconfiança em 2022 e preso no ano seguinte. Em 2022 as monções alagaram **um terço do território e atingiram trinta e três milhões de pessoas**, num país que responde por menos de 1% das emissões globais. O Paquistão recorreu ao Fundo Monetário Internacional mais de vinte vezes desde 1958.",
       "fontes": [
         "ian-talbot-paquistao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Pervez_Musharraf_-_World_Economic_Forum_Annual_Meeting_Davos_2008_number3.jpg/1920px-Pervez_Musharraf_-_World_Economic_Forum_Annual_Meeting_Davos_2008_number3.jpg",
+        "alt": "Fotografia de 2008 de Pervez Musharraf de terno, gesticulando enquanto fala sentado num painel de conferência.",
+        "credito": "World Economic Forum",
+        "licenca": "CC BY-SA 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Pervez_Musharraf_-_World_Economic_Forum_Annual_Meeting_Davos_2008_number3.jpg",
+        "legenda": "Musharraf em Davos, em 24 de janeiro de 2008, numa sessão sobre paz e estabilidade — cinco semanas depois do assassinato de Benazir Bhutto e seis semanas antes da eleição que encerraria seu governo."
+      }
     }
   ]
 }

@@ -7,45 +7,79 @@
       "id": "moz-comercio-costeiro-portugues-prazos",
       "inicio": "1498",
       "fim": "1891",
-      "rotulo": "Comércio costeiro português e o sistema de prazos",
-      "regime": "postos comerciais portugueses, depois territórios administrados por famílias colonas semi-independentes",
-      "textoMdx": "Vasco da Gama estabelece contato português com a costa moçambicana em 1498, e Sofala se tornaria, nas décadas seguintes, principal porto de exportação do ouro extraído do interior pelo Império Mutapa, vizinho ao oeste.\n\nO controle português sobre o vasto interior permaneceria, por séculos, extremamente indireto — exercido através do sistema de \"prazos\", concessões de terra a famílias colonas frequentemente de origem mestiça ou indiana, que governariam como senhores quase feudais com exércitos privados próprios, à margem de qualquer autoridade colonial centralizada efetiva.\n\nA consolidação colonial portuguesa mais direta e sistemática sobre o interior moçambicano só se completaria por volta do final do século XIX, séculos depois do contato costeiro inicial.",
+      "rotulo": "Costa suaíli portuguesa e o sistema de prazos",
+      "regime": "postos comerciais portugueses no litoral e concessões de terra a senhores privados no vale do Zambeze",
+      "textoMdx": "Vasco da Gama não descobriu uma costa vazia em 1498: encontrou cidades-Estado suaílis que negociavam ouro, marfim e escravos com a Arábia, a Índia e a China havia séculos. Sofala, Angoche, Quelimane e a Ilha de Moçambique já eram portos com pilotos capazes de atravessar o Índico — **os portugueses não criaram a rede comercial, entraram nela pela força e passaram a cobrar pedágio.** A Ilha de Moçambique foi a capital do território por quatro séculos, até 1898.\n\nSofala servia de saída para o ouro que o Império Mutapa extraía no planalto do interior, o mesmo Estado que aparece nos mapas europeus como *Monomotapa*. A tentativa portuguesa de controlar a produção na origem, e não só o escoamento, fracassou: expedições ao interior no século XVI foram derrotadas pela malária e pela resistência, e no fim do século XVII os Rozvi expulsaram os portugueses do planalto de vez.\n\nO que sobrou foi um arranjo peculiar. A Coroa distribuiu **prazos** — concessões vitalícias de terra ao longo do Zambeze — a colonos, muitos deles mestiços ou de origem goesa, que governaram como senhores de guerra com exércitos privados de escravos armados, os *chikunda*. Cobravam tributo, faziam guerra entre si e obedeciam a Lisboa quando convinha. **Por três séculos, o \"domínio português\" no interior de Moçambique foi um punhado de famílias com tropa própria.**\n\nO tráfico de escravos reorientou-se ao longo do tempo: primeiro para o Índico e as ilhas francesas, depois em volume para o Brasil, sobretudo quando o tráfico do Atlântico ocidental começou a ser reprimido.\n\nA fronteira que Moçambique tem hoje foi desenhada em 1891, e não por Portugal. Lisboa havia publicado em 1886 o Mapa Cor-de-Rosa, reivindicando uma faixa contínua de Angola a Moçambique — que cruzava exatamente onde a Grã-Bretanha queria sua própria linha do Cairo ao Cabo. **O Ultimatum britânico de 1890 encerrou a discussão em onze dias**, e o tratado do ano seguinte fixou os limites atuais.",
       "fontes": [
-        "malyn-newitt-mocambique"
-      ]
+        "malyn-newitt-mocambique",
+        "ultimatum-britanico-1890"
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Carte_du_canal_de_Mozambique_de_la_c%C3%B4te_occidentale_de_l%27Isle_de_Madagascar_et_des_%C3%A9tats_du_Monomotapa._Partie_sud_-_d%27Anville%2C_17.._-_btv1b85956754.jpg/1920px-Carte_du_canal_de_Mozambique_de_la_c%C3%B4te_occidentale_de_l%27Isle_de_Madagascar_et_des_%C3%A9tats_du_Monomotapa._Partie_sud_-_d%27Anville%2C_17.._-_btv1b85956754.jpg",
+        "alt": "Mapa manuscrito do século XVIII do canal de Moçambique, com a costa africana à esquerda detalhada em enseadas e nomes de portos, Madagascar à direita, e o interior africano preenchido por topônimos esparsos.",
+        "credito": "Jean-Baptiste Bourguignon d'Anville (1697–1782) — Bibliothèque nationale de France",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Carte_du_canal_de_Mozambique_de_la_c%C3%B4te_occidentale_de_l%27Isle_de_Madagascar_et_des_%C3%A9tats_du_Monomotapa._Partie_sud_-_d%27Anville,_17.._-_btv1b85956754.jpg",
+        "legenda": "O canal de Moçambique e \"os Estados do Monomotapa\", levantado por d'Anville no século XVIII. A costa está medida porto por porto e o interior é conjectura — que é precisamente a forma do poder português ali: litoral e vale do Zambeze, e mais nada."
+      }
     },
     {
       "id": "moz-mocambique-portugues",
       "inicio": "1891",
       "fim": "1975",
       "rotulo": "Moçambique Português",
-      "regime": "colônia portuguesa, sob sistema de trabalho forçado que persistiria até bem entrado o século XX",
-      "textoMdx": "A administração colonial portuguesa consolida controle direto sobre o território, impondo sistema de trabalho forçado conhecido como chibalo que persistiria, documentado e denunciado internacionalmente, até décadas depois da abolição formal da escravidão.\n\nA Frente de Libertação de Moçambique, sob Eduardo Mondlane, lança luta armada pela independência em 1964 — Mondlane seria assassinado por bomba-relógio em 1969, com envolvimento da polícia política portuguesa PIDE amplamente documentado, e Samora Machel assumiria a liderança do movimento.\n\nA independência, obtida em 1975 após a Revolução dos Cravos derrubar o regime colonial português no ano anterior, encontraria Moçambique entre os países mais pobres do mundo, com infraestrutura básica extremamente limitada legada por décadas de administração colonial negligente.",
+      "regime": "colônia com soberania parcialmente subcontratada a companhias, e economia de exportação de trabalho",
+      "textoMdx": "Portugal não tinha dinheiro para ocupar o que havia acabado de garantir no tratado, e resolveu o problema terceirizando. A Companhia de Moçambique e a Companhia do Niassa receberam **poderes de Estado sobre territórios do tamanho de países** — cobrar imposto, manter polícia, emitir selo — em concessões que só terminaram em 1929 e 1942.\n\nA economia colonial não se sustentava produzindo: sustentava-se alugando. O sul de Moçambique exportava homens para as minas de ouro do Transvaal sob acordo formal, com parte do salário retida e paga a Lisboa em ouro; o porto e a ferrovia de Lourenço Marques viviam do trânsito de mercadoria sul-africana. **Moçambique ganhava mais fornecendo trabalhadores e passagem do que com qualquer coisa que plantasse.** No interior, a norma era o *chibalo* — trabalho forçado imposto a quem não comprovasse emprego, denunciado internacionalmente e mantido por décadas.\n\nO Estado Novo rebatizou as colônias de \"províncias ultramarinas\" em 1951, sem mudar o essencial: a população estava dividida por lei entre *indígenas*, sem cidadania, e *assimilados*, uma fração ínfima que precisava provar renda, língua e costumes portugueses.\n\nA guerra começou com um massacre. Em junho de 1960, em Mueda, tropas portuguesas atiraram contra uma manifestação pacífica de camponeses macondes que pediam melhores condições. A FRELIMO nasceu dois anos depois em Dar es Salaam e iniciou a luta armada em setembro de 1964. **Eduardo Mondlane, seu primeiro presidente, foi morto em 1969 por uma bomba escondida num livro** enviado à sua casa na Tanzânia; Samora Machel assumiu a liderança.\n\nA independência veio de uma mudança em Lisboa, não de uma derrota no terreno: a Revolução dos Cravos, em abril de 1974, e o Acordo de Lusaka em setembro. Moçambique tornou-se independente em 25 de junho de 1975 — e **cerca de duzentos mil portugueses saíram em poucos meses**, muitos destruindo ou levando equipamento. O país começou com taxa de alfabetização em torno de 7% e um número de médicos moçambicanos que se contava em dezenas.",
       "fontes": [
         "malyn-newitt-mocambique"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Arthur_Koppel_-_Chemin_de_fer_Portugais_de_Lorenzo_Marques_%28Louren%C3%A7o_Marques%29%2C_Maputo%2C_Transvaal.webp",
+        "alt": "Prancha impressa de catálogo ferroviário de cerca de 1900, mostrando material rodante e locomotivas da linha portuguesa de Lourenço Marques ao Transvaal, com legenda em francês.",
+        "credito": "Arthur Koppel",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Arthur_Koppel_-_Chemin_de_fer_Portugais_de_Lorenzo_Marques_(Louren%C3%A7o_Marques),_Maputo,_Transvaal.webp",
+        "legenda": "A ferrovia de Lourenço Marques ao Transvaal em catálogo do fornecedor alemão de material ferroviário, por volta de 1900. É a peça central da economia colonial moçambicana — que ganhava dinheiro levando carga e trabalhadores para a África do Sul, não com o que produzia em casa."
+      }
     },
     {
       "id": "moz-machel-guerra-civil",
       "inicio": "1975",
       "fim": "1992",
-      "rotulo": "Machel e a Guerra Civil",
-      "regime": "república marxista-leninista de partido único, mergulhada em guerra civil por procuração da Guerra Fria",
-      "textoMdx": "Samora Machel conduz projeto ambicioso de transformação socialista que se revelaria, na prática, economicamente desastroso — a Guerra Civil Moçambicana, iniciada em 1977, opõe seu governo à RENAMO, inicialmente apoiada pela Rodésia branca e depois pela África do Sul do apartheid como instrumento de desestabilização contra o governo marxista vizinho.\n\nO conflito, um dos mais mortíferos episódios da Guerra Fria por procuração na África, mataria cerca de um milhão de pessoas e deslocaria milhões adicionais, com atrocidades generalizadas documentadas contra populações civis ao longo de mais de quinze anos de combate.\n\n**Machel morre em acidente aéreo misterioso em 1986, caído em território sul-africano — controvérsia e alegações nunca definitivamente comprovadas de envolvimento sul-africano persistiriam por décadas** — seu sucessor, Joaquim Chissano, negociaria o Acordo Geral de Paz de Roma, de 1992, encerrando finalmente a guerra civil.",
+      "rotulo": "República Popular e a guerra civil",
+      "regime": "Estado marxista-leninista de partido único, em guerra sustentada de fora",
+      "textoMdx": "A FRELIMO assumiu um país sem quadros e tentou refazê-lo depressa: partido único, nacionalização de terra, escolas e saúde, e concentração da população rural em aldeias comunais. A campanha de alfabetização e a rede de saúde primária produziram resultado real e rápido; a agricultura coletivizada, não.\n\nA guerra que se seguiu não foi uma disputa interna que ganhou apoio externo — foi montada de fora. A RENAMO foi criada pelos serviços de segurança da Rodésia branca em 1977 e, depois da independência do Zimbábue, assumida pela África do Sul do apartheid como instrumento explícito de desestabilização de um vizinho que abrigava o ANC. **O Acordo de Nkomati, de 1984, trocava expulsão do ANC por fim do apoio à RENAMO; Moçambique cumpriu e a África do Sul não.**\n\nO método da guerra foi destruir o que o Estado construía: escolas, postos de saúde, linhas de transmissão, aldeias. Cerca de um milhão de pessoas morreram, contando a fome provocada pelo conflito, e perto de cinco milhões foram deslocadas — de uma população de pouco mais de quinze milhões.\n\nSamora Machel morreu em 19 de outubro de 1986, quando seu avião caiu em Mbuzini, do lado sul-africano da fronteira, ao voltar de uma reunião na Zâmbia. **A causa nunca foi estabelecida de forma aceita pelas duas partes**: a comissão de inquérito conduzida sob autoridade sul-africana concluiu erro de pilotagem, Moçambique e, depois, a Comissão de Verdade e Reconciliação sul-africana consideraram a investigação insuficiente, e a hipótese de um farol de navegação falso jamais foi confirmada nem descartada.\n\nJoaquim Chissano negociou o fim da guerra, e o mediador foi inesperado: a **Comunidade de Santo Egídio**, uma associação leiga católica de Roma, conduziu as conversas que produziram o Acordo Geral de Paz em outubro de 1992.",
       "fontes": [
         "malyn-newitt-mocambique",
         "acordo-roma-mocambique-1992"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Samora_Moises_Machel_DF-SC-88-01383.jpg/1920px-Samora_Moises_Machel_DF-SC-88-01383.jpg",
+        "alt": "Fotografia de 1985 de Samora Machel de terno claro, conversando em pé com autoridades e um oficial militar antes de embarcar.",
+        "credito": "SRA James Simpson — Departamento de Defesa dos Estados Unidos",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Samora_Moises_Machel_DF-SC-88-01383.jpg",
+        "legenda": "Samora Machel em visita aos Estados Unidos em setembro de 1985, um ano antes de morrer na queda do avião em Mbuzini. Estava tentando reduzir a dependência do bloco soviético justamente porque o Acordo de Nkomati não havia parado a guerra."
+      }
     },
     {
       "id": "moz-democracia-frelimo-atual",
       "inicio": "1992",
-      "rotulo": "Democracia multipartidária sob domínio contínuo da FRELIMO",
-      "regime": "república democrática, sob domínio eleitoral ininterrupto de um único partido desde a transição",
-      "textoMdx": "A transição para democracia multipartidária e economia de mercado preserva, ao longo de todas as eleições subsequentes, o domínio eleitoral ininterrupto da FRELIMO — a RENAMO, transformada em partido de oposição política, manteria tensão política recorrente sem jamais alcançar alternância efetiva de poder.\n\nUma insurgência islâmica vinculada ao Estado Islâmico emerge na província setentrional de Cabo Delgado a partir de 2017, explorando marginalização socioeconômica numa região paradoxalmente rica em gás natural — crise humanitária severa que exigiria intervenção militar estrangeira, incluindo tropas ruandesas, para reverter avanços insurgentes sobre centros populacionais principais até 2021.\n\nDescobertas maciças de gás natural offshore prometem transformar as perspectivas econômicas moçambicanas de longo prazo, embora a realização plena desses benefícios permaneça adiada por desafios persistentes de segurança e governança na região produtora.",
+      "rotulo": "Multipartidarismo sob a FRELIMO",
+      "regime": "república multipartidária em que o mesmo partido nunca perdeu uma eleição nacional",
+      "textoMdx": "A desmobilização de 1993 e as eleições de 1994 funcionaram, e o país cresceu com força na década seguinte. A FRELIMO nunca perdeu: ganhou todas as presidenciais desde então, e a RENAMO contestou quase todas, voltando às armas em escala baixa entre 2013 e 2019 antes de um novo acordo em Maputo.\n\nO escândalo que mais custou tem nome contábil. Entre 2013 e 2014 o Estado garantiu, **sem informar o parlamento nem o Fundo Monetário Internacional, cerca de dois bilhões de dólares em empréstimos** a três empresas estatais criadas para comprar uma frota de pesca de atum e equipamento de vigilância marítima. Quando o buraco apareceu, em 2016, os doadores suspenderam apoio, a moeda perdeu metade do valor e o país entrou em default. Uma auditoria forense contratada pela Procuradoria não conseguiu localizar em que foi gasta parte substancial do dinheiro.\n\nEm outubro de 2017 começou em Cabo Delgado, no extremo norte, uma insurgência que depois declarou vínculo com o Estado Islâmico. O ataque à vila de Palma, em março de 2021, forçou a suspensão do maior projeto de gás natural liquefeito da África — **a província mais pobre do país é também a que tem as reservas de gás**, e a coincidência é parte da explicação do conflito. Tropas de Ruanda e da comunidade regional foram enviadas em 2021 e recuperaram os centros urbanos; perto de um milhão de pessoas foram deslocadas.\n\nO ciclone Idai, em março de 2019, destruiu a maior parte da Beira, quarta cidade do país. As reservas de gás da bacia do Rovuma continuam sendo a aposta econômica de longo prazo — e continuam adiadas.",
       "fontes": [
-        "malyn-newitt-mocambique"
-      ]
+        "malyn-newitt-mocambique",
+        "auditoria-kroll-mocambique-2017"
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Armando_Guebuza%2C_President_of_Mozambique_%287210331406%29.jpg/1920px-Armando_Guebuza%2C_President_of_Mozambique_%287210331406%29.jpg",
+        "alt": "Fotografia de 2012 do presidente Armando Guebuza sentado, falando ao microfone durante conferência sobre recursos minerais.",
+        "credito": "Chatham House",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Armando_Guebuza,_President_of_Mozambique_(7210331406).jpg",
+        "legenda": "Armando Guebuza numa conferência sobre a riqueza mineral moçambicana em maio de 2012 — no ano anterior ao início dos empréstimos ocultos que levariam o país ao default, e cinco anos antes de a insurgência começar na província onde está o gás."
+      }
     }
   ]
 }

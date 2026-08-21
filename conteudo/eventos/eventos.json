@@ -1102,5 +1102,518 @@
     "fontes": [
       "mutibwa-uganda"
     ]
+  },
+  {
+    "id": "gama-na-ilha-de-mocambique",
+    "data": "1498-03",
+    "titulo": "Vasco da Gama na Ilha de Moçambique",
+    "ponto": [
+      40.73,
+      -15.03
+    ],
+    "paises": [
+      "MOZ"
+    ],
+    "textoMdx": "A frota portuguesa encontra na costa não um litoral vazio, mas cidades-Estado suaílis que negociam ouro, marfim e escravos com a Arábia, a Índia e a China havia séculos, com pilotos capazes de atravessar o Índico. Os portugueses entram numa rede comercial que já existia e passam a cobrar pedágio nela. A Ilha será a capital do território até 1898.",
+    "fontes": [
+      "malyn-newitt-mocambique"
+    ]
+  },
+  {
+    "id": "ultimatum-britanico-a-portugal",
+    "data": "1890-01-11",
+    "titulo": "Ultimatum britânico encerra o Mapa Cor-de-Rosa",
+    "ponto": [
+      32.58,
+      -25.97
+    ],
+    "paises": [
+      "MOZ"
+    ],
+    "textoMdx": "Portugal havia publicado em 1886 a pretensão a uma faixa contínua de Angola a Moçambique, que cruzava exatamente onde a Grã-Bretanha projetava sua linha do Cairo ao Cabo. O ultimatum exige a retirada das forças portuguesas do território disputado, e o tratado do ano seguinte fixa as fronteiras que Moçambique tem hoje.",
+    "fontes": [
+      "ultimatum-britanico-1890"
+    ]
+  },
+  {
+    "id": "massacre-de-mueda",
+    "data": "1960-06-16",
+    "titulo": "Massacre de Mueda",
+    "ponto": [
+      39.55,
+      -11.67
+    ],
+    "paises": [
+      "MOZ"
+    ],
+    "textoMdx": "Tropas portuguesas atiram contra uma manifestação pacífica de camponeses macondes que pediam melhores condições de trabalho e preço para a produção. É o episódio que a FRELIMO adota como marco fundador: dois anos depois o movimento nasce em Dar es Salaam, e em 1964 começa a luta armada.",
+    "fontes": [
+      "malyn-newitt-mocambique"
+    ]
+  },
+  {
+    "id": "assassinato-de-mondlane",
+    "data": "1969-02-03",
+    "titulo": "Assassinato de Eduardo Mondlane",
+    "ponto": [
+      32.58,
+      -25.97
+    ],
+    "paises": [
+      "MOZ"
+    ],
+    "textoMdx": "O primeiro presidente da FRELIMO é morto na Tanzânia por uma bomba escondida num livro enviado à sua casa. Samora Machel assume a liderança do movimento e a guerra se intensifica no norte do território.",
+    "fontes": [
+      "malyn-newitt-mocambique"
+    ]
+  },
+  {
+    "id": "independencia-de-mocambique",
+    "data": "1975-06-25",
+    "titulo": "Independência de Moçambique",
+    "ponto": [
+      32.58,
+      -25.97
+    ],
+    "paises": [
+      "MOZ"
+    ],
+    "textoMdx": "A independência vem de uma mudança de regime em Lisboa, não de uma derrota no terreno: a Revolução dos Cravos em abril de 1974 e o Acordo de Lusaka em setembro. Cerca de duzentos mil portugueses deixam o país em poucos meses, muitos destruindo ou levando equipamento. O país começa com alfabetização em torno de 7% e um número de médicos moçambicanos que se conta em dezenas.",
+    "fontes": [
+      "malyn-newitt-mocambique"
+    ]
+  },
+  {
+    "id": "acordo-de-nkomati",
+    "data": "1984-03-16",
+    "titulo": "Acordo de Nkomati",
+    "ponto": [
+      32.58,
+      -25.97
+    ],
+    "paises": [
+      "MOZ"
+    ],
+    "textoMdx": "Moçambique aceita expulsar o Congresso Nacional Africano de seu território em troca de a África do Sul deixar de apoiar a RENAMO. Moçambique cumpre a sua parte; a África do Sul não cumpre a dela, e a guerra continua por mais oito anos.",
+    "fontes": [
+      "malyn-newitt-mocambique"
+    ]
+  },
+  {
+    "id": "queda-do-aviao-de-machel",
+    "data": "1986-10-19",
+    "titulo": "A queda do avião de Samora Machel",
+    "ponto": [
+      31.95,
+      -25.83
+    ],
+    "paises": [
+      "MOZ"
+    ],
+    "textoMdx": "O avião presidencial cai em Mbuzini, do lado sul-africano da fronteira, ao voltar de uma reunião na Zâmbia. A causa nunca foi estabelecida de forma aceita pelas duas partes: a comissão conduzida sob autoridade sul-africana concluiu erro de pilotagem, e Moçambique e depois a Comissão de Verdade e Reconciliação sul-africana consideraram a investigação insuficiente. A hipótese de um farol de navegação falso jamais foi confirmada nem descartada.",
+    "fontes": [
+      "malyn-newitt-mocambique"
+    ]
+  },
+  {
+    "id": "acordo-geral-de-paz-de-roma",
+    "data": "1992-10-04",
+    "titulo": "Acordo Geral de Paz de Roma",
+    "ponto": [
+      12.48,
+      41.9
+    ],
+    "paises": [
+      "MOZ"
+    ],
+    "textoMdx": "O fim de quinze anos de guerra é negociado em Roma com mediação inesperada: a Comunidade de Santo Egídio, associação leiga católica, conduz as conversas. O acordo desmobiliza as duas forças e abre caminho para as eleições de 1994.",
+    "fontes": [
+      "acordo-roma-mocambique-1992"
+    ]
+  },
+  {
+    "id": "divida-oculta-de-mocambique",
+    "data": "2016-04",
+    "titulo": "A dívida oculta vem a público",
+    "ponto": [
+      32.58,
+      -25.97
+    ],
+    "paises": [
+      "MOZ"
+    ],
+    "textoMdx": "Descobre-se que o Estado garantiu, sem informar o parlamento nem o FMI, cerca de dois bilhões de dólares em empréstimos a três empresas estatais criadas para comprar uma frota de pesca de atum e equipamento de vigilância marítima. Os doadores suspendem apoio, a moeda perde metade do valor e o país entra em default. Uma auditoria forense não conseguiu localizar a destinação de parte substancial do dinheiro.",
+    "fontes": [
+      "auditoria-kroll-mocambique-2017"
+    ]
+  },
+  {
+    "id": "ataque-a-palma",
+    "data": "2021-03-24",
+    "titulo": "Ataque a Palma e a suspensão do gás",
+    "ponto": [
+      40.44,
+      -10.77
+    ],
+    "paises": [
+      "MOZ"
+    ],
+    "textoMdx": "A insurgência de Cabo Delgado, iniciada em 2017 e depois vinculada ao Estado Islâmico, toma a vila de Palma e força a suspensão do maior projeto de gás natural liquefeito da África. A província mais pobre do país é também a que tem as reservas de gás. Tropas de Ruanda e da comunidade regional recuperam os centros urbanos ao longo do ano; perto de um milhão de pessoas foram deslocadas.",
+    "fontes": [
+      "malyn-newitt-mocambique"
+    ]
+  },
+  {
+    "id": "chegada-portuguesa-ao-geba",
+    "data": "1446",
+    "titulo": "Portugueses alcançam o rio Geba",
+    "ponto": [
+      -15.6,
+      11.86
+    ],
+    "paises": [
+      "GNB"
+    ],
+    "textoMdx": "Um dos primeiros pontos de presença europeia sustentada em toda a África Ocidental — e que permanece limitado à beira d'água por mais de quatro séculos. A costa é ocupada por sociedades sem Estado centralizado, difíceis de conquistar justamente por não haver um centro que se possa tomar.",
+    "fontes": [
+      "lobban-mendy-guine-bissau"
+    ]
+  },
+  {
+    "id": "fundacao-de-cacheu",
+    "data": "1588",
+    "titulo": "Fortificação de Cacheu",
+    "ponto": [
+      -16.16,
+      12.27
+    ],
+    "paises": [
+      "GNB"
+    ],
+    "textoMdx": "O entreposto de Cacheu é fortificado como base de embarque de escravos, seguido por Bissau em 1687. Nenhum dos dois comanda o que está a trinta quilômetros de distância, e até 1879 a Guiné não é uma colônia: é um apêndice administrativo de Cabo Verde, governado de outro arquipélago a mais de seiscentos quilômetros.",
+    "fontes": [
+      "lobban-mendy-guine-bissau"
+    ]
+  },
+  {
+    "id": "cerco-de-kansala",
+    "data": "1867",
+    "titulo": "Cerco de Kansala e o fim de Kaabu",
+    "ponto": [
+      -14.2,
+      12.6
+    ],
+    "paises": [
+      "GNB"
+    ],
+    "textoMdx": "O reino mandinga de Kaabu, consolidado por volta de 1537 como Estado sucessor do Império do Mali, cai não para europeus mas para a jihad fula vinda do Futa Jalom. Cercado em Kansala, o último mansa manda explodir o próprio depósito de pólvora em vez de se render. Só depois disso, com o interior sem poder organizado, Portugal começa a tentar ocupar o que reivindicava havia quatro séculos.",
+    "fontes": [
+      "lobban-mendy-guine-bissau"
+    ]
+  },
+  {
+    "id": "massacre-de-pidjiguiti",
+    "data": "1959-08-03",
+    "titulo": "Massacre de Pidjiguiti",
+    "ponto": [
+      -15.6,
+      11.86
+    ],
+    "paises": [
+      "GNB"
+    ],
+    "textoMdx": "A repressão a uma greve de estivadores no porto de Bissau mata dezenas de trabalhadores. O PAIGC conclui que a luta urbana pacífica não tem saída, e passa às armas quatro anos depois.",
+    "fontes": [
+      "lobban-mendy-guine-bissau",
+      "patrick-chabal-cabral"
+    ]
+  },
+  {
+    "id": "assassinato-de-amilcar-cabral",
+    "data": "1973-01-20",
+    "titulo": "Assassinato de Amílcar Cabral",
+    "ponto": [
+      -13.68,
+      9.51
+    ],
+    "paises": [
+      "GNB"
+    ],
+    "textoMdx": "O fundador do PAIGC é morto em Conacri por um dissidente do próprio movimento. Agrônomo de formação, havia conduzido em 1953 o censo agrícola da Guiné Portuguesa e terminado o trabalho conhecendo o território e sua estrutura social melhor que a administração colonial — conhecimento com que organizou a guerrilha. Morre oito meses antes da declaração de independência.",
+    "fontes": [
+      "patrick-chabal-cabral"
+    ]
+  },
+  {
+    "id": "independencia-da-guine-bissau",
+    "data": "1974-09-10",
+    "titulo": "Portugal reconhece a independência",
+    "ponto": [
+      -14.3,
+      12.1
+    ],
+    "paises": [
+      "GNB"
+    ],
+    "textoMdx": "A independência havia sido declarada unilateralmente em setembro de 1973 e reconhecida por dezenas de países antes de Portugal. Em 1973 o PAIGC já controlava a maior parte do campo e administrava escolas, clínicas, tribunais e lojas do povo nas zonas libertadas. O general que comandara na Guiné, António de Spínola, foi quem encabeçou a mudança de regime em Lisboa.",
+    "fontes": [
+      "lobban-mendy-guine-bissau"
+    ]
+  },
+  {
+    "id": "golpe-de-nino-vieira",
+    "data": "1980-11-14",
+    "titulo": "Golpe de Nino Vieira",
+    "ponto": [
+      -15.6,
+      11.86
+    ],
+    "paises": [
+      "GNB"
+    ],
+    "textoMdx": "João Bernardo Vieira depõe Luís Cabral, meio-irmão de Amílcar e primeiro presidente, e enterra o projeto de união política com Cabo Verde herdado do partido único que os dois países compartilhavam. Começa o padrão que define o país: desde 1974 houve quatro golpes bem-sucedidos e mais de uma dezena de tentativas.",
+    "fontes": [
+      "lobban-mendy-guine-bissau"
+    ]
+  },
+  {
+    "id": "assassinato-de-nino-vieira",
+    "data": "2009-03-02",
+    "titulo": "Assassinato de Nino Vieira",
+    "ponto": [
+      -15.6,
+      11.86
+    ],
+    "paises": [
+      "GNB"
+    ],
+    "textoMdx": "Vieira, de volta à presidência pelo voto em 2005, é assassinado horas depois de o chefe do estado-maior das forças armadas morrer numa explosão — cada morte apresentada como retaliação pela outra. Nenhum dos dois casos foi julgado.",
+    "fontes": [
+      "lobban-mendy-guine-bissau"
+    ]
+  },
+  {
+    "id": "prisao-do-chefe-da-marinha-gnb",
+    "data": "2013-04-02",
+    "titulo": "O chefe da Marinha é preso por tráfico",
+    "ponto": [
+      -15.6,
+      11.86
+    ],
+    "paises": [
+      "GNB"
+    ],
+    "textoMdx": "O antigo chefe da Marinha guineense é detido em alto-mar numa operação disfarçada da agência antidrogas americana e levado a julgamento em Nova York. A partir de meados dos anos 2000 o país tornou-se ponto de trânsito da cocaína sul-americana rumo à Europa — e a hierarquia militar não estava contornando o tráfico, estava dentro dele.",
+    "fontes": [
+      "lobban-mendy-guine-bissau"
+    ]
+  },
+  {
+    "id": "publicacao-da-linha-radcliffe",
+    "data": "1947-08-17",
+    "titulo": "A linha Radcliffe é publicada",
+    "ponto": [
+      74.34,
+      31.55
+    ],
+    "paises": [
+      "PAK"
+    ],
+    "textoMdx": "O mapa que divide Punjab e Bengala é publicado dois dias DEPOIS da independência dos dois países. Foi traçado em cerca de cinco semanas por um advogado britânico que nunca havia estado na Índia, com base em censos religiosos desatualizados. Milhões de pessoas comemoraram a independência sem saber em qual país estavam.",
+    "fontes": [
+      "laudo-radcliffe-1947"
+    ]
+  },
+  {
+    "id": "morte-de-jinnah",
+    "data": "1948-09-11",
+    "titulo": "Morte de Muhammad Ali Jinnah",
+    "ponto": [
+      67.01,
+      24.86
+    ],
+    "paises": [
+      "PAK"
+    ],
+    "textoMdx": "O fundador do país morre treze meses depois da independência, de tuberculose que mantinha em segredo. O primeiro-ministro Liaquat Ali Khan é assassinado em 1951, e a primeira constituição só sai em 1956 — para ser suspensa dois anos depois.",
+    "fontes": [
+      "ian-talbot-paquistao"
+    ]
+  },
+  {
+    "id": "movimento-da-lingua-em-daca",
+    "data": "1952-02-21",
+    "titulo": "Movimento da Língua em Daca",
+    "ponto": [
+      90.41,
+      23.81
+    ],
+    "paises": [
+      "PAK"
+    ],
+    "textoMdx": "A polícia atira em estudantes que protestam contra a adoção do urdu como único idioma nacional, embora o bengali seja a língua materna da maioria absoluta do país. É a data fundadora do nacionalismo bengali, e a linha que liga 1952 a 1971 é curta.",
+    "fontes": [
+      "ian-talbot-paquistao"
+    ]
+  },
+  {
+    "id": "golpe-de-ayub-khan",
+    "data": "1958-10-27",
+    "titulo": "Golpe de Ayub Khan",
+    "ponto": [
+      67.01,
+      24.86
+    ],
+    "paises": [
+      "PAK"
+    ],
+    "textoMdx": "O primeiro golpe militar do país inaugura o padrão que define sua história. Ayub governa onze anos com crescimento forte e distribuição ruim — um economista do próprio governo denuncia que cerca de vinte e duas famílias controlam a maior parte da indústria e dos bancos. Islamabad é construída do zero para substituir Carachi como capital.",
+    "fontes": [
+      "ian-talbot-paquistao"
+    ]
+  },
+  {
+    "id": "eleicao-de-1970-paquistao",
+    "data": "1970-12-07",
+    "titulo": "A eleição que o oeste não aceitou",
+    "ponto": [
+      90.41,
+      23.81
+    ],
+    "paises": [
+      "PAK"
+    ],
+    "textoMdx": "Na primeira eleição genuinamente livre do país, a Liga Awami do Paquistão Oriental obtém maioria absoluta no parlamento nacional com cadeiras quase todas de uma só ala. Entregar o governo significaria um primeiro-ministro bengali, e o poder no oeste envia o exército em março do ano seguinte.",
+    "fontes": [
+      "ian-talbot-paquistao"
+    ]
+  },
+  {
+    "id": "rendicao-em-daca",
+    "data": "1971-12-16",
+    "titulo": "Rendição em Daca e o nascimento de Bangladesh",
+    "ponto": [
+      90.41,
+      23.81
+    ],
+    "paises": [
+      "PAK"
+    ],
+    "textoMdx": "A intervenção indiana encerra a guerra em treze dias, com a rendição de cerca de noventa mil militares paquistaneses. O número de mortos na repressão iniciada em março é uma das cifras mais disputadas da história do sul da Ásia: Bangladesh sustenta três milhões, comissões paquistanesas e parte da historiografia trabalham com números muito menores. Ninguém contesta que houve matança em massa e violência sexual sistemática.",
+    "fontes": [
+      "ian-talbot-paquistao"
+    ]
+  },
+  {
+    "id": "execucao-de-zulfikar-bhutto",
+    "data": "1979-04-04",
+    "titulo": "Execução de Zulfikar Ali Bhutto",
+    "ponto": [
+      73.07,
+      33.6
+    ],
+    "paises": [
+      "PAK"
+    ],
+    "textoMdx": "O primeiro-ministro deposto em 1977 pelo general Zia-ul-Haq é enforcado após julgamento cuja lisura é contestada até hoje. Zia governa nove anos e muda o país por lei: as Ordenanças Hudood de 1979, o endurecimento da lei de blasfêmia e a multiplicação das madraças com financiamento externo.",
+    "fontes": [
+      "ian-talbot-paquistao"
+    ]
+  },
+  {
+    "id": "testes-nucleares-de-chagai",
+    "data": "1998-05-28",
+    "titulo": "Testes nucleares de Chagai",
+    "ponto": [
+      64.5,
+      28.5
+    ],
+    "paises": [
+      "PAK"
+    ],
+    "textoMdx": "Dezessete dias depois dos testes indianos, o Paquistão detona cinco dispositivos nas montanhas do Baluquistão, e um sexto dois dias mais tarde. Os dois países passam a ser potências nucleares declaradas com uma fronteira em disputa ativa. O cientista responsável pelo enriquecimento, Abdul Qadir Khan, foi depois identificado como centro de uma rede que vendeu tecnologia nuclear à Líbia, ao Irã e à Coreia do Norte.",
+    "fontes": [
+      "ian-talbot-paquistao"
+    ]
+  },
+  {
+    "id": "golpe-de-musharraf",
+    "data": "1999-10-12",
+    "titulo": "Golpe de Pervez Musharraf",
+    "ponto": [
+      73.06,
+      33.68
+    ],
+    "paises": [
+      "PAK"
+    ],
+    "textoMdx": "Depois da recriminação entre o primeiro-ministro e o comandante do exército pela operação de Kargil, na Caxemira, Musharraf depõe o governo enquanto Nawaz Sharif tentava impedir seu avião de aterrissar em Carachi. Duas semanas de governo militar depois, os ataques de 11 de setembro de 2001 transformam Musharraf em aliado indispensável de Washington.",
+    "fontes": [
+      "ian-talbot-paquistao"
+    ]
+  },
+  {
+    "id": "assassinato-de-benazir-bhutto",
+    "data": "2007-12-27",
+    "titulo": "Assassinato de Benazir Bhutto",
+    "ponto": [
+      73.07,
+      33.6
+    ],
+    "paises": [
+      "PAK"
+    ],
+    "textoMdx": "A ex-primeira-ministra é morta durante a campanha de retorno ao poder, no mesmo ano do cerco à Mesquita Vermelha, do estado de emergência e do Movimento dos Advogados que conseguiu reverter a demissão do presidente do Supremo — uma vitória de sociedade civil incomum na região.",
+    "fontes": [
+      "ian-talbot-paquistao"
+    ]
+  },
+  {
+    "id": "morte-de-bin-laden-em-abbottabad",
+    "data": "2011-05-02",
+    "titulo": "Bin Laden é morto em Abbottabad",
+    "ponto": [
+      73.22,
+      34.15
+    ],
+    "paises": [
+      "PAK"
+    ],
+    "textoMdx": "Forças americanas matam Osama bin Laden a poucas centenas de metros da principal academia militar do país, numa operação que não foi comunicada a Islamabad. As perguntas sobre o que as autoridades paquistanesas sabiam nunca foram respondidas.",
+    "fontes": [
+      "ian-talbot-paquistao"
+    ]
+  },
+  {
+    "id": "ataque-a-escola-de-peshawar",
+    "data": "2014-12-16",
+    "titulo": "Ataque à escola de Peshawar",
+    "ponto": [
+      71.58,
+      34.01
+    ],
+    "paises": [
+      "PAK"
+    ],
+    "textoMdx": "O Talibã paquistanês invade uma escola do exército e mata mais de cento e trinta crianças. É o episódio que vira a opinião pública contra a leniência do Estado com grupos armados, e que precede a primeira transferência de poder entre dois governos eleitos, ocorrida no ano anterior — a primeira em sessenta e seis anos de independência.",
+    "fontes": [
+      "ian-talbot-paquistao"
+    ]
+  },
+  {
+    "id": "enchentes-de-2022-paquistao",
+    "data": "2022-08",
+    "titulo": "As enchentes de 2022",
+    "ponto": [
+      73.06,
+      33.68
+    ],
+    "paises": [
+      "PAK"
+    ],
+    "textoMdx": "As monções alagam cerca de um terço do território e atingem trinta e três milhões de pessoas, num país responsável por menos de 1% das emissões globais. O Paquistão recorreu ao Fundo Monetário Internacional mais de vinte vezes desde 1958.",
+    "fontes": [
+      "ian-talbot-paquistao"
+    ]
   }
 ]
