@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**88 de 174 países** desenhados no mapa têm dossiê (50.6%), somando **494 períodos**.
+**94 de 174 países** desenhados no mapa têm dossiê (54.0%), somando **522 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -13,6 +13,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 |---|---|---|---|
 | Albânia | `ALB` | 6 | 6 |
 | Alemanha | `DEU` | 8 | 8 |
+| Arábia Saudita | `SAU` | 4 | 4 |
 | Argentina | `ARG` | 10 | 10 |
 | Armênia | `ARM` | 6 | 6 |
 | Áustria | `AUT` | 4 | 4 |
@@ -57,12 +58,16 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Hungria | `HUN` | 7 | 7 |
 | Índia | `IND` | 11 | 11 |
 | Indonésia | `IDN` | 8 | 8 |
+| Irã | `IRN` | 6 | 6 |
+| Iraque | `IRQ` | 4 | 4 |
 | Islândia | `ISL` | 3 | 3 |
 | Itália | `ITA` | 4 | 4 |
 | Jamaica | `JAM` | 3 | 3 |
 | Japão | `JPN` | 12 | 12 |
+| Jordânia | `JOR` | 3 | 3 |
 | Laos | `LAO` | 5 | 5 |
 | Letônia | `LVA` | 6 | 6 |
+| Líbano | `LBN` | 6 | 6 |
 | Lituânia | `LTU` | 7 | 7 |
 | Luxemburgo | `LUX` | 3 | 3 |
 | Macedônia do Norte | `MKD` | 3 | 3 |
@@ -85,6 +90,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Romênia | `ROU` | 4 | 4 |
 | Rússia | `RUS` | 6 | 6 |
 | Sérvia | `SRB` | 7 | 7 |
+| Síria | `SYR` | 5 | 5 |
 | Suécia | `SWE` | 3 | 3 |
 | Suíça | `CHE` | 3 | 3 |
 | Suriname | `SUR` | 4 | 4 |
@@ -116,18 +122,16 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | Eq. Guinea | Eritrea | eSwatini | Ethiopia |
 | Falkland Is. | Fiji | Fr. S. Antarctic Lands | Gabon |
 | Gambia | Ghana | Guinea | Guinea-Bissau |
-| Iran | Iraq | Ireland | Israel |
-| Jordan | Kenya | Kuwait | Lebanon |
+| Ireland | Israel | Kenya | Kuwait |
 | Lesotho | Liberia | Libya | Madagascar |
 | Malawi | Mali | Mauritania | Moldova |
 | Mongolia | Morocco | Mozambique | Namibia |
 | Nepal | New Caledonia | New Zealand | Niger |
 | Nigeria | North Korea | Oman | Pakistan |
 | Palestine | Papua New Guinea | Qatar | Rwanda |
-| S. Sudan | Saudi Arabia | Senegal | Sierra Leone |
-| Solomon Is. | Somalia | South Africa | South Korea |
-| Sri Lanka | Sudan | Syria | Taiwan |
-| Tanzania | Togo | Tunisia | Uganda |
-| United Arab Emirates | Vanuatu | W. Sahara | Yemen |
-| Zambia | Zimbabwe |  |  |
+| S. Sudan | Senegal | Sierra Leone | Solomon Is. |
+| Somalia | South Africa | South Korea | Sri Lanka |
+| Sudan | Taiwan | Tanzania | Togo |
+| Tunisia | Uganda | United Arab Emirates | Vanuatu |
+| W. Sahara | Yemen | Zambia | Zimbabwe |
 

@@ -1,0 +1,62 @@
+{
+  "iso": "SYR",
+  "isoNumerico": "760",
+  "nome": "Síria",
+  "periodos": [
+    {
+      "id": "syr-mandato-frances",
+      "inicio": "1920",
+      "fim": "1946",
+      "rotulo": "Mandato Francês",
+      "regime": "reino árabe efêmero, esmagado militarmente, depois mandato francês fragmentado administrativamente",
+      "textoMdx": "O príncipe hachemita Faisal proclama reino árabe independente em Damasco em 1920, meses depois da revolta árabe contra os otomanos durante a Primeira Guerra Mundial — projeto esmagado militarmente pelas forças francesas na batalha de Maysalun, em julho daquele ano, que instala mandato francês sobre o território.\n\n**A administração francesa fragmenta inicialmente a Síria em vários pequenos Estados — Damasco, Alepo, o Estado Alauita e o Estado de Jabal Druso —, estratégia de divisão que exploraria diferenças religiosas e regionais para facilitar o controle colonial**, antes de reunificar administrativamente a maior parte do território ao longo da década de 1930 diante de resistência nacionalista persistente.\n\n**A Grande Revolta Síria, de 1925 a 1927, mobiliza drusos, sunitas urbanos e outros grupos contra o domínio francês, reprimida com bombardeio de Damasco em 1926** — a independência plena só seria alcançada em 1946, quando a França finalmente retira suas tropas sob pressão diplomática do pós-guerra.",
+      "fontes": [
+        "john-mchugo-siria",
+        "acordo-sykes-picot-1916"
+      ]
+    },
+    {
+      "id": "syr-independencia-instabilidade-uar",
+      "inicio": "1946",
+      "fim": "1963",
+      "rotulo": "Independência, instabilidade e a União com o Egito",
+      "regime": "república parlamentar cronicamente instável, depois componente da União Árabe Unida com o Egito",
+      "textoMdx": "A jovem república síria independente sofre sucessivos golpes militares já nos primeiros anos após 1946, refletindo fragilidade institucional profunda e polarização ideológica crescente entre nacionalistas árabes, comunistas e islamistas.\n\n**A União com o Egito de Nasser, formando a República Árabe Unida em 1958, representa tentativa ambiciosa de unificação pan-arabista — mas a subordinação política e econômica síria aos interesses egípcios gera ressentimento crescente**, levando a golpe militar sírio que rompe a união já em 1961, restaurando a Síria como Estado independente.\n\n**Novos golpes sucessivos ao longo dos anos seguintes culminam na tomada de poder pelo Partido Baath em 1963**, iniciando período de instabilidade interna dentro do próprio partido que só se estabilizaria com a ascensão pessoal de Hafez al-Assad, sete anos depois.",
+      "fontes": [
+        "john-mchugo-siria"
+      ]
+    },
+    {
+      "id": "syr-baath-hafez-al-assad",
+      "inicio": "1963",
+      "fim": "2000",
+      "rotulo": "Partido Baath e Hafez al-Assad",
+      "regime": "república de partido único sob domínio pessoal crescente da família Assad",
+      "textoMdx": "O Partido Baath assume o poder definitivamente em 1963, mas apenas o golpe interno de Hafez al-Assad, em 1970 — o chamado \"Movimento Corretivo\" —, estabilizaria o regime sob liderança pessoal duradoura que se manteria, com sucessão dinástica, por mais de cinco décadas.\n\n**O massacre de Hama, em 1982, quando forças governamentais esmagam revolta da Irmandade Muçulmana bombardeando bairros inteiros da cidade, mata entre dez e quarenta mil pessoas em poucas semanas** — um dos episódios de repressão estatal mais letais da história árabe moderna, executado sem qualquer investigação ou responsabilização posterior.\n\n**A intervenção militar síria no Líbano, iniciada em 1976 sob pretexto de estabilizar a guerra civil vizinha, se estenderia por quase três décadas de ocupação de facto, transformando a Síria em ator dominante da política libanesa** — Hafez al-Assad morre em 2000, transferindo o poder a seu filho Bashar através de emenda constitucional apressada que reduz a idade mínima presidencial exigida.",
+      "fontes": [
+        "john-mchugo-siria"
+      ]
+    },
+    {
+      "id": "syr-bashar-al-assad-guerra-civil",
+      "inicio": "2000",
+      "fim": "2024",
+      "rotulo": "Bashar al-Assad e a Guerra Civil",
+      "regime": "república de partido único sob domínio pessoal, mergulhada em guerra civil a partir de 2011",
+      "textoMdx": "Bashar al-Assad sucede o pai em 2000 gerando esperanças iniciais de abertura — a breve \"Primavera de Damasco\" de liberalização seria rapidamente revertida, mantendo estrutura autoritária essencialmente intacta pela década seguinte.\n\n**Os protestos da Primavera Árabe, iniciados em março de 2011, são recebidos com repressão militar brutal que rapidamente transforma manifestações pacíficas em guerra civil aberta** — o uso de armas químicas contra civis em Ghouta, em 2013, matando centenas em ataque com gás sarin, provoca condenação internacional sem, contudo, intervenção militar ocidental direta.\n\n**O Estado Islâmico controla, entre 2014 e 2017, vastas áreas do território sírio, enquanto a intervenção militar russa, a partir de 2015, se prova decisiva para salvar o regime de Assad do colapso diante do avanço de múltiplas forças rebeldes** — a guerra mataria, ao longo de mais de uma década, mais de meio milhão de pessoas e deslocaria cerca de metade da população síria pré-guerra, uma das maiores crises de refugiados desde a Segunda Guerra Mundial.\n\n**Uma ofensiva rebelde liderada pelo grupo islamista Hayat Tahrir al-Sham, iniciada em novembro de 2024, toma Alepo e avança rapidamente sobre Damasco, capturada em poucos dias — Bashar al-Assad foge para a Rússia em dezembro daquele ano, encerrando 54 anos de domínio ininterrupto da família Assad sobre a Síria.**",
+      "fontes": [
+        "john-mchugo-siria"
+      ]
+    },
+    {
+      "id": "syr-transicao-atual",
+      "inicio": "2024",
+      "rotulo": "Transição pós-Assad",
+      "regime": "governo de transição liderado por ex-comandante rebelde islamista, de legitimidade internacional ainda em construção",
+      "textoMdx": "Ahmed al-Sharaa, comandante do Hayat Tahrir al-Sham conhecido anteriormente pelo nome de guerra Abu Mohammad al-Jolani e outrora vinculado à al-Qaeda antes de romper publicamente com a organização, assume a liderança do governo de transição sírio, buscando reconhecimento internacional e reconstrução de um Estado devastado por mais de uma década de guerra.\n\n**A transição enfrenta desafios imensos: tensões sectárias latentes entre a maioria sunita, a minoria alauita da qual a família Assad se originava, comunidades drusas e curdas com aspirações de autonomia própria, e a necessidade de reconstruir instituições estatais praticamente destruídas.**\n\n**O levantamento gradual de sanções internacionais impostas ao regime Assad, negociado com potências ocidentais e regionais ao longo de 2025, condiciona-se a garantias de proteção a minorias e a processo político inclusivo** — o desfecho dessa transição permanece, no momento presente, ainda incerto, com a Síria buscando reconstruir tanto instituições estatais quanto confiança social depois de uma das guerras civis mais devastadoras do século XXI.",
+      "fontes": [
+        "john-mchugo-siria"
+      ]
+    }
+  ]
+}

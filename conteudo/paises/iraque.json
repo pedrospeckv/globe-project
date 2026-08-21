@@ -1,0 +1,51 @@
+{
+  "iso": "IRQ",
+  "isoNumerico": "368",
+  "nome": "Iraque",
+  "periodos": [
+    {
+      "id": "irq-mandato-britanico-reino",
+      "inicio": "1920",
+      "fim": "1958",
+      "rotulo": "Mandato Britânico e o Reino do Iraque",
+      "regime": "mandato britânico, depois monarquia hachemita sob influência britânica contínua",
+      "textoMdx": "O Iraque moderno nasce da fusão administrativa britânica de três antigas províncias otomanas — Mosul, Bagdá e Basra —, unidas artificialmente sob mandato britânico aprovado pela Liga das Nações em 1920, sem continuidade política direta com as civilizações mesopotâmicas antigas que o território abrigara milênios antes.\n\n**A Grã-Bretanha instala Faisal, príncipe hachemita recém-expulso da Síria pelos franceses, como rei em 1921 — arranjo que preserva influência britânica substancial mesmo após a independência formal, obtida em 1932, através de tratado que mantém bases militares e direitos de trânsito britânicos.**\n\n**Um golpe pró-Eixo liderado por Rashid Ali al-Gaylani, em 1941, buscando romper a influência britânica durante a Segunda Guerra Mundial, é rapidamente esmagado por intervenção militar britânica direta** — episódio que revelaria os limites reais da soberania iraquiana sob a monarquia hachemita, cujo fim viria através de golpe sangrento em 1958.",
+      "fontes": [
+        "charles-tripp-iraque",
+        "acordo-sykes-picot-1916"
+      ]
+    },
+    {
+      "id": "irq-republica-golpes-sucessivos",
+      "inicio": "1958",
+      "fim": "1979",
+      "rotulo": "República e golpes sucessivos",
+      "regime": "república instável, sujeita a sucessivos golpes militares e de partido",
+      "textoMdx": "A Revolução de 14 de julho de 1958, liderada pelo general Abd al-Karim Qasim, executa o rei Faisal II e toda a família real, encerrando a monarquia hachemita entre grande apoio popular — mas o próprio Qasim seria deposto e morto em novo golpe em 1963.\n\n**O Partido Baath, de ideologia pan-arabista socialista, assume o poder definitivamente através de golpe em 1968, após tentativa anterior malsucedida em 1963**, consolidando estrutura de partido único que dominaria a política iraquiana pelas quatro décadas seguintes, sob liderança crescentemente centralizada em torno da figura de Saddam Hussein, vice-presidente desde 1968 e poder real por trás do trono.",
+      "fontes": [
+        "charles-tripp-iraque"
+      ]
+    },
+    {
+      "id": "irq-era-saddam-hussein",
+      "inicio": "1979",
+      "fim": "2003",
+      "rotulo": "Era de Saddam Hussein",
+      "regime": "ditadura de partido único sob domínio pessoal absoluto",
+      "textoMdx": "Saddam Hussein assume formalmente a presidência em 1979 e invade o Irã no ano seguinte, iniciando guerra de oito anos que mataria centenas de milhares de pessoas sem alterar significativamente as fronteiras entre os dois países — durante o conflito, forças iraquianas usariam armas químicas repetidamente, inclusive contra a própria população curda iraquiana, culminando no massacre de Halabja, em 1988, que mata milhares de civis curdos em um único ataque com gás.\n\n**A invasão do Kuwait, em agosto de 1990, provoca formação de coalizão internacional liderada pelos Estados Unidos que expulsa as forças iraquianas em fevereiro de 1991 — a Guerra do Golfo, seguida por mais de uma década de sanções econômicas devastadoras impostas pela ONU, empobreceria profundamente a população iraquiana sem derrubar o regime.**\n\n**A invasão liderada pelos Estados Unidos, em março de 2003, sob alegação nunca confirmada de armas de destruição em massa, derruba Saddam Hussein em semanas — capturado meses depois, seria julgado e executado por um tribunal iraquiano em 2006, pouco antes de o país mergulhar em violência sectária devastadora.**",
+      "fontes": [
+        "charles-tripp-iraque"
+      ]
+    },
+    {
+      "id": "irq-ocupacao-guerra-civil-atual",
+      "inicio": "2003",
+      "rotulo": "Ocupação americana, guerra civil e o Iraque pós-Saddam",
+      "regime": "ocupação militar americana, depois república parlamentar frágil sob crescente influência iraniana",
+      "textoMdx": "A ocupação americana desmantela completamente o aparato estatal baathista, incluindo dissolução do exército iraquiano — decisão que deixaria centenas de milhares de homens armados e desempregados, alimentando diretamente a insurgência sunita que se seguiria e a violência sectária entre xiitas e sunitas que atingiria seu pico entre 2006 e 2008.\n\n**O vácuo de poder e o ressentimento sunita com a nova ordem política dominada por xiitas permitem a ascensão do Estado Islâmico, que captura Mosul e vastas áreas do norte e oeste iraquianos em 2014, declarando califado territorial** — derrotado apenas em 2017 após campanha militar prolongada com apoio aéreo internacional, deixando cidades como Mosul quase completamente destruídas.\n\n**Os protestos de outubro de 2019, mobilizando principalmente jovens xiitas contra corrupção endêmica e influência iraniana excessiva sobre a política iraquiana, são reprimidos com centenas de mortos** — o Iraque permanece, décadas depois da invasão americana, uma democracia formal frágil, marcada por sistema de partilha sectária de poder e influência iraniana profunda sobre milícias e partidos políticos dominantes.",
+      "fontes": [
+        "charles-tripp-iraque"
+      ]
+    }
+  ]
+}

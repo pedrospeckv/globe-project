@@ -3791,5 +3791,77 @@
     "publicacao": "Indonésia, Portugal e Nações Unidas",
     "data": "1999-05-05",
     "citacao": "Estabeleceu os termos da consulta popular timorense de agosto de 1999, na qual mais de 78% dos votantes optariam pela independência — resultado seguido de campanha de violência incendiária por milícias pró-indonésias que destruiria a maior parte da infraestrutura do território."
+  },
+  {
+    "id": "josef-wiesehofer-persia-antiga",
+    "tipo": "livro",
+    "titulo": "Ancient Persia",
+    "autor": "Josef Wiesehöfer",
+    "data": "1996",
+    "citacao": "Estudo acadêmico dos impérios persas antigos, do aquemênida de Ciro, o Grande, ao sassânida, cobrindo a organização administrativa, religiosa e militar que tornou a Pérsia rival duradoura primeiro da Grécia e Roma, depois de Bizâncio."
+  },
+  {
+    "id": "abbas-amanat-ira",
+    "tipo": "livro",
+    "titulo": "Iran: A Modern History",
+    "autor": "Abbas Amanat",
+    "data": "2017",
+    "citacao": "História iraniana do Império Safávida à República Islâmica contemporânea, cobrindo a adoção do xiismo duodecimano como religião de Estado, o golpe de 1953 contra Mossadegh e a Revolução Islâmica de 1979."
+  },
+  {
+    "id": "charles-tripp-iraque",
+    "tipo": "livro",
+    "titulo": "A History of Iraq",
+    "autor": "Charles Tripp",
+    "data": "2007",
+    "citacao": "História iraquiana do mandato britânico à ocupação americana pós-2003, tratando o Iraque moderno como construção estatal do século XX sobre território fragmentado por décadas de domínio otomano indireto, sem continuidade política direta com as civilizações antigas da Mesopotâmia."
+  },
+  {
+    "id": "acordo-sykes-picot-1916",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo Sykes-Picot",
+    "publicacao": "Reino Unido e França, com anuência russa",
+    "data": "1916-05-16",
+    "citacao": "Dividiu secretamente as províncias árabes do Império Otomano em esferas de influência britânica e francesa, antecipando por anos as fronteiras que se tornariam Iraque, Síria, Líbano e Jordânia — acordo cuja revelação pública, após a Revolução Russa de 1917, geraria ressentimento árabe duradouro por contradizer promessas britânicas de independência árabe feitas durante a guerra."
+  },
+  {
+    "id": "madawi-al-rasheed-arabia-saudita",
+    "tipo": "livro",
+    "titulo": "A History of Saudi Arabia",
+    "autor": "Madawi Al-Rasheed",
+    "data": "2010",
+    "citacao": "História crítica da Arábia Saudita, do primeiro Estado saudita-wahhabita de 1744 ao reino contemporâneo, examinando a aliança fundacional entre a família Saud e o movimento religioso wahhabita que definiria a legitimidade do Estado até hoje."
+  },
+  {
+    "id": "john-mchugo-siria",
+    "tipo": "livro",
+    "titulo": "Syria: A Recent History",
+    "autor": "John McHugo",
+    "data": "2014",
+    "citacao": "História síria do mandato francês à guerra civil iniciada em 2011, cobrindo o massacre de Hama de 1982 e a consolidação do domínio da família Assad sob Hafez e depois Bashar."
+  },
+  {
+    "id": "fawwaz-traboulsi-libano",
+    "tipo": "livro",
+    "titulo": "A History of Modern Lebanon",
+    "autor": "Fawwaz Traboulsi",
+    "data": "2012",
+    "citacao": "História libanesa do Mutassarifado otomano do Monte Líbano à era pós-guerra civil, examinando como a expansão territorial francesa de 1920 alterou o equilíbrio confessional que moldaria décadas de conflito posterior."
+  },
+  {
+    "id": "acordo-taif-1989",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Taif",
+    "publicacao": "Parlamentares libaneses, sob mediação saudita e da Liga Árabe",
+    "data": "1989-10-22",
+    "citacao": "Encerrou formalmente a Guerra Civil Libanesa de 1975-1990, reequilibrando a partilha confessional de poder em favor de maior paridade entre cristãos e muçulmanos e formalizando a presença militar síria como garantidora da nova ordem — presença que se estenderia por outros quinze anos além do previsto no próprio acordo."
+  },
+  {
+    "id": "kamal-salibi-jordania",
+    "tipo": "livro",
+    "titulo": "The Modern History of Jordan",
+    "autor": "Kamal Salibi",
+    "data": "1998",
+    "citacao": "História jordaniana do Emirado da Transjordânia sob mandato britânico ao reinado de Hussein, cobrindo a anexação da Cisjordânia em 1948, o assassinato de Abdullah I em 1951 e o conflito de Setembro Negro contra a OLP em 1970."
   }
 ]

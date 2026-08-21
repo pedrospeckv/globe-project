@@ -1,0 +1,72 @@
+{
+  "iso": "IRN",
+  "isoNumerico": "364",
+  "nome": "Irã",
+  "periodos": [
+    {
+      "id": "irn-imperio-aquemenida",
+      "inicio": "-550",
+      "fim": "-330",
+      "rotulo": "Império Aquemênida",
+      "regime": "monarquia multicontinental, o primeiro grande império territorial da história",
+      "textoMdx": "Ciro, o Grande, unifica os persas e conquista a Média, a Lídia e a Babilônia entre 550 e 539 antes de Cristo, fundando o maior império já formado até então — governado com política incomum de tolerância religiosa e administrativa sobre seus muitos povos súditos, exemplificada pela permissão dada aos judeus exilados de retornar a Jerusalém.\n\n**Dario I organiza o império em satrapias administrativas conectadas por estradas reais e sistema postal eficiente, e constrói a capital cerimonial de Persépolis** — mas suas tentativas de expansão à Grécia, continuadas por seu filho Xerxes, terminam em derrotas decisivas em Maratona e Salamina, limitando permanentemente o avanço persa ao ocidente.\n\n**A conquista de Alexandre, o Grande, entre 334 e 330 antes de Cristo, extingue o Império Aquemênida em poucos anos**, embora a cultura e a administração persas influenciassem profundamente os reinos helenísticos sucessores que governariam o território nos séculos seguintes.",
+      "fontes": [
+        "josef-wiesehofer-persia-antiga"
+      ]
+    },
+    {
+      "id": "irn-partas-sassanidas",
+      "inicio": "-247",
+      "fim": "651",
+      "rotulo": "Impérios Parta e Sassânida",
+      "regime": "monarquias persas restauradas, rivais duradouras de Roma e depois Bizâncio",
+      "textoMdx": "A dinastia Arsácida parta restaura o domínio persa nativo a partir de cerca de 247 antes de Cristo, expulsando gradualmente o domínio grego selêucida herdeiro de Alexandre — os partas se tornariam adversários formidáveis de Roma, infligindo derrota notória ao general romano Crasso em Carras, em 53 antes de Cristo.\n\n**A dinastia Sassânida, que derruba os partos em 224 depois de Cristo, estabelece o zoroastrismo como religião oficial de Estado e centraliza a administração de forma muito mais sistemática que seus predecessores** — o império sassânida se tornaria rival duradouro do Império Bizantino, travando guerras recorrentes ao longo de quatro séculos pelo controle da Mesopotâmia e do Levante.\n\n**O esgotamento mútuo das guerras bizantino-sassânidas do início do século VII deixa ambos os impérios vulneráveis à explosão das conquistas árabe-muçulmanas — a derrota sassânida decisiva em Qadisiyyah, em 636, e a morte do último rei, Yazdegerd III, em 651, extinguem definitivamente o domínio persa pré-islâmico**, abrindo caminho à conversão gradual, mas nunca completa, da Pérsia ao islã.",
+      "fontes": [
+        "josef-wiesehofer-persia-antiga"
+      ]
+    },
+    {
+      "id": "irn-imperio-safavida",
+      "inicio": "1501",
+      "fim": "1736",
+      "rotulo": "Império Safávida",
+      "regime": "monarquia teocrática xiita, fundadora da identidade religiosa iraniana moderna",
+      "textoMdx": "O xá Ismail I funda a dinastia Safávida em 1501 e impõe o xiismo duodecimano como religião oficial de Estado — decisão que separaria religiosamente o Irã do mundo sunita otomano e árabe vizinho de forma duradoura, definindo identidade nacional iraniana distinta que persiste até hoje.\n\n**O reinado de Abbas I, entre 1588 e 1629, leva o império ao apogeu, com a capital Isfahan se tornando uma das cidades mais magníficas do mundo — a expressão persa \"Isfahan é metade do mundo\" celebra sua arquitetura, seus jardins e sua vida comercial cosmopolita.**\n\n**O declínio safávida, ao longo do século XVIII, culmina na invasão de guerreiros afegãos ghilzai que saqueiam Isfahan em 1722** — colapso que mergulharia o Irã em décadas de instabilidade antes que Nader Shah reunificasse brevemente o território sob nova dinastia.",
+      "fontes": [
+        "abbas-amanat-ira"
+      ]
+    },
+    {
+      "id": "irn-afsharidas-zand-cajar",
+      "inicio": "1736",
+      "fim": "1925",
+      "rotulo": "Dinastias Afshárida, Zand e Cajar",
+      "regime": "monarquias sucessivas, com território crescentemente pressionado pelas potências russa e britânica",
+      "textoMdx": "Nader Shah, general militar de origem humilde, reunifica o Irã e conduz campanhas militares espetaculares, incluindo o saque de Delhi em 1739 e a tomada do lendário Trono do Pavão mogol — mas seu assassinato, em 1747, mergulha o país em nova fragmentação.\n\n**A dinastia Zand, sob Karim Khan, governa com relativa moderação a partir de Shiraz antes de ceder lugar à dinastia Qajar, estabelecida por Agha Mohammad Khan em 1789** — os Qajar perderiam território substancial ao Cáucaso para a Rússia através dos tratados de Gulistan, em 1813, e Turkmenchay, em 1828, marcos que a memória nacional iraniana recorda como humilhações territoriais duradouras.\n\n**A Revolução Constitucional de 1905-1911 força o xá a aceitar parlamento e constituição limitando o poder real — experimento democrático precoce para a região, ainda que frágil e sujeito a reversões**, encerrado definitivamente quando o oficial militar Reza Khan depõe o último xá Qajar em 1925, fundando nova dinastia.",
+      "fontes": [
+        "abbas-amanat-ira"
+      ]
+    },
+    {
+      "id": "irn-dinastia-pahlavi",
+      "inicio": "1925",
+      "fim": "1979",
+      "rotulo": "Dinastia Pahlavi",
+      "regime": "monarquia modernizadora e crescentemente autoritária",
+      "textoMdx": "Reza Shah Pahlavi conduz modernização acelerada e secularização do Estado iraniano, inspirada explicitamente no modelo de Atatürk na Turquia — reforma legal, educação ocidentalizada, restrições ao véu islâmico —, antes de ser forçado à abdicação pela ocupação conjunta britânico-soviética de 1941, que teme simpatias iranianas ao Eixo.\n\n**O golpe de 1953, orquestrado pela CIA americana e pelo serviço secreto britânico, derruba o primeiro-ministro Mohammad Mossadegh, eleito democraticamente, depois de sua nacionalização da indústria petrolífera iraniana controlada por interesses britânicos** — episódio que se tornaria referência central da narrativa nacionalista e revolucionária iraniana contra a interferência ocidental.\n\n**O xá Mohammad Reza Pahlavi, restaurado ao poder pleno após o golpe, governa de forma crescentemente autoritária nas décadas seguintes, apoiado pela polícia secreta SAVAK, enquanto a riqueza petrolífera alimenta desigualdade social profunda e ressentimento religioso conservador crescente** — tensões que explodiriam na Revolução Islâmica de 1979, forçando sua fuga definitiva do país.",
+      "fontes": [
+        "abbas-amanat-ira"
+      ]
+    },
+    {
+      "id": "irn-republica-islamica",
+      "inicio": "1979",
+      "rotulo": "República Islâmica do Irã",
+      "regime": "teocracia constitucional, sob autoridade suprema de um clérigo xiita",
+      "textoMdx": "O aiatolá Ruhollah Khomeini retorna do exílio para liderar a nova república islâmica, instituindo sistema teocrático único no qual um Guia Supremo clérigo exerce autoridade final acima de instituições eleitas — a tomada da embaixada americana em Teerã, em novembro de 1979, e a crise de reféns de 444 dias que se segue, rompem definitivamente as relações entre os dois países.\n\n**A Guerra Irã-Iraque, de 1980 a 1988, deflagrada pela invasão iraquiana, mata entre meio milhão e um milhão de pessoas de ambos os lados, incluindo vítimas de armas químicas iraquianas usadas repetidamente contra soldados e civis iranianos** — trauma nacional que consolidaria a legitimidade do novo regime através de mobilização patriótica prolongada.\n\n**O programa nuclear iraniano, motivo de sanções internacionais crescentes ao longo dos anos 2000 e 2010, seria temporariamente contido pelo Acordo Nuclear de 2015 — revertido pela retirada unilateral americana em 2018, que restauraria sanções e tensão regional crescente.**\n\n**Os protestos de 2022-2023, deflagrados pela morte sob custódia da polícia moral de Mahsa Amini, jovem curda detida por usar o véu de forma considerada inadequada, tornam-se o mais amplo movimento de contestação popular desde a revolução de 1979** — reprimidos com centenas de mortos, mas revelando fissuras profundas entre o regime teocrático e parcela crescente da sociedade iraniana, especialmente entre mulheres e jovens urbanos.",
+      "fontes": [
+        "abbas-amanat-ira"
+      ]
+    }
+  ]
+}

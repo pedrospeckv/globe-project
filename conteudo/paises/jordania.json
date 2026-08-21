@@ -1,0 +1,39 @@
+{
+  "iso": "JOR",
+  "isoNumerico": "400",
+  "nome": "Jordânia",
+  "periodos": [
+    {
+      "id": "jor-emirado-transjordania-mandato",
+      "inicio": "1921",
+      "fim": "1946",
+      "rotulo": "Emirado da Transjordânia sob o Mandato Britânico",
+      "regime": "emirado autônomo dentro do mandato britânico da Palestina",
+      "textoMdx": "A Grã-Bretanha instala o príncipe hachemita Abdullah como emir da Transjordânia em 1921, território desértico de população escassa administrado com relativa autonomia em relação ao mandato britânico da Palestina propriamente dito, do qual formalmente fazia parte inicialmente.\n\n**A Legião Árabe, força militar treinada e comandada por oficiais britânicos, sobretudo o lendário John Bagot Glubb — conhecido como Glubb Pasha —, se tornaria a instituição mais sólida e disciplinada do jovem Estado**, base sobre a qual a monarquia hachemita construiria legitimidade e capacidade de governo duradouras.",
+      "fontes": [
+        "kamal-salibi-jordania"
+      ]
+    },
+    {
+      "id": "jor-reino-hachemita-abdullah-hussein",
+      "inicio": "1946",
+      "fim": "1999",
+      "rotulo": "Reino Hachemita sob Abdullah I e Hussein",
+      "regime": "monarquia constitucional hachemita",
+      "textoMdx": "A independência plena, obtida em 1946, é seguida rapidamente pela guerra árabe-israelense de 1948, na qual a Transjordânia ocupa e depois anexa formalmente a Cisjordânia, incluindo Jerusalém Oriental — único Estado árabe a formalizar anexação de território conquistado, reconhecida internacionalmente apenas pelo Reino Unido e pelo Paquistão.\n\n**O rei Abdullah I é assassinado em 1951 por nacionalista palestino, no complexo da Mesquita de Al-Aqsa em Jerusalém, ressentido com negociações percebidas como excessivamente conciliadoras com Israel** — seu neto Hussein, que assumiria o trono em 1953 ainda jovem, governaria por quase meio século em meio a turbulência regional constante.\n\n**A derrota árabe na Guerra dos Seis Dias, em 1967, custa à Jordânia o controle da Cisjordânia, ocupada por Israel — perda territorial que a Jordânia só reconheceria formalmente, renunciando qualquer reivindicação, em 1988, em favor de eventual Estado palestino próprio.**\n\n**O conflito de Setembro Negro, em 1970, opõe o Exército jordaniano às forças da OLP, que operavam com crescente autonomia militar dentro do território — combates que expulsam a liderança palestina para o Líbano, e que Hussein consolidaria décadas depois assinando tratado de paz formal com Israel em 1994, o segundo Estado árabe a fazê-lo.**",
+      "fontes": [
+        "kamal-salibi-jordania"
+      ]
+    },
+    {
+      "id": "jor-abdullah-ii-atual",
+      "inicio": "1999",
+      "rotulo": "Reino sob Abdullah II",
+      "regime": "monarquia constitucional",
+      "textoMdx": "Abdullah II sucede o pai Hussein em 1999, mantendo a Jordânia como aliado ocidental confiável em região cronicamente instável, apesar de recursos naturais escassos e dependência considerável de ajuda externa.\n\n**A Jordânia absorve sucessivas ondas maciças de refugiados desproporcionais ao seu tamanho — iraquianos após a invasão americana de 2003, e sobretudo sírios após 2011, com o campo de Zaatari se tornando um dos maiores assentamentos de refugiados do mundo** — pressão demográfica e econômica que testaria repetidamente a capacidade e a estabilidade do pequeno reino.\n\n**A guerra em Gaza, iniciada em 2023, gera tensão interna considerável entre a política externa moderada da monarquia — que preserva o tratado de paz com Israel — e a opinião pública jordaniana, majoritariamente de origem palestina em proporção significativa, profundamente solidária à causa palestina** — equilíbrio delicado que Abdullah II navegaria como uma das provas mais exigentes de seu reinado.",
+      "fontes": [
+        "kamal-salibi-jordania"
+      ]
+    }
+  ]
+}

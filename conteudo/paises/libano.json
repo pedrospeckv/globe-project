@@ -1,0 +1,73 @@
+{
+  "iso": "LBN",
+  "isoNumerico": "422",
+  "nome": "Líbano",
+  "periodos": [
+    {
+      "id": "lbn-mutassarifado-monte-libano",
+      "inicio": "1861",
+      "fim": "1920",
+      "rotulo": "Mutassarifado do Monte Líbano",
+      "regime": "província autônoma do Império Otomano, sob governador cristão não libanês garantido por potências europeias",
+      "textoMdx": "O conflito sectário de 1860 entre maronitas cristãos e drusos, que mata milhares de cristãos em massacres, provoca intervenção militar francesa e pressão diplomática europeia conjunta sobre a Sublime Porta otomana, resultando na criação, em 1861, de província autônoma especial no Monte Líbano, administrada por governador cristão de origem não libanesa para garantir neutralidade entre as facções.\n\n**O arranjo garante décadas de relativa paz e prosperidade através do comércio de seda, com o Monte Líbano se tornando uma das regiões mais alfabetizadas e economicamente dinâmicas do Império Otomano** — estabilidade que se romperia catastroficamente com a Primeira Guerra Mundial.\n\n**O bloqueio naval aliado e as requisições otomanas durante a guerra provocam fome devastadora entre 1915 e 1918, matando talvez um terço da população da montanha** — tragédia que a memória libanesa recorda como trauma fundacional comparável, em proporção, às piores fomes do século XX, e que encerraria definitivamente o status autônomo otomano em favor do novo mandato francês.",
+      "fontes": [
+        "fawwaz-traboulsi-libano"
+      ]
+    },
+    {
+      "id": "lbn-mandato-frances-grande-libano",
+      "inicio": "1920",
+      "fim": "1943",
+      "rotulo": "Mandato Francês e o Grande Líbano",
+      "regime": "mandato francês, estabelecendo entidade territorial ampliada além do antigo Monte Líbano cristão",
+      "textoMdx": "A França proclama o \"Grande Líbano\" em 1920, expandindo o território muito além do antigo Monte Líbano de maioria cristã para incluir Beirute, o Vale do Bekaa, Trípoli e o sul, regiões de população predominantemente muçulmana — decisão que alteraria fundamentalmente o equilíbrio demográfico e semearia tensões sectárias que definiriam a política libanesa pelo século seguinte.\n\n**A independência, obtida em 1943 em meio ao caos da Segunda Guerra Mundial, se apoia sobre o Pacto Nacional, acordo não escrito que distribui os principais cargos de Estado entre as comunidades religiosas — presidência maronita, primeiro-ministro sunita, presidência do parlamento xiita** — sistema de partilha confessional de poder que preservaria paz relativa por décadas, mas que jamais se ajustaria plenamente às mudanças demográficas reais do país.",
+      "fontes": [
+        "fawwaz-traboulsi-libano"
+      ]
+    },
+    {
+      "id": "lbn-republica-independente-prosperidade",
+      "inicio": "1943",
+      "fim": "1975",
+      "rotulo": "República independente e a era de prosperidade",
+      "regime": "república parlamentar sob partilha confessional de poder",
+      "textoMdx": "O Líbano independente floresce como centro bancário, comercial e turístico regional ao longo das décadas de 1950 e 1960, ganhando reputação de \"Suíça do Oriente Médio\" — Beirute se tornaria destino cosmopolita que atraía visitantes e capital de toda a região árabe.\n\n**A chegada maciça de refugiados palestinos após a guerra árabe-israelense de 1948, e novamente após a expulsão da OLP da Jordânia em 1970, altera progressivamente o delicado equilíbrio demográfico confessional sobre o qual repousava o Pacto Nacional de 1943** — a presença armada palestina crescente, operando com autonomia considerável dentro do território libanês, tensionaria as relações intercomunitárias até o ponto de ruptura.",
+      "fontes": [
+        "fawwaz-traboulsi-libano"
+      ]
+    },
+    {
+      "id": "lbn-guerra-civil",
+      "inicio": "1975",
+      "fim": "1990",
+      "rotulo": "Guerra Civil Libanesa",
+      "regime": "Estado fragmentado por controle militar de milícias sectárias rivais e forças de ocupação estrangeiras",
+      "textoMdx": "A Guerra Civil Libanesa, deflagrada em abril de 1975, opõe milícias cristãs, coalizão muçulmana-esquerdista e facções palestinas em conflito multifacetado que se estenderia por quinze anos, matando cerca de cento e cinquenta mil pessoas e destruindo boa parte da infraestrutura urbana do país.\n\n**A intervenção militar síria, a partir de 1976, e duas invasões israelenses, em 1978 e, mais extensamente, em 1982 — esta última cercando Beirute e expulsando a liderança da OLP —, internacionalizam profundamente o conflito** — o massacre de Sabra e Shatila, em setembro de 1982, no qual milícias cristãs aliadas de Israel matam centenas de civis palestinos em campos de refugiados sob ocupação israelense, se tornaria um dos episódios mais condenados do conflito.\n\n**A resistência à ocupação israelense do sul do país, mantida até 2000, catalisa a formação do Hezbollah, movimento xiita apoiado pelo Irã que se tornaria, nas décadas seguintes, força militar e política mais poderosa que o próprio Exército libanês** — a guerra terminaria formalmente com o Acordo de Taif de 1989, que rebalanceia o sistema confessional e formaliza a presença síria como garantidora da nova ordem.",
+      "fontes": [
+        "fawwaz-traboulsi-libano",
+        "acordo-taif-1989"
+      ]
+    },
+    {
+      "id": "lbn-dominio-sirio-pos-guerra",
+      "inicio": "1990",
+      "fim": "2005",
+      "rotulo": "Reconstrução sob tutela síria",
+      "regime": "república confessional sob influência política e militar síria dominante",
+      "textoMdx": "A reconstrução do pós-guerra, liderada pelo empresário-primeiro-ministro Rafic Hariri, transforma fisicamente o centro de Beirute, embora acumulando dívida pública substancial que comprometeria as finanças libanesas por décadas — a Síria mantém, ao longo de todo o período, tropas e influência política decisiva sobre a política libanesa, muito além do previsto originalmente pelo Acordo de Taif.\n\n**O Hezbollah preserva seu arsenal militar mesmo após o desarmamento das demais milícias exigido por Taif, justificado pela continuidade da ocupação israelense do sul do país até sua retirada em 2000** — exceção que consolidaria o movimento como poder paralelo ao próprio Estado libanês.\n\n**O assassinato de Rafic Hariri, por carro-bomba em fevereiro de 2005, amplamente atribuído a agentes sírios ou do Hezbollah, provoca a chamada Revolução dos Cedros — protestos de massa que forçam a retirada das tropas sírias do Líbano após quase três décadas de presença ininterrupta.**",
+      "fontes": [
+        "fawwaz-traboulsi-libano"
+      ]
+    },
+    {
+      "id": "lbn-independencia-crise-atual",
+      "inicio": "2005",
+      "rotulo": "Líbano pós-síria: Hezbollah, guerra e colapso",
+      "regime": "república confessional paralisada por bloqueio político recorrente e colapso econômico",
+      "textoMdx": "A retirada síria não traz estabilidade política duradoura: o sistema confessional, cada vez mais paralisado por vetos cruzados entre facções, convive com a Guerra de 2006 entre Israel e o Hezbollah, que devasta infraestrutura civil e mata mais de mil libaneses em pouco mais de um mês de combates.\n\n**O colapso financeiro iniciado em 2019 se tornaria, segundo avaliação do próprio Banco Mundial, uma das piores crises econômicas do mundo desde meados do século XIX — a libra libanesa perderia mais de 90% de seu valor, e boa parte da poupança da classe média se tornaria inacessível em bancos à beira do colapso.**\n\n**A explosão no porto de Beirute, em agosto de 2020, causada por nitrato de amônio armazenado negligentemente por anos, mata mais de duzentas pessoas e destrói bairros inteiros da capital — desastre que provoca renúncia do governo sem, contudo, produzir responsabilização judicial efetiva até hoje.**\n\n**A guerra entre Israel e o Hezbollah de 2023-2024, seguida da ofensiva militar israelense contra a Faixa de Gaza, mata o próprio líder histórico do Hezbollah, Hassan Nasrallah, em setembro de 2024, degradando severamente a capacidade militar do movimento** — cessar-fogo negociado em novembro daquele ano abriria caminho, meses depois, à eleição de novo presidente que encerraria vácuo institucional de mais de dois anos, embora a reconstrução do país permaneça, no momento presente, tarefa imensa e incerta.",
+      "fontes": [
+        "fawwaz-traboulsi-libano"
+      ]
+    }
+  ]
+}
