@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**141 de 174 países** desenhados no mapa têm dossiê (81.0%), somando **716 períodos**.
+**146 de 174 países** desenhados no mapa têm dossiê (83.9%), somando **736 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -11,8 +11,10 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 
 | país | iso | períodos | com texto |
 |---|---|---|---|
+| África do Sul | `ZAF` | 4 | 4 |
 | Albânia | `ALB` | 6 | 6 |
 | Alemanha | `DEU` | 8 | 8 |
+| Angola | `AGO` | 4 | 4 |
 | Arábia Saudita | `SAU` | 4 | 4 |
 | Argélia | `DZA` | 6 | 6 |
 | Argentina | `ARG` | 10 | 10 |
@@ -103,6 +105,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Mauritânia | `MRT` | 3 | 3 |
 | México | `MEX` | 9 | 9 |
 | Mianmar | `MMR` | 7 | 7 |
+| Moçambique | `MOZ` | 4 | 4 |
 | Montenegro | `MNE` | 6 | 6 |
 | Nicarágua | `NIC` | 6 | 6 |
 | Níger | `NER` | 4 | 4 |
@@ -152,6 +155,8 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Vanuatu | `VUT` | 2 | 2 |
 | Venezuela | `VEN` | 5 | 5 |
 | Vietnã | `VNM` | 6 | 6 |
+| Zâmbia | `ZMB` | 3 | 3 |
+| Zimbábue | `ZWE` | 5 | 5 |
 
 ## Sem dossiê
 
@@ -161,13 +166,11 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 
 | | | | |
 |---|---|---|---|
-| Afghanistan | Angola | Antarctica | Bangladesh |
-| Bhutan | Botswana | Burundi | Cyprus |
-| eSwatini | Falkland Is. | Fr. S. Antarctic Lands | Ireland |
-| Israel | Lesotho | Madagascar | Malawi |
-| Moldova | Mongolia | Mozambique | Namibia |
-| Nepal | New Caledonia | North Korea | Pakistan |
-| Palestine | Rwanda | South Africa | South Korea |
-| Sri Lanka | Taiwan | W. Sahara | Zambia |
-| Zimbabwe |  |  |  |
+| Afghanistan | Antarctica | Bangladesh | Bhutan |
+| Botswana | Burundi | Cyprus | eSwatini |
+| Falkland Is. | Fr. S. Antarctic Lands | Ireland | Israel |
+| Lesotho | Madagascar | Malawi | Moldova |
+| Mongolia | Namibia | Nepal | New Caledonia |
+| North Korea | Pakistan | Palestine | Rwanda |
+| South Korea | Sri Lanka | Taiwan | W. Sahara |
 

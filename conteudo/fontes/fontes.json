@@ -4447,5 +4447,85 @@
     "autor": "Richard Lobban e Peter Mendy",
     "data": "2013",
     "citacao": "Obra de referência sobre a história guineense, do Reino de Kaabu, sucessor mandinga do Império do Mali, à instabilidade política crônica pós-independência e ao surgimento do país como importante rota de tráfico de cocaína sul-americana para a Europa."
+  },
+  {
+    "id": "leonard-thompson-africa-do-sul",
+    "tipo": "livro",
+    "titulo": "A History of South Africa",
+    "autor": "Leonard Thompson",
+    "data": "2001",
+    "citacao": "História sul-africana de referência, da Colônia do Cabo neerlandesa ao pós-apartheid, cobrindo as Guerras Anglo-Bôeres, os campos de concentração britânicos contra civis bôeres e a construção institucional do apartheid a partir de 1948."
+  },
+  {
+    "id": "david-beach-shona-zimbabue",
+    "tipo": "livro",
+    "titulo": "The Shona and Zimbabwe, 900-1850",
+    "autor": "David Beach",
+    "data": "1980",
+    "citacao": "Estudo acadêmico sobre a civilização do Grande Zimbábue e seus Estados sucessores, os impérios Mutapa e Rozvi, que deram nome ao país moderno através das ruínas de pedra monumentais que ainda hoje simbolizam a nação."
+  },
+  {
+    "id": "martin-meredith-mugabe",
+    "tipo": "livro",
+    "titulo": "Mugabe: Power, Plunder, and the Struggle for Zimbabwe's Future",
+    "autor": "Martin Meredith",
+    "data": "2002",
+    "citacao": "Biografia política de Robert Mugabe, cobrindo os massacres de Gukurahundi de 1983-1987 contra civis ndebele, a reforma agrária violenta a partir de 2000 e a hiperinflação catastrófica dos anos 2000, uma das piores da história mundial."
+  },
+  {
+    "id": "acordo-lancaster-house-1979",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Lancaster House",
+    "publicacao": "Governo britânico, governo rodesiano de Ian Smith e movimentos de libertação ZANU e ZAPU",
+    "data": "1979-12-21",
+    "citacao": "Encerrou a Guerra da Rodésia, estabelecendo cessar-fogo e cronograma eleitoral que levaria à independência internacionalmente reconhecida do Zimbábue em 1980, sob governo de maioria negra pela primeira vez na história do território."
+  },
+  {
+    "id": "andrew-roberts-zambia",
+    "tipo": "livro",
+    "titulo": "A History of Zambia",
+    "autor": "Andrew Roberts",
+    "data": "1976",
+    "citacao": "História zambiana da Rodésia do Norte britânica à era Kaunda, cobrindo a dependência econômica do cobre e o apoio zambiano aos movimentos de libertação dos países vizinhos sob domínio branco minoritário."
+  },
+  {
+    "id": "malyn-newitt-mocambique",
+    "tipo": "livro",
+    "titulo": "A History of Mozambique",
+    "autor": "Malyn Newitt",
+    "data": "1995",
+    "citacao": "História moçambicana de referência, do sistema de prazos coloniais português à guerra civil entre a FRELIMO marxista e a RENAMO apoiada pela Rodésia e depois pela África do Sul do apartheid — um dos conflitos por procuração mais mortíferos da Guerra Fria africana."
+  },
+  {
+    "id": "acordo-roma-mocambique-1992",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo Geral de Paz de Roma",
+    "publicacao": "Governo de Moçambique e RENAMO, mediado pela Comunidade de Santo Egídio",
+    "data": "1992-10-04",
+    "citacao": "Encerrou a Guerra Civil Moçambicana de 1977-1992, que matou cerca de um milhão de pessoas, estabelecendo transição para democracia multipartidária e economia de mercado."
+  },
+  {
+    "id": "david-birmingham-angola",
+    "tipo": "livro",
+    "titulo": "A Short History of Modern Angola",
+    "autor": "David Birmingham",
+    "data": "2015",
+    "citacao": "História angolana da colonização portuguesa e do comércio de escravos à Guerra Civil de 1975-2002, um dos conflitos por procuração mais longos e intensos da Guerra Fria, envolvendo intervenção direta de tropas cubanas e sul-africanas."
+  },
+  {
+    "id": "linda-heywood-njinga",
+    "tipo": "livro",
+    "titulo": "Njinga of Angola: Africa's Warrior Queen",
+    "autor": "Linda Heywood",
+    "data": "2017",
+    "citacao": "Biografia da rainha Njinga Mbandi, que resistiu à colonização portuguesa de Ndongo e Matamba por quase quatro décadas a partir de 1624, combinando diplomacia sofisticada — incluindo aliança com os holandeses contra Portugal — e liderança militar direta."
+  },
+  {
+    "id": "protocolo-lusaka-1994",
+    "tipo": "documento-oficial",
+    "titulo": "Protocolo de Lusaka",
+    "publicacao": "Governo angolano do MPLA e UNITA",
+    "data": "1994-11-20",
+    "citacao": "Buscou encerrar a Guerra Civil Angolana através de desmobilização militar e governo de unidade nacional — acordo que colapsaria em nova fase de guerra em 1998, com o conflito só terminando definitivamente com a morte em combate do líder da UNITA, Jonas Savimbi, em 2002."
   }
 ]

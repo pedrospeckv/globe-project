@@ -1,0 +1,39 @@
+{
+  "iso": "ZMB",
+  "isoNumerico": "894",
+  "nome": "Zâmbia",
+  "periodos": [
+    {
+      "id": "zmb-rodesia-do-norte",
+      "inicio": "1890",
+      "fim": "1964",
+      "rotulo": "Rodésia do Norte",
+      "regime": "território sob companhia comercial britânica, depois protetorado direto",
+      "textoMdx": "A Companhia Britânica da África do Sul, de Cecil Rhodes, estende controle sobre o território que se tornaria a Rodésia do Norte a partir de 1890, cedendo administração direta à coroa britânica em 1924.\n\n**A descoberta e exploração de cobre no chamado Cinturão de Cobre transformaria a economia territorial dramaticamente ao longo do século XX, tornando o cobre a base quase exclusiva das exportações e da própria identidade econômica do futuro país.**\n\n**A Rodésia do Norte integra, entre 1953 e 1963, a Federação da África Central junto com a Rodésia do Sul e a Niassalândia — arranjo dominado por interesses de colonos brancos sul-rodesianos que geraria ressentimento profundo entre nacionalistas zambianos, cuja luta por independência culminaria em outubro de 1964, sob a liderança de Kenneth Kaunda.**",
+      "fontes": [
+        "andrew-roberts-zambia"
+      ]
+    },
+    {
+      "id": "zmb-kaunda-partido-unico",
+      "inicio": "1964",
+      "fim": "1991",
+      "rotulo": "Era Kaunda e o Estado de partido único",
+      "regime": "república sob ideologia própria de humanismo africano, formalizada como Estado de partido único a partir de 1972",
+      "textoMdx": "Kenneth Kaunda governa a Zâmbia independente promovendo ideologia própria de \"Humanismo Zambiano\", formalizando Estado de partido único em 1972 diante de fragmentação política crescente.\n\n**O colapso dos preços internacionais do cobre, a partir de meados da década de 1970, expõe a vulnerabilidade estrutural de uma economia excessivamente dependente de commodity única, mergulhando o país em décadas de dificuldade financeira e dependência de credores internacionais.**\n\n**A Zâmbia hospeda e apoia, a custo econômico e de segurança considerável para si mesma, numerosos movimentos de libertação combatendo regimes de minoria branca em países vizinhos — Rodésia, África do Sul, Angola, Moçambique e Namíbia —, sofrendo retaliações militares diretas desses regimes ao longo de décadas.**",
+      "fontes": [
+        "andrew-roberts-zambia"
+      ]
+    },
+    {
+      "id": "zmb-democracia-multipartidaria-atual",
+      "inicio": "1991",
+      "rotulo": "Democracia multipartidária contemporânea",
+      "regime": "república democrática multipartidária",
+      "textoMdx": "Kaunda aceita derrota em eleição multipartidária competitiva em 1991 e deixa o poder pacificamente — exemplo precoce e notável de transição democrática pacífica na África, especialmente incomum para a época.\n\n**Frederick Chiluba conduz liberalização econômica significativa nos anos seguintes, enquanto a Zâmbia manteria, ao longo de sucessivas administrações, governança democrática relativamente estável, mesmo diante de desafios recorrentes de endividamento e dependência persistente de commodities minerais.**\n\n**A vitória eleitoral de Hakainde Hichilema em 2021 marca nova transferência pacífica de poder para a oposição, reforçando reputação zambiana de relativa estabilidade e maturidade democrática em comparação a diversos vizinhos regionais.**",
+      "fontes": [
+        "andrew-roberts-zambia"
+      ]
+    }
+  ]
+}

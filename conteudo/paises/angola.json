@@ -1,0 +1,51 @@
+{
+  "iso": "AGO",
+  "isoNumerico": "024",
+  "nome": "Angola",
+  "periodos": [
+    {
+      "id": "ago-reino-ndongo-matamba-njinga",
+      "inicio": "1500",
+      "fim": "1671",
+      "rotulo": "Reinos de Ndongo e Matamba sob Njinga",
+      "regime": "reinos africanos que resistiram por décadas à colonização portuguesa sob liderança feminina notável",
+      "textoMdx": "O Reino de Ndongo, governado por soberanos com o título de \"ngola\" — origem direta do próprio nome moderno de Angola —, mantém autonomia própria distinta do vizinho Reino do Congo ao norte, já bem estabelecido quando os portugueses chegam à região no final do século XV.\n\n**A rainha Njinga Mbandi assume liderança de Ndongo em 1624 e conduziria, por quase quatro décadas, uma das resistências mais sofisticadas e prolongadas de toda a história africana contra a colonização europeia — combinando diplomacia hábil, incluindo aliança estratégica com os holandeses contra Portugal, e comando militar direto, primeiro em Ndongo e depois no Reino de Matamba, que ela também governaria.**\n\n**Njinga morre em 1663, permanecendo até hoje uma das figuras históricas mais celebradas de Angola — seu legado de resistência sobreviveria à gradual perda de independência efetiva de Matamba nas décadas seguintes, à medida que o controle português se expandia progressivamente pelo território.**",
+      "fontes": [
+        "linda-heywood-njinga"
+      ]
+    },
+    {
+      "id": "ago-angola-portuguesa-trafico-escravos",
+      "inicio": "1576",
+      "fim": "1961",
+      "rotulo": "Angola Portuguesa e o comércio de escravos",
+      "regime": "colônia portuguesa, centro do maior fluxo regional do comércio transatlântico de escravos",
+      "textoMdx": "Luanda, fundada em 1576, se tornaria base do que se converteria, ao longo dos séculos seguintes, possivelmente na maior região de origem de pessoas escravizadas de todo o comércio transatlântico — alimentando de forma particularmente intensa o eixo comercial entre Angola e o Brasil português.\n\n**O controle português efetivo sobre o vasto interior angolano só se completaria plenamente no início do século XX, muito depois do estabelecimento da presença costeira — sistemas de trabalho forçado persistiriam, documentados internacionalmente, mesmo décadas após a abolição formal da escravidão.**\n\n**Movimentos nacionalistas angolanos emergem em meados do século XX em resposta a essa exploração persistente, organizando-se ao longo da década de 1950 rumo à luta armada que eclodiria na década seguinte.**",
+      "fontes": [
+        "david-birmingham-angola"
+      ]
+    },
+    {
+      "id": "ago-guerra-independencia-guerra-civil",
+      "inicio": "1961",
+      "fim": "2002",
+      "rotulo": "Guerra de Independência e Guerra Civil",
+      "regime": "movimentos rivais de libertação em guerra, depois Estado fragmentado por uma das guerras civis mais longas da Guerra Fria",
+      "textoMdx": "Três movimentos rivais — o marxista MPLA, a FNLA e a UNITA de Jonas Savimbi — lançam luta armada pela independência angolana a partir de 1961, rivalidade que se revelaria catastroficamente consequente para as décadas seguintes.\n\n**A independência, obtida em 1975 após a Revolução dos Cravos em Portugal, mergulha o país imediatamente em guerra civil entre os antigos movimentos de libertação, agora rivais — Cuba enviaria dezenas de milhares de tropas em apoio direto ao governo do MPLA já a partir de 1975, enquanto a África do Sul do apartheid interviria repetidamente em apoio à UNITA.**\n\n**A Batalha de Cuito Cuanavale, em 1987-1988, frequentemente citada como estrategicamente decisiva tanto para acelerar a independência da Namíbia quanto o próprio fim do apartheid sul-africano, marca um dos pontos altos do envolvimento militar direto de potências estrangeiras no conflito** — a guerra se estenderia, com interrupções e renovado financiamento pelo comércio de diamantes de conflito da UNITA nos anos 1990, até a morte em combate de Savimbi, em 2002, encerrar finalmente 27 anos de conflito quase ininterrupto.",
+      "fontes": [
+        "david-birmingham-angola",
+        "protocolo-lusaka-1994"
+      ]
+    },
+    {
+      "id": "ago-reconstrucao-dos-santos-lourenco-atual",
+      "inicio": "2002",
+      "rotulo": "Reconstrução, a era dos Santos e João Lourenço",
+      "regime": "república presidencialista, sob reconstrução financiada por riqueza petrolífera desigualmente distribuída",
+      "textoMdx": "José Eduardo dos Santos, presidente desde 1979 e já entre os líderes mais duradouros de toda a África mesmo antes do fim da guerra, conduziria a reconstrução pós-conflito financiada pela vasta riqueza petrolífera offshore angolana — prosperidade que conviveria com desigualdade social extrema e persistente.\n\n**O enriquecimento da própria família dos Santos se tornaria símbolo internacional de apropriação privada de riqueza pública: a filha Isabel dos Santos se tornaria a mulher mais rica de toda a África, antes de investigação jornalística internacional, os \"Luanda Leaks\" de 2020, expor a escala de desvios alegados de recursos estatais.**\n\n**João Lourenço sucede dos Santos em 2017 e lança campanha anticorrupção visando diretamente ativos da antiga primeira família — mas Angola permanece, décadas depois do fim da guerra civil, marcada por dependência petrolífera profunda e desigualdade social pouco reduzida apesar desse ajuste de contas formal com o passado recente.**",
+      "fontes": [
+        "david-birmingham-angola"
+      ]
+    }
+  ]
+}
