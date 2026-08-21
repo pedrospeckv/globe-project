@@ -1,0 +1,39 @@
+{
+  "iso": "TKM",
+  "isoNumerico": "795",
+  "nome": "Turcomenistão",
+  "periodos": [
+    {
+      "id": "tkm-imperio-russo",
+      "inicio": "1881",
+      "fim": "1924",
+      "rotulo": "Turcomenistão dentro do Império Russo",
+      "regime": "região transcaspiana do Império Russo",
+      "textoMdx": "As tribos turcomanas, organizadas em confederações nômades sem Estado unificado próprio, resistem à conquista russa até a Batalha de Geok Tepe, em janeiro de 1881, quando forças do general Mikhail Skobelev tomam a fortaleza turcomana após cerco, matando indiscriminadamente milhares de combatentes e civis em retaliação — um dos episódios mais sangrentos da expansão colonial russa na Ásia Central.\n\n**A administração russa incorpora o território como região Transcaspiana, a mais tardia conquista do Turquestão russo**, construindo ferrovia estratégica que conectaria o Mar Cáspio à fronteira afegã e consolidaria controle militar sobre a região desértica.\n\n**A revolta de 1916 contra o recrutamento forçado para trabalho na retaguarda da Primeira Guerra Mundial atinge também o território turcomano**, e o colapso do domínio russo em 1917 mergulharia a região transcaspiana em anos de guerra civil confusa entre bolcheviques, forças brancas, tribos locais e até tropas britânicas intervencionistas antes da consolidação soviética definitiva por volta de 1920.",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    },
+    {
+      "id": "tkm-turcomenistao-sovietico",
+      "inicio": "1924",
+      "fim": "1991",
+      "rotulo": "República Socialista Soviética do Turcomenistão",
+      "regime": "república socialista soviética de partido único",
+      "textoMdx": "Formado pela Delimitação Nacional soviética de 1924, o Turcomenistão permanece a mais rural e menos industrializada das repúblicas centro-asiáticas ao longo de todo o período soviético, com economia baseada em algodão irrigado e criação extensiva de gado em vastas áreas desérticas.\n\n**A construção do Canal de Karakum, um dos mais longos canais de irrigação do mundo, iniciada em 1954 e estendida por décadas, transforma partes do deserto turcomano em terra agrícola** — às custas de desviar volume adicional significativo do rio Amu Dária, contribuindo diretamente para o colapso do mar de Aral que se acentuaria nas décadas seguintes.\n\n**Saparmurat Niyazov assume a liderança do Partido Comunista turcomano em 1985, posição que herdaria diretamente na transição para a independência seis anos depois** — continuidade que se transformaria, no Turcomenistão independente, em um dos regimes de culto à personalidade mais extremos do mundo pós-soviético.",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    },
+    {
+      "id": "tkm-independencia-niyazov-berdimuhamedov",
+      "inicio": "1991",
+      "rotulo": "Turcomenistão independente",
+      "regime": "república presidencialista de culto à personalidade extremo, sob neutralidade permanente reconhecida pela ONU",
+      "textoMdx": "Saparmurat Niyazov, autoproclamado Turkmenbashi — \"líder de todos os turcomanos\" —, constrói um dos cultos à personalidade mais extremos já documentados: renomeia meses do calendário e cidades em sua própria homenagem e da mãe falecida, ergue estátua dourada giratória de si mesmo em Ashgabat, e proíbe balé, ópera, dentes de ouro e rádios em automóveis por decreto pessoal.\n\n**A Assembleia Geral da ONU reconhece formalmente a neutralidade permanente do Turcomenistão em 1995, status que o regime utiliza para justificar isolamento internacional extremo**, incluindo restrições severíssimas à entrada de estrangeiros e ao acesso da própria população a informação e viagens ao exterior.\n\n**A morte de Niyazov, em 2006, leva ao poder Gurbanguly Berdimuhamedov, que reduziria alguns excessos do culto pessoal do antecessor sem abandonar o autoritarismo estrutural do regime** — o Turcomenistão permanece, segundo organizações internacionais de liberdade de imprensa, entre os países mais fechados do mundo, comparável à Coreia do Norte, apesar de possuir uma das maiores reservas de gás natural do planeta; o poder seria transferido ao filho Serdar Berdimuhamedov em eleição controlada de 2022.",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    }
+  ]
+}

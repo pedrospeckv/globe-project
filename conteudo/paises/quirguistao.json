@@ -1,0 +1,39 @@
+{
+  "iso": "KGZ",
+  "isoNumerico": "417",
+  "nome": "Quirguistão",
+  "periodos": [
+    {
+      "id": "kgz-imperio-russo",
+      "inicio": "1876",
+      "fim": "1924",
+      "rotulo": "Quirguistão dentro do Império Russo",
+      "regime": "território do Turquestão russo, anteriormente sujeito ao Canato de Kokand",
+      "textoMdx": "As tribos quirguizes, nômades das montanhas do Tian Shan e anteriormente sujeitas em graus variados ao vizinho Canato de Kokand, passam ao domínio direto russo com a anexação de Kokand em 1876, perdendo pastagens tradicionais para colonos eslavos que se instalam progressivamente nos vales mais férteis.\n\n**A revolta de 1916 contra o recrutamento forçado atinge o território quirguiz com particular violência: milhares fogem em pânico através das montanhas rumo à China, no episódio conhecido como Urkun, \"o grande êxodo\"**, com número expressivo de mortes por exposição, fome e ataques durante a fuga — um dos capítulos mais trágicos e menos conhecidos internacionalmente da revolta centro-asiática de 1916.\n\n**O colapso do domínio russo, em 1917, e a subsequente guerra civil deixam o território quirguiz em condição de instabilidade extrema, antes da consolidação soviética por volta de 1920.**",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    },
+    {
+      "id": "kgz-quirguistao-sovietico",
+      "inicio": "1924",
+      "fim": "1991",
+      "rotulo": "República Socialista Soviética do Quirguistão",
+      "regime": "região autônoma, depois república socialista soviética de partido único a partir de 1936",
+      "textoMdx": "A Delimitação Nacional de 1924 cria inicialmente uma região autônoma quirguiz dentro da Rússia soviética, elevada a república socialista soviética plena apenas em 1936 — o Quirguistão preservaria, mais que os vizinhos, tradições pastoris nômades e organização social baseada em clãs regionais ao longo de todo o período soviético.\n\n**A economia quirguiz permanece a mais dependente de subsídios centrais entre as repúblicas centro-asiáticas, com industrialização limitada concentrada principalmente na capital Frunze — atual Bishkek**, deixando o país entre os mais pobres da União Soviética ao final do período.",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    },
+    {
+      "id": "kgz-independencia-multiplas-revolucoes",
+      "inicio": "1991",
+      "rotulo": "Quirguistão independente",
+      "regime": "república parlamentar-presidencialista, marcada por sucessivas rupturas violentas de governo",
+      "textoMdx": "Askar Akayev, físico e primeiro presidente pós-independência, promove inicialmente reformas econômicas e políticas mais abertas que a de qualquer vizinho centro-asiático, rendendo ao país reputação de \"ilha de democracia\" na região — reputação que se erodiria progressivamente ao longo dos anos 2000, à medida que Akayev concentraria poder e favoreceria interesses familiares.\n\n**A Revolução das Tulipas, em março de 2005, derruba Akayev após protestos contra fraude eleitoral — a primeira das chamadas revoluções coloridas na Ásia Central**, trazendo ao poder Kurmanbek Bakiyev, que repetiria, em poucos anos, o mesmo padrão de nepotismo e repressão do antecessor.\n\n**Os distúrbios de 2010 derrubam Bakiyev de forma bem mais violenta, com dezenas de mortos em Bishkek, seguidos meses depois por confrontos étnicos devastadores entre quirguizes e a minoria uzbeque na região de Osh, que matariam várias centenas de pessoas** — a transição subsequente para sistema parlamentar, incomum na região por distribuir poder de forma mais equilibrada, não impediria nova onda de instabilidade em 2020, quando protestos pós-eleitorais levariam à ascensão de Sadyr Japarov em circunstâncias igualmente turbulentas.",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    }
+  ]
+}

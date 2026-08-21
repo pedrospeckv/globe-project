@@ -1,0 +1,63 @@
+{
+  "iso": "TJK",
+  "isoNumerico": "762",
+  "nome": "Tajiquistão",
+  "periodos": [
+    {
+      "id": "tjk-imperio-samanida",
+      "inicio": "819",
+      "fim": "999",
+      "rotulo": "Império Samânida",
+      "regime": "dinastia governadora sob suserania abássida, depois de facto independente",
+      "textoMdx": "A família samânida, designada governadora de províncias da Ásia Central pelo califado abássida a partir de 819, consolida progressivamente autoridade de facto independente com capital em Bukhará, tornando-se a primeira dinastia nativa iraniana a governar amplamente após dois séculos de domínio árabe direto sobre a região.\n\n**O período samânida promove renascimento decisivo da língua e literatura persas, então marginalizadas pelo árabe como idioma de prestígio cultural e administrativo** — a corte samânida patrocina poetas como Rudaki, considerado o pai da poesia persa moderna, lançando tradição literária que influenciaria toda a Ásia posteriormente persianizada.\n\n**Bukhará se torna, sob os samânidas, um dos maiores centros intelectuais do mundo islâmico, sede de bibliotecas renomadas e polo de estudos médicos, filosóficos e científicos** — o próprio Avicena, um dos maiores polímatas da história islâmica, formaria seu pensamento inicial nesse ambiente.\n\n**A dinastia entra em declínio ao longo do século X diante de pressão financeira e militar crescente, sendo finalmente derrubada pela dinastia turca cara-canida em 999** — extinguindo a última grande dinastia nativa persa da região antes de séculos de domínio predominantemente turco e mongol subsequente.",
+      "fontes": [
+        "nourzhanov-bleuer-tajiquistao"
+      ]
+    },
+    {
+      "id": "tjk-emirado-bukhara-imperio-russo",
+      "inicio": "1868",
+      "fim": "1924",
+      "rotulo": "Tajiquistão sob o Emirado de Bukhará e o Império Russo",
+      "regime": "território majoritariamente sob o Emirado de Bukhará, protetorado russo a partir de 1868",
+      "textoMdx": "A maior parte do território que hoje constitui o Tajiquistão permanece, ao longo dos séculos seguintes ao colapso samânida, sob domínio de sucessivas dinastias turcas e mongóis, e finalmente sob o Emirado de Bukhará — que se torna protetorado russo em 1868, preservando administração local nominal sob supervisão russa efetiva.\n\n**A Comissão de Fronteiras do Pamir, de 1895, negociada entre a Rússia e a Grã-Bretanha no contexto do chamado Grande Jogo pela influência na Ásia Central, divide arbitrariamente populações de fala tadjique entre o território russo e o Afeganistão** — fronteira que persiste até hoje, separando comunidades tadjiques que a demarcação colonial jamais consultou.\n\n**A revolta de 1916 e o colapso do domínio russo em 1917 atingem também as regiões de população tadjique, embora a maior concentração urbana de fala persa — Samarcanda e Bukhará — permanecesse, por decisão administrativa posterior, fora das fronteiras do futuro território tadjique soviético.**",
+      "fontes": [
+        "nourzhanov-bleuer-tajiquistao",
+        "adeeb-khalid-asia-central"
+      ]
+    },
+    {
+      "id": "tjk-tajiquistao-sovietico",
+      "inicio": "1924",
+      "fim": "1991",
+      "rotulo": "República Socialista Soviética do Tajiquistão",
+      "regime": "região autônoma dentro do Uzbequistão soviético, depois república plena a partir de 1929",
+      "textoMdx": "A Delimitação Nacional de 1924 cria inicialmente região autônoma tadjique dentro da recém-formada República Socialista Soviética do Uzbequistão, elevada a república plena separada apenas em 1929 — mas Samarcanda e Bukhará, os dois maiores centros históricos da cultura persa tadjique na região, permanecem dentro das fronteiras uzbeques, decisão que a intelligentsia tadjique consideraria injustiça territorial duradoura.\n\n**O Tajiquistão soviético permanece a mais pobre e montanhosa das repúblicas centro-asiáticas, com desenvolvimento econômico concentrado nos vales férteis do norte, enquanto as regiões montanhosas do Pamir, no leste, preservam autonomia cultural e religiosa distinta como território predominantemente ismaelita, não sunita.**\n\n**A crise econômica do final do período soviético expõe divisões regionais e de clã profundas dentro da elite política tadjique**, tensões que explodiriam em conflito civil aberto assim que o controle centralizador de Moscou desaparecesse com a dissolução da União Soviética.",
+      "fontes": [
+        "nourzhanov-bleuer-tajiquistao"
+      ]
+    },
+    {
+      "id": "tjk-guerra-civil-independencia",
+      "inicio": "1991",
+      "fim": "1997",
+      "rotulo": "Independência e Guerra Civil",
+      "regime": "Estado em colapso, fragmentado por controle militar de facções regionais e políticas rivais",
+      "textoMdx": "A independência tadjique, em 1991, mergulha rapidamente em guerra civil entre uma coalizão governista apoiada por redes regionais de Kulyab e Leninabad, e uma oposição heterogênea que reúne democratas, nacionalistas e o Partido do Renascimento Islâmico, com base de apoio nas regiões de Garm e do Pamir.\n\n**O conflito, entre 1992 e 1997, mata segundo estimativas entre cinquenta mil e cem mil pessoas e desloca centenas de milhares — proporcionalmente uma das guerras civis mais sangrentas do espaço pós-soviético**, com limpeza étnica e de clã documentada por ambos os lados do conflito.\n\n**O Acordo Geral de Paz, mediado pela ONU e assinado em Moscou em 1997, encerra formalmente o conflito através de comissão de reconciliação nacional que integraria parcialmente a oposição ao governo** — pacificação que consolidaria, na prática, o domínio duradouro de Emomali Rahmon, presidente desde 1992, sobre a política tadjique nas décadas seguintes.",
+      "fontes": [
+        "nourzhanov-bleuer-tajiquistao",
+        "acordo-paz-tajiquistao-1997"
+      ]
+    },
+    {
+      "id": "tjk-rahmon-atual",
+      "inicio": "1997",
+      "rotulo": "Tajiquistão sob Emomali Rahmon",
+      "regime": "república presidencialista autoritária",
+      "textoMdx": "Emomali Rahmon consolida poder crescente ao longo das décadas seguintes à guerra civil, eliminando gradualmente antigos parceiros da coalizão de paz de 1997 — o Partido do Renascimento Islâmico, outrora legalmente integrado ao acordo, seria banido e classificado como organização terrorista em 2015.\n\n**A economia tadjique permanece extremamente dependente de remessas de trabalhadores migrantes na Rússia, que chegam a representar mais de um terço do produto interno bruto nacional em determinados anos** — vulnerabilidade que expõe o país diretamente a flutuações econômicas e políticas russas, incluindo o impacto de sanções ocidentais pós-2022.\n\n**Disputas fronteiriças com o Quirguistão vizinho, herdadas de fronteiras soviéticas mal demarcadas no populoso e fértil vale de Fergana, provocam confrontos armados recorrentes na década de 2020, incluindo combates de 2021 e 2022 que mataram dezenas de pessoas de ambos os lados** — a mais grave violência interestatal armada entre repúblicas centro-asiáticas desde a independência.",
+      "fontes": [
+        "nourzhanov-bleuer-tajiquistao"
+      ]
+    }
+  ]
+}

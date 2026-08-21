@@ -3599,5 +3599,45 @@
     "publicacao": "Organizações de imigrantes tchecos e eslovacos nos Estados Unidos, com Tomáš Masaryk",
     "data": "1918-05-30",
     "citacao": "Prometeu autonomia eslovaca substancial — parlamento, tribunais e administração próprios — dentro do futuro Estado tchecoslovaco comum, promessa que o governo de Praga jamais implementaria plenamente, alimentando ressentimento eslovaco ao longo de toda a Primeira República."
+  },
+  {
+    "id": "adeeb-khalid-asia-central",
+    "tipo": "livro",
+    "titulo": "Central Asia: A New History from the Imperial Conquests to the Present",
+    "autor": "Adeeb Khalid",
+    "data": "2021",
+    "citacao": "História abrangente da Ásia Central desde a conquista russa até o presente, cobrindo os cinco Estados pós-soviéticos, a delimitação nacional soviética de 1924, o desastre ecológico do mar de Aral e as trajetórias políticas divergentes das cinco repúblicas após 1991."
+  },
+  {
+    "id": "sarah-cameron-fome-cazaquistao",
+    "tipo": "livro",
+    "titulo": "The Hungry Steppe: Famine, Violence, and the Making of Soviet Kazakhstan",
+    "autor": "Sarah Cameron",
+    "data": "2018",
+    "citacao": "Estudo da fome cazaque de 1930-1933, provocada pela coletivização forçada e pela sedentarização violenta de uma população tradicionalmente nômade — proporcionalmente uma das mortandades mais altas entre todas as fomes soviéticas, com estimativas de mais de um terço da população cazaque morta."
+  },
+  {
+    "id": "justin-marozzi-timur",
+    "tipo": "livro",
+    "titulo": "Tamerlane: Sword of Islam, Conqueror of the World",
+    "autor": "Justin Marozzi",
+    "data": "2004",
+    "citacao": "Biografia de Timur (Tamerlão), fundador do Império Timúrida, cobrindo suas campanhas militares extremamente violentas — incluindo o saque de Delhi e Damasco — e o florescimento científico e artístico de Samarcanda sob seus sucessores, especialmente o neto astrônomo Ulugh Beg."
+  },
+  {
+    "id": "nourzhanov-bleuer-tajiquistao",
+    "tipo": "livro",
+    "titulo": "Tajikistan: A Political and Social History",
+    "autor": "Kirill Nourzhanov e Christian Bleuer",
+    "data": "2013",
+    "citacao": "História política e social do Tajiquistão, do período soviético à guerra civil de 1992-1997 e ao regime de Emomali Rahmon, examinando as bases regionais e de clã do conflito civil e da consolidação de poder pós-guerra."
+  },
+  {
+    "id": "acordo-paz-tajiquistao-1997",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo Geral sobre o Estabelecimento da Paz e Concórdia Nacional no Tajiquistão",
+    "publicacao": "Governo do Tajiquistão, Oposição Tadjique Unida e Nações Unidas",
+    "data": "1997-06-27",
+    "citacao": "Encerrou a guerra civil tadjique de 1992-1997, mediado pela ONU, estabelecendo comissão de reconciliação nacional e integração parcial da oposição ao governo — acordo que consolidaria, na prática, o domínio duradouro de Emomali Rahmon sobre a política tadjique nas décadas seguintes."
   }
 ]

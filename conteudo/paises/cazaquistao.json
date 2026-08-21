@@ -1,0 +1,51 @@
+{
+  "iso": "KAZ",
+  "isoNumerico": "398",
+  "nome": "Cazaquistão",
+  "periodos": [
+    {
+      "id": "kaz-canato-cazaque",
+      "inicio": "1465",
+      "fim": "1847",
+      "rotulo": "Canato Cazaque",
+      "regime": "canato nômade, organizado em três hordas (zhuz) tribais confederadas",
+      "textoMdx": "Os sultões Kerei e Janibek rompem com o Canato Uzbeque e fundam, por volta de 1465, o Canato Cazaque nas estepes centro-asiáticas — Estado nômade organizado em três confederações tribais, os zhuz, Menor, Médio e Maior, que preservariam identidade e lealdades próprias mesmo sob autoridade khanal nominalmente unificada.\n\n**O canato atinge apogeu territorial e militar sob Kasym Khan, no início do século XVI, controlando vastas rotas comerciais entre a Sibéria, a Ásia Central sedentária e a China** — poder que se fragmentaria progressivamente nos séculos seguintes diante de pressão de outros povos nômades, sobretudo os calmucos oirates ao leste.\n\n**A submissão gradual dos três zhuz ao Império Russo, entre 1731 e a década de 1820, ocorre em etapas — o zhuz Menor busca proteção russa primeiro, diante da ameaça calmuca, seguido pelo zhuz Médio** — processo que a administração russa aproveitaria para progressivamente esvaziar a autoridade khanal de conteúdo real.\n\n**A revolta de Kenesary Khan, entre 1837 e 1847, última grande tentativa de restaurar soberania cazaque plena contra o avanço colonial russo, termina com sua morte em combate** — extinguindo definitivamente a instituição do canato cazaque como poder político independente.",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    },
+    {
+      "id": "kaz-imperio-russo",
+      "inicio": "1847",
+      "fim": "1920",
+      "rotulo": "Cazaquistão dentro do Império Russo",
+      "regime": "território colonial administrado por governadorias russas",
+      "textoMdx": "A administração russa avança sobre as estepes cazaques ao longo da segunda metade do século XIX, promovendo colonização agrícola maciça por camponeses eslavos — processo que se intensifica dramaticamente após as reformas agrárias de Stolypin no início do século XX, deslocando populações nômades cazaques de pastagens tradicionais.\n\n**A revolta de 1916, provocada pelo decreto que mobiliza homens da Ásia Central para trabalho forçado atrás das linhas de frente da Primeira Guerra Mundial, é reprimida com violência extrema**, matando dezenas de milhares de cazaques e forçando fuga em massa de população para a China vizinha — episódio que radicalizaria definitivamente a intelectualidade nacional cazaque nascente.\n\n**O colapso do Império Russo, em 1917, permite a formação do governo autonomista Alash Orda, liderado pela intelligentsia cazaque**, que buscaria navegar entre bolcheviques e forças brancas na guerra civil russa antes de ser dissolvido e absorvido pela administração soviética por volta de 1920.",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    },
+    {
+      "id": "kaz-cazaquistao-sovietico",
+      "inicio": "1920",
+      "fim": "1991",
+      "rotulo": "República Socialista Soviética do Cazaquistão",
+      "regime": "república socialista soviética de partido único",
+      "textoMdx": "A coletivização forçada e a sedentarização compulsória da população nômade cazaque, entre 1930 e 1933, provocam fome catastrófica que mata mais de um terço da população étnica cazaque — proporcionalmente uma das mortandades mais altas de todas as fomes soviéticas, ainda menos reconhecida internacionalmente que o Holodomor ucraniano.\n\n**A Campanha das Terras Virgens, lançada por Khrushchov em 1954 para converter vastas estepes cazaques em terras agrícolas, atrai milhões de colonos eslavos** — imigração maciça que reduziria os cazaques étnicos a minoria demográfica em sua própria república por décadas, situação que só se reverteria após a independência.\n\n**O polígono nuclear de Semipalatinsk serve como principal local de testes nucleares soviéticos entre 1949 e 1989, com centenas de detonações atmosféricas e subterrâneas realizadas próximo a populações civis não informadas dos riscos** — legado de contaminação radioativa e problemas de saúde que persistiria por gerações.\n\n**O levante de Jeltoqsan, em dezembro de 1986, provocado pela substituição do líder cazaque do partido comunista local por um russo étnico indicado por Moscou, é reprimido com violência** — um dos primeiros sinais visíveis de descontentamento nacionalista que se espalharia pela União Soviética nos anos finais do regime.",
+      "fontes": [
+        "adeeb-khalid-asia-central",
+        "sarah-cameron-fome-cazaquistao"
+      ]
+    },
+    {
+      "id": "kaz-independencia-nazarbaev",
+      "inicio": "1991",
+      "rotulo": "Cazaquistão independente",
+      "regime": "república presidencialista",
+      "textoMdx": "Nursultan Nazarbayev, líder comunista local desde 1989, permanece à frente do Cazaquistão independente por quase três décadas, cultivando política externa de \"multivetorialismo\" que equilibra relações com a Rússia, a China e o Ocidente simultaneamente, apoiada pela riqueza petrolífera crescente do país.\n\n**A construção de Astana como nova capital, inaugurada em 1997 no meio das estepes do norte, distante da antiga capital Almaty, busca simultaneamente reforçar o controle central sobre o norte de população mais russófona e projetar imagem de modernidade nacional** — a cidade seria renomeada Nur-Sultan em homenagem ao próprio Nazarbayev em 2019, antes de reverter ao nome original em 2022.\n\n**Nazarbayev renuncia à presidência em 2019, mas mantém influência substancial como \"Líder da Nação\" através de cargos institucionais criados sob medida**, até que os protestos de janeiro de 2022 — deflagrados por aumento no preço do gás liquefeito e que se transformam em violência generalizada, com breve intervenção de tropas da aliança militar liderada pela Rússia — permitem ao sucessor Kassym-Jomart Tokayev romper definitivamente com a tutela do antigo líder e consolidar poder próprio.",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    }
+  ]
+}

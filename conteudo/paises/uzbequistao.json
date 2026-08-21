@@ -1,0 +1,72 @@
+{
+  "iso": "UZB",
+  "isoNumerico": "860",
+  "nome": "Uzbequistão",
+  "periodos": [
+    {
+      "id": "uzb-imperio-timurida",
+      "inicio": "1370",
+      "fim": "1507",
+      "rotulo": "Império Timúrida",
+      "regime": "império conquistador, depois centro de florescimento científico e artístico sob os sucessores de Timur",
+      "textoMdx": "Timur, conhecido no Ocidente como Tamerlão, funda em 1370 império que se estenderia, através de décadas de campanhas militares de brutalidade extrema, da Anatólia à Índia — reivindicando descendência genghiscânida por casamento para legitimar ambições que rivalizariam, em escala, com as do próprio Genghis Khan.\n\n**As campanhas de Timur incluem a destruição de Delhi em 1398, com massacre de dezenas de milhares de prisioneiros, e a derrota do sultão otomano Bayezid I em Ancara, em 1402 — vitória que adiaria em décadas a conquista otomana de Constantinopla**, ao desviar recursos otomanos para reconstrução interna após a captura humilhante do próprio sultão.\n\n**Samarcanda, capital do império, se torna sob Timur e seus sucessores uma das cidades mais magníficas do mundo islâmico**, com arquitetura monumental que ainda hoje define a identidade nacional uzbeque — o neto Ulugh Beg, governante e astrônomo, construiria observatório de precisão notável e produziria tabelas astronômicas usadas na Europa séculos depois.\n\n**A fragmentação do império entre príncipes rivais, ao longo do século XV, o deixa vulnerável à invasão dos uzbeques nômades sob Muhammad Shaybani, que tomam Samarcanda em 1507** — extinguindo o domínio timúrida na Ásia Central, embora um príncipe timúrida exilado, Babur, fundaria décadas depois o Império Mogol na Índia, levando a herança cultural timúrida a novo território.",
+      "fontes": [
+        "justin-marozzi-timur"
+      ]
+    },
+    {
+      "id": "uzb-canatos-bukhara-khiva-kokand",
+      "inicio": "1507",
+      "fim": "1876",
+      "rotulo": "Canatos de Bukhará, Khiva e Kokand",
+      "regime": "três canatos uzbeques rivais, sucessores territoriais do domínio timúrida",
+      "textoMdx": "O território timúrida se divide entre três canatos uzbeques rivais — Bukhará, o mais poderoso e culturalmente prestigioso; Khiva, na região do delta do rio Amu Dária; e Kokand, formado mais tardiamente no vale de Fergana — que disputariam entre si e com vizinhos por séculos, enquanto o comércio da Rota da Seda entrava em declínio irreversível diante da abertura das rotas marítimas europeias.\n\n**Bukhará se consolida como centro religioso e educacional de prestígio no mundo islâmico sunita, com dezenas de madrassas que atraem estudantes de toda a Ásia Central**, mesmo enquanto o poder político e econômico regional declinava frente aos impérios marítimos emergentes.\n\n**A conquista russa, completada entre 1868 e 1876, absorve Kokand diretamente como território administrado, enquanto Bukhará e Khiva são reduzidos a protetorados nominalmente autônomos** — arranjo que preservaria os tronos locais até a revolução soviética, décadas depois, extingui-los definitivamente.",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    },
+    {
+      "id": "uzb-imperio-russo",
+      "inicio": "1876",
+      "fim": "1920",
+      "rotulo": "Uzbequistão dentro do Império Russo",
+      "regime": "Turquestão russo, com os protetorados nominais de Bukhará e Khiva preservados até 1920",
+      "textoMdx": "A administração colonial russa converte a economia da região progressivamente ao monocultivo do algodão, destinado à indústria têxtil russa — dependência que se aprofundaria dramaticamente sob o regime soviético subsequente, com consequências ambientais catastróficas décadas depois.\n\n**A revolta de 1916, provocada pelo recrutamento forçado para trabalho atrás das linhas de frente da Primeira Guerra Mundial, se espalha por todo o Turquestão russo, incluindo o território uzbeque**, reprimida com violência que radicalizaria a resistência local contra o domínio colonial.\n\n**O colapso do Império Russo, em 1917, deixa Bukhará e Khiva nominalmente independentes por breve período, antes de o Exército Vermelho invadir e depor os últimos governantes locais em 1920** — encerrando de vez formas de soberania local que precediam a chegada russa.",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    },
+    {
+      "id": "uzb-republicas-populares-sovieticas",
+      "inicio": "1920",
+      "fim": "1924",
+      "rotulo": "Repúblicas Populares Soviéticas de Bukhará e Khorezm",
+      "regime": "repúblicas soviéticas nominalmente independentes, sob controle efetivo bolchevique",
+      "textoMdx": "A conquista soviética de Bukhará e Khiva, em 1920, cria repúblicas populares nominalmente soberanas — a República Popular Soviética de Bukhará e a de Khorezm — como fórmula de transição, mantendo fachada de independência enquanto o poder real permanece sob controle do Partido Comunista.\n\n**A resistência armada basmachi, movimento guerrilheiro islâmico e nacionalista que se opõe à sovietização, mantém insurgência ativa em partes do território ao longo da década de 1920**, apenas gradualmente suprimida pelo Exército Vermelho ao custo de milhares de vidas.\n\n**A Delimitação Nacional soviética de 1924 dissolve as repúblicas populares e redesenha as fronteiras centro-asiáticas segundo critérios etnolinguísticos aplicados de forma frequentemente arbitrária**, criando a República Socialista Soviética do Uzbequistão — decisão administrativa que deixaria Samarcanda e Bukhará, centros históricos da cultura persa tadjique, dentro do território uzbeque, gerando ressentimento tadjique duradouro.",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    },
+    {
+      "id": "uzb-uzbequistao-sovietico",
+      "inicio": "1924",
+      "fim": "1991",
+      "rotulo": "República Socialista Soviética do Uzbequistão",
+      "regime": "república socialista soviética de partido único",
+      "textoMdx": "A monocultura do algodão se intensifica dramaticamente sob planejamento soviético, com sistema de irrigação massivo desviando os rios Amu Dária e Syr Dária que alimentavam o mar de Aral — processo que, ao longo de décadas, reduziria o lago a cerca de um décimo de seu volume original, um dos maiores desastres ambientais causados pelo homem no século XX.\n\n**O \"Caso do Algodão\", escândalo de corrupção revelado no início dos anos 1980, expõe fraude sistemática em relatórios de produção agrícola em toda a cadeia de comando soviética uzbeque**, levando a purgas extensas que atingiriam, entre outros, futuros líderes da era pós-independência.\n\n**Islam Karimov assume a liderança do Partido Comunista uzbeque em 1989, posição que herdaria diretamente na transição para a independência dois anos depois** — continuidade pessoal de poder que se estenderia por mais de duas décadas e meia adicionais sob nova bandeira nacional.",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    },
+    {
+      "id": "uzb-independencia-karimov-mirziyoyev",
+      "inicio": "1991",
+      "rotulo": "Uzbequistão independente",
+      "regime": "república presidencialista autoritária",
+      "textoMdx": "Islam Karimov governa o Uzbequistão independente de forma crescentemente repressiva por mais de duas décadas, banindo efetivamente qualquer oposição política organizada e mantendo aparato de segurança extenso conhecido por práticas de tortura sistemática documentadas por organizações internacionais de direitos humanos.\n\n**O massacre de Andijan, em maio de 2005, quando forças de segurança abrem fogo contra manifestantes majoritariamente desarmados, mata segundo estimativas independentes várias centenas de pessoas — o governo uzbeque reconheceria apenas dezenas de mortos, todos atribuídos a \"terroristas islâmicos\"** — episódio que isolaria diplomaticamente o Uzbequistão do Ocidente pelos anos seguintes.\n\n**A morte de Karimov, em 2016, leva ao poder Shavkat Mirziyoyev, que surpreenderia analistas ao promover abertura econômica e política significativa** — libertação de presos políticos, fim do trabalho forçado sistemático na colheita do algodão, e melhoria notável nas relações com todos os vizinhos centro-asiáticos, embora o país permaneça, segundo organizações de direitos humanos, autoritário em estrutura fundamental.",
+      "fontes": [
+        "adeeb-khalid-asia-central"
+      ]
+    }
+  ]
+}
