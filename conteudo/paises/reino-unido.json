@@ -7,8 +7,8 @@
       "id": "gb-inglaterra-medieval",
       "inicio": "1066",
       "fim": "1485",
-      "rotulo": "Reino da Inglaterra",
-      "regime": "monarquia feudal sob dinastias normanda e Plantageneta",
+      "rotulo": "Reino da Inglaterra e Reino da Escócia",
+      "regime": "dois reinos soberanos na ilha, sob monarquias feudais distintas e em guerra recorrente",
       "textoMdx": "A conquista normanda de 1066 é a última invasão bem-sucedida da Inglaterra, e ela troca a classe dirigente inteira. Vinte anos depois, quase nenhuma terra de alguma importância segue nas mãos de ingleses: o reino que assinaria a Magna Carta já era governado por uma aristocracia que falava francês e enterrava seus mortos na Normandia.\n\n**O novo dono manda contar o que comprou.** O *Domesday Book*, de 1086, inventaria terras, gado, moinhos e rendas de quase toda a Inglaterra ao sul do Tees. Nenhum Estado da Europa medieval produziu coisa parecida. O nome vem da fama de ser inapelável como o Juízo Final — e é dele que sai a medida da substituição da elite anterior. Antes dele, veio o Massacre do Norte: entre 1069 e 1070, a repressão a revoltas em Yorkshire arrasa aldeias inteiras, e o próprio levantamento registra grandes extensões como terra devastada.\n\n**Por trezentos anos o país tem três línguas.** Francês na corte, latim na Igreja, inglês na maioria da população, que não escreve. O inglês só volta aos tribunais por lei em 1362, e volta diferente: carregado de vocabulário francês, que é a razão de a língua ter hoje dois nomes para quase tudo — o animal no campo e a carne na mesa.\n\n**A Magna Carta é uma derrota militar transformada em documento.** Em 1215, barões revoltados impõem a João Sem-Terra, que acabara de perder a Normandia para [[fr-capetingios|Filipe Augusto]], um texto que limita o arbítrio real em matéria de imposto, herança e prisão. O papa a anula em dez semanas e a guerra recomeça; ela é reeditada em 1216, 1217 e 1225, e é a versão de 1297 que entra na lei inglesa. Duas cláusulas sobreviveram a tudo: nenhum homem livre será preso senão por julgamento de seus pares ou pela lei da terra, e a ninguém se venderá ou negará justiça.\n\n**O Parlamento nasce da necessidade de dinheiro.** Simão de Montfort convoca cavaleiros e burgueses em 1265; o chamado Parlamento Modelo, de 1295, fixa o formato; ao longo do século XIV a assembleia se separa em Lordes e Comuns e conquista o princípio de que imposto novo exige consentimento. É uma alavanca, não uma democracia: quem senta ali representa terra e cidade, não população.\n\n**A peste reorganiza a sociedade que a lei tenta congelar.** A partir de 1348 a peste negra mata entre um terço e metade dos ingleses. Falta braço, os salários sobem, e o Estatuto dos Trabalhadores de 1351 tenta fixá-los nos níveis de antes da epidemia. A resposta vem em 1381, na revolta camponesa que toma Londres e executa o arcebispo de Cantuária. O levante é esmagado e as concessões revogadas — mas a servidão se dissolve no século seguinte de qualquer modo, porque a economia mudou de lado.\n\nO período fecha em guerra dupla: a [[fr-guerra-cem-anos|disputa dinástica contra a França]], perdida em 1453, e a Guerra das Rosas entre Lancaster e York, encerrada em Bosworth, em 1485.\n\n*A leitura da Magna Carta como certidão de nascimento das liberdades inglesas é obra do século XVII, quando juristas como Edward Coke a mobilizaram contra os Stuart. Em 1215 ela era carta de privilégio baronial, negociada por homens que possuíam servos e não pretendiam libertar ninguém.*\n\n*O atlas adota o Reino Unido como país, porque é a entidade que existe na geometria moderna. Nos períodos anteriores à união, o rótulo nomeia o Estado da época — aqui, o Reino da Inglaterra, que não incluía Escócia nem Irlanda.*",
       "fontes": [
         "schama-historia-gra-bretanha",
@@ -22,14 +22,30 @@
         "licenca": "Public domain",
         "origem": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_32-33_comet_Halley_Harold.jpg",
         "legenda": "A Tapeçaria de Bayeux, bordada nos anos 1070 — uma década depois dos fatos que narra. Aqui, o cometa Halley de 1066 e Haroldo entronizado: o presságio e o rei que a conquista normanda derrubaria naquele mesmo ano."
-      }
+      },
+      "entidades": [
+        {
+          "nome": "Reino da Inglaterra",
+          "regime": "monarquia feudal sob dinastias normanda e Plantageneta",
+          "textoMdx": "O Estado dominante da ilha em população e receita, e o único dos três a projetar poder para fora dela. Conquistou os principados galeses entre 1277 e 1283, organizando-os em condados pelo Estatuto de Rhuddlan; tentou o mesmo com a Escócia a partir de 1296 e falhou. Ver [[pais-de-gales|o episódio sobre Gales]].",
+          "fontes": []
+        },
+        {
+          "nome": "Reino da Escócia",
+          "regime": "monarquia própria, com direito, igreja e parlamento distintos dos ingleses",
+          "textoMdx": "Reino soberano desde meados do século IX, com moeda, parlamento e sistema jurídico próprios. Resistiu à conquista inglesa nas Guerras de Independência e manteve por séculos a *Auld Alliance* com a França como contrapeso diplomático. Ver [[escocia|o episódio sobre a Escócia]].",
+          "fontes": [
+            "michael-lynch-escocia"
+          ]
+        }
+      ]
     },
     {
       "id": "gb-tudor",
       "inicio": "1485",
       "fim": "1603",
-      "rotulo": "Reino da Inglaterra (Tudor)",
-      "regime": "monarquia centralizadora; ruptura com Roma e criação da Igreja da Inglaterra",
+      "rotulo": "Inglaterra dos Tudor e o reino da Escócia",
+      "regime": "dois reinos soberanos, cada um com sua própria ruptura religiosa",
       "textoMdx": "Henrique VII chega ao trono por conquista e o mantém por contabilidade: casa-se com a herdeira de York para encerrar a guerra civil, cobra multas da nobreza que fizera o contrário e deixa o Tesouro cheio. É o começo de uma dinastia que governa por cento e dezoito anos com uma legitimidade sempre um pouco frágil — o que explica boa parte do que ela faz.\n\n**A ruptura com Roma começa como problema conjugal e vira revolução de propriedade.** Henrique VIII quer anular seu casamento, o papa recusa, e o Ato de Supremacia de 1534 o declara chefe da Igreja da Inglaterra. A dissolução dos mosteiros, entre 1536 e 1541, transfere à Coroa cerca de um quarto das terras do reino — e a Coroa, precisando de dinheiro para guerra, revende quase tudo à nobreza e à gentry. Essa é a maior redistribuição fundiária desde 1066, e ela cria a classe proprietária que, um século depois, sentaria nos Comuns [[gb-uniao-coroas|para enfrentar o rei]].\n\n**A religião muda quatro vezes em vinte e cinco anos.** Eduardo VI protestantiza; Maria I restaura o catolicismo e manda queimar cerca de trezentos protestantes, o que lhe rende na propaganda posterior um apelido que grudou; Elizabeth I impõe em 1559 um acordo deliberadamente ambíguo, com liturgia reformada e estrutura episcopal. A ambiguidade é política: pretende caber gente demais para que a guerra civil religiosa que devasta a [[fr-antigo-regime|França]] no mesmo período aconteça aqui.\n\n**A Irlanda deixa de ser periferia e vira projeto.** Henrique VIII se declara rei da Irlanda em 1541, e o restante do século é conquista militar e plantação: confisco de terras de senhores gaélicos e assentamento de colonos ingleses, primeiro em Laois e Offaly, depois em Munster. A Guerra dos Nove Anos, encerrada em 1603, quebra a última grande resistência gaélica e abre caminho para a plantação do Ulster. Quase tudo o que virá a ser o conflito irlandês tem raiz aqui.\n\n**A Inglaterra entra no Atlântico pela porta do tráfico.** John Hawkins faz três viagens negreiras entre 1562 e 1569, capturando e comprando africanos para vender no Caribe espanhol; a rainha não apenas autoriza como empresta um navio da Coroa para a segunda. Francis Drake circunavega o globo e saqueia a prata espanhola. A colônia de Roanoke fracassa. É um império ainda inexistente, feito de corso, contrabando e sociedade por ações.\n\n**A Armada de 1588 é vitória menor do que a memória guardou.** A frota espanhola é dispersa por brulotes e desbaratada pelo tempo no retorno. No ano seguinte, a contra-armada inglesa enviada à Espanha fracassa de modo tão completo quanto, e a Espanha reconstrói sua marinha. A supremacia naval britânica é história de dois séculos depois; 1588 é o momento em que ela começa a ser contada como destino.\n\nElizabeth morre sem herdeiros em março de 1603, e o trono passa ao rei da Escócia — o que resolve a sucessão inglesa criando um problema novo.\n\n*O período que os manuais chamam de era de ouro é também o do fechamento de campos comuns, da inflação de preços que corrói salários e da lei dos pobres de 1601, que institucionaliza o socorro à miséria porque a miséria havia deixado de ser exceção. Shakespeare escreve nessa Inglaterra, não em outra.*",
       "fontes": [
         "schama-historia-gra-bretanha"
@@ -41,7 +57,25 @@
         "licenca": "Public domain",
         "origem": "https://commons.wikimedia.org/wiki/File:Elizabeth_I_Armada_Portrait_British_School.jpg",
         "legenda": "O Retrato da Armada, por volta de 1588. A mão da rainha repousa sobre o globo e as janelas ao fundo contam a história em duas cenas: a frota espanhola chegando e a frota espanhola naufragando. É propaganda dinástica, e é o documento que os Tudor quiseram deixar."
-      }
+      },
+      "entidades": [
+        {
+          "nome": "Reino da Inglaterra",
+          "regime": "monarquia centralizadora; ruptura com Roma e criação da Igreja da Inglaterra",
+          "textoMdx": "A reforma inglesa foi decidida pela coroa e manteve bispos. Gales foi incorporado ao reino pelos Atos das Leis em Gales, de 1536 e 1542, com igualdade jurídica formal e o inglês como única língua dos tribunais.",
+          "fontes": [
+            "leis-em-gales-1535-1542"
+          ]
+        },
+        {
+          "nome": "Reino da Escócia",
+          "regime": "monarquia própria; reforma presbiteriana adotada pelo parlamento escocês em 1560",
+          "textoMdx": "A reforma escocesa foi feita contra a coroa e sem bispos: a igreja passou a ser governada por assembleias de ministros e anciãos eleitos. Essa diferença de estrutura, e não de doutrina, é a que produziria conflito quando os dois reinos passassem a ter o mesmo rei.",
+          "fontes": [
+            "michael-lynch-escocia"
+          ]
+        }
+      ]
     },
     {
       "id": "gb-uniao-coroas",
@@ -62,7 +96,23 @@
         "licenca": "Public domain",
         "origem": "https://commons.wikimedia.org/wiki/File:Verschuier-fire.jpg",
         "legenda": "O Grande Incêndio de Londres, pintado por Lieve Verschuier no próprio ano de 1666. Quatro dias de fogo consumiram treze mil casas e a velha catedral de São Paulo — no meio de um século em que a Inglaterra também decapitou um rei e experimentou uma república."
-      }
+      },
+      "entidades": [
+        {
+          "nome": "Reino da Inglaterra",
+          "regime": "monarquia com parlamento próprio, em Westminster",
+          "textoMdx": "O parlamento inglês recusou a união plena que Jaime propôs em 1604, e os dois reinos seguiram com legislação, tributação e igrejas separadas por mais um século.",
+          "fontes": []
+        },
+        {
+          "nome": "Reino da Escócia",
+          "regime": "monarquia com parlamento próprio, em Edimburgo, e igreja presbiteriana estabelecida",
+          "textoMdx": "Manteve parlamento, direito e igreja próprios até 1707, e chegou a fazer guerra contra a Inglaterra sob o mesmo monarca. A tentativa de colônia própria em Darién, entre 1698 e 1700, consumiu boa parte do capital disponível no país e pesou na negociação da União. Ver [[escocia|o episódio sobre a Escócia]].",
+          "fontes": [
+            "tom-devine-escocia"
+          ]
+        }
+      ]
     },
     {
       "id": "gb-gra-bretanha",

@@ -4941,5 +4941,97 @@
     "publicacao": "Comissão de Fronteiras da Índia",
     "data": "1947-08-17",
     "citacao": "Traçou a divisão de Punjab e Bengala com base em censos religiosos desatualizados, em cerca de cinco semanas, por um advogado britânico que nunca havia estado na Índia. Publicado em 17 de agosto, dois dias APÓS a independência dos dois países — milhões de pessoas comemoraram sem saber em qual país estavam."
+  },
+  {
+    "id": "tom-devine-escocia",
+    "tipo": "livro",
+    "titulo": "The Scottish Nation: A History, 1700–2000",
+    "autor": "T. M. Devine",
+    "publicacao": "Penguin",
+    "data": "1999",
+    "citacao": "História da Escócia do ano da União até o fim do século XX, com atenção ao que sobreviveu dentro dela: direito, igreja e educação próprios, que nunca foram fundidos aos ingleses."
+  },
+  {
+    "id": "michael-lynch-escocia",
+    "tipo": "livro",
+    "titulo": "Scotland: A New History",
+    "autor": "Michael Lynch",
+    "publicacao": "Pimlico",
+    "data": "1991",
+    "citacao": "Síntese da história escocesa, da formação de Alba à era contemporânea."
+  },
+  {
+    "id": "john-davies-historia-de-gales",
+    "tipo": "livro",
+    "titulo": "A History of Wales",
+    "autor": "John Davies",
+    "publicacao": "Penguin",
+    "data": "1993",
+    "citacao": "História de Gales escrita a partir de dentro, com atenção central ao idioma como fato político e não apenas cultural."
+  },
+  {
+    "id": "declaracao-de-arbroath-1320",
+    "tipo": "documento-oficial",
+    "titulo": "Declaração de Arbroath",
+    "publicacao": "Barões da Escócia, ao papa João XXII",
+    "data": "1320-04-06",
+    "citacao": "Carta selada por cerca de cinquenta barões pedindo ao papa que reconhecesse a independência escocesa. Afirma que a autoridade do rei vem da comunidade do reino e pode ser retirada por ela se ele se submeter aos ingleses — argumento de soberania popular incomum para 1320."
+  },
+  {
+    "id": "atos-de-uniao-1707",
+    "tipo": "documento-oficial",
+    "titulo": "Artigos e Atos de União entre a Inglaterra e a Escócia",
+    "publicacao": "Parlamentos da Inglaterra e da Escócia",
+    "data": "1707",
+    "citacao": "Fundiram os dois parlamentos num único Parlamento da Grã-Bretanha. Preservaram expressamente o direito escocês, os tribunais escoceses e a Igreja da Escócia — e é por isso que a Escócia atravessou três séculos de união com instituições próprias intactas."
+  },
+  {
+    "id": "estatuto-de-rhuddlan-1284",
+    "tipo": "documento-oficial",
+    "titulo": "Estatuto de Rhuddlan",
+    "publicacao": "Eduardo I de Inglaterra",
+    "data": "1284-03-03",
+    "citacao": "Organizou o principado conquistado em condados sob administração inglesa, introduzindo o direito criminal inglês e mantendo parte do direito civil galês. É o instrumento que converteu conquista militar em estrutura permanente."
+  },
+  {
+    "id": "carta-de-pennal-1406",
+    "tipo": "documento-oficial",
+    "titulo": "Carta de Pennal",
+    "autor": "Owain Glyndŵr",
+    "data": "1406-03-31",
+    "citacao": "Enviada ao rei Carlos VI de França, oferece obediência ao papa de Avignon em troca do reconhecimento de uma igreja galesa independente de Cantuária e de duas universidades em Gales. É o documento em que a revolta declara que projeto de Estado tinha. O original está nos Arquivos Nacionais franceses."
+  },
+  {
+    "id": "leis-em-gales-1535-1542",
+    "tipo": "documento-oficial",
+    "titulo": "Atos das Leis em Gales (Laws in Wales Acts)",
+    "publicacao": "Parlamento da Inglaterra",
+    "data": "1535",
+    "citacao": "Incorporaram Gales ao reino da Inglaterra em igualdade jurídica formal, e ao mesmo tempo estabeleceram o inglês como única língua admitida nos tribunais — excluindo dos cargos públicos quem não o falasse, numa população que em sua quase totalidade falava galês."
+  },
+  {
+    "id": "livros-azuis-1847",
+    "tipo": "documento-oficial",
+    "titulo": "Relatório dos comissários de inquérito sobre o estado da educação em Gales",
+    "autor": "R. R. W. Lingen, Jellynger C. Symons e H. R. Vaughan Johnson",
+    "publicacao": "Governo britânico",
+    "data": "1847",
+    "citacao": "Conhecido em Gales como os Livros Azuis. Atribuiu o atraso educacional do país à língua galesa e à moral de sua população, e o efeito duradouro foi legitimar a supressão do galês nas escolas."
+  },
+  {
+    "id": "lei-da-escocia-1998",
+    "tipo": "documento-oficial",
+    "titulo": "Scotland Act 1998",
+    "publicacao": "Parlamento do Reino Unido",
+    "data": "1998-11-19",
+    "citacao": "Criou o Parlamento Escocês com competência legislativa primária sobre tudo o que a lei não reservasse expressamente a Westminster — modelo inverso ao galês, que recebeu apenas competências listadas."
+  },
+  {
+    "id": "lei-do-governo-de-gales-1998",
+    "tipo": "documento-oficial",
+    "titulo": "Government of Wales Act 1998",
+    "publicacao": "Parlamento do Reino Unido",
+    "data": "1998-07-31",
+    "citacao": "Criou a Assembleia Nacional de Gales com poderes apenas delegados e sem competência legislativa primária, aprovada em referendo por margem de cerca de meio ponto percentual. A equiparação com o modelo escocês só veio por etapas, até a lei de 2017."
   }
 ]

@@ -1,0 +1,141 @@
+{
+  "id": "pais-de-gales",
+  "titulo": "O País de Gales",
+  "subtitulo": "Conquistado em 1283, incorporado por lei em 1536, e o único dos três casos em que a nação sobreviveu sobretudo pela língua — que quase morreu e voltou.",
+  "inicio": "1055",
+  "paises": [
+    "GBR"
+  ],
+  "periodos": [
+    "gb-inglaterra-medieval",
+    "gb-tudor",
+    "gb-uniao-coroas",
+    "gb-gra-bretanha",
+    "gb-reino-unido-irlanda",
+    "gb-reino-unido-atual"
+  ],
+  "abertura": "Gales é o caso assimétrico dos três. Ao contrário da Escócia, não foi um reino unificado que entrou numa união por tratado: foi um conjunto de principados rivais, unificados por poucos anos de cada vez, conquistados militarmente em 1283 e incorporados por ato do parlamento inglês em 1536, sem negociação e sem instituições preservadas.\n\nO que restou não foi um sistema jurídico nem uma igreja nacional — foi a língua. E ela chegou perto de desaparecer: a política escolar do século XIX puniu crianças por falarem galês, a proporção de falantes caiu de cerca de metade da população em 1901 para menos de 20% nos anos 1980. O que aconteceu depois é o que torna Gales interessante: a curva parou de cair.",
+  "blocos": [
+    {
+      "id": "principados-galeses",
+      "data": "1055",
+      "rotulo": "1055–1267",
+      "titulo": "Os reinos galeses e a lei de Hywel Dda",
+      "textoMdx": "Gales medieval era Gwynedd no noroeste, Powys no centro, Deheubarth no sudoeste — reinos que se aliavam e se destruíam entre si, com unificações que raramente sobreviviam a quem as fazia. Gruffudd ap Llywelyn governou toda a Gales por cerca de oito anos até 1063; depois dele, ninguém, por dois séculos.\n\nO que era comum a todos era a lei. **O direito galês, atribuído a Hywel Dda no século X, tratava mulheres, filhos ilegítimos e propriedade de forma marcadamente distinta do direito inglês** — dividia a herança entre todos os filhos em vez de dar tudo ao primogênito, e reconhecia à mulher direito a metade dos bens após sete anos de casamento. A conquista inglesa depois trataria essas regras como prova de barbárie.\n\nEm 1267, pelo Tratado de Montgomery, o rei da Inglaterra reconheceu Llywelyn ap Gruffudd como Príncipe de Gales — a única vez em que a soberania galesa foi reconhecida por escrito por Londres.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/The_Laws_of_Hywel_Dda_%28f.15.v%29_hair_pulling.png/1920px-The_Laws_of_Hywel_Dda_%28f.15.v%29_hair_pulling.png",
+        "alt": "Fólio de manuscrito medieval com texto em latim e um desenho marginal colorido de duas figuras agarrando-se pelos cabelos.",
+        "credito": "Manuscritos Peniarth — Biblioteca Nacional de Gales",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Laws_of_Hywel_Dda_(f.15.v)_hair_pulling.png",
+        "legenda": "Cópia latina das Leis de Hywel Dda, de meados do século XIII. O desenho na margem ilustra o caso em julgamento: puxar cabelo, e quanto se paga por isso. O direito galês tarifava a ofensa em vez de puni-la corporalmente."
+      }
+    },
+    {
+      "id": "conquista-de-eduardo-i",
+      "data": "1282",
+      "rotulo": "1282–1284",
+      "titulo": "A conquista de Eduardo I",
+      "textoMdx": "Llywelyn ap Gruffudd recusou-se a prestar homenagem a Eduardo I, e a guerra que veio em 1282 terminou com sua morte num encontro casual perto de Builth. Seu irmão Dafydd foi capturado e executado no ano seguinte — enforcado, estripado e esquartejado, punição inventada para a ocasião e depois padronizada para traição.\n\nO **Estatuto de Rhuddlan**, de 1284, converteu a conquista em administração: condados, xerifes, direito criminal inglês. E Eduardo mandou construir um anel de castelos — Caernarfon, Conwy, Harlech, Beaumaris — que consumiu uma fatia extraordinária da receita real e não foi feito para defender Gales de estrangeiros, mas para segurá-la por dentro.\n\nEm 1301 o rei deu o título de Príncipe de Gales ao próprio filho, e desde então ele pertence ao herdeiro do trono inglês.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Castell_Caernarfon_yn_y_cyfnos_yn_2023_-_Castell_Caernarfon%2C_Gwynedd%2C_Wales_at_Dusk_-_2023_10.png/1920px-Castell_Caernarfon_yn_y_cyfnos_yn_2023_-_Castell_Caernarfon%2C_Gwynedd%2C_Wales_at_Dusk_-_2023_10.png",
+        "alt": "Castelo medieval maciço com torres poligonais e muralhas em faixas de pedra clara e escura, fotografado ao anoitecer à beira d'água.",
+        "credito": "Llywelyn2000",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Castell_Caernarfon_yn_y_cyfnos_yn_2023_-_Castell_Caernarfon,_Gwynedd,_Wales_at_Dusk_-_2023_10.png",
+        "legenda": "Caernarfon, erguido a partir de 1283. O objeto é do período e a fotografia é de 2023 — mesma regra da Magna Carta no acervo. As torres poligonais e as faixas de pedra colorida imitam de propósito as muralhas de Constantinopla: o castelo foi projetado para parecer imperial a quem o visse de baixo."
+      }
+    },
+    {
+      "id": "glyndwr",
+      "data": "1400",
+      "rotulo": "1400–1415",
+      "titulo": "A revolta de Owain Glyndŵr",
+      "textoMdx": "A última grande revolta galesa começou em 1400 numa disputa de terras e virou guerra nacional. Glyndŵr foi proclamado Príncipe de Gales, controlou boa parte do território, convocou parlamentos em Machynlleth e Harlech e assinou aliança com a França.\n\nO projeto está escrito. **A Carta de Pennal, de 1406, oferece obediência ao papa de Avignon em troca de uma igreja galesa independente de Cantuária e de duas universidades em Gales** — uma no norte, uma no sul. É o momento em que a revolta deixa de ser rebelião e enuncia um Estado.\n\nA maré virou a partir de 1408. Glyndŵr nunca foi capturado nem traído, e desapareceu por volta de 1415 sem que se saiba onde morreu. As leis penais impostas depois proibiram galeses de portar armas, ocupar cargos e comprar propriedade em cidades — restrições que sobreviveram um século.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Charte_scell%C3%A9e_du_Prince_Owain_Glyndwr_de_Galles-_Archives_nationales_-_J%CC%88-516-A-29.jpg/1920px-Charte_scell%C3%A9e_du_Prince_Owain_Glyndwr_de_Galles-_Archives_nationales_-_J%CC%88-516-A-29.jpg",
+        "alt": "Carta medieval em pergaminho com texto latino denso e um grande selo de cera pendurado por cordão na parte inferior.",
+        "credito": "Archives nationales (França), J-516-A-29",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Charte_scell%C3%A9e_du_Prince_Owain_Glyndwr_de_Galles-_Archives_nationales_-_J%CC%88-516-A-29.jpg",
+        "legenda": "A carta selada de Owain Glyndŵr ao rei Carlos VI de França, março de 1406. Sobreviveu porque foi enviada para fora: está nos Arquivos Nacionais franceses há seiscentos anos, enquanto quase todo o arquivo do principado galês se perdeu."
+      }
+    },
+    {
+      "id": "leis-em-gales",
+      "data": "1536",
+      "rotulo": "1536–1588",
+      "titulo": "A incorporação e a Bíblia que salvou a língua",
+      "textoMdx": "Os Atos das Leis em Gales, de 1536 e 1542, incorporaram Gales ao reino da Inglaterra dando aos galeses igualdade jurídica formal e representação no parlamento — e, no mesmo texto, **estabeleceram o inglês como única língua admitida nos tribunais e nos cargos públicos**, num país onde quase ninguém o falava. A elite galesa anglicizou-se em duas gerações.\n\nO que impediu a língua de virar dialeto rural foi uma decisão religiosa. Em 1588 William Morgan publicou a tradução completa da Bíblia para o galês, e a partir dali houve culto semanal em galês literário em cada paróquia do país. **Uma língua sem Estado, sem tribunal e sem escola sobreviveu porque tinha um livro lido em voz alta toda semana** — e ganhou de quebra um padrão escrito unificado, coisa que muitas línguas com Estado levaram séculos para conseguir.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Beibl_Cyssegr-Lan_01_Intro%2BGenesis.pdf/page1-1920px-Beibl_Cyssegr-Lan_01_Intro%2BGenesis.pdf.jpg",
+        "alt": "Página de rosto de bíblia impressa no século XVI, com título em galês em caracteres góticos dentro de moldura tipográfica ornamentada.",
+        "credito": "William Morgan",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Beibl_Cyssegr-Lan_01_Intro%2BGenesis.pdf",
+        "legenda": "Folha de rosto do *Beibl Cyssegr-lan*, a Bíblia galesa de William Morgan, 1588. Cada paróquia foi obrigada por lei a ter um exemplar — e foi essa obrigação, tomada por motivo religioso, que fixou o galês escrito."
+      }
+    },
+    {
+      "id": "livros-azuis",
+      "data": "1847",
+      "rotulo": "1847–1900",
+      "titulo": "Os Livros Azuis e o Welsh Not",
+      "textoMdx": "Em 1847, três comissários ingleses sem galês e sem formação em educação percorreram o país e produziram um relatório sobre o estado do ensino. Concluíram que o atraso educacional galês vinha da língua e da moral da população, com atenção especial à conduta das mulheres.\n\nO efeito não foi criar escolas: foi legitimar a supressão. Espalhou-se pelas escolas a prática do **Welsh Not** — uma placa de madeira pendurada no pescoço da criança flagrada falando galês, que ela passava adiante ao pegar outra falando, e quem estivesse com ela no fim do dia apanhava.\n\nEm Gales o relatório ficou conhecido como *Brad y Llyfrau Gleision*, a Traição dos Livros Azuis, e produziu o efeito contrário ao pretendido: virou agravo nacional fundador e alimentou o movimento que, décadas depois, cobraria escola em galês.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Blue_Books_prt_2%2C_no.9%2C_p.66_-_Evils_of_the_Welsh_Language.gif",
+        "alt": "Página impressa de relatório oficial do século XIX, com a rubrica marginal 'Evils of the Welsh Language' ao lado do texto.",
+        "credito": "R. R. W. Lingen, Jellynger C. Symons e H. R. Vaughan Johnson",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Blue_Books_prt_2,_no.9,_p.66_-_Evils_of_the_Welsh_Language.gif",
+        "legenda": "Página do relatório de 1847, com a rubrica impressa na margem: *Evils of the Welsh Language*. O documento não esconde a tese — ela está no sumário lateral, para facilitar a consulta."
+      }
+    },
+    {
+      "id": "carvao",
+      "data": "1910",
+      "rotulo": "1900–1966",
+      "titulo": "Carvão, greve e Aberfan",
+      "textoMdx": "No começo do século XX os vales do sul produziam carvão para meio mundo, e Cardiff exportava mais tonelagem que qualquer porto do planeta. A população de Gales dobrou em cinquenta anos com migração de dentro e de fora — e foi nesses vales, de língua majoritariamente inglesa, que nasceram o sindicalismo galês e a política trabalhista que depois deu ao Reino Unido o serviço nacional de saúde, criado por Aneurin Bevan, filho de mineiro de Tredegar.\n\nO custo foi contado em desastres. O pior deles não aconteceu dentro da mina: em outubro de 1966, uma pilha de rejeito encharcada deslizou sobre a escola primária de **Aberfan e matou 116 crianças e 28 adultos**. O inquérito responsabilizou diretamente a estatal do carvão, que sabia da instabilidade e não agiu; ninguém foi demitido nem processado.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Elizabeth_II_greets_families_after_Aberfan_disaster.jpg",
+        "alt": "Fotografia de 1966 da rainha Elizabeth II, de casaco escuro, conversando com moradores numa rua de vila galesa cercada de encostas.",
+        "credito": "Associated Press",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Elizabeth_II_greets_families_after_Aberfan_disaster.jpg",
+        "legenda": "Aberfan, 24 de outubro de 1966, oito dias depois do deslizamento. A demora da rainha em ir ao local é lembrada por ela própria como o maior arrependimento do reinado."
+      }
+    },
+    {
+      "id": "tryweryn-e-a-lingua",
+      "data": "1965",
+      "rotulo": "1962–1993",
+      "titulo": "Tryweryn e a virada da língua",
+      "textoMdx": "Em 1965 a aldeia de Capel Celyn foi submersa para abastecer Liverpool com água. Trinta e cinco das trinta e seis cadeiras galesas em Westminster votaram contra, e o projeto passou assim mesmo — **demonstração pública de que o voto galês não decidia nada sobre Gales**. A frase *Cofiwch Dryweryn*, \"lembrai-vos de Tryweryn\", virou pichação nacional.\n\nTrês anos antes, Saunders Lewis havia feito uma palestra no rádio, *Tynged yr Iaith* — o destino da língua —, dizendo que o galês morreria neste século se nada fosse feito. Dela nasceu a Cymdeithas yr Iaith, que fez campanha de desobediência civil por sinalização bilíngue, formulários oficiais e uma emissora própria.\n\nA lei de 1967 admitiu o galês nos tribunais; a de 1993 obrigou o setor público a tratá-lo em igualdade com o inglês. O canal de televisão em galês foi criado em 1982 depois que o líder do Plaid Cymru anunciou greve de fome. **A proporção de falantes parou de cair na década de 1990** — a primeira vez em um século."
+    },
+    {
+      "id": "devolucao-senedd",
+      "data": "1997",
+      "rotulo": "1997–hoje",
+      "titulo": "A devolução e o Senedd",
+      "textoMdx": "O referendo de 1979 rejeitou a devolução por quatro a um. O de 1997 aprovou por **0,6 ponto percentual** — cerca de seis mil votos de diferença num eleitorado de dois milhões. A Assembleia Nacional abriu em 1999 com poderes bem menores que os do parlamento escocês: apenas competências listadas, sem legislar por conta própria.\n\nA equiparação veio por etapas, e cada uma passou por consulta ou lei: competência legislativa primária em 2011, aprovada em referendo por dois terços; poderes fiscais em 2017, quando a instituição também passou a se chamar oficialmente **Senedd**. O contraste com a Escócia é instrutivo: lá a devolução restaurou algo que existira, aqui ela criou algo inédito, e por isso foi negociada em fatias.\n\nGales votou pela saída da União Europeia em 2016, ao contrário da Escócia — e é, das quatro nações do Reino Unido, aquela em que o apoio à independência permanece mais baixo.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/The_Senedd%2C_Cardiff_Bay%2C_South_Wales._Frontage.jpg/1920px-The_Senedd%2C_Cardiff_Bay%2C_South_Wales._Frontage.jpg",
+        "alt": "Edifício contemporâneo de vidro sob um amplo telhado ondulado de madeira, com escadaria larga de ardósia descendo para a orla.",
+        "credito": "Rosser1954",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Senedd,_Cardiff_Bay,_South_Wales._Frontage.jpg",
+        "legenda": "O Senedd, na baía de Cardiff, aberto em 2006. A câmara fica sob um funil de madeira e o edifício é envidraçado de propósito — o projeto foi escolhido por um júri que pedia transparência literal."
+      }
+    }
+  ],
+  "fecho": "Dos três casos, Gales é o que perdeu mais cedo e mais completamente: sem tratado, sem instituições preservadas, sem parlamento até 1999. O que sobreviveu foi a língua — e sobreviveu por uma sequência improvável de acidentes, entre eles uma tradução da Bíblia feita por motivo religioso em 1588 e uma palestra de rádio em 1962. Hoje o galês é a única língua céltica cujo número de falantes não está em queda, e a meta oficial do governo galês é chegar a um milhão deles até 2050.",
+  "fontes": [
+    "john-davies-historia-de-gales",
+    "estatuto-de-rhuddlan-1284",
+    "carta-de-pennal-1406",
+    "leis-em-gales-1535-1542",
+    "livros-azuis-1847",
+    "lei-do-governo-de-gales-1998"
+  ]
+}

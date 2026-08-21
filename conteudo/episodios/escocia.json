@@ -1,0 +1,155 @@
+{
+  "id": "escocia",
+  "titulo": "A Escócia",
+  "subtitulo": "Oitocentos e cinquenta anos de reino soberano, três séculos de união — e um direito, uma igreja e uma escola que nunca foram fundidos aos ingleses.",
+  "inicio": "750",
+  "paises": [
+    "GBR"
+  ],
+  "periodos": [
+    "gb-inglaterra-medieval",
+    "gb-tudor",
+    "gb-uniao-coroas",
+    "gb-gra-bretanha",
+    "gb-reino-unido-irlanda",
+    "gb-reino-unido-atual"
+  ],
+  "abertura": "A Escócia não é uma região do Reino Unido que ganhou autonomia em 1999. É um Estado que existiu por conta própria de meados do século IX até 1707, que entrou na união por tratado e não por conquista, e que negociou nesse tratado a preservação das três instituições que definem o dia a dia de um país: o direito, a igreja e a escola.\n\nÉ isso que explica por que, depois de trezentos anos dentro de outro Estado, ainda há um sistema jurídico escocês com categorias próprias, uma igreja nacional distinta da anglicana e um sistema educacional separado — e por que a devolução de 1999 devolveu um parlamento a um lugar que já tinha tido um.",
+  "blocos": [
+    {
+      "id": "alba",
+      "data": "750",
+      "rotulo": "c. 750–1058",
+      "titulo": "Dos pictos a Alba",
+      "textoMdx": "O norte da ilha era dividido entre pictos, escotos de Dál Riata, britões e nórdicos. A fusão dos dois primeiros num reino chamado **Alba**, tradicionalmente atribuída a Cináed mac Ailpín por volta de 843, produziu o núcleo do que viraria a Escócia — e a arqueologia sugere um processo mais lento e menos heroico que a lista de reis.\n\nO que sobrou desse mundo é sobretudo eclesiástico e portátil: relicários, pedras entalhadas e manuscritos. A igreja era a única instituição com escrita contínua, e por isso é dela que vem quase todo o registro.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Monymusk_Reliquary_2013-1.jpg/1920px-Monymusk_Reliquary_2013-1.jpg",
+        "alt": "Pequeno relicário em forma de casa, feito de madeira revestida de placas de prata e bronze com entrelaçados gravados, exposto em vitrine de museu.",
+        "credito": "Fotografia de Mike Peel — National Museum of Scotland",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Monymusk_Reliquary_2013-1.jpg",
+        "legenda": "O relicário de Monymusk, feito por volta de 750. O objeto é do período; a fotografia é de 2013 — mesma regra do pergaminho da Magna Carta no acervo. Tem doze centímetros e era carregado à frente do exército: relicário servia de bandeira antes de existir bandeira."
+      }
+    },
+    {
+      "id": "guerras-de-independencia",
+      "data": "1320",
+      "rotulo": "1296–1328",
+      "titulo": "As Guerras de Independência",
+      "textoMdx": "Eduardo I da Inglaterra foi convidado a arbitrar uma sucessão disputada em 1291 e usou a arbitragem para reivindicar suserania. A guerra que se seguiu produziu William Wallace, Robert Bruce e, em 1314, a vitória de Bannockburn.\n\nMas o documento que ficou é de 1320. **A Declaração de Arbroath** é uma carta ao papa argumentando a independência escocesa, e o que a torna incomum não é o pedido: é a justificativa. Diz que os barões fizeram Robert rei e que, se ele se submeter aos ingleses, eles o depõem e escolhem outro. Em 1320, afirmar que a autoridade do rei vem da comunidade do reino e pode ser retirada por ela é argumento raro o bastante para ainda ser citado.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Declaration_of_arbroath.jpg/1920px-Declaration_of_arbroath.jpg",
+        "alt": "Documento medieval em pergaminho coberto de escrita latina, com dezenas de selos de cera pendurados por fitas na borda inferior.",
+        "credito": "Barões da Escócia — cópia dita de Tyninghame",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Declaration_of_arbroath.jpg",
+        "legenda": "A Declaração de Arbroath, 1320. Os selos pendurados na borda são a assinatura: cerca de cinquenta barões apondo cada um o seu, para que o papa visse que não era a carta de um homem."
+      }
+    },
+    {
+      "id": "reforma",
+      "data": "1560",
+      "rotulo": "1560–1587",
+      "titulo": "A Reforma e a rainha que perdeu o trono",
+      "textoMdx": "O parlamento escocês rompeu com Roma em 1560 e adotou uma reforma **presbiteriana**, sem bispos — diferença que não é de detalhe: a igreja passou a ser governada por assembleias de ministros e anciãos eleitos, e essa estrutura virou uma escola de política representativa paralela ao Estado.\n\nO plano de John Knox previa uma escola em cada paróquia, e ainda que a execução tenha levado séculos, a alfabetização escocesa ficou acima da média europeia. Maria Stuart, católica e criada na França, voltou para reinar sobre um país que acabara de virar protestante; perdeu o trono em 1567, fugiu para a Inglaterra e passou dezenove anos presa antes de ser executada.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mary%2C_Queen_of_Scots_after_Nicholas_Hilliard.jpg/1920px-Mary%2C_Queen_of_Scots_after_Nicholas_Hilliard.jpg",
+        "alt": "Retrato de Maria, rainha dos escoceses, de véu branco e vestido escuro bordado, sobre fundo liso.",
+        "credito": "Segundo Nicholas Hilliard",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Mary,_Queen_of_Scots_after_Nicholas_Hilliard.jpg",
+        "legenda": "Maria Stuart em 1578, no cativeiro inglês. É um dos chamados retratos de Sheffield, pintados durante os dezenove anos de prisão — a imagem de uma rainha que já não reinava, feita enquanto ela ainda estava viva."
+      }
+    },
+    {
+      "id": "uniao-das-coroas",
+      "data": "1603",
+      "rotulo": "1603–1707",
+      "titulo": "Duas coroas, um rei, dois Estados",
+      "textoMdx": "Elizabeth I morreu sem herdeiros e o trono inglês coube a Jaime VI da Escócia, que virou também Jaime I da Inglaterra. **Foi o rei que mudou de país, não os países que se fundiram**: por mais um século Escócia e Inglaterra mantiveram parlamentos separados, leis separadas, igrejas separadas e até guerras entre si.\n\nJaime quis a união plena e o parlamento inglês recusou. O século que se seguiu foi de atrito — guerras civis, os Covenanters, a ocupação de Cromwell — sob um monarca comum que governava de Londres e voltou à Escócia uma única vez em vinte e dois anos.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Sir_Peter_Paul_Rubens_%281577-1640%29_and_studio_-_The_Union_of_the_Crowns_of_England_and_Scotland_-_RCIN_408417_-_Royal_Collection.jpg",
+        "alt": "Pintura barroca alegórica em que figuras coroadas e um menino nu são cercados por putti, com duas coroas sendo unidas acima.",
+        "credito": "Peter Paul Rubens e oficina — Royal Collection",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Sir_Peter_Paul_Rubens_(1577-1640)_and_studio_-_The_Union_of_the_Crowns_of_England_and_Scotland_-_RCIN_408417_-_Royal_Collection.jpg",
+        "legenda": "Rubens pintou a União das Coroas por volta de 1632 como alegoria encomendada para o teto de Whitehall. É propaganda dinástica feita dentro do período: o quadro afirma como consumado um casamento político que o parlamento inglês tinha recusado."
+      }
+    },
+    {
+      "id": "darien-e-a-uniao",
+      "data": "1698",
+      "rotulo": "1698–1707",
+      "titulo": "Darién e o preço da União",
+      "textoMdx": "Em 1698 a Escócia apostou a poupança nacional numa colônia própria no istmo do Panamá. A Companhia da Escócia levantou uma soma que, pelas estimativas, chegava a boa parte do capital líquido disponível no país. **A colônia de Darién morreu de febre, fome e bloqueio em dois anos**, e levou junto a fortuna de boa parte da nobreza e da burguesia mercantil.\n\nA União de 1707 foi negociada nesse contexto: os artigos incluíam uma indenização em dinheiro aos investidores arruinados. Robert Burns escreveria depois que a Escócia foi \"comprada e vendida por ouro inglês\". O tratado também **preservou expressamente o direito escocês, os tribunais e a Igreja da Escócia** — e é por isso que a união apagou o parlamento sem apagar as instituições.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Articles_of_Union_between_England_and_Scotland_28_Jan_1707.png",
+        "alt": "Volume manuscrito encadernado em pergaminho, aberto, com os artigos do tratado em escrita cursiva e assinaturas ao pé.",
+        "credito": "Parlamento da Inglaterra",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Articles_of_Union_between_England_and_Scotland_28_Jan_1707.png",
+        "legenda": "Os Artigos da União, acordados pelos comissários nomeados pela rainha Ana e datados de 28 de janeiro de 1707. O volume é assinado e selado — o fim de um Estado registrado em cartório."
+      }
+    },
+    {
+      "id": "culloden",
+      "data": "1746",
+      "rotulo": "1745–1746",
+      "titulo": "Culloden e o desmonte dos clãs",
+      "textoMdx": "A última tentativa jacobita de recuperar o trono para os Stuart chegou a duzentos quilômetros de Londres antes de recuar. Em abril de 1746, no descampado de Culloden, o exército governamental desfez em menos de uma hora uma força exausta e mal posicionada.\n\nO que veio depois importa mais que a batalha. O Ato de Proscrição desarmou os Highlands, proibiu o tartã fora do exército e desmontou as jurisdições hereditárias dos chefes de clã. **A relação de parentesco entre chefe e clã virou relação de proprietário e arrendatário** — e é essa conversão que torna possível, meio século depois, esvaziar os vales.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/The_Battle_of_Culloden.jpg/1920px-The_Battle_of_Culloden.jpg",
+        "alt": "Pintura a óleo de combate corpo a corpo entre soldados de casaca vermelha com baionetas e homens de tartã com espadas e escudos redondos.",
+        "credito": "David Morier",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Battle_of_Culloden.jpg",
+        "legenda": "Morier pintou a cena logo depois da batalha e, segundo a tradição do quadro, usou prisioneiros jacobitas como modelos para as figuras de tartã. É uma reconstituição feita no calor do acontecimento, encomendada pelo lado que venceu."
+      }
+    },
+    {
+      "id": "iluminismo",
+      "data": "1754",
+      "rotulo": "c. 1740–1800",
+      "titulo": "O Iluminismo escocês",
+      "textoMdx": "Um país pequeno, recém-privado de parlamento próprio e sem capital política produziu em duas gerações David Hume, Adam Smith, Adam Ferguson, Joseph Black e James Hutton. A explicação mais aceita liga isso às instituições que a União preservou: **cinco universidades numa população de pouco mais de um milhão**, contra duas na Inglaterra inteira, e uma rede paroquial de escolas herdada da Reforma.\n\nEdimburgo ganhou nesse período a Cidade Nova, planejada em grade a partir de 1767 — uma cidade construída de propósito para uma sociedade que se via como moderna.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Allan_Ramsay_-_David_Hume%2C_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg/1920px-Allan_Ramsay_-_David_Hume%2C_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg",
+        "alt": "Retrato a óleo de David Hume, de casaca vermelha bordada com galões dourados e chapéu, sentado em três quartos.",
+        "credito": "Allan Ramsay — National Galleries of Scotland",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Allan_Ramsay_-_David_Hume,_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg",
+        "legenda": "David Hume por Allan Ramsay, 1754 — pintado por um amigo, no ano em que Hume publicava o primeiro volume da sua História da Inglaterra. O filósofo nunca conseguiu uma cátedra em nenhuma das universidades escocesas: foi barrado por suspeita de ateísmo."
+      }
+    },
+    {
+      "id": "clearances",
+      "data": "1790",
+      "rotulo": "c. 1780–1880",
+      "titulo": "As Highland Clearances",
+      "textoMdx": "Ao longo de um século, populações inteiras dos Highlands e das ilhas foram removidas das terras que ocupavam por gerações, para dar lugar a criação de ovelhas — mais rentável por acre do que gente. As remoções foram legais: os chefes de clã haviam virado proprietários com título, e arrendatários sem contrato escrito não tinham o que opor.\n\nParte dos removidos foi para o litoral colher algas, parte para as cidades industriais do sul, parte para o Canadá, a Austrália e a Nova Zelândia. **A demografia dos Highlands nunca se recuperou**, e o gaélico, que era a língua da região, entrou num declínio do qual não voltou: hoje é falado por cerca de 1% da população escocesa.\n\nA resistência veio tarde e venceu em parte — a Guerra dos Crofters, nos anos 1880, arrancou uma lei de segurança de posse que ainda vigora."
+    },
+    {
+      "id": "devolucao",
+      "data": "1999",
+      "rotulo": "1997–hoje",
+      "titulo": "A devolução e o referendo",
+      "textoMdx": "Um referendo em 1979 aprovou a devolução por maioria simples e mesmo assim ela não veio: uma emenda exigia 40% do eleitorado total, e a abstenção reprovou o resultado. Só em 1997 um novo referendo aprovou com folga, e o **Parlamento Escocês reabriu em 1999, depois de 292 anos fechado.**\n\nO desenho escocês é mais forte que o galês: a lei de 1998 deu ao parlamento competência sobre tudo o que não fosse expressamente reservado a Westminster — o inverso de uma lista de poderes concedidos.\n\nO referendo de independência de 2014 teve comparecimento de quase 85% e terminou em 55% a 45% pela permanência. O resultado não encerrou a questão: dois anos depois, o Brexit foi aprovado no Reino Unido enquanto a Escócia votava 62% por permanecer na União Europeia, e o argumento de que as circunstâncias mudaram sustenta a disputa até hoje.",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Scottish_Parliament_building%2C_Holyrood%2C_Edinburgh_%282024%29.jpg/1920px-Scottish_Parliament_building%2C_Holyrood%2C_Edinburgh_%282024%29.jpg",
+        "alt": "Edifício contemporâneo de formas irregulares em concreto, aço e carvalho, com painéis salientes na fachada, ao pé de uma encosta verde.",
+        "credito": "Darren J. Prior",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Scottish_Parliament_building,_Holyrood,_Edinburgh_(2024).jpg",
+        "legenda": "O edifício do Parlamento Escocês em Holyrood, aberto em 2004. Custou cerca de dez vezes o orçamento inicial e virou escândalo nacional — mas é a sede de uma instituição que passou 292 anos sem existir."
+      }
+    }
+  ],
+  "fecho": "O que a Escócia guardou dentro da união não foi folclore: foi um sistema jurídico com categorias próprias, uma igreja nacional distinta e uma escola separada. É por isso que a devolução pôde restaurar um parlamento em vez de inventar um, e é por isso que a pergunta sobre independência, ao contrário do que acontece na maior parte dos regionalismos europeus, se discute em termos de tratado e não de secessão.",
+  "fontes": [
+    "michael-lynch-escocia",
+    "tom-devine-escocia",
+    "declaracao-de-arbroath-1320",
+    "atos-de-uniao-1707",
+    "lei-da-escocia-1998"
+  ]
+}
