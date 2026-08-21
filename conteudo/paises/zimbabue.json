@@ -6,57 +6,105 @@
     {
       "id": "zwe-grande-zimbabue-mutapa-rozvi",
       "inicio": "1100",
-      "fim": "1830",
+      "fim": "1838",
       "rotulo": "Grande Zimbábue e os impérios Mutapa e Rozvi",
-      "regime": "civilização de construção monumental em pedra, sucedida por impérios comerciais controlando o comércio do ouro",
-      "textoMdx": "A civilização do Grande Zimbábue floresce entre cerca de 1100 e 1450, construindo o maior complexo de arquitetura em pedra da África Subsaariana ao sul do Egito antigo — ruínas monumentais que dariam, séculos depois, nome ao próprio país independente.\n\nO Império Mutapa sucede o Grande Zimbábue como potência comercial dominante da região, controlando extensas rotas de comércio de ouro e marfim que conectavam o interior à costa suaíli e, a partir do século XVI, a comerciantes portugueses.\n\nO Império Rozvi, sob a dinastia Changamire a partir de fins do século XVII, expulsaria a influência portuguesa direta do planalto interior, mantendo domínio regional até ser progressivamente enfraquecido pelas perturbações do início do século XIX associadas às migrações do mfecane vindas do sul.",
+      "regime": "cidade-Estado de construção monumental em pedra, sucedida por impérios comerciais do planalto",
+      "textoMdx": "Entre os rios Zambeze e Limpopo, num planalto alto e livre da mosca tsé-tsé — o que permitia criar gado onde quase toda a África tropical não permitia —, ergue-se a partir do século XI a maior estrutura de pedra da África austral pré-colonial. **O Grande Zimbábue foi construído sem argamassa**, pedra sobre pedra encaixada a seco, e o muro do Grande Recinto alcança onze metros de altura. Estimativas de população vão de dez a vinte mil pessoas no auge, e o Estado que a cidade comandava talvez cobrisse cinquenta mil quilômetros quadrados.\n\nA riqueza vinha de fora: ouro do planalto e marfim descendo até a costa suaíli, e de lá para a Índia e a China. Escavações no sítio acharam moedas árabes, contas de vidro persa e porcelana chinesa da dinastia Ming — o interior africano não era isolado, era **uma ponta da rede comercial do oceano Índico**. A cidade é abandonada no século XV ou XVI, provavelmente por esgotamento do solo e da lenha em volta de uma população concentrada demais para o lugar sustentar.\n\nO Império Mutapa herda a posição no comércio do ouro e é o primeiro Estado da região a aparecer em documento europeu: mercadores portugueses do vale do Zambeze o chamam de *Monomotapa*, e cartógrafos em Amsterdã desenham por dois séculos um reino cujo interior nenhum deles viu. **A presença portuguesa cresce de comércio para interferência dinástica**, com feiras fortificadas no interior e apoio armado a candidatos ao trono.\n\nA reação vem do sul do planalto: a dinastia Changamire funda o Império Rozvi no fim do século XVII e **expulsa os portugueses do interior**, empurrando-os de volta para o vale e a costa. O Rozvi domina o planalto por mais de um século, até as ondas de deslocamento do *mfecane* — a reorganização violenta desencadeada pela expansão militar zulu no sul — chegarem ao planalto nos anos 1830 e desmantelarem o Estado.\n\nA escolha das ruínas como nome do país independente, em 1980, não foi decorativa: a arqueologia colonial passara décadas atribuindo a cidade a fenícios, árabes ou à rainha de Sabá, porque admitir construção africana contrariava a justificativa da colonização.",
       "fontes": [
+        "innocent-pikirayi-cultura-zimbabue",
         "david-beach-shona-zimbabue"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Monomotapa_Map.jpg/1920px-Monomotapa_Map.jpg",
+        "alt": "Mapa holandês de 1635 do interior da África austral, com o reino de Monomotapa desenhado entre rios, montanhas e figuras de animais, e a costa detalhada em contraste com o interior conjectural.",
+        "credito": "Willem Blaeu",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Monomotapa_Map.jpg",
+        "legenda": "O Monomotapa como a Europa o imaginava em 1635, por Willem Blaeu. A costa é precisa porque navios a mediram; o interior é preenchido por relato de segunda mão e por ornamento. O mapa é documento do comércio português no Zambeze, não do Estado que diz retratar."
+      }
     },
     {
       "id": "zwe-reino-ndebele",
       "inicio": "1838",
       "fim": "1893",
       "rotulo": "Reino Ndebele",
-      "regime": "reino guerreiro fundado por general zulu dissidente, parte da diáspora do mfecane",
-      "textoMdx": "Mzilikazi, ex-general do rei zulu Chaka fugido após ruptura com seu antigo soberano, lidera seus seguidores para o norte e funda, a partir de 1838, poderoso reino no que se tornaria o oeste do atual Zimbábue — capítulo da vasta reorganização populacional conhecida como mfecane, provocada pela expansão militar zulu.\n\nSeu filho e sucessor, Lobengula, manteria o reino ndebele como potência regional respeitada até a chegada da Companhia Britânica da África do Sul, de Cecil Rhodes, cuja pressão comercial e territorial culminaria em conquista militar direta em 1893.",
+      "regime": "reino militarizado de organização por regimentos, fundado por dissidência do Estado zulu",
+      "textoMdx": "Mzilikazi comandava um regimento de Chaka quando rompeu com o rei zulu, por volta de 1823, e levou seus seguidores para o norte. Depois de quinze anos de deslocamento e de choques com os bôeres do Transvaal, fixa-se no sudoeste do planalto e funda ali um Estado novo. **O reino ndebele não era uma tribo transplantada, era uma construção política**: absorvia os povos que encontrava, incorporava jovens aos regimentos e à língua, e em duas gerações produzira uma identidade que não existia antes.\n\nA organização era militar de ponta a ponta — a população vivia em vilas-regimento, e o Estado se sustentava em razias de gado e tributo sobre os territórios shona do planalto oriental, que reconheciam ascendência ndebele sem serem governados por ela. Lobengula, filho de Mzilikazi, assume em 1868 e mantém o reino como a potência regional com que qualquer estrangeiro precisava negociar.\n\nE os estrangeiros chegam com papel na mão. **Lobengula assina em 1888 a Concessão Rudd**, na qual concede direitos minerais a agentes de Cecil Rhodes em troca de mil rifles, munição, uma quantia mensal e um barco a vapor no Zambeze. O rei entendia que autorizava escavação; o texto em inglês foi apresentado em Londres como cessão bastante ampla para justificar a carta régia que criou a Companhia Britânica da África do Sul em 1889. Lobengula tentou repudiar a concessão por carta à rainha Vitória — tarde.\n\nEm 1890 a Coluna dos Pioneiros da Companhia entra no planalto oriental, contorna o coração ndebele e funda Fort Salisbury em território shona. Por três anos existem no planalto **dois poderes ao mesmo tempo**: o reino no oeste e a Companhia no leste. O pretexto para acabar com o arranjo veio de um incidente de fronteira em 1893, e a Primeira Guerra Matabele foi curta e desigual — as metralhadoras Maxim decidiram os encontros campais. Bulawayo é queimada por ordem do próprio Lobengula antes da chegada das colunas, e o rei morre em fuga no início de 1894, em lugar nunca confirmado.",
       "fontes": [
-        "david-beach-shona-zimbabue"
-      ]
+        "david-beach-shona-zimbabue",
+        "terence-ranger-revolta-1896"
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Thomas_Baines_-_Lobengula_reviewing_his_army_after_raid_on_Mashonaland.png",
+        "alt": "Pintura de 1870 mostrando o rei Lobengula em pé diante de fileiras de guerreiros com escudos e lanças reunidos numa planície aberta, com colinas ao fundo.",
+        "credito": "Thomas Baines",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Thomas_Baines_-_Lobengula_reviewing_his_army_after_raid_on_Mashonaland.png",
+        "legenda": "Lobengula passa suas forças em revista, por Thomas Baines, em 1870 — pintor e explorador que esteve no reino e pintou do natural, duas décadas antes da conquista. É registro feito dentro do período, não reconstituição posterior."
+      }
     },
     {
       "id": "zwe-rodesia-colonial",
-      "inicio": "1890",
+      "inicio": "1893",
       "fim": "1965",
-      "rotulo": "Rodésia colonial",
-      "regime": "território administrado por companhia comercial britânica, depois colônia autônoma de minoria branca",
-      "textoMdx": "Cecil Rhodes coloniza o território através de sua Companhia Britânica da África do Sul a partir de 1890, batizando-o Rodésia em sua própria homenagem — resistência indígena na Primeira Guerra Matabele de 1893 e no levante conjunto ndebele-shona de 1896-1897 seria reprimida com violência considerável.\n\nA Rodésia do Sul se torna colônia autônoma de minoria branca em 1923, participando de breve Federação da África Central com a Rodésia do Norte e a Niassalândia entre 1953 e 1963 — movimentos nacionalistas africanos, crescentemente reprimidos, se organizariam nas décadas seguintes rumo à independência.",
+      "rotulo": "Rodésia do Sul",
+      "regime": "território de companhia comercial licenciada, depois colônia com governo responsável de minoria branca",
+      "textoMdx": "Por 30 anos o planalto foi administrado não por um governo, mas por **uma empresa com carta régia**: a Companhia Britânica da África do Sul cobrava impostos, distribuía terras, mantinha polícia e batizou o território com o nome do seu fundador. O ouro que justificara a ocupação nunca apareceu na escala prometida, e a Companhia passou a extrair renda do que sobrava — terra e trabalho.\n\nO levante de 1896–97 foi a única contestação armada séria em três quartos de século. Ndebele no oeste e shona no leste se rebelam quase simultaneamente, com **os médiuns espirituais shona articulando a revolta entre chefaturas** que não tinham comando comum — o que fez a historiografia posterior tratá-la como resistência coordenada, e não como surto tribal, e lhe deu o nome de Primeira Chimurenga. A repressão incluiu dinamitar cavernas onde a população se abrigava, e os médiuns Nehanda e Kaguvi foram enforcados em 1898. Os nomes voltariam como bandeira da guerrilha oitenta anos depois.\n\nEm 1922 os colonos brancos vão a referendo e **recusam a incorporação à União Sul-Africana**, preferindo governo próprio; em 1923 a Coroa assume o território e concede governo responsável — um parlamento eleito por um censo eleitoral que, sem citar raça no texto, exigia renda e propriedade que quase nenhum africano alcançava. A arquitetura legal do meio século seguinte foi de separação: o Land Apportionment Act de 1930 dividiu o país entre áreas de posse branca e reservas africanas, atribuindo as melhores terras altas à minoria e empurrando a maioria para solos pobres e superlotados — o que criou, de um lado, agricultura comercial de exportação, e do outro, uma reserva de mão de obra sem alternativa.\n\nA Federação da Rodésia e Niassalândia, entre 1953 e 1963, tentou juntar o território às atuais Zâmbia e Maláui sob promessa de \"parceria\" racial. **Dissolveu-se porque os dois vizinhos do norte caminhavam para a independência sob governo de maioria negra**, exatamente o que os colonos do sul recusavam. Quando a Federação acaba, Zâmbia e Maláui viram países em 1964; a Rodésia do Sul fica, com uma minoria branca de cerca de 5% da população segurando o governo e Londres exigindo, como condição para a independência, um caminho para o voto da maioria.",
       "fontes": [
+        "ian-phimister-historia-economica-zimbabue",
+        "terence-ranger-revolta-1896",
         "david-beach-shona-zimbabue"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Southern_Rhodesia_%281909%29_%2814804694073%29.jpg/1920px-Southern_Rhodesia_%281909%29_%2814804694073%29.jpg",
+        "alt": "Fotografia antiga de uma diligência de tração animal carregada de passageiros e bagagem numa estrada de terra, cercada por homens a cavalo e a pé, em paisagem aberta de arbustos.",
+        "credito": "British South Africa Company e/ou L. E. Taylor",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Southern_Rhodesia_(1909)_(14804694073).jpg",
+        "legenda": "Primeira viagem da diligência de correio e passageiros entre Salisbury e Umtali — hoje Harare e Mutare. A infraestrutura do território de companhia: transporte montado para ligar as feiras e as minas, fotografado pela própria Companhia."
+      }
     },
     {
       "id": "zwe-udi-guerra-chimurenga",
       "inicio": "1965",
       "fim": "1980",
-      "rotulo": "DUI e a Segunda Chimurenga",
-      "regime": "Estado pária internacional sob minoria branca, em guerra de guerrilha contra movimentos nacionalistas armados",
-      "textoMdx": "O governo de minoria branca de Ian Smith declara unilateralmente independência em 1965, rejeitando exigências britânicas de progresso rumo ao governo de maioria negra — decisão que isolaria internacionalmente o território sob sanções econômicas extensas, paralelas às impostas à vizinha África do Sul do apartheid.\n\nA Guerra da Rodésia, ou Segunda Chimurenga, opõe as forças do governo de Smith às guerrilhas da ZANU, liderada por Robert Mugabe, e da ZAPU, liderada por Joshua Nkomo, ao longo da década de 1970 — conflito cada vez mais custoso que forçaria Smith à mesa de negociação.\n\nO Acordo de Lancaster House, de 1979, estabelece cessar-fogo e cronograma eleitoral que levaria à independência internacionalmente reconhecida do Zimbábue em abril de 1980, sob governo de maioria negra pela primeira vez na história do território.",
+      "rotulo": "Rodésia: a DUI e a Segunda Chimurenga",
+      "regime": "Estado de minoria branca sem reconhecimento internacional, em guerra de guerrilha",
+      "textoMdx": "Em 11 de novembro de 1965, o governo de Ian Smith declara unilateralmente a independência da Grã-Bretanha. O texto foi redigido **em imitação deliberada da declaração norte-americana de 1776**, e a resposta veio em um dia: a Resolução 216 do Conselho de Segurança da ONU condenou a declaração como feita por \"uma minoria racista\" e pediu aos Estados que recusassem reconhecimento ao regime. Nenhum país jamais reconheceu a Rodésia — nem a África do Sul do apartheid, que a sustentou por outros meios.\n\nAs sanções foram furadas por Pretória e pelo Portugal salazarista de Moçambique, e a economia rodesiana chegou a industrializar-se por substituição de importações. **O regime perdeu esses dois apoios de uma vez em 1975**, quando Moçambique e Angola se tornaram independentes: a fronteira leste, longa e porosa, abriu-se para as bases da guerrilha, e a guerra mudou de escala.\n\nA Segunda Chimurenga foi travada por dois movimentos rivais com apoios externos distintos: a ZANU de Robert Mugabe, com base em Moçambique, alinhada à China, mobilizando sobretudo entre os shona; e a ZAPU de Joshua Nkomo, com base na Zâmbia, apoiada pela União Soviética, com força entre os ndebele. **A rivalidade entre as duas não era detalhe** — organizava quem lutava onde, e sobreviveu à guerra para determinar a política do país independente.\n\nA guerra atingiu a população civil pelos dois lados. O regime concentrou camponeses em \"aldeias protegidas\" cercadas para separá-los da guerrilha; a guerrilha dependia das mesmas aldeias para comida e informação, e punia a colaboração com o inimigo. O trabalho de campo mais influente sobre o período sustenta que **a mobilização rural envolveu tanta coerção quanto adesão voluntária**, leitura que contraria a narrativa do partido que ganhou a guerra.\n\nSmith tentou uma saída interna em 1978, num acordo com lideranças negras moderadas que produziu a Zimbábue-Rodésia — que também não obteve reconhecimento nenhum, porque deixava intactos o comando militar e o assento branco reservado no parlamento. A saída real foi negociada em Londres: **o Acordo de Lancaster House**, em dezembro de 1979, devolveu o território brevemente à Grã-Bretanha, desarmou as frentes e marcou eleição com sufrágio universal. Também congelou por dez anos a redistribuição de terras, admitindo apenas compra voluntária — cláusula que decidiu boa parte do que veio depois.",
       "fontes": [
-        "david-beach-shona-zimbabue",
+        "declaracao-unilateral-independencia-1965",
+        "resolucao-216-cs-onu-1965",
+        "norma-kriger-guerrilha-zimbabue",
         "acordo-lancaster-house-1979"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Rhodesia_%2410_1976_Obverse.png/1920px-Rhodesia_%2410_1976_Obverse.png",
+        "alt": "Frente de uma cédula de dez dólares rodesianos, com o brasão do território, o retrato de Cecil Rhodes à esquerda, ornamentação em guilhoché e a inscrição Reserve Bank of Rhodesia.",
+        "credito": "Reserve Bank of Rhodesia",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Rhodesia_$10_1976_Obverse.png",
+        "legenda": "Dez dólares emitidos pelo banco central de um Estado que nenhum país do mundo reconhecia. A cédula traz o brasão e o nome de Rhodesia como se a soberania fosse pacífica — moeda é o documento em que um governo afirma existir, e este circulou por catorze anos sem que ninguém de fora concordasse."
+      }
     },
     {
       "id": "zwe-mugabe-mnangagwa-atual",
       "inicio": "1980",
-      "rotulo": "Era Mugabe e a transição para Mnangagwa",
-      "regime": "república presidencialista sob domínio pessoal prolongado, interrompida por golpe militar em 2017",
-      "textoMdx": "Robert Mugabe governa o Zimbábue independente por quase quatro décadas — retórica inicial de reconciliação nacional seria contradita, já entre 1983 e 1987, pelos massacres de Gukurahundi, nos quais sua Quinta Brigada, treinada pela Coreia do Norte, mataria mais de vinte mil civis ndebele numa campanha contra a oposição ligada à ZAPU, atrocidade que permaneceria largamente não reconhecida oficialmente por décadas.\n\nA reforma agrária violenta, iniciada em 2000, expropria fazendas comerciais de propriedade branca através de invasões frequentemente conduzidas por veteranos de guerra — colapso da produção agrícola resultante contribuiria diretamente para crise hiperinflacionária que, ao final da década, se tornaria uma das piores da história econômica mundial, culminando no abandono da moeda nacional em 2009.\n\nMugabe é finalmente deposto por golpe militar em novembro de 2017, após 37 anos ininterruptos no poder — seu sucessor, Emmerson Mnangagwa, prometeria reformas que, na prática, preservariam largamente os padrões de governança autoritária e crise econômica persistente que definiram as décadas anteriores.",
+      "rotulo": "Zimbábue independente: era Mugabe e depois dela",
+      "regime": "república sob domínio prolongado de um partido, interrompido por intervenção militar em 2017",
+      "textoMdx": "O Zimbábue nasce em 18 de abril de 1980 com legitimidade internacional ampla e com Mugabe fazendo discursos de reconciliação que surpreenderam quem esperava represália. Os primeiros anos entregaram resultado real onde a colônia havia deixado dívida: **matrícula escolar e rede de saúde primária expandiram-se depressa**, e o país tinha uma das populações mais alfabetizadas do continente.\n\nA reconciliação não valeu para o adversário interno. Entre 1983 e 1987, a Quinta Brigada do exército — treinada pela Coreia do Norte e respondendo fora da cadeia de comando regular — conduziu em Matabeleland e Midlands a campanha conhecida como Gukurahundi, contra civis ndebele e apoiadores presumidos da ZAPU. **O número de mortos é objeto de disputa aberta até hoje**, e por isso está registrado neste atlas como alegação na página de [[mugabe]], com o intervalo das estimativas e o motivo de nunca ter havido processo. O Acordo de Unidade de dezembro de 1987 fundiu a ZAPU na ZANU-PF, encerrou os combates e produziu o que a literatura chama de \"paz sem reconciliação\" — e, na prática, um Estado de partido único.\n\nA cláusula de terras de Lancaster House expirou em 1990, e a compra voluntária havia transferido pouco: no fim dos anos 1990, **cerca de 4.000 fazendeiros brancos detinham a maior parte da terra arável** num país de doze milhões de habitantes. A questão era real e o método com que foi enfrentada a partir de 2000 — ocupações conduzidas por veteranos de guerra, com o Estado sancionando depois o que não organizara antes — desmontou o setor agrícola de exportação sem estabelecer no lugar produção equivalente.\n\nO que veio a seguir foi uma das dez piores hiperinflações já registradas. O banco central financiou déficit emitindo moeda, os preços dobraram em prazos que chegaram a contar-se em horas, e em 2009 **o Zimbábue abandonou a própria moeda** e passou a operar em dólar americano e rande. A eleição de 2008 levou o país ao limite: Morgan Tsvangirai venceu o primeiro turno, retirou-se do segundo diante da violência contra seus apoiadores, e a saída foi um governo de unidade negociado pela região.\n\nEm novembro de 2017, após 37 anos, Mugabe é deposto pelo exército depois de demitir seu vice, Emmerson Mnangagwa, aparentemente para abrir caminho à própria mulher. **Mnangagwa assume prometendo ruptura** — \"o Zimbábue está aberto para negócios\" — mas foi ele o ministro da Segurança do Estado no período do Gukurahundi, e a eleição de 2018 terminou com o exército atirando em manifestantes nas ruas de Harare.",
       "fontes": [
-        "martin-meredith-mugabe"
-      ]
+        "martin-meredith-mugabe",
+        "ccjp-quebrando-o-silencio-1997",
+        "acordo-unidade-zimbabue-1987"
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Robert_Mugabe%2C_12th_AU_Summit%2C_090202-N-0506A-417.jpg/1920px-Robert_Mugabe%2C_12th_AU_Summit%2C_090202-N-0506A-417.jpg",
+        "alt": "Robert Mugabe de terno escuro e gravata listrada, sentado, durante a 12ª Cúpula da União Africana em 2009.",
+        "credito": "U.S. Navy, foto do Mass Communication Specialist 2nd Class Jesse B. Awalt",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Robert_Mugabe,_12th_AU_Summit,_090202-N-0506A-417.jpg",
+        "legenda": "Mugabe na Cúpula da União Africana de fevereiro de 2009 — semanas depois de o Zimbábue abandonar a própria moeda e de assinar o governo de unidade com a oposição. Estava no poder havia 29 anos e ficaria mais oito."
+      }
     }
   ]
 }

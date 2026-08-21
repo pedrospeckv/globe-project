@@ -4791,5 +4791,73 @@
     "publicacao": "Império Russo e Império Otomano",
     "data": "1812-05-28",
     "citacao": "Encerrou a Guerra Russo-Turca de 1806-1812, cedendo a Bessarábia — metade oriental do Principado da Moldávia, correspondente aproximadamente à Moldova moderna — ao Império Russo."
+  },
+  {
+    "id": "innocent-pikirayi-cultura-zimbabue",
+    "tipo": "livro",
+    "titulo": "The Zimbabwe Culture: Origins and Decline of Southern Zambezian States",
+    "autor": "Innocent Pikirayi",
+    "publicacao": "AltaMira Press",
+    "data": "2001",
+    "citacao": "Síntese arqueológica das cidades de pedra do planalto zimbabuano e dos Estados que as sucederam, por arqueólogo zimbabuano da Universidade de Pretória."
+  },
+  {
+    "id": "terence-ranger-revolta-1896",
+    "tipo": "livro",
+    "titulo": "Revolt in Southern Rhodesia 1896–7: A Study in African Resistance",
+    "autor": "Terence Ranger",
+    "publicacao": "Heinemann",
+    "data": "1967",
+    "citacao": "O estudo que reinterpretou os levantes ndebele e shona de 1896–97 como resistência coordenada e não como surto tribal — leitura que deu à Primeira Chimurenga o lugar que ela tem hoje na historiografia."
+  },
+  {
+    "id": "ian-phimister-historia-economica-zimbabue",
+    "tipo": "livro",
+    "titulo": "An Economic and Social History of Zimbabwe, 1890–1948: Capital Accumulation and Class Struggle",
+    "autor": "Ian Phimister",
+    "publicacao": "Longman",
+    "data": "1988",
+    "citacao": "História econômica do período da Companhia e da colônia autônoma, com atenção à legislação de terras que separou o planalto entre proprietários brancos e reservas africanas."
+  },
+  {
+    "id": "declaracao-unilateral-independencia-1965",
+    "tipo": "documento-oficial",
+    "titulo": "Proclamation of the Unilateral Declaration of Independence of Rhodesia",
+    "publicacao": "Governo da Rodésia do Sul",
+    "data": "1965-11-11",
+    "citacao": "O texto pelo qual o governo de Ian Smith declarou independência da Grã-Bretanha, redigido em imitação deliberada da declaração norte-americana de 1776."
+  },
+  {
+    "id": "resolucao-216-cs-onu-1965",
+    "tipo": "documento-oficial",
+    "titulo": "Resolução 216 do Conselho de Segurança das Nações Unidas",
+    "publicacao": "Conselho de Segurança da ONU",
+    "data": "1965-11-12",
+    "citacao": "Adotada um dia após a DUI, por dez votos a zero e uma abstenção (França). Condena a declaração como feita por \"uma minoria racista\" e pede aos Estados que recusem reconhecimento ao regime."
+  },
+  {
+    "id": "norma-kriger-guerrilha-zimbabue",
+    "tipo": "livro",
+    "titulo": "Zimbabwe's Guerrilla War: Peasant Voices",
+    "autor": "Norma J. Kriger",
+    "publicacao": "Cambridge University Press",
+    "data": "1992",
+    "citacao": "Reconstrói a Segunda Chimurenga a partir de depoimentos camponeses, e sustenta que a mobilização rural envolveu coerção além de adesão — leitura que contraria a versão oficial do partido vencedor."
+  },
+  {
+    "id": "ccjp-quebrando-o-silencio-1997",
+    "tipo": "documento-oficial",
+    "titulo": "Breaking the Silence, Building True Peace: A Report on the Disturbances in Matabeleland and the Midlands, 1980–1988",
+    "autor": "Catholic Commission for Justice and Peace in Zimbabwe e Legal Resources Foundation",
+    "data": "1997",
+    "citacao": "O levantamento de referência sobre o Gukurahundi. Documenta um mínimo de cerca de 2.000 a 2.750 mortes com depoimento individual colhido, e estima que o total real possa chegar a 8.000. O governo zimbabuano nunca publicou o relatório oficial que encomendou sobre os mesmos fatos."
+  },
+  {
+    "id": "acordo-unidade-zimbabue-1987",
+    "tipo": "documento-oficial",
+    "titulo": "Unity Accord entre a ZANU-PF e a ZAPU",
+    "publicacao": "Governo do Zimbábue",
+    "data": "1987-12-22",
+    "citacao": "Fundiu a ZAPU de Joshua Nkomo na ZANU-PF, encerrando a campanha do Gukurahundi e instaurando na prática um Estado de partido único. Nkomo tornou-se vice-presidente."
   }
 ]

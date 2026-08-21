@@ -163,5 +163,207 @@
       "CHN"
     ],
     "textoMdx": "Após semanas de protestos por reformas políticas em Pequim, o Exército é enviado para desocupar a praça. O número de mortos é disputado e nunca foi divulgado oficialmente; estimativas variam de centenas a milhares. O tema permanece censurado na China."
+  },
+  {
+    "id": "changamire-expulsa-portugueses",
+    "data": "1693",
+    "titulo": "O Rozvi expulsa os portugueses do planalto",
+    "ponto": [
+      30.93,
+      -20.27
+    ],
+    "paises": [
+      "ZWE"
+    ],
+    "textoMdx": "As forças do Changamire Dombo derrotam os portugueses e saqueiam a feira de Dembarare, encerrando quase dois séculos de presença mercantil e de interferência dinástica portuguesa no interior do planalto. O comércio de ouro e marfim continua, mas passa a ser conduzido nos termos do Rozvi, com os portugueses confinados ao vale do Zambeze e à costa.",
+    "fontes": [
+      "innocent-pikirayi-cultura-zimbabue"
+    ]
+  },
+  {
+    "id": "coluna-pioneiros-fort-salisbury",
+    "data": "1890-09",
+    "titulo": "A Coluna dos Pioneiros iça a bandeira em Fort Salisbury",
+    "ponto": [
+      31.05,
+      -17.83
+    ],
+    "paises": [
+      "ZWE"
+    ],
+    "textoMdx": "A coluna armada da Companhia Britânica da África do Sul entra no planalto oriental contornando o coração do reino ndebele, e funda um posto fortificado em território shona. Não houve batalha: a ocupação se apoiou na Concessão Rudd, que Lobengula assinara em 1888 entendendo conceder direitos de escavação. Por três anos o planalto tem dois poderes ao mesmo tempo — o reino no oeste, a Companhia no leste.",
+    "fontes": [
+      "david-beach-shona-zimbabue"
+    ],
+    "imagem": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Hoisting_the_flag_at_Fort_Salisbury.png",
+      "alt": "Ilustração de um grupo de homens de uniforme e chapéu reunidos em torno de um mastro improvisado, içando a bandeira britânica num descampado.",
+      "credito": "Autor não identificado — The British South Africa Company Historical Catalogue & Souvenir of Rhodesia",
+      "licenca": "Domínio público",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hoisting_the_flag_at_Fort_Salisbury.png",
+      "legenda": "O içamento da bandeira em Fort Salisbury, em setembro de 1890, em publicação da própria Companhia. A imagem é a versão que o ocupante fez do ato de ocupar."
+    }
+  },
+  {
+    "id": "primeira-guerra-matabele",
+    "data": "1893-11",
+    "titulo": "Queda de Bulawayo e o fim do reino ndebele",
+    "ponto": [
+      28.58,
+      -20.15
+    ],
+    "paises": [
+      "ZWE"
+    ],
+    "textoMdx": "As colunas da Companhia avançam sobre o reino após um incidente de fronteira. Os encontros campais são decididos pelas metralhadoras Maxim, e Lobengula manda queimar a própria capital antes de abandoná-la. O rei morre em fuga no início de 1894, em local nunca confirmado, e o planalto inteiro passa ao controle da Companhia.",
+    "fontes": [
+      "david-beach-shona-zimbabue"
+    ],
+    "imagem": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/1893-King_Lobengula-60-year-old-And-One-Of-His.jpg",
+      "alt": "Gravura de imprensa de 1893 retratando o rei Lobengula ao lado de uma de suas esposas.",
+      "credito": "The Sketch",
+      "licenca": "Domínio público",
+      "origem": "https://commons.wikimedia.org/wiki/File:1893-King_Lobengula-60-year-old-And-One-Of-His.jpg",
+      "legenda": "Lobengula em gravura da imprensa britânica de 1893, publicada no ano da guerra que destruiu seu reino — retrato do adversário feito para o público que financiava a Companhia."
+    }
+  },
+  {
+    "id": "primeira-chimurenga",
+    "data": "1896",
+    "titulo": "Primeira Chimurenga: os levantes ndebele e shona",
+    "ponto": [
+      30.0,
+      -18.5
+    ],
+    "paises": [
+      "ZWE"
+    ],
+    "textoMdx": "Ndebele no oeste e shona no leste se rebelam quase simultaneamente contra o domínio da Companhia. Entre as chefaturas shona, que não tinham comando comum, a articulação passa pelos médiuns espirituais — o que levou a historiografia posterior a tratar o levante como resistência coordenada e não como surto tribal. A repressão incluiu dinamitar cavernas onde a população se abrigava; os médiuns Nehanda e Kaguvi foram enforcados em 1898, e seus nomes voltariam como bandeira da guerrilha oitenta anos depois.",
+    "fontes": [
+      "terence-ranger-revolta-1896"
+    ]
+  },
+  {
+    "id": "governo-responsavel-rodesia",
+    "data": "1923",
+    "titulo": "Rodésia do Sul recebe governo responsável",
+    "ponto": [
+      31.05,
+      -17.83
+    ],
+    "paises": [
+      "ZWE"
+    ],
+    "textoMdx": "Depois de os colonos brancos recusarem em referendo, em 1922, a incorporação à União Sul-Africana, a Coroa assume o território das mãos da Companhia e concede governo próprio. O parlamento é eleito por um censo eleitoral que não menciona raça, mas exige renda e propriedade que quase nenhum africano alcançava.",
+    "fontes": [
+      "ian-phimister-historia-economica-zimbabue"
+    ]
+  },
+  {
+    "id": "declaracao-unilateral-independencia-rodesia",
+    "data": "1965-11-11",
+    "titulo": "Declaração Unilateral de Independência",
+    "ponto": [
+      31.05,
+      -17.83
+    ],
+    "paises": [
+      "ZWE"
+    ],
+    "textoMdx": "O governo de Ian Smith declara independência da Grã-Bretanha em texto redigido em imitação deliberada da declaração norte-americana de 1776, para não ter de aceitar um caminho rumo ao voto da maioria. No dia seguinte, a Resolução 216 do Conselho de Segurança condena a declaração como feita por \"uma minoria racista\" e pede aos Estados que recusem reconhecimento. Nenhum país jamais reconheceu a Rodésia.",
+    "fontes": [
+      "declaracao-unilateral-independencia-1965",
+      "resolucao-216-cs-onu-1965"
+    ]
+  },
+  {
+    "id": "acordo-lancaster-house",
+    "data": "1979-12-21",
+    "titulo": "Acordo de Lancaster House",
+    "ponto": [
+      -0.14,
+      51.5
+    ],
+    "paises": [
+      "ZWE"
+    ],
+    "textoMdx": "Negociado em Londres entre o governo britânico, o regime de Salisbury e a Frente Patriótica de Mugabe e Nkomo. Devolve o território brevemente à Grã-Bretanha, desarma as frentes e marca eleição com sufrágio universal. Também congela por dez anos a redistribuição de terras, admitindo apenas compra voluntária — cláusula que decidiria boa parte da história seguinte do país.",
+    "fontes": [
+      "acordo-lancaster-house-1979"
+    ],
+    "imagem": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Mugabe_1979_a.jpg/1920px-Mugabe_1979_a.jpg",
+      "alt": "Robert Mugabe em 1979, de terno, falando ao microfone durante entrevista.",
+      "credito": "Koen Suyk / Anefo — Nationaal Archief",
+      "licenca": "CC BY-SA 3.0 nl",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mugabe_1979_a.jpg",
+      "legenda": "Mugabe em outubro de 1979, durante as negociações de Lancaster House. Estava havia treze anos comandando a guerrilha e em seis meses seria primeiro-ministro."
+    }
+  },
+  {
+    "id": "independencia-zimbabue",
+    "data": "1980-04-18",
+    "titulo": "Independência do Zimbábue",
+    "ponto": [
+      31.05,
+      -17.83
+    ],
+    "paises": [
+      "ZWE"
+    ],
+    "textoMdx": "O país nasce com reconhecimento internacional amplo, depois de eleição com sufrágio universal vencida pela ZANU de Mugabe. As ruínas do Grande Zimbábue dão nome ao Estado — escolha deliberada contra décadas de arqueologia colonial que atribuíra a cidade a fenícios ou à rainha de Sabá, porque admitir construção africana contrariava a justificativa da colonização.",
+    "fontes": [
+      "martin-meredith-mugabe"
+    ]
+  },
+  {
+    "id": "acordo-unidade-zimbabue",
+    "data": "1987-12-22",
+    "titulo": "Acordo de Unidade encerra o Gukurahundi",
+    "ponto": [
+      28.58,
+      -20.15
+    ],
+    "paises": [
+      "ZWE"
+    ],
+    "textoMdx": "A ZAPU de Joshua Nkomo é fundida na ZANU-PF, encerrando os combates em Matabeleland e Midlands e instaurando na prática um Estado de partido único. Nkomo torna-se vice-presidente. A literatura chama o resultado de \"paz sem reconciliação\": não houve apuração pública, responsabilização nem reparação — o relatório que o próprio governo encomendara em 1983 nunca foi divulgado.",
+    "fontes": [
+      "acordo-unidade-zimbabue-1987",
+      "ccjp-quebrando-o-silencio-1997"
+    ]
+  },
+  {
+    "id": "abandono-do-dolar-zimbabuano",
+    "data": "2009",
+    "titulo": "O Zimbábue abandona a própria moeda",
+    "ponto": [
+      31.05,
+      -17.83
+    ],
+    "paises": [
+      "ZWE"
+    ],
+    "textoMdx": "Depois de uma das dez piores hiperinflações já registradas — com o banco central financiando déficit por emissão e prazos de duplicação de preços que chegaram a contar-se em horas —, o país deixa de usar o dólar zimbabuano e passa a operar em dólar americano e rande sul-africano. No mesmo ano toma posse o governo de unidade negociado pela região após a eleição de 2008.",
+    "fontes": [
+      "martin-meredith-mugabe"
+    ]
+  },
+  {
+    "id": "deposicao-de-mugabe",
+    "data": "2017-11",
+    "titulo": "O exército depõe Mugabe",
+    "ponto": [
+      31.05,
+      -17.83
+    ],
+    "paises": [
+      "ZWE"
+    ],
+    "textoMdx": "Depois de 37 anos no poder, Mugabe é deposto pelo exército dias após demitir o vice-presidente Emmerson Mnangagwa, aparentemente para abrir caminho à sucessão da própria mulher. Mnangagwa assume prometendo ruptura — mas havia sido ministro da Segurança do Estado no período do Gukurahundi, e a eleição do ano seguinte terminaria com o exército atirando em manifestantes em Harare.",
+    "fontes": [
+      "martin-meredith-mugabe"
+    ]
   }
 ]
