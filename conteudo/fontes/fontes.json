@@ -4111,5 +4111,69 @@
     "autor": "Daoud A. Alwan e Yohanis Mibrathu",
     "data": "2000",
     "citacao": "Obra de referência sobre a história djibutiana, do posto comercial francês de Obock em 1862 à independência de 1977, cobrindo a importância estratégica do território para o acesso etíope ao mar Vermelho."
+  },
+  {
+    "id": "charles-hornsby-quenia",
+    "tipo": "livro",
+    "titulo": "Kenya: A History Since Independence",
+    "autor": "Charles Hornsby",
+    "data": "2012",
+    "citacao": "História queniana de 1963 ao início dos anos 2010, cobrindo o domínio de partido único sob Kenyatta e Moi, a crise pós-eleitoral de 2007-2008 e a nova constituição de 2010."
+  },
+  {
+    "id": "caroline-elkins-mau-mau",
+    "tipo": "livro",
+    "titulo": "Imperial Reckoning: The Untold Story of Britain's Gulag in Kenya",
+    "autor": "Caroline Elkins",
+    "data": "2005",
+    "citacao": "Estudo vencedor do prêmio Pulitzer sobre a repressão britânica à revolta Mau Mau (1952-1960), documentando o sistema de campos de detenção em massa e tortura sistemática que o próprio governo britânico reconheceria e indenizaria parcialmente apenas em 2013."
+  },
+  {
+    "id": "kiwanuka-buganda",
+    "tipo": "livro",
+    "titulo": "A History of Buganda",
+    "autor": "M. S. M. Kiwanuka",
+    "data": "1971",
+    "citacao": "História do Reino de Buganda, a mais poderosa das monarquias da região dos Grandes Lagos africanos antes da colonização, cuja estrutura administrativa os britânicos usariam como base do domínio indireto sobre todo o protetorado ugandense."
+  },
+  {
+    "id": "mutibwa-uganda",
+    "tipo": "livro",
+    "titulo": "Uganda Since Independence: A Story of Unfulfilled Hopes",
+    "autor": "Phares Mutibwa",
+    "data": "1992",
+    "citacao": "História ugandense pós-independência, cobrindo a abolição dos reinos tradicionais por Obote, a ditadura de Idi Amin e a guerra civil que trouxe Yoweri Museveni ao poder em 1986."
+  },
+  {
+    "id": "kimambo-maddox-nyanto-tanzania",
+    "tipo": "livro",
+    "titulo": "A New History of Tanzania",
+    "autor": "Isaria N. Kimambo, Gregory Maddox e Salvatory Nyanto",
+    "data": "2017",
+    "citacao": "História tanzaniana da África Oriental Alemã à era contemporânea, cobrindo a Revolta Maji Maji, a Revolução de Zanzibar de 1964 e o programa de socialismo africano Ujamaa de Julius Nyerere."
+  },
+  {
+    "id": "robert-collins-sudao",
+    "tipo": "livro",
+    "titulo": "A History of Modern Sudan",
+    "autor": "Robert O. Collins",
+    "data": "2008",
+    "citacao": "História sudanesa do domínio turco-egípcio ao conflito de Darfur, cobrindo o Estado Mádi que derrotou forças anglo-egípcias em 1885, o Condomínio Anglo-Egípcio e as duas guerras civis entre o norte e o sul do país."
+  },
+  {
+    "id": "rolandsen-daly-sul-sudao",
+    "tipo": "livro",
+    "titulo": "A History of South Sudan: From Slavery to Independence",
+    "autor": "Øystein H. Rolandsen e M. W. Daly",
+    "data": "2016",
+    "citacao": "História do Sudão do Sul desde o período pré-colonial até a independência de 2011, examinando as raízes da divisão entre norte e sul do antigo Sudão unificado e o colapso do país recém-independente em guerra civil a partir de 2013."
+  },
+  {
+    "id": "acordo-paz-abrangente-2005-sudao",
+    "tipo": "documento-oficial",
+    "titulo": "Acordo de Paz Abrangente do Sudão",
+    "publicacao": "Governo do Sudão e Movimento/Exército de Libertação do Povo Sudanês",
+    "data": "2005-01-09",
+    "citacao": "Encerrou a Segunda Guerra Civil Sudanesa, uma das mais longas e mortíferas da história africana, concedendo autonomia ao sul do país e estabelecendo cronograma para referendo de autodeterminação — realizado em 2011, com resultado esmagador pela independência do Sudão do Sul."
   }
 ]

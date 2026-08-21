@@ -1,0 +1,50 @@
+{
+  "iso": "UGA",
+  "isoNumerico": "800",
+  "nome": "Uganda",
+  "periodos": [
+    {
+      "id": "uga-reino-buganda",
+      "inicio": "1300",
+      "fim": "1894",
+      "rotulo": "Reino de Buganda",
+      "regime": "monarquia centralizada, a mais poderosa da região dos Grandes Lagos africanos",
+      "textoMdx": "O Reino de Buganda, segundo a tradição fundado por Kintu em época incerta anterior ao século XIV, desenvolve ao longo dos séculos seguintes uma das estruturas administrativas mais centralizadas e sofisticadas de toda a África Oriental pré-colonial, sob a autoridade de um monarca chamado kabaka.\n\n**Buganda se torna, ao longo do século XIX, o reino claramente dominante entre os diversos Estados vizinhos da região — Bunyoro, Ankole, Toro —, posição que atrairia atenção comercial e religiosa europeia crescente, incluindo missionários católicos, protestantes e comerciantes muçulmanos que disputariam influência na corte real.**\n\n**Conflitos religiosos internos entre facções cristãs católicas, protestantes e muçulmanas convertidas, ao longo da década de 1880, desestabilizam a corte de Buganda profundamente** — fragilidade que a Grã-Bretanha exploraria para estabelecer protetorado formal sobre o reino em 1894, usando sua estrutura administrativa existente como base do domínio colonial sobre todo o futuro território ugandense.",
+      "fontes": [
+        "kiwanuka-buganda"
+      ]
+    },
+    {
+      "id": "uga-protetorado-britanico",
+      "inicio": "1894",
+      "fim": "1962",
+      "rotulo": "Protetorado Britânico",
+      "regime": "protetorado britânico, administrado indiretamente através da estrutura existente do reino de Buganda",
+      "textoMdx": "A administração colonial britânica estende o modelo de domínio indireto de Buganda aos demais reinos e territórios que comporiam o protetorado ugandense — Bunyoro, historicamente rival de Buganda, receberia status subordinado que geraria ressentimento duradouro entre os dois reinos.\n\n**O protetorado ugandense, ao contrário de colônias vizinhas como o Quênia, atrai relativamente pouca colonização europeia de povoamento, preservando estrutura fundiária africana majoritariamente intacta** — fator que contribuiria para transição de independência comparativamente menos violenta que a queniana.\n\n**As negociações de independência, complicadas pela ambição de Buganda de preservar autonomia especial dentro do futuro Estado ugandense, resultam em arranjo federal complexo que concederia status privilegiado ao antigo reino** — compromisso frágil que se revelaria insustentável nos primeiros anos após a independência plena, obtida em outubro de 1962.",
+      "fontes": [
+        "mutibwa-uganda"
+      ]
+    },
+    {
+      "id": "uga-independencia-obote-amin",
+      "inicio": "1962",
+      "fim": "1986",
+      "rotulo": "Independência, Obote e a ditadura de Amin",
+      "regime": "república parlamentar, depois ditadura militar",
+      "textoMdx": "Milton Obote, primeiro-ministro na independência, aboliria formalmente todos os reinos tradicionais em 1966-1967, incluindo ataque militar direto ao palácio do próprio kabaka de Buganda — ruptura que radicalizaria profundamente as divisões regionais e étnicas ugandenses.\n\n**Idi Amin depõe Obote em golpe militar em 1971, instaurando um dos regimes mais brutais da história africana pós-colonial — estimativas de mortos sob seu domínio variam entre cem mil e meio milhão de pessoas, enquanto a expulsão em massa da comunidade asiática ugandense, em 1972, devastaria a economia comercial do país.**\n\n**A invasão ugandense da Tanzânia, em 1978, provoca contraofensiva tanzaniana que derrubaria Amin em 1979 — Obote retornaria ao poder em 1980, governando de forma igualmente autoritária até ser deposto por golpe militar em 1985, abrindo caminho à guerrilha vitoriosa de Yoweri Museveni no ano seguinte.**",
+      "fontes": [
+        "mutibwa-uganda"
+      ]
+    },
+    {
+      "id": "uga-museveni-atual",
+      "inicio": "1986",
+      "rotulo": "Era de Museveni",
+      "regime": "república presidencialista, sob domínio pessoal duradouro de um único líder",
+      "textoMdx": "Yoweri Museveni, cujo Exército de Resistência Nacional toma o poder em 1986 após guerra de guerrilha prolongada, restaura status cultural — mas não político — dos reinos tradicionais em 1993, incluindo a reentronização do kabaka de Buganda.\n\n**A insurgência do Exército de Resistência do Senhor, liderada por Joseph Kony no norte do país a partir de 1987, se tornaria notória pelo sequestro sistemático de crianças forçadas a se tornarem combatentes — violência que se estenderia por duas décadas antes de ser amplamente contida, embora Kony permanecesse foragido internacionalmente por muito mais tempo.**\n\n**Museveni remove limites constitucionais de mandatos presidenciais em 2005 e limites de idade em 2017, permanecendo no poder por quase quatro décadas consecutivas — seu governo endureceria progressivamente contra oposição política, incluindo o desafio eleitoral do músico e deputado Bobi Wine em 2021, e aprovaria legislação anti-homossexualidade entre as mais severas do mundo em 2014 e novamente em 2023, provocando condenação e sanções internacionais.**",
+      "fontes": [
+        "mutibwa-uganda"
+      ]
+    }
+  ]
+}

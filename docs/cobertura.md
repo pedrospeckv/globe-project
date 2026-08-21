@@ -2,7 +2,7 @@
 
 # Cobertura do atlas
 
-**114 de 174 países** desenhados no mapa têm dossiê (65.5%), somando **603 períodos**.
+**119 de 174 países** desenhados no mapa têm dossiê (68.4%), somando **625 períodos**.
 
 A lista do mundo vem do `world-atlas` que o projeto empacota — as mesmas
 feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
@@ -101,6 +101,7 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Polônia | `POL` | 6 | 6 |
 | Porto Rico | `PRI` | 4 | 4 |
 | Portugal | `PRT` | 7 | 7 |
+| Quênia | `KEN` | 4 | 4 |
 | Quirguistão | `KGZ` | 3 | 3 |
 | Reino Unido | `GBR` | 6 | 6 |
 | República Dominicana | `DOM` | 5 | 5 |
@@ -109,17 +110,21 @@ feições que o mapa desenha. Reproduzir: `pnpm tsx scripts/cobertura.ts`.
 | Sérvia | `SRB` | 7 | 7 |
 | Síria | `SYR` | 5 | 5 |
 | Somália | `SOM` | 5 | 5 |
+| Sudão | `SDN` | 7 | 7 |
+| Sudão do Sul | `SSD` | 2 | 2 |
 | Suécia | `SWE` | 3 | 3 |
 | Suíça | `CHE` | 3 | 3 |
 | Suriname | `SUR` | 4 | 4 |
 | Tailândia | `THA` | 4 | 4 |
 | Tajiquistão | `TJK` | 5 | 5 |
+| Tanzânia | `TZA` | 5 | 5 |
 | Timor-Leste | `TLS` | 4 | 4 |
 | Trinidad e Tobago | `TTO` | 2 | 2 |
 | Tunísia | `TUN` | 5 | 5 |
 | Turcomenistão | `TKM` | 3 | 3 |
 | Turquia | `TUR` | 8 | 8 |
 | Ucrânia | `UKR` | 7 | 7 |
+| Uganda | `UGA` | 4 | 4 |
 | Uruguai | `URY` | 6 | 6 |
 | Uzbequistão | `UZB` | 6 | 6 |
 | Vanuatu | `VUT` | 2 | 2 |
@@ -140,13 +145,12 @@ Escolher um daqui é a forma mais direta de contribuir. Ver
 | Congo | Côte d'Ivoire | Cyprus | Dem. Rep. Congo |
 | Eq. Guinea | eSwatini | Falkland Is. | Fr. S. Antarctic Lands |
 | Gabon | Gambia | Ghana | Guinea |
-| Guinea-Bissau | Ireland | Israel | Kenya |
-| Lesotho | Liberia | Madagascar | Malawi |
-| Mali | Mauritania | Moldova | Mongolia |
-| Mozambique | Namibia | Nepal | New Caledonia |
-| Niger | Nigeria | North Korea | Pakistan |
-| Palestine | Rwanda | S. Sudan | Senegal |
-| Sierra Leone | South Africa | South Korea | Sri Lanka |
-| Sudan | Taiwan | Tanzania | Togo |
-| Uganda | W. Sahara | Zambia | Zimbabwe |
+| Guinea-Bissau | Ireland | Israel | Lesotho |
+| Liberia | Madagascar | Malawi | Mali |
+| Mauritania | Moldova | Mongolia | Mozambique |
+| Namibia | Nepal | New Caledonia | Niger |
+| Nigeria | North Korea | Pakistan | Palestine |
+| Rwanda | Senegal | Sierra Leone | South Africa |
+| South Korea | Sri Lanka | Taiwan | Togo |
+| W. Sahara | Zambia | Zimbabwe |  |
 

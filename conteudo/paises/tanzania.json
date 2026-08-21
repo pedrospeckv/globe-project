@@ -1,0 +1,61 @@
+{
+  "iso": "TZA",
+  "isoNumerico": "834",
+  "nome": "Tanzânia",
+  "periodos": [
+    {
+      "id": "tza-africa-oriental-alema",
+      "inicio": "1885",
+      "fim": "1919",
+      "rotulo": "África Oriental Alemã",
+      "regime": "colônia alemã sob administração exploratória, marcada por revolta indígena maciça",
+      "textoMdx": "A Alemanha estabelece colônia sobre o território continental que se tornaria Tanganica em 1885, impondo trabalho forçado e cultivo obrigatório de culturas de exportação sobre populações locais numerosas e etnicamente diversas.\n\n**A Revolta Maji Maji, entre 1905 e 1907, mobiliza dezenas de grupos étnicos distintos numa das maiores rebeliões anticoloniais pan-étnicas já registradas na África — a resposta alemã, incluindo tática deliberada de terra arrasada que destrói plantações e reservas alimentares, provoca fome que mataria, segundo estimativas, entre duzentas e trezentas mil pessoas.**\n\n**A derrota alemã na Primeira Guerra Mundial encerra o domínio colonial alemão sobre a região em 1919, transferindo o território, sob mandato da Liga das Nações, à administração britânica.**",
+      "fontes": [
+        "kimambo-maddox-nyanto-tanzania"
+      ]
+    },
+    {
+      "id": "tza-tanganica-mandato-britanico",
+      "inicio": "1919",
+      "fim": "1961",
+      "rotulo": "Tanganica sob mandato britânico",
+      "regime": "território sob mandato e depois tutela britânica",
+      "textoMdx": "A administração britânica governa Tanganica sob mandato da Liga das Nações e, após 1946, sob tutela das Nações Unidas — status jurídico que, ao contrário de colônias plenas vizinhas, obrigaria formalmente a preparação do território para eventual autogoverno.\n\n**O Sindicato Africano Nacional da Tanganica, sob a liderança do professor Julius Nyerere a partir de 1954, conduz movimento independentista notavelmente pacífico e disciplinado, evitando a violência armada que marcaria processos de descolonização em territórios vizinhos como o Quênia** — independência plena seria obtida em dezembro de 1961, com Nyerere se tornando primeiro presidente.",
+      "fontes": [
+        "kimambo-maddox-nyanto-tanzania"
+      ]
+    },
+    {
+      "id": "tza-zanzibar-protetorado-revolucao",
+      "inicio": "1890",
+      "fim": "1964",
+      "rotulo": "Zanzibar sob protetorado britânico e a revolução",
+      "regime": "sultanato sob protetorado britânico, derrubado por revolução popular armada dias após a independência",
+      "textoMdx": "A Grã-Bretanha estabelece protetorado sobre o Sultanato de Zanzibar em 1890, preservando a dinastia local de origem omanense como soberano nominal sobre o arquipélago — sociedade profundamente estratificada racialmente entre elite governante árabe e indiana e maioria populacional africana.\n\n**A independência de Zanzibar, obtida em dezembro de 1963 como monarquia constitucional, duraria apenas cinco semanas: em janeiro de 1964, insurreição popular armada liderada por John Okello derruba violentamente o governo de maioria árabe, matando milhares em episódio de violência intercomunitária intensa.**\n\n**O governo revolucionário de Abeid Karume negociaria, meses depois, união com a recém-independente Tanganica continental — formando a República Unida da Tanzânia em abril de 1964, arranjo que preservaria, até hoje, governo e legislatura próprios para Zanzibar dentro da união federal.**",
+      "fontes": [
+        "kimambo-maddox-nyanto-tanzania"
+      ]
+    },
+    {
+      "id": "tza-uniao-nyerere-ujamaa",
+      "inicio": "1964",
+      "fim": "1985",
+      "rotulo": "União e o Ujamaa de Nyerere",
+      "regime": "república socialista de partido único, unindo Tanganica continental e Zanzibar insular",
+      "textoMdx": "A Declaração de Arusha, de 1967, lança o programa Ujamaa — socialismo africano baseado em coletivização de aldeias e autossuficiência comunitária — sob liderança pessoal de Nyerere, que se tornaria uma das figuras políticas africanas mais respeitadas internacionalmente, apesar dos resultados econômicos decepcionantes de suas próprias políticas.\n\n**A vilarização forçada, que reassentaria milhões de tanzanianos em aldeias coletivas planejadas ao longo da década de 1970, provoca queda acentuada na produção agrícola e dependência crescente de ajuda alimentar externa** — fracasso econômico que contrastaria com a estabilidade política e a coesão nacional relativamente incomuns que o projeto, paradoxalmente, ajudaria a consolidar.\n\n**Nyerere renuncia voluntariamente à presidência em 1985, gesto raro de transferência pacífica de poder entre líderes africanos de sua geração**, abrindo caminho a reformas econômicas liberalizantes sob seu sucessor Ali Hassan Mwinyi.",
+      "fontes": [
+        "kimambo-maddox-nyanto-tanzania"
+      ]
+    },
+    {
+      "id": "tza-multipartidarismo-atual",
+      "inicio": "1985",
+      "rotulo": "Multipartidarismo e a Tanzânia contemporânea",
+      "regime": "república democrática multipartidária, sob domínio eleitoral contínuo de um único partido dominante",
+      "textoMdx": "A liberalização econômica sob Mwinyi e a introdução do multipartidarismo em 1992 não impediriam o partido único histórico, reorganizado como CCM, de manter vitórias eleitorais ininterruptas em todas as eleições nacionais subsequentes — a Tanzânia permaneceria, apesar da competição formal, um dos sistemas de partido dominante mais duradouros da África.\n\n**John Magufuli, presidente entre 2015 e 2021, inicia mandato popular como reformador anticorrupção — o apelido \"Bulldozer\" refletia sua abordagem direta —, mas se tornaria progressivamente autoritário, incluindo negação pública da gravidade da pandemia de covid-19 que contribuiria, segundo consenso médico posterior, para subnotificação maciça de mortes no país.**\n\n**Samia Suluhu Hassan sucede Magufuli após sua morte em 2021, tornando-se a primeira mulher presidente da Tanzânia e adotando postura mais moderada, incluindo reabertura parcial do espaço político e reconhecimento da pandemia** — Zanzibar, apesar da autonomia formal, continua a enfrentar eleições recorrentemente disputadas e violência esporádica.",
+      "fontes": [
+        "kimambo-maddox-nyanto-tanzania"
+      ]
+    }
+  ]
+}

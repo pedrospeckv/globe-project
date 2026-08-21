@@ -1,0 +1,51 @@
+{
+  "iso": "KEN",
+  "isoNumerico": "404",
+  "nome": "Quênia",
+  "periodos": [
+    {
+      "id": "ken-protetorado-colonia-britanica",
+      "inicio": "1895",
+      "fim": "1952",
+      "rotulo": "Protetorado e Colônia Britânica",
+      "regime": "protetorado, depois colônia britânica com extensa colonização de povoamento europeu",
+      "textoMdx": "A Grã-Bretanha estabelece o Protetorado da África Oriental Britânica em 1895, elevado a colônia formal em 1920 — a construção da ferrovia entre Mombaça e o lago Vitória, concluída em 1901, atrai colonos europeus para as férteis terras altas centrais, que seriam reservadas quase exclusivamente para propriedade branca.\n\n**A política das \"Terras Altas Brancas\" desloca sistematicamente populações africanas, sobretudo do povo kikuyu, de suas terras ancestrais para reservas designadas — despossessão que geraria ressentimento profundo e duradouro, base direta da revolta armada que eclodiria décadas depois.**\n\n**Movimentos políticos africanos organizados, incluindo a Associação Central Kikuyu, articulam demandas crescentes por representação política e devolução de terras ao longo das décadas de 1920 e 1930**, sem obter concessões significativas da administração colonial antes da radicalização armada do início dos anos 1950.",
+      "fontes": [
+        "charles-hornsby-quenia"
+      ]
+    },
+    {
+      "id": "ken-mau-mau-independencia",
+      "inicio": "1952",
+      "fim": "1963",
+      "rotulo": "Revolta Mau Mau e a Independência",
+      "regime": "colônia sob estado de emergência, em guerra de contrainsurgência contra movimento armado nacionalista",
+      "textoMdx": "A revolta Mau Mau, movimento armado predominantemente kikuyu contra o domínio colonial e a despossessão de terras, provoca declaração de estado de emergência em 1952 — a resposta britânica inclui detenção em massa de mais de cento e cinquenta mil pessoas em campos onde tortura sistemática seria posteriormente documentada extensivamente.\n\n**Jomo Kenyatta é preso e condenado por suposta liderança do movimento, apesar de evidências de seu envolvimento direto permanecerem contestadas pela historiografia** — a revolta seria militarmente derrotada por volta de 1956, mas o custo político e moral da repressão acelerava decisivamente o processo de descolonização britânica.\n\n**O governo britânico reconheceria formalmente, apenas em 2013, os abusos cometidos durante a repressão Mau Mau, pagando indenização a milhares de sobreviventes idosos** — a independência plena, obtida em dezembro de 1963 sob a liderança do próprio Kenyatta, agora primeiro-ministro e depois presidente, encerraria quase sete décadas de domínio colonial britânico direto.",
+      "fontes": [
+        "charles-hornsby-quenia",
+        "caroline-elkins-mau-mau"
+      ]
+    },
+    {
+      "id": "ken-kenyatta-moi-partido-unico",
+      "inicio": "1963",
+      "fim": "1991",
+      "rotulo": "Kenyatta, Moi e o domínio de partido único",
+      "regime": "república presidencialista de partido dominante, depois formalmente único a partir de 1982",
+      "textoMdx": "Jomo Kenyatta governa o Quênia independente até sua morte em 1978, consolidando domínio político da KANU e concentração de terra e riqueza entre elites kikuyu próximas ao poder — arranjo que geraria ressentimento étnico duradouro entre grupos marginalizados do processo.\n\n**Daniel arap Moi, sucessor de Kenyatta, formaliza o Estado de partido único em 1982 após tentativa de golpe militar malsucedida, governando com repressão crescente de qualquer oposição política organizada pelas duas décadas seguintes.**\n\n**Escândalos de corrupção massiva, incluindo o esquema Goldenberg de fraude em exportações de ouro que desviaria centenas de milhões de dólares dos cofres públicos, minariam progressivamente a legitimidade do regime de Moi ao longo dos anos 1990**, período em que pressão internacional e doméstica crescente forçaria eventual reabertura ao multipartidarismo.",
+      "fontes": [
+        "charles-hornsby-quenia"
+      ]
+    },
+    {
+      "id": "ken-multipartidarismo-crise-2008-atual",
+      "inicio": "1991",
+      "rotulo": "Multipartidarismo, a crise de 2007-2008 e o Quênia contemporâneo",
+      "regime": "república democrática multipartidária, descentralizada em condados a partir de 2010",
+      "textoMdx": "A reintrodução do multipartidarismo em 1991, sob pressão de doadores internacionais, não impede vitórias eleitorais sucessivas de Moi ao longo da década, amplamente consideradas fraudulentas por observadores — apenas em 2002 a oposição unificada, sob Mwai Kibaki, conquistaria a presidência pela primeira vez desde a independência.\n\n**A disputada eleição presidencial de 2007 desencadeia violência étnica generalizada que mata mais de mil pessoas e desloca cerca de seiscentas mil em poucas semanas — crise que apenas mediação internacional liderada pelo ex-secretário-geral da ONU Kofi Annan conseguiria conter, através de acordo de partilha de poder entre Kibaki e o líder opositor Raila Odinga.**\n\n**A nova constituição de 2010, aprovada por referendo esmagador, descentraliza poder significativo para 47 condados recém-criados — Uhuru Kenyatta, filho do fundador da nação, governaria de 2013 a 2022, inclusive sob indiciamento formal do Tribunal Penal Internacional pela violência de 2007-2008, acusações eventualmente retiradas por falta de cooperação de testemunhas.**",
+      "fontes": [
+        "charles-hornsby-quenia"
+      ]
+    }
+  ]
+}

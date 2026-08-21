@@ -66,7 +66,7 @@ describe("Atlas", () => {
   it("em 300 a.C. só quem já existia está no mapa", () => {
     const { acesos, irPara } = montar();
     irPara("-300");
-    expect(acesos()).toEqual(["CHN", "EGY", "IND", "JPN", "TUN", "YEM"]);
+    expect(acesos()).toEqual(["CHN", "EGY", "IND", "JPN", "SDN", "TUN", "YEM"]);
   });
 
   it("o Egito é o mais antigo do acervo — em 3000 a.C. está sozinho", () => {
