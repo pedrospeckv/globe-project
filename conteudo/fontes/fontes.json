@@ -4874,5 +4874,30 @@
     "titulo": "Armed Conflict Location & Event Data (ACLED)",
     "publicacao": "ACLED",
     "citacao": "Base de dados de eventos de violência política com contagem de mortes por evento datado e localizado. É a origem da maior parte das contagens de mortes EM COMBATE citadas para guerras em curso, que são sempre menores que os totais que incluem mortes indiretas por fome e colapso de serviços."
+  },
+  {
+    "id": "expugnatio-hibernica",
+    "tipo": "livro",
+    "titulo": "Expugnatio Hibernica",
+    "autor": "Giraldo de Barri (Gerald of Wales)",
+    "data": "1189",
+    "citacao": "Relato da invasão normanda escrito por um clérigo galês cujos próprios parentes — os FitzGerald — estavam entre os invasores. É a fonte narrativa central do período e, ao mesmo tempo, justificativa da conquista escrita por parte interessada."
+  },
+  {
+    "id": "cormac-o-grada-grande-fome",
+    "tipo": "livro",
+    "titulo": "Black '47 and Beyond: The Great Irish Famine in History, Economy, and Memory",
+    "autor": "Cormac Ó Gráda",
+    "publicacao": "Princeton University Press",
+    "data": "1999",
+    "citacao": "História econômica da Grande Fome. Sustenta que a catástrofe decorreu da combinação entre dependência quase exclusiva da batata por um terço da população e resposta oficial limitada por doutrina de não intervenção no mercado — não de escassez absoluta de alimento na ilha."
+  },
+  {
+    "id": "ato-de-uniao-1800",
+    "tipo": "documento-oficial",
+    "titulo": "Act of Union 1800",
+    "publicacao": "Parlamento da Grã-Bretanha e Parlamento da Irlanda",
+    "data": "1800",
+    "citacao": "Extinguiu o parlamento irlandês e criou o Reino Unido da Grã-Bretanha e Irlanda a partir de 1º de janeiro de 1801."
   }
 ]

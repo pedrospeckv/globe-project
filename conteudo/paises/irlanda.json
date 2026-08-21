@@ -8,56 +8,100 @@
       "inicio": "800",
       "fim": "1171",
       "rotulo": "Reinos gaélicos e a Alta Realeza",
-      "regime": "mosaico de reinos gaélicos regionais sob a autoridade nominal e disputada de um Alto Rei",
-      "textoMdx": "A Irlanda gaélica medieval se organiza como mosaico de dezenas de pequenos reinos regionais (tuatha), unidos apenas nominalmente sob a instituição contestada da Alta Realeza (Ard Rí) — o título carregava prestígio simbólico considerável, mas raramente traduzia-se em autoridade administrativa efetiva sobre toda a ilha.\n\nIncursões vikings recorrentes a partir do final do século VIII estabeleceriam entrepostos costeiros fortificados que se tornariam as primeiras cidades irlandesas verdadeiras, incluindo Dublin — o alto-rei Brian Boru derrotaria coalizão viking-irlandesa decisiva na Batalha de Clontarf, em 1014, mas seu assassinato na própria batalha impediria a consolidação duradoura de autoridade centralizada que sua vitória parecia prometer.\n\nDécadas de disputa sucessória subsequente entre dinastias rivais deixariam a Irlanda gaélica fragmentada e vulnerável justamente quando o rei deposto de Leinster buscaria apoio militar normando-inglês para recuperar seu trono — convite que traria as forças de Ricardo de Clare, o \"Strongbow\", e desencadearia a invasão normanda de 1169-1171.",
+      "regime": "mosaico de reinos regionais sob a autoridade nominal e disputada de um Alto Rei",
+      "textoMdx": "A Irlanda gaélica não tinha capital, moeda cunhada nem cidades. Era um mosaico de mais de cem pequenos reinos — os *tuatha* —, agrupados em províncias e encimados por um Alto Rei cuja autoridade era mais prestígio que administração: **quase nenhum Ard Rí governou a ilha inteira de fato**. A lei não vinha de um rei mas de uma classe jurídica hereditária, os *brehons*, e resolvia disputas por compensação em gado em vez de punição corporal.\n\nO que a ilha tinha, e a Europa continental naquele momento não tinha em abundância, eram mosteiros. Instituições como Clonmacnoise e Kells acumularam bibliotecas, oficinas de metal e escritórios de cópia num período em que o continente perdia essa infraestrutura, e **monges irlandeses foram evangelizar de volta a Europa** — Columbano fundou casas na Borgonha e no norte da Itália. O Livro de Kells, feito por volta de 800, é o que sobrou dessa produção em escala visível.\n\nAs incursões vikings começam em 795 e mudam a geografia do poder. Os nórdicos vinham saquear os mosteiros, que eram onde estava a riqueza móvel, mas acabaram fundando o que a Irlanda gaélica nunca fundara: **entrepostos costeiros fortificados que se tornaram as primeiras cidades da ilha** — Dublin, Waterford, Limerick, Wexford, Cork.\n\nBrian Boru, rei de Munster, tomou a Alta Realeza pela força em 1002, rompendo cinco séculos de monopólio da dinastia Uí Néill sobre o título. Sua vitória sobre uma coalizão viking-irlandesa em Clontarf, em 1014, virou fundação de identidade nacional — **mas ele morreu na própria batalha**, e a centralização que a vitória parecia prometer morreu com ele.\n\nO século e meio seguinte é de disputa sucessória entre dinastias rivais, com o título de Alto Rei circulando entre pretendentes que se intitulavam \"rei com oposição\". Foi nesse arranjo que Diarmait Mac Murchada, deposto do trono de Leinster em 1166, cruzou o mar em busca de mercenários — e voltou com cavaleiros normandos do país de Gales.",
       "fontes": [
         "sean-duffy-irlanda-medieval"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Book_of_Kells_fol_32v_-_Faksimile_Verlag.jpg/1920px-Book_of_Kells_fol_32v_-_Faksimile_Verlag.jpg",
+        "alt": "Página iluminada do Livro de Kells: uma figura sentada num trono, cercada por moldura densa de entrelaçados, espirais e animais estilizados em pigmentos vivos sobre pergaminho.",
+        "credito": "Abadia de Kells",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Book_of_Kells_fol_32v_-_Faksimile_Verlag.jpg",
+        "legenda": "Fólio 32v do Livro de Kells, feito por volta de 800 num mosteiro irlandês. Numa ilha sem cidades, sem moeda e sem Estado central, era o mosteiro que concentrava riqueza e técnica — e foi por isso que os vikings vinham atrás dele."
+      }
     },
     {
       "id": "irl-senhorio-normando-reino-ingles",
       "inicio": "1171",
       "fim": "1541",
-      "rotulo": "Senhorio Normando e a lenta conquista Tudor",
-      "regime": "senhorio sob a coroa inglesa, com autoridade efetiva reduzida a uma área litorânea encolhida",
-      "textoMdx": "O rei Henrique II da Inglaterra estabelece o Senhorio da Irlanda em 1171, mas a autoridade inglesa efetiva permaneceria, por séculos, confinada a uma área litorânea fortificada em torno de Dublin conhecida como o \"Pale\" — além dessa fronteira, senhores anglo-normandos assimilados progressivamente aos costumes gaélicos, e reinos gaélicos nativos independentes, preservariam autonomia considerável.\n\nA frase satírica \"mais irlandeses que os próprios irlandeses\", cunhada para descrever famílias anglo-normandas como os FitzGerald que se casaram e culturalmente se fundiram com a nobreza gaélica local, capturaria bem os limites reais da autoridade inglesa medieval sobre a ilha ao longo de mais de três séculos.",
+      "rotulo": "Senhorio da Irlanda",
+      "regime": "senhorio sob a coroa inglesa, com autoridade efetiva encolhendo por três séculos",
+      "textoMdx": "Henrique II desembarcou em Waterford em 1171 — não para conquistar a Irlanda, mas para impedir que Ricardo de Clare, o \"Strongbow\", montasse ali um reino normando fora do seu controle. Recebeu a submissão dos senhores normandos e de vários reis gaélicos, e criou o Senhorio da Irlanda.\n\nO Senhorio encolheu quase desde o início. Os colonos anglo-normandos casaram com a nobreza gaélica, adotaram a língua, a lei dos brehons e o costume local, e famílias como os FitzGerald e os Butler passaram a agir como dinastias irlandesas que por acidente deviam vassalagem a Londres — **\"mais irlandeses que os próprios irlandeses\"** era descrição administrativa, não piada. Em 1366 os Estatutos de Kilkenny tentaram proibir os colonos de falar irlandês, usar nomes irlandeses ou casar com irlandeses; a existência da lei mede o tamanho do problema.\n\nA peste negra de 1348 acelerou o processo por uma razão geográfica simples: **a epidemia devastou as cidades e vilas muradas, que eram onde vivia a população colona, e passou com muito menos força pelo campo disperso, que era gaélico.** A demografia inverteu-se a favor de quem estava fora do controle inglês.\n\nNo século XV a autoridade inglesa efetiva estava reduzida a uma faixa fortificada em torno de Dublin, cercada por fosso e paliçada, chamada o *Pale* — a origem da expressão inglesa para quem está fora dos limites do aceitável. Fora dela, o poder real pertencia aos condes de Kildare, que governavam a Irlanda em nome do rei e no seu próprio interesse.\n\nA rebelião de Silken Thomas FitzGerald, em 1534, encerrou esse arranjo. Henrique VIII destruiu a casa de Kildare, e com ela a política de governar a ilha por procuração.",
       "fontes": [
         "sean-duffy-irlanda-medieval",
-        "rf-foster-irlanda-moderna"
-      ]
+        "expugnatio-hibernica"
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/NLI700_Expugnatio_Hibernica_f49r.jpg/1920px-NLI700_Expugnatio_Hibernica_f49r.jpg",
+        "alt": "Página de manuscrito medieval em latim, escrita em duas colunas de letra miúda, com rubrica em vermelho no alto e uma capitular grande decorada.",
+        "credito": "Gerald of Wales (Giraldo de Barri) — National Library of Ireland MS 700",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:NLI700_Expugnatio_Hibernica_f49r.jpg",
+        "legenda": "Primeira página do *Expugnatio Hibernica*, de Giraldo de Barri, em cópia manuscrita de cerca de 1200. É a conquista normanda contada por um normando cujos próprios parentes participaram dela — documento do período e peça de propaganda ao mesmo tempo."
+      }
     },
     {
       "id": "irl-reino-irlanda-conquista-tudor-colonizacao",
       "inicio": "1541",
       "fim": "1801",
-      "rotulo": "Reino da Irlanda: conquista Tudor e colonização",
-      "regime": "reino sob a coroa inglesa, submetido à conquista militar completa e à colonização plantation",
-      "textoMdx": "Henrique VIII proclama o Reino da Irlanda em 1541, iniciando processo de conquista militar completa e sistemática que se estenderia por décadas sob seus sucessores Tudor — a conquista de Munster e Ulster, completada apenas sob Elizabeth I ao final do século XVI, submeteria pela primeira vez toda a ilha à autoridade inglesa direta e efetiva.\n\nA colonização plantation transplantaria colonos protestantes ingleses e escoceses para terras confiscadas de proprietários católicos gaélicos, sobretudo no Ulster a partir de 1609 — reconfiguração demográfica e religiosa profunda que semearia divisões sectárias com consequências duradouras até os dias de hoje.\n\nA reconquista de Oliver Cromwell, entre 1649 e 1653, marcada por violência excepcional incluindo os massacres de Drogheda e Wexford, e a derrota final das forças jacobitas católicas na Guerra Guilhermita de 1689-1691, consolidariam supremacia protestante através das severas Leis Penais que restringiriam drasticamente direitos políticos, econômicos e religiosos católicos por gerações.",
+      "rotulo": "Reino da Irlanda",
+      "regime": "reino sob a coroa inglesa, submetido a conquista militar e colonização por transplante de população",
+      "textoMdx": "Henrique VIII fez-se proclamar Rei da Irlanda em 1541, e a mudança de título mudou a lógica: antes os senhores gaélicos eram estrangeiros a submeter, agora eram súditos em rebelião. A política de *surrender and regrant* trocava o título gaélico, eletivo e vinculado à linhagem, por título nobiliárquico inglês hereditário — **desmontando por via jurídica a estrutura de sucessão que sustentava a ordem gaélica**.\n\nA resistência final veio do Ulster. A Guerra dos Nove Anos, de 1594 a 1603, sob Hugh O'Neill, foi a mais séria que a Inglaterra enfrentou na ilha, e terminou em derrota. Em 1607 os chefes derrotados embarcaram para o continente na Fuga dos Condes, deixando vagas as terras mais defensáveis da Irlanda — e em 1609 começou a colonização plantation do Ulster, **transplante organizado de colonos protestantes ingleses e escoceses para terras confiscadas**. Foi a única província onde a substituição de população pegou em escala, e é a razão de a partição, três séculos depois, ter uma linha para seguir.\n\nA rebelião de 1641 e a reconquista de Oliver Cromwell, entre 1649 e 1653, definiram o resto. Drogheda e Wexford foram tomadas com massacre da guarnição e de parte da população civil; o Ato de Estabelecimento que veio depois confiscou terra católica em massa e ofereceu aos proprietários deslocamento para o oeste pobre — \"para Connacht ou para o inferno\". **A propriedade católica da terra caiu de cerca de 60% para menos de 10% em duas gerações.**\n\nA Guerra Guilhermita fechou a questão militarmente: derrota jacobita no Boyne em 1690, rendição de Limerick em 1691. As Leis Penais que se seguiram excluíram católicos do parlamento, do exército, das profissões jurídicas, do direito de comprar terra e de herdá-la de forma indivisa. A minoria protestante que governou os cem anos seguintes ganhou nome próprio: a Ascendência.\n\nEm 1798, uma rebelião inspirada pela França e organizada pelos Irlandeses Unidos — movimento fundado por protestantes de Belfast — foi derrotada. Londres concluiu que a Irlanda não podia continuar com parlamento próprio.",
       "fontes": [
         "rf-foster-irlanda-moderna"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_Province_Ulster_described_-_Performed_by_John_Speede_-_btv1b530569973_%281_of_2%29.jpg/1920px-The_Province_Ulster_described_-_Performed_by_John_Speede_-_btv1b530569973_%281_of_2%29.jpg",
+        "alt": "Mapa gravado do Ulster em 1610, com condados delimitados, castelos desenhados em elevação, brasões em cartelas ornamentadas e monstros marinhos no oceano.",
+        "credito": "John Speed (1552–1629), gravado por Jodocus Hondius",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Province_Ulster_described_-_Performed_by_John_Speede_-_btv1b530569973_(1_of_2).jpg",
+        "legenda": "O Ulster levantado por John Speed em 1610 — o ano em que a colonização plantation começou. Mapear era parte da operação: sem o levantamento dos condados e das terras confiscadas não havia como distribuí-las a colonos."
+      }
     },
     {
       "id": "irl-uniao-reino-unido-fome-independencia",
       "inicio": "1801",
       "fim": "1922",
-      "rotulo": "União com a Grã-Bretanha, a Grande Fome e a independência",
-      "regime": "parte integrante do Reino Unido, sob parlamento próprio abolido pelo Ato de União",
-      "textoMdx": "O Ato de União de 1800-1801 extingue o parlamento irlandês, integrando formalmente a Irlanda ao Reino Unido da Grã-Bretanha e Irlanda — a emancipação católica de 1829, conquistada através de campanha de agitação popular liderada por Daniel O'Connell, restauraria direitos políticos católicos básicos décadas depois.\n\nA Grande Fome, entre 1845 e 1852, provocada pela praga da batata mas dramaticamente agravada pelas políticas e pela indiferença do governo britânico, mataria cerca de um milhão de pessoas e forçaria a emigração de outro milhão — trauma demográfico e nacional catastrófico que reduziria permanentemente a população irlandesa e alimentaria décadas de ressentimento nacionalista subsequente.\n\nO Levante da Páscoa de 1916, insurreição armada inicialmente impopular mas cuja repressão brutal britânica reverteria drasticamente a opinião pública irlandesa, prepararia terreno para a Guerra da Independência Irlandesa de 1919-1921 — o Tratado Anglo-Irlandês de 1921 criaria o Estado Livre Irlandês como domínio autônomo, mas também formalizaria a partição da ilha, deixando seis condados do Ulster como Irlanda do Norte dentro do Reino Unido.",
+      "rotulo": "Irlanda no Reino Unido",
+      "regime": "parte integrante do Reino Unido, sem parlamento próprio",
+      "textoMdx": "O Ato de União extinguiu o parlamento de Dublin em 1801 e mandou os deputados irlandeses para Westminster, onde eram minoria permanente. A emancipação católica veio em 1829, arrancada por Daniel O'Connell através de mobilização de massa pacífica — invenção política que fez escola muito além da Irlanda.\n\nEntão veio a fome. Uma praga da batata atingiu a Europa inteira em 1845, mas só na Irlanda produziu catástrofe demográfica, e a razão é estrutural: **um terço da população dependia quase exclusivamente da batata**, cultivada em lotes minúsculos arrendados, enquanto a terra boa produzia gado e grão para exportação. A comida continuou saindo dos portos irlandeses durante os piores anos da fome. A resposta de Londres foi condicionada por doutrina — não interferir no mercado, exigir trabalho em obras públicas de quem já estava desnutrido, transferir o custo do socorro para os proprietários locais.\n\n**Cerca de um milhão de pessoas morreram e outro milhão emigrou.** A população caiu de 8,2 milhões em 1841 para 6,6 milhões em 1851 — e continuou caindo por sessenta anos, até cerca de 4,4 milhões em 1911. É o único país da Europa que entrou no século XX com menos gente do que tinha em 1840, e a emigração deixou de ser fuga para virar instituição: uma geração após outra saía por padrão.\n\nA questão da terra dominou o meio século seguinte, e foi resolvida em favor dos arrendatários por uma série de leis que transferiram a propriedade aos que a trabalhavam. A questão do autogoverno não se resolveu. O Home Rule foi aprovado em 1914 e suspenso pela guerra; o Levante da Páscoa de 1916, militarmente um fracasso e inicialmente impopular, mudou de sentido quando os líderes foram fuzilados em série no pátio da prisão de Kilmainham.\n\nA Guerra da Independência, de 1919 a 1921, foi de guerrilha urbana e rural contra as forças britânicas. O Tratado Anglo-Irlandês de dezembro de 1921 criou o Estado Livre Irlandês como domínio autônomo — **e formalizou a partição**, deixando seis condados do Ulster no Reino Unido.",
       "fontes": [
         "rf-foster-irlanda-moderna",
+        "cormac-o-grada-grande-fome",
+        "ato-de-uniao-1800",
         "tratado-anglo-irlandes-1921"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/The_Famine_in_Ireland%2C_Funeral_at_Skibbereen_-_ILN_1847.jpg/1920px-The_Famine_in_Ireland%2C_Funeral_at_Skibbereen_-_ILN_1847.jpg",
+        "alt": "Gravura de 1847 mostrando um cortejo fúnebre num descampado irlandês: figuras curvadas carregando um caixão, casebres arruinados ao fundo e uma paisagem despovoada.",
+        "credito": "Frederick James Smyth, a partir de esboço de Henry Smith, para o Illustrated London News",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Famine_in_Ireland,_Funeral_at_Skibbereen_-_ILN_1847.jpg",
+        "legenda": "Enterro em Skibbereen, publicado no *Illustrated London News* de 30 de janeiro de 1847 — no meio da fome, não em memória dela. Skibbereen virou o nome que o público britânico associou à catástrofe justamente por causa desta série de gravuras."
+      }
     },
     {
       "id": "irl-estado-livre-republica-atual",
       "inicio": "1922",
-      "rotulo": "Do Estado Livre à República contemporânea",
+      "rotulo": "Do Estado Livre à República",
       "regime": "domínio autônomo, depois república soberana e Estado-membro da União Europeia",
-      "textoMdx": "O Estado Livre Irlandês nasce imediatamente mergulhado em guerra civil, entre 1922 e 1923, opondo apoiadores e opositores do próprio Tratado Anglo-Irlandês — nova constituição de 1937 e a declaração formal de república, em 1949, completariam gradualmente a soberania plena do Estado, rompendo os últimos laços constitucionais residuais com a coroa britânica.\n\nA Irlanda ingressa na então Comunidade Econômica Europeia em 1973, e experimentaria décadas depois transformação econômica dramática conhecida como \"Tigre Celta\", nos anos 1990 e 2000, antes de ser duramente atingida pela crise financeira global de 2008 e pelo colapso bancário doméstico associado, exigindo resgate internacional severo.\n\nO país passaria, nas décadas recentes, por liberalização social rápida e notável — referendos populares aprovariam o casamento igualitário em 2015 e a legalização do aborto em 2018, marcando ruptura expressiva com a influência histórica dominante da Igreja Católica na vida pública irlandesa — enquanto a Irlanda do Norte, permanecendo parte do Reino Unido, seguiria trajetória distinta marcada por décadas de conflito sectário conhecido como os Troubles até o Acordo de Sexta-Feira Santa de 1998.",
+      "textoMdx": "O Estado Livre nasceu em guerra civil contra si mesmo. A divisão não era sobre independência — os dois lados a queriam — mas sobre aceitar o Tratado, com o juramento à coroa e a partição que ele trazia. **A guerra de 1922 e 1923 matou mais irlandeses do que a guerra contra os britânicos**, incluindo Michael Collins, que negociara o Tratado, morto numa emboscada em agosto de 1922. Os dois partidos que dominaram a política irlandesa pelos oitenta anos seguintes nasceram dos dois lados dessa disputa.\n\nA soberania completou-se por etapas e sem violência: nova constituição em 1937, neutralidade na Segunda Guerra — chamada oficialmente de \"a Emergência\" —, e a declaração formal de república em 1949. A economia, protegida por tarifas e voltada para dentro, ficou estagnada tempo suficiente para que a emigração dos anos 1950 rivalizasse com a do século anterior.\n\nA virada foi de política econômica antes de ser de sorte. A partir do fim dos anos 1950 o país abriu-se ao investimento estrangeiro, e a entrada na Comunidade Econômica Europeia em 1973 deu acesso a mercado e a fundos estruturais. O que se chamou de **Tigre Celta**, nos anos 1990, combinou imposto corporativo baixo, população jovem e escolarizada e sede de multinacionais americanas — e inverteu o fluxo migratório de dois séculos: a Irlanda passou a receber gente.\n\nO crescimento virou bolha imobiliária e a bolha estourou em 2008. O Estado garantiu os bancos e a garantia afundou o Estado: resgate do FMI e da União Europeia em 2010, austeridade severa, emigração de novo. A recuperação veio, e com ela uma concentração incomum de sedes de tecnologia e farmacêuticas que torna as contas nacionais irlandesas difíceis de interpretar.\n\nA mudança social foi mais rápida que a econômica. **Dois referendos aprovaram por voto popular o que a Igreja Católica havia definido por gerações** — casamento entre pessoas do mesmo sexo em 2015, com 62%, e a revogação da proibição constitucional do aborto em 2018, com 66%. Num país onde o divórcio só foi legalizado em 1995, e por margem de meio ponto percentual.\n\nAo norte, a Irlanda do Norte seguiu caminho separado: três décadas de conflito sectário, encerradas pelo Acordo de Sexta-Feira Santa de 1998, que dissolveu a fronteira na prática. O Brexit reabriu a pergunta de onde ela fica.",
       "fontes": [
-        "rf-foster-irlanda-moderna"
-      ]
+        "rf-foster-irlanda-moderna",
+        "tratado-anglo-irlandes-1921",
+        "acordo-sexta-feira-santa-1998"
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Four_Courts_Conflagration.jpg",
+        "alt": "Fotografia de 1922 do edifício dos Four Courts em Dublin em chamas, com uma coluna densa de fumaça subindo do telhado e destroços na rua em frente.",
+        "credito": "National Library of Ireland",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Four_Courts_Conflagration.jpg",
+        "legenda": "Os Four Courts em chamas em 30 de junho de 1922. Ocupado por forças contrárias ao Tratado em abril e bombardeado pelo exército do novo Estado em 28 e 29 de junho, o edifício explodiu com a munição estocada dentro — e levou com ele os arquivos públicos da Irlanda. O Estado Livre começou destruindo a própria memória documental."
+      }
     }
   ]
 }

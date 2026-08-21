@@ -365,5 +365,486 @@
     "fontes": [
       "martin-meredith-mugabe"
     ]
+  },
+  {
+    "id": "batalha-clontarf",
+    "data": "1014-04-23",
+    "titulo": "Batalha de Clontarf",
+    "ponto": [
+      -6.26,
+      53.35
+    ],
+    "paises": [
+      "IRL"
+    ],
+    "textoMdx": "Brian Boru, que cinco anos antes rompera o monopólio de meio milênio da dinastia Uí Néill sobre a Alta Realeza, derrota uma coalizão de nórdicos de Dublin e irlandeses de Leinster nos arredores da cidade. Morre na própria batalha, provavelmente na tenda, e com ele a possibilidade de autoridade central que a vitória parecia abrir. A Irlanda voltou a ter alto-reis \"com oposição\".",
+    "fontes": [
+      "sean-duffy-irlanda-medieval"
+    ]
+  },
+  {
+    "id": "invasao-normanda-irlanda",
+    "data": "1169",
+    "titulo": "Chegada dos normandos a convite de Leinster",
+    "ponto": [
+      -6.46,
+      52.34
+    ],
+    "paises": [
+      "IRL"
+    ],
+    "textoMdx": "Diarmait Mac Murchada, deposto do trono de Leinster, contrata cavaleiros normandos do país de Gales para recuperá-lo. Ricardo de Clare, o \"Strongbow\", desembarca no ano seguinte, toma Waterford e Dublin e casa com a filha de Diarmait — pondo-se em posição de herdar o reino. É a perspectiva de um Estado normando independente na Irlanda que traz Henrique II em pessoa, em 1171.",
+    "fontes": [
+      "sean-duffy-irlanda-medieval",
+      "expugnatio-hibernica"
+    ]
+  },
+  {
+    "id": "estatutos-de-kilkenny",
+    "data": "1366",
+    "titulo": "Estatutos de Kilkenny",
+    "ponto": [
+      -7.25,
+      52.65
+    ],
+    "paises": [
+      "IRL"
+    ],
+    "textoMdx": "O parlamento do Senhorio proíbe os colonos ingleses de falar irlandês, usar nomes ou trajes irlandeses, casar com irlandeses e recorrer à lei dos brehons. A lei não mede a força da administração inglesa e sim o contrário: a assimilação dos colonos à cultura gaélica havia avançado tanto que precisou ser criminalizada.",
+    "fontes": [
+      "sean-duffy-irlanda-medieval"
+    ]
+  },
+  {
+    "id": "fuga-dos-condes",
+    "data": "1607-09",
+    "titulo": "Fuga dos Condes",
+    "ponto": [
+      -7.53,
+      55.09
+    ],
+    "paises": [
+      "IRL"
+    ],
+    "textoMdx": "Derrotados na Guerra dos Nove Anos, Hugh O'Neill e Rory O'Donnell embarcam em Rathmullan com cerca de cem seguidores rumo ao continente, na intenção de voltar com apoio espanhol. Nunca voltaram. A partida deixou vagas as terras dos senhorios mais defensáveis da ilha, e abriu caminho para a colonização plantation do Ulster dois anos depois.",
+    "fontes": [
+      "rf-foster-irlanda-moderna"
+    ]
+  },
+  {
+    "id": "cromwell-em-drogheda",
+    "data": "1649-09-11",
+    "titulo": "Cromwell toma Drogheda",
+    "ponto": [
+      -6.35,
+      53.72
+    ],
+    "paises": [
+      "IRL"
+    ],
+    "textoMdx": "Após recusa de rendição, as forças de Oliver Cromwell tomam a cidade de assalto e passam a guarnição pela espada, com mortes também entre a população civil e o clero. O episódio foi reportado pelo próprio Cromwell como advertência deliberada às demais cidades — e várias se renderam depois sem combate.",
+    "fontes": [
+      "rf-foster-irlanda-moderna"
+    ]
+  },
+  {
+    "id": "batalha-do-boyne",
+    "data": "1690-07-01",
+    "titulo": "Batalha do Boyne",
+    "ponto": [
+      -6.42,
+      53.72
+    ],
+    "paises": [
+      "IRL"
+    ],
+    "textoMdx": "Guilherme de Orange derrota Jaime II às margens do rio Boyne. A batalha decidiu menos militarmente do que se costuma dizer — a guerra continuou até a rendição de Limerick em 1691 —, mas fixou-se como data fundadora da identidade protestante do Ulster, comemorada até hoje.",
+    "fontes": [
+      "rf-foster-irlanda-moderna"
+    ]
+  },
+  {
+    "id": "ato-de-uniao-irlanda",
+    "data": "1801-01-01",
+    "titulo": "Ato de União entra em vigor",
+    "ponto": [
+      -6.26,
+      53.35
+    ],
+    "paises": [
+      "IRL"
+    ],
+    "textoMdx": "O parlamento irlandês é extinto e a Irlanda passa a eleger deputados para Westminster, onde forma minoria permanente. A união foi aprovada pelo próprio parlamento de Dublin, em votação obtida com distribuição de títulos e cargos, depois de rejeitá-la no ano anterior.",
+    "fontes": [
+      "ato-de-uniao-1800"
+    ]
+  },
+  {
+    "id": "levante-da-pascoa",
+    "data": "1916-04-24",
+    "titulo": "Levante da Páscoa",
+    "ponto": [
+      -6.26,
+      53.35
+    ],
+    "paises": [
+      "IRL"
+    ],
+    "textoMdx": "Cerca de mil e duzentos insurgentes tomam edifícios no centro de Dublin e proclamam a república a partir do prédio dos Correios. A rebelião é derrotada em seis dias, com a cidade bombardeada por artilharia, e recebida com hostilidade por boa parte da população. A execução em série de quinze líderes no pátio de Kilmainham, nas semanas seguintes, inverteu a opinião pública.",
+    "fontes": [
+      "rf-foster-irlanda-moderna"
+    ]
+  },
+  {
+    "id": "tratado-anglo-irlandes-assinatura",
+    "data": "1921-12-06",
+    "titulo": "Tratado Anglo-Irlandês",
+    "ponto": [
+      -0.13,
+      51.5
+    ],
+    "paises": [
+      "IRL"
+    ],
+    "textoMdx": "Assinado em Londres, cria o Estado Livre Irlandês como domínio autônomo dentro do Império, com juramento de fidelidade à coroa, e formaliza a partição de seis condados do Ulster. Michael Collins, um dos signatários, descreveu o ato como assinar a própria sentença de morte; foi morto em emboscada oito meses depois, na guerra civil que o Tratado provocou.",
+    "fontes": [
+      "tratado-anglo-irlandes-1921"
+    ]
+  },
+  {
+    "id": "adesao-irlanda-cee",
+    "data": "1973-01-01",
+    "titulo": "Irlanda entra na Comunidade Econômica Europeia",
+    "ponto": [
+      -6.26,
+      53.35
+    ],
+    "paises": [
+      "IRL"
+    ],
+    "textoMdx": "A adesão dá acesso a mercado e a fundos estruturais, e rompe a dependência quase exclusiva do comércio com o Reino Unido — que entrou no mesmo dia. Foi aprovada em referendo por 83% dos votos, a maior margem de qualquer consulta europeia realizada no país.",
+    "fontes": [
+      "rf-foster-irlanda-moderna"
+    ]
+  },
+  {
+    "id": "resgate-financeiro-irlanda",
+    "data": "2010-11",
+    "titulo": "Resgate do FMI e da União Europeia",
+    "ponto": [
+      -6.26,
+      53.35
+    ],
+    "paises": [
+      "IRL"
+    ],
+    "textoMdx": "A garantia estatal concedida aos bancos em 2008 transferiu o prejuízo do sistema financeiro para o Tesouro, e o Estado perdeu acesso a crédito. O programa de assistência de cerca de 85 bilhões de euros veio acompanhado de austeridade severa e de retomada da emigração, dois anos depois de o país ter recebido imigrantes por uma década.",
+    "fontes": [
+      "rf-foster-irlanda-moderna"
+    ]
+  },
+  {
+    "id": "referendo-casamento-igualitario-irlanda",
+    "data": "2015-05-22",
+    "titulo": "Referendo do casamento igualitário",
+    "ponto": [
+      -6.26,
+      53.35
+    ],
+    "paises": [
+      "IRL"
+    ],
+    "textoMdx": "A Irlanda torna-se o primeiro país do mundo a aprovar o casamento entre pessoas do mesmo sexo por voto popular direto, com 62%. Vinte e dois anos antes, a relação homossexual entre adultos ainda era crime no país.",
+    "fontes": [
+      "rf-foster-irlanda-moderna"
+    ]
+  },
+  {
+    "id": "referendo-aborto-irlanda",
+    "data": "2018-05-25",
+    "titulo": "Referendo sobre a Oitava Emenda",
+    "ponto": [
+      -6.26,
+      53.35
+    ],
+    "paises": [
+      "IRL"
+    ],
+    "textoMdx": "Com 66% dos votos, o eleitorado revoga o artigo constitucional de 1983 que equiparava o direito à vida da gestante e do feto, abrindo caminho para a legalização do aborto. A campanha foi marcada pela morte de Savita Halappanavar, em 2012, a quem foi negada interrupção durante aborto em curso.",
+    "fontes": [
+      "rf-foster-irlanda-moderna"
+    ]
+  },
+  {
+    "id": "promulgacao-do-hangul",
+    "data": "1446",
+    "titulo": "Promulgação do hangul",
+    "ponto": [
+      126.98,
+      37.57
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "O rei Sejong publica o *Hunminjeongeum*, apresentando um alfabeto criado do zero para a língua coreana, com letras cujas formas imitam a posição dos órgãos da fala. A elite letrada resistiu por séculos: o domínio dos caracteres chineses era o que distinguia socialmente quem governava, e um alfabeto aprendível numa manhã ameaçava essa distinção. O hangul só se tornou escrita oficial no fim do século XIX.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "invasoes-de-hideyoshi",
+    "data": "1592",
+    "titulo": "Invasão japonesa e as vitórias navais de Yi Sun-sin",
+    "ponto": [
+      128.5,
+      34.75
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "Toyotomi Hideyoshi desembarca mais de cento e cinquenta mil homens na península a caminho da China. Em terra o avanço é rápido; no mar, o almirante Yi Sun-sin vence vinte e três batalhas sem uma única derrota e corta as linhas de abastecimento japonesas. A guerra dura seis anos, arrasa o país e termina sem mudança de fronteira.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "submissao-aos-qing",
+    "data": "1637",
+    "titulo": "Joseon se submete aos Qing",
+    "ponto": [
+      127.18,
+      37.48
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "Cercado na fortaleza de Namhansanseong durante o inverno, o rei Injo capitula diante do exército manchu e presta homenagem em pessoa ao imperador Qing. Joseon torna-se tributário da nova dinastia chinesa, e o episódio permanece como a humilhação de referência na memória política coreana.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "tratado-de-ganghwa",
+    "data": "1876-02-27",
+    "titulo": "Tratado de Ganghwa abre a Coreia",
+    "ponto": [
+      126.48,
+      37.75
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "Sob ameaça naval, Joseon assina com o Japão um tratado desigual que abre portos, concede extraterritorialidade a japoneses e declara a Coreia independente da China — cláusula que servia para retirar Pequim do caminho. O método era exatamente o que o comodoro Perry usara contra o próprio Japão vinte e três anos antes.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "anexacao-da-coreia",
+    "data": "1910-08-29",
+    "titulo": "Anexação pelo Japão",
+    "ponto": [
+      126.98,
+      37.57
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "O tratado de anexação encerra o Império Coreano e instala um governo-geral militar japonês. Cinco anos antes o protetorado imposto em 1905 já havia retirado da Coreia a política externa; o emissário que o imperador Gojong enviou à Conferência de Haia em 1907 para denunciá-lo não obteve sequer autorização para falar.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "movimento-primeiro-de-marco",
+    "data": "1919-03-01",
+    "titulo": "Movimento Primeiro de Março",
+    "ponto": [
+      126.98,
+      37.57
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "A leitura pública de uma declaração de independência num parque de Seul desencadeia manifestações em todo o país ao longo de meses, com participação estimada em torno de um milhão de pessoas. A repressão é dura e nada muda no imediato, mas o movimento funda o nacionalismo coreano moderno, gera um governo provisório no exílio em Xangai e força Tóquio a substituir o regime militar aberto por administração de fachada civil.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "divisao-no-paralelo-38",
+    "data": "1945-08",
+    "titulo": "A divisão no paralelo 38",
+    "ponto": [
+      126.98,
+      37.57
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "Com a rendição japonesa iminente e o Exército Vermelho já na Manchúria, dois oficiais americanos recebem a ordem de propor uma linha de ocupação. Traçam-na em cerca de meia hora sobre um mapa de revista, escolhendo o paralelo 38 por deixar Seul do lado americano. Nenhum coreano é consultado, e a linha provisória vira permanente.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "levante-de-jeju",
+    "data": "1948-04-03",
+    "titulo": "Levante de Jeju",
+    "ponto": [
+      126.53,
+      33.45
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "Um levante na ilha de Jeju contra a realização de eleições separadas no sul é reprimido ao longo de anos, com dezenas de milhares de mortos numa população de pouco mais de trezentos mil e a queima de grande parte das aldeias do interior. O episódio foi interditado ao debate público por décadas e só recebeu comissão oficial de apuração em 2000.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "inicio-da-guerra-da-coreia",
+    "data": "1950-06-25",
+    "titulo": "A Coreia do Norte invade o Sul",
+    "ponto": [
+      126.98,
+      37.57
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "As forças do norte cruzam o paralelo 38 e tomam Seul em três dias, empurrando o exército sul-coreano e as tropas americanas até um perímetro em torno de Busan. O Conselho de Segurança autoriza a intervenção porque a União Soviética boicotava as sessões naquele momento e não estava presente para vetar.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "desembarque-de-incheon",
+    "data": "1950-09-15",
+    "titulo": "Desembarque em Incheon",
+    "ponto": [
+      126.63,
+      37.46
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "Operação anfíbia atrás das linhas norte-coreanas, num porto de maré extrema que a tornava improvável e por isso pouco defendido. Reverte a guerra em semanas — mas o avanço subsequente até a fronteira chinesa provoca a entrada da China em novembro, e a linha volta a descer.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "armisticio-de-panmunjom",
+    "data": "1953-07-27",
+    "titulo": "Armistício de Panmunjom",
+    "ponto": [
+      126.68,
+      37.96
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "O cessar-fogo é assinado depois de dois anos de negociação travada, sobretudo pela recusa de repatriar à força prisioneiros que não queriam voltar. Não é tratado de paz, e nenhum foi assinado desde então: as duas Coreias seguem tecnicamente em guerra, separadas por uma faixa desmilitarizada de quatro quilômetros de largura.",
+    "fontes": [
+      "acordo-armisticio-coreano-1953"
+    ]
+  },
+  {
+    "id": "golpe-de-park-chung-hee",
+    "data": "1961-05-16",
+    "titulo": "Golpe de Park Chung-hee",
+    "ponto": [
+      126.98,
+      37.57
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "O general Park toma o poder treze meses depois da queda de Syngman Rhee, encerrando a breve Segunda República parlamentar. Governa dezoito anos e conduz a industrialização dirigida pelo Estado que tirou o país da faixa mais pobre do mundo — sob repressão que se formalizou em ditadura pessoal com a constituição Yushin de 1972.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "levante-de-gwangju",
+    "data": "1980-05-18",
+    "titulo": "Levante de Gwangju",
+    "ponto": [
+      126.85,
+      35.16
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "A repressão a protestos estudantis por tropas paraquedistas provoca uma revolta que expulsa o exército da cidade e a mantém em autogoverno por cinco dias, antes da retomada militar. A contagem oficial da época falou em cerca de duas centenas de mortos; levantamentos posteriores e as famílias sustentam número consideravelmente maior, e a divergência nunca foi fechada.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "luta-de-junho",
+    "data": "1987-06",
+    "titulo": "Luta de Junho",
+    "ponto": [
+      126.98,
+      37.57
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "A morte sob tortura do estudante Park Jong-chul em janeiro, encoberta pelo governo e depois exposta, e o anúncio em abril de que a eleição indireta seria mantida levam à maior mobilização desde 1960 — com adesão inédita da classe média urbana. Em 29 de junho o governo cede à eleição direta, e a constituição que resulta continua em vigor.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "crise-do-fmi-coreia",
+    "data": "1997-12",
+    "titulo": "A crise do FMI",
+    "ponto": [
+      126.98,
+      37.57
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "A crise financeira asiática atinge a Coreia e o país recorre ao maior resgate já concedido até então, cerca de cinquenta e oito bilhões de dólares, com exigência de reestruturação dos chaebol e abertura financeira. Houve campanha popular de doação de ouro doméstico ao Tesouro. A economia voltou a crescer em dois anos, mas o emprego vitalício não voltou.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "impeachment-park-geun-hye",
+    "data": "2017-03-10",
+    "titulo": "Impeachment de Park Geun-hye",
+    "ponto": [
+      126.98,
+      37.57
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "Meses de manifestações com velas, algumas das maiores da história do país, levam ao afastamento e depois à prisão da presidente por corrupção e abuso de poder. É filha de Park Chung-hee, o general que governou dezoito anos, e o Tribunal Constitucional confirmou o impeachment por unanimidade.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
+  },
+  {
+    "id": "lei-marcial-de-yoon",
+    "data": "2024-12-03",
+    "titulo": "Decreto de lei marcial e sua revogação",
+    "ponto": [
+      126.98,
+      37.57
+    ],
+    "paises": [
+      "KOR"
+    ],
+    "textoMdx": "O presidente Yoon Suk-yeol decreta lei marcial em pronunciamento noturno em rede nacional, alegando ameaça de forças antiestatais. Parlamentares entram no plenário pulando cercas, com tropas já no edifício, e revogam o decreto em cerca de duas horas e meia. Yoon é afastado em seguida — trinta e sete anos depois de a constituição de 1987 ser escrita para impedir exatamente isso.",
+    "fontes": [
+      "bruce-cumings-coreia"
+    ]
   }
 ]

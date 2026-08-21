@@ -8,56 +8,96 @@
       "inicio": "1392",
       "fim": "1910",
       "rotulo": "Dinastia Joseon",
-      "regime": "monarquia confucionista centralizada, uma das dinastias mais duradouras da história mundial",
-      "textoMdx": "O general Yi Seong-gye funda a Dinastia Joseon em 1392, estabelecendo ordem confucionista centralizada que governaria toda a península coreana unificada por mais de cinco séculos — uma das dinastias de existência mais longa e estável de toda a história mundial, com capital estabelecida em Hanseong, atual Seul.\n\nO reinado do rei Sejong, o Grande, entre 1418 e 1450, produz o alfabeto hangul, sistema de escrita fonético desenhado especificamente para promover alfabetização popular em contraste com os caracteres chineses classicos até então dominantes — invenção que permanece central à identidade cultural coreana até hoje.\n\n**Invasões japonesas devastadoras entre 1592 e 1598, e depois invasões manchus no século XVII, marcariam períodos de crise severa — o reino sobreviveria a ambas, mas adotaria política de isolamento internacional deliberado que lhe renderia a alcunha ocidental de \"reino eremita\".** Breve declaração do Império Coreano, em 1897, tentaria modernização defensiva tardia diante de pressão imperial japonesa crescente, sem sucesso em deter a anexação formal de 1910.",
+      "regime": "monarquia neoconfucionista centralizada, tributária da China Ming e depois Qing",
+      "textoMdx": "O general Yi Seong-gye depôs a dinastia Goryeo em 1392 e mudou a capital para Hanyang, a atual Seul. O Estado que montou durou 518 anos e organizou-se em torno de uma ideia: **o governo deve pertencer a quem passa em exame**. O *gwageo* selecionava funcionários por prova sobre os clássicos confucianos — mas só a aristocracia *yangban* tinha o tempo e os tutores para estudar, e o resultado foi uma nobreza de mérito hereditário na prática.\n\nO rei Sejong promulgou em 1446 um alfabeto desenhado do zero para a língua coreana. O *hangul* tem 28 letras cujas formas imitam a posição da boca e da língua ao pronunciá-las, e o documento que o apresentou dizia que **um homem sábio o aprende numa manhã**. A elite letrada o rejeitou por séculos justamente por isso: dominar os caracteres chineses era o que separava quem mandava de quem obedecia, e um alfabeto fácil apagava a distinção. Por trezentos anos o hangul foi escrita de mulheres, de gente comum e de romances populares.\n\nA invasão japonesa de 1592 trouxe mais de cento e cinquenta mil homens e devastou a península por seis anos. O almirante Yi Sun-sin venceu no mar de forma tão desproporcional — vinte e três batalhas sem uma derrota — que a logística japonesa nunca se estabilizou. Quatro décadas depois foi a vez dos manchus: derrotado em 1637, o rei prostrou-se em pessoa diante do imperador Qing e Joseon virou tributário.\n\nDo século XVII em diante o reino restringiu deliberadamente o contato externo, o que rendeu no Ocidente a alcunha de \"reino eremita\" — **imprecisa, porque as embaixadas anuais à China e as missões periódicas ao Japão nunca pararam**. O que Joseon recusava era comércio europeu.\n\nA recusa não durou. O Japão forçou a abertura de portos pelo Tratado de Ganghwa em 1876, copiando o método que os americanos usaram contra ele mesmo vinte anos antes. Seguiram-se duas guerras travadas por outros dentro da Coreia e por causa dela — a sino-japonesa de 1894 e a russo-japonesa de 1904 —, ambas vencidas pelo Japão. A proclamação do Império Coreano em 1897 foi tentativa tardia de modernização defensiva; o protetorado veio em 1905 e a anexação em 1910.",
       "fontes": [
         "bruce-cumings-coreia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Hunminjeongeum_Haerye_08.jpg",
+        "alt": "Página dupla de livro coreano antigo com colunas verticais de caracteres, combinando ideogramas chineses e as formas geométricas simples do alfabeto hangul.",
+        "credito": "Governo de Joseon",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Hunminjeongeum_Haerye_08.jpg",
+        "legenda": "Página do *Hunminjeongeum Haerye*, de 1446 — o documento que apresentou o hangul e explicou como cada letra foi desenhada a partir da posição dos órgãos da fala. É raro um sistema de escrita ter certidão de nascimento com o raciocínio do inventor por escrito."
+      }
     },
     {
       "id": "kor-colonizacao-japonesa",
       "inicio": "1910",
       "fim": "1945",
-      "rotulo": "Colonização japonesa",
-      "regime": "colônia do Império do Japão, sob política de assimilação forçada cada vez mais severa",
-      "textoMdx": "O Japão anexa formalmente a Coreia em 1910, impondo administração colonial que exploraria recursos e mão de obra coreanos enquanto suprimia sistematicamente a cultura, a língua e a identidade nacional coreanas — o Movimento Primeiro de Março de 1919, levante popular pacífico por independência, seria reprimido com violência considerável, mas consolidaria o nacionalismo coreano moderno.\n\nAs décadas finais da ocupação, sobretudo a partir da invasão japonesa da China em 1937, intensificam a repressão através de políticas de assimilação forçada — coreanos seriam obrigados a adotar nomes japoneses, e centenas de milhares de mulheres coreanas seriam forçadas à escravidão sexual como \"mulheres de conforto\" para o exército japonês, episódio que permanece fonte de tensão diplomática não plenamente resolvida entre as duas nações até hoje.\n\nA rendição japonesa, em agosto de 1945, ao final da Segunda Guerra Mundial, liberta a Coreia da ocupação colonial — mas a decisão apressada das potências aliadas de dividir a península ao longo do paralelo 38, com ocupação soviética ao norte e americana ao sul, lançaria as bases diretas da divisão permanente que se seguiria.",
+      "rotulo": "Colônia japonesa",
+      "regime": "colônia do Império do Japão, sob administração militar e assimilação forçada crescente",
+      "textoMdx": "A anexação de agosto de 1910 instalou um governo-geral militar. O primeiro ato administrativo de peso foi um levantamento cadastral de terras que exigia documentação escrita de propriedade — e **transferiu ao Estado colonial e a companhias japonesas a terra de quem cultivava por posse antiga sem título de papel**.\n\nEm 1º de março de 1919, a leitura pública de uma declaração de independência num parque de Seul desencadeou manifestações que se espalharam pelo país por meses, com participação estimada em torno de um milhão de pessoas. A repressão foi dura e o movimento não obteve nada no imediato, mas fundou o nacionalismo coreano moderno e forçou Tóquio a trocar o regime militar aberto por uma administração de fachada civil.\n\nA colônia foi industrializada de forma desigual e a assimetria importa para tudo o que veio depois: **indústria pesada, mineração e hidrelétricas no norte, arroz e algodão no sul.** Quando a península foi dividida em 1945, o norte ficou com as fábricas e o sul com a população e a comida.\n\nA partir da invasão da China em 1937 a política mudou de exploração para apagamento. O coreano foi proibido nas escolas, a imprensa em coreano fechada, e uma campanha de 1940 obrigou a adoção de nomes japoneses. Trabalhadores foram mobilizados em massa para minas e fábricas no Japão, e mulheres coreanas foram levadas a bordéis militares — as chamadas \"mulheres de conforto\". **O número delas é objeto de disputa aberta**, com estimativas que vão de algumas dezenas de milhares a mais de duzentas mil, e a divergência não é só de contagem: envolve a definição de coerção e o acesso a arquivos, e segue sendo litígio diplomático entre Seul e Tóquio.\n\nA rendição japonesa de agosto de 1945 libertou a Coreia e a dividiu na mesma semana. Diante do avanço soviético na Manchúria, dois oficiais americanos receberam a ordem de propor uma linha de ocupação e a traçaram **em cerca de meia hora, num mapa de revista, no paralelo 38** — critério escolhido por deixar Seul no lado americano. Nenhum coreano foi consultado.",
       "fontes": [
         "bruce-cumings-coreia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/L%E2%80%99Ind%C3%A9pendance_de_la_Cor%C3%A9e_et_la_Paix-02.jpg/1920px-L%E2%80%99Ind%C3%A9pendance_de_la_Cor%C3%A9e_et_la_Paix-02.jpg",
+        "alt": "Fotografia de 1919 de uma multidão densa em uma avenida de Seul durante manifestação pacífica pela independência, com pessoas de roupas claras ocupando toda a largura da rua.",
+        "credito": "Bureau d'information coréen",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:L%E2%80%99Ind%C3%A9pendance_de_la_Cor%C3%A9e_et_la_Paix-02.jpg",
+        "legenda": "Manifestação do Movimento Primeiro de Março em Seul, 1919, publicada em folheto que o movimento coreano fez circular em francês para chegar à Conferência de Paz de Paris. A independência não veio, mas a imagem saiu do país."
+      }
     },
     {
       "id": "kor-divisao-guerra-rhee",
       "inicio": "1945",
       "fim": "1961",
-      "rotulo": "Divisão, a Guerra da Coreia e a Primeira República",
-      "regime": "governo militar americano, depois república presidencialista autoritária sob Syngman Rhee",
-      "textoMdx": "A ocupação militar americana no sul estabelece a República da Coreia em agosto de 1948, sob a presidência de Syngman Rhee, enquanto o norte soviético estabelece governo comunista rival sob Kim Il-sung — cada governo reivindicaria legitimidade sobre toda a península, disputa que jamais seria resolvida formalmente.\n\nA invasão norte-coreana de junho de 1950 deflagra a Guerra da Coreia, conflito que mataria entre dois e três milhões de pessoas, majoritariamente civis, antes do armistício de 1953 restaurar fronteira próxima ao paralelo 38 original — nenhum tratado de paz jamais seria assinado, deixando as duas Coreias tecnicamente em estado de guerra até os dias de hoje.\n\nO governo de Rhee, cada vez mais autoritário e marcado por fraude eleitoral, seria derrubado pelo levante estudantil da Revolução de Abril, em 1960, forçando sua renúncia e exílio.",
+      "rotulo": "Divisão, guerra e a Primeira República",
+      "regime": "governo militar americano, depois república presidencialista sob Syngman Rhee",
+      "textoMdx": "O governo militar americano administrou o sul por três anos e cometeu o erro que definiu sua impopularidade: **manteve nos cargos a burocracia e a polícia formadas pelo regime colonial japonês**, por serem os quadros treinados disponíveis. Comitês populares que haviam se organizado na expectativa de autogoverno foram dissolvidos. Na ilha de Jeju, um levante em 1948 foi reprimido por anos com dezenas de milhares de mortos, episódio que só teve apuração oficial no país meio século depois.\n\nA República da Coreia foi proclamada em agosto de 1948 sob Syngman Rhee; o norte respondeu em setembro com Kim Il-sung. Os dois Estados reivindicavam a península inteira.\n\nA invasão do norte em 25 de junho de 1950 tomou Seul em três dias e empurrou o sul para um perímetro em torno de Busan. O desembarque em Incheon inverteu a guerra em setembro, as forças da ONU avançaram até a fronteira chinesa — e a entrada da China em novembro inverteu de novo. **Seul mudou de mãos quatro vezes.** A partir de meados de 1951 a linha praticamente parou onde havia começado, e os dois anos seguintes foram de combate por colinas e de negociação travada, sobretudo pela questão dos prisioneiros que não queriam voltar.\n\nEntre dois e três milhões de pessoas morreram, a maioria civis. O bombardeio aéreo destruiu a quase totalidade das cidades do norte e boa parte das do sul. O armistício assinado em Panmunjom em julho de 1953 **não é um tratado de paz, e nenhum foi assinado desde então** — as duas Coreias seguem tecnicamente em guerra, separadas por uma faixa desmilitarizada de quatro quilômetros que é uma das fronteiras mais fortificadas do mundo.\n\nRhee governou o pós-guerra com emendas constitucionais feitas à medida e eleições fraudadas. A fraude de março de 1960 foi grosseira demais; protestos estudantis derrubaram o governo em abril, depois de a polícia matar manifestantes, e Rhee saiu para o exílio no Havaí. A república parlamentar que o sucedeu durou treze meses.",
       "fontes": [
         "bruce-cumings-coreia",
         "acordo-armisticio-coreano-1953"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Max_Desfor_-_Flight_of_Refugees_Across_Wrecked_Bridge_in_Korea.jpg/1920px-Max_Desfor_-_Flight_of_Refugees_Across_Wrecked_Bridge_in_Korea.jpg",
+        "alt": "Fotografia de 1950 de centenas de refugiados escalando as vigas retorcidas de uma ponte ferroviária destruída sobre um rio largo, carregando trouxas nas costas.",
+        "credito": "Max Desfor / Associated Press",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:Max_Desfor_-_Flight_of_Refugees_Across_Wrecked_Bridge_in_Korea.jpg",
+        "legenda": "Refugiados atravessando a ponte destruída sobre o rio Taedong, fugindo de Pyongyang em 4 de dezembro de 1950, com a entrada da China na guerra. A fotografia de Max Desfor ganhou o Pulitzer no ano seguinte."
+      }
     },
     {
       "id": "kor-park-chung-hee-milagre-han",
       "inicio": "1961",
       "fim": "1987",
-      "rotulo": "Park Chung-hee, o Milagre do Rio Han e a democratização",
-      "regime": "regimes militares autoritários orientados ao desenvolvimento econômico, encerrados por movimento democrático popular",
-      "textoMdx": "O general Park Chung-hee toma o poder em golpe militar em 1961, conduzindo ao longo de quase duas décadas transformação econômica extraordinária conhecida como \"Milagre do Rio Han\" — industrialização estatal acelerada que transformaria a Coreia do Sul de uma das nações mais pobres do mundo em potência industrial exportadora, ao custo de repressão política severa e restrição de liberdades civis.\n\nO assassinato de Park por seu próprio chefe de inteligência, em 1979, é seguido por novo golpe militar liderado por Chun Doo-hwan — o Massacre de Gwangju, de maio de 1980, veria forças militares matarem centenas de manifestantes pró-democracia na cidade de Gwangju, episódio de trauma nacional profundo que se tornaria símbolo central da luta democrática sul-coreana.\n\nO Movimento Democrático de Junho de 1987, mobilização popular massiva, força finalmente eleições presidenciais diretas e a transição para democracia multipartidária plena — encerrando quase três décadas ininterruptas de governo militar autoritário.",
+      "rotulo": "Ditadura militar e o Milagre do Rio Han",
+      "regime": "regimes militares orientados ao desenvolvimento industrial dirigido pelo Estado",
+      "textoMdx": "Park Chung-hee tomou o poder em 16 de maio de 1961 e governou dezoito anos. A Coreia do Sul de 1961 era mais pobre que a maior parte da África subsaariana; a de 1979 exportava navios, aço e automóveis. **A transformação foi dirigida pelo Estado, não pelo mercado**: planos quinquenais, crédito estatal barato dirigido a conglomerados familiares escolhidos — os *chaebol* —, metas de exportação tratadas como ordem militar, e proteção do mercado interno.\n\nO capital inicial veio de duas fontes impopulares. A normalização de relações com o Japão, em 1965, trouxe cerca de oitocentos milhões de dólares em concessões e reparações, e provocou os maiores protestos até então — **o acordo declarou resolvidas as reivindicações da era colonial, cláusula que está no centro das disputas judiciais entre os dois países até hoje.** A segunda fonte foi o Vietnã: mais de trezentos mil soldados sul-coreanos serviram lá, pagos em dólares americanos que financiaram a construção de estradas e siderúrgicas.\n\nO crescimento não comprou liberdade. A constituição Yushin, de 1972, acabou com a eleição direta do presidente e removeu limite de mandatos, formalizando a ditadura pessoal. A agência central de inteligência prendia e torturava opositores. Em outubro de 1979, **Park foi morto a tiros pelo próprio chefe da inteligência**, num jantar.\n\nA abertura durou dois meses. Chun Doo-hwan tomou o poder em dezembro de 1979 e estendeu a lei marcial. Em maio de 1980, na cidade de Gwangju, a repressão a protestos estudantis por tropas paraquedistas provocou uma revolta que expulsou o exército e manteve a cidade em autogoverno por cinco dias, antes da retomada militar. A contagem oficial da época falava em cerca de duas centenas de mortos; levantamentos posteriores e as famílias sustentam número consideravelmente maior, e a divergência nunca foi fechada.\n\nO fim veio em 1987. A morte sob tortura do estudante Park Jong-chul, em janeiro, foi encoberta e a farsa exposta; em abril Chun anunciou que manteria a eleição indireta. O que se seguiu foi a Luta de Junho, com participação de classe média urbana em escala inédita. Em 29 de junho o governo cedeu à eleição direta.",
       "fontes": [
         "bruce-cumings-coreia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/5.16_Coup_Park_Chung-hee.jpg/1920px-5.16_Coup_Park_Chung-hee.jpg",
+        "alt": "Fotografia de 16 de maio de 1961 mostrando Park Chung-hee de óculos escuros e uniforme militar, cercado por oficiais armados numa rua de Seul.",
+        "credito": "Autor não identificado",
+        "licenca": "Domínio público",
+        "origem": "https://commons.wikimedia.org/wiki/File:5.16_Coup_Park_Chung-hee.jpg",
+        "legenda": "Park Chung-hee em Seul no dia do golpe, 16 de maio de 1961. O general de óculos escuros governaria mais tempo que qualquer outro chefe de Estado sul-coreano e morreria assassinado no cargo por seu próprio chefe de inteligência."
+      }
     },
     {
       "id": "kor-democracia-atual",
       "inicio": "1987",
-      "rotulo": "Democracia consolidada e a Coreia do Sul contemporânea",
-      "regime": "república democrática multipartidária, com presidencialismo forte",
-      "textoMdx": "A Coreia do Sul consolida democracia multipartidária estável a partir de 1987, sobrevivendo inclusive a grave crise financeira asiática de 1997, que exigiria resgate do Fundo Monetário Internacional e reformas econômicas estruturais dolorosas mas eventualmente bem-sucedidas.\n\nO país se tornaria, nas décadas seguintes, potência cultural global através da chamada \"onda coreana\" — K-pop, cinema e séries de streaming coreanos conquistariam audiências mundiais, ao lado de conglomerados industriais como Samsung e Hyundai que se tornariam players globais de primeira linha.\n\nA democracia sul-coreana, apesar dessa maturidade institucional aparente, revelaria fragilidades notáveis nos anos recentes — o impeachment da presidente Park Geun-hye em 2017, por escândalo de corrupção, e sobretudo a tentativa chocante do presidente Yoon Suk-yeol de impor lei marcial em dezembro de 2024, rapidamente revertida por resistência parlamentar e popular e seguida por seu próprio impeachment, testemunhariam tanto a persistência de tensões institucionais profundas quanto a resiliência das instituições democráticas construídas desde 1987.",
+      "rotulo": "A Sexta República",
+      "regime": "república presidencialista democrática, com mandato único de cinco anos",
+      "textoMdx": "A constituição de 1987 fixou eleição direta e **mandato presidencial único de cinco anos, sem reeleição** — desenho feito por quem acabara de derrubar dois presidentes que não saíam. A primeira eleição sob ela foi ganha por Roh Tae-woo, aliado de Chun, porque a oposição se dividiu em duas candidaturas. A alternância real veio em 1993, e em 1996 Chun e Roh foram condenados por sedição e corrupção pelos tribunais do país que governaram.\n\nA crise financeira asiática de 1997 atingiu a Coreia com força e ficou na memória nacional como \"a crise do FMI\": o resgate de cerca de cinquenta e oito bilhões de dólares, o maior da época, veio com exigência de reestruturação dos chaebol e abertura financeira. Houve campanha popular de doação de ouro para o Tesouro. A economia voltou a crescer em dois anos.\n\nO que se seguiu foi uma reconversão industrial pouco comum: de estaleiros e aço para semicondutores, telas, baterias e automóveis, e depois para exportação cultural. **A \"onda coreana\" saiu de política deliberada de fomento**, e chegou onde nenhum plano previa — Oscar de melhor filme em 2020 para uma produção falada em coreano, e séries e grupos musicais com audiência global.\n\nO custo apareceu na demografia. A Coreia do Sul tem **a menor taxa de fecundidade do mundo**, em torno de 0,7 filho por mulher, e envelhece mais rápido que qualquer país já envelheceu. Jornada longa, custo de moradia em Seul e despesa privada com educação são as explicações que as próprias pesquisas oficiais apontam.\n\nA democracia foi testada duas vezes e as duas vezes segurou. Em 2016 e 2017, meses de protestos com velas levaram ao impeachment e à prisão da presidente Park Geun-hye — filha de Park Chung-hee — por corrupção. Em 3 de dezembro de 2024, o presidente Yoon Suk-yeol decretou lei marcial em rede nacional; **parlamentares pularam cercas para entrar no plenário e revogaram o decreto em cerca de duas horas e meia**, e ele foi afastado em seguida. Trinta e sete anos depois de 1987, a resposta ao decreto veio das instituições e da rua ao mesmo tempo.",
       "fontes": [
         "bruce-cumings-coreia",
         "don-oberdorfer-duas-coreias"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/%EA%B3%A0_%EC%9D%B4%ED%95%9C%EC%97%B4_%EC%B6%94%EB%AA%A8_%EA%B5%B0%EC%A4%91.jpg/1920px-%EA%B3%A0_%EC%9D%B4%ED%95%9C%EC%97%B4_%EC%B6%94%EB%AA%A8_%EA%B5%B0%EC%A4%91.jpg",
+        "alt": "Fotografia aérea de 1987 mostrando uma praça e avenidas de Seul completamente tomadas por uma multidão de centenas de milhares de pessoas.",
+        "credito": "Prefeitura Metropolitana de Seul — Arquivo Histórico de Seul",
+        "licenca": "KOGL Type 1",
+        "origem": "https://commons.wikimedia.org/wiki/File:%EA%B3%A0_%EC%9D%B4%ED%95%9C%EC%97%B4_%EC%B6%94%EB%AA%A8_%EA%B5%B0%EC%A4%91.jpg",
+        "legenda": "A praça em frente à prefeitura de Seul em 9 de julho de 1987, no funeral do estudante Lee Han-yeol, morto por uma bomba de gás lacrimogêneo disparada à queima-roupa. Dez dias antes, o governo havia cedido à eleição direta."
+      }
     }
   ]
 }
