@@ -4859,5 +4859,20 @@
     "publicacao": "Governo do Zimbábue",
     "data": "1987-12-22",
     "citacao": "Fundiu a ZAPU de Joshua Nkomo na ZANU-PF, encerrando a campanha do Gukurahundi e instaurando na prática um Estado de partido único. Nkomo tornou-se vice-presidente."
+  },
+  {
+    "id": "guardian-mortes-migrantes-catar-2021",
+    "tipo": "reportagem",
+    "titulo": "Revealed: 6,500 migrant workers have died in Qatar since World Cup awarded",
+    "publicacao": "The Guardian",
+    "data": "2021-02-23",
+    "citacao": "O levantamento mais citado sobre mortes de migrantes no Catar. Conta mortes por QUALQUER causa, em qualquer emprego, de trabalhadores de Índia, Bangladesh, Paquistão, Nepal e Sri Lanka entre 2010 e 2020 — não é uma contagem de mortes nas obras da Copa, e a própria reportagem não faz essa atribuição."
+  },
+  {
+    "id": "acled-conflitos-armados",
+    "tipo": "dataset",
+    "titulo": "Armed Conflict Location & Event Data (ACLED)",
+    "publicacao": "ACLED",
+    "citacao": "Base de dados de eventos de violência política com contagem de mortes por evento datado e localizado. É a origem da maior parte das contagens de mortes EM COMBATE citadas para guerras em curso, que são sempre menores que os totais que incluem mortes indiretas por fome e colapso de serviços."
   }
 ]

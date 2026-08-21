@@ -7,6 +7,11 @@ import {
   coberturaDeNotas,
   coberturaDeImagens,
 } from "../lib/conteudo/integridade";
+import {
+  coberturaDeEstilo,
+  TETO_FUTURO_DO_PRETERITO,
+  TETO_AVALIATIVO,
+} from "../lib/conteudo/estilo";
 import { FATIAS } from "../lib/geo/fatias";
 import { carregarMundo, conferirCodigosDePais } from "../lib/geo/mundo";
 import { conferirFatiasLocais, lerManifesto } from "./fatias-locais";
@@ -150,6 +155,43 @@ async function main() {
    * ilustrar e parou, e nada na tela denuncia isso até um leitor abrir
    * justamente o período que ficou sem.
    */
+  /*
+   * A quarta dívida, e a única que mede REGISTRO em vez de peça faltando.
+   *
+   * Nasceu de o autor olhar os 157 dossiês do lote e dizer que ficaram
+   * "genéricos". A diferença contra os nove escritos à mão é contável: 15,0
+   * contra 3,0 verbos em futuro-do-pretérito por mil palavras, e 1,9 contra
+   * 0,2 adjetivos avaliativos. Ver `lib/conteudo/estilo.ts`.
+   *
+   * Não reprova, pelo mesmo motivo das outras três: 143 países estão acima do
+   * teto, e travar o build só impediria qualquer publicação. A lista sai
+   * ordenada do pior para o melhor porque essa é a fila de reescrita — o pior
+   * primeiro é onde a mesma hora de trabalho muda mais a leitura.
+   */
+  const est = coberturaDeEstilo(acervo);
+  if (est.fora.length === 0) {
+    console.log(
+      `✓ os ${est.medidos.length} países medidos estão dentro dos tetos de registro`
+    );
+  } else {
+    console.log(
+      `\n⚠ registro da prosa: ${est.medidos.length - est.fora.length}/${est.medidos.length} ` +
+        `países dentro dos tetos (≤${TETO_FUTURO_DO_PRETERITO} futuro-do-pretérito ` +
+        `e ≤${TETO_AVALIATIVO} avaliativo, por mil palavras)`
+    );
+    console.log("  fila de reescrita, do pior para o melhor:");
+    for (const p of est.fora.slice(0, 15)) {
+      console.log(
+        `  · ${p.nome} (${p.iso}) — ${p.futuroDoPreterito.toFixed(1)} / ` +
+          `${p.avaliativo.toFixed(1)} em ${p.palavras} palavras`
+      );
+    }
+    if (est.fora.length > 15) {
+      console.log(`  · … e outros ${est.fora.length - 15}`);
+    }
+    console.log("");
+  }
+
   const img = coberturaDeImagens(acervo);
   if (img.pelaMetade.length > 0) {
     console.log(
