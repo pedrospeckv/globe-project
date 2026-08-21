@@ -138,6 +138,7 @@ describe("integridade cruzando arquivos", () => {
     eleicoes: [],
     notas: [],
     ilhas: [],
+  nacoes: [],
   };
 
   it("acusa país que não está no atlas", () => {
@@ -196,6 +197,7 @@ describe("o episódio no espaço de nomes das ligações", () => {
       eleicoes: [],
       notas: [],
       ilhas: [],
+  nacoes: [],
     });
     expect(alvos["teste"]).toEqual({
       id: "teste",
@@ -226,6 +228,7 @@ describe("o episódio no espaço de nomes das ligações", () => {
       eleicoes: [],
       notas: [],
       ilhas: [],
+  nacoes: [],
     });
     expect(erros.some((er) => er.includes("lugar-nenhum"))).toBe(true);
   });

@@ -87,7 +87,8 @@ async function main() {
       `${acervo.eventos.length} eventos, ${acervo.episodios.length} episódios, ` +
       `${acervo.eleicoes.length} eleições, ` +
       `${acervo.viagens.length} viagens, ` +
-      `${acervo.indicadores.length} indicadores, ${acervo.ilhas.length} ilhas, ${acervo.fontes.length} fontes`
+      `${acervo.indicadores.length} indicadores, ${acervo.ilhas.length} ilhas, ` +
+      `${acervo.nacoes.length} nações, ${acervo.fontes.length} fontes`
   );
   /*
    * A lista sai por extenso, e não só a contagem: nenhum programa sabe se o

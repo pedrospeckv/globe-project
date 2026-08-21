@@ -27,13 +27,13 @@
         {
           "nome": "Reino da Inglaterra",
           "regime": "monarquia feudal sob dinastias normanda e Plantageneta",
-          "textoMdx": "O Estado dominante da ilha em população e receita, e o único dos três a projetar poder para fora dela. Conquistou os principados galeses entre 1277 e 1283, organizando-os em condados pelo Estatuto de Rhuddlan; tentou o mesmo com a Escócia a partir de 1296 e falhou. Ver [[pais-de-gales|o episódio sobre Gales]].",
+          "textoMdx": "O Estado dominante da ilha em população e receita, e o único dos três a projetar poder para fora dela. Conquistou os principados galeses entre 1277 e 1283, organizando-os em condados pelo Estatuto de Rhuddlan; tentou o mesmo com a Escócia a partir de 1296 e falhou. Ver [[pais-de-gales|Gales]].",
           "fontes": []
         },
         {
           "nome": "Reino da Escócia",
           "regime": "monarquia própria, com direito, igreja e parlamento distintos dos ingleses",
-          "textoMdx": "Reino soberano desde meados do século IX, com moeda, parlamento e sistema jurídico próprios. Resistiu à conquista inglesa nas Guerras de Independência e manteve por séculos a *Auld Alliance* com a França como contrapeso diplomático. Ver [[escocia|o episódio sobre a Escócia]].",
+          "textoMdx": "Reino soberano desde meados do século IX, com moeda, parlamento e sistema jurídico próprios. Resistiu à conquista inglesa nas Guerras de Independência e manteve por séculos a *Auld Alliance* com a França como contrapeso diplomático. Ver [[escocia|a Escócia]].",
           "fontes": [
             "michael-lynch-escocia"
           ]
@@ -107,7 +107,7 @@
         {
           "nome": "Reino da Escócia",
           "regime": "monarquia com parlamento próprio, em Edimburgo, e igreja presbiteriana estabelecida",
-          "textoMdx": "Manteve parlamento, direito e igreja próprios até 1707, e chegou a fazer guerra contra a Inglaterra sob o mesmo monarca. A tentativa de colônia própria em Darién, entre 1698 e 1700, consumiu boa parte do capital disponível no país e pesou na negociação da União. Ver [[escocia|o episódio sobre a Escócia]].",
+          "textoMdx": "Manteve parlamento, direito e igreja próprios até 1707, e chegou a fazer guerra contra a Inglaterra sob o mesmo monarca. A tentativa de colônia própria em Darién, entre 1698 e 1700, consumiu boa parte do capital disponível no país e pesou na negociação da União. Ver [[escocia|a Escócia]].",
           "fontes": [
             "tom-devine-escocia"
           ]

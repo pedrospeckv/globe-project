@@ -6,6 +6,7 @@ export type TipoAlvo =
   | "figura"
   | "evento"
   | "episodio"
+  | "nacao"
   | "eleicao"
   | "viagem"
   | "nota";
@@ -97,6 +98,19 @@ export function indexarAlvos(acervo: Acervo): Alvos {
     };
   }
 
+  // A nação tem página própria, e é ela que `[[escocia]]` deve alcançar: de lá
+  // se chega ao episódio, e não o contrário. Foi por isso que os episódios das
+  // duas ganharam id descritivo — num Record plano, ids iguais se sobrescrevem
+  // em silêncio, e quem perdesse a disputa viraria link para a página errada.
+  for (const nacao of acervo.nacoes) {
+    alvos[nacao.id] = {
+      id: nacao.id,
+      rotulo: nacao.nome,
+      href: `/nacao/${nacao.id}`,
+      tipo: "nacao",
+    };
+  }
+
   // A eleição também tem página própria.
   for (const eleicao of acervo.eleicoes) {
     alvos[eleicao.id] = {
@@ -165,6 +179,20 @@ export function resolverLigacoes(
 /** Todo texto do acervo que pode conter ligação, com sua procedência. */
 function textosDoAcervo(acervo: Acervo): { onde: string; texto?: string }[] {
   const saida: { onde: string; texto?: string }[] = [];
+
+  for (const nacao of acervo.nacoes) {
+    saida.push({ onde: `nação "${nacao.id}"`, texto: nacao.abertura });
+    saida.push({
+      onde: `reconhecimento de "${nacao.id}"`,
+      texto: nacao.reconhecimento.textoMdx,
+    });
+    if (nacao.legislatura?.nota) {
+      saida.push({
+        onde: `legislatura de "${nacao.id}"`,
+        texto: nacao.legislatura.nota,
+      });
+    }
+  }
 
   for (const pais of acervo.paises) {
     for (const periodo of pais.periodos) {

@@ -33,6 +33,14 @@ export interface IlhaMarcada {
   disputada: boolean;
 }
 
+export interface NacaoMarcada {
+  id: string;
+  nome: string;
+  ponto: [number, number];
+  /** Como a nação se chama na própria língua, para a etiqueta do marcador. */
+  outroNome: string | null;
+}
+
 /**
  * O ano em que a base cartográfica moderna é exata.
  *
@@ -106,6 +114,15 @@ interface Props {
    * e nesta escala um polígono fiel seria invisível e um visível seria falso.
    */
   ilhas?: readonly IlhaMarcada[];
+  /**
+   * Nações sem contorno próprio na base — ver `lib/conteudo/nacao.ts`.
+   *
+   * Marcador, e por um motivo diferente do das ilhas: ali a forma existe e é
+   * pequena demais para caber; aqui a forma NÃO EXISTE na base, que desenha o
+   * Reino Unido como feição única. Traçar a linha à mão seria inventá-la, e é
+   * por isso que este marcador não ganha polígono com o zoom como o da ilha.
+   */
+  nacoes?: readonly NacaoMarcada[];
 }
 
 /**
@@ -132,6 +149,7 @@ export function GeoOverlay({
   disputados = [],
   disputasMarcadas = [],
   ilhas = [],
+  nacoes = [],
 }: Props) {
   const projecao = useMemo(
     () => criarProjecao({ largura, altura, alpha, rotacao, zoom, deslocamento }),
@@ -414,6 +432,47 @@ export function GeoOverlay({
                   </circle>
                 </>
               )}
+            </g>
+          );
+        })}
+      </g>
+
+      <g data-camada="nacoes">
+        {nacoes.map((n) => {
+          if (!pontoVisivel(n.ponto, { alpha, rotacao })) return null;
+          const p = projecao(n.ponto);
+          if (!p || !Number.isFinite(p[0]) || !Number.isFinite(p[1])) return null;
+
+          /*
+           * Marca própria — nem o círculo da ilha, nem o losango da disputa.
+           *
+           * As duas já significam coisas: "território que a base não desenha por
+           * ser pequeno" e "soberania contestada". A nação não é nenhuma das
+           * duas, e reusar a marca faria o leitor procurar uma disputa que não
+           * existe: nem o Reino Unido nem a Escócia discordam de que a Escócia
+           * existe. O mastro é a mesma figura do ícone da ala, para quem vem da
+           * página reconhecer.
+           */
+          const rotulo = n.outroNome
+            ? `${n.nome} (${n.outroNome}) — nação sem contorno próprio na base`
+            : `${n.nome} — nação sem contorno próprio na base`;
+
+          return (
+            <g
+              key={n.id}
+              transform={`translate(${p[0].toFixed(3)},${p[1].toFixed(3)})`}
+            >
+              {/* Alvo de mouse maior que a marca, como no marcador da ilha. */}
+              <circle r={8} fill="transparent" />
+              <path
+                d="M -0.5 4 L -0.5 -5 L 4.5 -5 L 2.5 -2.75 L 4.5 -0.5 L -0.5 -0.5"
+                fill="none"
+                stroke="#c4b5fd"
+                strokeWidth={1.2}
+                strokeLinejoin="round"
+              />
+              <path d="M -3.5 4.5 L 3.5 4.5" stroke="#8b5cf6" strokeWidth={1.2} />
+              <title>{rotulo}</title>
             </g>
           );
         })}

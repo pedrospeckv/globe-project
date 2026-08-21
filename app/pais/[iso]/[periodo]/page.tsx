@@ -7,6 +7,7 @@ import { Prosa } from "@/components/conteudo/Prosa";
 import { FotoHistorica } from "@/components/conteudo/FotoHistorica";
 import { eventosDoPeriodo } from "@/lib/conteudo/evento";
 import { episodiosDoPeriodo, imagensDe } from "@/lib/conteudo/episodio";
+import { nacoesDoPeriodo } from "@/lib/conteudo/nacao";
 import { figurasDoPeriodo } from "@/lib/conteudo/figura";
 import { vizinhosDe } from "@/lib/conteudo/pais";
 import { notasDoAlvo } from "@/lib/conteudo/nota";
@@ -54,6 +55,7 @@ export default async function PeriodoPage({
   const figuras = figurasDoPeriodo(acervo.figuras, iso, periodo);
   const notas = notasDoAlvo(acervo.notas, periodo.id);
   const episodios = episodiosDoPeriodo(acervo.episodios, periodo.id);
+  const nacoes = nacoesDoPeriodo(acervo.nacoes, periodo.id);
   const { anterior, proximo } = vizinhosDe(pais, periodo.id);
 
   /*
@@ -164,6 +166,44 @@ export default async function PeriodoPage({
                 ))}
               </ol>
             </div>
+          </section>
+        )}
+
+        {nacoes.length > 0 && (
+          /*
+            Distinta de "Estados neste território", logo abaixo: aquela lista
+            quem tinha soberania e some quando a divisão acaba; esta lista quem
+            é nação DENTRO do Estado, e por isso atravessa a União de 1707 sem
+            se apagar. É a diferença entre a Escócia de 1600 e a de 1800.
+          */
+          <section className="mb-16 md:mb-20">
+            <div className="mb-6 border-b border-zinc-800 pb-4">
+              <h2 className="font-serif text-3xl tracking-tight text-zinc-50 md:text-4xl">
+                Nações neste Estado
+              </h2>
+              <p className="mt-1 font-mono text-xs tracking-widest text-amber-500/80">
+                SEM SOBERANIA PRÓPRIA, COM IDENTIDADE RECONHECIDA
+              </p>
+            </div>
+            <ul className="space-y-3">
+              {nacoes.map((n) => (
+                <li key={n.id}>
+                  <Link
+                    href={`/nacao/${n.id}`}
+                    className="group block rounded-lg border border-zinc-800 bg-zinc-900/60 p-5 transition-colors hover:border-amber-500/30"
+                  >
+                    <div className="flex flex-wrap items-baseline justify-between gap-2">
+                      <span className="font-serif text-xl text-zinc-50 group-hover:text-amber-500/90">
+                        {n.nome}
+                      </span>
+                      <span className="shrink-0 font-mono text-[10px] tracking-wider text-zinc-600">
+                        {n.outrosNomes.join(" · ")}
+                      </span>
+                    </div>
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
 

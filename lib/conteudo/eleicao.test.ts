@@ -56,6 +56,7 @@ const vazio = {
   eleicoes: [],
   notas: [],
   ilhas: [],
+  nacoes: [],
 };
 
 describe("schema da eleição", () => {

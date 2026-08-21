@@ -5,7 +5,11 @@ import Link from "next/link";
 import gsap from "gsap";
 import { geoPath } from "d3-geo";
 import { GlobeCanvas } from "./GlobeCanvas";
-import { GeoOverlay, type IlhaMarcada } from "./GeoOverlay";
+import {
+  GeoOverlay,
+  type IlhaMarcada,
+  type NacaoMarcada,
+} from "./GeoOverlay";
 import { RotulosCanvas } from "./RotulosCanvas";
 import { TimeScrubber } from "./TimeScrubber";
 import { prepararMundo, separarPaises, type PaisFeature } from "@/lib/geo/mundo";
@@ -51,6 +55,7 @@ import {
   soberaniaEm,
   type Ilha,
 } from "@/lib/conteudo/ilha";
+import type { Nacao } from "@/lib/conteudo/nacao";
 
 /** Tamanho do globo. Fixo: globo maior não mostra mais mundo, só ocupa mais tela. */
 const LARGURA_GLOBO = 900;
@@ -197,6 +202,7 @@ interface Props {
   viagens: Viagem[];
   eventos: Evento[];
   ilhas?: Ilha[];
+  nacoes?: Nacao[];
   fontes?: Fonte[];
 }
 
@@ -210,6 +216,7 @@ export function Atlas({
   viagens,
   eventos,
   ilhas = [],
+  nacoes = [],
   fontes = [],
 }: Props) {
   const [alpha, setAlpha] = useState(0);
@@ -512,6 +519,27 @@ export function Atlas({
           };
         }),
     [ilhas, tempo]
+  );
+
+  /*
+   * A nação não tem filtro de tempo, ao contrário da ilha.
+   *
+   * `conhecidaEm` existe porque marcar Fernando de Noronha em 1400 afirmaria
+   * que alguém sabia dela. Aqui a pergunta não se põe do mesmo jeito: o ponto
+   * marca uma nação que existe hoje, e a data em que ela passou a ser
+   * reconhecida está na página, com o instrumento. Piscar o marcador por ano
+   * exigiria uma resposta que o atlas não tem — "desde quando a Escócia é uma
+   * nação" não tem data, e inventar uma seria pior que não marcar.
+   */
+  const nacoesMarcadas = useMemo<NacaoMarcada[]>(
+    () =>
+      nacoes.map((n) => ({
+        id: n.id,
+        nome: n.nome,
+        ponto: n.ponto,
+        outroNome: n.outrosNomes[0] ?? null,
+      })),
+    [nacoes]
   );
 
   /**
@@ -890,6 +918,7 @@ export function Atlas({
           disputados={disputados}
           disputasMarcadas={disputasMarcadas}
           ilhas={ilhasMarcadas}
+          nacoes={nacoesMarcadas}
         />
 
         {/*

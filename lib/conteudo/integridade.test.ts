@@ -55,8 +55,78 @@ function acervoBase(): Acervo {
     eleicoes: [],
     notas: [],
     ilhas: [],
+    nacoes: [],
   };
 }
+
+/*
+ * A colisão entre tipos foi encontrada ao montar a nação, não por revisão: a
+ * Escócia ia entrar com o mesmo id do episódio dela, e como `indexarAlvos` põe
+ * tudo num Record plano, um teria apagado o outro sem erro nenhum. O sintoma
+ * seria um `[[escocia]]` levando à página errada — e nada acusaria, porque as
+ * duas entradas são válidas em separado.
+ */
+describe("id repetido entre tipos", () => {
+  function comNacao(): Acervo {
+    const a = acervoBase();
+    a.episodios = [
+      {
+        id: "escocia",
+        titulo: "Episódio",
+        inicio: "1000",
+        paises: ["BRA"],
+        periodos: [],
+        abertura: "Abertura.",
+        blocos: [
+          { id: "um", data: "1000", titulo: "Um", textoMdx: "Um." },
+          { id: "dois", data: "1001", titulo: "Dois", textoMdx: "Dois." },
+        ],
+        fontes: ["stf-hc-193726"],
+      },
+    ];
+    a.nacoes = [
+      {
+        id: "escocia",
+        nome: "Escócia",
+        outrosNomes: [],
+        anfitriao: "BRA",
+        ponto: [-4, 56],
+        reconhecimento: {
+          instrumento: "Lei",
+          data: "1998",
+          textoMdx: "Texto.",
+          fontes: ["stf-hc-193726"],
+        },
+        abertura: "Abertura.",
+        episodios: ["escocia"],
+        periodos: [],
+        fontes: [],
+      },
+    ];
+    return a;
+  }
+
+  it("ACUSA quando nação e episódio disputam o mesmo id", () => {
+    const erros = verificarIntegridade(comNacao());
+    expect(erros.join(" | ")).toContain('id "escocia"');
+    expect(erros.join(" | ")).toMatch(/episódio.*nação|nação.*episódio/);
+  });
+
+  it("aceita os dois quando o episódio tem id próprio", () => {
+    const a = comNacao();
+    a.episodios[0].id = "escocia-reino-e-uniao";
+    a.nacoes[0].episodios = ["escocia-reino-e-uniao"];
+    expect(verificarIntegridade(a)).toEqual([]);
+  });
+
+  it("ACUSA id de nação que colide com código de país", () => {
+    const a = comNacao();
+    a.episodios[0].id = "escocia-reino-e-uniao";
+    a.nacoes[0].episodios = ["escocia-reino-e-uniao"];
+    a.nacoes[0].id = "BRA";
+    expect(verificarIntegridade(a).join(" | ")).toContain('id "BRA"');
+  });
+});
 
 describe("verificarIntegridade", () => {
   it("não acusa nada quando tudo referencia corretamente", () => {

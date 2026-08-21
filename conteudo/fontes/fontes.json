@@ -5033,5 +5033,21 @@
     "publicacao": "Parlamento do Reino Unido",
     "data": "1998-07-31",
     "citacao": "Criou a Assembleia Nacional de Gales com poderes apenas delegados e sem competência legislativa primária, aprovada em referendo por margem de cerca de meio ponto percentual. A equiparação com o modelo escocês só veio por etapas, até a lei de 2017."
+  },
+  {
+    "id": "lei-de-gales-2017",
+    "tipo": "documento-oficial",
+    "titulo": "Wales Act 2017",
+    "publicacao": "Parlamento do Reino Unido",
+    "data": "2017-01-31",
+    "citacao": "Passou Gales ao modelo de poderes reservados, o mesmo dado à Escócia em 1998: a assembleia legisla sobre tudo que a lei não reservar expressamente a Westminster. É o ato que fecha, dezenove anos depois, a distância aberta entre as duas leis de 1998."
+  },
+  {
+    "id": "lei-do-senedd-2020",
+    "tipo": "documento-oficial",
+    "titulo": "Senedd and Elections (Wales) Act 2020",
+    "publicacao": "Parlamento galês",
+    "data": "2020-01-15",
+    "citacao": "Trocou o nome da Assembleia Nacional de Gales para Senedd Cymru, e o fez pela primeira vez com um nome galês oficial em igualdade com o inglês. Baixou também para dezesseis anos a idade de votar nas eleições galesas."
   }
 ]

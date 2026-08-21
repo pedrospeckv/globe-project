@@ -11,10 +11,12 @@ import {
   IconeEpisodios,
   IconeFiguras,
   IconeLivros,
+  IconeNacoes,
   IconePeriodos,
 } from "@/components/conteudo/IconesAla";
 import { eventosDoPais } from "@/lib/conteudo/evento";
 import { episodiosDoPais, imagensDe } from "@/lib/conteudo/episodio";
+import { nacoesDoPais, ROTULO_COMPETENCIA } from "@/lib/conteudo/nacao";
 import { eleicoesDoPais } from "@/lib/conteudo/eleicao";
 import { CabecalhoDeSecao } from "@/components/design/CabecalhoDeSecao";
 import {
@@ -79,6 +81,7 @@ export default async function PaisPage({
   const indicadores = acervo.indicadores.filter((i) => i.paisIso === iso);
   const eventos = eventosDoPais(acervo.eventos, iso);
   const episodios = episodiosDoPais(acervo.episodios, iso);
+  const nacoes = nacoesDoPais(acervo.nacoes, iso);
   const eleicoes = eleicoesDoPais(acervo.eleicoes, iso);
   /*
    * Uma disputa pode envolver mais de um país do atlas — a Caxemira aparece
@@ -130,6 +133,19 @@ export default async function PaisPage({
       href: figuras.length > 0 ? "#figuras" : "#periodos",
       contador: figuras.length > 0 ? `${figuras.length} →` : "nenhuma ainda",
     },
+    ...(nacoes.length > 0
+      ? [
+          {
+            chave: "nacoes",
+            Icone: IconeNacoes,
+            titulo: "Nações",
+            texto:
+              "Nações reconhecidas em lei pelo próprio Estado, sem código ISO nem contorno próprio no mapa.",
+            href: "#nacoes",
+            contador: `${nacoes.length} →`,
+          },
+        ]
+      : []),
     ...(episodios.length > 0
       ? [
           {
@@ -342,6 +358,54 @@ export default async function PaisPage({
             </div>
           </div>
         </section>
+
+        {nacoes.length > 0 && (
+          /*
+            Vem ANTES dos episódios porque a nação é entidade e o episódio é
+            recorte: quem chega ao dossiê do Reino Unido deve encontrar a
+            Escócia como coisa que existe, e só depois a narrativa dela. Foi
+            essa a inversão que motivou a entidade — enquanto as duas eram só
+            episódio, existiam apenas como assunto de um texto.
+          */
+          <section id="nacoes" className="scroll-mt-8">
+            <div className="mb-10 border-b border-zinc-800 pb-4">
+              <h2 className="font-serif text-3xl tracking-tight text-zinc-50 md:text-4xl">
+                Nações
+              </h2>
+              <p className="mt-1 font-mono text-xs tracking-widest text-amber-500/80">
+                RECONHECIDAS EM LEI, SEM CONTORNO PRÓPRIO NO MAPA
+              </p>
+            </div>
+
+            <ul className="grid gap-4 sm:grid-cols-2">
+              {nacoes.map((n) => (
+                <li key={n.id}>
+                  <Link
+                    href={`/nacao/${n.id}`}
+                    className="group flex h-full flex-col rounded-lg border border-zinc-800 bg-zinc-900/60 p-5 transition-colors hover:border-amber-500/30"
+                  >
+                    <span className="font-mono text-[10px] tracking-wider text-zinc-600">
+                      {n.outrosNomes.join(" · ")}
+                    </span>
+                    <span className="mt-1 font-serif text-xl text-zinc-50 group-hover:text-amber-500/90">
+                      {n.nome}
+                    </span>
+                    {n.legislatura && (
+                      <span className="mt-2 text-sm leading-relaxed text-zinc-400">
+                        {n.legislatura.nome}, desde{" "}
+                        {rotuloDeData(n.legislatura.desde)},{" "}
+                        {ROTULO_COMPETENCIA[n.legislatura.competencia]}.
+                      </span>
+                    )}
+                    <span className="mt-4 font-mono text-[10px] tracking-wider text-amber-500/70">
+                      {n.reconhecimento.instrumento.toUpperCase()} →
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {episodios.length > 0 && (
           /*

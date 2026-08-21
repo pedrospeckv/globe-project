@@ -52,6 +52,7 @@ describe("carregarAcervo", () => {
       eleicoes: [],
       notas: [],
       ilhas: [],
+  nacoes: [],
     });
   });
 });

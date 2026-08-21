@@ -73,3 +73,20 @@ export function IconeEleicoes({ className }: { className?: string }) {
     </svg>
   );
 }
+
+/**
+ * O mastro com a bandeira, e a linha do chão continuando dos dois lados.
+ *
+ * A bandeira sozinha diria "Estado", e é justamente isso que a nação não é
+ * aqui. O chão que atravessa o mastro sem se interromper é o desenho do que a
+ * ala contém: identidade que não corta o território de ninguém.
+ */
+export function IconeNacoes({ className }: { className?: string }) {
+  return (
+    <svg {...comum} className={className}>
+      <path d="M7 21V4" />
+      <path d="M7 4h9l-2 3.5L16 11H7" />
+      <path d="M3 21h18" />
+    </svg>
+  );
+}

@@ -1,0 +1,44 @@
+{
+  "id": "pais-de-gales",
+  "nome": "País de Gales",
+  "outrosNomes": [
+    "Cymru",
+    "Wales"
+  ],
+  "anfitriao": "GBR",
+  "ponto": [
+    -3.6,
+    52.4
+  ],
+  "abertura": "Conquistado entre 1277 e 1283, incorporado por lei em 1536, e a única das nações britânicas cuja distinção repousou por séculos não em instituições próprias — não as tinha — mas na língua. Gales atravessou quatrocentos anos sem direito, igreja nem parlamento separados, e seguiu galês porque seguiu falando galês. É isso que faz da política linguística o fio central do país, e não um capítulo à parte dele.",
+  "reconhecimento": {
+    "instrumento": "Government of Wales Act 1998",
+    "data": "1998-07-31",
+    "textoMdx": "O ato criou a Assembleia Nacional de Gales com **poderes apenas delegados**: ela recebia as competências que a lei listasse, uma a uma, e não podia legislar em matéria primária. O referendo que o autorizou, em setembro de 1997, passou por margem de cerca de meio ponto — 50,3% contra 49,7%, com metade do eleitorado em casa.\n\nA equiparação com o modelo escocês veio por etapas e demorou. O Wales Act 2017 passou Gales ao mesmo modelo de poderes reservados que a Escócia tinha desde o começo, e o Senedd and Elections (Wales) Act 2020 deu à casa um nome galês oficial, em igualdade com o inglês.\n\nDuas nações reconhecidas no mesmo ano, pelo mesmo governo, levaram dezenove anos para chegar ao mesmo grau de autogoverno. O atlas guarda essa distância num campo próprio porque ela é o fato institucional mais informativo das duas entradas — e um \"tem parlamento\" as igualaria falsamente.",
+    "fontes": [
+      "lei-do-governo-de-gales-1998",
+      "lei-de-gales-2017",
+      "lei-do-senedd-2020"
+    ]
+  },
+  "legislatura": {
+    "nome": "Senedd Cymru — Parlamento Galês",
+    "desde": "1999-07-01",
+    "competencia": "primaria",
+    "nota": "Nasceu em 1999 como Assembleia Nacional, com poderes delegados e sem legislação primária. Só chegou ao modelo de poderes reservados pela lei de 2017, e ao nome atual pela de 2020."
+  },
+  "episodios": [
+    "gales-conquista-e-lingua"
+  ],
+  "periodos": [
+    "gb-tudor",
+    "gb-uniao-coroas",
+    "gb-gra-bretanha",
+    "gb-reino-unido-irlanda",
+    "gb-reino-unido-atual"
+  ],
+  "fontes": [
+    "john-davies-historia-de-gales",
+    "leis-em-gales-1535-1542"
+  ]
+}

@@ -36,6 +36,7 @@ export default async function Home() {
           viagens={acervo.viagens}
           eventos={acervo.eventos}
           ilhas={acervo.ilhas}
+          nacoes={acervo.nacoes}
           fontes={acervo.fontes}
         />
       </div>

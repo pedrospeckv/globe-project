@@ -6,6 +6,7 @@ import { Figura } from "./figura";
 import { Pais } from "./pais";
 import { Viagem } from "./viagem";
 import { Ilha } from "./ilha";
+import { Nacao } from "./nacao";
 import { Indicador } from "./indicador";
 import { Evento } from "./evento";
 import { Episodio } from "./episodio";
@@ -72,6 +73,7 @@ export async function carregarAcervo(raiz: string): Promise<Acervo> {
     eleicoes,
     notas,
     ilhas,
+    nacoes,
   ] = await Promise.all([
     lerJsonDoDiretorio(path.join(raiz, "fontes"), Fonte),
     lerJsonDoDiretorio(path.join(raiz, "paises"), Pais),
@@ -83,6 +85,7 @@ export async function carregarAcervo(raiz: string): Promise<Acervo> {
     lerJsonDoDiretorio(path.join(raiz, "eleicoes"), Eleicao),
     lerJsonDoDiretorio(path.join(raiz, "notas"), Nota),
     lerJsonDoDiretorio(path.join(raiz, "ilhas"), Ilha),
+    lerJsonDoDiretorio(path.join(raiz, "nacoes"), Nacao),
   ]);
   return {
     fontes,
@@ -95,5 +98,6 @@ export async function carregarAcervo(raiz: string): Promise<Acervo> {
     eleicoes,
     notas,
     ilhas,
+    nacoes,
   };
 }

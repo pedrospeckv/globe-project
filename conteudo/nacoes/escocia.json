@@ -1,0 +1,41 @@
+{
+  "id": "escocia",
+  "nome": "Escócia",
+  "outrosNomes": [
+    "Alba",
+    "Scotland"
+  ],
+  "anfitriao": "GBR",
+  "ponto": [
+    -4.2,
+    56.8
+  ],
+  "abertura": "Reino soberano por quase novecentos anos, e nação dentro de outro Estado desde 1707. A União não fundiu a Escócia à Inglaterra: os Atos daquele ano preservaram expressamente o direito escocês, os tribunais escoceses e a Igreja da Escócia. É por isso que três séculos de parlamento único não produziram um país só — o que voltou em 1999 foi a casa legislativa, e o resto nunca havia saído.",
+  "reconhecimento": {
+    "instrumento": "Scotland Act 1998",
+    "data": "1998-11-19",
+    "textoMdx": "O ato criou o Parlamento Escocês pelo modelo de **poderes reservados**: a casa legisla sobre tudo que a lei não reserve expressamente a Westminster. O que está escrito é a lista de reservas, não a lista de competências — e a diferença não é técnica, é a que separa autonomia concedida item a item de autonomia limitada por exceção.\n\nVeio de um referendo em setembro de 1997 que aprovou o parlamento por 74,3% e o poder de variar tributos por 63,5%, com 60,2% de comparecimento. Nenhuma das duas perguntas foi apertada.\n\nO que o ato **não** faz é criar a nação, e não finge fazer: as instituições que sustentam a distinção escocesa são anteriores a ele, e sobreviveram justamente por terem sido ressalvadas no tratado que fundiu os parlamentos. A disputa sobre independência é sobre soberania — a existência da nação nenhuma das partes contesta.",
+    "fontes": [
+      "lei-da-escocia-1998",
+      "atos-de-uniao-1707",
+      "tom-devine-escocia"
+    ]
+  },
+  "legislatura": {
+    "nome": "Parlamento Escocês — Pàrlamaid na h-Alba",
+    "desde": "1999-07-01",
+    "competencia": "primaria",
+    "nota": "Reunido pela primeira vez em 12 de maio de 1999; recebeu os poderes em 1º de julho. Modelo de poderes reservados desde o início."
+  },
+  "episodios": [
+    "escocia-reino-e-uniao"
+  ],
+  "periodos": [
+    "gb-gra-bretanha",
+    "gb-reino-unido-irlanda",
+    "gb-reino-unido-atual"
+  ],
+  "fontes": [
+    "michael-lynch-escocia"
+  ]
+}

@@ -8,6 +8,7 @@ import type { Episodio } from "./episodio";
 import type { Eleicao } from "./eleicao";
 import type { Nota } from "./nota";
 import type { Ilha } from "./ilha";
+import type { Nacao } from "./nacao";
 // `ligacoes` importa só o TIPO Acervo daqui, então o ciclo some na compilação.
 import { verificarLigacoes, indexarAlvos } from "./ligacoes";
 
@@ -22,6 +23,7 @@ export interface Acervo {
   eleicoes: Eleicao[];
   notas: Nota[];
   ilhas: Ilha[];
+  nacoes: Nacao[];
 }
 
 function duplicados(ids: string[]): string[] {
@@ -323,6 +325,79 @@ export function verificarIntegridade(acervo: Acervo): string[] {
       }
     }
   }
+
+  /*
+   * A nação carrega três referências que só se conferem cruzando arquivos: o
+   * país anfitrião, os períodos dele em que ela aparece, e o episódio que conta
+   * a história dela. A do episódio é a que mais importa — o schema exige a
+   * lista não vazia, mas um id errado ali deixaria a página sem narrativa
+   * nenhuma, que é justamente o verbete raso que a entidade existe para evitar.
+   */
+  for (const id of duplicados(acervo.nacoes.map((n) => n.id))) {
+    erros.push(`id de nação duplicado: ${id}`);
+  }
+  const idsEpisodio = new Set(acervo.episodios.map((e) => e.id));
+  for (const nacao of acervo.nacoes) {
+    const anfitriao = acervo.paises.find((p) => p.iso === nacao.anfitriao);
+    if (!anfitriao) {
+      erros.push(
+        `nação "${nacao.id}" cita país anfitrião inexistente: ${nacao.anfitriao}`
+      );
+    } else {
+      const idsPeriodo = new Set(anfitriao.periodos.map((p) => p.id));
+      for (const periodoId of nacao.periodos) {
+        if (!idsPeriodo.has(periodoId)) {
+          erros.push(
+            `nação "${nacao.id}" cita período inexistente em ${nacao.anfitriao}: ${periodoId}`
+          );
+        }
+      }
+    }
+    for (const episodioId of nacao.episodios) {
+      if (!idsEpisodio.has(episodioId)) {
+        erros.push(
+          `nação "${nacao.id}" cita episódio inexistente: ${episodioId}`
+        );
+      }
+    }
+    for (const fonteId of [...nacao.fontes, ...nacao.reconhecimento.fontes]) {
+      if (!idsFonte.has(fonteId)) {
+        erros.push(`nação "${nacao.id}" cita fonte inexistente: ${fonteId}`);
+      }
+    }
+  }
+
+  /*
+   * Id repetido ENTRE tipos, que é o defeito que a nação quase introduziu.
+   *
+   * `indexarAlvos` põe tudo num Record plano, e ali `escocia` a nação e
+   * `escocia` o episódio não convivem: o último a ser indexado apaga o
+   * primeiro, sem erro nenhum. O sintoma seria um `[[escocia]]` levando à
+   * página errada — e nada no build acusaria, porque as duas entradas são
+   * válidas em separado.
+   *
+   * A nota fica de fora de propósito: ela já cede o nome quando colide, e essa
+   * precedência é a regra escrita em `ligacoes.ts`, não um acidente.
+   */
+  const donoDoId = new Map<string, string>();
+  const reivindicar = (id: string, tipo: string) => {
+    const dono = donoDoId.get(id);
+    if (dono && dono !== tipo) {
+      erros.push(`id "${id}" é usado por ${dono} e por ${tipo} ao mesmo tempo`);
+    } else {
+      donoDoId.set(id, tipo);
+    }
+  };
+  for (const pais of acervo.paises) {
+    reivindicar(pais.iso, "país");
+    for (const periodo of pais.periodos) reivindicar(periodo.id, "período");
+  }
+  for (const f of acervo.figuras) reivindicar(f.id, "figura");
+  for (const e of acervo.eventos) reivindicar(e.id, "evento");
+  for (const e of acervo.episodios) reivindicar(e.id, "episódio");
+  for (const e of acervo.eleicoes) reivindicar(e.id, "eleição");
+  for (const v of acervo.viagens) reivindicar(v.id, "viagem");
+  for (const n of acervo.nacoes) reivindicar(n.id, "nação");
 
   erros.push(...verificarLigacoes(acervo));
 

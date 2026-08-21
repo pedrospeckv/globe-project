@@ -24,6 +24,7 @@ function acervoVazio(): Acervo {
     eleicoes: [],
     notas: [],
     ilhas: [],
+  nacoes: [],
   };
 }
 
