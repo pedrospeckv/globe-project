@@ -1,0 +1,39 @@
+{
+  "iso": "QAT",
+  "isoNumerico": "634",
+  "nome": "Catar",
+  "periodos": [
+    {
+      "id": "qat-emirado-al-thani-protetorado-britanico",
+      "inicio": "1868",
+      "fim": "1971",
+      "rotulo": "Emirado Al Thani sob proteção britânica",
+      "regime": "xecado sob a família Al Thani, protegido pela Grã-Bretanha contra reivindicações de suserania bareinita e otomana",
+      "textoMdx": "O tratado de 1868 entre o xeque Mohammed bin Thani e a Grã-Bretanha reconhece formalmente a distinção política do Catar em relação ao vizinho Bahrein, que havia reivindicado suserania sobre o território — marco fundacional da soberania catariana sob a família Al Thani, que governa o país ininterruptamente desde então.\n\n**Uma guarnição otomana ocupa brevemente partes do território a partir de 1871, retirando-se apenas em 1915 com a Primeira Guerra Mundial, quando o Catar assina tratado de proteção britânica formal em 1916.**\n\n**O petróleo, descoberto em 1939, tem exportação adiada pela Segunda Guerra Mundial, começando apenas em 1949 — riqueza ainda modesta que se tornaria imensa décadas depois, com a exploração das vastas reservas de gás natural do Campo Norte, compartilhado com o Irã.**",
+      "fontes": [
+        "allen-fromherz-catar"
+      ]
+    },
+    {
+      "id": "qat-desenvolvimento-gas-hamad",
+      "inicio": "1971",
+      "fim": "2013",
+      "rotulo": "Desenvolvimento do gás natural e a era de Hamad",
+      "regime": "emirado independente, transformado pela exploração das maiores reservas de gás natural do mundo",
+      "textoMdx": "A independência catariana, obtida em 1971 após optar por não integrar a federação dos Emirados Árabes Unidos, encontra país ainda modesto economicamente — transformação radical viria apenas nas décadas seguintes, com o desenvolvimento pleno do Campo Norte de gás natural, uma das maiores reservas do planeta.\n\n**O xeque Hamad bin Khalifa depõe o próprio pai em golpe palaciano incruento em 1995, acelerando desenvolvimento econômico e lançando, no ano seguinte, a rede de televisão Al Jazeera** — veículo que transformaria o Catar em potência de \"soft power\" regional muito além do que seu tamanho territorial sugeriria, ao dar voz a perspectivas frequentemente censuradas em outros países árabes.\n\n**A riqueza per capita catariana se tornaria, ao longo dos anos 2000, uma das mais altas do mundo, financiando política externa assertiva e independente que incluiria relações diplomáticas mantidas simultaneamente com Irã, Estados Unidos — que hospeda a maior base militar americana no Oriente Médio — e movimentos islamistas como a Irmandade Muçulmana e o Hamas.**",
+      "fontes": [
+        "allen-fromherz-catar"
+      ]
+    },
+    {
+      "id": "qat-era-tamim-bloqueio-mundial",
+      "inicio": "2013",
+      "rotulo": "Era de Tamim, o bloqueio do Golfo e o Mundial",
+      "regime": "emirado sob liderança de Tamim bin Hamad, desafiado por bloqueio regional e projetado internacionalmente pela Copa do Mundo",
+      "textoMdx": "Hamad bin Khalifa abdica voluntariamente em favor do filho Tamim em 2013, transferência pacífica em vida rara entre monarquias absolutas da região — decisão que preservaria continuidade das políticas externas assertivas e independentes do país.\n\n**A Arábia Saudita, os Emirados, o Bahrein e o Egito rompem relações diplomáticas e impõem bloqueio terrestre, aéreo e marítimo ao Catar em 2017, acusando o país de apoiar terrorismo e manter laços excessivos com o Irã** — o Catar resiste ao isolamento aprofundando relações com a Turquia e o próprio Irã, até que o bloqueio seja encerrado por acordo mediado pelo Kuwait em 2021.\n\n**A Copa do Mundo de 2022, primeira sediada por um país árabe, projeta o Catar globalmente em meio a críticas internacionais intensas sobre condições de trabalho de migrantes envolvidos na construção dos estádios, com milhares de mortes documentadas ao longo da década de preparação** — o Catar assumiria também, nos anos seguintes, papel central de mediação diplomática em conflitos regionais, incluindo negociações entre Israel e o Hamas durante a guerra em Gaza.",
+      "fontes": [
+        "allen-fromherz-catar"
+      ]
+    }
+  ]
+}

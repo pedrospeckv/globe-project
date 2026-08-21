@@ -1,0 +1,51 @@
+{
+  "iso": "OMN",
+  "isoNumerico": "512",
+  "nome": "Omã",
+  "periodos": [
+    {
+      "id": "omn-imamado-ibadita",
+      "inicio": "751",
+      "fim": "1624",
+      "rotulo": "Imamado Ibadita",
+      "regime": "imamado religioso do interior, alternando união e rivalidade com o poder comercial da costa",
+      "textoMdx": "O Ibadismo, ramo do islã distinto tanto do sunismo quanto do xiismo, com origem no movimento carijita primitivo, se consolida como tradição religiosa e política dominante do interior omanense a partir de meados do século VIII — Omã permanece, até hoje, o único país do mundo de maioria ibadita.\n\n**A história omanense pré-moderna é marcada por tensão recorrente entre a autoridade religiosa do imamado do interior e o poder comercial e marítimo da costa, centrado em Mascate**, cidades portuárias voltadas ao comércio do Oceano Índico que frequentemente escapavam ao controle direto dos imãs do interior.\n\n**A ocupação portuguesa de Mascate e outras cidades costeiras, a partir de 1507, impõe domínio estrangeiro sobre o litoral por mais de um século**, enquanto o interior sob autoridade do imamado permanece amplamente fora do alcance português direto.",
+      "fontes": [
+        "john-wilkinson-imamado-oma"
+      ]
+    },
+    {
+      "id": "omn-imperio-yaruba-said",
+      "inicio": "1624",
+      "fim": "1856",
+      "rotulo": "Impérios Ya'ariba e Al Said",
+      "regime": "imamado reunificado, depois sultanato marítimo, no apogeu um dos maiores impérios comerciais do Oceano Índico",
+      "textoMdx": "A dinastia Ya'ariba reunifica o imamado omanense a partir de 1624 e expulsa definitivamente os portugueses de Mascate em 1650, construindo frota naval que estenderia influência omanense por toda a costa do Golfo Pérsico e da África Oriental.\n\n**A dinastia Al Said, fundada por Ahmad bin Said em 1744 e que governa Omã ininterruptamente até hoje, leva o império omanense ao apogeu sob Said bin Sultan, no início do século XIX** — que transferiria a própria capital para Zanzibar, na costa africana, em 1832, presidindo vasto império comercial baseado significativamente no lucrativo e brutal comércio de escravos do Oceano Índico.\n\n**A morte de Said bin Sultan, em 1856, provoca disputa sucessória que divide definitivamente o império entre dois filhos — um herdando Omã, outro Zanzibar —, arbitrada pelo governo colonial britânico** — fragmentação que reduziria drasticamente a riqueza e a influência omanense pelas gerações seguintes.",
+      "fontes": [
+        "john-wilkinson-imamado-oma"
+      ]
+    },
+    {
+      "id": "omn-sultanato-dividido-imamado-interior",
+      "inicio": "1856",
+      "fim": "1970",
+      "rotulo": "Sultanato costeiro e o Imamado do interior",
+      "regime": "sultanato costeiro sob crescente influência britânica, com o interior mantendo autonomia sob imamado renovado",
+      "textoMdx": "A perda de Zanzibar, com suas plantações lucrativas de cravo e suas rotas comerciais, empobrece drasticamente o sultanato omanense remanescente, que se tornaria cada vez mais dependente de subsídios e proteção britânica informal, sem jamais se tornar formalmente colônia.\n\n**O imamado do interior, renovado formalmente em 1913, mantém autonomia de facto separada da autoridade do sultão costeiro por décadas — divisão territorial que só seria resolvida à força na Guerra do Jebel Akhdar, entre 1954 e 1959, quando aviação britânica e forças especiais ajudam o sultão a subjugar definitivamente o imamado rebelde.**\n\n**O sultão Said bin Taimur, no poder desde 1932, impõe isolamento extremo sobre o país mesmo após a descoberta de petróleo em quantidade comercial em 1964 — rádios, óculos escuros e construção de novas casas são proibidos, e o país conta apenas com poucos quilômetros de estrada pavimentada e um punhado de escolas em todo o território** — repressão que alimentaria a Rebelião de Dhofar, insurgência de esquerda apoiada externamente que ameaçaria seriamente a sobrevivência do próprio sultanato até o golpe palaciano que depõe Said bin Taimur em 1970.",
+      "fontes": [
+        "john-wilkinson-imamado-oma",
+        "uzi-rabi-oma-said-bin-taimur"
+      ]
+    },
+    {
+      "id": "omn-era-qaboos-haitham",
+      "inicio": "1970",
+      "rotulo": "Era de Qaboos e Haitham",
+      "regime": "sultanato absoluto, sob modernização acelerada e política externa de mediação regional",
+      "textoMdx": "Qaboos bin Said depõe o próprio pai em golpe palaciano incruento apoiado pelos britânicos, em 1970, e lança imediatamente programa de modernização acelerada — a chamada \"Renascença\" — construindo do zero infraestrutura básica de educação, saúde e transporte praticamente inexistente até então.\n\n**A Rebelião de Dhofar, herdada do regime anterior, é encerrada até 1975 através de combinação de campanha militar e reformas sociais que minam o apelo popular da insurgência** — vitória que consolidaria definitivamente a autoridade do novo sultão sobre todo o território nacional.\n\n**Qaboos cultiva, ao longo de quatro décadas no poder, política externa de neutralidade e mediação incomum entre os Estados do Golfo — mantendo relações diplomáticas com o Irã mesmo durante períodos de tensão regional aguda, e chegando a hospedar canal secreto de negociações entre Estados Unidos e Irã que ajudaria a viabilizar o acordo nuclear de 2015.**\n\n**Qaboos morre em 2020 sem herdeiro direto, tendo deixado instruções seladas indicando seu primo Haitham bin Tariq como sucessor — transição sucessória tranquila que preservaria a estabilidade política omanense**, com Haitham mantendo linhas gerais da política externa cautelosa e diversificação econômica gradual do antecessor.",
+      "fontes": [
+        "john-wilkinson-imamado-oma"
+      ]
+    }
+  ]
+}

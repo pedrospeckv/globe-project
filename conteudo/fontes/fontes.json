@@ -3863,5 +3863,61 @@
     "autor": "Kamal Salibi",
     "data": "1998",
     "citacao": "História jordaniana do Emirado da Transjordânia sob mandato britânico ao reinado de Hussein, cobrindo a anexação da Cisjordânia em 1948, o assassinato de Abdullah I em 1951 e o conflito de Setembro Negro contra a OLP em 1970."
+  },
+  {
+    "id": "paul-dresch-iemen",
+    "tipo": "livro",
+    "titulo": "A History of Modern Yemen",
+    "autor": "Paul Dresch",
+    "data": "2000",
+    "citacao": "História iemenita do Imamado Zaidita à unificação de 1990 e seu rescaldo, cobrindo a divisão entre o Iêmen do Norte e o único Estado marxista do mundo árabe, o Iêmen do Sul, e a guerra civil de secessão de 1994."
+  },
+  {
+    "id": "john-wilkinson-imamado-oma",
+    "tipo": "livro",
+    "titulo": "The Imamate Tradition of Oman",
+    "autor": "John C. Wilkinson",
+    "data": "1987",
+    "citacao": "Estudo acadêmico da tradição do Imamado Ibadita omanense, examinando a alternância histórica entre autoridade religiosa do interior e poder comercial marítimo da costa que definiria a política omanense por mais de um milênio."
+  },
+  {
+    "id": "uzi-rabi-oma-said-bin-taimur",
+    "tipo": "livro",
+    "titulo": "The Emergence of States in a Tribal Society: Oman under Sa'id bin Taymur, 1932-1970",
+    "autor": "Uzi Rabi",
+    "data": "2006",
+    "citacao": "História do reinado extremamente isolacionista do sultão Said bin Taimur, que mantinha Omã fechado à modernização mesmo com riqueza petrolífera crescente, e da revolta de Dhofar que precipitaria o golpe palaciano de seu filho Qaboos em 1970."
+  },
+  {
+    "id": "christopher-davidson-emirados",
+    "tipo": "livro",
+    "titulo": "The United Arab Emirates: A Study in Survival",
+    "autor": "Christopher M. Davidson",
+    "data": "2005",
+    "citacao": "História crítica dos Emirados Árabes Unidos, da Costa da Pirataria sob tratados britânicos à federação de 1971 e à transformação de Dubai em centro financeiro e turístico global menos dependente do petróleo que os vizinhos."
+  },
+  {
+    "id": "allen-fromherz-catar",
+    "tipo": "livro",
+    "titulo": "Qatar: A Modern History",
+    "autor": "Allen J. Fromherz",
+    "data": "2012",
+    "citacao": "História catariana do emirado Al Thani sob proteção britânica à era do gás natural, cobrindo o golpe incruento de 1995, o lançamento da Al Jazeera e a política externa independente que distinguiria o Catar de seus vizinhos do Golfo."
+  },
+  {
+    "id": "michael-casey-kuwait",
+    "tipo": "livro",
+    "titulo": "The History of Kuwait",
+    "autor": "Michael S. Casey",
+    "data": "2007",
+    "citacao": "História kuwaitiana da fundação sob os Al Sabah à reconstrução pós-Guerra do Golfo, cobrindo o parlamentarismo pioneiro do país na região e a invasão iraquiana de 1990."
+  },
+  {
+    "id": "resolucao-onu-678-1990",
+    "tipo": "documento-oficial",
+    "titulo": "Resolução 678 do Conselho de Segurança da ONU",
+    "publicacao": "Conselho de Segurança das Nações Unidas",
+    "data": "1990-11-29",
+    "citacao": "Autorizou o uso de todos os meios necessários para expulsar as forças iraquianas do Kuwait, caso não se retirassem até 15 de janeiro de 1991 — base jurídica internacional da coalizão liderada pelos Estados Unidos que libertaria o Kuwait na Guerra do Golfo."
   }
 ]

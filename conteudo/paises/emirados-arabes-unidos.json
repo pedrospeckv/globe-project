@@ -1,0 +1,50 @@
+{
+  "iso": "ARE",
+  "isoNumerico": "784",
+  "nome": "Emirados Árabes Unidos",
+  "periodos": [
+    {
+      "id": "are-costa-da-pirataria-tratados-britanicos",
+      "inicio": "1820",
+      "fim": "1892",
+      "rotulo": "Costa da Pirataria e os tratados britânicos",
+      "regime": "xecados costeiros independentes, sob tratado de trégua marítima imposto pela Grã-Bretanha",
+      "textoMdx": "A Grã-Bretanha, buscando proteger suas rotas comerciais para a Índia contra ataques navais frequentes na região, impõe o Tratado Marítimo Geral de 1820 aos xeques da costa do Golfo Pérsico — território que os britânicos chamariam, pejorativamente, de \"Costa da Pirataria\".\n\n**O Tratado Marítimo Perpétuo de 1853 formaliza trégua permanente entre os xecados costeiros, sob garantia britânica — origem do nome \"Estados da Trégua\" que designaria a região pelas décadas seguintes, até a formação da federação em 1971.**",
+      "fontes": [
+        "christopher-davidson-emirados"
+      ]
+    },
+    {
+      "id": "are-estados-da-tregua-britanicos",
+      "inicio": "1892",
+      "fim": "1971",
+      "rotulo": "Estados da Trégua sob proteção britânica",
+      "regime": "protetorado britânico informal, sob acordos exclusivos de proteção com cada xecado individualmente",
+      "textoMdx": "O Acordo Exclusivo de 1892 aprofunda o controle britânico sobre as relações externas dos xecados, que cedem controle sobre política externa e defesa em troca de proteção contra ameaças externas — arranjo que preservaria a autonomia interna de cada xeque enquanto subordinava completamente sua soberania externa a Londres.\n\n**A descoberta de petróleo em quantidade comercial em Abu Dhabi, em 1958, e sua exportação a partir de 1962, transformaria radicalmente as perspectivas econômicas do maior e mais rico dos futuros emirados**, enquanto Dubai, com reservas petrolíferas bem mais modestas, começaria a apostar em diversificação comercial e portuária precoce.\n\n**O anúncio britânico de retirada das posições \"a leste de Suez\", em 1968, motivado por restrições orçamentárias domésticas, força negociações aceleradas entre os sete xecados sobre seu futuro político comum** — Bahrein e Catar optariam por independência separada, mas os sete xecados restantes prosseguiriam rumo à federação.",
+      "fontes": [
+        "christopher-davidson-emirados"
+      ]
+    },
+    {
+      "id": "are-fundacao-federacao-zayed",
+      "inicio": "1971",
+      "fim": "2004",
+      "rotulo": "Fundação da federação sob Sheikh Zayed",
+      "regime": "federação de sete emirados sob monarquia hereditária compartilhada",
+      "textoMdx": "Seis dos sete emirados formam os Emirados Árabes Unidos em dezembro de 1971, com Ras al-Khaimah aderindo poucos meses depois — Sheikh Zayed bin Sultan Al Nahyan, governante de Abu Dhabi, assume a presidência federal, cargo que a família Al Nahyan manteria ininterruptamente desde então.\n\n**Zayed investe generosamente a riqueza petrolífera de Abu Dhabi em construção de infraestrutura básica compartilhada entre os emirados menos ricos, promovendo integração nacional genuína apesar de rivalidades tribais históricas** — ao mesmo tempo, Dubai, sob Sheikh Rashid, desenvolve porto de Jebel Ali e infraestrutura comercial ambiciosa, antecipando estratégia de diversificação que reduziria sua dependência petrolífera bem antes dos vizinhos.\n\n**Zayed morre em 2004, depois de 33 anos consecutivos como presidente federal, sucedido por seu filho Khalifa** — transição que preservaria a estabilidade institucional da jovem federação, mesmo diante da imensa transformação econômica e populacional que o país experimentaria nas décadas seguintes.",
+      "fontes": [
+        "christopher-davidson-emirados"
+      ]
+    },
+    {
+      "id": "are-diversificacao-global-atual",
+      "inicio": "2004",
+      "rotulo": "Diversificação econômica e projeção global",
+      "regime": "federação sob presidência de Abu Dhabi, com Dubai como centro comercial e financeiro global diversificado",
+      "textoMdx": "Dubai se transforma, ao longo dos anos 2000, em centro financeiro, comercial e turístico global — o Burj Khalifa, inaugurado em 2010, se torna o edifício mais alto do mundo, símbolo da ambição de diversificação econômica emiradense.\n\n**A crise financeira global de 2008-2009 expõe fragilidade do modelo de crescimento de Dubai baseado em dívida imobiliária especulativa, exigindo resgate financeiro substancial de Abu Dhabi para evitar colapso** — episódio que reforçaria a interdependência prática entre os dois principais emirados da federação.\n\n**Mohamed bin Zayed assume controle efetivo de Abu Dhabi e crescentemente da federação como um todo durante a longa doença do irmão Khalifa, tornando-se presidente formal em 2022** — sob sua liderança, os Emirados adotam política externa cada vez mais assertiva, incluindo intervenções militares na Líbia e no Iêmen, e normalizam relações diplomáticas com Israel através dos Acordos de Abraão em 2020, os primeiros de um Estado do Golfo.",
+      "fontes": [
+        "christopher-davidson-emirados"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "iso": "YEM",
+  "isoNumerico": "887",
+  "nome": "Iêmen",
+  "periodos": [
+    {
+      "id": "yem-reinos-antigos-sul-arabicos",
+      "inicio": "-800",
+      "fim": "525",
+      "rotulo": "Reinos antigos da Arábia do Sul",
+      "regime": "reinos independentes sucessivos, controlando as rotas do incenso",
+      "textoMdx": "O reino de Sabá, associado pela tradição bíblica e islâmica à lendária Rainha de Sabá, floresce a partir de cerca de 800 antes de Cristo no sul da Arábia, controlando as rotas comerciais do incenso e da mirra que abasteciam todo o Mediterrâneo antigo — riqueza que financiaria obras de engenharia hidráulica notáveis, como a grande barragem de Marib.\n\n**O reino Himiarita unifica gradualmente os Estados sul-arábicos rivais a partir do século III depois de Cristo, e alguns de seus últimos reis se convertem ao judaísmo — o rei Dhu Nuwas, no início do século VI, persegue duramente a minoria cristã local, episódio que forneceria pretexto para invasão do reino cristão de Axum, na Etiópia.**\n\n**A conquista axumita de 525 extingue a soberania sul-arábica nativa, iniciando período de domínio estrangeiro sucessivo — etíope, depois persa sassânida — que se estenderia até a chegada do islã, no século VII.**",
+      "fontes": [
+        "paul-dresch-iemen"
+      ]
+    },
+    {
+      "id": "yem-imamado-zaidita",
+      "inicio": "897",
+      "fim": "1962",
+      "rotulo": "Imamado Zaidita",
+      "regime": "teocracia xiita zaidita, sediada nas montanhas do norte iemenita",
+      "textoMdx": "Yahya al-Hadi funda, em 897, o Imamado Zaidita nas montanhas do norte do Iêmen — ramo do xiismo distinto tanto do sunismo majoritário quanto do xiismo duodecimano dominante no Irã, que se tornaria a tradição religiosa e política definidora do norte iemenita por mais de um milênio.\n\n**O imamado sobrevive a sucessivas tentativas de dominação externa, incluindo ocupações otomanas intermitentes entre os séculos XVI e início do XX**, preservando autonomia efetiva nas regiões montanhosas mesmo quando potências estrangeiras controlavam nominalmente partes do território costeiro.\n\n**A retirada otomana definitiva, em 1918, ao final da Primeira Guerra Mundial, permite ao imamado restaurar soberania plena sobre o norte iemenita** — governo teocrático extremamente conservador e isolacionista que se manteria até ser derrubado por revolução republicana em 1962.",
+      "fontes": [
+        "paul-dresch-iemen"
+      ]
+    },
+    {
+      "id": "yem-aden-britanica",
+      "inicio": "1839",
+      "fim": "1967",
+      "rotulo": "Adem sob domínio britânico",
+      "regime": "colônia e protetorado britânico no sul, administrativamente separado do imamado do norte",
+      "textoMdx": "A Grã-Bretanha ocupa o porto de Adem em 1839, valorizando sua posição estratégica na rota marítima para a Índia — o pequeno território se desenvolveria como colônia comercial próspera, administrativamente e politicamente separada do imamado zaidita do interior norte por mais de um século.\n\n**A Grã-Bretanha estende influência sobre os sultanatos e xeicados tribais do interior sul através de tratados de proteção, formando o Protetorado da Arábia do Sul**, mosaico de pequenas entidades locais sob supervisão britânica indireta muito menos centralizada que a administração direta de Adem.\n\n**A Frente Nacional de Libertação, movimento nacionalista de esquerda, conduz insurgência armada crescente contra o domínio britânico a partir de 1963, forçando retirada britânica precipitada em novembro de 1967** — mais rápida e menos ordenada que o planejado, deixando a Frente Nacional de Libertação como força dominante do Iêmen do Sul recém-independente.",
+      "fontes": [
+        "paul-dresch-iemen"
+      ]
+    },
+    {
+      "id": "yem-dois-iemenes",
+      "inicio": "1962",
+      "fim": "1990",
+      "rotulo": "Os dois Iêmens",
+      "regime": "dois Estados rivais — a República Árabe do Iêmen, ao norte, e a única república marxista do mundo árabe, ao sul",
+      "textoMdx": "A revolução republicana de 1962 derruba o Imamado Zaidita no norte, mas mergulha o país em guerra civil de oito anos entre republicanos apoiados pelo Egito de Nasser e monarquistas apoiados pela Arábia Saudita — conflito por procuração que refletiria as tensões da Guerra Fria árabe entre nacionalismo revolucionário e monarquias conservadoras do Golfo.\n\n**No sul, a retirada britânica de 1967 dá lugar à República Democrática Popular do Iêmen, único Estado formalmente marxista-leninista de toda a história do mundo árabe**, alinhado à União Soviética — os dois Iêmens, apesar de rivalidade ideológica profunda e conflitos armados esporádicos entre si, negociariam repetidamente projetos de unificação ao longo das décadas seguintes, finalmente concretizados em 1990.",
+      "entidades": [
+        {
+          "nome": "República Árabe do Iêmen (Iêmen do Norte)",
+          "regime": "república presidencialista, emergindo de guerra civil entre republicanos e monarquistas",
+          "textoMdx": "A guerra civil de 1962 a 1970, entre republicanos apoiados por tropas egípcias e monarquistas apoiados pela Arábia Saudita, mata dezenas de milhares antes de acordo negociado consolidar a república, com retirada das forças estrangeiras de ambos os lados.\n\nAli Abdullah Saleh assume a presidência em 1978, após o assassinato de dois antecessores em sucessão rápida — permaneceria no poder, com a unificação de 1990, por mais de três décadas adicionais, tornando-se uma das figuras políticas mais duradouras e habilidosas da região em equilibrar facções tribais e militares rivais."
+        },
+        {
+          "nome": "República Democrática Popular do Iêmen (Iêmen do Sul)",
+          "regime": "república socialista de partido único, marxista-leninista",
+          "textoMdx": "O único Estado árabe a adotar oficialmente o marxismo-leninismo como ideologia de Estado implementa reforma agrária radical e políticas sociais progressistas para os padrões regionais, incluindo direitos legais ampliados para mulheres, ao mesmo tempo em que mantém repressão política rígida sob partido único.\n\nDisputas faccionais internas dentro do próprio partido governante explodem em breve guerra civil interna em janeiro de 1986, matando milhares em poucos dias de combate em Adem — episódio que enfraqueceria substancialmente o Estado sulista, tornando a unificação com o norte, negociada meses após o colapso da União Soviética em 1990, alternativa cada vez mais atraente diante do isolamento internacional crescente."
+        }
+      ],
+      "fontes": [
+        "paul-dresch-iemen"
+      ]
+    },
+    {
+      "id": "yem-unificacao-guerra-civil-atual",
+      "inicio": "1990",
+      "rotulo": "Unificação e a guerra civil atual",
+      "regime": "república unificada, fragmentada por guerra civil desde 2014",
+      "textoMdx": "A unificação de maio de 1990 une os dois Iêmens sob a presidência de Ali Abdullah Saleh, mas tensões regionais persistentes explodiriam em nova guerra civil já em 1994, quando o sul tenta secessão — rapidamente esmagada pelas forças do norte, consolidando o domínio de Saleh sobre o país unificado.\n\n**Os protestos da Primavera Árabe, em 2011, forçam a renúncia de Saleh após 33 anos no poder, através de acordo negociado pelo Conselho de Cooperação do Golfo que lhe garante imunidade — mas a transição posterior se revelaria incapaz de estabilizar o país.**\n\n**O movimento houthi, de base zaidita revivalista com apoio iraniano crescente, toma a capital Sanaa em 2014-2015, forçando o governo reconhecido internacionalmente ao exílio** — a intervenção militar de coalizão liderada pela Arábia Saudita, iniciada em 2015 para reverter o avanço houthi, mergulharia o país numa das piores crises humanitárias do mundo contemporâneo, com centenas de milhares de mortos diretos e indiretos por fome e doença.\n\n**Os houthis, a partir de 2023, atacam navegação comercial no Mar Vermelho em alegada solidariedade à Faixa de Gaza, atraindo retaliação militar americana e britânica direta** — o Iêmen permanece, décadas depois da unificação, fragmentado de facto entre múltiplas autoridades rivais, sem perspectiva clara de resolução do conflito.",
+      "fontes": [
+        "paul-dresch-iemen",
+        "resolucao-onu-678-1990"
+      ]
+    }
+  ]
+}
