@@ -8,7 +8,7 @@ Não é obra acadêmica e não é produto. É uma ferramenta de estudo, aberta, 
 quem quiser entender melhor mundo e geografia — e para quem quiser ajudar a
 escrevê-la.
 
-**9 de 174 países** têm dossiê. Ver [`docs/cobertura.md`](docs/cobertura.md) para a
+**166 de 174 países (95,4%) — 824 períodos** têm dossiê, todos com imagem de época e fonte. Ver [`docs/cobertura.md`](docs/cobertura.md) para a
 lista do que falta, e [`CONTRIBUTING.md`](CONTRIBUTING.md) para pegar um.
 
 ## O que ele faz
@@ -86,7 +86,7 @@ Quem for mexer em conteúdo passa quase todo o tempo em `conteudo/` e
 
 ## Contribuir
 
-Sim, por favor — sobretudo **países**. São 165 sem dossiê, e cada um é um trabalho
+Sim, por favor — sobretudo **os 8 países restantes**. Cada um é um trabalho
 independente que não conflita com o de mais ninguém.
 
 Leia [`CONTRIBUTING.md`](CONTRIBUTING.md). A regra que resume o projeto: **toda
