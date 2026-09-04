@@ -12,7 +12,15 @@
       "textoMdx": "Criado em 1717, suspenso, e restabelecido em 1739, o vice-reino reúne o que hoje é Colômbia, Venezuela, Equador e Panamá — e é sobre essa unidade administrativa que Bolívar tentaria construir um país.\n\n**A geografia manda mais que a administração.** Três cordilheiras separam vales que se comunicam mal, e a capital está a 2.600 metros de altitude, a semanas do mar. O resultado é um vice-reino de regiões que se desenvolvem de costas umas para as outras — Cartagena olhando o Caribe, Popayán para o sul andino, Antioquia mineira e isolada — e um Estado que nunca alcança tudo. É a raiz de longo prazo da fraqueza estatal no campo colombiano.\n\n**Ouro, e não prata.** Nova Granada é o maior produtor de ouro da América espanhola, extraído em aluviões do Chocó e de Antioquia sobretudo por trabalho escravizado africano. Cartagena das Índias é a principal porta de entrada de africanos escravizados na América do Sul espanhola, e uma das cidades mais fortificadas do continente.\n\n**A revolta dos comuneros, em 1781, antecede a independência.** Milhares de pessoas do Socorro e de Vélez marcham contra novos impostos e forçam um acordo com as autoridades, depois desconhecido; o líder José Antonio Galán é executado. É a maior insurreição contra a Coroa na região antes de 1810, no mesmo ano da de Túpac Amaru no Peru.\n\n**A independência começa em 1810 e leva nove anos.** A Patria Boba — nome dado pela historiografia às disputas entre federalistas e centralistas de 1810 a 1816 — impede uma frente comum, e a reconquista espanhola sob Pablo Morillo restabelece o domínio com execuções, entre elas a da educadora Policarpa Salavarrieta. A vitória decisiva vem em Boyacá, em agosto de 1819, com Bolívar chegando pelos llanos venezuelanos.",
       "fontes": [
         "bushnell-colombia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Nuevo_Reino_Granada.jpg",
+        "alt": "Mapa antigo colorido mostra o Novo Reino de Granada, rios, cidades e regiões vizinhas.",
+        "credito": "Rigoberto Bonne",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Nuevo_Reino_Granada.jpg",
+        "legenda": "Mapa do Novo Reino de Granada publicado em 1770."
+      }
     },
     {
       "id": "co-gran-colombia",
@@ -24,7 +32,15 @@
       "fontes": [
         "bushnell-colombia",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Sim%C3%B3n_Bol%C3%ADvar%2C_1825.jpg/1920px-Sim%C3%B3n_Bol%C3%ADvar%2C_1825.jpg",
+        "alt": "Retrato pintado de Simón Bolívar em uniforme militar escuro com bordados dourados.",
+        "credito": "José Gil de Castro",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Sim%C3%B3n_Bol%C3%ADvar,_1825.jpg",
+        "legenda": "Retrato de Simón Bolívar pintado por José Gil de Castro em 1825."
+      }
     },
     {
       "id": "co-partidos-e-guerras",
@@ -36,7 +52,15 @@
       "fontes": [
         "bushnell-colombia",
         "palacios-colombia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Thousand_Days_War.jpg",
+        "alt": "Ilustração mostra combatentes armados avançando por terreno aberto em meio a fumaça.",
+        "credito": "Carlos Chahin . Original black and white by D.S. Maduro Jr.",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Thousand_Days_War.jpg",
+        "legenda": "Cena da Guerra dos Mil Dias publicada em 1899."
+      }
     },
     {
       "id": "co-republica-conservadora",
@@ -48,7 +72,15 @@
       "fontes": [
         "bushnell-colombia",
         "palacios-colombia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Bogotazo.jpg",
+        "alt": "Bonde incendiado e multidão ocupam uma rua de Bogotá entre fumaça e destroços.",
+        "credito": "Daniel Pradilla Holguin",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Bogotazo.jpg",
+        "legenda": "Distúrbios do Bogotazo, em 1948."
+      }
     },
     {
       "id": "co-frente-nacional",
@@ -60,7 +92,15 @@
       "fontes": [
         "bushnell-colombia",
         "palacios-colombia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Alberto_Lleras_Camargo.jpg",
+        "alt": "Alberto Lleras Camargo conversa com John F. Kennedy em uma sala oficial.",
+        "credito": "Abbie Rowe. White House Photographs. John F. Kennedy Presidential Library and Museum, Boston",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Alberto_Lleras_Camargo.jpg",
+        "legenda": "Encontro do presidente colombiano Alberto Lleras Camargo com John F. Kennedy, em 1962."
+      }
     },
     {
       "id": "co-conflito-e-narcotrafico",
@@ -72,7 +112,15 @@
       "fontes": [
         "palacios-colombia",
         "comision-verdad-colombia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pablo_Escobar_1976_mugshot.png",
+        "alt": "Fotografia policial em preto e branco mostra um jovem Pablo Escobar de frente e de perfil.",
+        "credito": "Colombian National Police/Colombian Security Service",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Pablo_Escobar_1976_mugshot.png",
+        "legenda": "Registro policial de Pablo Escobar feito em maio de 1976."
+      }
     },
     {
       "id": "co-acordo-de-paz",
@@ -83,7 +131,15 @@
       "fontes": [
         "comision-verdad-colombia",
         "acordo-final-colombia-2016"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Colombian_President_Santos_Signs_a_Peace_Accord_With_FARC_Leader_Jim%C3%A9nez_%2829330649883%29.jpg/1920px-Colombian_President_Santos_Signs_a_Peace_Accord_With_FARC_Leader_Jim%C3%A9nez_%2829330649883%29.jpg",
+        "alt": "Juan Manuel Santos e Rodrigo Londoño apertam as mãos diante de representantes e bandeiras.",
+        "credito": "U.S. Department of State from United States",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Colombian_President_Santos_Signs_a_Peace_Accord_With_FARC_Leader_Jim%C3%A9nez_(29330649883).jpg",
+        "legenda": "Assinatura do acordo de paz entre o governo colombiano e as FARC, em 26 de setembro de 2016."
+      }
     }
   ]
 }

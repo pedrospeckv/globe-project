@@ -9,10 +9,18 @@
       "fim": "1971",
       "rotulo": "Emirado Al Thani sob proteção britânica",
       "regime": "xecado sob a família Al Thani, protegido pela Grã-Bretanha contra reivindicações de suserania bareinita e otomana",
-      "textoMdx": "O tratado de 1868 entre o xeque Mohammed bin Thani e a Grã-Bretanha reconhece formalmente a distinção política do Catar em relação ao vizinho Bahrein, que havia reivindicado suserania sobre o território — marco fundacional da soberania catariana sob a família Al Thani, que governa o país ininterruptamente desde então.\n\nUma guarnição otomana ocupa brevemente partes do território a partir de 1871, retirando-se apenas em 1915 com a Primeira Guerra Mundial, quando o Catar assina tratado de proteção britânica formal em 1916.\n\nO petróleo, descoberto em 1939, tem exportação adiada pela Segunda Guerra Mundial, começando apenas em 1949 — riqueza ainda modesta que se tornaria imensa décadas depois, com a exploração das vastas reservas de gás natural do Campo Norte, compartilhado com o Irã.",
+      "textoMdx": "O tratado de 1868 entre o xeque Mohammed bin Thani e a Grã-Bretanha reconhece formalmente a distinção política do Catar em relação ao vizinho Bahrein, que havia reivindicado suserania sobre o território — marco fundacional da soberania catariana sob a família Al Thani, que governa o país ininterruptamente desde então.\n\nUma guarnição otomana ocupa brevemente partes do território a partir de 1871, retirando-se apenas em 1915 com a Primeira Guerra Mundial, quando o Catar assina tratado de proteção britânica formal em 1916.\n\nO petróleo, descoberto em 1939, tem exportação adiada pela Segunda Guerra Mundial, começando apenas em 1949 — riqueza ainda modesta que se tornou imensa décadas depois, com a exploração das vastas reservas de gás natural do Campo Norte, compartilhado com o Irã.",
       "fontes": [
         "allen-fromherz-catar"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Qatar_Scouting_Jubilee_stamps.jpg",
+        "alt": "Par de selos britânicos de 1957 com a efígie de Elizabeth II e a sobrecarga QATAR em letras pretas.",
+        "credito": "British Government",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Qatar_Scouting_Jubilee_stamps.jpg",
+        "legenda": "Selos britânicos de 1957 sobrecarregados para uso no Catar durante o período do protetorado."
+      }
     },
     {
       "id": "qat-desenvolvimento-gas-hamad",
@@ -20,21 +28,38 @@
       "fim": "2013",
       "rotulo": "Desenvolvimento do gás natural e a era de Hamad",
       "regime": "emirado independente, transformado pela exploração das maiores reservas de gás natural do mundo",
-      "textoMdx": "A independência catariana, obtida em 1971 após optar por não integrar a federação dos Emirados Árabes Unidos, encontra país ainda modesto economicamente — transformação radical viria apenas nas décadas seguintes, com o desenvolvimento pleno do Campo Norte de gás natural, uma das maiores reservas do planeta.\n\n**O xeque Hamad bin Khalifa depõe o próprio pai em golpe palaciano incruento em 1995, acelerando desenvolvimento econômico e lançando, no ano seguinte, a rede de televisão Al Jazeera** — veículo que transformaria o Catar em potência de \"soft power\" regional muito além do que seu tamanho territorial sugeriria, ao dar voz a perspectivas frequentemente censuradas em outros países árabes.\n\nA riqueza per capita catariana se tornaria, ao longo dos anos 2000, uma das mais altas do mundo, financiando política externa assertiva e independente que incluiria relações diplomáticas mantidas simultaneamente com Irã, Estados Unidos — que hospeda a maior base militar americana no Oriente Médio — e movimentos islamistas como a Irmandade Muçulmana e o Hamas.",
+      "textoMdx": "A independência catariana, obtida em 1971 após optar por não integrar a federação dos Emirados Árabes Unidos, encontra país ainda modesto economicamente — transformação radical veio apenas nas décadas seguintes, com o desenvolvimento pleno do Campo Norte de gás natural, uma das maiores reservas do planeta.\n\n**O xeque Hamad bin Khalifa depõe o próprio pai em golpe palaciano incruento em 1995, acelerando desenvolvimento econômico e lançando, no ano seguinte, a rede de televisão Al Jazeera** — veículo que transformou o Catar em potência de \"soft power\" regional muito além do que seu tamanho territorial sugeriu, ao dar voz a perspectivas frequentemente censuradas em outros países árabes.\n\nA riqueza per capita catariana foi, ao longo dos anos 2000, uma das mais altas do mundo, financiando política externa assertiva e independente que incluiu relações diplomáticas mantidas simultaneamente com Irã, Estados Unidos — que hospeda a maior base militar americana no Oriente Médio — e movimentos islamistas como a Irmandade Muçulmana e o Hamas.",
       "fontes": [
-        "allen-fromherz-catar"
-      ]
+        "allen-fromherz-catar",
+        "qatarenergy-campo-norte"
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Hamad_Bin_Khalifa_Al-Thani_with_Obamas.jpg/1920px-Hamad_Bin_Khalifa_Al-Thani_with_Obamas.jpg",
+        "alt": "Hamad bin Khalifa Al Thani e Mozah bint Nasser posam ao lado de Barack e Michelle Obama em uma recepção oficial.",
+        "credito": "Lawrence Jackson · White House",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Hamad_Bin_Khalifa_Al-Thani_with_Obamas.jpg",
+        "legenda": "O emir Hamad bin Khalifa Al Thani em 2009, durante a fase de expansão internacional apoiada pela riqueza do gás."
+      }
     },
     {
       "id": "qat-era-tamim-bloqueio-mundial",
       "inicio": "2013",
       "rotulo": "Era de Tamim, o bloqueio do Golfo e o Mundial",
       "regime": "emirado sob liderança de Tamim bin Hamad, desafiado por bloqueio regional e projetado internacionalmente pela Copa do Mundo",
-      "textoMdx": "Hamad bin Khalifa abdica voluntariamente em favor do filho Tamim em 2013, transferência pacífica em vida rara entre monarquias absolutas da região — decisão que preservaria continuidade das políticas externas assertivas e independentes do país.\n\n**A Arábia Saudita, os Emirados, o Bahrein e o Egito rompem relações diplomáticas e impõem bloqueio terrestre, aéreo e marítimo ao Catar em 2017, acusando o país de apoiar terrorismo e manter laços excessivos com o Irã** — o Catar resiste ao isolamento aprofundando relações com a Turquia e o próprio Irã, até que o bloqueio seja encerrado por acordo mediado pelo Kuwait em 2021.\n\n**A Copa do Mundo de 2022, primeira sediada por um país árabe, projeta o Catar globalmente em meio a críticas intensas às condições de trabalho dos migrantes que construíram a infraestrutura do torneio** — e o número mais repetido nessa discussão mede outra coisa que não o que se supõe. As 6.500 mortes levantadas pelo *Guardian* são mortes por **qualquer causa e em qualquer emprego**, de trabalhadores de cinco países sul-asiáticos ao longo de dez anos no país inteiro; nem a reportagem nem qualquer outra fonte atribui esse total às obras da Copa, e o comitê organizador reportou, para os canteiros dos estádios, número de outra ordem de grandeza. A distância entre as duas contas é o que está em disputa, e nenhum levantamento independente a fechou.\n\nO Catar assumiria também, nos anos seguintes, papel central de mediação diplomática em conflitos regionais, incluindo negociações entre Israel e o Hamas durante a guerra em Gaza.",
+      "textoMdx": "Hamad bin Khalifa abdica voluntariamente em favor do filho Tamim em 2013, transferência pacífica em vida rara entre monarquias absolutas da região — decisão que preservou continuidade das políticas externas assertivas e independentes do país.\n\n**A Arábia Saudita, os Emirados, o Bahrein e o Egito rompem relações diplomáticas e impõem bloqueio terrestre, aéreo e marítimo ao Catar em 2017, acusando o país de apoiar terrorismo e manter laços excessivos com o Irã** — o Catar resiste ao isolamento aprofundando relações com a Turquia e o próprio Irã, até que o bloqueio seja encerrado por acordo mediado pelo Kuwait em 2021.\n\n**A Copa do Mundo de 2022, primeira sediada por um país árabe, projeta o Catar globalmente em meio a críticas intensas às condições de trabalho dos migrantes que construíram a infraestrutura do torneio** — e o número mais repetido nessa discussão mede outra coisa que não o que se supõe. As 6.500 mortes levantadas pelo *Guardian* são mortes por **qualquer causa e em qualquer emprego**, de trabalhadores de cinco países sul-asiáticos ao longo de dez anos no país inteiro; nem a reportagem nem qualquer outra fonte atribui esse total às obras da Copa, e o comitê organizador reportou, para os canteiros dos estádios, número de outra ordem de grandeza. A distância entre as duas contas é o que está em disputa, e nenhum levantamento independente a fechou.\n\nO Catar assumiu também, nos anos seguintes, papel central de mediação diplomática em conflitos regionais, incluindo negociações entre Israel e o Hamas durante a guerra em Gaza.",
       "fontes": [
         "allen-fromherz-catar",
         "guardian-mortes-migrantes-catar-2021"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Hon%27ble_Vice_President%2C_Shri_Jagdeep_Dhankhar_meeting_with_HH_Sheikh_Tamim_bin_Hamad_Al_Thani%2C_Amir_of_the_State_of_Qatar_during_the_inaugural_of_FIFA_World_Cup_2022_at_the_Al_Bayt_Stadium_in_Qatar_today.jpg",
+        "alt": "Tamim bin Hamad Al Thani conversa com Jagdeep Dhankhar nas arquibancadas do estádio Al Bayt durante a Copa do Mundo.",
+        "credito": "Vice President's Secretariat, India",
+        "licenca": "GODL-India",
+        "origem": "https://commons.wikimedia.org/wiki/File:Hon%27ble_Vice_President,_Shri_Jagdeep_Dhankhar_meeting_with_HH_Sheikh_Tamim_bin_Hamad_Al_Thani,_Amir_of_the_State_of_Qatar_during_the_inaugural_of_FIFA_World_Cup_2022_at_the_Al_Bayt_Stadium_in_Qatar_today.jpg",
+        "legenda": "O emir Tamim recebe o vice-presidente da Índia no estádio Al Bayt durante a Copa do Mundo de 2022."
+      }
     }
   ]
 }

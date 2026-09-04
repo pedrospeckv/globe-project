@@ -13,7 +13,15 @@
       "fontes": [
         "moya-pons-republica-dominicana",
         "knight-caribe"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/1780_Raynal_and_Bonne_Map_of_Hispaniola%2C_West_Indies_-_Geographicus_-_StDomingue-bonne-1780.jpg/1920px-1780_Raynal_and_Bonne_Map_of_Hispaniola%2C_West_Indies_-_Geographicus_-_StDomingue-bonne-1780.jpg",
+        "alt": "Mapa histórico colorido da ilha de Hispaniola, com relevo, rios, povoações e divisão territorial.",
+        "credito": "Rigobert Bonne",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:1780%20Raynal%20and%20Bonne%20Map%20of%20Hispaniola%2C%20West%20Indies%20-%20Geographicus%20-%20StDomingue-bonne-1780.jpg",
+        "legenda": "Mapa de Hispaniola publicado em 1780, quando a parte oriental permanecia como Santo Domingo espanhol."
+      }
     },
     {
       "id": "do-anexacoes",
@@ -24,7 +32,15 @@
       "textoMdx": "Sete décadas em que o país tenta sobreviver oferecendo-se a potências estrangeiras, e em que a soberania é interrompida duas vezes.\n\n**As guerras com o Haiti dominam as duas primeiras décadas.** Invasões sucessivas até 1856 consolidam a independência de fato e alimentam um discurso de defesa nacional que servirá de base ao antihaitianismo posterior.\n\n**Pedro Santana devolve o país à Espanha em 1861.** É a única reanexação voluntária de uma república americana a uma potência europeia. A Guerra da Restauração, de 1863 a 1865, expulsa os espanhóis por uma insurgência de guerrilhas rurais.\n\n**A tentativa de anexação aos Estados Unidos falha por um voto.** Buenaventura Báez negocia com o presidente Grant um tratado de anexação, aprovado em plebiscito local de legitimidade duvidosa, e rejeitado pelo Senado norte-americano em 1870.\n\n**Ulises Heureaux governa como ditador e endivida o país.** No poder de 1882 a 1899, ele contrai empréstimos europeus e norte-americanos com garantia em receita aduaneira; quando é assassinado, a dívida é impagável, e credores estrangeiros passam a administrar a alfândega dominicana a partir de 1905.\n\n**O açúcar chega e reorganiza o sul e o leste.** Empresários cubanos que fogem da Guerra dos Dez Anos trazem engenhos modernos; a produção cresce com capital norte-americano, e a mão de obra vem de trabalhadores de outras ilhas — cocolos anglófonos — e, cada vez mais, de haitianos, num padrão migratório que persistiria por um século.",
       "fontes": [
         "moya-pons-republica-dominicana"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/1859_Dufour_Map_of_Hispaniola_or_Santo_Domingo%2C_West_Indies_%28Haiti%2C_Dominican_Republic%29_-_Geographicus_-_StDomingue-dufour-1859.jpg/1920px-1859_Dufour_Map_of_Hispaniola_or_Santo_Domingo%2C_West_Indies_%28Haiti%2C_Dominican_Republic%29_-_Geographicus_-_StDomingue-dufour-1859.jpg",
+        "alt": "Mapa histórico colorido de Hispaniola, identificando Haiti e República Dominicana e suas principais cidades.",
+        "credito": "Auguste-Henri Dufour",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:1859%20Dufour%20Map%20of%20Hispaniola%20or%20Santo%20Domingo%2C%20West%20Indies%20(Haiti%2C%20Dominican%20Republic)%20-%20Geographicus%20-%20StDomingue-dufour-1859.jpg",
+        "legenda": "Mapa de Hispaniola publicado em 1859, durante a Primeira República Dominicana."
+      }
     },
     {
       "id": "do-ocupacao-e-trujillo",
@@ -35,7 +51,15 @@
       "textoMdx": "A ocupação norte-americana cria a Guarda Nacional; um oficial formado por ela toma o poder em 1930 e governa trinta e um anos — a ditadura mais totalizante do Caribe hispânico.\n\n**A ocupação de 1916 a 1924 centraliza o Estado.** Estradas, cadastro de terras que favorece o açúcar em detrimento de posseiros, e a criação de uma força militar nacional. Rafael Leónidas Trujillo faz carreira nela e chega ao comando.\n\n**A Era de Trujillo é um regime de culto e propriedade.** Ele toma o poder em 1930, renomeia a capital como Ciudad Trujillo, e acumula pessoalmente participação enorme na economia — sal, carne, tabaco, açúcar, seguros. O serviço de inteligência mantém uma rede de informantes que penetra a vida cotidiana, e a oposição é presa, torturada ou morta.\n\n**O massacre de 1937 é o ato mais grave do regime.** Trujillo ordena a matança de haitianos e dominicanos de ascendência haitiana na região de fronteira: as estimativas correntes falam de milhares de mortos, muitos a golpes de machete para simular ação popular. O episódio é acompanhado de uma política de estado de dominicanização da fronteira e de branqueamento por imigração — inclusive o acolhimento, em 1940, de refugiados judeus em Sosúa, decisão que serviu à imagem externa do regime.\n\n**As irmãs Mirabal são assassinadas em 1960.** Três das quatro irmãs, opositoras clandestinas, são mortas por agentes do regime em novembro; a data tornou-se, por decisão da ONU, o Dia Internacional para a Eliminação da Violência contra as Mulheres.\n\n**O fim vem por conspiração interna com apoio externo.** Depois de Trujillo tentar assassinar o presidente venezuelano Rómulo Betancourt em 1960, o regime perde apoio norte-americano e é sancionado pela OEA. Ele é morto a tiros numa emboscada em maio de 1961.",
       "fontes": [
         "moya-pons-republica-dominicana"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Trujillo_1952.jpg",
+        "alt": "Rafael Trujillo posa de uniforme branco ornamentado, com faixa presidencial e numerosas condecorações.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Trujillo%201952.jpg",
+        "legenda": "Retrato oficial de Rafael Trujillo em 1952, durante a ditadura dominicana."
+      }
     },
     {
       "id": "do-guerra-civil-e-balaguer",
@@ -46,7 +70,15 @@
       "textoMdx": "A transição pós-Trujillo dura três décadas e passa por uma guerra civil de quatro meses, uma invasão norte-americana e um antigo colaborador do ditador governando por eleição.\n\n**Juan Bosch é eleito em 1962 e deposto em sete meses.** A primeira eleição livre em quatro décadas leva ao poder um escritor social-democrata; a constituição que ele promulga, com reforma agrária e direitos trabalhistas, é considerada comunista por setores militares, empresariais e eclesiásticos, e um golpe o derruba em setembro de 1963.\n\n**A guerra civil de abril de 1965 e a Operação Power Pack.** Oficiais constitucionalistas sob Francisco Caamaño se levantam para restaurar Bosch, e a população de Santo Domingo se arma. Os Estados Unidos desembarcam mais de vinte mil soldados, e a OEA cria uma Força Interamericana de Paz — com tropas brasileiras sob comando geral norte-americano. Os combates deixam milhares de mortos.\n\n**Joaquín Balaguer governa doze anos seguidos, de 1966 a 1978.** Secretário de Trujillo, ele ganha eleições sob repressão: os anos dos Doce marcam desaparecimentos e assassinatos de opositores de esquerda, com estimativas de milhares de vítimas. Ao mesmo tempo, faz grande obra pública e atrai investimento em zonas francas e turismo.\n\n**A alternância chega em 1978, sob pressão externa.** Balaguer tenta interromper a contagem de votos ao perder, e recua depois de advertência do governo norte-americano. Antonio Guzmán assume — a primeira transferência de poder a um opositor por via eleitoral na história do país. Balaguer volta a governar de 1986 a 1996, e sua última eleição, em 1994, é anulada em parte por fraude, com o mandato encurtado por acordo.",
       "fontes": [
         "moya-pons-republica-dominicana"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Honduran_soldiers%2C_first_troops_of_Inter-American_peace_force%2C_arrive_to_assume_peace-keeping_duties_and_to_render_emerg_-_NARA_-_541976.jpg/1920px-Honduran_soldiers%2C_first_troops_of_Inter-American_peace_force%2C_arrive_to_assume_peace-keeping_duties_and_to_render_emerg_-_NARA_-_541976.jpg",
+        "alt": "Soldados hondurenhos desembarcam com capacetes, armas e mochilas diante de uma aeronave militar.",
+        "credito": "Autor desconhecido · U.S. National Archives",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Honduran%20soldiers%2C%20first%20troops%20of%20Inter-American%20peace%20force%2C%20arrive%20to%20assume%20peace-keeping%20duties%20and%20to%20render%20emerg%20-%20NARA%20-%20541976.jpg",
+        "legenda": "Tropas hondurenhas da Força Interamericana de Paz chegam à República Dominicana durante a crise de 1965."
+      }
     },
     {
       "id": "do-republica",
@@ -56,7 +88,15 @@
       "textoMdx": "Três décadas de democracia com alternância regular e o crescimento econômico mais forte e sustentado da América Latina no período — com a questão haitiana como o conflito interno mais persistente.\n\n**A economia se diversifica e cresce.** Turismo em escala massiva, zonas francas de manufatura, mineração de ouro, telecomunicações e remessas da diáspora nos Estados Unidos. O país passou décadas entre os de maior crescimento médio da região, e a pobreza caiu de forma consistente, com desigualdade que permanece alta.\n\n**As crises não interromperam o regime.** A quebra do Banco Intercontinental em 2003, com resgate que custou uma parcela enorme do produto nacional, provocou inflação e recessão, e o governo perdeu a eleição seguinte — sem ruptura institucional. A alternância entre PLD e PRD, e depois o PRM, tornou-se rotina.\n\n**A cidadania de descendentes de haitianos é a disputa mais grave.** Uma sentença do Tribunal Constitucional de 2013 reinterpretou retroativamente a regra de nacionalidade, deixando sem documentos dezenas de milhares de pessoas nascidas no país, filhas de imigrantes irregulares. A Corte Interamericana condenou o Estado, que rejeitou a decisão; uma lei de 2014 criou vias de regularização que atenderam parte dos casos. Deportações em massa e a construção de um muro na fronteira, iniciada em 2022, marcam o período recente.\n\n**A relação com o Haiti define a política externa.** Com o colapso institucional haitiano, o país passou a pressionar por intervenção internacional na ilha vizinha, fechando a fronteira em episódios de crise — dois países que dividem uma ilha e cuja diferença de renda por habitante é uma das maiores do mundo entre vizinhos terrestres.",
       "fontes": [
         "moya-pons-republica-dominicana"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/President_George_W._Bush_meets_with_President_Leonel_Fernandez_of_the_Dominican_Republic_in_the_Oval_Office.jpg",
+        "alt": "George W. Bush e Leonel Fernández conversam sentados em poltronas no Salão Oval.",
+        "credito": "Eric Draper · White House",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:President%20George%20W.%20Bush%20meets%20with%20President%20Leonel%20Fernandez%20of%20the%20Dominican%20Republic%20in%20the%20Oval%20Office.jpg",
+        "legenda": "O presidente dominicano Leonel Fernández reúne-se com George W. Bush na Casa Branca em 2006."
+      }
     }
   ]
 }

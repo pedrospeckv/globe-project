@@ -9,7 +9,10 @@
     "lint": "eslint",
     "test": "vitest run",
     "test:watch": "vitest",
-    "validar": "tsx scripts/validar-conteudo.ts"
+    "validar": "tsx scripts/validar-conteudo.ts",
+    "conferir-links": "tsx scripts/conferir-links.ts",
+    "lote": "tsx scripts/preparar-lote.ts",
+    "lote-imagens": "tsx scripts/preparar-lote-imagens.ts"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",

@@ -9,10 +9,18 @@
       "fim": "1968",
       "rotulo": "Guiné Espanhola",
       "regime": "colônia espanhola, o único território africano de língua oficial espanhola",
-      "textoMdx": "Portugal cede à Espanha, pelo Tratado de El Pardo de 1778, direitos sobre as ilhas do Golfo da Guiné e reivindicações territoriais continentais — controle espanhol efetivo se consolidaria apenas gradualmente ao longo do século seguinte, com a ilha de Fernando Pó brevemente arrendada à Grã-Bretanha como base naval antiescravagista no início do século XIX.\n\nA colônia da Guiné Espanhola, consolidada plenamente apenas por volta do início do século XX, permaneceria administrativamente negligenciada mesmo para os padrões já modestos do colonialismo espanhol tardio.\n\nA independência, obtida em outubro de 1968 sob Francisco Macías Nguema, tornaria a Guiné Equatorial o único país africano de língua oficial espanhola — distinção linguística única que sobreviveria, de forma paradoxal, ao terror que se seguiria quase imediatamente à independência.",
+      "textoMdx": "Portugal cede à Espanha, pelo Tratado de El Pardo de 1778, direitos sobre as ilhas do Golfo da Guiné e reivindicações territoriais continentais — controle espanhol efetivo se consolidou apenas gradualmente ao longo do século seguinte, com a ilha de Fernando Pó brevemente arrendada à Grã-Bretanha como base naval antiescravagista no início do século XIX.\n\nA colônia da Guiné Espanhola, consolidada plenamente apenas por volta do início do século XX, permaneceu administrativamente negligenciada mesmo para os padrões já modestos do colonialismo espanhol tardio.\n\nA independência, obtida em outubro de 1968 sob Francisco Macías Nguema, tornou a Guiné Equatorial o único país africano de língua oficial espanhola — distinção linguística única que sobreviveu, de forma paradoxal, ao terror que se seguiu quase imediatamente à independência.",
       "fontes": [
         "liniger-goumaz-guine-equatorial"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Isla_de_Fernando_Poo_%E2%80%93_Vista_de_la_playa_y_ciudad_de_Santa_Isabel.jpg",
+        "alt": "Gravura do litoral e da cidade de Santa Isabel, com canoas na água, palmeiras e construções no sopé de uma montanha.",
+        "credito": "Federico Ruiz e Bernardo Rico · El Museo Universal",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Isla_de_Fernando_Poo_%E2%80%93_Vista_de_la_playa_y_ciudad_de_Santa_Isabel.jpg",
+        "legenda": "Vista de Santa Isabel, atual Malabo, publicada em 1864 durante a ocupação espanhola de Fernando Pó."
+      }
     },
     {
       "id": "gnq-macias-nguema-terror",
@@ -20,20 +28,36 @@
       "fim": "1979",
       "rotulo": "Terror de Macías Nguema",
       "regime": "um dos regimes totalitários mais extremos e mortíferos da história africana pós-colonial",
-      "textoMdx": "Francisco Macías Nguema transforma rapidamente seu governo em um dos regimes mais extremos já documentados na África independente — proíbe formalmente a própria palavra \"intelectual\", fecha todas as igrejas e escolas do país, e conduz campanha de terror sistemático contra qualquer suspeita de oposição.\n\nEstimativas históricas apontam que entre um terço da população equato-guineense teria morrido, sido executada ou fugido ao exílio ao longo dos onze anos de seu governo — proporção populacional devastadora que situaria o regime entre os mais letais do século XX em relação ao tamanho do país afetado.\n\nMacías Nguema é deposto, julgado e executado por seu próprio sobrinho, Teodoro Obiang Nguema Mbasogo, em golpe militar de 1979 — encerrando um dos capítulos mais sombrios de toda a história política africana pós-colonial.",
+      "textoMdx": "Francisco Macías Nguema transforma rapidamente seu governo em um dos regimes mais extremos já documentados na África independente — proíbe formalmente a própria palavra \"intelectual\", fecha todas as igrejas e escolas do país, e conduz campanha de terror sistemático contra qualquer suspeita de oposição.\n\nEstimativas históricas apontam que cerca de um terço da população equato-guineense morreu, foi executada ou fugiu ao exílio ao longo dos onze anos de seu governo — proporção populacional que situou o regime entre os mais letais do século XX em relação ao tamanho do país afetado.\n\nMacías Nguema é deposto, julgado e executado por seu próprio sobrinho, Teodoro Obiang Nguema Mbasogo, em golpe militar de 1979 — encerrando um dos capítulos mais sombrios de toda a história política africana pós-colonial.",
       "fontes": [
         "liniger-goumaz-guine-equatorial"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Don_Francisco_Macias.jpg",
+        "alt": "Retrato oficial em preto e branco de Francisco Macías Nguema usando terno escuro e gravata.",
+        "credito": "Anefo · Nationaal Archief",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Don_Francisco_Macias.jpg",
+        "legenda": "Francisco Macías Nguema em outubro de 1968, logo após ser eleito primeiro presidente da Guiné Equatorial."
+      }
     },
     {
       "id": "gnq-obiang-petroleo-atual",
       "inicio": "1979",
       "rotulo": "Era Obiang e o petróleo",
       "regime": "república presidencialista sob domínio pessoal prolongado, transformada pela riqueza petrolífera offshore",
-      "textoMdx": "Teodoro Obiang Nguema governa ininterruptamente desde 1979, tornando-se um dos chefes de Estado com mais tempo consecutivo no poder de todo o mundo contemporâneo.\n\nDescobertas maciças de petróleo offshore, nos anos 1990, transformam a pequena Guiné Equatorial numa das economias de maior renda per capita de toda a África — riqueza que permaneceria, contudo, extraordinariamente concentrada na família Obiang e em seu círculo íntimo, deixando a maioria da população em pobreza persistente apesar dos números macroeconômicos favoráveis.\n\n**O filho e vice-presidente Teodorín Obiang enfrentaria processos judiciais por corrupção na França e nos Estados Unidos, incluindo confisco judicial de mansão de luxo em Malibu e coleção de veículos avaliada em dezenas de milhões de dólares, adquiridos com fundos públicos desviados** — a Guiné Equatorial permanece, décadas depois da descoberta petrolífera, entre os Estados menos transparentes e mais repressivos do mundo, segundo organizações internacionais de direitos humanos.",
+      "textoMdx": "Teodoro Obiang Nguema governa ininterruptamente desde 1979, tornando-se um dos chefes de Estado com mais tempo consecutivo no poder de todo o mundo contemporâneo.\n\nDescobertas maciças de petróleo offshore, nos anos 1990, transformam a pequena Guiné Equatorial numa das economias de maior renda per capita de toda a África — riqueza que permaneceu, contudo, extraordinariamente concentrada na família Obiang e em seu círculo íntimo, deixando a maioria da população em pobreza persistente apesar dos números macroeconômicos favoráveis.\n\n**O filho e vice-presidente Teodorín Obiang enfrentou processos judiciais por corrupção na França e nos Estados Unidos, incluindo confisco judicial de mansão de luxo em Malibu e coleção de veículos avaliada em dezenas de milhões de dólares, adquiridos com fundos públicos desviados** — a Guiné Equatorial permanece, décadas depois da descoberta petrolífera, entre os Estados menos transparentes e mais repressivos do mundo, segundo organizações internacionais de direitos humanos.",
       "fontes": [
         "liniger-goumaz-guine-equatorial"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Teodoro_Obiang_with_Lula_da_Silva%2C_1650FRP006.jpg",
+        "alt": "Teodoro Obiang e Luiz Inácio Lula da Silva apertam as mãos diante das bandeiras da Guiné Equatorial e do Brasil.",
+        "credito": "Rodrigues Pozzebom · Agência Brasil",
+        "licenca": "CC BY 3.0 br",
+        "origem": "https://commons.wikimedia.org/wiki/File:Teodoro_Obiang_with_Lula_da_Silva,_1650FRP006.jpg",
+        "legenda": "Teodoro Obiang recebe Lula em 2008, durante a longa presidência financiada pela exploração de petróleo."
+      }
     }
   ]
 }

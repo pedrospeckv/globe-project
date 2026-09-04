@@ -13,7 +13,15 @@
       "fontes": [
         "walker-nicaragua",
         "perez-brignoli-america-central"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Carte_des_Provinces_de_Nicaragua_et_Costa_Rica_1764.png",
+        "alt": "Mapa histórico da Nicarágua e da Costa Rica, com litoral, rios, povoados e relevo representado por montanhas.",
+        "credito": "Jacques-Nicolas Bellin",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Carte%20des%20Provinces%20de%20Nicaragua%20et%20Costa%20Rica%201764.png",
+        "legenda": "Mapa das províncias da Nicarágua e Costa Rica publicado em 1764."
+      }
     },
     {
       "id": "ni-walker-e-conservadores",
@@ -25,7 +33,15 @@
       "fontes": [
         "walker-nicaragua",
         "perez-brignoli-america-central"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Maps_of_Nicaragua%2C_North_and_Central_America_-_population_and_square_miles_of_Nicaragua%2C_United_States%2C_Mexico%2C_British_and_Central_America%2C_with_routes_and_distances%3B_portraits_of_Gen._Walker%2C_Col._LOC_2004629019.jpg/1920px-thumbnail.jpg",
+        "alt": "Folha ilustrada reúne mapas da Nicarágua, rotas de viagem, dados populacionais e retratos de militares.",
+        "credito": "John Haven · Library of Congress",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Maps%20of%20Nicaragua%2C%20North%20and%20Central%20America%20-%20population%20and%20square%20miles%20of%20Nicaragua%2C%20United%20States%2C%20Mexico%2C%20British%20and%20Central%20America%2C%20with%20routes%20and%20distances%3B%20portraits%20of%20Gen.%20Walker%2C%20Col.%20LOC%202004629019.jpg",
+        "legenda": "Mapa e cartaz de 1856 com o retrato de William Walker e informações sobre sua campanha na Nicarágua."
+      }
     },
     {
       "id": "ni-ocupacao-e-sandino",
@@ -37,7 +53,15 @@
       "fontes": [
         "walker-nicaragua",
         "lafeber-revolucoes-inevitaveis"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Augusto_C%C3%A9sar_Sandino_cph.3b19320.jpg",
+        "alt": "Augusto César Sandino aparece sentado de chapéu e botas, ladeado por integrantes de seu estado-maior.",
+        "credito": "Underwood & Underwood · Library of Congress",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Augusto%20C%C3%A9sar%20Sandino%20cph.3b19320.jpg",
+        "legenda": "Augusto César Sandino e seu estado-maior fotografados em 3 de janeiro de 1928."
+      }
     },
     {
       "id": "ni-somoza",
@@ -48,7 +72,15 @@
       "textoMdx": "Quarenta e três anos de uma família no poder: o pai, e depois dois filhos, com presidentes interpostos quando conveniente, e a Guarda Nacional como instrumento e propriedade.\n\n**O Estado é administrado como patrimônio.** Os Somoza acumulam terras, gado, companhia aérea, cimento, pesca e imóveis, chegando a controlar uma parcela enorme da economia nacional. A Guarda Nacional é polícia, exército, correio, telégrafo, alfândega e fisco ao mesmo tempo.\n\n**O alinhamento externo é a garantia de sobrevivência.** A Nicarágua serve de base para a operação contra a Guatemala em 1954 e para a invasão da Baía dos Porcos em 1961. Somoza García é assassinado em 1956 pelo poeta Rigoberto López Pérez; sucede-o Luis, e depois Anastasio Somoza Debayle, formado em West Point.\n\n**O terremoto de 1972 destrói Manágua e a legitimidade do regime.** Cerca de dez mil mortos, o centro da capital arrasado, e a ajuda internacional desviada de forma tão ostensiva que setores empresariais até então aliados rompem com a família.\n\n**A FSLN cresce a partir de 1961 e vence em 1979.** A Frente Sandinista de Libertação Nacional, fundada por Carlos Fonseca, passa de guerrilha marginal a insurreição nacional depois do assassinato do jornalista Pedro Joaquín Chamorro em 1978, que provoca greve geral. A ofensiva final, em 1979, com insurreições urbanas simultâneas, derruba o regime; Somoza foge a Miami e depois ao Paraguai, onde é morto em 1980. O bombardeio de cidades próprias pela Guarda Nacional nos últimos meses deixa dezenas de milhares de mortos no total da guerra.",
       "fontes": [
         "walker-nicaragua"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Anastasio_Somoza_Debayle.PNG",
+        "alt": "Anastasio Somoza Debayle fala diante de microfones durante uma entrevista coletiva.",
+        "credito": "Autor desconhecido · U.S. National Archives",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Anastasio%20Somoza%20Debayle.PNG",
+        "legenda": "Anastasio Somoza Debayle em entrevista coletiva em San Salvador, em 6 de julho de 1968."
+      }
     },
     {
       "id": "ni-revolucao-sandinista",
@@ -60,7 +92,15 @@
       "fontes": [
         "walker-nicaragua",
         "cij-nicaragua-eua"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Dora_Mar%C3%ADa_y_combatientes.jpg/1920px-Dora_Mar%C3%ADa_y_combatientes.jpg",
+        "alt": "Dora María Téllez e combatentes sandinistas armados posam juntos em uma rua.",
+        "credito": "Dora María Téllez",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Dora%20Mar%C3%ADa%20y%20combatientes.jpg",
+        "legenda": "Dora María Téllez e combatentes durante a insurreição de León, em junho de 1979."
+      }
     },
     {
       "id": "ni-republica",
@@ -70,7 +110,15 @@
       "textoMdx": "Dezesseis anos de alternância seguidos de quase duas décadas em que o líder da revolução volta ao poder e desmonta as instituições que a própria transição havia criado.\n\n**A transição dos anos 1990 é de ajuste e desmobilização.** Chamorro reduz o exército, desmobiliza a Contra e aplica estabilização; segue-se Arnoldo Alemán, condenado depois por corrupção, e Enrique Bolaños. A pobreza permanece alta e a emigração cresce.\n\n**Ortega volta em 2007 com menos de 40% dos votos.** A vitória se dá com uma reforma eleitoral negociada com Alemán que baixou o piso do primeiro turno — o pacto entre adversários que é o marco inicial do arranjo seguinte. Vem então a aliança com a hierarquia católica, incluindo a proibição total do aborto em 2006, e com o grande empresariado, e o financiamento venezuelano pelo petróleo.\n\n**A reeleição indefinida é liberada por decisão judicial em 2009** e depois constitucionalizada. Em 2016, Rosario Murillo, esposa do presidente, é eleita vice-presidenta.\n\n**Abril de 2018 é a ruptura.** Protestos que começam contra uma reforma previdenciária e contra a resposta oficial a um incêndio na reserva Indio Maíz são reprimidos com centenas de mortos, segundo organismos internacionais. Segue-se o fechamento de organizações civis por milhares, o cancelamento da personalidade jurídica de universidades, a expulsão de bispos e a retirada de nacionalidade de opositores exilados — inclusive de escritores como Gioconda Belli e Sergio Ramírez, este último vice-presidente na própria revolução.\n\n**A eleição de 2021 ocorre com os candidatos presos.** Sete pré-candidatos de oposição são detidos meses antes do pleito. Em 2025, uma reforma constitucional institui a copresidência, formalizando o exercício conjunto do casal — e o país que produziu a insurreição contra uma dinastia familiar passou a ser governado por outra.",
       "fontes": [
         "walker-nicaragua"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Violeta_Chamorro_1991.jpg",
+        "alt": "Violeta Chamorro aparece de perfil durante uma visita oficial, usando roupa clara e colar.",
+        "credito": "European Commission Audiovisual Service",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Violeta%20Chamorro%201991.jpg",
+        "legenda": "A presidente Violeta Chamorro durante visita à Comissão Europeia em fevereiro de 1991."
+      }
     }
   ]
 }

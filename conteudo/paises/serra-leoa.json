@@ -9,10 +9,18 @@
       "fim": "1896",
       "rotulo": "Província da Liberdade e a Colônia da Coroa",
       "regime": "assentamento abolicionista britânico, depois colônia da coroa formada por sucessivas ondas de população liberta",
-      "textoMdx": "Abolicionistas britânicos fundam, em 1787, assentamento para ex-escravos libertos na região que se tornaria Serra Leoa — projeto batizado \"Província da Liberdade\", cuja capital, Freetown, seria estabelecida em 1792 por colonos negros leais à coroa britânica vindos da Nova Escócia, no Canadá, após lutarem ao lado dos britânicos na Revolução Americana.\n\n**Maroons jamaicanos, deportados após revolta na Jamaica, chegam em 1800, e milhares de africanos libertados de navios negreiros interceptados pela Marinha Real britânica após a abolição do tráfico em 1807 se somariam à população nas décadas seguintes** — mistura extraordinariamente diversa de origens que criaria a distintiva cultura e língua crioulas de Serra Leoa.\n\n**Freetown se torna base naval principal da esquadra britânica de combate ao tráfico transatlântico de escravos, e a colônia é elevada a Colônia da Coroa britânica em 1808** — os chamados \"recaptivos\", libertos diretamente dos navios negreiros, se tornariam elemento central e influente da sociedade crioula emergente.",
+      "textoMdx": "Abolicionistas britânicos fundam, em 1787, assentamento para ex-escravos libertos na região que se tornou Serra Leoa — projeto batizado \"Província da Liberdade\", cuja capital, Freetown, foi estabelecida em 1792 por colonos negros leais à coroa britânica vindos da Nova Escócia, no Canadá, após lutarem ao lado dos britânicos na Revolução Americana.\n\n**Maroons jamaicanos, deportados após revolta na Jamaica, chegam em 1800, e milhares de africanos libertados de navios negreiros interceptados pela Marinha Real britânica após a abolição do tráfico em 1807 somaram-se à população nas décadas seguintes** — mistura de origens que criou a cultura e língua crioulas de Serra Leoa.\n\n**Freetown se torna base naval da esquadra britânica de combate ao tráfico transatlântico de escravos, e a colônia é elevada a Colônia da Coroa britânica em 1808** — os chamados \"recaptivos\", libertos diretamente dos navios negreiros, tornaram-se elemento central e influente da sociedade crioula emergente.",
       "fontes": [
         "joe-alie-serra-leoa"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/A_view_of_Freetown%2C_1803.jpg",
+        "alt": "Gravura colorida mostra Freetown junto à costa, com casas, vegetação tropical e embarcações na baía.",
+        "credito": "Thomas Masterman Winterbottom",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:A%20view%20of%20Freetown%2C%201803.jpg",
+        "legenda": "Vista de Freetown publicada em 1803, durante a formação da colônia de libertos em Serra Leoa."
+      }
     },
     {
       "id": "sle-protetorado-britanico",
@@ -20,10 +28,18 @@
       "fim": "1961",
       "rotulo": "Protetorado Britânico",
       "regime": "colônia costeira e protetorado do interior, sob estatutos legais distintos e desiguais",
-      "textoMdx": "A Grã-Bretanha estende protetorado formal sobre o interior serra-leonês em 1896, criando estrutura administrativa dual que distingue juridicamente a população da colônia costeira, com direitos mais amplos, da população do protetorado interior, submetida a regras mais restritivas.\n\nA imposição de um imposto sobre habitações, em 1898, provoca revolta armada liderada pelo chefe Bai Bureh — a Guerra do Imposto sobre Choupanas mataria centenas antes de ser suprimida, expondo o ressentimento profundo contra a nova ordem tributária colonial.\n\nO movimento nacionalista cresce gradualmente ao longo da primeira metade do século XX, unificando politicamente, ainda que de forma tensa, as populações da colônia e do protetorado — independência plena seria obtida em abril de 1961, sob a liderança de Milton Margai.",
+      "textoMdx": "A Grã-Bretanha estende protetorado formal sobre o interior serra-leonês em 1896, criando estrutura administrativa dual que distingue juridicamente a população da colônia costeira, com direitos mais amplos, da população do protetorado interior, submetida a regras mais restritivas.\n\nA imposição de um imposto sobre habitações, em 1898, provoca revolta armada liderada pelo chefe Bai Bureh — a Guerra do Imposto sobre Choupanas matou centenas antes de ser suprimida, expondo o ressentimento contra a nova ordem tributária colonial.\n\nO movimento nacionalista cresce gradualmente ao longo da primeira metade do século XX, unificando politicamente, ainda que de forma tensa, as populações da colônia e do protetorado — a independência plena foi obtida em abril de 1961, sob a liderança de Milton Margai.",
       "fontes": [
         "joe-alie-serra-leoa"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Bai_Bureh_%281898%29.jpg",
+        "alt": "Bai Bureh aparece sentado, com barba e vestes tradicionais, sob custódia britânica.",
+        "credito": "Arthur Greer",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Bai%20Bureh%20(1898).jpg",
+        "legenda": "Bai Bureh fotografado em 1898, durante a Guerra do Imposto da Cabana contra o protetorado britânico."
+      }
     },
     {
       "id": "sle-independencia-stevens-partido-unico",
@@ -31,10 +47,18 @@
       "fim": "1991",
       "rotulo": "Independência e o partido único de Stevens",
       "regime": "república parlamentar, depois Estado de partido único sob domínio pessoal prolongado",
-      "textoMdx": "Milton Margai governa com relativa estabilidade os primeiros anos de independência, mas sua morte em 1964 abre disputa sucessória que Siaka Stevens venceria de forma contestada — consolidando poder pessoal cada vez mais absoluto ao longo das duas décadas seguintes.\n\n**Stevens formaliza Estado de partido único em 1978, enquanto a riqueza mineral do país, sobretudo diamantífera, seria progressivamente desviada por redes de corrupção e contrabando em vez de financiar desenvolvimento nacional** — colapso econômico e institucional que, ao final dos anos 1980, deixaria o país extremamente vulnerável à instabilidade armada que se seguiria.",
+      "textoMdx": "Milton Margai governa os primeiros anos de independência, mas sua morte em 1964 abre disputa sucessória que Siaka Stevens venceu de forma contestada — consolidando poder pessoal ao longo das duas décadas seguintes.\n\n**Stevens formaliza Estado de partido único em 1978, enquanto a riqueza mineral do país, sobretudo diamantífera, foi progressivamente desviada por redes de corrupção e contrabando em vez de financiar desenvolvimento nacional** — colapso econômico e institucional que, ao final dos anos 1980, deixou o país vulnerável à instabilidade armada que se seguiu.",
       "fontes": [
         "joe-alie-serra-leoa"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/President_Siaka_Stevens_at_US_Embassy_reception_in_Freetown.png",
+        "alt": "O presidente Siaka Stevens conversa com convidados durante uma recepção diplomática em Freetown.",
+        "credito": "U.S. Department of State",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:President%20Siaka%20Stevens%20at%20US%20Embassy%20reception%20in%20Freetown.png",
+        "legenda": "Siaka Stevens em recepção da embaixada dos Estados Unidos em Freetown, em 1976."
+      }
     },
     {
       "id": "sle-guerra-civil",
@@ -42,22 +66,38 @@
       "fim": "2002",
       "rotulo": "Guerra Civil",
       "regime": "Estado em colapso, fragmentado por insurgência armada extremamente violenta financiada por diamantes de conflito",
-      "textoMdx": "A Frente Revolucionária Unida, sob Foday Sankoh e apoiada inicialmente pelo senhor da guerra liberiano Charles Taylor, invade Serra Leoa em 1991, iniciando guerra civil que se tornaria notória internacionalmente pela brutalidade sistemática contra civis — amputação em massa de mãos, braços e pernas como tática deliberada de terror.\n\nO financiamento do conflito através da exploração e contrabando de diamantes — os chamados \"diamantes de sangue\" — atrairia atenção internacional que resultaria, anos depois, na criação do Processo de Kimberley, sistema de certificação destinado a impedir o comércio de pedras extraídas de zonas de conflito.\n\nA intervenção militar britânica de 2000, complementando força de paz nigeriana e depois da própria ONU, se provaria decisiva para encerrar o conflito — a guerra seria declarada oficialmente terminada em janeiro de 2002, deixando entre cinquenta e setenta mil mortos, e o Tribunal Especial para Serra Leoa condenaria, em 2012, o próprio Charles Taylor pelo apoio prestado ao RUF, primeira condenação de um ex-chefe de Estado por tribunal internacional desde Nuremberg.",
+      "textoMdx": "A Frente Revolucionária Unida, sob Foday Sankoh e apoiada inicialmente pelo senhor da guerra liberiano Charles Taylor, invade Serra Leoa em 1991, iniciando guerra civil marcada pela brutalidade contra civis — amputação em massa de mãos, braços e pernas como tática deliberada de terror.\n\nO financiamento do conflito através da exploração e contrabando de diamantes — os chamados \"diamantes de sangue\" — atraiu atenção internacional que resultou, anos depois, na criação do Processo de Kimberley, sistema de certificação destinado a impedir o comércio de pedras extraídas de zonas de conflito.\n\nA intervenção militar britânica de 2000, complementando força de paz nigeriana e depois da própria ONU, ajudou a encerrar o conflito — a guerra foi declarada oficialmente terminada em janeiro de 2002, deixando entre cinquenta e setenta mil mortos, e o Tribunal Especial para Serra Leoa condenou, em 2012, o próprio Charles Taylor pelo apoio prestado ao RUF, primeira condenação de um ex-chefe de Estado por tribunal internacional desde Nuremberg.",
       "fontes": [
         "joe-alie-serra-leoa",
         "lansana-gberie-guerra-serra-leoa",
         "tpi-serra-leoa-taylor-2012"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Defense.gov_News_Photo_970530-N-0217R-002.jpg",
+        "alt": "Civis evacuados caminham em fila por uma pista, escoltados por militares.",
+        "credito": "Nate Reuland · U.S. Navy",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Defense.gov%20News%20Photo%20970530-N-0217R-002.jpg",
+        "legenda": "Evacuação de civis em Freetown em 30 de maio de 1997, durante a guerra civil de Serra Leoa."
+      }
     },
     {
       "id": "sle-reconstrucao-ebola-atual",
       "inicio": "2002",
       "rotulo": "Reconstrução, o Ebola e a Serra Leoa contemporânea",
       "regime": "república democrática em reconstrução pós-guerra",
-      "textoMdx": "A reconstrução pós-guerra inclui desarmamento extenso de ex-combatentes e reformas na exploração diamantífera sob o novo sistema de certificação internacional, enquanto eleições democráticas sucessivas consolidam transições pacíficas de poder entre partidos rivais.\n\nA epidemia de Ebola, entre 2014 e 2016, sobrecarrega dramaticamente um sistema de saúde já fragilizado por mais de uma década de guerra civil, matando milhares de pessoas e expondo lacunas estruturais profundas na capacidade de resposta sanitária do país.\n\n**Serra Leoa manteria, apesar dos desafios persistentes de pobreza e reconstrução institucional, trajetória de relativa estabilidade democrática e paz civil nas décadas seguintes à guerra** — recuperação notável para um país que estivera, poucos anos antes, entre os símbolos mais visíveis de colapso estatal na África Ocidental.",
+      "textoMdx": "A reconstrução pós-guerra inclui desarmamento de ex-combatentes e reformas na exploração diamantífera sob o novo sistema de certificação internacional, enquanto eleições democráticas sucessivas consolidam transições pacíficas de poder entre partidos rivais.\n\nA epidemia de Ebola, entre 2014 e 2016, sobrecarrega um sistema de saúde já fragilizado por mais de uma década de guerra civil, matando milhares de pessoas e expondo lacunas estruturais na capacidade de resposta sanitária do país.\n\n**Serra Leoa manteve, apesar dos desafios de pobreza e reconstrução institucional, estabilidade democrática e paz civil nas décadas seguintes à guerra** — recuperação para um país que estivera, poucos anos antes, entre os símbolos de colapso estatal na África Ocidental.",
       "fontes": [
         "joe-alie-serra-leoa"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kenema_Hospital_Sierra_Leone_Ebola.JPG/1920px-Kenema_Hospital_Sierra_Leone_Ebola.JPG",
+        "alt": "Profissionais com roupas de proteção integral trabalham diante de uma ala isolada de hospital.",
+        "credito": "Leasmhar",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Kenema%20Hospital%20Sierra%20Leone%20Ebola.JPG",
+        "legenda": "Equipe do Hospital Governamental de Kenema durante a epidemia de ebola em Serra Leoa, em 2014."
+      }
     }
   ]
 }

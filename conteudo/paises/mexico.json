@@ -13,7 +13,15 @@
       "fontes": [
         "coe-os-maias",
         "leon-portilla-visao-vencidos"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Cabeza_Colosal_n%C2%BA1_del_Museo_Xalapa.jpg",
+        "alt": "Cabeça humana monumental de pedra, com olhos amendoados, nariz largo e capacete esculpido.",
+        "credito": "Olmec · Museu de Antropologia de Xalapa",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Cabeza_Colosal_n%C2%BA1_del_Museo_Xalapa.jpg",
+        "legenda": "Cabeça colossal olmeca número 1 de San Lorenzo, produzida entre 1200 e 900 a.C."
+      }
     },
     {
       "id": "mx-mexica",
@@ -25,7 +33,15 @@
       "fontes": [
         "leon-portilla-visao-vencidos",
         "coe-os-maias"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Piedra_del_Sol_en_MNA.jpg/1920px-Piedra_del_Sol_en_MNA.jpg",
+        "alt": "Grande disco circular de pedra coberto por figuras, rostos, símbolos e anéis concêntricos entalhados.",
+        "credito": "Juan Carlos Fonseca Mata",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Piedra_del_Sol_en_MNA.jpg",
+        "legenda": "Pedra do Sol mexica, produzida no fim do século XV ou início do XVI."
+      }
     },
     {
       "id": "mx-nova-espanha",
@@ -37,7 +53,15 @@
       "fontes": [
         "gibson-astecas-sob-espanha",
         "krauze-mexico-biografia-poder"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Colonial_Family%2C_New_Spain_%28Mexico%29.jpg",
+        "alt": "Pintura mostra um casal e uma criança em roupas do século XVIII, reunidos em um ambiente doméstico.",
+        "credito": "Miguel Cabrera",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Colonial_Family,_New_Spain_(Mexico).jpg",
+        "legenda": "Família colonial da Nova Espanha pintada por Miguel Cabrera em 1763."
+      }
     },
     {
       "id": "mx-primeira-republica",
@@ -49,7 +73,15 @@
       "fontes": [
         "krauze-mexico-biografia-poder",
         "tratado-guadalupe-hidalgo"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Acta_Independencia_Mexico_1821.jpg",
+        "alt": "Documento manuscrito apresenta colunas de texto, assinaturas e um selo no alto da página.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Acta_Independencia_Mexico_1821.jpg",
+        "legenda": "Ato de Independência do Império Mexicano, assinado em 28 de setembro de 1821."
+      }
     },
     {
       "id": "mx-reforma",
@@ -60,7 +92,15 @@
       "textoMdx": "Vinte anos que definem o Estado laico mexicano, com duas guerras civis e um arquiduque austríaco fuzilado.\n\n**As Leis de Reforma separam Igreja e Estado.** Sob Benito Juárez, indígena zapoteca de Oaxaca, e a geração de Melchor Ocampo e Sebastián Lerdo, o Estado nacionaliza os bens do clero, institui registro civil, casamento civil, cemitérios seculares e liberdade de culto, e a Constituição de 1857 consagra o desenho.\n\n**A desamortização atinge também as terras comunais indígenas.** A lei que obriga corporações a vender propriedades imobilizadas visava a Igreja, e alcançou as comunidades: parte de suas terras acaba em mãos de particulares. É a contradição central do liberalismo mexicano do período, e a raiz agrária da revolução meio século depois.\n\n**A Guerra da Reforma, de 1858 a 1861, é ganha pelos liberais.** Conservadores derrotados buscam apoio europeu, e a suspensão do pagamento da dívida externa por Juárez dá o pretexto: Espanha, Grã-Bretanha e França enviam esquadras em 1862. As duas primeiras se retiram; a França fica.\n\n**Cinco de maio de 1862.** O exército mexicano vence os franceses em Puebla — vitória tática que não impede a queda da capital no ano seguinte, e que se tornou a data mexicana mais celebrada fora do México.\n\n**Maximiliano governa três anos e é fuzilado.** Napoleão III instala o arquiduque Fernando Maximiliano de Habsburgo como imperador em 1864, com apoio conservador. Ele governa de forma mais liberal do que seus patrocinadores esperavam — confirma leis de reforma, tenta regular o trabalho indígena — e perde o apoio dos dois lados. Com a Guerra Civil norte-americana encerrada e pressão de Washington, a França retira as tropas em 1866; Maximiliano é capturado em Querétaro e fuzilado em junho de 1867. Juárez restaura a república e morre no cargo em 1872.",
       "fontes": [
         "krauze-mexico-biografia-poder"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Photograph_of_Benito_Juarez.jpg",
+        "alt": "Retrato fotográfico em preto e branco mostra Benito Juárez sentado, com terno escuro e mãos apoiadas sobre as pernas.",
+        "credito": "Fotógrafo desconhecido · Library of Congress",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Photograph_of_Benito_Juarez.jpg",
+        "legenda": "Benito Juárez fotografado por volta de 1872, durante a República Restaurada."
+      }
     },
     {
       "id": "mx-porfiriato",
@@ -72,7 +112,15 @@
       "fontes": [
         "krauze-mexico-biografia-poder",
         "knight-revolucao-mexicana"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/U.S._President_William_Taft_and_Mexican_President_Porfirio_D%C3%ADaz%2C_posed_in_the_Ciudad_Juarez_Customs_House_with_Captain_Archibald_Butt_%28left%29_and_Colonel_Pablos_Escandon_%28right%29_LCCN91789772.jpg",
+        "alt": "William Taft e Porfirio Díaz posam ao centro de um grupo de militares e autoridades em trajes formais.",
+        "credito": "Feldman, Fred J., photographer.",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:U.S._President_William_Taft_and_Mexican_President_Porfirio_D%C3%ADaz,_posed_in_the_Ciudad_Juarez_Customs_House_with_Captain_Archibald_Butt_(left)_and_Colonel_Pablos_Escandon_(right)_LCCN91789772.jpg",
+        "legenda": "Encontro de Porfirio Díaz e William Taft em Ciudad Juárez, em 10 de outubro de 1909."
+      }
     },
     {
       "id": "mx-revolucao",
@@ -84,7 +132,15 @@
       "fontes": [
         "knight-revolucao-mexicana",
         "constituicao-mexico-1917"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Mexican_revolution_LCCN2002697940.jpg",
+        "alt": "Grupo de combatentes armados posa junto a um trem, com rifles e cartucheiras visíveis.",
+        "credito": "Autor desconhecido · Library of Congress",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Mexican_revolution_LCCN2002697940.jpg",
+        "legenda": "Revolucionários mexicanos fotografados em 1911."
+      }
     },
     {
       "id": "mx-pri",
@@ -96,7 +152,15 @@
       "fontes": [
         "krauze-mexico-biografia-poder",
         "femospp-informe-historico"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Montuy_e_hijos%2C_octubre_de_1968.jpg",
+        "alt": "Mulher segura um cartaz ao lado de três crianças na Plaza de las Tres Culturas, entre pessoas reunidas.",
+        "credito": "Revista Alarma!",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Montuy_e_hijos,_octubre_de_1968.jpg",
+        "legenda": "Montuy e seus filhos durante a mobilização de Tlatelolco, em 2 de outubro de 1968."
+      }
     },
     {
       "id": "mx-alternancia",
@@ -107,7 +171,15 @@
       "fontes": [
         "krauze-mexico-biografia-poder",
         "giei-ayotzinapa"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/President_George_W._Bush_and_President_Vicente_Fox_Participate_in_Mexico_State_Arrival_-_DPLA_-_3f0a12f90194c0e4f2bb8b4229c8d9f8.JPG",
+        "alt": "Vicente Fox e George W. Bush caminham lado a lado durante uma cerimônia militar ao ar livre.",
+        "credito": "White House Photography Office · NARA",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:President_George_W._Bush_and_President_Vicente_Fox_Participate_in_Mexico_State_Arrival_-_DPLA_-_3f0a12f90194c0e4f2bb8b4229c8d9f8.JPG",
+        "legenda": "Vicente Fox em visita de Estado aos Estados Unidos em 5 de setembro de 2001."
+      }
     }
   ]
 }

@@ -9,10 +9,18 @@
       "fim": "1896",
       "rotulo": "Imamado de Futa Jalom",
       "regime": "confederação teocrática islâmica fulani, entre os primeiros Estados jihadistas da África Ocidental",
-      "textoMdx": "Comunidades fulani muçulmanas nas terras altas do Futa Jalom se organizam, a partir de 1727, em confederação teocrática que se tornaria um dos primeiros Estados jihadistas bem-sucedidos da África Ocidental — décadas antes dos movimentos jihadistas mais famosos do século XIX na região do Sokoto.\n\nO poder político e religioso do imamado alterna entre duas linhagens familiares rivais que se revezam na liderança suprema, o cargo de almamy — arranjo institucional que preservaria relativa estabilidade interna por mais de um século.\n\nO enfraquecimento gradual por disputas sucessórias internas, combinado com a resistência prolongada do vizinho Samory Touré contra o avanço colonial francês na mesma região, adiaria mas não impediria a conquista francesa definitiva do território, completada por volta da década de 1890.",
+      "textoMdx": "Comunidades fulani muçulmanas nas terras altas do Futa Jalom se organizam, a partir de 1727, em confederação teocrática que se tornou um dos primeiros Estados jihadistas bem-sucedidos da África Ocidental — décadas antes dos movimentos jihadistas mais famosos do século XIX na região do Sokoto.\n\nO poder político e religioso do imamado alterna entre duas linhagens familiares rivais que se revezam na liderança suprema, o cargo de almamy — arranjo institucional que preservou relativa estabilidade interna por mais de um século.\n\nO enfraquecimento gradual por disputas sucessórias internas, combinado com a resistência prolongada do vizinho Samory Touré contra o avanço colonial francês na mesma região, adiou mas não impediu a conquista francesa definitiva do território, completada por volta da década de 1890.",
       "fontes": [
         "elizabeth-schmidt-guine"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Gaspard_Th%C3%A9odore_Mollien._Itin%C3%A9raire_de_son_voyage_au_S%C3%A9n%C3%A9gal_et_au_Fouta-Djallon%2C_6_ao%C3%BBt_1820-8_octobre_1821_%2810_p.%29_-_btv1b10888907n_%2805_of_13%29.jpg/1920px-Gaspard_Th%C3%A9odore_Mollien._Itin%C3%A9raire_de_son_voyage_au_S%C3%A9n%C3%A9gal_et_au_Fouta-Djallon%2C_6_ao%C3%BBt_1820-8_octobre_1821_%2810_p.%29_-_btv1b10888907n_%2805_of_13%29.jpg",
+        "alt": "Página manuscrita em francês apresenta linhas densas de texto e anotações do itinerário por Futa Jalom.",
+        "credito": "Gaspard-Théodore Mollien · Bibliothèque nationale de France",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Gaspard_Th%C3%A9odore_Mollien._Itin%C3%A9raire_de_son_voyage_au_S%C3%A9n%C3%A9gal_et_au_Fouta-Djallon,_6_ao%C3%BBt_1820-8_octobre_1821_(10_p.)_-_btv1b10888907n_(05_of_13).jpg",
+        "legenda": "Gaspard-Théodore Mollien registrou neste manuscrito sua viagem ao Futa Jalom entre 1820 e 1821."
+      }
     },
     {
       "id": "gin-guine-francesa",
@@ -20,10 +28,18 @@
       "fim": "1958",
       "rotulo": "Guiné Francesa",
       "regime": "colônia francesa integrada à África Ocidental Francesa",
-      "textoMdx": "A colônia da Guiné Francesa se consolida como parte da vasta África Ocidental Francesa, com economia progressivamente voltada à extração mineral, sobretudo bauxita, cujas reservas se revelariam entre as maiores do mundo.\n\nAhmed Sékou Touré, descendente direto do lendário resistente anticolonial Samory Touré, emerge como líder sindical e depois nacionalista dominante nos anos 1950, articulando movimento de independência que se distinguiria decisivamente do restante da África francesa.\n\nNo histórico referendo de 1958 sobre a Comunidade Francesa proposta pelo general de Gaulle, a Guiné é o único território francês africano a votar \"não\" — Sékou Touré declara publicamente preferir \"a pobreza na liberdade à riqueza na escravidão\", e a França reagiria retirando-se abruptamente, levando consigo ou destruindo documentação administrativa e infraestrutura antes de partir.",
+      "textoMdx": "A colônia da Guiné Francesa se consolida como parte da vasta África Ocidental Francesa, com economia progressivamente voltada à extração mineral, sobretudo bauxita, cujas reservas se revelaram entre as maiores do mundo.\n\nAhmed Sékou Touré, descendente direto do lendário resistente anticolonial Samory Touré, emerge como líder sindical e depois nacionalista dominante nos anos 1950, articulando movimento de independência que se distinguiu do restante da África francesa.\n\nNo histórico referendo de 1958 sobre a Comunidade Francesa proposta pelo general de Gaulle, a Guiné é o único território francês africano a votar \"não\" — Sékou Touré declara publicamente preferir \"a pobreza na liberdade à riqueza na escravidão\", e a França reagiu retirando-se abruptamente, levando consigo ou destruindo documentação administrativa e infraestrutura antes de partir.",
       "fontes": [
         "elizabeth-schmidt-guine"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/La_Guin%C3%A9e_fran%C3%A7aise%2C_Exposition_Universelle_1900.jpg/1920px-La_Guin%C3%A9e_fran%C3%A7aise%2C_Exposition_Universelle_1900.jpg",
+        "alt": "Pavilhão da Guiné Francesa na Exposição de 1900 apresenta construções decoradas diante de visitantes.",
+        "credito": "Autor não identificado",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:La_Guin%C3%A9e_fran%C3%A7aise,_Exposition_Universelle_1900.jpg",
+        "legenda": "O pavilhão da Guiné Francesa na Exposição Universal de Paris de 1900 reproduzia moradias atribuídas à colônia."
+      }
     },
     {
       "id": "gin-sekou-toure-totalitarismo",
@@ -31,20 +47,36 @@
       "fim": "1984",
       "rotulo": "Ditadura totalitária de Sékou Touré",
       "regime": "república socialista de partido único, sob um dos regimes mais repressivos da África pós-colonial",
-      "textoMdx": "A independência guineense de outubro de 1958, obtida meses antes de qualquer outra colônia francesa africana, começa sob promessa pan-africanista otimista de Sékou Touré — que se transformaria, ao longo de 26 anos ininterruptos no poder, em um dos regimes mais paranoicos e repressivos de toda a África independente.\n\nA rede de campos de prisão política do regime, com o notório Campo Boiro à frente, mataria dezenas de milhares de guineenses reais ou supostamente opositores através de purgas sucessivas, execuções sumárias e tortura sistemática ao longo de mais de duas décadas.\n\nA riqueza mineral guineense, sobretudo em bauxita, seria mal administrada sob planejamento econômico centralizado ineficiente — Sékou Touré morreria subitamente em 1984, durante tratamento médico no exterior, sem jamais responder por décadas de repressão sistemática.",
+      "textoMdx": "A independência guineense de outubro de 1958, obtida meses antes de qualquer outra colônia francesa africana, começa sob promessa pan-africanista otimista de Sékou Touré — que se transformou, ao longo de 26 anos ininterruptos no poder, em um dos regimes mais paranoicos e repressivos de toda a África independente.\n\nA rede de campos de prisão política do regime, com o notório Campo Boiro à frente, matou dezenas de milhares de guineenses reais ou supostamente opositores através de purgas sucessivas, execuções sumárias e tortura sistemática ao longo de mais de duas décadas.\n\nA riqueza mineral guineense, sobretudo em bauxita, foi mal administrada sob planejamento econômico centralizado ineficiente — Sékou Touré morreu subitamente em 1984, durante tratamento médico no exterior, sem jamais responder por décadas de repressão sistemática.",
       "fontes": [
         "elizabeth-schmidt-guine"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Ahmed_Seko%C3%BA_in_1962_at_White_House_cropped.jpg",
+        "alt": "Ahmed Sékou Touré e John F. Kennedy caminham lado a lado por um corredor da Casa Branca.",
+        "credito": "Robert Knudsen · John F. Kennedy Presidential Library",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Ahmed_Seko%C3%BA_in_1962_at_White_House_cropped.jpg",
+        "legenda": "Sékou Touré encontra John F. Kennedy na Casa Branca em outubro de 1962, durante seu governo de partido único."
+      }
     },
     {
       "id": "gin-conte-conde-golpes-atual",
       "inicio": "1984",
       "rotulo": "De Conté a Condé: golpes e a democracia interrompida",
       "regime": "sucessivos regimes militares e civis autoritários, interrompidos por breve democracia competitiva",
-      "textoMdx": "Lansana Conté toma o poder por golpe militar dias após a morte de Sékou Touré, governando por 24 anos com liberalização política cautelosa que jamais comprometeria seu próprio domínio pessoal absoluto — morreria em exercício do cargo em 2008.\n\nO caos militar que se segue sob Moussa Dadis Camara culmina no massacre do estádio de Conacri, em setembro de 2009, quando tropas governamentais matam e estupram publicamente dezenas de manifestantes opositores reunidos pacificamente — mais de cento e cinquenta mortos em episódio amplamente condenado internacionalmente.\n\n**Alpha Condé vence, em 2010, a primeira eleição verdadeiramente competitiva e democrática da história guineense — mas sua própria busca por terceiro mandato controverso, através de reforma constitucional em 2020, provocaria repressão e instabilidade renovadas, culminando em golpe militar liderado por Mamady Doumbouya em setembro de 2021**, que depõe Condé e instaura junta militar de transição cujo cronograma de retorno ao governo civil permanece incerto.",
+      "textoMdx": "Lansana Conté toma o poder por golpe militar dias após a morte de Sékou Touré, governando por 24 anos com liberalização política cautelosa que jamais comprometeu seu próprio domínio pessoal absoluto — morreu em exercício do cargo em 2008.\n\nO caos militar que se segue sob Moussa Dadis Camara culmina no massacre do estádio de Conacri, em setembro de 2009, quando tropas governamentais matam e estupram publicamente dezenas de manifestantes opositores reunidos pacificamente — mais de cento e cinquenta mortos em episódio amplamente condenado internacionalmente.\n\n**Alpha Condé vence, em 2010, a primeira eleição verdadeiramente competitiva e democrática da história guineense — mas sua própria busca por terceiro mandato controverso, através de reforma constitucional em 2020, provocou repressão e instabilidade renovadas, culminando em golpe militar liderado por Mamady Doumbouya em setembro de 2021**, que depõe Condé e instaura junta militar de transição cujo cronograma de retorno ao governo civil permanece incerto.",
       "fontes": [
         "elizabeth-schmidt-guine"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Alpha_Cond%C3%A9_2014-10-09.jpg",
+        "alt": "Alpha Condé e John Kerry apertam as mãos diante das bandeiras da Guiné e dos Estados Unidos.",
+        "credito": "U.S. Department of State",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Alpha_Cond%C3%A9_2014-10-09.jpg",
+        "legenda": "Alpha Condé encontra o secretário de Estado John Kerry em Washington em outubro de 2014."
+      }
     }
   ]
 }

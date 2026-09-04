@@ -13,7 +13,15 @@
       "fontes": [
         "audrey-altstadt-azerbaijao",
         "tratado-turkmenchay-1828"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Coin_karabakh_khanate.jpg",
+        "alt": "Fotografia mostra as duas faces de uma moeda metálica irregular coberta por inscrições árabes.",
+        "credito": "Самый древний",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Coin_karabakh_khanate.jpg",
+        "legenda": "Moeda panahabadi do Canato de Karabakh, cunhada por volta de 1787."
+      }
     },
     {
       "id": "aze-imperio-russo",
@@ -21,10 +29,18 @@
       "fim": "1918",
       "rotulo": "Azerbaijão dentro do Império Russo",
       "regime": "governadorias do Império Russo",
-      "textoMdx": "A anexação russa integra o território azerbaijano como província periférica do império, situação que se transformaria radicalmente com a descoberta de grandes reservas de petróleo em torno de Baku a partir da década de 1870 — a cidade se tornaria, por volta de 1900, produtora de mais da metade do petróleo mundial, atraindo investimento maciço, inclusive das famílias Nobel e Rothschild.\n\n**O boom petrolífero transforma Baku em cidade cosmopolita e industrializada, mas também palco de tensão étnica crescente entre populações armênia e azerbaijana, que explode nos massacres inter-comunitários de 1905, conhecidos como massacres armênio-tártaros** — violência que prenunciaria, décadas depois, o conflito de Nagorno-Karabakh.\n\nO colapso do Império Russo, em 1917, abre caminho para independência azerbaijana dentro de federação transcaucásica de curta duração, dissolvida já em 1918 diante de divergências entre georgianos, armênios e azerbaijanos.",
+      "textoMdx": "A anexação russa integra o território azerbaijano como província periférica do império, situação que se transformou radicalmente com a descoberta de grandes reservas de petróleo em torno de Baku a partir da década de 1870 — a cidade se tornou, por volta de 1900, produtora de mais da metade do petróleo mundial, atraindo investimento maciço, inclusive das famílias Nobel e Rothschild.\n\n**O boom petrolífero transforma Baku em cidade cosmopolita e industrializada, mas também palco de tensão étnica crescente entre populações armênia e azerbaijana, que explode nos massacres inter-comunitários de 1905, conhecidos como massacres armênio-tártaros** — violência que prenunciou, décadas depois, o conflito de Nagorno-Karabakh.\n\nO colapso do Império Russo, em 1917, abre caminho para independência azerbaijana dentro de federação transcaucásica de curta duração, dissolvida já em 1918 diante de divergências entre georgianos, armênios e azerbaijanos.",
       "fontes": [
         "audrey-altstadt-azerbaijao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Naftaproduktionsbolaget_Br%C3%B6derna_Nobel%2C_Baku_%286312004064%29.jpg",
+        "alt": "Fotografia histórica mostra operários e instalações industriais entre grandes tanques e tubulações de uma refinaria de petróleo.",
+        "credito": "Autor desconhecido · Tekniska museet",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Naftaproduktionsbolaget_Br%C3%B6derna_Nobel,_Baku_(6312004064).jpg",
+        "legenda": "Purificação de petróleo nas instalações dos Irmãos Nobel em Baku por volta de 1900."
+      }
     },
     {
       "id": "aze-primeira-republica",
@@ -32,10 +48,18 @@
       "fim": "1920",
       "rotulo": "República Democrática do Azerbaijão",
       "regime": "república parlamentar, primeira democracia secular do mundo muçulmano",
-      "textoMdx": "O Azerbaijão proclama independência em maio de 1918, tornando-se a primeira república democrática secular do mundo muçulmano, com Baku, rica em petróleo, mas ainda disputada, alcançada como capital apenas meses depois.\n\n**A jovem república concede sufrágio feminino pleno em 1919, entre os primeiros países do mundo a fazê-lo — mais cedo que a maioria das democracias ocidentais europeias**, e mantém parlamento multipartidário que inclui representação de minorias étnicas e religiosas.\n\n**O Exército Vermelho invade em abril de 1920, atraído em parte pela importância estratégica do petróleo de Baku para a economia soviética emergente, sovietizando o país em poucos dias de resistência** — a breve experiência republicana deixaria legado simbólico que o Azerbaijão independente readotaria em 1991, incluindo a bandeira tricolor original.",
+      "textoMdx": "O Azerbaijão proclama independência em maio de 1918, tornando-se a primeira república democrática secular do mundo muçulmano, com Baku, rica em petróleo, mas ainda disputada, alcançada como capital apenas meses depois.\n\n**A jovem república concede sufrágio feminino pleno em 1919, entre os primeiros países do mundo a fazê-lo — mais cedo que a maioria das democracias ocidentais europeias**, e mantém parlamento multipartidário que inclui representação de minorias étnicas e religiosas.\n\n**O Exército Vermelho invade em abril de 1920, atraído em parte pela importância estratégica do petróleo de Baku para a economia soviética emergente, sovietizando o país em poucos dias de resistência** — a breve experiência republicana deixou legado simbólico que o Azerbaijão independente readotou em 1991, incluindo a bandeira tricolor original.",
       "fontes": [
         "audrey-altstadt-azerbaijao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Session_of_the_Parliament_of_the_Azerbaijan_Democratic_Republic.jpg/1920px-Session_of_the_Parliament_of_the_Azerbaijan_Democratic_Republic.jpg",
+        "alt": "Fotografia em preto e branco de parlamentares reunidos em fileiras num salão de paredes ornamentadas, diante de grandes janelas e cortinas.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Session_of_the_Parliament_of_the_Azerbaijan_Democratic_Republic.jpg",
+        "legenda": "Sessão do Parlamento da República Democrática do Azerbaijão em 12 de março de 1919."
+      }
     },
     {
       "id": "aze-azerbaijao-sovietico",
@@ -43,22 +67,38 @@
       "fim": "1991",
       "rotulo": "República Socialista Soviética do Azerbaijão",
       "regime": "república socialista soviética de partido único",
-      "textoMdx": "O petróleo de Baku permanece central à economia soviética ao longo de todo o período, e se tornaria alvo estratégico direto da invasão nazista em 1942 — a campanha alemã rumo ao Cáucaso, interrompida pela derrota em Stalingrado, visava explicitamente cortar o abastecimento petrolífero soviético na fonte.\n\n**A atribuição de Nagorno-Karabakh, região de maioria populacional armênia, como oblast autônomo dentro do próprio Azerbaijão soviético, decidida por Moscou em 1923, estabeleceria a base territorial do conflito que explodiria seis décadas depois** — arranjo que o Azerbaijão defenderia sempre como legítimo por integridade territorial soviética herdada, e que a Armênia contestaria como imposição arbitrária de Stálin.\n\n**O pogrom de Sumgait, em fevereiro de 1988, no qual multidões azerbaijanas atacam e matam dezenas de residentes armênios da cidade, marca o início da violência interétnica aberta que precederia a dissolução soviética** — episódio que a Armênia recorda como prenúncio direto do primeiro conflito de Karabakh.",
+      "textoMdx": "O petróleo de Baku permanece central à economia soviética ao longo de todo o período, e se tornou alvo estratégico direto da invasão nazista em 1942 — a campanha alemã rumo ao Cáucaso, interrompida pela derrota em Stalingrado, visava explicitamente cortar o abastecimento petrolífero soviético na fonte.\n\n**A atribuição de Nagorno-Karabakh, região de maioria populacional armênia, como oblast autônomo dentro do próprio Azerbaijão soviético, decidida por Moscou em 1923, estabeleceu a base territorial do conflito que explodiu seis décadas depois** — arranjo que o Azerbaijão defendeu sempre como legítimo por integridade territorial soviética herdada, e que a Armênia contestou como imposição arbitrária de Stálin.\n\n**O pogrom de Sumgait, em fevereiro de 1988, no qual multidões azerbaijanas atacam e matam dezenas de residentes armênios da cidade, marca o início da violência interétnica aberta que precedeu a dissolução soviética** — episódio que a Armênia recorda como prenúncio direto do primeiro conflito de Karabakh.",
       "fontes": [
         "audrey-altstadt-azerbaijao",
         "thomas-de-waal-jardim-negro"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Black_January_%2818%29.jpg",
+        "alt": "Multidão cerca veículos blindados numa rua de Baku, com edifícios urbanos ao fundo.",
+        "credito": "Azerbaijan State News Agency",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Black_January_(18).jpg",
+        "legenda": "Cena do Janeiro Negro em Baku, em 1990, durante a repressão soviética ao movimento nacional azerbaijano."
+      }
     },
     {
       "id": "aze-independencia-atual",
       "inicio": "1991",
       "rotulo": "República do Azerbaijão independente",
       "regime": "república presidencialista",
-      "textoMdx": "A independência azerbaijana, declarada em outubro de 1991, coincide com a escalada da primeira guerra de Nagorno-Karabakh, que terminaria em 1994 com derrota azerbaijana e perda de controle não apenas sobre o próprio Karabakh, mas também sobre territórios adjacentes — gerando mais de seiscentos mil deslocados internos azerbaijanos.\n\n**Heydar Aliyev, ex-chefe da KGB azerbaijana e membro do politburo soviético, assume o poder em 1993 e o transmite ao filho Ilham em 2003, estabelecendo domínio familiar contínuo sobre a política do país** — regime que combina autoritarismo político persistente com riqueza petrolífera crescente, explorada através de contratos com companhias ocidentais a partir de meados dos anos 1990.\n\n**A Segunda Guerra de Nagorno-Karabakh, em 2020, reverte decisivamente o resultado de 1994: o exército azerbaijano, modernizado com drones turcos e israelenses, recupera a maior parte dos territórios perdidos** — a declaração trilateral de cessar-fogo, mediada pela Rússia, consolida os ganhos, e em setembro de 2023 uma ofensiva final retoma o controle total de Nagorno-Karabakh, provocando êxodo quase completo da população armênia local em poucos dias — episódio que o Azerbaijão celebra como restauração da integridade territorial, e que organizações de direitos humanos armênias descrevem como limpeza étnica.",
+      "textoMdx": "A independência azerbaijana, declarada em outubro de 1991, coincide com a escalada da primeira guerra de Nagorno-Karabakh, que terminou em 1994 com derrota azerbaijana e perda de controle não apenas sobre o próprio Karabakh, mas também sobre territórios adjacentes — gerando mais de seiscentos mil deslocados internos azerbaijanos.\n\n**Heydar Aliyev, ex-chefe da KGB azerbaijana e membro do politburo soviético, assume o poder em 1993 e o transmite ao filho Ilham em 2003, estabelecendo domínio familiar contínuo sobre a política do país** — regime que combina autoritarismo político persistente com riqueza petrolífera crescente, explorada através de contratos com companhias ocidentais a partir de meados dos anos 1990.\n\n**A Segunda Guerra de Nagorno-Karabakh, em 2020, reverte o resultado de 1994: o exército azerbaijano, modernizado com drones turcos e israelenses, recupera a maior parte dos territórios perdidos** — a declaração trilateral de cessar-fogo, mediada pela Rússia, consolida os ganhos, e em setembro de 2023 uma ofensiva final retoma o controle total de Nagorno-Karabakh, provocando êxodo quase completo da população armênia local em poucos dias — episódio que o Azerbaijão celebra como restauração da integridade territorial, e que organizações de direitos humanos armênias descrevem como limpeza étnica.",
       "fontes": [
         "thomas-de-waal-jardim-negro",
         "declaracao-trilateral-karabakh-2020"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Heydar_Aliyev_1997.jpg",
+        "alt": "Heydar Aliyev, de terno escuro, fala diante de microfones durante uma visita ao Pentágono.",
+        "credito": "R. D. Ward · U.S. Department of Defense",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Heydar_Aliyev_1997.jpg",
+        "legenda": "O presidente Heydar Aliyev durante visita ao Pentágono em julho de 1997."
+      }
     }
   ]
 }

@@ -12,7 +12,15 @@
       "textoMdx": "A menor província da capitania é também a mais densamente povoada, e essa combinação — pouca terra, muita gente — atravessa a história salvadorenha inteira.\n\n**Os pipis resistem e são submetidos.** Alvarado enfrenta em 1524 os pipis de Cuscatlán, de língua aparentada ao náuatle, e a conquista leva anos. A população indígena é reunida em povoados e tributada.\n\n**O índigo organiza a economia colonial.** O corante azul extraído do xiquilite é a principal exportação da capitania inteira, e El Salvador é o centro da produção. Diferente do açúcar caribenho, a produção combina fazendas médias com trabalho indígena sazonal, e não plantation escravista de larga escala.\n\n**A independência não muda a estrutura da terra.** Declarada em 1821 sem guerra, seguida da adesão ao México e depois da federação centro-americana, ela mantém intacta a propriedade e a hierarquia social. José Matías Delgado, sacerdote salvadorenho, é figura central do processo, e El Salvador resiste à anexação mexicana chegando a pedir incorporação aos Estados Unidos em 1822 — episódio pouco lembrado.\n\n**O corante sintético mata o índigo e abre espaço ao café.** Quando a química alemã produz anilina sintética, nos anos 1870, a exportação salvadorenha desaba — e a resposta é a mesma da Guatemala: converter a terra ao café.",
       "fontes": [
         "perez-brignoli-america-central"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Map_of_Central_America_Including_the_States_of_Guatemala%2C_Salvador%2C_Honduras%2C_Nicaragua_and_Costa_Rica%2C_the_Territories_of_Belise_and_Mosquito%2C_with_Parts_of_Mexico%2C_Yucatan_and_New_Granada_WDL654.png",
+        "alt": "Mapa colorido da América Central mostra Salvador e os países vizinhos, com relevo, rios, cidades e limites políticos.",
+        "credito": "John Baily · World Digital Library",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Map_of_Central_America_Including_the_States_of_Guatemala,_Salvador,_Honduras,_Nicaragua_and_Costa_Rica,_the_Territories_of_Belise_and_Mosquito,_with_Parts_of_Mexico,_Yucatan_and_New_Granada_WDL654.png",
+        "legenda": "John Baily publicou este mapa da América Central em 1850, quando o índigo ainda estruturava a economia salvadorenha."
+      }
     },
     {
       "id": "sv-cafe-e-oligarquia",
@@ -24,7 +32,15 @@
       "fontes": [
         "perez-brignoli-america-central",
         "lafeber-revolucoes-inevitaveis"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Drying_coffee_on_a_plantation_in_El_Salvador%28GN03500%29.jpg/1920px-Drying_coffee_on_a_plantation_in_El_Salvador%28GN03500%29.jpg",
+        "alt": "Trabalhadores espalham grãos de café para secagem num grande terreiro de uma fazenda salvadorenha.",
+        "credito": "State Government Photographer",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Drying_coffee_on_a_plantation_in_El_Salvador(GN03500).jpg",
+        "legenda": "Grãos de café secam numa fazenda de El Salvador por volta de 1905, durante a consolidação da república cafeeira."
+      }
     },
     {
       "id": "sv-guerra-civil",
@@ -36,7 +52,15 @@
       "fontes": [
         "cv-el-salvador",
         "acordos-chapultepec"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Mano_Blanco-1.jpg/1920px-Mano_Blanco-1.jpg",
+        "alt": "Cartão escuro exibe a silhueta branca de uma mão aberta e o nome Mano Blanco em letras claras.",
+        "credito": "Willmore1957",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Mano_Blanco-1.jpg",
+        "legenda": "A marca da Mano Blanco, fotografada em 1981, era deixada por um dos esquadrões da morte ativos durante a guerra civil."
+      }
     },
     {
       "id": "sv-pos-guerra",
@@ -47,7 +71,15 @@
       "fontes": [
         "cv-el-salvador",
         "acordos-chapultepec"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Nayib_Bukele_and_the_armed_forces_in_2019_%28E0A1211%29.jpg/1920px-Nayib_Bukele_and_the_armed_forces_in_2019_%28E0A1211%29.jpg",
+        "alt": "Nayib Bukele caminha ao lado de oficiais das Forças Armadas salvadorenhas durante uma cerimônia pública.",
+        "credito": "Casa Presidencial El Salvador",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Nayib_Bukele_and_the_armed_forces_in_2019_(E0A1211).jpg",
+        "legenda": "Nayib Bukele aparece com integrantes das Forças Armadas em junho de 2019, no início de sua presidência."
+      }
     }
   ]
 }

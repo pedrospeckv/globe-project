@@ -9,11 +9,19 @@
       "fim": "1915",
       "rotulo": "Sultanato de Sulu",
       "regime": "sultanato islâmico, controlando o arquipélago de Sulu e partes do norte de Bornéu",
-      "textoMdx": "O sultanato de Sulu, fundado por volta de 1405 por Sayyid Abu Bakr, converte o arquipélago do sul filipino ao islã e se torna potência comercial e naval regional, controlando rotas entre o sudeste asiático marítimo e a China, além de partes do norte de Bornéu.\n\n**Sulu resiste à conquista espanhola por mais de três séculos, ao contrário da maior parte do arquipélago filipino ao norte, mantendo guerra naval e terrestre intermitente contra as forças coloniais espanholas sem jamais ser plenamente subjugado** — distinção que separaria historicamente o sul filipino muçulmano do norte cristianizado por Madri.\n\nO sultão cede direitos sobre o norte de Bornéu a uma companhia comercial britânica em 1878, através de acordo cuja natureza exata — arrendamento perpétuo ou cessão de soberania — permanece disputada juridicamente até hoje entre a Malásia e as Filipinas.\n\n**O Acordo Carpenter, de 1915, transfere a soberania política do sultanato à administração colonial americana, preservando apenas autoridade religiosa nominal ao sultão** — encerrando de facto a independência política de Sulu, embora a linha sucessória titular persista informalmente, e de forma disputada, até o presente.",
+      "textoMdx": "O sultanato de Sulu, fundado por volta de 1405 por Sayyid Abu Bakr, converte o arquipélago do sul filipino ao islã e se torna potência comercial e naval regional, controlando rotas entre o sudeste asiático marítimo e a China, além de partes do norte de Bornéu.\n\n**Sulu resiste à conquista espanhola por mais de três séculos, ao contrário da maior parte do arquipélago filipino ao norte, mantendo guerra naval e terrestre intermitente contra as forças coloniais espanholas sem jamais ser plenamente subjugado** — distinção que separou historicamente o sul filipino muçulmano do norte cristianizado por Madri.\n\nO sultão cede direitos sobre o norte de Bornéu a uma companhia comercial britânica em 1878, através de acordo cuja natureza exata — arrendamento perpétuo ou cessão de soberania — permanece disputada juridicamente até hoje entre a Malásia e as Filipinas.\n\n**O Acordo Carpenter, de 1915, transfere a soberania política do sultanato à administração colonial americana, preservando apenas autoridade religiosa nominal ao sultão** — encerrando de facto a independência política de Sulu, embora a linha sucessória titular persista informalmente, e de forma disputada, até o presente.",
       "fontes": [
         "luis-francia-filipinas",
         "acordo-carpenter-1915"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Major_Hugh_Scott%2C_Military_Governor_of_the_Sulu_Archipelago%2C_Philippines%2C_Sultan_Jamalul_Kiram_II%2C_interpreter_Charles_Schuck%2C_and_local_government_officials_and_hadjis%2C_dressed_to_call_on_LCCN2016650207.jpg/1920px-thumbnail.jpg",
+        "alt": "Fotografia em preto e branco de uma grande comitiva de autoridades de Sulu e oficiais norte-americanos posando diante de um edifício.",
+        "credito": "Autor desconhecido · Library of Congress",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Major_Hugh_Scott,_Military_Governor_of_the_Sulu_Archipelago,_Philippines,_Sultan_Jamalul_Kiram_II,_interpreter_Charles_Schuck,_and_local_government_officials_and_hadjis,_dressed_to_call_on_LCCN2016650207.jpg",
+        "legenda": "O sultão Jamalul Kiram II entre autoridades de Sulu e oficiais norte-americanos, por volta de 1905."
+      }
     },
     {
       "id": "phl-colonizacao-espanhola",
@@ -21,10 +29,18 @@
       "fim": "1898",
       "rotulo": "Colonização espanhola",
       "regime": "colônia espanhola administrada a partir do México, sob forte domínio das ordens religiosas católicas",
-      "textoMdx": "Miguel López de Legazpi estabelece a primeira colônia espanhola permanente em 1565, fundando Manila em 1571 como capital de território que se tornaria o único país asiático de maioria populacional católica — conversão religiosa em massa conduzida por ordens franciscanas, dominicanas e agostinianas que exerceriam poder social e econômico imenso ao longo de todo o período colonial.\n\n**O Galeão de Manila, rota comercial que conectaria as Filipinas, através do México, à Espanha por mais de dois séculos, entre 1565 e 1815, torna Manila entreposto crucial do comércio global entre a Ásia e as Américas** — prata mexicana trocada por seda e porcelana chinesas, numa das primeiras redes comerciais verdadeiramente globais da história.\n\n**A execução do médico e escritor José Rizal, em 1896, por suposta sedição, transforma-o em mártir nacional e precipita a Revolução Filipina contra o domínio espanhol** — revolta que, embora não derrotasse militarmente a Espanha por completo, prepararia o terreno para a transferência abrupta de soberania que se seguiria com a Guerra Hispano-Americana.",
+      "textoMdx": "Miguel López de Legazpi estabelece a primeira colônia espanhola permanente em 1565, fundando Manila em 1571 como capital de território que se tornou o único país asiático de maioria populacional católica — conversão religiosa em massa conduzida por ordens franciscanas, dominicanas e agostinianas que exerceram poder social e econômico imenso ao longo de todo o período colonial.\n\n**O Galeão de Manila, rota comercial que conectou as Filipinas, através do México, à Espanha por mais de dois séculos, entre 1565 e 1815, torna Manila entreposto crucial do comércio global entre a Ásia e as Américas** — prata mexicana trocada por seda e porcelana chinesas, numa das primeiras redes comerciais verdadeiramente globais da história.\n\n**A execução do médico e escritor José Rizal, em 1896, por suposta sedição, transforma-o em mártir nacional e precipita a Revolução Filipina contra o domínio espanhol** — revolta que, embora não derrotasse militarmente a Espanha por completo, preparou o terreno para a transferência abrupta de soberania que se seguiu com a Guerra Hispano-Americana.",
       "fontes": [
         "luis-francia-filipinas"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Naturales_5.png",
+        "alt": "Ilustração manuscrita de um casal filipino nobre usando roupas ornamentadas e joias, em pé sobre fundo claro.",
+        "credito": "Códice Boxer",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Naturales_5.png",
+        "legenda": "Casal nobre filipino representado no Códice Boxer, produzido em Manila em 1595."
+      }
     },
     {
       "id": "phl-guerra-americana-colonia",
@@ -32,11 +48,19 @@
       "fim": "1946",
       "rotulo": "Guerra Filipino-Americana e a colônia americana",
       "regime": "colônia americana, depois Estado Livre Associado autônomo a partir de 1935",
-      "textoMdx": "O Tratado de Paris de 1898, que encerra a Guerra Hispano-Americana, transfere a soberania filipina da Espanha aos Estados Unidos sem qualquer participação filipina nas negociações — decisão que os revolucionários filipinos, que já haviam declarado independência própria, rejeitam, deflagrando a Guerra Filipino-Americana de 1899 a 1902, conflito que mataria dezenas de milhares de combatentes filipinos e um número ainda maior de civis por fome e doença.\n\n**A administração colonial americana introduz sistema educacional em língua inglesa e infraestrutura considerável, ao mesmo tempo em que reprime duramente qualquer movimento independentista remanescente** — o Ato Tydings-McDuffie, de 1934, estabelece cronograma de dez anos rumo à independência plena, criando a Comunidade Filipina autônoma sob Manuel Quezon em 1935.\n\n**A ocupação japonesa, entre 1942 e 1945, inclui a Marcha da Morte de Bataan, na qual milhares de prisioneiros de guerra americanos e filipinos morrem em marcha forçada, e culmina na Batalha de Manila de 1945, que devastaria quase completamente a capital** — uma das cidades aliadas mais destruídas de toda a Segunda Guerra Mundial, antes da independência plena finalmente concedida em 4 de julho de 1946.",
+      "textoMdx": "O Tratado de Paris de 1898, que encerra a Guerra Hispano-Americana, transfere a soberania filipina da Espanha aos Estados Unidos sem qualquer participação filipina nas negociações — decisão que os revolucionários filipinos, que já haviam declarado independência própria, rejeitam, deflagrando a Guerra Filipino-Americana de 1899 a 1902, conflito que matou dezenas de milhares de combatentes filipinos e um número ainda maior de civis por fome e doença.\n\n**A administração colonial americana introduz sistema educacional em língua inglesa e infraestrutura, ao mesmo tempo em que reprime duramente qualquer movimento independentista remanescente** — o Ato Tydings-McDuffie, de 1934, estabelece cronograma de dez anos rumo à independência plena, criando a Comunidade Filipina autônoma sob Manuel Quezon em 1935.\n\n**A ocupação japonesa, entre 1942 e 1945, inclui a Marcha da Morte de Bataan, na qual milhares de prisioneiros de guerra americanos e filipinos morrem em marcha forçada, e culmina na Batalha de Manila de 1945, que devastou quase completamente a capital** — uma das cidades aliadas mais destruídas de toda a Segunda Guerra Mundial, antes da independência plena finalmente concedida em 4 de julho de 1946.",
       "fontes": [
         "luis-francia-filipinas",
         "tratado-paris-1898"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/The_Philippine_insurrection%2C_1899_LCCN2002736713.jpg",
+        "alt": "Fotografia em preto e branco de soldados norte-americanos posicionados ao redor de um grande canhão de campanha.",
+        "credito": "Perley Fremont Rockett · Library of Congress",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Philippine_insurrection,_1899_LCCN2002736713.jpg",
+        "legenda": "Soldados e uma peça de artilharia durante a Guerra Filipino-Americana, em 1899."
+      }
     },
     {
       "id": "phl-independencia-marcos-ditadura",
@@ -44,20 +68,36 @@
       "fim": "1986",
       "rotulo": "Independência e a ditadura de Marcos",
       "regime": "república democrática, depois ditadura sob lei marcial a partir de 1972",
-      "textoMdx": "A jovem república filipina independente enfrenta insurgência comunista Huk nos primeiros anos e desigualdade social profunda persistente, herdada da estrutura fundiária colonial — condições que Ferdinand Marcos, eleito presidente em 1965, prometeria resolver antes de se tornar, ele mesmo, símbolo de corrupção e repressão.\n\n**Marcos declara lei marcial em 1972, sob pretexto de conter ameaça comunista e separatista muçulmana, suspendendo o Congresso e a constituição por mais de uma década** — período que consolidaria fortuna pessoal bilionária do casal presidencial através de esquemas de corrupção sistemática, mesmo enquanto a economia filipina estagnava.\n\n**O assassinato do líder opositor Benigno \"Ninoy\" Aquino, no aeroporto de Manila em 1983, ao retornar do exílio, choca a opinião pública e catalisa oposição crescente ao regime** — a Revolução do Poder Popular, em fevereiro de 1986, mobiliza milhões de manifestantes pacíficos que forçam a fuga de Marcos ao exílio havaiano, trazendo ao poder a viúva de Aquino, Corazon.",
+      "textoMdx": "A jovem república filipina independente enfrenta insurgência comunista Huk nos primeiros anos e desigualdade social profunda persistente, herdada da estrutura fundiária colonial — condições que Ferdinand Marcos, eleito presidente em 1965, prometeu resolver antes de se tornar, ele mesmo, símbolo de corrupção e repressão.\n\n**Marcos declara lei marcial em 1972, sob pretexto de conter ameaça comunista e separatista muçulmana, suspendendo o Congresso e a constituição por mais de uma década** — período que consolidou fortuna pessoal bilionária do casal presidencial através de esquemas de corrupção sistemática, mesmo enquanto a economia filipina estagnava.\n\n**O assassinato do líder opositor Benigno \"Ninoy\" Aquino, no aeroporto de Manila em 1983, ao retornar do exílio, choca a opinião pública e catalisa oposição crescente ao regime** — a Revolução do Poder Popular, em fevereiro de 1986, mobiliza milhões de manifestantes pacíficos que forçam a fuga de Marcos ao exílio havaiano, trazendo ao poder a viúva de Aquino, Corazon.",
       "fontes": [
         "luis-francia-filipinas"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Ferdinand_Marcos_1966.jpg",
+        "alt": "Ferdinand Marcos aparece de terno claro diante de microfones, com outras autoridades alinhadas atrás dele.",
+        "credito": "Yoichi R. Okamoto · White House",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Ferdinand_Marcos_1966.jpg",
+        "legenda": "O presidente Ferdinand Marcos durante a Conferência de Manila, em outubro de 1966."
+      }
     },
     {
       "id": "phl-democracia-pos-marcos-atual",
       "inicio": "1986",
       "rotulo": "República filipina pós-Marcos",
       "regime": "república presidencialista democrática",
-      "textoMdx": "A democracia restaurada sob Corazon Aquino sobrevive a múltiplas tentativas de golpe militar nos anos seguintes, consolidando-se gradualmente apesar de instabilidade política recorrente e da persistência de dinastias políticas familiares regionais poderosas.\n\nO conflito separatista muçulmano no sul filipino, envolvendo sucessivamente a Frente Moro de Libertação Nacional e a Frente Moro Islâmica de Libertação, se estenderia por décadas antes de acordo de paz de 2014 estabelecer a Região Autônoma de Bangsamoro, criada formalmente em 2019.\n\nRodrigo Duterte, presidente entre 2016 e 2022, conduz \"guerra às drogas\" que mataria, segundo estimativas de organizações de direitos humanos, entre seis mil e mais de vinte mil pessoas em execuções extrajudiciais — política que levaria a investigação formal do Tribunal Penal Internacional por crimes contra a humanidade.\n\n**Ferdinand \"Bongbong\" Marcos Jr., filho do ditador deposto em 1986, é eleito presidente em 2022 com margem esmagadora**, num dos retornos políticos mais notáveis da história democrática filipina, décadas depois do exílio forçado de sua família.",
+      "textoMdx": "A democracia restaurada sob Corazon Aquino sobrevive a múltiplas tentativas de golpe militar nos anos seguintes, consolidando-se gradualmente apesar de instabilidade política recorrente e da persistência de dinastias políticas familiares regionais poderosas.\n\nO conflito separatista muçulmano no sul filipino, envolvendo sucessivamente a Frente Moro de Libertação Nacional e a Frente Moro Islâmica de Libertação, se estendeu por décadas antes de acordo de paz de 2014 estabelecer a Região Autônoma de Bangsamoro, criada formalmente em 2019.\n\nRodrigo Duterte, presidente entre 2016 e 2022, conduz \"guerra às drogas\" que matou, segundo estimativas de organizações de direitos humanos, entre seis mil e mais de vinte mil pessoas em execuções extrajudiciais — política que levou a investigação formal do Tribunal Penal Internacional por crimes contra a humanidade.\n\n**Ferdinand \"Bongbong\" Marcos Jr., filho do ditador deposto em 1986, é eleito presidente em 2022 com margem esmagadora**, num dos retornos políticos mais notáveis da história democrática filipina, décadas depois do exílio forçado de sua família.",
       "fontes": [
         "luis-francia-filipinas"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Corazon_Aquino_inauguration.jpg",
+        "alt": "Corazon Aquino ergue a mão direita enquanto presta juramento diante de autoridades e de uma grande multidão.",
+        "credito": "Malacañang Palace Archives",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Corazon_Aquino_inauguration.jpg",
+        "legenda": "Corazon Aquino toma posse como presidente em 25 de fevereiro de 1986, no desfecho da Revolução do Poder Popular."
+      }
     }
   ]
 }

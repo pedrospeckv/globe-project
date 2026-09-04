@@ -13,7 +13,15 @@
       "fontes": [
         "price-first-time",
         "hoefte-suriname"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tropenmuseum_Royal_Tropical_Institute_Objectnumber_3348-17_De_plantages_%27Nijd_en_Spijt%27_en_%27Alkma.jpg/1920px-Tropenmuseum_Royal_Tropical_Institute_Objectnumber_3348-17_De_plantages_%27Nijd_en_Spijt%27_en_%27Alkma.jpg",
+        "alt": "Aquarela mostra casas de madeira, palmeiras e um caminho à margem do rio Commewijne, sob um céu claro.",
+        "credito": "Autor desconhecido · Tropenmuseum",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Tropenmuseum_Royal_Tropical_Institute_Objectnumber_3348-17_De_plantages_%27Nijd_en_Spijt%27_en_%27Alkma.jpg",
+        "legenda": "As plantações Nijd en Spijt e Alkmaar, às margens do rio Commewijne, por volta de 1860."
+      }
     },
     {
       "id": "sr-autonomia",
@@ -24,7 +32,15 @@
       "textoMdx": "Vinte e um anos de autogoverno dentro do Reino, em que se forma o sistema político surinamês — partidos organizados por comunidade étnica, governando por coalizão — e em que a bauxita paga as contas.\n\n**O Estatuto de 1954 dá autonomia sem independência.** Depois da Segunda Guerra, durante a qual tropas norte-americanas protegeram as minas de bauxita essenciais à indústria de alumínio aliada, o Suriname passa a país constituinte do Reino, com parlamento e governo próprios.\n\n**A política se organiza por comunidade, e funciona por acordo.** Partidos crioulos, hindustanis e javaneses disputam a eleição cada um em sua base e governam em coalizão — a *verbroedering*, fraternização, que evita o confronto étnico aberto que marcou a Guiana vizinha no mesmo período.\n\n**A bauxita e a represa refazem a geografia.** A Alcoa constrói a barragem de Afobaka nos anos 1960 para alimentar a fundição de alumínio; o reservatório inunda territórios marrons e desloca milhares de pessoas, com reassentamento precário — um passivo que segue em disputa.\n\n**A independência é negociada rápido, e metade do país vai embora.** Haia, disposta a se desfazer da colônia, e a coalizão de Henck Arron acertam a data: 25 de novembro de 1975. Como o acordo garantia a nacionalidade holandesa a quem emigrasse antes do prazo, cerca de um terço da população — e mais no total, ao longo dos anos seguintes — muda-se para os Países Baixos. Hoje vive lá uma comunidade surinamesa comparável em tamanho à população do próprio país.",
       "fontes": [
         "hoefte-suriname"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/De_koningin_houdt_een_toespraak_in_de_vergadering_van_de_Staten_van_Suriname%2C_Bestanddeelnr_252-4260.jpg/1920px-De_koningin_houdt_een_toespraak_in_de_vergadering_van_de_Staten_van_Suriname%2C_Bestanddeelnr_252-4260.jpg",
+        "alt": "Fotografia em preto e branco da rainha Juliana discursando diante dos parlamentares reunidos numa sala em Paramaribo.",
+        "credito": "Willem van de Poll · Nationaal Archief",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:De_koningin_houdt_een_toespraak_in_de_vergadering_van_de_Staten_van_Suriname,_Bestanddeelnr_252-4260.jpg",
+        "legenda": "A rainha Juliana discursa aos Estados do Suriname em outubro de 1955, já sob o estatuto de autonomia interna."
+      }
     },
     {
       "id": "sr-independencia-e-ditadura",
@@ -35,7 +51,15 @@
       "textoMdx": "A independência dura cinco anos antes do golpe, e o regime que segue produz o episódio que ainda domina a política surinamesa: os assassinatos de dezembro de 1982.\n\n**O golpe dos sargentos, em fevereiro de 1980.** Dezesseis suboficiais liderados por Desi Bouterse depõem o governo de Arron. Segue-se um período de governos nomeados, com conselhos militares e reviravoltas internas.\n\n**Dezembro de 1982.** Quinze opositores — advogados, jornalistas, professores, sindicalistas e militares — são presos e assassinados no Forte Zeelandia. Os Países Baixos suspendem a ajuda ao desenvolvimento, que era a base do orçamento, e a economia entra em crise. O julgamento pelos assassinatos só começa em 2007; Bouterse foi condenado a vinte anos em 2019, com a condenação confirmada em última instância em 2023.\n\n**A guerra do interior, de 1986 a 1992, é entre o Estado e os marrons.** Um ex-guarda-costas de Bouterse, Ronnie Brunswijk, organiza o Jungle Commando com base nas comunidades ndyuka do leste. O conflito mata centenas e desloca milhares; o massacre de Moiwana, em 1986, em que soldados mataram dezenas de civis, foi levado à Corte Interamericana, que condenou o Estado surinamês em 2005.\n\n**A pressão internacional força a volta às urnas.** Uma constituição é aprovada em referendo em 1987 e há eleição no mesmo ano, com vitória da oposição; um novo golpe, o telefone-golpe de 1990, interrompe brevemente o processo, e em 1991 a democracia se restabelece.",
       "fontes": [
         "hoefte-suriname"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Desi_Bouterse_%28cropped%29.jpg",
+        "alt": "Retrato de Desi Bouterse usando uniforme militar verde-oliva e boina, com vegetação desfocada ao fundo.",
+        "credito": "We El",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Desi_Bouterse_(cropped).jpg",
+        "legenda": "Desi Bouterse em 1985, durante o período de governo militar no Suriname."
+      }
     },
     {
       "id": "sr-republica",
@@ -46,7 +70,15 @@
       "fontes": [
         "hoefte-suriname",
         "price-first-time"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/The_Prime_Minister_Shri_Atal_Bihari_Vajpayee_meets_the_visiting_President_of_the_Republic_of_Suriname_Mr._Runaldo_Ronald_Venetiaan_in_New_Delhi_on_March_17%2C_2003.jpg",
+        "alt": "Ronald Venetiaan e Atal Bihari Vajpayee, ambos de terno, conversam sentados em poltronas numa sala de reunião.",
+        "credito": "Prime Minister's Office, India",
+        "licenca": "GODL-India",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Prime_Minister_Shri_Atal_Bihari_Vajpayee_meets_the_visiting_President_of_the_Republic_of_Suriname_Mr._Runaldo_Ronald_Venetiaan_in_New_Delhi_on_March_17,_2003.jpg",
+        "legenda": "O presidente surinamês Ronald Venetiaan encontra o primeiro-ministro indiano Atal Bihari Vajpayee em março de 2003."
+      }
     }
   ]
 }

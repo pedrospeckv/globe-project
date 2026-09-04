@@ -12,7 +12,15 @@
       "textoMdx": "A Groenlândia é o lugar onde duas expansões humanas se cruzam e uma delas desaparece: colonos nórdicos vindos da Islândia e os Thule vindos do Alasca, ancestrais dos inuítes de hoje.\n\n**Érico o Ruivo funda os assentamentos em 985.** Duas colônias no sudoeste — o Assentamento Oriental e o Ocidental — vivem de pecuária, caça de morsa e comércio de marfim com a Europa. Dali partem as viagens a Vinland, na Terra Nova, atestadas pelo sítio de L'Anse aux Meadows: o primeiro contato europeu com a América, cinco séculos antes de Colombo.\n\n**Os Thule chegam por volta do século XIII e permanecem.** Vindos do Alasca, com tecnologia de caça marítima — caiaque, umiaque, arpão de ponta articulada — capaz de explorar a baleia e a foca, eles ocupam a costa e substituem culturas anteriores. É deles que descende a população groenlandesa atual, e é o kalaallisut, sua língua, que hoje é oficial na ilha.\n\n**A colônia nórdica desaparece no século XV.** Sem registro de um evento final: as explicações combinam o esfriamento da Pequena Idade do Gelo, o colapso do preço do marfim de morsa quando o marfim africano volta ao mercado europeu, o isolamento comercial, e a incapacidade de adotar as técnicas de caça inuítes. Em 1721, quando um missionário dinamarquês-norueguês chega procurando cristãos esquecidos, não encontra nenhum.\n\n**A recolonização dinamarquesa começa em 1721.** Hans Egede funda a missão que se tornaria Nuuk, e a Dinamarca estabelece um monopólio comercial que duraria mais de dois séculos — o Kongelige Grønlandske Handel —, comprando toda a produção da ilha e vendendo tudo o que ela consumia.",
       "fontes": [
         "gad-historia-groenlandia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Gr%C3%B6nlandsexpedition_1900-_M%C3%A4nniskor_i_kanot-_DIG131241.tif/lossy-page1-1920px-Gr%C3%B6nlandsexpedition_1900-_M%C3%A4nniskor_i_kanot-_DIG131241.tif.jpg",
+        "alt": "Fotografia histórica de várias pessoas em uma grande canoa, acompanhadas por uma pessoa em caiaque nas águas da Groenlândia.",
+        "credito": "Autor desconhecido · Swedish National Museum of Science and Technology",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Gr%C3%B6nlandsexpedition_1900-_M%C3%A4nniskor_i_kanot-_DIG131241.tif",
+        "legenda": "Canoa e caiaque inuítes fotografados durante uma expedição à Groenlândia entre 1898 e 1900."
+      }
     },
     {
       "id": "gl-provincia",
@@ -23,7 +31,15 @@
       "textoMdx": "A Segunda Guerra separa a ilha da metrópole ocupada e mostra que ela pode viver sem o monopólio — e a resposta dinamarquesa do pós-guerra é integrar em vez de descolonizar.\n\n**A guerra é o ponto de virada econômico.** Com a Dinamarca ocupada pela Alemanha em 1940, a Groenlândia passa a negociar diretamente com os Estados Unidos e o Canadá, que instalam bases na ilha. O criolita de Ivittuut, essencial à produção de alumínio, torna-se estratégico.\n\n**Em 1953 a colônia é convertida em província.** A mudança constitucional encerra formalmente o estatuto colonial e retira a Groenlândia da lista de territórios não autônomos da ONU — o que evitou o processo de descolonização supervisionada a que outros territórios se submeteram.\n\n**A política de modernização concentra a população em cidades.** O programa dos anos 1950 e 1960 fecha assentamentos pequenos e transfere famílias para blocos de apartamentos em Nuuk e outras cidades, com a caça de subsistência substituída por pesca industrial. O deslocamento rompe formas de vida e produz problemas sociais persistentes.\n\n**Duas ações do período são objeto de reparação posterior.** Em 1953, a população de Pituffik é removida com poucos dias de aviso para permitir a ampliação da base aérea de Thule — a Suprema Corte dinamarquesa reconheceu depois a ilegalidade e determinou indenização. Em 1951, vinte e duas crianças inuítes foram levadas à Dinamarca num experimento de reeducação, e o governo dinamarquês pediu desculpas em 2020. E entre os anos 1960 e 1970, dispositivos intrauterinos foram inseridos em milhares de mulheres e meninas groenlandesas sem consentimento informado, prática apurada por investigação conjunta iniciada em 2022.\n\n**A entrada na Comunidade Europeia é decidida sem a ilha e revertida por ela.** A Groenlândia entra com a Dinamarca em 1973, contra a maioria dos votos groenlandeses, e é o gatilho do movimento autonomista: em 1985, depois de referendo, torna-se o primeiro território a sair do bloco europeu.",
       "fontes": [
         "gad-historia-groenlandia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Radiofjeldet.jpg/1920px-Radiofjeldet.jpg",
+        "alt": "Conjunto de blocos residenciais brancos de dois a cinco andares na encosta de Radiofjeldet, em Nuuk.",
+        "credito": "Piginnaanilissuaq",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Radiofjeldet.jpg",
+        "legenda": "Blocos de Radiofjeldet construídos nos anos 1970, legado da urbanização acelerada quando a Groenlândia era província dinamarquesa."
+      }
     },
     {
       "id": "gl-autonomia",
@@ -34,7 +50,15 @@
       "fontes": [
         "lei-autogoverno-groenlandia-2009",
         "gad-historia-groenlandia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Landsstyreformand_Hans_Enoksen_til_Folkeafstemning_i_Multihallen_i_Nuuk_med_Pipaluk_Petersen_pa_5_ar.jpg",
+        "alt": "Hans Enoksen comparece a um local de votação em Nuuk acompanhado por uma menina de cinco anos.",
+        "credito": "Leiff Josefsen · norden.org",
+        "licenca": "CC BY 2.5 dk",
+        "origem": "https://commons.wikimedia.org/wiki/File:Landsstyreformand_Hans_Enoksen_til_Folkeafstemning_i_Multihallen_i_Nuuk_med_Pipaluk_Petersen_pa_5_ar.jpg",
+        "legenda": "O chefe de governo Hans Enoksen participa do referendo de 2008 que ampliou o autogoverno groenlandês."
+      }
     }
   ]
 }

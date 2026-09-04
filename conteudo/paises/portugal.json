@@ -13,7 +13,15 @@
       "fontes": [
         "marques-historia-portugal",
         "birmingham-historia-portugal"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Sancho_I_Portugal_morabitino.jpg",
+        "alt": "Moeda medieval de ouro mostra um rei montado a cavalo, cercado por inscrição circular.",
+        "credito": "Hispalois",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Sancho_I_Portugal_morabitino.jpg",
+        "legenda": "Morabitino de Sancho I, cunhado entre o fim do século XII e o início do XIII."
+      }
     },
     {
       "id": "pt-expansao",
@@ -25,7 +33,15 @@
       "fontes": [
         "marques-historia-portugal",
         "tratado-tordesilhas-1494"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Cantino_planisphere_%281502%29.jpg/1920px-Cantino_planisphere_%281502%29.jpg",
+        "alt": "Planisfério antigo colorido mostra costas, ilhas, bandeiras e figuras em torno do Atlântico e do Índico.",
+        "credito": "anonymous Portuguese (1502)",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Cantino_planisphere_(1502).jpg",
+        "legenda": "Planisfério de Cantino, produzido em 1502 durante a expansão marítima portuguesa."
+      }
     },
     {
       "id": "pt-restauracao",
@@ -37,7 +53,15 @@
       "fontes": [
         "marques-historia-portugal",
         "birmingham-historia-portugal"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Juramento_e_Aclama%C3%A7%C3%A3o_de_D._Jo%C3%A3o_IV_%28autor_desconhecido%2C_s%C3%A9c_XVII%29_-_Pa%C3%A7o_Ducal_de_Vila_Vi%C3%A7osa%2C_Funda%C3%A7%C3%A3o_Casa_de_Bragan%C3%A7a.png",
+        "alt": "Pintura mostra João IV diante de nobres ajoelhados e reunidos em um grande salão.",
+        "credito": "Autor desconhecido · Fundação Casa de Bragança",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Juramento_e_Aclama%C3%A7%C3%A3o_de_D._Jo%C3%A3o_IV_(autor_desconhecido,_s%C3%A9c_XVII)_-_Pa%C3%A7o_Ducal_de_Vila_Vi%C3%A7osa,_Funda%C3%A7%C3%A3o_Casa_de_Bragan%C3%A7a.png",
+        "legenda": "Aclamação de João IV representada em pintura produzida por volta de 1640."
+      }
     },
     {
       "id": "pt-monarquia-constitucional",
@@ -49,7 +73,15 @@
       "fontes": [
         "marques-historia-portugal",
         "birmingham-historia-portugal"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/King_Carlos_I_of_Portugal_by_Philip_Alexius_de_Laszlo%2C_1908.jpg",
+        "alt": "Retrato pintado mostra Carlos I de Portugal de pé, com uniforme escuro e condecorações.",
+        "credito": "Philip de László",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:King_Carlos_I_of_Portugal_by_Philip_Alexius_de_Laszlo,_1908.jpg",
+        "legenda": "Retrato de Carlos I pintado por Philip de László em 1908."
+      }
     },
     {
       "id": "pt-primeira-republica",
@@ -61,7 +93,15 @@
       "fontes": [
         "marques-historia-portugal",
         "birmingham-historia-portugal"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/JBN001444_-_Com%C3%ADcio_republicano.jpg/1920px-JBN001444_-_Com%C3%ADcio_republicano.jpg",
+        "alt": "Multidão reúne-se ao redor de um palanque coberto por bandeiras em um comício ao ar livre.",
+        "credito": "Joshua Benoliel",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:JBN001444_-_Com%C3%ADcio_republicano.jpg",
+        "legenda": "Comício republicano fotografado por Joshua Benoliel em 1915."
+      }
     },
     {
       "id": "pt-estado-novo",
@@ -73,7 +113,15 @@
       "fontes": [
         "marques-historia-portugal",
         "relatorio-onu-tarrafal-e-colonias"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Antonio_de_Olivera_Salazar_sitting_at_his_desk_%28by_Bernard_Hoffman%2C_1940%29_%E2%80%93_Google_Art_Project.png",
+        "alt": "Salazar está sentado à escrivaninha, escrevendo entre pilhas de papéis e objetos de escritório.",
+        "credito": "Bernard Hoffman",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Antonio_de_Olivera_Salazar_sitting_at_his_desk_(by_Bernard_Hoffman,_1940)_%E2%80%93_Google_Art_Project.png",
+        "legenda": "António de Oliveira Salazar em seu gabinete, fotografado por Bernard Hoffman em 1940."
+      }
     },
     {
       "id": "pt-republica",
@@ -84,7 +132,15 @@
       "fontes": [
         "marques-historia-portugal",
         "birmingham-historia-portugal"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Revolu%C3%A7%C3%A3o_dos_Cravos.jpg",
+        "alt": "Militares e civis ocupam uma rua de Lisboa, com um blindado ao centro e pessoas sobre os veículos.",
+        "credito": "Autor desconhecido · Centro de Documentação 25 de Abril",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Revolu%C3%A7%C3%A3o_dos_Cravos.jpg",
+        "legenda": "Revolução dos Cravos em Lisboa, em 25 de abril de 1974."
+      }
     }
   ]
 }

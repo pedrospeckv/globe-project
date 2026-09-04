@@ -12,7 +12,15 @@
       "textoMdx": "As três colônias que virariam a Guiana são holandesas antes de britânicas, e a marca disso permanece na paisagem: uma capital abaixo do nível do mar, protegida por diques e comportas construídos por trabalho escravizado.\n\n**A Holanda drena o litoral para plantar.** A costa é pântano de maré; para cultivar cana é preciso erguer diques, cavar canais e instalar comportas — obra feita por africanos escravizados, em volume de terra movida que se compara às grandes obras hidráulicas da época. Georgetown é construída sobre esse sistema, e ainda depende dele.\n\n**A rebelião de Berbice, em 1763, é uma das maiores das Américas.** Sob a liderança de Cuffy, escravizados tomam praticamente toda a colônia e a mantêm por quase um ano, negociando a divisão do território com o governador holandês. A revolta é derrotada com reforços de outras colônias, e Cuffy é hoje herói nacional da Guiana.\n\n**A troca de mãos é consequência das guerras napoleônicas.** Britânicos ocupam as colônias em 1796, e a posse é confirmada pelo tratado de 1814; em 1831 são unificadas na Guiana Britânica. A escravidão é abolida em 1834, com período de aprendizado até 1838.\n\n**A abolição cria o problema que definiria o país.** Libertos abandonam as plantações e compram terras em conjunto, formando vilas próprias — algo raro no Caribe. Os plantadores, sem mão de obra barata, obtêm autorização para importar trabalhadores contratados, e a partir de 1838 chegam centenas de milhares de indianos sob contrato de cinco anos, além de portugueses da Madeira e chineses. Em poucas décadas a colônia tem duas grandes populações — afrodescendente e indo-guianesa — colocadas em posições econômicas distintas pela própria política de recrutamento.",
       "fontes": [
         "rodney-guiana-trabalhadores"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Map_of_Essequibo_and_Demerara%2C_1798.jpg/1920px-Map_of_Essequibo_and_Demerara%2C_1798.jpg",
+        "alt": "Mapa manuscrito de Essequibo e Demerara mostra rios, costa, plantações e divisões de terras em traços coloridos.",
+        "credito": "Wouter Brave · Boston Public Library",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Map_of_Essequibo_and_Demerara,_1798.jpg",
+        "legenda": "Wouter Brave produziu em 1798 este mapa das colônias holandesas de Essequibo e Demerara."
+      }
     },
     {
       "id": "gy-guiana-britanica",
@@ -23,7 +31,15 @@
       "textoMdx": "Mais de um século de colônia açucareira em que a divisão do trabalho por origem se converte em divisão política — e em que a fronteira oeste vira objeto de uma disputa que continua aberta.\n\n**O contrato de trabalho indiano é o eixo social do período.** Recrutados sobretudo no norte da Índia, os trabalhadores vivem em alojamentos das plantações sob disciplina penal: faltar ao trabalho é crime. Ao fim do contrato, muitos recebem terra em vez de passagem de volta, e formam-se comunidades rurais indo-guianesas na costa açucareira, enquanto a população afrodescendente se concentra nas vilas e depois nas cidades e no funcionalismo. O sistema termina em 1917.\n\n**A disputa do Essequibo nasce em 1899.** A Grã-Bretanha e a Venezuela levam a arbitragem a fronteira oeste; o laudo atribui à colônia a área a leste do rio Essequibo, cerca de dois terços do território atual da Guiana. A Venezuela declara o laudo nulo em 1962, e o caso está na Corte Internacional de Justiça desde 2018 — a Guiana pedindo a confirmação da fronteira, a Venezuela contestando a jurisdição.\n\n**O sindicalismo nasce cedo e é multiétnico.** Greves de estivadores e de trabalhadores do açúcar atravessam o começo do século XX; Hubert Critchlow organiza em 1919 o que é considerado o primeiro sindicato do Caribe britânico. A repressão a greves de canavieiros, como em Enmore em 1948, com cinco mortos, radicaliza a política local.\n\n**A política se organiza em 1950 e racha em 1955.** Cheddi Jagan e Forbes Burnham fundam juntos o Partido Progressista do Povo, que ganha a primeira eleição de sufrágio universal, em 1953 — e é deposto em 133 dias, com a Grã-Bretanha suspendendo a constituição e enviando tropas, alegando risco comunista. Em 1955 o partido se divide, e a divisão passa a coincidir com a linha étnica: o PPP de Jagan com base indo-guianesa, o PNC de Burnham com base afro-guianesa. É a fratura que a Guiana carrega desde então.",
       "fontes": [
         "rodney-guiana-trabalhadores"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Boundary_lines_of_British_Guiana_1896.jpg",
+        "alt": "Mapa político de 1896 mostra a Guiana Britânica e diferentes linhas propostas para sua fronteira ocidental.",
+        "credito": "John George Bartholomew",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Boundary_lines_of_British_Guiana_1896.jpg",
+        "legenda": "O mapa de 1896 registra as linhas de fronteira disputadas entre a Guiana Britânica e a Venezuela."
+      }
     },
     {
       "id": "gy-cooperativa",
@@ -35,7 +51,15 @@
       "fontes": [
         "rodney-guiana-trabalhadores",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Forbes_Burnham_%281966%29.jpg",
+        "alt": "Forbes Burnham aparece de terno escuro e gravata em uma fotografia em preto e branco tomada de perfil.",
+        "credito": "Fotógrafo não identificado · Anefo",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Forbes_Burnham_(1966).jpg",
+        "legenda": "Forbes Burnham é fotografado em maio de 1966, no ano da independência da Guiana."
+      }
     },
     {
       "id": "gy-republica",
@@ -45,7 +69,15 @@
       "textoMdx": "Três décadas de democracia eleitoral em que a votação continua acompanhando a origem da população, e um país pobre da América do Sul se torna, de repente, um dos maiores produtores de petróleo por habitante do mundo.\n\n**A alternância existe e é tensa.** O PPP governa de 1992 a 2015, e a coalizão APNU-AFC de 2015 a 2020. A eleição de março de 2020 é seguida de cinco meses de impasse, com tentativa de declarar resultado a partir de planilhas alteradas, recontagem sob observação internacional e decisão judicial — e termina com a posse de Irfaan Ali. A divisão eleitoral por linha étnica, herdada da divisão de 1955, permanece a característica do sistema.\n\n**O petróleo muda a escala do país em cinco anos.** Um consórcio liderado pela ExxonMobil confirma em 2015 uma descoberta enorme no bloco Stabroek, em águas profundas, e a produção começa em dezembro de 2019. A Guiana passa a registrar as maiores taxas de crescimento do mundo, e o debate interno é sobre os termos do contrato — considerado por muitos analistas favorável às operadoras — e sobre como não repetir o que o petróleo fez a vizinhos.\n\n**A disputa do Essequibo esquenta com o petróleo.** A Venezuela realiza em dezembro de 2023 um referendo consultivo reivindicando a região, que corresponde a cerca de dois terços do território guianês e é habitada por centenas de milhares de pessoas. Os dois governos assinam em Argyle, em São Vicente, uma declaração comprometendo-se a não usar a força; o caso segue na Corte Internacional de Justiça.\n\n**O país continua sendo o mais atípico da América do Sul.** É o único de língua oficial inglesa, integra a Caricom e não a integração hispano-lusa, tem a maior parte da população numa faixa costeira estreita abaixo do nível do mar, e mais de 80% do território coberto por floresta com baixíssima taxa de desmatamento — o que o tornou um dos primeiros países a receber pagamento internacional por carbono florestal.",
       "fontes": [
         "rodney-guiana-trabalhadores"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Irfaan_Ali_in_2020.jpg",
+        "alt": "Irfaan Ali e Mike Pompeo falam em púlpitos separados durante uma coletiva de imprensa em Georgetown.",
+        "credito": "Ron Przysucha · U.S. Department of State",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Irfaan_Ali_in_2020.jpg",
+        "legenda": "O presidente Irfaan Ali participa de uma coletiva em Georgetown em setembro de 2020."
+      }
     }
   ]
 }

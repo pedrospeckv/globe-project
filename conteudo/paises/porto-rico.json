@@ -12,7 +12,15 @@
       "textoMdx": "Ocupada em 1508, a ilha passa três séculos como fortaleza: San Juan guarda a entrada do Caribe, e a Coroa a sustenta com um subsídio vindo do México porque ela não se paga sozinha.\n\n**A população taína desaparece como grupo distinto no século XVI**, por trabalho forçado e epidemias; a revolta de Agüeybaná, em 1511, é derrotada. A mão de obra passa a ser africana escravizada, em escala menor que nas ilhas açucareiras vizinhas.\n\n**El Morro define a função da ilha.** As fortificações de San Juan resistem a Francis Drake em 1595 e aos holandeses em 1625, e a defesa é o que justifica a colônia aos olhos de Madri por dois séculos.\n\n**A economia decola tarde, no século XIX.** A Cédula de Graças de 1815 abre o comércio e atrai colonos; açúcar na costa e café na montanha central tornam-se exportações relevantes, e a população cresce rápido. A escravidão é abolida em 1873, com indenização aos proprietários.\n\n**O Grito de Lares, em 1868, é a insurreição independentista.** Reprimida em dias, ela permanece como data fundadora do nacionalismo porto-riquenho. Em 1897 a Espanha concede autonomia à ilha, com governo próprio — que funciona por poucos meses.\n\n**1898 encerra tudo.** Na guerra hispano-americana, tropas norte-americanas desembarcam em Guánica; pelo Tratado de Paris, a Espanha cede Porto Rico aos Estados Unidos. A autonomia recém-conquistada é extinta, e a ilha passa a ser administrada por um governo militar e depois civil nomeado em Washington.",
       "fontes": [
         "ayala-bernabe-porto-rico"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Map_of_Puerto_Rico_%281801%29.jpg/1920px-Map_of_Puerto_Rico_%281801%29.jpg",
+        "alt": "Mapa de Porto Rico mostra a costa recortada, cidades, rios, relevo e áreas de navegação ao redor da ilha.",
+        "credito": "William Heather",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Map_of_Puerto_Rico_(1801).jpg",
+        "legenda": "William Heather publicou este mapa de Porto Rico em 1801, durante o domínio espanhol."
+      }
     },
     {
       "id": "pr-territorio",
@@ -24,7 +32,15 @@
       "fontes": [
         "ayala-bernabe-porto-rico",
         "lei-jones-shafroth"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Supervisors_of_Puerto_Rican_census.jpg/500px-Supervisors_of_Puerto_Rican_census.jpg",
+        "alt": "Supervisores do censo porto-riquenho posam em duas fileiras, usando ternos, gravatas e chapéus.",
+        "credito": "U.S. War Department Puerto Rico Census Office",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Supervisors_of_Puerto_Rican_census.jpg",
+        "legenda": "Os supervisores do censo de 1899 posam no início da administração norte-americana de Porto Rico."
+      }
     },
     {
       "id": "pr-estado-livre-associado",
@@ -35,7 +51,15 @@
       "textoMdx": "A constituição de 1952 dá à ilha governo próprio em assuntos internos, mantendo a soberania norte-americana, a moeda, a cidadania, a defesa e o comércio exterior — e mantendo também a ausência de voto no Congresso e na eleição presidencial.\n\n**A industrialização por incentivo fiscal transforma a economia.** A Operação Bootstrap atrai indústria — têxtil, depois farmacêutica e eletrônica — com isenções, sobretudo pela seção 936 do código tributário norte-americano. Porto Rico passa de economia agrária a industrial em uma geração, com indicadores sociais que superam os da América Latina e ficam abaixo dos estados norte-americanos.\n\n**A emigração é massiva e permanente.** Centenas de milhares de porto-riquenhos mudam-se para Nova York e outras cidades dos Estados Unidos nas décadas de 1950 e 1960; hoje vive no continente uma população porto-riquenha maior que a da própria ilha, com trânsito constante entre as duas — migração interna, por serem cidadãos.\n\n**A política de estatuto organiza o sistema partidário.** PPD pela manutenção do estado livre associado, PNP pela anexação como estado da União, PIP pela independência. Plebiscitos em 1967, 1993, 1998, 2012, 2017 e 2020 deram resultados variados, com participação e formulação de perguntas contestadas — e nenhum deles é vinculante, porque a decisão cabe ao Congresso dos Estados Unidos.\n\n**Vieques é o conflito mais longo do período.** A ilha-município foi usada por décadas como campo de bombardeio pela Marinha norte-americana; a morte de um civil em 1999 desencadeou desobediência civil em massa, e o uso militar terminou em 2003, deixando contaminação ainda em remediação.\n\n**A crise da dívida encerra o modelo.** A eliminação gradual da seção 936, concluída em 2006, retira o incentivo que sustentava a indústria; segue-se recessão longa, emigração recorde e uma dívida pública superior a setenta bilhões de dólares, declarada impagável em 2015.",
       "fontes": [
         "ayala-bernabe-porto-rico"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Romero_Barcel%C3%B3.png",
+        "alt": "Carlos Romero Barceló posa de terno escuro diante do selo do governador de Porto Rico em retrato autografado.",
+        "credito": "Governo de Porto Rico",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Romero_Barcel%C3%B3.png",
+        "legenda": "Retrato oficial do governador Carlos Romero Barceló produzido em janeiro de 1977."
+      }
     },
     {
       "id": "pr-atual",
@@ -45,7 +69,15 @@
       "textoMdx": "A resposta do Congresso à falência da ilha foi criar, em 2016, um conselho de supervisão fiscal com poder de anular decisões do governo eleito — e o furacão de 2017 mostrou o custo humano do arranjo.\n\n**A lei PROMESA institui a junta.** Ela reestrutura a dívida e impõe austeridade, com poder sobre orçamento, e é chamada localmente de *la junta*. O caso é o maior processo de reestruturação de dívida pública da história dos Estados Unidos, e ocorre num território cujos habitantes não elegem quem os supervisiona.\n\n**O furacão Maria, em setembro de 2017, é a maior catástrofe da história da ilha.** A rede elétrica colapsa por meses — o apagão mais longo da história norte-americana —, e um estudo encomendado pelo governo estimou a mortalidade em excesso em cerca de três mil pessoas, muito acima da contagem oficial inicial. A resposta federal foi objeto de críticas e de investigações.\n\n**O verão de 2019 derruba um governador.** A divulgação de mensagens privadas do gabinete, com deboche sobre as vítimas do furacão, provoca duas semanas de protestos massivos e a renúncia de Ricardo Rosselló — a primeira vez que a mobilização popular remove um governador da ilha.\n\n**Os terremotos de 2020 e os apagões seguem.** A privatização da distribuição elétrica em 2021 não estabilizou o serviço, e as interrupções continuam sendo o problema cotidiano mais visível.\n\n**A questão do estatuto continua sem solução no Congresso.** Projetos de lei que ofereceriam à ilha escolha entre estado, independência ou livre associação foram apresentados e não aprovados. Passados mais de cento e vinte anos de 1898, a decisão sobre o que Porto Rico é continua sendo tomada em Washington, por um corpo em que a ilha não tem voto.",
       "fontes": [
         "ayala-bernabe-porto-rico"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/PR-26_in_Carolina%2C_Puerto_Rico_after_Hurricane_Maria_%282017%29.jpg",
+        "alt": "Rodovia PR-26 aparece alagada e coberta por árvores e postes derrubados após a passagem do furacão Maria.",
+        "credito": "National Oceanic and Atmospheric Administration",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:PR-26_in_Carolina,_Puerto_Rico_after_Hurricane_Maria_(2017).jpg",
+        "legenda": "A rodovia PR-26, em Carolina, aparece danificada em 21 de setembro de 2017, um dia após o furacão Maria."
+      }
     }
   ]
 }

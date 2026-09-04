@@ -9,10 +9,18 @@
       "fim": "1961",
       "rotulo": "Fundação sob os Al Sabah e o protetorado britânico",
       "regime": "xecado sob a família Al Sabah, protegido pela Grã-Bretanha a partir de 1899",
-      "textoMdx": "A família Al Sabah assume liderança do pequeno povoado pesqueiro e comercial de Kuwait a partir de 1752, estabelecendo dinastia que governa ininterruptamente o território até hoje — uma das mais antigas linhagens governantes contínuas de toda a península arábica.\n\n**O xeque Mubarak, temendo reivindicações de suserania otomana crescentes sobre seu território, assina acordo de proteção com a Grã-Bretanha em 1899, garantindo autonomia interna sob guarda-chuva de segurança britânico** — arranjo que preservaria a distinção política kuwaitiana da vizinha província otomana de Basra, hoje parte do Iraque.\n\nO petróleo, descoberto no campo de Burgan em 1938 — um dos maiores do mundo —, começa a ser exportado em larga escala após a Segunda Guerra Mundial, transformando rapidamente Kuwait numa das sociedades mais prósperas per capita do planeta.",
+      "textoMdx": "A família Al Sabah assume liderança do pequeno povoado pesqueiro e comercial de Kuwait a partir de 1752, estabelecendo dinastia que governa ininterruptamente o território até hoje — uma das mais antigas linhagens governantes contínuas de toda a península arábica.\n\n**O xeque Mubarak, temendo reivindicações de suserania otomana crescentes sobre seu território, assina acordo de proteção com a Grã-Bretanha em 1899, garantindo autonomia interna sob guarda-chuva de segurança britânico** — arranjo que preservou a distinção política kuwaitiana da vizinha província otomana de Basra, hoje parte do Iraque.\n\nO petróleo, descoberto no campo de Burgan em 1938 — um dos maiores do mundo —, começa a ser exportado em larga escala após a Segunda Guerra Mundial, colocando Kuwait entre as sociedades de maior prosperidade per capita do planeta.",
       "fontes": [
         "michael-casey-kuwait"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Amir_Sheikh_Ahmad_Al-Jaber_Al-Sabah_turns_the_silver_wheel_to_officially_begin_exporting_the_first_Kuwaiti_oil_shipment_-_30th_of_June_1946.jpg/1920px-Amir_Sheikh_Ahmad_Al-Jaber_Al-Sabah_turns_the_silver_wheel_to_officially_begin_exporting_the_first_Kuwaiti_oil_shipment_-_30th_of_June_1946.jpg",
+        "alt": "O emir Ahmad Al-Jaber Al-Sabah gira uma grande roda metálica durante cerimônia cercada por autoridades e trabalhadores.",
+        "credito": "Kuwait Oil Company",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Amir_Sheikh_Ahmad_Al-Jaber_Al-Sabah_turns_the_silver_wheel_to_officially_begin_exporting_the_first_Kuwaiti_oil_shipment_-_30th_of_June_1946.jpg",
+        "legenda": "Ahmad Al-Jaber Al-Sabah abre a válvula da primeira exportação comercial de petróleo do Kuwait, em junho de 1946."
+      }
     },
     {
       "id": "kwt-independencia-parlamento-invasao-iraquiana",
@@ -20,21 +28,37 @@
       "fim": "1991",
       "rotulo": "Independência, parlamentarismo pioneiro e a invasão iraquiana",
       "regime": "emirado independente, com parlamento eleito pioneiro na região, invadido e anexado pelo Iraque entre 1990 e 1991",
-      "textoMdx": "A independência de 1961 é seguida quase imediatamente por reivindicação territorial iraquiana, sob o líder Abd al-Karim Qasim, que considerava o Kuwait parte histórica da província otomana de Basra — ameaça contida pelo envio de tropas britânicas, e depois árabes, que dissuadiriam invasão iminente.\n\n**O Kuwait desenvolve, a partir de 1963, uma das assembleias nacionais eleitas mais antigas e ativas do Golfo, embora sujeita a dissoluções periódicas pelo emir sempre que o atrito entre parlamento e governo se intensificasse** — tradição parlamentar que distinguiria o Kuwait das monarquias absolutas vizinhas, mesmo sem jamais evoluir para monarquia plenamente constitucional.\n\n**Saddam Hussein invade e anexa o Kuwait como \"décima nona província\" iraquiana em agosto de 1990, saqueando extensamente o país durante sete meses de ocupação brutal** — a coalizão internacional liderada pelos Estados Unidos, autorizada pela Resolução 678 da ONU, expulsaria as forças iraquianas em fevereiro de 1991, mas não antes de tropas iraquianas em retirada incendiarem centenas de poços de petróleo kuwaitianos, provocando desastre ambiental que levaria meses para ser contido.",
+      "textoMdx": "A independência de 1961 é seguida quase imediatamente por reivindicação territorial iraquiana, sob o líder Abd al-Karim Qasim, para quem o Kuwait era parte histórica da província otomana de Basra — ameaça contida pelo envio de tropas britânicas, e depois árabes, que dissuadiram invasão iminente.\n\n**O Kuwait desenvolve, a partir de 1963, assembleia nacional eleita que permanece ativa no Golfo, embora sujeita a dissoluções periódicas pelo emir sempre que o atrito entre parlamento e governo se intensificasse** — tradição parlamentar que distinguiu o Kuwait das monarquias absolutas vizinhas, mesmo sem jamais evoluir para monarquia plenamente constitucional.\n\n**Saddam Hussein invade e anexa o Kuwait como \"décima nona província\" iraquiana em agosto de 1990, saqueando extensamente o país durante sete meses de ocupação brutal** — a coalizão internacional liderada pelos Estados Unidos, autorizada pela Resolução 678 da ONU, expulsou as forças iraquianas em fevereiro de 1991, mas não antes de tropas iraquianas em retirada incendiarem centenas de poços de petróleo kuwaitianos, provocando desastre ambiental que levou meses para ser contido.",
       "fontes": [
         "michael-casey-kuwait",
         "resolucao-onu-678-1990"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Operation_Desert_Storm_22.jpg/1920px-Operation_Desert_Storm_22.jpg",
+        "alt": "Poços de petróleo em chamas lançam densas colunas de fumaça negra sobre a paisagem desértica nos arredores da Cidade do Kuwait.",
+        "credito": "Tech. Sgt. David McLeod · U.S. Department of Defense",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Operation_Desert_Storm_22.jpg",
+        "legenda": "Poços incendiados pelas forças iraquianas ardem nos arredores da Cidade do Kuwait em março de 1991."
+      }
     },
     {
       "id": "kwt-reconstrucao-atual",
       "inicio": "1991",
       "rotulo": "Reconstrução e o Kuwait contemporâneo",
       "regime": "emirado constitucional, com parlamentarismo recorrentemente paralisado por atrito entre a Assembleia Nacional e a família governante",
-      "textoMdx": "A reconstrução pós-guerra restaura rapidamente a infraestrutura petrolífera kuwaitiana, financiada pelas próprias reservas financeiras soberanas acumuladas ao longo de décadas — o país concederia direito de voto às mulheres apenas em 2005, tardiamente em relação a padrões ocidentais, mas de forma pioneira entre as monarquias absolutas do Golfo.\n\nO emir Sabah al-Ahmad, no poder de 2006 a 2020, cultiva reputação de mediador diplomático respeitado regionalmente, papel que o Kuwait continuaria a desempenhar mesmo em meio a bloqueios e rupturas diplomáticas entre vizinhos do Golfo.\n\n**A paralisia política recorrente entre a Assembleia Nacional eleita e o governo nomeado pelo emir — com dissoluções parlamentares e trocas de gabinete frequentes — persiste como obstáculo central à diversificação econômica kuwaitiana**, mesmo décadas depois da guerra, deixando o país ainda fortemente dependente de receitas petrolíferas em comparação a vizinhos que investiram mais agressivamente em setores alternativos.",
+      "textoMdx": "A reconstrução pós-guerra restaura rapidamente a infraestrutura petrolífera kuwaitiana, financiada pelas próprias reservas financeiras soberanas acumuladas ao longo de décadas — o país concedeu direito de voto às mulheres apenas em 2005, tardiamente em relação a padrões ocidentais, mas de forma pioneira entre as monarquias absolutas do Golfo.\n\nO emir Sabah al-Ahmad, no poder de 2006 a 2020, cultiva reputação de mediador diplomático respeitado regionalmente, papel que o Kuwait continuou a desempenhar mesmo em meio a bloqueios e rupturas diplomáticas entre vizinhos do Golfo.\n\n**A paralisia política recorrente entre a Assembleia Nacional eleita e o governo nomeado pelo emir — com dissoluções parlamentares e trocas de gabinete frequentes — persiste como obstáculo central à diversificação econômica kuwaitiana**, mesmo décadas depois da guerra, deixando o país ainda fortemente dependente de receitas petrolíferas em comparação a vizinhos que investiram mais agressivamente em setores alternativos.",
       "fontes": [
         "michael-casey-kuwait"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/%D8%B5%D9%88%D8%B1%D8%A9_%D8%AC%D9%88%D9%8A%D8%A9_%D9%84%D9%85%D8%A8%D9%86%D9%89_%D9%85%D8%AC%D9%84%D8%B3_%D8%A7%D9%84%D8%A7%D9%85%D8%A9.jpg/1920px-%D8%B5%D9%88%D8%B1%D8%A9_%D8%AC%D9%88%D9%8A%D8%A9_%D9%84%D9%85%D8%A8%D9%86%D9%89_%D9%85%D8%AC%D9%84%D8%B3_%D8%A7%D9%84%D8%A7%D9%85%D8%A9.jpg",
+        "alt": "Vista aérea do edifício da Assembleia Nacional do Kuwait, com sua cobertura curva branca voltada para a orla.",
+        "credito": "Majlesalommah",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:%D8%B5%D9%88%D8%B1%D8%A9_%D8%AC%D9%88%D9%8A%D8%A9_%D9%84%D9%85%D8%A8%D9%86%D9%89_%D9%85%D8%AC%D9%84%D8%B3_%D8%A7%D9%84%D8%A7%D9%85%D8%A9.jpg",
+        "legenda": "A Assembleia Nacional, fotografada em 2016, permanece no centro das disputas políticas do Kuwait pós-guerra."
+      }
     }
   ]
 }

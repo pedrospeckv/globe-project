@@ -9,10 +9,18 @@
       "fim": "1965",
       "rotulo": "Comércio Britânico e a Colônia da Coroa",
       "regime": "posto comercial britânico, depois colônia da coroa de dimensões territoriais mínimas",
-      "textoMdx": "A Grã-Bretanha estabelece presença comercial permanente a partir de 1661 no Forte James, ilha fluvial que se tornaria nó importante do comércio atlântico de escravos — fronteira colonial resultante das negociações anglo-francesas na região criaria a Gâmbia como faixa territorial estreita ao longo do rio homônimo, cercada por todos os lados terrestres pelo Senegal francês.\n\nA colônia permanece, ao longo de todo o período colonial britânico, uma das possessões africanas menos desenvolvidas e menos prioritárias do império — posição periférica que preservaria, paradoxalmente, tradição política relativamente estável em comparação a colônias vizinhas maiores.\n\nO movimento nacionalista sob Dawda Jawara conduz negociações pacíficas de independência, obtida em fevereiro de 1965, sem conflito armado significativo.",
+      "textoMdx": "A Grã-Bretanha estabelece presença comercial permanente a partir de 1661 no Forte James, ilha fluvial que se tornou nó importante do comércio atlântico de escravos — fronteira colonial resultante das negociações anglo-francesas na região criou a Gâmbia como faixa territorial estreita ao longo do rio homônimo, cercada por todos os lados terrestres pelo Senegal francês.\n\nA colônia permanece, ao longo de todo o período colonial britânico, uma das possessões africanas menos desenvolvidas e menos prioritárias do império — posição periférica que preservou, paradoxalmente, tradição política relativamente estável em comparação a colônias vizinhas maiores.\n\nO movimento nacionalista sob Dawda Jawara conduz negociações pacíficas de independência, obtida em fevereiro de 1965, sem conflito armado significativo.",
       "fontes": [
         "hughes-perfect-gambia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Gambia_lemon_street_bathurst_1900.jpg",
+        "alt": "Fotografia em preto e branco mostra a Lemon Street de Bathurst com pedestres, carroças, árvores e edifícios baixos.",
+        "credito": "Francis Bisset Archer · University Press of Liverpool",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Gambia_lemon_street_bathurst_1900.jpg",
+        "legenda": "A Lemon Street de Bathurst, atual Banjul, aparece numa fotografia publicada em 1900 durante o domínio britânico."
+      }
     },
     {
       "id": "gmb-jawara-confederacao-senegambia",
@@ -20,10 +28,18 @@
       "fim": "1994",
       "rotulo": "Era Jawara e a Confederação da Senegâmbia",
       "regime": "república democrática, brevemente unida em confederação frouxa com o Senegal vizinho",
-      "textoMdx": "Dawda Jawara governa a Gâmbia independente com estabilidade e abertura democrática relativamente incomuns para a região e a época, sobrevivendo a séria tentativa de golpe de esquerda em 1981 apenas graças à intervenção militar direta do vizinho Senegal, enquanto se encontrava em Londres para o casamento real britânico.\n\nA Confederação da Senegâmbia, formada em 1982 como resposta direta àquela crise de segurança, tentaria unir política e economicamente os dois países profundamente desiguais em tamanho — experimento que colapsaria já em 1989, diante de resistência gambiana a perder soberania efetiva para o parceiro muito maior.\n\nJawara permaneceria no poder até ser finalmente deposto por golpe militar incruento liderado pelo jovem tenente Yahya Jammeh, em julho de 1994, encerrando quase três décadas de governo civil ininterrupto.",
+      "textoMdx": "Dawda Jawara governa a Gâmbia independente com estabilidade e abertura democrática relativamente incomuns para a região e a época, sobrevivendo a séria tentativa de golpe de esquerda em 1981 apenas graças à intervenção militar direta do vizinho Senegal, enquanto se encontrava em Londres para o casamento real britânico.\n\nA Confederação da Senegâmbia, formada em 1982 como resposta direta àquela crise de segurança, tentou unir política e economicamente os dois países desiguais em tamanho — experimento que colapsou já em 1989, diante de resistência gambiana a perder soberania efetiva para o parceiro muito maior.\n\nJawara permaneceu no poder até ser finalmente deposto por golpe militar incruento liderado pelo jovem tenente Yahya Jammeh, em julho de 1994, encerrando quase três décadas de governo civil ininterrupto.",
       "fontes": [
         "hughes-perfect-gambia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Dawda_Jawara_%281979%29.jpg",
+        "alt": "Dawda Jawara caminha por uma pista de aeroporto ao lado de autoridades, com um avião ao fundo.",
+        "credito": "Fernando Pereira · Anefo",
+        "licenca": "CC BY-SA 3.0 nl",
+        "origem": "https://commons.wikimedia.org/wiki/File:Dawda_Jawara_(1979).jpg",
+        "legenda": "Dawda Jawara chega ao aeroporto de Schiphol em setembro de 1979, durante seu longo governo democrático na Gâmbia."
+      }
     },
     {
       "id": "gmb-jammeh-ditadura",
@@ -31,20 +47,36 @@
       "fim": "2017",
       "rotulo": "Ditadura de Yahya Jammeh",
       "regime": "ditadura militar excêntrica e severamente repressiva",
-      "textoMdx": "Jammeh governa por 22 anos através de repressão extensa, incluindo desaparecimentos forçados de opositores documentados, ao lado de declarações públicas bizarras — alegando capacidade pessoal de curar aids e infertilidade através de remédios herbais próprios, e ameaçando publicamente decapitar pessoas homossexuais.\n\nJammeh declara a Gâmbia república islâmica em 2015, retira o país da Comunidade das Nações em 2013 e anuncia, em 2016, intenção de deixar o Tribunal Penal Internacional, acusando-o de viés sistemático contra a África.\n\nJammeh perde a eleição presidencial de dezembro de 2016 para o opositor Adama Barrow, resultado surpreendente que inicialmente aceitaria antes de reverter a posição e recusar-se a deixar o poder — provocando crise regional que exigiria resposta internacional coordenada para resolução.",
+      "textoMdx": "Jammeh governa por 22 anos através de repressão extensa, incluindo desaparecimentos forçados de opositores documentados, ao lado de declarações públicas bizarras — alegando capacidade pessoal de curar aids e infertilidade através de remédios herbais próprios, e ameaçando publicamente decapitar pessoas homossexuais.\n\nJammeh declara a Gâmbia república islâmica em 2015, retira o país da Comunidade das Nações em 2013 e anuncia, em 2016, intenção de deixar o Tribunal Penal Internacional, acusando-o de viés sistemático contra a África.\n\nJammeh perde a eleição presidencial de dezembro de 2016 para o opositor Adama Barrow, resultado surpreendente que inicialmente aceitou antes de reverter a posição e recusar-se a deixar o poder — provocando crise regional que exigiu resposta internacional coordenada para resolução.",
       "fontes": [
         "hughes-perfect-gambia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Yahya_Jammeh_2014.jpg/1920px-Yahya_Jammeh_2014.jpg",
+        "alt": "Yahya Jammeh aparece de frente, usando veste clara bordada, gorro escuro e óculos.",
+        "credito": "Amanda Lucidon · Casa Branca",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Yahya_Jammeh_2014.jpg",
+        "legenda": "Yahya Jammeh é fotografado em agosto de 2014, dois anos antes da eleição que encerrou seus 22 anos no poder."
+      }
     },
     {
       "id": "gmb-barrow-transicao-atual",
       "inicio": "2017",
       "rotulo": "Transição sob Barrow",
       "regime": "república democrática em reconstrução institucional pós-ditadura",
-      "textoMdx": "Uma intervenção militar regional liderada principalmente por forças senegalesas, sob autorização da CEDEAO, força Jammeh ao exílio na Guiné Equatorial em janeiro de 2017 — um dos raros casos bem-sucedidos de pressão multilateral africana revertendo tentativa de golpe eleitoral.\n\nAdama Barrow conduz reconstrução institucional gradual, incluindo Comissão de Verdade, Reconciliação e Reparações que investigaria abusos da era Jammeh, apresentando relatório final em 2021 recomendando processos judiciais contra responsáveis identificados.\n\nA Gâmbia permanece um dos menores e mais pobres países da África Ocidental, mas sua transição democrática pós-Jammeh se tornaria, para além de suas dimensões territoriais reduzidas, um dos exemplos mais encorajadores recentes de reversão pacífica de entrincheiramento autoritário na região.",
+      "textoMdx": "Uma intervenção militar regional liderada principalmente por forças senegalesas, sob autorização da CEDEAO, força Jammeh ao exílio na Guiné Equatorial em janeiro de 2017 — um dos raros casos bem-sucedidos de pressão multilateral africana revertendo tentativa de golpe eleitoral.\n\nAdama Barrow conduz reconstrução institucional gradual, incluindo Comissão de Verdade, Reconciliação e Reparações que investigou abusos da era Jammeh, apresentando relatório final em 2021 recomendando processos judiciais contra responsáveis identificados.\n\nA Gâmbia permanece um dos menores e mais pobres países da África Ocidental, mas sua transição democrática pós-Jammeh se tornou, para além de suas dimensões territoriais reduzidas, um dos exemplos mais encorajadores recentes de reversão pacífica de entrincheiramento autoritário na região.",
       "fontes": [
         "hughes-perfect-gambia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/52nd_Independence_Anniversary_Celebrations_and_Inauguration_of_His_Excellency_Mr._Adama_Barrow_President_of_the_Republic_of_The_Gambia_Saturday_18th_February_2017.jpg/1920px-thumbnail.jpg",
+        "alt": "Cerimônia pública reúne Adama Barrow, autoridades e público nas arquibancadas do Estádio da Independência.",
+        "credito": "Chrisroberts-192",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:52nd_Independence_Anniversary_Celebrations_and_Inauguration_of_His_Excellency_Mr._Adama_Barrow_President_of_the_Republic_of_The_Gambia_Saturday_18th_February_2017.jpg",
+        "legenda": "A posse de Adama Barrow é celebrada no Estádio da Independência em 18 de fevereiro de 2017, após o fim da ditadura de Jammeh."
+      }
     }
   ]
 }

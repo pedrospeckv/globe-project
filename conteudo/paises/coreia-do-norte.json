@@ -9,11 +9,19 @@
       "fim": "1953",
       "rotulo": "Fundação e a Guerra da Coreia",
       "regime": "governo militar soviético, depois república popular comunista em guerra",
-      "textoMdx": "A península coreana, unificada por séculos sob a Dinastia Joseon e depois ocupada pelo Japão a partir de 1910, é dividida ao longo do paralelo 38 após a rendição japonesa de 1945 — a ocupação militar soviética ao norte instala Kim Il-sung, ex-guerrilheiro comunista, à frente de governo provisório que se tornaria a República Popular Democrática da Coreia em setembro de 1948.\n\nA invasão norte-coreana do sul, em junho de 1950, deflagra a Guerra da Coreia — a intervenção militar direta da China, a partir de outubro daquele ano, salvaria o regime de Kim Il-sung da derrota iminente diante do avanço liderado pelos Estados Unidos sob bandeira da ONU, mas a guerra devastaria completamente a infraestrutura e a população norte-coreanas antes do armistício de 1953 restaurar fronteira próxima à original.\n\nNenhum tratado de paz jamais seria assinado, deixando a Coreia do Norte tecnicamente em estado de guerra com a Coreia do Sul e os Estados Unidos até os dias de hoje — condição que moldaria profundamente toda a trajetória política subsequente do regime.",
+      "textoMdx": "A península coreana, unificada por séculos sob a Dinastia Joseon e depois ocupada pelo Japão a partir de 1910, é dividida ao longo do paralelo 38 após a rendição japonesa de 1945 — a ocupação militar soviética ao norte instala Kim Il-sung, ex-guerrilheiro comunista, à frente de governo provisório que se tornou a República Popular Democrática da Coreia em setembro de 1948.\n\nA invasão norte-coreana do sul, em junho de 1950, deflagra a Guerra da Coreia — a intervenção militar direta da China, a partir de outubro daquele ano, salvou o regime de Kim Il-sung da derrota iminente diante do avanço liderado pelos Estados Unidos sob bandeira da ONU, mas a guerra devastou completamente a infraestrutura e a população norte-coreanas antes do armistício de 1953 restaurar fronteira próxima à original.\n\nNenhum tratado de paz jamais foi assinado, deixando a Coreia do Norte tecnicamente em estado de guerra com a Coreia do Sul e os Estados Unidos até os dias de hoje — condição que moldou toda a trajetória política subsequente do regime.",
       "fontes": [
         "bruce-cumings-coreia",
         "acordo-armisticio-coreano-1953"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Korean_War%2C_train_attack.jpg",
+        "alt": "Um trem atingido libera fumaça enquanto aeronaves militares sobrevoam o vale montanhoso durante a Guerra da Coreia.",
+        "credito": "U.S. Army Military History Institute",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Korean_War,_train_attack.jpg",
+        "legenda": "Um ataque contra uma composição ferroviária é registrado em 1950 durante a Guerra da Coreia."
+      }
     },
     {
       "id": "prk-reconstrucao-juche-kim-il-sung",
@@ -21,10 +29,18 @@
       "fim": "1994",
       "rotulo": "Reconstrução, o Juche e o culto a Kim Il-sung",
       "regime": "Estado comunista de partido único sob culto de personalidade crescente em torno do líder fundador",
-      "textoMdx": "Kim Il-sung consolida controle político absoluto ao longo das décadas seguintes através de purgas sucessivas de rivais internos, ao mesmo tempo desenvolvendo a ideologia oficial do Juche — doutrina de autossuficiência nacional que permitiria ao regime navegar habilmente a rivalidade sino-soviética sem se subordinar plenamente a nenhuma das duas potências comunistas.\n\nUm elaborado culto de personalidade em torno de Kim Il-sung, comparável em escala aos de Stalin e Mao, se torna característica central e duradoura do sistema político norte-coreano — culto que se estenderia, após sua morte, ao filho e sucessor designado Kim Jong-il, estabelecendo dinastia governante hereditária incomum entre Estados de orientação comunista.\n\nA morte de Kim Il-sung, em julho de 1994, encerra 46 anos de liderança direta do fundador do Estado, mas seu legado ideológico e o culto à sua figura permaneceriam centrais à legitimidade do regime décadas depois — a constituição norte-coreana o designaria, postumamente, \"presidente eterno\" da república.",
+      "textoMdx": "Kim Il-sung consolida controle político absoluto ao longo das décadas seguintes através de purgas sucessivas de rivais internos, ao mesmo tempo desenvolvendo a ideologia oficial do Juche — doutrina de autossuficiência nacional que permitiu ao regime navegar habilmente a rivalidade sino-soviética sem se subordinar plenamente a nenhuma das duas potências comunistas.\n\nUm elaborado culto de personalidade em torno de Kim Il-sung, comparável em escala aos de Stalin e Mao, se torna característica central e do sistema político norte-coreano — culto que se estendeu, após sua morte, ao filho e sucessor designado Kim Jong-il, estabelecendo dinastia governante hereditária incomum entre Estados de orientação comunista.\n\nA morte de Kim Il-sung, em julho de 1994, encerra 46 anos de liderança direta do fundador do Estado, mas seu legado ideológico e o culto à sua figura permaneceram centrais à legitimidade do regime décadas depois — a constituição norte-coreana o designou, postumamente, \"presidente eterno\" da república.",
       "fontes": [
         "bruce-cumings-coreia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Kim_Il-sung_University_circa_1960.jpg",
+        "alt": "Fotografia em preto e branco mostra o edifício principal da Universidade Kim Il-sung, com estudantes no pátio.",
+        "credito": "Autor não identificado · Foreign Languages Publishing House",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Kim_Il-sung_University_circa_1960.jpg",
+        "legenda": "A Universidade Kim Il-sung aparece por volta de 1960, durante a reconstrução norte-coreana do pós-guerra."
+      }
     },
     {
       "id": "prk-fome-songun-kim-jong-il",
@@ -32,22 +48,38 @@
       "fim": "2011",
       "rotulo": "A Grande Fome, o Songun e a era Kim Jong-il",
       "regime": "Estado comunista de partido único sob política de \"primeiro o exército\", abalado por fome catastrófica",
-      "textoMdx": "A morte de Kim Il-sung coincide com o colapso do apoio econômico soviético e uma série de desastres naturais, precipitando a Grande Fome de meados dos anos 1990, também chamada Marcha Penosa — estimativas de mortos variam amplamente, entre algumas centenas de milhares e cerca de três milhões de pessoas, uma das piores crises de fome do século XX, sistematicamente ocultada do mundo exterior pelo regime enquanto ocorria.\n\nKim Jong-il consolida a política de \"primeiro o exército\", priorizando recursos escassos para as forças armadas mesmo em meio à crise humanitária, enquanto o programa nuclear norte-coreano avança apesar de sanções internacionais crescentes — o primeiro teste nuclear do país, em outubro de 2006, marca ruptura significativa na postura de segurança de toda a região do nordeste asiático.\n\nA morte de Kim Jong-il, em dezembro de 2011, traz ao poder seu filho ainda jovem e pouco conhecido internacionalmente, Kim Jong-un, completando a terceira geração da dinastia governante.",
+      "textoMdx": "A morte de Kim Il-sung coincide com o colapso do apoio econômico soviético e uma série de desastres naturais, precipitando a Grande Fome de meados dos anos 1990, também chamada Marcha Penosa — estimativas de mortos variam entre algumas centenas de milhares e cerca de três milhões de pessoas, uma das piores crises de fome do século XX, sistematicamente ocultada do mundo exterior pelo regime enquanto ocorria.\n\nKim Jong-il consolida a política de \"primeiro o exército\", priorizando recursos escassos para as forças armadas mesmo em meio à crise humanitária, enquanto o programa nuclear norte-coreano avança apesar de sanções internacionais crescentes — o primeiro teste nuclear do país, em outubro de 2006, marca ruptura na postura de segurança de toda a região do nordeste asiático.\n\nA morte de Kim Jong-il, em dezembro de 2011, traz ao poder seu filho ainda jovem e pouco conhecido internacionalmente, Kim Jong-un, completando a terceira geração da dinastia governante.",
       "fontes": [
         "bruce-cumings-coreia",
         "don-oberdorfer-duas-coreias"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Vladimir_Putin_4_August_2001-3.jpg",
+        "alt": "Kim Jong-il e Vladimir Putin assinam documentos sentados lado a lado em uma mesa cerimonial.",
+        "credito": "Presidential Press and Information Office of Russia",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_4_August_2001-3.jpg",
+        "legenda": "Kim Jong-il e Vladimir Putin assinam a Declaração de Moscou em agosto de 2001, durante a era songun."
+      }
     },
     {
       "id": "prk-kim-jong-un-armas-nucleares-atual",
       "inicio": "2011",
       "rotulo": "Kim Jong-un e a Coreia do Norte nuclear contemporânea",
       "regime": "Estado comunista de partido único sob dinastia hereditária, com arsenal nuclear declarado",
-      "textoMdx": "Kim Jong-un consolida poder rapidamente, incluindo a execução pública de figuras próximas ao regime consideradas ameaças potenciais, enquanto acelera dramaticamente os programas nuclear e de mísseis balísticos do país — uma série de testes nucleares e de mísseis intercontinentais, ao longo da década de 2010, tornaria a Coreia do Norte potência nuclear de facto, apesar de sanções internacionais cada vez mais severas.\n\nUma sequência inédita de cúpulas diretas entre Kim Jong-un e o presidente americano Donald Trump, entre 2018 e 2019, gera expectativa internacional considerável de desnuclearização negociada — as negociações, contudo, terminariam sem acordo substantivo, e o programa nuclear norte-coreano continuaria avançando nos anos seguintes.\n\nUm relatório da Comissão de Inquérito da ONU, de 2014, documentaria de forma extensa violações sistemáticas de direitos humanos no país, incluindo vasta rede de campos de prisioneiros políticos — a Coreia do Norte aprofundaria, na década de 2020, cooperação militar estreita com a Rússia, incluindo o envio de tropas norte-coreanas para lutar ao lado das forças russas na guerra contra a Ucrânia, sinalizando reorientação geopolítica significativa em meio a isolamento internacional prolongado.",
+      "textoMdx": "Kim Jong-un consolida poder rapidamente, incluindo a execução pública de figuras próximas ao regime consideradas ameaças potenciais, enquanto acelera dramaticamente os programas nuclear e de mísseis balísticos do país — uma série de testes nucleares e de mísseis intercontinentais, ao longo da década de 2010, tornou a Coreia do Norte potência nuclear de facto, apesar de sanções internacionais cada vez mais severas.\n\nUma sequência inédita de cúpulas diretas entre Kim Jong-un e o presidente americano Donald Trump, entre 2018 e 2019, gera expectativa internacional de desnuclearização negociada — as negociações, contudo, terminaram sem acordo substantivo, e o programa nuclear norte-coreano continuou avançando nos anos seguintes.\n\nUm relatório da Comissão de Inquérito da ONU, de 2014, documentou de forma extensa violações sistemáticas de direitos humanos no país, incluindo vasta rede de campos de prisioneiros políticos — a Coreia do Norte aprofundou, na década de 2020, cooperação militar estreita com a Rússia, incluindo o envio de tropas norte-coreanas para lutar ao lado das forças russas na guerra contra a Ucrânia, sinalizando reorientação geopolítica significativa em meio a isolamento internacional prolongado.",
       "fontes": [
         "bruce-cumings-coreia",
         "relatorio-onu-direitos-humanos-rpdc-2014"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Kim_and_Trump_shaking_hands_at_the_red_carpet_during_the_DPRK%E2%80%93USA_Singapore_Summit.jpg",
+        "alt": "Kim Jong-un e Donald Trump apertam as mãos sobre um tapete vermelho diante de bandeiras norte-coreanas e norte-americanas.",
+        "credito": "Shealah Craighead · White House",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Kim_and_Trump_shaking_hands_at_the_red_carpet_during_the_DPRK%E2%80%93USA_Singapore_Summit.jpg",
+        "legenda": "Kim Jong-un encontra Donald Trump na cúpula de Singapura em junho de 2018, durante a diplomacia sobre o programa nuclear."
+      }
     }
   ]
 }

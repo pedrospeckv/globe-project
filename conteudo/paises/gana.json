@@ -9,10 +9,18 @@
       "fim": "1902",
       "rotulo": "Império Asante",
       "regime": "confederação centralizada de Estados akã, unida por símbolo real sagrado",
-      "textoMdx": "Osei Tutu funda, a partir de cerca de 1670, a confederação Asante que uniria diversos Estados akã sob autoridade centralizada — a tradição relata que um Banquinho Dourado sagrado teria descido dos céus para consagrar a união, símbolo que permanece central à identidade asante até os dias atuais.\n\nO império prospera através do comércio de ouro e, de forma mais sombria, do tráfico de escravos com comerciantes europeus na costa, tornando-se uma das potências militares e comerciais mais formidáveis da África Ocidental pré-colonial.\n\nUma série de Guerras Anglo-Asante, travadas entre 1824 e 1900, opõe repetidamente as forças asante à expansão colonial britânica — a Guerra do Banquinho Dourado, de 1900, liderada pela rainha-mãe Yaa Asantewaa após recusa britânica em devolver o símbolo sagrado capturado, representaria a última resistência armada significativa antes da anexação colonial formal, em 1902.",
+      "textoMdx": "Osei Tutu funda, a partir de cerca de 1670, a confederação Asante que uniu diversos Estados akã sob autoridade centralizada — a tradição relata que um Banquinho Dourado sagrado desceu dos céus para consagrar a união, símbolo que permanece central à identidade asante até os dias atuais.\n\nO império prospera através do comércio de ouro e do tráfico de escravos com comerciantes europeus na costa, tornando-se potência militar e comercial da África Ocidental pré-colonial.\n\nUma série de Guerras Anglo-Asante, travadas entre 1824 e 1900, opõe repetidamente as forças asante à expansão colonial britânica — a Guerra do Banquinho Dourado, de 1900, liderada pela rainha-mãe Yaa Asantewaa após recusa britânica em devolver o símbolo sagrado capturado, representou a última resistência armada antes da anexação colonial formal, em 1902.",
       "fontes": [
         "roger-gocking-gana"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Ashanti_Yam_Ceremony_1817.jpg",
+        "alt": "Ilustração colorida mostra uma cerimônia asante com músicos, dançarinos, autoridades e grandes guarda-sóis reais.",
+        "credito": "Thomas E. Bowdich",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Ashanti_Yam_Ceremony_1817.jpg",
+        "legenda": "Thomas Bowdich registrou em 1817 uma cerimônia do inhame no Império Asante."
+      }
     },
     {
       "id": "gha-costa-do-ouro-britanica",
@@ -20,10 +28,18 @@
       "fim": "1957",
       "rotulo": "Costa do Ouro Britânica",
       "regime": "colônia britânica, a primeira da África Subsaariana a alcançar independência",
-      "textoMdx": "A administração colonial britânica, formalizada progressivamente ao longo do século XIX, expande gradualmente controle desde a costa até o interior asante conquistado — a Costa do Ouro se tornaria uma das colônias africanas mais economicamente desenvolvidas do império britânico, com forte investimento em educação.\n\nKwame Nkrumah, retornando de estudos nos Estados Unidos e na Grã-Bretanha, funda o Partido da Convenção do Povo em 1949 e lidera campanha de \"Ação Positiva\" por independência imediata — estratégia de desobediência civil organizada que resultaria em prisão, mas também em legitimidade política crescente.\n\nA independência, obtida em março de 1957, torna Gana o primeiro território da África Subsaariana a se libertar do domínio colonial europeu — o novo nome do país, escolhido deliberadamente em homenagem ao antigo Império de Gana medieval, celebra herança histórica africana apesar de não haver continuidade territorial direta entre os dois Estados.",
+      "textoMdx": "A administração colonial britânica, formalizada progressivamente ao longo do século XIX, expande gradualmente controle desde a costa até o interior asante conquistado — a Costa do Ouro recebeu forte investimento em educação sob o império britânico.\n\nKwame Nkrumah, retornando de estudos nos Estados Unidos e na Grã-Bretanha, funda o Partido da Convenção do Povo em 1949 e lidera campanha de \"Ação Positiva\" por independência imediata — estratégia de desobediência civil organizada que resultou em prisão, mas também em legitimidade política.\n\nA independência, obtida em março de 1957, torna Gana o primeiro território da África Subsaariana a se libertar do domínio colonial europeu — o novo nome do país, escolhido deliberadamente em homenagem ao antigo Império de Gana medieval, celebra herança histórica africana apesar de não haver continuidade territorial direta entre os dois Estados.",
       "fontes": [
         "roger-gocking-gana"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Gold_Coast_Map_1896.jpg",
+        "alt": "Mapa colorido da Costa do Ouro mostra litoral, rios, cidades, estradas e limites do território colonial britânico.",
+        "credito": "John George Bartholomew",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Gold_Coast_Map_1896.jpg",
+        "legenda": "John George Bartholomew publicou este mapa da Costa do Ouro Britânica em 1896."
+      }
     },
     {
       "id": "gha-nkrumah-instabilidade-golpes",
@@ -31,20 +47,36 @@
       "fim": "1981",
       "rotulo": "Nkrumah e a instabilidade dos golpes",
       "regime": "república de partido único, depois sucessivos governos militares e civis instáveis",
-      "textoMdx": "Nkrumah se torna figura central do movimento pan-africanista continental, ajudando a fundar a Organização da Unidade Africana em 1963 — mas seu governo doméstico se tornaria crescentemente autoritário, declarando Gana Estado de partido único em 1964 e reprimindo oposição política sistematicamente.\n\nProjetos industriais ambiciosos, incluindo a represa de Akosombo, sobrecarregam as finanças públicas ganesas, contribuindo para descontentamento crescente que culminaria em golpe militar em 1966, enquanto Nkrumah estava em visita oficial à China.\n\nAs duas décadas seguintes veriam Gana alternar entre governos militares e civis breves e instáveis — padrão interrompido apenas pela ascensão do jovem oficial da força aérea Jerry Rawlings, que tomaria o poder através de dois golpes sucessivos, em 1979 e definitivamente em 1981.",
+      "textoMdx": "Nkrumah se torna figura central do movimento pan-africanista continental, ajudando a fundar a Organização da Unidade Africana em 1963 — mas seu governo doméstico tornou-se autoritário, declarando Gana Estado de partido único em 1964 e reprimindo oposição política sistematicamente.\n\nProjetos industriais, incluindo a represa de Akosombo, sobrecarregam as finanças públicas ganesas, contribuindo para descontentamento que culminou em golpe militar em 1966, enquanto Nkrumah estava em visita oficial à China.\n\nNas duas décadas seguintes, Gana alternou entre governos militares e civis breves e instáveis — padrão interrompido pela ascensão do jovem oficial da força aérea Jerry Rawlings, que tomou o poder através de dois golpes sucessivos, em 1979 e definitivamente em 1981.",
       "fontes": [
         "roger-gocking-gana"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kwame_Nkrumah_1961-03-08.jpg",
+        "alt": "Kwame Nkrumah e John F. Kennedy conversam sentados em poltronas diante de uma lareira na Casa Branca.",
+        "credito": "Abbie Rowe · John F. Kennedy Presidential Library",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Kwame_Nkrumah_1961-03-08.jpg",
+        "legenda": "Kwame Nkrumah reúne-se com John F. Kennedy em Washington em março de 1961."
+      }
     },
     {
       "id": "gha-rawlings-democracia-atual",
       "inicio": "1981",
       "rotulo": "Rawlings e a democracia ganesa",
       "regime": "governo militar, depois democracia multipartidária estável e alternante",
-      "textoMdx": "Rawlings governa inicialmente através de regime militar de esquerda por mais de uma década, implementando reformas econômicas de ajuste estrutural sob orientação do Fundo Monetário Internacional a partir de 1983 — políticas dolorosas no curto prazo, mas que estabilizariam as finanças públicas ganesas no longo prazo.\n\nA transição ao multipartidarismo em 1992 traz o próprio Rawlings, agora como candidato civil, à presidência através de eleições competitivas — ele respeitaria os limites constitucionais de mandato, deixando o poder pacificamente em 2001, gesto raro entre líderes africanos de sua geração que consolidaria a reputação democrática ganesa.\n\n**Gana se estabeleceria, nas décadas seguintes, como um dos modelos mais consistentes de alternância democrática pacífica entre partidos rivais em toda a África, reforçado pela descoberta de petróleo offshore em 2007** — reputação de estabilidade política que atrairia investimento internacional significativo e posicionaria o país como referência regional de governança democrática.",
+      "textoMdx": "Rawlings governa inicialmente através de regime militar de esquerda por mais de uma década, implementando reformas econômicas de ajuste estrutural sob orientação do Fundo Monetário Internacional a partir de 1983 — políticas que estabilizaram as finanças públicas ganesas no longo prazo.\n\nA transição ao multipartidarismo em 1992 traz o próprio Rawlings, agora como candidato civil, à presidência através de eleições competitivas — ele respeitou os limites constitucionais de mandato, deixando o poder pacificamente em 2001, gesto que consolidou a reputação democrática ganesa.\n\n**Gana consolidou, nas décadas seguintes, a alternância democrática pacífica entre partidos rivais, reforçada pela descoberta de petróleo offshore em 2007** — a reputação de estabilidade política atraiu investimento internacional e posicionou o país como referência regional de governança democrática.",
       "fontes": [
         "roger-gocking-gana"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Jerry_Rawlings_2011_%28cropped%29.jpg",
+        "alt": "Jerry Rawlings aparece de terno escuro e gravata diante de uma formação militar durante uma visita oficial.",
+        "credito": "AMISOM Public Information",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Jerry_Rawlings_2011_(cropped).jpg",
+        "legenda": "Jerry Rawlings é recebido por uma guarda de honra durante visita à Somália em outubro de 2011."
+      }
     }
   ]
 }

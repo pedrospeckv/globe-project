@@ -9,10 +9,18 @@
       "fim": "1896",
       "rotulo": "Reinos Mossi",
       "regime": "confederação de reinos aparentados, notáveis pela resistência prolongada aos impérios vizinhos",
-      "textoMdx": "O Reino de Uagadugu, tradicionalmente fundado por volta de 1495 sob o Naba Oubri, lidera confederação de reinos mossi aparentados que preservariam, ao longo de séculos, notável capacidade de resistência tanto ao avanço do Império do Mali quanto, depois, ao do Songai.\n\nOs reinos mossi resistem também, de forma incomum na região, à pressão de conversão islâmica generalizada que transformaria boa parte do Sahel ocidental — preservando estrutura religiosa e política tradicional própria por muito mais tempo que a maioria dos vizinhos.\n\nA instituição do Mogho Naaba, soberano supremo de Uagadugu, sobreviveria como autoridade cerimonial e cultural relevante mesmo depois da conquista francesa completa do território, concluída por volta de 1896 — continuidade simbólica rara entre monarquias tradicionais africanas sob domínio colonial.",
+      "textoMdx": "O Reino de Uagadugu, tradicionalmente fundado por volta de 1495 sob o Naba Oubri, lidera confederação de reinos mossi aparentados que preservaram, ao longo de séculos, notável capacidade de resistência tanto ao avanço do Império do Mali quanto, depois, ao do Songai.\n\nOs reinos mossi resistem também, de forma incomum na região, à pressão de conversão islâmica generalizada que transformou boa parte do Sahel ocidental — preservando estrutura religiosa e política tradicional própria por muito mais tempo que a maioria dos vizinhos.\n\nA instituição do Mogho Naaba, soberano supremo de Uagadugu, sobreviveu como autoridade cerimonial e cultural relevante mesmo depois da conquista francesa completa do território, concluída por volta de 1896 — continuidade simbólica rara entre monarquias tradicionais africanas sob domínio colonial.",
       "fontes": [
         "mcfarland-rupley-burkina-faso"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Boukary_Koutou%2C_also_known_as_Wobgho%2C_Mossi_King_of_Ouagadougou_with_cavalry%2C_Burkina_Faso%2C_1892.jpg",
+        "alt": "Ilustração mostra o rei mossi Boukary Koutou montado a cavalo e cercado por sua escolta de cavaleiros.",
+        "credito": "Édouard Riou · Internet Archive",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Boukary_Koutou,_also_known_as_Wobgho,_Mossi_King_of_Ouagadougou_with_cavalry,_Burkina_Faso,_1892.jpg",
+        "legenda": "Boukary Koutou, rei mossi de Uagadugu, aparece com sua cavalaria numa ilustração publicada em 1892."
+      }
     },
     {
       "id": "bfa-alto-volta-colonial",
@@ -20,10 +28,18 @@
       "fim": "1960",
       "rotulo": "Alto Volta colonial",
       "regime": "colônia francesa, reorganizada administrativamente diversas vezes por conveniência colonial",
-      "textoMdx": "A colônia do Alto Volta é formalmente criada em 1919, mas seria dissolvida e redistribuída entre colônias vizinhas em 1932 por conveniência administrativa francesa, apenas para ser reconstituída em 1947 diante de protesto local persistente contra essa fragmentação.\n\n**A migração de trabalho sazonal para as plantações da vizinha Costa do Marfim se torna característica estrutural da economia do Alto Volta ao longo de todo o período colonial**, criando fluxo migratório contínuo que persistiria, e geraria tensões políticas relevantes, muito além da independência.\n\n**A independência, obtida em agosto de 1960, herda um dos territórios mais pobres e menos desenvolvidos de toda a antiga África Ocidental Francesa**, com infraestrutura mínima e economia fortemente dependente de remessas de trabalhadores migrantes.",
+      "textoMdx": "A colônia do Alto Volta é formalmente criada em 1919, mas foi dissolvida e redistribuída entre colônias vizinhas em 1932 por conveniência administrativa francesa, apenas para ser reconstituída em 1947 diante de protesto local persistente contra essa fragmentação.\n\n**A migração de trabalho sazonal para as plantações da vizinha Costa do Marfim se torna característica estrutural da economia do Alto Volta ao longo de todo o período colonial**, criando fluxo migratório contínuo que persistiu, e gerou tensões políticas relevantes, muito além da independência.\n\n**A independência, obtida em agosto de 1960, herda um dos territórios mais pobres e menos desenvolvidos de toda a antiga África Ocidental Francesa**, com infraestrutura mínima e economia fortemente dependente de remessas de trabalhadores migrantes.",
       "fontes": [
         "mcfarland-rupley-burkina-faso"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Mittelholzer-ouagadougou.jpg",
+        "alt": "Vista aérea em preto e branco mostra Uagadugu com construções dispersas, caminhos e campos ao redor.",
+        "credito": "Walter Mittelholzer",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Mittelholzer-ouagadougou.jpg",
+        "legenda": "Uagadugu é vista do ar entre dezembro de 1930 e janeiro de 1931, durante o período colonial do Alto Volta."
+      }
     },
     {
       "id": "bfa-independencia-instabilidade-sankara",
@@ -31,21 +47,37 @@
       "fim": "1987",
       "rotulo": "Independência, instabilidade e a era Sankara",
       "regime": "república cronicamente instável, sob revolução radical de curta duração",
-      "textoMdx": "A jovem república voltaica alterna entre golpes militares sucessivos ao longo de suas primeiras duas décadas de independência, sem que qualquer governo conseguisse consolidar estabilidade duradoura.\n\n**O capitão Thomas Sankara toma o poder em 1983 e renomeia o país Burkina Faso, \"terra dos homens íntegros\", em 1984 — nome que combina termos das línguas mossi e diula, refletindo ambição de unidade nacional acima das divisões étnicas** — seu governo lançaria campanhas radicais de vacinação em massa, reforma agrária, plantio de árvores contra a desertificação e promoção de direitos das mulheres, ao mesmo tempo em que impunha austeridade rigorosa sobre a própria elite política.\n\nSankara é assassinado em golpe liderado por seu antigo companheiro de armas Blaise Compaoré, em outubro de 1987 — circunstâncias exatas do assassinato permaneceriam contestadas e politicamente sensíveis por décadas, até investigação judicial finalmente condenar Compaoré à revelia em 2022.",
+      "textoMdx": "A jovem república voltaica alterna entre golpes militares sucessivos ao longo de suas primeiras duas décadas de independência, sem que qualquer governo conseguisse consolidar estabilidade.\n\n**O capitão Thomas Sankara toma o poder em 1983 e renomeia o país Burkina Faso, \"terra dos homens íntegros\", em 1984 — nome que combina termos das línguas mossi e diula, refletindo ambição de unidade nacional acima das divisões étnicas** — seu governo lançou campanhas radicais de vacinação em massa, reforma agrária, plantio de árvores contra a desertificação e promoção de direitos das mulheres, ao mesmo tempo em que impunha austeridade rigorosa sobre a própria elite política.\n\nSankara é assassinado em golpe liderado por seu antigo companheiro de armas Blaise Compaoré, em outubro de 1987 — circunstâncias exatas do assassinato permaneceram contestadas e politicamente sensíveis por décadas, até investigação judicial finalmente condenar Compaoré à revelia em 2022.",
       "fontes": [
         "mcfarland-rupley-burkina-faso",
         "ernest-harsch-sankara"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Photo_of_Thomas_Sankara_by_CIA.png",
+        "alt": "Thomas Sankara aparece de frente, usando boina e uniforme militar, numa fotografia em preto e branco.",
+        "credito": "Autor não identificado · Central Intelligence Agency",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Photo_of_Thomas_Sankara_by_CIA.png",
+        "legenda": "Retrato de Thomas Sankara incluído num relatório da inteligência norte-americana em agosto de 1986."
+      }
     },
     {
       "id": "bfa-compaore-instabilidade-atual",
       "inicio": "1987",
       "rotulo": "Compaoré e a instabilidade contemporânea",
       "regime": "ditadura prolongada, depois Estado em crise de segurança severa sob sucessivos golpes militares",
-      "textoMdx": "Blaise Compaoré governa por 27 anos após depor e substituir Sankara, cultivando papel de mediador regional em conflitos vizinhos apesar da origem violenta de seu próprio poder — seria derrubado por levante popular massivo em outubro de 2014, após tentativa de remover limites constitucionais de mandato.\n\nA insurgência jihadista, transbordando da vizinha crise maliana a partir de meados da década de 2010, devasta progressivamente o norte e o leste do país, provocando uma das crises de deslocamento interno de crescimento mais rápido do mundo.\n\nDois golpes militares sucessivos, em janeiro e setembro de 2022, trazem ao poder o jovem capitão Ibrahim Traoré — sua junta rompe relações militares com a França, aproxima-se da Rússia e do Grupo Wagner, e adere, junto com o Mali e o Níger, à nova Aliança dos Estados do Sahel, que rompe formalmente com o bloco regional da CEDEAO em 2024.",
+      "textoMdx": "Blaise Compaoré governa por 27 anos após depor e substituir Sankara, cultivando papel de mediador regional em conflitos vizinhos apesar da origem violenta de seu próprio poder — foi derrubado por levante popular massivo em outubro de 2014, após tentativa de remover limites constitucionais de mandato.\n\nA insurgência jihadista, transbordando da vizinha crise maliana a partir de meados da década de 2010, devasta progressivamente o norte e o leste do país, provocando uma das crises de deslocamento interno de crescimento mais rápido do mundo.\n\nDois golpes militares sucessivos, em janeiro e setembro de 2022, trazem ao poder o jovem capitão Ibrahim Traoré — sua junta rompe relações militares com a França, aproxima-se da Rússia e do Grupo Wagner, e adere, junto com o Mali e o Níger, à nova Aliança dos Estados do Sahel, que rompe formalmente com o bloco regional da CEDEAO em 2024.",
       "fontes": [
         "mcfarland-rupley-burkina-faso"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Burkina_Faso_Protests.png",
+        "alt": "Multidão de manifestantes ocupa uma rua de Uagadugu carregando bandeiras de Burkina Faso e cartazes.",
+        "credito": "Voice of America",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Burkina_Faso_Protests.png",
+        "legenda": "Manifestantes tomam as ruas de Uagadugu em outubro de 2014 durante o levante que derrubou Blaise Compaoré."
+      }
     }
   ]
 }

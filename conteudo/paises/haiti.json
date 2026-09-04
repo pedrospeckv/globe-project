@@ -12,7 +12,15 @@
       "textoMdx": "No fim do século XVIII, a colônia francesa que ocupa o terço ocidental de Hispaniola produz cerca de metade do açúcar e do café consumidos na Europa. É a colônia mais rentável do mundo, e a mais letal.\n\n**A economia depende de reposição constante de pessoas.** A mortalidade nas plantações é tão alta que a população escravizada não se reproduz: mantê-la exige tráfico permanente. Nas últimas décadas do período, a colônia importa dezenas de milhares de africanos por ano, e mais da metade da população escravizada é nascida na África — o que preserva línguas, religião e memória militar africanas.\n\n**A sociedade tem três camadas em conflito.** Os grands blancs proprietários, os petits blancs brancos pobres, e os gens de couleur libres — muitos deles proprietários e educados, sujeitos a leis raciais que os excluíam de cargos. Cada grupo tem uma queixa diferente contra o arranjo, e a Revolução Francesa faz as três explodirem juntas.\n\n**A insurreição de agosto de 1791 começa no norte.** Uma cerimônia em Bois Caïman precede o levante que incendeia as plantações da planície do Norte. Toussaint Louverture, escravizado alforriado, emerge como comandante e negocia sucessivamente com Espanha, Grã-Bretanha e França conforme cada uma oferecia a abolição. A França abole a escravidão em 1794.\n\n**Napoleão tenta restaurar a escravidão e perde um exército.** A expedição de 1802 sob Leclerc captura Toussaint por traição — ele morre num forte no Jura em 1803 —, mas a febre amarela e a resistência sob Jean-Jacques Dessalines destroem a força francesa. A independência é proclamada em 1º de janeiro de 1804, com o nome indígena da ilha: Haiti. É o segundo país independente das Américas, e o único nascido de uma revolta de escravizados vitoriosa.",
       "fontes": [
         "james-jacobinos-negros"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Fire_in_Saint-Domingo_1791%2C_German_copper_engraving.jpg",
+        "alt": "Gravura em preto e branco mostra plantações e construções em chamas, com grupos armados em confronto no primeiro plano.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Fire_in_Saint-Domingo_1791,_German_copper_engraving.jpg",
+        "legenda": "Revolta de escravizados e incêndios em Saint-Domingue, em gravura alemã produzida em 1791."
+      }
     },
     {
       "id": "ht-independencia",
@@ -24,7 +32,15 @@
       "fontes": [
         "dubois-haiti",
         "james-jacobinos-negros"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Essai_-_Ha%C3%AFti%2C_Henri_Christophe%2C_2_gourdes%2C_1811_-_btv1b11336939d_%281_of_2%29.jpg/1920px-Essai_-_Ha%C3%AFti%2C_Henri_Christophe%2C_2_gourdes%2C_1811_-_btv1b11336939d_%281_of_2%29.jpg",
+        "alt": "Face de uma moeda de duas gourdes com o perfil coroado de Henri Christophe e inscrição circular.",
+        "credito": "Henri I · Bibliothèque nationale de France",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Essai_-_Ha%C3%AFti,_Henri_Christophe,_2_gourdes,_1811_-_btv1b11336939d_(1_of_2).jpg",
+        "legenda": "Ensaio monetário haitiano de duas gourdes com Henri Christophe, datado de 1811."
+      }
     },
     {
       "id": "ht-ocupacao",
@@ -35,7 +51,15 @@
       "textoMdx": "Dezenove anos de administração militar direta, com uma constituição escrita em Washington e uma revolta camponesa reprimida com milhares de mortos.\n\n**A ocupação começa em julho de 1915, depois de anos de instabilidade.** Sete presidentes em quatro anos e o linchamento do presidente Vilbrun Guillaume Sam servem de justificativa; a motivação declarada nos documentos é também impedir influência alemã e proteger interesses bancários norte-americanos.\n\n**A Constituição de 1918 remove a proibição de estrangeiros possuírem terra.** Ela é aprovada em plebiscito conduzido sob ocupação, e foi redigida com participação de Franklin Roosevelt, então subsecretário da Marinha, que depois se atribuiria a autoria. O objetivo é permitir plantações de capital externo.\n\n**O trabalho forçado provoca a revolta dos cacos.** O restabelecimento da corvée — trabalho obrigatório em estradas — leva à insurgência liderada por Charlemagne Péralte, morto em 1919 e fotografado exposto pelos ocupantes, imagem que teve efeito oposto ao pretendido. A repressão deixa milhares de mortos.\n\n**A ocupação centraliza o Estado e cria a força que o dominaria.** Estradas, telefones, escolas e um exército nacional treinado pelos fuzileiros — a futura Garde d'Haïti — são o legado institucional. O poder político passa de forma duradoura à elite mulata urbana favorecida pela administração, aprofundando a clivagem social do país.\n\n**A retirada em 1934 não devolve a soberania financeira.** Os Estados Unidos deixam o país sob a política de boa vizinhança de Roosevelt, mas mantêm controle sobre a receita aduaneira haitiana até 1947. Em 1937, no lado dominicano da fronteira, o ditador Trujillo ordena o massacre de haitianos — milhares de mortos —, e o Haiti aceita uma indenização pequena.",
       "fontes": [
         "dubois-haiti"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Occupation_of_Haiti.jpg",
+        "alt": "Fotografia em preto e branco de fuzileiros norte-americanos em patrulha rural, guiados por um homem haitiano.",
+        "credito": "A. R. Harrison · United States Marine Corps",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Occupation_of_Haiti.jpg",
+        "legenda": "Fuzileiros navais dos Estados Unidos em patrulha durante a ocupação do Haiti, em 1915."
+      }
     },
     {
       "id": "ht-duvalier",
@@ -46,7 +70,15 @@
       "textoMdx": "Vinte e nove anos de pai e filho, com uma milícia própria que matou dezenas de milhares e uma emigração que criou a diáspora haitiana contemporânea.\n\n**François Duvalier governa de 1957 a 1971.** Médico que se elege com discurso de defesa da maioria negra contra a elite mulata, torna-se presidente vitalício em 1964. Cria os Tontons Macoutes, milícia paralela ao exército, respondendo apenas a ele; as estimativas de mortos no período variam, com números correntes na ordem de dezenas de milhares.\n\n**Jean-Claude Duvalier herda o cargo aos dezenove anos.** Baby Doc governa de 1971 a 1986, com abertura à indústria de montagem para exportação e turismo, e desvio massivo de recursos públicos — parte dele rastreada depois em contas na Suíça e devolvida.\n\n**A emigração torna-se estrutural.** Profissionais e depois camponeses deixam o país em direção aos Estados Unidos, Canadá, França e República Dominicana; os boat people haitianos dos anos 1970 e 1980 tornam-se questão de política migratória norte-americana. As remessas passam a ser peça central da economia.\n\n**O rebanho de porcos é exterminado em 1982.** Um programa internacional de erradicação da peste suína africana elimina o porco crioulo criado por camponeses como poupança e seguro; a substituição por raças importadas fracassa por incompatibilidade com o manejo local. O episódio é citado como um dos maiores golpes já sofridos pela economia camponesa haitiana.\n\n**A queda vem em fevereiro de 1986.** Protestos generalizados e pressão externa levam Jean-Claude a embarcar num avião norte-americano para a França. Segue-se um período de juntas e eleições interrompidas, com o massacre de eleitores em 1987 e sucessivos golpes.",
       "fontes": [
         "dubois-haiti"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Duvalier_crop2.jpg",
+        "alt": "François Duvalier, de terno escuro e óculos, ergue a mão em saudação ao lado de um diplomata.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Duvalier_crop2.jpg",
+        "legenda": "François Duvalier saúda o embaixador da Guatemala em 1968, durante sua ditadura."
+      }
     },
     {
       "id": "ht-republica",
@@ -56,7 +88,15 @@
       "textoMdx": "Quatro décadas de tentativa de construir democracia sob golpes, intervenções, dois terremotos, epidemia importada e, no período recente, o controle de boa parte do território por grupos armados.\n\n**Aristide é eleito, deposto, restaurado e deposto outra vez.** Jean-Bertrand Aristide, sacerdote ligado à teologia da libertação, vence em 1990 a primeira eleição livre do país; é derrubado em sete meses por golpe militar, com repressão que mata milhares. Volta em 1994 com apoio de uma força multinacional autorizada pela ONU, dissolve o exército, e é eleito de novo em 2000. Em 2004, sob rebelião armada e pressão internacional, deixa o país em circunstâncias que ele descreve como sequestro e os Estados Unidos como renúncia.\n\n**A MINUSTAH ocupa treze anos, com um legado dividido.** A missão da ONU, sob comando militar brasileiro de 2004 a 2017, estabiliza áreas urbanas — e responde por dois passivos graves: casos de abuso sexual por integrantes, e a introdução do cólera em 2010 por saneamento deficiente num acampamento, epidemia que matou cerca de dez mil pessoas. A ONU reconheceu responsabilidade em 2016.\n\n**O terremoto de 12 de janeiro de 2010 é a maior catástrofe da história do país.** As estimativas oficiais chegam a mais de duzentos mil mortos, com Porto Príncipe destruída, incluindo o palácio nacional e a catedral. A reconstrução, financiada por bilhões em ajuda internacional, é criticada por passar quase toda fora das instituições haitianas.\n\n**O Estado deixa de funcionar entre 2021 e 2023.** O presidente Jovenel Moïse é assassinado em casa em julho de 2021 por um comando armado; nenhum sucessor é eleito, o mandato dos parlamentares expira, e o país fica sem presidente eleito e sem legislativo. Gangues armadas passam a controlar a maior parte de Porto Príncipe e as principais rodovias.\n\n**Uma força internacional volta em 2024.** Depois de pedido do governo de transição, o Conselho de Segurança autoriza uma missão multinacional liderada pelo Quênia. O país que fez a única revolução de escravizados vitoriosa da história entrou em seu terceiro século com a soberania efetiva sobre o próprio território em disputa.",
       "fontes": [
         "dubois-haiti"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Haitian_national_palace_earthquake.jpg/1920px-Haitian_national_palace_earthquake.jpg",
+        "alt": "O Palácio Nacional do Haiti aparece com cúpulas e pavimentos desabados, cercado por escombros após o terremoto.",
+        "credito": "Logan Abassi · UNDP Global",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Haitian_national_palace_earthquake.jpg",
+        "legenda": "Palácio Nacional destruído pelo terremoto de janeiro de 2010."
+      }
     }
   ]
 }

@@ -59,3 +59,12 @@ desktop.ini
 # menos ainda agora que o repositório é público. Linhas escritas pelo próprio CLI.
 .vercel
 .env*
+
+# cache do verificador de links — resultado de rede, não conteúdo
+/.cache/
+
+# coletas temporárias do Firecrawl — dados externos, não conteúdo do projeto
+/.firecrawl/
+
+# pacotes de lote — derivados do acervo, refeitos por `pnpm lote`
+/lotes/

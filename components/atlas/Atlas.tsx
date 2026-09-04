@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import gsap from "gsap";
 import { geoPath } from "d3-geo";
 import { GlobeCanvas } from "./GlobeCanvas";
@@ -315,6 +316,25 @@ export function Atlas({
 
   const [selecionado, setSelecionado] = useState<Alpha3 | null>(null);
   const [viagemFoco, setViagemFoco] = useState<string | null>(null);
+
+  const router = useRouter();
+
+  /**
+   * Duplo clique num país aceso entra no dossiê dele.
+   *
+   * Também SELECIONA antes de navegar, e isso não é redundante: o duplo
+   * clique dispara depois de um clique simples, então o país já ficaria
+   * selecionado de qualquer jeito — mas em navegador que engole o primeiro
+   * clique, voltar para o mapa acharia a seleção vazia. Marcar aqui garante
+   * que o país continue aceso quando a pessoa voltar.
+   */
+  const abrirDossie = useCallback(
+    (iso: Alpha3) => {
+      setSelecionado(iso);
+      router.push(`/pais/${iso}`);
+    },
+    [router]
+  );
 
   const dominioAcervo = useMemo(() => intervaloDoAcervo(paises), [paises]);
 
@@ -914,6 +934,7 @@ export function Atlas({
           deslocamento={deslocamentoEfetivo}
           selecionado={selecionado}
           onSelecionar={setSelecionado}
+          onAbrir={abrirDossie}
           divididos={divididos}
           disputados={disputados}
           disputasMarcadas={disputasMarcadas}
@@ -1222,7 +1243,7 @@ export function Atlas({
             ? periodoDoSelecionado
               ? `${paisSelecionado.nome} · ${periodoDoSelecionado.rotulo} · ${periodoDoSelecionado.regime}`
               : `${paisSelecionado.nome} não existia nesta data`
-            : "Clique num país aceso"}
+            : "Clique num país aceso · duplo clique abre o dossiê"}
         </span>
         {paisSelecionado && (
           <Link

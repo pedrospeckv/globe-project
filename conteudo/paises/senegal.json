@@ -9,10 +9,18 @@
       "fim": "1890",
       "rotulo": "Império Jolofo e os reinos wolof",
       "regime": "confederação wolof, depois reinos sucessores fragmentados",
-      "textoMdx": "O Império Jolofo, confederação de Estados wolof e serer, se consolida por volta de meados do século XIV na região senegambiana, controlando território extenso entre o rio Senegal e a Gâmbia através de sistema tributário entre reinos vassalos.\n\nA fragmentação do império, ao longo do século XVI, dá origem a reinos wolof sucessores independentes — Cayor, Baol, Waalo, entre outros — que preservariam identidade e rivalidade próprias mesmo diante da chegada crescente de comerciantes europeus à costa atlântica.\n\nEsses reinos sucessores, enfraquecidos pela integração progressiva ao comércio atlântico de escravos e por conflitos internos recorrentes, seriam gradualmente conquistados ou reduzidos a protetorados pela expansão colonial francesa ao longo do século XIX, processo concluído por volta da década de 1890.",
+      "textoMdx": "O Império Jolofo, confederação de Estados wolof e serer, se consolida por volta de meados do século XIV na região senegambiana, controlando território extenso entre o rio Senegal e a Gâmbia através de sistema tributário entre reinos vassalos.\n\nA fragmentação do império, ao longo do século XVI, dá origem a reinos wolof sucessores independentes — Cayor, Baol, Waalo, entre outros — que preservaram identidade e rivalidade próprias mesmo diante da chegada de comerciantes europeus à costa atlântica.\n\nEsses reinos sucessores, enfraquecidos pela integração ao comércio atlântico de escravos e por conflitos internos recorrentes, foram gradualmente conquistados ou reduzidos a protetorados pela expansão colonial francesa ao longo do século XIX, processo concluído por volta da década de 1890.",
       "fontes": [
         "boubacar-barry-senegambia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Lat_Dior%2C_king_of_Cayot_%28Le_Monde_illustr%C3%A9%2C_1875%29.jpg",
+        "alt": "Gravura de Lat Dior em pé, usando túnica longa, faixa na cintura e turbante, com uma espada pendente ao lado.",
+        "credito": "Léon Alexandre Tourfaut, a partir de desenho de Albert S.-Marie",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Lat_Dior,_king_of_Cayot_(Le_Monde_illustr%C3%A9,_1875).jpg",
+        "legenda": "Lat Dior, damel de Cayor e líder da resistência à expansão francesa, em gravura publicada em 1875."
+      }
     },
     {
       "id": "sen-colonizacao-francesa-comunas",
@@ -20,10 +28,18 @@
       "fim": "1960",
       "rotulo": "Colonização Francesa e as Quatro Comunas",
       "regime": "posto comercial francês, depois colônia com status político excepcional para habitantes de quatro cidades",
-      "textoMdx": "A França funda Saint-Louis em 1659, um dos assentamentos europeus permanentes mais antigos da África Ocidental — posto comercial que se tornaria, séculos depois, capital da vasta África Ocidental Francesa.\n\nAs Quatro Comunas — Saint-Louis, Gorée, Rufisque e Dacar — recebem estatuto político excepcional entre as colônias francesas africanas, com habitantes originários adquirindo cidadania francesa plena e direito a representação parlamentar: Blaise Diagne se tornaria, em 1914, o primeiro deputado negro africano eleito à Assembleia Nacional francesa.\n\nO movimento nacionalista senegalês, liderado pelo poeta e filósofo Léopold Sédar Senghor, figura central do movimento cultural da Negritude, negocia independência que se consumaria em agosto de 1960, após breve e malsucedida experiência de Federação do Mali com o vizinho Sudão Francês.",
+      "textoMdx": "A França funda Saint-Louis em 1659, um dos assentamentos europeus permanentes mais antigos da África Ocidental — posto comercial que se tornou, séculos depois, capital da África Ocidental Francesa.\n\nAs Quatro Comunas — Saint-Louis, Gorée, Rufisque e Dacar — recebem estatuto político entre as colônias francesas africanas, com habitantes originários adquirindo cidadania francesa plena e direito a representação parlamentar: Blaise Diagne tornou-se, em 1914, o primeiro deputado negro africano eleito à Assembleia Nacional francesa.\n\nO movimento nacionalista senegalês, liderado pelo poeta e filósofo Léopold Sédar Senghor, figura central do movimento cultural da Negritude, negocia independência que se consumou em agosto de 1960, após breve e malsucedida experiência de Federação do Mali com o vizinho Sudão Francês.",
       "fontes": [
         "boubacar-barry-senegambia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/StLouis1.JPG",
+        "alt": "Cartão-postal em preto e branco mostra a estação ferroviária de Saint-Louis, com passageiros diante do edifício e vagões sobre os trilhos.",
+        "credito": "Edmond Fortier",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:StLouis1.JPG",
+        "legenda": "A primeira estação ferroviária de Saint-Louis por volta de 1902, quando a cidade era uma das comunas francesas do Senegal."
+      }
     },
     {
       "id": "sen-senghor-diouf-democracia-consolidada",
@@ -31,20 +47,36 @@
       "fim": "2000",
       "rotulo": "Senghor, Diouf e a consolidação democrática",
       "regime": "república presidencialista, gradualmente liberalizada rumo ao multipartidarismo competitivo",
-      "textoMdx": "Léopold Sédar Senghor governa o Senegal independente por duas décadas, combinando domínio político dominante com abertura gradual à competição multipartidária a partir de 1976 — ele se tornaria um dos poucos fundadores de nação africana a se aposentar voluntariamente do poder, em 1980, cedendo lugar a Abdou Diouf.\n\nO Senegal evitaria, ao contrário de numerosos vizinhos regionais, qualquer golpe militar bem-sucedido ao longo de toda sua história independente — tentativas ocorreriam, mas nenhuma alcançaria êxito, preservando continuidade constitucional civil incomum na região.\n\n**Uma insurgência separatista de baixa intensidade na região meridional de Casamança, iniciada em 1982, se estenderia por décadas sem jamais ameaçar seriamente a estabilidade nacional mais ampla** — as eleições de 2000, nas quais o opositor histórico Abdoulaye Wade derrota Diouf, consumam a primeira alternância democrática pacífica de poder na história senegalesa.",
+      "textoMdx": "Léopold Sédar Senghor governa o Senegal independente por duas décadas, combinando domínio político com abertura gradual à competição multipartidária a partir de 1976 — ele se tornou fundador de nação africana a se aposentar voluntariamente do poder, em 1980, cedendo lugar a Abdou Diouf.\n\nO Senegal evitou, ao contrário de numerosos vizinhos regionais, qualquer golpe militar bem-sucedido ao longo de toda sua história independente — tentativas ocorreram, mas nenhuma alcançou êxito, preservando continuidade constitucional civil na região.\n\n**Uma insurgência separatista de baixa intensidade na região meridional de Casamança, iniciada em 1982, estendeu-se por décadas sem ameaçar a estabilidade nacional** — as eleições de 2000, nas quais o opositor histórico Abdoulaye Wade derrota Diouf, consumam a primeira alternância democrática pacífica de poder na história senegalesa.",
       "fontes": [
         "boubacar-barry-senegambia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/UNESCO_History%2C_Visite_de_S._Exc._M._L%C3%A9opold_Sedar_Senghor%2C_Pr%C3%A9sident_de_la_R%C3%A9publique_du_S%C3%A9n%C3%A9gal_-_UNESCO_-_PHOTO0000002688_0001_%28cropped%29.tiff/lossy-page1-1920px-UNESCO_History%2C_Visite_de_S._Exc._M._L%C3%A9opold_Sedar_Senghor%2C_Pr%C3%A9sident_de_la_R%C3%A9publique_du_S%C3%A9n%C3%A9gal_-_UNESCO_-_PHOTO0000002688_0001_%28cropped%29.tiff.jpg",
+        "alt": "Retrato em preto e branco de Léopold Sédar Senghor sorrindo, de terno, gravata e óculos, diante de folhas de palmeira.",
+        "credito": "Dominique Roger · UNESCO",
+        "licenca": "CC BY-SA 3.0 igo",
+        "origem": "https://commons.wikimedia.org/wiki/File:UNESCO_History,_Visite_de_S._Exc._M._L%C3%A9opold_Sedar_Senghor,_Pr%C3%A9sident_de_la_R%C3%A9publique_du_S%C3%A9n%C3%A9gal_-_UNESCO_-_PHOTO0000002688_0001_(cropped).tiff",
+        "legenda": "O presidente Léopold Sédar Senghor durante visita à sede da UNESCO em Paris, em maio de 1978."
+      }
     },
     {
       "id": "sen-alternancia-democratica-atual",
       "inicio": "2000",
       "rotulo": "Alternância democrática contemporânea",
       "regime": "república presidencialista democrática, com alternância competitiva entre partidos",
-      "textoMdx": "Abdoulaye Wade governa de 2000 a 2012, período que combina energia reformista inicial com controvérsia crescente sobre tentativa de buscar terceiro mandato de legitimidade constitucional disputada — Macky Sall o derrotaria nas urnas em 2012.\n\n**Sall, por sua vez, enfrentaria acusação especular de buscar também terceiro mandato controverso em 2023-2024, gerando protestos e repressão significativa, incluindo a prisão do líder opositor Ousmane Sonko sob acusações amplamente vistas como politicamente motivadas** — Sall recuaria da candidatura, preservando, ainda que sob tensão considerável, a reputação democrática senegalesa.\n\n**Bassirou Diomaye Faye, jovem candidato de oposição libertado da prisão dias antes da eleição, vence a votação presidencial de março de 2024 em resultado surpreendente e amplamente celebrado** — desfecho democrático notável que reafirmaria o Senegal como uma das democracias mais resilientes da África Ocidental, numa década marcada por golpes militares recorrentes em diversos países vizinhos do Sahel.",
+      "textoMdx": "Abdoulaye Wade governa de 2000 a 2012, período que combina energia reformista inicial com controvérsia sobre tentativa de buscar terceiro mandato de legitimidade constitucional disputada — Macky Sall o derrotou nas urnas em 2012.\n\n**Sall, por sua vez, enfrentou acusação de buscar também terceiro mandato controverso em 2023-2024, gerando protestos e repressão, incluindo a prisão do líder opositor Ousmane Sonko sob acusações vistas como politicamente motivadas** — Sall recuou da candidatura, preservando, ainda que sob tensão, a reputação democrática senegalesa.\n\n**Bassirou Diomaye Faye, jovem candidato de oposição libertado da prisão dias antes da eleição, vence a votação presidencial de março de 2024** — o resultado reafirmou o Senegal como democracia da África Ocidental, numa década marcada por golpes militares recorrentes em diversos países vizinhos do Sahel.",
       "fontes": [
         "boubacar-barry-senegambia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/President_Macky_Sall_of_Senegal_%288102325479%29.jpg/1920px-President_Macky_Sall_of_Senegal_%288102325479%29.jpg",
+        "alt": "Macky Sall sorri para a câmera usando terno escuro, camisa branca e gravata diante de um fundo claro.",
+        "credito": "MONUSCO Photos",
+        "licenca": "CC BY-SA 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:President_Macky_Sall_of_Senegal_(8102325479).jpg",
+        "legenda": "Macky Sall em outubro de 2012, no primeiro ano de seu mandato presidencial."
+      }
     }
   ]
 }

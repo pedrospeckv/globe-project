@@ -12,7 +12,15 @@
       "textoMdx": "As tribos quirguizes, nômades das montanhas do Tian Shan e anteriormente sujeitas em graus variados ao vizinho Canato de Kokand, passam ao domínio direto russo com a anexação de Kokand em 1876, perdendo pastagens tradicionais para colonos eslavos que se instalam progressivamente nos vales mais férteis.\n\n**A revolta de 1916 contra o recrutamento forçado atinge o território quirguiz com particular violência: milhares fogem em pânico através das montanhas rumo à China, no episódio conhecido como Urkun, \"o grande êxodo\"**, com número expressivo de mortes por exposição, fome e ataques durante a fuga — um dos capítulos mais trágicos e menos conhecidos internacionalmente da revolta centro-asiática de 1916.\n\nO colapso do domínio russo, em 1917, e a subsequente guerra civil deixam o território quirguiz em condição de instabilidade extrema, antes da consolidação soviética por volta de 1920.",
       "fontes": [
         "adeeb-khalid-asia-central"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Prokudin-Gorskii-18.jpg/1920px-Prokudin-Gorskii-18.jpg",
+        "alt": "Família quirguiz nômade posa diante de uma iurta, com adultos e crianças em roupas tradicionais.",
+        "credito": "Sergei Prokudin-Gorskii · Library of Congress",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Prokudin-Gorskii-18.jpg",
+        "legenda": "Uma família quirguiz nômade fotografada em 1911, durante o domínio russo da Ásia Central."
+      }
     },
     {
       "id": "kgz-quirguistao-sovietico",
@@ -20,20 +28,36 @@
       "fim": "1991",
       "rotulo": "República Socialista Soviética do Quirguistão",
       "regime": "região autônoma, depois república socialista soviética de partido único a partir de 1936",
-      "textoMdx": "A Delimitação Nacional de 1924 cria inicialmente uma região autônoma quirguiz dentro da Rússia soviética, elevada a república socialista soviética plena apenas em 1936 — o Quirguistão preservaria, mais que os vizinhos, tradições pastoris nômades e organização social baseada em clãs regionais ao longo de todo o período soviético.\n\n**A economia quirguiz permanece a mais dependente de subsídios centrais entre as repúblicas centro-asiáticas, com industrialização limitada concentrada principalmente na capital Frunze — atual Bishkek**, deixando o país entre os mais pobres da União Soviética ao final do período.",
+      "textoMdx": "A Delimitação Nacional de 1924 cria inicialmente uma região autônoma quirguiz dentro da Rússia soviética, elevada a república socialista soviética plena apenas em 1936 — o Quirguistão preservou, mais que os vizinhos, tradições pastoris nômades e organização social baseada em clãs regionais ao longo de todo o período soviético.\n\n**A economia quirguiz permanece a mais dependente de subsídios centrais entre as repúblicas centro-asiáticas, com industrialização limitada concentrada principalmente na capital Frunze — atual Bishkek**, deixando o país entre os mais pobres da União Soviética ao final do período.",
       "fontes": [
         "adeeb-khalid-asia-central"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/The_Soviet_Union_1974_CPA_4386_stamp_%28Kirghiz_Soviet_Socialist_Republic_%28Established_on_1924.10.14%29%29.jpg",
+        "alt": "Selo soviético mostra o brasão da república quirguiz, bandeiras, montanhas, uma torre elétrica e ornamentos tradicionais.",
+        "credito": "USSR Post",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1974_CPA_4386_stamp_(Kirghiz_Soviet_Socialist_Republic_(Established_on_1924.10.14)).jpg",
+        "legenda": "Selo de 1974 celebra os cinquenta anos da república soviética quirguiz e sua modernização."
+      }
     },
     {
       "id": "kgz-independencia-multiplas-revolucoes",
       "inicio": "1991",
       "rotulo": "Quirguistão independente",
       "regime": "república parlamentar-presidencialista, marcada por sucessivas rupturas violentas de governo",
-      "textoMdx": "Askar Akayev, físico e primeiro presidente pós-independência, promove inicialmente reformas econômicas e políticas mais abertas que a de qualquer vizinho centro-asiático, rendendo ao país reputação de \"ilha de democracia\" na região — reputação que se erodiria progressivamente ao longo dos anos 2000, à medida que Akayev concentraria poder e favoreceria interesses familiares.\n\n**A Revolução das Tulipas, em março de 2005, derruba Akayev após protestos contra fraude eleitoral — a primeira das chamadas revoluções coloridas na Ásia Central**, trazendo ao poder Kurmanbek Bakiyev, que repetiria, em poucos anos, o mesmo padrão de nepotismo e repressão do antecessor.\n\n**Os distúrbios de 2010 derrubam Bakiyev de forma bem mais violenta, com dezenas de mortos em Bishkek, seguidos meses depois por confrontos étnicos devastadores entre quirguizes e a minoria uzbeque na região de Osh, que matariam várias centenas de pessoas** — a transição subsequente para sistema parlamentar, incomum na região por distribuir poder de forma mais equilibrada, não impediria nova onda de instabilidade em 2020, quando protestos pós-eleitorais levariam à ascensão de Sadyr Japarov em circunstâncias igualmente turbulentas.",
+      "textoMdx": "Askar Akayev, físico e primeiro presidente pós-independência, promove inicialmente reformas econômicas e políticas mais abertas que a de qualquer vizinho centro-asiático, rendendo ao país reputação de \"ilha de democracia\" na região — reputação que se erodiu progressivamente ao longo dos anos 2000, à medida que Akayev concentrou poder e favoreceu interesses familiares.\n\n**A Revolução das Tulipas, em março de 2005, derruba Akayev após protestos contra fraude eleitoral — a primeira das chamadas revoluções coloridas na Ásia Central**, trazendo ao poder Kurmanbek Bakiyev, que repetiu, em poucos anos, o mesmo padrão de nepotismo e repressão do antecessor.\n\n**Os distúrbios de 2010 derrubam Bakiyev de forma bem mais violenta, com dezenas de mortos em Bishkek, seguidos meses depois por confrontos étnicos devastadores entre quirguizes e a minoria uzbeque na região de Osh, que mataram várias centenas de pessoas** — a transição subsequente para sistema parlamentar, incomum na região por distribuir poder de forma mais equilibrada, não impediu nova onda de instabilidade em 2020, quando protestos pós-eleitorais levaram à ascensão de Sadyr Japarov em circunstâncias igualmente turbulentas.",
       "fontes": [
         "adeeb-khalid-asia-central"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bishkek_capitol_revolution_2010.JPG/1920px-Bishkek_capitol_revolution_2010.JPG",
+        "alt": "Manifestantes ocupam o gramado diante da sede do governo danificada em Bishkek.",
+        "credito": "Brokev03",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Bishkek_capitol_revolution_2010.JPG",
+        "legenda": "Manifestantes entram no complexo governamental de Bishkek em abril de 2010, após a queda de Kurmanbek Bakiyev."
+      }
     }
   ]
 }

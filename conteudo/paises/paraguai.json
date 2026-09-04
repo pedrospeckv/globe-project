@@ -13,7 +13,15 @@
       "fontes": [
         "whigham-guerra-paraguai",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/A_Current_Description_of_the_Province_of_the_Society_of_Jesus_in_Paraguay_with_Neighboring_Areas_WDL2581.png",
+        "alt": "Mapa histórico minucioso do Paraguai e regiões vizinhas, com rios, assentamentos e áreas missioneiras.",
+        "credito": "Francisco Retz",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:A%20Current%20Description%20of%20the%20Province%20of%20the%20Society%20of%20Jesus%20in%20Paraguay%20with%20Neighboring%20Areas%20WDL2581.png",
+        "legenda": "Mapa de 1732 da província jesuítica do Paraguai e de seus territórios vizinhos."
+      }
     },
     {
       "id": "py-francia-e-lopez",
@@ -24,7 +32,15 @@
       "textoMdx": "Cinquenta e três anos de um projeto raro na América Latina: um Estado que fecha o país, controla a economia, não se endivida e constrói infraestrutura própria — governado por três homens.\n\n**José Gaspar Rodríguez de Francia governa até morrer, em 1840.** Nomeado ditador perpétuo em 1816, ele fecha as fronteiras ao comércio, expropria a elite espanhola, proíbe casamento entre espanhóis, submete a Igreja ao Estado e transforma o Estado no maior proprietário de terra e gado do país, arrendando parcelas a camponeses. O resultado é uma sociedade sem grande latifúndio privado, quase sem dívida externa e sem fome — e sem imprensa, oposição ou eleição.\n\n**Carlos Antonio López abre e moderniza, sem soltar.** No poder de 1841 a 1862, reabre o comércio, contrata engenheiros britânicos, constrói a primeira ferrovia da região, funda a fundição de Ybycuí, telégrafo, arsenal e estaleiro, e manda estudantes à Europa. Continua sendo ditadura, e ele deixa o cargo ao filho.\n\n**A geografia é o problema insolúvel.** O Paraguai não tem litoral e depende da navegação do Paraná e do Paraguai, cujos cursos inferiores estão sob controle argentino. Toda a política externa gira em torno de garantir esse acesso, e é o que explica a atenção do governo ao que acontece em Montevidéu.\n\n**Francisco Solano López herda um Estado forte e o gasta numa guerra.** Ele assume em 1862 com o maior exército permanente da região e a convicção de que o equilíbrio do Prata depende de o Uruguai não cair sob influência brasileira. Quando o Império do Brasil intervém no Uruguai em 1864, ele apreende um navio brasileiro, invade Mato Grosso, pede passagem pela Argentina para atacar o Rio Grande do Sul, é recusado e invade Corrientes. Com isso, alinha contra si Brasil, Argentina e o novo governo uruguaio ao mesmo tempo.",
       "fontes": [
         "whigham-guerra-paraguai"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Carlos_Antonio_L%C3%B3pez.jpg",
+        "alt": "Carlos Antonio López posa sentado, com barba, casaca escura e uma das mãos apoiada sobre a perna.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Carlos%20Antonio%20L%C3%B3pez.jpg",
+        "legenda": "Retrato fotográfico do presidente Carlos Antonio López em 1859."
+      }
     },
     {
       "id": "py-guerra-triplice-alianca",
@@ -35,7 +51,15 @@
       "textoMdx": "A guerra mais destrutiva da história da América do Sul, e a única em que um país perde mais da metade da população.\n\n**A aliança é formalizada em 1865 e o desequilíbrio é enorme.** Brasil, Argentina e Uruguai somam população muitas vezes maior, acesso a crédito britânico e domínio naval. A batalha do Riachuelo, em junho de 1865, entrega os rios à esquadra brasileira, e o Paraguai fica sitiado dentro de si mesmo.\n\n**A resistência prolonga a guerra por cinco anos.** Humaitá resiste até 1868; depois da queda de Assunção, em 1869, Solano López continua a guerra nas serras do norte com um exército que já recruta velhos e crianças. Ele é morto em Cerro Corá, em março de 1870, recusando-se a render-se — episódio que o converteria, décadas mais tarde, em herói nacional.\n\n**As perdas humanas não têm paralelo na região.** As estimativas variam muito e são objeto de debate historiográfico, mas as mais aceitas indicam que o Paraguai perdeu entre metade e dois terços da população, e a maior parte dos homens adultos. Fome e epidemia mataram mais que o combate. O país sai da guerra com uma sociedade majoritariamente feminina e sem geração adulta masculina.\n\n**A derrota também redefine o território e a economia.** O Paraguai cede a Brasil e Argentina áreas contestadas, é ocupado por tropas brasileiras até 1876, e contrai a primeira dívida externa de sua história para pagar indenizações. As terras públicas que Francia e os López haviam mantido sob o Estado são vendidas em enormes lotes a compradores estrangeiros nas décadas seguintes — e é essa venda, mais que a guerra, que cria a concentração de terra que o Paraguai tem hoje.",
       "fontes": [
         "whigham-guerra-paraguai"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/GUERRA_DO_PARAGUAY._O_bar%C3%A3o_do_Triunpho_no_dia_26_de_Setembro_de_1868_na_passagem_do_rio_Surubi-hi.jpg/1920px-GUERRA_DO_PARAGUAY._O_bar%C3%A3o_do_Triunpho_no_dia_26_de_Setembro_de_1868_na_passagem_do_rio_Surubi-hi.jpg",
+        "alt": "Gravura mostra cavaleiros e soldados atravessando um rio sob fogo durante uma operação militar.",
+        "credito": "Semana Illustrada",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:GUERRA%20DO%20PARAGUAY.%20O%20bar%C3%A3o%20do%20Triunpho%20no%20dia%2026%20de%20Setembro%20de%201868%20na%20passagem%20do%20rio%20Surubi-hi.jpg",
+        "legenda": "Passagem do rio Surubi-hi pelo Barão do Triunfo, gravura publicada em 1º de novembro de 1868."
+      }
     },
     {
       "id": "py-republica-liberal",
@@ -47,7 +71,15 @@
       "fontes": [
         "whigham-guerra-paraguai",
         "lewis-paraguai-stroessner"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/NidoAmetralladora.jpg",
+        "alt": "Soldados paraguaios operam uma metralhadora em uma posição defensiva cercada por sacos e terreno seco.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:NidoAmetralladora.jpg",
+        "legenda": "Ninho de metralhadora paraguaio durante a Guerra do Chaco, por volta de 1932."
+      }
     },
     {
       "id": "py-stronato",
@@ -60,7 +92,15 @@
         "lewis-paraguai-stroessner",
         "cvj-paraguai",
         "arquivo-do-terror"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Alfredo_Stroessner_en_1954.jpg",
+        "alt": "Alfredo Stroessner posa de uniforme militar com faixa presidencial e condecorações.",
+        "credito": "Casa Fotográfica Resck",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Alfredo%20Stroessner%20en%201954.jpg",
+        "legenda": "Retrato oficial de Alfredo Stroessner em 15 de agosto de 1954, início de sua ditadura."
+      }
     },
     {
       "id": "py-republica",
@@ -71,7 +111,15 @@
       "fontes": [
         "cvj-paraguai",
         "lewis-paraguai-stroessner"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Fernando_Lugo%2C_18_April_2008.jpg",
+        "alt": "Fernando Lugo sorri e acena para apoiadores reunidos após a eleição presidencial.",
+        "credito": "Antônio Cruz · Agência Brasil",
+        "licenca": "CC BY 3.0 br",
+        "origem": "https://commons.wikimedia.org/wiki/File:Fernando%20Lugo%2C%2018%20April%202008.jpg",
+        "legenda": "Fernando Lugo em 18 de abril de 2008, durante a eleição que encerrou seis décadas de domínio colorado."
+      }
     }
   ]
 }

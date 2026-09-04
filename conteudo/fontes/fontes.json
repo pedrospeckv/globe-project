@@ -5049,5 +5049,48 @@
     "publicacao": "Parlamento galês",
     "data": "2020-01-15",
     "citacao": "Trocou o nome da Assembleia Nacional de Gales para Senedd Cymru, e o fez pela primeira vez com um nome galês oficial em igualdade com o inglês. Baixou também para dezesseis anos a idade de votar nas eleições galesas."
+  },
+  {
+    "id": "banco-mundial-libano-2021",
+    "tipo": "documento-oficial",
+    "titulo": "Lebanon Economic Monitor: Lebanon Sinking (to the Top 3)",
+    "publicacao": "Banco Mundial",
+    "data": "2021-06",
+    "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/394741622469174252",
+    "citacao": "Estima que o colapso financeiro iniciado em 2019 tende a figurar entre os três episódios de crise mais severos do mundo desde meados do século XIX, e atribui a gravidade à inação deliberada da classe política. É uma projeção de ranking feita pelo próprio Banco — o relatório escreve likely to rank —, e não uma medição consolidada depois do fato."
+  },
+  {
+    "id": "hrw-massacre-rabaa-2023",
+    "tipo": "reportagem",
+    "titulo": "Egypt: Rab’a Massacre Reverberates 10 Years Later",
+    "autor": "Human Rights Watch",
+    "data": "2023-08-14",
+    "url": "https://www.hrw.org/news/2023/08/14/egypt-raba-massacre-reverberates-10-years-later",
+    "citacao": "Documenta que as forças de segurança dispararam contra manifestantes majoritariamente pacíficos em 14 de agosto de 2013 para dispersar a praça Rabaa, matando ao menos 817 pessoas e provavelmente mais de mil, e sustenta que dez anos depois ninguém havia sido responsabilizado. O número é contagem própria da organização, não cifra oficial — o governo egípcio reconhece total menor —, e a Human Rights Watch é parte interessada: faz campanha pela responsabilização do caso."
+  },
+  {
+    "id": "comissao-europeia-polonia-2022",
+    "tipo": "documento-oficial",
+    "titulo": "Commission adopts €76.5 billion Partnership Agreement with Poland for 2021–2027",
+    "publicacao": "Comissão Europeia",
+    "data": "2022-07-01",
+    "url": "https://european-social-fund-plus.ec.europa.eu/en/news/commission-adopts-poland-partnership-2021-27",
+    "citacao": "Registra o Acordo de Parceria que fixa em 76,5 bilhões de euros a estratégia de investimento da Política de Coesão para a Polônia no período de 2021 a 2027. É o valor ALOCADO, não o desembolsado: fundo de coesão se executa ao longo do ciclo inteiro, e o total efetivamente pago só se conhece no fim dele."
+  },
+  {
+    "id": "acnur-portal-siria",
+    "tipo": "dataset",
+    "titulo": "Situation Syria Regional Refugee Response",
+    "publicacao": "ACNUR",
+    "url": "https://data.unhcr.org/en/situations/syria",
+    "citacao": "Portal operacional do ACNUR com a contagem de pessoas refugiadas sírias por país de acolhimento. É série viva, atualizada continuamente, então qualquer número tirado dele é uma fotografia com data. Conta apenas quem está REGISTRADO junto ao ACNUR: fica de fora quem não se registrou e quem obteve outro status no país de destino."
+  },
+  {
+    "id": "qatarenergy-campo-norte",
+    "tipo": "documento-oficial",
+    "titulo": "What We Do — QatarEnergy",
+    "publicacao": "QatarEnergy",
+    "url": "https://www.qatarenergy.qa/en/Whatwedo/Pages/default.aspx",
+    "citacao": "A operadora estatal declara que o Campo Norte é o maior campo de gás não associado do mundo, com mais de 6.000 km², e que representa 20% das reservas mundiais de gás. É o operador descrevendo o próprio ativo, numa página sem data nem versão — serve para a ordem de grandeza, não como medição independente de reserva."
   }
 ]

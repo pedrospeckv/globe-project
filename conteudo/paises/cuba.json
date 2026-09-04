@@ -13,7 +13,15 @@
       "fontes": [
         "perez-cuba",
         "knight-caribe"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mambises_cuba_1898.gif",
+        "alt": "Grupo de combatentes independentistas cubanos posa ao ar livre com rifles e roupas de campanha.",
+        "credito": "Autor não identificado",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Mambises_cuba_1898.gif",
+        "legenda": "Mambises cubanos são fotografados em 1898, no final das guerras contra o domínio espanhol."
+      }
     },
     {
       "id": "cu-republica-e-platt",
@@ -25,7 +33,15 @@
       "fontes": [
         "perez-cuba",
         "emenda-platt"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Fulgencio_Batista%2C_president_of_Cuba%2C_1952.jpg",
+        "alt": "Fulgencio Batista aparece sentado a uma mesa, usando uniforme militar e falando diante de microfones.",
+        "credito": "Autor anônimo",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Fulgencio_Batista,_president_of_Cuba,_1952.jpg",
+        "legenda": "Fulgencio Batista aparece em 1952, ano em que retornou ao poder por meio de um golpe militar."
+      }
     },
     {
       "id": "cu-revolucao",
@@ -36,7 +52,15 @@
       "textoMdx": "A revolução transforma um país dependente do açúcar e dos Estados Unidos num Estado socialista aliado da União Soviética, com resultados sociais notáveis e sem liberdade política.\n\n**As primeiras medidas rompem com Washington em dezoito meses.** Reforma agrária em 1959, nacionalização de refinarias e depois de empresas norte-americanas em 1960, seguidas de embargo comercial e ruptura de relações em janeiro de 1961. Em abril de 1961, a invasão da Baía dos Porcos, organizada pela CIA com exilados cubanos, é derrotada em três dias.\n\n**A crise dos mísseis, em outubro de 1962, é o momento mais perigoso da Guerra Fria.** A instalação de mísseis soviéticos na ilha leva a um bloqueio naval e a treze dias em que uma guerra nuclear foi considerada possível. A saída é negociada entre Moscou e Washington sem participação cubana: retirada dos mísseis em troca do compromisso de não invadir a ilha e da remoção de mísseis norte-americanos da Turquia.\n\n**Os indicadores sociais melhoram de forma inequívoca.** Campanha de alfabetização em 1961, medicina preventiva com cobertura universal, mortalidade infantil e expectativa de vida que passam a se comparar às de países ricos, formação em massa de médicos — depois exportados como política externa. Ao mesmo tempo, o Estado assume toda a economia, o partido único é constitucionalizado em 1976, e a dissidência é criminalizada: presos políticos, campos de trabalho, perseguição a homossexuais nos anos 1960 e 1970, e emigração em massa em ondas — 1965, Mariel em 1980, os balseiros em 1994.\n\n**A economia troca de dependência.** O açúcar continua central, agora vendido à União Soviética a preços preferenciais em troca de petróleo, o que financia o Estado social e sustenta uma política externa de escala improvável para uma ilha — dezenas de milhares de soldados em Angola e na Etiópia nos anos 1970 e 1980.\n\n**O colapso soviético produz o Período Especial.** A partir de 1991, com o fim dos subsídios, o produto interno cai drasticamente, faltam alimento e combustível, e o país legaliza o dólar, abre-se ao turismo e permite trabalho por conta própria. O embargo, endurecido em 1992 e 1996, agrava a escassez, e é objeto de condenação anual na Assembleia Geral da ONU por ampla maioria.",
       "fontes": [
         "perez-cuba"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Cuban_missiles.jpg",
+        "alt": "Fotografia aérea de reconhecimento mostra uma instalação de mísseis com estradas, veículos e áreas de lançamento em Cuba.",
+        "credito": "U.S. Air Force · National Archives",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Cuban_missiles.jpg",
+        "legenda": "Uma instalação soviética de mísseis em San Cristóbal é fotografada em novembro de 1962 durante a Crise dos Mísseis."
+      }
     },
     {
       "id": "cu-atual",
@@ -46,7 +70,15 @@
       "textoMdx": "Fidel Castro transfere o cargo ao irmão em 2008, e desde então o país tenta uma reforma econômica sem reforma política — com uma crise material que se aprofundou.\n\n**Raúl Castro faz aberturas limitadas.** Ampliação do trabalho por conta própria, autorização para compra e venda de casas e carros, e uma unificação monetária adiada por anos e finalmente executada em 2021, com inflação alta. Em 2018 a presidência passa a Miguel Díaz-Canel, primeiro chefe de Estado nascido depois da revolução; Raúl deixa a chefia do partido em 2021, encerrando seis décadas de Castro no comando formal.\n\n**O degelo com os Estados Unidos dura pouco.** Relações diplomáticas são restabelecidas em 2015, com visita de Barack Obama à ilha em 2016 — a primeira de um presidente norte-americano em quase noventa anos. A política é revertida a partir de 2017, com novas restrições e a reinclusão de Cuba na lista de patrocinadores do terrorismo.\n\n**A Constituição de 2019 atualiza sem mudar o essencial.** Reconhece propriedade privada e investimento estrangeiro, cria o cargo de primeiro-ministro, mantém o partido único como força dirigente. Em 2022, um Código das Famílias aprovado em referendo legaliza o casamento entre pessoas do mesmo sexo e a adoção — resultado incomum na região e aprovado com oposição relevante.\n\n**Os protestos de 11 de julho de 2021 são os maiores desde 1959.** Manifestações simultâneas em dezenas de cidades, motivadas por escassez de alimento e medicamento, apagões e o colapso do turismo na pandemia, resultam em centenas de detenções e penas longas de prisão.\n\n**A crise atual é a mais grave desde o Período Especial.** Apagões prolongados por falta de combustível e de manutenção das termelétricas, escassez de insumos, inflação, e uma emigração que, nos anos recentes, foi proporcionalmente das maiores do mundo — o que soma às ondas anteriores uma diáspora comparável a uma parcela grande da população da ilha.",
       "fontes": [
         "perez-cuba"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/2021_Cuban_protests.png",
+        "alt": "Manifestantes ocupam uma rua cubana, erguendo os braços e gravando a mobilização com telefones celulares.",
+        "credito": "14ymedio",
+        "licenca": "CC BY 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:2021_Cuban_protests.png",
+        "legenda": "Manifestantes saem às ruas em 11 de julho de 2021 durante os maiores protestos nacionais desde a revolução."
+      }
     }
   ]
 }

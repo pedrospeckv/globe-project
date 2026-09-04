@@ -118,7 +118,31 @@ const NAO_E_CONDICIONAL = new Set([
  * em todo parágrafo é preenchimento.
  */
 const AVALIATIVO =
-  /\b(?:profundament|considerav|largament|crescentement|drasticament|decisivament|significativament|duradour|uma das (?:piores|maiores|mais))/g;
+  /\b(?:profundament|considerav|largament|crescentement|drasticament|decisivament|significativament|duradour)/g;
+
+/*
+ * `uma das (piores|maiores|mais)` SAIU desta lista, e a razão é uma medição.
+ *
+ * O padrão estava aqui para pegar superlativo de enchimento. Ele não distingue
+ * enchimento de afirmação: no primeiro lote de reescrita, os modelos apagaram
+ * **24 das 73** construções de ranking do acervo — e o que saiu não era
+ * adjetivo, era o fato que tornava o período digno de nota.
+ *
+ *   "uma das maiores catástrofes demográficas coloniais já documentadas" (Congo)
+ *   "uma das piores crises de fome do século XX" (Coreia do Norte)
+ *   "uma das maiores reservas do planeta" (Catar)
+ *
+ * Nenhuma dessas é opinião. São afirmações conferíveis, do tipo que este atlas
+ * existe para carregar — e a medida estava cobrando a retirada delas. Os
+ * modelos obedeceram corretamente a um teto errado.
+ *
+ * Superlativo preso a substantivo contável é claim, e claim se resolve com
+ * fonte, não com teto de estilo. O enchimento que restar — "uma das mais
+ * profundas transformações" — já é pego por `profundament` e companhia.
+ *
+ * Sair não custou nada: medido no acervo, zero países mudam de lado do teto
+ * com ou sem o padrão.
+ */
 
 /**
  * Tetos de aceite, em ocorrências por mil palavras.

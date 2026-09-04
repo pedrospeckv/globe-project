@@ -9,10 +9,18 @@
       "fim": "1920",
       "rotulo": "Mutassarifado do Monte Líbano",
       "regime": "província autônoma do Império Otomano, sob governador cristão não libanês garantido por potências europeias",
-      "textoMdx": "O conflito sectário de 1860 entre maronitas cristãos e drusos, que mata milhares de cristãos em massacres, provoca intervenção militar francesa e pressão diplomática europeia conjunta sobre a Sublime Porta otomana, resultando na criação, em 1861, de província autônoma especial no Monte Líbano, administrada por governador cristão de origem não libanesa para garantir neutralidade entre as facções.\n\n**O arranjo garante décadas de relativa paz e prosperidade através do comércio de seda, com o Monte Líbano se tornando uma das regiões mais alfabetizadas e economicamente dinâmicas do Império Otomano** — estabilidade que se romperia catastroficamente com a Primeira Guerra Mundial.\n\n**O bloqueio naval aliado e as requisições otomanas durante a guerra provocam fome devastadora entre 1915 e 1918, matando talvez um terço da população da montanha** — tragédia que a memória libanesa recorda como trauma fundacional comparável, em proporção, às piores fomes do século XX, e que encerraria definitivamente o status autônomo otomano em favor do novo mandato francês.",
+      "textoMdx": "O conflito sectário de 1860 entre maronitas cristãos e drusos, que mata milhares de cristãos em massacres, provoca intervenção militar francesa e pressão diplomática europeia conjunta sobre a Sublime Porta otomana, resultando na criação, em 1861, de província autônoma especial no Monte Líbano, administrada por governador cristão de origem não libanesa para garantir neutralidade entre as facções.\n\n**O arranjo garante décadas de relativa paz e prosperidade através do comércio de seda, com o Monte Líbano se tornando uma das regiões mais alfabetizadas e economicamente dinâmicas do Império Otomano** — estabilidade que se rompeu catastroficamente com a Primeira Guerra Mundial.\n\n**O bloqueio naval aliado e as requisições otomanas durante a guerra provocam fome devastadora entre 1915 e 1918, matando talvez um terço da população da montanha** — tragédia que a memória libanesa recorda como trauma fundacional comparável, em proporção, às piores fomes do século XX, e que encerrou definitivamente o status autônomo otomano em favor do novo mandato francês.",
       "fontes": [
         "fawwaz-traboulsi-libano"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Francis_Frith_%28English_-_The_Largest_of_the_Cedars%2C_Mount_Lebanon_-_Google_Art_Project.jpg/1920px-Francis_Frith_%28English_-_The_Largest_of_the_Cedars%2C_Mount_Lebanon_-_Google_Art_Project.jpg",
+        "alt": "Grandes cedros se espalham por uma encosta montanhosa em fotografia do século XIX.",
+        "credito": "Francis Frith (English, 1822 - 1898) (1822 - 1898) – photographer (English) Details on Google Art Project",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Francis_Frith_(English_-_The_Largest_of_the_Cedars,_Mount_Lebanon_-_Google_Art_Project.jpg",
+        "legenda": "Impressão fotográfica produzida entre 1862 e 1863 registra os cedros do Monte Líbano no início do mutassarifado."
+      }
     },
     {
       "id": "lbn-mandato-frances-grande-libano",
@@ -20,10 +28,18 @@
       "fim": "1943",
       "rotulo": "Mandato Francês e o Grande Líbano",
       "regime": "mandato francês, estabelecendo entidade territorial ampliada além do antigo Monte Líbano cristão",
-      "textoMdx": "A França proclama o \"Grande Líbano\" em 1920, expandindo o território muito além do antigo Monte Líbano de maioria cristã para incluir Beirute, o Vale do Bekaa, Trípoli e o sul, regiões de população predominantemente muçulmana — decisão que alteraria fundamentalmente o equilíbrio demográfico e semearia tensões sectárias que definiriam a política libanesa pelo século seguinte.\n\n**A independência, obtida em 1943 em meio ao caos da Segunda Guerra Mundial, se apoia sobre o Pacto Nacional, acordo não escrito que distribui os principais cargos de Estado entre as comunidades religiosas — presidência maronita, primeiro-ministro sunita, presidência do parlamento xiita** — sistema de partilha confessional de poder que preservaria paz relativa por décadas, mas que jamais se ajustaria plenamente às mudanças demográficas reais do país.",
+      "textoMdx": "A França proclama o \"Grande Líbano\" em 1920, expandindo o território muito além do antigo Monte Líbano de maioria cristã para incluir Beirute, o Vale do Bekaa, Trípoli e o sul, regiões de população predominantemente muçulmana — decisão que alterou fundamentalmente o equilíbrio demográfico e semeou tensões sectárias que definiram a política libanesa pelo século seguinte.\n\n**A independência, obtida em 1943 em meio ao caos da Segunda Guerra Mundial, se apoia sobre o Pacto Nacional, acordo não escrito que distribui os principais cargos de Estado entre as comunidades religiosas — presidência maronita, primeiro-ministro sunita, presidência do parlamento xiita** — sistema de partilha confessional de poder que preservou paz relativa por décadas, mas que jamais se ajustou plenamente às mudanças demográficas reais do país.",
       "fontes": [
         "fawwaz-traboulsi-libano"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Proclamation_of_the_state_of_Greater_Lebanon.jpg",
+        "alt": "Autoridades civis, militares e religiosas posam em uma escadaria durante cerimônia pública.",
+        "credito": "Autor não identificado",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Proclamation_of_the_state_of_Greater_Lebanon.jpg",
+        "legenda": "O general Gouraud proclama o Estado do Grande Líbano em 1º de setembro de 1920."
+      }
     },
     {
       "id": "lbn-republica-independente-prosperidade",
@@ -31,10 +47,18 @@
       "fim": "1975",
       "rotulo": "República independente e a era de prosperidade",
       "regime": "república parlamentar sob partilha confessional de poder",
-      "textoMdx": "O Líbano independente floresce como centro bancário, comercial e turístico regional ao longo das décadas de 1950 e 1960, ganhando reputação de \"Suíça do Oriente Médio\" — Beirute se tornaria destino cosmopolita que atraía visitantes e capital de toda a região árabe.\n\n**A chegada maciça de refugiados palestinos após a guerra árabe-israelense de 1948, e novamente após a expulsão da OLP da Jordânia em 1970, altera progressivamente o delicado equilíbrio demográfico confessional sobre o qual repousava o Pacto Nacional de 1943** — a presença armada palestina crescente, operando com autonomia considerável dentro do território libanês, tensionaria as relações intercomunitárias até o ponto de ruptura.",
+      "textoMdx": "O Líbano independente floresce como centro bancário, comercial e turístico regional ao longo das décadas de 1950 e 1960, ganhando reputação de \"Suíça do Oriente Médio\" — Beirute se tornou destino cosmopolita que atraía visitantes e capital de toda a região árabe.\n\n**A chegada maciça de refugiados palestinos após a guerra árabe-israelense de 1948, e novamente após a expulsão da OLP da Jordânia em 1970, altera progressivamente o delicado equilíbrio demográfico confessional sobre o qual repousava o Pacto Nacional de 1943** — a presença armada palestina crescente, operando com autonomia dentro do território libanês, tensionou as relações intercomunitárias até o ponto de ruptura.",
       "fontes": [
         "fawwaz-traboulsi-libano"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Martyrs_Square-Beirut-1960.jpg",
+        "alt": "Automóveis e pedestres circulam pela Praça dos Mártires em Beirute diante de edifícios comerciais.",
+        "credito": "Autor não identificado",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Martyrs_Square-Beirut-1960.jpg",
+        "legenda": "A Praça dos Mártires é fotografada em 1960, durante a fase de prosperidade de Beirute."
+      }
     },
     {
       "id": "lbn-guerra-civil",
@@ -42,11 +66,19 @@
       "fim": "1990",
       "rotulo": "Guerra Civil Libanesa",
       "regime": "Estado fragmentado por controle militar de milícias sectárias rivais e forças de ocupação estrangeiras",
-      "textoMdx": "A Guerra Civil Libanesa, deflagrada em abril de 1975, opõe milícias cristãs, coalizão muçulmana-esquerdista e facções palestinas em conflito multifacetado que se estenderia por quinze anos, matando cerca de cento e cinquenta mil pessoas e destruindo boa parte da infraestrutura urbana do país.\n\n**A intervenção militar síria, a partir de 1976, e duas invasões israelenses, em 1978 e, mais extensamente, em 1982 — esta última cercando Beirute e expulsando a liderança da OLP —, internacionalizam profundamente o conflito** — o massacre de Sabra e Shatila, em setembro de 1982, no qual milícias cristãs aliadas de Israel matam centenas de civis palestinos em campos de refugiados sob ocupação israelense, se tornaria um dos episódios mais condenados do conflito.\n\n**A resistência à ocupação israelense do sul do país, mantida até 2000, catalisa a formação do Hezbollah, movimento xiita apoiado pelo Irã que se tornaria, nas décadas seguintes, força militar e política mais poderosa que o próprio Exército libanês** — a guerra terminaria formalmente com o Acordo de Taif de 1989, que rebalanceia o sistema confessional e formaliza a presença síria como garantidora da nova ordem.",
+      "textoMdx": "A Guerra Civil Libanesa, deflagrada em abril de 1975, opõe milícias cristãs, coalizão muçulmana-esquerdista e facções palestinas em conflito multifacetado que se estendeu por quinze anos, matando cerca de cento e cinquenta mil pessoas e destruindo boa parte da infraestrutura urbana do país.\n\n**A intervenção militar síria, a partir de 1976, e duas invasões israelenses, em 1978 e, mais extensamente, em 1982 — esta última cercando Beirute e expulsando a liderança da OLP —, internacionalizam o conflito** — o massacre de Sabra e Shatila, em setembro de 1982, no qual milícias cristãs aliadas de Israel matam centenas de civis palestinos em campos de refugiados sob ocupação israelense, se tornou um dos episódios mais condenados do conflito.\n\n**A resistência à ocupação israelense do sul do país, mantida até 2000, catalisa a formação do Hezbollah, movimento xiita apoiado pelo Irã que se tornou, nas décadas seguintes, força militar e política mais poderosa que o próprio Exército libanês** — a guerra terminou formalmente com o Acordo de Taif de 1989, que rebalanceia o sistema confessional e formaliza a presença síria como garantidora da nova ordem.",
       "fontes": [
         "fawwaz-traboulsi-libano",
         "acordo-taif-1989"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Beirut%2C_Lebanon_1982_-_2190150397.jpg",
+        "alt": "Rua de Beirute aparece cercada por prédios danificados e escombros durante a guerra.",
+        "credito": "CapCase",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Beirut,_Lebanon_1982_-_2190150397.jpg",
+        "legenda": "Beirute é fotografada em 1982 durante a Guerra Civil Libanesa."
+      }
     },
     {
       "id": "lbn-dominio-sirio-pos-guerra",
@@ -54,20 +86,37 @@
       "fim": "2005",
       "rotulo": "Reconstrução sob tutela síria",
       "regime": "república confessional sob influência política e militar síria dominante",
-      "textoMdx": "A reconstrução do pós-guerra, liderada pelo empresário-primeiro-ministro Rafic Hariri, transforma fisicamente o centro de Beirute, embora acumulando dívida pública substancial que comprometeria as finanças libanesas por décadas — a Síria mantém, ao longo de todo o período, tropas e influência política decisiva sobre a política libanesa, muito além do previsto originalmente pelo Acordo de Taif.\n\n**O Hezbollah preserva seu arsenal militar mesmo após o desarmamento das demais milícias exigido por Taif, justificado pela continuidade da ocupação israelense do sul do país até sua retirada em 2000** — exceção que consolidaria o movimento como poder paralelo ao próprio Estado libanês.\n\nO assassinato de Rafic Hariri, por carro-bomba em fevereiro de 2005, amplamente atribuído a agentes sírios ou do Hezbollah, provoca a chamada Revolução dos Cedros — protestos de massa que forçam a retirada das tropas sírias do Líbano após quase três décadas de presença ininterrupta.",
+      "textoMdx": "A reconstrução do pós-guerra, liderada pelo empresário-primeiro-ministro Rafic Hariri, transforma fisicamente o centro de Beirute, embora acumulando dívida pública substancial que comprometeu as finanças libanesas por décadas — a Síria mantém, ao longo de todo o período, tropas e influência política decisiva sobre a política libanesa, muito além do previsto originalmente pelo Acordo de Taif.\n\n**O Hezbollah preserva seu arsenal militar mesmo após o desarmamento das demais milícias exigido por Taif, justificado pela continuidade da ocupação israelense do sul do país até sua retirada em 2000** — exceção que consolidou o movimento como poder paralelo ao próprio Estado libanês.\n\nO assassinato de Rafic Hariri, por carro-bomba em fevereiro de 2005, amplamente atribuído a agentes sírios ou do Hezbollah, provoca a chamada Revolução dos Cedros — protestos de massa que forçam a retirada das tropas sírias do Líbano após quase três décadas de presença ininterrupta.",
       "fontes": [
         "fawwaz-traboulsi-libano"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Rafic_Hariri_in_2001.jpg",
+        "alt": "Rafic Hariri e Donald Rumsfeld caminham lado a lado diante de militares no Pentágono.",
+        "credito": "Helene C. Stikkel",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Rafic_Hariri_in_2001.jpg",
+        "legenda": "O primeiro-ministro Rafic Hariri visita o Pentágono em abril de 2001, durante a reconstrução sob tutela síria."
+      }
     },
     {
       "id": "lbn-independencia-crise-atual",
       "inicio": "2005",
       "rotulo": "Líbano pós-síria: Hezbollah, guerra e colapso",
       "regime": "república confessional paralisada por bloqueio político recorrente e colapso econômico",
-      "textoMdx": "A retirada síria não traz estabilidade política duradoura: o sistema confessional, cada vez mais paralisado por vetos cruzados entre facções, convive com a Guerra de 2006 entre Israel e o Hezbollah, que devasta infraestrutura civil e mata mais de mil libaneses em pouco mais de um mês de combates.\n\nO colapso financeiro iniciado em 2019 se tornaria, segundo avaliação do próprio Banco Mundial, uma das piores crises econômicas do mundo desde meados do século XIX — a libra libanesa perderia mais de 90% de seu valor, e boa parte da poupança da classe média se tornaria inacessível em bancos à beira do colapso.\n\nA explosão no porto de Beirute, em agosto de 2020, causada por nitrato de amônio armazenado negligentemente por anos, mata mais de duzentas pessoas e destrói bairros inteiros da capital — desastre que provoca renúncia do governo sem, contudo, produzir responsabilização judicial efetiva até hoje.\n\n**A guerra entre Israel e o Hezbollah de 2023-2024, seguida da ofensiva militar israelense contra a Faixa de Gaza, mata o próprio líder histórico do Hezbollah, Hassan Nasrallah, em setembro de 2024, degradando severamente a capacidade militar do movimento** — cessar-fogo negociado em novembro daquele ano abriria caminho, meses depois, à eleição de novo presidente que encerraria vácuo institucional de mais de dois anos, embora a reconstrução do país permaneça, no momento presente, tarefa imensa e incerta.",
+      "textoMdx": "A retirada síria não traz estabilidade política: o sistema confessional, cada vez mais paralisado por vetos cruzados entre facções, convive com a Guerra de 2006 entre Israel e o Hezbollah, que devasta infraestrutura civil e mata mais de mil libaneses em pouco mais de um mês de combates.\n\nO Banco Mundial classificou o colapso financeiro iniciado em 2019 como uma das piores crises econômicas do mundo desde meados do século XIX — a libra libanesa perdeu mais de 90% de seu valor, e boa parte da poupança da classe média se tornou inacessível em bancos à beira do colapso.\n\nA explosão no porto de Beirute, em agosto de 2020, causada por nitrato de amônio armazenado negligentemente por anos, mata mais de duzentas pessoas e destrói bairros inteiros da capital — desastre que provoca renúncia do governo sem, contudo, produzir responsabilização judicial efetiva até hoje.\n\n**A guerra entre Israel e o Hezbollah de 2023-2024, seguida da ofensiva militar israelense contra a Faixa de Gaza, mata o próprio líder histórico do Hezbollah, Hassan Nasrallah, em setembro de 2024, degradando severamente a capacidade militar do movimento** — cessar-fogo negociado em novembro daquele ano abriu caminho, meses depois, à eleição de novo presidente que encerrou vácuo institucional de mais de dois anos, embora a reconstrução do país permaneça, no momento presente, tarefa imensa e incerta.",
       "fontes": [
-        "fawwaz-traboulsi-libano"
-      ]
+        "fawwaz-traboulsi-libano",
+        "banco-mundial-libano-2021"
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Damages_after_2020_Beirut_explosion_4.jpg",
+        "alt": "Edifícios com fachadas destruídas e janelas quebradas cercam uma rua coberta de destroços.",
+        "credito": "Mehdi Hhojaeian",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Damages_after_2020_Beirut_explosion_4.jpg",
+        "legenda": "Danos provocados pela explosão do porto de Beirute são registrados em agosto de 2020."
+      }
     }
   ]
 }

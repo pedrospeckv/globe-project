@@ -12,7 +12,15 @@
       "textoMdx": "Panamá existe, desde a primeira hora, por causa da geografia: é o lugar mais estreito entre dois oceanos, e por três séculos foi a passagem por onde a prata do Peru cruzava para a Europa.\n\n**A cidade do Panamá é fundada em 1519, a primeira no Pacífico americano.** Dali partem as expedições que conquistam o Peru, e por ali volta a prata: sobe o rio Chagres, atravessa em mula o Caminho Real até Portobelo ou Nombre de Dios, e embarca nas frotas.\n\n**As feiras de Portobelo são o coração do comércio imperial.** Durante semanas, galeões e mercadores negociam prata contra manufaturas europeias. A riqueza atrai ataque: Francis Drake, Henry Morgan — que saqueia e queima a cidade do Panamá em 1671 —, e o almirante Vernon, que destrói Portobelo em 1739.\n\n**A rota decai quando a Coroa muda o caminho.** Depois dos ataques do século XVIII, a Espanha passa a mandar navios pelo cabo Horn, e o istmo perde sua função. A província entra em declínio e é anexada ao Vice-Reino de Nova Granada.\n\n**A independência de 1821 é uma adesão à Colômbia.** Panamá separa-se da Espanha em novembro de 1821 e junta-se por decisão própria à Grã-Colômbia. Nas décadas seguintes há várias tentativas separatistas, e o istmo é província colombiana com autonomia variável.\n\n**A corrida do ouro reativa a passagem, em 1848.** Milhares de norte-americanos atravessam o istmo a caminho da Califórnia, e uma companhia dos Estados Unidos constrói a ferrovia transístmica, concluída em 1855 — a primeira ferrovia interoceânica do mundo, erguida com trabalhadores caribenhos, chineses e irlandeses, com mortalidade altíssima por doença.",
       "fontes": [
         "mccullough-caminho-entre-mares"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Map_of_Portobelo_with_forts_c_1740.jpg",
+        "alt": "Mapa de Porto Belo mostra a baía, a cidade, fortalezas e posições defensivas marcadas ao longo da costa.",
+        "credito": "F. Bowen",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Map_of_Portobelo_with_forts_c_1740.jpg",
+        "legenda": "Mapa produzido por volta de 1740 registra Porto Belo, entreposto fortificado do comércio imperial espanhol."
+      }
     },
     {
       "id": "pa-canal-e-zona",
@@ -24,7 +32,15 @@
       "fontes": [
         "mccullough-caminho-entre-mares",
         "tratado-hay-bunau-varilla"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Panama_Canal_under_construction%2C_1907.jpg",
+        "alt": "Máquinas, trilhos e trabalhadores ocupam a grande escavação do corte de Culebra durante a construção do canal.",
+        "credito": "H.C. White Co.",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Panama_Canal_under_construction,_1907.jpg",
+        "legenda": "O corte de Culebra é escavado em 1907 durante a construção do Canal do Panamá sob administração norte-americana."
+      }
     },
     {
       "id": "pa-militares",
@@ -36,7 +52,15 @@
       "fontes": [
         "mccullough-caminho-entre-mares",
         "tratados-torrijos-carter"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jimmy_Carter_and_General_Omar_Torrijos_signing_the_Panama_Canal_Treaty.jpg/1920px-Jimmy_Carter_and_General_Omar_Torrijos_signing_the_Panama_Canal_Treaty.jpg",
+        "alt": "Jimmy Carter e Omar Torrijos apertam as mãos diante de autoridades depois de assinar documentos sobre o canal.",
+        "credito": "Casa Branca",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_and_General_Omar_Torrijos_signing_the_Panama_Canal_Treaty.jpg",
+        "legenda": "Jimmy Carter e Omar Torrijos cumprimentam-se após assinar os Tratados do Canal do Panamá em setembro de 1977."
+      }
     },
     {
       "id": "pa-republica",
@@ -47,7 +71,15 @@
       "fontes": [
         "tratados-torrijos-carter",
         "mccullough-caminho-entre-mares"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Panama_Canal_mule.jpg",
+        "alt": "Locomotiva elétrica usada como mula do canal desloca-se ao lado de uma eclusa com cabos de condução.",
+        "credito": "Stan Shebs",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Panama_Canal_mule.jpg",
+        "legenda": "Uma das locomotivas que conduzem navios pelas eclusas é fotografada em janeiro de 2000, após a transferência do canal ao Panamá."
+      }
     }
   ]
 }

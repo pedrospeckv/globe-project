@@ -13,7 +13,15 @@
       "fontes": [
         "nahum-uruguai",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/The_Attack_of_Nova_Colonia_in_the_River_Plate_in_1763%2C_under_the_command_of_Captain_John_Macnamara.jpg",
+        "alt": "Gravura mostra navios disparando canhões contra uma povoação fortificada à margem do rio, cercada por fumaça.",
+        "credito": "William Elliott",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Attack_of_Nova_Colonia_in_the_River_Plate_in_1763,_under_the_command_of_Captain_John_Macnamara.jpg",
+        "legenda": "Gravura publicada em 1791 sobre o ataque de 1763 à Colônia do Sacramento, núcleo da disputa imperial na Banda Oriental."
+      }
     },
     {
       "id": "uy-cisplatina",
@@ -24,7 +32,15 @@
       "textoMdx": "Doze anos em que o território é parte do Brasil, e é dessa anexação que nasce, por reação, a independência uruguaia.\n\n**A invasão é luso-brasileira e tem o apoio tácito de Buenos Aires.** Tropas portuguesas entram em 1816, tomam Montevidéu em 1817 e derrotam Artigas em 1820. Em 1821 o território é incorporado como Província Cisplatina, primeiro ao Reino Unido de Portugal, Brasil e Algarves, e depois ao Império do Brasil recém-independente.\n\n**A Cruzada Libertadora começa em 1825.** Juan Antonio Lavalleja desembarca com um grupo pequeno, vence em Sarandí e reúne uma assembleia que declara a independência do Brasil e a união às Províncias Unidas do Rio da Prata. Buenos Aires aceita, e o Império declara guerra.\n\n**A guerra termina num Estado que nenhum dos dois lados queria.** O conflito de 1825 a 1828 é caro para os dois e bloqueia o comércio do Prata, o que mobiliza a mediação britânica. A Convenção Preliminar de Paz de 1828 resolve o impasse criando um Estado independente entre os dois: nem província argentina, nem província brasileira.\n\n**A independência é, portanto, produto de equilíbrio externo.** Isso marca o país: um território pequeno entre dois vizinhos grandes, cuja soberania interessa às duas potências regionais e à britânica precisamente por ser de ninguém. A primeira constituição é jurada em 1830.",
       "fontes": [
         "nahum-uruguai"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%281828%29_PLATE_OF_THE_PROVINCES_OF_BUENOS_AYRES%2C_BANDA_ORIENTAL_%26_ENTRE_RIOS.jpg/1920px-%281828%29_PLATE_OF_THE_PROVINCES_OF_BUENOS_AYRES%2C_BANDA_ORIENTAL_%26_ENTRE_RIOS.jpg",
+        "alt": "Mapa impresso mostra a Banda Oriental, Buenos Aires e Entre Ríos, com rios, cidades e limites assinalados.",
+        "credito": "Scan courtesy of The British Library",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:(1828)_PLATE_OF_THE_PROVINCES_OF_BUENOS_AYRES,_BANDA_ORIENTAL_%26_ENTRE_RIOS.jpg",
+        "legenda": "Mapa da Banda Oriental publicado em 1828, ano da convenção que criou o Estado uruguaio independente."
+      }
     },
     {
       "id": "uy-guerras-civis",
@@ -35,7 +51,15 @@
       "textoMdx": "Meio século em que os dois partidos que organizariam a política uruguaia até hoje nascem em campo de batalha, e em que o país é palco das guerras dos vizinhos.\n\n**Blancos e Colorados nascem numa guerra, em 1836.** As divisas branca e vermelha usadas pelos partidários de Manuel Oribe e Fructuoso Rivera dão nome aos dois partidos, entre os mais antigos do mundo em atividade contínua. A Guerra Grande, de 1839 a 1851, junta o conflito interno às disputas do Prata: Montevidéu sitiada por nove anos, com Oribe apoiado por Rosas e a cidade defendida com apoio de franceses, britânicos e legiões estrangeiras — Garibaldi entre elas.\n\n**A Guerra da Tríplice Aliança começa aqui.** Em 1864 o Império do Brasil intervém no Uruguai a favor dos Colorados; é essa intervenção que Solano López tenta impedir, e é dela que se desdobra a guerra que destruiria o Paraguai. O Uruguai participa como o menor dos três aliados.\n\n**A economia se ordena com o arame e o navio a vapor.** A partir dos anos 1870, o cercamento dos campos com arame farpado define propriedade, encerra o gado solto e expulsa o gaúcho sem terra; o frigorífico e o transporte a vapor abrem o mercado europeu para carne e lã. O militarismo de Lorenzo Latorre e seus sucessores, entre 1876 e 1890, moderniza o Estado à força — código rural, exército profissional, escola pública sob a reforma de José Pedro Varela.\n\n**A partilha do poder é o arranjo que evita a guerra.** Depois da revolução de 1897, Blancos e Colorados acertam a divisão de chefaturas departamentais. A última guerra civil ocorre em 1904, com a derrota e morte de Aparicio Saravia — e a partir dela a disputa passa a ser eleitoral.",
       "fontes": [
         "nahum-uruguai"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Leandro_gomez_and_uruguayans_in_paysandu.jpg",
+        "alt": "Grupo de homens armados posa em duas fileiras, alguns sentados e outros de pé diante de uma parede.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Leandro_gomez_and_uruguayans_in_paysandu.jpg",
+        "legenda": "Última fotografia de Leandro Gómez com defensores de Paysandú durante o cerco de 1865."
+      }
     },
     {
       "id": "uy-batllismo",
@@ -46,7 +70,15 @@
       "textoMdx": "José Batlle y Ordóñez constrói, nas duas primeiras décadas do século XX, o Estado social mais avançado das Américas — décadas antes dos vizinhos e, em alguns pontos, da Europa.\n\n**A legislação chega antes da industrialização.** Jornada de oito horas em 1915, direito de greve, indenização por acidente, pensão à velhice, divórcio por vontade da mulher em 1913, abolição da pena de morte em 1907, separação entre Igreja e Estado em 1919, ensino secundário e universitário gratuitos. O voto feminino chega em 1932 e é exercido em 1938.\n\n**O Estado assume setores inteiros da economia.** Criam-se ou estatizam-se banco, seguro, energia elétrica, portos, telefonia, ferrovia, refino de petróleo com a ANCAP em 1931 e frigorífico nacional. A ideia declarada é que serviço essencial não deve gerar lucro privado, e que o Estado é o instrumento de igualação de um país sem oligarquia mineira nem plantation.\n\n**A carne e a lã pagam a conta, e as guerras mundiais ajudam.** A demanda europeia dá ao Uruguai renda por habitante alta e uma classe média urbana grande e escolarizada; Montevidéu concentra quase metade da população. O país ganha a fama de Suíça da América, com política pacífica e alfabetização quase universal.\n\n**A engenharia institucional é peculiar.** Batlle propõe substituir o presidente por um colegiado, e o país adota executivos colegiados em dois períodos, de 1918 a 1933 e de 1952 a 1967. O sistema da dupla candidatura simultânea permite que frações do mesmo partido concorram entre si somando votos — o que preserva a unidade dos dois partidos históricos.\n\n**O modelo depende de exportar, e o mundo muda.** Passada a Segunda Guerra, o preço da carne e da lã cai, a substituição de importações esgota o mercado interno pequeno, e a partir dos anos 1950 vêm inflação, déficit e greve. O golpe de Gabriel Terra, em 1933, já tinha sido um primeiro aviso de que o consenso não era permanente.",
       "fontes": [
         "nahum-uruguai"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Eduardo_Acevedo_D%C3%ADaz_y_Jos%C3%A9_Batlle_y_Ord%C3%B3%C3%B1ez.jpg/1920px-Eduardo_Acevedo_D%C3%ADaz_y_Jos%C3%A9_Batlle_y_Ord%C3%B3%C3%B1ez.jpg",
+        "alt": "Caricatura de jornal mostra dois políticos de terno abraçados, com textos impressos ao redor.",
+        "credito": "José Olivella · La Alborada",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Eduardo_Acevedo_D%C3%ADaz_y_Jos%C3%A9_Batlle_y_Ord%C3%B3%C3%B1ez.jpg",
+        "legenda": "Capa de La Alborada de 1º de março de 1903 sobre o acordo que levou José Batlle y Ordóñez à presidência."
+      }
     },
     {
       "id": "uy-crise-e-ditadura",
@@ -58,7 +90,15 @@
       "fontes": [
         "nahum-uruguai",
         "comision-para-la-paz"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/1_se_Mayo_1983.jpg/1920px-1_se_Mayo_1983.jpg",
+        "alt": "Vista elevada mostra uma multidão ocupando uma praça e as ruas ao redor diante do Palácio Legislativo.",
+        "credito": "Fedaro",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:1_se_Mayo_1983.jpg",
+        "legenda": "Ato de 1º de maio de 1983, durante a fase final da ditadura uruguaia."
+      }
     },
     {
       "id": "uy-republica",
@@ -69,7 +109,15 @@
       "fontes": [
         "nahum-uruguai",
         "comision-para-la-paz"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Presidente_Mujica_Saludando_2010.jpg/1920px-Presidente_Mujica_Saludando_2010.jpg",
+        "alt": "José Mujica e Danilo Astori acenam de um pequeno veículo aberto, cercados por público e agentes de segurança.",
+        "credito": "Andrea Mazza",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Presidente_Mujica_Saludando_2010.jpg",
+        "legenda": "José Mujica e Danilo Astori cumprimentam o público após a posse presidencial de 1º de março de 2010."
+      }
     }
   ]
 }

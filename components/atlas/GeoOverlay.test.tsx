@@ -293,3 +293,50 @@ describe("GeoOverlay", () => {
     expect(paisesDe(b)[0].getAttribute("d")).not.toBe(antes);
   });
 });
+
+describe("entrar no dossiê", () => {
+  /*
+   * O gesto que faltava: até aqui o clique só selecionava, e quem queria
+   * entrar tinha de achar o link de texto abaixo do mapa. Clicar no país e
+   * não ir a lugar nenhum é o que o autor relatou.
+   */
+  it("duplo clique num país devolve o alpha3", () => {
+    const onAbrir = vi.fn();
+    const { container } = render(
+      <GeoOverlay {...base} curados={curados} rotas={[]} onAbrir={onAbrir} />
+    );
+    fireEvent.doubleClick(paisesDe(container)[1]);
+    expect(onAbrir).toHaveBeenCalledWith("DEU");
+  });
+
+  /*
+   * As duas ações têm custo diferente: selecionar é reversível, entrar troca
+   * de página e abandona a data escolhida na barra do tempo. Se o clique
+   * simples navegasse, ler o que um país era em 1650 tiraria o leitor do mapa
+   * a cada tentativa.
+   */
+  it("clique simples seleciona e NÃO navega", () => {
+    const onAbrir = vi.fn();
+    const onSelecionar = vi.fn();
+    const { container } = render(
+      <GeoOverlay
+        {...base}
+        curados={curados}
+        rotas={[]}
+        onSelecionar={onSelecionar}
+        onAbrir={onAbrir}
+      />
+    );
+    fireEvent.click(paisesDe(container)[1]);
+    expect(onSelecionar).toHaveBeenCalledWith("DEU");
+    expect(onAbrir).not.toHaveBeenCalled();
+  });
+
+  /* `onAbrir` é opcional — montar o overlay só para ler não pode quebrar. */
+  it("sem onAbrir, o duplo clique não estoura", () => {
+    const { container } = render(
+      <GeoOverlay {...base} curados={curados} rotas={[]} />
+    );
+    expect(() => fireEvent.doubleClick(paisesDe(container)[1])).not.toThrow();
+  });
+});

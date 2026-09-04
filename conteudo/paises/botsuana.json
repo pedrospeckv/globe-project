@@ -9,20 +9,36 @@
       "fim": "1966",
       "rotulo": "Protetorado da Bechuanalândia",
       "regime": "protetorado britânico, obtido por iniciativa diplomática de reis tswana para evitar anexação por companhia comercial",
-      "textoMdx": "Três reis tswana — Khama III, Sebele I e Bathoen I — viajam a Londres em 1895 e obtêm, diretamente da rainha Vitória, proteção britânica formal sobre seus territórios, especificamente para evitar anexação pela Companhia Britânica da África do Sul, de Cecil Rhodes — episódio raro de liderança africana utilizando diplomacia bem-sucedida para escolher a forma menos invasiva entre alternativas coloniais disponíveis.\n\nO protetorado resultante permanece, ao longo de sete décadas, território de investimento colonial mínimo — um dos mais pobres da África em qualquer medida ao chegar a independência.\n\n**Seretse Khama, neto de Khama III, provoca escândalo internacional em 1948 ao casar com a britânica Ruth Williams, união interracial que enfrenta oposição tanto das autoridades coloniais britânicas, pressionadas pela África do Sul do apartheid, quanto de setores de sua própria comunidade Bangwato** — sua reconciliação subsequente e ascensão simultânea como chefe tradicional e líder político conduziria o território à independência, obtida em setembro de 1966.",
+      "textoMdx": "Três reis tswana — Khama III, Sebele I e Bathoen I — viajam a Londres em 1895 e obtêm, diretamente da rainha Vitória, proteção britânica formal sobre seus territórios, especificamente para evitar anexação pela Companhia Britânica da África do Sul, de Cecil Rhodes — episódio raro de liderança africana utilizando diplomacia bem-sucedida para escolher a forma menos invasiva entre alternativas coloniais disponíveis.\n\nO protetorado resultante permanece, ao longo de sete décadas, território de investimento colonial mínimo — um dos mais pobres da África em qualquer medida ao chegar a independência.\n\n**Seretse Khama, neto de Khama III, provoca escândalo internacional em 1948 ao casar com a britânica Ruth Williams, união interracial que enfrenta oposição tanto das autoridades coloniais britânicas, pressionadas pela África do Sul do apartheid, quanto de setores de sua própria comunidade Bangwato** — sua reconciliação subsequente e ascensão simultânea como chefe tradicional e líder político conduziu o território à independência, obtida em setembro de 1966.",
       "fontes": [
         "morton-ramsay-mgadla-botsuana"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Khama_III%2C_photo_by_Paul_Thompson.jpg",
+        "alt": "Recorte de jornal em preto e branco com Khama III sentado em uma cadeira, usando terno claro e chapéu.",
+        "credito": "Paul Thompson · New York Daily News",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Khama_III,_photo_by_Paul_Thompson.jpg",
+        "legenda": "Khama III, liderança tswana que preservou margem de autonomia dentro do Protetorado de Bechuanalândia."
+      }
     },
     {
       "id": "bwa-independencia-diamantes-atual",
       "inicio": "1966",
       "rotulo": "Independência, os diamantes e o modelo botsuano",
       "regime": "república democrática, transformada por gestão excepcionalmente prudente de riqueza diamantífera",
-      "textoMdx": "A descoberta de diamantes em Orapa, em 1967, meses após a independência, transformaria radicalmente as perspectivas econômicas de um dos países mais pobres do mundo — mas, ao contrário do padrão de \"maldição dos recursos\" observado em tantos outros contextos africanos, Botsuana converteria essa riqueza em desenvolvimento amplo genuíno.\n\nInstituições relativamente sólidas herdadas da era colonial, combinadas a parceria cuidadosamente negociada com a De Beers e gestão fiscal prudente e sustentada, financiariam investimento substancial em infraestrutura, educação e saúde — Botsuana se tornaria um dos casos de sucesso econômico mais consistentes de toda a África, mantendo democracia multipartidária ininterrupta sem qualquer golpe militar desde a independência.\n\nO país enfrentaria, a partir dos anos 1990, uma das taxas de prevalência de HIV/aids mais altas do mundo em seu pico — resposta de saúde pública agressiva e internacionalmente reconhecida ajudaria a reverter parcialmente a crise nas décadas seguintes, mesmo enquanto o desafio de diversificar a economia além da dependência diamantífera permanece tarefa ainda incompleta.",
+      "textoMdx": "A descoberta de diamantes em Orapa, em 1967, meses após a independência, transformou radicalmente as perspectivas econômicas de um dos países mais pobres do mundo — mas, ao contrário do padrão de \"maldição dos recursos\" observado em tantos outros contextos africanos, Botsuana converteu essa riqueza em desenvolvimento amplo genuíno.\n\nInstituições relativamente sólidas herdadas da era colonial, combinadas a parceria cuidadosamente negociada com a De Beers e gestão fiscal prudente e sustentada, financiaram investimento substancial em infraestrutura, educação e saúde — Botsuana se tornou um dos casos de sucesso econômico mais consistentes de toda a África, mantendo democracia multipartidária ininterrupta sem qualquer golpe militar desde a independência.\n\nO país enfrentou, a partir dos anos 1990, uma das taxas de prevalência de HIV/aids mais altas do mundo em seu pico — resposta de saúde pública agressiva e internacionalmente reconhecida ajudou a reverter parcialmente a crise nas décadas seguintes, mesmo enquanto o desafio de diversificar a economia além da dependência diamantífera permanece tarefa ainda incompleta.",
       "fontes": [
         "morton-ramsay-mgadla-botsuana"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Seretse_Khama_1977.png",
+        "alt": "Retrato colorido de Seretse Khama usando terno, gravata listrada e óculos escuros.",
+        "credito": "European Communities / Louis C. D. Joos",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Seretse_Khama_1977.png",
+        "legenda": "Seretse Khama, primeiro presidente de Botsuana, durante uma visita às instituições europeias em 1977."
+      }
     }
   ]
 }

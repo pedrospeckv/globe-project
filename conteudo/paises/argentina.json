@@ -13,7 +13,15 @@
       "fontes": [
         "rock-argentina",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Descripcion_y_plano_ad_Rio_de_la_Plata..._-_btv1b53123240j.jpg/1920px-Descripcion_y_plano_ad_Rio_de_la_Plata..._-_btv1b53123240j.jpg",
+        "alt": "Mapa manuscrito mostra o estuário do Rio da Prata e os cursos dos rios Paraná, Paraguai e Uruguai.",
+        "credito": "Autor desconhecido · BnF",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Descripcion_y_plano_ad_Rio_de_la_Plata..._-_btv1b53123240j.jpg",
+        "legenda": "Mapa do Rio da Prata produzido entre os séculos XVII e XVIII."
+      }
     },
     {
       "id": "ar-vice-reino",
@@ -25,7 +33,15 @@
       "fontes": [
         "rock-argentina",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Carte_de_la_partie_meridionale_du_Bresil%2C_avec_les_possession_espagnoles_voisines_qui_en_sont_a_l%27ouest-_par_M._Bonne_%28IA_dr_carte-de-la-partie-meridionale-du-bresil-avec-les-possession-espagnoles-vo-3083050%29.jpg/1920px-thumbnail.jpg",
+        "alt": "Mapa antigo mostra o sul do Brasil, o Rio da Prata, o Uruguai e o norte da atual Argentina, com relevo desenhado.",
+        "credito": "Raynal, G.T. Bonne, R. Bonne, Rigobert, 1727-1794.",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Carte_de_la_partie_meridionale_du_Bresil,_avec_les_possession_espagnoles_voisines_qui_en_sont_a_l%27ouest-_par_M._Bonne_(IA_dr_carte-de-la-partie-meridionale-du-bresil-avec-les-possession-espagnoles-vo-3083050).jpg",
+        "legenda": "Mapa de Rigobert Bonne publicado originalmente em 1780."
+      }
     },
     {
       "id": "ar-guerras-independencia",
@@ -36,7 +52,15 @@
       "textoMdx": "Vinte anos de guerra em que a independência é conquistada e o país, não. Ganha-se a batalha contra a Espanha e perde-se a discussão sobre quem governa.\n\n**San Martín resolve a guerra mudando de teatro.** Depois de campanhas custosas no Alto Peru, ele conclui que o poder realista está em Lima e que o caminho é pelo Chile. Organiza em Mendoza o Exército dos Andes, atravessa a cordilheira em 1817, liberta o Chile em Chacabuco e Maipú, e desembarca no Peru em 1820. Em 1822 encontra Bolívar em Guayaquil, retira-se da guerra e parte para a Europa, onde morre.\n\n**A independência é declarada em 1816, sob pressão.** O congresso reunido em Tucumán proclama as Províncias Unidas em julho, num momento em que a Espanha reconquistava terreno em todo o continente. Discute-se seriamente instaurar uma monarquia, inclusive com um descendente inca no trono — proposta de Manuel Belgrano, hoje curiosa, então plausível para dar legitimidade a um Estado novo.\n\n**A guerra civil começa antes de a externa acabar.** José Gervasio Artigas, na Banda Oriental, defende uma federação de províncias iguais contra o centralismo do porto; é derrotado pela conjunção de Buenos Aires e da invasão portuguesa, e morre exilado no Paraguai. Em 1820 o exército federal do litoral desfaz o governo central em Cepeda, e o país fica sem autoridade nacional por décadas.\n\n**A questão é fiscal, e é por isso que não se resolve.** Toda a receita aduaneira entra em Buenos Aires, e o porto quer administrá-la; as províncias querem repartir. Constituições unitárias em 1819 e 1826 são recusadas pelo interior. Não há Argentina como Estado entre 1820 e 1853 — há províncias soberanas que delegam a Buenos Aires apenas a representação externa.",
       "fontes": [
         "rock-argentina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Argentina._Acta_de_Independencia_%28Provincias_Unidas_en_Sud-Am%C3%A9rica%29.jpg",
+        "alt": "Página impressa em espanhol apresenta o título Acta, texto em colunas e uma moldura ornamental.",
+        "credito": "Argentina. Congreso de Tucumán.",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Argentina._Acta_de_Independencia_(Provincias_Unidas_en_Sud-Am%C3%A9rica).jpg",
+        "legenda": "Ato de Independência das Províncias Unidas na América do Sul, publicado em 1816."
+      }
     },
     {
       "id": "ar-rosas",
@@ -48,7 +72,15 @@
       "fontes": [
         "rock-argentina",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Juan_Manuel_de_Rosas_1845.jpg",
+        "alt": "Retrato pintado mostra Juan Manuel de Rosas de uniforme vermelho, com faixa e condecoração no peito.",
+        "credito": "Fernando García del Molino",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Juan_Manuel_de_Rosas_1845.jpg",
+        "legenda": "Retrato de Juan Manuel de Rosas pintado por Fernando García del Molino em 1845."
+      }
     },
     {
       "id": "ar-organizacao-nacional",
@@ -60,7 +92,15 @@
       "fontes": [
         "rock-argentina",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Archivo_General_de_la_Naci%C3%B3n_Argentina_1880_Buenos_Aires%2C_Revoluci%C3%B3n_de_1880._Soldados_apostados_en_la_esquina_de_las_calles_C%C3%B3rdoba_y_Azcu%C3%A9naga..jpg",
+        "alt": "Soldados armados ocupam uma esquina de Buenos Aires, protegidos atrás de uma barricada improvisada.",
+        "credito": "Autor desconhecido · Archivo General de la Nación Argentina",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Archivo_General_de_la_Naci%C3%B3n_Argentina_1880_Buenos_Aires,_Revoluci%C3%B3n_de_1880._Soldados_apostados_en_la_esquina_de_las_calles_C%C3%B3rdoba_y_Azcu%C3%A9naga..jpg",
+        "legenda": "Soldados durante a Revolução de 1880 em Buenos Aires."
+      }
     },
     {
       "id": "ar-radical",
@@ -72,7 +112,15 @@
       "fontes": [
         "romero-argentina-contemporanea",
         "rock-argentina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Yrigoyen_asume.jpg",
+        "alt": "Hipólito Yrigoyen deixa um edifício entre autoridades e uma multidão, acompanhado por policiais.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Yrigoyen_asume.jpg",
+        "legenda": "Posse presidencial de Hipólito Yrigoyen em 12 de outubro de 1916."
+      }
     },
     {
       "id": "ar-peronismo",
@@ -84,7 +132,15 @@
       "fontes": [
         "romero-argentina-contemporanea",
         "rock-argentina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Eva%2C_Evita%2C_Per%C3%B3n_en_un_discurso_electoral%2C_1951.jpg",
+        "alt": "Juan Perón discursa ao microfone enquanto Eva Perón permanece ao seu lado diante de uma multidão.",
+        "credito": "NATIONALENCYKLOPEDIN",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Eva,_Evita,_Per%C3%B3n_en_un_discurso_electoral,_1951.jpg",
+        "legenda": "Perón e Eva durante um discurso eleitoral em 1951."
+      }
     },
     {
       "id": "ar-proscricao",
@@ -95,7 +151,15 @@
       "textoMdx": "Dezoito anos em que o partido mais votado do país não pode disputar eleição, e nenhum governo — militar ou civil — consegue durar. É o período que a historiografia argentina chama de empate: nenhuma força consegue impor sua ordem, e todas conseguem inviabilizar a dos outros.\n\n**Governos civis sem legitimidade, governos militares sem projeto.** Frondizi é eleito em 1958 com votos peronistas negociados e derrubado em 1962; Illia é eleito em 1963 com um quarto dos votos e derrubado em 1966. Cada intervenção é justificada pelo perigo do retorno peronista, e cada eleição sem o peronismo produz um governo que ninguém defende.\n\n**A resistência peronista é sindical, e o sindicato torna-se o partido.** Sem poder eleger, o movimento age por greve, sabotagem e negociação direta; a CGT converte-se no principal ator político da oposição, e a figura ausente de Perón, no exílio em Madri, arbitra as disputas por carta e gravação.\n\n**A radicalização dos anos 1960 tem endereço.** A Revolução Cubana e a ditadura de Onganía, instalada em 1966, empurram parte da juventude à luta armada: nascem os Montoneros, de origem peronista, e o ERP, de origem marxista. O Cordobazo, insurreição urbana de operários e estudantes em Córdoba em maio de 1969, é o ponto em que o regime militar perde a rua e começa a procurar uma saída eleitoral.\n\n**O retorno de Perón dura nove meses.** Ele volta em 1973, é eleito com mais de 60% dos votos e morre em julho de 1974, deixando a presidência para a vice, sua esposa Isabel. O governo passa a ser conduzido por José López Rega, que organiza a Tríplice A, esquadrão paraestatal que assassina centenas de militantes. Com inflação de três dígitos, violência crescente dos dois lados e o Estado em decomposição, o golpe de março de 1976 é esperado — e recebido com alívio por parte da sociedade.",
       "fontes": [
         "romero-argentina-contemporanea"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Cordobazo.jpg",
+        "alt": "Manifestantes avançam por uma rua de Córdoba entre fumaça, pedras e veículos em chamas.",
+        "credito": "Revista Gente",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Cordobazo.jpg",
+        "legenda": "Cordobazo em 29 de maio de 1969."
+      }
     },
     {
       "id": "ar-ditadura",
@@ -107,7 +171,15 @@
       "fontes": [
         "conadep-nunca-mais",
         "romero-argentina-contemporanea"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Madre_plaza_policia.jpg",
+        "alt": "Mulher com lenço branco na cabeça permanece diante de uma fileira de policiais com escudos.",
+        "credito": "Marcelo Ranea",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Madre_plaza_policia.jpg",
+        "legenda": "Mãe da Plaza de Mayo diante da polícia em 5 de outubro de 1982."
+      }
     },
     {
       "id": "ar-democracia",
@@ -118,7 +190,15 @@
       "fontes": [
         "romero-argentina-contemporanea",
         "conadep-nunca-mais"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Asume_Alfons%C3%ADn_2.jpg",
+        "alt": "Raúl Alfonsín usa a faixa presidencial enquanto cumprimenta pessoas em um salão lotado.",
+        "credito": "Víctor Bugge",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Asume_Alfons%C3%ADn_2.jpg",
+        "legenda": "Posse de Raúl Alfonsín em 10 de dezembro de 1983."
+      }
     }
   ]
 }

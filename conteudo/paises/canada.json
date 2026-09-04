@@ -12,7 +12,15 @@
       "textoMdx": "Samuel de Champlain funda Quebec em 1608, e a colônia que se forma é diferente das inglesas ao sul: pequena em população, imensa em extensão, e dependente de alianças com nações indígenas para existir.\n\n**A pele de castor é a razão da colônia.** O chapéu de feltro europeu cria demanda por castor, e o comércio exige parceiros que conheçam o interior. Os franceses aliam-se aos hurões-wendat, aos algonquinos e aos innus, e herdam a inimizade destes com a Confederação Iroquesa — as Cinco Nações haudenosaunee, que tinham instituições próprias, uma lei constitucional oral, a Grande Lei da Paz, e conduziam sua própria política externa entre franceses, holandeses e ingleses.\n\n**As guerras dos castores redesenham o interior.** Entre as décadas de 1640 e 1660, os iroqueses, armados com mosquetes holandeses, dispersam a confederação huroniana. A epidemia acompanha o comércio: varíola e sarampo reduzem populações inteiras antes de qualquer combate.\n\n**A colônia é povoada por decisão de Estado.** Sob Luís XIV e Colbert, a Nova França passa a província real em 1663; envia-se um regimento e cerca de oitocentas mulheres, as *filles du roi*, para formar famílias. Ainda assim, quando cai, tem algo em torno de setenta mil habitantes de origem europeia, contra mais de um milhão nas Treze Colônias.\n\n**A rede se estende do Atlântico ao golfo do México.** Postos e missões alcançam os Grandes Lagos, o Mississippi e a Louisiana. Os *coureurs des bois* e depois os *voyageurs* criam, com mulheres indígenas, as comunidades de que descende o povo métis — uma nação nova, com língua própria, o michif.\n\n**A queda é decidida em 1759-1760.** Na Guerra dos Sete Anos, os britânicos vencem na planície de Abraão, tomam Quebec e depois Montreal. Pelo Tratado de Paris de 1763, a França cede o Canadá e mantém apenas duas ilhas pesqueiras. Antes disso, em 1755, os britânicos já haviam deportado em massa a população acadiana — o Grand Dérangement, que dispersou milhares de pessoas pelas colônias e pela Louisiana.",
       "fontes": [
         "morton-historia-canada"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Carte_nouvelle_de_l%27Am%C3%A9rique_Angloise%2C_contenant_la_Virginie%2C_Mary-Land%2C_Caroline%2C_Pensylvania%2C_Nouvelle_Iorck%2C_N-Iarsey%2C_N._France%2C_et_les_terres_nouvellement_d%C3%A9couerte_dress%C3%A9_sur_les_relations_les_LOC_74693318.jpg/1920px-thumbnail.jpg",
+        "alt": "Mapa histórico colorido da América do Norte oriental, com rios, litoral, assentamentos e a Nova França identificada no interior.",
+        "credito": "Nicolas Sanson e Pierre Mortier · Library of Congress",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Carte_nouvelle_de_l%27Am%C3%A9rique_Angloise,_contenant_la_Virginie,_Mary-Land,_Caroline,_Pensylvania,_Nouvelle_Iorck,_N-Iarsey,_N._France,_et_les_terres_nouvellement_d%C3%A9couerte_dress%C3%A9_sur_les_relations_les_LOC_74693318.jpg",
+        "legenda": "Mapa de 1700 que registra a Nova França e as colônias inglesas na América do Norte."
+      }
     },
     {
       "id": "ca-america-britanica",
@@ -24,7 +32,15 @@
       "fontes": [
         "morton-historia-canada",
         "proclamacao-real-1763"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/QuebecConvention1864.jpg",
+        "alt": "Fotografia em preto e branco de dezenas de delegados de terno reunidos em degraus diante de um edifício.",
+        "credito": "Jules-Isaïe Benoît · Library and Archives Canada",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:QuebecConvention1864.jpg",
+        "legenda": "Delegados da Conferência de Quebec, em 27 de outubro de 1864, durante as negociações que precederam a Confederação."
+      }
     },
     {
       "id": "ca-confederacao",
@@ -37,7 +53,15 @@
         "ato-britanico-america-norte-1867",
         "morton-historia-canada",
         "trc-canada"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Driving_last_spike_on_Canadian_Pacific_R.R._LCCN2016822956.jpg/1920px-Driving_last_spike_on_Canadian_Pacific_R.R._LCCN2016822956.jpg",
+        "alt": "Fotografia em preto e branco de ferroviários e autoridades reunidos ao redor de um trilho enquanto um homem crava o último prego.",
+        "credito": "National Photo Company Collection · Library of Congress",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Driving_last_spike_on_Canadian_Pacific_R.R._LCCN2016822956.jpg",
+        "legenda": "Donald Smith crava o último prego da Canadian Pacific Railway em Craigellachie, em 7 de novembro de 1885."
+      }
     },
     {
       "id": "ca-soberania",
@@ -49,7 +73,15 @@
       "fontes": [
         "estatuto-westminster-1931",
         "morton-historia-canada"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Proclamation_of_the_National_Flag_of_Canada_%28January_1965%29.jpg",
+        "alt": "Documento oficial ornamentado com brasão, selos e a nova bandeira canadense de folha de bordo.",
+        "credito": "Government of Canada · Library and Archives Canada",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Proclamation_of_the_National_Flag_of_Canada_(January_1965).jpg",
+        "legenda": "Proclamação da bandeira nacional do Canadá, assinada em 28 de janeiro de 1965."
+      }
     },
     {
       "id": "ca-constituicao",
@@ -61,7 +93,15 @@
         "ato-constitucional-1982",
         "corte-suprema-secessao-quebec",
         "trc-canada"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Canada_Act_1982_%28UKPGA_1982-11%29.pdf/page1-960px-Canada_Act_1982_%28UKPGA_1982-11%29.pdf.jpg",
+        "alt": "Primeira página impressa do Canada Act 1982, com o título da lei e o texto introdutório em preto sobre papel branco.",
+        "credito": "UK Parliament · legislation.gov.uk",
+        "licenca": "OGL 3",
+        "origem": "https://commons.wikimedia.org/wiki/File:Canada_Act_1982_(UKPGA_1982-11).pdf",
+        "legenda": "Primeira página do Canada Act 1982, publicado em 29 de março de 1982."
+      }
     }
   ]
 }

@@ -13,7 +13,15 @@
       "fontes": [
         "euraque-republica-banana",
         "perez-brignoli-america-central"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/General_Francisco_Moraz%C3%A1n.JPG",
+        "alt": "Gravura histórica em preto e branco de Francisco Morazán usando uniforme militar com dragonas e gola alta.",
+        "credito": "Frederich Van Dolvetz · digitalização de JVC3ETA",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:General_Francisco_Moraz%C3%A1n.JPG",
+        "legenda": "Retrato de Francisco Morazán publicado em 1838, figura hondurenha da Federação Centro-Americana."
+      }
     },
     {
       "id": "hn-republica-bananeira",
@@ -25,7 +33,15 @@
       "fontes": [
         "euraque-republica-banana",
         "lafeber-revolucoes-inevitaveis"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Honduran_strike_of_1954_in_Tegucigalpa.jpg/1920px-Honduran_strike_of_1954_in_Tegucigalpa.jpg",
+        "alt": "Manifestante ergue um cartaz contra Wall Street diante de uma multidão reunida em Tegucigalpa.",
+        "credito": "Henry Guilbert · Fondo especial del CDIHH",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Honduran_strike_of_1954_in_Tegucigalpa.jpg",
+        "legenda": "Manifestação de 21 de maio durante a greve geral de 1954 contra as companhias bananeiras em Honduras."
+      }
     },
     {
       "id": "hn-democracia",
@@ -36,7 +52,15 @@
       "fontes": [
         "euraque-republica-banana",
         "perez-brignoli-america-central"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Honduras_golpe_protesta.jpg",
+        "alt": "Soldados armados avançam sobre manifestantes em uma rua durante os protestos posteriores ao golpe hondurenho.",
+        "credito": "Roberto Breve",
+        "licenca": "CC BY-SA 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Honduras_golpe_protesta.jpg",
+        "legenda": "Militares reprimem um protesto em 29 de junho de 2009, um dia após a deposição de Manuel Zelaya."
+      }
     }
   ]
 }

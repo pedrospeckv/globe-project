@@ -9,10 +9,18 @@
       "fim": "525",
       "rotulo": "Reinos antigos da Arábia do Sul",
       "regime": "reinos independentes sucessivos, controlando as rotas do incenso",
-      "textoMdx": "O reino de Sabá, associado pela tradição bíblica e islâmica à lendária Rainha de Sabá, floresce a partir de cerca de 800 antes de Cristo no sul da Arábia, controlando as rotas comerciais do incenso e da mirra que abasteciam todo o Mediterrâneo antigo — riqueza que financiaria obras de engenharia hidráulica notáveis, como a grande barragem de Marib.\n\nO reino Himiarita unifica gradualmente os Estados sul-arábicos rivais a partir do século III depois de Cristo, e alguns de seus últimos reis se convertem ao judaísmo — o rei Dhu Nuwas, no início do século VI, persegue duramente a minoria cristã local, episódio que forneceria pretexto para invasão do reino cristão de Axum, na Etiópia.\n\nA conquista axumita de 525 extingue a soberania sul-arábica nativa, iniciando período de domínio estrangeiro sucessivo — etíope, depois persa sassânida — que se estenderia até a chegada do islã, no século VII.",
+      "textoMdx": "O reino de Sabá, associado pela tradição bíblica e islâmica à lendária Rainha de Sabá, floresce a partir de cerca de 800 antes de Cristo no sul da Arábia, controlando as rotas comerciais do incenso e da mirra que abasteciam todo o Mediterrâneo antigo — riqueza que financiou obras de engenharia hidráulica notáveis, como a grande barragem de Marib.\n\nO reino Himiarita unifica gradualmente os Estados sul-arábicos rivais a partir do século III depois de Cristo, e alguns de seus últimos reis se convertem ao judaísmo — o rei Dhu Nuwas, no início do século VI, persegue duramente a minoria cristã local, episódio que forneceu pretexto para invasão do reino cristão de Axum, na Etiópia.\n\nA conquista axumita de 525 extingue a soberania sul-arábica nativa, iniciando período de domínio estrangeiro sucessivo — etíope, depois persa sassânida — que se estendeu até a chegada do islã, no século VII.",
       "fontes": [
         "paul-dresch-iemen"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Dhamar_Ali_Yahbur_%28bust%29.jpg",
+        "alt": "Busto de bronze de um governante himiarita, com olhos grandes, barba curta e colar ornamentado.",
+        "credito": "Retlaw Snellac",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Dhamar_Ali_Yahbur_(bust).jpg",
+        "legenda": "Busto de Dhamar Ali Yahbur II, rei himiarita do fim do século III ou início do IV."
+      }
     },
     {
       "id": "yem-imamado-zaidita",
@@ -20,10 +28,18 @@
       "fim": "1962",
       "rotulo": "Imamado Zaidita",
       "regime": "teocracia xiita zaidita, sediada nas montanhas do norte iemenita",
-      "textoMdx": "Yahya al-Hadi funda, em 897, o Imamado Zaidita nas montanhas do norte do Iêmen — ramo do xiismo distinto tanto do sunismo majoritário quanto do xiismo duodecimano dominante no Irã, que se tornaria a tradição religiosa e política definidora do norte iemenita por mais de um milênio.\n\n**O imamado sobrevive a sucessivas tentativas de dominação externa, incluindo ocupações otomanas intermitentes entre os séculos XVI e início do XX**, preservando autonomia efetiva nas regiões montanhosas mesmo quando potências estrangeiras controlavam nominalmente partes do território costeiro.\n\n**A retirada otomana definitiva, em 1918, ao final da Primeira Guerra Mundial, permite ao imamado restaurar soberania plena sobre o norte iemenita** — governo teocrático extremamente conservador e isolacionista que se manteria até ser derrubado por revolução republicana em 1962.",
+      "textoMdx": "Yahya al-Hadi funda, em 897, o Imamado Zaidita nas montanhas do norte do Iêmen — ramo do xiismo distinto tanto do sunismo majoritário quanto do xiismo duodecimano dominante no Irã, que se tornou a tradição religiosa e política definidora do norte iemenita por mais de um milênio.\n\n**O imamado sobrevive a sucessivas tentativas de dominação externa, incluindo ocupações otomanas intermitentes entre os séculos XVI e início do XX**, preservando autonomia efetiva nas regiões montanhosas mesmo quando potências estrangeiras controlavam nominalmente partes do território costeiro.\n\n**A retirada otomana definitiva, em 1918, ao final da Primeira Guerra Mundial, permite ao imamado restaurar soberania plena sobre o norte iemenita** — governo teocrático extremamente conservador e isolacionista que se manteve até ser derrubado por revolução republicana em 1962.",
       "fontes": [
         "paul-dresch-iemen"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Yahya_Muhammad_Hamid_ed-Din.jpg",
+        "alt": "Retrato desenhado do imã Yahya usando barba, turbante e manto, emoldurado por uma legenda impressa.",
+        "credito": "Ameen Rihani",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Yahya_Muhammad_Hamid_ed-Din.jpg",
+        "legenda": "Imã Yahya Muhammad Hamid ed-Din em retrato publicado em 1922."
+      }
     },
     {
       "id": "yem-aden-britanica",
@@ -31,10 +47,18 @@
       "fim": "1967",
       "rotulo": "Adem sob domínio britânico",
       "regime": "colônia e protetorado britânico no sul, administrativamente separado do imamado do norte",
-      "textoMdx": "A Grã-Bretanha ocupa o porto de Adem em 1839, valorizando sua posição estratégica na rota marítima para a Índia — o pequeno território se desenvolveria como colônia comercial próspera, administrativamente e politicamente separada do imamado zaidita do interior norte por mais de um século.\n\n**A Grã-Bretanha estende influência sobre os sultanatos e xeicados tribais do interior sul através de tratados de proteção, formando o Protetorado da Arábia do Sul**, mosaico de pequenas entidades locais sob supervisão britânica indireta muito menos centralizada que a administração direta de Adem.\n\n**A Frente Nacional de Libertação, movimento nacionalista de esquerda, conduz insurgência armada crescente contra o domínio britânico a partir de 1963, forçando retirada britânica precipitada em novembro de 1967** — mais rápida e menos ordenada que o planejado, deixando a Frente Nacional de Libertação como força dominante do Iêmen do Sul recém-independente.",
+      "textoMdx": "A Grã-Bretanha ocupa o porto de Adem em 1839, valorizando sua posição estratégica na rota marítima para a Índia — o pequeno território se desenvolveu como colônia comercial próspera, administrativamente e politicamente separada do imamado zaidita do interior norte por mais de um século.\n\n**A Grã-Bretanha estende influência sobre os sultanatos e xeicados tribais do interior sul através de tratados de proteção, formando o Protetorado da Arábia do Sul**, mosaico de pequenas entidades locais sob supervisão britânica indireta muito menos centralizada que a administração direta de Adem.\n\n**A Frente Nacional de Libertação, movimento nacionalista de esquerda, conduz insurgência armada crescente contra o domínio britânico a partir de 1963, forçando retirada britânica precipitada em novembro de 1967** — mais rápida e menos ordenada que o planejado, deixando a Frente Nacional de Libertação como força dominante do Iêmen do Sul recém-independente.",
       "fontes": [
         "paul-dresch-iemen"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/178_Main_pass%2C_Aden.jpg",
+        "alt": "Fotografia histórica mostra a passagem principal de Áden entre paredões rochosos, com pessoas e animais na estrada.",
+        "credito": "British Library",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:178_Main_pass,_Aden.jpg",
+        "legenda": "A passagem principal de Áden em fotografia publicada em 1893, durante o domínio britânico."
+      }
     },
     {
       "id": "yem-dois-iemenes",
@@ -42,7 +66,7 @@
       "fim": "1990",
       "rotulo": "Os dois Iêmens",
       "regime": "dois Estados rivais — a República Árabe do Iêmen, ao norte, e a única república marxista do mundo árabe, ao sul",
-      "textoMdx": "A revolução republicana de 1962 derruba o Imamado Zaidita no norte, mas mergulha o país em guerra civil de oito anos entre republicanos apoiados pelo Egito de Nasser e monarquistas apoiados pela Arábia Saudita — conflito por procuração que refletiria as tensões da Guerra Fria árabe entre nacionalismo revolucionário e monarquias conservadoras do Golfo.\n\n**No sul, a retirada britânica de 1967 dá lugar à República Democrática Popular do Iêmen, único Estado formalmente marxista-leninista de toda a história do mundo árabe**, alinhado à União Soviética — os dois Iêmens, apesar de rivalidade ideológica profunda e conflitos armados esporádicos entre si, negociariam repetidamente projetos de unificação ao longo das décadas seguintes, finalmente concretizados em 1990.",
+      "textoMdx": "A revolução republicana de 1962 derruba o Imamado Zaidita no norte, mas mergulha o país em guerra civil de oito anos entre republicanos apoiados pelo Egito de Nasser e monarquistas apoiados pela Arábia Saudita — conflito por procuração que refletiu as tensões da Guerra Fria árabe entre nacionalismo revolucionário e monarquias conservadoras do Golfo.\n\n**No sul, a retirada britânica de 1967 dá lugar à República Democrática Popular do Iêmen, único Estado formalmente marxista-leninista de toda a história do mundo árabe**, alinhado à União Soviética — os dois Iêmens, apesar de rivalidade ideológica profunda e conflitos armados esporádicos entre si, negociaram repetidamente projetos de unificação ao longo das décadas seguintes, finalmente concretizados em 1990.",
       "entidades": [
         {
           "nome": "República Árabe do Iêmen (Iêmen do Norte)",
@@ -57,19 +81,35 @@
       ],
       "fontes": [
         "paul-dresch-iemen"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/South_Yemeni_president_Salim_Rubaya_Ali_visiting_school_for_bedouin_nomads.jpg",
+        "alt": "Salim Rubaya Ali conversa com estudantes e adultos reunidos dentro de uma escola simples.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:South_Yemeni_president_Salim_Rubaya_Ali_visiting_school_for_bedouin_nomads.jpg",
+        "legenda": "O presidente do Iêmen do Sul, Salim Rubaya Ali, visita uma escola para nômades beduínos na década de 1970."
+      }
     },
     {
       "id": "yem-unificacao-guerra-civil-atual",
       "inicio": "1990",
       "rotulo": "Unificação e a guerra civil atual",
       "regime": "república unificada, fragmentada por guerra civil desde 2014",
-      "textoMdx": "A unificação de maio de 1990 une os dois Iêmens sob a presidência de Ali Abdullah Saleh, mas tensões regionais persistentes explodiriam em nova guerra civil já em 1994, quando o sul tenta secessão — rapidamente esmagada pelas forças do norte, consolidando o domínio de Saleh sobre o país unificado.\n\nOs protestos da Primavera Árabe, em 2011, forçam a renúncia de Saleh após 33 anos no poder, através de acordo negociado pelo Conselho de Cooperação do Golfo que lhe garante imunidade — mas a transição posterior se revelaria incapaz de estabilizar o país.\n\n**O movimento houthi, de base zaidita revivalista com apoio iraniano crescente, toma a capital Sanaa em 2014-2015, forçando o governo reconhecido internacionalmente ao exílio** — a intervenção militar de coalizão liderada pela Arábia Saudita, iniciada em 2015 para reverter o avanço houthi, mergulharia o país na crise humanitária mais grave da região. As duas contas medem coisas diferentes e as duas importam: mais de cento e cinquenta mil mortes em combate, e estimativas da ONU acima de duzentas e vinte mil quando se somam as mortes por fome e por colapso do sistema de saúde — a maior parte do total, portanto, não é de gente atingida por tiro ou bomba.\n\n**Os houthis, a partir de 2023, atacam navegação comercial no Mar Vermelho em alegada solidariedade à Faixa de Gaza, atraindo retaliação militar americana e britânica direta** — o Iêmen permanece, décadas depois da unificação, fragmentado de facto entre múltiplas autoridades rivais, sem perspectiva clara de resolução do conflito.",
+      "textoMdx": "A unificação de maio de 1990 une os dois Iêmens sob a presidência de Ali Abdullah Saleh, mas tensões regionais persistentes explodiram em nova guerra civil já em 1994, quando o sul tenta secessão — rapidamente esmagada pelas forças do norte, consolidando o domínio de Saleh sobre o país unificado.\n\nOs protestos da Primavera Árabe, em 2011, forçam a renúncia de Saleh após 33 anos no poder, através de acordo negociado pelo Conselho de Cooperação do Golfo que lhe garante imunidade — mas a transição posterior se revelou incapaz de estabilizar o país.\n\n**O movimento houthi, de base zaidita revivalista com apoio iraniano crescente, toma a capital Sanaa em 2014-2015, forçando o governo reconhecido internacionalmente ao exílio** — a intervenção militar de coalizão liderada pela Arábia Saudita, iniciada em 2015 para reverter o avanço houthi, mergulhou o país na crise humanitária mais grave da região. As duas contas medem coisas diferentes e as duas importam: mais de cento e cinquenta mil mortes em combate, e estimativas da ONU acima de duzentas e vinte mil quando se somam as mortes por fome e por colapso do sistema de saúde — a maior parte do total, portanto, não é de gente atingida por tiro ou bomba.\n\n**Os houthis, a partir de 2023, atacam navegação comercial no Mar Vermelho em alegada solidariedade à Faixa de Gaza, atraindo retaliação militar americana e britânica direta** — o Iêmen permanece, décadas depois da unificação, fragmentado de facto entre múltiplas autoridades rivais, sem perspectiva clara de resolução do conflito.",
       "fontes": [
         "paul-dresch-iemen",
         "resolucao-onu-678-1990",
         "acled-conflitos-armados"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Never_seen_it_so_bad_%2817825411038%29.jpg/1920px-Never_seen_it_so_bad_%2817825411038%29.jpg",
+        "alt": "Homens observam edifícios destruídos e uma rua coberta de escombros após um bombardeio em Saná.",
+        "credito": "Julien Harneis",
+        "licenca": "CC BY-SA 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Never_seen_it_so_bad_(17825411038).jpg",
+        "legenda": "Destruição em Saná durante a guerra civil, em maio de 2015."
+      }
     }
   ]
 }

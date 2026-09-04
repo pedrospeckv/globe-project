@@ -179,12 +179,27 @@ describe("página de período", () => {
     ]);
   });
 
+  /*
+   * Procura o LINK de navegação, e não a palavra solta no texto da página.
+   *
+   * A versão anterior deste teste procurava a palavra "anterior" no texto
+   * inteiro da página, e só passava por sorte: "anterior" é palavra
+   * comum, e **36 períodos do acervo já a trazem na própria prosa**. Bastou a
+   * moldura de imagem ganhar a ressalva de período pré-fotográfico — que
+   * começa com "Período anterior à fotografia" — para o teste reprovar sem
+   * que a navegação tivesse mudado nada.
+   */
   it("o primeiro período não oferece anterior, e o último não oferece seguinte", async () => {
+    const rotulos = (c: HTMLElement) =>
+      [...c.querySelectorAll("a")].map((a) => a.textContent ?? "");
+
     const { container: primeiro } = await pagina("BRA", "br-colonia");
-    expect(primeiro.textContent).not.toContain("anterior");
+    expect(rotulos(primeiro).some((t) => t.includes("← ANTERIOR"))).toBe(false);
+    expect(rotulos(primeiro).some((t) => t.includes("SEGUINTE →"))).toBe(true);
 
     const { container: ultimo } = await pagina("BRA", "br-nova-republica");
-    expect(ultimo.textContent).not.toContain("seguinte");
+    expect(rotulos(ultimo).some((t) => t.includes("SEGUINTE →"))).toBe(false);
+    expect(rotulos(ultimo).some((t) => t.includes("← ANTERIOR"))).toBe(true);
   });
 
   it("volta para o dossiê do país", async () => {

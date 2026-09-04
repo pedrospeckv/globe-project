@@ -9,10 +9,18 @@
       "fim": "828",
       "rotulo": "Ducado eslavo da Carantânia",
       "regime": "principado eslavo, depois ducado vassalo do Império Franco",
-      "textoMdx": "A Carantânia, formada por tribos eslavas estabelecidas na região alpina oriental a partir do século VI, emerge como um dos primeiros principados eslavos documentados da Europa, com estrutura política própria centrada na região da atual Caríntia austríaca e norte da Eslovênia atual.\n\n**A conversão ao cristianismo, promovida a partir de meados do século VIII sob influência bávara e franca, acompanha a perda gradual de autonomia política do principado.** A cerimônia de entronização dos duques carantanos, realizada em língua eslava sobre uma pedra ritual — a chamada Pedra Príncipe —, sobreviveria como símbolo até muito depois de a Carantânia perder independência efetiva, sendo invocada por movimentos nacionais eslovenos do século XIX como prova de estatalidade eslava antiga.\n\n**A incorporação definitiva ao Império Franco, por volta de 828, sob Luís, o Piedoso, extingue a autonomia política carantana**, dando início a mais de mil anos em que os territórios de fala eslovena permaneceriam fragmentados entre diferentes ducados e províncias do Sacro Império Romano-Germânico e, depois, da monarquia dos Habsburgo — Caríntia, Carniola, Estíria — sem constituir unidade política própria até o século XX.",
+      "textoMdx": "A Carantânia, formada por tribos eslavas estabelecidas na região alpina oriental a partir do século VI, emerge como um dos primeiros principados eslavos documentados da Europa, com estrutura política própria centrada na região da atual Caríntia austríaca e norte da Eslovênia atual.\n\n**A conversão ao cristianismo, promovida a partir de meados do século VIII sob influência bávara e franca, acompanha a perda gradual de autonomia política do principado.** A cerimônia de entronização dos duques carantanos, realizada em língua eslava sobre uma pedra ritual — a chamada Pedra Príncipe —, sobreviveu como símbolo até muito depois de a Carantânia perder independência efetiva, sendo invocada por movimentos nacionais eslovenos do século XIX como prova de estatalidade eslava antiga.\n\n**A incorporação definitiva ao Império Franco, por volta de 828, sob Luís, o Piedoso, extingue a autonomia política carantana**, dando início a mais de mil anos em que os territórios de fala eslovena permaneceram fragmentados entre diferentes ducados e províncias do Sacro Império Romano-Germânico e, depois, da monarquia dos Habsburgo — Caríntia, Carniola, Estíria — sem constituir unidade política própria até o século XX.",
       "fontes": [
         "leopoldina-plut-pregelj-eslovenia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Museum_Carantana%2C_Funde_in_Molzbichl%2C_Bezirk_Spittal_an_der_Drau%2C_K%C3%A4rnten%2C_%C3%96sterreich.jpg/1920px-Museum_Carantana%2C_Funde_in_Molzbichl%2C_Bezirk_Spittal_an_der_Drau%2C_K%C3%A4rnten%2C_%C3%96sterreich.jpg",
+        "alt": "Vitrine de museu com pequenos objetos metálicos, fragmentos e peças arqueológicas organizados ao redor de textos explicativos.",
+        "credito": "Naturpuur · Museum Carantana",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Museum_Carantana,_Funde_in_Molzbichl,_Bezirk_Spittal_an_der_Drau,_K%C3%A4rnten,_%C3%96sterreich.jpg",
+        "legenda": "Achados do século VIII de Molzbichl, na região histórica da Carantânia, preservados no Museu Carantana."
+      }
     },
     {
       "id": "svn-reino-iugoslavia",
@@ -20,11 +28,19 @@
       "fim": "1941",
       "rotulo": "Eslovênia no Reino da Iugoslávia",
       "regime": "província dentro de monarquia centralizada sérvia",
-      "textoMdx": "Após mais de um milênio sem estatalidade própria, os territórios eslovenos — Carniola, partes da Estíria e da Caríntia — se unem em 1918, primeiro ao efêmero Estado dos Eslovenos, Croatas e Sérvios, depois ao Reino liderado pela dinastia sérvia, entrando pela primeira vez em Estado que reconhece formalmente identidade eslovena distinta.\n\n**O Tratado de Saint-Germain de 1919 e o plebiscito da Caríntia de 1920 fixam a fronteira norte eslovena, deixando parte significativa de população de fala eslovena do lado austríaco** — território que a Eslovênia jamais recuperaria, e cuja minoria eslovena na Áustria persiste, reduzida, até hoje.\n\n**A relativa distância geográfica e cultural da Eslovênia em relação a Belgrado gera menos conflito político direto que o observado na relação sérvio-croata do mesmo período**, embora a centralização do reino limite igualmente a autonomia eslovena — situação que mudaria drasticamente com a invasão do Eixo em 1941, que dividiria o pequeno território esloveno entre três potências ocupantes diferentes.",
+      "textoMdx": "Após mais de um milênio sem estatalidade própria, os territórios eslovenos — Carniola, partes da Estíria e da Caríntia — se unem em 1918, primeiro ao efêmero Estado dos Eslovenos, Croatas e Sérvios, depois ao Reino liderado pela dinastia sérvia, entrando pela primeira vez em Estado que reconhece formalmente identidade eslovena distinta.\n\n**O Tratado de Saint-Germain de 1919 e o plebiscito da Caríntia de 1920 fixam a fronteira norte eslovena, deixando parte significativa de população de fala eslovena do lado austríaco** — território que a Eslovênia jamais recuperou, e cuja minoria eslovena na Áustria persiste, reduzida, até hoje.\n\n**A relativa distância geográfica e cultural da Eslovênia em relação a Belgrado gera menos conflito político direto que o observado na relação sérvio-croata do mesmo período**, embora a centralização do reino limite igualmente a autonomia eslovena — situação que mudou com a invasão do Eixo em 1941, que dividiu o pequeno território esloveno entre três potências ocupantes diferentes.",
       "fontes": [
         "leopoldina-plut-pregelj-eslovenia",
         "dejan-djokic-iugoslavia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Ljubljana_z_Ro%C5%BEnika_1920-23.jpg/1920px-Ljubljana_z_Ro%C5%BEnika_1920-23.jpg",
+        "alt": "Vista panorâmica em preto e branco de Liubliana, com telhados, torres e colinas ao fundo.",
+        "credito": "Fran Vesel · Digital Library of Slovenia",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Ljubljana_z_Ro%C5%BEnika_1920-23.jpg",
+        "legenda": "Liubliana vista do monte Rožnik entre 1920 e 1923, durante o Reino dos Sérvios, Croatas e Eslovenos."
+      }
     },
     {
       "id": "svn-ocupacao-particao",
@@ -32,11 +48,19 @@
       "fim": "1945",
       "rotulo": "Eslovênia ocupada e dividida entre Alemanha, Itália e Hungria",
       "regime": "território anexado e dividido entre três potências ocupantes",
-      "textoMdx": "A invasão do Eixo, em abril de 1941, resulta na partição direta do território esloveno entre Alemanha, Itália e Hungria — anexação territorial direta, sem sequer a fachada de um Estado fantoche local, política de ocupação incomumente dura mesmo pelos padrões da Europa ocupada.\n\n**A ocupação alemã na Estíria e na Alta Carniola inclui política deliberada de germanização, com deportações em massa da população eslovena e recrutamento forçado para o exército alemão**, enquanto a zona italiana na Baixa Carniola pratica repressão mais tradicional contra o movimento de resistência crescente.\n\n**A Frente de Libertação eslovena, dominada pelos comunistas mas incluindo outras correntes antifascistas, organiza uma das resistências mais eficazes da Europa ocupada em relação ao tamanho da população**, com território extenso sob controle partisan já em 1943 — contribuição que garantiria à Eslovênia posição de destaque relativo na futura Iugoslávia socialista, e a recuperação, no pós-guerra, da região costeira de Trieste disputada com a Itália, resolvida apenas definitivamente em 1975.",
+      "textoMdx": "A invasão do Eixo, em abril de 1941, resulta na partição direta do território esloveno entre Alemanha, Itália e Hungria — anexação territorial direta, sem sequer a fachada de um Estado fantoche local, política de ocupação incomumente dura mesmo pelos padrões da Europa ocupada.\n\n**A ocupação alemã na Estíria e na Alta Carniola inclui política deliberada de germanização, com deportações em massa da população eslovena e recrutamento forçado para o exército alemão**, enquanto a zona italiana na Baixa Carniola pratica repressão mais tradicional contra o movimento de resistência crescente.\n\n**A Frente de Libertação eslovena, dominada pelos comunistas mas incluindo outras correntes antifascistas, organiza uma das resistências mais eficazes da Europa ocupada em relação ao tamanho da população**, com território extenso sob controle partisan já em 1943 — contribuição que garantiu à Eslovênia posição de destaque relativo na futura Iugoslávia socialista, e a recuperação, no pós-guerra, da região costeira de Trieste disputada com a Itália, resolvida apenas definitivamente em 1975.",
       "fontes": [
         "leopoldina-plut-pregelj-eslovenia",
         "dejan-djokic-iugoslavia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Plakat_Smrt_fasizmu_-_sloboda_narodu.png",
+        "alt": "Cartaz em preto, branco e vermelho mostra um combatente armado avançando sobre uma suástica quebrada.",
+        "credito": "Partisans iugoslavos",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Plakat_Smrt_fasizmu_-_sloboda_narodu.png",
+        "legenda": "Cartaz partisan 'Morte ao fascismo, liberdade ao povo', produzido na Eslovênia ocupada em 1941."
+      }
     },
     {
       "id": "svn-iugoslavia-socialista",
@@ -44,11 +68,19 @@
       "fim": "1991",
       "rotulo": "República socialista dentro da Iugoslávia de Tito",
       "regime": "república socialista federativa, um partido",
-      "textoMdx": "A Eslovênia se torna a mais próspera e etnicamente homogênea das repúblicas iugoslavas, com economia industrial e comercial voltada historicamente para a Europa central — vantagem que se traduziria, ao longo das décadas socialistas, em padrão de vida sistematicamente superior ao das demais repúblicas.\n\n**A proximidade cultural e econômica com a Áustria e a Itália vizinhas mantém a Eslovênia relativamente aberta a influências ocidentais durante o período socialista**, mais que o restante da Iugoslávia — abertura que alimentaria, nos anos 1980, movimento de opinião pública favorável a maior autonomia e eventual separação da federação.\n\n**A crise econômica e o crescente centralismo sérvio dos anos 1980, sob Milošević, alarmam a liderança eslovena, que passa a defender abertamente reforma confederal da Iugoslávia** — proposta rejeitada por Belgrado, levando a Eslovênia a organizar plebiscito de independência em dezembro de 1990, aprovado por mais de 88% dos votantes, decisão que a colocaria em rota de colisão com o exército federal.",
+      "textoMdx": "A Eslovênia se torna a mais próspera e etnicamente homogênea das repúblicas iugoslavas, com economia industrial e comercial voltada historicamente para a Europa central — vantagem que se traduziu, ao longo das décadas socialistas, em padrão de vida sistematicamente superior ao das demais repúblicas.\n\n**A proximidade cultural e econômica com a Áustria e a Itália vizinhas mantém a Eslovênia relativamente aberta a influências ocidentais durante o período socialista**, mais que o restante da Iugoslávia — abertura que alimentou, nos anos 1980, movimento de opinião pública favorável a maior autonomia e eventual separação da federação.\n\n**A crise econômica e o crescente centralismo sérvio dos anos 1980, sob Milošević, alarmam a liderança eslovena, que passa a defender abertamente reforma confederal da Iugoslávia** — proposta rejeitada por Belgrado, levando a Eslovênia a organizar plebiscito de independência em dezembro de 1990, aprovado por mais de 88% dos votantes, decisão que a colocou em rota de colisão com o exército federal.",
       "fontes": [
         "leopoldina-plut-pregelj-eslovenia",
         "dejan-djokic-iugoslavia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Prvomajski_sprevod_v_Ljubljani_1960_%2820%29.jpg",
+        "alt": "Fotografia em preto e branco de uma grande parada de Primeiro de Maio, com bandeiras iugoslavas e multidão nas calçadas.",
+        "credito": "Danilo Škofič · Večer",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Prvomajski_sprevod_v_Ljubljani_1960_(20).jpg",
+        "legenda": "Desfile de Primeiro de Maio em Liubliana, em 1960, no período da Iugoslávia socialista."
+      }
     },
     {
       "id": "svn-independencia",
@@ -59,7 +91,15 @@
       "fontes": [
         "leopoldina-plut-pregelj-eslovenia",
         "dejan-djokic-iugoslavia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Zajeti_vojaki_v_Ro%C5%BEni_Dolini.jpg",
+        "alt": "Policiais e civis eslovenos conduzem soldados iugoslavos rendidos por uma estrada junto a uma placa de fronteira.",
+        "credito": "Peter Božič",
+        "licenca": "CC BY 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Zajeti_vojaki_v_Ro%C5%BEni_Dolini.jpg",
+        "legenda": "Soldados do Exército Popular Iugoslavo rendidos durante a Guerra dos Dez Dias, em 1991."
+      }
     }
   ]
 }

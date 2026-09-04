@@ -9,10 +9,18 @@
       "fim": "1916",
       "rotulo": "Camarões Alemão",
       "regime": "protetorado alemão",
-      "textoMdx": "A Alemanha estabelece protetorado sobre os Camarões em 1884, através de tratado negociado pelo explorador Gustav Nachtigal com chefes locais da costa — território que se tornaria uma das principais possessões coloniais alemãs na África.\n\nA administração alemã impõe trabalho forçado extensivo para desenvolvimento de plantações e infraestrutura, enquanto forças anglo-francesas conquistam o território durante a Primeira Guerra Mundial, entre 1914 e 1916, encerrando o breve período de domínio colonial alemão.",
+      "textoMdx": "A Alemanha estabelece protetorado sobre os Camarões em 1884, através de tratado negociado pelo explorador Gustav Nachtigal com chefes locais da costa — território que se tornou uma das principais possessões coloniais alemãs na África.\n\nA administração alemã impõe trabalho forçado extensivo para desenvolvimento de plantações e infraestrutura, enquanto forças anglo-francesas conquistam o território durante a Primeira Guerra Mundial, entre 1914 e 1916, encerrando o breve período de domínio colonial alemão.",
       "fontes": [
         "delancey-camaroes"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/D-Kamerun_1900_17.jpg/1920px-D-Kamerun_1900_17.jpg",
+        "alt": "Selo colonial alemão mostra o iate imperial Hohenzollern dentro de uma moldura ornamentada com a inscrição Kamerun.",
+        "credito": "Reichspost of the German Empire",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:D-Kamerun_1900_17.jpg",
+        "legenda": "Selo emitido para os Camarões Alemães em 1900 associa o protetorado ao poder imperial alemão."
+      }
     },
     {
       "id": "cmr-particao-anglo-francesa",
@@ -20,10 +28,18 @@
       "fim": "1961",
       "rotulo": "Partição Anglo-Francesa",
       "regime": "território dividido sob mandatos britânico e francês distintos",
-      "textoMdx": "A Liga das Nações divide formalmente os antigos Camarões alemães em 1922, entre um mandato francês maior e um mandato britânico menor, este último administrado como duas seções anexadas à vizinha Nigéria.\n\nUma guerra de contrainsurgência prolongada e brutal, entre 1955 e 1971, opõe as forças coloniais e depois pós-coloniais francesas ao movimento nacionalista radical União dos Povos dos Camarões — conflito que mataria dezenas de milhares de pessoas e permaneceria amplamente obscurecido na memória histórica oficial por décadas, até relatório encomendado pelo próprio governo francês reconhecer, apenas em 2024, a responsabilidade francesa por crimes de guerra cometidos durante o conflito.\n\nA independência dos Camarões franceses, obtida em janeiro de 1960 sob Ahmadou Ahidjo, ocorre ainda em meio a essa guerra civil não declarada, que continuaria por mais de uma década adicional sob o novo governo independente.",
+      "textoMdx": "A Liga das Nações divide formalmente os antigos Camarões alemães em 1922, entre um mandato francês maior e um mandato britânico menor, este último administrado como duas seções anexadas à vizinha Nigéria.\n\nUma guerra de contrainsurgência prolongada e brutal, entre 1955 e 1971, opõe as forças coloniais e depois pós-coloniais francesas ao movimento nacionalista radical União dos Povos dos Camarões — conflito que matou dezenas de milhares de pessoas e permaneceu amplamente obscurecido na memória histórica oficial por décadas, até relatório encomendado pelo próprio governo francês reconhecer, apenas em 2024, a responsabilidade francesa por crimes de guerra cometidos durante o conflito.\n\nA independência dos Camarões franceses, obtida em janeiro de 1960 sob Ahmadou Ahidjo, ocorre ainda em meio a essa guerra civil não declarada, que continuou por mais de uma década adicional sob o novo governo independente.",
       "fontes": [
         "delancey-camaroes"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/25_francs_AEF_Cameroon_1958.png",
+        "alt": "Frente e verso de uma moeda de 25 francos de 1958 exibem uma gazela, espigas e inscrições do Camarões.",
+        "credito": "Marc-AntoineV",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:25_francs_AEF_Cameroon_1958.png",
+        "legenda": "Moeda de 25 francos cunhada em 1958 registra a administração monetária do Camarões sob tutela francesa."
+      }
     },
     {
       "id": "cmr-federacao-unificacao-ahidjo-biya",
@@ -31,20 +47,36 @@
       "fim": "2016",
       "rotulo": "Federação, unificação e as eras Ahidjo e Biya",
       "regime": "Estado federal bilíngue, depois república unitária sob domínio presidencial prolongado",
-      "textoMdx": "Os Camarões britânicos do sul votam, em plebiscito de 1961, por unificação com os Camarões franceses recém-independentes, formando Estado federal bilíngue — enquanto os Camarões britânicos do norte optam, no mesmo plebiscito, por integração à Nigéria.\n\nA estrutura federal é abolida em 1972, substituída por Estado unitário centralizado — decisão que a população anglófona minoritária passaria a considerar, décadas depois, quebra de promessa fundacional que gerou ressentimento profundo e duradouro.\n\nAhidjo transfere o poder pacificamente a Paul Biya em 1982, gesto raro de sucessão voluntária entre líderes africanos de sua geração — Biya permaneceria no poder ininterruptamente desde então, tornando-se um dos chefes de Estado não monárquicos mais duradouros do mundo, com tensões anglófonas latentes acumulando-se silenciosamente sob a superfície de estabilidade política aparente.",
+      "textoMdx": "Os Camarões britânicos do sul votam, em plebiscito de 1961, por unificação com os Camarões franceses recém-independentes, formando Estado federal bilíngue — enquanto os Camarões britânicos do norte optam, no mesmo plebiscito, por integração à Nigéria.\n\nA estrutura federal é abolida em 1972, substituída por Estado unitário centralizado — decisão que a população anglófona minoritária passou a considerar, décadas depois, quebra de promessa fundacional que gerou ressentimento profundo e.\n\nAhidjo transfere o poder pacificamente a Paul Biya em 1982, gesto raro de sucessão voluntária entre líderes africanos de sua geração — Biya permaneceu no poder ininterruptamente desde então, tornando-se um dos chefes de Estado não monárquicos mais do mundo, com tensões anglófonas latentes acumulando-se silenciosamente sob a superfície de estabilidade política aparente.",
       "fontes": [
         "delancey-camaroes"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ahmadou_Ahidjo_visits_the_White_House_on_July_26%2C_1982.jpg",
+        "alt": "Ahmadou Ahidjo e Ronald Reagan conversam sentados em poltronas diante de uma lareira na Casa Branca.",
+        "credito": "Reagan White House Photographic Office · National Archives",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Ahmadou_Ahidjo_visits_the_White_House_on_July_26,_1982.jpg",
+        "legenda": "Ahmadou Ahidjo encontra Ronald Reagan em julho de 1982, poucos meses antes de deixar a presidência camaronesa."
+      }
     },
     {
       "id": "cmr-crise-anglofona-atual",
       "inicio": "2016",
       "rotulo": "Crise Anglófona e os Camarões contemporâneos",
       "regime": "república presidencialista, fragmentada por insurgência separatista nas regiões de língua inglesa",
-      "textoMdx": "Protestos de advogados e professores anglófonos contra marginalização linguística e institucional, iniciados em 2016, escalam rapidamente para conflito armado aberto: milícias separatistas declaram, em 2017, a independência não reconhecida da \"Ambazônia\" nas regiões de língua inglesa.\n\nA resposta militar governamental, combinada com violência de múltiplas milícias separatistas rivais, mataria milhares de pessoas e deslocaria centenas de milhares ao longo dos anos seguintes — conflito que permanece amplamente invisível na cobertura internacional, apesar de sua escala e duração.\n\nSimultaneamente, o extremo norte camaronês enfrenta transbordamento da insurgência jihadista Boko Haram vinda da vizinha Nigéria — Paul Biya, já em seus noventa anos e no poder ininterrupto desde 1982, não sinaliza qualquer intenção de deixar o cargo, deixando questão sucessória cada vez mais incerta pairando sobre o país.",
+      "textoMdx": "Protestos de advogados e professores anglófonos contra marginalização linguística e institucional, iniciados em 2016, escalam rapidamente para conflito armado aberto: milícias separatistas declaram, em 2017, a independência não reconhecida da \"Ambazônia\" nas regiões de língua inglesa.\n\nA resposta militar governamental, combinada com violência de múltiplas milícias separatistas rivais, matou milhares de pessoas e deslocou centenas de milhares ao longo dos anos seguintes — conflito que permanece amplamente invisível na cobertura internacional, apesar de sua escala e duração.\n\nSimultaneamente, o extremo norte camaronês enfrenta transbordamento da insurgência jihadista Boko Haram vinda da vizinha Nigéria — Paul Biya, já em seus noventa anos e no poder ininterrupto desde 1982, não sinaliza qualquer intenção de deixar o cargo, deixando questão sucessória cada vez mais incerta pairando sobre o país.",
       "fontes": [
         "delancey-camaroes"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Internally_displaced_people_from_the_Anglophone_crisis_in_Douala.png",
+        "alt": "Mulheres e crianças deslocadas pela crise anglófona estão reunidas num espaço coberto em Duala.",
+        "credito": "Voice of America",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Internally_displaced_people_from_the_Anglophone_crisis_in_Douala.png",
+        "legenda": "Camaroneses deslocados pela guerra nas regiões anglófonas são atendidos em Duala em abril de 2020."
+      }
     }
   ]
 }

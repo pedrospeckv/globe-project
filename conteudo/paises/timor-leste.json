@@ -9,10 +9,18 @@
       "fim": "1975",
       "rotulo": "Timor Português",
       "regime": "colônia portuguesa, uma das mais antigas e mais negligenciadas possessões europeias na Ásia",
-      "textoMdx": "Comerciantes portugueses estabelecem presença comercial na ilha de Timor a partir de cerca de 1515-1520, atraídos pelo comércio de madeira de sândalo — o território se tornaria, ao longo dos séculos seguintes, uma das colônias mais pobres e administrativamente negligenciadas de todo o império português.\n\nA divisão da ilha entre Portugal, na metade oriental, e a Holanda, na ocidental, é formalizada por tratados sucessivos em 1859 e 1913 — fronteira colonial que sobreviveria, praticamente inalterada, à independência da Indonésia em 1945 e determinaria décadas depois qual metade da ilha se tornaria Estado próprio.\n\n**A Revolução dos Cravos de 1974, em Portugal, precipita processo de descolonização abrupto e mal preparado no Timor Português — breve guerra civil entre as facções timorenses FRETILIN e UDT eclode em 1975, e a FRETILIN declara independência unilateral em 28 de novembro daquele ano**, apenas dias antes da invasão indonésia que se seguiria.",
+      "textoMdx": "Comerciantes portugueses estabelecem presença comercial na ilha de Timor a partir de cerca de 1515-1520, atraídos pelo comércio de madeira de sândalo — o território se tornou, ao longo dos séculos seguintes, uma das colônias mais pobres e administrativamente negligenciadas de todo o império português.\n\nA divisão da ilha entre Portugal, na metade oriental, e a Holanda, na ocidental, é formalizada por tratados sucessivos em 1859 e 1913 — fronteira colonial que sobreviveu, praticamente inalterada, à independência da Indonésia em 1945 e determinou décadas depois qual metade da ilha se tornou Estado próprio.\n\n**A Revolução dos Cravos de 1974, em Portugal, precipita processo de descolonização abrupto e mal preparado no Timor Português — breve guerra civil entre as facções timorenses FRETILIN e UDT eclode em 1975, e a FRETILIN declara independência unilateral em 28 de novembro daquele ano**, apenas dias antes da invasão indonésia que se seguiu.",
       "fontes": [
         "james-dunn-timor-leste"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Alfandega%2C_Dili%2C_Portuguese_Timor%2C_1900.png",
+        "alt": "Fotografia histórica de uma rua de terra em Díli, com o edifício da alfândega, árvores e moradores diante das construções.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Alfandega,_Dili,_Portuguese_Timor,_1900.png",
+        "legenda": "Rua da alfândega em Díli por volta de 1900, durante a administração colonial portuguesa."
+      }
     },
     {
       "id": "tls-ocupacao-indonesia",
@@ -20,10 +28,18 @@
       "fim": "1999",
       "rotulo": "Ocupação indonésia",
       "regime": "território anexado pela Indonésia como vigésima sétima província, nunca reconhecido pela ONU",
-      "textoMdx": "A Indonésia invade o Timor-Leste em 7 de dezembro de 1975, dias após a declaração de independência, com aprovação tácita americana e australiana em pleno contexto de Guerra Fria — anexando o território como sua vigésima sétima província, decisão jamais reconhecida pela Organização das Nações Unidas.\n\n**A ocupação, que se estenderia por 24 anos, mata segundo estimativas entre cem e duzentos mil timorenses — proporção da população total comparável às piores atrocidades do século XX —, através de combate direto, reassentamento forçado, fome e doença**, enquanto a guerrilha Falintil mantém resistência armada nas montanhas ao longo de todo o período.\n\n**O massacre de Santa Cruz, em novembro de 1991, quando tropas indonésias abrem fogo contra manifestantes pacíficos pró-independência num cemitério de Díli, é filmado por jornalistas estrangeiros presentes e transmitido internacionalmente**, tornando-se ponto de virada decisivo na atenção internacional ao conflito — o líder resistente Xanana Gusmão seria capturado no ano seguinte, e o bispo Carlos Filipe Ximenes Belo e José Ramos-Horta receberiam o Prêmio Nobel da Paz em 1996 pelo trabalho de resistência não violenta.",
+      "textoMdx": "A Indonésia invade o Timor-Leste em 7 de dezembro de 1975, dias após a declaração de independência, com aprovação tácita americana e australiana em pleno contexto de Guerra Fria — anexando o território como sua vigésima sétima província, decisão jamais reconhecida pela Organização das Nações Unidas.\n\n**A ocupação, que se estendeu por 24 anos, mata segundo estimativas entre cem e duzentos mil timorenses — proporção da população total comparável às piores atrocidades do século XX —, através de combate direto, reassentamento forçado, fome e doença**, enquanto a guerrilha Falintil mantém resistência armada nas montanhas ao longo de todo o período.\n\n**O massacre de Santa Cruz, em novembro de 1991, quando tropas indonésias abrem fogo contra manifestantes pacíficos pró-independência num cemitério de Díli, é filmado por jornalistas estrangeiros presentes e transmitido internacionalmente**, tornando-se ponto de virada decisivo na atenção internacional ao conflito — o líder resistente Xanana Gusmão foi capturado no ano seguinte, e o bispo Carlos Filipe Ximenes Belo e José Ramos-Horta receberam o Prêmio Nobel da Paz em 1996 pelo trabalho de resistência não violenta.",
       "fontes": [
         "james-dunn-timor-leste"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Landsat_dili_lrg.jpg",
+        "alt": "Imagem de satélite em cores falsas mostra a costa e a área urbana de Díli, com focos claros e rastros de fumaça.",
+        "credito": "Landsat · United States Geological Survey",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Landsat_dili_lrg.jpg",
+        "legenda": "Díli em chamas em 8 de setembro de 1999, durante a violência que se seguiu ao referendo de independência."
+      }
     },
     {
       "id": "tls-referendo-transicao-onu",
@@ -35,17 +51,33 @@
       "fontes": [
         "james-dunn-timor-leste",
         "acordo-5-maio-1999-timor"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NZSAS_East_Timor.jpg",
+        "alt": "Militares armados acompanham uma equipe de inspeção junto a um pequeno porto, com água e vegetação ao fundo.",
+        "credito": "Mark Giampietro ou Todd Browning · U.S. Army",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:NZSAS_East_Timor.jpg",
+        "legenda": "Equipe internacional inspeciona o porto de Karabela sob escolta neozelandesa em setembro de 1999, no início da missão INTERFET."
+      }
     },
     {
       "id": "tls-independencia-atual",
       "inicio": "2002",
       "rotulo": "Timor-Leste independente",
       "regime": "república semipresidencialista",
-      "textoMdx": "Xanana Gusmão, líder histórico da resistência, se torna o primeiro presidente do Timor-Leste independente em maio de 2002 — nação que nasce como um dos países mais pobres da Ásia, apesar de reservas significativas de petróleo e gás no Mar de Timor.\n\nUma crise de segurança grave, em 2006, envolvendo divisões dentro das próprias forças armadas e violência entre facções regionais, quase leva ao colapso do jovem Estado, exigindo nova intervenção de forças de paz internacionais por vários anos.\n\n**A disputa de fronteira marítima com a Austrália sobre os ricos campos de petróleo e gás do Mar de Timor, fonte crucial de receita para o pequeno Estado, seria finalmente resolvida por tratado de delimitação apenas em 2018** — décadas depois da independência, e após anos de negociação tensa sobre um recurso do qual o Timor-Leste dependeria de forma quase existencial para seu orçamento nacional.",
+      "textoMdx": "Xanana Gusmão, líder histórico da resistência, se torna o primeiro presidente do Timor-Leste independente em maio de 2002 — nação que nasce como um dos países mais pobres da Ásia, apesar de reservas significativas de petróleo e gás no Mar de Timor.\n\nUma crise de segurança grave, em 2006, envolvendo divisões dentro das próprias forças armadas e violência entre facções regionais, quase leva ao colapso do jovem Estado, exigindo nova intervenção de forças de paz internacionais por vários anos.\n\n**A disputa de fronteira marítima com a Austrália sobre os ricos campos de petróleo e gás do Mar de Timor, fonte crucial de receita para o pequeno Estado, foi finalmente resolvida por tratado de delimitação apenas em 2018** — décadas depois da independência, e após anos de negociação tensa sobre um recurso do qual o Timor-Leste dependeu de forma quase existencial para seu orçamento nacional.",
       "fontes": [
         "james-dunn-timor-leste"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Xanana_Gusm%C3%A3o_-_Presid%C3%AAncia_da_Rep%C3%BAblica_de_Timor-Leste_%282002%29.png",
+        "alt": "Retrato oficial de Xanana Gusmão usando terno escuro, camisa branca e gravata vermelha sobre fundo neutro.",
+        "credito": "Presidência da República de Timor-Leste",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Xanana_Gusm%C3%A3o_-_Presid%C3%AAncia_da_Rep%C3%BAblica_de_Timor-Leste_(2002).png",
+        "legenda": "Xanana Gusmão em 20 de maio de 2002, data da restauração da independência de Timor-Leste."
+      }
     }
   ]
 }

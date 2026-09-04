@@ -9,10 +9,18 @@
       "fim": "1960",
       "rotulo": "Colonização Francesa",
       "regime": "colônia francesa integrada à África Ocidental Francesa",
-      "textoMdx": "A França proclama colônia formal sobre a Costa do Marfim em 1893, território sem tradição de Estado pré-colonial unificado, habitado por dezenas de grupos étnicos distintos organizados em reinos e chefaturas regionais menores, como o antigo Reino de Kong ao norte.\n\nA economia colonial se desenvolve em torno de plantações de cacau e café, cultivadas majoritariamente através de trabalho forçado nas primeiras décadas — Félix Houphouët-Boigny, ele próprio rico plantador africano, emerge como líder sindical e depois político central, fundando o Reagrupamento Democrático Africano em 1946, movimento pan-africano que reuniria lideranças nacionalistas de toda a África Ocidental Francesa.\n\nA independência, obtida em agosto de 1960, encontra a Costa do Marfim entre as colônias mais economicamente desenvolvidas da região, graças à exportação agrícola já consolidada — base sobre a qual Houphouët-Boigny construiria décadas de crescimento subsequente.",
+      "textoMdx": "A França proclama colônia formal sobre a Costa do Marfim em 1893, território sem tradição de Estado pré-colonial unificado, habitado por dezenas de grupos étnicos distintos organizados em reinos e chefaturas regionais menores, como o antigo Reino de Kong ao norte.\n\nA economia colonial se desenvolve em torno de plantações de cacau e café, cultivadas majoritariamente através de trabalho forçado nas primeiras décadas — Félix Houphouët-Boigny, ele próprio rico plantador africano, emerge como líder sindical e depois político central, fundando o Reagrupamento Democrático Africano em 1946, movimento pan-africano que reuniu lideranças nacionalistas de toda a África Ocidental Francesa.\n\nA independência, obtida em agosto de 1960, encontra a Costa do Marfim entre as colônias mais economicamente desenvolvidas da região, graças à exportação agrícola já consolidada — base sobre a qual Houphouët-Boigny construiu décadas de crescimento subsequente.",
       "fontes": [
         "mike-mcgovern-costa-marfim"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Bingerville-Le_Tribunal._Maisons_d%27habitation_%28C%C3%B4te_d%27Ivoire%29.jpg",
+        "alt": "Tribunal colonial e casas residenciais aparecem alinhados ao longo de uma estrada de terra em Bingerville.",
+        "credito": "Autor não identificado",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Bingerville-Le_Tribunal._Maisons_d%27habitation_(C%C3%B4te_d%27Ivoire).jpg",
+        "legenda": "O tribunal e as residências de Bingerville aparecem num cartão-postal produzido entre 1900 e 1910."
+      }
     },
     {
       "id": "civ-houphouet-boigny-milagre-marfinense",
@@ -20,10 +28,18 @@
       "fim": "1993",
       "rotulo": "Era Houphouët-Boigny e o \"milagre marfinense\"",
       "regime": "república presidencialista de partido dominante, sob líder único por mais de três décadas",
-      "textoMdx": "Félix Houphouët-Boigny governa a Costa do Marfim independente por 33 anos consecutivos, cultivando relação excepcionalmente próxima com a antiga metrópole francesa — modelo de cooperação pós-colonial que ficaria conhecido, em toda a região, como \"Françafrique\".\n\nO crescimento econômico sustentado pela exportação de cacau, do qual o país se tornaria o maior produtor mundial, financia o chamado \"milagre marfinense\" — estabilidade e prosperidade relativa que atrairiam imigração trabalhista maciça de países vizinhos mais pobres, sobretudo Burkina Faso, transformação demográfica que alimentaria tensões políticas explosivas décadas depois.\n\nHouphouët-Boigny constrói, em sua cidade natal de Yamoussoukro, a Basílica de Nossa Senhora da Paz, uma das maiores igrejas do mundo — monumento de custo controverso diante da pobreza persistente de boa parte da população — e morre em exercício do cargo em dezembro de 1993, sem sucessor claramente preparado.",
+      "textoMdx": "Félix Houphouët-Boigny governa a Costa do Marfim independente por 33 anos consecutivos, cultivando relação excepcionalmente próxima com a antiga metrópole francesa — modelo de cooperação pós-colonial que ficou conhecido, em toda a região, como \"Françafrique\".\n\nO crescimento econômico sustentado pela exportação de cacau, do qual o país se tornou o maior produtor mundial, financia o chamado \"milagre marfinense\" — estabilidade e prosperidade relativa que atraíram imigração trabalhista maciça de países vizinhos mais pobres, sobretudo Burkina Faso, transformação demográfica que alimentou tensões políticas explosivas décadas depois.\n\nHouphouët-Boigny constrói, em sua cidade natal de Yamoussoukro, a Basílica de Nossa Senhora da Paz, uma das maiores igrejas do mundo — monumento de custo controverso diante da pobreza persistente de boa parte da população — e morre em exercício do cargo em dezembro de 1993, sem sucessor claramente preparado.",
       "fontes": [
         "mike-mcgovern-costa-marfim"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Ben-Gurion_-_Houphouet_Boigny_-_Meir_1962.jpg",
+        "alt": "Félix Houphouët-Boigny entrega condecorações a David Ben-Gurion e Golda Meir durante cerimônia em Jerusalém.",
+        "credito": "Israel Government Press Office",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Ben-Gurion_-_Houphouet_Boigny_-_Meir_1962.jpg",
+        "legenda": "Houphouët-Boigny visita Israel em julho de 1962, nos primeiros anos do chamado milagre marfinense."
+      }
     },
     {
       "id": "civ-crise-ivoirite-golpes-guerras-civis",
@@ -31,21 +47,37 @@
       "fim": "2011",
       "rotulo": "Crise da \"ivoiridade\" e as guerras civis",
       "regime": "Estado fragmentado por disputa política sobre identidade nacional, dividido em duas guerras civis sucessivas",
-      "textoMdx": "A disputa sucessória após a morte de Houphouët-Boigny introduz o conceito divisivo de \"ivoiridade\" — critério de autenticidade nacional que passaria a excluir sistematicamente populações do norte, de origem imigrante ou muçulmana, da plena cidadania política, notadamente barrando a candidatura presidencial de Alassane Ouattara sob alegação de ascendência estrangeira.\n\nO primeiro golpe militar bem-sucedido da história marfinense, em 1999, encerra décadas de estabilidade política — a Primeira Guerra Civil Marfinense, entre 2002 e 2007, divide o país entre um sul controlado pelo governo e um norte sob domínio rebelde, apesar de sucessivos acordos de paz frágeis, incluindo o de Linas-Marcoussis em 2003.\n\nA crise pós-eleitoral de 2010-2011 se torna a mais devastadora: o presidente Laurent Gbagbo recusa-se a reconhecer sua derrota eleitoral certificada internacionalmente para Ouattara, deflagrando segunda guerra civil que só terminaria com intervenção militar francesa e da ONU e a captura de Gbagbo, em abril de 2011 — transferido ao Tribunal Penal Internacional, seria eventualmente absolvido de todas as acusações em 2019, veredicto raro na história do tribunal.",
+      "textoMdx": "A disputa sucessória após a morte de Houphouët-Boigny introduz o conceito divisivo de \"ivoiridade\" — critério de autenticidade nacional que passou a excluir sistematicamente populações do norte, de origem imigrante ou muçulmana, da plena cidadania política, notadamente barrando a candidatura presidencial de Alassane Ouattara sob alegação de ascendência estrangeira.\n\nO primeiro golpe militar bem-sucedido da história marfinense, em 1999, encerra décadas de estabilidade política — a Primeira Guerra Civil Marfinense, entre 2002 e 2007, divide o país entre um sul controlado pelo governo e um norte sob domínio rebelde, apesar de sucessivos acordos de paz frágeis, incluindo o de Linas-Marcoussis em 2003.\n\nA crise pós-eleitoral de 2010-2011 se torna a mais devastadora: o presidente Laurent Gbagbo recusa-se a reconhecer sua derrota eleitoral certificada internacionalmente para Ouattara, deflagrando segunda guerra civil que só terminou com intervenção militar francesa e da ONU e a captura de Gbagbo, em abril de 2011 — transferido ao Tribunal Penal Internacional, foi eventualmente absolvido de todas as acusações em 2019, veredicto raro na história do tribunal.",
       "fontes": [
         "mike-mcgovern-costa-marfim",
         "acordo-linas-marcoussis-2003"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Laurent_Gbagbo_2007.jpg",
+        "alt": "Laurent Gbagbo fala diante de microfones, usando terno escuro e gravata listrada.",
+        "credito": "Voice of America / M. Motta",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Laurent_Gbagbo_2007.jpg",
+        "legenda": "Laurent Gbagbo é fotografado em outubro de 2007, entre as duas guerras civis marfinenses."
+      }
     },
     {
       "id": "civ-ouattara-estabilizacao-atual",
       "inicio": "2011",
       "rotulo": "Era Ouattara e a estabilização",
       "regime": "república presidencialista, em recuperação econômica e política pós-guerra civil",
-      "textoMdx": "Alassane Ouattara conduz recuperação econômica robusta e relativa estabilização política ao longo da década seguinte, reposicionando a Costa do Marfim como uma das economias mais dinâmicas da África Ocidental.\n\nA busca por um controverso terceiro mandato presidencial, em 2020, viabilizada por reinterpretação técnica do tribunal constitucional sobre limites de mandato, provoca protestos e violência significativa — embora numa escala consideravelmente menor que a crise catastrófica de uma década antes.\n\n**A Costa do Marfim permanece o maior produtor mundial de cacau, indústria que enfrenta escrutínio internacional crescente sobre práticas de trabalho infantil na cadeia produtiva** — desafio que o país busca equilibrar com sua reputação renovada de estabilidade e crescimento econômico regional liderado.",
+      "textoMdx": "Alassane Ouattara conduz recuperação econômica e estabilização política ao longo da década seguinte, reposicionando a Costa do Marfim entre as economias de maior crescimento da África Ocidental.\n\nA busca por um controverso terceiro mandato presidencial, em 2020, viabilizada por reinterpretação técnica do tribunal constitucional sobre limites de mandato, provoca protestos e violência — embora numa escala menor que a crise de uma década antes.\n\n**A Costa do Marfim permanece o maior produtor mundial de cacau, indústria que enfrenta escrutínio internacional sobre práticas de trabalho infantil na cadeia produtiva** — desafio que o país busca equilibrar com sua reputação renovada de estabilidade e crescimento econômico regional liderado.",
       "fontes": [
         "mike-mcgovern-costa-marfim"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Alassane_Ouattara_a_Washington_en_Juillet_2011.png",
+        "alt": "Alassane Ouattara fala numa coletiva de imprensa, com Barack Obama e outros líderes africanos ao fundo.",
+        "credito": "Official White House video",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Alassane_Ouattara_a_Washington_en_Juillet_2011.png",
+        "legenda": "Alassane Ouattara participa de encontro na Casa Branca em julho de 2011, após assumir a presidência."
+      }
     }
   ]
 }

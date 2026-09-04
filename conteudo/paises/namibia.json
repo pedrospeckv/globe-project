@@ -9,10 +9,18 @@
       "fim": "1915",
       "rotulo": "África do Sudoeste Alemã e o genocídio",
       "regime": "colônia alemã, palco do primeiro genocídio formalmente reconhecido do século XX",
-      "textoMdx": "A Alemanha coloniza o território a partir de 1884, denominando-o África do Sudoeste Alemã — administração que se tornaria, dentro de duas décadas, palco de um dos episódios mais sombrios de todo o colonialismo europeu.\n\nA revolta herero e nama de 1904, contra confisco de terras e gado, é respondida pelo general alemão Lothar von Trotha com ordem de extermínio explícita — soldados alemães perseguem sobreviventes para o deserto de Omaheke, negando-lhes acesso a água, enquanto milhares adicionais morrem em campos de concentração, o mais notório na Ilha dos Tubarões.\n\nEstimativas históricas apontam que até 80% da população herero e boa parte da população nama teriam sido exterminadas entre 1904 e 1908 — episódio que historiadores identificam como o primeiro genocídio do século XX, e que a própria Alemanha reconheceria formalmente como tal apenas em 2021, mais de um século depois dos fatos.",
+      "textoMdx": "A Alemanha coloniza o território a partir de 1884, denominando-o África do Sudoeste Alemã — administração que se tornou, dentro de duas décadas, palco de um dos episódios mais sombrios de todo o colonialismo europeu.\n\nA revolta herero e nama de 1904, contra confisco de terras e gado, é respondida pelo general alemão Lothar von Trotha com ordem de extermínio explícita — soldados alemães perseguem sobreviventes para o deserto de Omaheke, negando-lhes acesso a água, enquanto milhares adicionais morrem em campos de concentração, incluindo a Ilha dos Tubarões.\n\nEstimativas históricas apontam que até 80% da população herero e boa parte da população nama foram exterminadas entre 1904 e 1908 — episódio que historiadores identificam como o primeiro genocídio do século XX, e que a própria Alemanha reconheceu formalmente como tal apenas em 2021, mais de um século depois dos fatos.",
       "fontes": [
         "jan-bart-gewald-herero"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Herero_and_Nama_prisoners.jpg",
+        "alt": "Prisioneiros herero e nama sentam-se no chão sob vigilância durante a guerra colonial alemã.",
+        "credito": "Autor não identificado",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Herero_and_Nama_prisoners.jpg",
+        "legenda": "Prisioneiros herero e nama são fotografados em agosto de 1904 durante a guerra e o genocídio perpetrado pela Alemanha."
+      }
     },
     {
       "id": "nam-mandato-sul-africano-apartheid",
@@ -20,10 +28,18 @@
       "fim": "1966",
       "rotulo": "Mandato Sul-Africano e a extensão do apartheid",
       "regime": "território conquistado pela África do Sul, depois administrado sob mandato e ocupação ilegal prolongada",
-      "textoMdx": "A África do Sul conquista o território durante a Primeira Guerra Mundial em 1915, recebendo mandato formal da Liga das Nações sobre ele em 1920 — mandato que a África do Sul jamais cumpriria no espírito de preparação territorial para autogoverno previsto pelo próprio sistema.\n\nA partir de 1948, a África do Sul estende ao território o sistema de apartheid recém-formalizado internamente, impondo segregação racial abrangente sobre a população namibiana.\n\nAs Nações Unidas revogam formalmente o mandato sul-africano em 1966, diante da recusa persistente de Pretória em preparar o território para independência — a África do Sul, contudo, ignoraria a revogação e manteria ocupação militar e administrativa direta por mais duas décadas e meia adicionais.",
+      "textoMdx": "A África do Sul conquista o território durante a Primeira Guerra Mundial em 1915, recebendo mandato formal da Liga das Nações sobre ele em 1920 — mandato que a África do Sul jamais cumpriu no espírito de preparação territorial para autogoverno previsto pelo próprio sistema.\n\nA partir de 1948, a África do Sul estende ao território o sistema de apartheid recém-formalizado internamente, impondo segregação racial sobre a população namibiana.\n\nAs Nações Unidas revogam formalmente o mandato sul-africano em 1966, diante da recusa persistente de Pretória em preparar o território para independência — a África do Sul, contudo, ignorou a revogação e manteve ocupação militar e administrativa direta por mais duas décadas e meia.",
       "fontes": [
         "marion-wallace-namibia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Stephan_Krotowski_-_Die_Ziele_unserer_Feinde%2C_1919.jpg",
+        "alt": "Ilustração satírica mostra uma criatura marinha de cartola estendendo tentáculos sobre a África do Sudoeste Alemã.",
+        "credito": "Stephan Krotowski",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Stephan_Krotowski_-_Die_Ziele_unserer_Feinde,_1919.jpg",
+        "legenda": "A ilustração alemã de 1919 protesta contra a perda da África do Sudoeste, então transferida ao mandato sul-africano."
+      }
     },
     {
       "id": "nam-guerra-independencia",
@@ -31,21 +47,37 @@
       "fim": "1990",
       "rotulo": "Guerra de Independência",
       "regime": "território sob ocupação ilegal sul-africana, em guerra de libertação prolongada",
-      "textoMdx": "A Organização do Povo da África do Sudoeste, SWAPO, lança luta armada pela independência em 1966, conflito que se entrelaçaria progressivamente com a Guerra Civil Angolana mais ampla ao longo das duas décadas seguintes.\n\nForças sul-africanas e cubano-angolanas se confrontariam diretamente em território angolano ao longo do conflito — a Batalha de Cuito Cuanavale, em 1987-1988, é amplamente citada como fator decisivo que aceleraria tanto a independência namibiana quanto o próprio processo de negociação que levaria ao fim do apartheid sul-africano.\n\nTransição supervisionada pela ONU conduz à independência plena e internacionalmente reconhecida em março de 1990, sob o presidente fundador Sam Nujoma — a Namíbia se tornaria um dos últimos territórios africanos a alcançar soberania plena.",
+      "textoMdx": "A Organização do Povo da África do Sudoeste, SWAPO, lança luta armada pela independência em 1966, conflito que se entrelaçou com a Guerra Civil Angolana ao longo das duas décadas seguintes.\n\nForças sul-africanas e cubano-angolanas se confrontaram diretamente em território angolano ao longo do conflito — a Batalha de Cuito Cuanavale, em 1987-1988, é citada como fator que acelerou a independência namibiana e o processo de negociação que levou ao fim do apartheid sul-africano.\n\nTransição supervisionada pela ONU conduz à independência plena e internacionalmente reconhecida em março de 1990, sob o presidente fundador Sam Nujoma — a Namíbia tornou-se um dos últimos territórios africanos a alcançar soberania plena.",
       "fontes": [
         "marion-wallace-namibia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/C-5B_in_Namibia.jpg/1920px-C-5B_in_Namibia.jpg",
+        "alt": "Militares descarregam paletes de suprimentos de um grande avião C-5B em uma base logística na Namíbia.",
+        "credito": "Bill Thompson · U.S. Department of Defense",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:C-5B_in_Namibia.jpg",
+        "legenda": "Um C-5B leva tropas finlandesas da ONU e suprimentos à Namíbia em abril de 1989 durante a transição para a independência."
+      }
     },
     {
       "id": "nam-independencia-swapo-atual",
       "inicio": "1990",
       "rotulo": "Independência sob domínio contínuo da SWAPO",
       "regime": "república democrática, sob domínio eleitoral ininterrupto de um único partido desde a independência",
-      "textoMdx": "A independência namibiana traz estabilidade e paz relativas, com a SWAPO mantendo domínio eleitoral ininterrupto desde 1990, ainda que dentro de estrutura democrática multipartidária genuína.\n\nA reforma agrária permanece questão politicamente sensível décadas depois da independência, dada a propriedade desproporcional de terras agrícolas comerciais ainda concentrada entre a minoria de descendência alemã.\n\nA Alemanha reconheceria formalmente, em 2021, o genocídio herero e nama do início do século XX, oferecendo pacote de desenvolvimento de 1,1 bilhão de euros ao longo de décadas — reconhecimento e reparação que comunidades descendentes herero e nama criticariam como tardios, financeiramente insuficientes e insuficientemente consultados junto às próprias comunidades afetadas diretamente pelo genocídio original.",
+      "textoMdx": "A independência namibiana traz estabilidade e paz, com a SWAPO mantendo domínio eleitoral ininterrupto desde 1990, ainda que dentro de estrutura democrática multipartidária.\n\nA reforma agrária permanece questão politicamente sensível décadas depois da independência, dada a propriedade desproporcional de terras agrícolas comerciais ainda concentrada entre a minoria de descendência alemã.\n\nA Alemanha reconheceu formalmente, em 2021, o genocídio herero e nama do início do século XX, oferecendo pacote de desenvolvimento de 1,1 bilhão de euros ao longo de décadas — reconhecimento e reparação que comunidades descendentes herero e nama criticaram como tardios, financeiramente insuficientes e sem consulta suficiente às comunidades afetadas diretamente pelo genocídio original.",
       "fontes": [
         "marion-wallace-namibia",
         "declaracao-alemanha-namibia-genocidio-2021"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Namibia.SamNujoma.01.jpg",
+        "alt": "Sam Nujoma aparece de terno escuro e gravata, falando diante de microfones em uma cerimônia oficial.",
+        "credito": "Marcello Casal Jr. · Agência Brasil",
+        "licenca": "CC BY 3.0 br",
+        "origem": "https://commons.wikimedia.org/wiki/File:Namibia.SamNujoma.01.jpg",
+        "legenda": "Sam Nujoma, primeiro presidente da Namíbia independente, é fotografado em novembro de 2003."
+      }
     }
   ]
 }

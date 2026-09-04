@@ -9,10 +9,18 @@
       "fim": "1795",
       "rotulo": "Ducado da Curlândia e Semigália",
       "regime": "ducado vassalo da Comunidade Polaco-Lituana, sob a dinastia Kettler",
-      "textoMdx": "O colapso da Ordem Livônia, na Guerra da Livônia contra a Rússia, leva seu último grão-mestre, Gotthard Kettler, a secularizar o território sob seu controle e submetê-lo como ducado vassalo à Comunidade Polaco-Lituana em 1561 — o mais duradouro entre os pequenos Estados sucessores da antiga confederação livônia no território letão.\n\n**Sob o duque Jacob Kettler, entre 1642 e 1682, o pequeno ducado desenvolve frota mercante e naval surpreendentemente ambiciosa para seu tamanho, chegando a estabelecer colônias efêmeras na ilha caribenha de Tobago e na foz do rio Gâmbia, na África Ocidental** — um dos menores Estados da história a tentar empreendimento colonial ultramarino, ainda que ambas as colônias fossem perdidas em poucas décadas para potências rivais maiores.\n\n**O ducado é absorvido diretamente pelo Império Russo na terceira partilha da Polônia, em 1795, extinguindo a última forma de Estado próprio no território letão antes do século XX** — o restante do que hoje é a Letônia já se encontrava, havia décadas, sob domínio sueco e depois russo direto.",
+      "textoMdx": "O colapso da Ordem Livônia, na Guerra da Livônia contra a Rússia, leva seu último grão-mestre, Gotthard Kettler, a secularizar o território sob seu controle e submetê-lo como ducado vassalo à Comunidade Polaco-Lituana em 1561 — o que mais durou entre os pequenos Estados sucessores da antiga confederação livônia no território letão.\n\n**Sob o duque Jacob Kettler, entre 1642 e 1682, o pequeno ducado desenvolve frota mercante e naval surpreendentemente ambiciosa para seu tamanho, chegando a estabelecer colônias efêmeras na ilha caribenha de Tobago e na foz do rio Gâmbia, na África Ocidental** — um dos menores Estados da história a tentar empreendimento colonial ultramarino, ainda que ambas as colônias fossem perdidas em poucas décadas para potências rivais maiores.\n\n**O ducado é absorvido diretamente pelo Império Russo na terceira partilha da Polônia, em 1795, extinguindo a última forma de Estado próprio no território letão antes do século XX** — o restante do que hoje é a Letônia já se encontrava, havia décadas, sob domínio sueco e depois russo direto.",
       "fontes": [
         "andres-kasekamp-baltico"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Coin_of_the_Duchy_of_Courland_and_Semigallia_with_portrait_of_Ernst_Johann_von_Biron%2C_Vytis_%28Waykimas%29_and_the_Polish_Eagle%2C_1764.jpg",
+        "alt": "Moeda de prata mostra o retrato do duque Ernst Johann von Biron e escudos heráldicos.",
+        "credito": "Duchy of Courland and Semigallia (coin), Šiaulių „Aušros“ muziejus / Šiauliai „Aušra“ Museum (image)",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Coin_of_the_Duchy_of_Courland_and_Semigallia_with_portrait_of_Ernst_Johann_von_Biron,_Vytis_(Waykimas)_and_the_Polish_Eagle,_1764.jpg",
+        "legenda": "Moeda cunhada em Mitau em 1764 para o Ducado da Curlândia e Semigália."
+      }
     },
     {
       "id": "lva-imperio-russo",
@@ -20,10 +28,18 @@
       "fim": "1918",
       "rotulo": "Letônia dentro do Império Russo",
       "regime": "governadorias bálticas do Império Russo, sob domínio social da nobreza báltico-alemã",
-      "textoMdx": "A nobreza báltico-alemã, remanescente da antiga ordem livônia, mantém domínio social e econômico desproporcional sobre o campesinato letão mesmo sob soberania russa — a servidão é abolida nas províncias bálticas já entre 1817 e 1819, décadas antes do restante da Rússia, embora sem redistribuição de terras que beneficiasse efetivamente os camponeses libertos.\n\n**O Despertar Nacional letão, a partir de meados do século XIX, articula-se em oposição simultânea ao domínio alemão-báltico e à russificação crescente promovida por Moscou a partir da década de 1880** — tensão tripla entre identidades alemã, russa e letã que definiria a complexa política regional pelas décadas seguintes.\n\n**A revolução de 1905 tem componente letão particularmente intenso, com ataques a propriedades da nobreza báltico-alemã reprimidos com dureza excepcional pelas autoridades russas** — antecipando, em escala menor, a radicalização política que marcaria toda a região poucos anos depois.",
+      "textoMdx": "A nobreza báltico-alemã, remanescente da antiga ordem livônia, mantém domínio social e econômico desproporcional sobre o campesinato letão mesmo sob soberania russa — a servidão é abolida nas províncias bálticas já entre 1817 e 1819, décadas antes do restante da Rússia, embora sem redistribuição de terras que beneficiasse efetivamente os camponeses libertos.\n\n**O Despertar Nacional letão, a partir de meados do século XIX, articula-se em oposição simultânea ao domínio alemão-báltico e à russificação crescente promovida por Moscou a partir da década de 1880** — tensão tripla entre identidades alemã, russa e letã que definiu a complexa política regional pelas décadas seguintes.\n\n**A revolução de 1905 tem componente letão particularmente intenso, com ataques a propriedades da nobreza báltico-alemã reprimidos com dureza excepcional pelas autoridades russas** — antecipando, em escala menor, a radicalização política que marcou toda a região poucos anos depois.",
       "fontes": [
         "andres-kasekamp-baltico"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Panorama_by_the_quay%2C_Riga%2C_1890s.jpg/1920px-Panorama_by_the_quay%2C_Riga%2C_1890s.jpg",
+        "alt": "Panorama do cais de Riga mostra embarcações, armazéns e torres da cidade ao fundo.",
+        "credito": "Library of Congress",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Panorama_by_the_quay,_Riga,_1890s.jpg",
+        "legenda": "O cais de Riga é fotografado na década de 1890, durante o domínio do Império Russo."
+      }
     },
     {
       "id": "lva-primeira-republica",
@@ -31,11 +47,19 @@
       "fim": "1940",
       "rotulo": "Primeira República da Letônia",
       "regime": "república parlamentar, depois presidencialista autoritária a partir de 1934",
-      "textoMdx": "A independência letã, proclamada em novembro de 1918, enfrenta guerra imediata em múltiplas frentes — contra forças soviéticas, contra unidades germano-bálticas remanescentes lideradas pelo aventureiro russo-alemão Pavel Bermondt-Avalov, que chegaria a atacar a própria Riga em 1919.\n\n**A reforma agrária de 1920, uma das mais radicais da Europa, expropria sem compensação as vastas propriedades da antiga nobreza báltico-alemã, redistribuindo terra a dezenas de milhares de famílias camponesas letãs** — medida que consolidaria apoio popular amplo à jovem república e reduziria drasticamente o poder social da minoria alemã histórica.\n\n**Um golpe incruento em 1934 leva Kārlis Ulmanis a governar de forma cada vez mais autoritária, suspendendo o parlamento** — regime que se manteria até o ultimato soviético de junho de 1940, decorrente do protocolo secreto Molotov-Ribbentrop, que anexaria a Letônia como república soviética meses depois.",
+      "textoMdx": "A independência letã, proclamada em novembro de 1918, enfrenta guerra imediata em múltiplas frentes — contra forças soviéticas, contra unidades germano-bálticas remanescentes lideradas pelo aventureiro russo-alemão Pavel Bermondt-Avalov, que chegou a atacar a própria Riga em 1919.\n\n**A reforma agrária de 1920, uma das mais radicais da Europa, expropria sem compensação as vastas propriedades da antiga nobreza báltico-alemã, redistribuindo terra a dezenas de milhares de famílias camponesas letãs** — medida que consolidou apoio popular amplo à jovem república e reduziu o poder social da minoria alemã histórica.\n\n**Um golpe incruento em 1934 leva Kārlis Ulmanis a governar de forma cada vez mais autoritária, suspendendo o parlamento** — regime que se manteve até o ultimato soviético de junho de 1940, decorrente do protocolo secreto Molotov-Ribbentrop, que anexou a Letônia como república soviética meses depois.",
       "fontes": [
         "andres-kasekamp-baltico",
         "protocolo-secreto-molotov-ribbentrop"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/The_march_of_soldiers_mobilized_by_the_Latvian_Provisional_Government_along_J%C5%ABras_Street_in_Limba%C5%BEi_in_1919.jpg",
+        "alt": "Coluna de soldados marcha por uma rua de Limbaži enquanto moradores observam.",
+        "credito": "Autor não identificado",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_march_of_soldiers_mobilized_by_the_Latvian_Provisional_Government_along_J%C5%ABras_Street_in_Limba%C5%BEi_in_1919.jpg",
+        "legenda": "Soldados mobilizados pelo Governo Provisório da Letônia marcham por Limbaži em 1919."
+      }
     },
     {
       "id": "lva-ocupacoes-guerra",
@@ -43,10 +67,18 @@
       "fim": "1945",
       "rotulo": "Ocupações soviética e nazista",
       "regime": "território ocupado sucessivamente por administração soviética e depois alemã",
-      "textoMdx": "A primeira ocupação soviética culmina, em junho de 1941, na deportação em massa de mais de quinze mil letões — famílias inteiras, incluindo crianças — para a Sibéria, dias antes da invasão alemã interromper abruptamente a ocupação soviética inicial.\n\n**A ocupação nazista extermina a quase totalidade da população judaica letã, com o massacre de Rumbula, nos arredores de Riga, em dois dias separados por uma semana — 30 de novembro e 8 de dezembro de 1941 —, matando cerca de vinte e cinco mil pessoas** — um dos maiores massacres únicos do Holocausto, executado com participação direta de unidades de colaboração local.\n\n**O retorno soviético em 1944-1945 provoca nova onda de deportações em massa, incluindo a operação de março de 1949 que deportou mais de quarenta mil pessoas em poucos dias, sob acusação de colaboração com a resistência armada partisan** que persistiria, em escala reduzida, até o início dos anos 1950.",
+      "textoMdx": "A primeira ocupação soviética culmina, em junho de 1941, na deportação em massa de mais de quinze mil letões — famílias inteiras, incluindo crianças — para a Sibéria, dias antes da invasão alemã interromper abruptamente a ocupação soviética inicial.\n\n**A ocupação nazista extermina a quase totalidade da população judaica letã, com o massacre de Rumbula, nos arredores de Riga, em dois dias separados por uma semana — 30 de novembro e 8 de dezembro de 1941 —, matando cerca de vinte e cinco mil pessoas** — um dos maiores massacres únicos do Holocausto, executado com participação direta de unidades de colaboração local.\n\n**O retorno soviético em 1944-1945 provoca nova onda de deportações em massa, incluindo a operação de março de 1949 que deportou mais de quarenta mil pessoas em poucos dias, sob acusação de colaboração com a resistência armada partisan** que persistiu, em escala reduzida, até o início dos anos 1950.",
       "fontes": [
         "andres-kasekamp-baltico"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Latvia_GermanOcc_1941_B002.jpg",
+        "alt": "Selo soviético recebe sobrecarga preta da administração militar alemã na Letônia.",
+        "credito": "Administração militar alemã · Heeresgruppe Nord",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Latvia_GermanOcc_1941_B002.jpg",
+        "legenda": "Selo emitido pela ocupação alemã da Letônia em julho de 1941 sobre estoque postal soviético capturado."
+      }
     },
     {
       "id": "lva-letonia-sovietica",
@@ -54,20 +86,36 @@
       "fim": "1991",
       "rotulo": "República Socialista Soviética da Letônia",
       "regime": "república socialista soviética de partido único",
-      "textoMdx": "A imigração russófona maciça, promovida deliberadamente pela política soviética de industrialização, transforma profundamente a composição demográfica letã — Riga se tornaria cidade de maioria não letã, e a proporção de letões étnicos no país cairia de mais de 75% antes da guerra para pouco mais de 50% ao final do período soviético.\n\n**O Movimento Popular Letão pela Independência, articulado a partir de 1988 durante a abertura promovida por Gorbachov, organiza mobilização de massa crescente**, culminando na participação letã na Via Báltica de agosto de 1989 — corrente humana de quase 600 quilômetros unindo Tallinn, Riga e Vilnius em protesto simbólico contra a anexação soviética de 1940.\n\n**As barricadas de Riga, em janeiro de 1991, quando cidadãos letões constroem barreiras para proteger prédios governamentais de tropas soviéticas especiais, resultam em confronto que mata seis pessoas** — episódio que, junto com eventos paralelos na Lituânia, fortalece o apoio internacional à independência plena, reconhecida após o fracasso do golpe soviético de agosto daquele ano.",
+      "textoMdx": "A imigração russófona maciça, promovida deliberadamente pela política soviética de industrialização, transforma a composição demográfica letã — Riga se tornou cidade de maioria não letã, e a proporção de letões étnicos no país caiu de mais de 75% antes da guerra para pouco mais de 50% ao final do período soviético.\n\n**O Movimento Popular Letão pela Independência, articulado a partir de 1988 durante a abertura promovida por Gorbachov, organiza mobilização de massa crescente**, culminando na participação letã na Via Báltica de agosto de 1989 — corrente humana de quase 600 quilômetros unindo Tallinn, Riga e Vilnius em protesto simbólico contra a anexação soviética de 1940.\n\n**As barricadas de Riga, em janeiro de 1991, quando cidadãos letões constroem barreiras para proteger prédios governamentais de tropas soviéticas especiais, resultam em confronto que mata seis pessoas** — episódio que, junto com eventos paralelos na Lituânia, fortalece o apoio internacional à independência plena, reconhecida após o fracasso do golpe soviético de agosto daquele ano.",
       "fontes": [
         "andres-kasekamp-baltico"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Latvia_1965_4kop_USSR.jpg",
+        "alt": "Selo soviético apresenta figuras, edifícios e o número vinte e cinco em composição colorida.",
+        "credito": "Philaweb",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Latvia_1965_4kop_USSR.jpg",
+        "legenda": "Selo de 1965 celebra os 25 anos da Letônia soviética."
+      }
     },
     {
       "id": "lva-independencia-atual",
       "inicio": "1991",
       "rotulo": "Letônia independente",
       "regime": "república parlamentar",
-      "textoMdx": "A restauração da independência, em agosto de 1991, é seguida por controversa lei de cidadania que exclui inicialmente grande parte da população russófona imigrada durante o período soviético — cerca de um terço da população do país —, exigindo naturalização por exame de língua e história, política que a Rússia denunciaria como discriminatória e organismos europeus monitorariam de perto.\n\n**A Letônia adere à União Europeia e à OTAN simultaneamente em 2004, e ao euro em 2014**, buscando ancoragem ocidental como garantia de segurança de longo prazo diante da proximidade histórica e geográfica com a Rússia.\n\n**A guerra russa na Ucrânia, a partir de 2022, intensifica debates internos sobre a persistente minoria russófona letã e sobre monumentos soviéticos remanescentes — o obelisco da Vitória em Riga, símbolo soviético da Segunda Guerra, seria demolido em 2022** em meio a tensão crescente sobre lealdades e memória histórica dentro do próprio país.",
+      "textoMdx": "A restauração da independência, em agosto de 1991, é seguida por controversa lei de cidadania que exclui inicialmente grande parte da população russófona imigrada durante o período soviético — cerca de um terço da população do país —, exigindo naturalização por exame de língua e história, política que a Rússia denunciou como discriminatória e organismos europeus monitoraram de perto.\n\n**A Letônia adere à União Europeia e à OTAN simultaneamente em 2004, e ao euro em 2014**, buscando ancoragem ocidental como garantia de segurança de longo prazo diante da proximidade histórica e geográfica com a Rússia.\n\n**A guerra russa na Ucrânia, a partir de 2022, intensifica debates internos sobre a persistente minoria russófona letã e sobre monumentos soviéticos remanescentes — o obelisco da Vitória em Riga, símbolo soviético da Segunda Guerra, foi demolido em 2022** em meio a tensão crescente sobre lealdades e memória histórica dentro do próprio país.",
       "fontes": [
         "andres-kasekamp-baltico"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Riga_barricade_1991.jpg/1920px-Riga_barricade_1991.jpg",
+        "alt": "Barricada de concreto, madeira e veículos bloqueia uma rua estreita no centro de Riga.",
+        "credito": "Apdency",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Riga_barricade_1991.jpg",
+        "legenda": "Barricada protege o parlamento letão das forças soviéticas durante a crise de 1991."
+      }
     }
   ]
 }

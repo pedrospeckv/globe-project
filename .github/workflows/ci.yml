@@ -60,3 +60,38 @@ jobs:
       # estáticas e é onde erro de link entre dossiês aparece.
       - name: Build
         run: pnpm build
+
+  # Trabalho separado, e não mais um passo do anterior, por três razões: depende
+  # de REDE, e nada mais aqui depende; leva cerca de dois minutos, que não devem
+  # atrasar a resposta sobre schema e tipos; e falha por motivo de outra natureza
+  # — um 404 não é código quebrado, é fonte que não existe.
+  #
+  # Reprova só em 404 e 410. Barreira de robô e limite de taxa saem como aviso,
+  # porque acusar um contribuinte de inventar fonte que existe custa mais caro
+  # que deixar passar um link que ninguém conseguiu conferir.
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # O cache guarda o que já respondeu, com data. Sem ele, todo PR bateria
+      # nos mesmos 391 endereços do Commons — e é a Wikimedia que paga essa
+      # conta, não este repositório.
+      - name: Cache dos endereços já conferidos
+        uses: actions/cache@v4
+        with:
+          path: .cache/links.json
+          key: links-${{ github.run_id }}
+          restore-keys: links-
+
+      - name: Endereços — os que o acervo cita existem?
+        run: pnpm conferir-links

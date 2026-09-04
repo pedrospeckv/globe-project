@@ -9,10 +9,18 @@
       "fim": "1700",
       "rotulo": "Império Maravi",
       "regime": "confederação de povos chewa, cujo nome inspiraria diretamente o do país moderno",
-      "textoMdx": "A confederação Maravi se consolida a partir de cerca de 1480 entre povos de língua chewa, controlando território extenso ao redor do lago Malaui e estendendo-se a partes das atuais Moçambique e Zâmbia — participando ativamente de redes regionais de comércio de marfim e, mais tarde, de escravos.\n\nA fragmentação gradual do império em chefaturas sucessoras menores ao longo do século XVIII, diante de pressões comerciais externas e disputas sucessórias internas, não apagaria a memória histórica do antigo Estado — cujo nome, adaptado como \"Malaui\", seria escolhido deliberadamente pelos líderes da independência séculos depois, em homenagem direta a essa herança pré-colonial.",
+      "textoMdx": "A confederação Maravi se consolida a partir de cerca de 1480 entre povos de língua chewa, controlando território extenso ao redor do lago Malaui e estendendo-se a partes das atuais Moçambique e Zâmbia — participando ativamente de redes regionais de comércio de marfim e, mais tarde, de escravos.\n\nA fragmentação gradual do império em chefaturas sucessoras menores ao longo do século XVIII, diante de pressões comerciais externas e disputas sucessórias internas, não apagou a memória histórica do antigo Estado — cujo nome, adaptado como \"Malaui\", foi escolhido deliberadamente pelos líderes da independência séculos depois, em homenagem direta a essa herança pré-colonial.",
       "fontes": [
         "john-mccracken-malaui"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ortelius_Africae_Tabula_Nova_1570_UTA.jpg/1920px-Ortelius_Africae_Tabula_Nova_1570_UTA.jpg",
+        "alt": "Mapa ornamentado da África mostra costas, rios, montanhas e reinos conhecidos pelos cartógrafos europeus do século XVI.",
+        "credito": "Abraham Ortelius",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Ortelius_Africae_Tabula_Nova_1570_UTA.jpg",
+        "legenda": "Abraham Ortelius publicou este mapa da África em 1570, durante a formação da confederação Maravi na região dos grandes lagos."
+      }
     },
     {
       "id": "mwi-niassalandia",
@@ -20,10 +28,18 @@
       "fim": "1964",
       "rotulo": "Niassalândia",
       "regime": "protetorado britânico, moldado pelo legado missionário e antiescravagista de Livingstone",
-      "textoMdx": "A Grã-Bretanha estabelece protetorado formal em 1891, após décadas de presença missionária britânica na região desde as expedições de David Livingstone, cuja defesa incansável contra o comércio de escravos árabe-suaíli ajudaria a atrair atenção e envolvimento britânico duradouros sobre o território.\n\nA Niassalândia integra a Federação da África Central entre 1953 e 1963, arranjo dominado por interesses de colonos brancos da Rodésia do Sul apesar de o próprio território ter presença de colonos brancos mínima — ressentimento que alimentaria o movimento nacionalista sob Hastings Kamuzu Banda, culminando na independência obtida em julho de 1964.",
+      "textoMdx": "A Grã-Bretanha estabelece protetorado formal em 1891, após décadas de presença missionária britânica na região desde as expedições de David Livingstone, cuja defesa incansável contra o comércio de escravos árabe-suaíli ajudou a atrair atenção e envolvimento britânico sobre o território.\n\nA Niassalândia integra a Federação da África Central entre 1953 e 1963, arranjo dominado por interesses de colonos brancos da Rodésia do Sul apesar de o próprio território ter presença de colonos brancos mínima — ressentimento que alimentou o movimento nacionalista sob Hastings Kamuzu Banda, culminando na independência obtida em julho de 1964.",
       "fontes": [
         "john-mccracken-malaui"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/%22A_village_in_the_Marambo%22%2C_Malawi-Nyasaland%2C_ca.jpg/1920px-%22A_village_in_the_Marambo%22%2C_Malawi-Nyasaland%2C_ca.jpg",
+        "alt": "Pequenas cabanas circulares de madeira e palha aparecem cercadas por árvores e arbustos em uma aldeia de Marambo.",
+        "credito": "Autor não identificado · University of Edinburgh",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:%22A_village_in_the_Marambo%22,_Malawi-Nyasaland,_ca.jpg",
+        "legenda": "Uma aldeia na região histórica de Marambo é registrada por volta de 1910, durante o protetorado da Niassalândia."
+      }
     },
     {
       "id": "mwi-banda-partido-unico",
@@ -31,20 +47,36 @@
       "fim": "1994",
       "rotulo": "Era Banda e o Estado de partido único",
       "regime": "república presidencialista autoritária, sob domínio pessoal prolongado e culto à personalidade elaborado",
-      "textoMdx": "Hastings Kamuzu Banda governa de forma crescentemente autoritária, declarando-se \"Presidente Vitalício\" em 1971 e cultivando culto à personalidade elaborado sustentado por rede extensa de vigilância interna e pela organização paramilitar juvenil Jovens Pioneiros do Malaui.\n\nBanda mantém relações diplomáticas formais com a África do Sul do apartheid ao longo de todo seu governo — posição praticamente única entre Estados africanos independentes da época, que lhe renderia isolamento diplomático considerável dentro do próprio continente.\n\nBanda perde referendo sobre multipartidarismo em 1993 e a eleição subsequente em 1994, deixando o poder pacificamente apesar de idade avançada e saúde já fragilizada — encerrando três décadas de domínio pessoal ininterrupto.",
+      "textoMdx": "Hastings Kamuzu Banda governa de forma autoritária, declarando-se \"Presidente Vitalício\" em 1971 e cultivando culto à personalidade elaborado sustentado por rede extensa de vigilância interna e pela organização paramilitar juvenil Jovens Pioneiros do Malaui.\n\nBanda mantém relações diplomáticas formais com a África do Sul do apartheid ao longo de todo seu governo — posição praticamente única entre Estados africanos independentes da época, que lhe rendeu isolamento diplomático dentro do próprio continente.\n\nBanda perde referendo sobre multipartidarismo em 1993 e a eleição subsequente em 1994, deixando o poder pacificamente apesar de idade avançada e saúde já fragilizada — encerrando três décadas de domínio pessoal ininterrupto.",
       "fontes": [
         "john-mccracken-malaui"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Dr_Banda_inaugurates_the_1966_Poppy_Day_Appeal._Emmy_Lumbe%2C_librarian_at_the_British_Council_Library_pins_poppy_on_Banda%2C_helped_by_Cecilia_Kadzamila.jpg",
+        "alt": "Emmy Lumbe prende uma papoula na lapela de Hastings Banda enquanto Cecilia Kadzamila auxilia a cerimônia.",
+        "credito": "National Archives of Malawi",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Dr_Banda_inaugurates_the_1966_Poppy_Day_Appeal._Emmy_Lumbe,_librarian_at_the_British_Council_Library_pins_poppy_on_Banda,_helped_by_Cecilia_Kadzamila.jpg",
+        "legenda": "Hastings Banda inaugura a campanha da papoula de 1966, dois anos após a independência do Maláui."
+      }
     },
     {
       "id": "mwi-democracia-multipartidaria-atual",
       "inicio": "1994",
       "rotulo": "Democracia multipartidária contemporânea",
       "regime": "república democrática, entre as mais pobres do mundo apesar de trajetória política majoritariamente pacífica",
-      "textoMdx": "Bingu wa Mutharika, presidente entre 2004 e 2012, inicia mandato com reformas econômicas amplamente elogiadas antes de se tornar progressivamente autoritário — morreria em exercício do cargo em 2012, sucedido constitucionalmente por Joyce Banda, primeira mulher a ocupar a presidência do país.\n\nO Tribunal Constitucional malauiano anula, em 2020, resultado eleitoral disputado de 2019 e ordena nova votação, vencida pela oposição — episódio raro e internacionalmente elogiado de independência judicial efetivamente reforçando integridade eleitoral em contexto africano.\n\nApesar dessa trajetória política majoritariamente pacífica desde a transição democrática, o Malaui permanece entre os países mais pobres do mundo, décadas depois da independência, refletindo desafios de desenvolvimento estrutural que a estabilidade política, por si só, não resolveria.",
+      "textoMdx": "Bingu wa Mutharika, presidente entre 2004 e 2012, inicia mandato com reformas econômicas amplamente elogiadas antes de se tornar progressivamente autoritário — morreu em exercício do cargo em 2012, sucedido constitucionalmente por Joyce Banda, primeira mulher a ocupar a presidência do país.\n\nO Tribunal Constitucional malauiano anula, em 2020, resultado eleitoral disputado de 2019 e ordena nova votação, vencida pela oposição — episódio raro e internacionalmente elogiado de independência judicial efetivamente reforçando integridade eleitoral em contexto africano.\n\nApesar dessa trajetória política majoritariamente pacífica desde a transição democrática, o Malaui permanece entre os países mais pobres do mundo, décadas depois da independência, refletindo desafios de desenvolvimento estrutural que a estabilidade política, por si só, não resolveu.",
       "fontes": [
         "john-mccracken-malaui"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Lazarus_Chakwera_Profile.png",
+        "alt": "Lazarus Chakwera discursa diante de microfones, usando terno escuro, camisa branca e gravata vermelha.",
+        "credito": "Plus TV Africa",
+        "licenca": "CC BY 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Lazarus_Chakwera_Profile.png",
+        "legenda": "Lazarus Chakwera discursa em sua posse presidencial em 2020, após a repetição judicial da eleição."
+      }
     }
   ]
 }

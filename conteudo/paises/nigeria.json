@@ -9,10 +9,18 @@
       "fim": "1900",
       "rotulo": "Império Canem-Bornu",
       "regime": "um dos Estados mais duradouros da história africana, centrado no lago Chade",
-      "textoMdx": "O Império Canem-Bornu, centrado na bacia do lago Chade, se consolida a partir de cerca de 900 depois de Cristo, convertendo-se ao islã por volta do século XI — sua sobrevivência ininterrupta por quase um milênio o tornaria um dos Estados mais duradouros de toda a história africana.\n\nO império controla rotas comerciais trans-saarianas cruciais, conectando a região dos Grandes Lagos africanos ao Egito e ao Magrebe, prosperando através do comércio de sal, escravos e produtos manufaturados.\n\n**A dinastia Sayfawa, no poder por mais de setecentos anos, seria substituída pela dinastia Kanemi apenas no início do século XIX, diante de pressão do movimento jihadista fulani que também transformaria profundamente o restante do território nigeriano** — o império sobreviveria, territorialmente reduzido, até ser finalmente absorvido pela partilha colonial britânica, francesa e alemã no início do século XX.",
+      "textoMdx": "O Império Canem-Bornu, centrado na bacia do lago Chade, se consolida a partir de cerca de 900 depois de Cristo, convertendo-se ao islã por volta do século XI — sua sobrevivência ininterrupta por quase um milênio o tornou um dos Estados mais de toda a história africana.\n\nO império controla rotas comerciais trans-saarianas cruciais, conectando a região dos Grandes Lagos africanos ao Egito e ao Magrebe, prosperando através do comércio de sal, escravos e produtos manufaturados.\n\n**A dinastia Sayfawa, no poder por mais de setecentos anos, foi substituída pela dinastia Kanemi apenas no início do século XIX, diante de pressão do movimento jihadista fulani que também transformou o restante do território nigeriano** — o império sobreviveu, territorialmente reduzido, até ser finalmente absorvido pela partilha colonial britânica, francesa e alemã no início do século XX.",
       "fontes": [
         "falola-heaton-nigeria"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Bornu_knight%2C_19th_century.png",
+        "alt": "Gravura mostra cavaleiro de Bornu usando armadura acolchoada e segurando uma lança.",
+        "credito": "Gustav Nachtigal (1834–1885)",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Bornu_knight,_19th_century.png",
+        "legenda": "Cavaleiro de Bornu representado por Gustav Nachtigal em publicação de 1887."
+      }
     },
     {
       "id": "nga-califado-socoto-reinos-sul",
@@ -20,10 +28,18 @@
       "fim": "1903",
       "rotulo": "Califado de Socoto e os reinos do sul",
       "regime": "califado islâmico confederado no norte, reinos iorubás e o Império de Benin no sul",
-      "textoMdx": "Usman dan Fodio lidera jihad islâmica a partir de 1804 que conquistaria os Estados hauçás do norte nigeriano, fundando o Califado de Socoto — confederação de emirados que se tornaria um dos maiores Estados pré-coloniais africanos, com o sultão de Socoto exercendo autoridade religiosa e política suprema.\n\n**No sudoeste, o outrora poderoso Império de Oió entra em colapso ao longo do início do século XIX, fragmentando-se em guerras civis iorubás prolongadas entre cidades-Estado rivais** — enquanto o Reino de Benin, com sua tradição artística de bronzes reais renomados internacionalmente, preservaria independência até expedição punitiva britânica destruí-lo completamente em 1897, saqueando milhares de obras de arte que permanecem, até hoje, centro de disputa internacional por restituição.\n\n**O Califado de Socoto seria conquistado militarmente pelas forças britânicas apenas em 1903, encerrando quase um século de soberania islâmica no norte nigeriano** — mas sua estrutura administrativa de emirados sobreviveria, preservada pelo sistema britânico de domínio indireto, até os dias atuais como instituição cultural e religiosa relevante.",
+      "textoMdx": "Usman dan Fodio lidera jihad islâmica a partir de 1804 que conquistou os Estados hauçás do norte nigeriano, fundando o Califado de Socoto — confederação de emirados que se tornou um dos maiores Estados pré-coloniais africanos, com o sultão de Socoto exercendo autoridade religiosa e política suprema.\n\n**No sudoeste, o outrora poderoso Império de Oió entra em colapso ao longo do início do século XIX, fragmentando-se em guerras civis iorubás prolongadas entre cidades-Estado rivais** — enquanto o Reino de Benin, com sua tradição artística de bronzes reais renomados internacionalmente, preservou independência até expedição punitiva britânica destruí-lo completamente em 1897, saqueando milhares de obras de arte que permanecem, até hoje, centro de disputa internacional por restituição.\n\n**O Califado de Socoto foi conquistado militarmente pelas forças britânicas apenas em 1903, encerrando quase um século de soberania islâmica no norte nigeriano** — mas sua estrutura administrativa de emirados sobreviveu, preservada pelo sistema britânico de domínio indireto, até os dias atuais como instituição cultural e religiosa relevante.",
       "fontes": [
         "falola-heaton-nigeria"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bust_of_an_oba_king%2C_Nigeria%2C_Benin_Kingdom%2C_19th_century%2C_brass_-_Ethnological_Museum%2C_Berlin_-_DSC02189.JPG/1920px-Bust_of_an_oba_king%2C_Nigeria%2C_Benin_Kingdom%2C_19th_century%2C_brass_-_Ethnological_Museum%2C_Berlin_-_DSC02189.JPG",
+        "alt": "Cabeça de oba do Reino de Benin moldada em latão apresenta coroa e colares ornamentados.",
+        "credito": "Daderot",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Bust_of_an_oba_king,_Nigeria,_Benin_Kingdom,_19th_century,_brass_-_Ethnological_Museum,_Berlin_-_DSC02189.JPG",
+        "legenda": "Cabeça de oba produzida no Reino de Benin no século XIX, durante a coexistência dos grandes Estados nigerianos."
+      }
     },
     {
       "id": "nga-protetorados-colonia-britanica",
@@ -31,10 +47,18 @@
       "fim": "1960",
       "rotulo": "Protetorados e a Colônia Britânica",
       "regime": "protetorados administrados separadamente, amalgamados em colônia única a partir de 1914",
-      "textoMdx": "A Grã-Bretanha administra inicialmente o norte e o sul nigerianos como protetorados distintos, com estratégias coloniais radicalmente diferentes — domínio indireto preservando a estrutura emiral islâmica no norte, administração mais direta no sul, onde presença missionária e educação ocidental se expandiam rapidamente.\n\n**Lorde Frederick Lugard amalgama os dois protetorados em 1914, criando administrativamente a \"Nigéria\" — nome cunhado por sua futura esposa, a jornalista Flora Shaw, a partir do rio Níger** — união que juntaria populações de tradições políticas, religiosas e linguísticas profundamente distintas sob fronteira colonial única e artificial.\n\n**O movimento nacionalista nigeriano cresce rapidamente no período pós-Segunda Guerra Mundial, mas as profundas diferenças regionais entre o norte muçulmano hauçá-fulani, o sudoeste iorubá e o sudeste igbo complicariam sensivelmente as negociações de independência** — obtida finalmente em outubro de 1960, sob estrutura federal que tentaria, sem sucesso duradouro, acomodar essas divisões estruturais profundas.",
+      "textoMdx": "A Grã-Bretanha administra inicialmente o norte e o sul nigerianos como protetorados distintos, com estratégias coloniais radicalmente diferentes — domínio indireto preservando a estrutura emiral islâmica no norte, administração mais direta no sul, onde presença missionária e educação ocidental se expandiam rapidamente.\n\n**Lorde Frederick Lugard amalgama os dois protetorados em 1914, criando administrativamente a \"Nigéria\" — nome cunhado por sua futura esposa, a jornalista Flora Shaw, a partir do rio Níger** — união que juntou populações de tradições políticas, religiosas e linguísticas distintas sob fronteira colonial única e artificial.\n\n**O movimento nacionalista nigeriano cresce rapidamente no período pós-Segunda Guerra Mundial, mas as profundas diferenças regionais entre o norte muçulmano hauçá-fulani, o sudoeste iorubá e o sudeste igbo complicaram sensivelmente as negociações de independência** — obtida finalmente em outubro de 1960, sob estrutura federal que tentou, sem sucesso, acomodar essas divisões estruturais profundas.",
       "fontes": [
         "falola-heaton-nigeria"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Man_Climbing_Palm%2C_Calabar%2C_Nigeria%2C_ca._1900-1920_%28IMP-CSWC47-LS9-38%29.jpg/1920px-Man_Climbing_Palm%2C_Calabar%2C_Nigeria%2C_ca._1900-1920_%28IMP-CSWC47-LS9-38%29.jpg",
+        "alt": "Homem escala uma palmeira alta com auxílio de uma corda em Calabar.",
+        "credito": "Autor não identificado · International Mission Photography Archive",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Man_Climbing_Palm,_Calabar,_Nigeria,_ca._1900-1920_(IMP-CSWC47-LS9-38).jpg",
+        "legenda": "Trabalhador é fotografado subindo em palmeira em Calabar entre 1900 e 1920, durante a administração colonial britânica."
+      }
     },
     {
       "id": "nga-independencia-guerra-biafra",
@@ -42,10 +66,18 @@
       "fim": "1970",
       "rotulo": "Independência e a Guerra de Biafra",
       "regime": "federação parlamentar, mergulhada em golpes militares e guerra civil separatista",
-      "textoMdx": "A jovem federação nigeriana enfrenta instabilidade crescente desde os primeiros anos, culminando em golpe militar de janeiro de 1966 liderado majoritariamente por oficiais igbo, percebido pelo norte como tomada de poder etnicamente motivada — contragolpe em julho daquele ano e pogroms subsequentes contra a população igbo residente no norte matariam milhares.\n\nA região sudeste, de maioria igbo, declara independência como República de Biafra em maio de 1967, precipitando guerra civil que se estenderia por quase três anos — o bloqueio federal da região provoca fome catastrófica que mataria, segundo estimativas, entre um e dois milhões de pessoas, a maioria crianças, tornando-se uma das primeiras crises humanitárias amplamente documentadas pela televisão internacional.\n\nA rendição biafrense, em janeiro de 1970, encerra o conflito sem que o governo federal buscasse retaliação sistemática ampla contra a população derrotada — política de reconciliação relativamente moderada para os padrões de guerras civis contemporâneas, embora o ressentimento regional persistisse por décadas.",
+      "textoMdx": "A jovem federação nigeriana enfrenta instabilidade crescente desde os primeiros anos, culminando em golpe militar de janeiro de 1966 liderado majoritariamente por oficiais igbo, percebido pelo norte como tomada de poder etnicamente motivada — contragolpe em julho daquele ano e pogroms subsequentes contra a população igbo residente no norte mataram milhares.\n\nA região sudeste, de maioria igbo, declara independência como República de Biafra em maio de 1967, precipitando guerra civil que se estendeu por quase três anos — o bloqueio federal da região provoca fome catastrófica que matou, segundo estimativas, entre um e dois milhões de pessoas, a maioria crianças, tornando-se uma das primeiras crises humanitárias amplamente documentadas pela televisão internacional.\n\nA rendição biafrense, em janeiro de 1970, encerra o conflito sem que o governo federal buscasse retaliação sistemática ampla contra a população derrotada — política de reconciliação relativamente moderada para os padrões de guerras civis contemporâneas, embora o ressentimento regional persistisse por décadas.",
       "fontes": [
         "falola-heaton-nigeria"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Calabar_1968.png",
+        "alt": "Helicóptero pousa em pista improvisada enquanto profissionais de saúde descarregam suprimentos.",
+        "credito": "CDC/ Dr. Lyle Conrad",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Calabar_1968.png",
+        "legenda": "Equipe médica recebe suprimentos em aeroporto improvisado de Calabar em 1968, durante a Guerra de Biafra."
+      }
     },
     {
       "id": "nga-ditaduras-militares-petroleo",
@@ -53,20 +85,36 @@
       "fim": "1999",
       "rotulo": "Ditaduras militares e a era do petróleo",
       "regime": "sucessivos governos militares, interrompidos por breve república civil",
-      "textoMdx": "A riqueza petrolífera crescente ao longo dos anos 1970 transforma a economia nigeriana, mas alimenta também corrupção sistêmica em escala descomunal — fenômeno que ficaria conhecido internacionalmente como \"maldição dos recursos naturais\", com bilhões de dólares desviados por sucessivas elites políticas e militares.\n\nA Segunda República, sob o civil Shehu Shagari a partir de 1979, colapsa em novo golpe militar em 1983 — a Nigéria alternaria entre regimes militares diversos pela década e meia seguinte, sem retorno estável ao governo civil.\n\n**O regime de Sani Abacha, entre 1993 e 1998, se tornaria notório por repressão extrema, incluindo a execução do escritor e ativista ambiental Ken Saro-Wiwa e oito companheiros ogoni, em 1995, por protestos contra a poluição petrolífera na região do delta do Níger** — execução que provocaria condenação internacional generalizada e suspensão temporária da Nigéria da Comunidade das Nações, encerrada apenas com a morte súbita de Abacha em 1998.",
+      "textoMdx": "A riqueza petrolífera crescente ao longo dos anos 1970 transforma a economia nigeriana, mas alimenta também corrupção sistêmica em escala descomunal — fenômeno que ficou conhecido internacionalmente como \"maldição dos recursos naturais\", com bilhões de dólares desviados por sucessivas elites políticas e militares.\n\nA Segunda República, sob o civil Shehu Shagari a partir de 1979, colapsa em novo golpe militar em 1983 — a Nigéria alternou entre regimes militares diversos pela década e meia seguinte, sem retorno estável ao governo civil.\n\n**O regime de Sani Abacha, entre 1993 e 1998, se tornou notório por repressão extrema, incluindo a execução do escritor e ativista ambiental Ken Saro-Wiwa e oito companheiros ogoni, em 1995, por protestos contra a poluição petrolífera na região do delta do Níger** — execução que provocou condenação internacional generalizada e suspensão temporária da Nigéria da Comunidade das Nações, encerrada apenas com a morte súbita de Abacha em 1998.",
       "fontes": [
         "falola-heaton-nigeria"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Signature_of_Sani_Abacha.JPG",
+        "alt": "Assinatura manuscrita de Sani Abacha aparece em tinta escura sobre fundo branco.",
+        "credito": "Sani Abacha",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Signature_of_Sani_Abacha.JPG",
+        "legenda": "Assinatura de Sani Abacha produzida antes de 1995, durante a sucessão de governos militares nigerianos."
+      }
     },
     {
       "id": "nga-quarta-republica-atual",
       "inicio": "1999",
       "rotulo": "Quarta República",
       "regime": "república federal presidencialista democrática",
-      "textoMdx": "A transição democrática de 1999, sob o ex-general Olusegun Obasanjo agora eleito civilmente, inaugura o mais longo período ininterrupto de governo democrático da história nigeriana — recorde que persiste até hoje, apesar de desafios de segurança e governança consideráveis.\n\nA insurgência do Boko Haram, grupo jihadista que emerge no nordeste nigeriano por volta de 2009, se tornaria uma das ameaças de segurança mais persistentes e mortíferas da região — o sequestro de mais de duzentas estudantes na cidade de Chibok, em 2014, geraria campanha internacional de conscientização sob a hashtag #BringBackOurGirls, embora muitas das vítimas jamais fossem recuperadas.\n\n**As eleições de 2015 marcam a primeira transferência pacífica de poder da história nigeriana entre um presidente em exercício derrotado e um candidato de partido de oposição — Muhammadu Buhari sucedendo Goodluck Jonathan** — enquanto o país, já o mais populoso da África, projetaria crescimento demográfico que o tornaria, segundo projeções da ONU, um dos países mais populosos do mundo até meados do século XXI.",
+      "textoMdx": "A transição democrática de 1999, sob o ex-general Olusegun Obasanjo agora eleito civilmente, inaugura o mais longo período ininterrupto de governo democrático da história nigeriana — recorde que persiste até hoje, apesar de desafios de segurança e governança.\n\nA insurgência do Boko Haram, grupo jihadista que emerge no nordeste nigeriano por volta de 2009, se tornou uma das ameaças de segurança mais persistentes e mortíferas da região — o sequestro de mais de duzentas estudantes na cidade de Chibok, em 2014, gerou campanha internacional de conscientização sob a hashtag #BringBackOurGirls, embora muitas das vítimas jamais fossem recuperadas.\n\n**As eleições de 2015 marcam a primeira transferência pacífica de poder da história nigeriana entre um presidente em exercício derrotado e um candidato de partido de oposição — Muhammadu Buhari sucedendo Goodluck Jonathan** — enquanto o país, já o mais populoso da África, projetou crescimento demográfico que o tornou, segundo projeções da ONU, um dos países mais populosos do mundo até meados do século XXI.",
       "fontes": [
         "falola-heaton-nigeria"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Obasanjo_Cohen.jpg/1920px-Obasanjo_Cohen.jpg",
+        "alt": "Olusegun Obasanjo e William Cohen caminham diante de uma guarda de honra no Pentágono.",
+        "credito": "Robert D. Ward",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Obasanjo_Cohen.jpg",
+        "legenda": "O presidente eleito Olusegun Obasanjo visita o Pentágono em março de 1999, antes da inauguração da Quarta República."
+      }
     }
   ]
 }

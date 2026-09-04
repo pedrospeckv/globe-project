@@ -9,10 +9,18 @@
       "fim": "350",
       "rotulo": "Reino de Kush",
       "regime": "monarquia núbia, que chegou a conquistar e governar o próprio Egito",
-      "textoMdx": "O Reino de Kush emerge na Núbia, ao sul do Egito, após o declínio do controle egípcio direto sobre a região por volta de 1070 antes de Cristo — civilização que desenvolveria tradição própria de construção de pirâmides, eventualmente mais numerosas que as do próprio Egito.\n\nOs reis kushitas conquistam e governam o Egito inteiro como a Vigésima Quinta Dinastia egípcia, entre aproximadamente 747 e 656 antes de Cristo — os chamados \"faraós negros\", que reunificariam brevemente o vale do Nilo sob domínio núbio antes de serem expulsos por invasão assíria.\n\n**O centro do reino se transfere para Meroë, mais ao sul, por volta de 590 antes de Cristo, onde floresceria como centro de metalurgia do ferro e comércio transaariano por quase um milênio** — declínio gradual e conquista final pelo reino cristão de Axum, na Etiópia vizinha, extinguiriam o Estado kushita por volta do século IV depois de Cristo.",
+      "textoMdx": "O Reino de Kush emerge na Núbia, ao sul do Egito, após o declínio do controle egípcio direto sobre a região por volta de 1070 antes de Cristo — civilização que desenvolveu tradição própria de construção de pirâmides, eventualmente mais numerosas que as do próprio Egito.\n\nOs reis kushitas conquistam e governam o Egito inteiro como a Vigésima Quinta Dinastia egípcia, entre aproximadamente 747 e 656 antes de Cristo — os chamados \"faraós negros\", que reunificaram brevemente o vale do Nilo sob domínio núbio antes de serem expulsos por invasão assíria.\n\n**O centro do reino se transfere para Meroë, mais ao sul, por volta de 590 antes de Cristo, onde floresceu como centro de metalurgia do ferro e comércio transaariano por quase um milênio** — declínio gradual e conquista final pelo reino cristão de Axum, na Etiópia vizinha, extinguiram o Estado kushita por volta do século IV depois de Cristo.",
       "fontes": [
         "robert-collins-sudao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/The_Archer_King%2C_National_Museum_of_Sudan%2C_Khartoum%2C_Sudan%2C_North-East_Africa.jpg/1920px-The_Archer_King%2C_National_Museum_of_Sudan%2C_Khartoum%2C_Sudan%2C_North-East_Africa.jpg",
+        "alt": "Pequena escultura de bronze dourado mostra um rei em pé, com coroa, colar e os braços junto ao corpo.",
+        "credito": "Sue Fleckney",
+        "licenca": "CC BY-SA 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Archer_King,_National_Museum_of_Sudan,_Khartoum,_Sudan,_North-East_Africa.jpg",
+        "legenda": "Estátua de um rei kushita encontrada em Tabo e datada provavelmente do século III a.C."
+      }
     },
     {
       "id": "sdn-reinos-cristaos-nubios",
@@ -20,10 +28,18 @@
       "fim": "1504",
       "rotulo": "Reinos cristãos núbios",
       "regime": "três reinos cristãos sucessivos, preservando independência através de tratado duradouro com o califado islâmico",
-      "textoMdx": "Missionários bizantinos convertem os reinos núbios sucessores de Kush ao cristianismo a partir de 543 — Nobácia, Macúria e Alodia emergiriam como três reinos cristãos distintos ao longo do vale do Nilo núbio.\n\n**A vitória núbia contra tentativas de invasão árabe-islâmica, em 651-652, resulta no Baqt, tratado de paz excepcionalmente duradouro com o califado islâmico que preservaria a independência núbia cristã por mais de seis séculos** — um dos acordos diplomáticos mais longevos já registrados entre um Estado cristão e o mundo islâmico medieval.\n\n**A pressão islâmica gradual, através de migração, comércio e conversão, mina progressivamente a coesão dos reinos núbios ao longo da Idade Média — o último reino cristão remanescente, Alodia, cairia por volta de 1504**, extinguindo definitivamente a tradição estatal cristã núbia após quase mil anos de existência.",
+      "textoMdx": "Missionários bizantinos convertem os reinos núbios sucessores de Kush ao cristianismo a partir de 543 — Nobácia, Macúria e Alodia emergiram como três reinos cristãos distintos ao longo do vale do Nilo núbio.\n\n**A vitória núbia contra tentativas de invasão árabe-islâmica, em 651-652, resulta no Baqt, tratado de paz excepcionalmente com o califado islâmico que preservou a independência núbia cristã por mais de seis séculos** — um dos acordos diplomáticos mais longevos já registrados entre um Estado cristão e o mundo islâmico medieval.\n\n**A pressão islâmica gradual, através de migração, comércio e conversão, mina progressivamente a coesão dos reinos núbios ao longo da Idade Média — o último reino cristão remanescente, Alodia, caiu por volta de 1504**, extinguindo definitivamente a tradição estatal cristã núbia após quase mil anos de existência.",
       "fontes": [
         "robert-collins-sudao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Faras_-_Bishop_Petros_with_Saint_Peter_-_Google_Art_Project.jpg/1920px-Faras_-_Bishop_Petros_with_Saint_Peter_-_Google_Art_Project.jpg",
+        "alt": "Afresco mostra um bispo de vestes claras protegido pela figura maior de São Pedro, com inscrições ao redor.",
+        "credito": "Autor desconhecido · Museu Nacional de Varsóvia",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Faras_-_Bishop_Petros_with_Saint_Peter_-_Google_Art_Project.jpg",
+        "legenda": "Bispo Petros com São Pedro, pintura de Faras produzida entre 974 e 997."
+      }
     },
     {
       "id": "sdn-sultanato-sennar",
@@ -31,10 +47,18 @@
       "fim": "1821",
       "rotulo": "Sultanato de Sennar",
       "regime": "sultanato islâmico funjí, controlando a maior parte do vale médio do Nilo",
-      "textoMdx": "O Sultanato de Sennar, fundado pela dinastia Funj em 1504, islamiza definitivamente o antigo território núbio cristão, estabelecendo domínio que se estenderia por mais de três séculos sobre grande parte do território sudanês atual.\n\nO sultanato preserva relativa estabilidade e controle sobre rotas comerciais transaarianas cruciais por gerações, antes de enfraquecer progressivamente diante de fragmentação interna e pressão externa crescente ao longo do século XVIII.\n\nA invasão do Egito otomano-albanês sob Muhammad Ali, entre 1820 e 1821, conquista o sultanato enfraquecido e extingue definitivamente a soberania funji, integrando o Sudão à órbita administrativa egípcia por quase um século.",
+      "textoMdx": "O Sultanato de Sennar, fundado pela dinastia Funj em 1504, islamiza definitivamente o antigo território núbio cristão, estabelecendo domínio que se estendeu por mais de três séculos sobre grande parte do território sudanês atual.\n\nO sultanato preserva relativa estabilidade e controle sobre rotas comerciais transaarianas cruciais por gerações, antes de enfraquecer progressivamente diante de fragmentação interna e pressão externa crescente ao longo do século XVIII.\n\nA invasão do Egito otomano-albanês sob Muhammad Ali, entre 1820 e 1821, conquista o sultanato enfraquecido e extingue definitivamente a soberania funji, integrando o Sudão à órbita administrativa egípcia por quase um século.",
       "fontes": [
         "robert-collins-sudao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sword_Nasir_ibn_Badi_IV_NCAM_KH394.jpg/1920px-Sword_Nasir_ibn_Badi_IV_NCAM_KH394.jpg",
+        "alt": "Espada longa de lâmina reta, guarda simples e punho escuro, exposta sobre fundo neutro.",
+        "credito": "Marie-Lan Nguyen · Museu Nacional do Sudão",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Sword_Nasir_ibn_Badi_IV_NCAM_KH394.jpg",
+        "legenda": "Espada do sultão funjí Nasir ibn Badi IV, datada de 1762–1769."
+      }
     },
     {
       "id": "sdn-egito-otomano-mahdismo",
@@ -42,10 +66,18 @@
       "fim": "1899",
       "rotulo": "Domínio Turco-Egípcio e o Estado Mádi",
       "regime": "administração turco-egípcia, derrubada por Estado teocrático islâmico revolucionário",
-      "textoMdx": "A administração egípcia, conhecida localmente como \"Turkiyah\", impõe tributação pesada e amplia o comércio de escravos sudaneses — exploração que geraria ressentimento crescente, explorado décadas depois por movimento religioso messiânico revolucionário.\n\nMuhammad Ahmad se autoproclama o Mádi — figura redentora escatológica islâmica — em 1881, liderando revolta que cercaria e tomaria Cartum em 1885, matando o governador-geral britânico Charles Gordon num episódio que chocaria profundamente a opinião pública britânica.\n\nO Estado Mádi sobreviveria por treze anos sob o sucessor de Ahmad, o Califa Abdallahi, até ser esmagado pela reconquista anglo-egípcia sob o general Kitchener na Batalha de Omdurman, em 1898 — confronto notório pela disparidade de baixas entre os dois lados, refletindo a superioridade decisiva da metralhadora sobre táticas de combate tradicionais.",
+      "textoMdx": "A administração egípcia, conhecida localmente como \"Turkiyah\", impõe tributação pesada e amplia o comércio de escravos sudaneses — exploração que gerou ressentimento crescente, explorado décadas depois por movimento religioso messiânico revolucionário.\n\nMuhammad Ahmad se autoproclama o Mádi — figura redentora escatológica islâmica — em 1881, liderando revolta que cercou e tomou Cartum em 1885, matando o governador-geral britânico Charles Gordon num episódio que chocou a opinião pública britânica.\n\nO Estado Mádi sobreviveu por treze anos sob o sucessor de Ahmad, o Califa Abdallahi, até ser esmagado pela reconquista anglo-egípcia sob o general Kitchener na Batalha de Omdurman, em 1898 — confronto notório pela disparidade de baixas entre os dois lados, refletindo a superioridade decisiva da metralhadora sobre táticas de combate tradicionais.",
       "fontes": [
         "robert-collins-sudao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/General_Kitchener_and_the_Anglo-egyptian_Nile_Campaign%2C_1898_HU93869.jpg",
+        "alt": "Fotografia em preto e branco mostra um oficial de uniforme montado a cavalo diante de um acampamento militar.",
+        "credito": "Francis Gregson · Imperial War Museums",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:General_Kitchener_and_the_Anglo-egyptian_Nile_Campaign,_1898_HU93869.jpg",
+        "legenda": "Francis Gregson registra a campanha anglo-egípcia no Nilo, comandada por Kitchener, em 1898."
+      }
     },
     {
       "id": "sdn-condominio-anglo-egipcio",
@@ -53,10 +85,18 @@
       "fim": "1956",
       "rotulo": "Condomínio Anglo-Egípcio",
       "regime": "administração nominalmente conjunta anglo-egípcia, na prática dominada pela Grã-Bretanha",
-      "textoMdx": "O Condomínio Anglo-Egípcio, estabelecido em 1899, mantém soberania formal compartilhada entre Grã-Bretanha e Egito, mas com controle administrativo real quase inteiramente britânico — arranjo que perduraria por mais de meio século.\n\nA \"Política do Sul\", que administra deliberadamente as províncias meridionais do país — de população predominantemente cristã e animista, não muçulmana e árabe como o norte — de forma separada e com investimento mínimo, plantaria as sementes diretas da divisão que levaria a décadas de guerra civil após a independência.\n\nO movimento nacionalista sudanês, crescente após a Segunda Guerra Mundial, obtém independência plena em janeiro de 1956 — mas o novo Estado herdaria imediatamente a fratura estrutural entre norte e sul que a administração colonial jamais havia buscado resolver.",
+      "textoMdx": "O Condomínio Anglo-Egípcio, estabelecido em 1899, mantém soberania formal compartilhada entre Grã-Bretanha e Egito, mas com controle administrativo real quase inteiramente britânico — arranjo que perdurou por mais de meio século.\n\nA \"Política do Sul\", que administra deliberadamente as províncias meridionais do país — de população predominantemente cristã e animista, não muçulmana e árabe como o norte — de forma separada e com investimento mínimo, plantou as sementes diretas da divisão que levou a décadas de guerra civil após a independência.\n\nO movimento nacionalista sudanês, crescente após a Segunda Guerra Mundial, obtém independência plena em janeiro de 1956 — mas o novo Estado herdou imediatamente a fratura estrutural entre norte e sul que a administração colonial jamais havia buscado resolver.",
       "fontes": [
         "robert-collins-sudao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Sudan_warrior_1920.jpg",
+        "alt": "Homem sudanês posa de pé com lança, escudo oval e vestes claras diante de um fundo liso.",
+        "credito": "Frank and Frances Carpenter",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Sudan_warrior_1920.jpg",
+        "legenda": "Guerreiro sudanês fotografado por Frank e Frances Carpenter entre 1920 e 1930."
+      }
     },
     {
       "id": "sdn-independencia-guerras-civis",
@@ -64,21 +104,37 @@
       "fim": "2005",
       "rotulo": "Independência e as guerras civis",
       "regime": "república instável, sob sucessivos golpes militares e duas guerras civis devastadoras entre o norte e o sul",
-      "textoMdx": "A Primeira Guerra Civil Sudanesa, iniciada ainda antes da independência formal em 1955, opõe forças do sul, ressentidas com a marginalização política herdada do período colonial, ao governo central do norte — conflito que se estenderia até o Acordo de Adis Abeba de 1972, concedendo autonomia regional ao sul.\n\nO presidente Jaafar Nimeiry revoga essa autonomia e impõe lei islâmica sobre todo o território nacional, incluindo o sul não muçulmano, em 1983 — decisão que reacende imediatamente o conflito na Segunda Guerra Civil Sudanesa, uma das mais longas e mortíferas da história africana, com estimativas de cerca de dois milhões de mortos ao longo de mais de duas décadas.\n\n**Omar al-Bashir toma o poder em golpe islamista em 1989, hospedando Osama bin Laden entre 1991 e 1996 — e, a partir de 2003, patrocina a milícia janjaweed em campanha de contrainsurgência em Darfur que o Tribunal Penal Internacional classificaria como genocídio, indiciando Bashir em 2009, a primeira vez que o tribunal formalmente acusa um chefe de Estado em exercício por esse crime.** O Acordo de Paz Abrangente de 2005 encerraria a guerra civil entre norte e sul, estabelecendo caminho ao referendo de autodeterminação que se realizaria seis anos depois.",
+      "textoMdx": "A Primeira Guerra Civil Sudanesa, iniciada ainda antes da independência formal em 1955, opõe forças do sul, ressentidas com a marginalização política herdada do período colonial, ao governo central do norte — conflito que se estendeu até o Acordo de Adis Abeba de 1972, concedendo autonomia regional ao sul.\n\nO presidente Jaafar Nimeiry revoga essa autonomia e impõe lei islâmica sobre todo o território nacional, incluindo o sul não muçulmano, em 1983 — decisão que reacende imediatamente o conflito na Segunda Guerra Civil Sudanesa, uma das mais longas e mortíferas da história africana, com estimativas de cerca de dois milhões de mortos ao longo de mais de duas décadas.\n\n**Omar al-Bashir toma o poder em golpe islamista em 1989, hospedando Osama bin Laden entre 1991 e 1996 — e, a partir de 2003, patrocina a milícia janjaweed em campanha de contrainsurgência em Darfur que o Tribunal Penal Internacional classificou como genocídio, indiciando Bashir em 2009, a primeira vez que o tribunal formalmente acusa um chefe de Estado em exercício por esse crime.** O Acordo de Paz Abrangente de 2005 encerrou a guerra civil entre norte e sul, estabelecendo caminho ao referendo de autodeterminação que se realizou seis anos depois.",
       "fontes": [
         "robert-collins-sudao",
         "acordo-paz-abrangente-2005-sudao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Darfur_refugee_camp_in_Chad.jpg",
+        "alt": "Mulher carrega uma criança pequena junto a abrigos improvisados de palha e lona em terreno árido.",
+        "credito": "Mark Knobil from Pittsburgh, usa",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Darfur_refugee_camp_in_Chad.jpg",
+        "legenda": "Campo de refugiados de Darfur no Chade, fotografado em 29 de março de 2005."
+      }
     },
     {
       "id": "sdn-independencia-sul-bashir-atual",
       "inicio": "2005",
       "rotulo": "Da independência do Sul à era pós-Bashir",
       "regime": "república em transição política turbulenta, mergulhada em guerra civil desde 2023",
-      "textoMdx": "O referendo de 2011, aprovado por mais de 98% dos votantes do sul, consuma a independência do Sudão do Sul em julho daquele ano — o Sudão perderia cerca de um quarto de seu território e a maior parte de suas reservas petrolíferas conhecidas.\n\n**Protestos populares massivos contra crise econômica profunda, a partir de dezembro de 2018, culminam na deposição de Bashir pelas próprias forças armadas em abril de 2019, encerrando trinta anos ininterruptos no poder** — transição frágil para governo civil-militar compartilhado seria interrompida por novo golpe militar em outubro de 2021.\n\n**A guerra civil deflagrada em abril de 2023, entre as Forças Armadas Sudanesas e as paramilitares Forças de Apoio Rápido — descendentes diretas da antiga milícia janjaweed —, provoca uma das maiores crises humanitárias do mundo contemporâneo, com dezenas de milhões deslocados e relatos renovados de violência étnica em Darfur** — conflito que permanece em curso, sem desfecho claro, no momento presente.",
+      "textoMdx": "O referendo de 2011, aprovado por mais de 98% dos votantes do sul, consuma a independência do Sudão do Sul em julho daquele ano — o Sudão perdeu cerca de um quarto de seu território e a maior parte de suas reservas petrolíferas conhecidas.\n\n**Protestos populares massivos contra crise econômica profunda, a partir de dezembro de 2018, culminam na deposição de Bashir pelas próprias forças armadas em abril de 2019, encerrando trinta anos ininterruptos no poder** — transição frágil para governo civil-militar compartilhado foi interrompida por novo golpe militar em outubro de 2021.\n\n**A guerra civil deflagrada em abril de 2023, entre as Forças Armadas Sudanesas e as paramilitares Forças de Apoio Rápido — descendentes diretas da antiga milícia janjaweed —, provoca uma das maiores crises humanitárias do mundo contemporâneo, com dezenas de milhões deslocados e relatos renovados de violência étnica em Darfur** — conflito que permanece em curso, sem desfecho claro, no momento presente.",
       "fontes": [
         "robert-collins-sudao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sudanese_revolution._Jpg.jpg/1920px-Sudanese_revolution._Jpg.jpg",
+        "alt": "Grande multidão reúne-se ao ar livre, com bandeiras sudanesas e cartazes erguidos sobre as pessoas.",
+        "credito": "Osama Elfaki",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Sudanese_revolution._Jpg.jpg",
+        "legenda": "Manifestação da Revolução Sudanesa em 17 de agosto de 2019."
+      }
     }
   ]
 }

@@ -12,7 +12,21 @@ import type { Imagem } from "@/lib/conteudo/imagem";
  * `<img>` e não `next/image` porque `next.config.ts` não declara
  * `remotePatterns` para upload.wikimedia.org.
  */
-export function FotoHistorica({ imagem }: { imagem: Imagem }) {
+/**
+ * `anteriorAFotografia` liga a ressalva de período pré-fotográfico.
+ *
+ * É prop e não cálculo interno porque a moldura não sabe que período ilustra
+ * — ela recebe uma `Imagem` solta, e a mesma moldura serve período de país e
+ * bloco de episódio, que datam de formas diferentes. Quem sabe a data é quem
+ * chama.
+ */
+export function FotoHistorica({
+  imagem,
+  anteriorAFotografia = false,
+}: {
+  imagem: Imagem;
+  anteriorAFotografia?: boolean;
+}) {
   return (
     <figure className="group/foto space-y-2">
       <div className="relative overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900 transition-all duration-500 group-hover/foto:border-amber-500/30 group-hover/foto:shadow-2xl group-hover/foto:shadow-amber-500/10">
@@ -47,6 +61,23 @@ export function FotoHistorica({ imagem }: { imagem: Imagem }) {
           {" · "}
           {imagem.licenca}
         </p>
+
+        {/*
+          A quarta limitação declarada do atlas, e ela aparece só onde é
+          verdadeira. As outras três moram no mapa porque falam de fronteira;
+          esta mora aqui porque fala da imagem, e o leitor que precisa dela é
+          o que está olhando uma foto nítida de um prédio sob um texto sobre
+          o século XIV.
+        */}
+        {anteriorAFotografia && (
+          <p className="text-[10px] leading-relaxed text-zinc-600">
+            Período anterior à fotografia: a peça é de época, mas a imagem dela
+            é de hoje. Onde a peça é um objeto — moeda, manuscrito, escultura —,
+            a fotografia é só o meio de olhá-la; onde é um edifício ainda de pé,
+            ela mostra o prédio como está agora, com restauros e entorno que o
+            período não tinha.
+          </p>
+        )}
       </figcaption>
     </figure>
   );

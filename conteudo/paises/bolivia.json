@@ -13,7 +13,15 @@
       "fontes": [
         "klein-bolivia",
         "klaren-peru-nacao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Audiencia_de_Charcas.jpg",
+        "alt": "Mapa antigo colorido mostra o território da Audiência de Charcas com rios, montanhas, cidades e uma moldura decorada.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Audiencia_de_Charcas.jpg",
+        "legenda": "Mapa da Audiência de Charcas publicado em 1601."
+      }
     },
     {
       "id": "bo-republica-inicial",
@@ -25,7 +33,15 @@
       "fontes": [
         "klein-bolivia",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Mapa_de_la_republica_de_Bolivia..._levantado_y_organizado_en_los_a%C3%B1os_de_1842_a_1859_-_por..._Juan_Ondarza_%3B_..._Juan_Mariano_Mujia_%3B_y..._Lucio_Camacho_-_btv1b53064537q_%282_of_2%29.jpg",
+        "alt": "Mapa histórico da Bolívia apresenta divisões territoriais, rios, relevo e pequenos planos urbanos nas margens.",
+        "credito": "Juan Ondarza, Juan Mariano Mujia e Lucio Camacho · BnF",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Mapa_de_la_republica_de_Bolivia..._levantado_y_organizado_en_los_a%C3%B1os_de_1842_a_1859_-_por..._Juan_Ondarza_;_..._Juan_Mariano_Mujia_;_y..._Lucio_Camacho_-_btv1b53064537q_(2_of_2).jpg",
+        "legenda": "Mapa oficial da República da Bolívia levantado entre 1842 e 1859."
+      }
     },
     {
       "id": "bo-guerra-do-pacifico",
@@ -37,7 +53,15 @@
       "fontes": [
         "tratado-paz-amizade-1904",
         "klein-bolivia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Antofagasta-1879.png",
+        "alt": "Fotografia antiga mostra soldados formados em uma praça de Antofagasta, diante de edifícios baixos.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Antofagasta-1879.png",
+        "legenda": "Antofagasta após a ocupação chilena de 14 de fevereiro de 1879."
+      }
     },
     {
       "id": "bo-guerra-do-chaco",
@@ -49,7 +73,15 @@
       "fontes": [
         "klein-bolivia",
         "whigham-guerra-paraguai"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Retratos_de_soldados_bolivianos_en_la_Guerra_del_Chaco.jpg/1920px-Retratos_de_soldados_bolivianos_en_la_Guerra_del_Chaco.jpg",
+        "alt": "Fileiras de soldados bolivianos de uniforme e chapéu posam para retratos diante de um pano claro.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Retratos_de_soldados_bolivianos_en_la_Guerra_del_Chaco.jpg",
+        "legenda": "Retratos de soldados bolivianos durante a Guerra do Chaco, em 1932."
+      }
     },
     {
       "id": "bo-revolucao-52",
@@ -60,7 +92,15 @@
       "textoMdx": "O período que muda a estrutura social boliviana mais que qualquer outro, e que começa e termina em golpe.\n\n**Os anos entre as guerras são de choque e massacre.** O sindicalismo mineiro se organiza e o Estado responde com tropa: Catavi, em 1942, e Villa Victoria depois. Em 1946 o presidente Gualberto Villarroel, que havia aprovado um congresso indígena e decretos contra o trabalho gratuito nas fazendas, é linchado e pendurado num poste em La Paz. Em 1951 o MNR vence a eleição e os militares anulam o resultado.\n\n**Abril de 1952 é uma insurreição urbana, não um golpe.** Mineiros com dinamite e trabalhadores de La Paz derrotam o exército em três dias de combate, com centenas de mortos. Víctor Paz Estenssoro assume, e o que segue é a segunda maior reforma social da América Latina no século, atrás só do México.\n\n**Quatro medidas refazem o país.** Voto universal, que multiplica o eleitorado por cinco ao incluir analfabetos e, portanto, a maioria indígena. Nacionalização das minas dos três grandes, criando a Comibol. Reforma agrária de 1953, que desmonta o latifúndio no altiplano e nos vales e entrega terra a quem a trabalhava. E reforma educacional que leva escola ao campo.\n\n**O que a reforma não resolve.** A Comibol herda minas exauridas e assume a folha de pagamento inteira; a produtividade cai. A reforma agrária divide a terra em parcelas pequenas sem crédito nem técnica, e a produção de alimento não acompanha as cidades. A inflação obriga a um plano de estabilização em 1956 com apoio norte-americano, que corta salários e racha o movimento que fizera a revolução. Em 1964 o vice-presidente militar de Paz Estenssoro, René Barrientos, o depõe.",
       "fontes": [
         "klein-bolivia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Hern%C3%A1n_Siles_Zuazo.jpg",
+        "alt": "Retrato em preto e branco mostra Hernán Siles Zuazo de terno e gravata, olhando para a câmera.",
+        "credito": "De la Vicepresidencia del Estado Plurinacional de Bolivia",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Hern%C3%A1n_Siles_Zuazo.jpg",
+        "legenda": "Hernán Siles Zuazo durante a Revolução Nacional Boliviana, em 1952."
+      }
     },
     {
       "id": "bo-ditaduras",
@@ -71,7 +111,15 @@
       "textoMdx": "Dezoito anos de governos militares, com dois deles nacionalistas de esquerda e o mais longo alinhado à repressão coordenada do Cone Sul.\n\n**Che Guevara morre aqui, em 1967.** A guerrilha instalada em Ñancahuazú não consegue apoio camponês — em parte porque a reforma agrária de 1953 já havia entregado a terra que ele prometia — e é destruída por unidades treinadas por norte-americanos. Guevara é executado em La Higuera em outubro.\n\n**O massacre de San Juan e o padrão da repressão.** Em 1967, tropas atacam o acampamento mineiro de Siglo XX na noite de festa de San Juan, matando dezenas. A relação entre o Estado e os sindicatos mineiros, que havia sido a base de 1952, torna-se novamente de guerra.\n\n**Dois militares nacionalistas, e o giro.** Alfredo Ovando nacionaliza a Gulf Oil em 1969; Juan José Torres, entre 1970 e 1971, cria uma assembleia popular com sindicatos e mineiros. Em agosto de 1971, Hugo Banzer toma o poder e governa sete anos: partidos suspensos, sindicatos intervindos, exílios, e participação na Operação Condor — Torres é assassinado em Buenos Aires em 1976.\n\n**A transição é caótica e passa por um golpe sangrento.** Entre 1978 e 1982 há eleições anuladas, presidentes de dias e sucessivos golpes. O pior é o de Luis García Meza, em 1980, cujo governo assassina o líder socialista Marcelo Quiroga Santa Cruz, opera com apoio de traficantes de cocaína e emprega o criminoso de guerra nazista Klaus Barbie, que vivia no país. Em outubro de 1982, Hernán Siles Zuazo assume, eleito pelo resultado de 1980, e a democracia se restabelece — com hiperinflação que chegaria a mais de dez mil por cento ao ano.",
       "fontes": [
         "klein-bolivia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Hugo_Banzer_Suarez%2C_General%2C_Presidente_da_Bol%C3%ADvia..tif/lossy-page1-1280px-Hugo_Banzer_Suarez%2C_General%2C_Presidente_da_Bol%C3%ADvia..tif.jpg",
+        "alt": "Hugo Banzer aparece de uniforme militar, com faixa presidencial e condecorações no peito.",
+        "credito": "Autor desconhecido · Arquivo Nacional do Brasil",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Hugo_Banzer_Suarez,_General,_Presidente_da_Bol%C3%ADvia..tif",
+        "legenda": "Retrato oficial de Hugo Banzer em 1972."
+      }
     },
     {
       "id": "bo-democracia-neoliberal",
@@ -82,7 +130,15 @@
       "textoMdx": "Vinte anos de continuidade democrática sustentada por pactos entre partidos, com estabilização severa, privatização e o crescimento de um movimento social que acabaria substituindo todo o sistema.\n\n**A hiperinflação é vencida em 1985, e o custo é a mina.** O Decreto 21060, de Paz Estenssoro, liberaliza preços e câmbio, congela salários e desmonta a Comibol: cerca de vinte mil mineiros são demitidos. A maioria migra — ao Chapare, onde passa a plantar coca, e às periferias de El Alto e Cochabamba. É a origem, ao mesmo tempo, do movimento cocaleiro e da nova geografia urbana boliviana.\n\n**A guerra às drogas vira política interna.** Sob pressão e financiamento norte-americanos, os governos dos anos 1990 fazem erradicação forçada de coca no Chapare, com confronto e mortes. O sindicato cocaleiro torna-se o movimento mais organizado do país, e seu dirigente, Evo Morales, entra no Congresso em 1997.\n\n**A capitalização entrega as estatais.** Entre 1994 e 1997, sob Gonzalo Sánchez de Lozada e Hugo Banzer, petróleo e gás, ferrovias, telecomunicações e eletricidade passam a operadores privados estrangeiros em troca de investimento. Ao mesmo tempo, a Lei de Participação Popular descentraliza recursos para municípios — a reforma mais elogiada do período.\n\n**Duas revoltas encerram o ciclo.** A Guerra da Água, em Cochabamba, em 2000, reverte a concessão do sistema de abastecimento a um consórcio internacional depois de semanas de confronto. A Guerra do Gás, em 2003, contra um projeto de exportação de gás pelo Chile, deixa dezenas de mortos em El Alto e derruba Sánchez de Lozada, que foge do país. Em 2005, Evo Morales é eleito com maioria absoluta no primeiro turno.",
       "fontes": [
         "klein-bolivia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Protestas_durante_la_guerra_del_agua_en_Cochabamba_13.jpg/1920px-Protestas_durante_la_guerra_del_agua_en_Cochabamba_13.jpg",
+        "alt": "Manifestantes correm por uma rua entre fumaça, pedras e policiais durante um confronto.",
+        "credito": "Antonio Abal Oña",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Protestas_durante_la_guerra_del_agua_en_Cochabamba_13.jpg",
+        "legenda": "Protestos da Guerra da Água em Cochabamba, em 4 de abril de 2000."
+      }
     },
     {
       "id": "bo-estado-plurinacional",
@@ -92,7 +148,15 @@
       "textoMdx": "Pela primeira vez a maioria indígena governa o país onde é maioria — resultado que a república de 1825 levou cento e oitenta anos para produzir.\n\n**A constituição de 2009 redefine o Estado.** Aprovada em referendo, declara a Bolívia plurinacional, reconhece 36 idiomas oficiais, institui autonomias indígenas e jurisdição indígena ao lado da ordinária, e declara o acesso à água direito humano. Os hidrocarbonetos são renacionalizados em 2006, com renegociação de contratos que eleva fortemente a receita estatal.\n\n**A renda do gás financia redução de pobreza real.** Com preços altos, transferências condicionadas, aumento do salário mínimo e investimento público reduzem a pobreza extrema de forma significativa, e o país cresce de modo constante por uma década. A economia segue dependente de gás, minério e soja.\n\n**O conflito interno se desloca.** A oposição regional da meia-lua oriental — Santa Cruz e o oriente agroexportador — chega a promover referendos autonômicos em 2008, com episódios violentos em Pando. Mais tarde, o próprio movimento indígena entra em choque com o governo pela estrada projetada através do território e parque Tipnis, em 2011.\n\n**A crise de 2019 e o que veio depois.** Morales concorre a um quarto mandato após perder um referendo sobre reeleição e obter autorização do Tribunal Constitucional. A eleição de outubro de 2019 é contestada, com relatório da OEA apontando irregularidades e auditorias posteriores questionando essa conclusão; protestos, motins policiais e a sugestão das Forças Armadas levam Morales a renunciar e sair do país. O governo interino de Jeanine Áñez é marcado pelos massacres de Sacaba e Senkata, com dezenas de mortos. Em 2020, o MAS volta ao poder com Luis Arce, eleito com ampla maioria — e o país entra em crise fiscal e de combustível na década seguinte, com o gás em declínio.",
       "fontes": [
         "klein-bolivia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/President_Evo_Morales_in_the_Palacio_de_Gobierno%2C_Palacio_Quemado.jpg/1920px-President_Evo_Morales_in_the_Palacio_de_Gobierno%2C_Palacio_Quemado.jpg",
+        "alt": "Evo Morales está sentado diante de uma mesa ornamentada, com faixa presidencial e bandeiras ao fundo.",
+        "credito": "Sodaliteblue",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:President_Evo_Morales_in_the_Palacio_de_Gobierno,_Palacio_Quemado.jpg",
+        "legenda": "Evo Morales no Palácio Quemado, em 26 de julho de 2006."
+      }
     }
   ]
 }

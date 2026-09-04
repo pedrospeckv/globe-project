@@ -9,11 +9,19 @@
       "fim": "1459",
       "rotulo": "Reino e Império Sérvio medieval",
       "regime": "monarquia medieval, com apogeu imperial sob a dinastia Nemanjić",
-      "textoMdx": "A coroação de Stefan Nemanjić como rei da Sérvia em 1217, com bênção papal, consolida um Estado sérvio já erguido por seu pai, Stefan Nemanja, ao longo de décadas de expansão territorial e consolidação eclesiástica em torno da Igreja Ortodoxa Sérvia, fundada pelo irmão do rei, São Sava, em 1219.\n\n**O reinado de Stefan Dušan, entre 1331 e 1355, leva o reino sérvio ao apogeu territorial.** Coroado imperador dos sérvios e dos gregos em 1346, Dušan expande o território para incluir grande parte da Macedônia, Épiro, Tessália e Albânia atuais, promulgando um código legal — o Zakonik de Dušan — que organiza administração, justiça e relações entre nobreza e camponesado no império recém-formado.\n\n**A morte de Dušan, em 1355, sem sucessor capaz de manter a unidade, inicia fragmentação rápida do império em principados rivais.** A batalha de Kosovo, em 1389, entre forças sérvias lideradas pelo príncipe Lazar e o exército otomano de Murad I, torna-se o evento fundador da memória nacional sérvia — ambos os líderes morrem no combate, e embora o resultado militar imediato seja disputado pelos historiadores, a batalha marca o início do avanço otomano decisivo sobre o território sérvio.\n\n**O Despotado Sérvio sobrevive como vassalo otomano por sete décadas após Kosovo, até a queda de sua capital, Smederevo, em 1459.** A conquista otomana completa extingue a última forma de Estado sérvio independente por mais de trezentos anos, período que a tradição sérvia posterior recordaria como o início do \"jugo turco\".",
+      "textoMdx": "A coroação de Stefan Nemanjić como rei da Sérvia em 1217, com bênção papal, consolida um Estado sérvio já erguido por seu pai, Stefan Nemanja, ao longo de décadas de expansão territorial e consolidação eclesiástica em torno da Igreja Ortodoxa Sérvia, fundada pelo irmão do rei, São Sava, em 1219.\n\n**O reinado de Stefan Dušan, entre 1331 e 1355, leva o reino sérvio ao apogeu territorial.** Coroado imperador dos sérvios e dos gregos em 1346, Dušan expande o território para incluir grande parte da Macedônia, Épiro, Tessália e Albânia atuais, promulgando um código legal — o Zakonik de Dušan — que organiza administração, justiça e relações entre nobreza e camponesado no império recém-formado.\n\n**A morte de Dušan, em 1355, sem sucessor capaz de manter a unidade, inicia fragmentação rápida do império em principados rivais.** A batalha de Kosovo, em 1389, entre forças sérvias lideradas pelo príncipe Lazar e o exército otomano de Murad I, torna-se o evento fundador da memória nacional sérvia — ambos os líderes morrem no combate, e embora o resultado militar imediato seja disputado pelos historiadores, a batalha marca o início do avanço otomano decisivo sobre o território sérvio.\n\n**O Despotado Sérvio sobrevive como vassalo otomano por sete décadas após Kosovo, até a queda de sua capital, Smederevo, em 1459.** A conquista otomana completa extingue a última forma de Estado sérvio independente por mais de trezentos anos, período que a tradição sérvia posterior registrou como o início do \"jugo turco\".",
       "fontes": [
         "tim-judah-servios",
         "misha-glenny-balcas"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Du%C5%A1an%27s_Code%2C_Prizren_manuscript%2C_15th_c.jpg",
+        "alt": "Página manuscrita em pergaminho com texto em duas colunas, iniciais vermelhas e anotações nas margens.",
+        "credito": "Copista Vukašin",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Du%C5%A1an%27s_Code,_Prizren_manuscript,_15th_c.jpg",
+        "legenda": "Manuscrito de Prizren do Código de Dušan, copiado no século XV."
+      }
     },
     {
       "id": "srb-dominio-otomano",
@@ -21,11 +29,19 @@
       "fim": "1815",
       "rotulo": "Domínio Otomano",
       "regime": "província do Império Otomano, com autonomias locais variáveis",
-      "textoMdx": "Sob domínio otomano, a Sérvia é organizada em sanjaks administrados a partir de Istambul, com a população cristã sujeita ao sistema de millet — autonomia religiosa e civil limitada sob a Igreja Ortodoxa — e ao imposto devshirme, recrutamento forçado de meninos cristãos para o corpo de janízaros, prática que perdura até o século XVII.\n\n**A migração sérvia para o norte, para territórios sob domínio dos Habsburgo, ocorre em ondas ao longo dos séculos XVII e XVIII**, fugindo de represálias otomanas após guerras austro-turcas malsucedidas; a Grande Migração de 1690, liderada pelo patriarca sérvio Arsenije III, estabelece comunidades sérvias significativas na Voivodina e na Fronteira Militar Habsburga, que se tornariam bases futuras do nacionalismo sérvio moderno.\n\n**A Primeira Insurreição Sérvia, iniciada em 1804 sob liderança de Đorđe Petrović, conhecido como Karađorđe, rompe séculos de domínio direto otomano.** Deflagrada inicialmente como revolta contra abusos locais de janízaros renegados, mais que contra o sultão propriamente, a insurreição evolui para movimento de independência nacional, conquistando controle de Belgrado antes de ser esmagada por forças otomanas em 1813.\n\n**A Segunda Insurreição Sérvia, liderada por Miloš Obrenović em 1815, obtém autonomia negociada em vez de vitória militar completa** — reconhecendo a impossibilidade de derrota total do exército otomano, Obrenović negocia diretamente com autoridades otomanas locais um regime de autonomia crescente, estratégia pragmática que fundaria a rivalidade dinástica entre as casas Karađorđević e Obrenović que marcaria a política sérvia pelo século seguinte.",
+      "textoMdx": "Sob domínio otomano, a Sérvia é organizada em sanjaks administrados a partir de Istambul, com a população cristã sujeita ao sistema de millet — autonomia religiosa e civil limitada sob a Igreja Ortodoxa — e ao imposto devshirme, recrutamento forçado de meninos cristãos para o corpo de janízaros, prática que perdura até o século XVII.\n\n**A migração sérvia para o norte, para territórios sob domínio dos Habsburgo, ocorre em ondas ao longo dos séculos XVII e XVIII**, fugindo de represálias otomanas após guerras austro-turcas malsucedidas; a Grande Migração de 1690, liderada pelo patriarca sérvio Arsenije III, estabelece comunidades sérvias significativas na Voivodina e na Fronteira Militar Habsburga, que se tornaram bases do nacionalismo sérvio moderno.\n\n**A Primeira Insurreição Sérvia, iniciada em 1804 sob liderança de Đorđe Petrović, conhecido como Karađorđe, rompe séculos de domínio direto otomano.** Deflagrada inicialmente como revolta contra abusos locais de janízaros renegados, mais que contra o sultão propriamente, a insurreição evolui para movimento de independência nacional, conquistando controle de Belgrado antes de ser esmagada por forças otomanas em 1813.\n\n**A Segunda Insurreição Sérvia, liderada por Miloš Obrenović em 1815, obtém autonomia negociada em vez de vitória militar completa** — reconhecendo a impossibilidade de derrota total do exército otomano, Obrenović negocia diretamente com autoridades otomanas locais um regime de autonomia crescente, estratégia pragmática que fundou a rivalidade dinástica entre as casas Karađorđević e Obrenović que marcou a política sérvia pelo século seguinte.",
       "fontes": [
         "tim-judah-servios",
         "misha-glenny-balcas"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Belagerung_belgrad_1717.jpg",
+        "alt": "Gravura mostra canhões disparando contra uma cidade fortificada às margens de um rio, cercada por tropas e fumaça.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Belagerung_belgrad_1717.jpg",
+        "legenda": "Cerco de Belgrado pelas forças habsburgas em 1717, registrado em gravura contemporânea."
+      }
     },
     {
       "id": "srb-principado-reino",
@@ -38,7 +54,15 @@
         "tim-judah-servios",
         "misha-glenny-balcas",
         "tratado-berlim-1878"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Draga_Maschin_%26_Alexander_I._K%C3%B6nig_von_Serbien%2C_1900.jpg",
+        "alt": "Retrato de estúdio mostra o rei Alexandre I e a rainha Draga em trajes formais, lado a lado.",
+        "credito": "Wilhelm Förster",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Draga_Maschin_%26_Alexander_I._K%C3%B6nig_von_Serbien,_1900.jpg",
+        "legenda": "Alexandre I e Draga da Sérvia fotografados por Wilhelm Förster em 1900."
+      }
     },
     {
       "id": "srb-reino-iugoslavia-guerra",
@@ -51,7 +75,15 @@
         "tim-judah-servios",
         "dejan-djokic-iugoslavia",
         "marcus-tanner-croacia"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Bombing_of_Belgrade_1941.jpg/1920px-Bombing_of_Belgrade_1941.jpg",
+        "alt": "Vista aérea em preto e branco mostra colunas de fumaça cobrindo quarteirões de uma cidade.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Bombing_of_Belgrade_1941.jpg",
+        "legenda": "Bombardeio alemão de Belgrado em 6 de abril de 1941."
+      }
     },
     {
       "id": "srb-iugoslavia-socialista",
@@ -59,12 +91,20 @@
       "fim": "1992",
       "rotulo": "República socialista dentro da Iugoslávia de Tito",
       "regime": "república socialista federativa, um partido",
-      "textoMdx": "A Sérvia se torna a maior das seis repúblicas da Iugoslávia socialista de Tito, incluindo dentro de suas fronteiras as províncias autônomas de Kosovo, de maioria albanesa, e da Voivodina, multiétnica — arranjo constitucional que concentraria tensão crescente ao longo das décadas seguintes.\n\n**A ruptura de Tito com Stalin, em 1948, situa a Iugoslávia fora do bloco soviético**, permitindo relativa abertura econômica e o desenvolvimento de um sistema próprio de autogestão operária nas fábricas, além de papel de liderança iugoslava no Movimento dos Países Não Alinhados a partir de 1961 — posicionamento que renderia à Sérvia, como núcleo federal, prestígio internacional desproporcional ao seu tamanho.\n\n**A constituição de 1974 amplia a autonomia de Kosovo e da Voivodina a ponto de quase equipará-las às repúblicas plenas**, decisão que a maioria sérvia passaria a ressentir como diminuição de sua própria soberania sobre território que considera berço histórico da nação, alimentando ressentimento que Slobodan Milošević exploraria politicamente após a morte de Tito, em 1980.\n\n**A ascensão de Milošević à liderança sérvia, culminando no discurso de Gazimestan em 1989, no sexto centenário da batalha de Kosovo, mistura nacionalismo histórico com política de poder centralizadora.** A revogação da autonomia de Kosovo em 1989, seguida da eclosão das guerras de secessão iugoslavas a partir de 1991 — Eslovênia, Croácia, depois Bósnia —, deixa a Sérvia como núcleo de um Estado iugoslavo que se desintegra sob acusações internacionais de agressão e limpeza étnica.",
+      "textoMdx": "A Sérvia se torna a maior das seis repúblicas da Iugoslávia socialista de Tito, incluindo dentro de suas fronteiras as províncias autônomas de Kosovo, de maioria albanesa, e da Voivodina, multiétnica — arranjo constitucional que concentrou tensão crescente ao longo das décadas seguintes.\n\n**A ruptura de Tito com Stalin, em 1948, situa a Iugoslávia fora do bloco soviético**, permitindo relativa abertura econômica e o desenvolvimento de um sistema próprio de autogestão operária nas fábricas, além de papel de liderança iugoslava no Movimento dos Países Não Alinhados a partir de 1961 — posicionamento que rendeu à Sérvia, como núcleo federal, prestígio internacional desproporcional ao seu tamanho.\n\n**A constituição de 1974 amplia a autonomia de Kosovo e da Voivodina a ponto de quase equipará-las às repúblicas plenas**, decisão que a maioria sérvia passou a ressentir como diminuição de sua própria soberania sobre território que considera berço histórico da nação, alimentando ressentimento que Slobodan Milošević explorou politicamente após a morte de Tito, em 1980.\n\n**A ascensão de Milošević à liderança sérvia, culminando no discurso de Gazimestan em 1989, no sexto centenário da batalha de Kosovo, mistura nacionalismo histórico com política de poder centralizadora.** A revogação da autonomia de Kosovo em 1989, seguida da eclosão das guerras de secessão iugoslavas a partir de 1991 — Eslovênia, Croácia, depois Bósnia —, deixa a Sérvia como núcleo de um Estado iugoslavo que se desintegra sob acusações internacionais de agressão e limpeza étnica.",
       "fontes": [
         "tim-judah-servios",
         "dejan-djokic-iugoslavia",
         "misha-glenny-balcas"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Rajko_Miti%C4%87_and_Tito%2C_photo_by_Stevan_Kragujevi%C4%87%2C_1960.jpg/1920px-Rajko_Miti%C4%87_and_Tito%2C_photo_by_Stevan_Kragujevi%C4%87%2C_1960.jpg",
+        "alt": "Três homens de terno conversam em uma tribuna; Tito aparece à direita, sorrindo.",
+        "credito": "Stevan Kragujević",
+        "licenca": "CC BY-SA 3.0 rs",
+        "origem": "https://commons.wikimedia.org/wiki/File:Rajko_Miti%C4%87_and_Tito,_photo_by_Stevan_Kragujevi%C4%87,_1960.jpg",
+        "legenda": "Rajko Mitić, Vladimir Dedijer e Josip Broz Tito em 1960."
+      }
     },
     {
       "id": "srb-serbia-montenegro",
@@ -72,22 +112,38 @@
       "fim": "2006",
       "rotulo": "República Federal e depois União de Sérvia e Montenegro",
       "regime": "república federal, sob sanções internacionais e depois guerra com a OTAN em 1999",
-      "textoMdx": "A proclamação da República Federal da Iugoslávia, em abril de 1992, une apenas Sérvia e Montenegro entre as antigas repúblicas iugoslavas, sob liderança de facto de Milošević, enquanto o país enfrenta sanções internacionais pesadas pelo apoio às forças sérvias na guerra da Bósnia, vizinha.\n\n**A guerra do Kosovo, entre 1998 e 1999, opõe forças sérvias a guerrilha albanesa separatista e termina em bombardeio da OTAN sobre a Sérvia**, incluindo Belgrado, sem autorização do Conselho de Segurança da ONU — episódio controverso que expulsa a administração sérvia de Kosovo e coloca o território sob administração da ONU, embora permanecesse formalmente parte da Sérvia.\n\n**A queda de Milošević, em outubro de 2000, após protestos populares que se seguem a fraude eleitoral evidente, encerra a era das guerras iugoslavas para a Sérvia.** Extraditado ao Tribunal Penal Internacional para a antiga Iugoslávia em Haia no ano seguinte, Milošević morreria na prisão em 2006, antes da conclusão de seu julgamento por genocídio e crimes de guerra.\n\n**A União de Sérvia e Montenegro, formada em 2003 sob pressão da União Europeia como alternativa mais frouxa à antiga federação, dura apenas três anos.** O referendo de independência montenegrino de maio de 2006, aprovado por margem estreita acima do limiar de 55% exigido pela própria União Europeia, dissolve pacificamente a última união política entre os dois países, deixando a Sérvia, pela primeira vez em quase um século, como Estado unitário sem parceiros federativos.",
+      "textoMdx": "A proclamação da República Federal da Iugoslávia, em abril de 1992, une apenas Sérvia e Montenegro entre as antigas repúblicas iugoslavas, sob liderança de facto de Milošević, enquanto o país enfrenta sanções internacionais pesadas pelo apoio às forças sérvias na guerra da Bósnia, vizinha.\n\n**A guerra do Kosovo, entre 1998 e 1999, opõe forças sérvias a guerrilha albanesa separatista e termina em bombardeio da OTAN sobre a Sérvia**, incluindo Belgrado, sem autorização do Conselho de Segurança da ONU — episódio controverso que expulsa a administração sérvia de Kosovo e coloca o território sob administração da ONU, embora permanecesse formalmente parte da Sérvia.\n\n**A queda de Milošević, em outubro de 2000, após protestos populares que se seguem a fraude eleitoral evidente, encerra a era das guerras iugoslavas para a Sérvia.** Extraditado ao Tribunal Penal Internacional para a antiga Iugoslávia em Haia no ano seguinte, Milošević morreu na prisão em 2006, antes da conclusão de seu julgamento por genocídio e crimes de guerra.\n\n**A União de Sérvia e Montenegro, formada em 2003 sob pressão da União Europeia como alternativa mais frouxa à antiga federação, dura apenas três anos.** O referendo de independência montenegrino de maio de 2006, aprovado por margem estreita acima do limiar de 55% exigido pela própria União Europeia, dissolve pacificamente a última união política entre os dois países, deixando a Sérvia, pela primeira vez em quase um século, como Estado unitário sem parceiros federativos.",
       "fontes": [
         "tim-judah-servios",
         "misha-glenny-balcas"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Ostruznica_Highway_Bridge.jpg",
+        "alt": "Ponte rodoviária interrompida, com um grande trecho do tabuleiro caído sobre a margem do rio.",
+        "credito": "Forças Armadas dos Estados Unidos",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Ostruznica_Highway_Bridge.jpg",
+        "legenda": "Ponte de Ostružnica danificada durante os bombardeios da OTAN, em 1999."
+      }
     },
     {
       "id": "srb-republica-independente",
       "inicio": "2006",
       "rotulo": "República da Sérvia independente",
       "regime": "república parlamentar",
-      "textoMdx": "A independência sérvia de 2006 encontra o país isolado internacionalmente pelo legado das guerras dos anos 1990 e ainda sem resolver o status de Kosovo, que declara independência unilateral em fevereiro de 2008 — declaração que a Sérvia rejeita até hoje, com apoio de Rússia e China no Conselho de Segurança da ONU, embora mais de cem países a reconheçam.\n\n**A captura dos últimos fugitivos sérvios indiciados por Haia, Ratko Mladić em 2011 e Radovan Karadžić já preso desde 2008, remove obstáculo central à aproximação europeia da Sérvia.** Ambos seriam condenados por genocídio, entre outras acusações, pelo massacre de Srebrenica de 1995 — o pior crime em solo europeu desde a Segunda Guerra Mundial, cometido por forças sérvio-bósnias mas que projeta sombra sobre a responsabilidade sérvia mais ampla, dado o apoio de Belgrado documentado ao longo do conflito bósnio.\n\n**A Sérvia obtém status de país candidato à União Europeia em 2012, mas as negociações avançam lentamente**, condicionadas em parte à normalização de relações com Kosovo — processo mediado pela União Europeia desde 2011, que produziu acordos parciais sem resolver a disputa central sobre soberania.\n\n**A política externa sérvia do século XXI busca equilíbrio entre aproximação europeia e laços históricos com a Rússia**, parceiro que veta reconhecimento internacional de Kosovo no Conselho de Segurança e mantém vínculos energéticos e culturais estreitos com Belgrado — postura de \"assentar-se em duas cadeiras\" que gera tensão crescente com Bruxelas à medida que a guerra russa na Ucrânia, a partir de 2022, polariza o continente.",
+      "textoMdx": "A independência sérvia de 2006 encontra o país isolado internacionalmente pelo legado das guerras dos anos 1990 e ainda sem resolver o status de Kosovo, que declara independência unilateral em fevereiro de 2008 — declaração que a Sérvia rejeita até hoje, com apoio de Rússia e China no Conselho de Segurança da ONU, embora mais de cem países a reconheçam.\n\n**A captura dos últimos fugitivos sérvios indiciados por Haia, Ratko Mladić em 2011 e Radovan Karadžić já preso desde 2008, remove obstáculo central à aproximação europeia da Sérvia.** Ambos foram condenados por genocídio, entre outras acusações, pelo massacre de Srebrenica de 1995 — o pior crime em solo europeu desde a Segunda Guerra Mundial, cometido por forças sérvio-bósnias mas que projeta sombra sobre a responsabilidade sérvia mais ampla, dado o apoio de Belgrado documentado ao longo do conflito bósnio.\n\n**A Sérvia obtém status de país candidato à União Europeia em 2012, mas as negociações avançam lentamente**, condicionadas em parte à normalização de relações com Kosovo — processo mediado pela União Europeia desde 2011, que produziu acordos parciais sem resolver a disputa central sobre soberania.\n\n**A política externa sérvia do século XXI busca equilíbrio entre aproximação europeia e laços históricos com a Rússia**, parceiro que veta reconhecimento internacional de Kosovo no Conselho de Segurança e mantém vínculos energéticos e culturais estreitos com Belgrado — postura de \"assentar-se em duas cadeiras\" que gera tensão crescente com Bruxelas à medida que a guerra russa na Ucrânia, a partir de 2022, polariza o continente.",
       "fontes": [
         "tim-judah-servios",
         "misha-glenny-balcas"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Kosovo_demo_21_Feb_2008_Belgrade_Image_4.jpg",
+        "alt": "Multidão ocupa uma avenida de Belgrado à noite, com bandeiras sérvias erguidas sobre os manifestantes.",
+        "credito": "Mattwhiteski",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Kosovo_demo_21_Feb_2008_Belgrade_Image_4.jpg",
+        "legenda": "Manifestação em Belgrado sobre a independência do Kosovo, em 21 de fevereiro de 2008."
+      }
     }
   ]
 }

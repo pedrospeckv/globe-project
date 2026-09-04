@@ -5,6 +5,7 @@ import { carregarAcervo } from "@/lib/conteudo/carregar";
 import { indexarAlvos } from "@/lib/conteudo/ligacoes";
 import { Prosa } from "@/components/conteudo/Prosa";
 import { FotoHistorica } from "@/components/conteudo/FotoHistorica";
+import { anteriorAFotografia } from "@/lib/conteudo/imagem";
 import { eventosDoPeriodo } from "@/lib/conteudo/evento";
 import { episodiosDoPeriodo, imagensDe } from "@/lib/conteudo/episodio";
 import { nacoesDoPeriodo } from "@/lib/conteudo/nacao";
@@ -103,7 +104,10 @@ export default async function PeriodoPage({
             período, não sobre ele.
           */
           <div className="mb-16 md:mb-20">
-            <FotoHistorica imagem={periodo.imagem} />
+            <FotoHistorica
+              imagem={periodo.imagem}
+              anteriorAFotografia={anteriorAFotografia(periodo.fim)}
+            />
           </div>
         )}
 
@@ -159,7 +163,12 @@ export default async function PeriodoPage({
                           <Prosa texto={e.textoMdx} alvos={alvos} />
                         </div>
 
-                        {e.imagem && <FotoHistorica imagem={e.imagem} />}
+                        {e.imagem && (
+                          <FotoHistorica
+                            imagem={e.imagem}
+                            anteriorAFotografia={anteriorAFotografia(e.data)}
+                          />
+                        )}
                       </div>
                     </div>
                   </li>

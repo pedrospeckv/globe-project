@@ -13,7 +13,15 @@
       "fontes": [
         "ewell-venezuela",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/MAPA-VENEZUELA-1812_0000.jpg/1920px-MAPA-VENEZUELA-1812_0000.jpg",
+        "alt": "Mapa manuscrito de 1812 representa a costa, as províncias e as rotas militares da Venezuela.",
+        "credito": "Tomás Monteverde",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:MAPA-VENEZUELA-1812_0000.jpg",
+        "legenda": "Mapa de 1812 registra o território venezuelano e os acontecimentos militares iniciados em 1810, durante a ruptura com a ordem colonial."
+      }
     },
     {
       "id": "ve-caudilhos",
@@ -24,7 +32,15 @@
       "textoMdx": "Sete décadas em que o país que produziu os libertadores do continente não consegue construir um Estado, e em que a guerra civil é a forma normal de sucessão.\n\n**A separação da Grã-Colômbia é obra de Páez.** Ele governa ou domina a política entre 1830 e 1848, apoiado nos llaneros e na elite conservadora de Caracas. A escravidão só é abolida em 1854.\n\n**A Guerra Federal é a mais destrutiva do século XIX venezuelano.** Entre 1859 e 1863, liberais federalistas e conservadores centralistas destroem o interior; as estimativas de mortos chegam a mais de cem mil, numa população de menos de dois milhões. O resultado é a federação no nome e a ruína no campo.\n\n**Guzmán Blanco moderniza a fachada, entre 1870 e 1888.** Ensino primário obrigatório e gratuito, registro civil, censo, estatística, obras em Caracas, e submissão da Igreja ao Estado. Sob ele o caudilhismo passa a ter forma administrativa, sem deixar de ser caudilhismo.\n\n**O café sustenta o Estado, e a disputa com potências define a fronteira.** A crise do Essequibo com a Grã-Bretanha, em 1895, leva os Estados Unidos a invocar a Doutrina Monroe; o laudo arbitral de 1899 atribui a área à Guiana Britânica, e a Venezuela o declara nulo em 1962 — disputa que segue viva. Em 1902, potências europeias bloqueiam portos venezuelanos por dívidas.\n\n**Os andinos tomam o poder em 1899 e ficam quatro décadas.** Cipriano Castro e depois Juan Vicente Gómez, no poder de 1908 a 1935, encerram o caudilhismo regional criando um exército nacional profissional — e uma ditadura pessoal. É sob Gómez que o petróleo aparece.",
       "fontes": [
         "ewell-venezuela"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Estaci%C3%B3n_Ant%C3%ADmano_del_Gran_Ferrocarril_de_Venezuela.jpg/1920px-Estaci%C3%B3n_Ant%C3%ADmano_del_Gran_Ferrocarril_de_Venezuela.jpg",
+        "alt": "Passageiros e ferroviários posam junto a um trem na estação de Antímano em fotografia do século XIX.",
+        "credito": "Autor não identificado",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_Ant%C3%ADmano_del_Gran_Ferrocarril_de_Venezuela.jpg",
+        "legenda": "A estação de Antímano do Grande Ferrocarril da Venezuela é fotografada em 1890, durante a república dominada por caudilhos."
+      }
     },
     {
       "id": "ve-petroleo-e-ditadura",
@@ -36,7 +52,15 @@
       "fontes": [
         "coronil-estado-magico",
         "ewell-venezuela"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Marcos_P%C3%A9rez_Jim%C3%A9nez_1952.JPG",
+        "alt": "Marcos Pérez Jiménez lê um discurso diante de microfones em uma cerimônia oficial.",
+        "credito": "Governo da Venezuela",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Marcos_P%C3%A9rez_Jim%C3%A9nez_1952.JPG",
+        "legenda": "Marcos Pérez Jiménez discursa após ser empossado presidente em dezembro de 1952."
+      }
     },
     {
       "id": "ve-punto-fijo",
@@ -48,7 +72,15 @@
       "fontes": [
         "coronil-estado-magico",
         "ewell-venezuela"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Manifestantes_allanan_la_Direcci%C3%B3n_de_Seguridad_Nacional.jpg",
+        "alt": "Multidão ocupa o pátio e as janelas da sede da polícia política venezuelana.",
+        "credito": "Autor não identificado",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Manifestantes_allanan_la_Direcci%C3%B3n_de_Seguridad_Nacional.jpg",
+        "legenda": "Manifestantes invadem a sede da Segurança Nacional em Caracas em 23 de janeiro de 1958, após a queda de Pérez Jiménez."
+      }
     },
     {
       "id": "ve-republica-bolivariana",
@@ -59,7 +91,15 @@
       "fontes": [
         "r4v-migracao-venezuelana",
         "coronil-estado-magico"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Hugo_Ch%C3%A1vez_%2802-04-2010%29.jpg/1920px-Hugo_Ch%C3%A1vez_%2802-04-2010%29.jpg",
+        "alt": "Hugo Chávez fala sentado diante de um microfone durante uma reunião oficial.",
+        "credito": "Governo da Federação Russa",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Hugo_Ch%C3%A1vez_(02-04-2010).jpg",
+        "legenda": "Hugo Chávez participa de reunião em abril de 2010, durante a República Bolivariana."
+      }
     }
   ]
 }

@@ -13,7 +13,15 @@
       "fontes": [
         "collier-sater-chile",
         "loveman-chile"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Carta_esf%C3%A9rica_de_las_costas_del_Reyno_de_Chile_%281799%29.jpg/1920px-Carta_esf%C3%A9rica_de_las_costas_del_Reyno_de_Chile_%281799%29.jpg",
+        "alt": "Carta náutica antiga mostra a costa chilena, ilhas, enseadas, linhas de rumo e anotações manuscritas.",
+        "credito": "Alejandro Malaspina; Juan Moreno Tejada; Juan de Lángara; Felipe Bauzá; Pedro Manuel Gangoiti",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Carta_esf%C3%A9rica_de_las_costas_del_Reyno_de_Chile_(1799).jpg",
+        "legenda": "Carta esférica das costas do Reino do Chile elaborada entre 1792 e 1799."
+      }
     },
     {
       "id": "cl-independencia",
@@ -24,7 +32,15 @@
       "textoMdx": "Vinte anos entre a primeira junta e uma ordem constitucional estável, com um intervalo em que a Espanha reconquista o território e recomeça tudo.\n\n**A Patria Vieja termina em derrota.** Entre 1810 e 1814 as juntas de Santiago governam divididas entre quem quer autonomia dentro do império e quem quer separação, e entre as facções de José Miguel Carrera e Bernardo O'Higgins. A batalha de Rancagua, em outubro de 1814, entrega o país de volta às forças realistas vindas do Peru, e a repressão que segue converte muitos autonomistas em independentistas.\n\n**A independência é vencida do outro lado da cordilheira.** Os derrotados atravessam os Andes e, com José de San Martín em Mendoza, formam o Exército dos Andes. A travessia de 1817 e a vitória em Chacabuco devolvem Santiago; a independência é proclamada em 1818 e assegurada em Maipú, no mesmo ano. O Chile passa então a financiar e embarcar a expedição que San Martín levaria ao Peru em 1820 — a guerra continua, mas fora de casa.\n\n**O'Higgins governa como diretor supremo e cai por reformar demais.** Ele abole títulos de nobreza, tenta limitar o mayorazgo e enfrenta a Igreja; a oligarquia agrária e o clero reagem, e ele renuncia em 1823, exilando-se no Peru até morrer.\n\n**Seguem-se sete anos de ensaios constitucionais.** Constituições liberais e federalistas sucedem-se sem sustentar governo, num período que a historiografia chilena chama de anarquia. A escravidão é abolida em 1823, das primeiras da região. A disputa termina na guerra civil de 1829-1830 e na vitória do bando conservador em Lircay — vitória que produz, com Diego Portales, a ordem mais estável da América do Sul no século XIX.",
       "fontes": [
         "collier-sater-chile"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Retrato_de_Don_Bernardo_O%27Higgins_%28Jos%C3%A9_Gil_de_Castro%2C_1820%29.jpg",
+        "alt": "Retrato pintado mostra Bernardo O'Higgins de uniforme, com faixa, espada e bicorne na mão.",
+        "credito": "José Gil de Castro",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Retrato_de_Don_Bernardo_O%27Higgins_(Jos%C3%A9_Gil_de_Castro,_1820).jpg",
+        "legenda": "Retrato de Bernardo O'Higgins pintado por José Gil de Castro em 1820."
+      }
     },
     {
       "id": "cl-republica-conservadora",
@@ -36,7 +52,15 @@
       "fontes": [
         "collier-sater-chile",
         "loveman-chile"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/DiegoPortales.jpg",
+        "alt": "Retrato pintado mostra Diego Portales de casaca escura, camisa branca e olhar voltado para a esquerda.",
+        "credito": "Camilo Domeniconi",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:DiegoPortales.jpg",
+        "legenda": "Retrato de Diego Portales pintado por Camilo Domeniconi em 1837."
+      }
     },
     {
       "id": "cl-expansao",
@@ -48,7 +72,15 @@
       "fontes": [
         "collier-sater-chile",
         "klaren-peru-nacao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/La_escuadra_chilena_en_1879_en_Valpara%C3%ADso.JPG",
+        "alt": "Pintura mostra uma esquadra de navios a vapor e à vela reunida diante do porto de Valparaíso.",
+        "credito": "Thomas Somerscales",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:La_escuadra_chilena_en_1879_en_Valpara%C3%ADso.JPG",
+        "legenda": "Esquadra chilena em Valparaíso, pintada por Thomas Somerscales em 1879."
+      }
     },
     {
       "id": "cl-parlamentarismo",
@@ -60,7 +92,15 @@
       "fontes": [
         "collier-sater-chile",
         "loveman-chile"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Tranv%C3%ADa._Ferrcarril_urbano_de_playa_ancha.jpg",
+        "alt": "Bonde aberto segue por trilhos em uma rua de Valparaíso, com passageiros e pedestres ao redor.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Tranv%C3%ADa._Ferrcarril_urbano_de_playa_ancha.jpg",
+        "legenda": "Tranvia urbano de Playa Ancha fotografado em 1900."
+      }
     },
     {
       "id": "cl-presidencialismo",
@@ -72,7 +112,15 @@
       "fontes": [
         "collier-sater-chile",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Eduardo_Frei_Montalva_en_su_escritorio_de_La_Moneda.jpg",
+        "alt": "Eduardo Frei Montalva está sentado à escrivaninha, escrevendo diante de papéis e objetos de escritório.",
+        "credito": "Biblioteca do Congresso Nacional do Chile",
+        "licenca": "CC BY 3.0 cl",
+        "origem": "https://commons.wikimedia.org/wiki/File:Eduardo_Frei_Montalva_en_su_escritorio_de_La_Moneda.jpg",
+        "legenda": "Eduardo Frei Montalva em seu gabinete no Palácio de La Moneda, em 1964."
+      }
     },
     {
       "id": "cl-unidade-popular",
@@ -84,7 +132,15 @@
       "fontes": [
         "collier-sater-chile",
         "informe-rettig"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Salvador_Allende%2C_President_of_Chile%2C_gtfy.00155.tif/lossy-page1-1920px-Salvador_Allende%2C_President_of_Chile%2C_gtfy.00155.tif.jpg",
+        "alt": "Salvador Allende aparece sentado atrás de uma mesa, com óculos e paletó escuro.",
+        "credito": "Bernard Gotfryd",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Salvador_Allende,_President_of_Chile,_gtfy.00155.tif",
+        "legenda": "Salvador Allende durante sua presidência, entre 1970 e 1973."
+      }
     },
     {
       "id": "cl-ditadura",
@@ -97,7 +153,15 @@
         "informe-rettig",
         "informe-valech",
         "collier-sater-chile"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Quema_de_libros.jpg",
+        "alt": "Soldados observam uma pilha de livros em chamas no meio de uma rua.",
+        "credito": "revista Argentina \"Redaccion\" - Photographer: Charles Burnett (Gamma, 1973)",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Quema_de_libros.jpg",
+        "legenda": "Queima de livros durante a ditadura chilena, publicada em 1974 a partir de fotografia de 1973."
+      }
     },
     {
       "id": "cl-transicao",
@@ -108,7 +172,15 @@
       "fontes": [
         "collier-sater-chile",
         "informe-valech"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Plaza_de_la_Dignidad.jpg/1920px-Plaza_de_la_Dignidad.jpg",
+        "alt": "Faixa com o texto Plaza de la Dignidad está estendida diante de uma multidão e de edifícios de Santiago.",
+        "credito": "B1mbo",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Plaza_de_la_Dignidad.jpg",
+        "legenda": "Protestos na Plaza de la Dignidad, em Santiago, em 8 de novembro de 2019."
+      }
     }
   ]
 }

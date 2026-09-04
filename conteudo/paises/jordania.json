@@ -9,10 +9,18 @@
       "fim": "1946",
       "rotulo": "Emirado da Transjordânia sob o Mandato Britânico",
       "regime": "emirado autônomo dentro do mandato britânico da Palestina",
-      "textoMdx": "A Grã-Bretanha instala o príncipe hachemita Abdullah como emir da Transjordânia em 1921, território desértico de população escassa administrado com relativa autonomia em relação ao mandato britânico da Palestina propriamente dito, do qual formalmente fazia parte inicialmente.\n\n**A Legião Árabe, força militar treinada e comandada por oficiais britânicos, sobretudo o lendário John Bagot Glubb — conhecido como Glubb Pasha —, se tornaria a instituição mais sólida e disciplinada do jovem Estado**, base sobre a qual a monarquia hachemita construiria legitimidade e capacidade de governo duradouras.",
+      "textoMdx": "A Grã-Bretanha instala o príncipe hachemita Abdullah como emir da Transjordânia em 1921, território desértico de população escassa administrado com relativa autonomia em relação ao mandato britânico da Palestina propriamente dito, do qual formalmente fazia parte inicialmente.\n\n**A Legião Árabe, força militar treinada e comandada por oficiais britânicos, sobretudo o lendário John Bagot Glubb — conhecido como Glubb Pasha —, se tornou a instituição mais sólida e disciplinada do jovem Estado**, base sobre a qual a monarquia hachemita construiu legitimidade e capacidade de governo.",
       "fontes": [
         "kamal-salibi-jordania"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/T._E._Lawrence%2C_Herbert_Samuel%2C_Emir_Abdullah_-_Amman_1921.jpg/1920px-T._E._Lawrence%2C_Herbert_Samuel%2C_Emir_Abdullah_-_Amman_1921.jpg",
+        "alt": "Grupo de autoridades no aeródromo de Amã, com T. E. Lawrence, Herbert Samuel e o emir Abdullah em destaque.",
+        "credito": "American Colony Photo Department · Library of Congress",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:T._E._Lawrence,_Herbert_Samuel,_Emir_Abdullah_-_Amman_1921.jpg",
+        "legenda": "O emir Abdullah aparece em Amã com Herbert Samuel e T. E. Lawrence em abril de 1921, no início da Transjordânia."
+      }
     },
     {
       "id": "jor-reino-hachemita-abdullah-hussein",
@@ -20,20 +28,36 @@
       "fim": "1999",
       "rotulo": "Reino Hachemita sob Abdullah I e Hussein",
       "regime": "monarquia constitucional hachemita",
-      "textoMdx": "A independência plena, obtida em 1946, é seguida rapidamente pela guerra árabe-israelense de 1948, na qual a Transjordânia ocupa e depois anexa formalmente a Cisjordânia, incluindo Jerusalém Oriental — único Estado árabe a formalizar anexação de território conquistado, reconhecida internacionalmente apenas pelo Reino Unido e pelo Paquistão.\n\n**O rei Abdullah I é assassinado em 1951 por nacionalista palestino, no complexo da Mesquita de Al-Aqsa em Jerusalém, ressentido com negociações percebidas como excessivamente conciliadoras com Israel** — seu neto Hussein, que assumiria o trono em 1953 ainda jovem, governaria por quase meio século em meio a turbulência regional constante.\n\nA derrota árabe na Guerra dos Seis Dias, em 1967, custa à Jordânia o controle da Cisjordânia, ocupada por Israel — perda territorial que a Jordânia só reconheceria formalmente, renunciando qualquer reivindicação, em 1988, em favor de eventual Estado palestino próprio.\n\nO conflito de Setembro Negro, em 1970, opõe o Exército jordaniano às forças da OLP, que operavam com crescente autonomia militar dentro do território — combates que expulsam a liderança palestina para o Líbano, e que Hussein consolidaria décadas depois assinando tratado de paz formal com Israel em 1994, o segundo Estado árabe a fazê-lo.",
+      "textoMdx": "A independência plena, obtida em 1946, é seguida rapidamente pela guerra árabe-israelense de 1948, na qual a Transjordânia ocupa e depois anexa formalmente a Cisjordânia, incluindo Jerusalém Oriental — único Estado árabe a formalizar anexação de território conquistado, reconhecida internacionalmente apenas pelo Reino Unido e pelo Paquistão.\n\n**O rei Abdullah I é assassinado em 1951 por nacionalista palestino, no complexo da Mesquita de Al-Aqsa em Jerusalém, ressentido com negociações percebidas como excessivamente conciliadoras com Israel** — seu neto Hussein, que assumiu o trono em 1953 ainda jovem, governou por quase meio século em meio a turbulência regional constante.\n\nA derrota árabe na Guerra dos Seis Dias, em 1967, custa à Jordânia o controle da Cisjordânia, ocupada por Israel — perda territorial que a Jordânia só reconheceu formalmente, renunciando qualquer reivindicação, em 1988, em favor de eventual Estado palestino próprio.\n\nO conflito de Setembro Negro, em 1970, opõe o Exército jordaniano às forças da OLP, que operavam com crescente autonomia militar dentro do território — combates que expulsam a liderança palestina para o Líbano, e que Hussein consolidou décadas depois assinando tratado de paz formal com Israel em 1994, o segundo Estado árabe a fazê-lo.",
       "fontes": [
         "kamal-salibi-jordania"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Flickr_-_Government_Press_Office_%28GPO%29_-_PM_YITZHAK_RABIN_AND_JORDAN%27S_KING_HUSSEIN_SIGN_THE_PEACE_TREATY.jpg/1920px-Flickr_-_Government_Press_Office_%28GPO%29_-_PM_YITZHAK_RABIN_AND_JORDAN%27S_KING_HUSSEIN_SIGN_THE_PEACE_TREATY.jpg",
+        "alt": "Yitzhak Rabin e o rei Hussein assinam um acordo em mesas lado a lado, observados por Bill Clinton.",
+        "credito": "Yaakov Saar · Israel Government Press Office",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_(GPO)_-_PM_YITZHAK_RABIN_AND_JORDAN%27S_KING_HUSSEIN_SIGN_THE_PEACE_TREATY.jpg",
+        "legenda": "O rei Hussein e Yitzhak Rabin formalizam em Washington, em 1994, o acordo que abriu caminho para a paz entre Jordânia e Israel."
+      }
     },
     {
       "id": "jor-abdullah-ii-atual",
       "inicio": "1999",
       "rotulo": "Reino sob Abdullah II",
       "regime": "monarquia constitucional",
-      "textoMdx": "Abdullah II sucede o pai Hussein em 1999, mantendo a Jordânia como aliado ocidental confiável em região cronicamente instável, apesar de recursos naturais escassos e dependência considerável de ajuda externa.\n\n**A Jordânia absorve sucessivas ondas maciças de refugiados desproporcionais ao seu tamanho — iraquianos após a invasão americana de 2003, e sobretudo sírios após 2011, com o campo de Zaatari se tornando um dos maiores assentamentos de refugiados do mundo** — pressão demográfica e econômica que testaria repetidamente a capacidade e a estabilidade do pequeno reino.\n\n**A guerra em Gaza, iniciada em 2023, gera tensão interna considerável entre a política externa moderada da monarquia — que preserva o tratado de paz com Israel — e a opinião pública jordaniana, majoritariamente de origem palestina em proporção significativa, profundamente solidária à causa palestina** — equilíbrio delicado que Abdullah II navegaria como uma das provas mais exigentes de seu reinado.",
+      "textoMdx": "Abdullah II sucede o pai Hussein em 1999, mantendo a Jordânia como aliado ocidental confiável em região cronicamente instável, apesar de recursos naturais escassos e dependência de ajuda externa.\n\n**A Jordânia absorve sucessivas ondas maciças de refugiados desproporcionais ao seu tamanho — iraquianos após a invasão americana de 2003, e sobretudo sírios após 2011, com o campo de Zaatari se tornando um dos maiores assentamentos de refugiados do mundo** — pressão demográfica e econômica que testou repetidamente a capacidade e a estabilidade do pequeno reino.\n\n**A guerra em Gaza, iniciada em 2023, gera tensão interna entre a política externa moderada da monarquia — que preserva o tratado de paz com Israel — e a opinião pública jordaniana, majoritariamente de origem palestina em proporção significativa, solidária à causa palestina** — equilíbrio delicado que Abdullah II navegou como uma das provas mais exigentes de seu reinado.",
       "fontes": [
         "kamal-salibi-jordania"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/An_Aerial_View_of_the_Za%27atri_Refugee_Camp.jpg/1920px-An_Aerial_View_of_the_Za%27atri_Refugee_Camp.jpg",
+        "alt": "Vista aérea do campo de refugiados de Za'atari, formado por extensas fileiras de tendas e abrigos no deserto.",
+        "credito": "U.S. Department of State",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:An_Aerial_View_of_the_Za%27atri_Refugee_Camp.jpg",
+        "legenda": "O campo de Za'atari em 2013 evidencia o impacto da guerra síria sobre a Jordânia durante o reinado de Abdullah II."
+      }
     }
   ]
 }

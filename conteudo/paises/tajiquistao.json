@@ -9,10 +9,18 @@
       "fim": "999",
       "rotulo": "Império Samânida",
       "regime": "dinastia governadora sob suserania abássida, depois de facto independente",
-      "textoMdx": "A família samânida, designada governadora de províncias da Ásia Central pelo califado abássida a partir de 819, consolida progressivamente autoridade de facto independente com capital em Bukhará, tornando-se a primeira dinastia nativa iraniana a governar amplamente após dois séculos de domínio árabe direto sobre a região.\n\n**O período samânida promove renascimento decisivo da língua e literatura persas, então marginalizadas pelo árabe como idioma de prestígio cultural e administrativo** — a corte samânida patrocina poetas como Rudaki, considerado o pai da poesia persa moderna, lançando tradição literária que influenciaria toda a Ásia posteriormente persianizada.\n\n**Bukhará se torna, sob os samânidas, um dos maiores centros intelectuais do mundo islâmico, sede de bibliotecas renomadas e polo de estudos médicos, filosóficos e científicos** — o próprio Avicena, um dos maiores polímatas da história islâmica, formaria seu pensamento inicial nesse ambiente.\n\n**A dinastia entra em declínio ao longo do século X diante de pressão financeira e militar crescente, sendo finalmente derrubada pela dinastia turca cara-canida em 999** — extinguindo a última grande dinastia nativa persa da região antes de séculos de domínio predominantemente turco e mongol subsequente.",
+      "textoMdx": "A família samânida, designada governadora de províncias da Ásia Central pelo califado abássida a partir de 819, consolida progressivamente autoridade de facto independente com capital em Bukhará, tornando-se a primeira dinastia nativa iraniana a governar amplamente após dois séculos de domínio árabe direto sobre a região.\n\n**O período samânida promove renascimento decisivo da língua e literatura persas, então marginalizadas pelo árabe como idioma de prestígio cultural e administrativo** — a corte samânida patrocina poetas como Rudaki, considerado o pai da poesia persa moderna, lançando tradição literária que influenciou toda a Ásia posteriormente persianizada.\n\n**Bukhará se torna, sob os samânidas, um dos maiores centros intelectuais do mundo islâmico, sede de bibliotecas renomadas e polo de estudos médicos, filosóficos e científicos** — o próprio Avicena, um dos maiores polímatas da história islâmica, formou seu pensamento inicial nesse ambiente.\n\n**A dinastia entra em declínio ao longo do século X diante de pressão financeira e militar crescente, sendo finalmente derrubada pela dinastia turca cara-canida em 999** — extinguindo a última grande dinastia nativa persa da região antes de séculos de domínio predominantemente turco e mongol subsequente.",
       "fontes": [
         "nourzhanov-bleuer-tajiquistao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Coin_of_the_Samanid_ruler_Nuh_I%2C_minted_at_Nishapur_in_948_or_949.jpg",
+        "alt": "Moeda de prata apresenta inscrições árabes concêntricas nas duas faces.",
+        "credito": "Classical Numismatic Group",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Coin_of_the_Samanid_ruler_Nuh_I,_minted_at_Nishapur_in_948_or_949.jpg",
+        "legenda": "Moeda do emir samânida Nuh I cunhada em Nishapur em 948 ou 949."
+      }
     },
     {
       "id": "tjk-emirado-bukhara-imperio-russo",
@@ -24,7 +32,15 @@
       "fontes": [
         "nourzhanov-bleuer-tajiquistao",
         "adeeb-khalid-asia-central"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Abd_al-Ahad_Khan.jpeg",
+        "alt": "O emir Abd al-Ahad Khan posa com túnica bordada e turbante em um retrato de estúdio.",
+        "credito": "Autor não identificado",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Abd_al-Ahad_Khan.jpeg",
+        "legenda": "Abd al-Ahad Khan, emir de Bukhará sob o protetorado russo, é retratado em 1895."
+      }
     },
     {
       "id": "tjk-tajiquistao-sovietico",
@@ -32,10 +48,18 @@
       "fim": "1991",
       "rotulo": "República Socialista Soviética do Tajiquistão",
       "regime": "região autônoma dentro do Uzbequistão soviético, depois república plena a partir de 1929",
-      "textoMdx": "A Delimitação Nacional de 1924 cria inicialmente região autônoma tadjique dentro da recém-formada República Socialista Soviética do Uzbequistão, elevada a república plena separada apenas em 1929 — mas Samarcanda e Bukhará, os dois maiores centros históricos da cultura persa tadjique na região, permanecem dentro das fronteiras uzbeques, decisão que a intelligentsia tadjique consideraria injustiça territorial duradoura.\n\nO Tajiquistão soviético permanece a mais pobre e montanhosa das repúblicas centro-asiáticas, com desenvolvimento econômico concentrado nos vales férteis do norte, enquanto as regiões montanhosas do Pamir, no leste, preservam autonomia cultural e religiosa distinta como território predominantemente ismaelita, não sunita.\n\n**A crise econômica do final do período soviético expõe divisões regionais e de clã profundas dentro da elite política tadjique**, tensões que explodiriam em conflito civil aberto assim que o controle centralizador de Moscou desaparecesse com a dissolução da União Soviética.",
+      "textoMdx": "A Delimitação Nacional de 1924 cria inicialmente região autônoma tadjique dentro da recém-formada República Socialista Soviética do Uzbequistão, elevada a república plena separada apenas em 1929 — mas Samarcanda e Bukhará, os dois maiores centros históricos da cultura persa tadjique na região, permanecem dentro das fronteiras uzbeques, decisão que a intelligentsia tadjique considerou injustiça territorial permanente.\n\nO Tajiquistão soviético permanece a mais pobre e montanhosa das repúblicas centro-asiáticas, com desenvolvimento econômico concentrado nos vales férteis do norte, enquanto as regiões montanhosas do Pamir, no leste, preservam autonomia cultural e religiosa distinta como território predominantemente ismaelita, não sunita.\n\n**A crise econômica do final do período soviético expõe divisões regionais e de clã profundas dentro da elite política tadjique**, tensões que explodiram em conflito civil aberto assim que o controle centralizador de Moscou desapareceu com a dissolução da União Soviética.",
       "fontes": [
         "nourzhanov-bleuer-tajiquistao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/The_Soviet_Union_1964_CPA_3103_stamp_%28Soviet_Socialist_Republics._40th_anniversary_of_Soviet_Tajikistan._Building_of_Communist_Central_Committee_in_Dushanbe%29.jpg",
+        "alt": "Selo soviético mostra um edifício governamental de Dushanbe diante de montanhas e uma bandeira vermelha.",
+        "credito": "Correios da União Soviética · S. A. Pomansky e T. Nikitina",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1964_CPA_3103_stamp_(Soviet_Socialist_Republics._40th_anniversary_of_Soviet_Tajikistan._Building_of_Communist_Central_Committee_in_Dushanbe).jpg",
+        "legenda": "Selo de 1964 celebra os quarenta anos do Tajiquistão soviético com a sede do Comitê Central em Dushanbe."
+      }
     },
     {
       "id": "tjk-guerra-civil-independencia",
@@ -43,21 +67,37 @@
       "fim": "1997",
       "rotulo": "Independência e Guerra Civil",
       "regime": "Estado em colapso, fragmentado por controle militar de facções regionais e políticas rivais",
-      "textoMdx": "A independência tadjique, em 1991, mergulha rapidamente em guerra civil entre uma coalizão governista apoiada por redes regionais de Kulyab e Leninabad, e uma oposição heterogênea que reúne democratas, nacionalistas e o Partido do Renascimento Islâmico, com base de apoio nas regiões de Garm e do Pamir.\n\n**O conflito, entre 1992 e 1997, mata segundo estimativas entre cinquenta mil e cem mil pessoas e desloca centenas de milhares — proporcionalmente uma das guerras civis mais sangrentas do espaço pós-soviético**, com limpeza étnica e de clã documentada por ambos os lados do conflito.\n\n**O Acordo Geral de Paz, mediado pela ONU e assinado em Moscou em 1997, encerra formalmente o conflito através de comissão de reconciliação nacional que integraria parcialmente a oposição ao governo** — pacificação que consolidaria, na prática, o domínio duradouro de Emomali Rahmon, presidente desde 1992, sobre a política tadjique nas décadas seguintes.",
+      "textoMdx": "A independência tadjique, em 1991, mergulha rapidamente em guerra civil entre uma coalizão governista apoiada por redes regionais de Kulyab e Leninabad, e uma oposição heterogênea que reúne democratas, nacionalistas e o Partido do Renascimento Islâmico, com base de apoio nas regiões de Garm e do Pamir.\n\n**O conflito, entre 1992 e 1997, mata segundo estimativas entre cinquenta mil e cem mil pessoas e desloca centenas de milhares — proporcionalmente uma das guerras civis mais sangrentas do espaço pós-soviético**, com limpeza étnica e de clã documentada por ambos os lados do conflito.\n\n**O Acordo Geral de Paz, mediado pela ONU e assinado em Moscou em 1997, encerra formalmente o conflito através de comissão de reconciliação nacional que integrou parcialmente a oposição ao governo** — pacificação que consolidou, na prática, o domínio de Emomali Rahmon, presidente desde 1992, sobre a política tadjique nas décadas seguintes.",
       "fontes": [
         "nourzhanov-bleuer-tajiquistao",
         "acordo-paz-tajiquistao-1997"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Spetsnaz_troopers_during_the_1992_Tajik_war.jpg",
+        "alt": "Grupo de soldados armados posa diante de veículos militares em uma paisagem árida.",
+        "credito": "Dmitry Ivlyov",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Spetsnaz_troopers_during_the_1992_Tajik_war.jpg",
+        "legenda": "Soldados da 15ª Brigada Spetsnaz atuam no Tajiquistão durante a guerra civil, por volta de 1992."
+      }
     },
     {
       "id": "tjk-rahmon-atual",
       "inicio": "1997",
       "rotulo": "Tajiquistão sob Emomali Rahmon",
       "regime": "república presidencialista autoritária",
-      "textoMdx": "Emomali Rahmon consolida poder crescente ao longo das décadas seguintes à guerra civil, eliminando gradualmente antigos parceiros da coalizão de paz de 1997 — o Partido do Renascimento Islâmico, outrora legalmente integrado ao acordo, seria banido e classificado como organização terrorista em 2015.\n\n**A economia tadjique permanece extremamente dependente de remessas de trabalhadores migrantes na Rússia, que chegam a representar mais de um terço do produto interno bruto nacional em determinados anos** — vulnerabilidade que expõe o país diretamente a flutuações econômicas e políticas russas, incluindo o impacto de sanções ocidentais pós-2022.\n\n**Disputas fronteiriças com o Quirguistão vizinho, herdadas de fronteiras soviéticas mal demarcadas no populoso e fértil vale de Fergana, provocam confrontos armados recorrentes na década de 2020, incluindo combates de 2021 e 2022 que mataram dezenas de pessoas de ambos os lados** — a mais grave violência interestatal armada entre repúblicas centro-asiáticas desde a independência.",
+      "textoMdx": "Emomali Rahmon consolida poder crescente ao longo das décadas seguintes à guerra civil, eliminando gradualmente antigos parceiros da coalizão de paz de 1997 — o Partido do Renascimento Islâmico, outrora legalmente integrado ao acordo, foi banido e classificado como organização terrorista em 2015.\n\n**A economia tadjique permanece extremamente dependente de remessas de trabalhadores migrantes na Rússia, que chegam a representar mais de um terço do produto interno bruto nacional em determinados anos** — vulnerabilidade que expõe o país diretamente a flutuações econômicas e políticas russas, incluindo o impacto de sanções ocidentais pós-2022.\n\n**Disputas fronteiriças com o Quirguistão vizinho, herdadas de fronteiras soviéticas mal demarcadas no populoso e fértil vale de Fergana, provocam confrontos armados recorrentes na década de 2020, incluindo combates de 2021 e 2022 que mataram dezenas de pessoas de ambos os lados** — a mais grave violência interestatal armada entre repúblicas centro-asiáticas desde a independência.",
       "fontes": [
         "nourzhanov-bleuer-tajiquistao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Emomali_Rahmonov_2001.jpg",
+        "alt": "Emomali Rahmon fala diante de microfones enquanto autoridades o acompanham em Dushanbe.",
+        "credito": "Robert D. Ward · U.S. Department of Defense",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Emomali_Rahmonov_2001.jpg",
+        "legenda": "O presidente Emomali Rahmon recebe uma delegação norte-americana em Dushanbe em novembro de 2001."
+      }
     }
   ]
 }

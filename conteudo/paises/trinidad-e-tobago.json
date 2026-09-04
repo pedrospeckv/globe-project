@@ -13,7 +13,15 @@
       "fontes": [
         "williams-trinidad-tobago",
         "knight-caribe"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/W.H._Whiteman_-_Port_Of_Spain%2C_Trinidad_circa_1900.jpg/1920px-W.H._Whiteman_-_Port_Of_Spain%2C_Trinidad_circa_1900.jpg",
+        "alt": "Vista panorâmica em preto e branco dos telhados de Port of Spain, com árvores, uma torre de igreja e o mar ao fundo.",
+        "credito": "William Henry Whiteman · Caribbean Photo Archive",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:W.H._Whiteman_-_Port_Of_Spain,_Trinidad_circa_1900.jpg",
+        "legenda": "Port of Spain por volta de 1900, no período colonial britânico."
+      }
     },
     {
       "id": "tt-independencia",
@@ -23,7 +31,15 @@
       "textoMdx": "A independência chega em 31 de agosto de 1962, com Eric Williams — o historiador que escreveu *Capitalism and Slavery* — como primeiro-ministro, cargo que ocuparia por dezenove anos até morrer.\n\n**O Estado se organiza sobre a renda do petróleo.** Williams nacionaliza parte da indústria e usa o choque de preços de 1973-1974 para investir em siderurgia, metanol, amônia e infraestrutura, num programa que faz do país o mais industrializado do Caribe anglófono. Torna-se república em 1976, substituindo a rainha por um presidente cerimonial.\n\n**O Black Power de 1970 é a crise interna do período.** Protestos em massa contra a desigualdade racial e econômica levam a estado de emergência e a um motim de parte do exército em Teteron — episódio que revela que a independência formal não havia resolvido a hierarquia herdada.\n\n**A política se organiza em boa medida por linhas étnicas.** O PNM, de base afro-trinitária, e depois o UNC, de base indo-trinitária, alternam-se; em 1995 Basdeo Panday torna-se o primeiro primeiro-ministro de origem indiana, e em 2010 Kamla Persad-Bissessar a primeira mulher no cargo.\n\n**A tentativa de golpe de 1990 é a mais estranha da região.** O grupo Jamaat al Muslimeen toma o parlamento e a televisão estatal, mantém o primeiro-ministro e deputados como reféns por seis dias e se rende sob promessa de anistia — depois anulada pelos tribunais.\n\n**A economia é gás natural, e a diversificação é a pauta.** Trinidad é um grande exportador de gás liquefeito e de produtos petroquímicos, com renda por habitante alta para a região e vulnerabilidade a preço. Tobago tem assembleia própria com autonomia desde 1980, e o debate sobre ampliá-la segue aberto. O país também recebeu um contingente grande de migrantes venezuelanos, dado que a costa venezuelana está a poucos quilômetros.",
       "fontes": [
         "williams-trinidad-tobago"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Eric_Williams_%28cropped%29.jpg",
+        "alt": "Retrato em preto e branco de Eric Williams usando terno, gravata e óculos escuros.",
+        "credito": "Joop van Bilsen · Anefo",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Eric_Williams_(cropped).jpg",
+        "legenda": "Eric Williams, primeiro-ministro de Trinidad e Tobago, em outubro de 1962."
+      }
     }
   ]
 }

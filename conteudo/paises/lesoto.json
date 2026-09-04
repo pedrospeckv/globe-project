@@ -9,10 +9,18 @@
       "fim": "1868",
       "rotulo": "Reino Basoto sob Moshoeshoe I",
       "regime": "nova nação forjada a partir de refugiados dispersos, unificada por diplomacia hábil e fortaleza inexpugnável",
-      "textoMdx": "Moshoeshoe I unifica, a partir de 1822, refugiados e sobreviventes dispersos pelo violento período de reorganização populacional conhecido como mfecane, forjando nova identidade basota coesa através de diplomacia excepcionalmente hábil e da base estratégica quase inexpugnável de Thaba Bosiu, \"Montanha da Noite\" — jamais tomada apesar de ataques repetidos.\n\nMoshoeshoe preserva a independência basota por décadas através de manobra diplomática constante entre potências rivais, incluindo o crescente Estado Livre de Orange bôer, que pressionaria repetidamente o território por terras e recursos.\n\nDiante de ameaça territorial bôer cada vez mais séria, Moshoeshoe busca e obtém proteção britânica formal em 1868 — decisão estratégica que preservaria a existência distinta do reino basoto, similar em lógica à escolha que reis tswana fariam décadas depois no território que se tornaria Botsuana.",
+      "textoMdx": "Moshoeshoe I unifica, a partir de 1822, refugiados e sobreviventes dispersos pelo violento período de reorganização populacional conhecido como mfecane, forjando nova identidade basota coesa através de diplomacia excepcionalmente hábil e da base estratégica quase inexpugnável de Thaba Bosiu, \"Montanha da Noite\" — jamais tomada apesar de ataques repetidos.\n\nMoshoeshoe preserva a independência basota por décadas através de manobra diplomática constante entre potências rivais, incluindo o crescente Estado Livre de Orange bôer, que pressionou repetidamente o território por terras e recursos.\n\nDiante de ameaça territorial bôer cada vez mais séria, Moshoeshoe busca e obtém proteção britânica formal em 1868 — decisão estratégica que preservou a existência distinta do reino basoto, similar em lógica à escolha que reis tswana fizeram décadas depois no território que se tornou Botsuana.",
       "fontes": [
         "elizabeth-eldredge-lesoto"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/King_Moshoeshoe_of_the_Basotho_with_his_ministers.jpg/1920px-King_Moshoeshoe_of_the_Basotho_with_his_ministers.jpg",
+        "alt": "Moshoeshoe I está sentado ao centro, envolto em cobertor, cercado por ministros e conselheiros basotos.",
+        "credito": "Fotógrafo anônimo · Bensusan Museum",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:King_Moshoeshoe_of_the_Basotho_with_his_ministers.jpg",
+        "legenda": "Moshoeshoe I posa com seus ministros por volta de 1860, após unificar comunidades basotas sob sua liderança."
+      }
     },
     {
       "id": "lso-protetorado-basutolandia",
@@ -20,20 +28,36 @@
       "fim": "1966",
       "rotulo": "Protetorado da Basutolândia",
       "regime": "protetorado britânico mantido sob administração direta, preservado da incorporação à futura União Sul-Africana",
-      "textoMdx": "A Basutolândia permanece sob administração colonial britânica direta ao longo de quase um século, deliberadamente não transferida à vizinha Colônia do Cabo nem, posteriormente, à União Sul-Africana — preservação de soberania distinta que se revelaria crucial dado o rumo que a África do Sul tomaria com o apartheid décadas depois.\n\nA independência plena, obtida em outubro de 1966 como Reino do Lesoto sob o rei Moshoeshoe II, cria enclave territorial inteiramente cercado por um único vizinho maior e muito mais poderoso — configuração geográfica que definiria permanentemente as opções econômicas e políticas do pequeno reino.",
+      "textoMdx": "A Basutolândia permanece sob administração colonial britânica direta ao longo de quase um século, deliberadamente não transferida à vizinha Colônia do Cabo nem, posteriormente, à União Sul-Africana — preservação de soberania distinta que se revelou crucial dado o rumo que a África do Sul tomou com o apartheid décadas depois.\n\nA independência plena, obtida em outubro de 1966 como Reino do Lesoto sob o rei Moshoeshoe II, cria enclave territorial inteiramente cercado por um único vizinho maior e muito mais poderoso — configuração geográfica que definiu permanentemente as opções econômicas e políticas do pequeno reino.",
       "fontes": [
         "elizabeth-eldredge-lesoto"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/IY188_pg389_MASERU%2C_BASUTOLAND.jpg",
+        "alt": "Gravura do século XIX mostra Maseru com construções dispersas, caminhos e montanhas ao fundo.",
+        "credito": "Autor não identificado · Internet Archive",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:IY188_pg389_MASERU,_BASUTOLAND.jpg",
+        "legenda": "Maseru aparece numa gravura publicada em 1887, durante a consolidação do protetorado da Basutolândia."
+      }
     },
     {
       "id": "lso-independencia-instabilidade-atual",
       "inicio": "1966",
       "rotulo": "Independência e a instabilidade política crônica",
       "regime": "monarquia constitucional, marcada por instabilidade política recorrente e intervenções externas",
-      "textoMdx": "O Lesoto independente enfrenta décadas de instabilidade política significativa, incluindo golpe militar em 1986 e ataque militar direto sul-africano à capital Maseru em 1982, visando exilados do Congresso Nacional Africano ali refugiados.\n\nUma intervenção militar da Comunidade de Desenvolvimento da África Austral, em 1998, restaura a ordem após violência severa pós-eleitoral — instabilidade recorrente continuaria a marcar a política lesota nas décadas seguintes, incluindo tentativa de golpe em 2014 e tensão persistente e ambígua entre a monarquia cerimonial e a autoridade do governo eleito.\n\nO Projeto de Água das Terras Altas do Lesoto, que exporta água para a economicamente vital região de Gauteng, na África do Sul, forma, junto com a manufatura têxtil e remessas de mineiros basotos empregados em minas sul-africanas, pilar central da pequena economia do reino.",
+      "textoMdx": "O Lesoto independente enfrenta décadas de instabilidade política significativa, incluindo golpe militar em 1986 e ataque militar direto sul-africano à capital Maseru em 1982, visando exilados do Congresso Nacional Africano ali refugiados.\n\nUma intervenção militar da Comunidade de Desenvolvimento da África Austral, em 1998, restaura a ordem após violência severa pós-eleitoral — instabilidade recorrente continuou a marcar a política lesota nas décadas seguintes, incluindo tentativa de golpe em 2014 e tensão persistente e ambígua entre a monarquia cerimonial e a autoridade do governo eleito.\n\nO Projeto de Água das Terras Altas do Lesoto, que exporta água para a economicamente vital região de Gauteng, na África do Sul, forma, junto com a manufatura têxtil e remessas de mineiros basotos empregados em minas sul-africanas, pilar central da pequena economia do reino.",
       "fontes": [
         "elizabeth-eldredge-lesoto"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lesotho_Independence_Act_1966_%28UKPGA_1966-24_qp%29.pdf/page1-500px-Lesotho_Independence_Act_1966_%28UKPGA_1966-24_qp%29.pdf.jpg",
+        "alt": "Primeira página impressa da Lei de Independência do Lesoto de 1966, com título, data e texto legislativo.",
+        "credito": "Parliament of the United Kingdom",
+        "licenca": "OGL v3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Lesotho_Independence_Act_1966_(UKPGA_1966-24_qp).pdf",
+        "legenda": "A Lei de Independência do Lesoto, aprovada em agosto de 1966, preparou a criação do reino soberano em outubro."
+      }
     }
   ]
 }

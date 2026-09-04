@@ -99,6 +99,22 @@ interface Props {
   deslocamento?: [number, number];
   selecionado: Alpha3 | null;
   onSelecionar: (a: Alpha3) => void;
+  /**
+   * Duplo clique: entrar no dossiê do país.
+   *
+   * Fica separado de `onSelecionar` porque as duas ações têm custo diferente.
+   * Selecionar é reversível e barato — acende o país, escreve o período e o
+   * regime na linha de baixo, e desfaz-se clicando em outro. Entrar troca de
+   * página e abandona a data que a pessoa levou tempo escolhendo na barra.
+   *
+   * Fazer o clique simples navegar deixaria o mapa impossível de explorar:
+   * cada tentativa de ler o que um país era em 1650 tiraria o leitor do mapa.
+   * O duplo clique é o gesto que já significa "abrir" em toda interface de
+   * arquivo, e não colide com o arrasto, que usa eventos de ponteiro.
+   *
+   * Opcional para não quebrar quem monta o overlay só para ler.
+   */
+  onAbrir?: (a: Alpha3) => void;
   /** Países cujo território abrigava mais de um Estado nesta data. */
   divididos?: readonly Alpha3[];
   /** Territórios de soberania disputada, marcados por polígono e não por país. */
@@ -145,6 +161,7 @@ export function GeoOverlay({
   deslocamento,
   selecionado,
   onSelecionar,
+  onAbrir,
   divididos = [],
   disputados = [],
   disputasMarcadas = [],
@@ -261,6 +278,7 @@ export function GeoOverlay({
               style={{ pointerEvents: "all" }}
               className="cursor-pointer transition-[fill-opacity] duration-200"
               onClick={() => onSelecionar(alpha3)}
+              onDoubleClick={() => onAbrir?.(alpha3)}
             >
               <title>
                 {partido ? `${alpha3} — território dividido` : alpha3}
@@ -287,6 +305,7 @@ export function GeoOverlay({
               strokeDasharray="3 2"
               className="pointer-events-auto cursor-pointer"
               onClick={() => onSelecionar(alpha3)}
+              onDoubleClick={() => onAbrir?.(alpha3)}
             >
               <title>{`${disputa.nome} — soberania disputada`}</title>
             </path>

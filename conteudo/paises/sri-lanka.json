@@ -9,10 +9,18 @@
       "fim": "1017",
       "rotulo": "Reino de Anuradhapura",
       "regime": "uma das monarquias mais duradouras da história mundial, transformada pela chegada do budismo",
-      "textoMdx": "O Reino de Anuradhapura se estabelece na tradição histórica cingalesa por volta do século IV antes de Cristo, tornando-se uma das monarquias de existência mais longa e continuada de toda a história mundial.\n\nA chegada do budismo por volta de 250 antes de Cristo, através da missão do príncipe Mahinda, filho do imperador indiano Ashoka, transformaria permanentemente a civilização da ilha — Anuradhapura desenvolveria sistemas de engenharia hidráulica extraordinários, com vastos reservatórios artificiais sustentando agricultura e centros urbanos sofisticados por mais de mil anos.\n\nInvasões recorrentes de reinos tâmeis do sul da Índia, sobretudo dos Chola, enfraquecem progressivamente a autoridade central de Anuradhapura — uma conquista Chola decisiva em 1017 forçaria o deslocamento definitivo do centro político da ilha para nova capital.",
+      "textoMdx": "O Reino de Anuradhapura se estabelece na tradição histórica cingalesa por volta do século IV antes de Cristo, tornando-se uma das monarquias de existência mais longa e continuada de toda a história mundial.\n\nA chegada do budismo por volta de 250 antes de Cristo, através da missão do príncipe Mahinda, filho do imperador indiano Ashoka, transformou permanentemente a civilização da ilha — Anuradhapura desenvolveu sistemas de engenharia hidráulica extraordinários, com vastos reservatórios artificiais sustentando agricultura e centros urbanos sofisticados por mais de mil anos.\n\nInvasões recorrentes de reinos tâmeis do sul da Índia, sobretudo dos Chola, enfraquecem progressivamente a autoridade central de Anuradhapura — uma conquista Chola decisiva em 1017 forçou o deslocamento definitivo do centro político da ilha para nova capital.",
       "fontes": [
         "km-de-silva-sri-lanka"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Bronze_imitation_of_Roman_coin_Sri_Lanka_South_India_4th_to_8th_century_CE.jpg",
+        "alt": "Duas faces de uma moeda de bronze escurecida aparecem lado a lado, com figuras e marcas em relevo.",
+        "credito": "Uploadalt · British Museum",
+        "licenca": "CC BY-SA 3.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Bronze_imitation_of_Roman_coin_Sri_Lanka_South_India_4th_to_8th_century_CE.jpg",
+        "legenda": "Imitação cingalesa de moeda romana produzida entre os séculos IV e VIII, durante o Reino de Anuradhapura."
+      }
     },
     {
       "id": "lka-reinos-sucessores-polonnaruwa-kotte",
@@ -20,10 +28,18 @@
       "fim": "1597",
       "rotulo": "Reinos sucessores: Polonnaruwa e Kotte",
       "regime": "reinos nativos sucessivos, com centro político deslocando-se progressivamente para o sul e o oeste",
-      "textoMdx": "O rei Vijayabahu I reunifica a ilha sob domínio nativo restaurado em 1070, estabelecendo nova capital em Polonnaruwa — os séculos seguintes veriam o centro político deslocar-se progressivamente mais ao sul e oeste, através de Dambadeniya e Gampola, diante de pressão continuada de potências do sul da Índia e disputas sucessórias internas recorrentes.\n\nO Reino de Cota emerge como potência costeira dominante por volta da chegada dos primeiros navegadores portugueses, em 1505, encontrando ilha politicamente fragmentada entre múltiplos centros de poder rivais.",
+      "textoMdx": "O rei Vijayabahu I reunifica a ilha sob domínio nativo restaurado em 1070, estabelecendo nova capital em Polonnaruwa — os séculos seguintes viram o centro político deslocar-se progressivamente mais ao sul e oeste, através de Dambadeniya e Gampola, diante de pressão continuada de potências do sul da Índia e disputas sucessórias internas recorrentes.\n\nO Reino de Cota emerge como potência costeira dominante por volta da chegada dos primeiros navegadores portugueses, em 1505, encontrando ilha politicamente fragmentada entre múltiplos centros de poder rivais.",
       "fontes": [
         "km-de-silva-sri-lanka"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Parakramabahu_II_-_Massa_Photo_1.jpg",
+        "alt": "Moeda circular de cobre, escurecida e irregular, apresenta uma figura humana estilizada em relevo.",
+        "credito": "Mr Jean-Michel Moullec",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Parakramabahu_II_-_Massa_Photo_1.jpg",
+        "legenda": "Massa de cobre cunhada no reinado de Parakramabahu II, entre 1236 e 1271."
+      }
     },
     {
       "id": "lka-colonizacao-europeia-reino-candi",
@@ -31,10 +47,18 @@
       "fim": "1815",
       "rotulo": "Colonização europeia e o Reino de Candy",
       "regime": "colônias costeiras portuguesas e depois holandesas, com o reino interior de Candy preservando independência por mais de dois séculos",
-      "textoMdx": "Portugal estabelece postos comerciais costeiros a partir de 1505, expandindo controle gradual sobre o litoral da ilha — a Companhia Holandesa das Índias Orientais substituiria o controle costeiro português a partir de 1658, como parte de expansão regional mais ampla no sudeste asiático.\n\nO reino montanhoso interior de Candy preserva, notavelmente, independência plena ao longo de todo esse período colonial costeiro de mais de dois séculos, resistindo tanto a portugueses quanto a holandeses — apenas a conquista britânica de 1815 extinguiria finalmente a última monarquia nativa cingalesa, encerrando mais de dois milênios de tradição monárquica indígena ininterrupta em alguma forma.\n\nA conquista britânica de Candy unifica, pela primeira vez na história, toda a ilha sob administração única — o futuro Ceilão britânico.",
+      "textoMdx": "Portugal estabelece postos comerciais costeiros a partir de 1505, expandindo controle gradual sobre o litoral da ilha — a Companhia Holandesa das Índias Orientais substituiu o controle costeiro português a partir de 1658, como parte de expansão regional mais ampla no sudeste asiático.\n\nO reino montanhoso interior de Candy preserva, notavelmente, independência plena ao longo de todo esse período colonial costeiro de mais de dois séculos, resistindo tanto a portugueses quanto a holandeses — apenas a conquista britânica de 1815 extinguiu finalmente a última monarquia nativa cingalesa, encerrando mais de dois milênios de tradição monárquica indígena ininterrupta em alguma forma.\n\nA conquista britânica de Candy unifica, pela primeira vez na história, toda a ilha sob administração única — o futuro Ceilão britânico.",
       "fontes": [
         "km-de-silva-sri-lanka"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Photograph_of_the_flag_of_the_Kandyan_Kingdom.jpg",
+        "alt": "Bandeira histórica de tecido mostra um leão dourado com espada sobre campo vermelho, cercado por uma borda decorada.",
+        "credito": "The Trustees of the British Museum",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Photograph_of_the_flag_of_the_Kandyan_Kingdom.jpg",
+        "legenda": "Bandeira original do Reino de Candy, produzida aproximadamente entre 1803 e 1815."
+      }
     },
     {
       "id": "lka-ceilao-britanico",
@@ -45,7 +69,15 @@
       "textoMdx": "A administração colonial britânica unifica administrativamente toda a ilha pela primeira vez em sua história como Ceilão, encorajando ativamente imigração de trabalho tâmil do sul da Índia para plantações — criando população tâmil distinta das terras altas, diferenciada da comunidade tâmil histórica mais antiga do norte e leste da ilha.\n\nO movimento nacionalista cresce ao longo da primeira metade do século XX, culminando em independência obtida de forma relativamente pacífica em fevereiro de 1948, em contraste notável com a violência que marcara a partição vizinha da Índia e do Paquistão no ano anterior.",
       "fontes": [
         "km-de-silva-sri-lanka"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/10_cents_-_British_Ceylon_-_Silver_%281900%29_Coin.empire_02.jpg",
+        "alt": "Moeda circular de prata apresenta o valor de dez centavos, inscrições e uma coroa vegetal em relevo.",
+        "credito": "The government of the British colony of Ceylon.",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:10_cents_-_British_Ceylon_-_Silver_(1900)_Coin.empire_02.jpg",
+        "legenda": "Moeda de dez centavos emitida pelo governo do Ceilão Britânico em 1900."
+      }
     },
     {
       "id": "lka-independencia-guerra-civil",
@@ -56,17 +88,33 @@
       "textoMdx": "Políticas majoritárias pós-independência, incluindo a lei do \"Somente Cingalês\" de 1956, marginalizam progressivamente a minoria tâmil — tensão étnica crescente explode na Guerra Civil do Sri Lanka a partir de 1983, um dos conflitos mais longos e sangrentos de toda a Ásia.\n\nOs Tigres de Libertação do Eelam Tâmil, movimento separatista, pioneiam e popularizam o atentado suicida como tática de guerra, incluindo o assassinato do primeiro-ministro indiano Rajiv Gandhi em 1991.\n\nA fase final da guerra, entre 2008 e 2009, gera acusações internacionais sérias de crimes de guerra e mortandade civil maciça de ambos os lados — estimativas da ONU apontam dezenas de milhares de mortos civis apenas nos meses finais do conflito, antes de o líder tâmil Velupillai Prabhakaran ser morto em maio de 2009, encerrando definitivamente 26 anos de guerra.",
       "fontes": [
         "km-de-silva-sri-lanka"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Refugee_woman_in_Sri_Lanka_cooking.jpg",
+        "alt": "Mulher agachada cozinha diante de panelas e recipientes em uma estrutura temporária de madeira e lona.",
+        "credito": "trokilinochchi",
+        "licenca": "CC BY 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Refugee_woman_in_Sri_Lanka_cooking.jpg",
+        "legenda": "Mulher deslocada internamente em uma cozinha provisória durante a Guerra Civil, em 2008."
+      }
     },
     {
       "id": "lka-pos-guerra-crise-economica-atual",
       "inicio": "2009",
       "rotulo": "Pós-guerra, a crise econômica e o Sri Lanka contemporâneo",
       "regime": "república presidencialista, sob domínio prolongado de dinastia política associada tanto ao fim da guerra quanto ao colapso econômico",
-      "textoMdx": "Esforços de reconciliação pós-guerra permaneceriam incompletos e contestados diante de questões de responsabilização não resolvidas — o tsunami devastador do Oceano Índico, em 2004, e os atentados terroristas islâmicos de Páscoa de 2019, contra igrejas e hotéis, matando mais de 250 pessoas, marcariam tragédias nacionais adicionais na memória recente do país.\n\nA família Rajapaksa — os irmãos Mahinda e Gotabaya ocupando a presidência em momentos distintos, associados tanto ao desfecho brutal da guerra civil quanto a décadas de má gestão econômica subsequente — dominaria a política do Sri Lanka por anos.\n\nO colapso econômico catastrófico de 2022, a pior crise econômica do país desde a independência, provocaria protestos populares massivos que forçariam o presidente Gotabaya Rajapaksa a fugir do país e renunciar — repúdio popular dramático e sem precedentes à dinastia política que dominara o Sri Lanka por tanto tempo.",
+      "textoMdx": "Esforços de reconciliação pós-guerra permaneceram incompletos e contestados diante de questões de responsabilização não resolvidas — o tsunami devastador do Oceano Índico, em 2004, e os atentados terroristas islâmicos de Páscoa de 2019, contra igrejas e hotéis, matando mais de 250 pessoas, marcaram tragédias nacionais adicionais na memória recente do país.\n\nA família Rajapaksa — os irmãos Mahinda e Gotabaya ocupando a presidência em momentos distintos, associados tanto ao desfecho brutal da guerra civil quanto a décadas de má gestão econômica subsequente — dominou a política do Sri Lanka por anos.\n\nO colapso econômico catastrófico de 2022, a pior crise econômica do país desde a independência, provocou protestos populares massivos que forçaram o presidente Gotabaya Rajapaksa a fugir do país e renunciar — repúdio popular dramático e sem precedentes à dinastia política que dominara o Sri Lanka por tanto tempo.",
       "fontes": [
         "km-de-silva-sri-lanka"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Anti-government_protest_in_Sri_Lanka_2022.jpg/1920px-Anti-government_protest_in_Sri_Lanka_2022.jpg",
+        "alt": "Grande multidão ocupa uma praça diante de edifícios públicos, com bandeiras, cartazes e faixas erguidas.",
+        "credito": "AntanO",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Anti-government_protest_in_Sri_Lanka_2022.jpg",
+        "legenda": "Protesto contra o governo diante da Secretaria Presidencial, em 13 de abril de 2022."
+      }
     }
   ]
 }

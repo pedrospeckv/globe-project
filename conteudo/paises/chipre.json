@@ -9,10 +9,18 @@
       "fim": "1191",
       "rotulo": "Chipre bizantino",
       "regime": "província do Império Bizantino, incluindo período incomum de condomínio bizantino-árabe",
-      "textoMdx": "O Chipre integra o Império Bizantino desde sua fundação em 330, após séculos sob domínio romano precedido por fenícios, assírios, egípcios, persas e o período helenístico ptolemaico — a ilha desenvolveria identidade grega-ortodoxa profundamente enraizada que permanece central à sua história até hoje.\n\nUm arranjo territorial incomum na história medieval, entre aproximadamente 688 e 965, vê Chipre administrado como condomínio conjunto entre o Império Bizantino e o Califado Árabe, com receitas fiscais divididas entre as duas potências — período de relativa neutralidade que terminaria quando o imperador bizantino Nicéforo II Focas reconquistaria controle exclusivo da ilha em 965.\n\nO domínio bizantino direto se manteria pelos dois séculos seguintes, até Ricardo Coração de Leão conquistar a ilha durante a Terceira Cruzada, em 1191, encerrando abruptamente mais de oito séculos de continuidade administrativa bizantina.",
+      "textoMdx": "O Chipre integra o Império Bizantino desde sua fundação em 330, após séculos sob domínio romano precedido por fenícios, assírios, egípcios, persas e o período helenístico ptolemaico — a ilha desenvolveu identidade grega-ortodoxa enraizada que permanece central à sua história até hoje.\n\nUm arranjo territorial incomum na história medieval, entre aproximadamente 688 e 965, vê Chipre administrado como condomínio conjunto entre o Império Bizantino e o Califado Árabe, com receitas fiscais divididas entre as duas potências — período de relativa neutralidade que terminou quando o imperador bizantino Nicéforo II Focas reconquistou controle exclusivo da ilha em 965.\n\nO domínio bizantino direto se manteve pelos dois séculos seguintes, até Ricardo Coração de Leão conquistar a ilha durante a Terceira Cruzada, em 1191, encerrando abruptamente mais de oito séculos de continuidade administrativa bizantina.",
       "fontes": [
         "costas-kyrris-chipre"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Byzantine_coin%2C_billon_aspron_trachy_of_Isaac_Comnenus%2C_usurper_in_Cyprus_%28FindID_517419%29.jpg/1920px-Byzantine_coin%2C_billon_aspron_trachy_of_Isaac_Comnenus%2C_usurper_in_Cyprus_%28FindID_517419%29.jpg",
+        "alt": "Duas faces de uma moeda bizantina côncava e desgastada, com figuras e inscrições em relevo.",
+        "credito": "St Albans District Council e Julian Watters · Portable Antiquities Scheme",
+        "licenca": "CC BY-SA 2.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Byzantine_coin,_billon_aspron_trachy_of_Isaac_Comnenus,_usurper_in_Cyprus_(FindID_517419).jpg",
+        "legenda": "Moeda cunhada em Chipre por Isaac Comneno entre 1184 e 1191."
+      }
     },
     {
       "id": "cyp-lusignan-veneza",
@@ -20,10 +28,18 @@
       "fim": "1571",
       "rotulo": "Reino de Lusignan e domínio veneziano",
       "regime": "reino cruzado franco-cipriota, depois colônia da República de Veneza",
-      "textoMdx": "Ricardo Coração de Leão vende Chipre aos Templários e depois a Guy de Lusignan, nobre franco que fundaria dinastia e reino cruzado que governaria a ilha por quase três séculos — o Reino de Lusignan se tornaria centro comercial e cultural relevante do Mediterrâneo oriental, refúgio para cristãos após a queda dos últimos redutos cruzados no Levante em 1291.\n\nA República de Veneza assume controle direto da ilha em 1489, através de manobra diplomática envolvendo a rainha cipriota Catarina Cornaro, veneziana de nascimento — Chipre se tornaria posto avançado estratégico veneziano no Mediterrâneo oriental, fortificado extensamente contra a ameaça otomana crescente.",
+      "textoMdx": "Ricardo Coração de Leão vende Chipre aos Templários e depois a Guy de Lusignan, nobre franco que fundou dinastia e reino cruzado que governou a ilha por quase três séculos — o Reino de Lusignan se tornou centro comercial e cultural relevante do Mediterrâneo oriental, refúgio para cristãos após a queda dos últimos redutos cruzados no Levante em 1291.\n\nA República de Veneza assume controle direto da ilha em 1489, através de manobra diplomática envolvendo a rainha cipriota Catarina Cornaro, veneziana de nascimento — Chipre se tornou posto avançado estratégico veneziano no Mediterrâneo oriental, fortificado extensamente contra a ameaça otomana crescente.",
       "fontes": [
         "costas-kyrris-chipre"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Coin_of_Guy_of_Lusignan%2C_Cyprus.JPG",
+        "alt": "Duas faces de uma moeda medieval escurecida, com cruz e inscrições circulares em relevo.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Coin_of_Guy_of_Lusignan,_Cyprus.JPG",
+        "legenda": "Moeda de Guido de Lusignan produzida em Chipre entre 1192 e 1194."
+      }
     },
     {
       "id": "cyp-dominio-otomano",
@@ -31,10 +47,18 @@
       "fim": "1878",
       "rotulo": "Domínio Otomano",
       "regime": "província do Império Otomano",
-      "textoMdx": "O Império Otomano conquista Chipre após campanha militar sangrenta em 1570-1571, incluindo o cerco brutal de Famagusta — a conquista otomana introduziria população turco-cipriota muçulmana significativa na ilha, ao lado da maioria grego-cipriota ortodoxa preexistente, plantando as bases demográficas da divisão comunal que marcaria a história cipriota séculos depois.\n\nA administração otomana permaneceria formalmente vigente por mais de três séculos, até pressões geopolíticas europeias no contexto da rivalidade russo-otomana levarem à cessão administrativa da ilha à Grã-Bretanha em 1878, embora a soberania otomana nominal persistisse formalmente até a Primeira Guerra Mundial.",
+      "textoMdx": "O Império Otomano conquista Chipre após campanha militar sangrenta em 1570-1571, incluindo o cerco brutal de Famagusta — a conquista otomana introduziu população turco-cipriota muçulmana significativa na ilha, ao lado da maioria grego-cipriota ortodoxa preexistente, plantando as bases demográficas da divisão comunal que marcou a história cipriota séculos depois.\n\nA administração otomana permaneceu formalmente vigente por mais de três séculos, até pressões geopolíticas europeias no contexto da rivalidade russo-otomana levarem à cessão administrativa da ilha à Grã-Bretanha em 1878, embora a soberania otomana nominal persistisse formalmente até a Primeira Guerra Mundial.",
       "fontes": [
         "costas-kyrris-chipre"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/1870_Johnson_Map_of_Turkey%2C_Persia%2C_Arabia%2C_Balochistan.jpg/1920px-1870_Johnson_Map_of_Turkey%2C_Persia%2C_Arabia%2C_Balochistan.jpg",
+        "alt": "Mapa histórico colorido do Império Otomano e regiões vizinhas, com Chipre assinalado no Mediterrâneo oriental.",
+        "credito": "Alvin Jewett Johnson · Geographicus",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:1870_Johnson_Map_of_Turkey,_Persia,_Arabia,_Balochistan.jpg",
+        "legenda": "Mapa de 1867 que mostra Chipre no contexto territorial do Império Otomano."
+      }
     },
     {
       "id": "cyp-dominio-britanico",
@@ -42,22 +66,38 @@
       "fim": "1960",
       "rotulo": "Domínio Britânico",
       "regime": "administração britânica, depois colônia da coroa",
-      "textoMdx": "A Grã-Bretanha assume administração de Chipre em 1878, formalizando anexação direta em 1914 após o Império Otomano aderir às Potências Centrais na Primeira Guerra Mundial, e estabelecendo colônia da coroa britânica em 1925.\n\nO movimento pela enosis, união política com a Grécia, ganha força crescente entre a maioria grego-cipriota ao longo do século XX — a insurgência armada da organização EOKA, entre 1955 e 1959, liderada por George Grivas, pressiona a Grã-Bretanha através de campanha de guerrilha e atentados, enquanto a minoria turco-cipriota, temendo subordinação numa Chipre unida à Grécia, passa a defender alternativamente a partição da ilha.\n\nOs Acordos de Zurique e Londres, de 1959, negociados entre Grécia, Turquia e Reino Unido, estabelecem arcabouço constitucional para independência que rejeitaria tanto a enosis grega quanto a partição turca — Chipre se tornaria Estado independente em 1960, sob a presidência do arcebispo Makarios III.",
+      "textoMdx": "A Grã-Bretanha assume administração de Chipre em 1878, formalizando anexação direta em 1914 após o Império Otomano aderir às Potências Centrais na Primeira Guerra Mundial, e estabelecendo colônia da coroa britânica em 1925.\n\nO movimento pela enosis, união política com a Grécia, ganha força crescente entre a maioria grego-cipriota ao longo do século XX — a insurgência armada da organização EOKA, entre 1955 e 1959, liderada por George Grivas, pressiona a Grã-Bretanha através de campanha de guerrilha e atentados, enquanto a minoria turco-cipriota, temendo subordinação numa Chipre unida à Grécia, passa a defender alternativamente a partição da ilha.\n\nOs Acordos de Zurique e Londres, de 1959, negociados entre Grécia, Turquia e Reino Unido, estabelecem arcabouço constitucional para independência que rejeitou tanto a enosis grega quanto a partição turca — Chipre se tornou Estado independente em 1960, sob a presidência do arcebispo Makarios III.",
       "fontes": [
         "costas-kyrris-chipre",
         "william-mallinson-chipre",
         "acordos-zurique-londres-1959"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Men_in_chains_are_on_board_a_ship_with_a_guard_watching_them_Wellcome_V0041227.jpg/1920px-Men_in_chains_are_on_board_a_ship_with_a_guard_watching_them_Wellcome_V0041227.jpg",
+        "alt": "Gravura de homens acorrentados no convés de um navio, observados por um guarda armado, com outras embarcações ao fundo.",
+        "credito": "H. J. & Co. · Wellcome Collection",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Men_in_chains_are_on_board_a_ship_with_a_guard_watching_them_Wellcome_V0041227.jpg",
+        "legenda": "Prisioneiros cipriotas a bordo de um navio durante a ocupação britânica da ilha, em gravura publicada em outubro de 1878."
+      }
     },
     {
       "id": "cyp-independencia-divisao-atual",
       "inicio": "1960",
       "rotulo": "Independência e a divisão da ilha",
       "regime": "república presidencialista, com o terço norte sob ocupação militar turca desde 1974",
-      "textoMdx": "A independência de 1960 traz consigo constituição de partilha de poder extremamente complexa entre as comunidades grego e turco-cipriota, que rapidamente se revelaria instável — violência intercomunal generalizada, a partir de 1963, forçaria a retirada turco-cipriota das instituições governamentais conjuntas e a criação de enclaves comunitários segregados ao longo da década seguinte.\n\nUm golpe de Estado apoiado pela junta militar grega, em julho de 1974, buscando enosis forçada com a Grécia, derruba Makarios III e serve de justificativa para a invasão militar turca que se segue dias depois, invocando o Tratado de Garantia de 1959 — as forças turcas ocupariam definitivamente cerca de um terço setentrional da ilha, deslocando dezenas de milhares de pessoas de ambas as comunidades em ambas as direções.\n\n**A \"República Turca do Chipre do Norte\", proclamada unilateralmente em 1983, permanece reconhecida apenas pela própria Turquia, sem reconhecimento internacional amplo — a linha verde da ONU divide a ilha até hoje, apesar de sucessivas tentativas de reunificação fracassadas, incluindo a rejeição do Plano Annan em referendo grego-cipriota de 2004 e o colapso das negociações de Crans-Montana em 2017.** A República de Chipre ingressaria na União Europeia em 2004, embora o acervo legal europeu permaneça suspenso no território sob controle turco-cipriota.",
+      "textoMdx": "A independência de 1960 traz consigo constituição de partilha de poder extremamente complexa entre as comunidades grego e turco-cipriota, que rapidamente se revelou instável — violência intercomunal generalizada, a partir de 1963, forçou a retirada turco-cipriota das instituições governamentais conjuntas e a criação de enclaves comunitários segregados ao longo da década seguinte.\n\nUm golpe de Estado apoiado pela junta militar grega, em julho de 1974, buscando enosis forçada com a Grécia, derruba Makarios III e serve de justificativa para a invasão militar turca que se segue dias depois, invocando o Tratado de Garantia de 1959 — as forças turcas ocuparam definitivamente cerca de um terço setentrional da ilha, deslocando dezenas de milhares de pessoas de ambas as comunidades em ambas as direções.\n\n**A \"República Turca do Chipre do Norte\", proclamada unilateralmente em 1983, permanece reconhecida apenas pela própria Turquia, sem reconhecimento internacional amplo — a linha verde da ONU divide a ilha até hoje, apesar de sucessivas tentativas de reunificação fracassadas, incluindo a rejeição do Plano Annan em referendo grego-cipriota de 2004 e o colapso das negociações de Crans-Montana em 2017.** A República de Chipre ingressou na União Europeia em 2004, embora o acervo legal europeu permaneça suspenso no território sob controle turco-cipriota.",
       "fontes": [
         "william-mallinson-chipre"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Spy_Satellite_Image_of_Cyprus_Invasion_-_July_20%2C_1974_%28Landing_Ships%29_%2854771023053%29.jpg",
+        "alt": "Imagem de satélite em preto e branco mostra a costa cipriota, embarcações de desembarque e marcas de análise militar.",
+        "credito": "SpaceFrom.Space",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Spy_Satellite_Image_of_Cyprus_Invasion_-_July_20,_1974_(Landing_Ships)_(54771023053).jpg",
+        "legenda": "Imagem de satélite dos navios de desembarque durante a invasão de Chipre, em 20 de julho de 1974."
+      }
     }
   ]
 }

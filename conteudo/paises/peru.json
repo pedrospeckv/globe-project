@@ -13,7 +13,15 @@
       "fontes": [
         "mann-1491",
         "klaren-peru-nacao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tunic_with_Confronting_Mythical_Serpents_MET_29.146.23.jpg/1920px-Tunic_with_Confronting_Mythical_Serpents_MET_29.146.23.jpg",
+        "alt": "Túnica têxtil apresenta faixas verticais e figuras de serpentes geométricas em tons de vermelho, amarelo e azul.",
+        "credito": "Autor Nasca-Wari desconhecido · Metropolitan Museum of Art",
+        "licenca": "CC0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Tunic_with_Confronting_Mythical_Serpents_MET_29.146.23.jpg",
+        "legenda": "Túnica Nasca-Wari produzida entre 800 e 850."
+      }
     },
     {
       "id": "pe-tawantinsuyu",
@@ -26,7 +34,15 @@
         "hemming-conquista-incas",
         "mann-1491",
         "klaren-peru-nacao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Gold_beaker%2C_Inca%2C_1450-1532_AD%2C_southern_Peru_-_Staatliches_Museum_f%C3%BCr_V%C3%B6lkerkunde_M%C3%BCnchen_-_DSC08504.JPG/1920px-Gold_beaker%2C_Inca%2C_1450-1532_AD%2C_southern_Peru_-_Staatliches_Museum_f%C3%BCr_V%C3%B6lkerkunde_M%C3%BCnchen_-_DSC08504.JPG",
+        "alt": "Copo cilíndrico de ouro, com borda levemente aberta e superfície lisa, aparece dentro de uma vitrine.",
+        "credito": "Daderot",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Gold_beaker,_Inca,_1450-1532_AD,_southern_Peru_-_Staatliches_Museum_f%C3%BCr_V%C3%B6lkerkunde_M%C3%BCnchen_-_DSC08504.JPG",
+        "legenda": "Copo de ouro inca produzido no sul do Peru entre 1450 e 1532."
+      }
     },
     {
       "id": "pe-conquista",
@@ -38,7 +54,15 @@
       "fontes": [
         "hemming-conquista-incas",
         "mann-1491"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Uerdadera_relacion_de_la_conquista_del_Peru_y_prouincia_del_Cuzco_llamada_la_Nueua_Castilla-_conquistada_por_el_magnifico_y_effor%C3%A7ado_cauallero_Francisco_Pi%C3%A7arro_..._%28IA_uerdaderarelacio00xere%29.pdf/page1-960px-thumbnail.pdf.jpg",
+        "alt": "Página de rosto impressa em preto apresenta título em espanhol antigo, moldura ornamental e brasão central.",
+        "credito": "Francisco de Xerez · Miguel de Estete",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Uerdadera_relacion_de_la_conquista_del_Peru_y_prouincia_del_Cuzco_llamada_la_Nueua_Castilla-_conquistada_por_el_magnifico_y_effor%C3%A7ado_cauallero_Francisco_Pi%C3%A7arro_..._(IA_uerdaderarelacio00xere).pdf",
+        "legenda": "Página de rosto do exemplar original da crônica da conquista publicada por Francisco de Xerez em 1534."
+      }
     },
     {
       "id": "pe-vice-reino",
@@ -50,7 +74,15 @@
       "fontes": [
         "klaren-peru-nacao",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Our_Lady_of_the_Rosary_of_Pomata%2C_artist_unknown%2C_Cuzco%2C_Peru%2C_late_17th_or_18th_century%2C_oil_on_canvas_-_Blanton_Museum_of_Art_-_Austin%2C_Texas_-_DSC08114.jpg/1920px-Our_Lady_of_the_Rosary_of_Pomata%2C_artist_unknown%2C_Cuzco%2C_Peru%2C_late_17th_or_18th_century%2C_oil_on_canvas_-_Blanton_Museum_of_Art_-_Austin%2C_Texas_-_DSC08114.jpg",
+        "alt": "Pintura mostra Nossa Senhora com o Menino ao centro, cercada por anjos, flores e cortinas vermelhas.",
+        "credito": "Daderot",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_the_Rosary_of_Pomata,_artist_unknown,_Cuzco,_Peru,_late_17th_or_18th_century,_oil_on_canvas_-_Blanton_Museum_of_Art_-_Austin,_Texas_-_DSC08114.jpg",
+        "legenda": "Nossa Senhora do Rosário de Pomata, pintura cuzquenha do fim do século XVII ou do século XVIII."
+      }
     },
     {
       "id": "pe-guano",
@@ -62,7 +94,15 @@
       "fontes": [
         "klaren-peru-nacao",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/DSCN5766-guano-glantz_crop_b.jpg",
+        "alt": "Trabalhadores estão espalhados sobre um grande depósito de guano diante de estruturas e trilhos de madeira.",
+        "credito": "Henry de Witt Moulton",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:DSCN5766-guano-glantz_crop_b.jpg",
+        "legenda": "Trabalhadores chineses nas ilhas Chincha fotografados por Henry de Witt Moulton antes de 1865."
+      }
     },
     {
       "id": "pe-guerra-do-pacifico",
@@ -74,7 +114,15 @@
       "fontes": [
         "klaren-peru-nacao",
         "collier-sater-chile"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Chile_in_Lima%2C_1881.jpg",
+        "alt": "Bandeira chilena está hasteada sobre um edifício de Lima, com soldados e pessoas reunidos na rua.",
+        "credito": "Autor desconhecido · Museo Histórico y de Armas del Morro de Arica",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Chile_in_Lima,_1881.jpg",
+        "legenda": "Bandeira chilena em Lima durante a ocupação de 1881."
+      }
     },
     {
       "id": "pe-republica-aristocratica",
@@ -85,7 +133,15 @@
       "textoMdx": "Reconstrução sob uma elite costeira estreita, com voto limitado por renda e alfabetização e uma economia que troca o produto único por vários — sem trocar quem manda.\n\n**A exportação se diversifica, e o capital é estrangeiro.** Açúcar e algodão nos vales da costa norte, lã no sul andino, cobre em Cerro de Pasco, borracha na Amazônia até o colapso de preço em 1912, petróleo em Talara. A propriedade concentra-se: engenhos de açúcar absorvem terras de pequenos produtores, e no altiplano fazendas de lã avançam sobre terras comunais.\n\n**A dívida da guerra é paga com um contrato que entrega a infraestrutura.** Em 1890, o Peru transfere a administração das ferrovias e a exploração do guano remanescente à Peruvian Corporation, formada por credores britânicos, por décadas. Foi a saída encontrada para sair da inadimplência, e o preço foi ceder o controle das linhas que ligavam a serra à costa.\n\n**Aparece a pergunta indígena como questão política.** A expansão das fazendas provoca revoltas no sul, sobretudo em Puno nos anos 1910 e 1920. Em resposta, uma geração de intelectuais — Manuel González Prada antes, José Carlos Mariátegui depois — sustenta que o país que se chama Peru exclui a maioria de sua população, e que o problema do índio é problema de terra, não de raça nem de educação. Mariátegui publica os *7 ensayos de interpretación de la realidad peruana* em 1928; no mesmo período nasce a Aliança Popular Revolucionária Americana, de Haya de la Torre, que organizaria a política peruana por meio século.\n\n**Onze anos de um só presidente encerram o período.** Augusto Leguía governa de 1919 a 1930 com constituição nova, obra pública em Lima, empréstimos norte-americanos e oposição presa ou exilada. A crise de 1929 corta o crédito e o preço das exportações, e um golpe militar em 1930 abre uma sequência de regimes em que o exército decide quem governa.",
       "fontes": [
         "klaren-peru-nacao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Stamp_of_Peru_-_1920_-_Colnect_429312_-_Augusto_B_Leguia_-_New_Constitution.jpeg",
+        "alt": "Selo postal retangular apresenta o retrato de Augusto Leguía ao centro, cercado por ornamentos e inscrições.",
+        "credito": "Post of Peru",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Stamp_of_Peru_-_1920_-_Colnect_429312_-_Augusto_B_Leguia_-_New_Constitution.jpeg",
+        "legenda": "Selo peruano de 1920 celebra Augusto Leguía e a nova Constituição de seu governo."
+      }
     },
     {
       "id": "pe-massas-e-militares",
@@ -97,7 +153,15 @@
       "fontes": [
         "klaren-peru-nacao",
         "halperin-donghi-america-latina"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Juan_Velasco_Alvarado_%281968%29.jpg/1920px-Juan_Velasco_Alvarado_%281968%29.jpg",
+        "alt": "Retrato em preto e branco mostra Juan Velasco Alvarado de uniforme militar e faixa presidencial.",
+        "credito": "Autor desconhecido",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Juan_Velasco_Alvarado_(1968).jpg",
+        "legenda": "Juan Velasco Alvarado em 1968, ano do golpe que iniciou o Governo Revolucionário das Forças Armadas."
+      }
     },
     {
       "id": "pe-conflito-interno",
@@ -109,7 +173,15 @@
       "fontes": [
         "cvr-informe-final",
         "klaren-peru-nacao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Visit_of_Alberto_Fujimori%2C_President_of_Peru%2C_to_the_CEC_%28cropped%29.jpg",
+        "alt": "Alberto Fujimori conversa com dirigentes europeus em uma sala de reuniões, com bandeiras ao fundo.",
+        "credito": "Christian Lambiotte / European Communities, 1991 / EC - Audiovisual Service",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Visit_of_Alberto_Fujimori,_President_of_Peru,_to_the_CEC_(cropped).jpg",
+        "legenda": "Alberto Fujimori em visita à Comissão Europeia em 21 de outubro de 1991."
+      }
     },
     {
       "id": "pe-republica",
@@ -120,7 +192,15 @@
       "fontes": [
         "cvr-informe-final",
         "klaren-peru-nacao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Protesta_del_12_de_noviembre_2020_en_la_plaza_San_Mart%C3%ADn.jpg/1920px-Protesta_del_12_de_noviembre_2020_en_la_plaza_San_Mart%C3%ADn.jpg",
+        "alt": "Manifestantes ocupam a Plaza San Martín à noite, com cartazes, bandeiras e luzes de celulares.",
+        "credito": "Johnattan Rupire",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Protesta_del_12_de_noviembre_2020_en_la_plaza_San_Mart%C3%ADn.jpg",
+        "legenda": "Protesto em Lima contra a destituição de Martín Vizcarra, em 12 de novembro de 2020."
+      }
     }
   ]
 }

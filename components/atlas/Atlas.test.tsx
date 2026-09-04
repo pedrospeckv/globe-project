@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
 import path from "node:path";
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, vi } from "vitest";
 import { render, fireEvent, within } from "@testing-library/react";
 import {
   Atlas,
@@ -12,6 +12,26 @@ import { semAnoCru } from "@/components/testes/dom";
 import { carregarAcervo } from "@/lib/conteudo/carregar";
 import { carregarMundo } from "@/lib/geo/mundo";
 import { anoFracionarioDe } from "@/lib/conteudo/tempo";
+
+/*
+ * O único mock do repositório, e a razão é de framework, não de desenho.
+ *
+ * O duplo clique num país aceso entra no dossiê, e navegar do lado do cliente
+ * pede `useRouter`. O hook exige o contexto do App Router montado — fora dele
+ * lança "invariant expected app router to be mounted" —, e esse contexto só
+ * existe dentro de uma aplicação Next rodando. Os 36 testes deste arquivo
+ * medem o MAPA: quem acende em 300 a.C., onde o polígono cai na projeção, o
+ * que a barra do tempo escreve. Nenhum deles navega, e subir meia aplicação
+ * para que eles continuem passando seria pagar caro por nada.
+ *
+ * A alternativa recusada foi trocar o `router.push` por `window.location`,
+ * que dispensaria o mock. Ela custaria o que importa: recarregar a página
+ * inteira ao voltar para o mapa refaz o download da fatia e redesenha o
+ * canvas, e o caminho normal de quem estuda é mapa → país → mapa.
+ */
+vi.mock("next/navigation", () => ({
+  useRouter: () => ({ push: vi.fn() }),
+}));
 
 const acervo = await carregarAcervo(path.join(process.cwd(), "conteudo"));
 const mundo = await carregarMundo();

@@ -9,10 +9,18 @@
       "fim": "1920",
       "rotulo": "Colonização alemã e britânica",
       "regime": "território dividido entre protetorados alemão e britânico",
-      "textoMdx": "A partilha colonial de 1884 divide a Nova Guiné oriental entre a Alemanha, que assume o nordeste como Nova Guiné Alemã, e a Grã-Bretanha, que assume o sudeste como Papua Britânica — fronteira arbitrária traçada sem qualquer consideração pelas centenas de grupos linguísticos e culturais distintos que já habitavam o território havia milênios.\n\n**A administração australiana assume o controle da Papua Britânica em 1906, e ocupa militarmente a Nova Guiné Alemã logo no início da Primeira Guerra Mundial, em 1914** — unificando administrativamente, ainda que de forma segregada, os dois territórios sob autoridade australiana que se manteria pelas sete décadas seguintes.",
+      "textoMdx": "A partilha colonial de 1884 divide a Nova Guiné oriental entre a Alemanha, que assume o nordeste como Nova Guiné Alemã, e a Grã-Bretanha, que assume o sudeste como Papua Britânica — fronteira arbitrária traçada sem qualquer consideração pelas centenas de grupos linguísticos e culturais distintos que já habitavam o território havia milênios.\n\n**A administração australiana assume o controle da Papua Britânica em 1906, e ocupa militarmente a Nova Guiné Alemã logo no início da Primeira Guerra Mundial, em 1914** — unificando administrativamente, ainda que de forma segregada, os dois territórios sob autoridade australiana que se manteve pelas sete décadas seguintes.",
       "fontes": [
         "john-waiko-papua-nova-guine"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/German_New_Guinea_1901_Mi_16_stamp_%28Kaiser%E2%80%99s_Yacht_%27Hohenzollern%27%29.jpg",
+        "alt": "Selo da Nova Guiné Alemã de 1901 mostra o iate imperial Hohenzollern navegando dentro de uma moldura ornamentada.",
+        "credito": "German colonial postal administration",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:German_New_Guinea_1901_Mi_16_stamp_(Kaiser%E2%80%99s_Yacht_%27Hohenzollern%27).jpg",
+        "legenda": "Selo de 1901 da Nova Guiné Alemã associa a colônia ao iate imperial Hohenzollern."
+      }
     },
     {
       "id": "png-administracao-australiana-guerra",
@@ -20,20 +28,36 @@
       "fim": "1975",
       "rotulo": "Administração australiana e a Segunda Guerra Mundial",
       "regime": "território sob mandato e depois tutela australiana",
-      "textoMdx": "A Liga das Nações formaliza o mandato australiano sobre a antiga Nova Guiné Alemã em 1920, mantendo administração separada da Papua propriamente dita por mais duas décadas, apesar de ambas responderem, na prática, ao mesmo governo colonial em Camberra.\n\n**A campanha da Trilha Kokoda, em 1942, na qual forças australianas detêm o avanço japonês sobre Port Moresby através de combate brutal em terreno montanhoso extremo, se tornaria capítulo central da memória militar australiana** — território papuano transformado, contra sua vontade, em um dos teatros mais sangrentos da Guerra do Pacífico.\n\nO pós-guerra unifica administrativamente os dois territórios sob tutela das Nações Unidas, preparando gradualmente o caminho ao autogoverno interno e, finalmente, à independência plena, obtida em setembro de 1975 sob o primeiro-ministro Michael Somare.",
+      "textoMdx": "A Liga das Nações formaliza o mandato australiano sobre a antiga Nova Guiné Alemã em 1920, mantendo administração separada da Papua propriamente dita por mais duas décadas, apesar de ambas responderem, na prática, ao mesmo governo colonial em Camberra.\n\n**A campanha da Trilha Kokoda, em 1942, na qual forças australianas detêm o avanço japonês sobre Port Moresby através de combate brutal em terreno montanhoso extremo, se tornou capítulo central da memória militar australiana** — território papuano transformado, contra sua vontade, em um dos teatros mais sangrentos da Guerra do Pacífico.\n\nO pós-guerra unifica administrativamente os dois territórios sob tutela das Nações Unidas, preparando gradualmente o caminho ao autogoverno interno e, finalmente, à independência plena, obtida em setembro de 1975 sob o primeiro-ministro Michael Somare.",
       "fontes": [
         "john-waiko-papua-nova-guine"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Kokoda_casualties_%28AWM_013286%29.jpg",
+        "alt": "Carregadores papuas transportam um soldado australiano ferido numa maca por uma trilha íngreme em meio à selva.",
+        "credito": "George Silk · Australian War Memorial",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Kokoda_casualties_(AWM_013286).jpg",
+        "legenda": "Carregadores papuas evacuam um australiano ferido na trilha de Kokoda em agosto de 1942."
+      }
     },
     {
       "id": "png-independencia-bougainville-atual",
       "inicio": "1975",
       "rotulo": "Independência, a Guerra de Bougainville e a Papua-Nova Guiné contemporânea",
       "regime": "república parlamentar, com desafio secessionista significativo na ilha de Bougainville",
-      "textoMdx": "A jovem nação independente, com mais de oitocentas línguas distintas faladas por sua população — a maior diversidade linguística do planeta em relação ao tamanho territorial —, enfrenta desafio permanente de coesão nacional sobre estrutura social profundamente fragmentada em pequenos grupos tribais e clânicos.\n\nA Guerra Civil de Bougainville, entre 1988 e 1998, deflagrada por disputas sobre a distribuição de receitas da mina de cobre de Panguna, uma das maiores do mundo, mata entre quinze e vinte mil pessoas — proporcionalmente um dos conflitos mais letais do Pacífico desde a Segunda Guerra Mundial.\n\nO acordo de paz de 2001 concede autonomia substancial a Bougainville, incluindo direito a referendo futuro sobre independência — realizado em 2019, no qual quase 98% dos votantes optam pela separação completa, resultado ainda pendente de implementação negociada com o governo central em Port Moresby.\n\nA economia papuana permanece fortemente dependente de recursos minerais e de gás natural, enquanto desafios persistentes de governança, corrupção e violência tribal recorrente continuam a testar a capacidade institucional do Estado décadas depois da independência.",
+      "textoMdx": "A jovem nação independente, com mais de oitocentas línguas distintas faladas por sua população — a maior diversidade linguística do planeta em relação ao tamanho territorial —, enfrenta desafio permanente de coesão nacional sobre estrutura social fragmentada em pequenos grupos tribais e clânicos.\n\nA Guerra Civil de Bougainville, entre 1988 e 1998, deflagrada por disputas sobre a distribuição de receitas da mina de cobre de Panguna, uma das maiores do mundo, mata entre quinze e vinte mil pessoas — proporcionalmente um dos conflitos mais letais do Pacífico desde a Segunda Guerra Mundial.\n\nO acordo de paz de 2001 concede autonomia substancial a Bougainville, incluindo direito a referendo futuro sobre independência — realizado em 2019, no qual quase 98% dos votantes optam pela separação completa, resultado ainda pendente de implementação negociada com o governo central em Port Moresby.\n\nA economia papuana permanece fortemente dependente de recursos minerais e de gás natural, enquanto desafios persistentes de governança, corrupção e violência tribal recorrente continuam a testar a capacidade institucional do Estado décadas depois da independência.",
       "fontes": [
         "john-waiko-papua-nova-guine"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Dave_Sharma_on_peacekeeping_duties_in_Bougainville.jpg",
+        "alt": "Integrante de missão de paz conversa com moradores de Bougainville ao ar livre, cercado por adultos e crianças.",
+        "credito": "Dave Sharma",
+        "licenca": "CC BY-SA 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:Dave_Sharma_on_peacekeeping_duties_in_Bougainville.jpg",
+        "legenda": "Uma missão de paz atua em Bougainville em setembro de 2000, durante o processo que encerrou a guerra civil."
+      }
     }
   ]
 }

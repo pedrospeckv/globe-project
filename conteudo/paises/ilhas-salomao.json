@@ -12,7 +12,15 @@
       "textoMdx": "A Grã-Bretanha estabelece protetorado sobre as Ilhas Salomão em 1893, motivada em parte pela necessidade de conter o \"blackbirding\" — recrutamento frequentemente coercitivo ou fraudulento de trabalhadores ilhéus para plantações australianas e de outras colônias do Pacífico — e em parte pela rivalidade colonial com a Alemanha na região.\n\n**A administração colonial britânica investe minimamente em infraestrutura e desenvolvimento do território ao longo das décadas seguintes**, deixando as Ilhas Salomão entre os territórios menos desenvolvidos do império britânico no Pacífico até a irrupção da Segunda Guerra Mundial transformar abruptamente sua importância estratégica.",
       "fontes": [
         "judith-bennett-ilhas-salomao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/The_Declaration_of_a_British_Protectorate_over_the_Solomon_Islands_-_The_Graphic_1893.jpg",
+        "alt": "Gravura com marinheiros britânicos hasteando a bandeira do Reino Unido diante de habitantes das Ilhas Salomão.",
+        "credito": "The Graphic staff",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:The_Declaration_of_a_British_Protectorate_over_the_Solomon_Islands_-_The_Graphic_1893.jpg",
+        "legenda": "Declaração do protetorado britânico nas Ilhas Salomão, ilustrada pelo jornal The Graphic em setembro de 1893."
+      }
     },
     {
       "id": "slb-guerra-mundial-descolonizacao",
@@ -20,20 +28,36 @@
       "fim": "1978",
       "rotulo": "Segunda Guerra Mundial e a descolonização",
       "regime": "território ocupado por combate, depois protetorado em transição ao autogoverno",
-      "textoMdx": "A Campanha de Guadalcanal, entre agosto de 1942 e fevereiro de 1943, torna-se uma das batalhas mais decisivas e sangrentas da Guerra do Pacífico — primeira grande ofensiva terrestre aliada contra o Japão, com dezenas de milhares de baixas de ambos os lados, e ponto de virada estratégico que deteria definitivamente o avanço japonês pelo Pacífico Sul.\n\n**O pós-guerra traz gradual desenvolvimento institucional e caminho lento ao autogoverno, com as Ilhas Salomão obtendo independência plena da Grã-Bretanha em julho de 1978** — Estado insular de dimensões reduzidas, mas com diversidade linguística e cultural interna considerável entre suas numerosas ilhas dispersas.",
+      "textoMdx": "A Campanha de Guadalcanal, entre agosto de 1942 e fevereiro de 1943, torna-se uma das batalhas mais decisivas e sangrentas da Guerra do Pacífico — primeira grande ofensiva terrestre aliada contra o Japão, com dezenas de milhares de baixas de ambos os lados, e ponto de virada estratégico que deteve o avanço japonês pelo Pacífico Sul.\n\n**O pós-guerra traz gradual desenvolvimento institucional e caminho lento ao autogoverno, com as Ilhas Salomão obtendo independência plena da Grã-Bretanha em julho de 1978** — Estado insular de dimensões reduzidas, mas com numerosas ilhas dispersas e diversidade linguística e cultural entre elas.",
       "fontes": [
         "judith-bennett-ilhas-salomao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/United_States_Marines_at_Guadalcanal_001.jpg/1920px-United_States_Marines_at_Guadalcanal_001.jpg",
+        "alt": "Fuzileiros navais dos Estados Unidos caminham e descansam junto a barcos e equipamentos na orla de Guadalcanal.",
+        "credito": "United States Marine Corps",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:United_States_Marines_at_Guadalcanal_001.jpg",
+        "legenda": "Fuzileiros americanos na frente marítima de Guadalcanal durante a campanha de 1942."
+      }
     },
     {
       "id": "slb-independencia-tensoes-atual",
       "inicio": "1978",
       "rotulo": "Independência, as Tensões e as Ilhas Salomão contemporâneas",
       "regime": "república parlamentar, marcada por conflito interétnico e intervenção internacional de segurança",
-      "textoMdx": "A migração de população de Malaita para Guadalcanal, ilha da capital Honiara, ao longo das décadas pós-independência, gera ressentimento crescente entre guadalcanalenses nativos — tensão que explode em conflito armado de baixa intensidade conhecido como \"as Tensões\", entre 1998 e 2003, incluindo derrubada do governo eleito por milícia armada em 2000.\n\nA Missão de Assistência Regional às Ilhas Salomão, força multinacional liderada pela Austrália, intervém em 2003 para restaurar ordem pública e reconstruir instituições estatais praticamente colapsadas — presença que se estenderia por quatorze anos, até 2017.\n\n**A decisão do governo salomônico, em 2019, de transferir reconhecimento diplomático de Taiwan para a China, provoca reação interna intensa, incluindo motins em Honiara em 2021 que incendeiam parte do bairro chinês da capital** — episódio que refletiria tanto ressentimentos internos regionais antigos quanto a crescente disputa geopolítica entre China e potências ocidentais por influência no Pacífico Sul, consolidada por acordo de segurança sino-salomônico assinado em 2022.",
+      "textoMdx": "A migração de população de Malaita para Guadalcanal, ilha da capital Honiara, ao longo das décadas pós-independência, gera ressentimento crescente entre guadalcanalenses nativos — tensão que explode em conflito armado de baixa intensidade conhecido como \"as Tensões\", entre 1998 e 2003, incluindo derrubada do governo eleito por milícia armada em 2000.\n\nA Missão de Assistência Regional às Ilhas Salomão, força multinacional liderada pela Austrália, intervém em 2003 para restaurar ordem pública e reconstruir instituições estatais praticamente colapsadas — presença que se estendeu por quatorze anos, até 2017.\n\n**A decisão do governo salomônico, em 2019, de transferir reconhecimento diplomático de Taiwan para a China, provoca reação interna intensa, incluindo motins em Honiara em 2021 que incendeiam parte do bairro chinês da capital** — episódio que refletiu tanto ressentimentos internos regionais antigos quanto a disputa geopolítica entre China e potências ocidentais por influência no Pacífico Sul, consolidada por acordo de segurança sino-salomônico assinado em 2022.",
       "fontes": [
         "judith-bennett-ilhas-salomao"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/RAMSI_military_welcomed_on_arrival._Solomon_Islands_2003_Photo_%C2%A9_Gary_Ramage%2C_Australian_Defence_%2810733815793%29.jpg",
+        "alt": "Militares da missão regional RAMSI cumprimentam moradores que os recebem em Honiara.",
+        "credito": "Gary Ramage · Australian Defence / DFAT",
+        "licenca": "CC BY 4.0",
+        "origem": "https://commons.wikimedia.org/wiki/File:RAMSI_military_welcomed_on_arrival._Solomon_Islands_2003_Photo_%C2%A9_Gary_Ramage,_Australian_Defence_(10733815793).jpg",
+        "legenda": "Integrantes da RAMSI são recebidos nas Ilhas Salomão em agosto de 2003, após anos de tensão civil."
+      }
     }
   ]
 }

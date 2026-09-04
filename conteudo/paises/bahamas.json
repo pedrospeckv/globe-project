@@ -13,7 +13,15 @@
       "fontes": [
         "craton-bahamas",
         "knight-caribe"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Street%2C_Nassau%2C_Bahamas_3522668627.jpg/1920px-Street%2C_Nassau%2C_Bahamas_3522668627.jpg",
+        "alt": "Fotografia histórica em preto e branco de uma rua de Nassau, com muros, casas e palmeiras dos dois lados.",
+        "credito": "Autor desconhecido · S.S. Orizaba Album",
+        "licenca": "Public domain",
+        "origem": "https://commons.wikimedia.org/wiki/File:Street,_Nassau,_Bahamas_3522668627.jpg",
+        "legenda": "Rua de Nassau por volta de 1900, ainda durante o domínio colonial britânico."
+      }
     },
     {
       "id": "bs-independencia",
@@ -23,7 +31,15 @@
       "textoMdx": "A independência vem em 10 de julho de 1973, depois de a maioria negra tomar o governo pelo voto — o que na história bahamense se chama Quiet Revolution.\n\n**O Bay Street Boys perde o poder em 1967.** A oligarquia branca comercial que controlava a política é derrotada pelo Progressive Liberal Party de Lynden Pindling, com o sufrágio universal — o voto feminino chegou em 1962 — e o fim das distorções distritais. Pindling governa vinte e cinco anos.\n\n**A economia é turismo e finanças, e nada mais.** Proximidade da Flórida, cruzeiros e resorts fazem do turismo a maior fonte de emprego e receita; os serviços financeiros offshore são a segunda. Não há imposto de renda sobre pessoas físicas nem sobre lucros, e a renda por habitante é das mais altas das Américas — com desigualdade e dependência externa altas.\n\n**A pressão internacional reorganiza a praça financeira.** Listas de países não cooperativos da OCDE e do GAFI, a partir de 1998 e depois nos anos 2000 e 2010, levaram a mudanças em sigilo bancário e troca de informação fiscal, encolhendo parte do setor.\n\n**A geografia é o risco existencial.** Com quase todo o território poucos metros acima do nível do mar, as Bahamas estão entre os países mais expostos do mundo à elevação oceânica e a furacões. O Dorian, em 2019, atingiu Abaco e Grand Bahama como categoria 5 com ventos entre os mais fortes já registrados no Atlântico, destruiu bairros inteiros e deixou dezenas de mortos confirmados e centenas de desaparecidos.\n\n**A política é bipartidária e estável.** PLP e FNM alternam-se em eleições regulares desde 1992, sem ruptura institucional — traço comum ao Caribe anglófono e distinto da América Central continental no mesmo período.",
       "fontes": [
         "craton-bahamas"
-      ]
+      ],
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Bahamas_Independence_Act_1973_%28UKPGA_1973-27%29.pdf/page1-960px-Bahamas_Independence_Act_1973_%28UKPGA_1973-27%29.pdf.jpg",
+        "alt": "Primeira página impressa da Lei de Independência das Bahamas de 1973, com o brasão britânico no alto.",
+        "credito": "Parliament of the United Kingdom · legislation.gov.uk",
+        "licenca": "OGL 3",
+        "origem": "https://commons.wikimedia.org/wiki/File:Bahamas_Independence_Act_1973_(UKPGA_1973-27).pdf",
+        "legenda": "A lei britânica de 1973 preparou a independência das Bahamas, proclamada em 10 de julho."
+      }
     }
   ]
 }
