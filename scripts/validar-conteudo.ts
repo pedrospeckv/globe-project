@@ -164,10 +164,11 @@ async function main() {
    * contra 3,0 verbos em futuro-do-pretérito por mil palavras, e 1,9 contra
    * 0,2 adjetivos avaliativos. Ver `lib/conteudo/estilo.ts`.
    *
-   * Não reprova, pelo mesmo motivo das outras três: 143 países estão acima do
-   * teto, e travar o build só impediria qualquer publicação. A lista sai
-   * ordenada do pior para o melhor porque essa é a fila de reescrita — o pior
-   * primeiro é onde a mesma hora de trabalho muda mais a leitura.
+   * Não reprova. A régua existe para o lote não reencarar a fila que já
+   * fechou uma vez: 157 dossiês foram reescritos até os 166 países ficarem
+   * dentro dos tetos. A lista sai
+   * ordenada do pior para o melhor porque, se a fila voltar a existir, essa é
+   * a ordem em que a mesma hora de trabalho muda mais a leitura.
    */
   const est = coberturaDeEstilo(acervo);
   if (est.fora.length === 0) {

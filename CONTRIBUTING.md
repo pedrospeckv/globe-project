@@ -1,9 +1,10 @@
 # Contribuir
 
-Obrigado por chegar até aqui. Este atlas cobre **9 de 174 países**, e o caminho até
-o resto é escrever — não programar. Se você quer ajudar, escrever um país é a
-contribuição mais valiosa que existe aqui, e a que menos depende de qualquer outra
-pessoa.
+Obrigado por chegar até aqui. Este atlas cobre **166 de 174 países** (95,4% —
+ver [`docs/cobertura.md`](docs/cobertura.md)), e o que sobrou é justo o que um
+projeto aberto faz melhor: os casos difíceis e disputados, que ninguém deveria
+escrever sozinho. Se você quer ajudar, escrever é a contribuição mais valiosa
+que existe aqui, e a que menos depende de qualquer outra pessoa.
 
 Comece por [`docs/cobertura.md`](docs/cobertura.md): é a lista de quem falta.
 
